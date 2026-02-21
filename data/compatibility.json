@@ -1,0 +1,287 @@
+[
+  {
+    "slug": "halo-3",
+    "title": "Halo 3",
+    "titleId": "4D5307E6",
+    "status": "playable",
+    "perf": "great",
+    "tags": ["depth", "MSAA"],
+    "lastReport": { "device": "iPhone 16 Pro", "ios": "18.3" },
+    "updatedAt": "2026-02-12",
+    "notes": "Fully playable through campaign and multiplayer menus. Minor audio stutter in cutscenes on occasion.",
+    "recommendedSettings": { "resolution": "720p", "framerate": "30fps" },
+    "reports": [
+      {
+        "device": "iPhone 16 Pro",
+        "ios": "18.3",
+        "status": "playable",
+        "date": "2026-02-12",
+        "notes": "Completed campaign on Heroic. Stable 30fps at 720p."
+      },
+      {
+        "device": "iPhone 15 Pro",
+        "ios": "17.4",
+        "status": "playable",
+        "date": "2026-01-20",
+        "notes": "Playable with occasional frame drops in large firefights."
+      }
+    ],
+    "screenshots": []
+  },
+  {
+    "slug": "gears-of-war-2",
+    "title": "Gears of War 2",
+    "titleId": "4D530804",
+    "status": "playable",
+    "perf": "ok",
+    "tags": ["UE3", "bloom"],
+    "lastReport": { "device": "iPad Pro M2", "ios": "17.5" },
+    "updatedAt": "2026-02-08",
+    "notes": "Campaign playable start to finish. Co-op untested. Some bloom rendering artifacts in dark scenes.",
+    "recommendedSettings": { "resolution": "720p", "framerate": "30fps" },
+    "reports": [
+      {
+        "device": "iPad Pro M2",
+        "ios": "17.5",
+        "status": "playable",
+        "date": "2026-02-08",
+        "notes": "Solid performance on M2 chip. Completed Act 1-3."
+      }
+    ],
+    "screenshots": []
+  },
+  {
+    "slug": "forza-motorsport-4",
+    "title": "Forza Motorsport 4",
+    "titleId": "4D530910",
+    "status": "playable",
+    "perf": "great",
+    "tags": ["HDR", "vsync"],
+    "lastReport": { "device": "iPhone 16 Pro Max", "ios": "18.3" },
+    "updatedAt": "2026-02-14",
+    "notes": "Race events fully functional. Career mode and Autovista work correctly. Excellent performance on A18 Pro.",
+    "recommendedSettings": { "resolution": "1080p", "framerate": "30fps" },
+    "reports": [
+      {
+        "device": "iPhone 16 Pro Max",
+        "ios": "18.3",
+        "status": "playable",
+        "date": "2026-02-14",
+        "notes": "All race types working. Consistent 30fps at 1080p."
+      },
+      {
+        "device": "iPad Pro M2",
+        "ios": "17.5",
+        "status": "playable",
+        "date": "2026-01-28",
+        "notes": "Flawless at 1080p. M2 handles this title with ease."
+      }
+    ],
+    "screenshots": []
+  },
+  {
+    "slug": "red-dead-redemption",
+    "title": "Red Dead Redemption",
+    "titleId": "5454082B",
+    "status": "ingame",
+    "perf": "ok",
+    "tags": ["open-world", "streaming", "depth"],
+    "lastReport": { "device": "iPhone 15 Pro", "ios": "17.3" },
+    "updatedAt": "2026-02-10",
+    "notes": "Free roam and early missions functional. Random crashes after 20-30 minutes of gameplay. Saving works.",
+    "recommendedSettings": { "resolution": "540p", "framerate": "20fps" },
+    "reports": [
+      {
+        "device": "iPhone 15 Pro",
+        "ios": "17.3",
+        "status": "ingame",
+        "date": "2026-02-10",
+        "notes": "Gets into gameplay. Crashes frequently during world streaming."
+      }
+    ],
+    "screenshots": []
+  },
+  {
+    "slug": "the-elder-scrolls-v-skyrim",
+    "title": "The Elder Scrolls V: Skyrim",
+    "titleId": "425307E6",
+    "status": "ingame",
+    "perf": "poor",
+    "tags": ["open-world", "shaders", "save-system"],
+    "lastReport": { "device": "iPhone 16 Pro", "ios": "18.2" },
+    "updatedAt": "2026-02-06",
+    "notes": "Character creation and Helgen intro playable. Open world accessible but runs at very low framerate. Many shader issues.",
+    "recommendedSettings": { "resolution": "540p", "framerate": "15fps" },
+    "reports": [
+      {
+        "device": "iPhone 16 Pro",
+        "ios": "18.2",
+        "status": "ingame",
+        "date": "2026-02-06",
+        "notes": "Reaches open world. 10-15fps with graphical glitches."
+      },
+      {
+        "device": "iPhone 15 Pro",
+        "ios": "17.4",
+        "status": "ingame",
+        "date": "2026-01-15",
+        "notes": "Similar results to 16 Pro. Shader compilation causes long hitches."
+      }
+    ],
+    "screenshots": []
+  },
+  {
+    "slug": "call-of-duty-modern-warfare-2",
+    "title": "Call of Duty: Modern Warfare 2",
+    "titleId": "41560817",
+    "status": "ingame",
+    "perf": "ok",
+    "tags": ["IW-engine", "audio-sync"],
+    "lastReport": { "device": "iPad Air M1", "ios": "17.5" },
+    "updatedAt": "2026-02-03",
+    "notes": "Campaign missions load and are partially playable. Audio desync issues. Multiplayer not functional.",
+    "recommendedSettings": { "resolution": "720p", "framerate": "25fps" },
+    "reports": [
+      {
+        "device": "iPad Air M1",
+        "ios": "17.5",
+        "status": "ingame",
+        "date": "2026-02-03",
+        "notes": "First three missions playable. Audio falls out of sync after a few minutes."
+      }
+    ],
+    "screenshots": []
+  },
+  {
+    "slug": "grand-theft-auto-v",
+    "title": "Grand Theft Auto V",
+    "titleId": "545408A7",
+    "status": "intro",
+    "perf": "poor",
+    "tags": ["RAGE-engine", "streaming", "memory"],
+    "lastReport": { "device": "iPhone 16 Pro Max", "ios": "18.3" },
+    "updatedAt": "2026-02-11",
+    "notes": "Passes intro logos and loading screens. Reaches initial cutscene but crashes before gameplay begins.",
+    "recommendedSettings": { "resolution": "480p", "framerate": "15fps" },
+    "reports": [
+      {
+        "device": "iPhone 16 Pro Max",
+        "ios": "18.3",
+        "status": "intro",
+        "date": "2026-02-11",
+        "notes": "Gets to the prologue cutscene then crashes. Memory pressure likely."
+      }
+    ],
+    "screenshots": []
+  },
+  {
+    "slug": "mass-effect-2",
+    "title": "Mass Effect 2",
+    "titleId": "4541080F",
+    "status": "intro",
+    "perf": "poor",
+    "tags": ["UE3", "bink-video", "lighting"],
+    "lastReport": { "device": "iPhone 15 Pro", "ios": "17.4" },
+    "updatedAt": "2026-01-29",
+    "notes": "Reaches main menu and intro cinematic plays. Crashes on new game after initial cutscene.",
+    "recommendedSettings": { "resolution": "540p", "framerate": "20fps" },
+    "reports": [
+      {
+        "device": "iPhone 15 Pro",
+        "ios": "17.4",
+        "status": "intro",
+        "date": "2026-01-29",
+        "notes": "Main menu and Bink videos render. Crash at first gameplay transition."
+      }
+    ],
+    "screenshots": []
+  },
+  {
+    "slug": "dark-souls",
+    "title": "Dark Souls",
+    "titleId": "4E4D0858",
+    "status": "intro",
+    "perf": "poor",
+    "tags": ["FromSoft", "depth", "render-target"],
+    "lastReport": { "device": "iPad Pro M2", "ios": "18.1" },
+    "updatedAt": "2026-02-01",
+    "notes": "Title screen and opening cinematic visible. Character creation screen loads but hangs during confirmation.",
+    "recommendedSettings": { "resolution": "540p", "framerate": "15fps" },
+    "reports": [
+      {
+        "device": "iPad Pro M2",
+        "ios": "18.1",
+        "status": "intro",
+        "date": "2026-02-01",
+        "notes": "Intro video plays. Hangs at character creation confirm step."
+      }
+    ],
+    "screenshots": []
+  },
+  {
+    "slug": "halo-reach",
+    "title": "Halo: Reach",
+    "titleId": "4D53085B",
+    "status": "loads",
+    "perf": "poor",
+    "tags": ["depth", "MSAA", "memory"],
+    "lastReport": { "device": "iPhone 15 Pro", "ios": "17.3" },
+    "updatedAt": "2026-01-22",
+    "notes": "Game boots and reaches the main menu. Selecting any option causes a crash. No gameplay reached.",
+    "recommendedSettings": { "resolution": "480p", "framerate": "15fps" },
+    "reports": [
+      {
+        "device": "iPhone 15 Pro",
+        "ios": "17.3",
+        "status": "loads",
+        "date": "2026-01-22",
+        "notes": "Main menu renders but any menu interaction crashes."
+      }
+    ],
+    "screenshots": []
+  },
+  {
+    "slug": "destiny",
+    "title": "Destiny",
+    "titleId": "41560929",
+    "status": "nothing",
+    "perf": "poor",
+    "tags": ["always-online", "network"],
+    "lastReport": { "device": "iPhone 16 Pro", "ios": "18.2" },
+    "updatedAt": "2026-01-18",
+    "notes": "Requires online connection which cannot be emulated. Black screen after initial loading.",
+    "recommendedSettings": { "resolution": "N/A", "framerate": "N/A" },
+    "reports": [
+      {
+        "device": "iPhone 16 Pro",
+        "ios": "18.2",
+        "status": "nothing",
+        "date": "2026-01-18",
+        "notes": "Black screen. Online requirement blocks all progress."
+      }
+    ],
+    "screenshots": []
+  },
+  {
+    "slug": "fable-2",
+    "title": "Fable II",
+    "titleId": "4D530817",
+    "status": "nothing",
+    "perf": "poor",
+    "tags": ["GPU-hang", "vertex-shaders"],
+    "lastReport": { "device": "iPad Air M1", "ios": "17.5" },
+    "updatedAt": "2026-01-10",
+    "notes": "Crashes immediately on boot. GPU command buffer errors in logs. No output rendered.",
+    "recommendedSettings": { "resolution": "N/A", "framerate": "N/A" },
+    "reports": [
+      {
+        "device": "iPad Air M1",
+        "ios": "17.5",
+        "status": "nothing",
+        "date": "2026-01-10",
+        "notes": "Instant crash. GPU hang detected in Metal validation layer."
+      }
+    ],
+    "screenshots": []
+  }
+]

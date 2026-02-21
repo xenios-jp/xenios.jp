@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# XeniOS Website
 
-## Getting Started
+Official website for the XeniOS project.
 
-First, run the development server:
+## Stack
+
+- Next.js 16 (App Router)
+- React 19
+- TypeScript
+- Tailwind CSS v4
+
+## Development
 
 ```bash
+cd /Users/admin/Documents/xenios-website
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open `http://localhost:3000`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+If a stale Next.js dev lock is left behind:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+pkill -f "next dev"
+rm -f .next/dev/lock
+npm run dev
+```
 
-## Learn More
+## Scripts
 
-To learn more about Next.js, take a look at the following resources:
+- `npm run dev` - start local development server
+- `npm run build` - build production output
+- `npm run start` - run production server
+- `npm run lint` - run ESLint
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Project Structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- `src/app` - routes and page layouts
+- `src/components` - shared UI components
+- `src/lib` - constants and data logic
+- `data/compatibility.json` - compatibility dataset
 
-## Deploy on Vercel
+## Legal and Credits
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- License inherits upstream Xenia project license.
+- Legal, privacy, and credits pages are implemented at:
+  - `/legal`
+  - `/license`
+  - `/privacy`
+  - `/credits`
