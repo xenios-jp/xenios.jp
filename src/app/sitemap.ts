@@ -1,6 +1,8 @@
 import type { MetadataRoute } from "next";
 import { getAllGames } from "@/lib/compatibility";
 
+export const revalidate = 86400;
+
 const SITE_LAST_MODIFIED = new Date("2026-02-19T00:00:00.000Z");
 
 export default function sitemap(): MetadataRoute.Sitemap {
