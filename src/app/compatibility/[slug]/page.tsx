@@ -59,6 +59,7 @@ function perfLabel(perf: PerfTier): string {
     great: "Great",
     ok: "OK",
     poor: "Poor",
+    "n/a": "N/A",
   };
   return map[perf];
 }
