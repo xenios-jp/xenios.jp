@@ -14,7 +14,7 @@ import { Pill } from "@/components/pill";
 
 const DISCUSSION_REPO_OWNER = "xenios-jp";
 const DISCUSSION_REPO_NAME = "xenios.jp";
-const MAX_DISCUSSION_COMMENTS = 5;
+const MAX_DISCUSSION_ENTRIES = 6;
 
 interface GitHubIssueSearchItem {
   number: number;
@@ -22,6 +22,7 @@ interface GitHubIssueSearchItem {
   html_url: string;
   comments_url: string;
   body: string | null;
+  created_at: string;
   updated_at: string;
   user?: {
     login: string;
@@ -42,11 +43,13 @@ interface GitHubIssueCommentResponse {
   };
 }
 
-interface GitHubDiscussionComment {
-  id: number;
+interface GitHubDiscussionEntry {
+  id: string;
+  type: "issue" | "comment";
   url: string;
   author: string;
   createdAt: string;
+  createdAtMs: number;
   issueNumber: number;
   excerpt: string;
   images: string[];
@@ -55,8 +58,7 @@ interface GitHubDiscussionComment {
 interface GitHubDiscussionData {
   issueNumber: number;
   issueUrl: string;
-  comments: GitHubDiscussionComment[];
-  images: string[];
+  entries: GitHubDiscussionEntry[];
 }
 
 /* ------------------------------------------------------------------ */
@@ -152,9 +154,12 @@ function extractImageUrls(markdown: string): string[] {
 }
 
 function normalizeExcerpt(markdown: string): string {
-  const notesMatch = markdown.match(/###\s*Notes\s*([\s\S]*?)(?:\n---|$)/i);
+  const notesMatch = markdown.match(/###\s*Notes\s*([\s\S]*?)(?:\n###\s|\n---|$)/i);
   const source = notesMatch?.[1] ?? markdown;
   return source
+    .replace(/!\[[^\]]*]\((https?:\/\/[^)\s]+)\)/g, "")
+    .replace(/\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g, "$1")
+    .replace(/https?:\/\/\S+/g, "")
     .replace(/<!--[\s\S]*?-->/g, "")
     .replace(/\|/g, " ")
     .replace(/\s+/g, " ")
@@ -166,6 +171,11 @@ function formatIsoDate(dateString: string): string {
   const timestamp = new Date(dateString);
   if (Number.isNaN(timestamp.getTime())) return dateString;
   return timestamp.toISOString().slice(0, 10);
+}
+
+function getTimestamp(dateString: string): number {
+  const timestamp = new Date(dateString).getTime();
+  return Number.isNaN(timestamp) ? 0 : timestamp;
 }
 
 function dedupeImageUrls(urls: string[]): string[] {
@@ -218,49 +228,56 @@ async function fetchGitHubDiscussion(titleId: string): Promise<GitHubDiscussionD
 
     if (!canonicalIssue) return null;
 
+    const issueEntries: GitHubDiscussionEntry[] = sortedIssues.slice(0, 5).map((issue) => ({
+      id: `issue-${issue.number}`,
+      type: "issue",
+      url: issue.html_url,
+      author: issue.user?.login ?? "unknown",
+      createdAt: formatIsoDate(issue.created_at),
+      createdAtMs: getTimestamp(issue.created_at),
+      issueNumber: issue.number,
+      excerpt: normalizeExcerpt(issue.body ?? ""),
+      images: dedupeImageUrls(extractImageUrls(issue.body ?? "")),
+    }));
+
     const issueComments = await Promise.all(
       sortedIssues.slice(0, 5).map(async (issue) => {
         const commentsRes = await fetch(issue.comments_url, {
           headers,
           cache: "force-cache",
         });
-        if (!commentsRes.ok) return [] as GitHubDiscussionComment[];
+        if (!commentsRes.ok) return [] as GitHubDiscussionEntry[];
 
         const rawComments = (await commentsRes.json()) as GitHubIssueCommentResponse[];
         return rawComments
           .filter((comment) => comment.user.login !== "github-actions[bot]")
           .map((comment) => ({
-            id: comment.id,
+            id: `comment-${comment.id}`,
+            type: "comment" as const,
             url: comment.html_url,
             author: comment.user.login,
             createdAt: formatIsoDate(comment.created_at),
+            createdAtMs: getTimestamp(comment.created_at),
             issueNumber: issue.number,
             excerpt: normalizeExcerpt(comment.body),
-            images: extractImageUrls(comment.body),
+            images: dedupeImageUrls(extractImageUrls(comment.body)),
           }))
           .filter((comment) => comment.excerpt.length > 0 || comment.images.length > 0);
       })
     );
 
-    const comments = issueComments
-      .flat()
+    const entries = [...issueEntries, ...issueComments.flat()]
       .sort((a, b) => {
-        if (a.createdAt === b.createdAt) return b.id - a.id;
-        return a.createdAt < b.createdAt ? 1 : -1;
+        if (a.createdAtMs === b.createdAtMs) return a.id < b.id ? 1 : -1;
+        return b.createdAtMs - a.createdAtMs;
       })
-      .slice(0, MAX_DISCUSSION_COMMENTS);
-
-    const allImages = [
-      ...sortedIssues.flatMap((issue) => extractImageUrls(issue.body ?? "")),
-      ...comments.flatMap((comment) => comment.images),
-    ];
-    const uniqueImages = dedupeImageUrls(allImages);
+      .filter((entry) => entry.excerpt.length > 0 || entry.images.length > 0)
+      .slice(0, MAX_DISCUSSION_ENTRIES);
 
     return {
       issueNumber: canonicalIssue.number,
       issueUrl: canonicalIssue.html_url,
-      comments,
-      images: uniqueImages,
+      entries,
     };
   } catch {
     return null;
@@ -285,7 +302,7 @@ export default async function GameDetailPage({
   return (
     <div className="min-h-screen bg-bg-primary">
       {/* Header */}
-      <section className="hero-gradient border-b border-border px-4 pt-16 pb-12 md:pt-20 md:pb-14 sm:px-6 lg:px-8">
+      <section className="hero-gradient border-b border-border px-4 pt-20 pb-12 md:pb-14 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
           {/* Breadcrumb */}
           <nav className="mb-6 text-[15px] leading-relaxed text-text-muted">
@@ -490,65 +507,56 @@ export default async function GameDetailPage({
                 </a>
               </div>
 
-              {discussion.comments.length > 0 ? (
+              {discussion.entries.length > 0 ? (
                 <div className="mt-4 flex flex-col gap-3">
-                  {discussion.comments.map((comment) => (
+                  {discussion.entries.map((entry) => (
                     <div
-                      key={comment.id}
+                      key={entry.id}
                       className="rounded-lg border border-border bg-bg-primary p-5"
                     >
                       <div className="mb-2 flex items-center justify-between gap-3">
                         <span className="text-sm font-medium text-text-primary">
-                          @{comment.author} · Issue #{comment.issueNumber}
+                          @{entry.author} · Issue #{entry.issueNumber}
+                          {entry.type === "issue" ? " · Original report" : ""}
                         </span>
-                        <span className="text-xs text-text-muted">{comment.createdAt}</span>
+                        <span className="text-xs text-text-muted">{entry.createdAt}</span>
                       </div>
                       <p className="text-[15px] leading-relaxed text-text-secondary">
-                        {comment.excerpt}
+                        {entry.excerpt}
                       </p>
+                      {entry.images.length > 0 ? (
+                        <div className="mt-3 grid grid-cols-1 gap-3 sm:grid-cols-2">
+                          {entry.images.map((url) => (
+                            <a
+                              key={`${entry.id}-${url}`}
+                              href={url}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="overflow-hidden rounded-lg border border-border bg-bg-surface transition hover:border-accent/40"
+                            >
+                              <img
+                                src={url}
+                                alt={`GitHub attachment for ${game.title}`}
+                                className="h-40 w-full object-cover"
+                              />
+                            </a>
+                          ))}
+                        </div>
+                      ) : null}
                       <a
-                        href={comment.url}
+                        href={entry.url}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="mt-2 inline-block text-sm text-accent transition hover:text-accent-hover"
                       >
-                        Open comment
+                        {entry.type === "issue" ? "Open issue" : "Open comment"}
                       </a>
                     </div>
                   ))}
                 </div>
               ) : (
                 <p className="mt-4 text-[15px] leading-relaxed text-text-muted">
-                  No discussion comments yet.
-                </p>
-              )}
-
-              {discussion.images.length > 0 ? (
-                <div className="mt-6">
-                  <h3 className="text-sm font-semibold uppercase tracking-wider text-text-muted">
-                    Attached Images
-                  </h3>
-                  <div className="mt-3 grid grid-cols-1 gap-3 sm:grid-cols-2">
-                    {discussion.images.map((url) => (
-                      <a
-                        key={url}
-                        href={url}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="overflow-hidden rounded-lg border border-border bg-bg-primary transition hover:border-accent/40"
-                      >
-                        <img
-                          src={url}
-                          alt={`GitHub attachment for ${game.title}`}
-                          className="h-40 w-full object-cover"
-                        />
-                      </a>
-                    ))}
-                  </div>
-                </div>
-              ) : (
-                <p className="mt-6 text-[15px] leading-relaxed text-text-muted">
-                  No image attachments in the GitHub thread yet.
+                  No discussion entries yet.
                 </p>
               )}
             </section>
