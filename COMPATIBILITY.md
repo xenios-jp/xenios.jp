@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **1 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **2 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **0** · 🔵 In-Game: **0** · 🟡 Intro: **0** · 🟠 Loads: **0** · 🔴 Nothing: **1**
+> 🟢 Playable: **0** · 🔵 In-Game: **1** · 🟡 Intro: **0** · 🟠 Loads: **0** · 🔴 Nothing: **1**
 >
-> 📱 iOS: **1** · 🖥️ macOS: **1**
+> 📱 iOS: **1** · 🖥️ macOS: **2**
 
 ## Legend
 
@@ -20,6 +20,7 @@
 
 | | Title | Title ID | Platform | Status | Perf | Last Device | Updated |
 |-|-------|----------|----------|--------|------|-------------|---------|
+| 🔵 | GTA IV | `545407F2` | 🖥️ macOS | In-Game | 🐢 Poor | MacBook Pro M4 Pro/Max | 2026-02-28 |
 | 🔴 | Halo 3 | `4D5307E6` | 📱 iOS, 🖥️ macOS | Nothing | undefined | iPhone 16 Pro Max | 2026-02-28 |
 
 ---
