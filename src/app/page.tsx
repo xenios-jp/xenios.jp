@@ -10,7 +10,7 @@ const STATUS_LABELS: Record<GameStatus, string> = {
   ingame: "In-Game",
   intro: "Intro",
   loads: "Loads",
-  nothing: "Nothing",
+  nothing: "Doesn't Boot",
 };
 
 function gameUpdatedAtMs(updatedAt: string): number {

@@ -49,7 +49,7 @@ function statusLabel(status: GameStatus): string {
     ingame: "In-Game",
     intro: "Intro",
     loads: "Loads",
-    nothing: "Nothing",
+    nothing: "Doesn't Boot",
   };
   return map[status];
 }

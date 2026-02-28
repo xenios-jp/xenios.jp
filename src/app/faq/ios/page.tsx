@@ -287,7 +287,7 @@ const games = [
             starts loading but does not reach menus or gameplay.
           </li>
           <li>
-            <strong className="text-text-primary">Nothing</strong> &mdash; the
+            <strong className="text-text-primary">Doesn&apos;t Boot</strong> &mdash; the
             game crashes immediately on launch or produces no output.
           </li>
         </ul>
