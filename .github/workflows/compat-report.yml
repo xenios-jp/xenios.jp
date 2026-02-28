@@ -1,0 +1,352 @@
+name: Process Compatibility Report
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  process-report:
+    # Only run on issues created via the compatibility report template
+    if: contains(github.event.issue.labels.*.name, 'compat-report')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Parse issue and update data
+        uses: actions/github-script@v7
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+        with:
+          script: |
+            const fs = require('fs');
+            const issue = context.payload.issue;
+
+            // ── Loop prevention ──────────────────────────────────
+            // If the issue body contains our sentinel, it was created by
+            // the worker or this action — skip to avoid infinite loops.
+            const SENTINEL = '<!-- xenios-auto -->';
+            if (issue.body && issue.body.includes(SENTINEL)) {
+              console.log('Skipping: issue was auto-created (sentinel found)');
+              return;
+            }
+
+            // ── Parse issue form fields ──────────────────────────
+            // GitHub issue forms render as markdown with ### headers.
+            // Each form field becomes: ### Label\n\nValue\n\n
+            const body = issue.body || '';
+
+            function extractField(label) {
+              // Match "### Label" followed by content until next ### or end
+              const regex = new RegExp(`###\\s+${label.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\s*\\n+([\\s\\S]*?)(?=\\n###|$)`, 'i');
+              const match = body.match(regex);
+              if (!match) return '';
+              return match[1].trim();
+            }
+
+            // ── Extract title ID and game name from issue title ──
+            // Expected format: "[TITLE_ID] — [GAME_NAME]" or "TITLE_ID — Game Name"
+            const titleMatch = issue.title.match(/^\[?([A-Fa-f0-9]{8})\]?\s*[—–-]\s*\[?(.+?)\]?$/);
+            if (!titleMatch) {
+              console.log(`Skipping: issue title doesn't match expected format: "${issue.title}"`);
+              // Add a comment explaining the format requirement
+              await github.rest.issues.createComment({
+                ...context.repo,
+                issue_number: issue.number,
+                body: `⚠️ Could not parse this report automatically. Please ensure the issue title follows the format:\n\n\`TITLE_ID — Game Name\`\n\nExample: \`4D5307E6 — Halo 3\`\n\n${SENTINEL}`,
+              });
+              return;
+            }
+
+            const titleId = titleMatch[1].toUpperCase();
+            const gameName = titleMatch[2].trim();
+
+            // ── Extract form fields ──────────────────────────────
+            const rawPlatform = extractField('Platform');
+            const device = extractField('Device');
+            const osVersion = extractField('OS Version');
+            const rawArch = extractField('Architecture');
+            const rawGpuBackend = extractField('GPU Backend');
+            const rawStatus = extractField('Compatibility Status');
+            const rawPerf = extractField('Performance');
+            const notes = extractField('Notes');
+
+            // ── Normalize values ─────────────────────────────────
+            function normalizeDropdown(raw, map) {
+              const lower = raw.toLowerCase();
+              for (const [key, patterns] of Object.entries(map)) {
+                for (const pattern of patterns) {
+                  if (lower.includes(pattern)) return key;
+                }
+              }
+              return null;
+            }
+
+            const platform = normalizeDropdown(rawPlatform, {
+              ios: ['ios'],
+              macos: ['macos'],
+            });
+
+            const status = normalizeDropdown(rawStatus, {
+              playable: ['playable'],
+              ingame: ['in-game', 'ingame'],
+              intro: ['intro'],
+              loads: ['loads'],
+              nothing: ['nothing'],
+            });
+
+            const perf = normalizeDropdown(rawPerf, {
+              great: ['great'],
+              ok: ['ok'],
+              poor: ['poor'],
+            });
+
+            const arch = normalizeDropdown(rawArch, {
+              arm64: ['arm64'],
+              x86_64: ['x86_64', 'x86'],
+            });
+
+            const gpuBackend = normalizeDropdown(rawGpuBackend, {
+              msl: ['msl'],
+              msc: ['msc'],
+            });
+
+            // ── Validate ─────────────────────────────────────────
+            const errors = [];
+            if (!platform) errors.push(`Invalid platform: "${rawPlatform}"`);
+            if (!status) errors.push(`Invalid status: "${rawStatus}"`);
+            if (!perf) errors.push(`Invalid performance: "${rawPerf}"`);
+            if (!arch) errors.push(`Invalid architecture: "${rawArch}"`);
+            if (!gpuBackend) errors.push(`Invalid GPU backend: "${rawGpuBackend}"`);
+            if (!device) errors.push('Device is required');
+            if (!osVersion) errors.push('OS Version is required');
+            if (!notes) errors.push('Notes are required');
+
+            if (platform === 'ios' && gpuBackend === 'msc') {
+              errors.push('iOS platform only supports MSL GPU backend');
+            }
+
+            if (errors.length > 0) {
+              console.log('Validation errors:', errors);
+              await github.rest.issues.createComment({
+                ...context.repo,
+                issue_number: issue.number,
+                body: `⚠️ Could not process this report due to validation errors:\n\n${errors.map(e => `- ${e}`).join('\n')}\n\nPlease edit the issue to fix these fields.\n\n${SENTINEL}`,
+              });
+              return;
+            }
+
+            // ── Update compatibility.json ────────────────────────
+            const games = JSON.parse(fs.readFileSync('data/compatibility.json', 'utf8'));
+            const today = new Date().toISOString().slice(0, 10);
+
+            const newReport = {
+              device,
+              platform,
+              osVersion,
+              arch,
+              gpuBackend,
+              status,
+              date: today,
+              notes,
+            };
+
+            const idx = games.findIndex(
+              g => g.titleId.toUpperCase() === titleId
+            );
+
+            if (idx >= 0) {
+              // Update existing game
+              const game = games[idx];
+              game.reports = [newReport, ...game.reports];
+              game.lastReport = { device, platform, osVersion, arch, gpuBackend };
+              game.updatedAt = today;
+              game.status = status;
+              game.perf = perf;
+              game.notes = notes;
+              if (!game.platforms.includes(platform)) {
+                game.platforms.push(platform);
+              }
+            } else {
+              // New game
+              const slug = gameName.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+              games.push({
+                slug,
+                title: gameName,
+                titleId,
+                status,
+                perf,
+                tags: [],
+                platforms: [platform],
+                lastReport: { device, platform, osVersion, arch, gpuBackend },
+                updatedAt: today,
+                notes,
+                recommendedSettings: { resolution: '720p', framerate: '30fps' },
+                reports: [newReport],
+                screenshots: [],
+              });
+            }
+
+            fs.writeFileSync('data/compatibility.json', JSON.stringify(games, null, 2) + '\n');
+            console.log(`Updated compatibility.json for ${gameName} (${titleId})`);
+
+            // ── Apply labels ─────────────────────────────────────
+            const newLabels = [
+              'compat-report',
+              `state:${status}`,
+              `perf:${perf}`,
+              `platform:${platform}`,
+              `gpu:${gpuBackend}`,
+            ];
+
+            await github.rest.issues.setLabels({
+              ...context.repo,
+              issue_number: issue.number,
+              labels: newLabels,
+            });
+
+            // ── Check for existing canonical issue ───────────────
+            // If another issue already tracks this game, add a comment
+            // linking them and close this one as a duplicate.
+            const searchResult = await github.rest.search.issuesAndPullRequests({
+              q: `${titleId} repo:${context.repo.owner}/${context.repo.repo} label:compat-report is:issue`,
+            });
+
+            const canonical = searchResult.data.items.find(
+              i => i.number !== issue.number && i.title.startsWith(`${titleId} `)
+            );
+
+            if (canonical) {
+              // Add report as comment on canonical issue
+              const statusEmoji = { playable: '✅', ingame: '🟦', intro: '🟨', loads: '🟧', nothing: '🔴' };
+              const platformDisplay = platform === 'ios' ? 'iOS' : 'macOS';
+
+              const reportBody = [
+                `## Compatibility Report`,
+                ``,
+                `| Field | Value |`,
+                `|-------|-------|`,
+                `| **Title** | ${gameName} |`,
+                `| **Title ID** | \`${titleId}\` |`,
+                `| **Status** | ${statusEmoji[status]} ${status} |`,
+                `| **Performance** | ${perf} |`,
+                `| **Platform** | ${platformDisplay} |`,
+                `| **Device** | ${device} |`,
+                `| **OS Version** | ${platformDisplay} ${osVersion} |`,
+                `| **Architecture** | ${arch} |`,
+                `| **GPU Backend** | ${gpuBackend.toUpperCase()} |`,
+                ``,
+                `### Notes`,
+                notes,
+                ``,
+                `---`,
+                `*Submitted via GitHub issue #${issue.number}*`,
+                SENTINEL,
+              ].join('\n');
+
+              await github.rest.issues.createComment({
+                ...context.repo,
+                issue_number: canonical.number,
+                body: reportBody,
+              });
+
+              // Update canonical issue labels
+              const canonLabels = canonical.labels.map(l => l.name)
+                .filter(l => !l.startsWith('state:') && !l.startsWith('perf:'));
+              canonLabels.push(`state:${status}`, `perf:${perf}`, `platform:${platform}`, `gpu:${gpuBackend}`);
+              const uniqueLabels = [...new Set(canonLabels)];
+
+              await github.rest.issues.setLabels({
+                ...context.repo,
+                issue_number: canonical.number,
+                labels: uniqueLabels,
+              });
+
+              // Close this issue as duplicate
+              await github.rest.issues.createComment({
+                ...context.repo,
+                issue_number: issue.number,
+                body: `✅ Report processed! This game already has a tracking issue: #${canonical.number}. Your report has been added there.\n\n${SENTINEL}`,
+              });
+
+              await github.rest.issues.update({
+                ...context.repo,
+                issue_number: issue.number,
+                state: 'closed',
+                state_reason: 'not_planned',
+              });
+
+              console.log(`Merged into canonical issue #${canonical.number}`);
+            } else {
+              // This becomes the canonical issue — add sentinel to body
+              const updatedBody = issue.body + `\n\n${SENTINEL}`;
+              await github.rest.issues.update({
+                ...context.repo,
+                issue_number: issue.number,
+                body: updatedBody,
+              });
+              console.log(`Issue #${issue.number} is now the canonical issue for ${titleId}`);
+            }
+
+            // ── Post to Discord ──────────────────────────────────
+            const webhookUrl = process.env.DISCORD_WEBHOOK;
+            if (webhookUrl) {
+              const statusColors = {
+                playable: 0x34d399, ingame: 0x60a5fa,
+                intro: 0xfbbf24, loads: 0xfb923c, nothing: 0xf87171,
+              };
+              const statusLabels = {
+                playable: '✅ Playable', ingame: '🟦 In-Game',
+                intro: '🟨 Intro', loads: '🟧 Loads', nothing: '🔴 Nothing',
+              };
+              const perfLabels = { great: '🚀 Great', ok: '👌 OK', poor: '🐢 Poor' };
+              const platformLabels = { ios: '📱 iOS', macos: '🖥️ macOS' };
+              const platformDisplay = platform === 'ios' ? 'iOS' : 'macOS';
+
+              const issueUrl = canonical
+                ? `https://github.com/${context.repo.owner}/${context.repo.repo}/issues/${canonical.number}`
+                : issue.html_url;
+
+              const embed = {
+                title: gameName,
+                description: notes.slice(0, 200),
+                color: statusColors[status],
+                fields: [
+                  { name: 'Status', value: statusLabels[status], inline: true },
+                  { name: 'Performance', value: perfLabels[perf], inline: true },
+                  { name: 'Title ID', value: `\`${titleId}\``, inline: true },
+                  { name: 'Platform', value: platformLabels[platform], inline: true },
+                  { name: 'Device', value: device, inline: true },
+                  { name: 'OS Version', value: `${platformDisplay} ${osVersion}`, inline: true },
+                  { name: 'Architecture', value: arch.toUpperCase(), inline: true },
+                  { name: 'GPU Backend', value: gpuBackend.toUpperCase(), inline: true },
+                  { name: 'GitHub Issue', value: `[View](${issueUrl})`, inline: true },
+                ],
+                footer: { text: 'XeniOS Compatibility Report • via GitHub Issue' },
+                timestamp: new Date().toISOString(),
+              };
+
+              try {
+                await fetch(webhookUrl, {
+                  method: 'POST',
+                  headers: { 'Content-Type': 'application/json' },
+                  body: JSON.stringify({ embeds: [embed] }),
+                });
+                console.log('Discord notification sent');
+              } catch (e) {
+                console.error('Discord webhook failed:', e);
+              }
+            }
+
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/compatibility.json
+          git diff --staged --quiet && echo "No changes to commit" || \
+            git commit -m "compat: update from issue #${{ github.event.issue.number }} [skip ci]" && git push

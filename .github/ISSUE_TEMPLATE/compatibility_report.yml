@@ -1,0 +1,129 @@
+name: Compatibility Report
+description: Report game compatibility with XeniOS
+title: "[TITLE_ID] — [GAME_NAME]"
+labels: ["compat-report"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## XeniOS Compatibility Report
+
+        Please fill out all fields below to submit a compatibility report. If you need help or have a support question, please use the [XeniOS Discord](https://discord.gg/xenios) instead.
+
+        **How to find the Title ID:** Open the game in XeniOS and check the title bar or log output for the 8-character hex ID (e.g. `4D5307E6`).
+
+  - type: checkboxes
+    id: validation
+    attributes:
+      label: Pre-submission checklist
+      options:
+        - label: I am using an official XeniOS build
+          required: true
+        - label: I have checked for existing compatibility reports for this game
+          required: true
+        - label: This is not a tech support request
+          required: true
+
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      description: Which platform are you running XeniOS on?
+      options:
+        - iOS
+        - macOS
+    validations:
+      required: true
+
+  - type: input
+    id: device
+    attributes:
+      label: Device
+      description: Your device model
+      placeholder: "e.g., iPhone 16 Pro, iPad Pro M2, MacBook Pro M3"
+    validations:
+      required: true
+
+  - type: input
+    id: os-version
+    attributes:
+      label: OS Version
+      description: Your operating system version number
+      placeholder: "e.g., 18.3 (for iOS) or 15.2 (for macOS)"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: arch
+    attributes:
+      label: Architecture
+      description: CPU architecture. iOS is always ARM64. macOS can be ARM64 (Apple Silicon) or x86_64 (Intel).
+      options:
+        - ARM64
+        - x86_64
+    validations:
+      required: true
+
+  - type: dropdown
+    id: gpu-backend
+    attributes:
+      label: GPU Backend
+      description: "iOS always uses MSL. macOS 15+ defaults to MSC; macOS <15 uses MSL only."
+      options:
+        - MSL (Metal Shading Language)
+        - MSC (Metal Shader Converter)
+    validations:
+      required: true
+
+  - type: dropdown
+    id: status
+    attributes:
+      label: Compatibility Status
+      description: How far does the game get?
+      options:
+        - Playable — Game can be played start to finish with minor issues
+        - In-Game — Reaches gameplay but has significant issues
+        - Intro — Gets past loading but crashes before or during gameplay
+        - Loads — Boots and shows menus but can't reach gameplay
+        - Nothing — Does not boot or crashes immediately
+    validations:
+      required: true
+
+  - type: dropdown
+    id: perf
+    attributes:
+      label: Performance
+      description: How does it run?
+      options:
+        - Great — Runs at or near full speed
+        - OK — Playable but with noticeable performance drops
+        - Poor — Significant performance issues
+    validations:
+      required: true
+
+  - type: input
+    id: xenios-version
+    attributes:
+      label: XeniOS Version
+      description: The version or commit hash of XeniOS you tested with
+      placeholder: "e.g., v0.1.0-alpha or abc1234"
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Describe what works, what doesn't, and any workarounds you found
+      placeholder: "e.g., Campaign playable through Act 1. Audio stutters in cutscenes. Saving works."
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: Attach screenshots showing the game running (drag and drop images here)
+    validations:
+      required: false

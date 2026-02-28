@@ -8,9 +8,18 @@ export type GameStatus = "playable" | "ingame" | "intro" | "loads" | "nothing";
 
 export type PerfTier = "great" | "ok" | "poor";
 
+export type Platform = "ios" | "macos";
+
+export type Architecture = "arm64" | "x86_64";
+
+export type GpuBackend = "msc" | "msl";
+
 export interface GameReport {
   device: string;
-  ios: string;
+  platform: Platform;
+  osVersion: string;
+  arch: Architecture;
+  gpuBackend: GpuBackend;
   status: GameStatus;
   date: string;
   notes: string;
@@ -23,7 +32,14 @@ export interface Game {
   status: GameStatus;
   perf: PerfTier;
   tags: string[];
-  lastReport: { device: string; ios: string };
+  platforms: Platform[];
+  lastReport: {
+    device: string;
+    platform: Platform;
+    osVersion: string;
+    arch: Architecture;
+    gpuBackend: GpuBackend;
+  };
   updatedAt: string;
   notes: string;
   recommendedSettings: { resolution: string; framerate: string };
@@ -43,6 +59,12 @@ export interface StatusOption {
 
 export interface PerfTierOption {
   value: PerfTier;
+  label: string;
+  description: string;
+}
+
+export interface PlatformOption {
+  value: Platform;
   label: string;
   description: string;
 }
@@ -93,6 +115,21 @@ export function getPerfTiers(): PerfTierOption[] {
       value: "poor",
       label: "Poor",
       description: "Significant performance issues; may be unplayable.",
+    },
+  ];
+}
+
+export function getPlatforms(): PlatformOption[] {
+  return [
+    {
+      value: "ios",
+      label: "iOS",
+      description: "iPhone and iPad running iOS/iPadOS.",
+    },
+    {
+      value: "macos",
+      label: "macOS",
+      description: "Mac running macOS (ARM64 or x86_64).",
     },
   ];
 }

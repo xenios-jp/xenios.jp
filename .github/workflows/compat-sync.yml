@@ -1,0 +1,127 @@
+name: Sync Compatibility Table
+
+on:
+  push:
+    paths:
+      - "data/compatibility.json"
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  generate-table:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate COMPATIBILITY.md
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const games = JSON.parse(fs.readFileSync('data/compatibility.json', 'utf8'));
+
+            const statusEmoji = {
+              playable: '🟢',
+              ingame:   '🔵',
+              intro:    '🟡',
+              loads:    '🟠',
+              nothing:  '🔴',
+            };
+
+            const statusLabel = {
+              playable: 'Playable',
+              ingame:   'In-Game',
+              intro:    'Intro',
+              loads:    'Loads',
+              nothing:  'Nothing',
+            };
+
+            const perfLabel = {
+              great: '🚀 Great',
+              ok:    '👌 OK',
+              poor:  '🐢 Poor',
+            };
+
+            const platformLabel = {
+              ios:   '📱 iOS',
+              macos: '🖥️ macOS',
+            };
+
+            // Sort: playable first, then alphabetically within each status
+            const statusOrder = ['playable', 'ingame', 'intro', 'loads', 'nothing'];
+            const sorted = [...games].sort((a, b) => {
+              const si = statusOrder.indexOf(a.status) - statusOrder.indexOf(b.status);
+              return si !== 0 ? si : a.title.localeCompare(b.title);
+            });
+
+            // Stats
+            const total = games.length;
+            const counts = {};
+            statusOrder.forEach(s => counts[s] = 0);
+            games.forEach(g => counts[g.status]++);
+
+            const platformCounts = { ios: 0, macos: 0 };
+            games.forEach(g => {
+              (g.platforms || []).forEach(p => {
+                if (platformCounts[p] !== undefined) platformCounts[p]++;
+              });
+            });
+
+            const statsLine = statusOrder
+              .map(s => `${statusEmoji[s]} ${statusLabel[s]}: **${counts[s]}**`)
+              .join(' · ');
+
+            const platformLine = Object.entries(platformCounts)
+              .filter(([, count]) => count > 0)
+              .map(([p, count]) => `${platformLabel[p]}: **${count}**`)
+              .join(' · ');
+
+            // Table rows
+            const rows = sorted.map(g => {
+              const platforms = (g.platforms || []).map(p => platformLabel[p] || p).join(', ');
+              return `| ${statusEmoji[g.status]} | ${g.title} | \`${g.titleId}\` | ${platforms} | ${statusLabel[g.status]} | ${perfLabel[g.perf]} | ${g.lastReport.device} | ${g.updatedAt} |`;
+            }).join('\n');
+
+            const md = [
+              `# XeniOS Compatibility List`,
+              ``,
+              `> **${total} games tested** — auto-generated from [\`data/compatibility.json\`](data/compatibility.json)`,
+              `>`,
+              `> ${statsLine}`,
+              `>`,
+              `> ${platformLine}`,
+              ``,
+              `## Legend`,
+              ``,
+              `| Emoji | Status | Description |`,
+              `|-------|--------|-------------|`,
+              `| 🟢 | Playable | Game can be played start to finish with minor issues |`,
+              `| 🔵 | In-Game | Reaches gameplay but has significant issues |`,
+              `| 🟡 | Intro | Gets past loading but crashes before/during gameplay |`,
+              `| 🟠 | Loads | Boots and shows menus but can't reach gameplay |`,
+              `| 🔴 | Nothing | Does not boot or crashes immediately |`,
+              ``,
+              `## Games`,
+              ``,
+              `| | Title | Title ID | Platform | Status | Perf | Last Device | Updated |`,
+              `|-|-------|----------|----------|--------|------|-------------|---------|`,
+              rows,
+              ``,
+              `---`,
+              ``,
+              `*Updated automatically when compatibility data changes. Visit [xenios.jp/compatibility](https://xenios.jp/compatibility) for the full interactive list.*`,
+              ``,
+            ].join('\n');
+
+            fs.writeFileSync('COMPATIBILITY.md', md);
+            console.log(`Generated COMPATIBILITY.md with ${total} games`);
+
+      - name: Commit COMPATIBILITY.md
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add COMPATIBILITY.md
+          git diff --staged --quiet && echo "No changes" || git commit -m "docs: update COMPATIBILITY.md [skip ci]" && git push

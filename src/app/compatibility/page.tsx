@@ -3,6 +3,7 @@ import {
   getAllGames,
   type GameStatus,
   type PerfTier,
+  type Platform,
   type Game,
 } from "@/lib/compatibility";
 import { Pill } from "@/components/pill";
@@ -13,6 +14,7 @@ interface CompatibilitySearchParams {
   q?: string | string[];
   status?: string | string[];
   perf?: string | string[];
+  platform?: string | string[];
   sort?: string | string[];
 }
 
@@ -20,6 +22,7 @@ interface FilterState {
   q: string;
   status: GameStatus | null;
   perf: PerfTier | "all";
+  platform: Platform | "all";
   sort: SortKey;
 }
 
@@ -47,18 +50,17 @@ const STATUS_COLORS: Record<GameStatus, string> = {
   nothing: "bg-red-400",
 };
 
-const STATUS_DOT_COLORS: Record<GameStatus, string> = {
-  playable: "bg-emerald-400",
-  ingame: "bg-blue-400",
-  intro: "bg-amber-400",
-  loads: "bg-orange-400",
-  nothing: "bg-red-400",
-};
+const STATUS_DOT_COLORS = STATUS_COLORS;
 
 const PERF_LABELS: Record<PerfTier, string> = {
   great: "Great",
   ok: "OK",
   poor: "Poor",
+};
+
+const PLATFORM_LABELS: Record<Platform, string> = {
+  ios: "iOS",
+  macos: "macOS",
 };
 
 function getSingleParam(value: string | string[] | undefined): string | undefined {
@@ -76,6 +78,11 @@ function parsePerf(value: string | undefined): PerfTier | "all" {
   return "all";
 }
 
+function parsePlatform(value: string | undefined): Platform | "all" {
+  if (value === "ios" || value === "macos") return value;
+  return "all";
+}
+
 function parseSort(value: string | undefined): SortKey {
   return value === "alpha" ? "alpha" : "updated";
 }
@@ -85,6 +92,7 @@ function buildQueryString(filters: FilterState): string {
   if (filters.q) params.set("q", filters.q);
   if (filters.status) params.set("status", filters.status);
   if (filters.perf !== "all") params.set("perf", filters.perf);
+  if (filters.platform !== "all") params.set("platform", filters.platform);
   if (filters.sort !== "updated") params.set("sort", filters.sort);
   const query = params.toString();
   return query ? `?${query}` : "";
@@ -115,6 +123,13 @@ function GameRow({ game }: { game: Game }) {
         </Link>
       </td>
       <td className="py-2.5 pr-4">
+        <div className="flex flex-wrap gap-1">
+          {game.platforms.map((p) => (
+            <Pill key={p} variant={p}>{PLATFORM_LABELS[p]}</Pill>
+          ))}
+        </div>
+      </td>
+      <td className="py-2.5 pr-4">
         <Pill variant={game.status}>{STATUS_LABELS[game.status]}</Pill>
       </td>
       <td className="py-2.5 pr-4">
@@ -139,7 +154,12 @@ function GameCard({ game }: { game: Game }) {
           <h3 className="font-medium text-text-primary">{game.title}</h3>
           <span className="font-mono text-xs text-text-muted">{game.titleId}</span>
         </div>
-        <Pill variant={game.status}>{STATUS_LABELS[game.status]}</Pill>
+        <div className="flex flex-wrap items-center gap-1">
+          {game.platforms.map((p) => (
+            <Pill key={p} variant={p}>{PLATFORM_LABELS[p]}</Pill>
+          ))}
+          <Pill variant={game.status}>{STATUS_LABELS[game.status]}</Pill>
+        </div>
       </div>
       <div className="flex items-center justify-between text-sm text-text-muted">
         <span>{game.lastReport.device}</span>
@@ -159,6 +179,7 @@ export default async function CompatibilityPage({
     q: (getSingleParam(rawSearchParams.q) ?? "").trim(),
     status: parseStatus(getSingleParam(rawSearchParams.status)),
     perf: parsePerf(getSingleParam(rawSearchParams.perf)),
+    platform: parsePlatform(getSingleParam(rawSearchParams.platform)),
     sort: parseSort(getSingleParam(rawSearchParams.sort)),
   };
 
@@ -197,6 +218,12 @@ export default async function CompatibilityPage({
     filtered = filtered.filter((game) => game.perf === filters.perf);
   }
 
+  if (filters.platform !== "all") {
+    filtered = filtered.filter((game) =>
+      game.platforms.includes(filters.platform as Platform)
+    );
+  }
+
   const games = [...filtered];
   if (filters.sort === "alpha") {
     games.sort((a, b) => a.title.localeCompare(b.title));
@@ -204,7 +231,7 @@ export default async function CompatibilityPage({
     games.sort((a, b) => gameUpdatedAtMs(b) - gameUpdatedAtMs(a));
   }
 
-  const hasFilter = Boolean(filters.q) || filters.status !== null || filters.perf !== "all";
+  const hasFilter = Boolean(filters.q) || filters.status !== null || filters.perf !== "all" || filters.platform !== "all";
 
   return (
     <div className="min-h-screen bg-bg-primary">
@@ -318,6 +345,17 @@ export default async function CompatibilityPage({
 
           <div className="flex flex-wrap gap-3">
             <select
+              name="platform"
+              defaultValue={filters.platform}
+              aria-label="Filter by platform"
+              className="rounded-lg border border-border bg-bg-surface px-3 py-2.5 text-sm text-text-primary outline-none transition focus:border-accent/40"
+            >
+              <option value="all">All Platforms</option>
+              <option value="ios">iOS</option>
+              <option value="macos">macOS</option>
+            </select>
+
+            <select
               name="perf"
               defaultValue={filters.perf}
               aria-label="Filter by performance"
@@ -368,6 +406,7 @@ export default async function CompatibilityPage({
               <tr className="border-b border-border text-xs font-semibold uppercase tracking-wider text-text-muted">
                 <th className="py-3 pr-4 pl-4">Title ID</th>
                 <th className="py-3 pr-4">Title</th>
+                <th className="py-3 pr-4">Platform</th>
                 <th className="py-3 pr-4">Status</th>
                 <th className="py-3 pr-4">Perf</th>
                 <th className="py-3 pr-4">Device</th>

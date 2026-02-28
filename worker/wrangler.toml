@@ -1,0 +1,10 @@
+name = "xenios-compat-api"
+main = "src/index.ts"
+compatibility_date = "2025-01-01"
+
+# Set these via `wrangler secret put <KEY>`
+# GITHUB_TOKEN            – fine-grained PAT with Contents + Issues read/write on xenios-jp/xenios.jp
+# DISCORD_WEBHOOK         – webhook URL from your #compat-reports channel
+# API_KEY                 – a random secret you embed in the iOS/macOS app
+# DISCORD_APPLICATION_ID  – your Discord application ID (from Developer Portal → General)
+# DISCORD_PUBLIC_KEY      – your Discord public key (from Developer Portal → General, for Ed25519 verification)

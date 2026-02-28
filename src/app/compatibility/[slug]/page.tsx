@@ -5,6 +5,9 @@ import {
   getGameBySlug,
   type GameStatus,
   type PerfTier,
+  type Platform,
+  type Architecture,
+  type GpuBackend,
 } from "@/lib/compatibility";
 import { EMULATOR_GITHUB_COMPATIBILITY_REPORT_URL } from "@/lib/constants";
 import { Pill } from "@/components/pill";
@@ -60,6 +63,30 @@ function perfLabel(perf: PerfTier): string {
   return map[perf];
 }
 
+function platformLabel(platform: Platform): string {
+  const map: Record<Platform, string> = {
+    ios: "iOS",
+    macos: "macOS",
+  };
+  return map[platform];
+}
+
+function archLabel(arch: Architecture): string {
+  const map: Record<Architecture, string> = {
+    arm64: "ARM64",
+    x86_64: "x86_64",
+  };
+  return map[arch];
+}
+
+function gpuLabel(gpu: GpuBackend): string {
+  const map: Record<GpuBackend, string> = {
+    msc: "MSC",
+    msl: "MSL",
+  };
+  return map[gpu];
+}
+
 /* ------------------------------------------------------------------ */
 /*  Page Component                                                     */
 /* ------------------------------------------------------------------ */
@@ -102,6 +129,9 @@ export default async function GameDetailPage({
             </div>
 
             <div className="flex flex-wrap items-center gap-2">
+              {game.platforms.map((p) => (
+                <Pill key={p} variant={p}>{platformLabel(p)}</Pill>
+              ))}
               <Pill variant={game.status}>{statusLabel(game.status)}</Pill>
               <Pill variant={game.perf}>{perfLabel(game.perf)}</Pill>
             </div>
@@ -190,7 +220,9 @@ export default async function GameDetailPage({
                   <tr className="border-b border-border text-sm font-semibold uppercase tracking-wider text-text-muted">
                     <th className="pb-4 pr-4">Date</th>
                     <th className="pb-4 pr-4">Device</th>
-                    <th className="pb-4 pr-4">iOS</th>
+                    <th className="pb-4 pr-4">Platform</th>
+                    <th className="pb-4 pr-4">OS</th>
+                    <th className="pb-4 pr-4">GPU</th>
                     <th className="pb-4 pr-4">Status</th>
                     <th className="pb-4">Notes</th>
                   </tr>
@@ -207,7 +239,20 @@ export default async function GameDetailPage({
                       <td className="py-4 pr-4 text-text-primary">
                         {report.device}
                       </td>
-                      <td className="py-4 pr-4 text-text-secondary">{report.ios}</td>
+                      <td className="py-4 pr-4">
+                        <div className="flex items-center gap-1">
+                          <Pill variant={report.platform}>
+                            {platformLabel(report.platform)}
+                          </Pill>
+                          <span className="text-xs text-text-muted">{archLabel(report.arch)}</span>
+                        </div>
+                      </td>
+                      <td className="py-4 pr-4 text-text-secondary">{report.osVersion}</td>
+                      <td className="py-4 pr-4">
+                        <Pill variant={report.gpuBackend}>
+                          {gpuLabel(report.gpuBackend)}
+                        </Pill>
+                      </td>
                       <td className="py-4 pr-4">
                         <Pill variant={report.status}>
                           {statusLabel(report.status)}
@@ -236,8 +281,10 @@ export default async function GameDetailPage({
                     </Pill>
                   </div>
                   <p className="mb-2 text-[15px] leading-relaxed text-text-secondary">{report.notes}</p>
-                  <div className="flex items-center gap-3 text-sm text-text-muted">
-                    <span>iOS {report.ios}</span>
+                  <div className="flex flex-wrap items-center gap-2 text-sm text-text-muted">
+                    <Pill variant={report.platform}>{platformLabel(report.platform)}</Pill>
+                    <span>{report.osVersion}</span>
+                    <Pill variant={report.gpuBackend}>{gpuLabel(report.gpuBackend)}</Pill>
                     <span>{report.date}</span>
                   </div>
                 </div>

@@ -96,7 +96,9 @@ export async function getXeniaContributors(): Promise<CreditsPayload> {
   const errors: string[] = [];
 
   const responses = await Promise.allSettled(
-    XENIA_REPOS_FOR_CREDITS.map(async ({ owner, slug, label, filterMode }) => {
+    XENIA_REPOS_FOR_CREDITS.map(async (repo) => {
+      const { owner, slug, label } = repo;
+      const filterMode = "filterMode" in repo ? repo.filterMode : undefined;
       const records = await fetchAllContributors(owner, slug);
       const filteredRecords = records.filter((record) => {
         if (filterMode !== "owner-only") return true;

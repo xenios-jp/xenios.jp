@@ -17,7 +17,7 @@ export default function Home() {
   return (
     <>
       {/* Hero */}
-      <section className="hero-gradient-home pt-16 pb-12 md:pt-20 md:pb-14 border-b border-border">
+      <section className="hero-gradient-home pt-28 pb-12 md:pt-32 md:pb-14 border-b border-border">
         <div className="mx-auto max-w-6xl px-6 text-center">
           <HeroTitle />
           <p className="hero-fade-1 mt-4 text-2xl text-text-secondary">
@@ -30,13 +30,13 @@ export default function Home() {
           <div className="hero-fade-2 mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
               href="/download/ios"
-              className="bg-accent hover:bg-accent-hover text-accent-fg font-medium px-10 py-4 rounded-lg text-base transition-colors"
+              className="bg-accent hover:bg-accent-hover text-accent-fg font-medium w-56 text-center py-4 rounded-lg text-base transition-colors"
             >
               Get for iPhone / iPad
             </Link>
             <Link
               href="/download/mac"
-              className="border border-border text-text-primary hover:bg-bg-surface-2 px-10 py-4 rounded-lg text-base transition-colors"
+              className="border border-border text-text-primary hover:bg-bg-surface-2 w-56 text-center py-4 rounded-lg text-base transition-colors"
             >
               Get for Mac
             </Link>
@@ -71,7 +71,7 @@ export default function Home() {
           <p className="mt-2 text-text-secondary text-lg leading-relaxed">
             Pick the platform you&apos;re using and follow that guide.
           </p>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+          <div className="mt-6 grid grid-cols-1 md:grid-cols-3 gap-5">
             <Link
               href="/download/ios"
               className="group border border-border bg-bg-surface rounded-xl p-6 transition-colors hover:border-border-hover"
