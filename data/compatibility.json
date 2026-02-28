@@ -10,22 +10,33 @@
       "MSAA"
     ],
     "platforms": [
-      "ios"
+      "ios",
+      "macos"
     ],
     "lastReport": {
       "device": "iPhone 17",
-      "platform": "ios",
+      "platform": "macos",
       "osVersion": "iOS 26.3",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-02-28",
-    "notes": "Game does not boot",
+    "notes": "Does not boot",
     "recommendedSettings": {
       "resolution": "720p",
       "framerate": "30fps"
     },
     "reports": [
+      {
+        "device": "iPhone 17",
+        "platform": "macos",
+        "osVersion": "iOS 26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "date": "2026-02-28",
+        "notes": "Does not boot"
+      },
       {
         "device": "iPhone 17",
         "platform": "ios",
