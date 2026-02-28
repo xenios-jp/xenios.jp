@@ -31,7 +31,7 @@
 | 🟠 | Halo: Reach | `4D53085B` | 📱 iOS | Loads | 🐢 Poor | iPhone 15 Pro | 2026-01-22 |
 | 🔴 | Destiny | `41560929` | 📱 iOS | Nothing | 🐢 Poor | iPhone 16 Pro | 2026-01-18 |
 | 🔴 | Fable II | `4D530817` | 📱 iOS | Nothing | 🐢 Poor | iPad Air M1 | 2026-01-10 |
-| 🔴 | Halo 3 | `4D5307E6` | 📱 iOS | Nothing | 🐢 Poor | iPhone 17 | 2026-02-28 |
+| 🔴 | Halo 3 | `4D5307E6` | 📱 iOS | Nothing | undefined | iPhone 17 | 2026-02-28 |
 
 ---
 
