@@ -6,7 +6,7 @@ import compatData from "../../data/compatibility.json";
 
 export type GameStatus = "playable" | "ingame" | "intro" | "loads" | "nothing";
 
-export type PerfTier = "great" | "ok" | "poor";
+export type PerfTier = "great" | "ok" | "poor" | "n/a";
 
 export type Platform = "ios" | "macos";
 
