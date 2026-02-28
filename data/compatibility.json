@@ -103,5 +103,44 @@
       }
     ],
     "screenshots": []
+  },
+  {
+    "slug": "gears-of-war",
+    "title": "Gears of War",
+    "titleId": "4D5307D5",
+    "status": "ingame",
+    "perf": "ok",
+    "tags": [],
+    "platforms": [
+      "macos"
+    ],
+    "lastReport": {
+      "device": "MacBook Pro M4 Pro/Max",
+      "platform": "macos",
+      "osVersion": "26.3",
+      "arch": "arm64",
+      "gpuBackend": "msc"
+    },
+    "updatedAt": "2026-02-28",
+    "notes": "Runs well but with pretty severe intermittent graphical issues.",
+    "recommendedSettings": {
+      "resolution": "720p",
+      "framerate": "30fps"
+    },
+    "reports": [
+      {
+        "device": "MacBook Pro M4 Pro/Max",
+        "platform": "macos",
+        "osVersion": "26.3",
+        "arch": "arm64",
+        "gpuBackend": "msc",
+        "status": "ingame",
+        "date": "2026-02-28",
+        "notes": "Runs well but with pretty severe intermittent graphical issues.",
+        "submittedBy": "reality111",
+        "source": "discord"
+      }
+    ],
+    "screenshots": []
   }
 ]
