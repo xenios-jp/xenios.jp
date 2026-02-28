@@ -3,15 +3,39 @@
     "slug": "halo-3",
     "title": "Halo 3",
     "titleId": "4D5307E6",
-    "status": "playable",
-    "perf": "great",
-    "tags": ["depth", "MSAA"],
-    "platforms": ["ios"],
-    "lastReport": { "device": "iPhone 16 Pro", "platform": "ios", "osVersion": "18.3", "arch": "arm64", "gpuBackend": "msl" },
-    "updatedAt": "2026-02-12",
-    "notes": "Fully playable through campaign and multiplayer menus. Minor audio stutter in cutscenes on occasion.",
-    "recommendedSettings": { "resolution": "720p", "framerate": "30fps" },
+    "status": "nothing",
+    "perf": "poor",
+    "tags": [
+      "depth",
+      "MSAA"
+    ],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 17",
+      "platform": "ios",
+      "osVersion": "iOS 26.3",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-02-28",
+    "notes": "Does not boot",
+    "recommendedSettings": {
+      "resolution": "720p",
+      "framerate": "30fps"
+    },
     "reports": [
+      {
+        "device": "iPhone 17",
+        "platform": "ios",
+        "osVersion": "iOS 26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "date": "2026-02-28",
+        "notes": "Does not boot"
+      },
       {
         "device": "iPhone 16 Pro",
         "platform": "ios",
@@ -41,12 +65,26 @@
     "titleId": "4D530804",
     "status": "playable",
     "perf": "ok",
-    "tags": ["UE3", "bloom"],
-    "platforms": ["ios"],
-    "lastReport": { "device": "iPad Pro M2", "platform": "ios", "osVersion": "17.5", "arch": "arm64", "gpuBackend": "msl" },
+    "tags": [
+      "UE3",
+      "bloom"
+    ],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPad Pro M2",
+      "platform": "ios",
+      "osVersion": "17.5",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
     "updatedAt": "2026-02-08",
     "notes": "Campaign playable start to finish. Co-op untested. Some bloom rendering artifacts in dark scenes.",
-    "recommendedSettings": { "resolution": "720p", "framerate": "30fps" },
+    "recommendedSettings": {
+      "resolution": "720p",
+      "framerate": "30fps"
+    },
     "reports": [
       {
         "device": "iPad Pro M2",
@@ -67,12 +105,26 @@
     "titleId": "4D530910",
     "status": "playable",
     "perf": "great",
-    "tags": ["HDR", "vsync"],
-    "platforms": ["ios"],
-    "lastReport": { "device": "iPhone 16 Pro Max", "platform": "ios", "osVersion": "18.3", "arch": "arm64", "gpuBackend": "msl" },
+    "tags": [
+      "HDR",
+      "vsync"
+    ],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 16 Pro Max",
+      "platform": "ios",
+      "osVersion": "18.3",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
     "updatedAt": "2026-02-14",
     "notes": "Race events fully functional. Career mode and Autovista work correctly. Excellent performance on A18 Pro.",
-    "recommendedSettings": { "resolution": "1080p", "framerate": "30fps" },
+    "recommendedSettings": {
+      "resolution": "1080p",
+      "framerate": "30fps"
+    },
     "reports": [
       {
         "device": "iPhone 16 Pro Max",
@@ -103,12 +155,27 @@
     "titleId": "5454082B",
     "status": "ingame",
     "perf": "ok",
-    "tags": ["open-world", "streaming", "depth"],
-    "platforms": ["ios"],
-    "lastReport": { "device": "iPhone 15 Pro", "platform": "ios", "osVersion": "17.3", "arch": "arm64", "gpuBackend": "msl" },
+    "tags": [
+      "open-world",
+      "streaming",
+      "depth"
+    ],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 15 Pro",
+      "platform": "ios",
+      "osVersion": "17.3",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
     "updatedAt": "2026-02-10",
     "notes": "Free roam and early missions functional. Random crashes after 20-30 minutes of gameplay. Saving works.",
-    "recommendedSettings": { "resolution": "540p", "framerate": "20fps" },
+    "recommendedSettings": {
+      "resolution": "540p",
+      "framerate": "20fps"
+    },
     "reports": [
       {
         "device": "iPhone 15 Pro",
@@ -129,12 +196,27 @@
     "titleId": "425307E6",
     "status": "ingame",
     "perf": "poor",
-    "tags": ["open-world", "shaders", "save-system"],
-    "platforms": ["ios"],
-    "lastReport": { "device": "iPhone 16 Pro", "platform": "ios", "osVersion": "18.2", "arch": "arm64", "gpuBackend": "msl" },
+    "tags": [
+      "open-world",
+      "shaders",
+      "save-system"
+    ],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 16 Pro",
+      "platform": "ios",
+      "osVersion": "18.2",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
     "updatedAt": "2026-02-06",
     "notes": "Character creation and Helgen intro playable. Open world accessible but runs at very low framerate. Many shader issues.",
-    "recommendedSettings": { "resolution": "540p", "framerate": "15fps" },
+    "recommendedSettings": {
+      "resolution": "540p",
+      "framerate": "15fps"
+    },
     "reports": [
       {
         "device": "iPhone 16 Pro",
@@ -165,12 +247,26 @@
     "titleId": "41560817",
     "status": "ingame",
     "perf": "ok",
-    "tags": ["IW-engine", "audio-sync"],
-    "platforms": ["ios"],
-    "lastReport": { "device": "iPad Air M1", "platform": "ios", "osVersion": "17.5", "arch": "arm64", "gpuBackend": "msl" },
+    "tags": [
+      "IW-engine",
+      "audio-sync"
+    ],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPad Air M1",
+      "platform": "ios",
+      "osVersion": "17.5",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
     "updatedAt": "2026-02-03",
     "notes": "Campaign missions load and are partially playable. Audio desync issues. Multiplayer not functional.",
-    "recommendedSettings": { "resolution": "720p", "framerate": "25fps" },
+    "recommendedSettings": {
+      "resolution": "720p",
+      "framerate": "25fps"
+    },
     "reports": [
       {
         "device": "iPad Air M1",
@@ -191,12 +287,27 @@
     "titleId": "545408A7",
     "status": "intro",
     "perf": "poor",
-    "tags": ["RAGE-engine", "streaming", "memory"],
-    "platforms": ["ios"],
-    "lastReport": { "device": "iPhone 16 Pro Max", "platform": "ios", "osVersion": "18.3", "arch": "arm64", "gpuBackend": "msl" },
+    "tags": [
+      "RAGE-engine",
+      "streaming",
+      "memory"
+    ],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 16 Pro Max",
+      "platform": "ios",
+      "osVersion": "18.3",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
     "updatedAt": "2026-02-11",
     "notes": "Passes intro logos and loading screens. Reaches initial cutscene but crashes before gameplay begins.",
-    "recommendedSettings": { "resolution": "480p", "framerate": "15fps" },
+    "recommendedSettings": {
+      "resolution": "480p",
+      "framerate": "15fps"
+    },
     "reports": [
       {
         "device": "iPhone 16 Pro Max",
@@ -217,12 +328,27 @@
     "titleId": "4541080F",
     "status": "intro",
     "perf": "poor",
-    "tags": ["UE3", "bink-video", "lighting"],
-    "platforms": ["ios"],
-    "lastReport": { "device": "iPhone 15 Pro", "platform": "ios", "osVersion": "17.4", "arch": "arm64", "gpuBackend": "msl" },
+    "tags": [
+      "UE3",
+      "bink-video",
+      "lighting"
+    ],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 15 Pro",
+      "platform": "ios",
+      "osVersion": "17.4",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
     "updatedAt": "2026-01-29",
     "notes": "Reaches main menu and intro cinematic plays. Crashes on new game after initial cutscene.",
-    "recommendedSettings": { "resolution": "540p", "framerate": "20fps" },
+    "recommendedSettings": {
+      "resolution": "540p",
+      "framerate": "20fps"
+    },
     "reports": [
       {
         "device": "iPhone 15 Pro",
@@ -243,12 +369,27 @@
     "titleId": "4E4D0858",
     "status": "intro",
     "perf": "poor",
-    "tags": ["FromSoft", "depth", "render-target"],
-    "platforms": ["ios"],
-    "lastReport": { "device": "iPad Pro M2", "platform": "ios", "osVersion": "18.1", "arch": "arm64", "gpuBackend": "msl" },
+    "tags": [
+      "FromSoft",
+      "depth",
+      "render-target"
+    ],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPad Pro M2",
+      "platform": "ios",
+      "osVersion": "18.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
     "updatedAt": "2026-02-01",
     "notes": "Title screen and opening cinematic visible. Character creation screen loads but hangs during confirmation.",
-    "recommendedSettings": { "resolution": "540p", "framerate": "15fps" },
+    "recommendedSettings": {
+      "resolution": "540p",
+      "framerate": "15fps"
+    },
     "reports": [
       {
         "device": "iPad Pro M2",
@@ -269,12 +410,27 @@
     "titleId": "4D53085B",
     "status": "loads",
     "perf": "poor",
-    "tags": ["depth", "MSAA", "memory"],
-    "platforms": ["ios"],
-    "lastReport": { "device": "iPhone 15 Pro", "platform": "ios", "osVersion": "17.3", "arch": "arm64", "gpuBackend": "msl" },
+    "tags": [
+      "depth",
+      "MSAA",
+      "memory"
+    ],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 15 Pro",
+      "platform": "ios",
+      "osVersion": "17.3",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
     "updatedAt": "2026-01-22",
     "notes": "Game boots and reaches the main menu. Selecting any option causes a crash. No gameplay reached.",
-    "recommendedSettings": { "resolution": "480p", "framerate": "15fps" },
+    "recommendedSettings": {
+      "resolution": "480p",
+      "framerate": "15fps"
+    },
     "reports": [
       {
         "device": "iPhone 15 Pro",
@@ -295,12 +451,26 @@
     "titleId": "41560929",
     "status": "nothing",
     "perf": "poor",
-    "tags": ["always-online", "network"],
-    "platforms": ["ios"],
-    "lastReport": { "device": "iPhone 16 Pro", "platform": "ios", "osVersion": "18.2", "arch": "arm64", "gpuBackend": "msl" },
+    "tags": [
+      "always-online",
+      "network"
+    ],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 16 Pro",
+      "platform": "ios",
+      "osVersion": "18.2",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
     "updatedAt": "2026-01-18",
     "notes": "Requires online connection which cannot be emulated. Black screen after initial loading.",
-    "recommendedSettings": { "resolution": "N/A", "framerate": "N/A" },
+    "recommendedSettings": {
+      "resolution": "N/A",
+      "framerate": "N/A"
+    },
     "reports": [
       {
         "device": "iPhone 16 Pro",
@@ -321,12 +491,26 @@
     "titleId": "4D530817",
     "status": "nothing",
     "perf": "poor",
-    "tags": ["GPU-hang", "vertex-shaders"],
-    "platforms": ["ios"],
-    "lastReport": { "device": "iPad Air M1", "platform": "ios", "osVersion": "17.5", "arch": "arm64", "gpuBackend": "msl" },
+    "tags": [
+      "GPU-hang",
+      "vertex-shaders"
+    ],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPad Air M1",
+      "platform": "ios",
+      "osVersion": "17.5",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
     "updatedAt": "2026-01-10",
     "notes": "Crashes immediately on boot. GPU command buffer errors in logs. No output rendered.",
-    "recommendedSettings": { "resolution": "N/A", "framerate": "N/A" },
+    "recommendedSettings": {
+      "resolution": "N/A",
+      "framerate": "N/A"
+    },
     "reports": [
       {
         "device": "iPad Air M1",
