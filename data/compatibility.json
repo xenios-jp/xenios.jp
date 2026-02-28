@@ -14,9 +14,9 @@
       "macos"
     ],
     "lastReport": {
-      "device": "iPhone 17",
+      "device": "iPhone 16 Pro Max",
       "platform": "macos",
-      "osVersion": "iOS 26.3",
+      "osVersion": "18.3",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
@@ -27,6 +27,16 @@
       "framerate": "30fps"
     },
     "reports": [
+      {
+        "device": "iPhone 16 Pro Max",
+        "platform": "macos",
+        "osVersion": "18.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "date": "2026-02-28",
+        "notes": "Does not boot"
+      },
       {
         "device": "iPhone 17",
         "platform": "macos",
