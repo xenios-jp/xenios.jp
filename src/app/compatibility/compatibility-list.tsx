@@ -4,6 +4,7 @@ import { useSearchParams, useRouter } from "next/navigation";
 import { useMemo, useCallback, Suspense } from "react";
 import Link from "next/link";
 import { type GameStatus, type PerfTier, type Game } from "@/lib/compatibility";
+import { EMULATOR_GITHUB_COMPATIBILITY_REPORT_URL } from "@/lib/constants";
 import { Pill } from "@/components/pill";
 
 type SortKey = "updated" | "alpha";
@@ -380,7 +381,7 @@ function CompatibilityListInner({ games: allGames }: { games: Game[] }) {
         </p>
       </div>
 
-      <div className="mx-auto max-w-6xl px-4 pt-4 pb-16 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-6xl px-4 pt-4 pb-8 sm:px-6 lg:px-8">
         <div className="hidden overflow-x-auto rounded-xl border border-border bg-bg-surface md:block">
           <table className="w-full text-left text-sm">
             <thead>
@@ -418,6 +419,38 @@ function CompatibilityListInner({ games: allGames }: { games: Game[] }) {
             </div>
           ) : null}
         </div>
+      </div>
+
+      <div className="mx-auto max-w-6xl px-4 pb-16 sm:px-6 lg:px-8">
+        <section className="rounded-xl border border-accent/20 bg-accent/[0.04] p-8 text-center">
+          <h2 className="mb-2 text-xl font-semibold text-text-primary">
+            Don&apos;t see your game?
+          </h2>
+          <p className="mt-2 mb-4 text-[15px] leading-relaxed text-text-secondary">
+            Help the community by testing a game and submitting a compatibility report.
+          </p>
+          <a
+            href={EMULATOR_GITHUB_COMPATIBILITY_REPORT_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 rounded-full bg-accent px-8 py-3.5 text-[15px] font-semibold text-accent-fg transition hover:bg-accent-hover"
+          >
+            Submit Report
+            <svg
+              className="h-4 w-4"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              strokeWidth={2}
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M13 7l5 5m0 0l-5 5m5-5H6"
+              />
+            </svg>
+          </a>
+        </section>
       </div>
     </div>
   );
