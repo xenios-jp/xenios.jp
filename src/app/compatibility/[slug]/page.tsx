@@ -23,6 +23,9 @@ interface GitHubIssueSearchItem {
   comments_url: string;
   body: string | null;
   updated_at: string;
+  user?: {
+    login: string;
+  };
 }
 
 interface GitHubIssueSearchResponse {
@@ -44,6 +47,7 @@ interface GitHubDiscussionComment {
   url: string;
   author: string;
   createdAt: string;
+  issueNumber: number;
   excerpt: string;
   images: string[];
 }
@@ -164,6 +168,27 @@ function formatIsoDate(dateString: string): string {
   return timestamp.toISOString().slice(0, 10);
 }
 
+function dedupeImageUrls(urls: string[]): string[] {
+  const bestByPath = new Map<string, string>();
+
+  urls.forEach((url) => {
+    try {
+      const parsed = new URL(url);
+      const key = `${parsed.origin}${parsed.pathname}`;
+      const existing = bestByPath.get(key);
+      if (!existing || url.length > existing.length) {
+        bestByPath.set(key, url);
+      }
+    } catch {
+      if (!bestByPath.has(url)) {
+        bestByPath.set(url, url);
+      }
+    }
+  });
+
+  return [...bestByPath.values()];
+}
+
 async function fetchGitHubDiscussion(titleId: string): Promise<GitHubDiscussionData | null> {
   const query = encodeURIComponent(
     `${titleId} repo:${DISCUSSION_REPO_OWNER}/${DISCUSSION_REPO_NAME} label:compat-report is:issue`
@@ -181,44 +206,55 @@ async function fetchGitHubDiscussion(titleId: string): Promise<GitHubDiscussionD
     if (!searchRes.ok) return null;
 
     const searchJson = (await searchRes.json()) as GitHubIssueSearchResponse;
-    const canonicalIssue = searchJson.items
+    const sortedIssues = searchJson.items
       .slice()
       .sort((a, b) => {
         if (a.state === "open" && b.state !== "open") return -1;
         if (b.state === "open" && a.state !== "open") return 1;
         return new Date(b.updated_at).getTime() - new Date(a.updated_at).getTime();
-      })[0];
+      });
+
+    const canonicalIssue = sortedIssues[0];
 
     if (!canonicalIssue) return null;
 
-    const commentsRes = await fetch(canonicalIssue.comments_url, {
-      headers,
-      cache: "force-cache",
-    });
+    const issueComments = await Promise.all(
+      sortedIssues.slice(0, 5).map(async (issue) => {
+        const commentsRes = await fetch(issue.comments_url, {
+          headers,
+          cache: "force-cache",
+        });
+        if (!commentsRes.ok) return [] as GitHubDiscussionComment[];
 
-    const rawComments = commentsRes.ok
-      ? ((await commentsRes.json()) as GitHubIssueCommentResponse[])
-      : [];
+        const rawComments = (await commentsRes.json()) as GitHubIssueCommentResponse[];
+        return rawComments
+          .filter((comment) => comment.user.login !== "github-actions[bot]")
+          .map((comment) => ({
+            id: comment.id,
+            url: comment.html_url,
+            author: comment.user.login,
+            createdAt: formatIsoDate(comment.created_at),
+            issueNumber: issue.number,
+            excerpt: normalizeExcerpt(comment.body),
+            images: extractImageUrls(comment.body),
+          }))
+          .filter((comment) => comment.excerpt.length > 0 || comment.images.length > 0);
+      })
+    );
 
-    const comments = rawComments
-      .filter((comment) => comment.user.login !== "github-actions[bot]")
-      .map((comment) => ({
-        id: comment.id,
-        url: comment.html_url,
-        author: comment.user.login,
-        createdAt: formatIsoDate(comment.created_at),
-        excerpt: normalizeExcerpt(comment.body),
-        images: extractImageUrls(comment.body),
-      }))
-      .filter((comment) => comment.excerpt.length > 0 || comment.images.length > 0)
-      .reverse()
+    const comments = issueComments
+      .flat()
+      .sort((a, b) => {
+        if (a.createdAt === b.createdAt) return b.id - a.id;
+        return a.createdAt < b.createdAt ? 1 : -1;
+      })
       .slice(0, MAX_DISCUSSION_COMMENTS);
 
     const allImages = [
-      ...extractImageUrls(canonicalIssue.body ?? ""),
+      ...sortedIssues.flatMap((issue) => extractImageUrls(issue.body ?? "")),
       ...comments.flatMap((comment) => comment.images),
     ];
-    const uniqueImages = [...new Set(allImages)];
+    const uniqueImages = dedupeImageUrls(allImages);
 
     return {
       issueNumber: canonicalIssue.number,
@@ -463,7 +499,7 @@ export default async function GameDetailPage({
                     >
                       <div className="mb-2 flex items-center justify-between gap-3">
                         <span className="text-sm font-medium text-text-primary">
-                          @{comment.author}
+                          @{comment.author} · Issue #{comment.issueNumber}
                         </span>
                         <span className="text-xs text-text-muted">{comment.createdAt}</span>
                       </div>
