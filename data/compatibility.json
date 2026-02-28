@@ -5,10 +5,7 @@
     "titleId": "4D5307E6",
     "status": "nothing",
     "perf": "n/a",
-    "tags": [
-      "depth",
-      "MSAA"
-    ],
+    "tags": [],
     "platforms": [
       "ios",
       "macos"
@@ -23,8 +20,8 @@
     "updatedAt": "2026-02-28",
     "notes": "Does not boot",
     "recommendedSettings": {
-      "resolution": "720p",
-      "framerate": "30fps"
+      "resolution": "N/A",
+      "framerate": "N/A"
     },
     "reports": [
       {
@@ -66,26 +63,6 @@
         "status": "nothing",
         "date": "2026-02-28",
         "notes": "Does not boot"
-      },
-      {
-        "device": "iPhone 16 Pro",
-        "platform": "ios",
-        "osVersion": "18.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "date": "2026-02-12",
-        "notes": "Completed campaign on Heroic. Stable 30fps at 720p."
-      },
-      {
-        "device": "iPhone 15 Pro",
-        "platform": "ios",
-        "osVersion": "17.4",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "date": "2026-01-20",
-        "notes": "Playable with occasional frame drops in large firefights."
       }
     ],
     "screenshots": []
