@@ -4,7 +4,7 @@
     "title": "Halo 3",
     "titleId": "4D5307E6",
     "status": "nothing",
-    "perf": "poor",
+    "perf": "n/a",
     "tags": [
       "depth",
       "MSAA"
@@ -20,12 +20,22 @@
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-02-28",
-    "notes": "Does not boot",
+    "notes": "Game does not boot",
     "recommendedSettings": {
       "resolution": "720p",
       "framerate": "30fps"
     },
     "reports": [
+      {
+        "device": "iPhone 17",
+        "platform": "ios",
+        "osVersion": "iOS 26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "date": "2026-02-28",
+        "notes": "Game does not boot"
+      },
       {
         "device": "iPhone 17",
         "platform": "ios",
