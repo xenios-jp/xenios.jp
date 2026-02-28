@@ -89,5 +89,42 @@
       }
     ],
     "screenshots": []
+  },
+  {
+    "slug": "gta-iv",
+    "title": "GTA IV",
+    "titleId": "545407F2",
+    "status": "ingame",
+    "perf": "poor",
+    "tags": [],
+    "platforms": [
+      "macos"
+    ],
+    "lastReport": {
+      "device": "MacBook Pro M4 Pro/Max",
+      "platform": "macos",
+      "osVersion": "15.3",
+      "arch": "arm64",
+      "gpuBackend": "msc"
+    },
+    "updatedAt": "2026-02-28",
+    "notes": "Get's into game with severe graphical issues. Framerate is above 30 on M4 Pro.",
+    "recommendedSettings": {
+      "resolution": "720p",
+      "framerate": "30fps"
+    },
+    "reports": [
+      {
+        "device": "MacBook Pro M4 Pro/Max",
+        "platform": "macos",
+        "osVersion": "15.3",
+        "arch": "arm64",
+        "gpuBackend": "msc",
+        "status": "ingame",
+        "date": "2026-02-28",
+        "notes": "Get's into game with severe graphical issues. Framerate is above 30 on M4 Pro."
+      }
+    ],
+    "screenshots": []
   }
 ]
