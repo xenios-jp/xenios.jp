@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **3 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **4 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **0** · 🔵 In-Game: **2** · 🟡 Intro: **0** · 🟠 Loads: **0** · 🔴 Doesn't Boot: **1**
+> 🟢 Playable: **0** · 🔵 In-Game: **3** · 🟡 Intro: **0** · 🟠 Loads: **0** · 🔴 Doesn't Boot: **1**
 >
-> 📱 iOS: **1** · 🖥️ macOS: **3**
+> 📱 iOS: **1** · 🖥️ macOS: **4**
 
 ## Legend
 
@@ -22,6 +22,7 @@
 |-|-------|----------|----------|--------|------|-------------|---------|
 | 🔵 | Gears of War | `4D5307D5` | 🖥️ macOS | In-Game | 👌 OK | MacBook Pro M4 Pro/Max | 2026-02-28 |
 | 🔵 | GTA IV | `545407F2` | 🖥️ macOS | In-Game | 🐢 Poor | MacBook Pro M4 Pro/Max | 2026-02-28 |
+| 🔵 | Metro: Last Light | `4B4D07F5` | 🖥️ macOS | In-Game | 👌 OK | MacBook Pro M4 Pro/Max | 2026-02-28 |
 | 🔴 | Halo 3 | `4D5307E6` | 📱 iOS, 🖥️ macOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro Max | 2026-02-28 |
 
 ---
