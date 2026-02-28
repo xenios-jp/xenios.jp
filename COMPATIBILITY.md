@@ -2,7 +2,7 @@
 
 > **12 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **3** · 🔵 In-Game: **3** · 🟡 Intro: **3** · 🟠 Loads: **1** · 🔴 Nothing: **2**
+> 🟢 Playable: **2** · 🔵 In-Game: **3** · 🟡 Intro: **3** · 🟠 Loads: **1** · 🔴 Nothing: **3**
 >
 > 📱 iOS: **12**
 
@@ -22,7 +22,6 @@
 |-|-------|----------|----------|--------|------|-------------|---------|
 | 🟢 | Forza Motorsport 4 | `4D530910` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro Max | 2026-02-14 |
 | 🟢 | Gears of War 2 | `4D530804` | 📱 iOS | Playable | 👌 OK | iPad Pro M2 | 2026-02-08 |
-| 🟢 | Halo 3 | `4D5307E6` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro | 2026-02-12 |
 | 🔵 | Call of Duty: Modern Warfare 2 | `41560817` | 📱 iOS | In-Game | 👌 OK | iPad Air M1 | 2026-02-03 |
 | 🔵 | Red Dead Redemption | `5454082B` | 📱 iOS | In-Game | 👌 OK | iPhone 15 Pro | 2026-02-10 |
 | 🔵 | The Elder Scrolls V: Skyrim | `425307E6` | 📱 iOS | In-Game | 🐢 Poor | iPhone 16 Pro | 2026-02-06 |
@@ -32,6 +31,7 @@
 | 🟠 | Halo: Reach | `4D53085B` | 📱 iOS | Loads | 🐢 Poor | iPhone 15 Pro | 2026-01-22 |
 | 🔴 | Destiny | `41560929` | 📱 iOS | Nothing | 🐢 Poor | iPhone 16 Pro | 2026-01-18 |
 | 🔴 | Fable II | `4D530817` | 📱 iOS | Nothing | 🐢 Poor | iPad Air M1 | 2026-01-10 |
+| 🔴 | Halo 3 | `4D5307E6` | 📱 iOS | Nothing | 🐢 Poor | iPhone 17 | 2026-02-28 |
 
 ---
 
