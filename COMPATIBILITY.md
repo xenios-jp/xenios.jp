@@ -20,7 +20,7 @@
 
 | | Title | Title ID | Platform | Status | Perf | Last Device | Updated |
 |-|-------|----------|----------|--------|------|-------------|---------|
-| 🔴 | Halo 3 | `4D5307E6` | 📱 iOS, 🖥️ macOS | Nothing | undefined | iPhone 17 | 2026-02-28 |
+| 🔴 | Halo 3 | `4D5307E6` | 📱 iOS, 🖥️ macOS | Nothing | undefined | iPhone 16 Pro Max | 2026-02-28 |
 
 ---
 
