@@ -29,7 +29,7 @@ const STATUS_LABELS: Record<GameStatus, string> = {
   ingame: "In-Game",
   intro: "Intro",
   loads: "Loads",
-  nothing: "Doesn't Boot",
+  nothing: "Nothing",
 };
 
 const STATUS_COLORS: Record<GameStatus, string> = {

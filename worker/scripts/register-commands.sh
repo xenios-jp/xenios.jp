@@ -156,3 +156,39 @@ else
   echo "$BODY"
   exit 1
 fi
+
+# ── /compat command ──────────────────────────────────────────────────
+COMPAT_PAYLOAD=$(cat <<'EOF'
+{
+  "name": "compat",
+  "type": 1,
+  "description": "Look up XeniOS game compatibility",
+  "options": [
+    {
+      "name": "game",
+      "description": "Search by game title or title ID (leave empty for summary)",
+      "type": 3,
+      "required": false
+    }
+  ]
+}
+EOF
+)
+
+echo "Registering /compat command..."
+RESPONSE=$(curl -s -w "\n%{http_code}" -X POST "$API" \
+  -H "Authorization: Bot ${DISCORD_BOT_TOKEN}" \
+  -H "Content-Type: application/json" \
+  -d "$COMPAT_PAYLOAD")
+
+HTTP_CODE=$(echo "$RESPONSE" | tail -n1)
+BODY=$(echo "$RESPONSE" | sed '$d')
+
+if [ "$HTTP_CODE" = "200" ] || [ "$HTTP_CODE" = "201" ]; then
+  echo "Success! /compat command registered."
+  echo "$BODY" | python3 -c "import sys,json; d=json.load(sys.stdin); print(f'Command ID: {d[\"id\"]}')" 2>/dev/null || true
+else
+  echo "Failed with HTTP $HTTP_CODE:"
+  echo "$BODY"
+  exit 1
+fi

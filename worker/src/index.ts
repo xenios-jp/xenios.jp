@@ -29,6 +29,8 @@
 interface Env {
   GITHUB_TOKEN: string;
   DISCORD_WEBHOOK: string;
+  DISCORD_BOARD_WEBHOOK: string;
+  DISCORD_BOARD_MESSAGE_ID: string;
   API_KEY: string;
   DISCORD_APPLICATION_ID: string;
   DISCORD_PUBLIC_KEY: string;
@@ -444,7 +446,7 @@ const STATUS_LABELS: Record<GameStatus, string> = {
   ingame: "\uD83D\uDFE6 In-Game",
   intro: "\uD83D\uDFE8 Intro",
   loads: "\uD83D\uDFE7 Loads",
-  nothing: "\uD83D\uDD34 Doesn't Boot",
+  nothing: "\uD83D\uDD34 Nothing",
 };
 
 const PERF_LABELS: Record<PerfTier, string> = {
@@ -499,6 +501,100 @@ async function postToDiscord(webhookUrl: string, report: ReportPayload, issueUrl
 
   if (!res.ok) {
     console.error(`Discord webhook failed: ${res.status} ${await res.text()}`);
+  }
+}
+
+// ── Compatibility Board (auto-updating Discord embed) ────────────────
+
+const WEBSITE_BASE = "https://xenios.jp";
+
+const STATUS_EMOJI: Record<GameStatus, string> = {
+  playable: "\u2705",
+  ingame: "\uD83D\uDFE6",
+  intro: "\uD83D\uDFE8",
+  loads: "\uD83D\uDFE7",
+  nothing: "\uD83D\uDD34",
+};
+
+const STATUS_ORDER: GameStatus[] = ["playable", "ingame", "intro", "loads", "nothing"];
+
+const STATUS_LABEL_PLAIN: Record<GameStatus, string> = {
+  playable: "Playable",
+  ingame: "In-Game",
+  intro: "Intro",
+  loads: "Loads",
+  nothing: "Nothing",
+};
+
+async function updateCompatBoard(env: Env, games: Game[]): Promise<void> {
+  if (!env.DISCORD_BOARD_WEBHOOK) return;
+
+  // Sort games: by status order, then alphabetically
+  const sorted = [...games].sort((a, b) => {
+    const si = STATUS_ORDER.indexOf(a.status);
+    const bi = STATUS_ORDER.indexOf(b.status);
+    if (si !== bi) return si - bi;
+    return a.title.localeCompare(b.title);
+  });
+
+  // Build description grouped by status
+  const sections: string[] = [];
+  for (const status of STATUS_ORDER) {
+    const group = sorted.filter((g) => g.status === status);
+    if (group.length === 0) continue;
+    const header = `${STATUS_EMOJI[status]} **${STATUS_LABEL_PLAIN[status]}** (${group.length})`;
+    const rows = group.map(
+      (g) => `[${g.title}](${WEBSITE_BASE}/compatibility/${g.slug}) \u2014 ${g.lastReport.device}`
+    );
+    sections.push(`${header}\n${rows.join("\n")}`);
+  }
+
+  const description = sections.join("\n\n");
+
+  // Discord embed description limit is 4096 chars. If over, truncate.
+  const truncated = description.length > 4000
+    ? description.slice(0, 4000) + "\n\n*...and more. See full list on the website.*"
+    : description;
+
+  const embed = {
+    title: "Game Compatibility",
+    description: truncated,
+    color: 0x34d399,
+    footer: { text: `${games.length} games \u2022 xenios.jp/compatibility` },
+    timestamp: new Date().toISOString(),
+  };
+
+  const payload = JSON.stringify({
+    embeds: [embed],
+    // Suppress link previews
+    flags: 1 << 2,
+  });
+
+  // Try to edit existing message first
+  if (env.DISCORD_BOARD_MESSAGE_ID) {
+    const editUrl = `${env.DISCORD_BOARD_WEBHOOK}/messages/${env.DISCORD_BOARD_MESSAGE_ID}`;
+    const res = await fetch(editUrl, {
+      method: "PATCH",
+      headers: { "Content-Type": "application/json" },
+      body: payload,
+    });
+    if (res.ok) return;
+    console.error(`Board edit failed (${res.status}), will post new message`);
+  }
+
+  // Post new message (manual pin needed by server admin)
+  const postUrl = `${env.DISCORD_BOARD_WEBHOOK}?wait=true`;
+  const res = await fetch(postUrl, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: payload,
+  });
+
+  if (res.ok) {
+    const msg = (await res.json()) as { id: string };
+    console.log(`[board] New board message posted, ID: ${msg.id}. Set DISCORD_BOARD_MESSAGE_ID=${msg.id} as a secret/var to enable editing.`);
+  } else {
+    console.error(`Board post failed: ${res.status} ${await res.text()}`);
   }
 }
 
@@ -610,6 +706,13 @@ async function processReport(env: Env, report: ReportPayload, source: ReportSour
     await postToDiscord(env.DISCORD_WEBHOOK, report, issueUrl, source, screenshotUrl, submittedBy);
   } catch (e) {
     console.error("Discord post failed:", e);
+  }
+
+  // 6. Update compatibility board channel
+  try {
+    await updateCompatBoard(env, updated);
+  } catch (e) {
+    console.error("Board update failed:", e);
   }
 
   return {
@@ -825,8 +928,9 @@ async function handleDiscordInteraction(request: Request, env: Env, ctx: Executi
       return discordJsonResponse({ type: RESPONSE_TYPE.PONG });
     }
 
-    // ── APPLICATION_COMMAND: /report → cache enum options, open text modal ─
+    // ── APPLICATION_COMMAND ─
     if (interaction.type === INTERACTION_TYPE.APPLICATION_COMMAND) {
+      const commandName = interaction.data.name as string;
       const options = interaction.data.options || [];
       const resolved = interaction.data.resolved || {};
 
@@ -835,6 +939,79 @@ async function handleDiscordInteraction(request: Request, env: Env, ctx: Executi
         return opt ? String(opt.value) : "";
       };
 
+      // ── /compat [game] — look up compatibility ─
+      if (commandName === "compat") {
+        const query = getOption("game").toLowerCase().trim();
+
+        try {
+          const { content: games } = await getFileFromGitHub(env.GITHUB_TOKEN);
+
+          if (!query) {
+            // No search term: show summary
+            const counts: Record<GameStatus, number> = { playable: 0, ingame: 0, intro: 0, loads: 0, nothing: 0 };
+            games.forEach((g: Game) => { counts[g.status] += 1; });
+
+            const lines = STATUS_ORDER.map(
+              (s) => `${STATUS_EMOJI[s]} **${STATUS_LABEL_PLAIN[s]}**: ${counts[s]}`
+            );
+
+            return discordJsonResponse({
+              type: RESPONSE_TYPE.CHANNEL_MESSAGE,
+              data: {
+                embeds: [{
+                  title: "Game Compatibility",
+                  description: lines.join("\n") + `\n\n**${games.length} games tested**\n[Browse full list](${WEBSITE_BASE}/compatibility)`,
+                  color: 0x34d399,
+                }],
+                flags: FLAGS.EPHEMERAL,
+              },
+            });
+          }
+
+          // Search by title or title ID
+          const matches = games.filter(
+            (g: Game) => g.title.toLowerCase().includes(query) || g.titleId.toLowerCase().includes(query)
+          ).slice(0, 5);
+
+          if (matches.length === 0) {
+            return discordJsonResponse({
+              type: RESPONSE_TYPE.CHANNEL_MESSAGE,
+              data: {
+                content: `No games found matching "${getOption("game")}". [Browse all](${WEBSITE_BASE}/compatibility)`,
+                flags: FLAGS.EPHEMERAL,
+              },
+            });
+          }
+
+          const embeds = matches.map((g: Game) => ({
+            title: g.title,
+            url: `${WEBSITE_BASE}/compatibility/${g.slug}`,
+            description: g.notes.slice(0, 200) + (g.notes.length > 200 ? "..." : ""),
+            color: STATUS_COLORS[g.status],
+            fields: [
+              { name: "Status", value: `${STATUS_EMOJI[g.status]} ${STATUS_LABEL_PLAIN[g.status]}`, inline: true },
+              { name: "Device", value: g.lastReport.device, inline: true },
+              { name: "Title ID", value: `\`${g.titleId}\``, inline: true },
+            ],
+            footer: { text: `Updated ${g.updatedAt}` },
+          }));
+
+          return discordJsonResponse({
+            type: RESPONSE_TYPE.CHANNEL_MESSAGE,
+            data: { embeds, flags: FLAGS.EPHEMERAL },
+          });
+        } catch (e) {
+          return discordJsonResponse({
+            type: RESPONSE_TYPE.CHANNEL_MESSAGE,
+            data: {
+              content: `\u274C Failed to fetch compatibility data: ${(e as Error).message}`,
+              flags: FLAGS.EPHEMERAL,
+            },
+          });
+        }
+      }
+
+      // ── /report → cache enum options, open text modal ─
       const interactionId = interaction.id as string;
 
       // Extract Discord username (guild context or DM)

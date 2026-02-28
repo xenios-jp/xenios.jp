@@ -27,7 +27,7 @@ export default async function LicensePage() {
 
   return (
     <div className="min-h-screen bg-bg-primary">
-      <section className="hero-gradient border-b border-border pt-16 pb-12 md:pt-20 md:pb-14">
+      <section className="hero-gradient border-b border-border pt-20 pb-12 md:pb-14">
         <div className="mx-auto max-w-6xl px-6">
           <h1 className="text-4xl font-bold tracking-tight text-text-primary md:text-5xl">
             License

@@ -9,21 +9,21 @@ import {
 } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "Legal",
+  title: "Legal / Disclaimer",
   description:
-    "Legal and compliance notes for XeniOS, including license inheritance and project attribution.",
+    "Legal disclaimer for XeniOS — emulation research, license inheritance, and project attribution.",
 };
 
 export default function LegalPage() {
   return (
     <div className="min-h-screen bg-bg-primary">
-      <section className="hero-gradient border-b border-border pt-16 pb-12 md:pt-20 md:pb-14">
+      <section className="hero-gradient border-b border-border pt-20 pb-12 md:pb-14">
         <div className="mx-auto max-w-6xl px-6">
           <h1 className="text-4xl font-bold tracking-tight text-text-primary md:text-5xl">
-            Legal
+            Legal / Disclaimer
           </h1>
           <p className="mt-2 text-lg text-text-secondary">
-            Legal terms for the XeniOS website and project.
+            Legal terms, disclaimers, and compliance notes for XeniOS.
           </p>
         </div>
       </section>
@@ -32,12 +32,30 @@ export default function LegalPage() {
         <div className="space-y-8">
           <section className="rounded-xl border border-border bg-bg-surface p-6 md:p-8">
             <h2 className="text-xl font-semibold text-text-primary">
+              Disclaimer
+            </h2>
+            <p className="mt-3 text-[15px] leading-relaxed text-text-secondary">
+              XeniOS is not for enabling illegal activity. The goal of this
+              project is to experiment, research, and educate on the topic of
+              emulation of modern devices and operating systems. All information
+              is obtained via reverse engineering of legally purchased devices,
+              games, and information made public on the internet.
+            </p>
+            <p className="mt-3 text-[15px] leading-relaxed text-text-secondary">
+              Anyone asking about or sharing information related to illegal
+              activities will be banned from Discord, GitHub, and any other
+              project channels.
+            </p>
+          </section>
+
+          <section className="rounded-xl border border-border bg-bg-surface p-6 md:p-8">
+            <h2 className="text-xl font-semibold text-text-primary">
               License
             </h2>
             <p className="mt-3 text-[15px] leading-relaxed text-text-secondary">
-              XeniOS follows the upstream Xenia project&rsquo;s open-source
-              license. This means the rights, permissions, and obligations are
-              the same as the parent project.
+              XeniOS follows the upstream Xenia project&rsquo;s open-source BSD
+              license. The rights, permissions, and obligations are the same as
+              the parent project.
             </p>
             <div className="mt-4 space-y-2 text-sm text-text-muted">
               <p>
@@ -71,7 +89,8 @@ export default function LegalPage() {
             </h2>
             <p className="mt-3 text-[15px] leading-relaxed text-text-secondary">
               XeniOS is built on the Xenia emulation codebase lineage and is
-              provided without endorsement from Microsoft.
+              provided without endorsement from Microsoft. Xbox, Xbox 360, and
+              related trademarks are the property of Microsoft Corporation.
             </p>
             <p className="mt-3 text-[15px] leading-relaxed text-text-secondary">
               For contributor and credit details, see the{" "}

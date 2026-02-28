@@ -10,7 +10,7 @@ const STATUS_LABELS: Record<GameStatus, string> = {
   ingame: "In-Game",
   intro: "Intro",
   loads: "Loads",
-  nothing: "Doesn't Boot",
+  nothing: "Nothing",
 };
 
 function gameUpdatedAtMs(updatedAt: string): number {
@@ -156,9 +156,9 @@ export default function Home() {
               <table className="w-full text-left text-base">
                 <thead>
                   <tr className="border-b border-border">
-                    <th className="pb-3 text-text-secondary font-medium">Title</th>
-                    <th className="pb-3 text-text-secondary font-medium">Status</th>
-                    <th className="pb-3 text-text-secondary font-medium">Tested On</th>
+                    <th className="pb-3 pr-4 text-text-secondary font-medium">Title</th>
+                    <th className="pb-3 pr-4 text-text-secondary font-medium">Status</th>
+                    <th className="hidden pb-3 text-text-secondary font-medium sm:table-cell">Tested On</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -167,7 +167,7 @@ export default function Home() {
                       key={game.slug}
                       className="border-b border-border last:border-0"
                     >
-                      <td className="py-3 text-text-primary">
+                      <td className="py-3 pr-4 text-text-primary">
                         <Link
                           href={`/compatibility/${game.slug}`}
                           className="transition hover:text-accent"
@@ -175,12 +175,12 @@ export default function Home() {
                           {game.title}
                         </Link>
                       </td>
-                      <td className="py-3">
+                      <td className="py-3 pr-4">
                         <Pill variant={game.status}>
                           {STATUS_LABELS[game.status]}
                         </Pill>
                       </td>
-                      <td className="py-3 text-text-secondary">{game.lastReport.device}</td>
+                      <td className="hidden py-3 text-text-secondary sm:table-cell">{game.lastReport.device}</td>
                     </tr>
                   ))}
                 </tbody>

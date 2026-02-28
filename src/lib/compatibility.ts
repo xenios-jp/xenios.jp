@@ -93,7 +93,7 @@ export function getStatuses(): StatusOption[] {
     },
     {
       value: "nothing",
-      label: "Doesn't Boot",
+      label: "Nothing",
       description: "Does not boot or crashes immediately.",
     },
   ];
