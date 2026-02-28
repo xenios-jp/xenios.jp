@@ -142,5 +142,44 @@
       }
     ],
     "screenshots": []
+  },
+  {
+    "slug": "metro-last-light",
+    "title": "Metro: Last Light",
+    "titleId": "4B4D07F5",
+    "status": "ingame",
+    "perf": "ok",
+    "tags": [],
+    "platforms": [
+      "macos"
+    ],
+    "lastReport": {
+      "device": "MacBook Pro M4 Pro/Max",
+      "platform": "macos",
+      "osVersion": "26.3",
+      "arch": "arm64",
+      "gpuBackend": "msc"
+    },
+    "updatedAt": "2026-02-28",
+    "notes": "Playable in game with ok-ish framerate on M4 Pro, significant occlusion issues",
+    "recommendedSettings": {
+      "resolution": "720p",
+      "framerate": "30fps"
+    },
+    "reports": [
+      {
+        "device": "MacBook Pro M4 Pro/Max",
+        "platform": "macos",
+        "osVersion": "26.3",
+        "arch": "arm64",
+        "gpuBackend": "msc",
+        "status": "ingame",
+        "date": "2026-02-28",
+        "notes": "Playable in game with ok-ish framerate on M4 Pro, significant occlusion issues",
+        "submittedBy": "reality111",
+        "source": "discord"
+      }
+    ],
+    "screenshots": []
   }
 ]
