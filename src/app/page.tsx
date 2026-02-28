@@ -3,17 +3,26 @@ import { StateStrip } from "@/components/state-strip";
 import { Pill } from "@/components/pill";
 import { HeroTitle } from "@/components/hero-title";
 import { BUILD_VERSION, BUILD_DATE } from "@/lib/constants";
+import { getAllGames, type GameStatus } from "@/lib/compatibility";
 
-const compatibilityPreview = [
-  { title: "Halo 3", status: "playable" as const, device: "iPhone 16 Pro" },
-  { title: "Forza Horizon", status: "ingame" as const, device: "MacBook Pro (M3)" },
-  { title: "Forza Motorsport 4", status: "playable" as const, device: "iPhone 16 Pro Max" },
-  { title: "Red Dead Redemption", status: "ingame" as const, device: "iPhone 15 Pro" },
-  { title: "Grand Theft Auto V", status: "intro" as const, device: "iPad Pro M4" },
-  { title: "Halo: Reach", status: "loads" as const, device: "MacBook Air (Intel)" },
-];
+const STATUS_LABELS: Record<GameStatus, string> = {
+  playable: "Playable",
+  ingame: "In-Game",
+  intro: "Intro",
+  loads: "Loads",
+  nothing: "Nothing",
+};
+
+function gameUpdatedAtMs(updatedAt: string): number {
+  const timestamp = new Date(updatedAt).getTime();
+  return Number.isNaN(timestamp) ? 0 : timestamp;
+}
 
 export default function Home() {
+  const compatibilityPreview = [...getAllGames()]
+    .sort((a, b) => gameUpdatedAtMs(b.updatedAt) - gameUpdatedAtMs(a.updatedAt))
+    .slice(0, 6);
+
   return (
     <>
       {/* Hero */}
@@ -155,16 +164,23 @@ export default function Home() {
                 <tbody>
                   {compatibilityPreview.map((game) => (
                     <tr
-                      key={game.title}
+                      key={game.slug}
                       className="border-b border-border last:border-0"
                     >
-                      <td className="py-3 text-text-primary">{game.title}</td>
+                      <td className="py-3 text-text-primary">
+                        <Link
+                          href={`/compatibility/${game.slug}`}
+                          className="transition hover:text-accent"
+                        >
+                          {game.title}
+                        </Link>
+                      </td>
                       <td className="py-3">
                         <Pill variant={game.status}>
-                          {game.status.charAt(0).toUpperCase() + game.status.slice(1)}
+                          {STATUS_LABELS[game.status]}
                         </Pill>
                       </td>
-                      <td className="py-3 text-text-secondary">{game.device}</td>
+                      <td className="py-3 text-text-secondary">{game.lastReport.device}</td>
                     </tr>
                   ))}
                 </tbody>
