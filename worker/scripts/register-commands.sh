@@ -17,8 +17,9 @@ set -euo pipefail
 
 API="https://discord.com/api/v10/applications/${DISCORD_APP_ID}/commands"
 
-# The /report command uses 5 enum dropdowns (string selects) as options.
-# After the user picks these, a modal opens for the remaining text fields.
+# Enum fields use `choices` — Discord renders these as native dropdowns.
+# After filling all options, user hits enter → modal pops up for text fields
+# (Title ID, Game Name, Notes).
 PAYLOAD=$(cat <<'EOF'
 {
   "name": "report",
@@ -26,37 +27,85 @@ PAYLOAD=$(cat <<'EOF'
   "description": "Submit a XeniOS compatibility report",
   "options": [
     {
-      "name": "platform",
-      "description": "Platform you tested on",
-      "type": 3,
-      "required": true,
-      "choices": [
-        { "name": "iOS / iPadOS", "value": "ios" },
-        { "name": "macOS", "value": "macos" }
-      ]
-    },
-    {
       "name": "status",
       "description": "How well does the game work?",
       "type": 3,
       "required": true,
       "choices": [
-        { "name": "Playable — works start to finish", "value": "playable" },
-        { "name": "In-Game — reaches gameplay with issues", "value": "ingame" },
+        { "name": "Playable — plays start to finish", "value": "playable" },
+        { "name": "In-Game — reaches gameplay, significant issues", "value": "ingame" },
         { "name": "Intro — gets past loading, crashes before gameplay", "value": "intro" },
-        { "name": "Loads — boots/menus but can't reach gameplay", "value": "loads" },
-        { "name": "Nothing — won't boot or crashes immediately", "value": "nothing" }
+        { "name": "Loads — shows menus, can't reach gameplay", "value": "loads" },
+        { "name": "Nothing — doesn't boot or crashes immediately", "value": "nothing" }
       ]
     },
     {
       "name": "perf",
-      "description": "Performance level",
+      "description": "Performance tier (N/A if game doesn't boot)",
       "type": 3,
       "required": true,
       "choices": [
-        { "name": "Great — runs at or near full speed", "value": "great" },
-        { "name": "OK — playable with noticeable drops", "value": "ok" },
-        { "name": "Poor — significant performance issues", "value": "poor" }
+        { "name": "Great — full speed or near it", "value": "great" },
+        { "name": "OK — playable with drops", "value": "ok" },
+        { "name": "Poor — significant performance issues", "value": "poor" },
+        { "name": "N/A — not applicable", "value": "n/a" }
+      ]
+    },
+    {
+      "name": "device",
+      "description": "Device model (platform is inferred automatically)",
+      "type": 3,
+      "required": true,
+      "choices": [
+        { "name": "iPhone 17 Pro Max", "value": "iPhone 17 Pro Max" },
+        { "name": "iPhone 17 Pro", "value": "iPhone 17 Pro" },
+        { "name": "iPhone 17 Air", "value": "iPhone 17 Air" },
+        { "name": "iPhone 17", "value": "iPhone 17" },
+        { "name": "iPhone 16 Pro Max", "value": "iPhone 16 Pro Max" },
+        { "name": "iPhone 16 Pro", "value": "iPhone 16 Pro" },
+        { "name": "iPhone 16 Plus", "value": "iPhone 16 Plus" },
+        { "name": "iPhone 16", "value": "iPhone 16" },
+        { "name": "iPhone 16e", "value": "iPhone 16e" },
+        { "name": "iPhone 15 Pro Max", "value": "iPhone 15 Pro Max" },
+        { "name": "iPhone 15 Pro", "value": "iPhone 15 Pro" },
+        { "name": "iPad Pro M5", "value": "iPad Pro M5" },
+        { "name": "iPad Pro M4", "value": "iPad Pro M4" },
+        { "name": "iPad Air M3", "value": "iPad Air M3" },
+        { "name": "iPad Air M2", "value": "iPad Air M2" },
+        { "name": "iPad mini (A17 Pro)", "value": "iPad mini (A17 Pro)" },
+        { "name": "iPad (11th gen)", "value": "iPad (11th gen)" },
+        { "name": "MacBook Pro M5", "value": "MacBook Pro M5" },
+        { "name": "MacBook Pro M4 Pro/Max", "value": "MacBook Pro M4 Pro/Max" },
+        { "name": "MacBook Air M4", "value": "MacBook Air M4" },
+        { "name": "MacBook Pro M3 Pro/Max", "value": "MacBook Pro M3 Pro/Max" },
+        { "name": "MacBook Air M3", "value": "MacBook Air M3" },
+        { "name": "iMac M4", "value": "iMac M4" },
+        { "name": "Mac mini M4", "value": "Mac mini M4" },
+        { "name": "Mac Studio M4 Max/Ultra", "value": "Mac Studio M4 Max/Ultra" }
+      ]
+    },
+    {
+      "name": "os_version",
+      "description": "OS version",
+      "type": 3,
+      "required": true,
+      "choices": [
+        { "name": "iOS / iPadOS 26.3", "value": "26.3" },
+        { "name": "iOS / iPadOS 26.2", "value": "26.2" },
+        { "name": "iOS / iPadOS 26.1", "value": "26.1" },
+        { "name": "iOS / iPadOS 26.0", "value": "26.0" },
+        { "name": "iOS 18.3", "value": "18.3" },
+        { "name": "iOS 18.2", "value": "18.2" },
+        { "name": "iOS 18.1", "value": "18.1" },
+        { "name": "iOS 18.0", "value": "18.0" },
+        { "name": "macOS 26.3 Tahoe", "value": "m26.3" },
+        { "name": "macOS 26.2 Tahoe", "value": "m26.2" },
+        { "name": "macOS 26.1 Tahoe", "value": "m26.1" },
+        { "name": "macOS 26.0 Tahoe", "value": "m26.0" },
+        { "name": "macOS 15.3 Sequoia", "value": "m15.3" },
+        { "name": "macOS 15.2 Sequoia", "value": "m15.2" },
+        { "name": "macOS 15.1 Sequoia", "value": "m15.1" },
+        { "name": "macOS 15.0 Sequoia", "value": "m15.0" }
       ]
     },
     {
@@ -71,13 +120,19 @@ PAYLOAD=$(cat <<'EOF'
     },
     {
       "name": "gpu",
-      "description": "GPU backend used",
+      "description": "GPU backend",
       "type": 3,
       "required": true,
       "choices": [
-        { "name": "MSL — Metal Shading Language (all platforms)", "value": "msl" },
-        { "name": "MSC — Metal Shader Converter (macOS 15+ only)", "value": "msc" }
+        { "name": "MSL — Metal Shading Language", "value": "msl" },
+        { "name": "MSC — Metal Shader Converter (macOS 14+)", "value": "msc" }
       ]
+    },
+    {
+      "name": "screenshot",
+      "description": "Attach a screenshot or video (optional)",
+      "type": 11,
+      "required": false
     }
   ]
 }

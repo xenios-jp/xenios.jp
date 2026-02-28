@@ -227,7 +227,7 @@ function CompatibilityListInner({ games: allGames }: { games: Game[] }) {
 
   return (
     <div className="min-h-screen bg-bg-primary">
-      <section className="hero-gradient border-b border-border px-4 pt-16 pb-10 sm:px-6 md:pt-20 md:pb-12 lg:px-8">
+      <section className="hero-gradient border-b border-border px-4 pt-20 pb-10 sm:px-6 md:pb-12 lg:px-8">
         <div className="mx-auto max-w-6xl">
           <h1 className="text-4xl font-bold tracking-tight text-text-primary md:text-5xl">
             Compatibility

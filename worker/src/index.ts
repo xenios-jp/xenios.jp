@@ -35,7 +35,7 @@ interface Env {
 }
 
 type GameStatus = "playable" | "ingame" | "intro" | "loads" | "nothing";
-type PerfTier = "great" | "ok" | "poor";
+type PerfTier = "great" | "ok" | "poor" | "n/a";
 type Platform = "ios" | "macos";
 type Architecture = "arm64" | "x86_64";
 type GpuBackend = "msc" | "msl";
@@ -67,6 +67,8 @@ interface GameReport {
   status: GameStatus;
   date: string;
   notes: string;
+  submittedBy?: string;
+  source?: ReportSource;
 }
 
 interface Game {
@@ -117,12 +119,13 @@ const SCHEMA = {
     { value: "ingame" as GameStatus, label: "In-Game", description: "Reaches gameplay but has significant issues" },
     { value: "intro" as GameStatus, label: "Intro", description: "Gets past loading but crashes before or during gameplay" },
     { value: "loads" as GameStatus, label: "Loads", description: "Boots and shows menus but can't reach gameplay" },
-    { value: "nothing" as GameStatus, label: "Nothing", description: "Does not boot or crashes immediately" },
+    { value: "nothing" as GameStatus, label: "Doesn't Boot", description: "Does not boot or crashes immediately" },
   ],
   perfTiers: [
     { value: "great" as PerfTier, label: "Great", description: "Runs at or near full speed" },
     { value: "ok" as PerfTier, label: "OK", description: "Playable but with noticeable performance drops" },
     { value: "poor" as PerfTier, label: "Poor", description: "Significant performance issues" },
+    { value: "n/a" as PerfTier, label: "N/A", description: "Not applicable (game doesn't boot)" },
   ],
   platforms: [
     { value: "ios" as Platform, label: "iOS", description: "iOS and iPadOS devices" },
@@ -196,6 +199,12 @@ function validatePayload(body: unknown): { ok: true; data: ReportPayload } | { o
   if (!b.titleId || typeof b.titleId !== "string") return { ok: false, error: "titleId is required" };
   if (!b.title || typeof b.title !== "string") return { ok: false, error: "title is required" };
   if (!VALID_STATUSES.includes(b.status as GameStatus)) return { ok: false, error: `status must be one of: ${VALID_STATUSES.join(", ")}` };
+  // Auto-set perf to "n/a" when status is "nothing" and perf not provided
+  if (b.status === "nothing" && (!b.perf || b.perf === "n/a")) {
+    b.perf = "n/a";
+  } else if (b.status !== "nothing" && b.perf === "n/a") {
+    return { ok: false, error: "perf 'n/a' is only valid when status is 'nothing'" };
+  }
   if (!VALID_PERFS.includes(b.perf as PerfTier)) return { ok: false, error: `perf must be one of: ${VALID_PERFS.join(", ")}` };
   if (!VALID_PLATFORMS.includes(b.platform as Platform)) return { ok: false, error: `platform must be one of: ${VALID_PLATFORMS.join(", ")}` };
   if (!b.device || typeof b.device !== "string") return { ok: false, error: "device is required" };
@@ -273,17 +282,21 @@ async function commitToGitHub(token: string, games: Game[], sha: string, message
 // ── GitHub Issue Management (One Issue Per Game) ─────────────────────
 
 async function findExistingIssue(token: string, titleId: string): Promise<{ number: number; labels: string[] } | null> {
-  const query = encodeURIComponent(`${titleId} repo:${GITHUB_OWNER}/${GITHUB_REPO} label:compat-report`);
-  const res = await githubFetch(`/search/issues?q=${query}`, token);
+  // Use the issues list API (instant) instead of search API (has indexing delays).
+  // Filter by compat-report label and check title prefix for the titleId.
+  const res = await githubFetch(
+    `/repos/${GITHUB_OWNER}/${GITHUB_REPO}/issues?labels=compat-report&state=open&per_page=100`,
+    token
+  );
 
   if (!res.ok) {
-    console.error(`GitHub search failed: ${res.status} ${await res.text()}`);
+    console.error(`GitHub issues list failed: ${res.status} ${await res.text()}`);
     return null;
   }
 
-  const data = (await res.json()) as { items: Array<{ number: number; title: string; labels: Array<{ name: string }> }> };
+  const issues = (await res.json()) as Array<{ number: number; title: string; labels: Array<{ name: string }> }>;
 
-  const match = data.items.find((issue) => issue.title.startsWith(`${titleId} `));
+  const match = issues.find((issue) => issue.title.startsWith(`${titleId} `));
   if (match) {
     return {
       number: match.number,
@@ -300,7 +313,7 @@ const SOURCE_FOOTERS: Record<ReportSource, string> = {
   github: "*Submitted via GitHub issue*",
 };
 
-function buildReportBody(report: ReportPayload, source: ReportSource): string {
+function buildReportBody(report: ReportPayload, source: ReportSource, screenshotUrl?: string, submittedBy?: string): string {
   const statusEmoji: Record<GameStatus, string> = {
     playable: "\u2705",
     ingame: "\uD83D\uDFE6",
@@ -311,7 +324,7 @@ function buildReportBody(report: ReportPayload, source: ReportSource): string {
 
   const platformDisplay = report.platform === "ios" ? "iOS" : "macOS";
 
-  return [
+  const lines = [
     `## Compatibility Report`,
     ``,
     `| Field | Value |`,
@@ -325,13 +338,19 @@ function buildReportBody(report: ReportPayload, source: ReportSource): string {
     `| **OS Version** | ${platformDisplay} ${report.osVersion} |`,
     `| **Architecture** | ${report.arch} |`,
     `| **GPU Backend** | ${report.gpuBackend.toUpperCase()} |`,
+    ...(submittedBy ? [`| **Submitted By** | ${submittedBy} |`] : []),
     ``,
     `### Notes`,
     report.notes,
-    ``,
-    `---`,
-    SOURCE_FOOTERS[source],
-  ].join("\n");
+  ];
+
+  if (screenshotUrl) {
+    lines.push(``, `### Screenshot`, `![screenshot](${screenshotUrl})`);
+  }
+
+  lines.push(``, `---`, SOURCE_FOOTERS[source], `<!-- xenios-auto -->`);
+
+  return lines.join("\n");
 }
 
 function buildLabels(report: ReportPayload): string[] {
@@ -344,8 +363,8 @@ function buildLabels(report: ReportPayload): string[] {
   ];
 }
 
-async function createNewIssue(token: string, report: ReportPayload, source: ReportSource): Promise<string> {
-  const body = buildReportBody(report, source);
+async function createNewIssue(token: string, report: ReportPayload, source: ReportSource, screenshotUrl?: string, submittedBy?: string): Promise<string> {
+  const body = buildReportBody(report, source, screenshotUrl, submittedBy);
   const labels = buildLabels(report);
 
   const res = await githubFetch(`/repos/${GITHUB_OWNER}/${GITHUB_REPO}/issues`, token, {
@@ -363,8 +382,8 @@ async function createNewIssue(token: string, report: ReportPayload, source: Repo
   return issue.html_url;
 }
 
-async function addCommentToIssue(token: string, issueNumber: number, report: ReportPayload, source: ReportSource): Promise<string> {
-  const body = buildReportBody(report, source);
+async function addCommentToIssue(token: string, issueNumber: number, report: ReportPayload, source: ReportSource, screenshotUrl?: string, submittedBy?: string): Promise<string> {
+  const body = buildReportBody(report, source, screenshotUrl, submittedBy);
 
   const res = await githubFetch(`/repos/${GITHUB_OWNER}/${GITHUB_REPO}/issues/${issueNumber}/comments`, token, {
     method: "POST",
@@ -396,18 +415,18 @@ async function updateIssueLabels(token: string, issueNumber: number, existingLab
   }
 }
 
-async function createOrUpdateIssue(token: string, report: ReportPayload, source: ReportSource): Promise<string> {
+async function createOrUpdateIssue(token: string, report: ReportPayload, source: ReportSource, screenshotUrl?: string, submittedBy?: string): Promise<string> {
   const existing = await findExistingIssue(token, report.titleId);
 
   if (existing) {
     const [issueUrl] = await Promise.all([
-      addCommentToIssue(token, existing.number, report, source),
+      addCommentToIssue(token, existing.number, report, source, screenshotUrl, submittedBy),
       updateIssueLabels(token, existing.number, existing.labels, report),
     ]);
     return issueUrl;
   }
 
-  return createNewIssue(token, report, source);
+  return createNewIssue(token, report, source, screenshotUrl, submittedBy);
 }
 
 // ── Discord Webhook ──────────────────────────────────────────────────
@@ -425,13 +444,14 @@ const STATUS_LABELS: Record<GameStatus, string> = {
   ingame: "\uD83D\uDFE6 In-Game",
   intro: "\uD83D\uDFE8 Intro",
   loads: "\uD83D\uDFE7 Loads",
-  nothing: "\uD83D\uDD34 Nothing",
+  nothing: "\uD83D\uDD34 Doesn't Boot",
 };
 
 const PERF_LABELS: Record<PerfTier, string> = {
   great: "\uD83D\uDE80 Great",
   ok: "\uD83D\uDC4C OK",
   poor: "\uD83D\uDC22 Poor",
+  "n/a": "\u2796 N/A",
 };
 
 const PLATFORM_LABELS: Record<Platform, string> = {
@@ -445,12 +465,12 @@ const SOURCE_LABELS: Record<ReportSource, string> = {
   github: "GitHub Issue",
 };
 
-async function postToDiscord(webhookUrl: string, report: ReportPayload, issueUrl: string, source: ReportSource): Promise<void> {
+async function postToDiscord(webhookUrl: string, report: ReportPayload, issueUrl: string, source: ReportSource, screenshotUrl?: string, submittedBy?: string): Promise<void> {
   const platformDisplay = report.platform === "ios" ? "iOS" : "macOS";
 
-  const embed = {
+  const embed: Record<string, unknown> = {
     title: report.title,
-    description: report.notes,
+    description: report.notes.slice(0, 200) + (report.notes.length > 200 ? "..." : ""),
     color: STATUS_COLORS[report.status],
     fields: [
       { name: "Status", value: STATUS_LABELS[report.status], inline: true },
@@ -463,9 +483,13 @@ async function postToDiscord(webhookUrl: string, report: ReportPayload, issueUrl
       { name: "GPU Backend", value: report.gpuBackend.toUpperCase(), inline: true },
       { name: "GitHub Issue", value: issueUrl ? `[View](${issueUrl})` : "N/A", inline: true },
     ],
-    footer: { text: `XeniOS Compatibility Report \u2022 via ${SOURCE_LABELS[source]}` },
+    footer: { text: submittedBy ? `Reported by ${submittedBy} \u2022 via ${SOURCE_LABELS[source]}` : `XeniOS Compatibility Report \u2022 via ${SOURCE_LABELS[source]}` },
     timestamp: new Date().toISOString(),
   };
+
+  if (screenshotUrl) {
+    embed.image = { url: screenshotUrl };
+  }
 
   const res = await fetch(webhookUrl, {
     method: "POST",
@@ -480,7 +504,7 @@ async function postToDiscord(webhookUrl: string, report: ReportPayload, issueUrl
 
 // ── Merge logic ──────────────────────────────────────────────────────
 
-function mergeReport(games: Game[], report: ReportPayload): Game[] {
+function mergeReport(games: Game[], report: ReportPayload, source?: ReportSource, submittedBy?: string): Game[] {
   const today = todayISO();
   const newReport: GameReport = {
     device: report.device,
@@ -491,6 +515,8 @@ function mergeReport(games: Game[], report: ReportPayload): Game[] {
     status: report.status,
     date: today,
     notes: report.notes,
+    ...(submittedBy ? { submittedBy } : {}),
+    ...(source ? { source } : {}),
   };
 
   const idx = games.findIndex(
@@ -559,12 +585,12 @@ function mergeReport(games: Game[], report: ReportPayload): Game[] {
 
 // ── Unified Pipeline ─────────────────────────────────────────────────
 
-async function processReport(env: Env, report: ReportPayload, source: ReportSource): Promise<PipelineResult> {
+async function processReport(env: Env, report: ReportPayload, source: ReportSource, screenshotUrl?: string, submittedBy?: string): Promise<PipelineResult> {
   // 1. Fetch current compatibility.json from GitHub
   const { content: games, sha } = await getFileFromGitHub(env.GITHUB_TOKEN);
 
   // 2. Merge in the new report
-  const updated = mergeReport(games, report);
+  const updated = mergeReport(games, report, source, submittedBy);
 
   // 3. Commit back to GitHub
   const platformDisplay = report.platform === "ios" ? "iOS" : "macOS";
@@ -574,14 +600,14 @@ async function processReport(env: Env, report: ReportPayload, source: ReportSour
   // 4. Create or update GitHub issue (one issue per game)
   let issueUrl = "";
   try {
-    issueUrl = await createOrUpdateIssue(env.GITHUB_TOKEN, report, source);
+    issueUrl = await createOrUpdateIssue(env.GITHUB_TOKEN, report, source, screenshotUrl, submittedBy);
   } catch (e) {
     console.error("Issue creation/update failed:", e);
   }
 
   // 5. Post to Discord
   try {
-    await postToDiscord(env.DISCORD_WEBHOOK, report, issueUrl, source);
+    await postToDiscord(env.DISCORD_WEBHOOK, report, issueUrl, source, screenshotUrl, submittedBy);
   } catch (e) {
     console.error("Discord post failed:", e);
   }
@@ -594,7 +620,7 @@ async function processReport(env: Env, report: ReportPayload, source: ReportSour
   };
 }
 
-// ── Discord Interactions (Slash Command + Modal) ─────────────────────
+// ── Discord Interactions (Slash Command) ─────────────────────────────
 
 // Discord interaction types
 const INTERACTION_TYPE = {
@@ -621,6 +647,8 @@ async function verifyDiscordSignature(request: Request, publicKey: string): Prom
   const timestamp = request.headers.get("X-Signature-Timestamp");
   const body = await request.text();
 
+  console.log("[discord] verifying signature, has sig:", !!signature, "has ts:", !!timestamp);
+
   if (!signature || !timestamp) {
     return { valid: false, body };
   }
@@ -629,8 +657,8 @@ async function verifyDiscordSignature(request: Request, publicKey: string): Prom
     const keyData = hexToUint8Array(publicKey);
     const key = await crypto.subtle.importKey(
       "raw",
-      keyData.buffer as ArrayBuffer,
-      { name: "Ed25519", namedCurve: "Ed25519" },
+      keyData,
+      "Ed25519",
       false,
       ["verify"]
     );
@@ -639,10 +667,11 @@ async function verifyDiscordSignature(request: Request, publicKey: string): Prom
     const message = encoder.encode(timestamp + body);
     const sig = hexToUint8Array(signature);
 
-    const valid = await crypto.subtle.verify("Ed25519", key, sig.buffer as ArrayBuffer, message);
+    const valid = await crypto.subtle.verify("Ed25519", key, sig, message);
+    console.log("[discord] signature valid:", valid);
     return { valid, body };
   } catch (e) {
-    console.error("Ed25519 verification error:", e);
+    console.error("[discord] Ed25519 verification error:", e);
     return { valid: false, body };
   }
 }
@@ -653,221 +682,298 @@ function discordJsonResponse(data: unknown): Response {
   });
 }
 
-function buildModal(customId: string): unknown {
+interface DiscordAttachment {
+  url: string;
+  filename: string;
+  content_type?: string;
+}
+
+// ── Cache helpers for bridging screenshot URL between command → modal ─
+
+async function storeScreenshotUrl(interactionId: string, url: string): Promise<void> {
+  const cache = caches.default;
+  const key = `https://xenios-modal.internal/${interactionId}`;
+  await cache.put(key, new Response(url, {
+    headers: { "Cache-Control": "s-maxage=600" },
+  }));
+}
+
+async function getScreenshotUrl(interactionId: string): Promise<string> {
+  const cache = caches.default;
+  const key = `https://xenios-modal.internal/${interactionId}`;
+  const response = await cache.match(key);
+  if (!response) return "";
+  try {
+    return await response.text();
+  } catch {
+    return "";
+  }
+}
+
+// ── Discord modal (text fields only) ─────────────────────────────────
+// All enum fields come from slash command choices (native dropdowns).
+// The modal only collects free-text: Title ID, Game Name, Notes.
+// Uses Action Row (type 1) + Text Input (type 4).
+
+function buildTextModal(customId: string): unknown {
   return {
-    type: RESPONSE_TYPE.MODAL,
-    data: {
-      custom_id: customId,
-      title: "XeniOS Compatibility Report",
-      components: [
-        {
-          type: 1, // Action Row
-          components: [{
-            type: 4, // Text Input
-            custom_id: "title_id",
-            label: "Title ID",
-            style: 1, // Short
-            placeholder: "e.g., 4D5307E6",
-            min_length: 1,
-            max_length: 16,
-            required: true,
-          }],
-        },
-        {
-          type: 1,
-          components: [{
-            type: 4,
-            custom_id: "game_name",
-            label: "Game Name",
-            style: 1,
-            placeholder: "e.g., Halo 3",
-            min_length: 1,
-            max_length: 100,
-            required: true,
-          }],
-        },
-        {
-          type: 1,
-          components: [{
-            type: 4,
-            custom_id: "device",
-            label: "Device",
-            style: 1,
-            placeholder: "e.g., iPhone 16 Pro, MacBook Pro M3",
-            min_length: 1,
-            max_length: 100,
-            required: true,
-          }],
-        },
-        {
-          type: 1,
-          components: [{
-            type: 4,
-            custom_id: "os_version",
-            label: "OS Version",
-            style: 1,
-            placeholder: "e.g., 18.3 (iOS) or 15.2 (macOS)",
-            min_length: 1,
-            max_length: 20,
-            required: true,
-          }],
-        },
-        {
-          type: 1,
-          components: [{
-            type: 4,
-            custom_id: "notes",
-            label: "Notes",
-            style: 2, // Paragraph
-            placeholder: "Describe what works, what doesn't, and any workarounds...",
-            min_length: 1,
-            max_length: 1000,
-            required: true,
-          }],
-        },
-      ],
-    },
+    title: "XeniOS Compatibility Report",
+    custom_id: customId,
+    components: [
+      {
+        type: 1,
+        components: [{
+          type: 4, custom_id: "title_id", label: "Title ID",
+          style: 1, placeholder: "4D5307E6", required: true,
+          min_length: 1, max_length: 20,
+        }],
+      },
+      {
+        type: 1,
+        components: [{
+          type: 4, custom_id: "game", label: "Game Name",
+          style: 1, placeholder: "Halo 3", required: true,
+          min_length: 1, max_length: 100,
+        }],
+      },
+      {
+        type: 1,
+        components: [{
+          type: 4, custom_id: "notes", label: "Notes",
+          style: 2, placeholder: "Build version, graphical issues, crashes, etc.",
+          required: true, min_length: 1, max_length: 1000,
+        }],
+      },
+    ],
   };
 }
 
-function extractModalValue(components: Array<{ type: number; components: Array<{ custom_id: string; value: string }> }>, fieldId: string): string {
-  for (const row of components) {
-    for (const comp of row.components) {
-      if (comp.custom_id === fieldId) return comp.value;
+// ── Infer platform from device name ──────────────────────────────────
+
+function inferPlatform(device: string): "ios" | "macos" {
+  if (device.startsWith("iPhone") || device.startsWith("iPad")) return "ios";
+  return "macos";
+}
+
+// ── Cache command options between slash command → modal submit ────────
+
+interface CommandOptions {
+  status: string;
+  perf: string;
+  device: string;
+  osVersion: string;
+  arch: string;
+  gpuBackend: string;
+  screenshotUrl: string;
+  submittedBy: string;
+}
+
+async function storeCommandOptions(key: string, data: CommandOptions): Promise<void> {
+  const cache = caches.default;
+  const url = `https://xenios-modal.internal/cmdopts/${key}`;
+  await cache.put(url, new Response(JSON.stringify(data), {
+    headers: { "Cache-Control": "s-maxage=600", "Content-Type": "application/json" },
+  }));
+}
+
+async function getCommandOptions(key: string): Promise<CommandOptions | null> {
+  const cache = caches.default;
+  const url = `https://xenios-modal.internal/cmdopts/${key}`;
+  const response = await cache.match(url);
+  if (!response) return null;
+  try {
+    return (await response.json()) as CommandOptions;
+  } catch {
+    return null;
+  }
+}
+
+// ── Extract text input value from Action Row modal components ────────
+
+function getModalField(components: unknown[], id: string): string {
+  for (const comp of components as Array<Record<string, unknown>>) {
+    if (Array.isArray(comp.components)) {
+      for (const sub of comp.components as Array<Record<string, unknown>>) {
+        if (sub.custom_id === id) {
+          if (typeof sub.value === "string") return sub.value;
+        }
+      }
     }
   }
   return "";
 }
 
+// ── Interaction handler ─────────────────────────────────────────────
+
 async function handleDiscordInteraction(request: Request, env: Env, ctx: ExecutionContext): Promise<Response> {
-  // Verify Ed25519 signature
-  const { valid, body } = await verifyDiscordSignature(request, env.DISCORD_PUBLIC_KEY);
-  if (!valid) {
-    return new Response("Invalid signature", { status: 401 });
-  }
+  console.log("[discord] interaction received");
 
-  const interaction = JSON.parse(body);
+  try {
+    // Verify Ed25519 signature
+    const { valid, body } = await verifyDiscordSignature(request, env.DISCORD_PUBLIC_KEY);
+    if (!valid) {
+      console.log("[discord] signature invalid, returning 401");
+      return new Response("Invalid signature", { status: 401 });
+    }
 
-  // Handle PING (Discord verification)
-  if (interaction.type === INTERACTION_TYPE.PING) {
-    return discordJsonResponse({ type: RESPONSE_TYPE.PONG });
-  }
+    const interaction = JSON.parse(body);
+    console.log("[discord] interaction type:", interaction.type);
 
-  // Handle slash command: /report
-  if (interaction.type === INTERACTION_TYPE.APPLICATION_COMMAND) {
-    const options = interaction.data.options || [];
+    // Handle PING (Discord verification)
+    if (interaction.type === INTERACTION_TYPE.PING) {
+      console.log("[discord] PING → PONG");
+      return discordJsonResponse({ type: RESPONSE_TYPE.PONG });
+    }
 
-    // Extract dropdown values from slash command options
-    const getOption = (name: string): string => {
-      const opt = options.find((o: { name: string; value: string }) => o.name === name);
-      return opt ? opt.value : "";
-    };
+    // ── APPLICATION_COMMAND: /report → cache enum options, open text modal ─
+    if (interaction.type === INTERACTION_TYPE.APPLICATION_COMMAND) {
+      const options = interaction.data.options || [];
+      const resolved = interaction.data.resolved || {};
 
-    const platform = getOption("platform");
-    const status = getOption("status");
-    const perf = getOption("perf");
-    const arch = getOption("arch");
-    const gpu = getOption("gpu");
+      const getOption = (name: string): string => {
+        const opt = options.find((o: { name: string; value: string }) => o.name === name);
+        return opt ? String(opt.value) : "";
+      };
 
-    // Encode enum values into modal custom_id (fits within 100-char limit)
-    // Format: compat:<platform>:<status>:<perf>:<arch>:<gpu>
-    const customId = `compat:${platform}:${status}:${perf}:${arch}:${gpu}`;
+      const interactionId = interaction.id as string;
 
-    return discordJsonResponse(buildModal(customId));
-  }
+      // Extract Discord username (guild context or DM)
+      const discordUser = interaction.member?.user || interaction.user;
+      const submittedBy = discordUser?.username || "Unknown";
 
-  // Handle modal submission
-  if (interaction.type === INTERACTION_TYPE.MODAL_SUBMIT) {
-    const customId = interaction.data.custom_id as string;
-    const components = interaction.data.components;
+      // Extract optional screenshot attachment URL
+      let screenshotUrl = "";
+      const screenshotId = getOption("screenshot");
+      if (screenshotId && resolved.attachments) {
+        const attachment = resolved.attachments[screenshotId] as DiscordAttachment | undefined;
+        if (attachment?.url) screenshotUrl = attachment.url;
+      }
 
-    // Decode enum values from custom_id
-    const parts = customId.split(":");
-    if (parts.length !== 6 || parts[0] !== "compat") {
+      // Cache all enum options from slash command choices
+      // Platform is inferred from device name (no separate field needed)
+      const cmdOpts: CommandOptions = {
+        status: getOption("status"),
+        perf: getOption("perf"),
+        device: getOption("device"),
+        osVersion: getOption("os_version"),
+        arch: getOption("arch"),
+        gpuBackend: getOption("gpu"),
+        screenshotUrl,
+        submittedBy,
+      };
+
+      console.log("[discord] command options:", JSON.stringify(cmdOpts));
+      ctx.waitUntil(storeCommandOptions(interactionId, cmdOpts));
+
+      const customId = `compat:${interactionId}`;
+      console.log("[discord] opening text modal, custom_id:", customId);
+
       return discordJsonResponse({
-        type: RESPONSE_TYPE.CHANNEL_MESSAGE,
-        data: {
-          content: "\u274C Invalid submission. Please use the `/report` command again.",
-          flags: FLAGS.EPHEMERAL,
-        },
+        type: RESPONSE_TYPE.MODAL,
+        data: buildTextModal(customId),
       });
     }
 
-    const [, platform, status, perf, arch, gpu] = parts;
+    // ── MODAL_SUBMIT: combine cached options with text fields → process ─
+    if (interaction.type === INTERACTION_TYPE.MODAL_SUBMIT) {
+      const customId = interaction.data.custom_id as string;
+      const components = interaction.data.components || [];
 
-    // Extract text fields from modal
-    const titleId = extractModalValue(components, "title_id");
-    const gameName = extractModalValue(components, "game_name");
-    const device = extractModalValue(components, "device");
-    const osVersion = extractModalValue(components, "os_version");
-    const notes = extractModalValue(components, "notes");
+      if (customId.startsWith("compat:")) {
+        const origInteractionId = customId.slice("compat:".length);
 
-    // Build and validate the payload
-    const rawPayload = {
-      titleId,
-      title: gameName,
-      status,
-      perf,
-      platform,
-      device,
-      osVersion,
-      arch,
-      gpuBackend: gpu,
-      notes,
-    };
-
-    const validation = validatePayload(rawPayload);
-    if (!validation.ok) {
-      return discordJsonResponse({
-        type: RESPONSE_TYPE.CHANNEL_MESSAGE,
-        data: {
-          content: `\u274C Validation error: ${validation.error}`,
-          flags: FLAGS.EPHEMERAL,
-        },
-      });
-    }
-
-    const report = validation.data;
-
-    // Respond immediately with deferred message (ephemeral), process in background
-    ctx.waitUntil(
-      (async () => {
-        try {
-          const result = await processReport(env, report, "discord");
-
-          // PATCH the follow-up message with the result
-          const followupUrl = `https://discord.com/api/v10/webhooks/${env.DISCORD_APPLICATION_ID}/${interaction.token}/messages/@original`;
-          const content = result.success
-            ? `\u2705 **${result.game}** — ${STATUS_LABELS[result.status]}\n${result.issueUrl ? `[View on GitHub](${result.issueUrl})` : ""}`
-            : `\u274C Failed to process report: ${result.error || "Unknown error"}`;
-
-          await fetch(followupUrl, {
-            method: "PATCH",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({ content }),
-          });
-        } catch (e) {
-          console.error("Discord deferred processing failed:", e);
-
-          const followupUrl = `https://discord.com/api/v10/webhooks/${env.DISCORD_APPLICATION_ID}/${interaction.token}/messages/@original`;
-          await fetch(followupUrl, {
-            method: "PATCH",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({
-              content: `\u274C Failed to process report: ${(e as Error).message}`,
-            }),
+        // Retrieve cached command options
+        const cmdOpts = await getCommandOptions(origInteractionId);
+        if (!cmdOpts) {
+          return discordJsonResponse({
+            type: RESPONSE_TYPE.CHANNEL_MESSAGE,
+            data: {
+              content: "\u274C Session expired. Please run `/report` again.",
+              flags: FLAGS.EPHEMERAL,
+            },
           });
         }
-      })()
-    );
 
-    return discordJsonResponse({
-      type: RESPONSE_TYPE.DEFERRED_CHANNEL_MESSAGE,
-      data: { flags: FLAGS.EPHEMERAL },
-    });
+        const rawPayload = {
+          titleId: getModalField(components, "title_id").toUpperCase().trim(),
+          title: getModalField(components, "game").trim(),
+          status: cmdOpts.status,
+          perf: cmdOpts.perf,
+          platform: inferPlatform(cmdOpts.device),
+          device: cmdOpts.device,
+          osVersion: cmdOpts.osVersion.replace(/^m/, ""),
+          arch: cmdOpts.arch,
+          gpuBackend: cmdOpts.gpuBackend,
+          notes: getModalField(components, "notes").trim(),
+        };
+
+        console.log("[discord] modal submitted, payload:", rawPayload.titleId, rawPayload.title);
+
+        const validation = validatePayload(rawPayload);
+        if (!validation.ok) {
+          return discordJsonResponse({
+            type: RESPONSE_TYPE.CHANNEL_MESSAGE,
+            data: {
+              content: `\u274C Validation error: ${validation.error}`,
+              flags: FLAGS.EPHEMERAL,
+            },
+          });
+        }
+
+        const report = validation.data;
+        const screenshotUrl = cmdOpts.screenshotUrl || undefined;
+        const submittedBy = cmdOpts.submittedBy || undefined;
+
+        // Respond with deferred message, process in background
+        ctx.waitUntil(
+          (async () => {
+            try {
+              const result = await processReport(env, report, "discord", screenshotUrl, submittedBy);
+
+              const followupUrl = `https://discord.com/api/v10/webhooks/${env.DISCORD_APPLICATION_ID}/${interaction.token}/messages/@original`;
+              const content = result.success
+                ? `\u2705 **${result.game}** — ${STATUS_LABELS[result.status]}\n${result.issueUrl ? `[View on GitHub](${result.issueUrl})` : ""}`
+                : `\u274C Failed to process report: ${result.error || "Unknown error"}`;
+
+              await fetch(followupUrl, {
+                method: "PATCH",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ content }),
+              });
+            } catch (e) {
+              console.error("Discord deferred processing failed:", e);
+
+              const followupUrl = `https://discord.com/api/v10/webhooks/${env.DISCORD_APPLICATION_ID}/${interaction.token}/messages/@original`;
+              await fetch(followupUrl, {
+                method: "PATCH",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({
+                  content: `\u274C Failed to process report: ${(e as Error).message}`,
+                }),
+              });
+            }
+          })()
+        );
+
+        return discordJsonResponse({
+          type: RESPONSE_TYPE.DEFERRED_CHANNEL_MESSAGE,
+          data: { flags: FLAGS.EPHEMERAL },
+        });
+      }
+
+      // Unknown modal
+      return discordJsonResponse({
+        type: RESPONSE_TYPE.CHANNEL_MESSAGE,
+        data: { content: "\u274C Unknown modal submission.", flags: FLAGS.EPHEMERAL },
+      });
+    }
+
+    return new Response("Unknown interaction type", { status: 400 });
+
+  } catch (e) {
+    console.error("[discord] unhandled error in interaction handler:", e);
+    return new Response(`Internal error: ${(e as Error).message}`, { status: 500 });
   }
-
-  return new Response("Unknown interaction type", { status: 400 });
 }
 
 // ── Request handler ──────────────────────────────────────────────────
@@ -925,6 +1031,7 @@ export default {
 
     // POST /discord — Discord interactions (Ed25519 verified)
     if (url.pathname === "/discord" && request.method === "POST") {
+      console.log("[fetch] POST /discord hit");
       return handleDiscordInteraction(request, env, ctx);
     }
 

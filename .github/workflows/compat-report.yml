@@ -41,12 +41,24 @@ jobs:
             // Each form field becomes: ### Label\n\nValue\n\n
             const body = issue.body || '';
 
+            // Parse all ### sections into a map for robust extraction.
+            // GitHub issue forms render as: ### Label\n\nValue\n\n### Next...
+            const sections = {};
+            const sectionRegex = /###\s+(.+)\s*\n([\s\S]*?)(?=\n###|\s*$)/g;
+            let sectionMatch;
+            while ((sectionMatch = sectionRegex.exec(body)) !== null) {
+              const key = sectionMatch[1].trim();
+              const val = sectionMatch[2].trim();
+              // Skip checkbox sections and _No response_ values
+              if (val && val !== '_No response_') {
+                sections[key] = val;
+              }
+            }
+
+            console.log('Parsed sections:', Object.keys(sections));
+
             function extractField(label) {
-              // Match "### Label" followed by content until next ### or end
-              const regex = new RegExp(`###\\s+${label.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\s*\\n+([\\s\\S]*?)(?=\\n###|$)`, 'i');
-              const match = body.match(regex);
-              if (!match) return '';
-              return match[1].trim();
+              return sections[label] || '';
             }
 
             // ── Extract title ID and game name from issue title ──
@@ -100,11 +112,15 @@ jobs:
               nothing: ['nothing'],
             });
 
-            const perf = normalizeDropdown(rawPerf, {
+            let perf = normalizeDropdown(rawPerf, {
               great: ['great'],
               ok: ['ok'],
               poor: ['poor'],
+              'n/a': ['n/a', 'not applicable'],
             });
+
+            // Auto-set perf to n/a when status is nothing
+            if (status === 'nothing' && !perf) perf = 'n/a';
 
             const arch = normalizeDropdown(rawArch, {
               arm64: ['arm64'],
@@ -302,7 +318,7 @@ jobs:
               };
               const statusLabels = {
                 playable: '✅ Playable', ingame: '🟦 In-Game',
-                intro: '🟨 Intro', loads: '🟧 Loads', nothing: '🔴 Nothing',
+                intro: '🟨 Intro', loads: '🟧 Loads', nothing: "🔴 Doesn't Boot",
               };
               const perfLabels = { great: '🚀 Great', ok: '👌 OK', poor: '🐢 Poor' };
               const platformLabels = { ios: '📱 iOS', macos: '🖥️ macOS' };

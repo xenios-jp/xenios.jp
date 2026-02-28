@@ -36,13 +36,14 @@ jobs:
               ingame:   'In-Game',
               intro:    'Intro',
               loads:    'Loads',
-              nothing:  'Nothing',
+              nothing:  "Doesn't Boot",
             };
 
             const perfLabel = {
               great: '🚀 Great',
               ok:    '👌 OK',
               poor:  '🐢 Poor',
+              'n/a': '➖ N/A',
             };
 
             const platformLabel = {
@@ -102,7 +103,7 @@ jobs:
               `| 🔵 | In-Game | Reaches gameplay but has significant issues |`,
               `| 🟡 | Intro | Gets past loading but crashes before/during gameplay |`,
               `| 🟠 | Loads | Boots and shows menus but can't reach gameplay |`,
-              `| 🔴 | Nothing | Does not boot or crashes immediately |`,
+              `| 🔴 | Doesn't Boot | Does not boot or crashes immediately |`,
               ``,
               `## Games`,
               ``,

@@ -5,8 +5,6 @@ import {
   getGameBySlug,
   type GameStatus,
   type PerfTier,
-  type Platform,
-  type Architecture,
   type GpuBackend,
 } from "@/lib/compatibility";
 import { EMULATOR_GITHUB_COMPATIBILITY_REPORT_URL } from "@/lib/constants";
@@ -43,6 +41,16 @@ interface GitHubIssueCommentResponse {
   };
 }
 
+interface ReportMeta {
+  status?: string;
+  perf?: string;
+  device?: string;
+  platform?: string;
+  osVersion?: string;
+  gpuBackend?: string;
+  submittedBy?: string;
+}
+
 interface GitHubDiscussionEntry {
   id: string;
   type: "issue" | "comment";
@@ -53,6 +61,7 @@ interface GitHubDiscussionEntry {
   issueNumber: number;
   excerpt: string;
   images: string[];
+  meta: ReportMeta;
 }
 
 interface GitHubDiscussionData {
@@ -113,22 +122,6 @@ function perfLabel(perf: PerfTier): string {
   return map[perf];
 }
 
-function platformLabel(platform: Platform): string {
-  const map: Record<Platform, string> = {
-    ios: "iOS",
-    macos: "macOS",
-  };
-  return map[platform];
-}
-
-function archLabel(arch: Architecture): string {
-  const map: Record<Architecture, string> = {
-    arm64: "ARM64",
-    x86_64: "x86_64",
-  };
-  return map[arch];
-}
-
 function gpuLabel(gpu: GpuBackend): string {
   const map: Record<GpuBackend, string> = {
     msc: "MSC",
@@ -151,6 +144,28 @@ function extractImageUrls(markdown: string): string[] {
   }
 
   return [...imageUrls];
+}
+
+function extractReportMeta(markdown: string): ReportMeta {
+  const meta: ReportMeta = {};
+  const fieldMap: [string, keyof ReportMeta][] = [
+    ["Status", "status"],
+    ["Performance", "perf"],
+    ["Device", "device"],
+    ["Platform", "platform"],
+    ["OS Version", "osVersion"],
+    ["GPU Backend", "gpuBackend"],
+    ["Submitted By", "submittedBy"],
+  ];
+  for (const [label, key] of fieldMap) {
+    const re = new RegExp(`\\|\\s*\\*\\*${label}\\*\\*\\s*\\|\\s*(.+?)\\s*\\|`);
+    const m = markdown.match(re);
+    if (m) {
+      // Strip emoji prefixes (e.g. "🟦 ingame" → "ingame")
+      meta[key] = m[1].replace(/^[\u{1F000}-\u{1FFFF}\u{2600}-\u{27BF}\u{2700}-\u{27BF}✅🔴🟡🟢🟠🟤🟣🔵🟦🟧🟨]\s*/u, "").trim();
+    }
+  }
+  return meta;
 }
 
 function normalizeExcerpt(markdown: string): string {
@@ -238,6 +253,7 @@ async function fetchGitHubDiscussion(titleId: string): Promise<GitHubDiscussionD
       issueNumber: issue.number,
       excerpt: normalizeExcerpt(issue.body ?? ""),
       images: dedupeImageUrls(extractImageUrls(issue.body ?? "")),
+      meta: extractReportMeta(issue.body ?? ""),
     }));
 
     const issueComments = await Promise.all(
@@ -261,6 +277,7 @@ async function fetchGitHubDiscussion(titleId: string): Promise<GitHubDiscussionD
             issueNumber: issue.number,
             excerpt: normalizeExcerpt(comment.body),
             images: dedupeImageUrls(extractImageUrls(comment.body)),
+            meta: extractReportMeta(comment.body),
           }))
           .filter((comment) => comment.excerpt.length > 0 || comment.images.length > 0);
       })
@@ -299,6 +316,12 @@ export default async function GameDetailPage({
   if (!game) notFound();
   const discussion = await fetchGitHubDiscussion(game.titleId);
 
+  const hasTags = game.tags.length > 0;
+  const hasSettings =
+    game.recommendedSettings.resolution !== "N/A" ||
+    game.recommendedSettings.framerate !== "N/A";
+  const showDetails = hasTags || hasSettings;
+
   return (
     <div className="min-h-screen bg-bg-primary">
       {/* Header */}
@@ -327,16 +350,18 @@ export default async function GameDetailPage({
             </div>
 
             <div className="flex flex-wrap items-center gap-2">
-              {game.platforms.map((p) => (
-                <Pill key={p} variant={p}>{platformLabel(p)}</Pill>
-              ))}
               <Pill variant={game.status}>{statusLabel(game.status)}</Pill>
-              <Pill variant={game.perf}>{perfLabel(game.perf)}</Pill>
+              {game.perf !== "n/a" && (
+                <Pill variant={game.perf}>{perfLabel(game.perf)}</Pill>
+              )}
             </div>
           </div>
 
           <p className="mt-3 text-[15px] leading-relaxed text-text-muted">
             Last updated: {game.updatedAt}
+          </p>
+          <p className="mt-2 text-[15px] leading-relaxed text-text-secondary">
+            {game.notes}
           </p>
         </div>
       </section>
@@ -344,158 +369,12 @@ export default async function GameDetailPage({
       {/* Content */}
       <div className="mx-auto max-w-4xl px-4 py-10 md:py-14 sm:px-6 lg:px-8">
         <div className="flex flex-col gap-8">
-          {/* Notes */}
-          <section className="rounded-xl border border-border bg-bg-surface p-8">
-            <h2 className="mb-3 text-xl font-semibold text-text-primary">Notes</h2>
-            <p className="mt-4 text-[15px] leading-relaxed text-text-secondary">
-              {game.notes}
-            </p>
-          </section>
-
-          {/* Known Issues / Tags */}
-          <section className="rounded-xl border border-border bg-bg-surface p-8">
-            <h2 className="mb-3 text-xl font-semibold text-text-primary">
-              Known Issues
-            </h2>
-            {game.tags.length > 0 ? (
-              <div className="mt-4 flex flex-wrap gap-2">
-                {game.tags.map((tag) => (
-                  <Pill key={tag} variant="tag">
-                    {tag}
-                  </Pill>
-                ))}
-              </div>
-            ) : (
-              <p className="mt-4 text-[15px] leading-relaxed text-text-muted">
-                No known issues tagged for this title.
-              </p>
-            )}
-          </section>
-
-          {/* Recommended Settings */}
-          <section className="rounded-xl border border-border bg-bg-surface p-8">
-            <h2 className="mb-4 text-xl font-semibold text-text-primary">
-              Recommended Settings
-            </h2>
-            <div className="mt-4 grid grid-cols-2 gap-4 sm:grid-cols-3">
-              <div className="rounded-lg border border-border bg-bg-primary p-5">
-                <p className="text-sm font-semibold uppercase tracking-wider text-text-muted">
-                  Resolution
-                </p>
-                <p className="mt-1 text-lg font-medium text-text-primary">
-                  {game.recommendedSettings.resolution}
-                </p>
-              </div>
-              <div className="rounded-lg border border-border bg-bg-primary p-5">
-                <p className="text-sm font-semibold uppercase tracking-wider text-text-muted">
-                  Framerate
-                </p>
-                <p className="mt-1 text-lg font-medium text-text-primary">
-                  {game.recommendedSettings.framerate}
-                </p>
-              </div>
-              <div className="rounded-lg border border-border bg-bg-primary p-5">
-                <p className="text-sm font-semibold uppercase tracking-wider text-text-muted">
-                  Device
-                </p>
-                <p className="mt-1 text-lg font-medium text-text-primary">
-                  {game.lastReport.device}
-                </p>
-              </div>
-            </div>
-          </section>
-
-          {/* Report History */}
-          <section className="rounded-xl border border-border bg-bg-surface p-8">
-            <h2 className="mb-4 text-xl font-semibold text-text-primary">
-              Report History
-            </h2>
-
-            {/* Desktop table */}
-            <div className="mt-4 hidden overflow-x-auto sm:block">
-              <table className="w-full text-left text-[15px] leading-relaxed">
-                <thead>
-                  <tr className="border-b border-border text-sm font-semibold uppercase tracking-wider text-text-muted">
-                    <th className="pb-4 pr-4">Date</th>
-                    <th className="pb-4 pr-4">Device</th>
-                    <th className="pb-4 pr-4">Platform</th>
-                    <th className="pb-4 pr-4">OS</th>
-                    <th className="pb-4 pr-4">GPU</th>
-                    <th className="pb-4 pr-4">Status</th>
-                    <th className="pb-4">Notes</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {game.reports.map((report, i) => (
-                    <tr
-                      key={i}
-                      className="border-b border-border last:border-0"
-                    >
-                      <td className="py-4 pr-4 text-text-secondary">
-                        {report.date}
-                      </td>
-                      <td className="py-4 pr-4 text-text-primary">
-                        {report.device}
-                      </td>
-                      <td className="py-4 pr-4">
-                        <div className="flex items-center gap-1">
-                          <Pill variant={report.platform}>
-                            {platformLabel(report.platform)}
-                          </Pill>
-                          <span className="text-xs text-text-muted">{archLabel(report.arch)}</span>
-                        </div>
-                      </td>
-                      <td className="py-4 pr-4 text-text-secondary">{report.osVersion}</td>
-                      <td className="py-4 pr-4">
-                        <Pill variant={report.gpuBackend}>
-                          {gpuLabel(report.gpuBackend)}
-                        </Pill>
-                      </td>
-                      <td className="py-4 pr-4">
-                        <Pill variant={report.status}>
-                          {statusLabel(report.status)}
-                        </Pill>
-                      </td>
-                      <td className="py-4 text-text-secondary">{report.notes}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-
-            {/* Mobile cards */}
-            <div className="mt-4 flex flex-col gap-3 sm:hidden">
-              {game.reports.map((report, i) => (
-                <div
-                  key={i}
-                  className="rounded-lg border border-border bg-bg-primary p-5"
-                >
-                  <div className="mb-2 flex items-center justify-between">
-                    <span className="text-[15px] leading-relaxed font-medium text-text-primary">
-                      {report.device}
-                    </span>
-                    <Pill variant={report.status}>
-                      {statusLabel(report.status)}
-                    </Pill>
-                  </div>
-                  <p className="mb-2 text-[15px] leading-relaxed text-text-secondary">{report.notes}</p>
-                  <div className="flex flex-wrap items-center gap-2 text-sm text-text-muted">
-                    <Pill variant={report.platform}>{platformLabel(report.platform)}</Pill>
-                    <span>{report.osVersion}</span>
-                    <Pill variant={report.gpuBackend}>{gpuLabel(report.gpuBackend)}</Pill>
-                    <span>{report.date}</span>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </section>
-
-          {/* GitHub Discussion */}
+          {/* GitHub Discussion — most important, shown first */}
           {discussion ? (
             <section className="rounded-xl border border-border bg-bg-surface p-8">
               <div className="flex flex-wrap items-center justify-between gap-3">
                 <h2 className="text-xl font-semibold text-text-primary">
-                  GitHub Discussion
+                  Discussion
                 </h2>
                 <a
                   href={discussion.issueUrl}
@@ -519,13 +398,23 @@ export default async function GameDetailPage({
                           @{entry.author} · Issue #{entry.issueNumber}
                           {entry.type === "issue" ? " · Original report" : ""}
                         </span>
-                        <span className="text-xs text-text-muted">{entry.createdAt}</span>
+                        <span className="shrink-0 text-xs text-text-muted">{entry.createdAt}</span>
                       </div>
                       <p className="text-[15px] leading-relaxed text-text-secondary">
                         {entry.excerpt}
                       </p>
+                      {Object.keys(entry.meta).length > 0 ? (
+                        <p className="mt-1.5 text-xs text-text-muted">
+                          {[
+                            entry.meta.status && statusLabel(entry.meta.status as GameStatus),
+                            entry.meta.device,
+                            entry.meta.osVersion,
+                            entry.meta.gpuBackend,
+                          ].filter(Boolean).join(" · ")}
+                        </p>
+                      ) : null}
                       {entry.images.length > 0 ? (
-                        <div className="mt-3 grid grid-cols-1 gap-3 sm:grid-cols-2">
+                        <div className={`mt-3 grid gap-3 ${entry.images.length === 1 ? "grid-cols-1" : "grid-cols-1 sm:grid-cols-2"}`}>
                           {entry.images.map((url) => (
                             <a
                               key={`${entry.id}-${url}`}
@@ -537,7 +426,7 @@ export default async function GameDetailPage({
                               <img
                                 src={url}
                                 alt={`GitHub attachment for ${game.title}`}
-                                className="h-40 w-full object-cover"
+                                className="max-h-72 w-full rounded-lg object-contain"
                               />
                             </a>
                           ))}
@@ -559,6 +448,60 @@ export default async function GameDetailPage({
                   No discussion entries yet.
                 </p>
               )}
+            </section>
+          ) : null}
+
+          {/* Details — only shown if there are tags or non-N/A settings */}
+          {showDetails ? (
+            <section className="rounded-xl border border-border bg-bg-surface p-8">
+              <h2 className="mb-4 text-xl font-semibold text-text-primary">
+                Details
+              </h2>
+
+              {hasTags ? (
+                <div>
+                  <h3 className="text-sm font-semibold uppercase tracking-wider text-text-muted">Known Issues</h3>
+                  <div className="mt-2 flex flex-wrap gap-2">
+                    {game.tags.map((tag) => (
+                      <Pill key={tag} variant="tag">
+                        {tag}
+                      </Pill>
+                    ))}
+                  </div>
+                </div>
+              ) : null}
+
+              {hasSettings ? (
+                <div className={hasTags ? "mt-6" : ""}>
+                  <h3 className="text-sm font-semibold uppercase tracking-wider text-text-muted">Recommended Settings</h3>
+                  <div className="mt-2 grid grid-cols-2 gap-4 sm:grid-cols-3">
+                    <div className="rounded-lg border border-border bg-bg-primary p-5">
+                      <p className="text-sm font-semibold uppercase tracking-wider text-text-muted">
+                        Resolution
+                      </p>
+                      <p className="mt-1 text-lg font-medium text-text-primary">
+                        {game.recommendedSettings.resolution}
+                      </p>
+                    </div>
+                    <div className="rounded-lg border border-border bg-bg-primary p-5">
+                      <p className="text-sm font-semibold uppercase tracking-wider text-text-muted">
+                        Framerate
+                      </p>
+                      <p className="mt-1 text-lg font-medium text-text-primary">
+                        {game.recommendedSettings.framerate}
+                      </p>
+                    </div>
+                    <div className="rounded-lg border border-border bg-bg-primary p-5">
+                      <p className="text-sm font-semibold uppercase tracking-wider text-text-muted">
+                        Device
+                      </p>
+                      <p className="mt-1 text-lg font-medium text-text-primary">
+                        {game.lastReport.device}
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              ) : null}
             </section>
           ) : null}
 

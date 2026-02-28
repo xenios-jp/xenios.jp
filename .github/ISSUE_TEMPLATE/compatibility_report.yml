@@ -86,7 +86,7 @@ body:
         - In-Game — Reaches gameplay but has significant issues
         - Intro — Gets past loading but crashes before or during gameplay
         - Loads — Boots and shows menus but can't reach gameplay
-        - Nothing — Does not boot or crashes immediately
+        - Doesn't Boot — Does not boot or crashes immediately
     validations:
       required: true
 
@@ -99,6 +99,7 @@ body:
         - Great — Runs at or near full speed
         - OK — Playable but with noticeable performance drops
         - Poor — Significant performance issues
+        - "N/A — Game doesn't boot"
     validations:
       required: true
 
