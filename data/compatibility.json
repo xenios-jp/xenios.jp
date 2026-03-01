@@ -181,5 +181,44 @@
       }
     ],
     "screenshots": []
+  },
+  {
+    "slug": "bayonetta",
+    "title": "Bayonetta",
+    "titleId": "53450813",
+    "status": "ingame",
+    "perf": "poor",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 17",
+      "platform": "ios",
+      "osVersion": "26.3",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-01",
+    "notes": "Runs at about 20fps, but seems like the engine expects 30fps consistently so not very playable currently.",
+    "recommendedSettings": {
+      "resolution": "720p",
+      "framerate": "30fps"
+    },
+    "reports": [
+      {
+        "device": "iPhone 17",
+        "platform": "ios",
+        "osVersion": "26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "date": "2026-03-01",
+        "notes": "Runs at about 20fps, but seems like the engine expects 30fps consistently so not very playable currently.",
+        "submittedBy": "reality111",
+        "source": "discord"
+      }
+    ],
+    "screenshots": []
   }
 ]
