@@ -75,10 +75,10 @@ PAYLOAD=$(cat <<'EOF'
         { "name": "iPad mini (A17 Pro)", "value": "iPad mini (A17 Pro)" },
         { "name": "iPad (11th gen)", "value": "iPad (11th gen)" },
         { "name": "MacBook Pro M5", "value": "MacBook Pro M5" },
-        { "name": "MacBook Pro M4 Pro/Max", "value": "MacBook Pro M4 Pro/Max" },
+        { "name": "MacBook Pro M4 Pro", "value": "MacBook Pro M4 Pro" },
+        { "name": "MacBook Pro M4 Max", "value": "MacBook Pro M4 Max" },
         { "name": "MacBook Air M4", "value": "MacBook Air M4" },
-        { "name": "MacBook Pro M3 Pro/Max", "value": "MacBook Pro M3 Pro/Max" },
-        { "name": "MacBook Air M3", "value": "MacBook Air M3" },
+        { "name": "Other Mac (M1 or older)", "value": "Other Mac (M1 or older)" },
         { "name": "iMac M4", "value": "iMac M4" },
         { "name": "Mac mini M4", "value": "Mac mini M4" },
         { "name": "Mac Studio M4 Max/Ultra", "value": "Mac Studio M4 Max/Ultra" }
@@ -186,6 +186,34 @@ BODY=$(echo "$RESPONSE" | sed '$d')
 
 if [ "$HTTP_CODE" = "200" ] || [ "$HTTP_CODE" = "201" ]; then
   echo "Success! /compat command registered."
+  echo "$BODY" | python3 -c "import sys,json; d=json.load(sys.stdin); print(f'Command ID: {d[\"id\"]}')" 2>/dev/null || true
+else
+  echo "Failed with HTTP $HTTP_CODE:"
+  echo "$BODY"
+  exit 1
+fi
+
+# ── /support command ─────────────────────────────────────────────────
+SUPPORT_PAYLOAD=$(cat <<'EOF'
+{
+  "name": "support",
+  "type": 1,
+  "description": "Show how to support XeniOS development"
+}
+EOF
+)
+
+echo "Registering /support command..."
+RESPONSE=$(curl -s -w "\n%{http_code}" -X POST "$API" \
+  -H "Authorization: Bot ${DISCORD_BOT_TOKEN}" \
+  -H "Content-Type: application/json" \
+  -d "$SUPPORT_PAYLOAD")
+
+HTTP_CODE=$(echo "$RESPONSE" | tail -n1)
+BODY=$(echo "$RESPONSE" | sed '$d')
+
+if [ "$HTTP_CODE" = "200" ] || [ "$HTTP_CODE" = "201" ]; then
+  echo "Success! /support command registered."
   echo "$BODY" | python3 -c "import sys,json; d=json.load(sys.stdin); print(f'Command ID: {d[\"id\"]}')" 2>/dev/null || true
 else
   echo "Failed with HTTP $HTTP_CODE:"

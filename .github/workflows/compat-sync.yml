@@ -125,4 +125,10 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add COMPATIBILITY.md
-          git diff --staged --quiet && echo "No changes" || git commit -m "docs: update COMPATIBILITY.md [skip ci]" && git push
+          if ! git diff --staged --quiet; then
+            git pull --rebase
+            git commit -m "docs: update COMPATIBILITY.md [skip ci]"
+            git push
+          else
+            echo "No changes"
+          fi

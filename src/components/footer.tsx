@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { WEBSITE_GITHUB_URL } from "@/lib/constants";
+import { WEBSITE_GITHUB_URL, KOFI_URL } from "@/lib/constants";
 
 const footerLinks = [
   { label: "Legal/Disclaimer", href: "/legal" },
@@ -12,6 +12,7 @@ const footerLinks = [
     external: true,
   },
   { label: "Discord", href: "https://discord.gg/xenios", external: true },
+  { label: "Support", href: KOFI_URL, external: true },
 ];
 
 export function Footer() {

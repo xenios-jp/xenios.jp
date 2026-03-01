@@ -19,10 +19,6 @@
     },
     "updatedAt": "2026-02-28",
     "notes": "Does not boot",
-    "recommendedSettings": {
-      "resolution": "N/A",
-      "framerate": "N/A"
-    },
     "reports": [
       {
         "device": "iPhone 16 Pro Max",
@@ -78,28 +74,34 @@
       "macos"
     ],
     "lastReport": {
-      "device": "MacBook Pro M4 Pro/Max",
+      "device": "MacBook Pro M4 Pro",
       "platform": "macos",
       "osVersion": "15.3",
       "arch": "arm64",
       "gpuBackend": "msc"
     },
     "updatedAt": "2026-02-28",
-    "notes": "Get's into game with severe graphical issues. Framerate is above 30 on M4 Pro.",
-    "recommendedSettings": {
-      "resolution": "720p",
-      "framerate": "30fps"
-    },
+    "notes": "Gets into game with severe graphical issues.",
     "reports": [
       {
-        "device": "MacBook Pro M4 Pro/Max",
+        "device": "MacBook Pro M4 Pro",
         "platform": "macos",
         "osVersion": "15.3",
         "arch": "arm64",
         "gpuBackend": "msc",
         "status": "ingame",
         "date": "2026-02-28",
-        "notes": "Get's into game with severe graphical issues. Framerate is above 30 on M4 Pro."
+        "notes": "Gets into game with severe graphical issues. Framerate is above 30."
+      },
+      {
+        "device": "MacBook Pro M4 Max",
+        "platform": "macos",
+        "osVersion": "15.3",
+        "arch": "arm64",
+        "gpuBackend": "msc",
+        "status": "ingame",
+        "date": "2026-02-28",
+        "notes": "Gets into game with severe graphical issues."
       }
     ],
     "screenshots": []

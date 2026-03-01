@@ -29,8 +29,8 @@
 interface Env {
   GITHUB_TOKEN: string;
   DISCORD_WEBHOOK: string;
-  DISCORD_BOARD_WEBHOOK: string;
-  DISCORD_BOARD_MESSAGE_ID: string;
+  DISCORD_BOARD_WEBHOOK?: string;   // optional — falls back to DISCORD_WEBHOOK
+  DISCORD_BOARD_MESSAGE_ID?: string;
   API_KEY: string;
   DISCORD_APPLICATION_ID: string;
   DISCORD_PUBLIC_KEY: string;
@@ -56,8 +56,6 @@ interface ReportPayload {
   gpuBackend: GpuBackend;
   notes: string;
   tags?: string[];
-  resolution?: string;
-  framerate?: string;
 }
 
 interface GameReport {
@@ -90,7 +88,6 @@ interface Game {
   };
   updatedAt: string;
   notes: string;
-  recommendedSettings: { resolution: string; framerate: string };
   reports: GameReport[];
   screenshots: string[];
 }
@@ -234,8 +231,6 @@ function validatePayload(body: unknown): { ok: true; data: ReportPayload } | { o
       gpuBackend: b.gpuBackend as GpuBackend,
       notes: (b.notes as string).trim(),
       tags: Array.isArray(b.tags) ? b.tags.filter((t): t is string => typeof t === "string") : undefined,
-      resolution: typeof b.resolution === "string" ? b.resolution : undefined,
-      framerate: typeof b.framerate === "string" ? b.framerate : undefined,
     },
   };
 }
@@ -468,24 +463,19 @@ const SOURCE_LABELS: Record<ReportSource, string> = {
 };
 
 async function postToDiscord(webhookUrl: string, report: ReportPayload, issueUrl: string, source: ReportSource, screenshotUrl?: string, submittedBy?: string): Promise<void> {
-  const platformDisplay = report.platform === "ios" ? "iOS" : "macOS";
+  const desc = [
+    `${STATUS_LABELS[report.status]}  \u2022  ${PERF_LABELS[report.perf]}`,
+    `${PLATFORM_LABELS[report.platform]}  \u2022  ${report.device}`,
+    ``,
+    report.notes.slice(0, 300) + (report.notes.length > 300 ? "..." : ""),
+  ].join("\n");
 
   const embed: Record<string, unknown> = {
     title: report.title,
-    description: report.notes.slice(0, 200) + (report.notes.length > 200 ? "..." : ""),
+    url: issueUrl || undefined,
+    description: desc,
     color: STATUS_COLORS[report.status],
-    fields: [
-      { name: "Status", value: STATUS_LABELS[report.status], inline: true },
-      { name: "Performance", value: PERF_LABELS[report.perf], inline: true },
-      { name: "Title ID", value: `\`${report.titleId}\``, inline: true },
-      { name: "Platform", value: PLATFORM_LABELS[report.platform], inline: true },
-      { name: "Device", value: report.device, inline: true },
-      { name: "OS Version", value: `${platformDisplay} ${report.osVersion}`, inline: true },
-      { name: "Architecture", value: report.arch.toUpperCase(), inline: true },
-      { name: "GPU Backend", value: report.gpuBackend.toUpperCase(), inline: true },
-      { name: "GitHub Issue", value: issueUrl ? `[View](${issueUrl})` : "N/A", inline: true },
-    ],
-    footer: { text: submittedBy ? `Reported by ${submittedBy} \u2022 via ${SOURCE_LABELS[source]}` : `XeniOS Compatibility Report \u2022 via ${SOURCE_LABELS[source]}` },
+    footer: { text: submittedBy ? `${submittedBy} \u2022 ${SOURCE_LABELS[source]}` : SOURCE_LABELS[source] },
     timestamp: new Date().toISOString(),
   };
 
@@ -527,7 +517,8 @@ const STATUS_LABEL_PLAIN: Record<GameStatus, string> = {
 };
 
 async function updateCompatBoard(env: Env, games: Game[]): Promise<void> {
-  if (!env.DISCORD_BOARD_WEBHOOK) return;
+  const webhook = env.DISCORD_BOARD_WEBHOOK || env.DISCORD_WEBHOOK;
+  if (!webhook) return;
 
   // Sort games: by status order, then alphabetically
   const sorted = [...games].sort((a, b) => {
@@ -566,13 +557,11 @@ async function updateCompatBoard(env: Env, games: Game[]): Promise<void> {
 
   const payload = JSON.stringify({
     embeds: [embed],
-    // Suppress link previews
-    flags: 1 << 2,
   });
 
   // Try to edit existing message first
   if (env.DISCORD_BOARD_MESSAGE_ID) {
-    const editUrl = `${env.DISCORD_BOARD_WEBHOOK}/messages/${env.DISCORD_BOARD_MESSAGE_ID}`;
+    const editUrl = `${webhook}/messages/${env.DISCORD_BOARD_MESSAGE_ID}`;
     const res = await fetch(editUrl, {
       method: "PATCH",
       headers: { "Content-Type": "application/json" },
@@ -583,7 +572,7 @@ async function updateCompatBoard(env: Env, games: Game[]): Promise<void> {
   }
 
   // Post new message (manual pin needed by server admin)
-  const postUrl = `${env.DISCORD_BOARD_WEBHOOK}?wait=true`;
+  const postUrl = `${webhook}?wait=true`;
   const res = await fetch(postUrl, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
@@ -643,9 +632,6 @@ function mergeReport(games: Game[], report: ReportPayload, source?: ReportSource
       report.tags.forEach((t) => existing.add(t));
       game.tags = [...existing];
     }
-    if (report.resolution) game.recommendedSettings.resolution = report.resolution;
-    if (report.framerate) game.recommendedSettings.framerate = report.framerate;
-
     const updated = [...games];
     updated[idx] = game;
     return updated;
@@ -668,10 +654,6 @@ function mergeReport(games: Game[], report: ReportPayload, source?: ReportSource
     },
     updatedAt: today,
     notes: report.notes,
-    recommendedSettings: {
-      resolution: report.resolution || "720p",
-      framerate: report.framerate || "30fps",
-    },
     reports: [newReport],
     screenshots: [],
   };
@@ -939,6 +921,29 @@ async function handleDiscordInteraction(request: Request, env: Env, ctx: Executi
         return opt ? String(opt.value) : "";
       };
 
+      // ── /support — show donation / Ko-fi link ─
+      if (commandName === "support") {
+        return discordJsonResponse({
+          type: RESPONSE_TYPE.CHANNEL_MESSAGE,
+          data: {
+            embeds: [{
+              title: "Support XeniOS",
+              description: [
+                "XeniOS is a free, open-source Xbox 360 emulator for Apple devices.",
+                "",
+                "If you'd like to support ongoing development, you can donate via Ko-fi:",
+                "",
+                "**[ko-fi.com/xenios](https://ko-fi.com/xenios)**",
+                "",
+                "Every contribution helps keep the project going. Thank you! \u2764\uFE0F",
+              ].join("\n"),
+              color: 0xff5e5b,
+              url: "https://ko-fi.com/xenios",
+            }],
+          },
+        });
+      }
+
       // ── /compat [game] — look up compatibility ─
       if (commandName === "compat") {
         const query = getOption("game").toLowerCase().trim();
@@ -1012,42 +1017,53 @@ async function handleDiscordInteraction(request: Request, env: Env, ctx: Executi
       }
 
       // ── /report → cache enum options, open text modal ─
-      const interactionId = interaction.id as string;
+      if (commandName === "report") {
+        const interactionId = interaction.id as string;
 
-      // Extract Discord username (guild context or DM)
-      const discordUser = interaction.member?.user || interaction.user;
-      const submittedBy = discordUser?.username || "Unknown";
+        // Extract Discord username (guild context or DM)
+        const discordUser = interaction.member?.user || interaction.user;
+        const submittedBy = discordUser?.username || "Unknown";
 
-      // Extract optional screenshot attachment URL
-      let screenshotUrl = "";
-      const screenshotId = getOption("screenshot");
-      if (screenshotId && resolved.attachments) {
-        const attachment = resolved.attachments[screenshotId] as DiscordAttachment | undefined;
-        if (attachment?.url) screenshotUrl = attachment.url;
+        // Extract optional screenshot attachment URL
+        let screenshotUrl = "";
+        const screenshotId = getOption("screenshot");
+        if (screenshotId && resolved.attachments) {
+          const attachment = resolved.attachments[screenshotId] as DiscordAttachment | undefined;
+          if (attachment?.url) screenshotUrl = attachment.url;
+        }
+
+        // Cache all enum options from slash command choices
+        // Platform is inferred from device name (no separate field needed)
+        const cmdOpts: CommandOptions = {
+          status: getOption("status"),
+          perf: getOption("perf"),
+          device: getOption("device"),
+          osVersion: getOption("os_version"),
+          arch: getOption("arch"),
+          gpuBackend: getOption("gpu"),
+          screenshotUrl,
+          submittedBy,
+        };
+
+        console.log("[discord] command options:", JSON.stringify(cmdOpts));
+        ctx.waitUntil(storeCommandOptions(interactionId, cmdOpts));
+
+        const customId = `compat:${interactionId}`;
+        console.log("[discord] opening text modal, custom_id:", customId);
+
+        return discordJsonResponse({
+          type: RESPONSE_TYPE.MODAL,
+          data: buildTextModal(customId),
+        });
       }
 
-      // Cache all enum options from slash command choices
-      // Platform is inferred from device name (no separate field needed)
-      const cmdOpts: CommandOptions = {
-        status: getOption("status"),
-        perf: getOption("perf"),
-        device: getOption("device"),
-        osVersion: getOption("os_version"),
-        arch: getOption("arch"),
-        gpuBackend: getOption("gpu"),
-        screenshotUrl,
-        submittedBy,
-      };
-
-      console.log("[discord] command options:", JSON.stringify(cmdOpts));
-      ctx.waitUntil(storeCommandOptions(interactionId, cmdOpts));
-
-      const customId = `compat:${interactionId}`;
-      console.log("[discord] opening text modal, custom_id:", customId);
-
+      // Unknown command
       return discordJsonResponse({
-        type: RESPONSE_TYPE.MODAL,
-        data: buildTextModal(customId),
+        type: RESPONSE_TYPE.CHANNEL_MESSAGE,
+        data: {
+          content: `Unknown command: \`/${commandName}\``,
+          flags: FLAGS.EPHEMERAL,
+        },
       });
     }
 
@@ -1219,6 +1235,21 @@ export default {
         return jsonResponse(games);
       } catch (e) {
         return errorResponse(`Failed to fetch games: ${(e as Error).message}`, 500);
+      }
+    }
+
+    // Manual board refresh (auth required)
+    if (url.pathname === "/board" && request.method === "POST") {
+      const authHeader = request.headers.get("Authorization");
+      if (authHeader !== `Bearer ${env.API_KEY}`) {
+        return errorResponse("Unauthorized", 401);
+      }
+      try {
+        const { content: games } = await getFileFromGitHub(env.GITHUB_TOKEN);
+        await updateCompatBoard(env, games);
+        return jsonResponse({ ok: true, games: games.length });
+      } catch (e) {
+        return errorResponse(`Board update failed: ${(e as Error).message}`, 500);
       }
     }
 

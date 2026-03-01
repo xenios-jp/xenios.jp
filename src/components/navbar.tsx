@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { ThemeToggle } from "@/components/theme-toggle";
-import { EMULATOR_GITHUB_URL } from "@/lib/constants";
+import { EMULATOR_GITHUB_URL, KOFI_URL } from "@/lib/constants";
 
 const navLinks = [
   { label: "Download", href: "/download" },
@@ -36,6 +36,19 @@ function DiscordIcon({ className }: { className?: string }) {
       aria-hidden="true"
     >
       <path d="M13.55 3.15A13.27 13.27 0 0010.21 2a9.85 9.85 0 00-.43.88 12.3 12.3 0 00-3.57 0A9.4 9.4 0 005.78 2 13.36 13.36 0 002.44 3.15 13.85 13.85 0 00.21 11.84a13.4 13.4 0 004.04 2.04 10.06 10.06 0 00.87-1.41 8.7 8.7 0 01-1.37-.66c.11-.08.22-.17.33-.26a9.56 9.56 0 008.18 0c.1.09.22.18.33.26-.44.26-.9.48-1.38.66.25.5.54.97.87 1.41a13.35 13.35 0 004.04-2.04 13.82 13.82 0 00-2.23-8.69zM5.35 10.18c-.75 0-1.37-.7-1.37-1.55 0-.86.6-1.56 1.37-1.56.76 0 1.38.7 1.37 1.56 0 .86-.61 1.55-1.37 1.55zm5.3 0c-.76 0-1.37-.7-1.37-1.55 0-.86.6-1.56 1.37-1.56.76 0 1.37.7 1.37 1.56 0 .86-.61 1.55-1.37 1.55z" />
+    </svg>
+  );
+}
+
+function HeartIcon({ className }: { className?: string }) {
+  return (
+    <svg
+      className={className}
+      viewBox="0 0 16 16"
+      fill="currentColor"
+      aria-hidden="true"
+    >
+      <path d="M7.655 14.916v-.001h-.002l-.006-.003-.018-.01a7.643 7.643 0 01-.245-.144 15.46 15.46 0 01-2.734-2.138C2.93 10.88 1.5 8.836 1.5 6.168c0-2.394 1.886-4.168 3.9-4.168 1.182 0 2.244.57 2.6 1.478.356-.908 1.418-1.478 2.6-1.478 2.014 0 3.9 1.774 3.9 4.168 0 2.668-1.43 4.712-3.15 6.452a15.46 15.46 0 01-2.734 2.138 8.758 8.758 0 01-.263.154l-.006.003h-.002l-.345-.192.345.192z" />
     </svg>
   );
 }
@@ -131,6 +144,15 @@ export function Navbar() {
           >
             <DiscordIcon className="h-[18px] w-[18px]" />
           </a>
+          <a
+            href={KOFI_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="p-2 text-text-secondary transition-colors hover:text-pink-500"
+            aria-label="Support on Ko-fi"
+          >
+            <HeartIcon className="h-[18px] w-[18px]" />
+          </a>
           <ThemeToggle />
         </div>
 
@@ -188,6 +210,15 @@ export function Navbar() {
                 aria-label="Discord"
               >
                 <DiscordIcon className="h-5 w-5" />
+              </a>
+              <a
+                href={KOFI_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-text-secondary transition-colors hover:text-pink-500"
+                aria-label="Support on Ko-fi"
+              >
+                <HeartIcon className="h-5 w-5" />
               </a>
               <ThemeToggle />
             </div>

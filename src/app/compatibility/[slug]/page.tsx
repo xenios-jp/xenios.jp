@@ -3,6 +3,7 @@ import Link from "next/link";
 import {
   getAllGames,
   getGameBySlug,
+  getBestReport,
   type GameStatus,
   type PerfTier,
   type GpuBackend,
@@ -317,10 +318,8 @@ export default async function GameDetailPage({
   const discussion = await fetchGitHubDiscussion(game.titleId);
 
   const hasTags = game.tags.length > 0;
-  const hasSettings =
-    game.recommendedSettings.resolution !== "N/A" ||
-    game.recommendedSettings.framerate !== "N/A";
-  const showDetails = hasTags || hasSettings;
+  const bestReport = getBestReport(game);
+  const showDetails = hasTags || bestReport;
 
   return (
     <div className="min-h-screen bg-bg-primary">
@@ -471,35 +470,46 @@ export default async function GameDetailPage({
                 </div>
               ) : null}
 
-              {hasSettings ? (
+              {bestReport ? (
                 <div className={hasTags ? "mt-6" : ""}>
-                  <h3 className="text-sm font-semibold uppercase tracking-wider text-text-muted">Recommended Settings</h3>
-                  <div className="mt-2 grid grid-cols-2 gap-4 sm:grid-cols-3">
+                  <h3 className="text-sm font-semibold uppercase tracking-wider text-text-muted">Best Result</h3>
+                  <div className="mt-2 grid grid-cols-2 gap-4 sm:grid-cols-4">
                     <div className="rounded-lg border border-border bg-bg-primary p-5">
                       <p className="text-sm font-semibold uppercase tracking-wider text-text-muted">
-                        Resolution
+                        Status
                       </p>
-                      <p className="mt-1 text-lg font-medium text-text-primary">
-                        {game.recommendedSettings.resolution}
-                      </p>
-                    </div>
-                    <div className="rounded-lg border border-border bg-bg-primary p-5">
-                      <p className="text-sm font-semibold uppercase tracking-wider text-text-muted">
-                        Framerate
-                      </p>
-                      <p className="mt-1 text-lg font-medium text-text-primary">
-                        {game.recommendedSettings.framerate}
-                      </p>
+                      <div className="mt-1">
+                        <Pill variant={bestReport.status}>{statusLabel(bestReport.status)}</Pill>
+                      </div>
                     </div>
                     <div className="rounded-lg border border-border bg-bg-primary p-5">
                       <p className="text-sm font-semibold uppercase tracking-wider text-text-muted">
                         Device
                       </p>
                       <p className="mt-1 text-lg font-medium text-text-primary">
-                        {game.lastReport.device}
+                        {bestReport.device}
+                      </p>
+                    </div>
+                    <div className="rounded-lg border border-border bg-bg-primary p-5">
+                      <p className="text-sm font-semibold uppercase tracking-wider text-text-muted">
+                        Platform
+                      </p>
+                      <p className="mt-1 text-lg font-medium text-text-primary">
+                        {bestReport.platform === "ios" ? "iOS" : "macOS"} {bestReport.osVersion}
+                      </p>
+                    </div>
+                    <div className="rounded-lg border border-border bg-bg-primary p-5">
+                      <p className="text-sm font-semibold uppercase tracking-wider text-text-muted">
+                        GPU
+                      </p>
+                      <p className="mt-1 text-lg font-medium text-text-primary">
+                        {gpuLabel(bestReport.gpuBackend)}
                       </p>
                     </div>
                   </div>
+                  <p className="mt-3 text-sm text-text-muted">
+                    Based on the highest-status report from {bestReport.date}.
+                  </p>
                 </div>
               ) : null}
             </section>

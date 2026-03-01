@@ -42,7 +42,6 @@ export interface Game {
   };
   updatedAt: string;
   notes: string;
-  recommendedSettings: { resolution: string; framerate: string };
   reports: GameReport[];
   screenshots: string[];
 }
@@ -144,4 +143,23 @@ export function getAllGames(): Game[] {
 
 export function getGameBySlug(slug: string): Game | undefined {
   return (compatData as Game[]).find((game) => game.slug === slug);
+}
+
+const STATUS_RANK: Record<GameStatus, number> = {
+  playable: 4,
+  ingame: 3,
+  intro: 2,
+  loads: 1,
+  nothing: 0,
+};
+
+export function getBestReport(game: Game): GameReport | null {
+  if (game.reports.length === 0) return null;
+  return game.reports.reduce((best, report) => {
+    const bestRank = STATUS_RANK[best.status];
+    const reportRank = STATUS_RANK[report.status];
+    if (reportRank > bestRank) return report;
+    if (reportRank === bestRank && report.date > best.date) return report;
+    return best;
+  });
 }
