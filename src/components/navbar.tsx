@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { ThemeToggle } from "@/components/theme-toggle";
-import { EMULATOR_GITHUB_URL, KOFI_URL } from "@/lib/constants";
+import { EMULATOR_GITHUB_URL, DISCORD_URL, KOFI_URL } from "@/lib/constants";
 
 const navLinks = [
   { label: "Download", href: "/download" },
@@ -136,7 +136,7 @@ export function Navbar() {
             <GitHubIcon className="h-[18px] w-[18px]" />
           </a>
           <a
-            href="https://discord.gg/xenios"
+            href={DISCORD_URL}
             target="_blank"
             rel="noopener noreferrer"
             className="p-2 text-text-secondary transition-colors hover:text-text-primary"
@@ -203,7 +203,7 @@ export function Navbar() {
                 <GitHubIcon className="h-5 w-5" />
               </a>
               <a
-                href="https://discord.gg/xenios"
+                href={DISCORD_URL}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-text-secondary transition-colors hover:text-text-primary"

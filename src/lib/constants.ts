@@ -8,6 +8,7 @@ export const EMULATOR_GITHUB_RELEASES_URL = `${EMULATOR_GITHUB_URL}/releases`;
 export const EMULATOR_GITHUB_ISSUES_URL = `${EMULATOR_GITHUB_URL}/issues`;
 export const EMULATOR_GITHUB_COMPATIBILITY_REPORT_URL = `${EMULATOR_GITHUB_ISSUES_URL}/new?template=compatibility_report.yml`;
 
+export const DISCORD_URL = "https://discord.gg/QwcTtNKTGf";
 export const KOFI_URL = "https://ko-fi.com/xenios";
 
 export const XENIA_UPSTREAM_OWNER = "xenia-project";
