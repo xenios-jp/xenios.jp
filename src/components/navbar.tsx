@@ -11,7 +11,6 @@ const navLinks = [
   { label: "Compatibility", href: "/compatibility" },
   { label: "Docs", href: "/docs" },
   { label: "FAQ", href: "/faq" },
-  { label: "Changelog", href: "/changelog" },
 ];
 
 function GitHubIcon({ className }: { className?: string }) {

@@ -130,7 +130,7 @@ export default function DownloadMacPage() {
               </div>
               <div>
                 <dt className="text-text-muted">Artifacts</dt>
-                <dd className="mt-1 text-text-primary">iOS + macOS</dd>
+                <dd className="mt-1 text-text-primary">N/A</dd>
               </div>
             </dl>
           </div>
@@ -139,4 +139,3 @@ export default function DownloadMacPage() {
     </>
   );
 }
-

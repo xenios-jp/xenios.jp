@@ -327,7 +327,7 @@ export default function DownloadPage() {
               </div>
               <div>
                 <dt className="text-text-muted">Size</dt>
-                <dd className="mt-1 text-text-primary">~85 MB</dd>
+                <dd className="mt-1 text-text-primary">N/A</dd>
               </div>
             </dl>
           </div>

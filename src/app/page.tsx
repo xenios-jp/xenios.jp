@@ -2,7 +2,6 @@ import Link from "next/link";
 import { StateStrip } from "@/components/state-strip";
 import { Pill } from "@/components/pill";
 import { HeroTitle } from "@/components/hero-title";
-import { BUILD_VERSION, BUILD_DATE } from "@/lib/constants";
 import { getAllGames, type GameStatus } from "@/lib/compatibility";
 
 const STATUS_LABELS: Record<GameStatus, string> = {
@@ -64,10 +63,10 @@ export default function Home() {
       {/* State Strip */}
       <StateStrip
         items={[
-          { label: "Build", value: BUILD_VERSION },
-          { label: BUILD_DATE },
-          { label: "iPhone/iPad build" },
-          { label: "Mac build (Intel + M-series)" },
+          { label: "Public build", value: "N/A" },
+          { label: "Availability", value: "Not currently available" },
+          { label: "iPhone/iPad", value: "N/A" },
+          { label: "Mac", value: "N/A" },
         ]}
       />
 

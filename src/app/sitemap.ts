@@ -31,7 +31,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/faq/ios",
     "/faq/mac",
     "/legal",
-    "/changelog",
     "/license",
   ];
 

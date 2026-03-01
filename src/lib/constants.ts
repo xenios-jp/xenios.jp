@@ -1,6 +1,6 @@
-export const BUILD_VERSION = "v0.1.0-alpha";
-export const BUILD_COMMIT = "abc1234";
-export const BUILD_DATE = "Feb 2026";
+export const BUILD_VERSION = "N/A";
+export const BUILD_COMMIT = "N/A";
+export const BUILD_DATE = "N/A";
 
 export const WEBSITE_GITHUB_URL = "https://github.com/xenios-jp/xenios.jp";
 export const EMULATOR_GITHUB_URL = "https://github.com/xenios-jp/XeniOS";
