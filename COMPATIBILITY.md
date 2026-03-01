@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **4 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **5 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **0** · 🔵 In-Game: **3** · 🟡 Intro: **0** · 🟠 Loads: **0** · 🔴 Doesn't Boot: **1**
+> 🟢 Playable: **0** · 🔵 In-Game: **4** · 🟡 Intro: **0** · 🟠 Loads: **0** · 🔴 Doesn't Boot: **1**
 >
-> 📱 iOS: **1** · 🖥️ macOS: **4**
+> 📱 iOS: **2** · 🖥️ macOS: **4**
 
 ## Legend
 
@@ -20,6 +20,7 @@
 
 | | Title | Title ID | Platform | Status | Perf | Last Device | Updated |
 |-|-------|----------|----------|--------|------|-------------|---------|
+| 🔵 | Bayonetta | `53450813` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 | 2026-03-01 |
 | 🔵 | Gears of War | `4D5307D5` | 🖥️ macOS | In-Game | 👌 OK | MacBook Pro M4 Pro/Max | 2026-02-28 |
 | 🔵 | GTA IV | `545407F2` | 🖥️ macOS | In-Game | 🐢 Poor | MacBook Pro M4 Pro/Max | 2026-02-28 |
 | 🔵 | Metro: Last Light | `4B4D07F5` | 🖥️ macOS | In-Game | 👌 OK | MacBook Pro M4 Pro/Max | 2026-02-28 |
