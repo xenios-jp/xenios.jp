@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     template: "%s — XeniOS",
   },
   description:
-    "XeniOS is the Apple-platform port of Xenia, the Xbox 360 Emulation Research Project. Play Xbox 360 games on iPhone, iPad, and Mac. Free, open source, and community-driven.",
+    "XeniOS is based on has207/xenia-edge for Apple devices. Play Xbox 360 games on iPhone, iPad, and Mac. Free, open source, and community-driven.",
   metadataBase: new URL("https://xenios.jp"),
   openGraph: {
     title: "XeniOS — Xenia for Apple devices",

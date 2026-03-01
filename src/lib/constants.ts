@@ -15,6 +15,7 @@ export const XENIA_UPSTREAM_OWNER = "xenia-project";
 export const XENIA_UPSTREAM_REPO_URL = `https://github.com/${XENIA_UPSTREAM_OWNER}`;
 export const XENIA_UPSTREAM_LICENSE_URL = `${XENIA_UPSTREAM_REPO_URL}/xenia/blob/master/LICENSE`;
 export const XENIA_UPSTREAM_LICENSE_TEXT_URL = `https://raw.githubusercontent.com/${XENIA_UPSTREAM_OWNER}/xenia/master/LICENSE`;
+export const XENIA_EDGE_REPO_URL = "https://github.com/has207/xenia-edge";
 
 export const XENIA_REPOS_FOR_CREDITS = [
   {

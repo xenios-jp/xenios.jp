@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import {
   XENIA_UPSTREAM_REPO_URL,
+  XENIA_EDGE_REPO_URL,
   XENIA_UPSTREAM_LICENSE_URL,
   XENIA_UPSTREAM_LICENSE_TEXT_URL,
   EMULATOR_GITHUB_URL,
@@ -88,9 +89,10 @@ export default function LegalPage() {
               Attribution
             </h2>
             <p className="mt-3 text-[15px] leading-relaxed text-text-secondary">
-              XeniOS is built on the Xenia emulation codebase lineage and is
-              provided without endorsement from Microsoft. Xbox, Xbox 360, and
-              related trademarks are the property of Microsoft Corporation.
+              XeniOS is currently based on the Xenia-Edge fork
+              (has207/xenia-edge) within the broader Xenia codebase lineage and
+              is provided without endorsement from Microsoft. Xbox, Xbox 360,
+              and related trademarks are the property of Microsoft Corporation.
             </p>
             <p className="mt-3 text-[15px] leading-relaxed text-text-secondary">
               For contributor and credit details, see the{" "}
@@ -132,6 +134,17 @@ export default function LegalPage() {
                   className="text-accent underline underline-offset-2 hover:text-accent-hover"
                 >
                   https://github.com/xenios-jp/XeniOS
+                </a>
+              </li>
+              <li>
+                Upstream fork base:&nbsp;
+                <a
+                  href={XENIA_EDGE_REPO_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-accent underline underline-offset-2 hover:text-accent-hover"
+                >
+                  https://github.com/has207/xenia-edge
                 </a>
               </li>
               <li>

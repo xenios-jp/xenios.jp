@@ -351,11 +351,12 @@ export default function DownloadPage() {
           <div className="border-t border-border pt-8">
             <p className="text-sm text-text-muted max-w-3xl">
               Xbox, Xbox 360, and related logos are trademarks of Microsoft
-              Corporation. XeniOS is the iOS port of Xenia, the Xbox 360
-              Emulation Research Project. It is not affiliated with or endorsed
-              by Microsoft. This project does not condone or support piracy.
-              Users are responsible for ensuring they have the legal right to
-              use any game files with this software.
+              Corporation. XeniOS is currently based on Xenia-Edge
+              (has207/xenia-edge) in the Xenia codebase lineage. It is not
+              affiliated with or endorsed by Microsoft. This project does not
+              condone or support piracy. Users are responsible for ensuring
+              they have the legal right to use any game files with this
+              software.
             </p>
           </div>
         </div>

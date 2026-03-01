@@ -1,5 +1,10 @@
 import Link from "next/link";
-import { WEBSITE_GITHUB_URL, DISCORD_URL, KOFI_URL } from "@/lib/constants";
+import {
+  WEBSITE_GITHUB_URL,
+  DISCORD_URL,
+  KOFI_URL,
+  XENIA_EDGE_REPO_URL,
+} from "@/lib/constants";
 
 const footerLinks = [
   { label: "Legal/Disclaimer", href: "/legal" },
@@ -43,7 +48,16 @@ export function Footer() {
           )}
         </div>
         <p className="mt-8 text-center text-sm text-text-muted">
-          XeniOS is the Apple-platform port of Xenia, the Xbox 360 Emulation Research Project (iPhone, iPad, and Mac). No games are included.
+          XeniOS is based on{" "}
+          <a
+            href={XENIA_EDGE_REPO_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-text-secondary underline decoration-border underline-offset-2 hover:decoration-border-hover"
+          >
+            Xenia-Edge (has207/xenia-edge)
+          </a>
+          {" "}for Apple devices (iPhone, iPad, and Mac). No games are included.
         </p>
       </div>
     </footer>
