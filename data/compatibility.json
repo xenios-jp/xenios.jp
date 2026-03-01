@@ -222,5 +222,39 @@
       }
     ],
     "screenshots": []
+  },
+  {
+    "slug": "call-of-duty-4",
+    "title": "Call of Duty 4",
+    "titleId": "415607E6",
+    "status": "ingame",
+    "perf": "ok",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone18,3",
+      "platform": "ios",
+      "osVersion": "26.3",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-01",
+    "notes": "Loads into game but experiences severe graphical issues.",
+    "reports": [
+      {
+        "device": "iPhone18,3",
+        "platform": "ios",
+        "osVersion": "26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "date": "2026-03-01",
+        "notes": "Loads into game but experiences severe graphical issues.",
+        "source": "app"
+      }
+    ],
+    "screenshots": []
   }
 ]
