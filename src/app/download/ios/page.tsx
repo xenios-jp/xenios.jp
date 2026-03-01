@@ -4,7 +4,6 @@ import {
   BUILD_VERSION,
   BUILD_COMMIT,
   BUILD_DATE,
-  EMULATOR_GITHUB_RELEASES_URL,
 } from "@/lib/constants";
 
 export const metadata: Metadata = {
@@ -160,7 +159,7 @@ export default function DownloadPage() {
                   2
                 </span>
                 <span>
-                  Download the latest <code className="font-mono text-xs bg-bg-surface-2 px-1.5 py-0.5 rounded">.ipa</code> file from the releases page.
+                  <code className="font-mono text-xs bg-bg-surface-2 px-1.5 py-0.5 rounded">.ipa</code> release is coming soon.
                 </span>
               </li>
               <li className="flex gap-3">
@@ -183,14 +182,9 @@ export default function DownloadPage() {
               </li>
             </ol>
             <div className="mt-10">
-              <a
-                href={EMULATOR_GITHUB_RELEASES_URL}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center bg-accent hover:bg-accent-hover text-accent-fg font-medium px-8 py-3.5 rounded-lg transition-colors text-[15px]"
-              >
-                Download .ipa
-              </a>
+              <span className="inline-flex items-center rounded-lg bg-accent px-8 py-3.5 text-[15px] font-medium text-accent-fg opacity-70">
+                Coming Soon
+              </span>
             </div>
           </div>
         </div>
@@ -234,7 +228,7 @@ export default function DownloadPage() {
                   <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-bg-surface-2 text-text-secondary text-xs font-medium">
                     2
                   </span>
-                  <span>Download the .ipa from the releases page.</span>
+                  <span>IPA release is coming soon.</span>
                 </li>
                 <li className="flex gap-3">
                   <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-bg-surface-2 text-text-secondary text-xs font-medium">
@@ -244,14 +238,9 @@ export default function DownloadPage() {
                 </li>
               </ol>
               <div className="mt-8">
-                  <a
-                    href={EMULATOR_GITHUB_RELEASES_URL}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center border border-border text-text-primary hover:bg-bg-surface-2 px-8 py-3.5 rounded-lg text-[15px] transition-colors"
-                >
-                  Download .ipa
-                </a>
+                <span className="inline-flex items-center rounded-lg border border-border px-8 py-3.5 text-[15px] text-text-primary opacity-70">
+                  Coming Soon
+                </span>
               </div>
             </div>
 
@@ -275,7 +264,7 @@ export default function DownloadPage() {
                   <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-bg-surface-2 text-text-secondary text-xs font-medium">
                     1
                   </span>
-                  <span>Download the .ipa from the releases page.</span>
+                  <span>IPA release is coming soon.</span>
                 </li>
                 <li className="flex gap-3">
                   <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-bg-surface-2 text-text-secondary text-xs font-medium">
@@ -291,14 +280,9 @@ export default function DownloadPage() {
                 </li>
               </ol>
               <div className="mt-8">
-                <a
-                  href={EMULATOR_GITHUB_RELEASES_URL}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center border border-border text-text-primary hover:bg-bg-surface-2 px-8 py-3.5 rounded-lg text-[15px] transition-colors"
-                >
-                  Download .ipa
-                </a>
+                <span className="inline-flex items-center rounded-lg border border-border px-8 py-3.5 text-[15px] text-text-primary opacity-70">
+                  Coming Soon
+                </span>
               </div>
             </div>
           </div>
