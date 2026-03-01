@@ -64,7 +64,7 @@ export default function Home() {
       <StateStrip
         items={[
           { label: "Public build", value: "N/A" },
-          { label: "Availability", value: "Not currently available" },
+          { label: "Availability", value: "Coming Soon" },
           { label: "iPhone/iPad", value: "N/A" },
           { label: "Mac", value: "N/A" },
         ]}
