@@ -3,23 +3,34 @@
     "slug": "halo-3",
     "title": "Halo 3",
     "titleId": "4D5307E6",
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "ingame",
+    "perf": "poor",
     "tags": [],
     "platforms": [
       "ios",
       "macos"
     ],
     "lastReport": {
-      "device": "iPhone 16 Pro Max",
-      "platform": "macos",
-      "osVersion": "18.3",
+      "device": "iPhone18,3",
+      "platform": "ios",
+      "osVersion": "26.3",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-02-28",
-    "notes": "Does not boot",
+    "updatedAt": "2026-03-01",
+    "notes": "Campaign cutscene cannot transition into gameplay in at least the first level. Workaround is to hit A to skip loop it once, back out, and start  the actual first mission from the campaign menu. \n\nPerformance is about 15fps on iPhone 17.",
     "reports": [
+      {
+        "device": "iPhone18,3",
+        "platform": "ios",
+        "osVersion": "26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "date": "2026-03-01",
+        "notes": "Campaign cutscene cannot transition into gameplay in at least the first level. Workaround is to hit A to skip loop it once, back out, and start  the actual first mission from the campaign menu. \n\nPerformance is about 15fps on iPhone 17.",
+        "source": "app"
+      },
       {
         "device": "iPhone 16 Pro Max",
         "platform": "macos",
