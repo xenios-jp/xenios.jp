@@ -335,11 +335,7 @@ export default function DownloadPage() {
             </li>
             <li className="flex items-start gap-3">
               <span className="mt-0.5 h-1.5 w-1.5 shrink-0 rounded-full bg-accent" />
-              <span>Metal-compatible GPU</span>
-            </li>
-            <li className="flex items-start gap-3">
-              <span className="mt-0.5 h-1.5 w-1.5 shrink-0 rounded-full bg-accent" />
-              <span>200 MB free storage + additional space for game files</span>
+              <span>6 MB free storage + additional space for game files</span>
             </li>
           </ul>
           <p className="mt-8 text-[15px] leading-relaxed text-text-muted border-l-2 border-border pl-4">
