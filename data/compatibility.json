@@ -297,7 +297,7 @@
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-03-02",
-    "notes": "First and second time YouÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂll see a black rectangle youÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂre running a third time that goes away per make sure you run the game for a minute and play it loaded up the shader cast",
+    "notes": "First and second time YouÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂll see a black rectangle youÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂre running a third time that goes away per make sure you run the game for a minute and play it loaded up the shader cast",
     "reports": [
       {
         "device": "iPhone18,2",
@@ -307,7 +307,7 @@
         "gpuBackend": "msl",
         "status": "playable",
         "date": "2026-03-02",
-        "notes": "First and second time YouÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂll see a black rectangle youÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂre running a third time that goes away per make sure you run the game for a minute and play it loaded up the shader cast",
+        "notes": "First and second time YouÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂll see a black rectangle youÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂre running a third time that goes away per make sure you run the game for a minute and play it loaded up the shader cast",
         "source": "app"
       }
     ],
@@ -383,7 +383,7 @@
   },
   {
     "slug": "dead-space",
-    "title": "Dead Spaceâ¢",
+    "title": "Dead SpaceÃ¢ÂÂ¢",
     "titleId": "45410857",
     "status": "playable",
     "perf": "ok",
@@ -444,6 +444,40 @@
         "status": "ingame",
         "date": "2026-03-02",
         "notes": "Gets into firefight, campaign does not load the first cutscene. Can expect the same cutscene loop as Halo 3 if it does manage to load.",
+        "source": "app"
+      }
+    ],
+    "screenshots": []
+  },
+  {
+    "slug": "db-raging-blast",
+    "title": "DB: Raging Blast",
+    "titleId": "4E4D0803",
+    "status": "intro",
+    "perf": "poor",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPad Pro (M2)",
+      "platform": "ios",
+      "osVersion": "18.3.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-02",
+    "notes": "Game has got some graphical issues. I couldn’t get past the cutscene but even the cutscene had some graphical issues",
+    "reports": [
+      {
+        "device": "iPad Pro (M2)",
+        "platform": "ios",
+        "osVersion": "18.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "intro",
+        "date": "2026-03-02",
+        "notes": "Game has got some graphical issues. I couldn’t get past the cutscene but even the cutscene had some graphical issues",
         "source": "app"
       }
     ],
