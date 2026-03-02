@@ -11,15 +11,26 @@
       "macos"
     ],
     "lastReport": {
-      "device": "iPhone18,3",
+      "device": "iPhone17,1",
       "platform": "ios",
-      "osVersion": "26.3",
+      "osVersion": "18.5",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-01",
-    "notes": "Campaign cutscene cannot transition into gameplay in at least the first level. Workaround is to hit A to skip loop it once, back out, and start  the actual first mission from the campaign menu. \n\nPerformance is about 15fps on iPhone 17.",
+    "updatedAt": "2026-03-02",
+    "notes": "Can play in campaign, frequently drops in FPS but seems to sit around 11-19 range. As described by another user you will need to select mission to bypass the initial cutscene which loops.",
     "reports": [
+      {
+        "device": "iPhone17,1",
+        "platform": "ios",
+        "osVersion": "18.5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "date": "2026-03-02",
+        "notes": "Can play in campaign, frequently drops in FPS but seems to sit around 11-19 range. As described by another user you will need to select mission to bypass the initial cutscene which loops.",
+        "source": "app"
+      },
       {
         "device": "iPhone18,3",
         "platform": "ios",
@@ -286,7 +297,7 @@
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-03-02",
-    "notes": "First and second time Youâll see a black rectangle youâre running a third time that goes away per make sure you run the game for a minute and play it loaded up the shader cast",
+    "notes": "First and second time YouÃ¢ÂÂll see a black rectangle youÃ¢ÂÂre running a third time that goes away per make sure you run the game for a minute and play it loaded up the shader cast",
     "reports": [
       {
         "device": "iPhone18,2",
@@ -296,7 +307,7 @@
         "gpuBackend": "msl",
         "status": "playable",
         "date": "2026-03-02",
-        "notes": "First and second time Youâll see a black rectangle youâre running a third time that goes away per make sure you run the game for a minute and play it loaded up the shader cast",
+        "notes": "First and second time YouÃ¢ÂÂll see a black rectangle youÃ¢ÂÂre running a third time that goes away per make sure you run the game for a minute and play it loaded up the shader cast",
         "source": "app"
       }
     ],
