@@ -297,7 +297,7 @@
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-03-02",
-    "notes": "First and second time YouÃ¢ÂÂll see a black rectangle youÃ¢ÂÂre running a third time that goes away per make sure you run the game for a minute and play it loaded up the shader cast",
+    "notes": "First and second time YouÃÂ¢ÃÂÃÂll see a black rectangle youÃÂ¢ÃÂÃÂre running a third time that goes away per make sure you run the game for a minute and play it loaded up the shader cast",
     "reports": [
       {
         "device": "iPhone18,2",
@@ -307,7 +307,7 @@
         "gpuBackend": "msl",
         "status": "playable",
         "date": "2026-03-02",
-        "notes": "First and second time YouÃ¢ÂÂll see a black rectangle youÃ¢ÂÂre running a third time that goes away per make sure you run the game for a minute and play it loaded up the shader cast",
+        "notes": "First and second time YouÃÂ¢ÃÂÃÂll see a black rectangle youÃÂ¢ÃÂÃÂre running a third time that goes away per make sure you run the game for a minute and play it loaded up the shader cast",
         "source": "app"
       }
     ],
@@ -342,6 +342,40 @@
         "status": "loads",
         "date": "2026-03-02",
         "notes": "Get stuck on the left for dead screen before the menu.",
+        "source": "app"
+      }
+    ],
+    "screenshots": []
+  },
+  {
+    "slug": "bioshock",
+    "title": "BioShock",
+    "titleId": "545407D8",
+    "status": "playable",
+    "perf": "ok",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone17,1",
+      "platform": "ios",
+      "osVersion": "18.5",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-02",
+    "notes": "Occasional drops in FPS but very much playable.",
+    "reports": [
+      {
+        "device": "iPhone17,1",
+        "platform": "ios",
+        "osVersion": "18.5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "date": "2026-03-02",
+        "notes": "Occasional drops in FPS but very much playable.",
         "source": "app"
       }
     ],
