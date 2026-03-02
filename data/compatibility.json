@@ -267,5 +267,39 @@
       }
     ],
     "screenshots": []
+  },
+  {
+    "slug": "title-565707d0",
+    "title": "Title 565707D0",
+    "titleId": "565707D0",
+    "status": "playable",
+    "perf": "great",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone18,2",
+      "platform": "ios",
+      "osVersion": "26.3",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-02",
+    "notes": "First and second time You’ll see a black rectangle you’re running a third time that goes away per make sure you run the game for a minute and play it loaded up the shader cast",
+    "reports": [
+      {
+        "device": "iPhone18,2",
+        "platform": "ios",
+        "osVersion": "26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "date": "2026-03-02",
+        "notes": "First and second time You’ll see a black rectangle you’re running a third time that goes away per make sure you run the game for a minute and play it loaded up the shader cast",
+        "source": "app"
+      }
+    ],
+    "screenshots": []
   }
 ]
