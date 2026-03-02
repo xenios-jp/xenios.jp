@@ -297,7 +297,7 @@
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-03-02",
-    "notes": "First and second time YouÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂll see a black rectangle youÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂre running a third time that goes away per make sure you run the game for a minute and play it loaded up the shader cast",
+    "notes": "First and second time YouÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂll see a black rectangle youÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂre running a third time that goes away per make sure you run the game for a minute and play it loaded up the shader cast",
     "reports": [
       {
         "device": "iPhone18,2",
@@ -307,7 +307,7 @@
         "gpuBackend": "msl",
         "status": "playable",
         "date": "2026-03-02",
-        "notes": "First and second time YouÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂll see a black rectangle youÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂre running a third time that goes away per make sure you run the game for a minute and play it loaded up the shader cast",
+        "notes": "First and second time YouÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂll see a black rectangle youÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂre running a third time that goes away per make sure you run the game for a minute and play it loaded up the shader cast",
         "source": "app"
       }
     ],
@@ -383,7 +383,7 @@
   },
   {
     "slug": "dead-space",
-    "title": "Dead SpaceÃ¢ÂÂ¢",
+    "title": "Dead SpaceÃÂ¢ÃÂÃÂ¢",
     "titleId": "45410857",
     "status": "playable",
     "perf": "ok",
@@ -453,7 +453,7 @@
     "slug": "db-raging-blast",
     "title": "DB: Raging Blast",
     "titleId": "4E4D0803",
-    "status": "intro",
+    "status": "ingame",
     "perf": "poor",
     "tags": [],
     "platforms": [
@@ -467,8 +467,19 @@
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-03-02",
-    "notes": "Game has got some graphical issues. I couldn’t get past the cutscene but even the cutscene had some graphical issues",
+    "notes": "Just played around with some settings  and the game seems to boot now. Performance is poor and there are some minor graphical glitches but you can get into a match now",
     "reports": [
+      {
+        "device": "iPad Pro (M2)",
+        "platform": "ios",
+        "osVersion": "18.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "date": "2026-03-02",
+        "notes": "Just played around with some settings  and the game seems to boot now. Performance is poor and there are some minor graphical glitches but you can get into a match now",
+        "source": "app"
+      },
       {
         "device": "iPad Pro (M2)",
         "platform": "ios",
@@ -477,7 +488,7 @@
         "gpuBackend": "msl",
         "status": "intro",
         "date": "2026-03-02",
-        "notes": "Game has got some graphical issues. I couldn’t get past the cutscene but even the cutscene had some graphical issues",
+        "notes": "Game has got some graphical issues. I couldnât get past the cutscene but even the cutscene had some graphical issues",
         "source": "app"
       }
     ],
