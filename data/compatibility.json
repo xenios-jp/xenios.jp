@@ -297,7 +297,7 @@
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-03-02",
-    "notes": "First and second time YouÃÂÃÂ¢ÃÂÃÂÃÂÃÂll see a black rectangle youÃÂÃÂ¢ÃÂÃÂÃÂÃÂre running a third time that goes away per make sure you run the game for a minute and play it loaded up the shader cast",
+    "notes": "First and second time YouÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂll see a black rectangle youÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂre running a third time that goes away per make sure you run the game for a minute and play it loaded up the shader cast",
     "reports": [
       {
         "device": "iPhone18,2",
@@ -307,7 +307,7 @@
         "gpuBackend": "msl",
         "status": "playable",
         "date": "2026-03-02",
-        "notes": "First and second time YouÃÂÃÂ¢ÃÂÃÂÃÂÃÂll see a black rectangle youÃÂÃÂ¢ÃÂÃÂÃÂÃÂre running a third time that goes away per make sure you run the game for a minute and play it loaded up the shader cast",
+        "notes": "First and second time YouÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂll see a black rectangle youÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂre running a third time that goes away per make sure you run the game for a minute and play it loaded up the shader cast",
         "source": "app"
       }
     ],
@@ -383,7 +383,7 @@
   },
   {
     "slug": "dead-space",
-    "title": "Dead Space™",
+    "title": "Dead Spaceâ¢",
     "titleId": "45410857",
     "status": "playable",
     "perf": "ok",
@@ -410,6 +410,40 @@
         "status": "playable",
         "date": "2026-03-02",
         "notes": "Playable, a few minor FPS drops intermittently, minor graphical glitches that functionally still manage to fit the aesthetic of the game.",
+        "source": "app"
+      }
+    ],
+    "screenshots": []
+  },
+  {
+    "slug": "halo-3-odst",
+    "title": "Halo 3: ODST",
+    "titleId": "4D530877",
+    "status": "ingame",
+    "perf": "poor",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone18,3",
+      "platform": "ios",
+      "osVersion": "26.3",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-02",
+    "notes": "Gets into firefight, campaign does not load the first cutscene. Can expect the same cutscene loop as Halo 3 if it does manage to load.",
+    "reports": [
+      {
+        "device": "iPhone18,3",
+        "platform": "ios",
+        "osVersion": "26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "date": "2026-03-02",
+        "notes": "Gets into firefight, campaign does not load the first cutscene. Can expect the same cutscene loop as Halo 3 if it does manage to load.",
         "source": "app"
       }
     ],
