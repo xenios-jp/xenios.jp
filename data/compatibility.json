@@ -286,7 +286,7 @@
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-03-02",
-    "notes": "First and second time You’ll see a black rectangle you’re running a third time that goes away per make sure you run the game for a minute and play it loaded up the shader cast",
+    "notes": "First and second time Youâll see a black rectangle youâre running a third time that goes away per make sure you run the game for a minute and play it loaded up the shader cast",
     "reports": [
       {
         "device": "iPhone18,2",
@@ -296,7 +296,41 @@
         "gpuBackend": "msl",
         "status": "playable",
         "date": "2026-03-02",
-        "notes": "First and second time You’ll see a black rectangle you’re running a third time that goes away per make sure you run the game for a minute and play it loaded up the shader cast",
+        "notes": "First and second time Youâll see a black rectangle youâre running a third time that goes away per make sure you run the game for a minute and play it loaded up the shader cast",
+        "source": "app"
+      }
+    ],
+    "screenshots": []
+  },
+  {
+    "slug": "left-4-dead",
+    "title": "Left 4 Dead",
+    "titleId": "45410830",
+    "status": "loads",
+    "perf": "ok",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone18,2",
+      "platform": "ios",
+      "osVersion": "26.3",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-02",
+    "notes": "Get stuck on the left for dead screen before the menu.",
+    "reports": [
+      {
+        "device": "iPhone18,2",
+        "platform": "ios",
+        "osVersion": "26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "loads",
+        "date": "2026-03-02",
+        "notes": "Get stuck on the left for dead screen before the menu.",
         "source": "app"
       }
     ],
