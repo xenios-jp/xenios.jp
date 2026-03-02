@@ -256,7 +256,8 @@ async function getFileFromGitHub(token: string): Promise<{ content: Game[]; sha:
   if (!res.ok) throw new Error(`GitHub GET failed: ${res.status} ${await res.text()}`);
 
   const json = (await res.json()) as { content: string; sha: string };
-  const decoded = atob(json.content.replace(/\n/g, ""));
+  const bytes = Uint8Array.from(atob(json.content.replace(/\n/g, "")), (c) => c.charCodeAt(0));
+  const decoded = new TextDecoder().decode(bytes);
   return { content: JSON.parse(decoded) as Game[], sha: json.sha };
 }
 
@@ -1235,6 +1236,45 @@ export default {
         return jsonResponse(games);
       } catch (e) {
         return errorResponse(`Failed to fetch games: ${(e as Error).message}`, 500);
+      }
+    }
+
+    // GET /games/:titleId/discussion — structured reports + GitHub issue link
+    const discussionMatch = url.pathname.match(/^\/games\/([A-Fa-f0-9]{8})\/discussion$/);
+    if (discussionMatch && request.method === "GET") {
+      const titleId = discussionMatch[1].toUpperCase();
+      try {
+        // Get structured game data from compatibility.json.
+        const { content: games } = await getFileFromGitHub(env.GITHUB_TOKEN);
+        const game = games.find((g) => g.titleId.toUpperCase() === titleId);
+
+        // Find linked GitHub issue (if any).
+        let issueNumber: number | null = null;
+        let issueUrl: string | null = null;
+        const existing = await findExistingIssue(env.GITHUB_TOKEN, titleId);
+        if (existing) {
+          issueNumber = existing.number;
+          issueUrl = `https://github.com/${GITHUB_OWNER}/${GITHUB_REPO}/issues/${existing.number}`;
+        }
+
+        if (!game) {
+          return jsonResponse({ found: false, titleId, reports: [], issueNumber, issueUrl });
+        }
+
+        return jsonResponse({
+          found: true,
+          titleId,
+          title: game.title,
+          status: game.status,
+          perf: game.perf,
+          notes: game.notes,
+          updatedAt: game.updatedAt,
+          issueNumber,
+          issueUrl,
+          reports: game.reports,
+        });
+      } catch (e) {
+        return errorResponse(`Failed to fetch discussion: ${(e as Error).message}`, 500);
       }
     }
 
