@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **28 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **29 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **9** · 🔵 In-Game: **8** · 🟡 Intro: **4** · 🟠 Loads: **3** · 🔴 Doesn't Boot: **4**
+> 🟢 Playable: **9** · 🔵 In-Game: **8** · 🟡 Intro: **4** · 🟠 Loads: **3** · 🔴 Doesn't Boot: **5**
 >
-> 📱 iOS: **25** · 🖥️ macOS: **4**
+> 📱 iOS: **26** · 🖥️ macOS: **4**
 
 ## Legend
 
@@ -44,6 +44,7 @@
 | 🟠 | Left 4 Dead | `45410830` | 📱 iOS | Loads | 👌 OK | iPhone18,2 | 2026-03-02 |
 | 🟠 | Lost Odyssey | `4D5307FA` | 📱 iOS | Loads | 🐢 Poor | iPhone17,1 | 2026-03-03 |
 | 🟠 | Skate 3 | `454108E6` | 📱 iOS | Loads | 🐢 Poor | iPad Pro (M2) | 2026-03-02 |
+| 🔴 | FIGHT NIGHT CHAMPION | `45410915` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Pro (M2) | 2026-03-03 |
 | 🔴 | Modern Warfare® 2 | `41560817` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Pro (M2) | 2026-03-02 |
 | 🔴 | RESIDENT EVIL 5 | `434307D4` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone17,1 | 2026-03-03 |
 | 🔴 | Star Ocean: TLH | `535107DD` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone17,1 | 2026-03-03 |
