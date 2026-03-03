@@ -719,5 +719,39 @@
       }
     ],
     "screenshots": []
+  },
+  {
+    "slug": "lost-odyssey",
+    "title": "Lost Odyssey",
+    "titleId": "4D5307FA",
+    "status": "loads",
+    "perf": "poor",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone17,1",
+      "platform": "ios",
+      "osVersion": "18.5",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-03",
+    "notes": "Game boots and loads into menu without issue but hangs on initial loading screen",
+    "reports": [
+      {
+        "device": "iPhone17,1",
+        "platform": "ios",
+        "osVersion": "18.5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "loads",
+        "date": "2026-03-03",
+        "notes": "Game boots and loads into menu without issue but hangs on initial loading screen",
+        "source": "app"
+      }
+    ],
+    "screenshots": []
   }
 ]
