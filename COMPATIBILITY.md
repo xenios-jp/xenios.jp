@@ -2,7 +2,7 @@
 
 > **20 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **3** · 🔵 In-Game: **8** · 🟡 Intro: **3** · 🟠 Loads: **3** · 🔴 Doesn't Boot: **3**
+> 🟢 Playable: **4** · 🔵 In-Game: **7** · 🟡 Intro: **3** · 🟠 Loads: **3** · 🔴 Doesn't Boot: **3**
 >
 > 📱 iOS: **17** · 🖥️ macOS: **4**
 
@@ -21,12 +21,12 @@
 | | Title | Title ID | Platform | Status | Perf | Last Device | Updated |
 |-|-------|----------|----------|--------|------|-------------|---------|
 | 🟢 | BioShock | `545407D8` | 📱 iOS | Playable | 👌 OK | iPhone17,1 | 2026-03-02 |
+| 🟢 | Dead Space™ | `45410857` | 📱 iOS | Playable | 👌 OK | iPhone17,1 | 2026-03-03 |
 | 🟢 | STEINS;GATE 比翼恋理のだーりん | `465607E8` | 📱 iOS | Playable | 🚀 Great | iPhone 17 | 2026-03-02 |
 | 🟢 | Title 565707D0 | `565707D0` | 📱 iOS | Playable | 🚀 Great | iPhone18,2 | 2026-03-02 |
 | 🔵 | Bayonetta | `53450813` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 | 2026-03-01 |
 | 🔵 | Call of Duty 4 | `415607E6` | 📱 iOS | In-Game | 👌 OK | iPhone18,3 | 2026-03-01 |
 | 🔵 | DB: Raging Blast | `4E4D0803` | 📱 iOS | In-Game | 🐢 Poor | iPad Pro (M2) | 2026-03-02 |
-| 🔵 | Dead Space™ | `45410857` | 📱 iOS | In-Game | 👌 OK | iPhone 17 | 2026-03-02 |
 | 🔵 | Gears of War | `4D5307D5` | 🖥️ macOS | In-Game | 👌 OK | MacBook Pro M4 Pro/Max | 2026-02-28 |
 | 🔵 | GTA IV | `545407F2` | 🖥️ macOS | In-Game | 🐢 Poor | MacBook Pro M4 Pro | 2026-02-28 |
 | 🔵 | Halo 3 | `4D5307E6` | 📱 iOS, 🖥️ macOS | In-Game | 🐢 Poor | iPhone17,1 | 2026-03-02 |
