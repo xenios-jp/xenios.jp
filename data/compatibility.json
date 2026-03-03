@@ -1047,5 +1047,39 @@
       }
     ],
     "screenshots": []
+  },
+  {
+    "slug": "skate",
+    "title": "skate.",
+    "titleId": "45410813",
+    "status": "ingame",
+    "perf": "poor",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPad Pro (M2)",
+      "platform": "ios",
+      "osVersion": "18.3.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-03",
+    "notes": "After restarting the game several times the game finally launched and put me in the menu. I couldn’t get into a game tho so I couldn’t actually skate just the menu worked. And also most of the time the game was stuck on a endless loading screen when trying to get to the game menu",
+    "reports": [
+      {
+        "device": "iPad Pro (M2)",
+        "platform": "ios",
+        "osVersion": "18.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "date": "2026-03-03",
+        "notes": "After restarting the game several times the game finally launched and put me in the menu. I couldn’t get into a game tho so I couldn’t actually skate just the menu worked. And also most of the time the game was stuck on a endless loading screen when trying to get to the game menu",
+        "source": "app"
+      }
+    ],
+    "screenshots": []
   }
 ]
