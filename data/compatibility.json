@@ -798,5 +798,39 @@
       }
     ],
     "screenshots": []
+  },
+  {
+    "slug": "doom-3-bfg-edition",
+    "title": "DOOM 3 BFG Edition",
+    "titleId": "425307F1",
+    "status": "intro",
+    "perf": "great",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone17,1",
+      "platform": "ios",
+      "osVersion": "18.5",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-03",
+    "notes": "Doom 3 boots perfectly through logos and menu with no visual distortion and perfect audio except for loud hiss at the beginning. When beginning campaign cutscene plays perfects but hangs after maybe 20 seconds or so.",
+    "reports": [
+      {
+        "device": "iPhone17,1",
+        "platform": "ios",
+        "osVersion": "18.5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "intro",
+        "date": "2026-03-03",
+        "notes": "Doom 3 boots perfectly through logos and menu with no visual distortion and perfect audio except for loud hiss at the beginning. When beginning campaign cutscene plays perfects but hangs after maybe 20 seconds or so.",
+        "source": "app"
+      }
+    ],
+    "screenshots": []
   }
 ]
