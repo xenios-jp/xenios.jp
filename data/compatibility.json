@@ -1081,5 +1081,39 @@
       }
     ],
     "screenshots": []
+  },
+  {
+    "slug": "fight-night-champion",
+    "title": "FIGHT NIGHT CHAMPION",
+    "titleId": "45410915",
+    "status": "nothing",
+    "perf": "n/a",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPad Pro (M2)",
+      "platform": "ios",
+      "osVersion": "18.3.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-03",
+    "notes": "Couldn’t get it to boot.",
+    "reports": [
+      {
+        "device": "iPad Pro (M2)",
+        "platform": "ios",
+        "osVersion": "18.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "date": "2026-03-03",
+        "notes": "Couldn’t get it to boot.",
+        "source": "app"
+      }
+    ],
+    "screenshots": []
   }
 ]
