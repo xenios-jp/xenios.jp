@@ -23,7 +23,7 @@
 | 🟢 | BioShock | `545407D8` | 📱 iOS | Playable | 👌 OK | iPhone17,1 | 2026-03-02 |
 | 🟢 | Dead Space™ | `45410857` | 📱 iOS | Playable | 👌 OK | iPhone17,1 | 2026-03-03 |
 | 🟢 | STEINS;GATE 比翼恋理のだーりん | `465607E8` | 📱 iOS | Playable | 🚀 Great | iPhone 17 | 2026-03-02 |
-| 🟢 | Title 565707D0 | `565707D0` | 📱 iOS | Playable | 🚀 Great | iPhone18,2 | 2026-03-02 |
+| 🟢 | Title 565707D0 | `565707D0` | 📱 iOS | Playable | 🚀 Great | iPhone18,2 | 2026-03-03 |
 | 🔵 | Bayonetta | `53450813` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 | 2026-03-01 |
 | 🔵 | Call of Duty 4 | `415607E6` | 📱 iOS | In-Game | 👌 OK | iPhone18,3 | 2026-03-01 |
 | 🔵 | DB: Raging Blast | `4E4D0803` | 📱 iOS | In-Game | 🐢 Poor | iPad Pro (M2) | 2026-03-02 |
