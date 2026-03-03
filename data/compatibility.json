@@ -832,5 +832,39 @@
       }
     ],
     "screenshots": []
+  },
+  {
+    "slug": "tekken-6",
+    "title": "TEKKEN 6",
+    "titleId": "4E4D07FC",
+    "status": "nothing",
+    "perf": "n/a",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone17,1",
+      "platform": "ios",
+      "osVersion": "18.5",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-03",
+    "notes": "Game does not boot.",
+    "reports": [
+      {
+        "device": "iPhone17,1",
+        "platform": "ios",
+        "osVersion": "18.5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "date": "2026-03-03",
+        "notes": "Game does not boot.",
+        "source": "app"
+      }
+    ],
+    "screenshots": []
   }
 ]
