@@ -1013,5 +1013,39 @@
       }
     ],
     "screenshots": []
+  },
+  {
+    "slug": "db-raging-blast-2",
+    "title": "DB: Raging Blast 2",
+    "titleId": "4E4D0826",
+    "status": "playable",
+    "perf": "poor",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPad Pro (M2)",
+      "platform": "ios",
+      "osVersion": "18.3.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-03",
+    "notes": "Had to boot the game a few times in order for it to work. Other than that the game is playable but the performance is quite poor (around 25 fps without screen recording and 22-23 with screen recording)",
+    "reports": [
+      {
+        "device": "iPad Pro (M2)",
+        "platform": "ios",
+        "osVersion": "18.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "date": "2026-03-03",
+        "notes": "Had to boot the game a few times in order for it to work. Other than that the game is playable but the performance is quite poor (around 25 fps without screen recording and 22-23 with screen recording)",
+        "source": "app"
+      }
+    ],
+    "screenshots": []
   }
 ]
