@@ -430,22 +430,33 @@
     "slug": "halo-3-odst",
     "title": "Halo 3: ODST",
     "titleId": "4D530877",
-    "status": "ingame",
+    "status": "intro",
     "perf": "poor",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone18,3",
+      "device": "iPhone17,1",
       "platform": "ios",
-      "osVersion": "26.3",
+      "osVersion": "18.5",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-02",
-    "notes": "Gets into firefight, campaign does not load the first cutscene. Can expect the same cutscene loop as Halo 3 if it does manage to load.",
+    "updatedAt": "2026-03-03",
+    "notes": "Game boots however menu loads very distorted with heavy graphic bugs. Campaign loads intro scene but gets stuck in a loop. Could not navigate menu successfully to bypass loop.",
     "reports": [
+      {
+        "device": "iPhone17,1",
+        "platform": "ios",
+        "osVersion": "18.5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "intro",
+        "date": "2026-03-03",
+        "notes": "Game boots however menu loads very distorted with heavy graphic bugs. Campaign loads intro scene but gets stuck in a loop. Could not navigate menu successfully to bypass loop.",
+        "source": "app"
+      },
       {
         "device": "iPhone18,3",
         "platform": "ios",
