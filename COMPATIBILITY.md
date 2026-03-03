@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **19 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **20 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **3** · 🔵 In-Game: **8** · 🟡 Intro: **2** · 🟠 Loads: **3** · 🔴 Doesn't Boot: **3**
+> 🟢 Playable: **3** · 🔵 In-Game: **8** · 🟡 Intro: **3** · 🟠 Loads: **3** · 🔴 Doesn't Boot: **3**
 >
-> 📱 iOS: **16** · 🖥️ macOS: **4**
+> 📱 iOS: **17** · 🖥️ macOS: **4**
 
 ## Legend
 
@@ -33,6 +33,7 @@
 | 🔵 | Metro: Last Light | `4B4D07F5` | 🖥️ macOS | In-Game | 👌 OK | MacBook Pro M4 Pro/Max | 2026-02-28 |
 | 🟡 | Halo 3: ODST | `4D530877` | 📱 iOS | Intro | 🐢 Poor | iPhone17,1 | 2026-03-03 |
 | 🟡 | Halo Wars | `4D530808` | 📱 iOS | Intro | 👌 OK | iPhone 17 | 2026-03-03 |
+| 🟡 | Tales of Vesperia | `4E4D07E9` | 📱 iOS | Intro | 🐢 Poor | iPhone17,1 | 2026-03-03 |
 | 🟠 | Left 4 Dead | `45410830` | 📱 iOS | Loads | 👌 OK | iPhone18,2 | 2026-03-02 |
 | 🟠 | Lost Odyssey | `4D5307FA` | 📱 iOS | Loads | 🐢 Poor | iPhone17,1 | 2026-03-03 |
 | 🟠 | Skate 3 | `454108E6` | 📱 iOS | Loads | 🐢 Poor | iPad Pro (M2) | 2026-03-02 |
