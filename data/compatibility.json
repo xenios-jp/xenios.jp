@@ -640,5 +640,39 @@
       }
     ],
     "screenshots": []
+  },
+  {
+    "slug": "resident-evil-5",
+    "title": "RESIDENT EVIL 5",
+    "titleId": "434307D4",
+    "status": "nothing",
+    "perf": "n/a",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone17,1",
+      "platform": "ios",
+      "osVersion": "18.5",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-03",
+    "notes": "RE5 currently fails to boot",
+    "reports": [
+      {
+        "device": "iPhone17,1",
+        "platform": "ios",
+        "osVersion": "18.5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "date": "2026-03-03",
+        "notes": "RE5 currently fails to boot",
+        "source": "app"
+      }
+    ],
+    "screenshots": []
   }
 ]
