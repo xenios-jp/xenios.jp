@@ -2,7 +2,7 @@
 
 > **18 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **3** · 🔵 In-Game: **9** · 🟡 Intro: **1** · 🟠 Loads: **2** · 🔴 Doesn't Boot: **3**
+> 🟢 Playable: **3** · 🔵 In-Game: **8** · 🟡 Intro: **2** · 🟠 Loads: **2** · 🔴 Doesn't Boot: **3**
 >
 > 📱 iOS: **15** · 🖥️ macOS: **4**
 
@@ -30,8 +30,8 @@
 | 🔵 | Gears of War | `4D5307D5` | 🖥️ macOS | In-Game | 👌 OK | MacBook Pro M4 Pro/Max | 2026-02-28 |
 | 🔵 | GTA IV | `545407F2` | 🖥️ macOS | In-Game | 🐢 Poor | MacBook Pro M4 Pro | 2026-02-28 |
 | 🔵 | Halo 3 | `4D5307E6` | 📱 iOS, 🖥️ macOS | In-Game | 🐢 Poor | iPhone17,1 | 2026-03-02 |
-| 🔵 | Halo 3: ODST | `4D530877` | 📱 iOS | In-Game | 🐢 Poor | iPhone18,3 | 2026-03-02 |
 | 🔵 | Metro: Last Light | `4B4D07F5` | 🖥️ macOS | In-Game | 👌 OK | MacBook Pro M4 Pro/Max | 2026-02-28 |
+| 🟡 | Halo 3: ODST | `4D530877` | 📱 iOS | Intro | 🐢 Poor | iPhone17,1 | 2026-03-03 |
 | 🟡 | Halo Wars | `4D530808` | 📱 iOS | Intro | 👌 OK | iPhone 17 | 2026-03-03 |
 | 🟠 | Left 4 Dead | `45410830` | 📱 iOS | Loads | 👌 OK | iPhone18,2 | 2026-03-02 |
 | 🟠 | Skate 3 | `454108E6` | 📱 iOS | Loads | 🐢 Poor | iPad Pro (M2) | 2026-03-02 |
