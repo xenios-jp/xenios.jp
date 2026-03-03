@@ -945,5 +945,39 @@
       }
     ],
     "screenshots": []
+  },
+  {
+    "slug": "guacamelee",
+    "title": "Guacamelee",
+    "titleId": "00000000",
+    "status": "playable",
+    "perf": "great",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 17 Pro Max",
+      "platform": "ios",
+      "osVersion": "26.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-03",
+    "notes": "Perfect. Full speed on higher end devices.",
+    "reports": [
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "date": "2026-03-03",
+        "notes": "Perfect. Full speed on higher end devices.",
+        "source": "app"
+      }
+    ],
+    "screenshots": []
   }
 ]
