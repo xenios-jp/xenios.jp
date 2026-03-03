@@ -674,5 +674,39 @@
       }
     ],
     "screenshots": []
+  },
+  {
+    "slug": "star-ocean-tlh",
+    "title": "Star Ocean: TLH",
+    "titleId": "535107DD",
+    "status": "nothing",
+    "perf": "n/a",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone17,1",
+      "platform": "ios",
+      "osVersion": "18.5",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-03",
+    "notes": "Star ocean fails to boot.",
+    "reports": [
+      {
+        "device": "iPhone17,1",
+        "platform": "ios",
+        "osVersion": "18.5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "date": "2026-03-03",
+        "notes": "Star ocean fails to boot.",
+        "source": "app"
+      }
+    ],
+    "screenshots": []
   }
 ]
