@@ -877,5 +877,39 @@
       }
     ],
     "screenshots": []
+  },
+  {
+    "slug": "title-534507ee",
+    "title": "Title 534507EE",
+    "titleId": "534507EE",
+    "status": "playable",
+    "perf": "ok",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 17 Pro Max",
+      "platform": "ios",
+      "osVersion": "26.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-03",
+    "notes": "Virtua Fighter 5 works almost perfectly. Performance is nice.  Visuals are almost perfect. Sound is great. Menus are perfect.",
+    "reports": [
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "date": "2026-03-03",
+        "notes": "Virtua Fighter 5 works almost perfectly. Performance is nice.  Visuals are almost perfect. Sound is great. Menus are perfect.",
+        "source": "app"
+      }
+    ],
+    "screenshots": []
   }
 ]
