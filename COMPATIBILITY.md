@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **17 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **18 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **3** · 🔵 In-Game: **9** · 🟡 Intro: **1** · 🟠 Loads: **2** · 🔴 Doesn't Boot: **2**
+> 🟢 Playable: **3** · 🔵 In-Game: **9** · 🟡 Intro: **1** · 🟠 Loads: **2** · 🔴 Doesn't Boot: **3**
 >
-> 📱 iOS: **14** · 🖥️ macOS: **4**
+> 📱 iOS: **15** · 🖥️ macOS: **4**
 
 ## Legend
 
@@ -37,6 +37,7 @@
 | 🟠 | Skate 3 | `454108E6` | 📱 iOS | Loads | 🐢 Poor | iPad Pro (M2) | 2026-03-02 |
 | 🔴 | Modern Warfare® 2 | `41560817` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Pro (M2) | 2026-03-02 |
 | 🔴 | RESIDENT EVIL 5 | `434307D4` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone17,1 | 2026-03-03 |
+| 🔴 | Star Ocean: TLH | `535107DD` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone17,1 | 2026-03-03 |
 
 ---
 
