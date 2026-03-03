@@ -753,5 +753,39 @@
       }
     ],
     "screenshots": []
+  },
+  {
+    "slug": "tales-of-vesperia",
+    "title": "Tales of Vesperia",
+    "titleId": "4E4D07E9",
+    "status": "intro",
+    "perf": "poor",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone17,1",
+      "platform": "ios",
+      "osVersion": "18.5",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-03",
+    "notes": "Game boots and loads to menu flawlessly. Heavy graphic distortion during unskippable cutscene leads to app crash after several minutes.",
+    "reports": [
+      {
+        "device": "iPhone17,1",
+        "platform": "ios",
+        "osVersion": "18.5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "intro",
+        "date": "2026-03-03",
+        "notes": "Game boots and loads to menu flawlessly. Heavy graphic distortion during unskippable cutscene leads to app crash after several minutes.",
+        "source": "app"
+      }
+    ],
+    "screenshots": []
   }
 ]
