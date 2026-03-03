@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **21 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **22 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **4** · 🔵 In-Game: **7** · 🟡 Intro: **4** · 🟠 Loads: **3** · 🔴 Doesn't Boot: **3**
+> 🟢 Playable: **4** · 🔵 In-Game: **7** · 🟡 Intro: **4** · 🟠 Loads: **3** · 🔴 Doesn't Boot: **4**
 >
-> 📱 iOS: **18** · 🖥️ macOS: **4**
+> 📱 iOS: **19** · 🖥️ macOS: **4**
 
 ## Legend
 
@@ -41,6 +41,7 @@
 | 🔴 | Modern Warfare® 2 | `41560817` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Pro (M2) | 2026-03-02 |
 | 🔴 | RESIDENT EVIL 5 | `434307D4` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone17,1 | 2026-03-03 |
 | 🔴 | Star Ocean: TLH | `535107DD` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone17,1 | 2026-03-03 |
+| 🔴 | TEKKEN 6 | `4E4D07FC` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone17,1 | 2026-03-03 |
 
 ---
 
