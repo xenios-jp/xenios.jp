@@ -1137,5 +1137,39 @@
       }
     ],
     "screenshots": []
+  },
+  {
+    "slug": "dead-rising",
+    "title": "DEAD RISING",
+    "titleId": "434307D2",
+    "status": "intro",
+    "perf": "ok",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPad15,7",
+      "platform": "ios",
+      "osVersion": "26.3",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-04",
+    "notes": "Starts up, publisher logos display gets to Start menu. But when press Start does not proceed further",
+    "reports": [
+      {
+        "device": "iPad15,7",
+        "platform": "ios",
+        "osVersion": "26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "intro",
+        "date": "2026-03-04",
+        "notes": "Starts up, publisher logos display gets to Start menu. But when press Start does not proceed further",
+        "source": "app"
+      }
+    ],
+    "screenshots": []
   }
 ]
