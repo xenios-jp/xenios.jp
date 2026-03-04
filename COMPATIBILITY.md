@@ -21,15 +21,15 @@
 | | Title | Title ID | Platform | Status | Perf | Last Device | Updated |
 |-|-------|----------|----------|--------|------|-------------|---------|
 | 🟢 | BioShock | `545407D8` | 📱 iOS | Playable | 👌 OK | iPhone17,1 | 2026-03-02 |
+| 🟢 | Condemned 2: Bloodshot | `534507EE` | 📱 iOS | Playable | 👌 OK | iPhone 17 Pro Max | 2026-03-03 |
 | 🟢 | DB: Raging Blast 2 | `4E4D0826` | 📱 iOS | Playable | 🐢 Poor | iPad Pro (M2) | 2026-03-03 |
 | 🟢 | DEAD OR ALIVE 4 | `544307D1` | 📱 iOS | Playable | 👌 OK | iPhone 17 Pro Max | 2026-03-03 |
 | 🟢 | Dead Space™ | `45410857` | 📱 iOS | Playable | 👌 OK | iPhone17,1 | 2026-03-03 |
 | 🟢 | FINAL FANTASY XIII | `535107E4` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-03 |
 | 🟢 | Guacamelee | `00000000` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-03 |
 | 🟢 | Halo 3 | `4D5307E6` | 📱 iOS, 🖥️ macOS | Playable | 🐢 Poor | iPhone17,1 | 2026-03-04 |
+| 🟢 | Lollipop Chainsaw | `565707D0` | 📱 iOS | Playable | 🚀 Great | iPhone18,2 | 2026-03-03 |
 | 🟢 | STEINS;GATE 比翼恋理のだーりん | `465607E8` | 📱 iOS | Playable | 🚀 Great | iPhone 17 | 2026-03-02 |
-| 🟢 | Title 534507EE | `534507EE` | 📱 iOS | Playable | 👌 OK | iPhone 17 Pro Max | 2026-03-03 |
-| 🟢 | Title 565707D0 | `565707D0` | 📱 iOS | Playable | 🚀 Great | iPhone18,2 | 2026-03-03 |
 | 🔵 | Bayonetta | `53450813` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 | 2026-03-01 |
 | 🔵 | Call of Duty 4 | `415607E6` | 📱 iOS | In-Game | 👌 OK | iPhone18,3 | 2026-03-01 |
 | 🔵 | DB: Raging Blast | `4E4D0803` | 📱 iOS | In-Game | 🐢 Poor | iPad Pro (M2) | 2026-03-02 |
