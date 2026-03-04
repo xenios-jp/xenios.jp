@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **29 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **30 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **10** · 🔵 In-Game: **7** · 🟡 Intro: **4** · 🟠 Loads: **3** · 🔴 Doesn't Boot: **5**
+> 🟢 Playable: **10** · 🔵 In-Game: **7** · 🟡 Intro: **5** · 🟠 Loads: **3** · 🔴 Doesn't Boot: **5**
 >
-> 📱 iOS: **26** · 🖥️ macOS: **4**
+> 📱 iOS: **27** · 🖥️ macOS: **4**
 
 ## Legend
 
@@ -37,6 +37,7 @@
 | 🔵 | GTA IV | `545407F2` | 🖥️ macOS | In-Game | 🐢 Poor | MacBook Pro M4 Pro | 2026-02-28 |
 | 🔵 | Metro: Last Light | `4B4D07F5` | 🖥️ macOS | In-Game | 👌 OK | MacBook Pro M4 Pro/Max | 2026-02-28 |
 | 🔵 | skate. | `45410813` | 📱 iOS | In-Game | 🐢 Poor | iPad Pro (M2) | 2026-03-03 |
+| 🟡 | DEAD RISING | `434307D2` | 📱 iOS | Intro | 👌 OK | iPad15,7 | 2026-03-04 |
 | 🟡 | DOOM 3 BFG Edition | `425307F1` | 📱 iOS | Intro | 🚀 Great | iPhone17,1 | 2026-03-03 |
 | 🟡 | Halo 3: ODST | `4D530877` | 📱 iOS | Intro | 🐢 Poor | iPhone17,1 | 2026-03-03 |
 | 🟡 | Halo Wars | `4D530808` | 📱 iOS | Intro | 👌 OK | iPhone 17 | 2026-03-03 |
