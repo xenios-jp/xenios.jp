@@ -2,7 +2,7 @@
 
 > **29 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **9** · 🔵 In-Game: **7** · 🟡 Intro: **4** · 🟠 Loads: **3** · 🔴 Doesn't Boot: **6**
+> 🟢 Playable: **10** · 🔵 In-Game: **7** · 🟡 Intro: **4** · 🟠 Loads: **3** · 🔴 Doesn't Boot: **5**
 >
 > 📱 iOS: **26** · 🖥️ macOS: **4**
 
@@ -26,6 +26,7 @@
 | 🟢 | Dead Space™ | `45410857` | 📱 iOS | Playable | 👌 OK | iPhone17,1 | 2026-03-03 |
 | 🟢 | FINAL FANTASY XIII | `535107E4` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-03 |
 | 🟢 | Guacamelee | `00000000` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-03 |
+| 🟢 | Halo 3 | `4D5307E6` | 📱 iOS, 🖥️ macOS | Playable | 🐢 Poor | iPhone17,1 | 2026-03-04 |
 | 🟢 | STEINS;GATE 比翼恋理のだーりん | `465607E8` | 📱 iOS | Playable | 🚀 Great | iPhone 17 | 2026-03-02 |
 | 🟢 | Title 534507EE | `534507EE` | 📱 iOS | Playable | 👌 OK | iPhone 17 Pro Max | 2026-03-03 |
 | 🟢 | Title 565707D0 | `565707D0` | 📱 iOS | Playable | 🚀 Great | iPhone18,2 | 2026-03-03 |
@@ -44,7 +45,6 @@
 | 🟠 | Lost Odyssey | `4D5307FA` | 📱 iOS | Loads | 🐢 Poor | iPhone17,1 | 2026-03-03 |
 | 🟠 | Skate 3 | `454108E6` | 📱 iOS | Loads | 🐢 Poor | iPad Pro (M2) | 2026-03-02 |
 | 🔴 | FIGHT NIGHT CHAMPION | `45410915` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Pro (M2) | 2026-03-03 |
-| 🔴 | Halo 3 | `4D5307E6` | 📱 iOS, 🖥️ macOS | Doesn't Boot | ➖ N/A | iPad Pro (M2) | 2026-03-04 |
 | 🔴 | Modern Warfare® 2 | `41560817` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Pro (M2) | 2026-03-02 |
 | 🔴 | RESIDENT EVIL 5 | `434307D4` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone17,1 | 2026-03-03 |
 | 🔴 | Star Ocean: TLH | `535107DD` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone17,1 | 2026-03-03 |
