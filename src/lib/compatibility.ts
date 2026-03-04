@@ -145,6 +145,91 @@ export function getGameBySlug(slug: string): Game | undefined {
   return (compatData as Game[]).find((game) => game.slug === slug);
 }
 
+/* ------------------------------------------------------------------ */
+/*  Device name mapping                                                */
+/* ------------------------------------------------------------------ */
+
+const DEVICE_NAMES: Record<string, string> = {
+  // iPhone 17 series
+  "iPhone18,1": "iPhone 17 Pro",
+  "iPhone18,2": "iPhone 17 Pro Max",
+  "iPhone18,3": "iPhone 17",
+  "iPhone18,4": "iPhone 17 Air",
+  // iPhone 16 series
+  "iPhone17,1": "iPhone 16 Pro",
+  "iPhone17,2": "iPhone 16 Pro Max",
+  "iPhone17,3": "iPhone 16",
+  "iPhone17,4": "iPhone 16 Plus",
+  "iPhone17,5": "iPhone 16e",
+  // iPhone 15 series
+  "iPhone16,1": "iPhone 15 Pro",
+  "iPhone16,2": "iPhone 15 Pro Max",
+  "iPhone15,4": "iPhone 15",
+  "iPhone15,5": "iPhone 15 Plus",
+  // iPhone 14 series
+  "iPhone15,2": "iPhone 14 Pro",
+  "iPhone15,3": "iPhone 14 Pro Max",
+  "iPhone14,7": "iPhone 14",
+  "iPhone14,8": "iPhone 14 Plus",
+  // iPhone 13 series
+  "iPhone14,2": "iPhone 13 Pro",
+  "iPhone14,3": "iPhone 13 Pro Max",
+  "iPhone14,4": "iPhone 13 Mini",
+  "iPhone14,5": "iPhone 13",
+  // iPhone 12 series
+  "iPhone13,1": "iPhone 12 Mini",
+  "iPhone13,2": "iPhone 12",
+  "iPhone13,3": "iPhone 12 Pro",
+  "iPhone13,4": "iPhone 12 Pro Max",
+  // iPhone SE
+  "iPhone14,6": "iPhone SE (3rd gen)",
+  "iPhone12,8": "iPhone SE (2nd gen)",
+  // iPad Pro
+  "iPad16,3": "iPad Pro (M4)",
+  "iPad16,4": "iPad Pro (M4)",
+  "iPad16,5": "iPad Pro (M4)",
+  "iPad16,6": "iPad Pro (M4)",
+  "iPad14,3": "iPad Pro (M2)",
+  "iPad14,4": "iPad Pro (M2)",
+  "iPad14,5": "iPad Pro (M2)",
+  "iPad14,6": "iPad Pro (M2)",
+  "iPad13,4": "iPad Pro (M1)",
+  "iPad13,5": "iPad Pro (M1)",
+  "iPad13,6": "iPad Pro (M1)",
+  "iPad13,7": "iPad Pro (M1)",
+  "iPad13,8": "iPad Pro (M1)",
+  "iPad13,9": "iPad Pro (M1)",
+  "iPad13,10": "iPad Pro (M1)",
+  "iPad13,11": "iPad Pro (M1)",
+  // iPad Air
+  "iPad15,3": "iPad Air (M3)",
+  "iPad15,4": "iPad Air (M3)",
+  "iPad15,5": "iPad Air (M3)",
+  "iPad15,6": "iPad Air (M3)",
+  "iPad14,8": "iPad Air (M2)",
+  "iPad14,9": "iPad Air (M2)",
+  "iPad14,10": "iPad Air (M2)",
+  "iPad14,11": "iPad Air (M2)",
+  "iPad13,16": "iPad Air (M1)",
+  "iPad13,17": "iPad Air (M1)",
+  // iPad mini
+  "iPad16,1": "iPad mini (A17 Pro)",
+  "iPad16,2": "iPad mini (A17 Pro)",
+  "iPad14,1": "iPad mini (6th gen)",
+  "iPad14,2": "iPad mini (6th gen)",
+  // iPad
+  "iPad15,7": "iPad (11th gen)",
+  "iPad15,8": "iPad (11th gen)",
+  "iPad13,18": "iPad (10th gen)",
+  "iPad13,19": "iPad (10th gen)",
+  "iPad12,1": "iPad (9th gen)",
+  "iPad12,2": "iPad (9th gen)",
+};
+
+export function deviceName(raw: string): string {
+  return DEVICE_NAMES[raw] || raw;
+}
+
 const STATUS_RANK: Record<GameStatus, number> = {
   playable: 4,
   ingame: 3,

@@ -4,6 +4,7 @@ import {
   getAllGames,
   getGameBySlug,
   getBestReport,
+  deviceName,
   type GameStatus,
   type PerfTier,
   type GpuBackend,
@@ -219,10 +220,13 @@ async function fetchGitHubDiscussion(titleId: string): Promise<GitHubDiscussionD
   const query = encodeURIComponent(
     `${titleId} repo:${DISCUSSION_REPO_OWNER}/${DISCUSSION_REPO_NAME} label:compat-report is:issue`
   );
-  const headers = {
+  const headers: Record<string, string> = {
     Accept: "application/vnd.github+json",
     "User-Agent": "xenios-website",
   };
+  if (process.env.GITHUB_TOKEN) {
+    headers.Authorization = `Bearer ${process.env.GITHUB_TOKEN}`;
+  }
 
   try {
     const searchRes = await fetch(
@@ -406,7 +410,7 @@ export default async function GameDetailPage({
                         <p className="mt-1.5 text-xs text-text-muted">
                           {[
                             entry.meta.status && statusLabel(entry.meta.status as GameStatus),
-                            entry.meta.device,
+                            entry.meta.device && deviceName(entry.meta.device),
                             entry.meta.osVersion,
                             entry.meta.gpuBackend,
                           ].filter(Boolean).join(" · ")}
@@ -487,7 +491,7 @@ export default async function GameDetailPage({
                         Device
                       </p>
                       <p className="mt-1 text-lg font-medium text-text-primary">
-                        {bestReport.device}
+                        {deviceName(bestReport.device)}
                       </p>
                     </div>
                     <div className="rounded-lg border border-border bg-bg-primary p-5">

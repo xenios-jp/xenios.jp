@@ -3,7 +3,7 @@
 import { useSearchParams, useRouter } from "next/navigation";
 import { useMemo, useCallback, Suspense } from "react";
 import Link from "next/link";
-import { type GameStatus, type PerfTier, type Game } from "@/lib/compatibility";
+import { type GameStatus, type PerfTier, type Game, deviceName } from "@/lib/compatibility";
 import { EMULATOR_GITHUB_COMPATIBILITY_REPORT_URL } from "@/lib/constants";
 import { Pill } from "@/components/pill";
 
@@ -113,7 +113,7 @@ function GameRow({ game }: { game: Game }) {
         <Pill variant={game.perf}>{PERF_LABELS[game.perf]}</Pill>
       </td>
       <td className="py-2.5 pr-4 text-sm text-text-secondary">
-        {game.lastReport.device}
+        {deviceName(game.lastReport.device)}
       </td>
       <td className="py-2.5 pr-4 text-sm text-text-muted">{game.updatedAt}</td>
     </tr>
@@ -136,7 +136,7 @@ function GameCard({ game }: { game: Game }) {
         <Pill variant={game.status}>{STATUS_LABELS[game.status]}</Pill>
       </div>
       <div className="flex items-center justify-between text-sm text-text-muted">
-        <span>{game.lastReport.device}</span>
+        <span>{deviceName(game.lastReport.device)}</span>
         <span>{game.updatedAt}</span>
       </div>
     </Link>
