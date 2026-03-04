@@ -3,23 +3,34 @@
     "slug": "halo-3",
     "title": "Halo 3",
     "titleId": "4D5307E6",
-    "status": "ingame",
-    "perf": "poor",
+    "status": "nothing",
+    "perf": "n/a",
     "tags": [],
     "platforms": [
       "ios",
       "macos"
     ],
     "lastReport": {
-      "device": "iPhone17,1",
+      "device": "iPad Pro (M2)",
       "platform": "ios",
-      "osVersion": "18.5",
+      "osVersion": "18.3.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-02",
-    "notes": "Can play in campaign, frequently drops in FPS but seems to sit around 11-19 range. As described by another user you will need to select mission to bypass the initial cutscene which loops.",
+    "updatedAt": "2026-03-04",
+    "notes": "Crashes upon launch ping the game.",
     "reports": [
+      {
+        "device": "iPad Pro (M2)",
+        "platform": "ios",
+        "osVersion": "18.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "date": "2026-03-04",
+        "notes": "Crashes upon launch ping the game.",
+        "source": "app"
+      },
       {
         "device": "iPhone17,1",
         "platform": "ios",
