@@ -1205,5 +1205,39 @@
       }
     ],
     "screenshots": []
+  },
+  {
+    "slug": "sonic-transformed",
+    "title": "Sonic Transformed",
+    "titleId": "5345085D",
+    "status": "loads",
+    "perf": "poor",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone17,1",
+      "platform": "ios",
+      "osVersion": "18.5",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-05",
+    "notes": "The game flashes a quick random color pattern and fails to load or boot.",
+    "reports": [
+      {
+        "device": "iPhone17,1",
+        "platform": "ios",
+        "osVersion": "18.5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "loads",
+        "date": "2026-03-05",
+        "notes": "The game flashes a quick random color pattern and fails to load or boot.",
+        "source": "app"
+      }
+    ],
+    "screenshots": []
   }
 ]
