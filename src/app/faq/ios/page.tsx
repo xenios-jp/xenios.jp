@@ -121,7 +121,7 @@ const installation = [
     content: (
       <p>
         JIT is the permission the emulator needs to execute translated game
-        code. Without JIT, XeniOS can open, but games usually won&apos;t start.
+        code. Without JIT, XeniOS can open, but games won&apos;t start.
         Use StikDebug, SideJITServer, or AltJIT to enable JIT. On newer devices, also
         run LocalDevVPN (especially on iPhone 14+ and modern iPads like iPad
         mini 6+, iPad 10+, iPad Air 5+/M1+, and iPad Pro M1+). If unsure,

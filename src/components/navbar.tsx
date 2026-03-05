@@ -39,15 +39,23 @@ function DiscordIcon({ className }: { className?: string }) {
   );
 }
 
-function HeartIcon({ className }: { className?: string }) {
+function CoffeeIcon({ className }: { className?: string }) {
   return (
     <svg
       className={className}
-      viewBox="0 0 16 16"
-      fill="currentColor"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth={2}
+      strokeLinecap="round"
+      strokeLinejoin="round"
       aria-hidden="true"
     >
-      <path d="M7.655 14.916v-.001h-.002l-.006-.003-.018-.01a7.643 7.643 0 01-.245-.144 15.46 15.46 0 01-2.734-2.138C2.93 10.88 1.5 8.836 1.5 6.168c0-2.394 1.886-4.168 3.9-4.168 1.182 0 2.244.57 2.6 1.478.356-.908 1.418-1.478 2.6-1.478 2.014 0 3.9 1.774 3.9 4.168 0 2.668-1.43 4.712-3.15 6.452a15.46 15.46 0 01-2.734 2.138 8.758 8.758 0 01-.263.154l-.006.003h-.002l-.345-.192.345.192z" />
+      <path d="M17 8h1a4 4 0 1 1 0 8h-1" />
+      <path d="M3 8h14v9a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4Z" />
+      <line x1="6" x2="6" y1="2" y2="4" />
+      <line x1="10" x2="10" y1="2" y2="4" />
+      <line x1="14" x2="14" y1="2" y2="4" />
     </svg>
   );
 }
@@ -147,10 +155,10 @@ export function Navbar() {
             href={KOFI_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="p-2 text-text-secondary transition-colors hover:text-pink-500"
+            className="p-2 text-text-secondary transition-colors hover:text-amber-500"
             aria-label="Support on Ko-fi"
           >
-            <HeartIcon className="h-[18px] w-[18px]" />
+            <CoffeeIcon className="h-[18px] w-[18px]" />
           </a>
           <ThemeToggle />
         </div>
@@ -214,10 +222,10 @@ export function Navbar() {
                 href={KOFI_URL}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-text-secondary transition-colors hover:text-pink-500"
+                className="text-text-secondary transition-colors hover:text-amber-500"
                 aria-label="Support on Ko-fi"
               >
-                <HeartIcon className="h-5 w-5" />
+                <CoffeeIcon className="h-5 w-5" />
               </a>
               <ThemeToggle />
             </div>
