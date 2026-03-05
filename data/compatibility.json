@@ -1171,5 +1171,39 @@
       }
     ],
     "screenshots": []
+  },
+  {
+    "slug": "sonic-generations",
+    "title": "SONIC GENERATIONS",
+    "titleId": "53450848",
+    "status": "nothing",
+    "perf": "n/a",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone17,1",
+      "platform": "ios",
+      "osVersion": "18.5",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-05",
+    "notes": "Does not boot, no visible attempt.",
+    "reports": [
+      {
+        "device": "iPhone17,1",
+        "platform": "ios",
+        "osVersion": "18.5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "date": "2026-03-05",
+        "notes": "Does not boot, no visible attempt.",
+        "source": "app"
+      }
+    ],
+    "screenshots": []
   }
 ]
