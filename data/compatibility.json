@@ -1386,5 +1386,39 @@
       }
     ],
     "screenshots": []
+  },
+  {
+    "slug": "the-outfit",
+    "title": "The Outfit",
+    "titleId": "545107D2",
+    "status": "nothing",
+    "perf": "n/a",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 15 Pro Max",
+      "platform": "ios",
+      "osVersion": "26.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-05",
+    "notes": "Crashes",
+    "reports": [
+      {
+        "device": "iPhone 15 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "date": "2026-03-05",
+        "notes": "Crashes",
+        "source": "app"
+      }
+    ],
+    "screenshots": []
   }
 ]
