@@ -1284,5 +1284,39 @@
       }
     ],
     "screenshots": []
+  },
+  {
+    "slug": "beautiful-katamari",
+    "title": "Beautiful Katamari",
+    "titleId": "4E4D07DC",
+    "status": "intro",
+    "perf": "ok",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone17,1",
+      "platform": "ios",
+      "osVersion": "18.5",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-05",
+    "notes": "Game boots and loads quickly and smoothly with some graphical glitches during cutscenes. This game has experienced a regression from previous version and now freezes at varying points after loading the menu where as I was able to get into and play the game at about 3/4 speed on initial version.",
+    "reports": [
+      {
+        "device": "iPhone17,1",
+        "platform": "ios",
+        "osVersion": "18.5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "intro",
+        "date": "2026-03-05",
+        "notes": "Game boots and loads quickly and smoothly with some graphical glitches during cutscenes. This game has experienced a regression from previous version and now freezes at varying points after loading the menu where as I was able to get into and play the game at about 3/4 speed on initial version.",
+        "source": "app"
+      }
+    ],
+    "screenshots": []
   }
 ]
