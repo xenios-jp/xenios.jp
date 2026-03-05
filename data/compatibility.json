@@ -1250,5 +1250,39 @@
       }
     ],
     "screenshots": []
+  },
+  {
+    "slug": "jeopardy",
+    "title": "Jeopardy!",
+    "titleId": "545108AE",
+    "status": "loads",
+    "perf": "poor",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone17,1",
+      "platform": "ios",
+      "osVersion": "18.5",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-05",
+    "notes": "Boots quickly and smoothly but hangs on initial loading screen past logos.",
+    "reports": [
+      {
+        "device": "iPhone17,1",
+        "platform": "ios",
+        "osVersion": "18.5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "loads",
+        "date": "2026-03-05",
+        "notes": "Boots quickly and smoothly but hangs on initial loading screen past logos.",
+        "source": "app"
+      }
+    ],
+    "screenshots": []
   }
 ]
