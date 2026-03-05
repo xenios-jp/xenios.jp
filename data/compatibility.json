@@ -939,21 +939,32 @@
     "title": "DEAD OR ALIVE 4",
     "titleId": "544307D1",
     "status": "playable",
-    "perf": "ok",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 17 Pro Max",
+      "device": "iPhone17,1",
       "platform": "ios",
-      "osVersion": "26.1",
+      "osVersion": "18.5",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-03",
-    "notes": "Visuals are perfect with no apparent glitches. Performance is half speed but stutter free. Menus are perfect and sound is perfect.",
+    "updatedAt": "2026-03-05",
+    "notes": "Game loads with no glitches I could tell. The game runs smoothly but with slightly reduced speed. Very playable and very enjoyable!",
     "reports": [
+      {
+        "device": "iPhone17,1",
+        "platform": "ios",
+        "osVersion": "18.5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "date": "2026-03-05",
+        "notes": "Game loads with no glitches I could tell. The game runs smoothly but with slightly reduced speed. Very playable and very enjoyable!",
+        "source": "app"
+      },
       {
         "device": "iPhone 17 Pro Max",
         "platform": "ios",
