@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **30 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **32 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **10** · 🔵 In-Game: **7** · 🟡 Intro: **5** · 🟠 Loads: **3** · 🔴 Doesn't Boot: **5**
+> 🟢 Playable: **10** · 🔵 In-Game: **7** · 🟡 Intro: **5** · 🟠 Loads: **4** · 🔴 Doesn't Boot: **6**
 >
-> 📱 iOS: **27** · 🖥️ macOS: **4**
+> 📱 iOS: **29** · 🖥️ macOS: **4**
 
 ## Legend
 
@@ -23,7 +23,7 @@
 | 🟢 | BioShock | `545407D8` | 📱 iOS | Playable | 👌 OK | iPhone17,1 | 2026-03-02 |
 | 🟢 | Condemned 2: Bloodshot | `534507EE` | 📱 iOS | Playable | 👌 OK | iPhone 17 Pro Max | 2026-03-03 |
 | 🟢 | DB: Raging Blast 2 | `4E4D0826` | 📱 iOS | Playable | 🐢 Poor | iPad Pro (M2) | 2026-03-03 |
-| 🟢 | DEAD OR ALIVE 4 | `544307D1` | 📱 iOS | Playable | 👌 OK | iPhone 17 Pro Max | 2026-03-03 |
+| 🟢 | DEAD OR ALIVE 4 | `544307D1` | 📱 iOS | Playable | 🚀 Great | iPhone17,1 | 2026-03-05 |
 | 🟢 | Dead Space™ | `45410857` | 📱 iOS | Playable | 👌 OK | iPhone17,1 | 2026-03-03 |
 | 🟢 | FINAL FANTASY XIII | `535107E4` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-03 |
 | 🟢 | Guacamelee | `00000000` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-03 |
@@ -45,9 +45,11 @@
 | 🟠 | Left 4 Dead | `45410830` | 📱 iOS | Loads | 👌 OK | iPhone18,2 | 2026-03-02 |
 | 🟠 | Lost Odyssey | `4D5307FA` | 📱 iOS | Loads | 🐢 Poor | iPhone17,1 | 2026-03-03 |
 | 🟠 | Skate 3 | `454108E6` | 📱 iOS | Loads | 🐢 Poor | iPad Pro (M2) | 2026-03-02 |
+| 🟠 | Sonic Transformed | `5345085D` | 📱 iOS | Loads | 🐢 Poor | iPhone17,1 | 2026-03-05 |
 | 🔴 | FIGHT NIGHT CHAMPION | `45410915` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Pro (M2) | 2026-03-03 |
 | 🔴 | Modern Warfare® 2 | `41560817` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Pro (M2) | 2026-03-02 |
 | 🔴 | RESIDENT EVIL 5 | `434307D4` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone17,1 | 2026-03-03 |
+| 🔴 | SONIC GENERATIONS | `53450848` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone17,1 | 2026-03-05 |
 | 🔴 | Star Ocean: TLH | `535107DD` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone17,1 | 2026-03-03 |
 | 🔴 | TEKKEN 6 | `4E4D07FC` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone17,1 | 2026-03-03 |
 
