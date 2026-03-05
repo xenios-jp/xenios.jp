@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **32 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **35 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **10** · 🔵 In-Game: **7** · 🟡 Intro: **5** · 🟠 Loads: **4** · 🔴 Doesn't Boot: **6**
+> 🟢 Playable: **10** · 🔵 In-Game: **7** · 🟡 Intro: **7** · 🟠 Loads: **5** · 🔴 Doesn't Boot: **6**
 >
-> 📱 iOS: **29** · 🖥️ macOS: **4**
+> 📱 iOS: **32** · 🖥️ macOS: **4**
 
 ## Legend
 
@@ -37,11 +37,14 @@
 | 🔵 | GTA IV | `545407F2` | 🖥️ macOS | In-Game | 🐢 Poor | MacBook Pro M4 Pro | 2026-02-28 |
 | 🔵 | Metro: Last Light | `4B4D07F5` | 🖥️ macOS | In-Game | 👌 OK | MacBook Pro M4 Pro/Max | 2026-02-28 |
 | 🔵 | skate. | `45410813` | 📱 iOS | In-Game | 🐢 Poor | iPad Pro (M2) | 2026-03-03 |
+| 🟡 | Beautiful Katamari | `4E4D07DC` | 📱 iOS | Intro | 👌 OK | iPhone17,1 | 2026-03-05 |
 | 🟡 | DEAD RISING | `434307D2` | 📱 iOS | Intro | 👌 OK | iPad15,7 | 2026-03-04 |
 | 🟡 | DOOM 3 BFG Edition | `425307F1` | 📱 iOS | Intro | 🚀 Great | iPhone17,1 | 2026-03-03 |
 | 🟡 | Halo 3: ODST | `4D530877` | 📱 iOS | Intro | 🐢 Poor | iPhone17,1 | 2026-03-03 |
 | 🟡 | Halo Wars | `4D530808` | 📱 iOS | Intro | 👌 OK | iPhone 17 | 2026-03-03 |
+| 🟡 | SONIC UNLEASHED | `53450812` | 📱 iOS | Intro | 🐢 Poor | iPad Pro (M2) | 2026-03-05 |
 | 🟡 | Tales of Vesperia | `4E4D07E9` | 📱 iOS | Intro | 🐢 Poor | iPhone17,1 | 2026-03-03 |
+| 🟠 | Jeopardy! | `545108AE` | 📱 iOS | Loads | 🐢 Poor | iPhone17,1 | 2026-03-05 |
 | 🟠 | Left 4 Dead | `45410830` | 📱 iOS | Loads | 👌 OK | iPhone18,2 | 2026-03-02 |
 | 🟠 | Lost Odyssey | `4D5307FA` | 📱 iOS | Loads | 🐢 Poor | iPhone17,1 | 2026-03-03 |
 | 🟠 | Skate 3 | `454108E6` | 📱 iOS | Loads | 🐢 Poor | iPad Pro (M2) | 2026-03-02 |
