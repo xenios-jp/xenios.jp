@@ -1318,5 +1318,39 @@
       }
     ],
     "screenshots": []
+  },
+  {
+    "slug": "sonic-unleashed",
+    "title": "SONIC UNLEASHED",
+    "titleId": "53450812",
+    "status": "intro",
+    "perf": "poor",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPad Pro (M2)",
+      "platform": "ios",
+      "osVersion": "18.3.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-05",
+    "notes": "Game Boots but can’t load the First Level it seems.",
+    "reports": [
+      {
+        "device": "iPad Pro (M2)",
+        "platform": "ios",
+        "osVersion": "18.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "intro",
+        "date": "2026-03-05",
+        "notes": "Game Boots but can’t load the First Level it seems.",
+        "source": "app"
+      }
+    ],
+    "screenshots": []
   }
 ]
