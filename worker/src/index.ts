@@ -56,6 +56,7 @@ interface ReportPayload {
   gpuBackend: GpuBackend;
   notes: string;
   tags?: string[];
+  screenshots?: string[];
 }
 
 interface GameReport {
@@ -106,6 +107,7 @@ const GITHUB_OWNER = "xenios-jp";
 const GITHUB_REPO = "xenios.jp";
 const COMPAT_PATH = "data/compatibility.json";
 const BRANCH = "main";
+const SCREENSHOT_PATH = "public/compatibility/screenshots";
 
 // ── Schema (single source of truth for valid values) ─────────────────
 // When adding new platforms, GPU backends, etc., update these arrays.
@@ -211,6 +213,17 @@ function validatePayload(body: unknown): { ok: true; data: ReportPayload } | { o
   if (!VALID_ARCHS.includes(b.arch as Architecture)) return { ok: false, error: `arch must be one of: ${VALID_ARCHS.join(", ")}` };
   if (!VALID_GPU_BACKENDS.includes(b.gpuBackend as GpuBackend)) return { ok: false, error: `gpuBackend must be one of: ${VALID_GPU_BACKENDS.join(", ")}` };
   if (!b.notes || typeof b.notes !== "string") return { ok: false, error: "notes is required" };
+  if (b.screenshots !== undefined) {
+    if (!Array.isArray(b.screenshots)) {
+      return { ok: false, error: "screenshots must be an array" };
+    }
+    if (b.screenshots.length > 5) {
+      return { ok: false, error: "screenshots cannot contain more than 5 images" };
+    }
+    if (!b.screenshots.every((s) => typeof s === "string" && s.trim().length > 0)) {
+      return { ok: false, error: "screenshots must only contain non-empty strings" };
+    }
+  }
 
   // Cross-validate: iOS must use MSL
   if (b.platform === "ios" && b.gpuBackend !== "msl") {
@@ -231,6 +244,12 @@ function validatePayload(body: unknown): { ok: true; data: ReportPayload } | { o
       gpuBackend: b.gpuBackend as GpuBackend,
       notes: (b.notes as string).trim(),
       tags: Array.isArray(b.tags) ? b.tags.filter((t): t is string => typeof t === "string") : undefined,
+      screenshots: Array.isArray(b.screenshots)
+        ? b.screenshots
+            .filter((s): s is string => typeof s === "string")
+            .map((s) => s.trim())
+            .filter(Boolean)
+        : undefined,
     },
   };
 }
@@ -248,6 +267,34 @@ async function githubFetch(path: string, token: string, options: RequestInit = {
       ...(options.headers || {}),
     },
   });
+}
+
+function encodeGitHubPath(path: string): string {
+  return path
+    .split("/")
+    .map((segment) => encodeURIComponent(segment))
+    .join("/");
+}
+
+function githubRawUrl(path: string): string {
+  return `https://raw.githubusercontent.com/${GITHUB_OWNER}/${GITHUB_REPO}/${BRANCH}/${path}`;
+}
+
+async function commitFileToGitHub(token: string, path: string, base64Content: string, message: string): Promise<void> {
+  const res = await githubFetch(
+    `/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${encodeGitHubPath(path)}`,
+    token,
+    {
+      method: "PUT",
+      body: JSON.stringify({
+        message,
+        content: base64Content,
+        branch: BRANCH,
+      }),
+    }
+  );
+
+  if (!res.ok) throw new Error(`GitHub file upload failed: ${res.status} ${await res.text()}`);
 }
 
 async function getFileFromGitHub(token: string): Promise<{ content: Game[]; sha: string }> {
@@ -311,7 +358,7 @@ const SOURCE_FOOTERS: Record<ReportSource, string> = {
   github: "*Submitted via GitHub issue*",
 };
 
-function buildReportBody(report: ReportPayload, source: ReportSource, screenshotUrl?: string, submittedBy?: string): string {
+function buildReportBody(report: ReportPayload, source: ReportSource, screenshotUrls: string[] = [], submittedBy?: string): string {
   const statusEmoji: Record<GameStatus, string> = {
     playable: "\u2705",
     ingame: "\uD83D\uDFE6",
@@ -332,7 +379,7 @@ function buildReportBody(report: ReportPayload, source: ReportSource, screenshot
     `| **Status** | ${statusEmoji[report.status]} ${report.status} |`,
     `| **Performance** | ${report.perf} |`,
     `| **Platform** | ${platformDisplay} |`,
-    `| **Device** | ${report.device} |`,
+    `| **Device** | ${deviceDisplayName(report.device)} |`,
     `| **OS Version** | ${platformDisplay} ${report.osVersion} |`,
     `| **Architecture** | ${report.arch} |`,
     `| **GPU Backend** | ${report.gpuBackend.toUpperCase()} |`,
@@ -342,8 +389,11 @@ function buildReportBody(report: ReportPayload, source: ReportSource, screenshot
     report.notes,
   ];
 
-  if (screenshotUrl) {
-    lines.push(``, `### Screenshot`, `![screenshot](${screenshotUrl})`);
+  if (screenshotUrls.length > 0) {
+    lines.push(``, screenshotUrls.length === 1 ? `### Screenshot` : `### Screenshots`);
+    screenshotUrls.forEach((url, index) => {
+      lines.push(`![screenshot ${index + 1}](${url})`);
+    });
   }
 
   lines.push(``, `---`, SOURCE_FOOTERS[source], `<!-- xenios-auto -->`);
@@ -361,8 +411,8 @@ function buildLabels(report: ReportPayload): string[] {
   ];
 }
 
-async function createNewIssue(token: string, report: ReportPayload, source: ReportSource, screenshotUrl?: string, submittedBy?: string): Promise<string> {
-  const body = buildReportBody(report, source, screenshotUrl, submittedBy);
+async function createNewIssue(token: string, report: ReportPayload, source: ReportSource, screenshotUrls: string[] = [], submittedBy?: string): Promise<string> {
+  const body = buildReportBody(report, source, screenshotUrls, submittedBy);
   const labels = buildLabels(report);
 
   const res = await githubFetch(`/repos/${GITHUB_OWNER}/${GITHUB_REPO}/issues`, token, {
@@ -380,8 +430,8 @@ async function createNewIssue(token: string, report: ReportPayload, source: Repo
   return issue.html_url;
 }
 
-async function addCommentToIssue(token: string, issueNumber: number, report: ReportPayload, source: ReportSource, screenshotUrl?: string, submittedBy?: string): Promise<string> {
-  const body = buildReportBody(report, source, screenshotUrl, submittedBy);
+async function addCommentToIssue(token: string, issueNumber: number, report: ReportPayload, source: ReportSource, screenshotUrls: string[] = [], submittedBy?: string): Promise<string> {
+  const body = buildReportBody(report, source, screenshotUrls, submittedBy);
 
   const res = await githubFetch(`/repos/${GITHUB_OWNER}/${GITHUB_REPO}/issues/${issueNumber}/comments`, token, {
     method: "POST",
@@ -413,18 +463,18 @@ async function updateIssueLabels(token: string, issueNumber: number, existingLab
   }
 }
 
-async function createOrUpdateIssue(token: string, report: ReportPayload, source: ReportSource, screenshotUrl?: string, submittedBy?: string): Promise<string> {
+async function createOrUpdateIssue(token: string, report: ReportPayload, source: ReportSource, screenshotUrls: string[] = [], submittedBy?: string): Promise<string> {
   const existing = await findExistingIssue(token, report.titleId);
 
   if (existing) {
     const [issueUrl] = await Promise.all([
-      addCommentToIssue(token, existing.number, report, source, screenshotUrl, submittedBy),
+      addCommentToIssue(token, existing.number, report, source, screenshotUrls, submittedBy),
       updateIssueLabels(token, existing.number, existing.labels, report),
     ]);
     return issueUrl;
   }
 
-  return createNewIssue(token, report, source, screenshotUrl, submittedBy);
+  return createNewIssue(token, report, source, screenshotUrls, submittedBy);
 }
 
 // ── Discord Webhook ──────────────────────────────────────────────────
@@ -463,10 +513,10 @@ const SOURCE_LABELS: Record<ReportSource, string> = {
   github: "GitHub Issue",
 };
 
-async function postToDiscord(webhookUrl: string, report: ReportPayload, issueUrl: string, source: ReportSource, screenshotUrl?: string, submittedBy?: string): Promise<void> {
+async function postToDiscord(webhookUrl: string, report: ReportPayload, issueUrl: string, source: ReportSource, screenshotUrls: string[] = [], submittedBy?: string): Promise<void> {
   const desc = [
     `${STATUS_LABELS[report.status]}  \u2022  ${PERF_LABELS[report.perf]}`,
-    `${PLATFORM_LABELS[report.platform]}  \u2022  ${report.device}`,
+    `${PLATFORM_LABELS[report.platform]}  \u2022  ${deviceDisplayName(report.device)}`,
     ``,
     report.notes.slice(0, 300) + (report.notes.length > 300 ? "..." : ""),
   ].join("\n");
@@ -480,8 +530,8 @@ async function postToDiscord(webhookUrl: string, report: ReportPayload, issueUrl
     timestamp: new Date().toISOString(),
   };
 
-  if (screenshotUrl) {
-    embed.image = { url: screenshotUrl };
+  if (screenshotUrls[0]) {
+    embed.image = { url: screenshotUrls[0] };
   }
 
   const res = await fetch(webhookUrl, {
@@ -536,7 +586,7 @@ async function updateCompatBoard(env: Env, games: Game[]): Promise<void> {
     if (group.length === 0) continue;
     const header = `${STATUS_EMOJI[status]} **${STATUS_LABEL_PLAIN[status]}** (${group.length})`;
     const rows = group.map(
-      (g) => `[${g.title}](${WEBSITE_BASE}/compatibility/${g.slug}) \u2014 ${g.lastReport.device}`
+      (g) => `[${g.title}](${WEBSITE_BASE}/compatibility/${g.slug}) \u2014 ${deviceDisplayName(g.lastReport.device)}`
     );
     sections.push(`${header}\n${rows.join("\n")}`);
   }
@@ -590,7 +640,22 @@ async function updateCompatBoard(env: Env, games: Game[]): Promise<void> {
 
 // ── Merge logic ──────────────────────────────────────────────────────
 
-function mergeReport(games: Game[], report: ReportPayload, source?: ReportSource, submittedBy?: string): Game[] {
+function mergeScreenshotUrls(existing: string[] = [], incoming: string[] = []): string[] {
+  const merged: string[] = [];
+  [...incoming, ...existing].forEach((url) => {
+    if (!url || merged.includes(url)) return;
+    merged.push(url);
+  });
+  return merged.slice(0, 20);
+}
+
+function mergeReport(
+  games: Game[],
+  report: ReportPayload,
+  screenshotUrls: string[] = [],
+  source?: ReportSource,
+  submittedBy?: string
+): Game[] {
   const today = todayISO();
   const newReport: GameReport = {
     device: report.device,
@@ -623,6 +688,7 @@ function mergeReport(games: Game[], report: ReportPayload, source?: ReportSource
     game.status = report.status;
     game.perf = report.perf;
     game.notes = report.notes;
+    game.screenshots = mergeScreenshotUrls(game.screenshots, screenshotUrls);
 
     if (!game.platforms.includes(report.platform)) {
       game.platforms = [...game.platforms, report.platform];
@@ -656,7 +722,7 @@ function mergeReport(games: Game[], report: ReportPayload, source?: ReportSource
     updatedAt: today,
     notes: report.notes,
     reports: [newReport],
-    screenshots: [],
+    screenshots: mergeScreenshotUrls([], screenshotUrls),
   };
 
   return [...games, newGame];
@@ -664,29 +730,117 @@ function mergeReport(games: Game[], report: ReportPayload, source?: ReportSource
 
 // ── Unified Pipeline ─────────────────────────────────────────────────
 
-async function processReport(env: Env, report: ReportPayload, source: ReportSource, screenshotUrl?: string, submittedBy?: string): Promise<PipelineResult> {
+function inferScreenshotExtension(binary: string): string {
+  if (binary.length >= 4) {
+    const b0 = binary.charCodeAt(0);
+    const b1 = binary.charCodeAt(1);
+    const b2 = binary.charCodeAt(2);
+    const b3 = binary.charCodeAt(3);
+    if (b0 === 0xff && b1 === 0xd8 && b2 === 0xff) return "jpg";
+    if (b0 === 0x89 && b1 === 0x50 && b2 === 0x4e && b3 === 0x47) return "png";
+    if (b0 === 0x47 && b1 === 0x49 && b2 === 0x46) return "gif";
+    if (binary.startsWith("RIFF") && binary.slice(8, 12) === "WEBP") return "webp";
+  }
+  return "jpg";
+}
+
+function normalizeScreenshotContent(raw: string): { base64: string; extension: string } | null {
+  const trimmed = raw.trim();
+  if (!trimmed) return null;
+
+  let base64 = trimmed;
+  let extension: string | undefined;
+  const dataUrlMatch = trimmed.match(/^data:(image\/[a-zA-Z0-9.+-]+);base64,(.+)$/i);
+  if (dataUrlMatch) {
+    base64 = dataUrlMatch[2].replace(/\s+/g, "");
+    const mime = dataUrlMatch[1].toLowerCase();
+    const mimeToExt: Record<string, string> = {
+      "image/jpeg": "jpg",
+      "image/jpg": "jpg",
+      "image/png": "png",
+      "image/gif": "gif",
+      "image/webp": "webp",
+    };
+    extension = mimeToExt[mime];
+  } else {
+    base64 = trimmed.replace(/\s+/g, "");
+  }
+
+  try {
+    const binary = atob(base64);
+    return {
+      base64,
+      extension: extension ?? inferScreenshotExtension(binary),
+    };
+  } catch {
+    return null;
+  }
+}
+
+async function uploadReportScreenshots(
+  token: string,
+  report: ReportPayload,
+  source: ReportSource
+): Promise<string[]> {
+  if (!report.screenshots || report.screenshots.length === 0) {
+    return [];
+  }
+
+  const uploadedUrls: string[] = [];
+  const uploadStamp = Date.now();
+
+  for (const [index, rawScreenshot] of report.screenshots.entries()) {
+    const normalized = normalizeScreenshotContent(rawScreenshot);
+    if (!normalized) {
+      console.warn(`Skipping invalid screenshot ${index + 1} for ${report.titleId}`);
+      continue;
+    }
+
+    const filePath =
+      `${SCREENSHOT_PATH}/${report.titleId}/${uploadStamp}-${index + 1}.${normalized.extension}`;
+    const commitMessage =
+      `compat: add screenshot ${index + 1} for ${report.title} (${report.titleId}) [via ${source}]`;
+
+    try {
+      await commitFileToGitHub(token, filePath, normalized.base64, commitMessage);
+      uploadedUrls.push(githubRawUrl(filePath));
+    } catch (error) {
+      console.error(`Screenshot upload failed for ${report.titleId} #${index + 1}:`, error);
+    }
+  }
+
+  return uploadedUrls;
+}
+
+async function processReport(
+  env: Env,
+  report: ReportPayload,
+  source: ReportSource,
+  screenshotUrls: string[] = [],
+  submittedBy?: string
+): Promise<PipelineResult> {
   // 1. Fetch current compatibility.json from GitHub
   const { content: games, sha } = await getFileFromGitHub(env.GITHUB_TOKEN);
 
   // 2. Merge in the new report
-  const updated = mergeReport(games, report, source, submittedBy);
+  const updated = mergeReport(games, report, screenshotUrls, source, submittedBy);
 
   // 3. Commit back to GitHub
   const platformDisplay = report.platform === "ios" ? "iOS" : "macOS";
-  const commitMsg = `compat: ${report.title} \u2014 ${report.status} on ${report.device} (${platformDisplay}) [via ${source}]`;
+  const commitMsg = `compat: ${report.title} \u2014 ${report.status} on ${deviceDisplayName(report.device)} (${platformDisplay}) [via ${source}]`;
   await commitToGitHub(env.GITHUB_TOKEN, updated, sha, commitMsg);
 
   // 4. Create or update GitHub issue (one issue per game)
   let issueUrl = "";
   try {
-    issueUrl = await createOrUpdateIssue(env.GITHUB_TOKEN, report, source, screenshotUrl, submittedBy);
+    issueUrl = await createOrUpdateIssue(env.GITHUB_TOKEN, report, source, screenshotUrls, submittedBy);
   } catch (e) {
     console.error("Issue creation/update failed:", e);
   }
 
   // 5. Post to Discord
   try {
-    await postToDiscord(env.DISCORD_WEBHOOK, report, issueUrl, source, screenshotUrl, submittedBy);
+    await postToDiscord(env.DISCORD_WEBHOOK, report, issueUrl, source, screenshotUrls, submittedBy);
   } catch (e) {
     console.error("Discord post failed:", e);
   }
@@ -774,28 +928,6 @@ interface DiscordAttachment {
   content_type?: string;
 }
 
-// ── Cache helpers for bridging screenshot URL between command → modal ─
-
-async function storeScreenshotUrl(interactionId: string, url: string): Promise<void> {
-  const cache = caches.default;
-  const key = `https://xenios-modal.internal/${interactionId}`;
-  await cache.put(key, new Response(url, {
-    headers: { "Cache-Control": "s-maxage=600" },
-  }));
-}
-
-async function getScreenshotUrl(interactionId: string): Promise<string> {
-  const cache = caches.default;
-  const key = `https://xenios-modal.internal/${interactionId}`;
-  const response = await cache.match(key);
-  if (!response) return "";
-  try {
-    return await response.text();
-  } catch {
-    return "";
-  }
-}
-
 // ── Discord modal (text fields only) ─────────────────────────────────
 // All enum fields come from slash command choices (native dropdowns).
 // The modal only collects free-text: Title ID, Game Name, Notes.
@@ -839,6 +971,14 @@ function buildTextModal(customId: string): unknown {
 function inferPlatform(device: string): "ios" | "macos" {
   if (device.startsWith("iPhone") || device.startsWith("iPad")) return "ios";
   return "macos";
+}
+
+// ── Device name mapping (raw identifier → friendly name) ────────────
+
+import DEVICE_NAMES from "../../data/device-names.json";
+
+function deviceDisplayName(raw: string): string {
+  return (DEVICE_NAMES as Record<string, string>)[raw] || raw;
 }
 
 // ── Cache command options between slash command → modal submit ────────
@@ -996,7 +1136,7 @@ async function handleDiscordInteraction(request: Request, env: Env, ctx: Executi
             color: STATUS_COLORS[g.status],
             fields: [
               { name: "Status", value: `${STATUS_EMOJI[g.status]} ${STATUS_LABEL_PLAIN[g.status]}`, inline: true },
-              { name: "Device", value: g.lastReport.device, inline: true },
+              { name: "Device", value: deviceDisplayName(g.lastReport.device), inline: true },
               { name: "Title ID", value: `\`${g.titleId}\``, inline: true },
             ],
             footer: { text: `Updated ${g.updatedAt}` },
@@ -1122,7 +1262,13 @@ async function handleDiscordInteraction(request: Request, env: Env, ctx: Executi
         ctx.waitUntil(
           (async () => {
             try {
-              const result = await processReport(env, report, "discord", screenshotUrl, submittedBy);
+              const result = await processReport(
+                env,
+                report,
+                "discord",
+                screenshotUrl ? [screenshotUrl] : [],
+                submittedBy
+              );
 
               const followupUrl = `https://discord.com/api/v10/webhooks/${env.DISCORD_APPLICATION_ID}/${interaction.token}/messages/@original`;
               const content = result.success
@@ -1215,7 +1361,8 @@ export default {
       const report = validation.data;
 
       try {
-        const result = await processReport(env, report, "app");
+        const screenshotUrls = await uploadReportScreenshots(env.GITHUB_TOKEN, report, "app");
+        const result = await processReport(env, report, "app", screenshotUrls);
         return jsonResponse(result);
       } catch (e) {
         console.error("Report processing failed:", e);
