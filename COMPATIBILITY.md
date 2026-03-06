@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **37 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **38 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **10** · 🔵 In-Game: **7** · 🟡 Intro: **7** · 🟠 Loads: **5** · 🔴 Doesn't Boot: **8**
+> 🟢 Playable: **11** · 🔵 In-Game: **7** · 🟡 Intro: **7** · 🟠 Loads: **5** · 🔴 Doesn't Boot: **8**
 >
-> 📱 iOS: **34** · 🖥️ macOS: **4**
+> 📱 iOS: **35** · 🖥️ macOS: **4**
 
 ## Legend
 
@@ -25,6 +25,7 @@
 | 🟢 | DB: Raging Blast 2 | `4E4D0826` | 📱 iOS | Playable | 🐢 Poor | iPad Pro (M2) | 2026-03-03 |
 | 🟢 | DEAD OR ALIVE 4 | `544307D1` | 📱 iOS | Playable | 🚀 Great | iPhone17,1 | 2026-03-05 |
 | 🟢 | Dead Space™ | `45410857` | 📱 iOS | Playable | 👌 OK | iPhone17,1 | 2026-03-03 |
+| 🟢 | DEADLY PREMONITION | `494F07D4` | 📱 iOS | Playable | 👌 OK | iPad15,7 | 2026-03-06 |
 | 🟢 | FINAL FANTASY XIII | `535107E4` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-03 |
 | 🟢 | Guacamelee | `00000000` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-03 |
 | 🟢 | Halo 3 | `4D5307E6` | 📱 iOS, 🖥️ macOS | Playable | 🚀 Great | iPhone 15 Pro | 2026-03-06 |
