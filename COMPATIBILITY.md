@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **39 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **40 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **11** · 🔵 In-Game: **8** · 🟡 Intro: **7** · 🟠 Loads: **5** · 🔴 Doesn't Boot: **8**
+> 🟢 Playable: **11** · 🔵 In-Game: **9** · 🟡 Intro: **7** · 🟠 Loads: **5** · 🔴 Doesn't Boot: **8**
 >
-> 📱 iOS: **36** · 🖥️ macOS: **4**
+> 📱 iOS: **37** · 🖥️ macOS: **4**
 
 ## Legend
 
@@ -37,6 +37,7 @@
 | 🔵 | Gears of War | `4D5307D5` | 🖥️ macOS | In-Game | 👌 OK | MacBook Pro (M4 Pro) | 2026-02-28 |
 | 🔵 | GTA IV | `545407F2` | 🖥️ macOS | In-Game | 🐢 Poor | MacBook Pro M4 Pro | 2026-02-28 |
 | 🔵 | Halo: Reach | `4D53085B` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 | 2026-03-06 |
+| 🔵 | Just Cause 2 | `534307E7` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 | 2026-03-06 |
 | 🔵 | Metro: Last Light | `4B4D07F5` | 🖥️ macOS | In-Game | 👌 OK | MacBook Pro (M4 Pro) | 2026-02-28 |
 | 🔵 | skate. | `45410813` | 📱 iOS | In-Game | 🐢 Poor | iPad Pro (M2) | 2026-03-03 |
 | 🟡 | Beautiful Katamari | `4E4D07DC` | 📱 iOS | Intro | 👌 OK | iPhone 16 Pro | 2026-03-05 |
