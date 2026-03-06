@@ -1,3 +1,4 @@
+import Script from "next/script";
 import type { Metadata } from "next";
 import { Inter, JetBrains_Mono } from "next/font/google";
 import { Navbar } from "@/components/navbar";
@@ -19,14 +20,14 @@ const jetbrainsMono = JetBrains_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "XeniOS — Xenia for Apple devices",
+    default: "XeniOS — Xbox 360 Emulator for iPhone, iPad & Mac",
     template: "%s — XeniOS",
   },
   description:
-    "XeniOS is based on has207/xenia-edge for Apple devices. Play Xbox 360 games on iPhone, iPad, and Mac. Free, open source, and community-driven.",
+    "Xbox 360 emulation on iPhone, iPad, and Mac. Play your favorite Xbox 360 games on Apple devices. Free, open source, and community-driven.",
   metadataBase: new URL("https://xenios.jp"),
   openGraph: {
-    title: "XeniOS — Xenia for Apple devices",
+    title: "XeniOS — Xbox 360 Emulator for iPhone, iPad & Mac",
     description:
       "Play Xbox 360 games on iPhone, iPad, and Mac. Free, open source, and community-driven.",
     url: "https://xenios.jp",
@@ -36,7 +37,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "XeniOS — Xenia for Apple devices",
+    title: "XeniOS — Xbox 360 Emulator for iPhone, iPad & Mac",
     description:
       "Play Xbox 360 games on iPhone, iPad, and Mac. Free, open source, and community-driven.",
   },
@@ -63,6 +64,12 @@ export default function RootLayout({
           <main id="main-content" className="min-h-screen">{children}</main>
           <Footer />
         </ThemeProvider>
+        <Script
+          defer
+          src="https://static.cloudflareinsights.com/beacon.min.js"
+          data-cf-beacon='{"token": "c6a93f64730d401e9f90e0b87231270f"}'
+          strategy="afterInteractive"
+        />
       </body>
     </html>
   );
