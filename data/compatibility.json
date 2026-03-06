@@ -1495,8 +1495,19 @@
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-03-06",
-    "notes": "Loads into firefight but extreme graphical issues to the point that the game is unplayable.",
+    "notes": "Severe graphical issues rendering the game unplayable. Performance also extremely poor.",
     "reports": [
+      {
+        "device": "iPhone 17",
+        "platform": "ios",
+        "osVersion": "26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "date": "2026-03-06",
+        "notes": "Severe graphical issues rendering the game unplayable. Performance also extremely poor.",
+        "source": "app"
+      },
       {
         "device": "iPhone 17",
         "platform": "ios",
@@ -1509,6 +1520,9 @@
         "source": "app"
       }
     ],
-    "screenshots": []
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/xenios.jp/main/public/compatibility/screenshots/4D53085B/1772811936606-1.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/xenios.jp/main/public/compatibility/screenshots/4D53085B/1772811936606-2.jpg"
+    ]
   }
 ]
