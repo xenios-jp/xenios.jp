@@ -1476,5 +1476,39 @@
       }
     ],
     "screenshots": []
+  },
+  {
+    "slug": "halo-reach",
+    "title": "Halo: Reach",
+    "titleId": "4D53085B",
+    "status": "ingame",
+    "perf": "poor",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 17",
+      "platform": "ios",
+      "osVersion": "26.3",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-06",
+    "notes": "Loads into firefight but extreme graphical issues to the point that the game is unplayable.",
+    "reports": [
+      {
+        "device": "iPhone 17",
+        "platform": "ios",
+        "osVersion": "26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "date": "2026-03-06",
+        "notes": "Loads into firefight but extreme graphical issues to the point that the game is unplayable.",
+        "source": "app"
+      }
+    ],
+    "screenshots": []
   }
 ]
