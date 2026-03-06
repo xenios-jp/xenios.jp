@@ -1345,22 +1345,33 @@
     "slug": "sonic-unleashed",
     "title": "SONIC UNLEASHED",
     "titleId": "53450812",
-    "status": "intro",
-    "perf": "poor",
+    "status": "ingame",
+    "perf": "ok",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPad Pro (M2)",
+      "device": "iPhone 17",
       "platform": "ios",
-      "osVersion": "18.3.1",
+      "osVersion": "26.3",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-05",
-    "notes": "Game Boots but can’t load the First Level it seems.",
+    "updatedAt": "2026-03-06",
+    "notes": "Gets into game without issue, relatively steady frame rate, 20-25fps.",
     "reports": [
+      {
+        "device": "iPhone 17",
+        "platform": "ios",
+        "osVersion": "26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "date": "2026-03-06",
+        "notes": "Gets into game without issue, relatively steady frame rate, 20-25fps.",
+        "source": "app"
+      },
       {
         "device": "iPad Pro (M2)",
         "platform": "ios",
@@ -1373,7 +1384,9 @@
         "source": "app"
       }
     ],
-    "screenshots": []
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/xenios.jp/main/public/compatibility/screenshots/53450812/1772815441036-1.jpg"
+    ]
   },
   {
     "slug": "title-4d5307ed",
