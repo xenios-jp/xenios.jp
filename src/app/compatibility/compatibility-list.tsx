@@ -13,6 +13,7 @@ interface FilterState {
   q: string;
   status: GameStatus | null;
   perf: PerfTier | "all";
+  device: string;
   sort: SortKey;
 }
 
@@ -77,6 +78,7 @@ function buildQueryString(filters: FilterState): string {
   if (filters.q) params.set("q", filters.q);
   if (filters.status) params.set("status", filters.status);
   if (filters.perf !== "all") params.set("perf", filters.perf);
+  if (filters.device) params.set("device", filters.device);
   if (filters.sort !== "updated") params.set("sort", filters.sort);
   const query = params.toString();
   return query ? `?${query}` : "";
@@ -152,16 +154,18 @@ function CompatibilityListInner({ games: allGames }: { games: Game[] }) {
       q: (searchParams.get("q") ?? "").trim(),
       status: parseStatus(searchParams.get("status")),
       perf: parsePerf(searchParams.get("perf")),
+      device: searchParams.get("device") ?? "",
       sort: parseSort(searchParams.get("sort")),
     }),
     [searchParams],
   );
 
   const total = allGames.length;
-  const deviceCount = useMemo(
-    () => new Set(allGames.map((game) => game.lastReport.device)).size,
-    [allGames],
-  );
+  const uniqueDevices = useMemo(() => {
+    const raw = [...new Set(allGames.flatMap((g) => g.reports.map((r) => r.device)))];
+    return raw.sort((a, b) => deviceName(a).localeCompare(deviceName(b)));
+  }, [allGames]);
+  const deviceCount = uniqueDevices.length;
 
   const statusCounts: Record<GameStatus, number> = useMemo(() => {
     const counts: Record<GameStatus, number> = {
@@ -198,6 +202,12 @@ function CompatibilityListInner({ games: allGames }: { games: Game[] }) {
       filtered = filtered.filter((game) => game.perf === filters.perf);
     }
 
+    if (filters.device) {
+      filtered = filtered.filter((game) =>
+        game.reports.some((r) => r.device === filters.device)
+      );
+    }
+
     const sorted = [...filtered];
     if (filters.sort === "alpha") {
       sorted.sort((a, b) => a.title.localeCompare(b.title));
@@ -209,7 +219,7 @@ function CompatibilityListInner({ games: allGames }: { games: Game[] }) {
   }, [allGames, filters]);
 
   const hasFilter =
-    Boolean(filters.q) || filters.status !== null || filters.perf !== "all";
+    Boolean(filters.q) || filters.status !== null || filters.perf !== "all" || Boolean(filters.device);
 
   const handleSubmit = useCallback(
     (e: React.FormEvent<HTMLFormElement>) => {
@@ -219,6 +229,7 @@ function CompatibilityListInner({ games: allGames }: { games: Game[] }) {
         q: ((formData.get("q") as string) ?? "").trim(),
         status: filters.status,
         perf: parsePerf(formData.get("perf") as string),
+        device: (formData.get("device") as string) ?? "",
         sort: parseSort(formData.get("sort") as string),
       };
       router.push(`/compatibility${buildQueryString(newFilters)}`);
@@ -346,6 +357,21 @@ function CompatibilityListInner({ games: allGames }: { games: Game[] }) {
               <option value="ok">OK</option>
               <option value="poor">Poor</option>
               <option value="n/a">N/A</option>
+            </select>
+
+            <select
+              name="device"
+              defaultValue={filters.device}
+              key={`device-${filters.device}`}
+              aria-label="Filter by device"
+              className="rounded-lg border border-border bg-bg-surface px-3 py-2.5 text-sm text-text-primary outline-none transition focus:border-accent/40"
+            >
+              <option value="">All Devices</option>
+              {uniqueDevices.map((raw) => (
+                <option key={raw} value={raw}>
+                  {deviceName(raw)}
+                </option>
+              ))}
             </select>
 
             <select
