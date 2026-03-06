@@ -1524,5 +1524,41 @@
       "https://raw.githubusercontent.com/xenios-jp/xenios.jp/main/public/compatibility/screenshots/4D53085B/1772811936606-1.jpg",
       "https://raw.githubusercontent.com/xenios-jp/xenios.jp/main/public/compatibility/screenshots/4D53085B/1772811936606-2.jpg"
     ]
+  },
+  {
+    "slug": "just-cause-2",
+    "title": "Just Cause 2",
+    "titleId": "534307E7",
+    "status": "ingame",
+    "perf": "poor",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 17",
+      "platform": "ios",
+      "osVersion": "26.3",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-06",
+    "notes": "Runs around 10-15fps on iPhone 17. Has severe audio issues. Graphically looks perfect in the first mission at least.",
+    "reports": [
+      {
+        "device": "iPhone 17",
+        "platform": "ios",
+        "osVersion": "26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "date": "2026-03-06",
+        "notes": "Runs around 10-15fps on iPhone 17. Has severe audio issues. Graphically looks perfect in the first mission at least.",
+        "source": "app"
+      }
+    ],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/xenios.jp/main/public/compatibility/screenshots/534307E7/1772813701653-1.jpg"
+    ]
   }
 ]
