@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **40 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **41 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **11** · 🔵 In-Game: **9** · 🟡 Intro: **7** · 🟠 Loads: **5** · 🔴 Doesn't Boot: **8**
+> 🟢 Playable: **11** · 🔵 In-Game: **11** · 🟡 Intro: **6** · 🟠 Loads: **5** · 🔴 Doesn't Boot: **8**
 >
-> 📱 iOS: **37** · 🖥️ macOS: **4**
+> 📱 iOS: **38** · 🖥️ macOS: **4**
 
 ## Legend
 
@@ -34,18 +34,19 @@
 | 🔵 | Bayonetta | `53450813` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 | 2026-03-01 |
 | 🔵 | Call of Duty 4 | `415607E6` | 📱 iOS | In-Game | 👌 OK | iPhone 17 | 2026-03-01 |
 | 🔵 | DB: Raging Blast | `4E4D0803` | 📱 iOS | In-Game | 🐢 Poor | iPad Pro (M2) | 2026-03-02 |
+| 🔵 | Diablo III: RoS | `394F07D4` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 | 2026-03-06 |
 | 🔵 | Gears of War | `4D5307D5` | 🖥️ macOS | In-Game | 👌 OK | MacBook Pro (M4 Pro) | 2026-02-28 |
 | 🔵 | GTA IV | `545407F2` | 🖥️ macOS | In-Game | 🐢 Poor | MacBook Pro M4 Pro | 2026-02-28 |
 | 🔵 | Halo: Reach | `4D53085B` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 | 2026-03-06 |
 | 🔵 | Just Cause 2 | `534307E7` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 | 2026-03-06 |
 | 🔵 | Metro: Last Light | `4B4D07F5` | 🖥️ macOS | In-Game | 👌 OK | MacBook Pro (M4 Pro) | 2026-02-28 |
 | 🔵 | skate. | `45410813` | 📱 iOS | In-Game | 🐢 Poor | iPad Pro (M2) | 2026-03-03 |
+| 🔵 | SONIC UNLEASHED | `53450812` | 📱 iOS | In-Game | 👌 OK | iPhone 17 | 2026-03-06 |
 | 🟡 | Beautiful Katamari | `4E4D07DC` | 📱 iOS | Intro | 👌 OK | iPhone 16 Pro | 2026-03-05 |
 | 🟡 | DEAD RISING | `434307D2` | 📱 iOS | Intro | 👌 OK | iPad (11th gen) | 2026-03-04 |
 | 🟡 | DOOM 3 BFG Edition | `425307F1` | 📱 iOS | Intro | 🚀 Great | iPhone 16 Pro | 2026-03-03 |
 | 🟡 | Halo 3: ODST | `4D530877` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro | 2026-03-03 |
 | 🟡 | Halo Wars | `4D530808` | 📱 iOS | Intro | 👌 OK | iPhone 17 | 2026-03-03 |
-| 🟡 | SONIC UNLEASHED | `53450812` | 📱 iOS | Intro | 🐢 Poor | iPad Pro (M2) | 2026-03-05 |
 | 🟡 | Tales of Vesperia | `4E4D07E9` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro | 2026-03-03 |
 | 🟠 | Jeopardy! | `545108AE` | 📱 iOS | Loads | 🐢 Poor | iPhone 16 Pro | 2026-03-05 |
 | 🟠 | Left 4 Dead | `45410830` | 📱 iOS | Loads | 👌 OK | iPhone 17 Pro Max | 2026-03-02 |
