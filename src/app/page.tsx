@@ -2,7 +2,7 @@ import Link from "next/link";
 import { StateStrip } from "@/components/state-strip";
 import { Pill } from "@/components/pill";
 import { HeroTitle } from "@/components/hero-title";
-import { getAllGames, type GameStatus } from "@/lib/compatibility";
+import { getAllGames, deviceName, type GameStatus } from "@/lib/compatibility";
 
 const STATUS_LABELS: Record<GameStatus, string> = {
   playable: "Playable",
@@ -179,7 +179,7 @@ export default function Home() {
                           {STATUS_LABELS[game.status]}
                         </Pill>
                       </td>
-                      <td className="hidden py-3 text-text-secondary sm:table-cell">{game.lastReport.device}</td>
+                      <td className="hidden py-3 text-text-secondary sm:table-cell">{deviceName(game.lastReport.device)}</td>
                     </tr>
                   ))}
                 </tbody>
