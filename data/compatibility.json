@@ -4,22 +4,33 @@
     "title": "Halo 3",
     "titleId": "4D5307E6",
     "status": "playable",
-    "perf": "poor",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "ios",
       "macos"
     ],
     "lastReport": {
-      "device": "iPhone17,1",
+      "device": "iPhone 15 Pro",
       "platform": "ios",
-      "osVersion": "18.5",
+      "osVersion": "18.0",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-04",
-    "notes": "Low FPS, but can start and play campaign, important note, if you die you can get stuck in a cutscene loop.",
+    "updatedAt": "2026-03-06",
+    "notes": "test",
     "reports": [
+      {
+        "device": "iPhone 15 Pro",
+        "platform": "ios",
+        "osVersion": "18.0",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "date": "2026-03-06",
+        "notes": "test",
+        "source": "app"
+      },
       {
         "device": "iPhone17,1",
         "platform": "ios",
