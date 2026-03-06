@@ -1442,5 +1442,39 @@
       }
     ],
     "screenshots": []
+  },
+  {
+    "slug": "deadly-premonition",
+    "title": "DEADLY PREMONITION",
+    "titleId": "494F07D4",
+    "status": "playable",
+    "perf": "ok",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPad15,7",
+      "platform": "ios",
+      "osVersion": "26.3",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-06",
+    "notes": "When the game finishes launching past the Developer credits and the intro movie starts the visuals of the movie have a Matrix-effect, when you hear the audio start Press Start or A to get to the main start menu. The audio effects and music in the game play well. Some in game graphics have a rainbow psychedelic coloration effect over them, it seems to occur when a transparent filter is applied over the in game characters and objects, such as looking through a window or when the in game lighting is in day time. The Game plays slower than the original speed but is still very playable.",
+    "reports": [
+      {
+        "device": "iPad15,7",
+        "platform": "ios",
+        "osVersion": "26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "date": "2026-03-06",
+        "notes": "When the game finishes launching past the Developer credits and the intro movie starts the visuals of the movie have a Matrix-effect, when you hear the audio start Press Start or A to get to the main start menu. The audio effects and music in the game play well. Some in game graphics have a rainbow psychedelic coloration effect over them, it seems to occur when a transparent filter is applied over the in game characters and objects, such as looking through a window or when the in game lighting is in day time. The Game plays slower than the original speed but is still very playable.",
+        "source": "app"
+      }
+    ],
+    "screenshots": []
   }
 ]
