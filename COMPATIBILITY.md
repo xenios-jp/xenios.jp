@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **41 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **42 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **11** · 🔵 In-Game: **11** · 🟡 Intro: **6** · 🟠 Loads: **5** · 🔴 Doesn't Boot: **8**
+> 🟢 Playable: **11** · 🔵 In-Game: **12** · 🟡 Intro: **6** · 🟠 Loads: **5** · 🔴 Doesn't Boot: **8**
 >
-> 📱 iOS: **38** · 🖥️ macOS: **4**
+> 📱 iOS: **39** · 🖥️ macOS: **4**
 
 ## Legend
 
@@ -37,6 +37,7 @@
 | 🔵 | Diablo III: RoS | `394F07D4` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 | 2026-03-06 |
 | 🔵 | Gears of War | `4D5307D5` | 🖥️ macOS | In-Game | 👌 OK | MacBook Pro (M4 Pro) | 2026-02-28 |
 | 🔵 | GTA IV | `545407F2` | 🖥️ macOS | In-Game | 🐢 Poor | MacBook Pro M4 Pro | 2026-02-28 |
+| 🔵 | Halo: CE Anniversary | `4D5309B1` | 📱 iOS | In-Game | 🚀 Great | iPhone 17 | 2026-03-06 |
 | 🔵 | Halo: Reach | `4D53085B` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 | 2026-03-06 |
 | 🔵 | Just Cause 2 | `534307E7` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 | 2026-03-06 |
 | 🔵 | Metro: Last Light | `4B4D07F5` | 🖥️ macOS | In-Game | 👌 OK | MacBook Pro (M4 Pro) | 2026-02-28 |
