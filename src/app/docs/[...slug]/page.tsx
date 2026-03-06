@@ -26,6 +26,22 @@ const iosDocs: Record<string, DocEntry> = {
       "Install XeniOS and run your first Xbox 360 game on iOS.",
     content: (
       <>
+        <div className="mb-6">
+          <Callout type="warning">
+            XeniOS requires JIT to run games. This is normal on iOS: installing
+            the app is not enough by itself. Enable JIT with{" "}
+            <a href="https://github.com/StephenDev0/StikDebug" target="_blank" rel="noopener noreferrer" className="text-accent underline underline-offset-2 hover:text-accent-hover font-semibold">StikDebug</a>. On newer
+            devices (especially iPhone 14+ and modern iPads), also install{" "}
+            <a href="https://apps.apple.com/us/app/localdevvpn/id6755608044" target="_blank" rel="noopener noreferrer" className="text-accent underline underline-offset-2 hover:text-accent-hover font-semibold">LocalDevVPN</a>. Quick
+            device guide: <strong className="text-text-primary">iPhone 14+</strong>,{" "}
+            <strong className="text-text-primary">iPad mini (6th gen)+</strong>,{" "}
+            <strong className="text-text-primary">iPad (10th gen)+</strong>,{" "}
+            <strong className="text-text-primary">iPad Air (5th gen/M1)+</strong>, and{" "}
+            <strong className="text-text-primary">iPad Pro (M1)+</strong>. If
+            unsure, install LocalDevVPN anyway.
+          </Callout>
+        </div>
+
         <h2>Prerequisites</h2>
         <p className="mt-3 text-[15px] text-text-secondary leading-relaxed">
           You will need an iPhone or iPad running <strong className="text-text-primary">iOS 17.0</strong> or
@@ -44,12 +60,13 @@ const iosDocs: Record<string, DocEntry> = {
           >
             downloads page
           </Link>
-          . Sideload it using AltStore, SideStore, or TrollStore:
+          . Sideload it using SideStore or TrollStore:
         </p>
         <ul className="mt-3 space-y-1.5 text-[15px] text-text-secondary leading-relaxed list-disc pl-5">
           <li>
-            <strong className="text-text-primary">AltStore / SideStore</strong> —
-            Open the IPA through the app and follow the signing prompts.
+            <strong className="text-text-primary"><a href="https://sidestore.io/" target="_blank" rel="noopener noreferrer" className="text-accent underline underline-offset-2 hover:text-accent-hover">SideStore</a></strong> —
+            Add the XeniOS source directly in SideStore, or download the IPA
+            and open it with SideStore to install.
           </li>
           <li>
             <strong className="text-text-primary">TrollStore</strong> — Tap
@@ -90,23 +107,6 @@ const iosDocs: Record<string, DocEntry> = {
           binaries are cached to disk (<C>store_shaders</C> is enabled
           by default), so subsequent launches will be smoother.
         </p>
-        <div className="mt-4">
-          <Callout type="warning">
-            XeniOS requires JIT to run games. This is normal on iOS: installing
-            the app is not enough by itself. Enable JIT with{" "}
-            <strong className="text-text-primary">StikDebug</strong>,{" "}
-            <strong className="text-text-primary">SideJITServer</strong>, or{" "}
-            <strong className="text-text-primary">AltJIT</strong>. On newer
-            devices (especially iPhone 14+ and modern iPads), also install{" "}
-            <strong className="text-text-primary">LocalDevVPN</strong>. Quick
-            device guide: <strong className="text-text-primary">iPhone 14+</strong>,{" "}
-            <strong className="text-text-primary">iPad mini (6th gen)+</strong>,{" "}
-            <strong className="text-text-primary">iPad (10th gen)+</strong>,{" "}
-            <strong className="text-text-primary">iPad Air (5th gen/M1)+</strong>, and{" "}
-            <strong className="text-text-primary">iPad Pro (M1)+</strong>. If
-            unsure, install LocalDevVPN anyway.
-          </Callout>
-        </div>
       </>
     ),
   },
@@ -251,8 +251,8 @@ const iosDocs: Record<string, DocEntry> = {
           <li>Make sure your device is running iOS 17.0 or later.</li>
           <li>Re-sign the IPA — expired signing profiles are the most common cause.</li>
           <li>
-            Ensure a JIT helper is active (StikDebug, SideJITServer, or
-            AltJIT). On newer devices, also run LocalDevVPN (iPhone 14+ and modern
+            Ensure a JIT helper is active (StikDebug). On newer devices, also
+            run LocalDevVPN (iPhone 14+ and modern
             iPads such as iPad mini 6+, iPad 10+, iPad Air 5+/M1+, and iPad
             Pro M1+). If unsure, install it anyway.
           </li>
@@ -440,7 +440,7 @@ cd XeniOS
             ARM64 JIT via Oaknut. Three-phase pipeline: PPC &rarr; HIR
             (Hardware-Independent IR) &rarr; native ARM64. On iOS, uses
             dual-mapped JIT memory with W^X enforcement. Requires a JIT helper
-            (StikDebug, SideJITServer, or AltJIT); on newer devices, LocalDevVPN is
+            (StikDebug); on newer devices, LocalDevVPN is
             also required (see Getting Started for model guidance).
           </li>
           <li>

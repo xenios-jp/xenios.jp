@@ -8,6 +8,10 @@ permissions:
   contents: write
   issues: write
 
+concurrency:
+  group: compat-data
+  cancel-in-progress: false
+
 jobs:
   process-report:
     # Only run on issues created via the compatibility report template
@@ -202,7 +206,6 @@ jobs:
                 lastReport: { device, platform, osVersion, arch, gpuBackend },
                 updatedAt: today,
                 notes,
-                recommendedSettings: { resolution: '720p', framerate: '30fps' },
                 reports: [newReport],
                 screenshots: [],
               });
@@ -363,10 +366,10 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          git pull --rebase
           git add data/compatibility.json
           if ! git diff --staged --quiet; then
             git commit -m "compat: update from issue #${{ github.event.issue.number }} [skip ci]"
-            git pull --rebase
             git push
           else
             echo "No changes to commit"

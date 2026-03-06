@@ -67,8 +67,7 @@ export default function DownloadPage() {
             <ol className="mt-3 space-y-2 text-[15px] leading-relaxed text-text-primary list-decimal pl-5">
               <li>Install XeniOS using one of the methods below.</li>
               <li>
-                Enable JIT with <strong>StikDebug</strong>,{" "}
-                <strong>SideJITServer</strong>, or <strong>AltJIT</strong>.
+                Enable JIT with <strong>StikDebug</strong>.
               </li>
               <li>
                 On newer devices (especially <strong>iPhone 14+</strong> and
@@ -120,12 +119,12 @@ export default function DownloadPage() {
               </span>
             </div>
             <h2 className="text-3xl md:text-4xl font-bold text-text-primary">
-              AltStore / SideStore
+              SideStore
             </h2>
             <p className="mt-3 text-text-secondary text-[15px] leading-relaxed max-w-2xl">
-              AltStore and SideStore provide the simplest sideloading experience
-              on iOS. Apps are automatically re-signed before they expire, so
-              XeniOS stays installed without hassle.
+              SideStore provides the simplest sideloading experience on iOS.
+              Apps are automatically re-signed before they expire, so XeniOS
+              stays installed without hassle.
             </p>
             <ol className="mt-8 space-y-3 text-[15px] leading-relaxed text-text-primary">
               <li className="flex gap-3">
@@ -134,15 +133,6 @@ export default function DownloadPage() {
                 </span>
                 <span>
                   Install{" "}
-                  <a
-                    href="https://altstore.io"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-accent underline decoration-accent/30 underline-offset-2 hover:decoration-accent"
-                  >
-                    AltStore
-                  </a>{" "}
-                  or{" "}
                   <a
                     href="https://sidestore.io"
                     target="_blank"
@@ -159,14 +149,18 @@ export default function DownloadPage() {
                   2
                 </span>
                 <span>
-                  <code className="font-mono text-xs bg-bg-surface-2 px-1.5 py-0.5 rounded">.ipa</code> release is coming soon.
+                  Add the XeniOS source in SideStore, or download the{" "}
+                  <code className="font-mono text-xs bg-bg-surface-2 px-1.5 py-0.5 rounded">.ipa</code> from{" "}
+                  <a
+                    href="https://github.com/xenios-jp/XeniOS/releases"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-accent underline decoration-accent/30 underline-offset-2 hover:decoration-accent"
+                  >
+                    GitHub Releases
+                  </a>{" "}
+                  and open it with SideStore to install.
                 </span>
-              </li>
-              <li className="flex gap-3">
-                <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-accent text-accent-fg text-xs font-bold">
-                  3
-                </span>
-                <span>Open the .ipa file with AltStore/SideStore to install.</span>
               </li>
               <li className="flex gap-3">
                 <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-accent text-accent-fg text-xs font-bold">

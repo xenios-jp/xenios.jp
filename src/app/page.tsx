@@ -91,7 +91,7 @@ export default function Home() {
                 <h3 className="text-text-primary font-semibold text-xl">Setup Guide</h3>
               </div>
               <p className="mt-3 text-text-secondary text-base leading-relaxed">
-                Install the IPA with AltStore/SideStore/TrollStore, then enable
+                Install the IPA with SideStore/TrollStore, then enable
                 JIT before launching games.
               </p>
               <span className="mt-3 inline-block text-base text-accent group-hover:text-accent-hover transition-colors">

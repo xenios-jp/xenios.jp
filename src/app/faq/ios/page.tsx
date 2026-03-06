@@ -84,9 +84,9 @@ const installation = [
         <p>There are three supported installation methods:</p>
         <ul className="list-disc pl-5 space-y-1">
           <li>
-            <strong className="text-text-primary">AltStore</strong> &mdash; sideload
-            the IPA via AltStore on macOS or Windows. Requires refreshing every
-            7 days on free Apple IDs.
+            <strong className="text-text-primary">SideStore</strong> &mdash; add
+            the XeniOS source directly, or sideload the IPA manually.
+            Requires refreshing every 7 days on free Apple IDs.
           </li>
           <li>
             <strong className="text-text-primary">TrollStore</strong> &mdash;
@@ -122,7 +122,7 @@ const installation = [
       <p>
         JIT is the permission the emulator needs to execute translated game
         code. Without JIT, XeniOS can open, but games won&apos;t start.
-        Use StikDebug, SideJITServer, or AltJIT to enable JIT. On newer devices, also
+        Use StikDebug to enable JIT. On newer devices, also
         run LocalDevVPN (especially on iPhone 14+ and modern iPads like iPad
         mini 6+, iPad 10+, iPad Air 5+/M1+, and iPad Pro M1+). If unsure,
         install LocalDevVPN anyway.
@@ -145,19 +145,21 @@ const installation = [
     content: (
       <div className="space-y-2">
         <p>
-          You must dump games from Xbox 360 discs that you legally own.
-          XeniOS does not include, provide, or link to any game files.
-          Downloading games you do not own is piracy and is illegal.
+          You must dump games from Xbox 360 discs or digital purchases
+          that you legally own. XeniOS does not include, provide, or link to
+          any game files. Downloading games you do not own is piracy and is
+          illegal. See <em>&ldquo;How do I dump my own games?&rdquo;</em>{" "}
+          below for step-by-step instructions.
         </p>
         <p>
-          Once dumped, transfer the files to the XeniOS documents directory
-          via the Files app, AirDrop, or USB file sharing through Finder.
-          Most disc dumps are in GOD (Games on Demand) format — the standard
-          Xbox 360 backup format. Also supported:{" "}
+          Transfer dumped files to the XeniOS documents directory via the
+          Files app, AirDrop, or USB file sharing through Finder. Supported
+          formats:{" "}
           <code className="text-text-primary bg-bg-surface-2 px-1 rounded">.iso</code> disc images,{" "}
           <code className="text-text-primary bg-bg-surface-2 px-1 rounded">.xex</code> executables,{" "}
           <code className="text-text-primary bg-bg-surface-2 px-1 rounded">.zar</code> archives,{" "}
-          and STFS content packages (XBLA titles).
+          GOD (Games on Demand) containers, and STFS content packages (XBLA
+          titles).
         </p>
       </div>
     ),
@@ -179,8 +181,16 @@ const performance = [
     title: "What frame rates can I expect?",
     content: (
       <p>
-        Performance is currently unconfirmed and can vary significantly by
-        title, scene, and device. There is no validated FPS matrix yet.
+        Performance varies significantly by game, scene, and device. The{" "}
+        <a
+          href="/compatibility"
+          className="text-accent hover:text-accent-hover transition-colors underline underline-offset-2"
+        >
+          compatibility list
+        </a>{" "}
+        includes a performance rating for each tested game: Great (near full
+        speed), OK (playable with drops), or Poor (significant issues).
+        M-series iPads and newer iPhones generally perform best.
       </p>
     ),
   },
@@ -253,8 +263,16 @@ const games = [
     title: "How do I know if a game is compatible?",
     content: (
       <p>
-        Compatibility is not officially documented yet. Treat game status as
-        unverified for now and test on your own device with your own dumps.
+        Check the{" "}
+        <a
+          href="/compatibility"
+          className="text-accent hover:text-accent-hover transition-colors underline underline-offset-2"
+        >
+          compatibility list
+        </a>{" "}
+        for community-submitted reports. Each game page shows its current
+        status, performance tier, and tested devices. Results vary by device
+        and build — if your game isn&apos;t listed, try it and submit a report.
       </p>
     ),
   },
@@ -263,8 +281,9 @@ const games = [
     content: (
       <div className="space-y-2">
         <p>
-          If statuses are shown on this site, treat them as provisional
-          community labels rather than validated compatibility guarantees:
+          Each game on the compatibility list has a status based on community
+          reports. These reflect the best result reported so far — your
+          experience may differ depending on device, OS version, and build:
         </p>
         <ul className="list-disc pl-5 space-y-1">
           <li>
@@ -320,6 +339,67 @@ const games = [
         region-lock setting in the iOS UI, but title behavior can still vary by
         game and dump.
       </p>
+    ),
+  },
+  {
+    title: "How do I dump my own games?",
+    content: (
+      <div className="space-y-2">
+        <p>
+          You need an Xbox 360 console and the original game disc or a
+          digital purchase linked to your account. No modding is required —
+          a stock, unmodified console works fine.
+        </p>
+        <ul className="list-disc pl-5 space-y-1">
+          <li>
+            Install the game to the console&apos;s hard drive (disc games:
+            install from disc; digital games: download from your purchase
+            history).
+          </li>
+          <li>
+            Copy the installed game to a FAT32-formatted USB drive via{" "}
+            <strong className="text-text-primary">
+              Settings &rarr; System &rarr; Storage
+            </strong>
+            .
+          </li>
+          <li>
+            Transfer the files to your device via the Files app, AirDrop, or
+            USB file sharing.
+          </li>
+        </ul>
+      </div>
+    ),
+  },
+  {
+    title: "Do I need a modded console to dump games?",
+    content: (
+      <p>
+        No. You can dump games from a stock, unmodified Xbox 360 console.
+        No homebrew, JTAG, or RGH modifications are needed.
+      </p>
+    ),
+  },
+  {
+    title: "How do I install Title Updates (TUs)?",
+    content: (
+      <div className="space-y-2">
+        <p>
+          Title Updates patch games with bug fixes and additional content.
+          To install a TU, place the update file in the correct content
+          directory structure:
+        </p>
+        <p>
+          <code className="text-text-primary bg-bg-surface-2 px-1 rounded">
+            content/0000000000000000/[Title ID]/000B0000/[update file]
+          </code>
+        </p>
+        <p>
+          The Title ID is the 8-character hex identifier for the game (visible
+          on each game&apos;s compatibility page). XeniOS will automatically
+          load the update when launching the game.
+        </p>
+      </div>
     ),
   },
 ];
@@ -397,9 +477,9 @@ const legal = [
     title: "Where can I download games?",
     content: (
       <p>
-        We do not provide, host, or link to game downloads. You must dump games
-        from discs or digital licenses that you legally own. Piracy is not
-        supported or condoned by the XeniOS project.
+        We do not provide, host, or link to game downloads. You must dump
+        games from discs or digital purchases that you legally own. Piracy
+        is not supported or condoned by the XeniOS project.
       </p>
     ),
   },
