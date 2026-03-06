@@ -1609,5 +1609,43 @@
     "screenshots": [
       "https://raw.githubusercontent.com/xenios-jp/xenios.jp/main/public/compatibility/screenshots/394F07D4/1772815326075-1.jpg"
     ]
+  },
+  {
+    "slug": "halo-ce-anniversary",
+    "title": "Halo: CE Anniversary",
+    "titleId": "4D5309B1",
+    "status": "ingame",
+    "perf": "great",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 17",
+      "platform": "ios",
+      "osVersion": "26.3",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-06",
+    "notes": "If loading into game with classic graphics, runs at a steady 30fps. In anniversary mode there are severe graphical issues. When switching back from anniversary to classic mid game this breaks rendering in classic. \n\nAdditionally, the game shows audio issues in the warthog and some covenant vehicles.",
+    "reports": [
+      {
+        "device": "iPhone 17",
+        "platform": "ios",
+        "osVersion": "26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "date": "2026-03-06",
+        "notes": "If loading into game with classic graphics, runs at a steady 30fps. In anniversary mode there are severe graphical issues. When switching back from anniversary to classic mid game this breaks rendering in classic. \n\nAdditionally, the game shows audio issues in the warthog and some covenant vehicles.",
+        "source": "app"
+      }
+    ],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/xenios.jp/main/public/compatibility/screenshots/4D5309B1/1772815889495-1.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/xenios.jp/main/public/compatibility/screenshots/4D5309B1/1772815889495-2.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/xenios.jp/main/public/compatibility/screenshots/4D5309B1/1772815889495-3.jpg"
+    ]
   }
 ]
