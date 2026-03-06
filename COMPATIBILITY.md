@@ -20,43 +20,43 @@
 
 | | Title | Title ID | Platform | Status | Perf | Last Device | Updated |
 |-|-------|----------|----------|--------|------|-------------|---------|
-| 🟢 | BioShock | `545407D8` | 📱 iOS | Playable | 👌 OK | iPhone17,1 | 2026-03-02 |
+| 🟢 | BioShock | `545407D8` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro | 2026-03-02 |
 | 🟢 | Condemned 2: Bloodshot | `534507EE` | 📱 iOS | Playable | 👌 OK | iPhone 17 Pro Max | 2026-03-03 |
 | 🟢 | DB: Raging Blast 2 | `4E4D0826` | 📱 iOS | Playable | 🐢 Poor | iPad Pro (M2) | 2026-03-03 |
-| 🟢 | DEAD OR ALIVE 4 | `544307D1` | 📱 iOS | Playable | 🚀 Great | iPhone17,1 | 2026-03-05 |
-| 🟢 | Dead Space™ | `45410857` | 📱 iOS | Playable | 👌 OK | iPhone17,1 | 2026-03-03 |
-| 🟢 | DEADLY PREMONITION | `494F07D4` | 📱 iOS | Playable | 👌 OK | iPad15,7 | 2026-03-06 |
+| 🟢 | DEAD OR ALIVE 4 | `544307D1` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro | 2026-03-05 |
+| 🟢 | Dead Space™ | `45410857` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro | 2026-03-03 |
+| 🟢 | DEADLY PREMONITION | `494F07D4` | 📱 iOS | Playable | 👌 OK | iPad (11th gen) | 2026-03-06 |
 | 🟢 | FINAL FANTASY XIII | `535107E4` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-03 |
 | 🟢 | Guacamelee | `00000000` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-03 |
 | 🟢 | Halo 3 | `4D5307E6` | 📱 iOS, 🖥️ macOS | Playable | 🚀 Great | iPhone 15 Pro | 2026-03-06 |
-| 🟢 | Lollipop Chainsaw | `565707D0` | 📱 iOS | Playable | 🚀 Great | iPhone18,2 | 2026-03-03 |
+| 🟢 | Lollipop Chainsaw | `565707D0` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-03 |
 | 🟢 | STEINS;GATE 比翼恋理のだーりん | `465607E8` | 📱 iOS | Playable | 🚀 Great | iPhone 17 | 2026-03-02 |
 | 🔵 | Bayonetta | `53450813` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 | 2026-03-01 |
-| 🔵 | Call of Duty 4 | `415607E6` | 📱 iOS | In-Game | 👌 OK | iPhone18,3 | 2026-03-01 |
+| 🔵 | Call of Duty 4 | `415607E6` | 📱 iOS | In-Game | 👌 OK | iPhone 17 | 2026-03-01 |
 | 🔵 | DB: Raging Blast | `4E4D0803` | 📱 iOS | In-Game | 🐢 Poor | iPad Pro (M2) | 2026-03-02 |
-| 🔵 | Gears of War | `4D5307D5` | 🖥️ macOS | In-Game | 👌 OK | MacBook Pro M4 Pro/Max | 2026-02-28 |
+| 🔵 | Gears of War | `4D5307D5` | 🖥️ macOS | In-Game | 👌 OK | MacBook Pro (M4 Pro) | 2026-02-28 |
 | 🔵 | GTA IV | `545407F2` | 🖥️ macOS | In-Game | 🐢 Poor | MacBook Pro M4 Pro | 2026-02-28 |
 | 🔵 | Halo: Reach | `4D53085B` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 | 2026-03-06 |
-| 🔵 | Metro: Last Light | `4B4D07F5` | 🖥️ macOS | In-Game | 👌 OK | MacBook Pro M4 Pro/Max | 2026-02-28 |
+| 🔵 | Metro: Last Light | `4B4D07F5` | 🖥️ macOS | In-Game | 👌 OK | MacBook Pro (M4 Pro) | 2026-02-28 |
 | 🔵 | skate. | `45410813` | 📱 iOS | In-Game | 🐢 Poor | iPad Pro (M2) | 2026-03-03 |
-| 🟡 | Beautiful Katamari | `4E4D07DC` | 📱 iOS | Intro | 👌 OK | iPhone17,1 | 2026-03-05 |
-| 🟡 | DEAD RISING | `434307D2` | 📱 iOS | Intro | 👌 OK | iPad15,7 | 2026-03-04 |
-| 🟡 | DOOM 3 BFG Edition | `425307F1` | 📱 iOS | Intro | 🚀 Great | iPhone17,1 | 2026-03-03 |
-| 🟡 | Halo 3: ODST | `4D530877` | 📱 iOS | Intro | 🐢 Poor | iPhone17,1 | 2026-03-03 |
+| 🟡 | Beautiful Katamari | `4E4D07DC` | 📱 iOS | Intro | 👌 OK | iPhone 16 Pro | 2026-03-05 |
+| 🟡 | DEAD RISING | `434307D2` | 📱 iOS | Intro | 👌 OK | iPad (11th gen) | 2026-03-04 |
+| 🟡 | DOOM 3 BFG Edition | `425307F1` | 📱 iOS | Intro | 🚀 Great | iPhone 16 Pro | 2026-03-03 |
+| 🟡 | Halo 3: ODST | `4D530877` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro | 2026-03-03 |
 | 🟡 | Halo Wars | `4D530808` | 📱 iOS | Intro | 👌 OK | iPhone 17 | 2026-03-03 |
 | 🟡 | SONIC UNLEASHED | `53450812` | 📱 iOS | Intro | 🐢 Poor | iPad Pro (M2) | 2026-03-05 |
-| 🟡 | Tales of Vesperia | `4E4D07E9` | 📱 iOS | Intro | 🐢 Poor | iPhone17,1 | 2026-03-03 |
-| 🟠 | Jeopardy! | `545108AE` | 📱 iOS | Loads | 🐢 Poor | iPhone17,1 | 2026-03-05 |
-| 🟠 | Left 4 Dead | `45410830` | 📱 iOS | Loads | 👌 OK | iPhone18,2 | 2026-03-02 |
-| 🟠 | Lost Odyssey | `4D5307FA` | 📱 iOS | Loads | 🐢 Poor | iPhone17,1 | 2026-03-03 |
+| 🟡 | Tales of Vesperia | `4E4D07E9` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro | 2026-03-03 |
+| 🟠 | Jeopardy! | `545108AE` | 📱 iOS | Loads | 🐢 Poor | iPhone 16 Pro | 2026-03-05 |
+| 🟠 | Left 4 Dead | `45410830` | 📱 iOS | Loads | 👌 OK | iPhone 17 Pro Max | 2026-03-02 |
+| 🟠 | Lost Odyssey | `4D5307FA` | 📱 iOS | Loads | 🐢 Poor | iPhone 16 Pro | 2026-03-03 |
 | 🟠 | Skate 3 | `454108E6` | 📱 iOS | Loads | 🐢 Poor | iPad Pro (M2) | 2026-03-02 |
-| 🟠 | Sonic Transformed | `5345085D` | 📱 iOS | Loads | 🐢 Poor | iPhone17,1 | 2026-03-05 |
+| 🟠 | Sonic Transformed | `5345085D` | 📱 iOS | Loads | 🐢 Poor | iPhone 16 Pro | 2026-03-05 |
 | 🔴 | FIGHT NIGHT CHAMPION | `45410915` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Pro (M2) | 2026-03-03 |
 | 🔴 | Modern Warfare® 2 | `41560817` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Pro (M2) | 2026-03-02 |
-| 🔴 | RESIDENT EVIL 5 | `434307D4` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone17,1 | 2026-03-03 |
-| 🔴 | SONIC GENERATIONS | `53450848` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone17,1 | 2026-03-05 |
-| 🔴 | Star Ocean: TLH | `535107DD` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone17,1 | 2026-03-03 |
-| 🔴 | TEKKEN 6 | `4E4D07FC` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone17,1 | 2026-03-03 |
+| 🔴 | RESIDENT EVIL 5 | `434307D4` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-03 |
+| 🔴 | SONIC GENERATIONS | `53450848` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-05 |
+| 🔴 | Star Ocean: TLH | `535107DD` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-03 |
+| 🔴 | TEKKEN 6 | `4E4D07FC` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-03 |
 | 🔴 | The Outfit | `545107D2` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 15 Pro Max | 2026-03-05 |
 | 🔴 | Title 4D5307ED | `4D5307ED` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 15 Pro Max | 2026-03-05 |
 
