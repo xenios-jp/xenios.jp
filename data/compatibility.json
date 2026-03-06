@@ -32,6 +32,17 @@
         "source": "app"
       },
       {
+        "device": "iPhone 15 Pro",
+        "platform": "ios",
+        "osVersion": "18.0",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "date": "2026-03-06",
+        "notes": "test",
+        "source": "app"
+      },
+      {
         "device": "iPhone17,1",
         "platform": "ios",
         "osVersion": "18.5",
