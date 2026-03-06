@@ -89,10 +89,14 @@ jobs:
               .map(([p, count]) => `${platformLabel[p]}: **${count}**`)
               .join(' · ');
 
+            // Device name mapping (shared JSON)
+            const deviceNames = JSON.parse(fs.readFileSync('data/device-names.json', 'utf8'));
+            const dn = (raw) => deviceNames[raw] || raw;
+
             // Table rows
             const rows = sorted.map(g => {
               const platforms = (g.platforms || []).map(p => platformLabel[p] || p).join(', ');
-              return `| ${statusEmoji[g.status]} | ${g.title} | \`${g.titleId}\` | ${platforms} | ${statusLabel[g.status]} | ${perfLabel[g.perf]} | ${g.lastReport.device} | ${g.updatedAt} |`;
+              return `| ${statusEmoji[g.status]} | ${g.title} | \`${g.titleId}\` | ${platforms} | ${statusLabel[g.status]} | ${perfLabel[g.perf]} | ${dn(g.lastReport.device)} | ${g.updatedAt} |`;
             }).join('\n');
 
             const md = [

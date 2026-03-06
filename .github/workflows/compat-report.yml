@@ -92,6 +92,10 @@ jobs:
             const rawPerf = extractField('Performance');
             const notes = extractField('Notes');
 
+            // ── Device name mapping (shared JSON) ─────────────────
+            const deviceNames = JSON.parse(fs.readFileSync('data/device-names.json', 'utf8'));
+            const displayDevice = deviceNames[device] || device;
+
             // ── Normalize values ─────────────────────────────────
             function normalizeDropdown(raw, map) {
               const lower = raw.toLowerCase();
@@ -255,7 +259,7 @@ jobs:
                 `| **Status** | ${statusEmoji[status]} ${status} |`,
                 `| **Performance** | ${perf} |`,
                 `| **Platform** | ${platformDisplay} |`,
-                `| **Device** | ${device} |`,
+                `| **Device** | ${displayDevice} |`,
                 `| **OS Version** | ${platformDisplay} ${osVersion} |`,
                 `| **Architecture** | ${arch} |`,
                 `| **GPU Backend** | ${gpuBackend.toUpperCase()} |`,
@@ -340,7 +344,7 @@ jobs:
                   { name: 'Performance', value: perfLabels[perf], inline: true },
                   { name: 'Title ID', value: `\`${titleId}\``, inline: true },
                   { name: 'Platform', value: platformLabels[platform], inline: true },
-                  { name: 'Device', value: device, inline: true },
+                  { name: 'Device', value: displayDevice, inline: true },
                   { name: 'OS Version', value: `${platformDisplay} ${osVersion}`, inline: true },
                   { name: 'Architecture', value: arch.toUpperCase(), inline: true },
                   { name: 'GPU Backend', value: gpuBackend.toUpperCase(), inline: true },
