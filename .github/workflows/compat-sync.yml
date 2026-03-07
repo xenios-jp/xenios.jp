@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - "data/compatibility.json"
+      - "data/discussions.json"
     branches:
       - main
 
@@ -133,11 +134,14 @@ jobs:
             fs.writeFileSync('COMPATIBILITY.md', md);
             console.log(`Generated COMPATIBILITY.md with ${total} games`);
 
+      - name: Sync public compatibility data
+        run: node scripts/sync-public-compat-data.mjs
+
       - name: Commit COMPATIBILITY.md
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add COMPATIBILITY.md
+          git add COMPATIBILITY.md public/compatibility/data.json public/compatibility/discussions.json
           if ! git diff --staged --quiet; then
             git commit -m "docs: update COMPATIBILITY.md [skip ci]"
             git push

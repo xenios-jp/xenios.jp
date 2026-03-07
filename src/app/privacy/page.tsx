@@ -60,9 +60,9 @@ export default function PrivacyPage() {
             Third-party services
           </h2>
           <p className="mt-3 text-[15px] leading-relaxed text-text-secondary">
-            This website links to external services such as GitHub and Discord and
-            fetches public repository metadata from GitHub APIs. Those services
-            are governed by their own privacy policies.
+            This website links to external services such as GitHub and Discord
+            and may display public repository metadata derived from those
+            services. Those services are governed by their own privacy policies.
           </p>
           <ul className="mt-4 space-y-2 text-[15px] leading-relaxed text-text-secondary">
             <li>

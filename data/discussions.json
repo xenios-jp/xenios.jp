@@ -1,0 +1,1408 @@
+{
+  "generatedAt": "2026-03-07T04:13:06.861Z",
+  "source": {
+    "owner": "xenios-jp",
+    "repo": "xenios.jp",
+    "label": "compat-report",
+    "state": "open"
+  },
+  "discussions": {
+    "41560817": {
+      "titleId": "41560817",
+      "issueNumber": 15,
+      "issueUrl": "https://github.com/xenios-jp/xenios.jp/issues/15",
+      "updatedAt": "2026-03-02",
+      "entries": [
+        {
+          "id": "issue-15",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/xenios.jp/issues/15",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-02",
+          "createdAtMs": 1772488524000,
+          "issueNumber": 15,
+          "excerpt": "Games not launching for me",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPad Pro (M2)",
+            "platform": "iOS",
+            "osVersion": "iOS 18.3.1",
+            "gpuBackend": "MSL"
+          }
+        }
+      ]
+    },
+    "45410813": {
+      "titleId": "45410813",
+      "issueNumber": 29,
+      "issueUrl": "https://github.com/xenios-jp/xenios.jp/issues/29",
+      "updatedAt": "2026-03-03",
+      "entries": [
+        {
+          "id": "issue-29",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/xenios.jp/issues/29",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-03",
+          "createdAtMs": 1772580905000,
+          "issueNumber": 29,
+          "excerpt": "After restarting the game several times the game finally launched and put me in the menu. I couldn’t get into a game tho so I couldn’t actually skate just the menu worked. And also most of the time the game was stuck on a endless loading screen when trying to get to the game menu",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "poor",
+            "device": "iPad Pro (M2)",
+            "platform": "iOS",
+            "osVersion": "iOS 18.3.1",
+            "gpuBackend": "MSL"
+          }
+        }
+      ]
+    },
+    "45410830": {
+      "titleId": "45410830",
+      "issueNumber": 9,
+      "issueUrl": "https://github.com/xenios-jp/xenios.jp/issues/9",
+      "updatedAt": "2026-03-02",
+      "entries": [
+        {
+          "id": "issue-9",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/xenios.jp/issues/9",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-02",
+          "createdAtMs": 1772435551000,
+          "issueNumber": 9,
+          "excerpt": "Get stuck on the left for dead screen before the menu.",
+          "images": [],
+          "meta": {
+            "status": "loads",
+            "perf": "ok",
+            "device": "iPhone18,2",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL"
+          }
+        }
+      ]
+    },
+    "45410857": {
+      "titleId": "45410857",
+      "issueNumber": 11,
+      "issueUrl": "https://github.com/xenios-jp/xenios.jp/issues/11",
+      "updatedAt": "2026-03-03",
+      "entries": [
+        {
+          "id": "comment-3988997236",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/xenios.jp/issues/11#issuecomment-3988997236",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-03",
+          "createdAtMs": 1772520048000,
+          "issueNumber": 11,
+          "excerpt": "Runs and can play the campaign, a few minor graphical glitches and drops in FPS",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone17,1",
+            "platform": "iOS",
+            "osVersion": "iOS 18.5",
+            "gpuBackend": "MSL"
+          }
+        },
+        {
+          "id": "comment-3987702156",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/xenios.jp/issues/11#issuecomment-3987702156",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-02",
+          "createdAtMs": 1772495422000,
+          "issueNumber": 11,
+          "excerpt": "Relatively playable on iPhone 17, 15-25 fps most of the time.",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "ok",
+            "device": "iPhone 17",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL"
+          }
+        },
+        {
+          "id": "issue-11",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/xenios.jp/issues/11",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-02",
+          "createdAtMs": 1772441053000,
+          "issueNumber": 11,
+          "excerpt": "Playable, a few minor FPS drops intermittently, minor graphical glitches that functionally still manage to fit the aesthetic of the game.",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone17,1",
+            "platform": "iOS",
+            "osVersion": "iOS 18.5",
+            "gpuBackend": "MSL"
+          }
+        }
+      ]
+    },
+    "45410915": {
+      "titleId": "45410915",
+      "issueNumber": 30,
+      "issueUrl": "https://github.com/xenios-jp/xenios.jp/issues/30",
+      "updatedAt": "2026-03-03",
+      "entries": [
+        {
+          "id": "issue-30",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/xenios.jp/issues/30",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-03",
+          "createdAtMs": 1772580981000,
+          "issueNumber": 30,
+          "excerpt": "Couldn’t get it to boot.",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPad Pro (M2)",
+            "platform": "iOS",
+            "osVersion": "iOS 18.3.1",
+            "gpuBackend": "MSL"
+          }
+        }
+      ]
+    },
+    "53450812": {
+      "titleId": "53450812",
+      "issueNumber": 36,
+      "issueUrl": "https://github.com/xenios-jp/xenios.jp/issues/36",
+      "updatedAt": "2026-03-06",
+      "entries": [
+        {
+          "id": "comment-4012820953",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/xenios.jp/issues/36#issuecomment-4012820953",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-06",
+          "createdAtMs": 1772815445000,
+          "issueNumber": 36,
+          "excerpt": "Gets into game without issue, relatively steady frame rate, 20-25fps.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/xenios.jp/main/public/compatibility/screenshots/53450812/1772815441036-1.jpg"
+          ],
+          "meta": {
+            "status": "ingame",
+            "perf": "ok",
+            "device": "iPhone 17",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL"
+          }
+        },
+        {
+          "id": "issue-36",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/xenios.jp/issues/36",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-05",
+          "createdAtMs": 1772739103000,
+          "issueNumber": 36,
+          "excerpt": "Game Boots but can’t load the First Level it seems.",
+          "images": [],
+          "meta": {
+            "status": "intro",
+            "perf": "poor",
+            "device": "iPad Pro (M2)",
+            "platform": "iOS",
+            "osVersion": "iOS 18.3.1",
+            "gpuBackend": "MSL"
+          }
+        }
+      ]
+    },
+    "53450813": {
+      "titleId": "53450813",
+      "issueNumber": 6,
+      "issueUrl": "https://github.com/xenios-jp/xenios.jp/issues/6",
+      "updatedAt": "2026-03-01",
+      "entries": [
+        {
+          "id": "issue-6",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/xenios.jp/issues/6",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-01",
+          "createdAtMs": 1772324756000,
+          "issueNumber": 6,
+          "excerpt": "Runs at about 20fps, but seems like the engine expects 30fps consistently so not very playable currently.",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "poor",
+            "device": "iPhone 17",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "submittedBy": "reality111"
+          }
+        }
+      ]
+    },
+    "53450848": {
+      "titleId": "53450848",
+      "issueNumber": 32,
+      "issueUrl": "https://github.com/xenios-jp/xenios.jp/issues/32",
+      "updatedAt": "2026-03-05",
+      "entries": [
+        {
+          "id": "issue-32",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/xenios.jp/issues/32",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-05",
+          "createdAtMs": 1772728987000,
+          "issueNumber": 32,
+          "excerpt": "Does not boot, no visible attempt.",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone17,1",
+            "platform": "iOS",
+            "osVersion": "iOS 18.5",
+            "gpuBackend": "MSL"
+          }
+        }
+      ]
+    },
+    "4D5309B1": {
+      "titleId": "4D5309B1",
+      "issueNumber": 43,
+      "issueUrl": "https://github.com/xenios-jp/xenios.jp/issues/43",
+      "updatedAt": "2026-03-06",
+      "entries": [
+        {
+          "id": "issue-43",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/xenios.jp/issues/43",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-06",
+          "createdAtMs": 1772815896000,
+          "issueNumber": 43,
+          "excerpt": "If loading into game with classic graphics, runs at a steady 30fps. In anniversary mode there are severe graphical issues. When switching back from anniversary to classic mid game this breaks rendering in classic. \n\nAdditionally, the game shows audio issues in the warthog and some covenant vehicles.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/xenios.jp/main/public/compatibility/screenshots/4D5309B1/1772815889495-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/xenios.jp/main/public/compatibility/screenshots/4D5309B1/1772815889495-2.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/xenios.jp/main/public/compatibility/screenshots/4D5309B1/1772815889495-3.jpg"
+          ],
+          "meta": {
+            "status": "ingame",
+            "perf": "great",
+            "device": "iPhone 17",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL"
+          }
+        }
+      ]
+    },
+    "394F07D4": {
+      "titleId": "394F07D4",
+      "issueNumber": 42,
+      "issueUrl": "https://github.com/xenios-jp/xenios.jp/issues/42",
+      "updatedAt": "2026-03-06",
+      "entries": [
+        {
+          "id": "issue-42",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/xenios.jp/issues/42",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-06",
+          "createdAtMs": 1772815330000,
+          "issueNumber": 42,
+          "excerpt": "Game runs at 15-20fps on iPhone 17. No noticeable graphical issues. Runs in slow motion due to engine expecting 60fps.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/xenios.jp/main/public/compatibility/screenshots/394F07D4/1772815326075-1.jpg"
+          ],
+          "meta": {
+            "status": "ingame",
+            "perf": "poor",
+            "device": "iPhone 17",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL"
+          }
+        }
+      ]
+    },
+    "534307E7": {
+      "titleId": "534307E7",
+      "issueNumber": 41,
+      "issueUrl": "https://github.com/xenios-jp/xenios.jp/issues/41",
+      "updatedAt": "2026-03-06",
+      "entries": [
+        {
+          "id": "issue-41",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/xenios.jp/issues/41",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-06",
+          "createdAtMs": 1772813705000,
+          "issueNumber": 41,
+          "excerpt": "Runs around 10-15fps on iPhone 17. Has severe audio issues. Graphically looks perfect in the first mission at least.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/xenios.jp/main/public/compatibility/screenshots/534307E7/1772813701653-1.jpg"
+          ],
+          "meta": {
+            "status": "ingame",
+            "perf": "poor",
+            "device": "iPhone 17",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL"
+          }
+        }
+      ]
+    },
+    "4D53085B": {
+      "titleId": "4D53085B",
+      "issueNumber": 40,
+      "issueUrl": "https://github.com/xenios-jp/xenios.jp/issues/40",
+      "updatedAt": "2026-03-06",
+      "entries": [
+        {
+          "id": "comment-4012504915",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/xenios.jp/issues/40#issuecomment-4012504915",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-06",
+          "createdAtMs": 1772811941000,
+          "issueNumber": 40,
+          "excerpt": "Severe graphical issues rendering the game unplayable. Performance also extremely poor.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/xenios.jp/main/public/compatibility/screenshots/4D53085B/1772811936606-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/xenios.jp/main/public/compatibility/screenshots/4D53085B/1772811936606-2.jpg"
+          ],
+          "meta": {
+            "status": "ingame",
+            "perf": "poor",
+            "device": "iPhone 17",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL"
+          }
+        },
+        {
+          "id": "issue-40",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/xenios.jp/issues/40",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-06",
+          "createdAtMs": 1772809246000,
+          "issueNumber": 40,
+          "excerpt": "Loads into firefight but extreme graphical issues to the point that the game is unplayable.",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "poor",
+            "device": "iPhone 17",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL"
+          }
+        }
+      ]
+    },
+    "494F07D4": {
+      "titleId": "494F07D4",
+      "issueNumber": 39,
+      "issueUrl": "https://github.com/xenios-jp/xenios.jp/issues/39",
+      "updatedAt": "2026-03-06",
+      "entries": [
+        {
+          "id": "issue-39",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/xenios.jp/issues/39",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-06",
+          "createdAtMs": 1772808229000,
+          "issueNumber": 39,
+          "excerpt": "When the game finishes launching past the Developer credits and the intro movie starts the visuals of the movie have a Matrix-effect, when you hear the audio start Press Start or A to get to the main start menu. The audio effects and music in the game play well. Some in game graphics have a rainbow psychedelic coloration effect over them, it seems to occur when a transparent filter is applied over the in game characters and objects, such as looking through a window or when the in game lighting is in day time. The Game plays slower than the original speed but is still very playable.",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPad15,7",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL"
+          }
+        }
+      ]
+    },
+    "545107D2": {
+      "titleId": "545107D2",
+      "issueNumber": 38,
+      "issueUrl": "https://github.com/xenios-jp/xenios.jp/issues/38",
+      "updatedAt": "2026-03-05",
+      "entries": [
+        {
+          "id": "issue-38",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/xenios.jp/issues/38",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-05",
+          "createdAtMs": 1772749456000,
+          "issueNumber": 38,
+          "excerpt": "Crashes",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 15 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.1",
+            "gpuBackend": "MSL"
+          }
+        }
+      ]
+    },
+    "4D5307ED": {
+      "titleId": "4D5307ED",
+      "issueNumber": 37,
+      "issueUrl": "https://github.com/xenios-jp/xenios.jp/issues/37",
+      "updatedAt": "2026-03-05",
+      "entries": [
+        {
+          "id": "issue-37",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/xenios.jp/issues/37",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-05",
+          "createdAtMs": 1772749436000,
+          "issueNumber": 37,
+          "excerpt": "Crashes",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 15 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.1",
+            "gpuBackend": "MSL"
+          }
+        }
+      ]
+    },
+    "4E4D07DC": {
+      "titleId": "4E4D07DC",
+      "issueNumber": 35,
+      "issueUrl": "https://github.com/xenios-jp/xenios.jp/issues/35",
+      "updatedAt": "2026-03-05",
+      "entries": [
+        {
+          "id": "issue-35",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/xenios.jp/issues/35",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-05",
+          "createdAtMs": 1772731133000,
+          "issueNumber": 35,
+          "excerpt": "Game boots and loads quickly and smoothly with some graphical glitches during cutscenes. This game has experienced a regression from previous version and now freezes at varying points after loading the menu where as I was able to get into and play the game at about 3/4 speed on initial version.",
+          "images": [],
+          "meta": {
+            "status": "intro",
+            "perf": "ok",
+            "device": "iPhone17,1",
+            "platform": "iOS",
+            "osVersion": "iOS 18.5",
+            "gpuBackend": "MSL"
+          }
+        }
+      ]
+    },
+    "545108AE": {
+      "titleId": "545108AE",
+      "issueNumber": 34,
+      "issueUrl": "https://github.com/xenios-jp/xenios.jp/issues/34",
+      "updatedAt": "2026-03-05",
+      "entries": [
+        {
+          "id": "issue-34",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/xenios.jp/issues/34",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-05",
+          "createdAtMs": 1772730298000,
+          "issueNumber": 34,
+          "excerpt": "Boots quickly and smoothly but hangs on initial loading screen past logos.",
+          "images": [],
+          "meta": {
+            "status": "loads",
+            "perf": "poor",
+            "device": "iPhone17,1",
+            "platform": "iOS",
+            "osVersion": "iOS 18.5",
+            "gpuBackend": "MSL"
+          }
+        }
+      ]
+    },
+    "5345085D": {
+      "titleId": "5345085D",
+      "issueNumber": 33,
+      "issueUrl": "https://github.com/xenios-jp/xenios.jp/issues/33",
+      "updatedAt": "2026-03-05",
+      "entries": [
+        {
+          "id": "issue-33",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/xenios.jp/issues/33",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-05",
+          "createdAtMs": 1772729037000,
+          "issueNumber": 33,
+          "excerpt": "The game flashes a quick random color pattern and fails to load or boot.",
+          "images": [],
+          "meta": {
+            "status": "loads",
+            "perf": "poor",
+            "device": "iPhone17,1",
+            "platform": "iOS",
+            "osVersion": "iOS 18.5",
+            "gpuBackend": "MSL"
+          }
+        }
+      ]
+    },
+    "434307D2": {
+      "titleId": "434307D2",
+      "issueNumber": 31,
+      "issueUrl": "https://github.com/xenios-jp/xenios.jp/issues/31",
+      "updatedAt": "2026-03-04",
+      "entries": [
+        {
+          "id": "issue-31",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/xenios.jp/issues/31",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-04",
+          "createdAtMs": 1772668441000,
+          "issueNumber": 31,
+          "excerpt": "Starts up, publisher logos display gets to Start menu. But when press Start does not proceed further",
+          "images": [],
+          "meta": {
+            "status": "intro",
+            "perf": "ok",
+            "device": "iPad15,7",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL"
+          }
+        }
+      ]
+    },
+    "4E4D0826": {
+      "titleId": "4E4D0826",
+      "issueNumber": 28,
+      "issueUrl": "https://github.com/xenios-jp/xenios.jp/issues/28",
+      "updatedAt": "2026-03-03",
+      "entries": [
+        {
+          "id": "issue-28",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/xenios.jp/issues/28",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-03",
+          "createdAtMs": 1772578275000,
+          "issueNumber": 28,
+          "excerpt": "Had to boot the game a few times in order for it to work. Other than that the game is playable but the performance is quite poor (around 25 fps without screen recording and 22-23 with screen recording)",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "poor",
+            "device": "iPad Pro (M2)",
+            "platform": "iOS",
+            "osVersion": "iOS 18.3.1",
+            "gpuBackend": "MSL"
+          }
+        }
+      ]
+    },
+    "535107E4": {
+      "titleId": "535107E4",
+      "issueNumber": 27,
+      "issueUrl": "https://github.com/xenios-jp/xenios.jp/issues/27",
+      "updatedAt": "2026-03-03",
+      "entries": [
+        {
+          "id": "issue-27",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/xenios.jp/issues/27",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-03",
+          "createdAtMs": 1772554095000,
+          "issueNumber": 27,
+          "excerpt": "-Graphics: minor glitches like hair transparency \n-Performance: full speed on higher end devices with minor dips.\n-Sound: No sound…\n-Menus: Perfect \n-Videos: work\n\n*Tested for an hour with no crash",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.1",
+            "gpuBackend": "MSL"
+          }
+        }
+      ]
+    },
+    "00000000": {
+      "titleId": "00000000",
+      "issueNumber": 26,
+      "issueUrl": "https://github.com/xenios-jp/xenios.jp/issues/26",
+      "updatedAt": "2026-03-03",
+      "entries": [
+        {
+          "id": "issue-26",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/xenios.jp/issues/26",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-03",
+          "createdAtMs": 1772553912000,
+          "issueNumber": 26,
+          "excerpt": "Perfect. Full speed on higher end devices.",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.1",
+            "gpuBackend": "MSL"
+          }
+        }
+      ]
+    },
+    "544307D1": {
+      "titleId": "544307D1",
+      "issueNumber": 25,
+      "issueUrl": "https://github.com/xenios-jp/xenios.jp/issues/25",
+      "updatedAt": "2026-03-05",
+      "entries": [
+        {
+          "id": "comment-4006372031",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/xenios.jp/issues/25#issuecomment-4006372031",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-05",
+          "createdAtMs": 1772729182000,
+          "issueNumber": 25,
+          "excerpt": "Game loads with no glitches I could tell. The game runs smoothly but with slightly reduced speed. Very playable and very enjoyable!",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone17,1",
+            "platform": "iOS",
+            "osVersion": "iOS 18.5",
+            "gpuBackend": "MSL"
+          }
+        },
+        {
+          "id": "issue-25",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/xenios.jp/issues/25",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-03",
+          "createdAtMs": 1772553802000,
+          "issueNumber": 25,
+          "excerpt": "Visuals are perfect with no apparent glitches. Performance is half speed but stutter free. Menus are perfect and sound is perfect.",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.1",
+            "gpuBackend": "MSL"
+          }
+        }
+      ]
+    },
+    "534507EE": {
+      "titleId": "534507EE",
+      "issueNumber": 24,
+      "issueUrl": "https://github.com/xenios-jp/xenios.jp/issues/24",
+      "updatedAt": "2026-03-03",
+      "entries": [
+        {
+          "id": "issue-24",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/xenios.jp/issues/24",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-03",
+          "createdAtMs": 1772553599000,
+          "issueNumber": 24,
+          "excerpt": "Virtua Fighter 5 works almost perfectly. Performance is nice. Visuals are almost perfect. Sound is great. Menus are perfect.",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.1",
+            "gpuBackend": "MSL"
+          }
+        }
+      ]
+    },
+    "4E4D07FC": {
+      "titleId": "4E4D07FC",
+      "issueNumber": 23,
+      "issueUrl": "https://github.com/xenios-jp/xenios.jp/issues/23",
+      "updatedAt": "2026-03-03",
+      "entries": [
+        {
+          "id": "issue-23",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/xenios.jp/issues/23",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-03",
+          "createdAtMs": 1772523079000,
+          "issueNumber": 23,
+          "excerpt": "Game does not boot.",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone17,1",
+            "platform": "iOS",
+            "osVersion": "iOS 18.5",
+            "gpuBackend": "MSL"
+          }
+        }
+      ]
+    },
+    "425307F1": {
+      "titleId": "425307F1",
+      "issueNumber": 22,
+      "issueUrl": "https://github.com/xenios-jp/xenios.jp/issues/22",
+      "updatedAt": "2026-03-03",
+      "entries": [
+        {
+          "id": "issue-22",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/xenios.jp/issues/22",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-03",
+          "createdAtMs": 1772522930000,
+          "issueNumber": 22,
+          "excerpt": "Doom 3 boots perfectly through logos and menu with no visual distortion and perfect audio except for loud hiss at the beginning. When beginning campaign cutscene plays perfects but hangs after maybe 20 seconds or so.",
+          "images": [],
+          "meta": {
+            "status": "intro",
+            "perf": "great",
+            "device": "iPhone17,1",
+            "platform": "iOS",
+            "osVersion": "iOS 18.5",
+            "gpuBackend": "MSL"
+          }
+        }
+      ]
+    },
+    "4E4D07E9": {
+      "titleId": "4E4D07E9",
+      "issueNumber": 21,
+      "issueUrl": "https://github.com/xenios-jp/xenios.jp/issues/21",
+      "updatedAt": "2026-03-03",
+      "entries": [
+        {
+          "id": "issue-21",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/xenios.jp/issues/21",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-03",
+          "createdAtMs": 1772514100000,
+          "issueNumber": 21,
+          "excerpt": "Game boots and loads to menu flawlessly. Heavy graphic distortion during unskippable cutscene leads to app crash after several minutes.",
+          "images": [],
+          "meta": {
+            "status": "intro",
+            "perf": "poor",
+            "device": "iPhone17,1",
+            "platform": "iOS",
+            "osVersion": "iOS 18.5",
+            "gpuBackend": "MSL"
+          }
+        }
+      ]
+    },
+    "4D5307FA": {
+      "titleId": "4D5307FA",
+      "issueNumber": 20,
+      "issueUrl": "https://github.com/xenios-jp/xenios.jp/issues/20",
+      "updatedAt": "2026-03-03",
+      "entries": [
+        {
+          "id": "issue-20",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/xenios.jp/issues/20",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-03",
+          "createdAtMs": 1772514022000,
+          "issueNumber": 20,
+          "excerpt": "Game boots and loads into menu without issue but hangs on initial loading screen",
+          "images": [],
+          "meta": {
+            "status": "loads",
+            "perf": "poor",
+            "device": "iPhone17,1",
+            "platform": "iOS",
+            "osVersion": "iOS 18.5",
+            "gpuBackend": "MSL"
+          }
+        }
+      ]
+    },
+    "535107DD": {
+      "titleId": "535107DD",
+      "issueNumber": 19,
+      "issueUrl": "https://github.com/xenios-jp/xenios.jp/issues/19",
+      "updatedAt": "2026-03-03",
+      "entries": [
+        {
+          "id": "issue-19",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/xenios.jp/issues/19",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-03",
+          "createdAtMs": 1772513755000,
+          "issueNumber": 19,
+          "excerpt": "Star ocean fails to boot.",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone17,1",
+            "platform": "iOS",
+            "osVersion": "iOS 18.5",
+            "gpuBackend": "MSL"
+          }
+        }
+      ]
+    },
+    "434307D4": {
+      "titleId": "434307D4",
+      "issueNumber": 18,
+      "issueUrl": "https://github.com/xenios-jp/xenios.jp/issues/18",
+      "updatedAt": "2026-03-03",
+      "entries": [
+        {
+          "id": "issue-18",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/xenios.jp/issues/18",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-03",
+          "createdAtMs": 1772513537000,
+          "issueNumber": 18,
+          "excerpt": "RE5 currently fails to boot",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone17,1",
+            "platform": "iOS",
+            "osVersion": "iOS 18.5",
+            "gpuBackend": "MSL"
+          }
+        }
+      ]
+    },
+    "4D530808": {
+      "titleId": "4D530808",
+      "issueNumber": 17,
+      "issueUrl": "https://github.com/xenios-jp/xenios.jp/issues/17",
+      "updatedAt": "2026-03-03",
+      "entries": [
+        {
+          "id": "issue-17",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/xenios.jp/issues/17",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-03",
+          "createdAtMs": 1772496147000,
+          "issueNumber": 17,
+          "excerpt": "Gets into the main menu but hangs when starting game.",
+          "images": [],
+          "meta": {
+            "status": "intro",
+            "perf": "ok",
+            "device": "iPhone 17",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL"
+          }
+        }
+      ]
+    },
+    "465607E8": {
+      "titleId": "465607E8",
+      "issueNumber": 16,
+      "issueUrl": "https://github.com/xenios-jp/xenios.jp/issues/16",
+      "updatedAt": "2026-03-02",
+      "entries": [
+        {
+          "id": "issue-16",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/xenios.jp/issues/16",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-02",
+          "createdAtMs": 1772495022000,
+          "issueNumber": 16,
+          "excerpt": "Seems totally playable from my testing, very low spec requirements to run.",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 17",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL"
+          }
+        }
+      ]
+    },
+    "454108E6": {
+      "titleId": "454108E6",
+      "issueNumber": 14,
+      "issueUrl": "https://github.com/xenios-jp/xenios.jp/issues/14",
+      "updatedAt": "2026-03-02",
+      "entries": [
+        {
+          "id": "issue-14",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/xenios.jp/issues/14",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-02",
+          "createdAtMs": 1772475279000,
+          "issueNumber": 14,
+          "excerpt": "The intro has some graphical issues and the game crashes after the intro",
+          "images": [],
+          "meta": {
+            "status": "loads",
+            "perf": "poor",
+            "device": "iPad Pro (M2)",
+            "platform": "iOS",
+            "osVersion": "iOS 18.3.1",
+            "gpuBackend": "MSL"
+          }
+        }
+      ]
+    },
+    "4E4D0803": {
+      "titleId": "4E4D0803",
+      "issueNumber": 13,
+      "issueUrl": "https://github.com/xenios-jp/xenios.jp/issues/13",
+      "updatedAt": "2026-03-02",
+      "entries": [
+        {
+          "id": "comment-3985871415",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/xenios.jp/issues/13#issuecomment-3985871415",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-02",
+          "createdAtMs": 1772473023000,
+          "issueNumber": 13,
+          "excerpt": "Just played around with some settings and the game seems to boot now. Performance is poor and there are some minor graphical glitches but you can get into a match now",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "poor",
+            "device": "iPad Pro (M2)",
+            "platform": "iOS",
+            "osVersion": "iOS 18.3.1",
+            "gpuBackend": "MSL"
+          }
+        },
+        {
+          "id": "issue-13",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/xenios.jp/issues/13",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-02",
+          "createdAtMs": 1772472238000,
+          "issueNumber": 13,
+          "excerpt": "Game has got some graphical issues. I couldn’t get past the cutscene but even the cutscene had some graphical issues",
+          "images": [],
+          "meta": {
+            "status": "intro",
+            "perf": "poor",
+            "device": "iPad Pro (M2)",
+            "platform": "iOS",
+            "osVersion": "iOS 18.3.1",
+            "gpuBackend": "MSL"
+          }
+        }
+      ]
+    },
+    "4D530877": {
+      "titleId": "4D530877",
+      "issueNumber": 12,
+      "issueUrl": "https://github.com/xenios-jp/xenios.jp/issues/12",
+      "updatedAt": "2026-03-03",
+      "entries": [
+        {
+          "id": "comment-3988670954",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/xenios.jp/issues/12#issuecomment-3988670954",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-03",
+          "createdAtMs": 1772513950000,
+          "issueNumber": 12,
+          "excerpt": "Game boots however menu loads very distorted with heavy graphic bugs. Campaign loads intro scene but gets stuck in a loop. Could not navigate menu successfully to bypass loop.",
+          "images": [],
+          "meta": {
+            "status": "intro",
+            "perf": "poor",
+            "device": "iPhone17,1",
+            "platform": "iOS",
+            "osVersion": "iOS 18.5",
+            "gpuBackend": "MSL"
+          }
+        },
+        {
+          "id": "issue-12",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/xenios.jp/issues/12",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-02",
+          "createdAtMs": 1772459408000,
+          "issueNumber": 12,
+          "excerpt": "Gets into firefight, campaign does not load the first cutscene. Can expect the same cutscene loop as Halo 3 if it does manage to load.",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "poor",
+            "device": "iPhone18,3",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL"
+          }
+        }
+      ]
+    },
+    "545407D8": {
+      "titleId": "545407D8",
+      "issueNumber": 10,
+      "issueUrl": "https://github.com/xenios-jp/xenios.jp/issues/10",
+      "updatedAt": "2026-03-02",
+      "entries": [
+        {
+          "id": "issue-10",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/xenios.jp/issues/10",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-02",
+          "createdAtMs": 1772438754000,
+          "issueNumber": 10,
+          "excerpt": "Occasional drops in FPS but very much playable.",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone17,1",
+            "platform": "iOS",
+            "osVersion": "iOS 18.5",
+            "gpuBackend": "MSL"
+          }
+        }
+      ]
+    },
+    "565707D0": {
+      "titleId": "565707D0",
+      "issueNumber": 8,
+      "issueUrl": "https://github.com/xenios-jp/xenios.jp/issues/8",
+      "updatedAt": "2026-03-03",
+      "entries": [
+        {
+          "id": "comment-3991800852",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/xenios.jp/issues/8#issuecomment-3991800852",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-03",
+          "createdAtMs": 1772551609000,
+          "issueNumber": 8,
+          "excerpt": "It will be playable when you guys see this you get 28 fps but it feels like 30 there are black rectangles the first two boots up but is playable i know from playing for a hour",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone18,2",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL"
+          }
+        },
+        {
+          "id": "issue-8",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/xenios.jp/issues/8",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-02",
+          "createdAtMs": 1772423159000,
+          "issueNumber": 8,
+          "excerpt": "First and second time You’ll see a black rectangle you’re running a third time that goes away per make sure you run the game for a minute and play it loaded up the shader cast",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone18,2",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL"
+          }
+        }
+      ]
+    },
+    "415607E6": {
+      "titleId": "415607E6",
+      "issueNumber": 7,
+      "issueUrl": "https://github.com/xenios-jp/xenios.jp/issues/7",
+      "updatedAt": "2026-03-01",
+      "entries": [
+        {
+          "id": "issue-7",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/xenios.jp/issues/7",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-01",
+          "createdAtMs": 1772347531000,
+          "issueNumber": 7,
+          "excerpt": "Loads into game but experiences severe graphical issues.",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "ok",
+            "device": "iPhone18,3",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL"
+          }
+        }
+      ]
+    },
+    "4B4D07F5": {
+      "titleId": "4B4D07F5",
+      "issueNumber": 5,
+      "issueUrl": "https://github.com/xenios-jp/xenios.jp/issues/5",
+      "updatedAt": "2026-02-28",
+      "entries": [
+        {
+          "id": "issue-5",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/xenios.jp/issues/5",
+          "author": "xenios-jp",
+          "createdAt": "2026-02-28",
+          "createdAtMs": 1772289253000,
+          "issueNumber": 5,
+          "excerpt": "Playable in game with ok-ish framerate on M4 Pro, significant occlusion issues",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "ok",
+            "device": "MacBook Pro M4 Pro/Max",
+            "platform": "macOS",
+            "osVersion": "macOS 26.3",
+            "gpuBackend": "MSC",
+            "submittedBy": "reality111"
+          }
+        }
+      ]
+    },
+    "4D5307D5": {
+      "titleId": "4D5307D5",
+      "issueNumber": 4,
+      "issueUrl": "https://github.com/xenios-jp/xenios.jp/issues/4",
+      "updatedAt": "2026-02-28",
+      "entries": [
+        {
+          "id": "issue-4",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/xenios.jp/issues/4",
+          "author": "xenios-jp",
+          "createdAt": "2026-02-28",
+          "createdAtMs": 1772288527000,
+          "issueNumber": 4,
+          "excerpt": "Runs well but with pretty severe intermittent graphical issues.",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "ok",
+            "device": "MacBook Pro M4 Pro/Max",
+            "platform": "macOS",
+            "osVersion": "macOS 26.3",
+            "gpuBackend": "MSC",
+            "submittedBy": "reality111"
+          }
+        }
+      ]
+    },
+    "545407F2": {
+      "titleId": "545407F2",
+      "issueNumber": 3,
+      "issueUrl": "https://github.com/xenios-jp/xenios.jp/issues/3",
+      "updatedAt": "2026-03-02",
+      "entries": [
+        {
+          "id": "issue-3",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/xenios.jp/issues/3",
+          "author": "xenios-jp",
+          "createdAt": "2026-02-28",
+          "createdAtMs": 1772273998000,
+          "issueNumber": 3,
+          "excerpt": "Get's into game with severe graphical issues. Framerate is above 30 on M4 Pro.",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "poor",
+            "device": "MacBook Pro M4 Pro/Max",
+            "platform": "macOS",
+            "osVersion": "macOS 15.3",
+            "gpuBackend": "MSC"
+          }
+        }
+      ]
+    },
+    "4D5307E6": {
+      "titleId": "4D5307E6",
+      "issueNumber": 1,
+      "issueUrl": "https://github.com/xenios-jp/xenios.jp/issues/1",
+      "updatedAt": "2026-03-06",
+      "entries": [
+        {
+          "id": "comment-3994400207",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/xenios.jp/issues/1#issuecomment-3994400207",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-04",
+          "createdAtMs": 1772583859000,
+          "issueNumber": 1,
+          "excerpt": "Low FPS, but can start and play campaign, important note, if you die you can get stuck in a cutscene loop.",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "poor",
+            "device": "iPhone17,1",
+            "platform": "iOS",
+            "osVersion": "iOS 18.5",
+            "gpuBackend": "MSL"
+          }
+        },
+        {
+          "id": "comment-3994359495",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/xenios.jp/issues/1#issuecomment-3994359495",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-04",
+          "createdAtMs": 1772583166000,
+          "issueNumber": 1,
+          "excerpt": "Crashes upon launch ping the game.",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPad Pro (M2)",
+            "platform": "iOS",
+            "osVersion": "iOS 18.3.1",
+            "gpuBackend": "MSL"
+          }
+        },
+        {
+          "id": "comment-3982775954",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/xenios.jp/issues/1#issuecomment-3982775954",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-02",
+          "createdAtMs": 1772438694000,
+          "issueNumber": 1,
+          "excerpt": "Can play in campaign, frequently drops in FPS but seems to sit around 11-19 range. As described by another user you will need to select mission to bypass the initial cutscene which loops.",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "poor",
+            "device": "iPhone17,1",
+            "platform": "iOS",
+            "osVersion": "iOS 18.5",
+            "gpuBackend": "MSL"
+          }
+        },
+        {
+          "id": "comment-3979728026",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/xenios.jp/issues/1#issuecomment-3979728026",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-01",
+          "createdAtMs": 1772361866000,
+          "issueNumber": 1,
+          "excerpt": "Campaign cutscene cannot transition into gameplay in at least the first level. Workaround is to hit A to skip loop it once, back out, and start the actual first mission from the campaign menu. \n\nPerformance is about 15fps on iPhone 17.",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "poor",
+            "device": "iPhone18,3",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL"
+          }
+        },
+        {
+          "id": "comment-3976786169",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/xenios.jp/issues/1#issuecomment-3976786169",
+          "author": "xenios-jp",
+          "createdAt": "2026-02-28",
+          "createdAtMs": 1772273380000,
+          "issueNumber": 1,
+          "excerpt": "Does not boot",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 16 Pro Max",
+            "platform": "macOS",
+            "osVersion": "macOS 18.3",
+            "gpuBackend": "MSL"
+          }
+        },
+        {
+          "id": "comment-3976572821",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/xenios.jp/issues/1#issuecomment-3976572821",
+          "author": "xenios-jp",
+          "createdAt": "2026-02-28",
+          "createdAtMs": 1772262794000,
+          "issueNumber": 1,
+          "excerpt": "Does not boot",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 17",
+            "platform": "macOS",
+            "osVersion": "macOS iOS 26.3",
+            "gpuBackend": "MSL"
+          }
+        }
+      ]
+    }
+  }
+}

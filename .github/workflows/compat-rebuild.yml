@@ -315,6 +315,15 @@ jobs:
               removed.forEach(g => console.log(`  - ${g.title} (${g.titleId})`));
             }
 
+      - name: Refresh discussion snapshots
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_OWNER: ${{ github.repository_owner }}
+          GITHUB_REPO: ${{ github.event.repository.name }}
+        run: |
+          node scripts/build-discussions.mjs
+          node scripts/sync-public-compat-data.mjs
+
       - name: Commit rebuilt data
         run: |
           git config user.name "github-actions[bot]"
@@ -322,7 +331,7 @@ jobs:
           git stash
           git pull --rebase
           git stash pop
-          git add data/compatibility.json
+          git add data/compatibility.json data/discussions.json public/compatibility/data.json public/compatibility/discussions.json
           if ! git diff --staged --quiet; then
             git commit -m "compat: rebuild from GitHub issues"
             git push

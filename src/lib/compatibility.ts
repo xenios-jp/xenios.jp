@@ -41,6 +41,8 @@ export interface Game {
     gpuBackend: GpuBackend;
   };
   updatedAt: string;
+  issueNumber?: number;
+  issueUrl?: string;
   notes: string;
   reports: GameReport[];
   screenshots: string[];

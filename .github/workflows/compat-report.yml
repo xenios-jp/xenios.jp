@@ -366,12 +366,21 @@ jobs:
               }
             }
 
+      - name: Refresh discussion snapshots
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_OWNER: ${{ github.repository_owner }}
+          GITHUB_REPO: ${{ github.event.repository.name }}
+        run: |
+          node scripts/build-discussions.mjs
+          node scripts/sync-public-compat-data.mjs
+
       - name: Commit updated data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git pull --rebase
-          git add data/compatibility.json
+          git add data/compatibility.json data/discussions.json public/compatibility/data.json public/compatibility/discussions.json
           if ! git diff --staged --quiet; then
             git commit -m "compat: update from issue #${{ github.event.issue.number }} [skip ci]"
             git push
