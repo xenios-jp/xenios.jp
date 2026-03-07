@@ -265,7 +265,7 @@ function CompatibilityListInner({ games: allGames }: { games: Game[] }) {
 
       <section className="border-b border-border px-4 py-6 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-6xl">
-          <div className="grid grid-cols-1 gap-3 sm:grid-cols-5">
+          <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-5">
             {STATUS_ORDER.map((status) => {
               const count = statusCounts[status];
               const pct = total > 0 ? (count / total) * 100 : 0;
