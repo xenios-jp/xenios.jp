@@ -1,0 +1,43 @@
+name: Snapshot Credits
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 4 * * 1"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: credits-snapshot
+  cancel-in-progress: false
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Build credits snapshot
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/build-credits.mjs
+
+      - name: Commit credits snapshot
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git pull --rebase
+          git add data/credits.json
+          if ! git diff --staged --quiet; then
+            git commit -m "data: refresh credits snapshot [skip ci]"
+            git push
+          else
+            echo "No changes"
+          fi

@@ -9,8 +9,17 @@ export const metadata: Metadata = {
     "Contributor credits for upstream Xenia repositories that underpin XeniOS.",
 };
 
-export default async function CreditsPage() {
-  const { contributors, totalProjects, errors } = await getXeniaContributors();
+function formatSnapshotDate(dateString: string): string | null {
+  const parsed = new Date(dateString);
+  if (Number.isNaN(parsed.getTime())) {
+    return null;
+  }
+  return parsed.toISOString().slice(0, 10);
+}
+
+export default function CreditsPage() {
+  const { contributors, totalProjects, errors, generatedAt } = getXeniaContributors();
+  const snapshotDate = formatSnapshotDate(generatedAt);
 
   return (
     <div className="min-h-screen bg-bg-primary">
@@ -31,8 +40,9 @@ export default async function CreditsPage() {
             Included upstream repositories
           </h2>
           <p className="mt-3 text-[15px] leading-relaxed text-text-secondary">
-            This page combines contributor data from the following repositories.
-            Contributors appear once and list all projects they contributed to.
+            This page uses a scheduled snapshot of contributor data from the
+            following repositories. Contributors appear once and list all
+            projects they contributed to.
           </p>
           <ul className="mt-4 space-y-2 text-[15px] text-text-secondary">
             {XENIA_REPOS_FOR_CREDITS.map((repo) => (
@@ -51,6 +61,7 @@ export default async function CreditsPage() {
           </ul>
           <p className="mt-4 text-sm text-text-muted">
             Total repositories indexed: {totalProjects}
+            {snapshotDate ? ` · Snapshot updated ${snapshotDate}` : ""}
           </p>
         </section>
 

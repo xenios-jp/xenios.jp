@@ -4,7 +4,6 @@ import {
   XENIA_UPSTREAM_REPO_URL,
   XENIA_EDGE_REPO_URL,
   XENIA_UPSTREAM_LICENSE_URL,
-  XENIA_UPSTREAM_LICENSE_TEXT_URL,
   EMULATOR_GITHUB_URL,
   WEBSITE_GITHUB_URL,
 } from "@/lib/constants";
@@ -71,15 +70,13 @@ export default function LegalPage() {
                 </a>
               </p>
               <p>
-                <strong className="text-text-primary">Raw license text:</strong>{" "}
-                <a
-                  href={XENIA_UPSTREAM_LICENSE_TEXT_URL}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                <strong className="text-text-primary">Vendored copy:</strong>{" "}
+                <Link
+                  href="/license"
                   className="text-accent underline underline-offset-2 hover:text-accent-hover"
                 >
-                  View raw LICENSE file
-                </a>
+                  View the local LICENSE copy used for builds
+                </Link>
               </p>
             </div>
           </section>

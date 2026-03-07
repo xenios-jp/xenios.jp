@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
-import {
-  XENIA_UPSTREAM_LICENSE_TEXT_URL,
-  XENIA_UPSTREAM_LICENSE_URL,
-} from "@/lib/constants";
+import { readFile } from "node:fs/promises";
+import path from "node:path";
+import { XENIA_UPSTREAM_LICENSE_URL } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: "License",
@@ -12,11 +11,10 @@ export const metadata: Metadata = {
 
 async function fetchLicenseText(): Promise<string | null> {
   try {
-    const res = await fetch(XENIA_UPSTREAM_LICENSE_TEXT_URL, {
-      next: { revalidate: 24 * 60 * 60 },
-    });
-    if (!res.ok) return null;
-    return res.text();
+    return await readFile(
+      path.join(process.cwd(), "data", "xenia-upstream-license.txt"),
+      "utf8"
+    );
   } catch {
     return null;
   }
@@ -34,6 +32,10 @@ export default async function LicensePage() {
           </h1>
           <p className="mt-2 text-lg text-text-secondary">
             XeniOS inherits the upstream Xenia project license.
+          </p>
+          <p className="mt-3 text-sm text-text-muted">
+            The text below is a vendored copy stored in this repository for
+            deterministic builds.
           </p>
           <p className="mt-4 text-text-muted">
             Source:{" "}
