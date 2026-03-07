@@ -319,7 +319,9 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          git stash
           git pull --rebase
+          git stash pop
           git add data/compatibility.json
           if ! git diff --staged --quiet; then
             git commit -m "compat: rebuild from GitHub issues"
