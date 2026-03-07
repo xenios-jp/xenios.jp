@@ -22,6 +22,8 @@
  *  - API_KEY                 : shared secret embedded in the app
  *  - DISCORD_APPLICATION_ID  : Discord application ID (for interactions)
  *  - DISCORD_PUBLIC_KEY      : Discord public key (for Ed25519 verification)
+ *  - COMPAT_BUILD_ATTESTATION_HMAC_KEY : HMAC key used to verify CI build attestations
+ *  - COMPAT_BUILD_ATTESTATION_KEY_ID   : optional key id expected in attested build payloads
  */
 
 // ── Types ────────────────────────────────────────────────────────────
@@ -39,6 +41,8 @@ interface Env {
   COMPAT_REPO_BRANCH?: string;
   COMPAT_RELEASE_MANIFEST_URL?: string;
   COMPAT_WEBSITE_BASE?: string;
+  COMPAT_BUILD_ATTESTATION_HMAC_KEY?: string;
+  COMPAT_BUILD_ATTESTATION_KEY_ID?: string;
 }
 
 interface ExecutionContext {
@@ -53,6 +57,7 @@ type Platform = "ios" | "macos";
 type Architecture = "arm64" | "x86_64";
 type GpuBackend = "msc" | "msl";
 type BuildChannel = "release" | "preview" | "self-built";
+type BuildStage = "alpha" | "beta" | "rc" | "stable";
 type SummaryChannel = "release" | "preview" | "all";
 
 type ReportSource = "app" | "discord" | "github";
@@ -63,8 +68,14 @@ interface BuildInfo {
   official: boolean;
   appVersion?: string;
   buildNumber?: string;
+  stage?: BuildStage;
   commitShort?: string;
   publishedAt?: string;
+}
+
+interface BuildAttestationInput {
+  payload: string;
+  signature: string;
 }
 
 interface ReportPayload {
@@ -81,6 +92,7 @@ interface ReportPayload {
   tags?: string[];
   screenshots?: string[];
   build: BuildInfo;
+  buildAttestation?: BuildAttestationInput;
 }
 
 interface GameReport {
@@ -197,6 +209,7 @@ const VALID_PLATFORMS = SCHEMA.platforms.map((p) => p.value);
 const VALID_ARCHS = SCHEMA.architectures.map((a) => a.value);
 const VALID_GPU_BACKENDS = SCHEMA.gpuBackends.map((g) => g.value);
 const VALID_BUILD_CHANNELS: BuildChannel[] = ["release", "preview", "self-built"];
+const VALID_BUILD_STAGES: BuildStage[] = ["alpha", "beta", "rc", "stable"];
 const STATUS_RANK: Record<GameStatus, number> = {
   playable: 4,
   ingame: 3,
@@ -261,6 +274,45 @@ function makeBuildId(
   return parts.length >= 3 ? parts.join("-") : undefined;
 }
 
+const BUILD_ATTESTATION_PREFIX = "xenios-build-attestation-v1";
+const REPORT_METADATA_PREFIX = "xenios-report-meta:";
+
+function normalizeBuildStage(value: unknown): BuildStage | undefined {
+  return VALID_BUILD_STAGES.includes(value as BuildStage)
+    ? (value as BuildStage)
+    : undefined;
+}
+
+function getBuildStageDisplayLabel(stage?: BuildStage): string | null {
+  switch (stage) {
+    case "alpha":
+      return "Alpha";
+    case "beta":
+      return "Beta";
+    case "rc":
+      return "RC";
+    default:
+      return null;
+  }
+}
+
+function formatBuildDisplayLabel(build: BuildInfo): string {
+  const versionLabel = build.appVersion
+    ? build.buildNumber
+      ? `${build.appVersion} (${build.buildNumber})`
+      : build.appVersion
+    : build.buildId ?? "Unknown build";
+  const stageLabel = getBuildStageDisplayLabel(build.stage);
+
+  if (build.channel === "preview") {
+    return stageLabel ? `${stageLabel} Preview ${versionLabel}` : `Preview ${versionLabel}`;
+  }
+  if (build.channel === "release") {
+    return stageLabel ? `${stageLabel} ${versionLabel}` : versionLabel;
+  }
+  return versionLabel;
+}
+
 function normalizeBuildInfo(platform: Platform, build: BuildInfo): BuildInfo {
   const normalized: BuildInfo = {
     channel: build.channel,
@@ -269,6 +321,7 @@ function normalizeBuildInfo(platform: Platform, build: BuildInfo): BuildInfo {
 
   if (build.appVersion?.trim()) normalized.appVersion = build.appVersion.trim();
   if (build.buildNumber?.trim()) normalized.buildNumber = build.buildNumber.trim();
+  if (normalizeBuildStage(build.stage)) normalized.stage = build.stage;
   if (build.commitShort?.trim()) normalized.commitShort = build.commitShort.trim();
   if (build.publishedAt?.trim()) normalized.publishedAt = build.publishedAt.trim();
   normalized.buildId =
@@ -276,6 +329,216 @@ function normalizeBuildInfo(platform: Platform, build: BuildInfo): BuildInfo {
     makeBuildId(platform, normalized.channel, normalized.appVersion, normalized.buildNumber);
 
   return normalized;
+}
+
+function downgradeBuildTrust(platform: Platform, build: BuildInfo): BuildInfo {
+  return normalizeBuildInfo(platform, {
+    buildId: makeBuildId(platform, "self-built", build.appVersion, build.buildNumber),
+    channel: "self-built",
+    official: false,
+    appVersion: build.appVersion,
+    buildNumber: build.buildNumber,
+    stage: build.stage,
+    commitShort: build.commitShort,
+    publishedAt: build.publishedAt,
+  });
+}
+
+function base64UrlToBytes(value: string): Uint8Array {
+  const normalized = value.replace(/-/g, "+").replace(/_/g, "/");
+  const padding = normalized.length % 4 === 0 ? "" : "=".repeat(4 - (normalized.length % 4));
+  const binary = atob(normalized + padding);
+  return Uint8Array.from(binary, (char) => char.charCodeAt(0));
+}
+
+function bytesToBase64Url(bytes: Uint8Array): string {
+  let binary = "";
+  for (let i = 0; i < bytes.length; i += 1) {
+    binary += String.fromCharCode(bytes[i]);
+  }
+  return btoa(binary).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/g, "");
+}
+
+function timingSafeEqual(left: Uint8Array, right: Uint8Array): boolean {
+  if (left.length !== right.length) return false;
+  let diff = 0;
+  for (let i = 0; i < left.length; i += 1) {
+    diff |= left[i] ^ right[i];
+  }
+  return diff === 0;
+}
+
+function parseBuildAttestationPayload(
+  payload: string
+): {
+  platform?: Platform;
+  channel?: "release" | "preview";
+  buildId?: string;
+  appVersion?: string;
+  buildNumber?: string;
+  stage?: BuildStage;
+  commitShort?: string;
+  issuedAt?: string;
+  keyId?: string;
+} | null {
+  const trimmed = payload.trim();
+  if (!trimmed.startsWith(`${BUILD_ATTESTATION_PREFIX};`)) {
+    return null;
+  }
+
+  const values = new Map<string, string>();
+  for (const entry of trimmed.split(";").slice(1)) {
+    const separator = entry.indexOf("=");
+    if (separator <= 0) continue;
+    const key = entry.slice(0, separator).trim();
+    const value = entry.slice(separator + 1).trim();
+    if (key && value) {
+      values.set(key, value);
+    }
+  }
+
+  const platform = values.get("platform");
+  const channel = values.get("channel");
+  if ((platform !== "ios" && platform !== "macos") || (channel !== "release" && channel !== "preview")) {
+    return null;
+  }
+
+  const appVersion = values.get("appVersion");
+  const buildNumber = values.get("buildNumber");
+  if (!appVersion || !buildNumber) {
+    return null;
+  }
+
+  return {
+    platform,
+    channel,
+    buildId: values.get("buildId"),
+    appVersion,
+    buildNumber,
+    stage: normalizeBuildStage(values.get("stage")),
+    commitShort: values.get("commitShort"),
+    issuedAt: values.get("issuedAt"),
+    keyId: values.get("keyId"),
+  };
+}
+
+async function signBuildAttestationPayload(
+  payload: string,
+  secret: string
+): Promise<Uint8Array> {
+  const key = await crypto.subtle.importKey(
+    "raw",
+    new TextEncoder().encode(secret),
+    { name: "HMAC", hash: "SHA-256" },
+    false,
+    ["sign"]
+  );
+  const signature = await crypto.subtle.sign("HMAC", key, new TextEncoder().encode(payload));
+  return new Uint8Array(signature);
+}
+
+async function applyBuildTrust(
+  env: Env,
+  report: ReportPayload,
+  source: ReportSource
+): Promise<ReportPayload> {
+  const claimedBuild = normalizeBuildInfo(report.platform, report.build);
+  const claimedAttestation = report.buildAttestation;
+  const attestationSecret = env.COMPAT_BUILD_ATTESTATION_HMAC_KEY?.trim();
+  const expectedKeyId = env.COMPAT_BUILD_ATTESTATION_KEY_ID?.trim();
+
+  if (source !== "app" || !attestationSecret || !claimedAttestation) {
+    return {
+      ...report,
+      build: downgradeBuildTrust(report.platform, claimedBuild),
+      buildAttestation: undefined,
+    };
+  }
+
+  const parsed = parseBuildAttestationPayload(claimedAttestation.payload);
+  if (!parsed || parsed.platform !== report.platform) {
+    return {
+      ...report,
+      build: downgradeBuildTrust(report.platform, claimedBuild),
+      buildAttestation: undefined,
+    };
+  }
+
+  if (expectedKeyId && parsed.keyId !== expectedKeyId) {
+    return {
+      ...report,
+      build: downgradeBuildTrust(report.platform, claimedBuild),
+      buildAttestation: undefined,
+    };
+  }
+
+  let expectedSignature: Uint8Array;
+  let suppliedSignature: Uint8Array;
+  try {
+    expectedSignature = await signBuildAttestationPayload(claimedAttestation.payload, attestationSecret);
+    suppliedSignature = base64UrlToBytes(claimedAttestation.signature);
+  } catch {
+    return {
+      ...report,
+      build: downgradeBuildTrust(report.platform, claimedBuild),
+      buildAttestation: undefined,
+    };
+  }
+
+  if (!timingSafeEqual(expectedSignature, suppliedSignature)) {
+    return {
+      ...report,
+      build: downgradeBuildTrust(report.platform, claimedBuild),
+      buildAttestation: undefined,
+    };
+  }
+
+  const attestedBuild = normalizeBuildInfo(report.platform, {
+    buildId: parsed.buildId,
+    channel: parsed.channel,
+    official: true,
+    appVersion: parsed.appVersion,
+    buildNumber: parsed.buildNumber,
+    stage: parsed.stage,
+    commitShort: parsed.commitShort,
+    publishedAt: parsed.issuedAt,
+  });
+
+  const claimedBuildId =
+    claimedBuild.buildId ||
+    makeBuildId(report.platform, claimedBuild.channel, claimedBuild.appVersion, claimedBuild.buildNumber);
+  const attestedBuildId =
+    attestedBuild.buildId ||
+    makeBuildId(report.platform, attestedBuild.channel, attestedBuild.appVersion, attestedBuild.buildNumber);
+
+  if (
+    (claimedBuild.appVersion && attestedBuild.appVersion && claimedBuild.appVersion !== attestedBuild.appVersion) ||
+    (claimedBuild.buildNumber && attestedBuild.buildNumber && claimedBuild.buildNumber !== attestedBuild.buildNumber) ||
+    (parsed.stage && claimedBuild.stage && claimedBuild.stage !== parsed.stage) ||
+    (claimedBuild.commitShort && attestedBuild.commitShort && claimedBuild.commitShort !== attestedBuild.commitShort) ||
+    (claimedBuildId && attestedBuildId && claimedBuildId !== attestedBuildId)
+  ) {
+    return {
+      ...report,
+      build: downgradeBuildTrust(report.platform, claimedBuild),
+      buildAttestation: undefined,
+    };
+  }
+
+  return {
+    ...report,
+    build: attestedBuild,
+    buildAttestation: undefined,
+  };
+}
+
+function encodeReportMetadata(source: ReportSource, build: BuildInfo): string {
+  const payload = JSON.stringify({ source, build });
+  return bytesToBase64Url(new TextEncoder().encode(payload));
+}
+
+function buildReportMetadataComment(source: ReportSource, build: BuildInfo): string {
+  return `<!-- ${REPORT_METADATA_PREFIX}${encodeReportMetadata(source, build)} -->`;
 }
 
 function cors(response: Response): Response {
@@ -366,6 +629,29 @@ function validatePayload(body: unknown): { ok: true; data: ReportPayload } | { o
   if (build.publishedAt !== undefined && typeof build.publishedAt !== "string") {
     return { ok: false, error: "build.publishedAt must be a string" };
   }
+  if (build.stage !== undefined && !VALID_BUILD_STAGES.includes(build.stage as BuildStage)) {
+    return {
+      ok: false,
+      error: `build.stage must be one of: ${VALID_BUILD_STAGES.join(", ")}`,
+    };
+  }
+  let buildAttestation: BuildAttestationInput | undefined;
+  if (build.attestation !== undefined) {
+    if (!build.attestation || typeof build.attestation !== "object") {
+      return { ok: false, error: "build.attestation must be an object" };
+    }
+    const attestation = build.attestation as Record<string, unknown>;
+    if (!attestation.payload || typeof attestation.payload !== "string") {
+      return { ok: false, error: "build.attestation.payload must be a string" };
+    }
+    if (!attestation.signature || typeof attestation.signature !== "string") {
+      return { ok: false, error: "build.attestation.signature must be a string" };
+    }
+    buildAttestation = {
+      payload: attestation.payload.trim(),
+      signature: attestation.signature.trim(),
+    };
+  }
   if (b.screenshots !== undefined) {
     if (!Array.isArray(b.screenshots)) {
       return { ok: false, error: "screenshots must be an array" };
@@ -403,12 +689,14 @@ function validatePayload(body: unknown): { ok: true; data: ReportPayload } | { o
             .map((s) => s.trim())
             .filter(Boolean)
         : undefined,
+      buildAttestation,
       build: normalizeBuildInfo(b.platform as Platform, {
         buildId: typeof build.buildId === "string" ? build.buildId : undefined,
         channel: build.channel as BuildChannel,
         official: build.official as boolean,
         appVersion: build.appVersion as string,
         buildNumber: build.buildNumber as string,
+        stage: typeof build.stage === "string" ? (build.stage as BuildStage) : undefined,
         commitShort: typeof build.commitShort === "string" ? build.commitShort : undefined,
         publishedAt: typeof build.publishedAt === "string" ? build.publishedAt : undefined,
       }),
@@ -559,8 +847,10 @@ function buildReportBody(report: ReportPayload, source: ReportSource, screenshot
     `| **Architecture** | ${report.arch} |`,
     `| **GPU Backend** | ${report.gpuBackend.toUpperCase()} |`,
     `| **Build Channel** | ${report.build.channel} |`,
+    `| **Build Trust** | ${report.build.official ? "Verified CI build" : "Self-built / unverified"} |`,
     `| **XeniOS Version** | ${report.build.appVersion ?? "Unknown"} |`,
     `| **Build Number** | ${report.build.buildNumber ?? "Unknown"} |`,
+    ...(report.build.stage ? [`| **Build Stage** | ${report.build.stage} |`] : []),
     ...(report.build.commitShort ? [`| **Commit Short** | \`${report.build.commitShort}\` |`] : []),
     ...(submittedBy ? [`| **Submitted By** | ${submittedBy} |`] : []),
     ``,
@@ -575,7 +865,7 @@ function buildReportBody(report: ReportPayload, source: ReportSource, screenshot
     });
   }
 
-  lines.push(``, `---`, SOURCE_FOOTERS[source], `<!-- xenios-auto -->`);
+  lines.push(``, `---`, SOURCE_FOOTERS[source], buildReportMetadataComment(source, report.build), `<!-- xenios-auto -->`);
 
   return lines.join("\n");
 }
@@ -856,7 +1146,7 @@ async function postToDiscord(webhookUrl: string, report: ReportPayload, issueUrl
   const desc = [
     `${STATUS_LABELS[report.status]}  \u2022  ${PERF_LABELS[report.perf]}`,
     `${PLATFORM_LABELS[report.platform]}  \u2022  ${deviceDisplayName(report.device)}`,
-    `${report.build.channel}  \u2022  ${report.build.appVersion ?? "Unknown"} (${report.build.buildNumber ?? "?"})`,
+    `${report.build.channel}  \u2022  ${formatBuildDisplayLabel(report.build)}  \u2022  ${report.build.official ? "CI attested" : "self-built"}`,
     ``,
     report.notes.slice(0, 300) + (report.notes.length > 300 ? "..." : ""),
   ].join("\n");
@@ -867,8 +1157,10 @@ async function postToDiscord(webhookUrl: string, report: ReportPayload, issueUrl
     description: desc,
     color: STATUS_COLORS[report.status],
     fields: [
-      { name: "Build", value: `${report.build.appVersion ?? "Unknown"} (${report.build.buildNumber ?? "?"})`, inline: true },
+      { name: "Build", value: formatBuildDisplayLabel(report.build), inline: true },
       { name: "Channel", value: report.build.channel, inline: true },
+      ...(report.build.stage ? [{ name: "Stage", value: report.build.stage, inline: true }] : []),
+      { name: "Trust", value: report.build.official ? "CI attested" : "Self-built", inline: true },
       ...(report.build.commitShort ? [{ name: "Commit", value: `\`${report.build.commitShort}\``, inline: true }] : []),
     ],
     footer: { text: submittedBy ? `${submittedBy} \u2022 ${SOURCE_LABELS[source]}` : SOURCE_LABELS[source] },
@@ -1175,29 +1467,31 @@ async function processReport(
   screenshotUrls: string[] = [],
   submittedBy?: string
 ): Promise<PipelineResult> {
+  const trustedReport = await applyBuildTrust(env, report, source);
+
   // 1. Fetch current compatibility.json from GitHub
   const { content: games, sha } = await getFileFromGitHub(env, env.GITHUB_TOKEN);
   const releaseBuilds = await fetchReleaseBuildManifest(env);
 
   // 2. Merge in the new report
-  const updated = mergeReport(games, report, releaseBuilds, screenshotUrls, source, submittedBy);
+  const updated = mergeReport(games, trustedReport, releaseBuilds, screenshotUrls, source, submittedBy);
 
   // 3. Commit back to GitHub
-  const platformDisplay = report.platform === "ios" ? "iOS" : "macOS";
-  const commitMsg = `compat: ${report.title} \u2014 ${report.status} on ${deviceDisplayName(report.device)} (${platformDisplay}) [via ${source}]`;
+  const platformDisplay = trustedReport.platform === "ios" ? "iOS" : "macOS";
+  const commitMsg = `compat: ${trustedReport.title} \u2014 ${trustedReport.status} on ${deviceDisplayName(trustedReport.device)} (${platformDisplay}) [via ${source}]`;
   await commitToGitHub(env, env.GITHUB_TOKEN, updated, sha, commitMsg);
 
   // 4. Create or update GitHub issue (one issue per game)
   let issueUrl = "";
   try {
-    issueUrl = await createOrUpdateIssue(env, env.GITHUB_TOKEN, report, source, screenshotUrls, submittedBy);
+    issueUrl = await createOrUpdateIssue(env, env.GITHUB_TOKEN, trustedReport, source, screenshotUrls, submittedBy);
   } catch (e) {
     console.error("Issue creation/update failed:", e);
   }
 
   // 5. Post to Discord
   try {
-    await postToDiscord(env.DISCORD_WEBHOOK, report, issueUrl, source, screenshotUrls, submittedBy);
+    await postToDiscord(env.DISCORD_WEBHOOK, trustedReport, issueUrl, source, screenshotUrls, submittedBy);
   } catch (e) {
     console.error("Discord post failed:", e);
   }
@@ -1211,8 +1505,8 @@ async function processReport(
 
   return {
     success: true,
-    game: report.title,
-    status: report.status,
+    game: trustedReport.title,
+    status: trustedReport.status,
     issueUrl,
   };
 }
