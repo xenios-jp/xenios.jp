@@ -363,9 +363,6 @@ export default async function GameDetailPage({
           <p className="mt-3 text-[15px] leading-relaxed text-text-muted">
             Last updated: {game.updatedAt}
           </p>
-          <p className="mt-2 text-[15px] leading-relaxed text-text-secondary">
-            {game.notes}
-          </p>
         </div>
       </section>
 
