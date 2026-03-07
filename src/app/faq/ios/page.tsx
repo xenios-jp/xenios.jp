@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Accordion } from "@/components/accordion";
-import { EMULATOR_GITHUB_ISSUES_URL } from "@/lib/constants";
+import { DISCORD_URL, WEBSITE_GITHUB_ISSUES_URL } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: "FAQ",
@@ -31,8 +31,7 @@ const general = [
     title: "Is XeniOS free?",
     content: (
       <p>
-        Yes. Like the upstream Xenia project, XeniOS is completely free and
-        open source. There are no ads, subscriptions, or in-app purchases.
+        Yes. Like the upstream Xenia project, XeniOS is open source.
       </p>
     ),
   },
@@ -52,15 +51,25 @@ const general = [
       <p>
         Open an issue on the{" "}
         <a
-            href={EMULATOR_GITHUB_ISSUES_URL}
+          href={WEBSITE_GITHUB_ISSUES_URL}
           target="_blank"
           rel="noopener noreferrer"
           className="text-accent hover:text-accent-hover transition-colors underline underline-offset-2"
         >
           GitHub repository
         </a>{" "}
-        or join the community Discord server. Please include device model, iOS
-        version, game title, and reproduction steps.
+        for bugs, feature requests, and tracked work items. For support or
+        setup help, use the{" "}
+        <a
+          href={DISCORD_URL}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-accent hover:text-accent-hover transition-colors underline underline-offset-2"
+        >
+          community Discord server
+        </a>
+        . Please include your device model, iOS version, game title, and
+        reproduction steps.
       </p>
     ),
   },
@@ -68,9 +77,9 @@ const general = [
     title: "How can I contribute to the project?",
     content: (
       <p>
-        Contributions are welcome in many forms: code patches, compatibility
-        reports, documentation improvements, translations, and testing nightly
-        builds. Check the contributing guide on GitHub for details.
+        Contributions are welcome in code, documentation, bug reports, feature
+        requests, and compatibility reports. Check the contributing guide on
+        GitHub for details.
       </p>
     ),
   },
@@ -81,28 +90,29 @@ const installation = [
     title: "How do I install XeniOS on my device?",
     content: (
       <div className="space-y-2">
-        <p>There are three supported installation methods:</p>
+        <p>
+          The current supported public install path is manual IPA sideloading
+          through SideStore.
+        </p>
         <ul className="list-disc pl-5 space-y-1">
           <li>
             <strong className="text-text-primary">SideStore</strong> &mdash; add
-            the XeniOS source directly, or sideload the IPA manually.
-            Requires refreshing every 7 days on free Apple IDs.
-          </li>
-          <li>
-            <strong className="text-text-primary">TrollStore</strong> &mdash;
-            permanent install with no signing limits. Requires a compatible iOS
-            version and exploit.
-          </li>
-          <li>
-            <strong className="text-text-primary">Direct sideload</strong> &mdash;
-            sign with Xcode and an Apple Developer account.
+            the XeniOS IPA manually and refresh it every 7 days on free Apple
+            IDs.
           </li>
         </ul>
         <p>
-          After installation, complete JIT setup before launching games. On
-          newer devices, also install LocalDevVPN. Quick device guide: iPhone 14+,
-          iPad mini (6th gen)+, iPad (10th gen)+, iPad Air (5th gen/M1)+, and
-          iPad Pro (M1)+ should use LocalDevVPN. If unsure, install it anyway.
+          After installation, complete JIT setup before launching games.
+          If you need help with SideStore or the first install pass, use{" "}
+          <a
+            href={DISCORD_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-accent hover:text-accent-hover transition-colors underline underline-offset-2"
+          >
+            Discord
+          </a>
+          .
         </p>
       </div>
     ),
@@ -111,32 +121,70 @@ const installation = [
     title: "What iOS version do I need?",
     content: (
       <p>
-        iOS 17.0 or later is required. Newer iOS versions may include Metal
-        driver improvements that benefit performance.
+        The lowest tested version right now is iOS / iPadOS 18.0. Builds may
+        also work on 17.x or 16.x, but those versions are currently untested
+        and should not be treated as validated yet.
       </p>
     ),
   },
   {
     title: "What is JIT, and why do I need it?",
     content: (
-      <p>
-        JIT is the permission the emulator needs to execute translated game
-        code. Without JIT, XeniOS can open, but games won&apos;t start.
-        Use StikDebug to enable JIT. On newer devices, also
-        run LocalDevVPN (especially on iPhone 14+ and modern iPads like iPad
-        mini 6+, iPad 10+, iPad Air 5+/M1+, and iPad Pro M1+). If unsure,
-        install LocalDevVPN anyway.
-      </p>
+      <div className="space-y-2">
+        <p>
+          JIT is the permission the emulator needs to execute translated game
+          code. Without JIT, XeniOS can open, but games won&apos;t start.
+        </p>
+        <p>
+          Use{" "}
+          <a
+            href="https://github.com/StephenDev0/StikDebug"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-accent hover:text-accent-hover transition-colors underline underline-offset-2"
+          >
+            StikDebug
+          </a>{" "}
+          to enable JIT. Depending on your iOS / iPadOS version and device,
+          this may also require <strong className="text-text-primary">LocalDevVPN</strong>.
+          Current public guidance covers normal StikDebug flows on 17.4-18.x,
+          older 17.0-17.3 setups that may need tools such as SideJITServer, and
+          iOS 26 setups that are more version- and device-sensitive. Check the{" "}
+          <a
+            href="https://docs.sidestore.io/docs/advanced/jit"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-accent hover:text-accent-hover transition-colors underline underline-offset-2"
+          >
+            latest SideStore JIT guide
+          </a>{" "}
+          before assuming a setup will work unchanged. If you are blocked on
+          JIT setup, use{" "}
+          <a
+            href={DISCORD_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-accent hover:text-accent-hover transition-colors underline underline-offset-2"
+          >
+            Discord
+          </a>{" "}
+          for help.
+        </p>
+      </div>
     ),
   },
   {
     title: "What devices are supported?",
     content: (
       <p>
-        Any iPhone or iPad with an A16 Bionic chip or newer is recommended.
-        Older chips (A14, A15) may launch some titles but will likely experience
-        very low frame rates. M-series iPads offer the best performance. The
-        app requires the <code className="text-text-primary bg-bg-surface-2 px-1 rounded">increased-memory-limit</code> entitlement.
+        XeniOS targets ARM64 iPhone and iPad hardware with Metal support.
+        Practical results vary heavily by chip, available memory, and the game
+        being tested, and broader device validation is still in progress. The
+        app uses the{" "}
+        <code className="text-text-primary bg-bg-surface-2 px-1 rounded">
+          increased-memory-limit
+        </code>{" "}
+        entitlement on supported installs.
       </p>
     ),
   },
@@ -182,12 +230,12 @@ const performance = [
     content: (
       <p>
         Performance varies significantly by game, scene, and device. The{" "}
-        <a
+        <Link
           href="/compatibility"
           className="text-accent hover:text-accent-hover transition-colors underline underline-offset-2"
         >
           compatibility list
-        </a>{" "}
+        </Link>{" "}
         includes a performance rating for each tested game: Great (near full
         speed), OK (playable with drops), or Poor (significant issues).
         M-series iPads and newer iPhones generally perform best.
@@ -264,12 +312,12 @@ const games = [
     content: (
       <p>
         Check the{" "}
-        <a
+        <Link
           href="/compatibility"
           className="text-accent hover:text-accent-hover transition-colors underline underline-offset-2"
         >
           compatibility list
-        </a>{" "}
+        </Link>{" "}
         for community-submitted reports. Each game page shows its current
         status, performance tier, and tested devices. Results vary by device
         and build — if your game isn&apos;t listed, try it and submit a report.
@@ -427,8 +475,8 @@ const controllers = [
     title: "Can I use on-screen touch controls?",
     content: (
       <p>
-        Gameplay touch-to-gamepad controls are not currently implemented. Touch
-        input is for launcher/settings UI navigation only.
+        Gameplay touch controls are planned, but not currently implemented.
+        Touch input is for launcher/settings UI navigation only.
       </p>
     ),
   },

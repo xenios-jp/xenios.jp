@@ -122,17 +122,7 @@ export default function LegalPage() {
                   https://github.com/xenios-jp/xenios.jp
                 </a>
               </li>
-              <li>
-                Emulator:&nbsp;
-                <a
-                  href={EMULATOR_GITHUB_URL}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-accent underline underline-offset-2 hover:text-accent-hover"
-                >
-                  https://github.com/xenios-jp/XeniOS
-                </a>
-              </li>
+              <li>Emulator: private source repository (not public yet)</li>
               <li>
                 Upstream fork base:&nbsp;
                 <a

@@ -3,8 +3,8 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Callout } from "@/components/callout";
 import {
-  EMULATOR_GITHUB_ISSUES_URL,
-  EMULATOR_GITHUB_URL,
+  DISCORD_URL,
+  WEBSITE_GITHUB_ISSUES_URL,
 } from "@/lib/constants";
 
 interface DocEntry {
@@ -30,25 +30,25 @@ const iosDocs: Record<string, DocEntry> = {
           <Callout type="warning">
             XeniOS requires JIT to run games. This is normal on iOS: installing
             the app is not enough by itself. Enable JIT with{" "}
-            <a href="https://github.com/StephenDev0/StikDebug" target="_blank" rel="noopener noreferrer" className="text-accent underline underline-offset-2 hover:text-accent-hover font-semibold">StikDebug</a>. On newer
-            devices (especially iPhone 14+ and modern iPads), also install{" "}
-            <a href="https://apps.apple.com/us/app/localdevvpn/id6755608044" target="_blank" rel="noopener noreferrer" className="text-accent underline underline-offset-2 hover:text-accent-hover font-semibold">LocalDevVPN</a>. Quick
-            device guide: <strong className="text-text-primary">iPhone 14+</strong>,{" "}
-            <strong className="text-text-primary">iPad mini (6th gen)+</strong>,{" "}
-            <strong className="text-text-primary">iPad (10th gen)+</strong>,{" "}
-            <strong className="text-text-primary">iPad Air (5th gen/M1)+</strong>, and{" "}
-            <strong className="text-text-primary">iPad Pro (M1)+</strong>. If
-            unsure, install LocalDevVPN anyway.
+            <a href="https://github.com/StephenDev0/StikDebug" target="_blank" rel="noopener noreferrer" className="text-accent underline underline-offset-2 hover:text-accent-hover font-semibold">StikDebug</a>. Depending on your
+            iOS / iPadOS version and device, this may also require{" "}
+            <a href="https://apps.apple.com/us/app/localdevvpn/id6755608044" target="_blank" rel="noopener noreferrer" className="text-accent underline underline-offset-2 hover:text-accent-hover font-semibold">LocalDevVPN</a>. Check the{" "}
+            <a href="https://docs.sidestore.io/docs/advanced/jit" target="_blank" rel="noopener noreferrer" className="text-accent underline underline-offset-2 hover:text-accent-hover font-semibold">latest SideStore JIT guide</a>{" "}
+            before assuming a setup will work unchanged. If you are blocked on
+            setup, use{" "}
+            <a href={DISCORD_URL} target="_blank" rel="noopener noreferrer" className="text-accent underline underline-offset-2 hover:text-accent-hover font-semibold">Discord</a>.
           </Callout>
         </div>
 
         <h2>Prerequisites</h2>
         <p className="mt-3 text-[15px] text-text-secondary leading-relaxed">
-          You will need an iPhone or iPad running <strong className="text-text-primary">iOS 17.0</strong> or
-          later with an ARM64 chip and Metal GPU support (iPhone 15 or later
-          recommended). You will also need game files dumped from your own Xbox
-          360 discs. XeniOS does not include, provide, or link to any game
-          files. Piracy is not supported or condoned.
+          You will need an ARM64 iPhone or iPad with Metal support. The lowest
+          tested setup right now is <strong className="text-text-primary">iOS / iPadOS 18.0</strong> on{" "}
+          <strong className="text-text-primary">A16-class hardware</strong>.
+          Older versions or older chips may work, but they are currently
+          untested. You will also need game files dumped from your own Xbox 360
+          discs. XeniOS does not include, provide, or link to any game files.
+          Piracy is not supported or condoned.
         </p>
 
         <h2>Installation</h2>
@@ -60,19 +60,21 @@ const iosDocs: Record<string, DocEntry> = {
           >
             downloads page
           </Link>
-          . Sideload it using SideStore or TrollStore:
+          . The current documented public install path is manual IPA sideloading
+          through SideStore:
         </p>
         <ul className="mt-3 space-y-1.5 text-[15px] text-text-secondary leading-relaxed list-disc pl-5">
           <li>
             <strong className="text-text-primary"><a href="https://sidestore.io/" target="_blank" rel="noopener noreferrer" className="text-accent underline underline-offset-2 hover:text-accent-hover">SideStore</a></strong> —
-            Add the XeniOS source directly in SideStore, or download the IPA
-            and open it with SideStore to install.
-          </li>
-          <li>
-            <strong className="text-text-primary">TrollStore</strong> — Tap
-            the IPA file in Files to install permanently.
+            Download the IPA and open it with SideStore to install. On free
+            Apple IDs, refreshes are still required every 7 days.
           </li>
         </ul>
+        <p className="mt-3 text-[15px] text-text-secondary leading-relaxed">
+          If the install path itself is what is failing, use{" "}
+          <a href={DISCORD_URL} target="_blank" rel="noopener noreferrer" className="text-accent underline underline-offset-2 hover:text-accent-hover">Discord</a>{" "}
+          for setup help before filing a bug.
+        </p>
 
         <h2>Adding Games</h2>
         <p className="mt-3 text-[15px] text-text-secondary leading-relaxed">
@@ -247,14 +249,23 @@ const iosDocs: Record<string, DocEntry> = {
         <p className="mt-3 text-[15px] text-text-secondary leading-relaxed">
           If XeniOS crashes immediately after opening:
         </p>
+        <p className="mt-3 text-[15px] text-text-secondary leading-relaxed">
+          If you are not sure whether this is a setup problem or a real bug,
+          ask in{" "}
+          <a href={DISCORD_URL} target="_blank" rel="noopener noreferrer" className="text-accent underline underline-offset-2 hover:text-accent-hover">Discord</a>{" "}
+          first.
+        </p>
         <ol className="mt-3 space-y-1.5 text-[15px] text-text-secondary leading-relaxed list-decimal pl-5">
-          <li>Make sure your device is running iOS 17.0 or later.</li>
+          <li>
+            Confirm you are on a tested setup. The lowest tested combination
+            right now is iOS / iPadOS 18.0 on A16-class hardware.
+          </li>
           <li>Re-sign the IPA — expired signing profiles are the most common cause.</li>
           <li>
-            Ensure a JIT helper is active (StikDebug). On newer devices, also
-            run LocalDevVPN (iPhone 14+ and modern
-            iPads such as iPad mini 6+, iPad 10+, iPad Air 5+/M1+, and iPad
-            Pro M1+). If unsure, install it anyway.
+            Ensure a JIT helper is active (StikDebug). Depending on your
+            iOS / iPadOS version and device, you may also need LocalDevVPN.
+            Check the latest SideStore JIT guide if your current helper setup is
+            unclear.
           </li>
           <li>
             Delete the shader cache at{" "}
@@ -387,7 +398,7 @@ flush_log = true`}</pre>
         <p className="mt-3 text-[15px] text-text-secondary leading-relaxed">
           Open a new issue on the{" "}
           <a
-            href={EMULATOR_GITHUB_ISSUES_URL}
+            href={WEBSITE_GITHUB_ISSUES_URL}
             target="_blank"
             rel="noopener noreferrer"
             className="text-accent underline underline-offset-2 hover:text-accent-hover"
@@ -408,29 +419,23 @@ flush_log = true`}</pre>
       <>
         <h2>Building from Source</h2>
         <p className="mt-3 text-[15px] text-text-secondary leading-relaxed">
-          XeniOS is the iOS port of Xenia Edge, written in C++ with a Metal GPU
-          backend. You will need Xcode 16+, macOS 15+, and the project
-          dependencies (SDL2, FFmpeg, SPIRV-Cross). The build system uses
-          Premake5 to generate Xcode project files.
+          The active XeniOS source repository is currently private while the
+          public website, compatibility tracker, and release pipeline are being
+          split out cleanly. Public build metadata and compatibility data are
+          available here on xenios.jp, but source checkout instructions are not
+          published yet.
         </p>
         <div className="mt-4 rounded-lg bg-bg-surface-2/60 border border-border p-4">
-          <pre className="text-sm font-mono text-text-primary whitespace-pre-wrap">{`git clone --recursive ${EMULATOR_GITHUB_URL}.git
-cd XeniOS
+          <pre className="text-sm font-mono text-text-primary whitespace-pre-wrap">{`Source checkout is not public yet.
 
-# Set up build environment
-./xb setup
-
-# Generate Xcode project
-./xb premake
-
-# Build for iOS (release)
-./xb build --target_os=ios --config=release`}</pre>
+Need contributor access?
+1. Join the Discord server
+2. Open an issue on the public website tracker
+3. Ask the maintainers for source access details`}</pre>
         </div>
         <p className="mt-3 text-[15px] text-text-secondary leading-relaxed">
-          The <C>xb</C> script supports: <C>setup</C>, <C>premake</C>,{" "}
-          <C>build</C>, <C>buildshaders</C>, <C>clean</C>, <C>nuke</C>,{" "}
-          <C>lint</C>, <C>format</C>, <C>test</C>, and <C>devenv</C> (opens
-          the generated Xcode project).
+          When public source access is opened up, the build docs here will be
+          updated with the exact checkout and build steps for iOS.
         </p>
 
         <h2>Architecture Overview</h2>
@@ -440,8 +445,8 @@ cd XeniOS
             ARM64 JIT via Oaknut. Three-phase pipeline: PPC &rarr; HIR
             (Hardware-Independent IR) &rarr; native ARM64. On iOS, uses
             dual-mapped JIT memory with W^X enforcement. Requires a JIT helper
-            (StikDebug); on newer devices, LocalDevVPN is
-            also required (see Getting Started for model guidance).
+            (StikDebug); depending on iOS / iPadOS version and device,
+            LocalDevVPN may also be required (see Getting Started).
           </li>
           <li>
             <strong className="text-text-primary">GPU</strong> — Xenos command
@@ -618,7 +623,7 @@ const macDocs: Record<string, DocEntry> = {
         <p className="mt-3 text-[15px] text-text-secondary leading-relaxed">
           File issues on{" "}
           <a
-            href={EMULATOR_GITHUB_ISSUES_URL}
+            href={WEBSITE_GITHUB_ISSUES_URL}
             target="_blank"
             rel="noopener noreferrer"
             className="text-accent underline underline-offset-2 hover:text-accent-hover"
@@ -637,16 +642,16 @@ const macDocs: Record<string, DocEntry> = {
       <>
         <h2>Single Repository Workflow</h2>
         <p className="mt-3 text-[15px] text-text-secondary leading-relaxed">
-          iOS and Mac are built from one repository. Keep shared changes in
-          common modules and isolate platform-specific code to platform targets.
+          iOS and Mac are built from one private repository. Shared changes stay
+          in common modules, with platform-specific code isolated to platform targets.
         </p>
         <div className="mt-4 rounded-lg bg-bg-surface-2/60 border border-border p-4">
-          <pre className="text-sm font-mono text-text-primary whitespace-pre-wrap">{`git clone --recursive ${EMULATOR_GITHUB_URL}.git
-cd XeniOS
+          <pre className="text-sm font-mono text-text-primary whitespace-pre-wrap">{`Public source checkout is not available yet.
 
-./xb setup
-./xb premake
-./xb build --target_os=macos --config=release`}</pre>
+For contributor access:
+- join Discord
+- open a public issue describing the change
+- request source access from the maintainers`}</pre>
         </div>
       </>
     ),

@@ -105,14 +105,7 @@ export default function PrivacyPage() {
             >
               Website repository: {WEBSITE_GITHUB_URL}
             </a>
-            <a
-              href={EMULATOR_GITHUB_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-accent underline underline-offset-2 hover:text-accent-hover"
-            >
-              Emulator repository: {EMULATOR_GITHUB_URL}
-            </a>
+            <p>Emulator repository: private (not public yet)</p>
             <a
               href={XENIA_UPSTREAM_REPO_URL}
               target="_blank"

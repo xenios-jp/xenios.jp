@@ -1,5 +1,5 @@
-blank_issues_enabled: false
+blank_issues_enabled: true
 contact_links:
-  - name: XeniOS Discord
-    url: https://discord.gg/xenios
-    about: For tech support, troubleshooting, and general discussion
+  - name: Compatibility Reports
+    url: https://github.com/xenios-jp/game-compatibility/issues/new?template=compatibility_report.yml
+    about: Submit game compatibility reports in the dedicated public tracker.

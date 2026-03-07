@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { ThemeToggle } from "@/components/theme-toggle";
-import { EMULATOR_GITHUB_URL, DISCORD_URL, KOFI_URL } from "@/lib/constants";
+import { WEBSITE_GITHUB_URL, DISCORD_URL, KOFI_URL } from "@/lib/constants";
 
 const navLinks = [
   { label: "Download", href: "/download" },
@@ -134,7 +134,7 @@ export function Navbar() {
         {/* Desktop right icons */}
         <div className="hidden md:flex items-center gap-3">
           <a
-            href={EMULATOR_GITHUB_URL}
+            href={WEBSITE_GITHUB_URL}
             target="_blank"
             rel="noopener noreferrer"
             className="p-2 text-text-secondary transition-colors hover:text-text-primary"
@@ -166,7 +166,7 @@ export function Navbar() {
         {/* Mobile right icons + menu button */}
         <div className="flex md:hidden items-center gap-1">
           <a
-            href={EMULATOR_GITHUB_URL}
+            href={WEBSITE_GITHUB_URL}
             target="_blank"
             rel="noopener noreferrer"
             className="p-2 text-text-secondary transition-colors hover:text-text-primary"

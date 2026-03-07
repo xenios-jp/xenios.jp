@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Accordion } from "@/components/accordion";
-import { EMULATOR_GITHUB_ISSUES_URL } from "@/lib/constants";
+import { WEBSITE_GITHUB_ISSUES_URL } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: "FAQ",
@@ -32,8 +32,12 @@ const macItems = [
     content: (
       <p>
         Go to the releases page, download the latest macOS asset, open it, then
-        move the app to Applications. If first launch is blocked, right-click
-        the app and choose Open once.
+        move the app to Applications. If Gatekeeper blocks first launch, try
+        opening the app once, then go to{" "}
+        <strong className="text-text-primary">
+          System Settings &rarr; Privacy &amp; Security
+        </strong>{" "}
+        and use <strong className="text-text-primary">Open Anyway</strong>.
       </p>
     ),
   },
@@ -67,15 +71,16 @@ const macItems = [
       <p>
         Open an issue on{" "}
         <a
-          href={EMULATOR_GITHUB_ISSUES_URL}
+          href={WEBSITE_GITHUB_ISSUES_URL}
           target="_blank"
           rel="noopener noreferrer"
           className="text-accent hover:text-accent-hover transition-colors underline underline-offset-2"
         >
           GitHub
         </a>{" "}
-        and include your Mac model, macOS version, build version, game title,
-        and steps to reproduce.
+        for bugs, feature requests, and tracked work items. For support or
+        setup help, use Discord. Please include your Mac model, macOS version,
+        build version, game title, and steps to reproduce.
       </p>
     ),
   },
@@ -128,4 +133,3 @@ export default function MacFAQPage() {
     </div>
   );
 }
-

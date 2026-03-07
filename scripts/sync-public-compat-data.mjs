@@ -9,6 +9,8 @@ const repoRoot = path.resolve(__dirname, "..");
 const sourceToTarget = [
   ["data/compatibility.json", "public/compatibility/data.json"],
   ["data/discussions.json", "public/compatibility/discussions.json"],
+  ["data/release-builds.json", "public/builds/release-builds.json"],
+  ["data/builds-history.json", "public/builds/history.json"],
 ];
 
 async function syncFile(sourceRelativePath, targetRelativePath) {

@@ -5,7 +5,7 @@
   "scripts": {
     "build": "next build",
     "build:credits": "node scripts/build-credits.mjs",
-    "build:discussions": "node scripts/build-discussions.mjs",
+    "build:discussions": "node scripts/mirror-compat-data.mjs",
     "dev": "next dev",
     "start": "next start",
     "lint": "eslint",
@@ -13,6 +13,7 @@
     "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
     "upload": "opennextjs-cloudflare build && opennextjs-cloudflare upload",
     "cf-typegen": "wrangler types --env-interface CloudflareEnv cloudflare-env.d.ts",
+    "mirror:compat-data": "node scripts/mirror-compat-data.mjs",
     "sync:public-data": "node scripts/sync-public-compat-data.mjs"
   },
   "dependencies": {

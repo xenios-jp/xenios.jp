@@ -1,0 +1,43 @@
+name: Mirror Compatibility Data
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 2 * * *"
+  repository_dispatch:
+    types: [compat-data-updated]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: compat-mirror
+  cancel-in-progress: false
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Mirror canonical compatibility data
+        run: node scripts/mirror-compat-data.mjs
+
+      - name: Commit mirrored data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/compatibility.json data/discussions.json
+          if ! git diff --staged --quiet; then
+            git commit -m "data: mirror canonical compatibility snapshots [skip ci]"
+            git push
+          else
+            echo "No changes"
+          fi
