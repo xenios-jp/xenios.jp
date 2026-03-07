@@ -1,71 +1,58 @@
 "use client";
 
-import { useSearchParams, useRouter } from "next/navigation";
-import { useMemo, useCallback, Suspense } from "react";
+import type { FormEvent } from "react";
+import { Suspense, useCallback, useMemo } from "react";
 import Link from "next/link";
-import { type GameStatus, type PerfTier, type Game, deviceName } from "@/lib/compatibility";
-import { EMULATOR_GITHUB_COMPATIBILITY_REPORT_URL } from "@/lib/constants";
+import { useRouter, useSearchParams } from "next/navigation";
 import { Pill } from "@/components/pill";
+import {
+  COMPATIBILITY_CHANNELS,
+  SUMMARY_STATUS_ORDER,
+  deviceName,
+  getActiveSummary,
+  getCompatibilityChannelLabel,
+  getPerfLabel,
+  getReportsForChannel,
+  getStatusLabel,
+  parseCompatibilityChannel,
+  type CompatibilityChannel,
+  type Game,
+  type PerfTier,
+  type SummaryStatus,
+} from "@/lib/compatibility";
+import { COMPATIBILITY_TRACKER_REPORT_URL } from "@/lib/constants";
 
 type SortKey = "updated" | "alpha";
 
 interface FilterState {
+  channel: CompatibilityChannel;
   q: string;
-  status: GameStatus | null;
+  status: SummaryStatus | null;
   perf: PerfTier | "all";
   device: string;
   sort: SortKey;
 }
 
-const STATUS_ORDER: GameStatus[] = [
-  "playable",
-  "ingame",
-  "intro",
-  "loads",
-  "nothing",
-];
-
-const STATUS_LABELS: Record<GameStatus, string> = {
-  playable: "Playable",
-  ingame: "In-Game",
-  intro: "Intro",
-  loads: "Loads",
-  nothing: "Nothing",
-};
-
-const STATUS_COLORS: Record<GameStatus, string> = {
+const STATUS_COLORS: Record<SummaryStatus, string> = {
   playable: "bg-emerald-400",
   ingame: "bg-blue-400",
   intro: "bg-amber-400",
   loads: "bg-orange-400",
   nothing: "bg-red-400",
+  untested: "bg-zinc-400",
 };
 
-const STATUS_DOT_COLORS: Record<GameStatus, string> = {
-  playable: "bg-emerald-400",
-  ingame: "bg-blue-400",
-  intro: "bg-amber-400",
-  loads: "bg-orange-400",
-  nothing: "bg-red-400",
-};
-
-const PERF_LABELS: Record<PerfTier, string> = {
-  great: "Great",
-  ok: "OK",
-  poor: "Poor",
-  "n/a": "N/A",
-};
-
-function parseStatus(value: string | null): GameStatus | null {
+function parseStatus(value: string | null): SummaryStatus | null {
   if (!value) return null;
-  return STATUS_ORDER.includes(value as GameStatus)
-    ? (value as GameStatus)
+  return SUMMARY_STATUS_ORDER.includes(value as SummaryStatus)
+    ? (value as SummaryStatus)
     : null;
 }
 
 function parsePerf(value: string | null): PerfTier | "all" {
-  if (value === "great" || value === "ok" || value === "poor" || value === "n/a")
+  if (value === "great" || value === "ok" || value === "poor" || value === "n/a") {
     return value;
+  }
   return "all";
 }
 
@@ -75,6 +62,7 @@ function parseSort(value: string | null): SortKey {
 
 function buildQueryString(filters: FilterState): string {
   const params = new URLSearchParams();
+  if (filters.channel !== "release") params.set("channel", filters.channel);
   if (filters.q) params.set("q", filters.q);
   if (filters.status) params.set("status", filters.status);
   if (filters.perf !== "all") params.set("perf", filters.perf);
@@ -84,17 +72,40 @@ function buildQueryString(filters: FilterState): string {
   return query ? `?${query}` : "";
 }
 
-function gameUpdatedAtMs(game: Game): number {
-  const timestamp = new Date(game.updatedAt).getTime();
+function gameHref(slug: string, channel: CompatibilityChannel): string {
+  if (channel === "release") return `/compatibility/${slug}`;
+  return `/compatibility/${slug}?channel=${channel}`;
+}
+
+function summaryUpdatedAtMs(game: Game, channel: CompatibilityChannel): number {
+  const timestamp = new Date(getActiveSummary(game, channel).updatedAt).getTime();
   return Number.isNaN(timestamp) ? 0 : timestamp;
 }
 
-function GameRow({ game }: { game: Game }) {
+function summaryDeviceLabel(game: Game, channel: CompatibilityChannel): string {
+  const summary = getActiveSummary(game, channel);
+  return summary.lastReport ? deviceName(summary.lastReport.device) : "Untested";
+}
+
+function summaryUpdatedLabel(game: Game, channel: CompatibilityChannel): string {
+  const summary = getActiveSummary(game, channel);
+  return summary.updatedAt || "No reports yet";
+}
+
+function GameRow({
+  game,
+  channel,
+}: {
+  game: Game;
+  channel: CompatibilityChannel;
+}) {
+  const summary = getActiveSummary(game, channel);
+
   return (
     <tr className="border-b border-border transition hover:bg-bg-surface/60">
       <td className="py-2.5 pr-4 pl-4 font-mono text-sm text-text-muted">
         <Link
-          href={`/compatibility/${game.slug}`}
+          href={gameHref(game.slug, channel)}
           className="transition hover:text-accent"
         >
           {game.titleId}
@@ -102,30 +113,40 @@ function GameRow({ game }: { game: Game }) {
       </td>
       <td className="py-2.5 pr-4">
         <Link
-          href={`/compatibility/${game.slug}`}
+          href={gameHref(game.slug, channel)}
           className="font-medium text-text-primary transition hover:text-accent"
         >
           {game.title}
         </Link>
       </td>
       <td className="py-2.5 pr-4">
-        <Pill variant={game.status}>{STATUS_LABELS[game.status]}</Pill>
+        <Pill variant={summary.status}>{getStatusLabel(summary.status)}</Pill>
       </td>
       <td className="py-2.5 pr-4">
-        <Pill variant={game.perf}>{PERF_LABELS[game.perf]}</Pill>
+        <Pill variant={summary.perf}>{getPerfLabel(summary.perf)}</Pill>
       </td>
       <td className="py-2.5 pr-4 text-sm text-text-secondary">
-        {deviceName(game.lastReport.device)}
+        {summaryDeviceLabel(game, channel)}
       </td>
-      <td className="py-2.5 pr-4 text-sm text-text-muted">{game.updatedAt}</td>
+      <td className="py-2.5 pr-4 text-sm text-text-muted">
+        {summaryUpdatedLabel(game, channel)}
+      </td>
     </tr>
   );
 }
 
-function GameCard({ game }: { game: Game }) {
+function GameCard({
+  game,
+  channel,
+}: {
+  game: Game;
+  channel: CompatibilityChannel;
+}) {
+  const summary = getActiveSummary(game, channel);
+
   return (
     <Link
-      href={`/compatibility/${game.slug}`}
+      href={gameHref(game.slug, channel)}
       className="block rounded-lg border border-border bg-bg-surface p-4 transition hover:border-accent/20"
     >
       <div className="mb-2 flex items-start justify-between gap-2">
@@ -135,11 +156,11 @@ function GameCard({ game }: { game: Game }) {
             {game.titleId}
           </span>
         </div>
-        <Pill variant={game.status}>{STATUS_LABELS[game.status]}</Pill>
+        <Pill variant={summary.status}>{getStatusLabel(summary.status)}</Pill>
       </div>
       <div className="flex items-center justify-between text-sm text-text-muted">
-        <span>{deviceName(game.lastReport.device)}</span>
-        <span>{game.updatedAt}</span>
+        <span>{summaryDeviceLabel(game, channel)}</span>
+        <span>{summaryUpdatedLabel(game, channel)}</span>
       </div>
     </Link>
   );
@@ -151,6 +172,7 @@ function CompatibilityListInner({ games: allGames }: { games: Game[] }) {
 
   const filters: FilterState = useMemo(
     () => ({
+      channel: parseCompatibilityChannel(searchParams.get("channel")),
       q: (searchParams.get("q") ?? "").trim(),
       status: parseStatus(searchParams.get("status")),
       perf: parsePerf(searchParams.get("perf")),
@@ -162,10 +184,15 @@ function CompatibilityListInner({ games: allGames }: { games: Game[] }) {
 
   const total = allGames.length;
 
-  // Group raw device values by their display name so duplicates like
-  // "iPhone 17" and "iPhone18,3" (both display as "iPhone 17") merge.
   const deviceGroups = useMemo(() => {
-    const allRaw = [...new Set(allGames.flatMap((g) => g.reports.map((r) => r.device)))];
+    const allRaw = [
+      ...new Set(
+        allGames.flatMap((game) =>
+          getReportsForChannel(game, filters.channel).map((report) => report.device),
+        ),
+      ),
+    ];
+
     const groups = new Map<string, string[]>();
     for (const raw of allRaw) {
       const display = deviceName(raw);
@@ -173,24 +200,28 @@ function CompatibilityListInner({ games: allGames }: { games: Game[] }) {
       existing.push(raw);
       groups.set(display, existing);
     }
-    return [...groups.entries()]
-      .sort(([a], [b]) => a.localeCompare(b));
-  }, [allGames]);
+
+    return [...groups.entries()].sort(([left], [right]) => left.localeCompare(right));
+  }, [allGames, filters.channel]);
+
   const deviceCount = deviceGroups.length;
 
-  const statusCounts: Record<GameStatus, number> = useMemo(() => {
-    const counts: Record<GameStatus, number> = {
+  const statusCounts: Record<SummaryStatus, number> = useMemo(() => {
+    const counts: Record<SummaryStatus, number> = {
       playable: 0,
       ingame: 0,
       intro: 0,
       loads: 0,
       nothing: 0,
+      untested: 0,
     };
+
     allGames.forEach((game) => {
-      counts[game.status] += 1;
+      counts[getActiveSummary(game, filters.channel).status] += 1;
     });
+
     return counts;
-  }, [allGames]);
+  }, [allGames, filters.channel]);
 
   const games = useMemo(() => {
     let filtered = allGames;
@@ -206,78 +237,125 @@ function CompatibilityListInner({ games: allGames }: { games: Game[] }) {
     }
 
     if (filters.status) {
-      filtered = filtered.filter((game) => game.status === filters.status);
+      filtered = filtered.filter(
+        (game) => getActiveSummary(game, filters.channel).status === filters.status,
+      );
     }
 
     if (filters.perf !== "all") {
-      filtered = filtered.filter((game) => game.perf === filters.perf);
+      filtered = filtered.filter(
+        (game) => getActiveSummary(game, filters.channel).perf === filters.perf,
+      );
     }
 
     if (filters.device) {
       const group = deviceGroups.find(([display]) => display === filters.device);
       const rawValues = group ? group[1] : [filters.device];
       filtered = filtered.filter((game) =>
-        game.reports.some((r) => rawValues.includes(r.device))
+        getReportsForChannel(game, filters.channel).some((report) =>
+          rawValues.includes(report.device),
+        ),
       );
     }
 
     const sorted = [...filtered];
     if (filters.sort === "alpha") {
-      sorted.sort((a, b) => a.title.localeCompare(b.title));
+      sorted.sort((left, right) => left.title.localeCompare(right.title));
     } else {
-      sorted.sort((a, b) => gameUpdatedAtMs(b) - gameUpdatedAtMs(a));
+      sorted.sort(
+        (left, right) =>
+          summaryUpdatedAtMs(right, filters.channel) - summaryUpdatedAtMs(left, filters.channel),
+      );
     }
 
     return sorted;
-  }, [allGames, filters]);
+  }, [allGames, deviceGroups, filters]);
 
   const hasFilter =
-    Boolean(filters.q) || filters.status !== null || filters.perf !== "all" || Boolean(filters.device);
+    Boolean(filters.q) ||
+    filters.status !== null ||
+    filters.perf !== "all" ||
+    Boolean(filters.device);
 
   const handleSubmit = useCallback(
-    (e: React.FormEvent<HTMLFormElement>) => {
-      e.preventDefault();
-      const formData = new FormData(e.currentTarget);
-      const newFilters: FilterState = {
+    (event: FormEvent<HTMLFormElement>) => {
+      event.preventDefault();
+      const formData = new FormData(event.currentTarget);
+      const nextFilters: FilterState = {
+        channel: filters.channel,
         q: ((formData.get("q") as string) ?? "").trim(),
         status: filters.status,
         perf: parsePerf(formData.get("perf") as string),
         device: (formData.get("device") as string) ?? "",
         sort: parseSort(formData.get("sort") as string),
       };
-      router.push(`/compatibility${buildQueryString(newFilters)}`);
+      router.push(`/compatibility${buildQueryString(nextFilters)}`);
     },
-    [filters.status, router],
+    [filters.channel, filters.status, router],
   );
 
   return (
     <div className="min-h-screen bg-bg-primary">
       <section className="hero-gradient border-b border-border px-4 pt-20 pb-10 sm:px-6 md:pb-12 lg:px-8">
         <div className="mx-auto max-w-6xl">
-          <h1 className="text-4xl font-bold tracking-tight text-text-primary md:text-5xl">
-            Compatibility
-          </h1>
-          <p className="mt-2 text-lg text-text-secondary">
-            {total} games tested across {deviceCount} devices
+          <div className="flex flex-wrap items-end justify-between gap-4">
+            <div>
+              <h1 className="text-4xl font-bold tracking-tight text-text-primary md:text-5xl">
+                Compatibility
+              </h1>
+              <p className="mt-2 text-lg text-text-secondary">
+                {total} games tracked • {getCompatibilityChannelLabel(filters.channel)} view
+              </p>
+            </div>
+
+            <div className="inline-flex rounded-full border border-border bg-bg-surface p-1">
+              {COMPATIBILITY_CHANNELS.map((channel) => {
+                const active = filters.channel === channel;
+                return (
+                  <Link
+                    key={channel}
+                    href={`/compatibility${buildQueryString({ ...filters, channel })}`}
+                    className={`rounded-full px-4 py-2 text-sm font-medium transition ${
+                      active
+                        ? "bg-accent text-accent-fg"
+                        : "text-text-secondary hover:text-text-primary"
+                    }`}
+                  >
+                    {getCompatibilityChannelLabel(channel)}
+                  </Link>
+                );
+              })}
+            </div>
+          </div>
+
+          <p className="mt-4 max-w-3xl text-sm leading-relaxed text-text-muted">
+            Release is the public default. Preview reports stay visible here,
+            but they no longer overwrite the release-facing answer.
           </p>
         </div>
       </section>
 
       <section className="border-b border-border px-4 py-6 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-6xl">
-          <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-5">
-            {STATUS_ORDER.map((status) => {
+          <div className="mb-4 text-sm text-text-muted">
+            {deviceCount > 0
+              ? `${deviceCount} devices represented in this view`
+              : "No device reports yet in this view"}
+          </div>
+
+          <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-6">
+            {SUMMARY_STATUS_ORDER.map((status) => {
               const count = statusCounts[status];
               const pct = total > 0 ? (count / total) * 100 : 0;
               return (
                 <div key={status} className="flex items-center gap-3">
                   <span
-                    className={`h-2.5 w-2.5 shrink-0 rounded-full ${STATUS_DOT_COLORS[status]}`}
+                    className={`h-2.5 w-2.5 shrink-0 rounded-full ${STATUS_COLORS[status]}`}
                   />
                   <div className="min-w-0 flex-1">
                     <div className="flex items-baseline justify-between gap-2">
                       <span className="text-sm font-medium text-text-primary">
-                        {STATUS_LABELS[status]}
+                        {getStatusLabel(status)}
                       </span>
                       <span className="text-sm text-text-muted">
                         {count} ({pct.toFixed(0)}%)
@@ -309,7 +387,7 @@ function CompatibilityListInner({ games: allGames }: { games: Game[] }) {
           >
             All ({total})
           </Link>
-          {STATUS_ORDER.map((status) => {
+          {SUMMARY_STATUS_ORDER.map((status) => {
             const nextStatus = filters.status === status ? null : status;
             return (
               <Link
@@ -321,7 +399,7 @@ function CompatibilityListInner({ games: allGames }: { games: Game[] }) {
                     : "border-border bg-bg-surface text-text-secondary hover:text-text-primary"
                 }`}
               >
-                {STATUS_LABELS[status]} ({statusCounts[status]})
+                {getStatusLabel(status)} ({statusCounts[status]})
               </Link>
             );
           })}
@@ -406,7 +484,7 @@ function CompatibilityListInner({ games: allGames }: { games: Game[] }) {
             </button>
 
             <Link
-              href="/compatibility"
+              href={filters.channel === "release" ? "/compatibility" : `/compatibility?channel=${filters.channel}`}
               className="rounded-lg border border-border bg-bg-surface px-4 py-2.5 text-sm font-medium text-text-secondary transition hover:bg-bg-surface-2 hover:text-text-primary"
             >
               Reset
@@ -435,7 +513,7 @@ function CompatibilityListInner({ games: allGames }: { games: Game[] }) {
             </thead>
             <tbody>
               {games.map((game) => (
-                <GameRow key={game.slug} game={game} />
+                <GameRow key={game.slug} game={game} channel={filters.channel} />
               ))}
             </tbody>
           </table>
@@ -449,7 +527,7 @@ function CompatibilityListInner({ games: allGames }: { games: Game[] }) {
 
         <div className="flex flex-col gap-2 md:hidden">
           {games.map((game) => (
-            <GameCard key={game.slug} game={game} />
+            <GameCard key={game.slug} game={game} channel={filters.channel} />
           ))}
 
           {games.length === 0 ? (
@@ -469,7 +547,7 @@ function CompatibilityListInner({ games: allGames }: { games: Game[] }) {
             Help the community by testing a game and submitting a compatibility report.
           </p>
           <a
-            href={EMULATOR_GITHUB_COMPATIBILITY_REPORT_URL}
+            href={COMPATIBILITY_TRACKER_REPORT_URL}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 rounded-full bg-accent px-8 py-3.5 text-[15px] font-semibold text-accent-fg transition hover:bg-accent-hover"

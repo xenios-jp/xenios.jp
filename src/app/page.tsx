@@ -2,24 +2,32 @@ import Link from "next/link";
 import { StateStrip } from "@/components/state-strip";
 import { Pill } from "@/components/pill";
 import { HeroTitle } from "@/components/hero-title";
-import { getAllGames, deviceName, type GameStatus } from "@/lib/compatibility";
+import { getBuildDisplayLabel, getLatestBuild } from "@/lib/builds";
+import {
+  deviceName,
+  getActiveSummary,
+  getAllGames,
+  getStatusLabel,
+} from "@/lib/compatibility";
+import { DISCORD_URL } from "@/lib/constants";
 
-const STATUS_LABELS: Record<GameStatus, string> = {
-  playable: "Playable",
-  ingame: "In-Game",
-  intro: "Intro",
-  loads: "Loads",
-  nothing: "Nothing",
-};
-
-function gameUpdatedAtMs(updatedAt: string): number {
-  const timestamp = new Date(updatedAt).getTime();
+function gameUpdatedAtMs(updatedAt: string | undefined): number {
+  const timestamp = new Date(updatedAt ?? "").getTime();
   return Number.isNaN(timestamp) ? 0 : timestamp;
 }
 
 export default function Home() {
+  const iosRelease = getLatestBuild("ios", "release");
+  const macRelease = getLatestBuild("macos", "release");
+  const previewBuild =
+    getLatestBuild("ios", "preview") ?? getLatestBuild("macos", "preview");
+
   const compatibilityPreview = [...getAllGames()]
-    .sort((a, b) => gameUpdatedAtMs(b.updatedAt) - gameUpdatedAtMs(a.updatedAt))
+    .sort(
+      (a, b) =>
+        gameUpdatedAtMs(getActiveSummary(b, "release").updatedAt) -
+        gameUpdatedAtMs(getActiveSummary(a, "release").updatedAt),
+    )
     .slice(0, 6);
 
   return (
@@ -63,10 +71,22 @@ export default function Home() {
       {/* State Strip */}
       <StateStrip
         items={[
-          { label: "Public build", value: "N/A" },
-          { label: "Availability", value: "Coming Soon" },
-          { label: "iPhone/iPad", value: "N/A" },
-          { label: "Mac", value: "N/A" },
+          {
+            label: "Public release",
+            value: iosRelease ? getBuildDisplayLabel(iosRelease) : "No manifest",
+          },
+          {
+            label: "Preview",
+            value: previewBuild ? getBuildDisplayLabel(previewBuild) : "Not published",
+          },
+          {
+            label: "iPhone/iPad",
+            value: iosRelease ? getBuildDisplayLabel(iosRelease) : "Not published",
+          },
+          {
+            label: "Mac",
+            value: macRelease ? getBuildDisplayLabel(macRelease) : "Not published",
+          },
         ]}
       />
 
@@ -78,6 +98,18 @@ export default function Home() {
           </h2>
           <p className="mt-2 text-text-secondary text-lg leading-relaxed">
             Pick the platform you&apos;re using and follow that guide.
+          </p>
+          <p className="mt-3 text-sm leading-relaxed text-text-muted">
+            Need setup or JIT help? Join{" "}
+            <a
+              href={DISCORD_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-accent underline underline-offset-2 hover:text-accent-hover"
+            >
+              Discord
+            </a>
+            .
           </p>
           <div className="mt-6 grid grid-cols-1 md:grid-cols-3 gap-5">
             <Link
@@ -91,8 +123,8 @@ export default function Home() {
                 <h3 className="text-text-primary font-semibold text-xl">Setup Guide</h3>
               </div>
               <p className="mt-3 text-text-secondary text-base leading-relaxed">
-                Install the IPA with SideStore/TrollStore, then enable
-                JIT before launching games.
+                Install the IPA with SideStore, then enable JIT before
+                launching games.
               </p>
               <span className="mt-3 inline-block text-base text-accent group-hover:text-accent-hover transition-colors">
                 Open iPhone/iPad guide &rarr;
@@ -162,10 +194,7 @@ export default function Home() {
                 </thead>
                 <tbody>
                   {compatibilityPreview.map((game) => (
-                    <tr
-                      key={game.slug}
-                      className="border-b border-border last:border-0"
-                    >
+                    <tr key={game.slug} className="border-b border-border last:border-0">
                       <td className="py-3 pr-4 text-text-primary">
                         <Link
                           href={`/compatibility/${game.slug}`}
@@ -175,11 +204,15 @@ export default function Home() {
                         </Link>
                       </td>
                       <td className="py-3 pr-4">
-                        <Pill variant={game.status}>
-                          {STATUS_LABELS[game.status]}
+                        <Pill variant={getActiveSummary(game, "release").status}>
+                          {getStatusLabel(getActiveSummary(game, "release").status)}
                         </Pill>
                       </td>
-                      <td className="hidden py-3 text-text-secondary sm:table-cell">{deviceName(game.lastReport.device)}</td>
+                      <td className="hidden py-3 text-text-secondary sm:table-cell">
+                        {getActiveSummary(game, "release").lastReport
+                          ? deviceName(getActiveSummary(game, "release").lastReport!.device)
+                          : "Awaiting release report"}
+                      </td>
                     </tr>
                   ))}
                 </tbody>

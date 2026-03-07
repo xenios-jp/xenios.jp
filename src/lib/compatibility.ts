@@ -1,28 +1,58 @@
 import compatData from "../../data/compatibility.json";
-
-/* ------------------------------------------------------------------ */
-/*  Types                                                              */
-/* ------------------------------------------------------------------ */
+import DEVICE_NAMES from "@/../data/device-names.json";
 
 export type GameStatus = "playable" | "ingame" | "intro" | "loads" | "nothing";
-
+export type SummaryStatus = GameStatus | "untested";
 export type PerfTier = "great" | "ok" | "poor" | "n/a";
-
 export type Platform = "ios" | "macos";
-
 export type Architecture = "arm64" | "x86_64";
-
 export type GpuBackend = "msc" | "msl";
+export type ReportSource = "app" | "discord" | "github";
+export type ReportBuildChannel = "release" | "preview" | "self-built";
+export type CompatibilityChannel = "release" | "preview" | "all";
 
-export interface GameReport {
+export interface ReportBuild {
+  buildId?: string;
+  channel?: ReportBuildChannel;
+  official?: boolean;
+  appVersion?: string;
+  buildNumber?: string;
+  commitShort?: string;
+  publishedAt?: string;
+}
+
+export interface LastReportSnapshot {
   device: string;
   platform: Platform;
   osVersion: string;
   arch: Architecture;
   gpuBackend: GpuBackend;
+}
+
+export interface GameReport extends LastReportSnapshot {
   status: GameStatus;
+  perf?: PerfTier;
   date: string;
   notes: string;
+  submittedBy?: string;
+  source?: ReportSource;
+  build?: ReportBuild;
+}
+
+export interface GameSummary {
+  status: SummaryStatus;
+  perf: PerfTier;
+  updatedAt: string;
+  notes: string;
+  lastReport: LastReportSnapshot | null;
+  reportCount: number;
+  build?: ReportBuild;
+}
+
+export interface GameSummaries {
+  release: GameSummary;
+  preview: GameSummary;
+  all: GameSummary;
 }
 
 export interface Game {
@@ -33,27 +63,24 @@ export interface Game {
   perf: PerfTier;
   tags: string[];
   platforms: Platform[];
-  lastReport: {
-    device: string;
-    platform: Platform;
-    osVersion: string;
-    arch: Architecture;
-    gpuBackend: GpuBackend;
-  };
+  lastReport: LastReportSnapshot | null;
   updatedAt: string;
   issueNumber?: number;
   issueUrl?: string;
   notes: string;
   reports: GameReport[];
   screenshots: string[];
+  summaries: GameSummaries;
 }
-
-/* ------------------------------------------------------------------ */
-/*  Status & perf tier metadata                                        */
-/* ------------------------------------------------------------------ */
 
 export interface StatusOption {
   value: GameStatus;
+  label: string;
+  description: string;
+}
+
+export interface SummaryStatusOption {
+  value: SummaryStatus;
   label: string;
   description: string;
 }
@@ -69,6 +96,366 @@ export interface PlatformOption {
   label: string;
   description: string;
 }
+
+const GAME_STATUSES: GameStatus[] = [
+  "playable",
+  "ingame",
+  "intro",
+  "loads",
+  "nothing",
+];
+
+export const SUMMARY_STATUS_ORDER: SummaryStatus[] = [
+  "playable",
+  "ingame",
+  "intro",
+  "loads",
+  "nothing",
+  "untested",
+];
+
+export const COMPATIBILITY_CHANNELS: CompatibilityChannel[] = [
+  "release",
+  "preview",
+  "all",
+];
+
+const STATUS_RANK: Record<GameStatus, number> = {
+  playable: 4,
+  ingame: 3,
+  intro: 2,
+  loads: 1,
+  nothing: 0,
+};
+
+const EMPTY_SUMMARY: GameSummary = {
+  status: "untested",
+  perf: "n/a",
+  updatedAt: "",
+  notes: "",
+  lastReport: null,
+  reportCount: 0,
+};
+
+function asRecord(value: unknown): Record<string, unknown> | null {
+  if (!value || typeof value !== "object" || Array.isArray(value)) {
+    return null;
+  }
+  return value as Record<string, unknown>;
+}
+
+function cleanString(value: unknown): string | null {
+  if (typeof value !== "string") return null;
+  const trimmed = value.trim();
+  return trimmed.length > 0 ? trimmed : null;
+}
+
+function cleanBoolean(value: unknown): boolean | undefined {
+  if (typeof value === "boolean") return value;
+  return undefined;
+}
+
+function cleanNumber(value: unknown): number | null {
+  if (typeof value === "number" && Number.isFinite(value)) return value;
+  if (typeof value === "string") {
+    const parsed = Number(value);
+    if (Number.isFinite(parsed)) return parsed;
+  }
+  return null;
+}
+
+function normalizeGameStatus(value: unknown): GameStatus | null {
+  return GAME_STATUSES.includes(value as GameStatus)
+    ? (value as GameStatus)
+    : null;
+}
+
+function normalizeSummaryStatus(value: unknown): SummaryStatus | null {
+  if (value === "untested") return "untested";
+  return normalizeGameStatus(value);
+}
+
+function normalizePerfTier(value: unknown): PerfTier | null {
+  return value === "great" || value === "ok" || value === "poor" || value === "n/a"
+    ? value
+    : null;
+}
+
+function normalizePlatform(value: unknown): Platform | null {
+  return value === "ios" || value === "macos" ? value : null;
+}
+
+function normalizeArchitecture(value: unknown): Architecture | null {
+  return value === "arm64" || value === "x86_64" ? value : null;
+}
+
+function normalizeGpuBackend(value: unknown): GpuBackend | null {
+  return value === "msc" || value === "msl" ? value : null;
+}
+
+function normalizeReportBuildChannel(value: unknown): ReportBuildChannel | null {
+  return value === "release" || value === "preview" || value === "self-built"
+    ? value
+    : null;
+}
+
+function normalizeStringArray(value: unknown): string[] {
+  if (!Array.isArray(value)) return [];
+  return value
+    .filter((entry): entry is string => typeof entry === "string")
+    .map((entry) => entry.trim())
+    .filter(Boolean);
+}
+
+function normalizeBuild(value: unknown): ReportBuild | undefined {
+  const record = asRecord(value);
+  if (!record) return undefined;
+
+  const channel = normalizeReportBuildChannel(record.channel);
+  const build = {
+    buildId: cleanString(record.buildId) ?? undefined,
+    channel: channel ?? undefined,
+    official: cleanBoolean(record.official),
+    appVersion: cleanString(record.appVersion) ?? undefined,
+    buildNumber: cleanString(record.buildNumber) ?? undefined,
+    commitShort: cleanString(record.commitShort) ?? undefined,
+    publishedAt: cleanString(record.publishedAt) ?? undefined,
+  };
+
+  return Object.values(build).some((entry) => entry !== undefined)
+    ? build
+    : undefined;
+}
+
+function normalizeLastReport(value: unknown): LastReportSnapshot | null {
+  const record = asRecord(value);
+  if (!record) return null;
+
+  const device = cleanString(record.device);
+  const platform = normalizePlatform(record.platform);
+  const osVersion = cleanString(record.osVersion);
+  const arch = normalizeArchitecture(record.arch);
+  const gpuBackend = normalizeGpuBackend(record.gpuBackend);
+
+  if (!device || !platform || !osVersion || !arch || !gpuBackend) {
+    return null;
+  }
+
+  return {
+    device,
+    platform,
+    osVersion,
+    arch,
+    gpuBackend,
+  };
+}
+
+function snapshotFromReport(report: GameReport): LastReportSnapshot {
+  return {
+    device: report.device,
+    platform: report.platform,
+    osVersion: report.osVersion,
+    arch: report.arch,
+    gpuBackend: report.gpuBackend,
+  };
+}
+
+function normalizeReport(value: unknown): GameReport | null {
+  const record = asRecord(value);
+  if (!record) return null;
+
+  const device = cleanString(record.device);
+  const platform = normalizePlatform(record.platform);
+  const osVersion = cleanString(record.osVersion);
+  const arch = normalizeArchitecture(record.arch);
+  const gpuBackend = normalizeGpuBackend(record.gpuBackend);
+  const status = normalizeGameStatus(record.status);
+  const date = cleanString(record.date);
+  const notes = cleanString(record.notes) ?? "";
+
+  if (!device || !platform || !osVersion || !arch || !gpuBackend || !status || !date) {
+    return null;
+  }
+
+  const perf = normalizePerfTier(record.perf) ?? undefined;
+
+  return {
+    device,
+    platform,
+    osVersion,
+    arch,
+    gpuBackend,
+    status,
+    perf,
+    date,
+    notes,
+    submittedBy: cleanString(record.submittedBy) ?? undefined,
+    source:
+      record.source === "app" || record.source === "discord" || record.source === "github"
+        ? record.source
+        : undefined,
+    build: normalizeBuild(record.build),
+  };
+}
+
+function compareReports(left: GameReport, right: GameReport): number {
+  const leftRank = STATUS_RANK[left.status];
+  const rightRank = STATUS_RANK[right.status];
+  if (leftRank !== rightRank) {
+    return rightRank - leftRank;
+  }
+  return right.date.localeCompare(left.date);
+}
+
+function getNewestReport(reports: GameReport[]): GameReport | null {
+  if (reports.length === 0) return null;
+  return [...reports].sort((left, right) => right.date.localeCompare(left.date))[0] ?? null;
+}
+
+function summarizeReports(
+  reports: GameReport[],
+  fallback?: Partial<GameSummary>,
+): GameSummary {
+  if (reports.length === 0) {
+    if (!fallback) return EMPTY_SUMMARY;
+    return {
+      status: fallback.status ?? "untested",
+      perf: fallback.perf ?? "n/a",
+      updatedAt: fallback.updatedAt ?? "",
+      notes: fallback.notes ?? "",
+      lastReport: fallback.lastReport ?? null,
+      reportCount: fallback.reportCount ?? 0,
+      build: fallback.build,
+    };
+  }
+
+  const bestReport = [...reports].sort(compareReports)[0] ?? reports[0];
+  const newestReport = getNewestReport(reports) ?? bestReport;
+
+  return {
+    status: bestReport.status,
+    perf:
+      bestReport.perf ??
+      (bestReport.status === "nothing" ? "n/a" : fallback?.perf ?? "n/a"),
+    updatedAt: newestReport.date,
+    notes: bestReport.notes || fallback?.notes || "",
+    lastReport: snapshotFromReport(bestReport),
+    reportCount: reports.length,
+    build: bestReport.build ?? fallback?.build,
+  };
+}
+
+function normalizeSummary(
+  value: unknown,
+  fallback: GameSummary,
+): GameSummary {
+  const record = asRecord(value);
+  if (!record) return fallback;
+
+  return {
+    status: normalizeSummaryStatus(record.status) ?? fallback.status,
+    perf: normalizePerfTier(record.perf) ?? fallback.perf,
+    updatedAt: cleanString(record.updatedAt) ?? fallback.updatedAt,
+    notes: cleanString(record.notes) ?? fallback.notes,
+    lastReport: normalizeLastReport(record.lastReport) ?? fallback.lastReport,
+    reportCount: cleanNumber(record.reportCount) ?? fallback.reportCount,
+    build: normalizeBuild(record.build) ?? fallback.build,
+  };
+}
+
+function hasChannelMetadata(reports: GameReport[]): boolean {
+  return reports.some((report) => Boolean(report.build?.channel));
+}
+
+function getLegacyFallbackSummary(record: Record<string, unknown>): Partial<GameSummary> | undefined {
+  const status = normalizeGameStatus(record.status);
+  const lastReport = normalizeLastReport(record.lastReport);
+  const updatedAt = cleanString(record.updatedAt) ?? "";
+  const notes = cleanString(record.notes) ?? "";
+  const perf =
+    normalizePerfTier(record.perf) ??
+    (status === "nothing" ? "n/a" : null);
+
+  if (!status && !lastReport && !updatedAt && !notes && !perf) {
+    return undefined;
+  }
+
+  return {
+    status: status ?? "untested",
+    perf: perf ?? "n/a",
+    updatedAt,
+    notes,
+    lastReport,
+    reportCount: status ? 1 : 0,
+  };
+}
+
+function normalizePlatforms(record: Record<string, unknown>, reports: GameReport[]): Platform[] {
+  const rawPlatforms = Array.isArray(record.platforms)
+    ? record.platforms
+        .map((entry) => normalizePlatform(entry))
+        .filter((entry): entry is Platform => entry !== null)
+    : [];
+
+  const inferred = reports.map((report) => report.platform);
+  const unique = new Set<Platform>([...rawPlatforms, ...inferred]);
+  return [...unique];
+}
+
+function normalizeGame(value: unknown): Game {
+  const record = asRecord(value) ?? {};
+  const reports = Array.isArray(record.reports)
+    ? record.reports
+        .map((entry) => normalizeReport(entry))
+        .filter((entry): entry is GameReport => entry !== null)
+    : [];
+
+  const fallbackSummary = getLegacyFallbackSummary(record);
+  const derivedAll = summarizeReports(reports, fallbackSummary);
+  const structuredChannels = hasChannelMetadata(reports);
+  const derivedRelease = structuredChannels
+    ? summarizeReports(reports.filter((report) => report.build?.channel === "release"))
+    : summarizeReports(reports, fallbackSummary);
+  const derivedPreview = structuredChannels
+    ? summarizeReports(reports.filter((report) => report.build?.channel === "preview"))
+    : EMPTY_SUMMARY;
+
+  const rawSummaries = asRecord(record.summaries);
+  const summaries: GameSummaries = {
+    release: normalizeSummary(rawSummaries?.release, derivedRelease),
+    preview: normalizeSummary(rawSummaries?.preview, derivedPreview),
+    all: normalizeSummary(rawSummaries?.all, derivedAll),
+  };
+
+  const topLevelStatus =
+    normalizeGameStatus(record.status) ??
+    (summaries.all.status === "untested" ? "nothing" : summaries.all.status);
+  const topLevelPerf =
+    normalizePerfTier(record.perf) ??
+    (summaries.all.status === "nothing" ? "n/a" : summaries.all.perf);
+
+  return {
+    slug: cleanString(record.slug) ?? "",
+    title: cleanString(record.title) ?? "Unknown Title",
+    titleId: cleanString(record.titleId)?.toUpperCase() ?? "UNKNOWN",
+    status: topLevelStatus,
+    perf: topLevelPerf,
+    tags: normalizeStringArray(record.tags),
+    platforms: normalizePlatforms(record, reports),
+    lastReport: normalizeLastReport(record.lastReport) ?? summaries.all.lastReport,
+    updatedAt: cleanString(record.updatedAt) ?? summaries.all.updatedAt,
+    issueNumber: cleanNumber(record.issueNumber) ?? undefined,
+    issueUrl: cleanString(record.issueUrl) ?? undefined,
+    notes: cleanString(record.notes) ?? summaries.all.notes,
+    reports,
+    screenshots: normalizeStringArray(record.screenshots),
+    summaries,
+  };
+}
+
+const normalizedGames = Array.isArray(compatData)
+  ? compatData.map((entry) => normalizeGame(entry))
+  : [];
 
 export function getStatuses(): StatusOption[] {
   return [
@@ -100,6 +487,17 @@ export function getStatuses(): StatusOption[] {
   ];
 }
 
+export function getSummaryStatuses(): SummaryStatusOption[] {
+  return [
+    ...getStatuses(),
+    {
+      value: "untested",
+      label: "Untested",
+      description: "No reports yet for the selected build channel.",
+    },
+  ];
+}
+
 export function getPerfTiers(): PerfTierOption[] {
   return [
     {
@@ -116,6 +514,11 @@ export function getPerfTiers(): PerfTierOption[] {
       value: "poor",
       label: "Poor",
       description: "Significant performance issues; may be unplayable.",
+    },
+    {
+      value: "n/a",
+      label: "N/A",
+      description: "No meaningful performance data for this result.",
     },
   ];
 }
@@ -135,43 +538,110 @@ export function getPlatforms(): PlatformOption[] {
   ];
 }
 
-/* ------------------------------------------------------------------ */
-/*  Data accessors                                                     */
-/* ------------------------------------------------------------------ */
-
 export function getAllGames(): Game[] {
-  return compatData as Game[];
+  return normalizedGames;
 }
 
 export function getGameBySlug(slug: string): Game | undefined {
-  return (compatData as Game[]).find((game) => game.slug === slug);
+  return normalizedGames.find((game) => game.slug === slug);
 }
-
-/* ------------------------------------------------------------------ */
-/*  Device name mapping                                                */
-/* ------------------------------------------------------------------ */
-
-import DEVICE_NAMES from "@/../data/device-names.json";
 
 export function deviceName(raw: string): string {
   return (DEVICE_NAMES as Record<string, string>)[raw] || raw;
 }
 
-const STATUS_RANK: Record<GameStatus, number> = {
-  playable: 4,
-  ingame: 3,
-  intro: 2,
-  loads: 1,
-  nothing: 0,
-};
+export function getStatusLabel(status: SummaryStatus): string {
+  const labels: Record<SummaryStatus, string> = {
+    playable: "Playable",
+    ingame: "In-Game",
+    intro: "Intro",
+    loads: "Loads",
+    nothing: "Nothing",
+    untested: "Untested",
+  };
+  return labels[status];
+}
 
-export function getBestReport(game: Game): GameReport | null {
-  if (game.reports.length === 0) return null;
-  return game.reports.reduce((best, report) => {
-    const bestRank = STATUS_RANK[best.status];
-    const reportRank = STATUS_RANK[report.status];
-    if (reportRank > bestRank) return report;
-    if (reportRank === bestRank && report.date > best.date) return report;
-    return best;
-  });
+export function getPerfLabel(perf: PerfTier): string {
+  const labels: Record<PerfTier, string> = {
+    great: "Great",
+    ok: "OK",
+    poor: "Poor",
+    "n/a": "N/A",
+  };
+  return labels[perf];
+}
+
+export function getPlatformLabel(platform: Platform): string {
+  return platform === "ios" ? "iOS" : "macOS";
+}
+
+export function getGpuLabel(gpuBackend: GpuBackend): string {
+  return gpuBackend === "msc" ? "MSC" : "MSL";
+}
+
+export function getCompatibilityChannelLabel(channel: CompatibilityChannel): string {
+  if (channel === "all") return "All Reports";
+  return channel === "release" ? "Release" : "Preview";
+}
+
+export function getReportChannelLabel(channel: ReportBuildChannel): string {
+  if (channel === "release") return "Release";
+  if (channel === "preview") return "Preview";
+  return "Self-built";
+}
+
+export function parseCompatibilityChannel(
+  value: string | null | undefined,
+): CompatibilityChannel {
+  if (value === "preview" || value === "all") return value;
+  return "release";
+}
+
+export function getActiveSummary(
+  game: Game,
+  channel: CompatibilityChannel,
+): GameSummary {
+  return game.summaries[channel];
+}
+
+export function getReportsForChannel(
+  game: Game,
+  channel: CompatibilityChannel,
+): GameReport[] {
+  if (channel === "all") return game.reports;
+
+  const reportsWithChannels = hasChannelMetadata(game.reports);
+  if (!reportsWithChannels) {
+    return channel === "release" ? game.reports : [];
+  }
+
+  return game.reports.filter((report) => report.build?.channel === channel);
+}
+
+export function getBestReport(
+  game: Game,
+  channel: CompatibilityChannel = "all",
+): GameReport | null {
+  const reports = getReportsForChannel(game, channel);
+  if (reports.length === 0) return null;
+  return [...reports].sort(compareReports)[0] ?? null;
+}
+
+export function formatReportBuildLabel(build?: ReportBuild | null): string | null {
+  if (!build) return null;
+
+  const versionLabel = build.appVersion
+    ? build.buildNumber
+      ? `${build.appVersion} (${build.buildNumber})`
+      : build.appVersion
+    : build.buildId;
+
+  const parts = [
+    build.channel ? `${getReportChannelLabel(build.channel)} build` : null,
+    versionLabel ?? null,
+    build.commitShort ? build.commitShort.toUpperCase() : null,
+  ].filter((entry): entry is string => Boolean(entry));
+
+  return parts.length > 0 ? parts.join(" · ") : null;
 }
