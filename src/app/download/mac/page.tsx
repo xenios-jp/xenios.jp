@@ -8,14 +8,58 @@ import {
   getBuildsHistory,
   getLatestBuild,
   isRenderableBuild,
+  type PublicBuildArtifact,
   type PublicBuildEntry,
 } from "@/lib/builds";
+import { getArchitectureDisplayLabel } from "@/lib/build-display";
 import { DISCORD_URL } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: "Download",
   description: "Download XeniOS for Mac.",
 };
+
+function macArtifactSortValue(artifact: PublicBuildArtifact): number {
+  switch (artifact.arch) {
+    case "arm64":
+      return 0;
+    case "x86_64":
+      return 1;
+    case "universal":
+      return 2;
+    default:
+      return 3;
+  }
+}
+
+function sortMacArtifacts(artifacts: PublicBuildArtifact[]): PublicBuildArtifact[] {
+  return [...artifacts].sort((left, right) => {
+    const orderDelta = macArtifactSortValue(left) - macArtifactSortValue(right);
+    if (orderDelta !== 0) return orderDelta;
+    return (left.label ?? left.name ?? "").localeCompare(right.label ?? right.name ?? "");
+  });
+}
+
+function getMacArchitectureLabel(artifact: PublicBuildArtifact): string {
+  return getArchitectureDisplayLabel("macos", artifact.arch) ?? "Mac";
+}
+
+function getMacArtifactDescription(artifact: PublicBuildArtifact): string {
+  switch (artifact.arch) {
+    case "arm64":
+      return "Use this on M-series Macs, including M1, M2, M3, and newer.";
+    case "x86_64":
+      return "Use this on Intel-based Macs.";
+    case "universal":
+      return "Single app bundle containing both Apple Silicon and Intel binaries.";
+    default:
+      return "Choose the build that matches your Mac hardware.";
+  }
+}
+
+function getMacDownloadLabel(artifact: PublicBuildArtifact): string {
+  return `Download for ${getMacArchitectureLabel(artifact)}`;
+}
 
 function BuildCard({
   title,
@@ -38,6 +82,7 @@ function BuildCard({
   }
 
   const resolvedBuild = build;
+  const artifacts = sortMacArtifacts(resolvedBuild.artifacts);
 
   return (
     <div className="rounded-xl border border-border bg-bg-surface p-6">
@@ -86,33 +131,43 @@ function BuildCard({
         </div>
       </dl>
 
-      {resolvedBuild.artifacts.length > 0 ? (
-        <div className="mt-5 grid gap-3">
-          {resolvedBuild.artifacts.map((artifact, index) => (
+      {artifacts.length > 0 ? (
+        <div className="mt-5 grid gap-3 md:grid-cols-2">
+          {artifacts.map((artifact, index) => (
             <div
               key={artifact.id ?? artifact.downloadUrl ?? `${title}-${index}`}
               className="rounded-lg border border-border bg-bg-primary p-4"
             >
-              <div className="flex flex-wrap items-start justify-between gap-3">
+              <div className="flex h-full flex-col justify-between gap-4">
                 <div>
-                  <p className="font-medium text-text-primary">{getArtifactLabel(artifact)}</p>
-                  <p className="mt-1 text-sm text-text-muted">
+                  <p className="text-xs font-semibold uppercase tracking-wide text-accent">
+                    {getMacArchitectureLabel(artifact)}
+                  </p>
+                  <p className="mt-2 font-medium text-text-primary">
+                    {artifact.name ?? getArtifactLabel(artifact)}
+                  </p>
+                  <p className="mt-2 text-sm leading-relaxed text-text-secondary">
+                    {getMacArtifactDescription(artifact)}
+                  </p>
+                  <p className="mt-3 text-sm text-text-muted">
                     {formatFileSize(artifact.sizeBytes, artifact.sizeLabel) ?? "Size unavailable"}
                   </p>
                   <p className="mt-2 break-all font-mono text-xs text-text-muted">
                     SHA-256: {artifact.sha256 ?? "Unavailable"}
                   </p>
                 </div>
-                {artifact.downloadUrl ? (
-                  <a
-                    href={artifact.downloadUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center rounded-lg bg-accent px-4 py-2 text-sm font-medium text-accent-fg transition hover:bg-accent-hover"
-                  >
-                    Download
-                  </a>
-                ) : null}
+                <div className="flex flex-wrap gap-3">
+                  {artifact.downloadUrl ? (
+                    <a
+                      href={artifact.downloadUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center rounded-lg bg-accent px-4 py-2 text-sm font-medium text-accent-fg transition hover:bg-accent-hover"
+                    >
+                      {getMacDownloadLabel(artifact)}
+                    </a>
+                  ) : null}
+                </div>
               </div>
             </div>
           ))}
@@ -130,7 +185,7 @@ export default function DownloadMacPage() {
   const latestRelease = getLatestBuild("macos", "release");
   const latestPreview = getLatestBuild("macos", "preview");
   const historyCount = getBuildsHistory("all").filter((build) => build.platform === "macos").length;
-  const primaryArtifact = latestRelease?.artifacts[0];
+  const releaseArtifacts = latestRelease ? sortMacArtifacts(latestRelease.artifacts) : [];
 
   return (
     <>
@@ -139,7 +194,9 @@ export default function DownloadMacPage() {
           <h1 className="text-4xl font-bold tracking-tight text-text-primary md:text-5xl">
             Download
           </h1>
-          <p className="mt-2 text-lg text-text-secondary">XeniOS for Mac.</p>
+          <p className="mt-2 text-lg text-text-secondary">
+            XeniOS for Mac. Choose Apple Silicon for M-series Macs or Intel for older Macs.
+          </p>
         </div>
       </section>
 
@@ -161,7 +218,7 @@ export default function DownloadMacPage() {
               </Link>
             </div>
             <p className="text-sm text-text-secondary">
-              One codebase, two builds: iPhone/iPad and Mac.
+              One codebase, two Mac downloads: Apple Silicon and Intel.
             </p>
           </div>
         </div>
@@ -173,8 +230,8 @@ export default function DownloadMacPage() {
             <div>
               <h2 className="text-2xl font-bold text-text-primary">Latest Mac Builds</h2>
               <p className="mt-2 max-w-3xl text-[15px] leading-relaxed text-text-secondary">
-                Release stays separate from Preview so compatibility and download guidance can
-                point at the exact public build users should be testing.
+                Release stays separate from Preview, and each build can publish dedicated Apple
+                Silicon and Intel downloads so users always know which artifact matches their Mac.
               </p>
             </div>
             <p className="text-sm text-text-muted">
@@ -186,7 +243,7 @@ export default function DownloadMacPage() {
             <BuildCard
               title="Latest Release"
               build={latestRelease}
-              emptyMessage="Publish data/release-builds.json to surface the current public Mac build."
+              emptyMessage="Publish data/release-builds.json to surface the current public Mac release with Apple Silicon and Intel downloads."
             />
             <BuildCard
               title="Latest Preview"
@@ -205,7 +262,7 @@ export default function DownloadMacPage() {
             </h2>
             <ol className="mt-4 list-decimal space-y-2 pl-5 text-[15px] leading-relaxed text-text-primary">
               <li>Open the latest release card above or the build history page.</li>
-              <li>Download the latest macOS build asset.</li>
+              <li>Choose the Apple Silicon download for M-series Macs or the Intel download for older Macs.</li>
               <li>
                 If a{" "}
                 <code className="rounded bg-bg-surface-2 px-1.5 py-0.5 font-mono text-xs">
@@ -239,16 +296,19 @@ export default function DownloadMacPage() {
               >
                 Open Build History
               </Link>
-              {primaryArtifact?.downloadUrl ? (
-                <a
-                  href={primaryArtifact.downloadUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center rounded-lg bg-accent px-8 py-3.5 text-[15px] font-medium text-accent-fg transition-colors hover:bg-accent-hover"
-                >
-                  Download Latest Release
-                </a>
-              ) : null}
+              {releaseArtifacts.map((artifact) =>
+                artifact.downloadUrl ? (
+                  <a
+                    key={artifact.id ?? artifact.downloadUrl}
+                    href={artifact.downloadUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center rounded-lg bg-accent px-6 py-3.5 text-[15px] font-medium text-accent-fg transition-colors hover:bg-accent-hover"
+                  >
+                    {getMacDownloadLabel(artifact)}
+                  </a>
+                ) : null,
+              )}
             </div>
           </div>
         </div>
@@ -259,22 +319,12 @@ export default function DownloadMacPage() {
           <h2 className="mb-6 text-3xl font-bold text-text-primary md:text-4xl">
             Mac notes
           </h2>
-          <ul className="space-y-3 text-[15px] leading-relaxed text-text-primary">
-            <li className="flex items-start gap-3">
-              <span className="mt-0.5 h-1.5 w-1.5 shrink-0 rounded-full bg-accent" />
-              <span>Intel and Apple Silicon (M-series) Macs are supported.</span>
+          <ul className="list-disc space-y-3 pl-6 text-[15px] leading-relaxed text-text-primary marker:text-accent">
+            <li>Apple Silicon (M-series) and Intel Macs are published as separate downloads.</li>
+            <li>
+              Performance and compatibility are still in progress and not fully validated yet.
             </li>
-            <li className="flex items-start gap-3">
-              <span className="mt-0.5 h-1.5 w-1.5 shrink-0 rounded-full bg-accent" />
-              <span>
-                Performance and compatibility are still in progress and not
-                fully validated yet.
-              </span>
-            </li>
-            <li className="flex items-start gap-3">
-              <span className="mt-0.5 h-1.5 w-1.5 shrink-0 rounded-full bg-accent" />
-              <span>No games are included. Use only game dumps you legally own.</span>
-            </li>
+            <li>No games are included. Use only game dumps you legally own.</li>
           </ul>
         </div>
       </section>
@@ -317,6 +367,10 @@ export default function DownloadMacPage() {
                 No manifest-backed Mac release metadata is published yet.
               </p>
             )}
+            <p className="mt-4 text-sm leading-relaxed text-text-secondary">
+              When available, the release manifest should publish separate macOS artifacts labeled
+              <strong> Apple Silicon</strong> and <strong> Intel</strong>.
+            </p>
           </div>
         </div>
       </section>

@@ -470,27 +470,17 @@ export default function DownloadPage() {
         <div className="mx-auto max-w-6xl px-6">
           <div className="rounded-xl border border-border bg-bg-surface p-8">
             <h2 className="text-2xl font-bold text-text-primary">Notes</h2>
-            <ul className="mt-5 space-y-3 text-[15px] leading-relaxed text-text-primary">
-              <li className="flex items-start gap-3">
-                <span className="mt-0.5 h-1.5 w-1.5 shrink-0 rounded-full bg-accent" />
-                <span>
-                  Allow extra free space beyond the app itself for game files,
-                  caches, and updates.
-                </span>
+            <ul className="mt-5 list-disc space-y-3 pl-6 text-[15px] leading-relaxed text-text-primary marker:text-accent">
+              <li>
+                Allow extra free space beyond the app itself for game files, caches, and updates.
               </li>
-              <li className="flex items-start gap-3">
-                <span className="mt-0.5 h-1.5 w-1.5 shrink-0 rounded-full bg-accent" />
-                <span>
-                  Older iOS versions and older chips may work, but they are
-                  currently untested and should not be treated as validated yet.
-                </span>
+              <li>
+                Older iOS versions and older chips may work, but they are currently untested and
+                should not be treated as validated yet.
               </li>
-              <li className="flex items-start gap-3">
-                <span className="mt-0.5 h-1.5 w-1.5 shrink-0 rounded-full bg-accent" />
-                <span>
-                  No games are included. You must dump games from Xbox 360 discs
-                  or digital purchases that you legally own.
-                </span>
+              <li>
+                No games are included. You must dump games from Xbox 360 discs or digital
+                purchases that you legally own.
               </li>
             </ul>
           </div>

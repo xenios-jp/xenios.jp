@@ -142,8 +142,8 @@ export default function Home() {
                 <h3 className="text-text-primary font-semibold text-xl">Setup Guide</h3>
               </div>
               <p className="mt-3 text-text-secondary text-base leading-relaxed">
-                Download the latest macOS build and install it like a standard
-                Mac app.
+                Choose the Apple Silicon or Intel download that matches your
+                Mac, then install it like a standard Mac app.
               </p>
               <span className="mt-3 inline-block text-base text-accent group-hover:text-accent-hover transition-colors">
                 Open Mac guide &rarr;

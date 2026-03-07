@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
+import { getArtifactLabel, getBuildDisplayLabel } from "@/lib/build-display";
 
 type BuildChannel = "release" | "preview";
 
@@ -30,15 +31,6 @@ interface BuildHistoryEntry {
   sourceUrl?: string;
   submittedBy?: string;
   artifacts: BuildArtifact[];
-}
-
-function getBuildDisplayLabel(build: BuildHistoryEntry): string {
-  if (build.label) return build.label;
-  if (build.appVersion && build.buildNumber) {
-    return `${build.appVersion} (${build.buildNumber})`;
-  }
-  if (build.appVersion) return build.appVersion;
-  return "Unlabeled build";
 }
 
 function getBuildChannelLabel(channel: BuildChannel): string {
@@ -71,18 +63,6 @@ function formatFileSize(sizeBytes?: number, sizeLabel?: string): string | null {
   }
 
   return `${value.toFixed(value >= 10 || unitIndex === 0 ? 0 : 1)} ${units[unitIndex]}`;
-}
-
-function getArtifactLabel(artifact: BuildArtifact): string {
-  if (artifact.label) return artifact.label;
-
-  const parts = [
-    artifact.platform === "ios" ? "iOS" : artifact.platform === "macos" ? "macOS" : null,
-    artifact.arch ? artifact.arch.toUpperCase() : null,
-    artifact.kind ?? null,
-  ].filter((entry): entry is string => Boolean(entry));
-
-  return parts.length > 0 ? parts.join(" • ") : "Artifact";
 }
 
 function parseChannel(value: string | null): BuildChannel {
@@ -204,7 +184,8 @@ export function BuildsPageClient({ builds }: { builds: BuildHistoryEntry[] }) {
           </h1>
           <p className="mt-2 max-w-3xl text-lg text-text-secondary">
             Public XeniOS build history with version, build number, commit, checksums, and
-            direct artifact links.
+            direct artifact links. macOS entries can publish separate Apple Silicon and Intel
+            downloads.
           </p>
         </div>
       </section>

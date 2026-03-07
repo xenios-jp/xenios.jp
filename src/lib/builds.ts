@@ -4,6 +4,13 @@ import { cache } from "react";
 import { existsSync, readFileSync } from "node:fs";
 import path from "node:path";
 import type { Architecture, Platform, ReportBuildChannel } from "@/lib/compatibility";
+import {
+  getArtifactLabel,
+  getBuildDisplayLabel,
+  normalizeBuildChannel,
+  normalizeBuildArchitecture,
+  normalizeBuildStage,
+} from "@/lib/build-display";
 
 export type BuildChannel = Extract<ReportBuildChannel, "release" | "preview">;
 export type BuildHistoryFilter = BuildChannel | "all";
@@ -27,6 +34,7 @@ export interface PublicBuildEntry {
   official?: boolean;
   appVersion?: string;
   buildNumber?: string;
+  stage?: "alpha" | "beta" | "rc" | "stable";
   commitShort?: string;
   publishedAt?: string;
   label?: string;
@@ -86,7 +94,8 @@ function cleanBoolean(value: unknown): boolean | undefined {
 }
 
 function normalizeChannel(value: unknown): BuildChannel | undefined {
-  return value === "release" || value === "preview" ? value : undefined;
+  const channel = normalizeBuildChannel(value);
+  return channel === "release" || channel === "preview" ? channel : undefined;
 }
 
 function normalizePlatform(value: unknown): Platform | undefined {
@@ -94,9 +103,7 @@ function normalizePlatform(value: unknown): Platform | undefined {
 }
 
 function normalizeArch(value: unknown): Architecture | "universal" | undefined {
-  return value === "arm64" || value === "x86_64" || value === "universal"
-    ? value
-    : undefined;
+  return normalizeBuildArchitecture(value);
 }
 
 function inferPlatformFromBuildId(buildId?: string): Platform | undefined {
@@ -152,6 +159,7 @@ function normalizeBuildEntry(
     official: cleanBoolean(record.official),
     appVersion: cleanString(record.appVersion),
     buildNumber: cleanString(record.buildNumber),
+    stage: normalizeBuildStage(record.stage),
     commitShort: cleanString(record.commitShort),
     publishedAt: cleanString(record.publishedAt) ?? cleanString(record.releasedAt),
     label: cleanString(record.label),
@@ -284,16 +292,6 @@ export function isRenderableBuild(
   );
 }
 
-export function getBuildDisplayLabel(build: PublicBuildEntry): string {
-  if (build.label) return build.label;
-  if (build.appVersion && build.buildNumber) {
-    return `${build.appVersion} (${build.buildNumber})`;
-  }
-  if (build.appVersion) return build.appVersion;
-  if (build.buildId) return build.buildId;
-  return "Unlabeled build";
-}
-
 export function getBuildChannelLabel(channel: BuildChannel): string {
   return channel === "release" ? "Release" : "Preview";
 }
@@ -329,16 +327,4 @@ export function formatFileSize(
   return `${value.toFixed(value >= 10 || unitIndex === 0 ? 0 : 1)} ${units[unitIndex]}`;
 }
 
-export function getArtifactLabel(artifact: PublicBuildArtifact): string {
-  if (artifact.label) return artifact.label;
-
-  const parts = [
-    artifact.platform === "ios" ? "iOS" : artifact.platform === "macos" ? "macOS" : null,
-    artifact.arch ? artifact.arch.toUpperCase() : null,
-    artifact.kind ? artifact.kind : null,
-  ].filter((entry): entry is string => Boolean(entry));
-
-  if (parts.length > 0) return parts.join(" · ");
-  if (artifact.name) return artifact.name;
-  return "Artifact";
-}
+export { getArtifactLabel, getBuildDisplayLabel };

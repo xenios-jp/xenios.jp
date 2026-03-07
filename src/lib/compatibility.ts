@@ -1,5 +1,11 @@
 import compatData from "../../data/compatibility.json";
 import DEVICE_NAMES from "@/../data/device-names.json";
+import {
+  getBuildDisplayLabel,
+  normalizeBuildChannel,
+  normalizeBuildStage,
+  type DisplayBuildStage,
+} from "@/lib/build-display";
 
 export type GameStatus = "playable" | "ingame" | "intro" | "loads" | "nothing";
 export type SummaryStatus = GameStatus | "untested";
@@ -9,6 +15,7 @@ export type Architecture = "arm64" | "x86_64";
 export type GpuBackend = "msc" | "msl";
 export type ReportSource = "app" | "discord" | "github";
 export type ReportBuildChannel = "release" | "preview" | "self-built";
+export type ReportBuildStage = DisplayBuildStage;
 export type CompatibilityChannel = "release" | "preview" | "all";
 
 export interface ReportBuild {
@@ -17,6 +24,7 @@ export interface ReportBuild {
   official?: boolean;
   appVersion?: string;
   buildNumber?: string;
+  stage?: ReportBuildStage;
   commitShort?: string;
   publishedAt?: string;
 }
@@ -194,9 +202,7 @@ function normalizeGpuBackend(value: unknown): GpuBackend | null {
 }
 
 function normalizeReportBuildChannel(value: unknown): ReportBuildChannel | null {
-  return value === "release" || value === "preview" || value === "self-built"
-    ? value
-    : null;
+  return normalizeBuildChannel(value) ?? null;
 }
 
 function normalizeStringArray(value: unknown): string[] {
@@ -218,6 +224,7 @@ function normalizeBuild(value: unknown): ReportBuild | undefined {
     official: cleanBoolean(record.official),
     appVersion: cleanString(record.appVersion) ?? undefined,
     buildNumber: cleanString(record.buildNumber) ?? undefined,
+    stage: normalizeBuildStage(record.stage) ?? undefined,
     commitShort: cleanString(record.commitShort) ?? undefined,
     publishedAt: cleanString(record.publishedAt) ?? undefined,
   };
@@ -631,15 +638,9 @@ export function getBestReport(
 export function formatReportBuildLabel(build?: ReportBuild | null): string | null {
   if (!build) return null;
 
-  const versionLabel = build.appVersion
-    ? build.buildNumber
-      ? `${build.appVersion} (${build.buildNumber})`
-      : build.appVersion
-    : build.buildId;
-
+  const displayLabel = getBuildDisplayLabel(build);
   const parts = [
-    build.channel ? `${getReportChannelLabel(build.channel)} build` : null,
-    versionLabel ?? null,
+    displayLabel !== "Unlabeled build" ? displayLabel : build.buildId ?? null,
     build.commitShort ? build.commitShort.toUpperCase() : null,
   ].filter((entry): entry is string => Boolean(entry));
 
