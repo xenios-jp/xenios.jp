@@ -161,11 +161,22 @@ function CompatibilityListInner({ games: allGames }: { games: Game[] }) {
   );
 
   const total = allGames.length;
-  const uniqueDevices = useMemo(() => {
-    const raw = [...new Set(allGames.flatMap((g) => g.reports.map((r) => r.device)))];
-    return raw.sort((a, b) => deviceName(a).localeCompare(deviceName(b)));
+
+  // Group raw device values by their display name so duplicates like
+  // "iPhone 17" and "iPhone18,3" (both display as "iPhone 17") merge.
+  const deviceGroups = useMemo(() => {
+    const allRaw = [...new Set(allGames.flatMap((g) => g.reports.map((r) => r.device)))];
+    const groups = new Map<string, string[]>();
+    for (const raw of allRaw) {
+      const display = deviceName(raw);
+      const existing = groups.get(display) || [];
+      existing.push(raw);
+      groups.set(display, existing);
+    }
+    return [...groups.entries()]
+      .sort(([a], [b]) => a.localeCompare(b));
   }, [allGames]);
-  const deviceCount = uniqueDevices.length;
+  const deviceCount = deviceGroups.length;
 
   const statusCounts: Record<GameStatus, number> = useMemo(() => {
     const counts: Record<GameStatus, number> = {
@@ -203,8 +214,10 @@ function CompatibilityListInner({ games: allGames }: { games: Game[] }) {
     }
 
     if (filters.device) {
+      const group = deviceGroups.find(([display]) => display === filters.device);
+      const rawValues = group ? group[1] : [filters.device];
       filtered = filtered.filter((game) =>
-        game.reports.some((r) => r.device === filters.device)
+        game.reports.some((r) => rawValues.includes(r.device))
       );
     }
 
@@ -367,9 +380,9 @@ function CompatibilityListInner({ games: allGames }: { games: Game[] }) {
               className="rounded-lg border border-border bg-bg-surface px-3 py-2.5 text-sm text-text-primary outline-none transition focus:border-accent/40"
             >
               <option value="">All Devices</option>
-              {uniqueDevices.map((raw) => (
-                <option key={raw} value={raw}>
-                  {deviceName(raw)}
+              {deviceGroups.map(([display]) => (
+                <option key={display} value={display}>
+                  {display}
                 </option>
               ))}
             </select>
