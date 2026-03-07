@@ -2073,23 +2073,34 @@
     "slug": "halo-3",
     "title": "Halo 3",
     "titleId": "4D5307E6",
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "ingame",
+    "perf": "poor",
     "tags": [],
     "platforms": [
       "ios",
       "macos"
     ],
     "lastReport": {
-      "device": "iPad Pro (M2)",
+      "device": "iPhone 17",
       "platform": "ios",
-      "osVersion": "18.3.1",
+      "osVersion": "26.3",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-04",
-    "notes": "Crashes upon launch ping the game.",
+    "updatedAt": "2026-03-07",
+    "notes": "Latest build introduces a rendering regression. Vertical bar that skips some passes.",
     "reports": [
+      {
+        "device": "iPhone 17",
+        "platform": "ios",
+        "osVersion": "26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "date": "2026-03-07",
+        "notes": "Latest build introduces a rendering regression. Vertical bar that skips some passes.",
+        "source": "app"
+      },
       {
         "device": "iPad Pro (M2)",
         "platform": "ios",
@@ -2182,7 +2193,9 @@
         "build": null
       }
     ],
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/xenios.jp/main/public/compatibility/screenshots/4D5307E6/1772895029345-1.jpg"
+    ],
     "issueNumber": 42,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/42",
     "summaries": {
