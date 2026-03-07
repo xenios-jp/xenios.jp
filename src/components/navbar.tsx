@@ -163,19 +163,49 @@ export function Navbar() {
           <ThemeToggle />
         </div>
 
-        {/* Mobile menu button */}
-        <button
-          type="button"
-          className="md:hidden p-2 text-text-secondary hover:text-text-primary"
-          onClick={() => setMobileOpen(!mobileOpen)}
-          aria-label={mobileOpen ? "Close menu" : "Open menu"}
-        >
-          {mobileOpen ? (
-            <CloseIcon className="h-5 w-5" />
-          ) : (
-            <MenuIcon className="h-5 w-5" />
-          )}
-        </button>
+        {/* Mobile right icons + menu button */}
+        <div className="flex md:hidden items-center gap-1">
+          <a
+            href={EMULATOR_GITHUB_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="p-2 text-text-secondary transition-colors hover:text-text-primary"
+            aria-label="GitHub"
+          >
+            <GitHubIcon className="h-[18px] w-[18px]" />
+          </a>
+          <a
+            href={DISCORD_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="p-2 text-text-secondary transition-colors hover:text-text-primary"
+            aria-label="Discord"
+          >
+            <DiscordIcon className="h-[18px] w-[18px]" />
+          </a>
+          <a
+            href={KOFI_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="p-2 text-text-secondary transition-colors hover:text-amber-500"
+            aria-label="Support on Ko-fi"
+          >
+            <CoffeeIcon className="h-[18px] w-[18px]" />
+          </a>
+          <ThemeToggle />
+          <button
+            type="button"
+            className="p-2 text-text-secondary hover:text-text-primary"
+            onClick={() => setMobileOpen(!mobileOpen)}
+            aria-label={mobileOpen ? "Close menu" : "Open menu"}
+          >
+            {mobileOpen ? (
+              <CloseIcon className="h-5 w-5" />
+            ) : (
+              <MenuIcon className="h-5 w-5" />
+            )}
+          </button>
+        </div>
       </nav>
 
       {/* Mobile slide-down panel */}
@@ -199,36 +229,6 @@ export function Navbar() {
                 {link.label}
               </Link>
             ))}
-            <div className="flex items-center gap-4 px-3 pt-3 border-t border-border mt-3">
-          <a
-            href={EMULATOR_GITHUB_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-text-secondary transition-colors hover:text-text-primary"
-                aria-label="GitHub"
-              >
-                <GitHubIcon className="h-5 w-5" />
-              </a>
-              <a
-                href={DISCORD_URL}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-text-secondary transition-colors hover:text-text-primary"
-                aria-label="Discord"
-              >
-                <DiscordIcon className="h-5 w-5" />
-              </a>
-              <a
-                href={KOFI_URL}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-text-secondary transition-colors hover:text-amber-500"
-                aria-label="Support on Ko-fi"
-              >
-                <CoffeeIcon className="h-5 w-5" />
-              </a>
-              <ThemeToggle />
-            </div>
           </div>
       </div>
     </header>
