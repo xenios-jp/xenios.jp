@@ -52,6 +52,35 @@ PAYLOAD=$(cat <<'EOF'
       ]
     },
     {
+      "name": "channel",
+      "description": "Which build channel did you test?",
+      "type": 3,
+      "required": true,
+      "choices": [
+        { "name": "Release", "value": "release" },
+        { "name": "Preview / TestFlight", "value": "preview" },
+        { "name": "Self-built / custom", "value": "self-built" }
+      ]
+    },
+    {
+      "name": "app_version",
+      "description": "App version string",
+      "type": 3,
+      "required": true
+    },
+    {
+      "name": "build_number",
+      "description": "Build number",
+      "type": 3,
+      "required": true
+    },
+    {
+      "name": "commit_short",
+      "description": "Optional short commit hash",
+      "type": 3,
+      "required": false
+    },
+    {
       "name": "device",
       "description": "Device model (platform is inferred automatically)",
       "type": 3,

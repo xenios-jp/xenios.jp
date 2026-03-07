@@ -34,15 +34,38 @@ interface Env {
   API_KEY: string;
   DISCORD_APPLICATION_ID: string;
   DISCORD_PUBLIC_KEY: string;
+  COMPAT_REPO_OWNER?: string;
+  COMPAT_REPO_NAME?: string;
+  COMPAT_REPO_BRANCH?: string;
+  COMPAT_RELEASE_MANIFEST_URL?: string;
+  COMPAT_WEBSITE_BASE?: string;
+}
+
+interface ExecutionContext {
+  waitUntil(promise: Promise<unknown>): void;
+  passThroughOnException?(): void;
 }
 
 type GameStatus = "playable" | "ingame" | "intro" | "loads" | "nothing";
+type SummaryStatus = GameStatus | "untested";
 type PerfTier = "great" | "ok" | "poor" | "n/a";
 type Platform = "ios" | "macos";
 type Architecture = "arm64" | "x86_64";
 type GpuBackend = "msc" | "msl";
+type BuildChannel = "release" | "preview" | "self-built";
+type SummaryChannel = "release" | "preview" | "all";
 
 type ReportSource = "app" | "discord" | "github";
+
+interface BuildInfo {
+  buildId?: string;
+  channel: BuildChannel;
+  official: boolean;
+  appVersion?: string;
+  buildNumber?: string;
+  commitShort?: string;
+  publishedAt?: string;
+}
 
 interface ReportPayload {
   titleId: string;
@@ -57,6 +80,7 @@ interface ReportPayload {
   notes: string;
   tags?: string[];
   screenshots?: string[];
+  build: BuildInfo;
 }
 
 interface GameReport {
@@ -66,10 +90,29 @@ interface GameReport {
   arch: Architecture;
   gpuBackend: GpuBackend;
   status: GameStatus;
+  perf?: PerfTier;
   date: string;
   notes: string;
   submittedBy?: string;
   source?: ReportSource;
+  build?: BuildInfo;
+}
+
+interface GameSummary {
+  channel: SummaryChannel;
+  status: SummaryStatus;
+  perf: PerfTier | null;
+  notes: string;
+  updatedAt: string | null;
+  reportCount: number;
+  latestReport: GameReport | null;
+  bestReport: GameReport | null;
+}
+
+interface GameSummaries {
+  release: GameSummary;
+  preview: GameSummary;
+  all: GameSummary;
 }
 
 interface Game {
@@ -91,6 +134,9 @@ interface Game {
   notes: string;
   reports: GameReport[];
   screenshots: string[];
+  summaries?: GameSummaries;
+  issueNumber?: number;
+  issueUrl?: string;
 }
 
 interface PipelineResult {
@@ -103,11 +149,14 @@ interface PipelineResult {
 
 // ── Config ───────────────────────────────────────────────────────────
 
-const GITHUB_OWNER = "xenios-jp";
-const GITHUB_REPO = "xenios.jp";
 const COMPAT_PATH = "data/compatibility.json";
-const BRANCH = "main";
 const SCREENSHOT_PATH = "public/compatibility/screenshots";
+const DEFAULT_COMPAT_REPO_OWNER = "xenios-jp";
+const DEFAULT_COMPAT_REPO_NAME = "game-compatibility";
+const DEFAULT_COMPAT_REPO_BRANCH = "main";
+const DEFAULT_RELEASE_MANIFEST_URL =
+  "https://raw.githubusercontent.com/xenios-jp/xenios.jp/main/data/release-builds.json";
+const DEFAULT_WEBSITE_BASE = "https://xenios.jp";
 
 // ── Schema (single source of truth for valid values) ─────────────────
 // When adding new platforms, GPU backends, etc., update these arrays.
@@ -147,6 +196,34 @@ const VALID_PERFS = SCHEMA.perfTiers.map((p) => p.value);
 const VALID_PLATFORMS = SCHEMA.platforms.map((p) => p.value);
 const VALID_ARCHS = SCHEMA.architectures.map((a) => a.value);
 const VALID_GPU_BACKENDS = SCHEMA.gpuBackends.map((g) => g.value);
+const VALID_BUILD_CHANNELS: BuildChannel[] = ["release", "preview", "self-built"];
+const STATUS_RANK: Record<GameStatus, number> = {
+  playable: 4,
+  ingame: 3,
+  intro: 2,
+  loads: 1,
+  nothing: 0,
+};
+
+function compatRepoOwner(env?: Env): string {
+  return env?.COMPAT_REPO_OWNER || DEFAULT_COMPAT_REPO_OWNER;
+}
+
+function compatRepoName(env?: Env): string {
+  return env?.COMPAT_REPO_NAME || DEFAULT_COMPAT_REPO_NAME;
+}
+
+function compatRepoBranch(env?: Env): string {
+  return env?.COMPAT_REPO_BRANCH || DEFAULT_COMPAT_REPO_BRANCH;
+}
+
+function compatWebsiteBase(env?: Env): string {
+  return env?.COMPAT_WEBSITE_BASE || DEFAULT_WEBSITE_BASE;
+}
+
+function releaseManifestUrl(env?: Env): string {
+  return env?.COMPAT_RELEASE_MANIFEST_URL || DEFAULT_RELEASE_MANIFEST_URL;
+}
 
 // ── Helpers ──────────────────────────────────────────────────────────
 
@@ -159,6 +236,46 @@ function slugify(title: string): string {
 
 function todayISO(): string {
   return new Date().toISOString().slice(0, 10);
+}
+
+function sanitizeBuildFragment(value: string | undefined): string {
+  return (value || "")
+    .trim()
+    .toLowerCase()
+    .replace(/[^a-z0-9.-]+/g, "-")
+    .replace(/^-|-$/g, "");
+}
+
+function makeBuildId(
+  platform: Platform,
+  channel: BuildChannel,
+  appVersion?: string,
+  buildNumber?: string
+): string | undefined {
+  const parts = [
+    sanitizeBuildFragment(platform),
+    sanitizeBuildFragment(channel),
+    sanitizeBuildFragment(appVersion),
+    sanitizeBuildFragment(buildNumber),
+  ].filter(Boolean);
+  return parts.length >= 3 ? parts.join("-") : undefined;
+}
+
+function normalizeBuildInfo(platform: Platform, build: BuildInfo): BuildInfo {
+  const normalized: BuildInfo = {
+    channel: build.channel,
+    official: build.official,
+  };
+
+  if (build.appVersion?.trim()) normalized.appVersion = build.appVersion.trim();
+  if (build.buildNumber?.trim()) normalized.buildNumber = build.buildNumber.trim();
+  if (build.commitShort?.trim()) normalized.commitShort = build.commitShort.trim();
+  if (build.publishedAt?.trim()) normalized.publishedAt = build.publishedAt.trim();
+  normalized.buildId =
+    build.buildId?.trim() ||
+    makeBuildId(platform, normalized.channel, normalized.appVersion, normalized.buildNumber);
+
+  return normalized;
 }
 
 function cors(response: Response): Response {
@@ -188,6 +305,13 @@ function hexToUint8Array(hex: string): Uint8Array {
   return new Uint8Array(pairs.map((byte) => parseInt(byte, 16)));
 }
 
+function toArrayBuffer(view: Uint8Array): ArrayBuffer {
+  return view.buffer.slice(
+    view.byteOffset,
+    view.byteOffset + view.byteLength
+  ) as ArrayBuffer;
+}
+
 // ── Validation ───────────────────────────────────────────────────────
 
 function validatePayload(body: unknown): { ok: true; data: ReportPayload } | { ok: false; error: string } {
@@ -213,6 +337,35 @@ function validatePayload(body: unknown): { ok: true; data: ReportPayload } | { o
   if (!VALID_ARCHS.includes(b.arch as Architecture)) return { ok: false, error: `arch must be one of: ${VALID_ARCHS.join(", ")}` };
   if (!VALID_GPU_BACKENDS.includes(b.gpuBackend as GpuBackend)) return { ok: false, error: `gpuBackend must be one of: ${VALID_GPU_BACKENDS.join(", ")}` };
   if (!b.notes || typeof b.notes !== "string") return { ok: false, error: "notes is required" };
+  if (!b.build || typeof b.build !== "object") {
+    return { ok: false, error: "build metadata is required" };
+  }
+
+  const build = b.build as Record<string, unknown>;
+  if (!VALID_BUILD_CHANNELS.includes(build.channel as BuildChannel)) {
+    return {
+      ok: false,
+      error: `build.channel must be one of: ${VALID_BUILD_CHANNELS.join(", ")}`,
+    };
+  }
+  if (typeof build.official !== "boolean") {
+    return { ok: false, error: "build.official must be a boolean" };
+  }
+  if (!build.appVersion || typeof build.appVersion !== "string") {
+    return { ok: false, error: "build.appVersion is required" };
+  }
+  if (!build.buildNumber || typeof build.buildNumber !== "string") {
+    return { ok: false, error: "build.buildNumber is required" };
+  }
+  if (build.buildId !== undefined && typeof build.buildId !== "string") {
+    return { ok: false, error: "build.buildId must be a string" };
+  }
+  if (build.commitShort !== undefined && typeof build.commitShort !== "string") {
+    return { ok: false, error: "build.commitShort must be a string" };
+  }
+  if (build.publishedAt !== undefined && typeof build.publishedAt !== "string") {
+    return { ok: false, error: "build.publishedAt must be a string" };
+  }
   if (b.screenshots !== undefined) {
     if (!Array.isArray(b.screenshots)) {
       return { ok: false, error: "screenshots must be an array" };
@@ -250,6 +403,15 @@ function validatePayload(body: unknown): { ok: true; data: ReportPayload } | { o
             .map((s) => s.trim())
             .filter(Boolean)
         : undefined,
+      build: normalizeBuildInfo(b.platform as Platform, {
+        buildId: typeof build.buildId === "string" ? build.buildId : undefined,
+        channel: build.channel as BuildChannel,
+        official: build.official as boolean,
+        appVersion: build.appVersion as string,
+        buildNumber: build.buildNumber as string,
+        commitShort: typeof build.commitShort === "string" ? build.commitShort : undefined,
+        publishedAt: typeof build.publishedAt === "string" ? build.publishedAt : undefined,
+      }),
     },
   };
 }
@@ -276,20 +438,26 @@ function encodeGitHubPath(path: string): string {
     .join("/");
 }
 
-function githubRawUrl(path: string): string {
-  return `https://raw.githubusercontent.com/${GITHUB_OWNER}/${GITHUB_REPO}/${BRANCH}/${path}`;
+function githubRawUrl(env: Env, path: string): string {
+  return `https://raw.githubusercontent.com/${compatRepoOwner(env)}/${compatRepoName(env)}/${compatRepoBranch(env)}/${path}`;
 }
 
-async function commitFileToGitHub(token: string, path: string, base64Content: string, message: string): Promise<void> {
+async function commitFileToGitHub(
+  env: Env,
+  token: string,
+  path: string,
+  base64Content: string,
+  message: string
+): Promise<void> {
   const res = await githubFetch(
-    `/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${encodeGitHubPath(path)}`,
+    `/repos/${compatRepoOwner(env)}/${compatRepoName(env)}/contents/${encodeGitHubPath(path)}`,
     token,
     {
       method: "PUT",
       body: JSON.stringify({
         message,
         content: base64Content,
-        branch: BRANCH,
+        branch: compatRepoBranch(env),
       }),
     }
   );
@@ -297,8 +465,11 @@ async function commitFileToGitHub(token: string, path: string, base64Content: st
   if (!res.ok) throw new Error(`GitHub file upload failed: ${res.status} ${await res.text()}`);
 }
 
-async function getFileFromGitHub(token: string): Promise<{ content: Game[]; sha: string }> {
-  const res = await githubFetch(`/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${COMPAT_PATH}?ref=${BRANCH}`, token);
+async function getFileFromGitHub(env: Env, token: string): Promise<{ content: Game[]; sha: string }> {
+  const res = await githubFetch(
+    `/repos/${compatRepoOwner(env)}/${compatRepoName(env)}/contents/${COMPAT_PATH}?ref=${compatRepoBranch(env)}`,
+    token
+  );
 
   if (!res.ok) throw new Error(`GitHub GET failed: ${res.status} ${await res.text()}`);
 
@@ -308,16 +479,16 @@ async function getFileFromGitHub(token: string): Promise<{ content: Game[]; sha:
   return { content: JSON.parse(decoded) as Game[], sha: json.sha };
 }
 
-async function commitToGitHub(token: string, games: Game[], sha: string, message: string): Promise<void> {
+async function commitToGitHub(env: Env, token: string, games: Game[], sha: string, message: string): Promise<void> {
   const encoded = btoa(unescape(encodeURIComponent(JSON.stringify(games, null, 2) + "\n")));
 
-  const res = await githubFetch(`/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${COMPAT_PATH}`, token, {
+  const res = await githubFetch(`/repos/${compatRepoOwner(env)}/${compatRepoName(env)}/contents/${COMPAT_PATH}`, token, {
     method: "PUT",
     body: JSON.stringify({
       message,
       content: encoded,
       sha,
-      branch: BRANCH,
+      branch: compatRepoBranch(env),
     }),
   });
 
@@ -326,11 +497,15 @@ async function commitToGitHub(token: string, games: Game[], sha: string, message
 
 // ── GitHub Issue Management (One Issue Per Game) ─────────────────────
 
-async function findExistingIssue(token: string, titleId: string): Promise<{ number: number; labels: string[] } | null> {
+async function findExistingIssue(
+  env: Env,
+  token: string,
+  titleId: string
+): Promise<{ number: number; labels: string[] } | null> {
   // Use the issues list API (instant) instead of search API (has indexing delays).
   // Filter by compat-report label and check title prefix for the titleId.
   const res = await githubFetch(
-    `/repos/${GITHUB_OWNER}/${GITHUB_REPO}/issues?labels=compat-report&state=open&per_page=100`,
+    `/repos/${compatRepoOwner(env)}/${compatRepoName(env)}/issues?labels=compat-report&state=open&per_page=100`,
     token
   );
 
@@ -383,6 +558,10 @@ function buildReportBody(report: ReportPayload, source: ReportSource, screenshot
     `| **OS Version** | ${platformDisplay} ${report.osVersion} |`,
     `| **Architecture** | ${report.arch} |`,
     `| **GPU Backend** | ${report.gpuBackend.toUpperCase()} |`,
+    `| **Build Channel** | ${report.build.channel} |`,
+    `| **XeniOS Version** | ${report.build.appVersion ?? "Unknown"} |`,
+    `| **Build Number** | ${report.build.buildNumber ?? "Unknown"} |`,
+    ...(report.build.commitShort ? [`| **Commit Short** | \`${report.build.commitShort}\` |`] : []),
     ...(submittedBy ? [`| **Submitted By** | ${submittedBy} |`] : []),
     ``,
     `### Notes`,
@@ -408,14 +587,22 @@ function buildLabels(report: ReportPayload): string[] {
     `perf:${report.perf}`,
     `platform:${report.platform}`,
     `gpu:${report.gpuBackend}`,
+    `channel:${report.build.channel}`,
   ];
 }
 
-async function createNewIssue(token: string, report: ReportPayload, source: ReportSource, screenshotUrls: string[] = [], submittedBy?: string): Promise<string> {
+async function createNewIssue(
+  env: Env,
+  token: string,
+  report: ReportPayload,
+  source: ReportSource,
+  screenshotUrls: string[] = [],
+  submittedBy?: string
+): Promise<string> {
   const body = buildReportBody(report, source, screenshotUrls, submittedBy);
   const labels = buildLabels(report);
 
-  const res = await githubFetch(`/repos/${GITHUB_OWNER}/${GITHUB_REPO}/issues`, token, {
+  const res = await githubFetch(`/repos/${compatRepoOwner(env)}/${compatRepoName(env)}/issues`, token, {
     method: "POST",
     body: JSON.stringify({
       title: `${report.titleId} \u2014 ${report.title}`,
@@ -430,20 +617,34 @@ async function createNewIssue(token: string, report: ReportPayload, source: Repo
   return issue.html_url;
 }
 
-async function addCommentToIssue(token: string, issueNumber: number, report: ReportPayload, source: ReportSource, screenshotUrls: string[] = [], submittedBy?: string): Promise<string> {
+async function addCommentToIssue(
+  env: Env,
+  token: string,
+  issueNumber: number,
+  report: ReportPayload,
+  source: ReportSource,
+  screenshotUrls: string[] = [],
+  submittedBy?: string
+): Promise<string> {
   const body = buildReportBody(report, source, screenshotUrls, submittedBy);
 
-  const res = await githubFetch(`/repos/${GITHUB_OWNER}/${GITHUB_REPO}/issues/${issueNumber}/comments`, token, {
+  const res = await githubFetch(`/repos/${compatRepoOwner(env)}/${compatRepoName(env)}/issues/${issueNumber}/comments`, token, {
     method: "POST",
     body: JSON.stringify({ body }),
   });
 
   if (!res.ok) throw new Error(`GitHub comment creation failed: ${res.status} ${await res.text()}`);
 
-  return `https://github.com/${GITHUB_OWNER}/${GITHUB_REPO}/issues/${issueNumber}`;
+  return `https://github.com/${compatRepoOwner(env)}/${compatRepoName(env)}/issues/${issueNumber}`;
 }
 
-async function updateIssueLabels(token: string, issueNumber: number, existingLabels: string[], report: ReportPayload): Promise<void> {
+async function updateIssueLabels(
+  env: Env,
+  token: string,
+  issueNumber: number,
+  existingLabels: string[],
+  report: ReportPayload
+): Promise<void> {
   const kept = existingLabels.filter((l) => !l.startsWith("state:") && !l.startsWith("perf:"));
 
   const newLabels = new Set(kept);
@@ -452,8 +653,9 @@ async function updateIssueLabels(token: string, issueNumber: number, existingLab
   newLabels.add(`perf:${report.perf}`);
   newLabels.add(`platform:${report.platform}`);
   newLabels.add(`gpu:${report.gpuBackend}`);
+  newLabels.add(`channel:${report.build.channel}`);
 
-  const res = await githubFetch(`/repos/${GITHUB_OWNER}/${GITHUB_REPO}/issues/${issueNumber}`, token, {
+  const res = await githubFetch(`/repos/${compatRepoOwner(env)}/${compatRepoName(env)}/issues/${issueNumber}`, token, {
     method: "PATCH",
     body: JSON.stringify({ labels: [...newLabels] }),
   });
@@ -463,18 +665,155 @@ async function updateIssueLabels(token: string, issueNumber: number, existingLab
   }
 }
 
-async function createOrUpdateIssue(token: string, report: ReportPayload, source: ReportSource, screenshotUrls: string[] = [], submittedBy?: string): Promise<string> {
-  const existing = await findExistingIssue(token, report.titleId);
+async function createOrUpdateIssue(
+  env: Env,
+  token: string,
+  report: ReportPayload,
+  source: ReportSource,
+  screenshotUrls: string[] = [],
+  submittedBy?: string
+): Promise<string> {
+  const existing = await findExistingIssue(env, token, report.titleId);
 
   if (existing) {
     const [issueUrl] = await Promise.all([
-      addCommentToIssue(token, existing.number, report, source, screenshotUrls, submittedBy),
-      updateIssueLabels(token, existing.number, existing.labels, report),
+      addCommentToIssue(env, token, existing.number, report, source, screenshotUrls, submittedBy),
+      updateIssueLabels(env, token, existing.number, existing.labels, report),
     ]);
     return issueUrl;
   }
 
-  return createNewIssue(token, report, source, screenshotUrls, submittedBy);
+  return createNewIssue(env, token, report, source, screenshotUrls, submittedBy);
+}
+
+type ReleaseBuildManifest = {
+  platforms?: Partial<
+    Record<
+      Platform,
+      Partial<Record<Exclude<SummaryChannel, "all">, Partial<BuildInfo> | null>>
+    >
+  >;
+};
+
+function getCurrentBuild(
+  releaseBuilds: ReleaseBuildManifest | null,
+  platform: Platform,
+  channel: Exclude<SummaryChannel, "all">
+): Partial<BuildInfo> | null {
+  return releaseBuilds?.platforms?.[platform]?.[channel] ?? null;
+}
+
+function reportMatchesSummaryChannel(
+  report: GameReport,
+  releaseBuilds: ReleaseBuildManifest | null,
+  channel: SummaryChannel
+): boolean {
+  if (channel === "all") return true;
+
+  const build = report.build;
+  const currentBuild = getCurrentBuild(releaseBuilds, report.platform, channel);
+  const currentBuildId =
+    currentBuild && typeof currentBuild.buildId === "string" ? currentBuild.buildId : null;
+
+  if (channel === "preview") {
+    if (!build || build.channel !== "preview") return false;
+    if (currentBuildId) {
+      return build.buildId === currentBuildId;
+    }
+    return true;
+  }
+
+  if (currentBuildId) {
+    return Boolean(build && build.channel === "release" && build.buildId === currentBuildId);
+  }
+
+  if (!build || !build.channel) {
+    return true;
+  }
+  return build.channel === "release";
+}
+
+function bestReportForReports(reports: GameReport[]): GameReport | null {
+  if (reports.length === 0) return null;
+  return reports.reduce((best, report) => {
+    const bestRank = STATUS_RANK[best.status];
+    const reportRank = STATUS_RANK[report.status];
+    if (reportRank > bestRank) return report;
+    if (reportRank === bestRank && report.date > best.date) return report;
+    return best;
+  });
+}
+
+function latestReportForReports(reports: GameReport[]): GameReport | null {
+  if (reports.length === 0) return null;
+  return [...reports].sort((left, right) => right.date.localeCompare(left.date))[0] ?? null;
+}
+
+function buildSummaryForChannel(
+  reports: GameReport[],
+  releaseBuilds: ReleaseBuildManifest | null,
+  channel: SummaryChannel
+): GameSummary {
+  const matching = reports.filter((report) => reportMatchesSummaryChannel(report, releaseBuilds, channel));
+  const latestReport = latestReportForReports(matching);
+  const bestReport = bestReportForReports(matching);
+  return {
+    channel,
+    status: bestReport ? bestReport.status : "untested",
+    perf: bestReport?.perf ?? null,
+    notes: latestReport?.notes ?? "",
+    updatedAt: latestReport?.date ?? null,
+    reportCount: matching.length,
+    latestReport,
+    bestReport,
+  };
+}
+
+function decorateGameWithSummaries(
+  game: Game,
+  releaseBuilds: ReleaseBuildManifest | null
+): Game {
+  return {
+    ...game,
+    summaries: {
+      release: buildSummaryForChannel(game.reports, releaseBuilds, "release"),
+      preview: buildSummaryForChannel(game.reports, releaseBuilds, "preview"),
+      all: buildSummaryForChannel(game.reports, releaseBuilds, "all"),
+    },
+  };
+}
+
+function getSummaryForChannel(game: Game, channel: SummaryChannel): GameSummary {
+  if (game.summaries?.[channel]) {
+    return game.summaries[channel];
+  }
+
+  const fallbackReport = latestReportForReports(game.reports);
+  return {
+    channel,
+    status: fallbackReport ? fallbackReport.status : "untested",
+    perf: fallbackReport?.perf ?? game.perf ?? null,
+    notes: fallbackReport?.notes ?? game.notes ?? "",
+    updatedAt: fallbackReport?.date ?? game.updatedAt ?? null,
+    reportCount: game.reports.length,
+    latestReport: fallbackReport,
+    bestReport: bestReportForReports(game.reports),
+  };
+}
+
+async function fetchReleaseBuildManifest(env: Env): Promise<ReleaseBuildManifest | null> {
+  try {
+    const response = await fetch(releaseManifestUrl(env), {
+      headers: { "User-Agent": "xenios-compat-worker" },
+    });
+    if (!response.ok) {
+      return null;
+    }
+    return (await response.json()) as ReleaseBuildManifest;
+  } catch (error) {
+    console.error("Failed to fetch release build manifest:", error);
+    return null;
+  }
 }
 
 // ── Discord Webhook ──────────────────────────────────────────────────
@@ -517,6 +856,7 @@ async function postToDiscord(webhookUrl: string, report: ReportPayload, issueUrl
   const desc = [
     `${STATUS_LABELS[report.status]}  \u2022  ${PERF_LABELS[report.perf]}`,
     `${PLATFORM_LABELS[report.platform]}  \u2022  ${deviceDisplayName(report.device)}`,
+    `${report.build.channel}  \u2022  ${report.build.appVersion ?? "Unknown"} (${report.build.buildNumber ?? "?"})`,
     ``,
     report.notes.slice(0, 300) + (report.notes.length > 300 ? "..." : ""),
   ].join("\n");
@@ -526,6 +866,11 @@ async function postToDiscord(webhookUrl: string, report: ReportPayload, issueUrl
     url: issueUrl || undefined,
     description: desc,
     color: STATUS_COLORS[report.status],
+    fields: [
+      { name: "Build", value: `${report.build.appVersion ?? "Unknown"} (${report.build.buildNumber ?? "?"})`, inline: true },
+      { name: "Channel", value: report.build.channel, inline: true },
+      ...(report.build.commitShort ? [{ name: "Commit", value: `\`${report.build.commitShort}\``, inline: true }] : []),
+    ],
     footer: { text: submittedBy ? `${submittedBy} \u2022 ${SOURCE_LABELS[source]}` : SOURCE_LABELS[source] },
     timestamp: new Date().toISOString(),
   };
@@ -546,8 +891,6 @@ async function postToDiscord(webhookUrl: string, report: ReportPayload, issueUrl
 }
 
 // ── Compatibility Board (auto-updating Discord embed) ────────────────
-
-const WEBSITE_BASE = "https://xenios.jp";
 
 const STATUS_EMOJI: Record<GameStatus, string> = {
   playable: "\u2705",
@@ -570,23 +913,32 @@ const STATUS_LABEL_PLAIN: Record<GameStatus, string> = {
 async function updateCompatBoard(env: Env, games: Game[]): Promise<void> {
   const webhook = env.DISCORD_BOARD_WEBHOOK || env.DISCORD_WEBHOOK;
   if (!webhook) return;
+  const websiteBase = compatWebsiteBase(env);
 
-  // Sort games: by status order, then alphabetically
+  // Sort games: by release summary status order, then alphabetically.
   const sorted = [...games].sort((a, b) => {
-    const si = STATUS_ORDER.indexOf(a.status);
-    const bi = STATUS_ORDER.indexOf(b.status);
+    const aSummary = getSummaryForChannel(a, "release");
+    const bSummary = getSummaryForChannel(b, "release");
+    const aStatus = aSummary.status === "untested" ? "nothing" : aSummary.status;
+    const bStatus = bSummary.status === "untested" ? "nothing" : bSummary.status;
+    const si = STATUS_ORDER.indexOf(aStatus);
+    const bi = STATUS_ORDER.indexOf(bStatus);
     if (si !== bi) return si - bi;
     return a.title.localeCompare(b.title);
   });
 
-  // Build description grouped by status
+  // Build description grouped by release summary.
   const sections: string[] = [];
   for (const status of STATUS_ORDER) {
-    const group = sorted.filter((g) => g.status === status);
+    const group = sorted.filter((g) => getSummaryForChannel(g, "release").status === status);
     if (group.length === 0) continue;
     const header = `${STATUS_EMOJI[status]} **${STATUS_LABEL_PLAIN[status]}** (${group.length})`;
     const rows = group.map(
-      (g) => `[${g.title}](${WEBSITE_BASE}/compatibility/${g.slug}) \u2014 ${deviceDisplayName(g.lastReport.device)}`
+      (g) => {
+        const summary = getSummaryForChannel(g, "release");
+        const device = summary.latestReport?.device || g.lastReport?.device || "Unknown";
+        return `[${g.title}](${websiteBase}/compatibility/${g.slug}) \u2014 ${deviceDisplayName(device)}`;
+      }
     );
     sections.push(`${header}\n${rows.join("\n")}`);
   }
@@ -599,10 +951,10 @@ async function updateCompatBoard(env: Env, games: Game[]): Promise<void> {
     : description;
 
   const embed = {
-    title: "Game Compatibility",
+    title: "Game Compatibility (Release)",
     description: truncated,
     color: 0x34d399,
-    footer: { text: `${games.length} games \u2022 xenios.jp/compatibility` },
+    footer: { text: `${games.length} games \u2022 ${websiteBase.replace(/^https?:\/\//, "")}/compatibility` },
     timestamp: new Date().toISOString(),
   };
 
@@ -652,6 +1004,7 @@ function mergeScreenshotUrls(existing: string[] = [], incoming: string[] = []): 
 function mergeReport(
   games: Game[],
   report: ReportPayload,
+  releaseBuilds: ReleaseBuildManifest | null,
   screenshotUrls: string[] = [],
   source?: ReportSource,
   submittedBy?: string
@@ -664,10 +1017,12 @@ function mergeReport(
     arch: report.arch,
     gpuBackend: report.gpuBackend,
     status: report.status,
+    perf: report.perf,
     date: today,
     notes: report.notes,
     ...(submittedBy ? { submittedBy } : {}),
     ...(source ? { source } : {}),
+    build: report.build,
   };
 
   const idx = games.findIndex(
@@ -700,7 +1055,7 @@ function mergeReport(
       game.tags = [...existing];
     }
     const updated = [...games];
-    updated[idx] = game;
+    updated[idx] = decorateGameWithSummaries(game, releaseBuilds);
     return updated;
   }
 
@@ -725,7 +1080,7 @@ function mergeReport(
     screenshots: mergeScreenshotUrls([], screenshotUrls),
   };
 
-  return [...games, newGame];
+  return [...games, decorateGameWithSummaries(newGame, releaseBuilds)];
 }
 
 // ── Unified Pipeline ─────────────────────────────────────────────────
@@ -778,6 +1133,7 @@ function normalizeScreenshotContent(raw: string): { base64: string; extension: s
 }
 
 async function uploadReportScreenshots(
+  env: Env,
   token: string,
   report: ReportPayload,
   source: ReportSource
@@ -802,8 +1158,8 @@ async function uploadReportScreenshots(
       `compat: add screenshot ${index + 1} for ${report.title} (${report.titleId}) [via ${source}]`;
 
     try {
-      await commitFileToGitHub(token, filePath, normalized.base64, commitMessage);
-      uploadedUrls.push(githubRawUrl(filePath));
+      await commitFileToGitHub(env, token, filePath, normalized.base64, commitMessage);
+      uploadedUrls.push(githubRawUrl(env, filePath));
     } catch (error) {
       console.error(`Screenshot upload failed for ${report.titleId} #${index + 1}:`, error);
     }
@@ -820,20 +1176,21 @@ async function processReport(
   submittedBy?: string
 ): Promise<PipelineResult> {
   // 1. Fetch current compatibility.json from GitHub
-  const { content: games, sha } = await getFileFromGitHub(env.GITHUB_TOKEN);
+  const { content: games, sha } = await getFileFromGitHub(env, env.GITHUB_TOKEN);
+  const releaseBuilds = await fetchReleaseBuildManifest(env);
 
   // 2. Merge in the new report
-  const updated = mergeReport(games, report, screenshotUrls, source, submittedBy);
+  const updated = mergeReport(games, report, releaseBuilds, screenshotUrls, source, submittedBy);
 
   // 3. Commit back to GitHub
   const platformDisplay = report.platform === "ios" ? "iOS" : "macOS";
   const commitMsg = `compat: ${report.title} \u2014 ${report.status} on ${deviceDisplayName(report.device)} (${platformDisplay}) [via ${source}]`;
-  await commitToGitHub(env.GITHUB_TOKEN, updated, sha, commitMsg);
+  await commitToGitHub(env, env.GITHUB_TOKEN, updated, sha, commitMsg);
 
   // 4. Create or update GitHub issue (one issue per game)
   let issueUrl = "";
   try {
-    issueUrl = await createOrUpdateIssue(env.GITHUB_TOKEN, report, source, screenshotUrls, submittedBy);
+    issueUrl = await createOrUpdateIssue(env, env.GITHUB_TOKEN, report, source, screenshotUrls, submittedBy);
   } catch (e) {
     console.error("Issue creation/update failed:", e);
   }
@@ -897,7 +1254,7 @@ async function verifyDiscordSignature(request: Request, publicKey: string): Prom
     const keyData = hexToUint8Array(publicKey);
     const key = await crypto.subtle.importKey(
       "raw",
-      keyData,
+      toArrayBuffer(keyData),
       "Ed25519",
       false,
       ["verify"]
@@ -907,7 +1264,12 @@ async function verifyDiscordSignature(request: Request, publicKey: string): Prom
     const message = encoder.encode(timestamp + body);
     const sig = hexToUint8Array(signature);
 
-    const valid = await crypto.subtle.verify("Ed25519", key, sig, message);
+    const valid = await crypto.subtle.verify(
+      "Ed25519",
+      key,
+      toArrayBuffer(sig),
+      toArrayBuffer(message)
+    );
     console.log("[discord] signature valid:", valid);
     return { valid, body };
   } catch (e) {
@@ -990,12 +1352,16 @@ interface CommandOptions {
   osVersion: string;
   arch: string;
   gpuBackend: string;
+  channel: BuildChannel;
+  appVersion: string;
+  buildNumber: string;
+  commitShort: string;
   screenshotUrl: string;
   submittedBy: string;
 }
 
 async function storeCommandOptions(key: string, data: CommandOptions): Promise<void> {
-  const cache = caches.default;
+  const cache = (caches as CacheStorage & { default: Cache }).default;
   const url = `https://xenios-modal.internal/cmdopts/${key}`;
   await cache.put(url, new Response(JSON.stringify(data), {
     headers: { "Cache-Control": "s-maxage=600", "Content-Type": "application/json" },
@@ -1003,7 +1369,7 @@ async function storeCommandOptions(key: string, data: CommandOptions): Promise<v
 }
 
 async function getCommandOptions(key: string): Promise<CommandOptions | null> {
-  const cache = caches.default;
+  const cache = (caches as CacheStorage & { default: Cache }).default;
   const url = `https://xenios-modal.internal/cmdopts/${key}`;
   const response = await cache.match(url);
   if (!response) return null;
@@ -1090,23 +1456,35 @@ async function handleDiscordInteraction(request: Request, env: Env, ctx: Executi
         const query = getOption("game").toLowerCase().trim();
 
         try {
-          const { content: games } = await getFileFromGitHub(env.GITHUB_TOKEN);
+          const { content: games } = await getFileFromGitHub(env, env.GITHUB_TOKEN);
+          const websiteBase = compatWebsiteBase(env);
 
           if (!query) {
             // No search term: show summary
-            const counts: Record<GameStatus, number> = { playable: 0, ingame: 0, intro: 0, loads: 0, nothing: 0 };
-            games.forEach((g: Game) => { counts[g.status] += 1; });
+            const counts: Record<SummaryStatus, number> = {
+              playable: 0,
+              ingame: 0,
+              intro: 0,
+              loads: 0,
+              nothing: 0,
+              untested: 0,
+            };
+            games.forEach((g: Game) => {
+              const summary = getSummaryForChannel(g, "release");
+              counts[summary.status] += 1;
+            });
 
-            const lines = STATUS_ORDER.map(
-              (s) => `${STATUS_EMOJI[s]} **${STATUS_LABEL_PLAIN[s]}**: ${counts[s]}`
-            );
+            const lines = [
+              ...STATUS_ORDER.map((s) => `${STATUS_EMOJI[s]} **${STATUS_LABEL_PLAIN[s]}**: ${counts[s]}`),
+              `⚪ **Untested**: ${counts.untested}`,
+            ];
 
             return discordJsonResponse({
               type: RESPONSE_TYPE.CHANNEL_MESSAGE,
               data: {
                 embeds: [{
-                  title: "Game Compatibility",
-                  description: lines.join("\n") + `\n\n**${games.length} games tested**\n[Browse full list](${WEBSITE_BASE}/compatibility)`,
+                  title: "Game Compatibility (Release)",
+                  description: lines.join("\n") + `\n\n**${games.length} tracked games**\n[Browse full list](${websiteBase}/compatibility)`,
                   color: 0x34d399,
                 }],
                 flags: FLAGS.EPHEMERAL,
@@ -1123,24 +1501,28 @@ async function handleDiscordInteraction(request: Request, env: Env, ctx: Executi
             return discordJsonResponse({
               type: RESPONSE_TYPE.CHANNEL_MESSAGE,
               data: {
-                content: `No games found matching "${getOption("game")}". [Browse all](${WEBSITE_BASE}/compatibility)`,
+                content: `No games found matching "${getOption("game")}". [Browse all](${websiteBase}/compatibility)`,
                 flags: FLAGS.EPHEMERAL,
               },
             });
           }
 
-          const embeds = matches.map((g: Game) => ({
+          const embeds = matches.map((g: Game) => {
+            const summary = getSummaryForChannel(g, "release");
+            const summaryStatus = summary.status === "untested" ? "Release untested" : STATUS_LABEL_PLAIN[summary.status];
+            const device = summary.latestReport?.device || g.lastReport?.device || "Unknown";
+            return ({
             title: g.title,
-            url: `${WEBSITE_BASE}/compatibility/${g.slug}`,
-            description: g.notes.slice(0, 200) + (g.notes.length > 200 ? "..." : ""),
-            color: STATUS_COLORS[g.status],
+            url: `${websiteBase}/compatibility/${g.slug}`,
+            description: (summary.notes || g.notes).slice(0, 200) + ((summary.notes || g.notes).length > 200 ? "..." : ""),
+            color: summary.status === "untested" ? 0x94a3b8 : STATUS_COLORS[summary.status],
             fields: [
-              { name: "Status", value: `${STATUS_EMOJI[g.status]} ${STATUS_LABEL_PLAIN[g.status]}`, inline: true },
-              { name: "Device", value: deviceDisplayName(g.lastReport.device), inline: true },
+              { name: "Release", value: summary.status === "untested" ? "⚪ Untested" : `${STATUS_EMOJI[summary.status]} ${summaryStatus}`, inline: true },
+              { name: "Device", value: deviceDisplayName(device), inline: true },
               { name: "Title ID", value: `\`${g.titleId}\``, inline: true },
             ],
-            footer: { text: `Updated ${g.updatedAt}` },
-          }));
+            footer: { text: `Updated ${summary.updatedAt || g.updatedAt}` },
+          })});
 
           return discordJsonResponse({
             type: RESPONSE_TYPE.CHANNEL_MESSAGE,
@@ -1182,6 +1564,10 @@ async function handleDiscordInteraction(request: Request, env: Env, ctx: Executi
           osVersion: getOption("os_version"),
           arch: getOption("arch"),
           gpuBackend: getOption("gpu"),
+          channel: (getOption("channel") as BuildChannel) || "release",
+          appVersion: getOption("app_version"),
+          buildNumber: getOption("build_number"),
+          commitShort: getOption("commit_short"),
           screenshotUrl,
           submittedBy,
         };
@@ -1239,12 +1625,19 @@ async function handleDiscordInteraction(request: Request, env: Env, ctx: Executi
           arch: cmdOpts.arch,
           gpuBackend: cmdOpts.gpuBackend,
           notes: getModalField(components, "notes").trim(),
+          build: {
+            channel: cmdOpts.channel,
+            official: cmdOpts.channel !== "self-built",
+            appVersion: cmdOpts.appVersion,
+            buildNumber: cmdOpts.buildNumber,
+            commitShort: cmdOpts.commitShort || undefined,
+          },
         };
 
         console.log("[discord] modal submitted, payload:", rawPayload.titleId, rawPayload.title);
 
         const validation = validatePayload(rawPayload);
-        if (!validation.ok) {
+        if (validation.ok === false) {
           return discordJsonResponse({
             type: RESPONSE_TYPE.CHANNEL_MESSAGE,
             data: {
@@ -1354,14 +1747,14 @@ export default {
       }
 
       const validation = validatePayload(body);
-      if (!validation.ok) {
+      if (validation.ok === false) {
         return errorResponse(validation.error);
       }
 
       const report = validation.data;
 
       try {
-        const screenshotUrls = await uploadReportScreenshots(env.GITHUB_TOKEN, report, "app");
+        const screenshotUrls = await uploadReportScreenshots(env, env.GITHUB_TOKEN, report, "app");
         const result = await processReport(env, report, "app", screenshotUrls);
         return jsonResponse(result);
       } catch (e) {
@@ -1379,7 +1772,7 @@ export default {
     // GET /games — public read-only endpoint for the app
     if (url.pathname === "/games" && request.method === "GET") {
       try {
-        const { content: games } = await getFileFromGitHub(env.GITHUB_TOKEN);
+        const { content: games } = await getFileFromGitHub(env, env.GITHUB_TOKEN);
         return jsonResponse(games);
       } catch (e) {
         return errorResponse(`Failed to fetch games: ${(e as Error).message}`, 500);
@@ -1392,16 +1785,16 @@ export default {
       const titleId = discussionMatch[1].toUpperCase();
       try {
         // Get structured game data from compatibility.json.
-        const { content: games } = await getFileFromGitHub(env.GITHUB_TOKEN);
+        const { content: games } = await getFileFromGitHub(env, env.GITHUB_TOKEN);
         const game = games.find((g) => g.titleId.toUpperCase() === titleId);
 
         // Find linked GitHub issue (if any).
         let issueNumber: number | null = null;
         let issueUrl: string | null = null;
-        const existing = await findExistingIssue(env.GITHUB_TOKEN, titleId);
+        const existing = await findExistingIssue(env, env.GITHUB_TOKEN, titleId);
         if (existing) {
           issueNumber = existing.number;
-          issueUrl = `https://github.com/${GITHUB_OWNER}/${GITHUB_REPO}/issues/${existing.number}`;
+          issueUrl = `https://github.com/${compatRepoOwner(env)}/${compatRepoName(env)}/issues/${existing.number}`;
         }
 
         if (!game) {
@@ -1419,6 +1812,7 @@ export default {
           issueNumber,
           issueUrl,
           reports: game.reports,
+          summaries: game.summaries,
         });
       } catch (e) {
         return errorResponse(`Failed to fetch discussion: ${(e as Error).message}`, 500);
@@ -1432,7 +1826,7 @@ export default {
         return errorResponse("Unauthorized", 401);
       }
       try {
-        const { content: games } = await getFileFromGitHub(env.GITHUB_TOKEN);
+        const { content: games } = await getFileFromGitHub(env, env.GITHUB_TOKEN);
         await updateCompatBoard(env, games);
         return jsonResponse({ ok: true, games: games.length });
       } catch (e) {
