@@ -179,9 +179,9 @@ function normalizeExcerpt(markdown: string): string {
     .replace(/https?:\/\/\S+/g, "")
     .replace(/<!--[\s\S]*?-->/g, "")
     .replace(/\|/g, " ")
-    .replace(/\s+/g, " ")
-    .trim()
-    .slice(0, 220);
+    .replace(/[^\S\n]+/g, " ")
+    .replace(/\n{3,}/g, "\n\n")
+    .trim();
 }
 
 function formatIsoDate(dateString: string): string {
@@ -367,7 +367,7 @@ export default async function GameDetailPage({
       </section>
 
       {/* Content */}
-      <div className="mx-auto max-w-4xl px-4 py-10 md:py-14 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-4xl px-4 py-6 md:py-8 sm:px-6 lg:px-8">
         <div className="flex flex-col gap-8">
           {/* GitHub Discussion — most important, shown first */}
           {discussion ? (
@@ -400,7 +400,7 @@ export default async function GameDetailPage({
                         </span>
                         <span className="shrink-0 text-xs text-text-muted">{entry.createdAt}</span>
                       </div>
-                      <p className="text-[15px] leading-relaxed text-text-secondary">
+                      <p className="whitespace-pre-line text-[15px] leading-relaxed text-text-secondary">
                         {entry.excerpt}
                       </p>
                       {Object.keys(entry.meta).length > 0 ? (
