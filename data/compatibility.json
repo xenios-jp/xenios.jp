@@ -1,259 +1,82 @@
 [
   {
-    "slug": "halo-3",
-    "title": "Halo 3",
-    "titleId": "4D5307E6",
-    "status": "playable",
+    "slug": "halo-ce-anniversary",
+    "title": "Halo: CE Anniversary",
+    "titleId": "4D5309B1",
+    "status": "ingame",
     "perf": "great",
     "tags": [],
     "platforms": [
-      "ios",
-      "macos"
+      "ios"
     ],
     "lastReport": {
-      "device": "iPhone 15 Pro",
+      "device": "iPhone 17",
       "platform": "ios",
-      "osVersion": "18.0",
+      "osVersion": "26.3",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-03-06",
-    "notes": "test",
+    "notes": "If loading into game with classic graphics, runs at a steady 30fps. In anniversary mode there are severe graphical issues. When switching back from anniversary to classic mid game this breaks rendering in classic. \n\nAdditionally, the game shows audio issues in the warthog and some covenant vehicles.",
     "reports": [
       {
-        "device": "iPhone 15 Pro",
+        "device": "iPhone 17",
         "platform": "ios",
-        "osVersion": "18.0",
+        "osVersion": "26.3",
         "arch": "arm64",
         "gpuBackend": "msl",
-        "status": "playable",
+        "status": "ingame",
         "date": "2026-03-06",
-        "notes": "test",
+        "notes": "If loading into game with classic graphics, runs at a steady 30fps. In anniversary mode there are severe graphical issues. When switching back from anniversary to classic mid game this breaks rendering in classic. \n\nAdditionally, the game shows audio issues in the warthog and some covenant vehicles.",
         "source": "app"
-      },
+      }
+    ],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/xenios.jp/main/public/compatibility/screenshots/4D5309B1/1772815889495-1.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/xenios.jp/main/public/compatibility/screenshots/4D5309B1/1772815889495-2.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/xenios.jp/main/public/compatibility/screenshots/4D5309B1/1772815889495-3.jpg"
+    ]
+  },
+  {
+    "slug": "diablo-iii-ros",
+    "title": "Diablo III: RoS",
+    "titleId": "394F07D4",
+    "status": "ingame",
+    "perf": "poor",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 17",
+      "platform": "ios",
+      "osVersion": "26.3",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-06",
+    "notes": "Game runs at 15-20fps on iPhone 17. No noticeable graphical issues. Runs in slow motion due to engine expecting 60fps.",
+    "reports": [
       {
-        "device": "iPhone 15 Pro",
+        "device": "iPhone 17",
         "platform": "ios",
-        "osVersion": "18.0",
+        "osVersion": "26.3",
         "arch": "arm64",
         "gpuBackend": "msl",
-        "status": "playable",
+        "status": "ingame",
         "date": "2026-03-06",
-        "notes": "test",
+        "notes": "Game runs at 15-20fps on iPhone 17. No noticeable graphical issues. Runs in slow motion due to engine expecting 60fps.",
         "source": "app"
-      },
-      {
-        "device": "iPhone17,1",
-        "platform": "ios",
-        "osVersion": "18.5",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "date": "2026-03-04",
-        "notes": "Low FPS, but can start and play campaign, important note, if you die you can get stuck in a cutscene loop.",
-        "source": "app"
-      },
-      {
-        "device": "iPad Pro (M2)",
-        "platform": "ios",
-        "osVersion": "18.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "date": "2026-03-04",
-        "notes": "Crashes upon launch ping the game.",
-        "source": "app"
-      },
-      {
-        "device": "iPhone17,1",
-        "platform": "ios",
-        "osVersion": "18.5",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "date": "2026-03-02",
-        "notes": "Can play in campaign, frequently drops in FPS but seems to sit around 11-19 range. As described by another user you will need to select mission to bypass the initial cutscene which loops.",
-        "source": "app"
-      },
-      {
-        "device": "iPhone18,3",
-        "platform": "ios",
-        "osVersion": "26.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "date": "2026-03-01",
-        "notes": "Campaign cutscene cannot transition into gameplay in at least the first level. Workaround is to hit A to skip loop it once, back out, and start  the actual first mission from the campaign menu. \n\nPerformance is about 15fps on iPhone 17.",
-        "source": "app"
-      },
-      {
-        "device": "iPhone 16 Pro Max",
-        "platform": "macos",
-        "osVersion": "18.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "date": "2026-02-28",
-        "notes": "Does not boot"
-      },
-      {
-        "device": "iPhone 17",
-        "platform": "macos",
-        "osVersion": "iOS 26.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "date": "2026-02-28",
-        "notes": "Does not boot"
-      },
-      {
-        "device": "iPhone 17",
-        "platform": "ios",
-        "osVersion": "iOS 26.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "date": "2026-02-28",
-        "notes": "Game does not boot"
-      },
-      {
-        "device": "iPhone 17",
-        "platform": "ios",
-        "osVersion": "iOS 26.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "date": "2026-02-28",
-        "notes": "Does not boot"
       }
     ],
-    "screenshots": []
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/xenios.jp/main/public/compatibility/screenshots/394F07D4/1772815326075-1.jpg"
+    ]
   },
   {
-    "slug": "gta-iv",
-    "title": "GTA IV",
-    "titleId": "545407F2",
-    "status": "ingame",
-    "perf": "poor",
-    "tags": [],
-    "platforms": [
-      "macos"
-    ],
-    "lastReport": {
-      "device": "MacBook Pro M4 Pro",
-      "platform": "macos",
-      "osVersion": "15.3",
-      "arch": "arm64",
-      "gpuBackend": "msc"
-    },
-    "updatedAt": "2026-02-28",
-    "notes": "Gets into game with severe graphical issues.",
-    "reports": [
-      {
-        "device": "MacBook Pro M4 Pro",
-        "platform": "macos",
-        "osVersion": "15.3",
-        "arch": "arm64",
-        "gpuBackend": "msc",
-        "status": "ingame",
-        "date": "2026-02-28",
-        "notes": "Gets into game with severe graphical issues. Framerate is above 30."
-      },
-      {
-        "device": "MacBook Pro M4 Max",
-        "platform": "macos",
-        "osVersion": "15.3",
-        "arch": "arm64",
-        "gpuBackend": "msc",
-        "status": "ingame",
-        "date": "2026-02-28",
-        "notes": "Gets into game with severe graphical issues."
-      }
-    ],
-    "screenshots": []
-  },
-  {
-    "slug": "gears-of-war",
-    "title": "Gears of War",
-    "titleId": "4D5307D5",
-    "status": "ingame",
-    "perf": "ok",
-    "tags": [],
-    "platforms": [
-      "macos"
-    ],
-    "lastReport": {
-      "device": "Mac16,1",
-      "platform": "macos",
-      "osVersion": "26.3",
-      "arch": "arm64",
-      "gpuBackend": "msc"
-    },
-    "updatedAt": "2026-02-28",
-    "notes": "Runs well but with pretty severe intermittent graphical issues.",
-    "recommendedSettings": {
-      "resolution": "720p",
-      "framerate": "30fps"
-    },
-    "reports": [
-      {
-        "device": "Mac16,1",
-        "platform": "macos",
-        "osVersion": "26.3",
-        "arch": "arm64",
-        "gpuBackend": "msc",
-        "status": "ingame",
-        "date": "2026-02-28",
-        "notes": "Runs well but with pretty severe intermittent graphical issues.",
-        "submittedBy": "reality111",
-        "source": "discord"
-      }
-    ],
-    "screenshots": []
-  },
-  {
-    "slug": "metro-last-light",
-    "title": "Metro: Last Light",
-    "titleId": "4B4D07F5",
-    "status": "ingame",
-    "perf": "ok",
-    "tags": [],
-    "platforms": [
-      "macos"
-    ],
-    "lastReport": {
-      "device": "Mac16,1",
-      "platform": "macos",
-      "osVersion": "26.3",
-      "arch": "arm64",
-      "gpuBackend": "msc"
-    },
-    "updatedAt": "2026-02-28",
-    "notes": "Playable in game with ok-ish framerate on M4 Pro, significant occlusion issues",
-    "recommendedSettings": {
-      "resolution": "720p",
-      "framerate": "30fps"
-    },
-    "reports": [
-      {
-        "device": "Mac16,1",
-        "platform": "macos",
-        "osVersion": "26.3",
-        "arch": "arm64",
-        "gpuBackend": "msc",
-        "status": "ingame",
-        "date": "2026-02-28",
-        "notes": "Playable in game with ok-ish framerate on M4 Pro, significant occlusion issues",
-        "submittedBy": "reality111",
-        "source": "discord"
-      }
-    ],
-    "screenshots": []
-  },
-  {
-    "slug": "bayonetta",
-    "title": "Bayonetta",
-    "titleId": "53450813",
+    "slug": "just-cause-2",
+    "title": "Just Cause 2",
+    "titleId": "534307E7",
     "status": "ingame",
     "perf": "poor",
     "tags": [],
@@ -267,12 +90,8 @@
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-01",
-    "notes": "Runs at about 20fps, but seems like the engine expects 30fps consistently so not very playable currently.",
-    "recommendedSettings": {
-      "resolution": "720p",
-      "framerate": "30fps"
-    },
+    "updatedAt": "2026-03-06",
+    "notes": "Runs around 10-15fps on iPhone 17. Has severe audio issues. Graphically looks perfect in the first mission at least.",
     "reports": [
       {
         "device": "iPhone 17",
@@ -281,381 +100,21 @@
         "arch": "arm64",
         "gpuBackend": "msl",
         "status": "ingame",
-        "date": "2026-03-01",
-        "notes": "Runs at about 20fps, but seems like the engine expects 30fps consistently so not very playable currently.",
-        "submittedBy": "reality111",
-        "source": "discord"
-      }
-    ],
-    "screenshots": []
-  },
-  {
-    "slug": "call-of-duty-4",
-    "title": "Call of Duty 4",
-    "titleId": "415607E6",
-    "status": "ingame",
-    "perf": "ok",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone18,3",
-      "platform": "ios",
-      "osVersion": "26.3",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-01",
-    "notes": "Loads into game but experiences severe graphical issues.",
-    "reports": [
-      {
-        "device": "iPhone18,3",
-        "platform": "ios",
-        "osVersion": "26.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "date": "2026-03-01",
-        "notes": "Loads into game but experiences severe graphical issues.",
+        "date": "2026-03-06",
+        "notes": "Runs around 10-15fps on iPhone 17. Has severe audio issues. Graphically looks perfect in the first mission at least.",
         "source": "app"
       }
     ],
-    "screenshots": []
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/xenios.jp/main/public/compatibility/screenshots/534307E7/1772813701653-1.jpg"
+    ]
   },
   {
-    "slug": "lollipop-chainsaw",
-    "title": "Lollipop Chainsaw",
-    "titleId": "565707D0",
-    "status": "playable",
-    "perf": "great",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone18,2",
-      "platform": "ios",
-      "osVersion": "26.3",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-03",
-    "notes": "It will be playable when you guys see this you get 28 fps but it feels like 30 there are black rectangles the first two boots  up but is playable i know from playing for a hour",
-    "reports": [
-      {
-        "device": "iPhone18,2",
-        "platform": "ios",
-        "osVersion": "26.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "date": "2026-03-03",
-        "notes": "It will be playable when you guys see this you get 28 fps but it feels like 30 there are black rectangles the first two boots  up but is playable i know from playing for a hour",
-        "source": "app"
-      },
-      {
-        "device": "iPhone18,2",
-        "platform": "ios",
-        "osVersion": "26.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "date": "2026-03-02",
-        "notes": "First and second time YouÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂll see a black rectangle youÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂre running a third time that goes away per make sure you run the game for a minute and play it loaded up the shader cast",
-        "source": "app"
-      }
-    ],
-    "screenshots": []
-  },
-  {
-    "slug": "left-4-dead",
-    "title": "Left 4 Dead",
-    "titleId": "45410830",
-    "status": "loads",
-    "perf": "ok",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone18,2",
-      "platform": "ios",
-      "osVersion": "26.3",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-02",
-    "notes": "Get stuck on the left for dead screen before the menu.",
-    "reports": [
-      {
-        "device": "iPhone18,2",
-        "platform": "ios",
-        "osVersion": "26.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "loads",
-        "date": "2026-03-02",
-        "notes": "Get stuck on the left for dead screen before the menu.",
-        "source": "app"
-      }
-    ],
-    "screenshots": []
-  },
-  {
-    "slug": "bioshock",
-    "title": "BioShock",
-    "titleId": "545407D8",
-    "status": "playable",
-    "perf": "ok",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone17,1",
-      "platform": "ios",
-      "osVersion": "18.5",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-02",
-    "notes": "Occasional drops in FPS but very much playable.",
-    "reports": [
-      {
-        "device": "iPhone17,1",
-        "platform": "ios",
-        "osVersion": "18.5",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "date": "2026-03-02",
-        "notes": "Occasional drops in FPS but very much playable.",
-        "source": "app"
-      }
-    ],
-    "screenshots": []
-  },
-  {
-    "slug": "dead-space",
-    "title": "Dead Space™",
-    "titleId": "45410857",
-    "status": "playable",
-    "perf": "ok",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone17,1",
-      "platform": "ios",
-      "osVersion": "18.5",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-03",
-    "notes": "Runs and can play the campaign, a few minor graphical glitches and drops in FPS",
-    "reports": [
-      {
-        "device": "iPhone17,1",
-        "platform": "ios",
-        "osVersion": "18.5",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "date": "2026-03-03",
-        "notes": "Runs and can play the campaign, a few minor graphical glitches and drops in FPS",
-        "source": "app"
-      },
-      {
-        "device": "iPhone 17",
-        "platform": "ios",
-        "osVersion": "26.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "date": "2026-03-02",
-        "notes": "Relatively playable on iPhone 17, 15-25 fps most of the time.",
-        "source": "app"
-      },
-      {
-        "device": "iPhone17,1",
-        "platform": "ios",
-        "osVersion": "18.5",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "date": "2026-03-02",
-        "notes": "Playable, a few minor FPS drops intermittently, minor graphical glitches that functionally still manage to fit the aesthetic of the game.",
-        "source": "app"
-      }
-    ],
-    "screenshots": []
-  },
-  {
-    "slug": "halo-3-odst",
-    "title": "Halo 3: ODST",
-    "titleId": "4D530877",
-    "status": "intro",
-    "perf": "poor",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone17,1",
-      "platform": "ios",
-      "osVersion": "18.5",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-03",
-    "notes": "Game boots however menu loads very distorted with heavy graphic bugs. Campaign loads intro scene but gets stuck in a loop. Could not navigate menu successfully to bypass loop.",
-    "reports": [
-      {
-        "device": "iPhone17,1",
-        "platform": "ios",
-        "osVersion": "18.5",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "intro",
-        "date": "2026-03-03",
-        "notes": "Game boots however menu loads very distorted with heavy graphic bugs. Campaign loads intro scene but gets stuck in a loop. Could not navigate menu successfully to bypass loop.",
-        "source": "app"
-      },
-      {
-        "device": "iPhone18,3",
-        "platform": "ios",
-        "osVersion": "26.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "date": "2026-03-02",
-        "notes": "Gets into firefight, campaign does not load the first cutscene. Can expect the same cutscene loop as Halo 3 if it does manage to load.",
-        "source": "app"
-      }
-    ],
-    "screenshots": []
-  },
-  {
-    "slug": "db-raging-blast",
-    "title": "DB: Raging Blast",
-    "titleId": "4E4D0803",
+    "slug": "halo-reach",
+    "title": "Halo: Reach",
+    "titleId": "4D53085B",
     "status": "ingame",
     "perf": "poor",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPad Pro (M2)",
-      "platform": "ios",
-      "osVersion": "18.3.1",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-02",
-    "notes": "Just played around with some settings  and the game seems to boot now. Performance is poor and there are some minor graphical glitches but you can get into a match now",
-    "reports": [
-      {
-        "device": "iPad Pro (M2)",
-        "platform": "ios",
-        "osVersion": "18.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "date": "2026-03-02",
-        "notes": "Just played around with some settings  and the game seems to boot now. Performance is poor and there are some minor graphical glitches but you can get into a match now",
-        "source": "app"
-      },
-      {
-        "device": "iPad Pro (M2)",
-        "platform": "ios",
-        "osVersion": "18.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "intro",
-        "date": "2026-03-02",
-        "notes": "Game has got some graphical issues. I couldnÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂt get past the cutscene but even the cutscene had some graphical issues",
-        "source": "app"
-      }
-    ],
-    "screenshots": []
-  },
-  {
-    "slug": "skate-3",
-    "title": "Skate 3",
-    "titleId": "454108E6",
-    "status": "loads",
-    "perf": "poor",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPad Pro (M2)",
-      "platform": "ios",
-      "osVersion": "18.3.1",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-02",
-    "notes": "The intro has some graphical issues and the game crashes after the intro",
-    "reports": [
-      {
-        "device": "iPad Pro (M2)",
-        "platform": "ios",
-        "osVersion": "18.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "loads",
-        "date": "2026-03-02",
-        "notes": "The intro has some graphical issues and the game crashes after the intro",
-        "source": "app"
-      }
-    ],
-    "screenshots": []
-  },
-  {
-    "slug": "modern-warfare-2",
-    "title": "Modern Warfare® 2",
-    "titleId": "41560817",
-    "status": "nothing",
-    "perf": "n/a",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPad Pro (M2)",
-      "platform": "ios",
-      "osVersion": "18.3.1",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-02",
-    "notes": "Games not launching for me",
-    "reports": [
-      {
-        "device": "iPad Pro (M2)",
-        "platform": "ios",
-        "osVersion": "18.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "date": "2026-03-02",
-        "notes": "Games not launching for me",
-        "source": "app"
-      }
-    ],
-    "screenshots": []
-  },
-  {
-    "slug": "steins-gate",
-    "title": "STEINS;GATE 比翼恋理のだーりん",
-    "titleId": "465607E8",
-    "status": "playable",
-    "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
@@ -667,515 +126,42 @@
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-02",
-    "notes": "Seems totally playable from my testing, very low spec requirements to run.",
+    "updatedAt": "2026-03-06",
+    "notes": "Loads into firefight but extreme graphical issues to the point that the game is unplayable.",
     "reports": [
       {
         "device": "iPhone 17",
         "platform": "ios",
         "osVersion": "26.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "date": "2026-03-02",
-        "notes": "Seems totally playable from my testing, very low spec requirements to run.",
-        "source": "app"
-      }
-    ],
-    "screenshots": []
-  },
-  {
-    "slug": "halo-wars",
-    "title": "Halo Wars",
-    "titleId": "4D530808",
-    "status": "intro",
-    "perf": "ok",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 17",
-      "platform": "ios",
-      "osVersion": "26.3",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-03",
-    "notes": "Gets into the main menu but hangs when starting game.",
-    "reports": [
-      {
-        "device": "iPhone 17",
-        "platform": "ios",
-        "osVersion": "26.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "intro",
-        "date": "2026-03-03",
-        "notes": "Gets into the main menu but hangs when starting game.",
-        "source": "app"
-      }
-    ],
-    "screenshots": []
-  },
-  {
-    "slug": "resident-evil-5",
-    "title": "RESIDENT EVIL 5",
-    "titleId": "434307D4",
-    "status": "nothing",
-    "perf": "n/a",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone17,1",
-      "platform": "ios",
-      "osVersion": "18.5",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-03",
-    "notes": "RE5 currently fails to boot",
-    "reports": [
-      {
-        "device": "iPhone17,1",
-        "platform": "ios",
-        "osVersion": "18.5",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "date": "2026-03-03",
-        "notes": "RE5 currently fails to boot",
-        "source": "app"
-      }
-    ],
-    "screenshots": []
-  },
-  {
-    "slug": "star-ocean-tlh",
-    "title": "Star Ocean: TLH",
-    "titleId": "535107DD",
-    "status": "nothing",
-    "perf": "n/a",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone17,1",
-      "platform": "ios",
-      "osVersion": "18.5",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-03",
-    "notes": "Star ocean fails to boot.",
-    "reports": [
-      {
-        "device": "iPhone17,1",
-        "platform": "ios",
-        "osVersion": "18.5",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "date": "2026-03-03",
-        "notes": "Star ocean fails to boot.",
-        "source": "app"
-      }
-    ],
-    "screenshots": []
-  },
-  {
-    "slug": "lost-odyssey",
-    "title": "Lost Odyssey",
-    "titleId": "4D5307FA",
-    "status": "loads",
-    "perf": "poor",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone17,1",
-      "platform": "ios",
-      "osVersion": "18.5",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-03",
-    "notes": "Game boots and loads into menu without issue but hangs on initial loading screen",
-    "reports": [
-      {
-        "device": "iPhone17,1",
-        "platform": "ios",
-        "osVersion": "18.5",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "loads",
-        "date": "2026-03-03",
-        "notes": "Game boots and loads into menu without issue but hangs on initial loading screen",
-        "source": "app"
-      }
-    ],
-    "screenshots": []
-  },
-  {
-    "slug": "tales-of-vesperia",
-    "title": "Tales of Vesperia",
-    "titleId": "4E4D07E9",
-    "status": "intro",
-    "perf": "poor",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone17,1",
-      "platform": "ios",
-      "osVersion": "18.5",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-03",
-    "notes": "Game boots and loads to menu flawlessly. Heavy graphic distortion during unskippable cutscene leads to app crash after several minutes.",
-    "reports": [
-      {
-        "device": "iPhone17,1",
-        "platform": "ios",
-        "osVersion": "18.5",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "intro",
-        "date": "2026-03-03",
-        "notes": "Game boots and loads to menu flawlessly. Heavy graphic distortion during unskippable cutscene leads to app crash after several minutes.",
-        "source": "app"
-      }
-    ],
-    "screenshots": []
-  },
-  {
-    "slug": "doom-3-bfg-edition",
-    "title": "DOOM 3 BFG Edition",
-    "titleId": "425307F1",
-    "status": "intro",
-    "perf": "great",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone17,1",
-      "platform": "ios",
-      "osVersion": "18.5",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-03",
-    "notes": "Doom 3 boots perfectly through logos and menu with no visual distortion and perfect audio except for loud hiss at the beginning. When beginning campaign cutscene plays perfects but hangs after maybe 20 seconds or so.",
-    "reports": [
-      {
-        "device": "iPhone17,1",
-        "platform": "ios",
-        "osVersion": "18.5",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "intro",
-        "date": "2026-03-03",
-        "notes": "Doom 3 boots perfectly through logos and menu with no visual distortion and perfect audio except for loud hiss at the beginning. When beginning campaign cutscene plays perfects but hangs after maybe 20 seconds or so.",
-        "source": "app"
-      }
-    ],
-    "screenshots": []
-  },
-  {
-    "slug": "tekken-6",
-    "title": "TEKKEN 6",
-    "titleId": "4E4D07FC",
-    "status": "nothing",
-    "perf": "n/a",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone17,1",
-      "platform": "ios",
-      "osVersion": "18.5",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-03",
-    "notes": "Game does not boot.",
-    "reports": [
-      {
-        "device": "iPhone17,1",
-        "platform": "ios",
-        "osVersion": "18.5",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "date": "2026-03-03",
-        "notes": "Game does not boot.",
-        "source": "app"
-      }
-    ],
-    "screenshots": []
-  },
-  {
-    "slug": "condemned-2-bloodshot",
-    "title": "Condemned 2: Bloodshot",
-    "titleId": "534507EE",
-    "status": "playable",
-    "perf": "ok",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 17 Pro Max",
-      "platform": "ios",
-      "osVersion": "26.1",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-03",
-    "notes": "Virtua Fighter 5 works almost perfectly. Performance is nice.  Visuals are almost perfect. Sound is great. Menus are perfect.",
-    "reports": [
-      {
-        "device": "iPhone 17 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "date": "2026-03-03",
-        "notes": "Virtua Fighter 5 works almost perfectly. Performance is nice.  Visuals are almost perfect. Sound is great. Menus are perfect.",
-        "source": "app"
-      }
-    ],
-    "screenshots": []
-  },
-  {
-    "slug": "dead-or-alive-4",
-    "title": "DEAD OR ALIVE 4",
-    "titleId": "544307D1",
-    "status": "playable",
-    "perf": "great",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone17,1",
-      "platform": "ios",
-      "osVersion": "18.5",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-05",
-    "notes": "Game loads with no glitches I could tell. The game runs smoothly but with slightly reduced speed. Very playable and very enjoyable!",
-    "reports": [
-      {
-        "device": "iPhone17,1",
-        "platform": "ios",
-        "osVersion": "18.5",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "date": "2026-03-05",
-        "notes": "Game loads with no glitches I could tell. The game runs smoothly but with slightly reduced speed. Very playable and very enjoyable!",
-        "source": "app"
-      },
-      {
-        "device": "iPhone 17 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "date": "2026-03-03",
-        "notes": "Visuals are perfect with no apparent glitches. Performance is half speed but stutter free. Menus are perfect and sound is perfect.",
-        "source": "app"
-      }
-    ],
-    "screenshots": []
-  },
-  {
-    "slug": "guacamelee",
-    "title": "Guacamelee",
-    "titleId": "00000000",
-    "status": "playable",
-    "perf": "great",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 17 Pro Max",
-      "platform": "ios",
-      "osVersion": "26.1",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-03",
-    "notes": "Perfect. Full speed on higher end devices.",
-    "reports": [
-      {
-        "device": "iPhone 17 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "date": "2026-03-03",
-        "notes": "Perfect. Full speed on higher end devices.",
-        "source": "app"
-      }
-    ],
-    "screenshots": []
-  },
-  {
-    "slug": "final-fantasy-xiii",
-    "title": "FINAL FANTASY XIII",
-    "titleId": "535107E4",
-    "status": "playable",
-    "perf": "great",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 17 Pro Max",
-      "platform": "ios",
-      "osVersion": "26.1",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-03",
-    "notes": "-Graphics: minor glitches like hair transparency \n-Performance: full speed on higher end devices with minor dips.\n-Sound: No sound…\n-Menus: Perfect \n-Videos: work\n\n*Tested for an hour with no crash",
-    "reports": [
-      {
-        "device": "iPhone 17 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "date": "2026-03-03",
-        "notes": "-Graphics: minor glitches like hair transparency \n-Performance: full speed on higher end devices with minor dips.\n-Sound: No sound…\n-Menus: Perfect \n-Videos: work\n\n*Tested for an hour with no crash",
-        "source": "app"
-      }
-    ],
-    "screenshots": []
-  },
-  {
-    "slug": "db-raging-blast-2",
-    "title": "DB: Raging Blast 2",
-    "titleId": "4E4D0826",
-    "status": "playable",
-    "perf": "poor",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPad Pro (M2)",
-      "platform": "ios",
-      "osVersion": "18.3.1",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-03",
-    "notes": "Had to boot the game a few times in order for it to work. Other than that the game is playable but the performance is quite poor (around 25 fps without screen recording and 22-23 with screen recording)",
-    "reports": [
-      {
-        "device": "iPad Pro (M2)",
-        "platform": "ios",
-        "osVersion": "18.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "date": "2026-03-03",
-        "notes": "Had to boot the game a few times in order for it to work. Other than that the game is playable but the performance is quite poor (around 25 fps without screen recording and 22-23 with screen recording)",
-        "source": "app"
-      }
-    ],
-    "screenshots": []
-  },
-  {
-    "slug": "skate",
-    "title": "skate.",
-    "titleId": "45410813",
-    "status": "ingame",
-    "perf": "poor",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPad Pro (M2)",
-      "platform": "ios",
-      "osVersion": "18.3.1",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-03",
-    "notes": "After restarting the game several times the game finally launched and put me in the menu. I couldn’t get into a game tho so I couldn’t actually skate just the menu worked. And also most of the time the game was stuck on a endless loading screen when trying to get to the game menu",
-    "reports": [
-      {
-        "device": "iPad Pro (M2)",
-        "platform": "ios",
-        "osVersion": "18.3.1",
         "arch": "arm64",
         "gpuBackend": "msl",
         "status": "ingame",
-        "date": "2026-03-03",
-        "notes": "After restarting the game several times the game finally launched and put me in the menu. I couldn’t get into a game tho so I couldn’t actually skate just the menu worked. And also most of the time the game was stuck on a endless loading screen when trying to get to the game menu",
+        "date": "2026-03-06",
+        "notes": "Loads into firefight but extreme graphical issues to the point that the game is unplayable.",
         "source": "app"
-      }
-    ],
-    "screenshots": []
-  },
-  {
-    "slug": "fight-night-champion",
-    "title": "FIGHT NIGHT CHAMPION",
-    "titleId": "45410915",
-    "status": "nothing",
-    "perf": "n/a",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPad Pro (M2)",
-      "platform": "ios",
-      "osVersion": "18.3.1",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-03",
-    "notes": "Couldn’t get it to boot.",
-    "reports": [
+      },
       {
-        "device": "iPad Pro (M2)",
+        "device": "iPhone 17",
         "platform": "ios",
-        "osVersion": "18.3.1",
+        "osVersion": "26.3",
         "arch": "arm64",
         "gpuBackend": "msl",
-        "status": "nothing",
-        "date": "2026-03-03",
-        "notes": "Couldn’t get it to boot.",
+        "status": "ingame",
+        "date": "2026-03-06",
+        "notes": "Severe graphical issues rendering the game unplayable. Performance also extremely poor.",
         "source": "app"
       }
     ],
-    "screenshots": []
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/xenios.jp/main/public/compatibility/screenshots/4D53085B/1772811936606-1.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/xenios.jp/main/public/compatibility/screenshots/4D53085B/1772811936606-2.jpg"
+    ]
   },
   {
-    "slug": "dead-rising",
-    "title": "DEAD RISING",
-    "titleId": "434307D2",
-    "status": "intro",
+    "slug": "deadly-premonition",
+    "title": "DEADLY PREMONITION",
+    "titleId": "494F07D4",
+    "status": "playable",
     "perf": "ok",
     "tags": [],
     "platforms": [
@@ -1188,8 +174,8 @@
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-04",
-    "notes": "Starts up, publisher logos display gets to Start menu. But when press Start does not proceed further",
+    "updatedAt": "2026-03-06",
+    "notes": "When the game finishes launching past the Developer credits and the intro movie starts the visuals of the movie have a Matrix-effect, when you hear the audio start Press Start or A to get to the main start menu. The audio effects and music in the game play well. Some in game graphics have a rainbow psychedelic coloration effect over them, it seems to occur when a transparent filter is applied over the in game characters and objects, such as looking through a window or when the in game lighting is in day time. The Game plays slower than the original speed but is still very playable.",
     "reports": [
       {
         "device": "iPad15,7",
@@ -1197,18 +183,18 @@
         "osVersion": "26.3",
         "arch": "arm64",
         "gpuBackend": "msl",
-        "status": "intro",
-        "date": "2026-03-04",
-        "notes": "Starts up, publisher logos display gets to Start menu. But when press Start does not proceed further",
+        "status": "playable",
+        "date": "2026-03-06",
+        "notes": "When the game finishes launching past the Developer credits and the intro movie starts the visuals of the movie have a Matrix-effect, when you hear the audio start Press Start or A to get to the main start menu. The audio effects and music in the game play well. Some in game graphics have a rainbow psychedelic coloration effect over them, it seems to occur when a transparent filter is applied over the in game characters and objects, such as looking through a window or when the in game lighting is in day time. The Game plays slower than the original speed but is still very playable.",
         "source": "app"
       }
     ],
     "screenshots": []
   },
   {
-    "slug": "sonic-generations",
-    "title": "SONIC GENERATIONS",
-    "titleId": "53450848",
+    "slug": "the-outfit",
+    "title": "The Outfit",
+    "titleId": "545107D2",
     "status": "nothing",
     "perf": "n/a",
     "tags": [],
@@ -1216,126 +202,58 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone17,1",
+      "device": "iPhone 15 Pro Max",
       "platform": "ios",
-      "osVersion": "18.5",
+      "osVersion": "26.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-03-05",
-    "notes": "Does not boot, no visible attempt.",
+    "notes": "Crashes",
     "reports": [
       {
-        "device": "iPhone17,1",
+        "device": "iPhone 15 Pro Max",
         "platform": "ios",
-        "osVersion": "18.5",
+        "osVersion": "26.1",
         "arch": "arm64",
         "gpuBackend": "msl",
         "status": "nothing",
         "date": "2026-03-05",
-        "notes": "Does not boot, no visible attempt.",
+        "notes": "Crashes",
         "source": "app"
       }
     ],
     "screenshots": []
   },
   {
-    "slug": "sonic-transformed",
-    "title": "Sonic Transformed",
-    "titleId": "5345085D",
-    "status": "loads",
-    "perf": "poor",
+    "slug": "title-4d5307ed",
+    "title": "Title 4D5307ED",
+    "titleId": "4D5307ED",
+    "status": "nothing",
+    "perf": "n/a",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone17,1",
+      "device": "iPhone 15 Pro Max",
       "platform": "ios",
-      "osVersion": "18.5",
+      "osVersion": "26.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-03-05",
-    "notes": "The game flashes a quick random color pattern and fails to load or boot.",
+    "notes": "Crashes",
     "reports": [
       {
-        "device": "iPhone17,1",
+        "device": "iPhone 15 Pro Max",
         "platform": "ios",
-        "osVersion": "18.5",
+        "osVersion": "26.1",
         "arch": "arm64",
         "gpuBackend": "msl",
-        "status": "loads",
+        "status": "nothing",
         "date": "2026-03-05",
-        "notes": "The game flashes a quick random color pattern and fails to load or boot.",
-        "source": "app"
-      }
-    ],
-    "screenshots": []
-  },
-  {
-    "slug": "jeopardy",
-    "title": "Jeopardy!",
-    "titleId": "545108AE",
-    "status": "loads",
-    "perf": "poor",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone17,1",
-      "platform": "ios",
-      "osVersion": "18.5",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-05",
-    "notes": "Boots quickly and smoothly but hangs on initial loading screen past logos.",
-    "reports": [
-      {
-        "device": "iPhone17,1",
-        "platform": "ios",
-        "osVersion": "18.5",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "loads",
-        "date": "2026-03-05",
-        "notes": "Boots quickly and smoothly but hangs on initial loading screen past logos.",
-        "source": "app"
-      }
-    ],
-    "screenshots": []
-  },
-  {
-    "slug": "beautiful-katamari",
-    "title": "Beautiful Katamari",
-    "titleId": "4E4D07DC",
-    "status": "intro",
-    "perf": "ok",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone17,1",
-      "platform": "ios",
-      "osVersion": "18.5",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-05",
-    "notes": "Game boots and loads quickly and smoothly with some graphical glitches during cutscenes. This game has experienced a regression from previous version and now freezes at varying points after loading the menu where as I was able to get into and play the game at about 3/4 speed on initial version.",
-    "reports": [
-      {
-        "device": "iPhone17,1",
-        "platform": "ios",
-        "osVersion": "18.5",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "intro",
-        "date": "2026-03-05",
-        "notes": "Game boots and loads quickly and smoothly with some graphical glitches during cutscenes. This game has experienced a regression from previous version and now freezes at varying points after loading the menu where as I was able to get into and play the game at about 3/4 speed on initial version.",
+        "notes": "Crashes",
         "source": "app"
       }
     ],
@@ -1389,9 +307,111 @@
     ]
   },
   {
-    "slug": "title-4d5307ed",
-    "title": "Title 4D5307ED",
-    "titleId": "4D5307ED",
+    "slug": "beautiful-katamari",
+    "title": "Beautiful Katamari",
+    "titleId": "4E4D07DC",
+    "status": "intro",
+    "perf": "ok",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone17,1",
+      "platform": "ios",
+      "osVersion": "18.5",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-05",
+    "notes": "Game boots and loads quickly and smoothly with some graphical glitches during cutscenes. This game has experienced a regression from previous version and now freezes at varying points after loading the menu where as I was able to get into and play the game at about 3/4 speed on initial version.",
+    "reports": [
+      {
+        "device": "iPhone17,1",
+        "platform": "ios",
+        "osVersion": "18.5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "intro",
+        "date": "2026-03-05",
+        "notes": "Game boots and loads quickly and smoothly with some graphical glitches during cutscenes. This game has experienced a regression from previous version and now freezes at varying points after loading the menu where as I was able to get into and play the game at about 3/4 speed on initial version.",
+        "source": "app"
+      }
+    ],
+    "screenshots": []
+  },
+  {
+    "slug": "jeopardy",
+    "title": "Jeopardy!",
+    "titleId": "545108AE",
+    "status": "loads",
+    "perf": "poor",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone17,1",
+      "platform": "ios",
+      "osVersion": "18.5",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-05",
+    "notes": "Boots quickly and smoothly but hangs on initial loading screen past logos.",
+    "reports": [
+      {
+        "device": "iPhone17,1",
+        "platform": "ios",
+        "osVersion": "18.5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "loads",
+        "date": "2026-03-05",
+        "notes": "Boots quickly and smoothly but hangs on initial loading screen past logos.",
+        "source": "app"
+      }
+    ],
+    "screenshots": []
+  },
+  {
+    "slug": "sonic-transformed",
+    "title": "Sonic Transformed",
+    "titleId": "5345085D",
+    "status": "loads",
+    "perf": "poor",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone17,1",
+      "platform": "ios",
+      "osVersion": "18.5",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-05",
+    "notes": "The game flashes a quick random color pattern and fails to load or boot.",
+    "reports": [
+      {
+        "device": "iPhone17,1",
+        "platform": "ios",
+        "osVersion": "18.5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "loads",
+        "date": "2026-03-05",
+        "notes": "The game flashes a quick random color pattern and fails to load or boot.",
+        "source": "app"
+      }
+    ],
+    "screenshots": []
+  },
+  {
+    "slug": "sonic-generations",
+    "title": "SONIC GENERATIONS",
+    "titleId": "53450848",
     "status": "nothing",
     "perf": "n/a",
     "tags": [],
@@ -1399,68 +419,34 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 15 Pro Max",
+      "device": "iPhone17,1",
       "platform": "ios",
-      "osVersion": "26.1",
+      "osVersion": "18.5",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-03-05",
-    "notes": "Crashes",
+    "notes": "Does not boot, no visible attempt.",
     "reports": [
       {
-        "device": "iPhone 15 Pro Max",
+        "device": "iPhone17,1",
         "platform": "ios",
-        "osVersion": "26.1",
+        "osVersion": "18.5",
         "arch": "arm64",
         "gpuBackend": "msl",
         "status": "nothing",
         "date": "2026-03-05",
-        "notes": "Crashes",
+        "notes": "Does not boot, no visible attempt.",
         "source": "app"
       }
     ],
     "screenshots": []
   },
   {
-    "slug": "the-outfit",
-    "title": "The Outfit",
-    "titleId": "545107D2",
-    "status": "nothing",
-    "perf": "n/a",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 15 Pro Max",
-      "platform": "ios",
-      "osVersion": "26.1",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-05",
-    "notes": "Crashes",
-    "reports": [
-      {
-        "device": "iPhone 15 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "date": "2026-03-05",
-        "notes": "Crashes",
-        "source": "app"
-      }
-    ],
-    "screenshots": []
-  },
-  {
-    "slug": "deadly-premonition",
-    "title": "DEADLY PREMONITION",
-    "titleId": "494F07D4",
-    "status": "playable",
+    "slug": "dead-rising",
+    "title": "DEAD RISING",
+    "titleId": "434307D2",
+    "status": "intro",
     "perf": "ok",
     "tags": [],
     "platforms": [
@@ -1473,8 +459,8 @@
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-06",
-    "notes": "When the game finishes launching past the Developer credits and the intro movie starts the visuals of the movie have a Matrix-effect, when you hear the audio start Press Start or A to get to the main start menu. The audio effects and music in the game play well. Some in game graphics have a rainbow psychedelic coloration effect over them, it seems to occur when a transparent filter is applied over the in game characters and objects, such as looking through a window or when the in game lighting is in day time. The Game plays slower than the original speed but is still very playable.",
+    "updatedAt": "2026-03-04",
+    "notes": "Starts up, publisher logos display gets to Start menu. But when press Start does not proceed further",
     "reports": [
       {
         "device": "iPad15,7",
@@ -1482,18 +468,52 @@
         "osVersion": "26.3",
         "arch": "arm64",
         "gpuBackend": "msl",
-        "status": "playable",
-        "date": "2026-03-06",
-        "notes": "When the game finishes launching past the Developer credits and the intro movie starts the visuals of the movie have a Matrix-effect, when you hear the audio start Press Start or A to get to the main start menu. The audio effects and music in the game play well. Some in game graphics have a rainbow psychedelic coloration effect over them, it seems to occur when a transparent filter is applied over the in game characters and objects, such as looking through a window or when the in game lighting is in day time. The Game plays slower than the original speed but is still very playable.",
+        "status": "intro",
+        "date": "2026-03-04",
+        "notes": "Starts up, publisher logos display gets to Start menu. But when press Start does not proceed further",
         "source": "app"
       }
     ],
     "screenshots": []
   },
   {
-    "slug": "halo-reach",
-    "title": "Halo: Reach",
-    "titleId": "4D53085B",
+    "slug": "fight-night-champion",
+    "title": "FIGHT NIGHT CHAMPION",
+    "titleId": "45410915",
+    "status": "nothing",
+    "perf": "n/a",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPad Pro (M2)",
+      "platform": "ios",
+      "osVersion": "18.3.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-03",
+    "notes": "Couldn’t get it to boot.",
+    "reports": [
+      {
+        "device": "iPad Pro (M2)",
+        "platform": "ios",
+        "osVersion": "18.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "date": "2026-03-03",
+        "notes": "Couldn’t get it to boot.",
+        "source": "app"
+      }
+    ],
+    "screenshots": []
+  },
+  {
+    "slug": "skate",
+    "title": "skate.",
+    "titleId": "45410813",
     "status": "ingame",
     "perf": "poor",
     "tags": [],
@@ -1501,49 +521,420 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 17",
+      "device": "iPad Pro (M2)",
       "platform": "ios",
-      "osVersion": "26.3",
+      "osVersion": "18.3.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-06",
-    "notes": "Severe graphical issues rendering the game unplayable. Performance also extremely poor.",
+    "updatedAt": "2026-03-03",
+    "notes": "After restarting the game several times the game finally launched and put me in the menu. I couldn’t get into a game tho so I couldn’t actually skate just the menu worked. And also most of the time the game was stuck on a endless loading screen when trying to get to the game menu",
     "reports": [
       {
-        "device": "iPhone 17",
+        "device": "iPad Pro (M2)",
         "platform": "ios",
-        "osVersion": "26.3",
+        "osVersion": "18.3.1",
         "arch": "arm64",
         "gpuBackend": "msl",
         "status": "ingame",
-        "date": "2026-03-06",
-        "notes": "Severe graphical issues rendering the game unplayable. Performance also extremely poor.",
+        "date": "2026-03-03",
+        "notes": "After restarting the game several times the game finally launched and put me in the menu. I couldn’t get into a game tho so I couldn’t actually skate just the menu worked. And also most of the time the game was stuck on a endless loading screen when trying to get to the game menu",
+        "source": "app"
+      }
+    ],
+    "screenshots": []
+  },
+  {
+    "slug": "db-raging-blast-2",
+    "title": "DB: Raging Blast 2",
+    "titleId": "4E4D0826",
+    "status": "playable",
+    "perf": "poor",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPad Pro (M2)",
+      "platform": "ios",
+      "osVersion": "18.3.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-03",
+    "notes": "Had to boot the game a few times in order for it to work. Other than that the game is playable but the performance is quite poor (around 25 fps without screen recording and 22-23 with screen recording)",
+    "reports": [
+      {
+        "device": "iPad Pro (M2)",
+        "platform": "ios",
+        "osVersion": "18.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "date": "2026-03-03",
+        "notes": "Had to boot the game a few times in order for it to work. Other than that the game is playable but the performance is quite poor (around 25 fps without screen recording and 22-23 with screen recording)",
+        "source": "app"
+      }
+    ],
+    "screenshots": []
+  },
+  {
+    "slug": "final-fantasy-xiii",
+    "title": "FINAL FANTASY XIII",
+    "titleId": "535107E4",
+    "status": "playable",
+    "perf": "great",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 17 Pro Max",
+      "platform": "ios",
+      "osVersion": "26.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-03",
+    "notes": "-Graphics: minor glitches like hair transparency \n-Performance: full speed on higher end devices with minor dips.\n-Sound: No sound…\n-Menus: Perfect \n-Videos: work\n\n*Tested for an hour with no crash",
+    "reports": [
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "date": "2026-03-03",
+        "notes": "-Graphics: minor glitches like hair transparency \n-Performance: full speed on higher end devices with minor dips.\n-Sound: No sound…\n-Menus: Perfect \n-Videos: work\n\n*Tested for an hour with no crash",
+        "source": "app"
+      }
+    ],
+    "screenshots": []
+  },
+  {
+    "slug": "guacamelee",
+    "title": "Guacamelee",
+    "titleId": "00000000",
+    "status": "playable",
+    "perf": "great",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 17 Pro Max",
+      "platform": "ios",
+      "osVersion": "26.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-03",
+    "notes": "Perfect. Full speed on higher end devices.",
+    "reports": [
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "date": "2026-03-03",
+        "notes": "Perfect. Full speed on higher end devices.",
+        "source": "app"
+      }
+    ],
+    "screenshots": []
+  },
+  {
+    "slug": "dead-or-alive-4",
+    "title": "DEAD OR ALIVE 4",
+    "titleId": "544307D1",
+    "status": "playable",
+    "perf": "great",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone17,1",
+      "platform": "ios",
+      "osVersion": "18.5",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-05",
+    "notes": "Game loads with no glitches I could tell. The game runs smoothly but with slightly reduced speed. Very playable and very enjoyable!",
+    "reports": [
+      {
+        "device": "iPhone17,1",
+        "platform": "ios",
+        "osVersion": "18.5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "date": "2026-03-05",
+        "notes": "Game loads with no glitches I could tell. The game runs smoothly but with slightly reduced speed. Very playable and very enjoyable!",
         "source": "app"
       },
       {
-        "device": "iPhone 17",
+        "device": "iPhone 17 Pro Max",
         "platform": "ios",
-        "osVersion": "26.3",
+        "osVersion": "26.1",
         "arch": "arm64",
         "gpuBackend": "msl",
-        "status": "ingame",
-        "date": "2026-03-06",
-        "notes": "Loads into firefight but extreme graphical issues to the point that the game is unplayable.",
+        "status": "playable",
+        "date": "2026-03-03",
+        "notes": "Visuals are perfect with no apparent glitches. Performance is half speed but stutter free. Menus are perfect and sound is perfect.",
         "source": "app"
       }
     ],
-    "screenshots": [
-      "https://raw.githubusercontent.com/xenios-jp/xenios.jp/main/public/compatibility/screenshots/4D53085B/1772811936606-1.jpg",
-      "https://raw.githubusercontent.com/xenios-jp/xenios.jp/main/public/compatibility/screenshots/4D53085B/1772811936606-2.jpg"
-    ]
+    "screenshots": []
   },
   {
-    "slug": "just-cause-2",
-    "title": "Just Cause 2",
-    "titleId": "534307E7",
-    "status": "ingame",
+    "slug": "title-534507ee",
+    "title": "Title 534507EE",
+    "titleId": "534507EE",
+    "status": "playable",
+    "perf": "ok",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 17 Pro Max",
+      "platform": "ios",
+      "osVersion": "26.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-03",
+    "notes": "Virtua Fighter 5 works almost perfectly. Performance is nice.  Visuals are almost perfect. Sound is great. Menus are perfect.",
+    "reports": [
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "date": "2026-03-03",
+        "notes": "Virtua Fighter 5 works almost perfectly. Performance is nice.  Visuals are almost perfect. Sound is great. Menus are perfect.",
+        "source": "app"
+      }
+    ],
+    "screenshots": []
+  },
+  {
+    "slug": "tekken-6",
+    "title": "TEKKEN 6",
+    "titleId": "4E4D07FC",
+    "status": "nothing",
+    "perf": "n/a",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone17,1",
+      "platform": "ios",
+      "osVersion": "18.5",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-03",
+    "notes": "Game does not boot.",
+    "reports": [
+      {
+        "device": "iPhone17,1",
+        "platform": "ios",
+        "osVersion": "18.5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "date": "2026-03-03",
+        "notes": "Game does not boot.",
+        "source": "app"
+      }
+    ],
+    "screenshots": []
+  },
+  {
+    "slug": "doom-3-bfg-edition",
+    "title": "DOOM 3 BFG Edition",
+    "titleId": "425307F1",
+    "status": "intro",
+    "perf": "great",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone17,1",
+      "platform": "ios",
+      "osVersion": "18.5",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-03",
+    "notes": "Doom 3 boots perfectly through logos and menu with no visual distortion and perfect audio except for loud hiss at the beginning. When beginning campaign cutscene plays perfects but hangs after maybe 20 seconds or so.",
+    "reports": [
+      {
+        "device": "iPhone17,1",
+        "platform": "ios",
+        "osVersion": "18.5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "intro",
+        "date": "2026-03-03",
+        "notes": "Doom 3 boots perfectly through logos and menu with no visual distortion and perfect audio except for loud hiss at the beginning. When beginning campaign cutscene plays perfects but hangs after maybe 20 seconds or so.",
+        "source": "app"
+      }
+    ],
+    "screenshots": []
+  },
+  {
+    "slug": "tales-of-vesperia",
+    "title": "Tales of Vesperia",
+    "titleId": "4E4D07E9",
+    "status": "intro",
     "perf": "poor",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone17,1",
+      "platform": "ios",
+      "osVersion": "18.5",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-03",
+    "notes": "Game boots and loads to menu flawlessly. Heavy graphic distortion during unskippable cutscene leads to app crash after several minutes.",
+    "reports": [
+      {
+        "device": "iPhone17,1",
+        "platform": "ios",
+        "osVersion": "18.5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "intro",
+        "date": "2026-03-03",
+        "notes": "Game boots and loads to menu flawlessly. Heavy graphic distortion during unskippable cutscene leads to app crash after several minutes.",
+        "source": "app"
+      }
+    ],
+    "screenshots": []
+  },
+  {
+    "slug": "lost-odyssey",
+    "title": "Lost Odyssey",
+    "titleId": "4D5307FA",
+    "status": "loads",
+    "perf": "poor",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone17,1",
+      "platform": "ios",
+      "osVersion": "18.5",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-03",
+    "notes": "Game boots and loads into menu without issue but hangs on initial loading screen",
+    "reports": [
+      {
+        "device": "iPhone17,1",
+        "platform": "ios",
+        "osVersion": "18.5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "loads",
+        "date": "2026-03-03",
+        "notes": "Game boots and loads into menu without issue but hangs on initial loading screen",
+        "source": "app"
+      }
+    ],
+    "screenshots": []
+  },
+  {
+    "slug": "star-ocean-tlh",
+    "title": "Star Ocean: TLH",
+    "titleId": "535107DD",
+    "status": "nothing",
+    "perf": "n/a",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone17,1",
+      "platform": "ios",
+      "osVersion": "18.5",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-03",
+    "notes": "Star ocean fails to boot.",
+    "reports": [
+      {
+        "device": "iPhone17,1",
+        "platform": "ios",
+        "osVersion": "18.5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "date": "2026-03-03",
+        "notes": "Star ocean fails to boot.",
+        "source": "app"
+      }
+    ],
+    "screenshots": []
+  },
+  {
+    "slug": "resident-evil-5",
+    "title": "RESIDENT EVIL 5",
+    "titleId": "434307D4",
+    "status": "nothing",
+    "perf": "n/a",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone17,1",
+      "platform": "ios",
+      "osVersion": "18.5",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-03",
+    "notes": "RE5 currently fails to boot",
+    "reports": [
+      {
+        "device": "iPhone17,1",
+        "platform": "ios",
+        "osVersion": "18.5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "date": "2026-03-03",
+        "notes": "RE5 currently fails to boot",
+        "source": "app"
+      }
+    ],
+    "screenshots": []
+  },
+  {
+    "slug": "halo-wars",
+    "title": "Halo Wars",
+    "titleId": "4D530808",
+    "status": "intro",
+    "perf": "ok",
     "tags": [],
     "platforms": [
       "ios"
@@ -1555,8 +946,8 @@
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-06",
-    "notes": "Runs around 10-15fps on iPhone 17. Has severe audio issues. Graphically looks perfect in the first mission at least.",
+    "updatedAt": "2026-03-03",
+    "notes": "Gets into the main menu but hangs when starting game.",
     "reports": [
       {
         "device": "iPhone 17",
@@ -1564,57 +955,19 @@
         "osVersion": "26.3",
         "arch": "arm64",
         "gpuBackend": "msl",
-        "status": "ingame",
-        "date": "2026-03-06",
-        "notes": "Runs around 10-15fps on iPhone 17. Has severe audio issues. Graphically looks perfect in the first mission at least.",
+        "status": "intro",
+        "date": "2026-03-03",
+        "notes": "Gets into the main menu but hangs when starting game.",
         "source": "app"
       }
     ],
-    "screenshots": [
-      "https://raw.githubusercontent.com/xenios-jp/xenios.jp/main/public/compatibility/screenshots/534307E7/1772813701653-1.jpg"
-    ]
+    "screenshots": []
   },
   {
-    "slug": "diablo-iii-ros",
-    "title": "Diablo III: RoS",
-    "titleId": "394F07D4",
-    "status": "ingame",
-    "perf": "poor",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 17",
-      "platform": "ios",
-      "osVersion": "26.3",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-06",
-    "notes": "Game runs at 15-20fps on iPhone 17. No noticeable graphical issues. Runs in slow motion due to engine expecting 60fps.",
-    "reports": [
-      {
-        "device": "iPhone 17",
-        "platform": "ios",
-        "osVersion": "26.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "date": "2026-03-06",
-        "notes": "Game runs at 15-20fps on iPhone 17. No noticeable graphical issues. Runs in slow motion due to engine expecting 60fps.",
-        "source": "app"
-      }
-    ],
-    "screenshots": [
-      "https://raw.githubusercontent.com/xenios-jp/xenios.jp/main/public/compatibility/screenshots/394F07D4/1772815326075-1.jpg"
-    ]
-  },
-  {
-    "slug": "halo-ce-anniversary",
-    "title": "Halo: CE Anniversary",
-    "titleId": "4D5309B1",
-    "status": "ingame",
+    "slug": "steins-gate",
+    "title": "STEINS;GATE 比翼恋理のだーりん",
+    "titleId": "465607E8",
+    "status": "playable",
     "perf": "great",
     "tags": [],
     "platforms": [
@@ -1627,8 +980,403 @@
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-06",
-    "notes": "If loading into game with classic graphics, runs at a steady 30fps. In anniversary mode there are severe graphical issues. When switching back from anniversary to classic mid game this breaks rendering in classic. \n\nAdditionally, the game shows audio issues in the warthog and some covenant vehicles.",
+    "updatedAt": "2026-03-02",
+    "notes": "Seems totally playable from my testing, very low spec requirements to run.",
+    "reports": [
+      {
+        "device": "iPhone 17",
+        "platform": "ios",
+        "osVersion": "26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "date": "2026-03-02",
+        "notes": "Seems totally playable from my testing, very low spec requirements to run.",
+        "source": "app"
+      }
+    ],
+    "screenshots": []
+  },
+  {
+    "slug": "modern-warfare-2",
+    "title": "Modern Warfare® 2",
+    "titleId": "41560817",
+    "status": "nothing",
+    "perf": "n/a",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPad Pro (M2)",
+      "platform": "ios",
+      "osVersion": "18.3.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-02",
+    "notes": "Games not launching for me",
+    "reports": [
+      {
+        "device": "iPad Pro (M2)",
+        "platform": "ios",
+        "osVersion": "18.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "date": "2026-03-02",
+        "notes": "Games not launching for me",
+        "source": "app"
+      }
+    ],
+    "screenshots": []
+  },
+  {
+    "slug": "skate-3",
+    "title": "Skate 3",
+    "titleId": "454108E6",
+    "status": "loads",
+    "perf": "poor",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPad Pro (M2)",
+      "platform": "ios",
+      "osVersion": "18.3.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-02",
+    "notes": "The intro has some graphical issues and the game crashes after the intro",
+    "reports": [
+      {
+        "device": "iPad Pro (M2)",
+        "platform": "ios",
+        "osVersion": "18.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "loads",
+        "date": "2026-03-02",
+        "notes": "The intro has some graphical issues and the game crashes after the intro",
+        "source": "app"
+      }
+    ],
+    "screenshots": []
+  },
+  {
+    "slug": "db-raging-blast",
+    "title": "DB: Raging Blast",
+    "titleId": "4E4D0803",
+    "status": "intro",
+    "perf": "poor",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPad Pro (M2)",
+      "platform": "ios",
+      "osVersion": "18.3.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-02",
+    "notes": "Game has got some graphical issues. I couldn’t get past the cutscene but even the cutscene had some graphical issues",
+    "reports": [
+      {
+        "device": "iPad Pro (M2)",
+        "platform": "ios",
+        "osVersion": "18.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "intro",
+        "date": "2026-03-02",
+        "notes": "Game has got some graphical issues. I couldn’t get past the cutscene but even the cutscene had some graphical issues",
+        "source": "app"
+      },
+      {
+        "device": "iPad Pro (M2)",
+        "platform": "ios",
+        "osVersion": "18.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "date": "2026-03-02",
+        "notes": "Just played around with some settings  and the game seems to boot now. Performance is poor and there are some minor graphical glitches but you can get into a match now",
+        "source": "app"
+      }
+    ],
+    "screenshots": []
+  },
+  {
+    "slug": "halo-3-odst",
+    "title": "Halo 3: ODST",
+    "titleId": "4D530877",
+    "status": "intro",
+    "perf": "poor",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone17,1",
+      "platform": "ios",
+      "osVersion": "18.5",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-03",
+    "notes": "Game boots however menu loads very distorted with heavy graphic bugs. Campaign loads intro scene but gets stuck in a loop. Could not navigate menu successfully to bypass loop.",
+    "reports": [
+      {
+        "device": "iPhone17,1",
+        "platform": "ios",
+        "osVersion": "18.5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "intro",
+        "date": "2026-03-03",
+        "notes": "Game boots however menu loads very distorted with heavy graphic bugs. Campaign loads intro scene but gets stuck in a loop. Could not navigate menu successfully to bypass loop.",
+        "source": "app"
+      },
+      {
+        "device": "iPhone18,3",
+        "platform": "ios",
+        "osVersion": "26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "date": "2026-03-02",
+        "notes": "Gets into firefight, campaign does not load the first cutscene. Can expect the same cutscene loop as Halo 3 if it does manage to load.",
+        "source": "app"
+      }
+    ],
+    "screenshots": []
+  },
+  {
+    "slug": "dead-space",
+    "title": "Dead Space™",
+    "titleId": "45410857",
+    "status": "playable",
+    "perf": "ok",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone17,1",
+      "platform": "ios",
+      "osVersion": "18.5",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-03",
+    "notes": "Runs and can play the campaign, a few minor graphical glitches and drops in FPS",
+    "reports": [
+      {
+        "device": "iPhone17,1",
+        "platform": "ios",
+        "osVersion": "18.5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "date": "2026-03-03",
+        "notes": "Runs and can play the campaign, a few minor graphical glitches and drops in FPS",
+        "source": "app"
+      },
+      {
+        "device": "iPhone17,1",
+        "platform": "ios",
+        "osVersion": "18.5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "date": "2026-03-02",
+        "notes": "Playable, a few minor FPS drops intermittently, minor graphical glitches that functionally still manage to fit the aesthetic of the game.",
+        "source": "app"
+      },
+      {
+        "device": "iPhone 17",
+        "platform": "ios",
+        "osVersion": "26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "date": "2026-03-02",
+        "notes": "Relatively playable on iPhone 17, 15-25 fps most of the time.",
+        "source": "app"
+      }
+    ],
+    "screenshots": []
+  },
+  {
+    "slug": "bioshock",
+    "title": "BioShock",
+    "titleId": "545407D8",
+    "status": "playable",
+    "perf": "ok",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone17,1",
+      "platform": "ios",
+      "osVersion": "18.5",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-02",
+    "notes": "Occasional drops in FPS but very much playable.",
+    "reports": [
+      {
+        "device": "iPhone17,1",
+        "platform": "ios",
+        "osVersion": "18.5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "date": "2026-03-02",
+        "notes": "Occasional drops in FPS but very much playable.",
+        "source": "app"
+      }
+    ],
+    "screenshots": []
+  },
+  {
+    "slug": "left-4-dead",
+    "title": "Left 4 Dead",
+    "titleId": "45410830",
+    "status": "loads",
+    "perf": "ok",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone18,2",
+      "platform": "ios",
+      "osVersion": "26.3",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-02",
+    "notes": "Get stuck on the left for dead screen before the menu.",
+    "reports": [
+      {
+        "device": "iPhone18,2",
+        "platform": "ios",
+        "osVersion": "26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "loads",
+        "date": "2026-03-02",
+        "notes": "Get stuck on the left for dead screen before the menu.",
+        "source": "app"
+      }
+    ],
+    "screenshots": []
+  },
+  {
+    "slug": "title-565707d0",
+    "title": "Title 565707D0",
+    "titleId": "565707D0",
+    "status": "playable",
+    "perf": "great",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone18,2",
+      "platform": "ios",
+      "osVersion": "26.3",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-03",
+    "notes": "It will be playable when you guys see this you get 28 fps but it feels like 30 there are black rectangles the first two boots  up but is playable i know from playing for a hour",
+    "reports": [
+      {
+        "device": "iPhone18,2",
+        "platform": "ios",
+        "osVersion": "26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "date": "2026-03-03",
+        "notes": "It will be playable when you guys see this you get 28 fps but it feels like 30 there are black rectangles the first two boots  up but is playable i know from playing for a hour",
+        "source": "app"
+      },
+      {
+        "device": "iPhone18,2",
+        "platform": "ios",
+        "osVersion": "26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "date": "2026-03-02",
+        "notes": "First and second time You’ll see a black rectangle you’re running a third time that goes away per make sure you run the game for a minute and play it loaded up the shader cast",
+        "source": "app"
+      }
+    ],
+    "screenshots": []
+  },
+  {
+    "slug": "call-of-duty-4",
+    "title": "Call of Duty 4",
+    "titleId": "415607E6",
+    "status": "ingame",
+    "perf": "ok",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone18,3",
+      "platform": "ios",
+      "osVersion": "26.3",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-01",
+    "notes": "Loads into game but experiences severe graphical issues.",
+    "reports": [
+      {
+        "device": "iPhone18,3",
+        "platform": "ios",
+        "osVersion": "26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "date": "2026-03-01",
+        "notes": "Loads into game but experiences severe graphical issues.",
+        "source": "app"
+      }
+    ],
+    "screenshots": []
+  },
+  {
+    "slug": "bayonetta",
+    "title": "Bayonetta",
+    "titleId": "53450813",
+    "status": "ingame",
+    "perf": "poor",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 17",
+      "platform": "ios",
+      "osVersion": "26.3",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-01",
+    "notes": "Runs at about 20fps, but seems like the engine expects 30fps consistently so not very playable currently.",
     "reports": [
       {
         "device": "iPhone 17",
@@ -1637,15 +1385,217 @@
         "arch": "arm64",
         "gpuBackend": "msl",
         "status": "ingame",
-        "date": "2026-03-06",
-        "notes": "If loading into game with classic graphics, runs at a steady 30fps. In anniversary mode there are severe graphical issues. When switching back from anniversary to classic mid game this breaks rendering in classic. \n\nAdditionally, the game shows audio issues in the warthog and some covenant vehicles.",
-        "source": "app"
+        "date": "2026-03-01",
+        "notes": "Runs at about 20fps, but seems like the engine expects 30fps consistently so not very playable currently.",
+        "submittedBy": "reality111",
+        "source": "discord"
       }
     ],
-    "screenshots": [
-      "https://raw.githubusercontent.com/xenios-jp/xenios.jp/main/public/compatibility/screenshots/4D5309B1/1772815889495-1.jpg",
-      "https://raw.githubusercontent.com/xenios-jp/xenios.jp/main/public/compatibility/screenshots/4D5309B1/1772815889495-2.jpg",
-      "https://raw.githubusercontent.com/xenios-jp/xenios.jp/main/public/compatibility/screenshots/4D5309B1/1772815889495-3.jpg"
-    ]
+    "screenshots": []
+  },
+  {
+    "slug": "metro-last-light",
+    "title": "Metro: Last Light",
+    "titleId": "4B4D07F5",
+    "status": "ingame",
+    "perf": "ok",
+    "tags": [],
+    "platforms": [
+      "macos"
+    ],
+    "lastReport": {
+      "device": "MacBook Pro M4 Pro/Max",
+      "platform": "macos",
+      "osVersion": "26.3",
+      "arch": "arm64",
+      "gpuBackend": "msc"
+    },
+    "updatedAt": "2026-02-28",
+    "notes": "Playable in game with ok-ish framerate on M4 Pro, significant occlusion issues",
+    "reports": [
+      {
+        "device": "MacBook Pro M4 Pro/Max",
+        "platform": "macos",
+        "osVersion": "26.3",
+        "arch": "arm64",
+        "gpuBackend": "msc",
+        "status": "ingame",
+        "date": "2026-02-28",
+        "notes": "Playable in game with ok-ish framerate on M4 Pro, significant occlusion issues",
+        "submittedBy": "reality111",
+        "source": "discord"
+      }
+    ],
+    "screenshots": []
+  },
+  {
+    "slug": "gears-of-war",
+    "title": "Gears of War",
+    "titleId": "4D5307D5",
+    "status": "ingame",
+    "perf": "ok",
+    "tags": [],
+    "platforms": [
+      "macos"
+    ],
+    "lastReport": {
+      "device": "MacBook Pro M4 Pro/Max",
+      "platform": "macos",
+      "osVersion": "26.3",
+      "arch": "arm64",
+      "gpuBackend": "msc"
+    },
+    "updatedAt": "2026-02-28",
+    "notes": "Runs well but with pretty severe intermittent graphical issues.",
+    "reports": [
+      {
+        "device": "MacBook Pro M4 Pro/Max",
+        "platform": "macos",
+        "osVersion": "26.3",
+        "arch": "arm64",
+        "gpuBackend": "msc",
+        "status": "ingame",
+        "date": "2026-02-28",
+        "notes": "Runs well but with pretty severe intermittent graphical issues.",
+        "submittedBy": "reality111",
+        "source": "discord"
+      }
+    ],
+    "screenshots": []
+  },
+  {
+    "slug": "gta-iv",
+    "title": "GTA IV",
+    "titleId": "545407F2",
+    "status": "ingame",
+    "perf": "poor",
+    "tags": [],
+    "platforms": [
+      "macos"
+    ],
+    "lastReport": {
+      "device": "MacBook Pro M4 Pro/Max",
+      "platform": "macos",
+      "osVersion": "15.3",
+      "arch": "arm64",
+      "gpuBackend": "msc"
+    },
+    "updatedAt": "2026-02-28",
+    "notes": "Get's into game with severe graphical issues. Framerate is above 30 on M4 Pro.",
+    "reports": [
+      {
+        "device": "MacBook Pro M4 Pro/Max",
+        "platform": "macos",
+        "osVersion": "15.3",
+        "arch": "arm64",
+        "gpuBackend": "msc",
+        "status": "ingame",
+        "date": "2026-02-28",
+        "notes": "Get's into game with severe graphical issues. Framerate is above 30 on M4 Pro.",
+        "source": "discord"
+      }
+    ],
+    "screenshots": []
+  },
+  {
+    "slug": "halo-3",
+    "title": "Halo 3",
+    "titleId": "4D5307E6",
+    "status": "nothing",
+    "perf": "n/a",
+    "tags": [],
+    "platforms": [
+      "ios",
+      "macos"
+    ],
+    "lastReport": {
+      "device": "iPad Pro (M2)",
+      "platform": "ios",
+      "osVersion": "18.3.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-04",
+    "notes": "Crashes upon launch ping the game.",
+    "reports": [
+      {
+        "device": "iPad Pro (M2)",
+        "platform": "ios",
+        "osVersion": "18.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "date": "2026-03-04",
+        "notes": "Crashes upon launch ping the game.",
+        "source": "app"
+      },
+      {
+        "device": "iPhone17,1",
+        "platform": "ios",
+        "osVersion": "18.5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "date": "2026-03-04",
+        "notes": "Low FPS, but can start and play campaign, important note, if you die you can get stuck in a cutscene loop.",
+        "source": "app"
+      },
+      {
+        "device": "iPhone17,1",
+        "platform": "ios",
+        "osVersion": "18.5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "date": "2026-03-02",
+        "notes": "Can play in campaign, frequently drops in FPS but seems to sit around 11-19 range. As described by another user you will need to select mission to bypass the initial cutscene which loops.",
+        "source": "app"
+      },
+      {
+        "device": "iPhone18,3",
+        "platform": "ios",
+        "osVersion": "26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "date": "2026-03-01",
+        "notes": "Campaign cutscene cannot transition into gameplay in at least the first level. Workaround is to hit A to skip loop it once, back out, and start  the actual first mission from the campaign menu. \n\nPerformance is about 15fps on iPhone 17.",
+        "source": "app"
+      },
+      {
+        "device": "iPhone 17",
+        "platform": "ios",
+        "osVersion": "iOS 26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "date": "2026-02-28",
+        "notes": "Does not boot",
+        "source": "discord"
+      },
+      {
+        "device": "iPhone 17",
+        "platform": "macos",
+        "osVersion": "iOS 26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "date": "2026-02-28",
+        "notes": "Does not boot",
+        "source": "discord"
+      },
+      {
+        "device": "iPhone 16 Pro Max",
+        "platform": "macos",
+        "osVersion": "18.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "date": "2026-02-28",
+        "notes": "Does not boot",
+        "source": "discord"
+      }
+    ],
+    "screenshots": []
   }
 ]
