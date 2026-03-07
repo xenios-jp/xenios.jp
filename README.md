@@ -40,6 +40,10 @@ npm run dev
 - `src/components` - shared UI components
 - `src/lib` - constants and data logic
 - `data/compatibility.json` - compatibility dataset
+- `data/discussions.json` - cached discussion snapshot for compatibility pages
+- `data/credits.json` - scheduled credits snapshot
+- `data/xenia-upstream-license.txt` - vendored upstream license text
+- `public/compatibility` - static JSON copies used by deployed clients
 
 ## Legal and Credits
 
