@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-08T20:48:25.484Z",
+  "generatedAt": "2026-03-08T20:49:40.964Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -421,6 +421,37 @@
             "platform": "iOS",
             "osVersion": "iOS 18.5",
             "gpuBackend": "MSL"
+          }
+        }
+      ]
+    },
+    "4D5307F1": {
+      "titleId": "4D5307F1",
+      "issueNumber": 82,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/82",
+      "updatedAt": "2026-03-08",
+      "entries": [
+        {
+          "id": "issue-82",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/82",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1773002914000,
+          "issueNumber": 82,
+          "excerpt": "Nothing start",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 16 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
           }
         }
       ]
