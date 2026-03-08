@@ -1855,44 +1855,22 @@
     "slug": "gta-iv",
     "title": "GTA IV",
     "titleId": "545407F2",
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "ingame",
+    "perf": "poor",
     "tags": [],
     "platforms": [
-      "macos",
-      "ios"
+      "macos"
     ],
     "lastReport": {
-      "device": "iPhone 17 Pro",
-      "platform": "ios",
-      "osVersion": "26.3.1",
+      "device": "MacBook Pro M4 Pro/Max",
+      "platform": "macos",
+      "osVersion": "15.3",
       "arch": "arm64",
-      "gpuBackend": "msl"
+      "gpuBackend": "msc"
     },
-    "updatedAt": "2026-03-08",
-    "notes": "The game crashes as soon as I launch it.",
+    "updatedAt": "2026-02-28",
+    "notes": "Get's into game with severe graphical issues. Framerate is above 30 on M4 Pro.",
     "reports": [
-      {
-        "device": "iPhone 17 Pro",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-03-08",
-        "notes": "The game crashes as soon as I launch it.",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "stage": "stable",
-          "commitShort": "2633e8177",
-          "buildId": "ios-self-built-1.0.0-9280"
-        }
-      },
       {
         "device": "MacBook Pro M4 Pro/Max",
         "platform": "macos",
@@ -1935,29 +1913,21 @@
         "channel": "all",
         "status": "ingame",
         "perf": "poor",
-        "notes": "The game crashes as soon as I launch it.",
-        "updatedAt": "2026-03-08",
-        "reportCount": 2,
+        "notes": "Get's into game with severe graphical issues. Framerate is above 30 on M4 Pro.",
+        "updatedAt": "2026-02-28",
+        "reportCount": 1,
         "latestReport": {
-          "device": "iPhone 17 Pro",
-          "platform": "ios",
-          "osVersion": "26.3.1",
+          "device": "MacBook Pro M4 Pro/Max",
+          "platform": "macos",
+          "osVersion": "15.3",
           "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-08",
-          "notes": "The game crashes as soon as I launch it.",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
-          }
+          "gpuBackend": "msc",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-02-28",
+          "notes": "Get's into game with severe graphical issues. Framerate is above 30 on M4 Pro.",
+          "source": "discord",
+          "build": null
         },
         "bestReport": {
           "device": "MacBook Pro M4 Pro/Max",
@@ -3359,35 +3329,15 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 17 Pro",
+      "device": "iPad Pro (M2)",
       "platform": "ios",
-      "osVersion": "26.3.1",
+      "osVersion": "18.3.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-08",
-    "notes": "The game crashes as soon as I launch it.",
+    "updatedAt": "2026-03-02",
+    "notes": "Games not launching for me",
     "reports": [
-      {
-        "device": "iPhone 17 Pro",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-03-08",
-        "notes": "The game crashes as soon as I launch it.",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.0-9280",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "commitShort": "2633e8177"
-        }
-      },
       {
         "device": "iPad Pro (M2)",
         "platform": "ios",
@@ -3430,48 +3380,34 @@
         "channel": "all",
         "status": "nothing",
         "perf": "n/a",
-        "notes": "The game crashes as soon as I launch it.",
-        "updatedAt": "2026-03-08",
-        "reportCount": 2,
+        "notes": "Games not launching for me",
+        "updatedAt": "2026-03-02",
+        "reportCount": 1,
         "latestReport": {
-          "device": "iPhone 17 Pro",
+          "device": "iPad Pro (M2)",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "18.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "nothing",
           "perf": "n/a",
-          "date": "2026-03-08",
-          "notes": "The game crashes as soon as I launch it.",
+          "date": "2026-03-02",
+          "notes": "Games not launching for me",
           "source": "app",
-          "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633e8177"
-          }
+          "build": null
         },
         "bestReport": {
-          "device": "iPhone 17 Pro",
+          "device": "iPad Pro (M2)",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "18.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "nothing",
           "perf": "n/a",
-          "date": "2026-03-08",
-          "notes": "The game crashes as soon as I launch it.",
+          "date": "2026-03-02",
+          "notes": "Games not launching for me",
           "source": "app",
-          "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633e8177"
-          }
+          "build": null
         }
       }
     }
