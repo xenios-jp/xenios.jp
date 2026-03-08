@@ -742,22 +742,42 @@
     "slug": "call-of-duty-4",
     "title": "Call of Duty 4",
     "titleId": "415607E6",
-    "status": "ingame",
+    "status": "playable",
     "perf": "ok",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone18,3",
+      "device": "iPhone 17 Pro Max",
       "platform": "ios",
       "osVersion": "26.3",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-01",
-    "notes": "Loads into game but experiences severe graphical issues.",
+    "updatedAt": "2026-03-08",
+    "notes": "Prologue and first mission fully playable.\nPrologue has minor graphical and FPS issues as assets load, once loaded game plays and runs as normal.\nFirst mission ran OK, audio went \"staticky\" through out the remainder of the mission but once assets loaded the FPS and Graphical issues were minimal.",
     "reports": [
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-03-08",
+        "notes": "Prologue and first mission fully playable.\nPrologue has minor graphical and FPS issues as assets load, once loaded game plays and runs as normal.\nFirst mission ran OK, audio went \"staticky\" through out the remainder of the mission but once assets loaded the FPS and Graphical issues were minimal.",
+        "source": "github",
+        "build": {
+          "buildId": "ios-release-1.0.0-9280",
+          "channel": "release",
+          "official": true,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "commitShort": "2633E8177"
+        }
+      },
       {
         "device": "iPhone18,3",
         "platform": "ios",
@@ -778,13 +798,51 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "playable",
+        "perf": "ok",
+        "notes": "Prologue and first mission fully playable.\nPrologue has minor graphical and FPS issues as assets load, once loaded game plays and runs as normal.\nFirst mission ran OK, audio went \"staticky\" through out the remainder of the mission but once assets loaded the FPS and Graphical issues were minimal.",
+        "updatedAt": "2026-03-08",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-03-08",
+          "notes": "Prologue and first mission fully playable.\nPrologue has minor graphical and FPS issues as assets load, once loaded game plays and runs as normal.\nFirst mission ran OK, audio went \"staticky\" through out the remainder of the mission but once assets loaded the FPS and Graphical issues were minimal.",
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-1.0.0-9280",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "2633E8177"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-03-08",
+          "notes": "Prologue and first mission fully playable.\nPrologue has minor graphical and FPS issues as assets load, once loaded game plays and runs as normal.\nFirst mission ran OK, audio went \"staticky\" through out the remainder of the mission but once assets loaded the FPS and Graphical issues were minimal.",
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-1.0.0-9280",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "2633E8177"
+          }
+        }
       },
       "preview": {
         "channel": "preview",
@@ -798,36 +856,50 @@
       },
       "all": {
         "channel": "all",
-        "status": "ingame",
+        "status": "playable",
         "perf": "ok",
-        "notes": "Loads into game but experiences severe graphical issues.",
-        "updatedAt": "2026-03-01",
-        "reportCount": 1,
+        "notes": "Prologue and first mission fully playable.\nPrologue has minor graphical and FPS issues as assets load, once loaded game plays and runs as normal.\nFirst mission ran OK, audio went \"staticky\" through out the remainder of the mission but once assets loaded the FPS and Graphical issues were minimal.",
+        "updatedAt": "2026-03-08",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone18,3",
+          "device": "iPhone 17 Pro Max",
           "platform": "ios",
           "osVersion": "26.3",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "ingame",
+          "status": "playable",
           "perf": "ok",
-          "date": "2026-03-01",
-          "notes": "Loads into game but experiences severe graphical issues.",
-          "source": "app",
-          "build": null
+          "date": "2026-03-08",
+          "notes": "Prologue and first mission fully playable.\nPrologue has minor graphical and FPS issues as assets load, once loaded game plays and runs as normal.\nFirst mission ran OK, audio went \"staticky\" through out the remainder of the mission but once assets loaded the FPS and Graphical issues were minimal.",
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-1.0.0-9280",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "2633E8177"
+          }
         },
         "bestReport": {
-          "device": "iPhone18,3",
+          "device": "iPhone 17 Pro Max",
           "platform": "ios",
           "osVersion": "26.3",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "ingame",
+          "status": "playable",
           "perf": "ok",
-          "date": "2026-03-01",
-          "notes": "Loads into game but experiences severe graphical issues.",
-          "source": "app",
-          "build": null
+          "date": "2026-03-08",
+          "notes": "Prologue and first mission fully playable.\nPrologue has minor graphical and FPS issues as assets load, once loaded game plays and runs as normal.\nFirst mission ran OK, audio went \"staticky\" through out the remainder of the mission but once assets loaded the FPS and Graphical issues were minimal.",
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-1.0.0-9280",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "2633E8177"
+          }
         }
       }
     }
