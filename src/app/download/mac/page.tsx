@@ -224,6 +224,39 @@ export default function DownloadMacPage() {
         </div>
       </section>
 
+      <section className="border-b border-border bg-amber-500/5 py-6">
+        <div className="mx-auto max-w-6xl px-6">
+          <div className="rounded-xl border border-amber-400/30 bg-amber-500/10 p-5">
+            <h2 className="text-base font-semibold text-text-primary">Read first</h2>
+            <p className="mt-2 text-[15px] leading-relaxed text-text-primary">
+              XeniOS for Mac currently requires{" "}
+              <strong>macOS 15.0 or newer</strong>. Not every game runs yet,
+              and performance and stability are still game-dependent.
+            </p>
+            <p className="mt-3 text-[15px] leading-relaxed text-text-primary">
+              XeniOS is still alpha software. Expect crashes, rough edges, and
+              incomplete compatibility. Do not expect a polished or fully
+              stable experience yet.
+            </p>
+            <p className="mt-3 text-[14px] text-text-secondary">
+              Download the build that matches your hardware, then treat current
+              compatibility as early and verify on your own Mac before assuming
+              a title will run well.
+              Need help with first launch or Gatekeeper? Join{" "}
+              <a
+                href={DISCORD_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-accent underline underline-offset-2 hover:text-accent-hover"
+              >
+                Discord
+              </a>
+              .
+            </p>
+          </div>
+        </div>
+      </section>
+
       <section className="border-b border-border bg-bg-surface/20 py-8">
         <div className="mx-auto max-w-6xl px-6">
           <div className="flex flex-wrap items-end justify-between gap-4">

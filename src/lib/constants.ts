@@ -21,7 +21,10 @@ export const KOFI_URL = "https://ko-fi.com/xenios";
 export const XENIA_UPSTREAM_OWNER = "xenia-project";
 export const XENIA_UPSTREAM_REPO_URL = `https://github.com/${XENIA_UPSTREAM_OWNER}`;
 export const XENIA_UPSTREAM_LICENSE_URL = `${XENIA_UPSTREAM_REPO_URL}/xenia/blob/master/LICENSE`;
+export const XENIA_CANARY_REPO_URL = "https://github.com/xenia-canary/xenia-canary";
+export const XENIA_CANARY_RELEASES_URL = `${XENIA_CANARY_REPO_URL}/releases`;
 export const XENIA_EDGE_REPO_URL = "https://github.com/has207/xenia-edge";
+export const XENIA_EDGE_RELEASES_URL = `${XENIA_EDGE_REPO_URL}/releases`;
 
 export const XENIA_REPOS_FOR_CREDITS = [
   {

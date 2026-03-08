@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { Callout } from "@/components/callout";
 import {
   DISCORD_URL,
+  EMULATOR_GITHUB_URL,
   WEBSITE_GITHUB_ISSUES_URL,
 } from "@/lib/constants";
 
@@ -26,6 +27,7 @@ const iosDocs: Record<string, DocEntry> = {
       "Install XeniOS and run your first Xbox 360 game on iOS.",
     content: (
       <>
+        <h2>Read First</h2>
         <div className="mb-6">
           <Callout type="warning">
             XeniOS requires JIT to run games. This is normal on iOS: installing
@@ -34,8 +36,11 @@ const iosDocs: Record<string, DocEntry> = {
             iOS / iPadOS version and device, this may also require{" "}
             <a href="https://apps.apple.com/us/app/localdevvpn/id6755608044" target="_blank" rel="noopener noreferrer" className="text-accent underline underline-offset-2 hover:text-accent-hover font-semibold">LocalDevVPN</a>. Check the{" "}
             <a href="https://docs.sidestore.io/docs/advanced/jit" target="_blank" rel="noopener noreferrer" className="text-accent underline underline-offset-2 hover:text-accent-hover font-semibold">latest SideStore JIT guide</a>{" "}
-            before assuming a setup will work unchanged. If you are blocked on
-            setup, use{" "}
+            before assuming a setup will work unchanged. Not every game runs
+            yet, and performance and stability still vary by title and device.
+            XeniOS is still alpha software, so do not expect a polished or
+            perfect experience yet.
+            If you are blocked on setup, use{" "}
             <a href={DISCORD_URL} target="_blank" rel="noopener noreferrer" className="text-accent underline underline-offset-2 hover:text-accent-hover font-semibold">Discord</a>.
           </Callout>
         </div>
@@ -78,18 +83,20 @@ const iosDocs: Record<string, DocEntry> = {
 
         <h2>Adding Games</h2>
         <p className="mt-3 text-[15px] text-text-secondary leading-relaxed">
-          After dumping games from your own Xbox 360 discs, transfer the files
-          to the XeniOS documents directory using the Files app, AirDrop, or
-          USB file sharing through Finder. The app also supports opening files
-          via the iOS document picker. XeniOS automatically scans the Documents
-          directory for supported game files on launch.
+          After dumping games from Xbox 360 discs or digital purchases that
+          you legally own, transfer the files into XeniOS using the Files app,
+          AirDrop, or USB file sharing through Finder. The app also supports
+          opening files from the iOS document picker. On launch, XeniOS
+          automatically scans its Documents directory for supported game files.
         </p>
         <p className="mt-3 text-[15px] text-text-secondary leading-relaxed">
-          Most disc dumps are in <strong className="text-text-primary">GOD</strong> (Games on Demand) format —
-          the standard Xbox 360 backup format. Also supported:{" "}
-          <C>.iso</C> disc images, <C>.xex</C> executables,{" "}
+          Most full-game dumps are in{" "}
+          <strong className="text-text-primary">GOD</strong> (Games on Demand)
+          format, the standard Xbox 360 installed-title layout. XeniOS also
+          supports <C>.iso</C> disc images, <C>.xex</C> executables,{" "}
           <C>.zar</C> compressed archives, and STFS/XContent packages
-          (<C>.con</C>, <C>.live</C>, <C>.pirs</C> — used for XBLA titles and DLC).
+          (<C>.con</C>, <C>.live</C>, <C>.pirs</C>) used for XBLA titles and
+          DLC.
         </p>
         <div className="mt-4 rounded-lg bg-bg-surface-2/60 border border-border p-4">
           <pre className="text-sm font-mono text-accent whitespace-pre-wrap">{`Documents/
@@ -97,7 +104,7 @@ const iosDocs: Record<string, DocEntry> = {
 ├── YourGame.iso        (disc image)
 ├── YourGame.zar        (compressed archive)
 ├── content/            (STFS/XContent packages)
-├── xenia-edge.config.toml
+├── xenios.config.toml
 └── xenia.log`}</pre>
         </div>
 
@@ -225,14 +232,14 @@ const iosDocs: Record<string, DocEntry> = {
 
         <h2>Config Files</h2>
         <p className="mt-3 text-[15px] text-text-secondary leading-relaxed">
-          All settings are stored in <C>xenia-edge.config.toml</C> in
+          All settings are stored in <C>xenios.config.toml</C> in
           the app&#39;s Documents directory. Per-game overrides are created as{" "}
           <C>&lt;TITLEID&gt;.config.toml</C> files in the{" "}
           <C>config/</C> subdirectory.
         </p>
         <div className="mt-4 rounded-lg bg-bg-surface-2/60 border border-border p-4">
           <pre className="text-sm font-mono text-accent whitespace-pre-wrap">{`Documents/
-├── xenia-edge.config.toml          (global config)
+├── xenios.config.toml              (global config)
 └── config/
     └── 4D5307E6.config.toml        (per-game override for Halo 3)`}</pre>
         </div>
@@ -341,7 +348,7 @@ const iosDocs: Record<string, DocEntry> = {
           verbosity, set <C>log_level</C> in your config file:
         </p>
         <div className="mt-4 rounded-lg bg-bg-surface-2/60 border border-border p-4">
-          <pre className="text-sm font-mono text-text-primary whitespace-pre-wrap">{`# In xenia-edge.config.toml:
+          <pre className="text-sm font-mono text-text-primary whitespace-pre-wrap">{`# In xenios.config.toml:
 log_level = 3    # 0=error, 1=warning, 2=info (default), 3=debug
 log_mask = 0     # Bitmask: 1=Kernel, 2=APU, 4=CPU, 8=GPU`}</pre>
         </div>
@@ -383,13 +390,13 @@ log_mask = 0     # Bitmask: 1=Kernel, 2=APU, 4=CPU, 8=GPU`}</pre>
           The log file is at <C>Documents/xenia.log</C>. Access it via the
           Files app (XeniOS has file sharing enabled) or USB. For a more
           detailed log, set <C>log_level</C> to <C>3</C> (debug) in{" "}
-          <C>xenia-edge.config.toml</C> before reproducing the issue.
+          <C>xenios.config.toml</C> before reproducing the issue.
         </p>
         <div className="mt-4 rounded-lg bg-bg-surface-2/60 border border-border p-4">
           <pre className="text-sm font-mono text-text-primary whitespace-pre-wrap">{`# Log file:
 Documents/xenia.log
 
-# For verbose output, set in xenia-edge.config.toml:
+# For verbose output, set in xenios.config.toml:
 log_level = 3
 flush_log = true`}</pre>
         </div>
@@ -419,23 +426,31 @@ flush_log = true`}</pre>
       <>
         <h2>Building from Source</h2>
         <p className="mt-3 text-[15px] text-text-secondary leading-relaxed">
-          The active XeniOS source repository is currently private while the
-          public website, compatibility tracker, and release pipeline are being
-          split out cleanly. Public build metadata and compatibility data are
-          available here on xenios.jp, but source checkout instructions are not
-          published yet.
+          The active XeniOS source repository is public at{" "}
+          <a
+            href={EMULATOR_GITHUB_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-accent underline underline-offset-2 hover:text-accent-hover"
+          >
+            {EMULATOR_GITHUB_URL}
+          </a>
+          . The website, compatibility tracker, and release metadata live in
+          related repositories.
         </p>
         <div className="mt-4 rounded-lg bg-bg-surface-2/60 border border-border p-4">
-          <pre className="text-sm font-mono text-text-primary whitespace-pre-wrap">{`Source checkout is not public yet.
+          <pre className="text-sm font-mono text-text-primary whitespace-pre-wrap">{`git clone ${EMULATOR_GITHUB_URL}
+cd XeniOS
 
-Need contributor access?
-1. Join the Discord server
-2. Open an issue on the public website tracker
-3. Ask the maintainers for source access details`}</pre>
+# iOS debug build
+./xb build --target_os=ios --config=debug
+
+# Format code
+./xb format`}</pre>
         </div>
         <p className="mt-3 text-[15px] text-text-secondary leading-relaxed">
-          When public source access is opened up, the build docs here will be
-          updated with the exact checkout and build steps for iOS.
+          Use the public repository for checkout, issues, and contributions.
+          The build docs here stay focused on platform-specific notes for iOS.
         </p>
 
         <h2>Architecture Overview</h2>
@@ -516,6 +531,19 @@ const macDocs: Record<string, DocEntry> = {
     description: "Install and run XeniOS on macOS.",
     content: (
       <>
+        <h2>Read First</h2>
+        <div className="mb-6">
+          <Callout type="warning">
+            XeniOS for Mac requires{" "}
+            <strong className="text-text-primary">macOS 15.0 or newer</strong>.
+            Not every game runs yet, and performance and stability are still
+            game-dependent. Treat current compatibility results as early and
+            verify on your own hardware before assuming a title will work well.
+            XeniOS is still alpha software, so do not expect a polished or
+            perfect experience yet.
+          </Callout>
+        </div>
+
         <h2>Overview</h2>
         <p className="mt-3 text-[15px] text-text-secondary leading-relaxed">
           XeniOS for Mac is shipped from the same repository and release stream
@@ -642,16 +670,27 @@ const macDocs: Record<string, DocEntry> = {
       <>
         <h2>Single Repository Workflow</h2>
         <p className="mt-3 text-[15px] text-text-secondary leading-relaxed">
-          iOS and Mac are built from one private repository. Shared changes stay
-          in common modules, with platform-specific code isolated to platform targets.
+          iOS and Mac are built from one public repository at{" "}
+          <a
+            href={EMULATOR_GITHUB_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-accent underline underline-offset-2 hover:text-accent-hover"
+          >
+            {EMULATOR_GITHUB_URL}
+          </a>
+          . Shared changes stay in common modules, with platform-specific code
+          isolated to platform targets.
         </p>
         <div className="mt-4 rounded-lg bg-bg-surface-2/60 border border-border p-4">
-          <pre className="text-sm font-mono text-text-primary whitespace-pre-wrap">{`Public source checkout is not available yet.
+          <pre className="text-sm font-mono text-text-primary whitespace-pre-wrap">{`git clone ${EMULATOR_GITHUB_URL}
+cd XeniOS
 
-For contributor access:
-- join Discord
-- open a public issue describing the change
-- request source access from the maintainers`}</pre>
+# macOS debug build
+./xb build --target_os=macos --config=debug
+
+# Format code
+./xb format`}</pre>
         </div>
       </>
     ),

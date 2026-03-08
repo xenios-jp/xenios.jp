@@ -28,8 +28,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/docs/mac/reporting-bugs",
     "/docs/mac/developer",
     "/faq",
-    "/faq/ios",
-    "/faq/mac",
     "/legal",
     "/license",
   ];

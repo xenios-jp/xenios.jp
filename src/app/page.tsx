@@ -9,7 +9,11 @@ import {
   getAllGames,
   getStatusLabel,
 } from "@/lib/compatibility";
-import { DISCORD_URL } from "@/lib/constants";
+import {
+  DISCORD_URL,
+  XENIA_CANARY_RELEASES_URL,
+  XENIA_EDGE_RELEASES_URL,
+} from "@/lib/constants";
 
 function gameUpdatedAtMs(updatedAt: string | undefined): number {
   const timestamp = new Date(updatedAt ?? "").getTime();
@@ -37,12 +41,13 @@ export default function Home() {
         <div className="mx-auto max-w-6xl px-6 text-center">
           <HeroTitle />
           <p className="hero-fade-1 mt-4 text-2xl text-text-secondary">
-            Xbox 360 emulation on iPhone, iPad, and Mac. Early alpha.
+            Xbox 360 emulation on iPhone, iPad, and Mac.
           </p>
-          <p className="hero-fade-1 mt-3 text-[15px] leading-relaxed text-text-muted">
-            Not in the App Store. iPhone/iPad installs use sideloading; Mac uses
-            a standard app install.
-          </p>
+          <div className="hero-fade-1 mx-auto mt-4 max-w-2xl rounded-xl border border-amber-400/30 bg-amber-500/10 px-4 py-3 text-[15px] leading-relaxed text-text-primary">
+            XeniOS is still alpha software. Expect crashes, missing features,
+            and major game-to-game variance. Do not expect a polished or
+            perfect experience yet.
+          </div>
           <div className="hero-fade-2 mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
               href="/download/ios"
@@ -57,7 +62,7 @@ export default function Home() {
               Get for Mac
             </Link>
           </div>
-          <div className="hero-fade-2 mt-4">
+          <div className="hero-fade-2 mt-4 flex flex-col items-center gap-2">
             <Link
               href="/compatibility"
               className="text-base text-accent hover:text-accent-hover transition-colors"
@@ -168,6 +173,56 @@ export default function Home() {
                 Open docs &rarr;
               </span>
             </Link>
+          </div>
+
+          <div className="mt-6 rounded-xl border border-border bg-bg-surface p-6">
+            <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
+              <div>
+                <h3 className="text-xl font-semibold text-text-primary">
+                  Looking for Windows or Linux builds?
+                </h3>
+                <p className="mt-2 max-w-2xl text-base leading-relaxed text-text-secondary">
+                  XeniOS currently focuses on iPhone, iPad, and Mac, while also
+                  carrying platform changes that benefit ARM64 Windows, Linux,
+                  and Android. For Windows use Xenia-Canary as the stable path.
+                  For Linux, Xenia-Edge currently has better support.
+                </p>
+              </div>
+              <div className="grid gap-3 sm:grid-cols-2">
+                <a
+                  href={XENIA_CANARY_RELEASES_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group flex min-w-[220px] flex-col rounded-xl border border-emerald-400/25 bg-emerald-500/10 px-5 py-4 text-left transition-colors hover:bg-emerald-500/15"
+                >
+                  <span className="inline-flex w-fit items-center rounded-full bg-emerald-400/15 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-[0.14em] text-emerald-300">
+                    Stable
+                  </span>
+                  <span className="mt-3 text-base font-semibold text-text-primary">
+                    Open Xenia-Canary
+                  </span>
+                  <span className="mt-1 text-sm leading-relaxed text-text-secondary">
+                    Stable desktop branch and the safer default for Windows.
+                  </span>
+                </a>
+                <a
+                  href={XENIA_EDGE_RELEASES_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group flex min-w-[220px] flex-col rounded-xl border border-amber-400/25 bg-amber-500/10 px-5 py-4 text-left transition-colors hover:bg-amber-500/15"
+                >
+                  <span className="inline-flex w-fit items-center rounded-full bg-amber-400/15 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-[0.14em] text-amber-300">
+                    Experimental
+                  </span>
+                  <span className="mt-3 text-base font-semibold text-text-primary">
+                    Open Xenia-Edge
+                  </span>
+                  <span className="mt-1 text-sm leading-relaxed text-text-secondary">
+                    Faster-moving branch with better Linux support and more churn.
+                  </span>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </section>
