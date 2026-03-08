@@ -1,5 +1,120 @@
 [
   {
+    "slug": "prototype",
+    "title": "[Prototype]™",
+    "titleId": "4156084E",
+    "status": "nothing",
+    "perf": "n/a",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 12 Pro Max",
+      "platform": "ios",
+      "osVersion": "18.6.2",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-08",
+    "notes": "Black screen and didn’t load even into menu",
+    "reports": [
+      {
+        "device": "iPhone 12 Pro Max",
+        "platform": "ios",
+        "osVersion": "18.6.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-03-08",
+        "notes": "Black screen and didn’t load even into menu",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.0-9280",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "commitShort": "2633e8177"
+        }
+      }
+    ],
+    "screenshots": [],
+    "issueNumber": 44,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/44",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "nothing",
+        "perf": "n/a",
+        "notes": "Black screen and didn’t load even into menu",
+        "updatedAt": "2026-03-08",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 12 Pro Max",
+          "platform": "ios",
+          "osVersion": "18.6.2",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-03-08",
+          "notes": "Black screen and didn’t load even into menu",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "2633e8177"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 12 Pro Max",
+          "platform": "ios",
+          "osVersion": "18.6.2",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-03-08",
+          "notes": "Black screen and didn’t load even into menu",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "2633e8177"
+          }
+        }
+      }
+    }
+  },
+  {
     "slug": "bayonetta",
     "title": "Bayonetta",
     "titleId": "53450813",
@@ -60,39 +175,13 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "ingame",
-        "perf": "poor",
-        "notes": "Runs at about 20fps, but seems like the engine expects 30fps consistently so not very playable currently.",
-        "updatedAt": "2026-03-01",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 17",
-          "platform": "ios",
-          "osVersion": "26.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-03-01",
-          "notes": "Runs at about 20fps, but seems like the engine expects 30fps consistently so not very playable currently.",
-          "source": "discord",
-          "submittedBy": "reality111",
-          "build": null
-        },
-        "bestReport": {
-          "device": "iPhone 17",
-          "platform": "ios",
-          "osVersion": "26.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-03-01",
-          "notes": "Runs at about 20fps, but seems like the engine expects 30fps consistently so not very playable currently.",
-          "source": "discord",
-          "submittedBy": "reality111",
-          "build": null
-        }
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
       },
       "preview": {
         "channel": "preview",
@@ -194,37 +283,13 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "intro",
-        "perf": "ok",
-        "notes": "Game boots and loads quickly and smoothly with some graphical glitches during cutscenes. This game has experienced a regression from previous version and now freezes at varying points after loading the menu where as I was able to get into and play the game at about 3/4 speed on initial version.",
-        "updatedAt": "2026-03-05",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone17,1",
-          "platform": "ios",
-          "osVersion": "18.5",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "ok",
-          "date": "2026-03-05",
-          "notes": "Game boots and loads quickly and smoothly with some graphical glitches during cutscenes. This game has experienced a regression from previous version and now freezes at varying points after loading the menu where as I was able to get into and play the game at about 3/4 speed on initial version.",
-          "source": "app",
-          "build": null
-        },
-        "bestReport": {
-          "device": "iPhone17,1",
-          "platform": "ios",
-          "osVersion": "18.5",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "ok",
-          "date": "2026-03-05",
-          "notes": "Game boots and loads quickly and smoothly with some graphical glitches during cutscenes. This game has experienced a regression from previous version and now freezes at varying points after loading the menu where as I was able to get into and play the game at about 3/4 speed on initial version.",
-          "source": "app",
-          "build": null
-        }
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
       },
       "preview": {
         "channel": "preview",
@@ -312,37 +377,13 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "playable",
-        "perf": "ok",
-        "notes": "Occasional drops in FPS but very much playable.",
-        "updatedAt": "2026-03-02",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone17,1",
-          "platform": "ios",
-          "osVersion": "18.5",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-03-02",
-          "notes": "Occasional drops in FPS but very much playable.",
-          "source": "app",
-          "build": null
-        },
-        "bestReport": {
-          "device": "iPhone17,1",
-          "platform": "ios",
-          "osVersion": "18.5",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-03-02",
-          "notes": "Occasional drops in FPS but very much playable.",
-          "source": "app",
-          "build": null
-        }
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
       },
       "preview": {
         "channel": "preview",
@@ -430,37 +471,13 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "ingame",
-        "perf": "ok",
-        "notes": "Loads into game but experiences severe graphical issues.",
-        "updatedAt": "2026-03-01",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone18,3",
-          "platform": "ios",
-          "osVersion": "26.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "ok",
-          "date": "2026-03-01",
-          "notes": "Loads into game but experiences severe graphical issues.",
-          "source": "app",
-          "build": null
-        },
-        "bestReport": {
-          "device": "iPhone18,3",
-          "platform": "ios",
-          "osVersion": "26.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "ok",
-          "date": "2026-03-01",
-          "notes": "Loads into game but experiences severe graphical issues.",
-          "source": "app",
-          "build": null
-        }
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
       },
       "preview": {
         "channel": "preview",
@@ -561,37 +578,13 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "ingame",
-        "perf": "poor",
-        "notes": "Game has got some graphical issues. I couldn’t get past the cutscene but even the cutscene had some graphical issues",
-        "updatedAt": "2026-03-02",
-        "reportCount": 2,
-        "latestReport": {
-          "device": "iPad Pro (M2)",
-          "platform": "ios",
-          "osVersion": "18.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "poor",
-          "date": "2026-03-02",
-          "notes": "Game has got some graphical issues. I couldn’t get past the cutscene but even the cutscene had some graphical issues",
-          "source": "app",
-          "build": null
-        },
-        "bestReport": {
-          "device": "iPad Pro (M2)",
-          "platform": "ios",
-          "osVersion": "18.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-03-02",
-          "notes": "Just played around with some settings  and the game seems to boot now. Performance is poor and there are some minor graphical glitches but you can get into a match now",
-          "source": "app",
-          "build": null
-        }
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
       },
       "preview": {
         "channel": "preview",
@@ -679,37 +672,13 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "playable",
-        "perf": "poor",
-        "notes": "Had to boot the game a few times in order for it to work. Other than that the game is playable but the performance is quite poor (around 25 fps without screen recording and 22-23 with screen recording)",
-        "updatedAt": "2026-03-03",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPad Pro (M2)",
-          "platform": "ios",
-          "osVersion": "18.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "poor",
-          "date": "2026-03-03",
-          "notes": "Had to boot the game a few times in order for it to work. Other than that the game is playable but the performance is quite poor (around 25 fps without screen recording and 22-23 with screen recording)",
-          "source": "app",
-          "build": null
-        },
-        "bestReport": {
-          "device": "iPad Pro (M2)",
-          "platform": "ios",
-          "osVersion": "18.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "poor",
-          "date": "2026-03-03",
-          "notes": "Had to boot the game a few times in order for it to work. Other than that the game is playable but the performance is quite poor (around 25 fps without screen recording and 22-23 with screen recording)",
-          "source": "app",
-          "build": null
-        }
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
       },
       "preview": {
         "channel": "preview",
@@ -810,37 +779,13 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "playable",
-        "perf": "great",
-        "notes": "Game loads with no glitches I could tell. The game runs smoothly but with slightly reduced speed. Very playable and very enjoyable!",
-        "updatedAt": "2026-03-05",
-        "reportCount": 2,
-        "latestReport": {
-          "device": "iPhone17,1",
-          "platform": "ios",
-          "osVersion": "18.5",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-03-05",
-          "notes": "Game loads with no glitches I could tell. The game runs smoothly but with slightly reduced speed. Very playable and very enjoyable!",
-          "source": "app",
-          "build": null
-        },
-        "bestReport": {
-          "device": "iPhone17,1",
-          "platform": "ios",
-          "osVersion": "18.5",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-03-05",
-          "notes": "Game loads with no glitches I could tell. The game runs smoothly but with slightly reduced speed. Very playable and very enjoyable!",
-          "source": "app",
-          "build": null
-        }
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
       },
       "preview": {
         "channel": "preview",
@@ -928,37 +873,13 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "intro",
-        "perf": "ok",
-        "notes": "Starts up, publisher logos display gets to Start menu. But when press Start does not proceed further",
-        "updatedAt": "2026-03-04",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPad15,7",
-          "platform": "ios",
-          "osVersion": "26.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "ok",
-          "date": "2026-03-04",
-          "notes": "Starts up, publisher logos display gets to Start menu. But when press Start does not proceed further",
-          "source": "app",
-          "build": null
-        },
-        "bestReport": {
-          "device": "iPad15,7",
-          "platform": "ios",
-          "osVersion": "26.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "ok",
-          "date": "2026-03-04",
-          "notes": "Starts up, publisher logos display gets to Start menu. But when press Start does not proceed further",
-          "source": "app",
-          "build": null
-        }
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
       },
       "preview": {
         "channel": "preview",
@@ -1072,37 +993,13 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "playable",
-        "perf": "ok",
-        "notes": "Runs and can play the campaign, a few minor graphical glitches and drops in FPS",
-        "updatedAt": "2026-03-03",
-        "reportCount": 3,
-        "latestReport": {
-          "device": "iPhone17,1",
-          "platform": "ios",
-          "osVersion": "18.5",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-03-03",
-          "notes": "Runs and can play the campaign, a few minor graphical glitches and drops in FPS",
-          "source": "app",
-          "build": null
-        },
-        "bestReport": {
-          "device": "iPhone17,1",
-          "platform": "ios",
-          "osVersion": "18.5",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-03-03",
-          "notes": "Runs and can play the campaign, a few minor graphical glitches and drops in FPS",
-          "source": "app",
-          "build": null
-        }
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
       },
       "preview": {
         "channel": "preview",
@@ -1190,37 +1087,13 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "playable",
-        "perf": "ok",
-        "notes": "When the game finishes launching past the Developer credits and the intro movie starts the visuals of the movie have a Matrix-effect, when you hear the audio start Press Start or A to get to the main start menu. The audio effects and music in the game play well. Some in game graphics have a rainbow psychedelic coloration effect over them, it seems to occur when a transparent filter is applied over the in game characters and objects, such as looking through a window or when the in game lighting is in day time. The Game plays slower than the original speed but is still very playable.",
-        "updatedAt": "2026-03-06",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPad15,7",
-          "platform": "ios",
-          "osVersion": "26.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-03-06",
-          "notes": "When the game finishes launching past the Developer credits and the intro movie starts the visuals of the movie have a Matrix-effect, when you hear the audio start Press Start or A to get to the main start menu. The audio effects and music in the game play well. Some in game graphics have a rainbow psychedelic coloration effect over them, it seems to occur when a transparent filter is applied over the in game characters and objects, such as looking through a window or when the in game lighting is in day time. The Game plays slower than the original speed but is still very playable.",
-          "source": "app",
-          "build": null
-        },
-        "bestReport": {
-          "device": "iPad15,7",
-          "platform": "ios",
-          "osVersion": "26.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-03-06",
-          "notes": "When the game finishes launching past the Developer credits and the intro movie starts the visuals of the movie have a Matrix-effect, when you hear the audio start Press Start or A to get to the main start menu. The audio effects and music in the game play well. Some in game graphics have a rainbow psychedelic coloration effect over them, it seems to occur when a transparent filter is applied over the in game characters and objects, such as looking through a window or when the in game lighting is in day time. The Game plays slower than the original speed but is still very playable.",
-          "source": "app",
-          "build": null
-        }
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
       },
       "preview": {
         "channel": "preview",
@@ -1310,37 +1183,13 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "ingame",
-        "perf": "poor",
-        "notes": "Game runs at 15-20fps on iPhone 17. No noticeable graphical issues. Runs in slow motion due to engine expecting 60fps.",
-        "updatedAt": "2026-03-06",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 17",
-          "platform": "ios",
-          "osVersion": "26.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-03-06",
-          "notes": "Game runs at 15-20fps on iPhone 17. No noticeable graphical issues. Runs in slow motion due to engine expecting 60fps.",
-          "source": "app",
-          "build": null
-        },
-        "bestReport": {
-          "device": "iPhone 17",
-          "platform": "ios",
-          "osVersion": "26.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-03-06",
-          "notes": "Game runs at 15-20fps on iPhone 17. No noticeable graphical issues. Runs in slow motion due to engine expecting 60fps.",
-          "source": "app",
-          "build": null
-        }
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
       },
       "preview": {
         "channel": "preview",
@@ -1428,37 +1277,13 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "intro",
-        "perf": "great",
-        "notes": "Doom 3 boots perfectly through logos and menu with no visual distortion and perfect audio except for loud hiss at the beginning. When beginning campaign cutscene plays perfects but hangs after maybe 20 seconds or so.",
-        "updatedAt": "2026-03-03",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone17,1",
-          "platform": "ios",
-          "osVersion": "18.5",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "great",
-          "date": "2026-03-03",
-          "notes": "Doom 3 boots perfectly through logos and menu with no visual distortion and perfect audio except for loud hiss at the beginning. When beginning campaign cutscene plays perfects but hangs after maybe 20 seconds or so.",
-          "source": "app",
-          "build": null
-        },
-        "bestReport": {
-          "device": "iPhone17,1",
-          "platform": "ios",
-          "osVersion": "18.5",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "great",
-          "date": "2026-03-03",
-          "notes": "Doom 3 boots perfectly through logos and menu with no visual distortion and perfect audio except for loud hiss at the beginning. When beginning campaign cutscene plays perfects but hangs after maybe 20 seconds or so.",
-          "source": "app",
-          "build": null
-        }
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
       },
       "preview": {
         "channel": "preview",
@@ -1546,37 +1371,13 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "Couldn’t get it to boot.",
-        "updatedAt": "2026-03-03",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPad Pro (M2)",
-          "platform": "ios",
-          "osVersion": "18.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-03",
-          "notes": "Couldn’t get it to boot.",
-          "source": "app",
-          "build": null
-        },
-        "bestReport": {
-          "device": "iPad Pro (M2)",
-          "platform": "ios",
-          "osVersion": "18.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-03",
-          "notes": "Couldn’t get it to boot.",
-          "source": "app",
-          "build": null
-        }
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
       },
       "preview": {
         "channel": "preview",
@@ -1664,37 +1465,13 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "playable",
-        "perf": "great",
-        "notes": "-Graphics: minor glitches like hair transparency \n-Performance: full speed on higher end devices with minor dips.\n-Sound: No sound…\n-Menus: Perfect \n-Videos: work\n\n*Tested for an hour with no crash",
-        "updatedAt": "2026-03-03",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 17 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-03-03",
-          "notes": "-Graphics: minor glitches like hair transparency \n-Performance: full speed on higher end devices with minor dips.\n-Sound: No sound…\n-Menus: Perfect \n-Videos: work\n\n*Tested for an hour with no crash",
-          "source": "app",
-          "build": null
-        },
-        "bestReport": {
-          "device": "iPhone 17 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-03-03",
-          "notes": "-Graphics: minor glitches like hair transparency \n-Performance: full speed on higher end devices with minor dips.\n-Sound: No sound…\n-Menus: Perfect \n-Videos: work\n\n*Tested for an hour with no crash",
-          "source": "app",
-          "build": null
-        }
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
       },
       "preview": {
         "channel": "preview",
@@ -1783,39 +1560,13 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "ingame",
-        "perf": "ok",
-        "notes": "Runs well but with pretty severe intermittent graphical issues.",
-        "updatedAt": "2026-02-28",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "MacBook Pro M4 Pro/Max",
-          "platform": "macos",
-          "osVersion": "26.3",
-          "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "ingame",
-          "perf": "ok",
-          "date": "2026-02-28",
-          "notes": "Runs well but with pretty severe intermittent graphical issues.",
-          "source": "discord",
-          "submittedBy": "reality111",
-          "build": null
-        },
-        "bestReport": {
-          "device": "MacBook Pro M4 Pro/Max",
-          "platform": "macos",
-          "osVersion": "26.3",
-          "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "ingame",
-          "perf": "ok",
-          "date": "2026-02-28",
-          "notes": "Runs well but with pretty severe intermittent graphical issues.",
-          "source": "discord",
-          "submittedBy": "reality111",
-          "build": null
-        }
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
       },
       "preview": {
         "channel": "preview",
@@ -1905,37 +1656,13 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "ingame",
-        "perf": "poor",
-        "notes": "Get's into game with severe graphical issues. Framerate is above 30 on M4 Pro.",
-        "updatedAt": "2026-02-28",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "MacBook Pro M4 Pro/Max",
-          "platform": "macos",
-          "osVersion": "15.3",
-          "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-02-28",
-          "notes": "Get's into game with severe graphical issues. Framerate is above 30 on M4 Pro.",
-          "source": "discord",
-          "build": null
-        },
-        "bestReport": {
-          "device": "MacBook Pro M4 Pro/Max",
-          "platform": "macos",
-          "osVersion": "15.3",
-          "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-02-28",
-          "notes": "Get's into game with severe graphical issues. Framerate is above 30 on M4 Pro.",
-          "source": "discord",
-          "build": null
-        }
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
       },
       "preview": {
         "channel": "preview",
@@ -2023,37 +1750,13 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "playable",
-        "perf": "great",
-        "notes": "Perfect. Full speed on higher end devices.",
-        "updatedAt": "2026-03-03",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 17 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-03-03",
-          "notes": "Perfect. Full speed on higher end devices.",
-          "source": "app",
-          "build": null
-        },
-        "bestReport": {
-          "device": "iPhone 17 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-03-03",
-          "notes": "Perfect. Full speed on higher end devices.",
-          "source": "app",
-          "build": null
-        }
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
       },
       "preview": {
         "channel": "preview",
@@ -2320,37 +2023,13 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "playable",
-        "perf": "poor",
-        "notes": "Crashes upon launch ping the game.",
-        "updatedAt": "2026-03-04",
-        "reportCount": 7,
-        "latestReport": {
-          "device": "iPad Pro (M2)",
-          "platform": "ios",
-          "osVersion": "18.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-04",
-          "notes": "Crashes upon launch ping the game.",
-          "source": "app",
-          "build": null
-        },
-        "bestReport": {
-          "device": "iPhone17,1",
-          "platform": "ios",
-          "osVersion": "18.5",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "poor",
-          "date": "2026-03-04",
-          "notes": "Low FPS, but can start and play campaign, important note, if you die you can get stuck in a cutscene loop.",
-          "source": "app",
-          "build": null
-        }
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
       },
       "preview": {
         "channel": "preview",
@@ -2458,37 +2137,13 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "ingame",
-        "perf": "poor",
-        "notes": "Game boots however menu loads very distorted with heavy graphic bugs. Campaign loads intro scene but gets stuck in a loop. Could not navigate menu successfully to bypass loop.",
-        "updatedAt": "2026-03-03",
-        "reportCount": 2,
-        "latestReport": {
-          "device": "iPhone17,1",
-          "platform": "ios",
-          "osVersion": "18.5",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "poor",
-          "date": "2026-03-03",
-          "notes": "Game boots however menu loads very distorted with heavy graphic bugs. Campaign loads intro scene but gets stuck in a loop. Could not navigate menu successfully to bypass loop.",
-          "source": "app",
-          "build": null
-        },
-        "bestReport": {
-          "device": "iPhone18,3",
-          "platform": "ios",
-          "osVersion": "26.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-03-02",
-          "notes": "Gets into firefight, campaign does not load the first cutscene. Can expect the same cutscene loop as Halo 3 if it does manage to load.",
-          "source": "app",
-          "build": null
-        }
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
       },
       "preview": {
         "channel": "preview",
@@ -2576,37 +2231,13 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "intro",
-        "perf": "ok",
-        "notes": "Gets into the main menu but hangs when starting game.",
-        "updatedAt": "2026-03-03",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 17",
-          "platform": "ios",
-          "osVersion": "26.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "ok",
-          "date": "2026-03-03",
-          "notes": "Gets into the main menu but hangs when starting game.",
-          "source": "app",
-          "build": null
-        },
-        "bestReport": {
-          "device": "iPhone 17",
-          "platform": "ios",
-          "osVersion": "26.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "ok",
-          "date": "2026-03-03",
-          "notes": "Gets into the main menu but hangs when starting game.",
-          "source": "app",
-          "build": null
-        }
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
       },
       "preview": {
         "channel": "preview",
@@ -2698,37 +2329,13 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "ingame",
-        "perf": "great",
-        "notes": "If loading into game with classic graphics, runs at a steady 30fps. In anniversary mode there are severe graphical issues. When switching back from anniversary to classic mid game this breaks rendering in classic. \n\nAdditionally, the game shows audio issues in the warthog and some covenant vehicles.",
-        "updatedAt": "2026-03-06",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 17",
-          "platform": "ios",
-          "osVersion": "26.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "great",
-          "date": "2026-03-06",
-          "notes": "If loading into game with classic graphics, runs at a steady 30fps. In anniversary mode there are severe graphical issues. When switching back from anniversary to classic mid game this breaks rendering in classic. \n\nAdditionally, the game shows audio issues in the warthog and some covenant vehicles.",
-          "source": "app",
-          "build": null
-        },
-        "bestReport": {
-          "device": "iPhone 17",
-          "platform": "ios",
-          "osVersion": "26.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "great",
-          "date": "2026-03-06",
-          "notes": "If loading into game with classic graphics, runs at a steady 30fps. In anniversary mode there are severe graphical issues. When switching back from anniversary to classic mid game this breaks rendering in classic. \n\nAdditionally, the game shows audio issues in the warthog and some covenant vehicles.",
-          "source": "app",
-          "build": null
-        }
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
       },
       "preview": {
         "channel": "preview",
@@ -2832,37 +2439,13 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "ingame",
-        "perf": "poor",
-        "notes": "Loads into firefight but extreme graphical issues to the point that the game is unplayable.",
-        "updatedAt": "2026-03-06",
-        "reportCount": 2,
-        "latestReport": {
-          "device": "iPhone 17",
-          "platform": "ios",
-          "osVersion": "26.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-03-06",
-          "notes": "Loads into firefight but extreme graphical issues to the point that the game is unplayable.",
-          "source": "app",
-          "build": null
-        },
-        "bestReport": {
-          "device": "iPhone 17",
-          "platform": "ios",
-          "osVersion": "26.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-03-06",
-          "notes": "Loads into firefight but extreme graphical issues to the point that the game is unplayable.",
-          "source": "app",
-          "build": null
-        }
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
       },
       "preview": {
         "channel": "preview",
@@ -2950,37 +2533,13 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "loads",
-        "perf": "poor",
-        "notes": "Boots quickly and smoothly but hangs on initial loading screen past logos.",
-        "updatedAt": "2026-03-05",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone17,1",
-          "platform": "ios",
-          "osVersion": "18.5",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "poor",
-          "date": "2026-03-05",
-          "notes": "Boots quickly and smoothly but hangs on initial loading screen past logos.",
-          "source": "app",
-          "build": null
-        },
-        "bestReport": {
-          "device": "iPhone17,1",
-          "platform": "ios",
-          "osVersion": "18.5",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "poor",
-          "date": "2026-03-05",
-          "notes": "Boots quickly and smoothly but hangs on initial loading screen past logos.",
-          "source": "app",
-          "build": null
-        }
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
       },
       "preview": {
         "channel": "preview",
@@ -3070,37 +2629,13 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "ingame",
-        "perf": "poor",
-        "notes": "Runs around 10-15fps on iPhone 17. Has severe audio issues. Graphically looks perfect in the first mission at least.",
-        "updatedAt": "2026-03-06",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 17",
-          "platform": "ios",
-          "osVersion": "26.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-03-06",
-          "notes": "Runs around 10-15fps on iPhone 17. Has severe audio issues. Graphically looks perfect in the first mission at least.",
-          "source": "app",
-          "build": null
-        },
-        "bestReport": {
-          "device": "iPhone 17",
-          "platform": "ios",
-          "osVersion": "26.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-03-06",
-          "notes": "Runs around 10-15fps on iPhone 17. Has severe audio issues. Graphically looks perfect in the first mission at least.",
-          "source": "app",
-          "build": null
-        }
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
       },
       "preview": {
         "channel": "preview",
@@ -3188,37 +2723,13 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "loads",
-        "perf": "ok",
-        "notes": "Get stuck on the left for dead screen before the menu.",
-        "updatedAt": "2026-03-02",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone18,2",
-          "platform": "ios",
-          "osVersion": "26.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "ok",
-          "date": "2026-03-02",
-          "notes": "Get stuck on the left for dead screen before the menu.",
-          "source": "app",
-          "build": null
-        },
-        "bestReport": {
-          "device": "iPhone18,2",
-          "platform": "ios",
-          "osVersion": "26.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "ok",
-          "date": "2026-03-02",
-          "notes": "Get stuck on the left for dead screen before the menu.",
-          "source": "app",
-          "build": null
-        }
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
       },
       "preview": {
         "channel": "preview",
@@ -3306,37 +2817,13 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "loads",
-        "perf": "poor",
-        "notes": "Game boots and loads into menu without issue but hangs on initial loading screen",
-        "updatedAt": "2026-03-03",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone17,1",
-          "platform": "ios",
-          "osVersion": "18.5",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "poor",
-          "date": "2026-03-03",
-          "notes": "Game boots and loads into menu without issue but hangs on initial loading screen",
-          "source": "app",
-          "build": null
-        },
-        "bestReport": {
-          "device": "iPhone17,1",
-          "platform": "ios",
-          "osVersion": "18.5",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "poor",
-          "date": "2026-03-03",
-          "notes": "Game boots and loads into menu without issue but hangs on initial loading screen",
-          "source": "app",
-          "build": null
-        }
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
       },
       "preview": {
         "channel": "preview",
@@ -3425,39 +2912,13 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "ingame",
-        "perf": "ok",
-        "notes": "Playable in game with ok-ish framerate on M4 Pro, significant occlusion issues",
-        "updatedAt": "2026-02-28",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "MacBook Pro M4 Pro/Max",
-          "platform": "macos",
-          "osVersion": "26.3",
-          "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "ingame",
-          "perf": "ok",
-          "date": "2026-02-28",
-          "notes": "Playable in game with ok-ish framerate on M4 Pro, significant occlusion issues",
-          "source": "discord",
-          "submittedBy": "reality111",
-          "build": null
-        },
-        "bestReport": {
-          "device": "MacBook Pro M4 Pro/Max",
-          "platform": "macos",
-          "osVersion": "26.3",
-          "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "ingame",
-          "perf": "ok",
-          "date": "2026-02-28",
-          "notes": "Playable in game with ok-ish framerate on M4 Pro, significant occlusion issues",
-          "source": "discord",
-          "submittedBy": "reality111",
-          "build": null
-        }
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
       },
       "preview": {
         "channel": "preview",
@@ -3547,37 +3008,13 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "Games not launching for me",
-        "updatedAt": "2026-03-02",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPad Pro (M2)",
-          "platform": "ios",
-          "osVersion": "18.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-02",
-          "notes": "Games not launching for me",
-          "source": "app",
-          "build": null
-        },
-        "bestReport": {
-          "device": "iPad Pro (M2)",
-          "platform": "ios",
-          "osVersion": "18.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-02",
-          "notes": "Games not launching for me",
-          "source": "app",
-          "build": null
-        }
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
       },
       "preview": {
         "channel": "preview",
@@ -3665,37 +3102,13 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "RE5 currently fails to boot",
-        "updatedAt": "2026-03-03",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone17,1",
-          "platform": "ios",
-          "osVersion": "18.5",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-03",
-          "notes": "RE5 currently fails to boot",
-          "source": "app",
-          "build": null
-        },
-        "bestReport": {
-          "device": "iPhone17,1",
-          "platform": "ios",
-          "osVersion": "18.5",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-03",
-          "notes": "RE5 currently fails to boot",
-          "source": "app",
-          "build": null
-        }
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
       },
       "preview": {
         "channel": "preview",
@@ -3783,37 +3196,13 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "loads",
-        "perf": "poor",
-        "notes": "The intro has some graphical issues and the game crashes after the intro",
-        "updatedAt": "2026-03-02",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPad Pro (M2)",
-          "platform": "ios",
-          "osVersion": "18.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "poor",
-          "date": "2026-03-02",
-          "notes": "The intro has some graphical issues and the game crashes after the intro",
-          "source": "app",
-          "build": null
-        },
-        "bestReport": {
-          "device": "iPad Pro (M2)",
-          "platform": "ios",
-          "osVersion": "18.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "poor",
-          "date": "2026-03-02",
-          "notes": "The intro has some graphical issues and the game crashes after the intro",
-          "source": "app",
-          "build": null
-        }
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
       },
       "preview": {
         "channel": "preview",
@@ -3901,37 +3290,13 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "ingame",
-        "perf": "poor",
-        "notes": "After restarting the game several times the game finally launched and put me in the menu. I couldn’t get into a game tho so I couldn’t actually skate just the menu worked. And also most of the time the game was stuck on a endless loading screen when trying to get to the game menu",
-        "updatedAt": "2026-03-03",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPad Pro (M2)",
-          "platform": "ios",
-          "osVersion": "18.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-03-03",
-          "notes": "After restarting the game several times the game finally launched and put me in the menu. I couldn’t get into a game tho so I couldn’t actually skate just the menu worked. And also most of the time the game was stuck on a endless loading screen when trying to get to the game menu",
-          "source": "app",
-          "build": null
-        },
-        "bestReport": {
-          "device": "iPad Pro (M2)",
-          "platform": "ios",
-          "osVersion": "18.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-03-03",
-          "notes": "After restarting the game several times the game finally launched and put me in the menu. I couldn’t get into a game tho so I couldn’t actually skate just the menu worked. And also most of the time the game was stuck on a endless loading screen when trying to get to the game menu",
-          "source": "app",
-          "build": null
-        }
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
       },
       "preview": {
         "channel": "preview",
@@ -4019,37 +3384,13 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "Does not boot, no visible attempt.",
-        "updatedAt": "2026-03-05",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone17,1",
-          "platform": "ios",
-          "osVersion": "18.5",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-05",
-          "notes": "Does not boot, no visible attempt.",
-          "source": "app",
-          "build": null
-        },
-        "bestReport": {
-          "device": "iPhone17,1",
-          "platform": "ios",
-          "osVersion": "18.5",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-05",
-          "notes": "Does not boot, no visible attempt.",
-          "source": "app",
-          "build": null
-        }
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
       },
       "preview": {
         "channel": "preview",
@@ -4137,37 +3478,13 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "loads",
-        "perf": "poor",
-        "notes": "The game flashes a quick random color pattern and fails to load or boot.",
-        "updatedAt": "2026-03-05",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone17,1",
-          "platform": "ios",
-          "osVersion": "18.5",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "poor",
-          "date": "2026-03-05",
-          "notes": "The game flashes a quick random color pattern and fails to load or boot.",
-          "source": "app",
-          "build": null
-        },
-        "bestReport": {
-          "device": "iPhone17,1",
-          "platform": "ios",
-          "osVersion": "18.5",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "poor",
-          "date": "2026-03-05",
-          "notes": "The game flashes a quick random color pattern and fails to load or boot.",
-          "source": "app",
-          "build": null
-        }
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
       },
       "preview": {
         "channel": "preview",
@@ -4270,37 +3587,13 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "ingame",
-        "perf": "ok",
-        "notes": "Gets into game without issue, relatively steady frame rate, 20-25fps.",
-        "updatedAt": "2026-03-06",
-        "reportCount": 2,
-        "latestReport": {
-          "device": "iPhone 17",
-          "platform": "ios",
-          "osVersion": "26.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "ok",
-          "date": "2026-03-06",
-          "notes": "Gets into game without issue, relatively steady frame rate, 20-25fps.",
-          "source": "app",
-          "build": null
-        },
-        "bestReport": {
-          "device": "iPhone 17",
-          "platform": "ios",
-          "osVersion": "26.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "ok",
-          "date": "2026-03-06",
-          "notes": "Gets into game without issue, relatively steady frame rate, 20-25fps.",
-          "source": "app",
-          "build": null
-        }
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
       },
       "preview": {
         "channel": "preview",
@@ -4388,37 +3681,13 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "Star ocean fails to boot.",
-        "updatedAt": "2026-03-03",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone17,1",
-          "platform": "ios",
-          "osVersion": "18.5",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-03",
-          "notes": "Star ocean fails to boot.",
-          "source": "app",
-          "build": null
-        },
-        "bestReport": {
-          "device": "iPhone17,1",
-          "platform": "ios",
-          "osVersion": "18.5",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-03",
-          "notes": "Star ocean fails to boot.",
-          "source": "app",
-          "build": null
-        }
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
       },
       "preview": {
         "channel": "preview",
@@ -4506,37 +3775,13 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "playable",
-        "perf": "great",
-        "notes": "Seems totally playable from my testing, very low spec requirements to run.",
-        "updatedAt": "2026-03-02",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 17",
-          "platform": "ios",
-          "osVersion": "26.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-03-02",
-          "notes": "Seems totally playable from my testing, very low spec requirements to run.",
-          "source": "app",
-          "build": null
-        },
-        "bestReport": {
-          "device": "iPhone 17",
-          "platform": "ios",
-          "osVersion": "26.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-03-02",
-          "notes": "Seems totally playable from my testing, very low spec requirements to run.",
-          "source": "app",
-          "build": null
-        }
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
       },
       "preview": {
         "channel": "preview",
@@ -4624,37 +3869,13 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "intro",
-        "perf": "poor",
-        "notes": "Game boots and loads to menu flawlessly. Heavy graphic distortion during unskippable cutscene leads to app crash after several minutes.",
-        "updatedAt": "2026-03-03",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone17,1",
-          "platform": "ios",
-          "osVersion": "18.5",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "poor",
-          "date": "2026-03-03",
-          "notes": "Game boots and loads to menu flawlessly. Heavy graphic distortion during unskippable cutscene leads to app crash after several minutes.",
-          "source": "app",
-          "build": null
-        },
-        "bestReport": {
-          "device": "iPhone17,1",
-          "platform": "ios",
-          "osVersion": "18.5",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "poor",
-          "date": "2026-03-03",
-          "notes": "Game boots and loads to menu flawlessly. Heavy graphic distortion during unskippable cutscene leads to app crash after several minutes.",
-          "source": "app",
-          "build": null
-        }
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
       },
       "preview": {
         "channel": "preview",
@@ -4742,37 +3963,13 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "Game does not boot.",
-        "updatedAt": "2026-03-03",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone17,1",
-          "platform": "ios",
-          "osVersion": "18.5",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-03",
-          "notes": "Game does not boot.",
-          "source": "app",
-          "build": null
-        },
-        "bestReport": {
-          "device": "iPhone17,1",
-          "platform": "ios",
-          "osVersion": "18.5",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-03",
-          "notes": "Game does not boot.",
-          "source": "app",
-          "build": null
-        }
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
       },
       "preview": {
         "channel": "preview",
@@ -4860,37 +4057,13 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "Crashes",
-        "updatedAt": "2026-03-05",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 15 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-05",
-          "notes": "Crashes",
-          "source": "app",
-          "build": null
-        },
-        "bestReport": {
-          "device": "iPhone 15 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-05",
-          "notes": "Crashes",
-          "source": "app",
-          "build": null
-        }
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
       },
       "preview": {
         "channel": "preview",
@@ -4939,6 +4112,121 @@
     }
   },
   {
+    "slug": "title-41560855",
+    "title": "Title 41560855",
+    "titleId": "41560855",
+    "status": "nothing",
+    "perf": "n/a",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPad Pro 12.9 inch 6th Gen",
+      "platform": "ios",
+      "osVersion": "17.0",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-08",
+    "notes": "Once the game started the app crashed. Game: Call of Duty Black Ops",
+    "reports": [
+      {
+        "device": "iPad Pro 12.9 inch 6th Gen",
+        "platform": "ios",
+        "osVersion": "17.0",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-03-08",
+        "notes": "Once the game started the app crashed. Game: Call of Duty Black Ops",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.0-9280",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "commitShort": "2633e8177"
+        }
+      }
+    ],
+    "screenshots": [],
+    "issueNumber": 45,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/45",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "nothing",
+        "perf": "n/a",
+        "notes": "Once the game started the app crashed. Game: Call of Duty Black Ops",
+        "updatedAt": "2026-03-08",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPad Pro 12.9 inch 6th Gen",
+          "platform": "ios",
+          "osVersion": "17.0",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-03-08",
+          "notes": "Once the game started the app crashed. Game: Call of Duty Black Ops",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "2633e8177"
+          }
+        },
+        "bestReport": {
+          "device": "iPad Pro 12.9 inch 6th Gen",
+          "platform": "ios",
+          "osVersion": "17.0",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-03-08",
+          "notes": "Once the game started the app crashed. Game: Call of Duty Black Ops",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "2633e8177"
+          }
+        }
+      }
+    }
+  },
+  {
     "slug": "title-4d5307ed",
     "title": "Title 4D5307ED",
     "titleId": "4D5307ED",
@@ -4978,37 +4266,13 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "Crashes",
-        "updatedAt": "2026-03-05",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 15 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-05",
-          "notes": "Crashes",
-          "source": "app",
-          "build": null
-        },
-        "bestReport": {
-          "device": "iPhone 15 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-05",
-          "notes": "Crashes",
-          "source": "app",
-          "build": null
-        }
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
       },
       "preview": {
         "channel": "preview",
@@ -5096,37 +4360,13 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "playable",
-        "perf": "ok",
-        "notes": "Virtua Fighter 5 works almost perfectly. Performance is nice.  Visuals are almost perfect. Sound is great. Menus are perfect.",
-        "updatedAt": "2026-03-03",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 17 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-03-03",
-          "notes": "Virtua Fighter 5 works almost perfectly. Performance is nice.  Visuals are almost perfect. Sound is great. Menus are perfect.",
-          "source": "app",
-          "build": null
-        },
-        "bestReport": {
-          "device": "iPhone 17 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-03-03",
-          "notes": "Virtua Fighter 5 works almost perfectly. Performance is nice.  Visuals are almost perfect. Sound is great. Menus are perfect.",
-          "source": "app",
-          "build": null
-        }
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
       },
       "preview": {
         "channel": "preview",
@@ -5227,37 +4467,13 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "playable",
-        "perf": "great",
-        "notes": "It will be playable when you guys see this you get 28 fps but it feels like 30 there are black rectangles the first two boots  up but is playable i know from playing for a hour",
-        "updatedAt": "2026-03-03",
-        "reportCount": 2,
-        "latestReport": {
-          "device": "iPhone18,2",
-          "platform": "ios",
-          "osVersion": "26.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-03-03",
-          "notes": "It will be playable when you guys see this you get 28 fps but it feels like 30 there are black rectangles the first two boots  up but is playable i know from playing for a hour",
-          "source": "app",
-          "build": null
-        },
-        "bestReport": {
-          "device": "iPhone18,2",
-          "platform": "ios",
-          "osVersion": "26.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-03-03",
-          "notes": "It will be playable when you guys see this you get 28 fps but it feels like 30 there are black rectangles the first two boots  up but is playable i know from playing for a hour",
-          "source": "app",
-          "build": null
-        }
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
       },
       "preview": {
         "channel": "preview",
@@ -5304,241 +4520,5 @@
         }
       }
     }
-  },
-  {
-    "slug": "prototype",
-    "title": "[Prototype]™",
-    "titleId": "4156084E",
-    "status": "nothing",
-    "perf": "n/a",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 12 Pro Max",
-      "platform": "ios",
-      "osVersion": "18.6.2",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-08",
-    "notes": "Black screen and didn’t load even into menu",
-    "reports": [
-      {
-        "device": "iPhone 12 Pro Max",
-        "platform": "ios",
-        "osVersion": "18.6.2",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-03-08",
-        "notes": "Black screen and didn’t load even into menu",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "stage": "stable",
-          "commitShort": "2633e8177",
-          "buildId": "ios-self-built-1.0.0-9280"
-        }
-      }
-    ],
-    "screenshots": [],
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "Black screen and didn’t load even into menu",
-        "updatedAt": "2026-03-08",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 12 Pro Max",
-          "platform": "ios",
-          "osVersion": "18.6.2",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-08",
-          "notes": "Black screen and didn’t load even into menu",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 12 Pro Max",
-          "platform": "ios",
-          "osVersion": "18.6.2",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-08",
-          "notes": "Black screen and didn’t load even into menu",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
-          }
-        }
-      }
-    },
-    "issueNumber": 44,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/44"
-  },
-  {
-    "slug": "title-41560855",
-    "title": "Title 41560855",
-    "titleId": "41560855",
-    "status": "nothing",
-    "perf": "n/a",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPad Pro 12.9 inch 6th Gen",
-      "platform": "ios",
-      "osVersion": "17.0",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-08",
-    "notes": "Once the game started the app crashed. Game: Call of Duty Black Ops",
-    "reports": [
-      {
-        "device": "iPad Pro 12.9 inch 6th Gen",
-        "platform": "ios",
-        "osVersion": "17.0",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-03-08",
-        "notes": "Once the game started the app crashed. Game: Call of Duty Black Ops",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "stage": "stable",
-          "commitShort": "2633e8177",
-          "buildId": "ios-self-built-1.0.0-9280"
-        }
-      }
-    ],
-    "screenshots": [],
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "Once the game started the app crashed. Game: Call of Duty Black Ops",
-        "updatedAt": "2026-03-08",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPad Pro 12.9 inch 6th Gen",
-          "platform": "ios",
-          "osVersion": "17.0",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-08",
-          "notes": "Once the game started the app crashed. Game: Call of Duty Black Ops",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
-          }
-        },
-        "bestReport": {
-          "device": "iPad Pro 12.9 inch 6th Gen",
-          "platform": "ios",
-          "osVersion": "17.0",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-08",
-          "notes": "Once the game started the app crashed. Game: Call of Duty Black Ops",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
-          }
-        }
-      }
-    },
-    "issueNumber": 45,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/45"
   }
 ]

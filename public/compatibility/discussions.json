@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-08T17:06:14.811Z",
+  "generatedAt": "2026-03-08T17:22:18.465Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -372,8 +372,20 @@
       "titleId": "4D5309B1",
       "issueNumber": 1,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/1",
-      "updatedAt": "2026-03-07",
+      "updatedAt": "2026-03-08",
       "entries": [
+        {
+          "id": "comment-4019593790",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/1#issuecomment-4019593790",
+          "author": "J7mbo",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1772990512000,
+          "issueNumber": 1,
+          "excerpt": "Additionally even in classic mode, the characters for subtitles are completely scrambled.",
+          "images": [],
+          "meta": {}
+        },
         {
           "id": "issue-1",
           "type": "issue",
