@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-08T19:12:57.434Z",
+  "generatedAt": "2026-03-08T19:19:53.968Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -354,6 +354,26 @@
             "osVersion": "iOS 18.5",
             "gpuBackend": "MSL"
           }
+        }
+      ]
+    },
+    "4D5309C9": {
+      "titleId": "4D5309C9",
+      "issueNumber": 61,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/61",
+      "updatedAt": "2026-03-08",
+      "entries": [
+        {
+          "id": "issue-61",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/61",
+          "author": "ssdecf",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1772997390000,
+          "issueNumber": 61,
+          "excerpt": "Nothing seems to work",
+          "images": [],
+          "meta": {}
         }
       ]
     },
@@ -1545,8 +1565,31 @@
       "titleId": "454108E6",
       "issueNumber": 30,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/30",
-      "updatedAt": "2026-03-07",
+      "updatedAt": "2026-03-08",
       "entries": [
+        {
+          "id": "comment-4019812206",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/30#issuecomment-4019812206",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1772997239000,
+          "issueNumber": 30,
+          "excerpt": "Black screen",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        },
         {
           "id": "issue-30",
           "type": "issue",
