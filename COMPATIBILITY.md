@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **64 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **63 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **17** · 🔵 In-Game: **12** · 🟡 Intro: **12** · 🟠 Loads: **8** · 🔴 Doesn't Boot: **15**
+> 🟢 Playable: **16** · 🔵 In-Game: **12** · 🟡 Intro: **12** · 🟠 Loads: **8** · 🔴 Doesn't Boot: **15**
 >
-> 📱 iOS: **62** · 🖥️ macOS: **4**
+> 📱 iOS: **61** · 🖥️ macOS: **4**
 
 ## Legend
 
@@ -20,7 +20,6 @@
 
 | | Title | Title ID | Platform | Status | Perf | Last Device | Updated |
 |-|-------|----------|----------|--------|------|-------------|---------|
-| 🟢 | [SONIC GENERATIONS] | `53450848` | 📱 iOS | Playable | 👌 OK | iPhone 17 Pro | 2026-03-08 |
 | 🟢 | BioShock | `545407D8` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-08 |
 | 🟢 | Call of Duty 2 | `415607D1` | 📱 iOS | Playable | 🚀 Great | iPhone 14 Pro Max | 2026-03-08 |
 | 🟢 | Call of Duty 4 | `415607E6` | 📱 iOS | Playable | 👌 OK | iPhone 17 Pro Max | 2026-03-08 |
@@ -70,7 +69,6 @@
 | 🟠 | Sonic Transformed | `5345085D` | 📱 iOS | Loads | 🐢 Poor | iPhone 16 Pro | 2026-03-05 |
 | 🟠 | The Orange Box | `4541080F` | 📱 iOS | Loads | 🐢 Poor | iPhone 17 Pro Max | 2026-03-08 |
 | 🔴 | [Prototype]™ | `4156084E` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 12 Pro Max | 2026-03-08 |
-| 🔴 | Call of Duty: Black Ops 2 | `415608C3` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 Pro Max | 2026-03-08 |
 | 🔴 | Fable II | `4D5307F1` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro Max | 2026-03-08 |
 | 🔴 | Fable III | `4D5308D6` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro Max | 2026-03-08 |
 | 🔴 | FH2: Fast & Furious | `4D530AB5` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad 10th Gen | 2026-03-08 |
@@ -79,6 +77,7 @@
 | 🔴 | Modern Warfare® 2 | `41560817` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 Pro | 2026-03-08 |
 | 🔴 | RESIDENT EVIL 5 | `434307D4` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-03 |
 | 🔴 | Skate 3 | `454108E6` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 Pro Max | 2026-03-08 |
+| 🔴 | SONIC GENERATIONS | `53450848` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 13 Pro | 2026-03-08 |
 | 🔴 | Star Ocean: TLH | `535107DD` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-03 |
 | 🔴 | TEKKEN 6 | `4E4D07FC` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-03 |
 | 🔴 | Title 41560855 | `41560855` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Pro 12.9 inch 6th Gen | 2026-03-08 |

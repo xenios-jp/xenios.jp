@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-08T21:19:57.170Z",
+  "generatedAt": "2026-03-08T21:26:01.101Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -903,6 +903,29 @@
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/65",
       "updatedAt": "2026-03-08",
       "entries": [
+        {
+          "id": "comment-4020046751",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/65#issuecomment-4020046751",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1773005108000,
+          "issueNumber": 65,
+          "excerpt": "It runs good you just have to skip the cut scenes to play",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 15 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        },
         {
           "id": "issue-65",
           "type": "issue",
@@ -2622,6 +2645,29 @@
       "updatedAt": "2026-03-08",
       "entries": [
         {
+          "id": "comment-4020045866",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/42#issuecomment-4020045866",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1773005064000,
+          "issueNumber": 42,
+          "excerpt": "- XeniOS is inside of LiveContainer nightly with universal.js as its script and it boots up the App Store version of StikDebug (the App Store version launches JIT for other apps just fine)\n- The PiP window almost never shows up\n- Halo 3 usually opens into a black screen but sometimes the entire app just closes instantly\n- I have all modern scripts in the scripts folder of the App Store version of StikDebug",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.0",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        },
+        {
           "id": "comment-4019193267",
           "type": "comment",
           "url": "https://github.com/xenios-jp/game-compatibility/issues/42#issuecomment-4019193267",
@@ -2734,25 +2780,6 @@
             "appVersion": "1.0",
             "buildNumber": "1",
             "commitShort": "`315f4dee9`"
-          }
-        },
-        {
-          "id": "comment-4015746376",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/42#issuecomment-4015746376",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-04",
-          "createdAtMs": 1772583859000,
-          "issueNumber": 42,
-          "excerpt": "Low FPS, but can start and play campaign, important note, if you die you can get stuck in a cutscene loop.",
-          "images": [],
-          "meta": {
-            "status": "playable",
-            "perf": "poor",
-            "device": "iPhone17,1",
-            "platform": "iOS",
-            "osVersion": "iOS 18.5",
-            "gpuBackend": "MSL"
           }
         }
       ]
