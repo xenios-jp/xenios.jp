@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **59 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **60 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **16** · 🔵 In-Game: **11** · 🟡 Intro: **11** · 🟠 Loads: **6** · 🔴 Doesn't Boot: **15**
+> 🟢 Playable: **16** · 🔵 In-Game: **11** · 🟡 Intro: **11** · 🟠 Loads: **7** · 🔴 Doesn't Boot: **15**
 >
-> 📱 iOS: **57** · 🖥️ macOS: **4**
+> 📱 iOS: **58** · 🖥️ macOS: **4**
 
 ## Legend
 
@@ -64,6 +64,7 @@
 | 🟠 | Lost Odyssey | `4D5307FA` | 📱 iOS | Loads | 🐢 Poor | iPhone 16 Pro | 2026-03-03 |
 | 🟠 | NARUTO STORM 3 | `4E4D085C` | 📱 iOS | Loads | 🐢 Poor | iPhone 15 Pro Max | 2026-03-08 |
 | 🟠 | Sonic Transformed | `5345085D` | 📱 iOS | Loads | 🐢 Poor | iPhone 16 Pro | 2026-03-05 |
+| 🟠 | The Orange Box | `4541080F` | 📱 iOS | Loads | 🐢 Poor | iPhone 17 Pro Max | 2026-03-08 |
 | 🔴 | [Prototype]™ | `4156084E` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 12 Pro Max | 2026-03-08 |
 | 🔴 | Fable II | `4D5307F1` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro Max | 2026-03-08 |
 | 🔴 | Fable III | `4D5308D6` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro Max | 2026-03-08 |
