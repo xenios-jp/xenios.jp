@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-08T11:19:48.351Z",
+  "generatedAt": "2026-03-08T11:54:36.108Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1312,6 +1312,29 @@
       "updatedAt": "2026-03-08",
       "entries": [
         {
+          "id": "comment-4018914091",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/42#issuecomment-4018914091",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1772970850000,
+          "issueNumber": 42,
+          "excerpt": "One more for luck…",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "poor",
+            "device": "iPhone 17",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9271",
+            "commitShort": "`0a5bf5b240`"
+          }
+        },
+        {
           "id": "comment-4018869257",
           "type": "comment",
           "url": "https://github.com/xenios-jp/game-compatibility/issues/42#issuecomment-4018869257",
@@ -1415,25 +1438,6 @@
             "device": "iPad Pro (M2)",
             "platform": "iOS",
             "osVersion": "iOS 18.3.1",
-            "gpuBackend": "MSL"
-          }
-        },
-        {
-          "id": "comment-4015746370",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/42#issuecomment-4015746370",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-02",
-          "createdAtMs": 1772438694000,
-          "issueNumber": 42,
-          "excerpt": "Can play in campaign, frequently drops in FPS but seems to sit around 11-19 range. As described by another user you will need to select mission to bypass the initial cutscene which loops.",
-          "images": [],
-          "meta": {
-            "status": "ingame",
-            "perf": "poor",
-            "device": "iPhone17,1",
-            "platform": "iOS",
-            "osVersion": "iOS 18.5",
             "gpuBackend": "MSL"
           }
         }
