@@ -1,5 +1,187 @@
 [
   {
+    "slug": "gta-iv",
+    "title": "[GTA_IV]",
+    "titleId": "545407F2",
+    "status": "ingame",
+    "perf": "poor",
+    "tags": [],
+    "platforms": [
+      "ios",
+      "macos"
+    ],
+    "lastReport": {
+      "device": "iPhone 17 Pro Max",
+      "platform": "ios",
+      "osVersion": "26.3",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-08",
+    "notes": "Game boots, menu navigation works. Infinite loading screen for first mission.",
+    "reports": [
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "poor",
+        "date": "2026-03-08",
+        "notes": "Game boots, menu navigation works. Infinite loading screen for first mission.",
+        "source": "github",
+        "build": {
+          "buildId": "ios-release-1.0.0-9280",
+          "channel": "release",
+          "official": true,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280"
+        }
+      },
+      {
+        "device": "iPhone 17 Pro",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-03-08",
+        "notes": "The game crashes as soon as I launch it.",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.0-9280",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "commitShort": "2633e8177"
+        }
+      },
+      {
+        "device": "MacBook Pro M4 Pro/Max",
+        "platform": "macos",
+        "osVersion": "15.3",
+        "arch": "arm64",
+        "gpuBackend": "msc",
+        "status": "ingame",
+        "perf": "poor",
+        "date": "2026-02-28",
+        "notes": "Get's into game with severe graphical issues. Framerate is above 30 on M4 Pro.",
+        "source": "discord",
+        "build": null
+      }
+    ],
+    "screenshots": [],
+    "issueNumber": 41,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/41",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "ingame",
+        "perf": "poor",
+        "notes": "Game boots, menu navigation works. Infinite loading screen for first mission.",
+        "updatedAt": "2026-03-08",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-03-08",
+          "notes": "Game boots, menu navigation works. Infinite loading screen for first mission.",
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-1.0.0-9280",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-03-08",
+          "notes": "Game boots, menu navigation works. Infinite loading screen for first mission.",
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-1.0.0-9280",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280"
+          }
+        }
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "ingame",
+        "perf": "poor",
+        "notes": "Game boots, menu navigation works. Infinite loading screen for first mission.",
+        "updatedAt": "2026-03-08",
+        "reportCount": 3,
+        "latestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-03-08",
+          "notes": "Game boots, menu navigation works. Infinite loading screen for first mission.",
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-1.0.0-9280",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-03-08",
+          "notes": "Game boots, menu navigation works. Infinite loading screen for first mission.",
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-1.0.0-9280",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280"
+          }
+        }
+      }
+    }
+  },
+  {
     "slug": "prototype",
     "title": "[Prototype]™",
     "titleId": "4156084E",
@@ -1852,128 +2034,6 @@
     }
   },
   {
-    "slug": "gta-iv",
-    "title": "GTA IV",
-    "titleId": "545407F2",
-    "status": "nothing",
-    "perf": "n/a",
-    "tags": [],
-    "platforms": [
-      "ios",
-      "macos"
-    ],
-    "lastReport": {
-      "device": "iPhone 17 Pro",
-      "platform": "ios",
-      "osVersion": "26.3.1",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-08",
-    "notes": "The game crashes as soon as I launch it.",
-    "reports": [
-      {
-        "device": "iPhone 17 Pro",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-03-08",
-        "notes": "The game crashes as soon as I launch it.",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.0-9280",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "commitShort": "2633e8177"
-        }
-      },
-      {
-        "device": "MacBook Pro M4 Pro/Max",
-        "platform": "macos",
-        "osVersion": "15.3",
-        "arch": "arm64",
-        "gpuBackend": "msc",
-        "status": "ingame",
-        "perf": "poor",
-        "date": "2026-02-28",
-        "notes": "Get's into game with severe graphical issues. Framerate is above 30 on M4 Pro.",
-        "source": "discord",
-        "build": null
-      }
-    ],
-    "screenshots": [],
-    "issueNumber": 41,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/41",
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "ingame",
-        "perf": "poor",
-        "notes": "The game crashes as soon as I launch it.",
-        "updatedAt": "2026-03-08",
-        "reportCount": 2,
-        "latestReport": {
-          "device": "iPhone 17 Pro",
-          "platform": "ios",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-08",
-          "notes": "The game crashes as soon as I launch it.",
-          "source": "app",
-          "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633e8177"
-          }
-        },
-        "bestReport": {
-          "device": "MacBook Pro M4 Pro/Max",
-          "platform": "macos",
-          "osVersion": "15.3",
-          "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-02-28",
-          "notes": "Get's into game with severe graphical issues. Framerate is above 30 on M4 Pro.",
-          "source": "discord",
-          "build": null
-        }
-      }
-    }
-  },
-  {
     "slug": "guacamelee",
     "title": "Guacamelee",
     "titleId": "00000000",
@@ -3805,42 +3865,22 @@
     "slug": "skate-3",
     "title": "Skate 3",
     "titleId": "454108E6",
-    "status": "ingame",
-    "perf": "poor",
+    "status": "nothing",
+    "perf": "n/a",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 16 Pro Max",
+      "device": "iPhone 17 Pro Max",
       "platform": "ios",
-      "osVersion": "26.1 (23B85)",
+      "osVersion": "26.3",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-03-08",
-    "notes": "The game boots and you can get into the main game as expected. However, actual gameplay is quite slow. Loading into the map for the first time is especially slow and you will likely encounter some graphical glitches as it loads in. Video content (e.g. pre-rendered cutscenes) also has heavy graphical glitches during playback.",
+    "notes": "Black screen",
     "reports": [
-      {
-        "device": "iPhone 16 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.1 (23B85)",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "perf": "poor",
-        "date": "2026-03-08",
-        "notes": "The game boots and you can get into the main game as expected. However, actual gameplay is quite slow. Loading into the map for the first time is especially slow and you will likely encounter some graphical glitches as it loads in. Video content (e.g. pre-rendered cutscenes) also has heavy graphical glitches during playback.",
-        "source": "github",
-        "build": {
-          "buildId": "ios-release-1.0.0-9280",
-          "channel": "release",
-          "official": true,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "commitShort": "2633E8177"
-        }
-      },
       {
         "device": "iPhone 17 Pro Max",
         "platform": "ios",
@@ -3859,6 +3899,26 @@
           "appVersion": "1.0.0",
           "buildNumber": "9280",
           "commitShort": "2633e8177"
+        }
+      },
+      {
+        "device": "iPhone 16 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.1 (23B85)",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "poor",
+        "date": "2026-03-08",
+        "notes": "The game boots and you can get into the main game as expected. However, actual gameplay is quite slow. Loading into the map for the first time is especially slow and you will likely encounter some graphical glitches as it loads in. Video content (e.g. pre-rendered cutscenes) also has heavy graphical glitches during playback.",
+        "source": "github",
+        "build": {
+          "buildId": "ios-release-1.0.0-9280",
+          "channel": "release",
+          "official": true,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "commitShort": "2633E8177"
         }
       },
       {
@@ -3941,27 +4001,27 @@
         "channel": "all",
         "status": "ingame",
         "perf": "poor",
-        "notes": "The game boots and you can get into the main game as expected. However, actual gameplay is quite slow. Loading into the map for the first time is especially slow and you will likely encounter some graphical glitches as it loads in. Video content (e.g. pre-rendered cutscenes) also has heavy graphical glitches during playback.",
+        "notes": "Black screen",
         "updatedAt": "2026-03-08",
         "reportCount": 3,
         "latestReport": {
-          "device": "iPhone 16 Pro Max",
+          "device": "iPhone 17 Pro Max",
           "platform": "ios",
-          "osVersion": "26.1 (23B85)",
+          "osVersion": "26.3",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
+          "status": "nothing",
+          "perf": "n/a",
           "date": "2026-03-08",
-          "notes": "The game boots and you can get into the main game as expected. However, actual gameplay is quite slow. Loading into the map for the first time is especially slow and you will likely encounter some graphical glitches as it loads in. Video content (e.g. pre-rendered cutscenes) also has heavy graphical glitches during playback.",
-          "source": "github",
+          "notes": "Black screen",
+          "source": "app",
           "build": {
-            "buildId": "ios-release-1.0.0-9280",
-            "channel": "release",
-            "official": true,
+            "buildId": "ios-self-built-1.0.0-9280",
+            "channel": "self-built",
+            "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "commitShort": "2633E8177"
+            "commitShort": "2633e8177"
           }
         },
         "bestReport": {
@@ -5605,5 +5665,123 @@
         }
       }
     }
+  },
+  {
+    "slug": "batman-arkham-asylum",
+    "title": "Batman: Arkham Asylum",
+    "titleId": "534307F6",
+    "status": "intro",
+    "perf": "great",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 15 Pro",
+      "platform": "ios",
+      "osVersion": "26.3",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-08",
+    "notes": "Game doesn’t load. Cutscenes only work.",
+    "reports": [
+      {
+        "device": "iPhone 15 Pro",
+        "platform": "ios",
+        "osVersion": "26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "intro",
+        "perf": "great",
+        "date": "2026-03-08",
+        "notes": "Game doesn’t load. Cutscenes only work.",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "stage": "stable",
+          "commitShort": "2633e8177",
+          "buildId": "ios-self-built-1.0.0-9280"
+        }
+      }
+    ],
+    "screenshots": [],
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "intro",
+        "perf": "great",
+        "notes": "Game doesn’t load. Cutscenes only work.",
+        "updatedAt": "2026-03-08",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 15 Pro",
+          "platform": "ios",
+          "osVersion": "26.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "intro",
+          "perf": "great",
+          "date": "2026-03-08",
+          "notes": "Game doesn’t load. Cutscenes only work.",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "stage": "stable",
+            "commitShort": "2633e8177",
+            "buildId": "ios-self-built-1.0.0-9280"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 15 Pro",
+          "platform": "ios",
+          "osVersion": "26.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "intro",
+          "perf": "great",
+          "date": "2026-03-08",
+          "notes": "Game doesn’t load. Cutscenes only work.",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "stage": "stable",
+            "commitShort": "2633e8177",
+            "buildId": "ios-self-built-1.0.0-9280"
+          }
+        }
+      }
+    },
+    "issueNumber": 65,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/65"
   }
 ]
