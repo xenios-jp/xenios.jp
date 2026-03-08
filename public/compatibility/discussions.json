@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-08T21:11:24.046Z",
+  "generatedAt": "2026-03-08T21:14:42.041Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -105,6 +105,37 @@
           "excerpt": "FMV sequences are loud, menu constantly interrupts asking for a save storage until you select New Game, and use the old XMA Decoder to get past the blue flash at launch.",
           "images": [],
           "meta": {}
+        }
+      ]
+    },
+    "42560816": {
+      "titleId": "42560816",
+      "issueNumber": 89,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/89",
+      "updatedAt": "2026-03-08",
+      "entries": [
+        {
+          "id": "issue-89",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/89",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1773004464000,
+          "issueNumber": 89,
+          "excerpt": "It freezes a second into the first loading screen.",
+          "images": [],
+          "meta": {
+            "status": "loads",
+            "perf": "poor",
+            "device": "iPhone 15 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
         }
       ]
     },
