@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-08T20:34:49.543Z",
+  "generatedAt": "2026-03-08T20:39:19.410Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -422,6 +422,26 @@
             "osVersion": "iOS 18.5",
             "gpuBackend": "MSL"
           }
+        }
+      ]
+    },
+    "584109DA": {
+      "titleId": "584109DA",
+      "issueNumber": 78,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/78",
+      "updatedAt": "2026-03-08",
+      "entries": [
+        {
+          "id": "issue-78",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/78",
+          "author": "daisuke1227",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1773002334000,
+          "issueNumber": 78,
+          "excerpt": "So this takes a couple of reboots to actually get the game to launch it loads textures and assets very slowly and it gets around 9-10 FPS it runs but its super slow and loads shaders and everything super slowly",
+          "images": [],
+          "meta": {}
         }
       ]
     },
