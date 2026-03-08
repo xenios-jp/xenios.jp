@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-08T11:54:36.108Z",
+  "generatedAt": "2026-03-08T14:53:41.762Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1312,6 +1312,29 @@
       "updatedAt": "2026-03-08",
       "entries": [
         {
+          "id": "comment-4019193267",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/42#issuecomment-4019193267",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1772981595000,
+          "issueNumber": 42,
+          "excerpt": "Another test",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "poor",
+            "device": "iPhone 17",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9276",
+            "commitShort": "`e8106d3ddb`"
+          }
+        },
+        {
           "id": "comment-4018914091",
           "type": "comment",
           "url": "https://github.com/xenios-jp/game-compatibility/issues/42#issuecomment-4018914091",
@@ -1419,25 +1442,6 @@
             "device": "iPhone17,1",
             "platform": "iOS",
             "osVersion": "iOS 18.5",
-            "gpuBackend": "MSL"
-          }
-        },
-        {
-          "id": "comment-4015746373",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/42#issuecomment-4015746373",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-04",
-          "createdAtMs": 1772583166000,
-          "issueNumber": 42,
-          "excerpt": "Crashes upon launch ping the game.",
-          "images": [],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPad Pro (M2)",
-            "platform": "iOS",
-            "osVersion": "iOS 18.3.1",
             "gpuBackend": "MSL"
           }
         }
