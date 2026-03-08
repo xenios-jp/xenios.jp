@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-08T19:34:50.254Z",
+  "generatedAt": "2026-03-08T19:37:19.336Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -681,6 +681,29 @@
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/52",
       "updatedAt": "2026-03-08",
       "entries": [
+        {
+          "id": "comment-4019845012",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/52#issuecomment-4019845012",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1772998614000,
+          "issueNumber": 52,
+          "excerpt": "Game doesn’t fully load at start graphical issues.",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 15 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        },
         {
           "id": "issue-52",
           "type": "issue",

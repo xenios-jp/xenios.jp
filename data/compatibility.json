@@ -5704,6 +5704,26 @@
           "buildNumber": "9280",
           "commitShort": "2633e8177"
         }
+      },
+      {
+        "device": "iPhone 15 Pro",
+        "platform": "ios",
+        "osVersion": "26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-03-08",
+        "notes": "Game doesn’t fully load at start graphical  issues.",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.0-9280",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "commitShort": "2633e8177"
+        }
       }
     ],
     "screenshots": [
@@ -5734,11 +5754,11 @@
       },
       "all": {
         "channel": "all",
-        "status": "ingame",
+        "status": "playable",
         "perf": "ok",
         "notes": "Audio is ok, everything works great but some corruptions in game.",
         "updatedAt": "2026-03-08",
-        "reportCount": 1,
+        "reportCount": 2,
         "latestReport": {
           "device": "iPhone 14 Pro Max",
           "platform": "ios",
@@ -5760,15 +5780,15 @@
           }
         },
         "bestReport": {
-          "device": "iPhone 14 Pro Max",
+          "device": "iPhone 15 Pro",
           "platform": "ios",
           "osVersion": "26.3",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "ingame",
+          "status": "playable",
           "perf": "ok",
           "date": "2026-03-08",
-          "notes": "Audio is ok, everything works great but some corruptions in game.",
+          "notes": "Game doesn’t fully load at start graphical  issues.",
           "source": "app",
           "build": {
             "buildId": "ios-self-built-1.0.0-9280",
