@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-08T17:31:13.689Z",
+  "generatedAt": "2026-03-08T17:33:48.357Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -337,6 +337,37 @@
         }
       ]
     },
+    "415608E4": {
+      "titleId": "415608E4",
+      "issueNumber": 47,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/47",
+      "updatedAt": "2026-03-08",
+      "entries": [
+        {
+          "id": "issue-47",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/47",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1772991116000,
+          "issueNumber": 47,
+          "excerpt": "Crashes on boot",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 14 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        }
+      ]
+    },
     "425307D1": {
       "titleId": "425307D1",
       "issueNumber": 46,
@@ -394,6 +425,18 @@
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/1",
       "updatedAt": "2026-03-08",
       "entries": [
+        {
+          "id": "comment-4019623360",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/1#issuecomment-4019623360",
+          "author": "J7mbo",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1772991200000,
+          "issueNumber": 1,
+          "excerpt": "<img width=\"2622\" height=\"1206\" alt=\"Image\" src=\" />\n\nEnemies guns are seen through walls.",
+          "images": [],
+          "meta": {}
+        },
         {
           "id": "comment-4019619455",
           "type": "comment",
