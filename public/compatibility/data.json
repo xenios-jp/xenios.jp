@@ -5422,5 +5422,123 @@
     },
     "issueNumber": 44,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/44"
+  },
+  {
+    "slug": "title-41560855",
+    "title": "Title 41560855",
+    "titleId": "41560855",
+    "status": "nothing",
+    "perf": "n/a",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPad Pro 12.9 inch 6th Gen",
+      "platform": "ios",
+      "osVersion": "17.0",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-08",
+    "notes": "Once the game started the app crashed. Game: Call of Duty Black Ops",
+    "reports": [
+      {
+        "device": "iPad Pro 12.9 inch 6th Gen",
+        "platform": "ios",
+        "osVersion": "17.0",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-03-08",
+        "notes": "Once the game started the app crashed. Game: Call of Duty Black Ops",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "stage": "stable",
+          "commitShort": "2633e8177",
+          "buildId": "ios-self-built-1.0.0-9280"
+        }
+      }
+    ],
+    "screenshots": [],
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "nothing",
+        "perf": "n/a",
+        "notes": "Once the game started the app crashed. Game: Call of Duty Black Ops",
+        "updatedAt": "2026-03-08",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPad Pro 12.9 inch 6th Gen",
+          "platform": "ios",
+          "osVersion": "17.0",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-03-08",
+          "notes": "Once the game started the app crashed. Game: Call of Duty Black Ops",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "stage": "stable",
+            "commitShort": "2633e8177",
+            "buildId": "ios-self-built-1.0.0-9280"
+          }
+        },
+        "bestReport": {
+          "device": "iPad Pro 12.9 inch 6th Gen",
+          "platform": "ios",
+          "osVersion": "17.0",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-03-08",
+          "notes": "Once the game started the app crashed. Game: Call of Duty Black Ops",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "stage": "stable",
+            "commitShort": "2633e8177",
+            "buildId": "ios-self-built-1.0.0-9280"
+          }
+        }
+      }
+    },
+    "issueNumber": 45,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/45"
   }
 ]

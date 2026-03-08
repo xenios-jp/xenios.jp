@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-08T16:53:49.549Z",
+  "generatedAt": "2026-03-08T17:06:14.811Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -30,6 +30,37 @@
             "platform": "iOS",
             "osVersion": "iOS 18.3.1",
             "gpuBackend": "MSL"
+          }
+        }
+      ]
+    },
+    "41560855": {
+      "titleId": "41560855",
+      "issueNumber": 45,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/45",
+      "updatedAt": "2026-03-08",
+      "entries": [
+        {
+          "id": "issue-45",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/45",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1772989555000,
+          "issueNumber": 45,
+          "excerpt": "Once the game started the app crashed. Game: Call of Duty Black Ops",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPad Pro 12.9 inch 6th Gen",
+            "platform": "iOS",
+            "osVersion": "iOS 17.0",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
           }
         }
       ]
