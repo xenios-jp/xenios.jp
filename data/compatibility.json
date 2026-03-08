@@ -4268,15 +4268,35 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone17,1",
+      "device": "iPhone 13 Pro",
       "platform": "ios",
-      "osVersion": "18.5",
+      "osVersion": "18.6",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-05",
-    "notes": "Does not boot, no visible attempt.",
+    "updatedAt": "2026-03-08",
+    "notes": "Black screen",
     "reports": [
+      {
+        "device": "iPhone 13 Pro",
+        "platform": "ios",
+        "osVersion": "18.6",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-03-08",
+        "notes": "Black screen",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.0-9280",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "commitShort": "2633e8177"
+        }
+      },
       {
         "device": "iPhone17,1",
         "platform": "ios",
@@ -4319,34 +4339,48 @@
         "channel": "all",
         "status": "nothing",
         "perf": "n/a",
-        "notes": "Does not boot, no visible attempt.",
-        "updatedAt": "2026-03-05",
-        "reportCount": 1,
+        "notes": "Black screen",
+        "updatedAt": "2026-03-08",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone17,1",
+          "device": "iPhone 13 Pro",
           "platform": "ios",
-          "osVersion": "18.5",
+          "osVersion": "18.6",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "nothing",
           "perf": "n/a",
-          "date": "2026-03-05",
-          "notes": "Does not boot, no visible attempt.",
+          "date": "2026-03-08",
+          "notes": "Black screen",
           "source": "app",
-          "build": null
+          "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "2633e8177"
+          }
         },
         "bestReport": {
-          "device": "iPhone17,1",
+          "device": "iPhone 13 Pro",
           "platform": "ios",
-          "osVersion": "18.5",
+          "osVersion": "18.6",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "nothing",
           "perf": "n/a",
-          "date": "2026-03-05",
-          "notes": "Does not boot, no visible attempt.",
+          "date": "2026-03-08",
+          "notes": "Black screen",
           "source": "app",
-          "build": null
+          "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "2633e8177"
+          }
         }
       }
     }

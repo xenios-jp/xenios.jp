@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-08T19:37:19.336Z",
+  "generatedAt": "2026-03-08T19:38:19.497Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -357,8 +357,31 @@
       "titleId": "53450848",
       "issueNumber": 12,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/12",
-      "updatedAt": "2026-03-07",
+      "updatedAt": "2026-03-08",
       "entries": [
+        {
+          "id": "comment-4019846453",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/12#issuecomment-4019846453",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1772998680000,
+          "issueNumber": 12,
+          "excerpt": "Black screen",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 13 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 18.6",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        },
         {
           "id": "issue-12",
           "type": "issue",
@@ -377,6 +400,26 @@
             "osVersion": "iOS 18.5",
             "gpuBackend": "MSL"
           }
+        }
+      ]
+    },
+    "4541087F": {
+      "titleId": "4541087F",
+      "issueNumber": 67,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/67",
+      "updatedAt": "2026-03-08",
+      "entries": [
+        {
+          "id": "issue-67",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/67",
+          "author": "sinceohsix",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1772998660000,
+          "issueNumber": 67,
+          "excerpt": "The game boots and you can get into the main game as expected. Video content (e.g. pre-rendered cutscenes and intro sequences) have heavy graphical glitches during playback. There is also an issue related to, what I think is, the physics with the skaters hair.",
+          "images": [],
+          "meta": {}
         }
       ]
     },
