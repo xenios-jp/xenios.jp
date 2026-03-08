@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **48 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **49 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **12** · 🔵 In-Game: **13** · 🟡 Intro: **8** · 🟠 Loads: **5** · 🔴 Doesn't Boot: **10**
+> 🟢 Playable: **13** · 🔵 In-Game: **13** · 🟡 Intro: **8** · 🟠 Loads: **5** · 🔴 Doesn't Boot: **10**
 >
-> 📱 iOS: **45** · 🖥️ macOS: **4**
+> 📱 iOS: **46** · 🖥️ macOS: **4**
 
 ## Legend
 
@@ -21,6 +21,7 @@
 | | Title | Title ID | Platform | Status | Perf | Last Device | Updated |
 |-|-------|----------|----------|--------|------|-------------|---------|
 | 🟢 | BioShock | `545407D8` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro | 2026-03-02 |
+| 🟢 | Call of Duty 2 | `415607D1` | 📱 iOS | Playable | 🚀 Great | iPhone 14 Pro Max | 2026-03-08 |
 | 🟢 | DB: Raging Blast 2 | `4E4D0826` | 📱 iOS | Playable | 🐢 Poor | iPad Pro (M2) | 2026-03-03 |
 | 🟢 | DEAD OR ALIVE 4 | `544307D1` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro | 2026-03-05 |
 | 🟢 | Dead Space™ | `45410857` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro | 2026-03-03 |

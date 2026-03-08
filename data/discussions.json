@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-08T18:37:39.788Z",
+  "generatedAt": "2026-03-08T18:49:48.513Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -353,6 +353,42 @@
             "platform": "iOS",
             "osVersion": "iOS 18.5",
             "gpuBackend": "MSL"
+          }
+        }
+      ]
+    },
+    "415607D1": {
+      "titleId": "415607D1",
+      "issueNumber": 54,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/54",
+      "updatedAt": "2026-03-08",
+      "entries": [
+        {
+          "id": "issue-54",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/54",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1772995775000,
+          "issueNumber": 54,
+          "excerpt": "Playable, some graphical issues.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/415607D1/1772995767852-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/415607D1/1772995767852-2.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/415607D1/1772995767852-3.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/415607D1/1772995767852-4.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 14 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
           }
         }
       ]
