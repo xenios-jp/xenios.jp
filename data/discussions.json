@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-08T22:16:38.573Z",
+  "generatedAt": "2026-03-08T22:50:43.191Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -299,6 +299,26 @@
             "osVersion": "iOS 18.5",
             "gpuBackend": "MSL"
           }
+        }
+      ]
+    },
+    "45410912": {
+      "titleId": "45410912",
+      "issueNumber": 101,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/101",
+      "updatedAt": "2026-03-08",
+      "entries": [
+        {
+          "id": "issue-101",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/101",
+          "author": "QualityControled",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1773010221000,
+          "issueNumber": 101,
+          "excerpt": "Menus are missing text and game has no audio.\nWill load into first mission with artifacts on the textures and occasional graphical issues. frame rate is stable.\nBut without audio and text for tutorial hints, game is unplayable.",
+          "images": [],
+          "meta": {}
         }
       ]
     },
