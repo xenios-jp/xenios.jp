@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-08T21:57:22.736Z",
+  "generatedAt": "2026-03-08T22:12:18.023Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -136,6 +136,28 @@
             "buildNumber": "9280",
             "commitShort": "`2633e8177`"
           }
+        }
+      ]
+    },
+    "45410809": {
+      "titleId": "45410809",
+      "issueNumber": 98,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/98",
+      "updatedAt": "2026-03-08",
+      "entries": [
+        {
+          "id": "issue-98",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/98",
+          "author": "daisuke1227",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1773007911000,
+          "issueNumber": 98,
+          "excerpt": "So when watching the cutscenes it's basically a mess there's way to much graphical errors and it's literally unwatchable the audio is super buggy when getting in game and i get 20-30 FPS but this is one of the phew games that aren't super bad all the shaders and assets load up relatively fast compared to other games and it's kinda playable just forget about the audio",
+          "images": [
+            "https://github.com/user-attachments/assets/c343c85a-cd60-4f7a-b17f-5545d3d83ab4"
+          ],
+          "meta": {}
         }
       ]
     },

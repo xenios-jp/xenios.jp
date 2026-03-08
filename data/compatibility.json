@@ -7019,6 +7019,159 @@
     }
   },
   {
+    "slug": "the-simpsons-game",
+    "title": "The Simpsons™ Game",
+    "titleId": "45410809",
+    "status": "playable",
+    "perf": "ok",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone Air",
+      "platform": "ios",
+      "osVersion": "iOS 26.0",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-08",
+    "notes": "So when watching the cutscenes it's basically a mess there's way to much graphical errors and it's literally unwatchable the audio is super buggy when getting in game and i get 20-30 FPS but this is one of the phew games that aren't super bad all the shaders and assets load up relatively fast compared to other games and it's kinda playable just forget about the audio",
+    "reports": [
+      {
+        "device": "iPhone Air",
+        "platform": "ios",
+        "osVersion": "iOS 26.0",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-03-08",
+        "notes": "So when watching the cutscenes it's basically a mess there's way to much graphical errors and it's literally unwatchable the audio is super buggy when getting in game and i get 20-30 FPS but this is one of the phew games that aren't super bad all the shaders and assets load up relatively fast compared to other games and it's kinda playable just forget about the audio",
+        "source": "github",
+        "build": {
+          "buildId": "ios-release-1.0.0-9280",
+          "channel": "release",
+          "official": true,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "commitShort": "2633E8177"
+        }
+      }
+    ],
+    "screenshots": [],
+    "issueNumber": 98,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/98",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "playable",
+        "perf": "ok",
+        "notes": "So when watching the cutscenes it's basically a mess there's way to much graphical errors and it's literally unwatchable the audio is super buggy when getting in game and i get 20-30 FPS but this is one of the phew games that aren't super bad all the shaders and assets load up relatively fast compared to other games and it's kinda playable just forget about the audio",
+        "updatedAt": "2026-03-08",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone Air",
+          "platform": "ios",
+          "osVersion": "iOS 26.0",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-03-08",
+          "notes": "So when watching the cutscenes it's basically a mess there's way to much graphical errors and it's literally unwatchable the audio is super buggy when getting in game and i get 20-30 FPS but this is one of the phew games that aren't super bad all the shaders and assets load up relatively fast compared to other games and it's kinda playable just forget about the audio",
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-1.0.0-9280",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "2633E8177"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone Air",
+          "platform": "ios",
+          "osVersion": "iOS 26.0",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-03-08",
+          "notes": "So when watching the cutscenes it's basically a mess there's way to much graphical errors and it's literally unwatchable the audio is super buggy when getting in game and i get 20-30 FPS but this is one of the phew games that aren't super bad all the shaders and assets load up relatively fast compared to other games and it's kinda playable just forget about the audio",
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-1.0.0-9280",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "2633E8177"
+          }
+        }
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "playable",
+        "perf": "ok",
+        "notes": "So when watching the cutscenes it's basically a mess there's way to much graphical errors and it's literally unwatchable the audio is super buggy when getting in game and i get 20-30 FPS but this is one of the phew games that aren't super bad all the shaders and assets load up relatively fast compared to other games and it's kinda playable just forget about the audio",
+        "updatedAt": "2026-03-08",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone Air",
+          "platform": "ios",
+          "osVersion": "iOS 26.0",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-03-08",
+          "notes": "So when watching the cutscenes it's basically a mess there's way to much graphical errors and it's literally unwatchable the audio is super buggy when getting in game and i get 20-30 FPS but this is one of the phew games that aren't super bad all the shaders and assets load up relatively fast compared to other games and it's kinda playable just forget about the audio",
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-1.0.0-9280",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "2633E8177"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone Air",
+          "platform": "ios",
+          "osVersion": "iOS 26.0",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-03-08",
+          "notes": "So when watching the cutscenes it's basically a mess there's way to much graphical errors and it's literally unwatchable the audio is super buggy when getting in game and i get 20-30 FPS but this is one of the phew games that aren't super bad all the shaders and assets load up relatively fast compared to other games and it's kinda playable just forget about the audio",
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-1.0.0-9280",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "2633E8177"
+          }
+        }
+      }
+    }
+  },
+  {
     "slug": "title-41560855",
     "title": "Title 41560855",
     "titleId": "41560855",
