@@ -4324,6 +4324,159 @@
     }
   },
   {
+    "slug": "need-for-speed-most-wanted-2005",
+    "title": "Need for Speed - Most Wanted (2005)",
+    "titleId": "F11B4A49",
+    "status": "ingame",
+    "perf": "ok",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 17",
+      "platform": "ios",
+      "osVersion": "26.3",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-08",
+    "notes": "Game loads & goes ingame completely, but FMVs are completely messed up and the sound is crackly/slow. Game runs at around 1/2 speed on iPhone 17, but is fully playable regardless of the framerate. Sometimes slow to load assets in (e.g road surfaces, car meshes etc).",
+    "reports": [
+      {
+        "device": "iPhone 17",
+        "platform": "ios",
+        "osVersion": "26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "ok",
+        "date": "2026-03-08",
+        "notes": "Game loads & goes ingame completely, but FMVs are completely messed up and the sound is crackly/slow. Game runs at around 1/2 speed on iPhone 17, but is fully playable regardless of the framerate. Sometimes slow to load assets in (e.g road surfaces, car meshes etc).",
+        "source": "github",
+        "build": {
+          "buildId": "ios-release-1.0.0-9280",
+          "channel": "release",
+          "official": true,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "commitShort": "2633e81"
+        }
+      }
+    ],
+    "screenshots": [],
+    "issueNumber": 81,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/81",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "ingame",
+        "perf": "ok",
+        "notes": "Game loads & goes ingame completely, but FMVs are completely messed up and the sound is crackly/slow. Game runs at around 1/2 speed on iPhone 17, but is fully playable regardless of the framerate. Sometimes slow to load assets in (e.g road surfaces, car meshes etc).",
+        "updatedAt": "2026-03-08",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 17",
+          "platform": "ios",
+          "osVersion": "26.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "ok",
+          "date": "2026-03-08",
+          "notes": "Game loads & goes ingame completely, but FMVs are completely messed up and the sound is crackly/slow. Game runs at around 1/2 speed on iPhone 17, but is fully playable regardless of the framerate. Sometimes slow to load assets in (e.g road surfaces, car meshes etc).",
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-1.0.0-9280",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "2633e81"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 17",
+          "platform": "ios",
+          "osVersion": "26.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "ok",
+          "date": "2026-03-08",
+          "notes": "Game loads & goes ingame completely, but FMVs are completely messed up and the sound is crackly/slow. Game runs at around 1/2 speed on iPhone 17, but is fully playable regardless of the framerate. Sometimes slow to load assets in (e.g road surfaces, car meshes etc).",
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-1.0.0-9280",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "2633e81"
+          }
+        }
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "ingame",
+        "perf": "ok",
+        "notes": "Game loads & goes ingame completely, but FMVs are completely messed up and the sound is crackly/slow. Game runs at around 1/2 speed on iPhone 17, but is fully playable regardless of the framerate. Sometimes slow to load assets in (e.g road surfaces, car meshes etc).",
+        "updatedAt": "2026-03-08",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 17",
+          "platform": "ios",
+          "osVersion": "26.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "ok",
+          "date": "2026-03-08",
+          "notes": "Game loads & goes ingame completely, but FMVs are completely messed up and the sound is crackly/slow. Game runs at around 1/2 speed on iPhone 17, but is fully playable regardless of the framerate. Sometimes slow to load assets in (e.g road surfaces, car meshes etc).",
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-1.0.0-9280",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "2633e81"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 17",
+          "platform": "ios",
+          "osVersion": "26.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "ok",
+          "date": "2026-03-08",
+          "notes": "Game loads & goes ingame completely, but FMVs are completely messed up and the sound is crackly/slow. Game runs at around 1/2 speed on iPhone 17, but is fully playable regardless of the framerate. Sometimes slow to load assets in (e.g road surfaces, car meshes etc).",
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-1.0.0-9280",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "2633e81"
+          }
+        }
+      }
+    }
+  },
+  {
     "slug": "oblivion",
     "title": "Oblivion",
     "titleId": "425307D1",
@@ -4437,6 +4590,129 @@
         }
       }
     }
+  },
+  {
+    "slug": "pes-2012-we-2012",
+    "title": "PES 2012/WE 2012",
+    "titleId": "4B4E0837",
+    "status": "playable",
+    "perf": "ok",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 14 Pro Max",
+      "platform": "ios",
+      "osVersion": "26.3",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-08",
+    "notes": "Playable, little graphical errors but not much. No audio in game (only training tested for now). Video glitch in menu video.",
+    "reports": [
+      {
+        "device": "iPhone 14 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-03-08",
+        "notes": "Playable, little graphical errors but not much. No audio in game (only training tested for now). Video glitch in menu video.",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "stage": "stable",
+          "commitShort": "2633e8177",
+          "buildId": "ios-self-built-1.0.0-9280"
+        }
+      }
+    ],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4B4E0837/1773002764964-1.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4B4E0837/1773002764964-2.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4B4E0837/1773002764964-3.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4B4E0837/1773002764964-4.jpg"
+    ],
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "playable",
+        "perf": "ok",
+        "notes": "Playable, little graphical errors but not much. No audio in game (only training tested for now). Video glitch in menu video.",
+        "updatedAt": "2026-03-08",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 14 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-03-08",
+          "notes": "Playable, little graphical errors but not much. No audio in game (only training tested for now). Video glitch in menu video.",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "stage": "stable",
+            "commitShort": "2633e8177",
+            "buildId": "ios-self-built-1.0.0-9280"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 14 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-03-08",
+          "notes": "Playable, little graphical errors but not much. No audio in game (only training tested for now). Video glitch in menu video.",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "stage": "stable",
+            "commitShort": "2633e8177",
+            "buildId": "ios-self-built-1.0.0-9280"
+          }
+        }
+      }
+    },
+    "issueNumber": 80,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/80"
   },
   {
     "slug": "resident-evil-5",
@@ -6644,35 +6920,35 @@
     }
   },
   {
-    "slug": "pes-2012-we-2012",
-    "title": "PES 2012/WE 2012",
-    "titleId": "4B4E0837",
-    "status": "playable",
-    "perf": "ok",
+    "slug": "fable-ii",
+    "title": "Fable II",
+    "titleId": "4D5307F1",
+    "status": "nothing",
+    "perf": "n/a",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 14 Pro Max",
+      "device": "iPhone 16 Pro Max",
       "platform": "ios",
-      "osVersion": "26.3",
+      "osVersion": "26.3.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-03-08",
-    "notes": "Playable, little graphical errors but not much. No audio in game (only training tested for now). Video glitch in menu video.",
+    "notes": "Nothing start",
     "reports": [
       {
-        "device": "iPhone 14 Pro Max",
+        "device": "iPhone 16 Pro Max",
         "platform": "ios",
-        "osVersion": "26.3",
+        "osVersion": "26.3.1",
         "arch": "arm64",
         "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "ok",
+        "status": "nothing",
+        "perf": "n/a",
         "date": "2026-03-08",
-        "notes": "Playable, little graphical errors but not much. No audio in game (only training tested for now). Video glitch in menu video.",
+        "notes": "Nothing start",
         "source": "app",
         "build": {
           "channel": "self-built",
@@ -6685,12 +6961,7 @@
         }
       }
     ],
-    "screenshots": [
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4B4E0837/1773002764964-1.jpg",
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4B4E0837/1773002764964-2.jpg",
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4B4E0837/1773002764964-3.jpg",
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4B4E0837/1773002764964-4.jpg"
-    ],
+    "screenshots": [],
     "summaries": {
       "release": {
         "channel": "release",
@@ -6714,21 +6985,21 @@
       },
       "all": {
         "channel": "all",
-        "status": "playable",
-        "perf": "ok",
-        "notes": "Playable, little graphical errors but not much. No audio in game (only training tested for now). Video glitch in menu video.",
+        "status": "nothing",
+        "perf": "n/a",
+        "notes": "Nothing start",
         "updatedAt": "2026-03-08",
         "reportCount": 1,
         "latestReport": {
-          "device": "iPhone 14 Pro Max",
+          "device": "iPhone 16 Pro Max",
           "platform": "ios",
-          "osVersion": "26.3",
+          "osVersion": "26.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
+          "status": "nothing",
+          "perf": "n/a",
           "date": "2026-03-08",
-          "notes": "Playable, little graphical errors but not much. No audio in game (only training tested for now). Video glitch in menu video.",
+          "notes": "Nothing start",
           "source": "app",
           "build": {
             "channel": "self-built",
@@ -6741,15 +7012,15 @@
           }
         },
         "bestReport": {
-          "device": "iPhone 14 Pro Max",
+          "device": "iPhone 16 Pro Max",
           "platform": "ios",
-          "osVersion": "26.3",
+          "osVersion": "26.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
+          "status": "nothing",
+          "perf": "n/a",
           "date": "2026-03-08",
-          "notes": "Playable, little graphical errors but not much. No audio in game (only training tested for now). Video glitch in menu video.",
+          "notes": "Nothing start",
           "source": "app",
           "build": {
             "channel": "self-built",
@@ -6762,8 +7033,6 @@
           }
         }
       }
-    },
-    "issueNumber": 80,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/80"
+    }
   }
 ]

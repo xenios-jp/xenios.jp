@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-08T20:46:31.123Z",
+  "generatedAt": "2026-03-08T20:48:25.484Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -422,6 +422,26 @@
             "osVersion": "iOS 18.5",
             "gpuBackend": "MSL"
           }
+        }
+      ]
+    },
+    "F11B4A49": {
+      "titleId": "F11B4A49",
+      "issueNumber": 81,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/81",
+      "updatedAt": "2026-03-08",
+      "entries": [
+        {
+          "id": "issue-81",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/81",
+          "author": "bally199",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1773002885000,
+          "issueNumber": 81,
+          "excerpt": "Game loads & goes ingame completely, but FMVs are completely messed up and the sound is crackly/slow. Game runs at around 1/2 speed on iPhone 17, but is fully playable regardless of the framerate. Sometimes slow to load assets in (e.g road surfaces, car meshes etc).",
+          "images": [],
+          "meta": {}
         }
       ]
     },
