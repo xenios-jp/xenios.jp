@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-08T20:49:40.964Z",
+  "generatedAt": "2026-03-08T20:51:51.417Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -422,6 +422,59 @@
             "osVersion": "iOS 18.5",
             "gpuBackend": "MSL"
           }
+        }
+      ]
+    },
+    "4D5308D6": {
+      "titleId": "4D5308D6",
+      "issueNumber": 84,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/84",
+      "updatedAt": "2026-03-08",
+      "entries": [
+        {
+          "id": "issue-84",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/84",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1773003004000,
+          "issueNumber": 84,
+          "excerpt": "Nothing start",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 16 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        }
+      ]
+    },
+    "4541080F": {
+      "titleId": "4541080F",
+      "issueNumber": 83,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/83",
+      "updatedAt": "2026-03-08",
+      "entries": [
+        {
+          "id": "issue-83",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/83",
+          "author": "daisuke1227",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1773002978000,
+          "issueNumber": 83,
+          "excerpt": "So The Orange Box does load yes but even after several reboots it can't reach into gameplay so there's not much i can note about",
+          "images": [
+            "https://github.com/user-attachments/assets/4dddde36-451b-4c3c-9c42-b1a4df1493fd"
+          ],
+          "meta": {}
         }
       ]
     },
@@ -1189,6 +1242,29 @@
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/1",
       "updatedAt": "2026-03-08",
       "entries": [
+        {
+          "id": "comment-4019991063",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/1#issuecomment-4019991063",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1773003086000,
+          "issueNumber": 1,
+          "excerpt": "Works great as long as graphics are switched to classic.",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 15 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.4",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        },
         {
           "id": "comment-4019623360",
           "type": "comment",
