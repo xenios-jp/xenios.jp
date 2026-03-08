@@ -2280,23 +2280,43 @@
     "slug": "gta-iv",
     "title": "GTA IV",
     "titleId": "545407F2",
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "loads",
+    "perf": "poor",
     "tags": [],
     "platforms": [
       "ios",
       "macos"
     ],
     "lastReport": {
-      "device": "iPhone 17 Pro",
-      "platform": "ios",
-      "osVersion": "26.3.1",
+      "device": "M2 Mac mini",
+      "platform": "macos",
+      "osVersion": "macOS 26.3.1",
       "arch": "arm64",
-      "gpuBackend": "msl"
+      "gpuBackend": "msc"
     },
     "updatedAt": "2026-03-08",
-    "notes": "The game crashes as soon as I launch it.",
+    "notes": "Game opens, intros play as expected. Cannot load into gameplay as the loading screen for the first mission never finishes.",
     "reports": [
+      {
+        "device": "M2 Mac mini",
+        "platform": "macos",
+        "osVersion": "macOS 26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msc",
+        "status": "loads",
+        "perf": "poor",
+        "date": "2026-03-08",
+        "notes": "Game opens, intros play as expected. Cannot load into gameplay as the loading screen for the first mission never finishes.",
+        "source": "github",
+        "build": {
+          "buildId": "macos-release-1.0.0-9280",
+          "channel": "release",
+          "official": true,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "commitShort": "2633E8177"
+        }
+      },
       {
         "device": "iPhone 17 Pro",
         "platform": "ios",
@@ -2378,26 +2398,27 @@
         "channel": "release",
         "status": "ingame",
         "perf": "poor",
-        "notes": "Game boots, menu navigation works. Infinite loading screen for first mission.",
+        "notes": "Game opens, intros play as expected. Cannot load into gameplay as the loading screen for the first mission never finishes.",
         "updatedAt": "2026-03-08",
-        "reportCount": 1,
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 17 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.3",
+          "device": "M2 Mac mini",
+          "platform": "macos",
+          "osVersion": "macOS 26.3.1",
           "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "ingame",
+          "gpuBackend": "msc",
+          "status": "loads",
           "perf": "poor",
           "date": "2026-03-08",
-          "notes": "Game boots, menu navigation works. Infinite loading screen for first mission.",
+          "notes": "Game opens, intros play as expected. Cannot load into gameplay as the loading screen for the first mission never finishes.",
           "source": "github",
           "build": {
-            "buildId": "ios-release-1.0.0-9280",
+            "buildId": "macos-release-1.0.0-9280",
             "channel": "release",
             "official": true,
             "appVersion": "1.0.0",
-            "buildNumber": "9280"
+            "buildNumber": "9280",
+            "commitShort": "2633E8177"
           }
         },
         "bestReport": {
@@ -2434,27 +2455,27 @@
         "channel": "all",
         "status": "ingame",
         "perf": "poor",
-        "notes": "The game crashes as soon as I launch it.",
+        "notes": "Game opens, intros play as expected. Cannot load into gameplay as the loading screen for the first mission never finishes.",
         "updatedAt": "2026-03-08",
-        "reportCount": 4,
+        "reportCount": 5,
         "latestReport": {
-          "device": "iPhone 17 Pro",
-          "platform": "ios",
-          "osVersion": "26.3.1",
+          "device": "M2 Mac mini",
+          "platform": "macos",
+          "osVersion": "macOS 26.3.1",
           "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
+          "gpuBackend": "msc",
+          "status": "loads",
+          "perf": "poor",
           "date": "2026-03-08",
-          "notes": "The game crashes as soon as I launch it.",
-          "source": "app",
+          "notes": "Game opens, intros play as expected. Cannot load into gameplay as the loading screen for the first mission never finishes.",
+          "source": "github",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
-            "channel": "self-built",
-            "official": false,
+            "buildId": "macos-release-1.0.0-9280",
+            "channel": "release",
+            "official": true,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "commitShort": "2633e8177"
+            "commitShort": "2633E8177"
           }
         },
         "bestReport": {
