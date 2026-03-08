@@ -2,7 +2,7 @@
 
 > **47 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **11** · 🔵 In-Game: **12** · 🟡 Intro: **8** · 🟠 Loads: **5** · 🔴 Doesn't Boot: **11**
+> 🟢 Playable: **12** · 🔵 In-Game: **12** · 🟡 Intro: **8** · 🟠 Loads: **5** · 🔴 Doesn't Boot: **10**
 >
 > 📱 iOS: **44** · 🖥️ macOS: **4**
 
@@ -28,6 +28,7 @@
 | 🟢 | FINAL FANTASY XIII | `535107E4` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-03 |
 | 🟢 | Guacamelee | `00000000` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-03 |
 | 🟢 | STEINS;GATE 比翼恋理のだーりん | `465607E8` | 📱 iOS | Playable | 🚀 Great | iPhone 17 | 2026-03-02 |
+| 🟢 | The Outfit | `545107D2` | 📱 iOS | Playable | 🐢 Poor | iPhone 15 Pro Max | 2026-03-08 |
 | 🟢 | Title 4D5307ED | `4D5307ED` | 📱 iOS | Playable | 🐢 Poor | iPhone 15 Pro Max | 2026-03-08 |
 | 🟢 | Title 534507EE | `534507EE` | 📱 iOS | Playable | 👌 OK | iPhone 17 Pro Max | 2026-03-03 |
 | 🟢 | Title 565707D0 | `565707D0` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-03 |
@@ -64,7 +65,6 @@
 | 🔴 | SONIC GENERATIONS | `53450848` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-05 |
 | 🔴 | Star Ocean: TLH | `535107DD` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-03 |
 | 🔴 | TEKKEN 6 | `4E4D07FC` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-03 |
-| 🔴 | The Outfit | `545107D2` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 15 Pro Max | 2026-03-05 |
 | 🔴 | Title 41560855 | `41560855` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Pro 12.9 inch 6th Gen | 2026-03-08 |
 | 🔴 | Title 415608E4 | `415608E4` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 14 Pro Max | 2026-03-08 |
 
