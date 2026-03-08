@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-08T08:29:17.105Z",
+  "generatedAt": "2026-03-08T10:17:13.712Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -232,8 +232,31 @@
       "titleId": "53450813",
       "issueNumber": 38,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/38",
-      "updatedAt": "2026-03-07",
+      "updatedAt": "2026-03-08",
       "entries": [
+        {
+          "id": "comment-4018785557",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/38#issuecomment-4018785557",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1772965013000,
+          "issueNumber": 38,
+          "excerpt": "Developer pre-release test report",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "poor",
+            "device": "iPhone 17",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0",
+            "buildNumber": "1",
+            "commitShort": "`21f106d09e`"
+          }
+        },
         {
           "id": "issue-38",
           "type": "issue",
