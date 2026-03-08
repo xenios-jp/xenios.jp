@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **44 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **45 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **10** · 🔵 In-Game: **11** · 🟡 Intro: **8** · 🟠 Loads: **5** · 🔴 Doesn't Boot: **10**
+> 🟢 Playable: **10** · 🔵 In-Game: **11** · 🟡 Intro: **8** · 🟠 Loads: **5** · 🔴 Doesn't Boot: **11**
 >
-> 📱 iOS: **41** · 🖥️ macOS: **4**
+> 📱 iOS: **42** · 🖥️ macOS: **4**
 
 ## Legend
 
@@ -63,6 +63,7 @@
 | 🔴 | TEKKEN 6 | `4E4D07FC` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-03 |
 | 🔴 | The Outfit | `545107D2` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 15 Pro Max | 2026-03-05 |
 | 🔴 | Title 41560855 | `41560855` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Pro 12.9 inch 6th Gen | 2026-03-08 |
+| 🔴 | Title 415608E4 | `415608E4` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 14 Pro Max | 2026-03-08 |
 | 🔴 | Title 4D5307ED | `4D5307ED` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 15 Pro Max | 2026-03-05 |
 
 ---
