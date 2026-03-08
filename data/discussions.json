@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-08T23:05:17.989Z",
+  "generatedAt": "2026-03-08T23:32:30.867Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -136,6 +136,26 @@
             "buildNumber": "9280",
             "commitShort": "`2633e8177`"
           }
+        }
+      ]
+    },
+    "45410806": {
+      "titleId": "45410806",
+      "issueNumber": 103,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/103",
+      "updatedAt": "2026-03-08",
+      "entries": [
+        {
+          "id": "issue-103",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/103",
+          "author": "QualityControled",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1773012730000,
+          "issueNumber": 103,
+          "excerpt": "All pre-rendered scenes have graphical issues. Menus are fine, upon game loading game speed was 50% and lead to a crash. Restarting app after every crash would get me further.",
+          "images": [],
+          "meta": {}
         }
       ]
     },
