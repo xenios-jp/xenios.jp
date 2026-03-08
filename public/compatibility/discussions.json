@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-08T20:31:46.510Z",
+  "generatedAt": "2026-03-08T20:34:49.543Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -803,6 +803,29 @@
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/55",
       "updatedAt": "2026-03-08",
       "entries": [
+        {
+          "id": "comment-4019966130",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/55#issuecomment-4019966130",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1773002066000,
+          "issueNumber": 55,
+          "excerpt": "Unusable but boots",
+          "images": [],
+          "meta": {
+            "status": "intro",
+            "perf": "poor",
+            "device": "iPhone 15 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        },
         {
           "id": "issue-55",
           "type": "issue",
