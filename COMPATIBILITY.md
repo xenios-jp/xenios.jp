@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **49 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **50 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **13** · 🔵 In-Game: **13** · 🟡 Intro: **8** · 🟠 Loads: **5** · 🔴 Doesn't Boot: **10**
+> 🟢 Playable: **13** · 🔵 In-Game: **13** · 🟡 Intro: **8** · 🟠 Loads: **6** · 🔴 Doesn't Boot: **10**
 >
-> 📱 iOS: **46** · 🖥️ macOS: **4**
+> 📱 iOS: **47** · 🖥️ macOS: **4**
 
 ## Legend
 
@@ -57,6 +57,7 @@
 | 🟠 | Jeopardy! | `545108AE` | 📱 iOS | Loads | 🐢 Poor | iPhone 16 Pro | 2026-03-05 |
 | 🟠 | Left 4 Dead | `45410830` | 📱 iOS | Loads | 👌 OK | iPhone 17 Pro Max | 2026-03-02 |
 | 🟠 | Lost Odyssey | `4D5307FA` | 📱 iOS | Loads | 🐢 Poor | iPhone 16 Pro | 2026-03-03 |
+| 🟠 | NARUTO STORM 3 | `4E4D085C` | 📱 iOS | Loads | 🐢 Poor | iPhone 15 Pro Max | 2026-03-08 |
 | 🟠 | Skate 3 | `454108E6` | 📱 iOS | Loads | 🐢 Poor | iPad Pro (M2) | 2026-03-02 |
 | 🟠 | Sonic Transformed | `5345085D` | 📱 iOS | Loads | 🐢 Poor | iPhone 16 Pro | 2026-03-05 |
 | 🔴 | [Prototype]™ | `4156084E` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 12 Pro Max | 2026-03-08 |
