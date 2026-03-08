@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-08T21:14:42.041Z",
+  "generatedAt": "2026-03-08T21:16:45.007Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -303,6 +303,37 @@
             "platform": "iOS",
             "osVersion": "iOS 18.3.1",
             "gpuBackend": "MSL"
+          }
+        }
+      ]
+    },
+    "45410961": {
+      "titleId": "45410961",
+      "issueNumber": 90,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/90",
+      "updatedAt": "2026-03-08",
+      "entries": [
+        {
+          "id": "issue-90",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/90",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1773004585000,
+          "issueNumber": 90,
+          "excerpt": "There are visual glitches in the introduction videos, in the first cutscene the video and audio get out of sync, and when the game starts rendering it gets stuck indefinitely.",
+          "images": [],
+          "meta": {
+            "status": "intro",
+            "perf": "poor",
+            "device": "iPhone 15 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
           }
         }
       ]
