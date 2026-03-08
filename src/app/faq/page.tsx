@@ -5,6 +5,9 @@ import {
   DISCORD_URL,
   EMULATOR_GITHUB_ISSUES_URL,
   EMULATOR_GITHUB_URL,
+  STIKDEBUG_RELEASES_URL,
+  STIKDEBUG_UNIVERSAL_SCRIPT_URL,
+  STIKDEBUG_URL,
   XENIA_CANARY_RELEASES_URL,
   XENIA_EDGE_RELEASES_URL,
 } from "@/lib/constants";
@@ -154,6 +157,15 @@ const ios = [
           </li>
         </ul>
         <p>
+          LiveContainer is currently untested on iOS 26, though users have
+          reported it working on iOS 18. Use it at your own risk. If you try
+          it, expect to need the{" "}
+          <code className="text-text-primary bg-bg-surface-2 px-1 rounded">
+            com.apple.developer.kernel.increased-memory-limit
+          </code>{" "}
+          entitlement when signing it.
+        </p>
+        <p>
           After installation, complete JIT setup before launching games. If you
           need help with SideStore or the first install pass, use{" "}
           <a
@@ -175,7 +187,8 @@ const ios = [
       <p>
         The lowest tested baseline right now is iOS / iPadOS 18.0 on A16-class
         hardware. Older versions or older chips may work, but they are currently
-        untested and should not be treated as validated.
+        untested and should not be treated as validated. Do not upgrade to
+        iOS / iPadOS 26.4 beta right now.
       </p>
     ),
   },
@@ -190,7 +203,7 @@ const ios = [
         <p>
           Use{" "}
           <a
-            href="https://github.com/StephenDev0/StikDebug"
+            href={STIKDEBUG_URL}
             target="_blank"
             rel="noopener noreferrer"
             className="text-accent hover:text-accent-hover transition-colors underline underline-offset-2"
@@ -209,6 +222,39 @@ const ios = [
             latest SideStore JIT guide
           </a>{" "}
           before assuming a setup will work unchanged.
+        </p>
+        <p>
+          In StikDebug, you must also assign the bundled{" "}
+          <strong className="text-text-primary">Amethyst-MeloNX.js</strong> or{" "}
+          <strong className="text-text-primary">universal.js</strong> script to
+          XeniOS. If you do not see either script in the app, update to{" "}
+          <a
+            href={STIKDEBUG_RELEASES_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-accent hover:text-accent-hover transition-colors underline underline-offset-2"
+          >
+            StikDebug releases
+          </a>{" "}
+          or download{" "}
+          <a
+            href={STIKDEBUG_UNIVERSAL_SCRIPT_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-accent hover:text-accent-hover transition-colors underline underline-offset-2"
+          >
+            universal.js
+          </a>{" "}
+          directly. Check the{" "}
+          <a
+            href={STIKDEBUG_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-accent hover:text-accent-hover transition-colors underline underline-offset-2"
+          >
+            StikDebug repo
+          </a>{" "}
+          for more information.
         </p>
       </div>
     ),
@@ -524,8 +570,9 @@ const controllers = [
     title: "Can I use on-screen touch controls?",
     content: (
       <p>
-        Gameplay touch controls are planned, but not currently implemented.
-        Touch input is for launcher and settings UI navigation only.
+        No. There are currently no touchscreen gameplay controls. Touch input
+        is for launcher and settings UI navigation only, so you need a
+        supported controller to play.
       </p>
     ),
   },

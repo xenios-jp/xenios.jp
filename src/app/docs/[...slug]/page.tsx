@@ -6,6 +6,10 @@ import { IosReadFirst } from "@/components/ios-read-first";
 import {
   DISCORD_URL,
   EMULATOR_GITHUB_URL,
+  SIDESTORE_JIT_GUIDE_URL,
+  STIKDEBUG_RELEASES_URL,
+  STIKDEBUG_UNIVERSAL_SCRIPT_URL,
+  STIKDEBUG_URL,
   WEBSITE_GITHUB_ISSUES_URL,
 } from "@/lib/constants";
 
@@ -53,9 +57,11 @@ const iosDocs: Record<string, DocEntry> = {
           tested setup right now is <strong className="text-text-primary">iOS / iPadOS 18.0</strong> on{" "}
           <strong className="text-text-primary">A16-class hardware</strong>.
           Older versions or older chips may work, but they are currently
-          untested. You will also need game files dumped from your own Xbox 360
-          discs. XeniOS does not include, provide, or link to any game files.
-          Piracy is not supported or condoned.
+          untested. Do not upgrade to{" "}
+          <strong className="text-text-primary">iOS / iPadOS 26.4 beta</strong>{" "}
+          right now. You will also need game files dumped from your own Xbox
+          360 discs. XeniOS does not include, provide, or link to any game
+          files. Piracy is not supported or condoned.
         </p>
 
         <h2>Installation</h2>
@@ -77,10 +83,55 @@ const iosDocs: Record<string, DocEntry> = {
             Apple IDs, refreshes are still required every 7 days.
           </li>
         </ul>
+        <div className="mb-6 mt-4">
+          <Callout type="note">
+            LiveContainer is not part of the documented public baseline.
+            It is currently untested on iOS 26, though users have reported it
+            working on iOS 18. Use it at your own risk, and expect to need the{" "}
+            <C>com.apple.developer.kernel.increased-memory-limit</C>{" "}
+            entitlement when signing it.
+          </Callout>
+        </div>
         <p className="mt-3 text-[15px] text-text-secondary leading-relaxed">
           If the install path itself is what is failing, use{" "}
           <a href={DISCORD_URL} target="_blank" rel="noopener noreferrer" className="text-accent underline underline-offset-2 hover:text-accent-hover">Discord</a>{" "}
           for setup help before filing a bug.
+        </p>
+
+        <h2>JIT Setup</h2>
+        <p className="mt-3 text-[15px] text-text-secondary leading-relaxed">
+          In StikDebug, assign the bundled{" "}
+          <strong className="text-text-primary">Amethyst-MeloNX.js</strong> or{" "}
+          <strong className="text-text-primary">universal.js</strong> script to
+          XeniOS. If you do not see either script in the app, update to{" "}
+          <a
+            href={STIKDEBUG_RELEASES_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-accent underline underline-offset-2 hover:text-accent-hover"
+          >
+            StikDebug releases
+          </a>{" "}
+          or download{" "}
+          <a
+            href={STIKDEBUG_UNIVERSAL_SCRIPT_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-accent underline underline-offset-2 hover:text-accent-hover"
+          >
+            universal.js
+          </a>{" "}
+          directly and import it before troubleshooting anything else. Check
+          the{" "}
+          <a
+            href={STIKDEBUG_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-accent underline underline-offset-2 hover:text-accent-hover"
+          >
+            StikDebug repo
+          </a>{" "}
+          for more information.
         </p>
 
         <h2>Adding Games</h2>
@@ -227,8 +278,9 @@ const iosDocs: Record<string, DocEntry> = {
         </ul>
         <p className="mt-3 text-[15px] text-text-secondary leading-relaxed">
           Supported controllers: Xbox Wireless, PlayStation DualSense and
-          DualShock 4, Nintendo Switch Pro, and MFi-certified gamepads. Touch
-          screen is used for UI navigation only — there is no touch-to-gamepad
+          DualShock 4, Nintendo Switch Pro, and MFi-certified gamepads. There
+          are currently no touchscreen gameplay controls. Touch screen input
+          is used for UI navigation only, and there is no touch-to-gamepad
           mapping.
         </p>
 
@@ -273,8 +325,16 @@ const iosDocs: Record<string, DocEntry> = {
           <li>
             Ensure a JIT helper is active (StikDebug). Depending on your
             iOS / iPadOS version and device, you may also need LocalDevVPN.
-            Check the latest SideStore JIT guide if your current helper setup is
-            unclear.
+            Check the{" "}
+            <a
+              href={SIDESTORE_JIT_GUIDE_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-accent underline underline-offset-2 hover:text-accent-hover"
+            >
+              latest SideStore JIT guide
+            </a>{" "}
+            if your current helper setup is unclear.
           </li>
           <li>
             Delete the shader cache at{" "}

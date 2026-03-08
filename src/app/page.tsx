@@ -128,8 +128,9 @@ export default function Home() {
                 <h3 className="text-text-primary font-semibold text-xl">Setup Guide</h3>
               </div>
               <p className="mt-3 text-text-secondary text-base leading-relaxed">
-                Install the IPA with SideStore, then enable JIT before
-                launching games.
+                Install the IPA with SideStore, enable JIT, and pair a
+                controller before launching games. Touch controls are not
+                available yet.
               </p>
               <span className="mt-3 inline-block text-base text-accent group-hover:text-accent-hover transition-colors">
                 Open iPhone/iPad guide &rarr;

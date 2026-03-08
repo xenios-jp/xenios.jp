@@ -1,6 +1,8 @@
 import {
   LOCALDEVVPN_APPSTORE_URL,
   SIDESTORE_JIT_GUIDE_URL,
+  STIKDEBUG_RELEASES_URL,
+  STIKDEBUG_UNIVERSAL_SCRIPT_URL,
   STIKDEBUG_URL,
 } from "@/lib/constants";
 
@@ -68,6 +70,47 @@ export function IosReadFirst({ tone = "primary" }: IosReadFirstProps) {
             latest SideStore JIT guide
           </a>{" "}
           before troubleshooting.
+        </li>
+        <li>
+          <strong>Script assignment:</strong> In StikDebug, assign the bundled{" "}
+          <strong>Amethyst-MeloNX.js</strong> or <strong>universal.js</strong>{" "}
+          script to XeniOS. If you do not see either script, update from{" "}
+          <a
+            href={STIKDEBUG_RELEASES_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={linkClass}
+          >
+            StikDebug releases
+          </a>{" "}
+          or download{" "}
+          <a
+            href={STIKDEBUG_UNIVERSAL_SCRIPT_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={linkClass}
+          >
+            universal.js
+          </a>{" "}
+          directly. Check the{" "}
+          <a
+            href={STIKDEBUG_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={linkClass}
+          >
+            StikDebug repo
+          </a>{" "}
+          for more information.
+        </li>
+        <li>
+          <strong>Controller required:</strong> There are currently no
+          touchscreen gameplay controls. Touch input is limited to launcher and
+          settings navigation, so you need a supported controller to play.
+        </li>
+        <li>
+          <strong>Do not upgrade:</strong> Avoid iOS / iPadOS 26.4 beta for
+          now. Treat it as unsupported until XeniOS compatibility is verified.
         </li>
       </ul>
       <p className={`mt-3 ${textClass}`}>

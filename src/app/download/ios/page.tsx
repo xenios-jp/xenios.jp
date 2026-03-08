@@ -279,7 +279,8 @@ export default function DownloadPage() {
                 iOS / iPadOS 18.0
               </p>
               <p className="mt-2 text-sm leading-relaxed text-text-secondary">
-                Older versions may work, but they are currently untested.
+                Older versions may work, but they are currently untested. Do
+                not upgrade to iOS / iPadOS 26.4 beta right now.
               </p>
             </div>
             <div className="rounded-xl border border-border bg-bg-surface p-5">
@@ -385,7 +386,7 @@ export default function DownloadPage() {
                 </span>
                 <span>
                   Complete JIT setup (see the &ldquo;Read first&rdquo; box
-                  above), then launch a game.
+                  above), pair a controller, then launch a game.
                 </span>
               </li>
             </ol>
@@ -451,6 +452,16 @@ export default function DownloadPage() {
               <li>
                 Older iOS versions and older chips may work, but they are currently untested and
                 should not be treated as validated yet.
+              </li>
+              <li>
+                LiveContainer is currently untested on iOS 26, though users
+                have reported it working on iOS 18. Use it at your own risk.
+                If you try it, expect to need the{" "}
+                <code className="rounded bg-bg-surface-2 px-1.5 py-0.5 font-mono text-xs">
+                  com.apple.developer.kernel.increased-memory-limit
+                </code>{" "}
+                entitlement when signing it. The documented baseline remains
+                normal IPA sideloading.
               </li>
               <li>
                 No games are included. You must dump games from Xbox 360 discs or digital
