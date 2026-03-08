@@ -2617,6 +2617,159 @@
     }
   },
   {
+    "slug": "forza-horizon-2",
+    "title": "Forza Horizon 2",
+    "titleId": "4D530AA4",
+    "status": "loads",
+    "perf": "poor",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 17 Pro Max",
+      "platform": "ios",
+      "osVersion": "26.3",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-08",
+    "notes": "Game boots on first try. Menu's work as intended, pre-rendered scenes behind the menus have graphical issues. \nUpon prompting the game to load into first area, the game will load indefinitely.",
+    "reports": [
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "loads",
+        "perf": "poor",
+        "date": "2026-03-08",
+        "notes": "Game boots on first try. Menu's work as intended, pre-rendered scenes behind the menus have graphical issues. \nUpon prompting the game to load into first area, the game will load indefinitely.",
+        "source": "github",
+        "build": {
+          "buildId": "ios-release-1.0.0-9280",
+          "channel": "release",
+          "official": true,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "commitShort": "2633E8177"
+        }
+      }
+    ],
+    "screenshots": [],
+    "issueNumber": 95,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/95",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "loads",
+        "perf": "poor",
+        "notes": "Game boots on first try. Menu's work as intended, pre-rendered scenes behind the menus have graphical issues. \nUpon prompting the game to load into first area, the game will load indefinitely.",
+        "updatedAt": "2026-03-08",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "loads",
+          "perf": "poor",
+          "date": "2026-03-08",
+          "notes": "Game boots on first try. Menu's work as intended, pre-rendered scenes behind the menus have graphical issues. \nUpon prompting the game to load into first area, the game will load indefinitely.",
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-1.0.0-9280",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "2633E8177"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "loads",
+          "perf": "poor",
+          "date": "2026-03-08",
+          "notes": "Game boots on first try. Menu's work as intended, pre-rendered scenes behind the menus have graphical issues. \nUpon prompting the game to load into first area, the game will load indefinitely.",
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-1.0.0-9280",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "2633E8177"
+          }
+        }
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "loads",
+        "perf": "poor",
+        "notes": "Game boots on first try. Menu's work as intended, pre-rendered scenes behind the menus have graphical issues. \nUpon prompting the game to load into first area, the game will load indefinitely.",
+        "updatedAt": "2026-03-08",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "loads",
+          "perf": "poor",
+          "date": "2026-03-08",
+          "notes": "Game boots on first try. Menu's work as intended, pre-rendered scenes behind the menus have graphical issues. \nUpon prompting the game to load into first area, the game will load indefinitely.",
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-1.0.0-9280",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "2633E8177"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "loads",
+          "perf": "poor",
+          "date": "2026-03-08",
+          "notes": "Game boots on first try. Menu's work as intended, pre-rendered scenes behind the menus have graphical issues. \nUpon prompting the game to load into first area, the game will load indefinitely.",
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-1.0.0-9280",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "2633E8177"
+          }
+        }
+      }
+    }
+  },
+  {
     "slug": "gears-of-war",
     "title": "Gears of War",
     "titleId": "4D5307D5",

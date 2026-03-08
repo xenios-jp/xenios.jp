@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-08T21:26:01.101Z",
+  "generatedAt": "2026-03-08T21:33:53.831Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -484,6 +484,26 @@
             "osVersion": "iOS 18.5",
             "gpuBackend": "MSL"
           }
+        }
+      ]
+    },
+    "4D530AA4": {
+      "titleId": "4D530AA4",
+      "issueNumber": 95,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/95",
+      "updatedAt": "2026-03-08",
+      "entries": [
+        {
+          "id": "issue-95",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/95",
+          "author": "QualityControled",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1773005611000,
+          "issueNumber": 95,
+          "excerpt": "Game boots on first try. Menu's work as intended, pre-rendered scenes behind the menus have graphical issues. \nUpon prompting the game to load into first area, the game will load indefinitely.",
+          "images": [],
+          "meta": {}
         }
       ]
     },
