@@ -3805,22 +3805,42 @@
     "slug": "skate-3",
     "title": "Skate 3",
     "titleId": "454108E6",
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "ingame",
+    "perf": "poor",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 17 Pro Max",
+      "device": "iPhone 16 Pro Max",
       "platform": "ios",
-      "osVersion": "26.3",
+      "osVersion": "26.1 (23B85)",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-03-08",
-    "notes": "Black screen",
+    "notes": "The game boots and you can get into the main game as expected. However, actual gameplay is quite slow. Loading into the map for the first time is especially slow and you will likely encounter some graphical glitches as it loads in. Video content (e.g. pre-rendered cutscenes) also has heavy graphical glitches during playback.",
     "reports": [
+      {
+        "device": "iPhone 16 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.1 (23B85)",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "poor",
+        "date": "2026-03-08",
+        "notes": "The game boots and you can get into the main game as expected. However, actual gameplay is quite slow. Loading into the map for the first time is especially slow and you will likely encounter some graphical glitches as it loads in. Video content (e.g. pre-rendered cutscenes) also has heavy graphical glitches during playback.",
+        "source": "github",
+        "build": {
+          "buildId": "ios-release-1.0.0-9280",
+          "channel": "release",
+          "official": true,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "commitShort": "2633E8177"
+        }
+      },
       {
         "device": "iPhone 17 Pro Max",
         "platform": "ios",
@@ -3861,13 +3881,51 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "ingame",
+        "perf": "poor",
+        "notes": "The game boots and you can get into the main game as expected. However, actual gameplay is quite slow. Loading into the map for the first time is especially slow and you will likely encounter some graphical glitches as it loads in. Video content (e.g. pre-rendered cutscenes) also has heavy graphical glitches during playback.",
+        "updatedAt": "2026-03-08",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 16 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.1 (23B85)",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-03-08",
+          "notes": "The game boots and you can get into the main game as expected. However, actual gameplay is quite slow. Loading into the map for the first time is especially slow and you will likely encounter some graphical glitches as it loads in. Video content (e.g. pre-rendered cutscenes) also has heavy graphical glitches during playback.",
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-1.0.0-9280",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "2633E8177"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 16 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.1 (23B85)",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-03-08",
+          "notes": "The game boots and you can get into the main game as expected. However, actual gameplay is quite slow. Loading into the map for the first time is especially slow and you will likely encounter some graphical glitches as it loads in. Video content (e.g. pre-rendered cutscenes) also has heavy graphical glitches during playback.",
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-1.0.0-9280",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "2633E8177"
+          }
+        }
       },
       "preview": {
         "channel": "preview",
@@ -3881,43 +3939,50 @@
       },
       "all": {
         "channel": "all",
-        "status": "loads",
+        "status": "ingame",
         "perf": "poor",
-        "notes": "Black screen",
+        "notes": "The game boots and you can get into the main game as expected. However, actual gameplay is quite slow. Loading into the map for the first time is especially slow and you will likely encounter some graphical glitches as it loads in. Video content (e.g. pre-rendered cutscenes) also has heavy graphical glitches during playback.",
         "updatedAt": "2026-03-08",
-        "reportCount": 2,
+        "reportCount": 3,
         "latestReport": {
-          "device": "iPhone 17 Pro Max",
+          "device": "iPhone 16 Pro Max",
           "platform": "ios",
-          "osVersion": "26.3",
+          "osVersion": "26.1 (23B85)",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
+          "status": "ingame",
+          "perf": "poor",
           "date": "2026-03-08",
-          "notes": "Black screen",
-          "source": "app",
+          "notes": "The game boots and you can get into the main game as expected. However, actual gameplay is quite slow. Loading into the map for the first time is especially slow and you will likely encounter some graphical glitches as it loads in. Video content (e.g. pre-rendered cutscenes) also has heavy graphical glitches during playback.",
+          "source": "github",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
-            "channel": "self-built",
-            "official": false,
+            "buildId": "ios-release-1.0.0-9280",
+            "channel": "release",
+            "official": true,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "commitShort": "2633e8177"
+            "commitShort": "2633E8177"
           }
         },
         "bestReport": {
-          "device": "iPad Pro (M2)",
+          "device": "iPhone 16 Pro Max",
           "platform": "ios",
-          "osVersion": "18.3.1",
+          "osVersion": "26.1 (23B85)",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "loads",
+          "status": "ingame",
           "perf": "poor",
-          "date": "2026-03-02",
-          "notes": "The intro has some graphical issues and the game crashes after the intro",
-          "source": "app",
-          "build": null
+          "date": "2026-03-08",
+          "notes": "The game boots and you can get into the main game as expected. However, actual gameplay is quite slow. Loading into the map for the first time is especially slow and you will likely encounter some graphical glitches as it loads in. Video content (e.g. pre-rendered cutscenes) also has heavy graphical glitches during playback.",
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-1.0.0-9280",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "2633E8177"
+          }
         }
       }
     }
