@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-08T17:26:21.024Z",
+  "generatedAt": "2026-03-08T17:31:13.689Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -394,6 +394,18 @@
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/1",
       "updatedAt": "2026-03-08",
       "entries": [
+        {
+          "id": "comment-4019619455",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/1#issuecomment-4019619455",
+          "author": "J7mbo",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1772991054000,
+          "issueNumber": 1,
+          "excerpt": "And... textures are messed up in classic. \n\n<img width=\"2622\" height=\"1206\" alt=\"Image\" src=\" />\n\nthen a restart helped. But when the covenant first come in:\n\n<img width=\"2622\" height=\"1206\" alt=\"Image\" src=\" />\n\n<img width=\"2622\" height=\"1206\" alt=\"Image\" src=\" />\n\n<img width=\"2622\" height=\"1206\" alt=\"Image\" src=\" />",
+          "images": [],
+          "meta": {}
+        },
         {
           "id": "comment-4019593790",
           "type": "comment",
