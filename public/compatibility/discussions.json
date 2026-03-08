@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-07T06:49:14.347Z",
+  "generatedAt": "2026-03-08T11:19:48.351Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -232,8 +232,31 @@
       "titleId": "53450813",
       "issueNumber": 38,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/38",
-      "updatedAt": "2026-03-07",
+      "updatedAt": "2026-03-08",
       "entries": [
+        {
+          "id": "comment-4018785557",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/38#issuecomment-4018785557",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1772965013000,
+          "issueNumber": 38,
+          "excerpt": "Developer pre-release test report",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "poor",
+            "device": "iPhone 17",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0",
+            "buildNumber": "1",
+            "commitShort": "`21f106d09e`"
+          }
+        },
         {
           "id": "issue-38",
           "type": "issue",
@@ -1286,8 +1309,77 @@
       "titleId": "4D5307E6",
       "issueNumber": 42,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/42",
-      "updatedAt": "2026-03-07",
+      "updatedAt": "2026-03-08",
       "entries": [
+        {
+          "id": "comment-4018869257",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/42#issuecomment-4018869257",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1772968770000,
+          "issueNumber": 42,
+          "excerpt": "Dev test report pre release",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "poor",
+            "device": "iPhone 17",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9271",
+            "commitShort": "`21f106d09e`"
+          }
+        },
+        {
+          "id": "comment-4018640275",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/42#issuecomment-4018640275",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1772958530000,
+          "issueNumber": 42,
+          "excerpt": "Test report",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "poor",
+            "device": "iPhone 17",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0",
+            "buildNumber": "1",
+            "commitShort": "`21f106d09e`"
+          }
+        },
+        {
+          "id": "comment-4018436926",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/42#issuecomment-4018436926",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1772949904000,
+          "issueNumber": 42,
+          "excerpt": "Dev test report",
+          "images": [],
+          "meta": {
+            "status": "intro",
+            "perf": "poor",
+            "device": "iPhone 17",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0",
+            "buildNumber": "1",
+            "commitShort": "`315f4dee9`"
+          }
+        },
         {
           "id": "comment-4015746376",
           "type": "comment",
@@ -1342,63 +1434,6 @@
             "device": "iPhone17,1",
             "platform": "iOS",
             "osVersion": "iOS 18.5",
-            "gpuBackend": "MSL"
-          }
-        },
-        {
-          "id": "comment-4015746366",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/42#issuecomment-4015746366",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-01",
-          "createdAtMs": 1772361866000,
-          "issueNumber": 42,
-          "excerpt": "Campaign cutscene cannot transition into gameplay in at least the first level. Workaround is to hit A to skip loop it once, back out, and start the actual first mission from the campaign menu. \n\nPerformance is about 15fps on iPhone 17.",
-          "images": [],
-          "meta": {
-            "status": "ingame",
-            "perf": "poor",
-            "device": "iPhone18,3",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3",
-            "gpuBackend": "MSL"
-          }
-        },
-        {
-          "id": "comment-4015746362",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/42#issuecomment-4015746362",
-          "author": "xenios-jp",
-          "createdAt": "2026-02-28",
-          "createdAtMs": 1772273380000,
-          "issueNumber": 42,
-          "excerpt": "Does not boot",
-          "images": [],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPhone 16 Pro Max",
-            "platform": "macOS",
-            "osVersion": "macOS 18.3",
-            "gpuBackend": "MSL"
-          }
-        },
-        {
-          "id": "comment-4015746360",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/42#issuecomment-4015746360",
-          "author": "xenios-jp",
-          "createdAt": "2026-02-28",
-          "createdAtMs": 1772262794000,
-          "issueNumber": 42,
-          "excerpt": "Does not boot",
-          "images": [],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPhone 17",
-            "platform": "macOS",
-            "osVersion": "macOS iOS 26.3",
             "gpuBackend": "MSL"
           }
         }

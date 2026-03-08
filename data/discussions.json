@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-08T10:17:13.712Z",
+  "generatedAt": "2026-03-08T11:19:48.351Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1312,6 +1312,29 @@
       "updatedAt": "2026-03-08",
       "entries": [
         {
+          "id": "comment-4018869257",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/42#issuecomment-4018869257",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1772968770000,
+          "issueNumber": 42,
+          "excerpt": "Dev test report pre release",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "poor",
+            "device": "iPhone 17",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9271",
+            "commitShort": "`21f106d09e`"
+          }
+        },
+        {
           "id": "comment-4018640275",
           "type": "comment",
           "url": "https://github.com/xenios-jp/game-compatibility/issues/42#issuecomment-4018640275",
@@ -1411,25 +1434,6 @@
             "device": "iPhone17,1",
             "platform": "iOS",
             "osVersion": "iOS 18.5",
-            "gpuBackend": "MSL"
-          }
-        },
-        {
-          "id": "comment-4015746366",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/42#issuecomment-4015746366",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-01",
-          "createdAtMs": 1772361866000,
-          "issueNumber": 42,
-          "excerpt": "Campaign cutscene cannot transition into gameplay in at least the first level. Workaround is to hit A to skip loop it once, back out, and start the actual first mission from the campaign menu. \n\nPerformance is about 15fps on iPhone 17.",
-          "images": [],
-          "meta": {
-            "status": "ingame",
-            "perf": "poor",
-            "device": "iPhone18,3",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3",
             "gpuBackend": "MSL"
           }
         }

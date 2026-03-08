@@ -2,7 +2,7 @@
 
 > **42 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **10** · 🔵 In-Game: **12** · 🟡 Intro: **7** · 🟠 Loads: **5** · 🔴 Doesn't Boot: **8**
+> 🟢 Playable: **10** · 🔵 In-Game: **11** · 🟡 Intro: **8** · 🟠 Loads: **5** · 🔴 Doesn't Boot: **8**
 >
 > 📱 iOS: **39** · 🖥️ macOS: **4**
 
@@ -30,12 +30,11 @@
 | 🟢 | STEINS;GATE 比翼恋理のだーりん | `465607E8` | 📱 iOS | Playable | 🚀 Great | iPhone 17 | 2026-03-02 |
 | 🟢 | Title 534507EE | `534507EE` | 📱 iOS | Playable | 👌 OK | iPhone 17 Pro Max | 2026-03-03 |
 | 🟢 | Title 565707D0 | `565707D0` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-03 |
-| 🔵 | Bayonetta | `53450813` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 | 2026-03-01 |
+| 🔵 | Bayonetta | `53450813` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 | 2026-03-08 |
 | 🔵 | Call of Duty 4 | `415607E6` | 📱 iOS | In-Game | 👌 OK | iPhone 17 | 2026-03-01 |
 | 🔵 | Diablo III: RoS | `394F07D4` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 | 2026-03-06 |
 | 🔵 | Gears of War | `4D5307D5` | 🖥️ macOS | In-Game | 👌 OK | MacBook Pro M4 Pro/Max | 2026-02-28 |
 | 🔵 | GTA IV | `545407F2` | 🖥️ macOS | In-Game | 🐢 Poor | MacBook Pro M4 Pro/Max | 2026-02-28 |
-| 🔵 | Halo 3 | `4D5307E6` | 📱 iOS, 🖥️ macOS | In-Game | 🐢 Poor | iPhone 17 | 2026-03-07 |
 | 🔵 | Halo: CE Anniversary | `4D5309B1` | 📱 iOS | In-Game | 🚀 Great | iPhone 17 | 2026-03-06 |
 | 🔵 | Halo: Reach | `4D53085B` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 | 2026-03-06 |
 | 🔵 | Just Cause 2 | `534307E7` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 | 2026-03-06 |
@@ -46,6 +45,7 @@
 | 🟡 | DB: Raging Blast | `4E4D0803` | 📱 iOS | Intro | 🐢 Poor | iPad Pro (M2) | 2026-03-02 |
 | 🟡 | DEAD RISING | `434307D2` | 📱 iOS | Intro | 👌 OK | iPad (11th gen) | 2026-03-04 |
 | 🟡 | DOOM 3 BFG Edition | `425307F1` | 📱 iOS | Intro | 🚀 Great | iPhone 16 Pro | 2026-03-03 |
+| 🟡 | Halo 3 | `4D5307E6` | 📱 iOS, 🖥️ macOS | Intro | 🐢 Poor | iPhone 17 | 2026-03-08 |
 | 🟡 | Halo 3: ODST | `4D530877` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro | 2026-03-03 |
 | 🟡 | Halo Wars | `4D530808` | 📱 iOS | Intro | 👌 OK | iPhone 17 | 2026-03-03 |
 | 🟡 | Tales of Vesperia | `4E4D07E9` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro | 2026-03-03 |
