@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-08T18:26:43.648Z",
+  "generatedAt": "2026-03-08T18:27:08.161Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -757,6 +757,29 @@
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/7",
       "updatedAt": "2026-03-08",
       "entries": [
+        {
+          "id": "comment-4019731187",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/7#issuecomment-4019731187",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1772994410000,
+          "issueNumber": 7,
+          "excerpt": "Runs",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "poor",
+            "device": "iPhone 15 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        },
         {
           "id": "comment-4019730549",
           "type": "comment",
