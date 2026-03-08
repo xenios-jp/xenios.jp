@@ -5218,5 +5218,244 @@
         }
       }
     }
+  },
+  {
+    "slug": "halo-4",
+    "title": "Halo 4",
+    "titleId": "4D530919",
+    "status": "intro",
+    "perf": "ok",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 17 Pro Max",
+      "platform": "ios",
+      "osVersion": "26.3.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-08",
+    "notes": "Can make it through the menu, but that’s it",
+    "reports": [
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "intro",
+        "perf": "ok",
+        "date": "2026-03-08",
+        "notes": "Can make it through the menu, but that’s it",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "stage": "stable",
+          "commitShort": "2633e8177",
+          "buildId": "ios-self-built-1.0.0-9280"
+        }
+      }
+    ],
+    "screenshots": [],
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "intro",
+        "perf": "ok",
+        "notes": "Can make it through the menu, but that’s it",
+        "updatedAt": "2026-03-08",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "intro",
+          "perf": "ok",
+          "date": "2026-03-08",
+          "notes": "Can make it through the menu, but that’s it",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "stage": "stable",
+            "commitShort": "2633e8177",
+            "buildId": "ios-self-built-1.0.0-9280"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "intro",
+          "perf": "ok",
+          "date": "2026-03-08",
+          "notes": "Can make it through the menu, but that’s it",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "stage": "stable",
+            "commitShort": "2633e8177",
+            "buildId": "ios-self-built-1.0.0-9280"
+          }
+        }
+      }
+    },
+    "issueNumber": 57,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/57"
+  },
+  {
+    "slug": "saints-row-2",
+    "title": "Saints Row 2",
+    "titleId": "545107FC",
+    "status": "ingame",
+    "perf": "poor",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 14 Pro Max",
+      "platform": "ios",
+      "osVersion": "26.3",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-08",
+    "notes": "Some graphical issues, no audio except intro.",
+    "reports": [
+      {
+        "device": "iPhone 14 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "poor",
+        "date": "2026-03-08",
+        "notes": "Some graphical issues, no audio except intro.",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "stage": "stable",
+          "commitShort": "2633e8177",
+          "buildId": "ios-self-built-1.0.0-9280"
+        }
+      }
+    ],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545107FC/1772997152312-1.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545107FC/1772997152312-2.jpg"
+    ],
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "ingame",
+        "perf": "poor",
+        "notes": "Some graphical issues, no audio except intro.",
+        "updatedAt": "2026-03-08",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 14 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-03-08",
+          "notes": "Some graphical issues, no audio except intro.",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "stage": "stable",
+            "commitShort": "2633e8177",
+            "buildId": "ios-self-built-1.0.0-9280"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 14 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-03-08",
+          "notes": "Some graphical issues, no audio except intro.",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "stage": "stable",
+            "commitShort": "2633e8177",
+            "buildId": "ios-self-built-1.0.0-9280"
+          }
+        }
+      }
+    },
+    "issueNumber": 58,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/58"
   }
 ]

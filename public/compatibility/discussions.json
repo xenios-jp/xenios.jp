@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-08T19:06:25.480Z",
+  "generatedAt": "2026-03-08T19:12:57.434Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -353,6 +353,71 @@
             "platform": "iOS",
             "osVersion": "iOS 18.5",
             "gpuBackend": "MSL"
+          }
+        }
+      ]
+    },
+    "545107FC": {
+      "titleId": "545107FC",
+      "issueNumber": 58,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/58",
+      "updatedAt": "2026-03-08",
+      "entries": [
+        {
+          "id": "issue-58",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/58",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1772997157000,
+          "issueNumber": 58,
+          "excerpt": "Some graphical issues, no audio except intro.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545107FC/1772997152312-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545107FC/1772997152312-2.jpg"
+          ],
+          "meta": {
+            "status": "ingame",
+            "perf": "poor",
+            "device": "iPhone 14 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        }
+      ]
+    },
+    "4D530919": {
+      "titleId": "4D530919",
+      "issueNumber": 57,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/57",
+      "updatedAt": "2026-03-08",
+      "entries": [
+        {
+          "id": "issue-57",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/57",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1772996899000,
+          "issueNumber": 57,
+          "excerpt": "Can make it through the menu, but that’s it",
+          "images": [],
+          "meta": {
+            "status": "intro",
+            "perf": "ok",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
           }
         }
       ]
