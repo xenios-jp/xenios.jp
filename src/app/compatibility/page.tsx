@@ -1,7 +1,7 @@
-import { getAllGames } from "@/lib/compatibility";
+import { getCompatibilityListEntries } from "@/lib/game-detail";
 import { CompatibilityList } from "./compatibility-list";
 
-export default function CompatibilityPage() {
-  const games = getAllGames();
-  return <CompatibilityList games={games} />;
+export default async function CompatibilityPage() {
+  const entries = await getCompatibilityListEntries();
+  return <CompatibilityList entries={entries} />;
 }

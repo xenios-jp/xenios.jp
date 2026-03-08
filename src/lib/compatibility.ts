@@ -42,6 +42,7 @@ export interface GameReport extends LastReportSnapshot {
   perf?: PerfTier;
   date: string;
   notes: string;
+  screenshots?: string[];
   submittedBy?: string;
   source?: ReportSource;
   build?: ReportBuild;
@@ -296,6 +297,7 @@ function normalizeReport(value: unknown): GameReport | null {
     perf,
     date,
     notes,
+    screenshots: normalizeStringArray(record.screenshots),
     submittedBy: cleanString(record.submittedBy) ?? undefined,
     source:
       record.source === "app" || record.source === "discord" || record.source === "github"
@@ -460,9 +462,11 @@ function normalizeGame(value: unknown): Game {
   };
 }
 
-const normalizedGames = Array.isArray(compatData)
-  ? compatData.map((entry) => normalizeGame(entry))
-  : [];
+export function normalizeGames(value: unknown): Game[] {
+  return Array.isArray(value) ? value.map((entry) => normalizeGame(entry)) : [];
+}
+
+const normalizedGames = normalizeGames(compatData);
 
 export function getStatuses(): StatusOption[] {
   return [

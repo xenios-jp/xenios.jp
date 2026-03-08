@@ -1,11 +1,16 @@
-import { Suspense } from "react";
 import { notFound } from "next/navigation";
-import { getActiveSummary, getAllGames, getGameBySlug, getStatusLabel } from "@/lib/compatibility";
-import { getDiscussionByTitleId } from "@/lib/discussions";
+import { getStatusLabel } from "@/lib/compatibility";
+import {
+  getCompatibilityGameBySlug,
+  getCompatibilityGames,
+  getGameDetailViewModel,
+  selectPrimaryReleaseCard,
+} from "@/lib/game-detail";
 import { GameDetailClient } from "./game-detail-client";
 
-export function generateStaticParams() {
-  return getAllGames().map((game) => ({ slug: game.slug }));
+export async function generateStaticParams() {
+  const games = await getCompatibilityGames();
+  return games.map((game) => ({ slug: game.slug }));
 }
 
 export async function generateMetadata({
@@ -14,14 +19,18 @@ export async function generateMetadata({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-  const game = getGameBySlug(slug);
+  const game = await getCompatibilityGameBySlug(slug);
   if (!game) return { title: "Game Not Found" };
 
-  const summary = getActiveSummary(game, "release");
+  const detail = await getGameDetailViewModel(game);
+  const primaryCard = selectPrimaryReleaseCard(detail.releaseCards);
+  const releaseStatus = primaryCard?.verified
+    ? getStatusLabel(primaryCard.status)
+    : "Unverified";
 
   return {
     title: `${game.title} — Compatibility`,
-    description: `XeniOS compatibility report for ${game.title} (${game.titleId}). Release status: ${getStatusLabel(summary.status)}.`,
+    description: `XeniOS compatibility report for ${game.title} (${game.titleId}). Current public release status: ${releaseStatus}.`,
   };
 }
 
@@ -31,13 +40,9 @@ export default async function GameDetailPage({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-  const game = getGameBySlug(slug);
+  const game = await getCompatibilityGameBySlug(slug);
   if (!game) notFound();
 
-  const discussion = getDiscussionByTitleId(game.titleId);
-  return (
-    <Suspense>
-      <GameDetailClient game={game} discussion={discussion} />
-    </Suspense>
-  );
+  const detail = await getGameDetailViewModel(game);
+  return <GameDetailClient game={game} detail={detail} />;
 }
