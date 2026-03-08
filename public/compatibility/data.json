@@ -5969,5 +5969,125 @@
         }
       }
     }
+  },
+  {
+    "slug": "crash-of-the-titans",
+    "title": "Crash Of The Titans",
+    "titleId": "565507E4",
+    "status": "loads",
+    "perf": "great",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPad 11th Gen",
+      "platform": "ios",
+      "osVersion": "18.3",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-08",
+    "notes": "Only boots the game on Loading Screen.",
+    "reports": [
+      {
+        "device": "iPad 11th Gen",
+        "platform": "ios",
+        "osVersion": "18.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "loads",
+        "perf": "great",
+        "date": "2026-03-08",
+        "notes": "Only boots the game on Loading Screen.",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "stage": "stable",
+          "commitShort": "2633e8177",
+          "buildId": "ios-self-built-1.0.0-9280"
+        }
+      }
+    ],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/565507E4/1773000102062-1.jpg"
+    ],
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "loads",
+        "perf": "great",
+        "notes": "Only boots the game on Loading Screen.",
+        "updatedAt": "2026-03-08",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPad 11th Gen",
+          "platform": "ios",
+          "osVersion": "18.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "loads",
+          "perf": "great",
+          "date": "2026-03-08",
+          "notes": "Only boots the game on Loading Screen.",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "stage": "stable",
+            "commitShort": "2633e8177",
+            "buildId": "ios-self-built-1.0.0-9280"
+          }
+        },
+        "bestReport": {
+          "device": "iPad 11th Gen",
+          "platform": "ios",
+          "osVersion": "18.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "loads",
+          "perf": "great",
+          "date": "2026-03-08",
+          "notes": "Only boots the game on Loading Screen.",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "stage": "stable",
+            "commitShort": "2633e8177",
+            "buildId": "ios-self-built-1.0.0-9280"
+          }
+        }
+      }
+    },
+    "issueNumber": 72,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/72"
   }
 ]

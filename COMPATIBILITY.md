@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **53 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **54 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **13** · 🔵 In-Game: **12** · 🟡 Intro: **11** · 🟠 Loads: **5** · 🔴 Doesn't Boot: **12**
+> 🟢 Playable: **13** · 🔵 In-Game: **12** · 🟡 Intro: **11** · 🟠 Loads: **6** · 🔴 Doesn't Boot: **12**
 >
-> 📱 iOS: **51** · 🖥️ macOS: **4**
+> 📱 iOS: **52** · 🖥️ macOS: **4**
 
 ## Legend
 
@@ -56,6 +56,7 @@
 | 🟡 | Halo Wars | `4D530808` | 📱 iOS | Intro | 👌 OK | iPhone 17 | 2026-03-03 |
 | 🟡 | Oblivion | `425307D1` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro Max | 2026-03-08 |
 | 🟡 | Tales of Vesperia | `4E4D07E9` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro | 2026-03-03 |
+| 🟠 | Crash Of The Titans | `565507E4` | 📱 iOS | Loads | 🚀 Great | iPad 11th Gen | 2026-03-08 |
 | 🟠 | Jeopardy! | `545108AE` | 📱 iOS | Loads | 🐢 Poor | iPhone 16 Pro | 2026-03-05 |
 | 🟠 | Left 4 Dead | `45410830` | 📱 iOS | Loads | 👌 OK | iPhone 17 Pro Max | 2026-03-02 |
 | 🟠 | Lost Odyssey | `4D5307FA` | 📱 iOS | Loads | 🐢 Poor | iPhone 16 Pro | 2026-03-03 |

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-08T19:55:44.517Z",
+  "generatedAt": "2026-03-08T20:02:08.355Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -139,7 +139,7 @@
       "titleId": "45410830",
       "issueNumber": 35,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/35",
-      "updatedAt": "2026-03-07",
+      "updatedAt": "2026-03-08",
       "entries": [
         {
           "id": "issue-35",
@@ -399,6 +399,39 @@
             "platform": "iOS",
             "osVersion": "iOS 18.5",
             "gpuBackend": "MSL"
+          }
+        }
+      ]
+    },
+    "565507E4": {
+      "titleId": "565507E4",
+      "issueNumber": 72,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/72",
+      "updatedAt": "2026-03-08",
+      "entries": [
+        {
+          "id": "issue-72",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/72",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1773000105000,
+          "issueNumber": 72,
+          "excerpt": "Only boots the game on Loading Screen.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/565507E4/1773000102062-1.jpg"
+          ],
+          "meta": {
+            "status": "loads",
+            "perf": "great",
+            "device": "iPad 11th Gen",
+            "platform": "iOS",
+            "osVersion": "iOS 18.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
           }
         }
       ]
