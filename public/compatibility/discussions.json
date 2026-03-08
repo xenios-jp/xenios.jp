@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-08T19:32:47.530Z",
+  "generatedAt": "2026-03-08T19:34:50.254Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -377,6 +377,26 @@
             "osVersion": "iOS 18.5",
             "gpuBackend": "MSL"
           }
+        }
+      ]
+    },
+    "415608C3": {
+      "titleId": "415608C3",
+      "issueNumber": 66,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/66",
+      "updatedAt": "2026-03-08",
+      "entries": [
+        {
+          "id": "issue-66",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/66",
+          "author": "QualityControled",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1772998433000,
+          "issueNumber": 66,
+          "excerpt": "Upon launch, full cyan colored screen. Nothing else.",
+          "images": [],
+          "meta": {}
         }
       ]
     },
