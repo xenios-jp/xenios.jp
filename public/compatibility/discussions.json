@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-08T22:14:26.229Z",
+  "generatedAt": "2026-03-08T22:16:38.573Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -509,6 +509,38 @@
         }
       ]
     },
+    "4541087F": {
+      "titleId": "4541087F",
+      "issueNumber": 100,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/100",
+      "updatedAt": "2026-03-08",
+      "entries": [
+        {
+          "id": "issue-100",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/100",
+          "author": "sinceohsix",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1773008178000,
+          "issueNumber": 100,
+          "excerpt": "The game boots and you can get into the main game as expected. Video content (e.g. pre-rendered cutscenes and intro sequences) have heavy graphical glitches during playback. Career mode crashes after character creation, but Freeskate works as expected. There is also an issue related to, what I think is, the physics with the skaters hair.",
+          "images": [],
+          "meta": {}
+        },
+        {
+          "id": "issue-67",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/67",
+          "author": "sinceohsix",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1772998660000,
+          "issueNumber": 67,
+          "excerpt": "The game boots and you can get into the main game as expected. Video content (e.g. pre-rendered cutscenes and intro sequences) have heavy graphical glitches during playback. There is also an issue related to, what I think is, the physics with the skaters hair.",
+          "images": [],
+          "meta": {}
+        }
+      ]
+    },
     "555308C3": {
       "titleId": "555308C3",
       "issueNumber": 99,
@@ -987,26 +1019,6 @@
           "createdAtMs": 1772990762000,
           "issueNumber": 46,
           "excerpt": "The game launches but crashes when you start a game.",
-          "images": [],
-          "meta": {}
-        }
-      ]
-    },
-    "4541087F": {
-      "titleId": "4541087F",
-      "issueNumber": 67,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/67",
-      "updatedAt": "2026-03-08",
-      "entries": [
-        {
-          "id": "issue-67",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/67",
-          "author": "sinceohsix",
-          "createdAt": "2026-03-08",
-          "createdAtMs": 1772998660000,
-          "issueNumber": 67,
-          "excerpt": "The game boots and you can get into the main game as expected. Video content (e.g. pre-rendered cutscenes and intro sequences) have heavy graphical glitches during playback. There is also an issue related to, what I think is, the physics with the skaters hair.",
           "images": [],
           "meta": {}
         }
