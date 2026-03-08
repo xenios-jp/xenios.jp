@@ -157,9 +157,17 @@ const iosDocs: Record<string, DocEntry> = {
 ├── YourGame.iso        (disc image)
 ├── YourGame.zar        (compressed archive)
 ├── content/            (STFS/XContent packages)
+├── patches/            (manual game patch files)
 ├── xenios.config.toml
 └── xenia.log`}</pre>
         </div>
+        <p className="mt-3 text-[15px] text-text-secondary leading-relaxed">
+          Game patches are also supported on iPhone and iPad, but they are not
+          currently exposed in the in-app UI. Bring the{" "}
+          <C>patches</C> folder that contains your patch files into the main{" "}
+          <C>XeniOS.app</C> folder, then edit those patch files manually in the
+          Files app or an external text editor.
+        </p>
 
         <h2>First Launch</h2>
         <p className="mt-3 text-[15px] text-text-secondary leading-relaxed">

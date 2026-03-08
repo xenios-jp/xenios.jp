@@ -520,6 +520,29 @@ const games = [
     ),
   },
   {
+    title: "Are game patches supported on iPhone / iPad?",
+    content: (
+      <div className="space-y-2">
+        <p>
+          Yes. Game patches are supported on iPhone and iPad, but there is no
+          built-in UI for them yet.
+        </p>
+        <p>
+          Copy the{" "}
+          <code className="text-text-primary bg-bg-surface-2 px-1 rounded">
+            patches
+          </code>{" "}
+          folder that contains your patch files into the main{" "}
+          <code className="text-text-primary bg-bg-surface-2 px-1 rounded">
+            XeniOS.app
+          </code>{" "}
+          folder, then edit the patch files manually in the Files app or an
+          external text editor.
+        </p>
+      </div>
+    ),
+  },
+  {
     title: "Can I play Xbox Live Arcade (XBLA) games?",
     content: (
       <p>

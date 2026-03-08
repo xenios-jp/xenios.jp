@@ -391,9 +391,20 @@ export default function DownloadPage() {
               </li>
             </ol>
             <div className="mt-10">
-              <span className="inline-flex items-center rounded-lg bg-accent px-8 py-3.5 text-[15px] font-medium text-accent-fg opacity-70">
-                Coming Soon
-              </span>
+              {releaseArtifact?.downloadUrl ? (
+                <a
+                  href={releaseArtifact.downloadUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center rounded-lg bg-accent px-8 py-3.5 text-[15px] font-medium text-accent-fg transition hover:bg-accent-hover"
+                >
+                  Download .ipa
+                </a>
+              ) : (
+                <span className="inline-flex items-center rounded-lg bg-accent px-8 py-3.5 text-[15px] font-medium text-accent-fg opacity-70">
+                  Coming Soon
+                </span>
+              )}
             </div>
           </div>
         </div>
