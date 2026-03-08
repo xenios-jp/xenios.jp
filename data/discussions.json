@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-08T21:45:37.691Z",
+  "generatedAt": "2026-03-08T21:57:22.736Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -484,6 +484,26 @@
             "osVersion": "iOS 18.5",
             "gpuBackend": "MSL"
           }
+        }
+      ]
+    },
+    "4541094C": {
+      "titleId": "4541094C",
+      "issueNumber": 97,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/97",
+      "updatedAt": "2026-03-08",
+      "entries": [
+        {
+          "id": "issue-97",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/97",
+          "author": "QualityControled",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1773007024000,
+          "issueNumber": 97,
+          "excerpt": "Graphical issues with pre-rendered scenes.\nLoads into gameplay. But the basketball NETS are causing severe gameplay issues.",
+          "images": [],
+          "meta": {}
         }
       ]
     },
