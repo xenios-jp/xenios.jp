@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **63 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **64 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **16** · 🔵 In-Game: **12** · 🟡 Intro: **12** · 🟠 Loads: **8** · 🔴 Doesn't Boot: **15**
+> 🟢 Playable: **17** · 🔵 In-Game: **12** · 🟡 Intro: **12** · 🟠 Loads: **8** · 🔴 Doesn't Boot: **15**
 >
-> 📱 iOS: **61** · 🖥️ macOS: **4**
+> 📱 iOS: **62** · 🖥️ macOS: **4**
 
 ## Legend
 
@@ -31,6 +31,7 @@
 | 🟢 | Guacamelee | `00000000` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-03 |
 | 🟢 | Halo: CE Anniversary | `4D5309B1` | 📱 iOS | Playable | 🚀 Great | iPhone 15 Pro Max | 2026-03-08 |
 | 🟢 | PES 2012/WE 2012 | `4B4E0837` | 📱 iOS | Playable | 👌 OK | iPhone 14 Pro Max | 2026-03-08 |
+| 🟢 | Ridge Racer 6 | `4E4D07D3` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-08 |
 | 🟢 | STEINS;GATE 比翼恋理のだーりん | `465607E8` | 📱 iOS | Playable | 🚀 Great | iPhone 17 | 2026-03-02 |
 | 🟢 | The Outfit | `545107D2` | 📱 iOS | Playable | 🐢 Poor | iPhone 15 Pro Max | 2026-03-08 |
 | 🟢 | Title 4D5307ED | `4D5307ED` | 📱 iOS | Playable | 🐢 Poor | iPhone 15 Pro Max | 2026-03-08 |
