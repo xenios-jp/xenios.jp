@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **66 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **67 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **18** · 🔵 In-Game: **13** · 🟡 Intro: **12** · 🟠 Loads: **8** · 🔴 Doesn't Boot: **15**
+> 🟢 Playable: **18** · 🔵 In-Game: **14** · 🟡 Intro: **12** · 🟠 Loads: **8** · 🔴 Doesn't Boot: **15**
 >
-> 📱 iOS: **64** · 🖥️ macOS: **4**
+> 📱 iOS: **65** · 🖥️ macOS: **4**
 
 ## Legend
 
@@ -47,6 +47,7 @@
 | 🔵 | Metro: Last Light | `4B4D07F5` | 🖥️ macOS | In-Game | 👌 OK | MacBook Pro M4 Pro/Max | 2026-02-28 |
 | 🔵 | NBA Jam | `4541094C` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro Max | 2026-03-08 |
 | 🔵 | PAC-MAN™ GHOSTLY ADV | `4E4D0865` | 📱 iOS | In-Game | 🐢 Poor | iPhone 15 Pro Max | 2026-03-08 |
+| 🔵 | Rayman Legends | `555308C3` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro Max | 2026-03-08 |
 | 🔵 | Saints Row 2 | `545107FC` | 📱 iOS | In-Game | 🐢 Poor | iPhone 14 Pro Max | 2026-03-08 |
 | 🔵 | skate. | `45410813` | 📱 iOS | In-Game | 🐢 Poor | iPad Pro (M2) | 2026-03-03 |
 | 🔵 | SONIC UNLEASHED | `53450812` | 📱 iOS | In-Game | 👌 OK | iPhone 17 | 2026-03-06 |

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-08T22:12:18.023Z",
+  "generatedAt": "2026-03-08T22:14:26.229Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -506,6 +506,26 @@
             "osVersion": "iOS 18.5",
             "gpuBackend": "MSL"
           }
+        }
+      ]
+    },
+    "555308C3": {
+      "titleId": "555308C3",
+      "issueNumber": 99,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/99",
+      "updatedAt": "2026-03-08",
+      "entries": [
+        {
+          "id": "issue-99",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/99",
+          "author": "QualityControled",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1773008045000,
+          "issueNumber": 99,
+          "excerpt": "Pre-rendered scenes for intro have graphical and audio issues.\nUpon clicking \"New Game\", opening screen only has graphical issues. \nWhen the game renders, assets take a second to load in. But, game speed is about half what it should be.",
+          "images": [],
+          "meta": {}
         }
       ]
     },

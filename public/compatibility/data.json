@@ -5357,6 +5357,159 @@
     }
   },
   {
+    "slug": "rayman-legends",
+    "title": "Rayman Legends",
+    "titleId": "555308C3",
+    "status": "ingame",
+    "perf": "poor",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 17 Pro Max",
+      "platform": "ios",
+      "osVersion": "26.3",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-08",
+    "notes": "Pre-rendered scenes for intro have graphical and audio issues.\nUpon clicking \"New Game\", opening screen only has graphical issues. \nWhen the game renders, assets take a second to load in. But, game speed is about half what it should be.",
+    "reports": [
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "poor",
+        "date": "2026-03-08",
+        "notes": "Pre-rendered scenes for intro have graphical and audio issues.\nUpon clicking \"New Game\", opening screen only has graphical issues. \nWhen the game renders, assets take a second to load in. But, game speed is about half what it should be.",
+        "source": "github",
+        "build": {
+          "buildId": "ios-release-1.0.0-9280",
+          "channel": "release",
+          "official": true,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "commitShort": "2633E8177"
+        }
+      }
+    ],
+    "screenshots": [],
+    "issueNumber": 99,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/99",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "ingame",
+        "perf": "poor",
+        "notes": "Pre-rendered scenes for intro have graphical and audio issues.\nUpon clicking \"New Game\", opening screen only has graphical issues. \nWhen the game renders, assets take a second to load in. But, game speed is about half what it should be.",
+        "updatedAt": "2026-03-08",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-03-08",
+          "notes": "Pre-rendered scenes for intro have graphical and audio issues.\nUpon clicking \"New Game\", opening screen only has graphical issues. \nWhen the game renders, assets take a second to load in. But, game speed is about half what it should be.",
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-1.0.0-9280",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "2633E8177"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-03-08",
+          "notes": "Pre-rendered scenes for intro have graphical and audio issues.\nUpon clicking \"New Game\", opening screen only has graphical issues. \nWhen the game renders, assets take a second to load in. But, game speed is about half what it should be.",
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-1.0.0-9280",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "2633E8177"
+          }
+        }
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "ingame",
+        "perf": "poor",
+        "notes": "Pre-rendered scenes for intro have graphical and audio issues.\nUpon clicking \"New Game\", opening screen only has graphical issues. \nWhen the game renders, assets take a second to load in. But, game speed is about half what it should be.",
+        "updatedAt": "2026-03-08",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-03-08",
+          "notes": "Pre-rendered scenes for intro have graphical and audio issues.\nUpon clicking \"New Game\", opening screen only has graphical issues. \nWhen the game renders, assets take a second to load in. But, game speed is about half what it should be.",
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-1.0.0-9280",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "2633E8177"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-03-08",
+          "notes": "Pre-rendered scenes for intro have graphical and audio issues.\nUpon clicking \"New Game\", opening screen only has graphical issues. \nWhen the game renders, assets take a second to load in. But, game speed is about half what it should be.",
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-1.0.0-9280",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "2633E8177"
+          }
+        }
+      }
+    }
+  },
+  {
     "slug": "resident-evil-5",
     "title": "RESIDENT EVIL 5",
     "titleId": "434307D4",
