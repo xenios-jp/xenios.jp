@@ -17,6 +17,10 @@ export const COMPATIBILITY_TRACKER_REPORT_URL =
 
 export const DISCORD_URL = "https://discord.gg/QwcTtNKTGf";
 export const KOFI_URL = "https://ko-fi.com/xenios";
+export const STIKDEBUG_URL = "https://github.com/StephenDev0/StikDebug";
+export const SIDESTORE_JIT_GUIDE_URL = "https://docs.sidestore.io/docs/advanced/jit";
+export const LOCALDEVVPN_APPSTORE_URL =
+  "https://apps.apple.com/us/app/localdevvpn/id6755608044";
 
 export const XENIA_UPSTREAM_OWNER = "xenia-project";
 export const XENIA_UPSTREAM_REPO_URL = `https://github.com/${XENIA_UPSTREAM_OWNER}`;

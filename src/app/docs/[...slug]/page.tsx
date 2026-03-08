@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Callout } from "@/components/callout";
+import { IosReadFirst } from "@/components/ios-read-first";
 import {
   DISCORD_URL,
   EMULATOR_GITHUB_URL,
@@ -30,18 +31,19 @@ const iosDocs: Record<string, DocEntry> = {
         <h2>Read First</h2>
         <div className="mb-6">
           <Callout type="warning">
-            XeniOS requires JIT to run games. This is normal on iOS: installing
-            the app is not enough by itself. Enable JIT with{" "}
-            <a href="https://github.com/StephenDev0/StikDebug" target="_blank" rel="noopener noreferrer" className="text-accent underline underline-offset-2 hover:text-accent-hover font-semibold">StikDebug</a>. Depending on your
-            iOS / iPadOS version and device, this may also require{" "}
-            <a href="https://apps.apple.com/us/app/localdevvpn/id6755608044" target="_blank" rel="noopener noreferrer" className="text-accent underline underline-offset-2 hover:text-accent-hover font-semibold">LocalDevVPN</a>. Check the{" "}
-            <a href="https://docs.sidestore.io/docs/advanced/jit" target="_blank" rel="noopener noreferrer" className="text-accent underline underline-offset-2 hover:text-accent-hover font-semibold">latest SideStore JIT guide</a>{" "}
-            before assuming a setup will work unchanged. Not every game runs
-            yet, and performance and stability still vary by title and device.
-            XeniOS is still alpha software, so do not expect a polished or
-            perfect experience yet.
-            If you are blocked on setup, use{" "}
-            <a href={DISCORD_URL} target="_blank" rel="noopener noreferrer" className="text-accent underline underline-offset-2 hover:text-accent-hover font-semibold">Discord</a>.
+            <IosReadFirst tone="secondary" />
+            <p className="mt-3 text-[15px] leading-relaxed text-text-secondary">
+              If you are blocked on setup, use{" "}
+              <a
+                href={DISCORD_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-accent underline underline-offset-2 hover:text-accent-hover font-semibold"
+              >
+                Discord
+              </a>
+              .
+            </p>
           </Callout>
         </div>
 

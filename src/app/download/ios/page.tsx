@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { IosReadFirst } from "@/components/ios-read-first";
 import {
   formatFileSize,
   formatPublishedDate,
@@ -183,41 +184,9 @@ export default function DownloadPage() {
             <h2 className="text-base font-semibold text-text-primary">
               Read first: required to run games
             </h2>
-            <p className="mt-2 text-[15px] leading-relaxed text-text-primary">
-              Installing the app and running games are two different steps.
-              XeniOS can install successfully but still fail to launch games
-              until JIT is enabled.
-            </p>
-            <p className="mt-3 text-[15px] leading-relaxed text-text-primary">
-              XeniOS is still alpha software. Expect crashes, rough edges, and
-              title-specific problems. Do not expect a polished or fully stable
-              experience yet, even if installation succeeds.
-            </p>
-            <ol className="mt-3 list-decimal space-y-2 pl-5 text-[15px] leading-relaxed text-text-primary">
-              <li>Install XeniOS using the SideStore IPA method below.</li>
-              <li>
-                Enable JIT with <strong>StikDebug</strong>.
-              </li>
-              <li>
-                Depending on your iOS / iPadOS version and device, you may also
-                need <strong>LocalDevVPN</strong>. Current public JIT guidance
-                covers normal StikDebug flows on 17.4-18.x, older 17.0-17.3
-                setups that may need alternatives such as SideJITServer, and
-                iOS 26 setups that are more version- and device-sensitive.
-              </li>
-              <li>
-                Before troubleshooting by guesswork, check the latest{" "}
-                <a
-                  href="https://docs.sidestore.io/docs/advanced/jit"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-accent underline decoration-accent/30 underline-offset-2 hover:decoration-accent"
-                >
-                  SideStore JIT guide
-                </a>{" "}
-                for the current StikDebug / LocalDevVPN requirements.
-              </li>
-            </ol>
+            <div className="mt-2">
+              <IosReadFirst tone="primary" />
+            </div>
             <p className="mt-3 text-[14px] text-text-secondary">
               Plain English: JIT is the permission the emulator needs to execute
               translated game code. Without it, games won&apos;t start.
