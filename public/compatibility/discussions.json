@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-08T20:13:10.149Z",
+  "generatedAt": "2026-03-08T20:20:27.773Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -399,6 +399,37 @@
             "platform": "iOS",
             "osVersion": "iOS 18.5",
             "gpuBackend": "MSL"
+          }
+        }
+      ]
+    },
+    "544307D5": {
+      "titleId": "544307D5",
+      "issueNumber": 73,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/73",
+      "updatedAt": "2026-03-08",
+      "entries": [
+        {
+          "id": "issue-73",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/73",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1773001205000,
+          "issueNumber": 73,
+          "excerpt": "Absolutely nothing when trying to load game",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 15 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
           }
         }
       ]
