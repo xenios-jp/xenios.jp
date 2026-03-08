@@ -3766,6 +3766,159 @@
     }
   },
   {
+    "slug": "mirror-s-edge",
+    "title": "Mirror's Edge™",
+    "titleId": "45410850",
+    "status": "ingame",
+    "perf": "poor",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone Air",
+      "platform": "ios",
+      "osVersion": "26.0",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-08",
+    "notes": "So when this took 3-4 boots to get into game the first boot gets in gale but doesn't get in the title screen the second boot gets in the title screen but when playing the video (chapter) it doesn't work and same for 3 but the 4th time it actually got past and it's playable but it loads all of the assets/shaders super slowly taking around 1-3 minutes to load almost all of it",
+    "reports": [
+      {
+        "device": "iPhone Air",
+        "platform": "ios",
+        "osVersion": "26.0",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "poor",
+        "date": "2026-03-08",
+        "notes": "So when this took 3-4 boots to get into game the first boot gets in gale but doesn't get in the title screen the second boot gets in the title screen but when playing the video (chapter) it doesn't work and same for 3 but the 4th time it actually got past and it's playable but it loads all of the assets/shaders super slowly taking around 1-3 minutes to load almost all of it",
+        "source": "github",
+        "build": {
+          "buildId": "ios-release-1.0.0-9280",
+          "channel": "release",
+          "official": true,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "commitShort": "2633E8177"
+        }
+      }
+    ],
+    "screenshots": [],
+    "issueNumber": 76,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/76",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "ingame",
+        "perf": "poor",
+        "notes": "So when this took 3-4 boots to get into game the first boot gets in gale but doesn't get in the title screen the second boot gets in the title screen but when playing the video (chapter) it doesn't work and same for 3 but the 4th time it actually got past and it's playable but it loads all of the assets/shaders super slowly taking around 1-3 minutes to load almost all of it",
+        "updatedAt": "2026-03-08",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone Air",
+          "platform": "ios",
+          "osVersion": "26.0",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-03-08",
+          "notes": "So when this took 3-4 boots to get into game the first boot gets in gale but doesn't get in the title screen the second boot gets in the title screen but when playing the video (chapter) it doesn't work and same for 3 but the 4th time it actually got past and it's playable but it loads all of the assets/shaders super slowly taking around 1-3 minutes to load almost all of it",
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-1.0.0-9280",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "2633E8177"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone Air",
+          "platform": "ios",
+          "osVersion": "26.0",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-03-08",
+          "notes": "So when this took 3-4 boots to get into game the first boot gets in gale but doesn't get in the title screen the second boot gets in the title screen but when playing the video (chapter) it doesn't work and same for 3 but the 4th time it actually got past and it's playable but it loads all of the assets/shaders super slowly taking around 1-3 minutes to load almost all of it",
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-1.0.0-9280",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "2633E8177"
+          }
+        }
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "ingame",
+        "perf": "poor",
+        "notes": "So when this took 3-4 boots to get into game the first boot gets in gale but doesn't get in the title screen the second boot gets in the title screen but when playing the video (chapter) it doesn't work and same for 3 but the 4th time it actually got past and it's playable but it loads all of the assets/shaders super slowly taking around 1-3 minutes to load almost all of it",
+        "updatedAt": "2026-03-08",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone Air",
+          "platform": "ios",
+          "osVersion": "26.0",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-03-08",
+          "notes": "So when this took 3-4 boots to get into game the first boot gets in gale but doesn't get in the title screen the second boot gets in the title screen but when playing the video (chapter) it doesn't work and same for 3 but the 4th time it actually got past and it's playable but it loads all of the assets/shaders super slowly taking around 1-3 minutes to load almost all of it",
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-1.0.0-9280",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "2633E8177"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone Air",
+          "platform": "ios",
+          "osVersion": "26.0",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-03-08",
+          "notes": "So when this took 3-4 boots to get into game the first boot gets in gale but doesn't get in the title screen the second boot gets in the title screen but when playing the video (chapter) it doesn't work and same for 3 but the 4th time it actually got past and it's playable but it loads all of the assets/shaders super slowly taking around 1-3 minutes to load almost all of it",
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-1.0.0-9280",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "2633E8177"
+          }
+        }
+      }
+    }
+  },
+  {
     "slug": "modern-warfare-2",
     "title": "Modern Warfare® 2",
     "titleId": "41560817",

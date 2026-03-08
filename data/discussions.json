@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-08T20:24:23.230Z",
+  "generatedAt": "2026-03-08T20:26:54.344Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -159,6 +159,28 @@
             "osVersion": "iOS 26.3",
             "gpuBackend": "MSL"
           }
+        }
+      ]
+    },
+    "45410850": {
+      "titleId": "45410850",
+      "issueNumber": 76,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/76",
+      "updatedAt": "2026-03-08",
+      "entries": [
+        {
+          "id": "issue-76",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/76",
+          "author": "daisuke1227",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1773001591000,
+          "issueNumber": 76,
+          "excerpt": "So when this took 3-4 boots to get into game the first boot gets in gale but doesn't get in the title screen the second boot gets in the title screen but when playing the video (chapter) it doesn't work and same for 3 but the 4th time it actually got past and it's playable but it loads all of the assets/shaders super slowly taking around 1-3 minutes to load almost all of it",
+          "images": [
+            "https://github.com/user-attachments/assets/f1b79148-8650-4b25-ae57-b85d584e6943"
+          ],
+          "meta": {}
         }
       ]
     },
