@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **42 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **43 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **10** · 🔵 In-Game: **11** · 🟡 Intro: **8** · 🟠 Loads: **5** · 🔴 Doesn't Boot: **8**
+> 🟢 Playable: **10** · 🔵 In-Game: **11** · 🟡 Intro: **8** · 🟠 Loads: **5** · 🔴 Doesn't Boot: **9**
 >
-> 📱 iOS: **39** · 🖥️ macOS: **4**
+> 📱 iOS: **40** · 🖥️ macOS: **4**
 
 ## Legend
 
@@ -54,6 +54,7 @@
 | 🟠 | Lost Odyssey | `4D5307FA` | 📱 iOS | Loads | 🐢 Poor | iPhone 16 Pro | 2026-03-03 |
 | 🟠 | Skate 3 | `454108E6` | 📱 iOS | Loads | 🐢 Poor | iPad Pro (M2) | 2026-03-02 |
 | 🟠 | Sonic Transformed | `5345085D` | 📱 iOS | Loads | 🐢 Poor | iPhone 16 Pro | 2026-03-05 |
+| 🔴 | [Prototype]™ | `4156084E` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 12 Pro Max | 2026-03-08 |
 | 🔴 | FIGHT NIGHT CHAMPION | `45410915` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Pro (M2) | 2026-03-03 |
 | 🔴 | Modern Warfare® 2 | `41560817` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Pro (M2) | 2026-03-02 |
 | 🔴 | RESIDENT EVIL 5 | `434307D4` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-03 |
