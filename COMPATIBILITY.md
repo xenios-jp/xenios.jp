@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **70 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **64 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **19** · 🔵 In-Game: **16** · 🟡 Intro: **12** · 🟠 Loads: **8** · 🔴 Doesn't Boot: **15**
+> 🟢 Playable: **17** · 🔵 In-Game: **12** · 🟡 Intro: **12** · 🟠 Loads: **8** · 🔴 Doesn't Boot: **15**
 >
-> 📱 iOS: **68** · 🖥️ macOS: **4**
+> 📱 iOS: **62** · 🖥️ macOS: **4**
 
 ## Legend
 
@@ -20,7 +20,6 @@
 
 | | Title | Title ID | Platform | Status | Perf | Last Device | Updated |
 |-|-------|----------|----------|--------|------|-------------|---------|
-| 🟢 | [Need for Speed: ProStreet] | `45410822` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro | 2026-03-08 |
 | 🟢 | BioShock | `545407D8` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-08 |
 | 🟢 | Call of Duty 2 | `415607D1` | 📱 iOS | Playable | 🚀 Great | iPhone 14 Pro Max | 2026-03-08 |
 | 🟢 | Call of Duty 4 | `415607E6` | 📱 iOS | Playable | 👌 OK | iPhone 17 Pro Max | 2026-03-08 |
@@ -35,7 +34,6 @@
 | 🟢 | Ridge Racer 6 | `4E4D07D3` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-08 |
 | 🟢 | STEINS;GATE 比翼恋理のだーりん | `465607E8` | 📱 iOS | Playable | 🚀 Great | iPhone 17 | 2026-03-02 |
 | 🟢 | The Outfit | `545107D2` | 📱 iOS | Playable | 🐢 Poor | iPhone 15 Pro Max | 2026-03-08 |
-| 🟢 | The Simpsons™ Game | `45410809` | 📱 iOS | Playable | 👌 OK | iPhone Air | 2026-03-08 |
 | 🟢 | Title 4D5307ED | `4D5307ED` | 📱 iOS | Playable | 🐢 Poor | iPhone 15 Pro Max | 2026-03-08 |
 | 🟢 | Title 534507EE | `534507EE` | 📱 iOS | Playable | 👌 OK | iPhone 17 Pro Max | 2026-03-03 |
 | 🟢 | Title 565707D0 | `565707D0` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-03 |
@@ -46,12 +44,8 @@
 | 🔵 | Halo: Reach | `4D53085B` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 | 2026-03-06 |
 | 🔵 | Just Cause 2 | `534307E7` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 | 2026-03-06 |
 | 🔵 | Metro: Last Light | `4B4D07F5` | 🖥️ macOS | In-Game | 👌 OK | MacBook Pro M4 Pro/Max | 2026-02-28 |
-| 🔵 | NBA Jam | `4541094C` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro Max | 2026-03-08 |
 | 🔵 | PAC-MAN™ GHOSTLY ADV | `4E4D0865` | 📱 iOS | In-Game | 🐢 Poor | iPhone 15 Pro Max | 2026-03-08 |
-| 🔵 | Portal 2 | `45410912` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro Max | 2026-03-08 |
-| 🔵 | Rayman Legends | `555308C3` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro Max | 2026-03-08 |
 | 🔵 | Saints Row 2 | `545107FC` | 📱 iOS | In-Game | 🐢 Poor | iPhone 14 Pro Max | 2026-03-08 |
-| 🔵 | Skate 2 | `4541087F` | 📱 iOS | In-Game | 🐢 Poor | iPhone 16 Pro Max | 2026-03-08 |
 | 🔵 | skate. | `45410813` | 📱 iOS | In-Game | 🐢 Poor | iPad Pro (M2) | 2026-03-03 |
 | 🔵 | SONIC UNLEASHED | `53450812` | 📱 iOS | In-Game | 👌 OK | iPhone 17 | 2026-03-06 |
 | 🔵 | Toy Story 3 | `425607E5` | 📱 iOS | In-Game | 👌 OK | iPhone 14 Pro Max | 2026-03-08 |
