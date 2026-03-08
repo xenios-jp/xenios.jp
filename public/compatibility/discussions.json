@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-08T19:19:53.968Z",
+  "generatedAt": "2026-03-08T19:25:50.960Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -11,8 +11,31 @@
       "titleId": "41560817",
       "issueNumber": 29,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/29",
-      "updatedAt": "2026-03-07",
+      "updatedAt": "2026-03-08",
       "entries": [
+        {
+          "id": "comment-4019825569",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/29#issuecomment-4019825569",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1772997761000,
+          "issueNumber": 29,
+          "excerpt": "The game crashes as soon as I launch it.",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 17 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        },
         {
           "id": "issue-29",
           "type": "issue",
@@ -357,6 +380,26 @@
         }
       ]
     },
+    "545408A7": {
+      "titleId": "545408A7",
+      "issueNumber": 62,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/62",
+      "updatedAt": "2026-03-08",
+      "entries": [
+        {
+          "id": "issue-62",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/62",
+          "author": "daisuke1227",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1772997809000,
+          "issueNumber": 62,
+          "excerpt": "after it loads it just goes into a black screen ):",
+          "images": [],
+          "meta": {}
+        }
+      ]
+    },
     "4D5309C9": {
       "titleId": "4D5309C9",
       "issueNumber": 61,
@@ -372,6 +415,26 @@
           "createdAtMs": 1772997390000,
           "issueNumber": 61,
           "excerpt": "Nothing seems to work",
+          "images": [],
+          "meta": {}
+        }
+      ]
+    },
+    "4B4E083C": {
+      "titleId": "4B4E083C",
+      "issueNumber": 59,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/59",
+      "updatedAt": "2026-03-08",
+      "entries": [
+        {
+          "id": "issue-59",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/59",
+          "author": "kazoki32",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1772997318000,
+          "issueNumber": 59,
+          "excerpt": "Game runs damn near perfect the only isssue is No audio anywhere throughout the boot or whilst playing the game only other issues i have ran into was a cutscene not working not random colors and a hud on the top left not being what it’s supposed to be.Other than that it runs perfect",
           "images": [],
           "meta": {}
         }
@@ -1863,8 +1926,31 @@
       "titleId": "545407F2",
       "issueNumber": 41,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/41",
-      "updatedAt": "2026-03-07",
+      "updatedAt": "2026-03-08",
       "entries": [
+        {
+          "id": "comment-4019826469",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/41#issuecomment-4019826469",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1772997793000,
+          "issueNumber": 41,
+          "excerpt": "The game crashes as soon as I launch it.",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 17 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        },
         {
           "id": "issue-41",
           "type": "issue",
