@@ -761,6 +761,123 @@
     }
   },
   {
+    "slug": "crash-of-the-titans",
+    "title": "Crash Of The Titans",
+    "titleId": "565507E4",
+    "status": "loads",
+    "perf": "great",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPad 11th Gen",
+      "platform": "ios",
+      "osVersion": "18.3",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-08",
+    "notes": "Only boots the game on Loading Screen.",
+    "reports": [
+      {
+        "device": "iPad 11th Gen",
+        "platform": "ios",
+        "osVersion": "18.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "loads",
+        "perf": "great",
+        "date": "2026-03-08",
+        "notes": "Only boots the game on Loading Screen.",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.0-9280",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "commitShort": "2633e8177"
+        }
+      }
+    ],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/565507E4/1773000102062-1.jpg"
+    ],
+    "issueNumber": 72,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/72",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "loads",
+        "perf": "great",
+        "notes": "Only boots the game on Loading Screen.",
+        "updatedAt": "2026-03-08",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPad 11th Gen",
+          "platform": "ios",
+          "osVersion": "18.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "loads",
+          "perf": "great",
+          "date": "2026-03-08",
+          "notes": "Only boots the game on Loading Screen.",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "2633e8177"
+          }
+        },
+        "bestReport": {
+          "device": "iPad 11th Gen",
+          "platform": "ios",
+          "osVersion": "18.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "loads",
+          "perf": "great",
+          "date": "2026-03-08",
+          "notes": "Only boots the game on Loading Screen.",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "2633e8177"
+          }
+        }
+      }
+    }
+  },
+  {
     "slug": "db-raging-blast",
     "title": "DB: Raging Blast",
     "titleId": "4E4D0803",
@@ -2027,6 +2144,26 @@
         }
       },
       {
+        "device": "iPhone 17 Pro",
+        "platform": "ios",
+        "osVersion": "26.0.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-03-08",
+        "notes": "Doesn’t eve load anything just crashes",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.0-9280",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "commitShort": "2633e8177"
+        }
+      },
+      {
         "device": "MacBook Pro M4 Pro/Max",
         "platform": "macos",
         "osVersion": "15.3",
@@ -2106,7 +2243,7 @@
         "perf": "poor",
         "notes": "The game crashes as soon as I launch it.",
         "updatedAt": "2026-03-08",
-        "reportCount": 3,
+        "reportCount": 4,
         "latestReport": {
           "device": "iPhone 17 Pro",
           "platform": "ios",
@@ -3242,21 +3379,41 @@
     "title": "Left 4 Dead",
     "titleId": "45410830",
     "status": "loads",
-    "perf": "ok",
+    "perf": "poor",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone18,2",
+      "device": "iPhone 17 Pro Max",
       "platform": "ios",
       "osVersion": "26.3",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-02",
-    "notes": "Get stuck on the left for dead screen before the menu.",
+    "updatedAt": "2026-03-08",
+    "notes": "Severe graphical issues on pre-rendered cutscenes. The game will hang on opening \"Left 4 Dead\" loading screen.",
     "reports": [
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "loads",
+        "perf": "poor",
+        "date": "2026-03-08",
+        "notes": "Severe graphical issues on pre-rendered cutscenes. The game will hang on opening \"Left 4 Dead\" loading screen.",
+        "source": "github",
+        "build": {
+          "buildId": "ios-release-1.0.0-9820",
+          "channel": "release",
+          "official": true,
+          "appVersion": "1.0.0",
+          "buildNumber": "9820",
+          "commitShort": "2633E8177"
+        }
+      },
       {
         "device": "iPhone18,2",
         "platform": "ios",
@@ -3298,35 +3455,49 @@
       "all": {
         "channel": "all",
         "status": "loads",
-        "perf": "ok",
-        "notes": "Get stuck on the left for dead screen before the menu.",
-        "updatedAt": "2026-03-02",
-        "reportCount": 1,
+        "perf": "poor",
+        "notes": "Severe graphical issues on pre-rendered cutscenes. The game will hang on opening \"Left 4 Dead\" loading screen.",
+        "updatedAt": "2026-03-08",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone18,2",
+          "device": "iPhone 17 Pro Max",
           "platform": "ios",
           "osVersion": "26.3",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "loads",
-          "perf": "ok",
-          "date": "2026-03-02",
-          "notes": "Get stuck on the left for dead screen before the menu.",
-          "source": "app",
-          "build": null
+          "perf": "poor",
+          "date": "2026-03-08",
+          "notes": "Severe graphical issues on pre-rendered cutscenes. The game will hang on opening \"Left 4 Dead\" loading screen.",
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-1.0.0-9820",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.0",
+            "buildNumber": "9820",
+            "commitShort": "2633E8177"
+          }
         },
         "bestReport": {
-          "device": "iPhone18,2",
+          "device": "iPhone 17 Pro Max",
           "platform": "ios",
           "osVersion": "26.3",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "loads",
-          "perf": "ok",
-          "date": "2026-03-02",
-          "notes": "Get stuck on the left for dead screen before the menu.",
-          "source": "app",
-          "build": null
+          "perf": "poor",
+          "date": "2026-03-08",
+          "notes": "Severe graphical issues on pre-rendered cutscenes. The game will hang on opening \"Left 4 Dead\" loading screen.",
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-1.0.0-9820",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.0",
+            "buildNumber": "9820",
+            "commitShort": "2633E8177"
+          }
         }
       }
     }
@@ -5969,125 +6140,5 @@
         }
       }
     }
-  },
-  {
-    "slug": "crash-of-the-titans",
-    "title": "Crash Of The Titans",
-    "titleId": "565507E4",
-    "status": "loads",
-    "perf": "great",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPad 11th Gen",
-      "platform": "ios",
-      "osVersion": "18.3",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-08",
-    "notes": "Only boots the game on Loading Screen.",
-    "reports": [
-      {
-        "device": "iPad 11th Gen",
-        "platform": "ios",
-        "osVersion": "18.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "loads",
-        "perf": "great",
-        "date": "2026-03-08",
-        "notes": "Only boots the game on Loading Screen.",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "stage": "stable",
-          "commitShort": "2633e8177",
-          "buildId": "ios-self-built-1.0.0-9280"
-        }
-      }
-    ],
-    "screenshots": [
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/565507E4/1773000102062-1.jpg"
-    ],
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "loads",
-        "perf": "great",
-        "notes": "Only boots the game on Loading Screen.",
-        "updatedAt": "2026-03-08",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPad 11th Gen",
-          "platform": "ios",
-          "osVersion": "18.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "great",
-          "date": "2026-03-08",
-          "notes": "Only boots the game on Loading Screen.",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
-          }
-        },
-        "bestReport": {
-          "device": "iPad 11th Gen",
-          "platform": "ios",
-          "osVersion": "18.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "great",
-          "date": "2026-03-08",
-          "notes": "Only boots the game on Loading Screen.",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
-          }
-        }
-      }
-    },
-    "issueNumber": 72,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/72"
   }
 ]

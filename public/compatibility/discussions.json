@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-08T20:02:08.355Z",
+  "generatedAt": "2026-03-08T20:13:10.149Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2101,6 +2101,29 @@
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/41",
       "updatedAt": "2026-03-08",
       "entries": [
+        {
+          "id": "comment-4019907259",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/41#issuecomment-4019907259",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1773000764000,
+          "issueNumber": 41,
+          "excerpt": "Doesn’t eve load anything just crashes",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 17 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 26.0.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        },
         {
           "id": "comment-4019826469",
           "type": "comment",
