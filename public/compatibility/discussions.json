@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-08T18:49:48.513Z",
+  "generatedAt": "2026-03-08T19:06:25.480Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -353,6 +353,69 @@
             "platform": "iOS",
             "osVersion": "iOS 18.5",
             "gpuBackend": "MSL"
+          }
+        }
+      ]
+    },
+    "425307E0": {
+      "titleId": "425307E0",
+      "issueNumber": 56,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/56",
+      "updatedAt": "2026-03-08",
+      "entries": [
+        {
+          "id": "comment-4019794445",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/56#issuecomment-4019794445",
+          "author": "daisuke1227",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1772996757000,
+          "issueNumber": 56,
+          "excerpt": "try relaunching a couple of times and see if that fixes it",
+          "images": [],
+          "meta": {}
+        },
+        {
+          "id": "issue-56",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/56",
+          "author": "randomname2077",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1772995869000,
+          "issueNumber": 56,
+          "excerpt": "the game just insta crashes no matter what you do. this appears to be an issue that extends to iOS/iPadOS 17 at large, not particularly tied to this specific game.",
+          "images": [],
+          "meta": {}
+        }
+      ]
+    },
+    "4E4D085C": {
+      "titleId": "4E4D085C",
+      "issueNumber": 55,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/55",
+      "updatedAt": "2026-03-08",
+      "entries": [
+        {
+          "id": "issue-55",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/55",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1772995815000,
+          "issueNumber": 55,
+          "excerpt": "Unusable but it boots and intro works.",
+          "images": [],
+          "meta": {
+            "status": "loads",
+            "perf": "poor",
+            "device": "iPhone 15 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
           }
         }
       ]
