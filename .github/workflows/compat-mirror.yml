@@ -9,6 +9,8 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 concurrency:
   group: compat-mirror
@@ -16,6 +18,8 @@ concurrency:
 
 jobs:
   mirror:
+    outputs:
+      changed: ${{ steps.stage.outputs.changed }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -26,18 +30,65 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
+          cache: npm
 
       - name: Mirror canonical compatibility data
         run: node scripts/mirror-compat-data.mjs
 
-      - name: Commit mirrored data
+      - name: Generate COMPATIBILITY.md
+        run: node scripts/generate-compatibility-markdown.mjs
+
+      - name: Sync public compatibility data
+        run: node scripts/sync-public-compat-data.mjs
+
+      - name: Stage mirrored snapshots
+        id: stage
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/compatibility.json data/discussions.json
-          if ! git diff --staged --quiet; then
-            git commit -m "data: mirror canonical compatibility snapshots [skip ci]"
-            git push
-          else
+          git add \
+            COMPATIBILITY.md \
+            data/compatibility.json \
+            data/discussions.json \
+            public/compatibility/data.json \
+            public/compatibility/discussions.json \
+            public/builds/release-builds.json \
+            public/builds/history.json
+          if git diff --staged --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
             echo "No changes"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
+
+      - name: Install dependencies
+        if: steps.stage.outputs.changed == 'true'
+        run: npm ci
+
+      - name: Build site
+        if: steps.stage.outputs.changed == 'true'
+        run: npm run build
+
+      - name: Upload Pages artifact
+        if: steps.stage.outputs.changed == 'true'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: out
+
+      - name: Commit mirrored snapshots
+        if: steps.stage.outputs.changed == 'true'
+        run: |
+          git commit -m "data: mirror and publish compatibility snapshots [skip ci]"
+          git push
+
+  deploy:
+    needs: mirror
+    if: needs.mirror.outputs.changed == 'true'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

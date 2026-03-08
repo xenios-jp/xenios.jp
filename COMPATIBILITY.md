@@ -66,3 +66,4 @@
 ---
 
 *Updated automatically when compatibility data changes. Visit [xenios.jp/compatibility](https://xenios.jp/compatibility) for the full interactive list.*
+

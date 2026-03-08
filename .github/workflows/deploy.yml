@@ -3,6 +3,16 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: [main]
+    paths-ignore:
+      - "COMPATIBILITY.md"
+      - "data/compatibility.json"
+      - "data/discussions.json"
+      - "data/release-builds.json"
+      - "data/builds-history.json"
+      - "public/compatibility/data.json"
+      - "public/compatibility/discussions.json"
+      - "public/builds/release-builds.json"
+      - "public/builds/history.json"
   workflow_dispatch:
 
 permissions:

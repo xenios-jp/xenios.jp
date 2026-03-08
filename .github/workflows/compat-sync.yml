@@ -1,6 +1,7 @@
 name: Sync Compatibility Table
 
 on:
+  workflow_dispatch:
   push:
     paths:
       - "data/compatibility.json"
@@ -12,6 +13,8 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 concurrency:
   group: compat-sync
@@ -25,116 +28,14 @@ jobs:
         with:
           ref: main
 
-      - name: Pull latest
-        run: git pull --rebase
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
 
       - name: Generate COMPATIBILITY.md
-        uses: actions/github-script@v7
-        with:
-          script: |
-            const fs = require('fs');
-            const games = JSON.parse(fs.readFileSync('data/compatibility.json', 'utf8'));
-
-            const statusEmoji = {
-              playable: '🟢',
-              ingame:   '🔵',
-              intro:    '🟡',
-              loads:    '🟠',
-              nothing:  '🔴',
-            };
-
-            const statusLabel = {
-              playable: 'Playable',
-              ingame:   'In-Game',
-              intro:    'Intro',
-              loads:    'Loads',
-              nothing:  "Doesn't Boot",
-            };
-
-            const perfLabel = {
-              great: '🚀 Great',
-              ok:    '👌 OK',
-              poor:  '🐢 Poor',
-              'n/a': '➖ N/A',
-            };
-
-            const platformLabel = {
-              ios:   '📱 iOS',
-              macos: '🖥️ macOS',
-            };
-
-            // Sort: playable first, then alphabetically within each status
-            const statusOrder = ['playable', 'ingame', 'intro', 'loads', 'nothing'];
-            const sorted = [...games].sort((a, b) => {
-              const si = statusOrder.indexOf(a.status) - statusOrder.indexOf(b.status);
-              return si !== 0 ? si : a.title.localeCompare(b.title);
-            });
-
-            // Stats
-            const total = games.length;
-            const counts = {};
-            statusOrder.forEach(s => counts[s] = 0);
-            games.forEach(g => counts[g.status]++);
-
-            const platformCounts = { ios: 0, macos: 0 };
-            games.forEach(g => {
-              (g.platforms || []).forEach(p => {
-                if (platformCounts[p] !== undefined) platformCounts[p]++;
-              });
-            });
-
-            const statsLine = statusOrder
-              .map(s => `${statusEmoji[s]} ${statusLabel[s]}: **${counts[s]}**`)
-              .join(' · ');
-
-            const platformLine = Object.entries(platformCounts)
-              .filter(([, count]) => count > 0)
-              .map(([p, count]) => `${platformLabel[p]}: **${count}**`)
-              .join(' · ');
-
-            // Device name mapping (shared JSON)
-            const deviceNames = JSON.parse(fs.readFileSync('data/device-names.json', 'utf8'));
-            const dn = (raw) => deviceNames[raw] || raw;
-
-            // Table rows
-            const rows = sorted.map(g => {
-              const platforms = (g.platforms || []).map(p => platformLabel[p] || p).join(', ');
-              return `| ${statusEmoji[g.status]} | ${g.title} | \`${g.titleId}\` | ${platforms} | ${statusLabel[g.status]} | ${perfLabel[g.perf]} | ${dn(g.lastReport.device)} | ${g.updatedAt} |`;
-            }).join('\n');
-
-            const md = [
-              `# XeniOS Compatibility List`,
-              ``,
-              `> **${total} games tested** — auto-generated from [\`data/compatibility.json\`](data/compatibility.json)`,
-              `>`,
-              `> ${statsLine}`,
-              `>`,
-              `> ${platformLine}`,
-              ``,
-              `## Legend`,
-              ``,
-              `| Emoji | Status | Description |`,
-              `|-------|--------|-------------|`,
-              `| 🟢 | Playable | Game can be played start to finish with minor issues |`,
-              `| 🔵 | In-Game | Reaches gameplay but has significant issues |`,
-              `| 🟡 | Intro | Gets past loading but crashes before/during gameplay |`,
-              `| 🟠 | Loads | Boots and shows menus but can't reach gameplay |`,
-              `| 🔴 | Doesn't Boot | Does not boot or crashes immediately |`,
-              ``,
-              `## Games`,
-              ``,
-              `| | Title | Title ID | Platform | Status | Perf | Last Device | Updated |`,
-              `|-|-------|----------|----------|--------|------|-------------|---------|`,
-              rows,
-              ``,
-              `---`,
-              ``,
-              `*Updated automatically when compatibility data changes. Visit [xenios.jp/compatibility](https://xenios.jp/compatibility) for the full interactive list.*`,
-              ``,
-            ].join('\n');
-
-            fs.writeFileSync('COMPATIBILITY.md', md);
-            console.log(`Generated COMPATIBILITY.md with ${total} games`);
+        run: node scripts/generate-compatibility-markdown.mjs
 
       - name: Sync public compatibility data
         run: node scripts/sync-public-compat-data.mjs
@@ -150,3 +51,25 @@ jobs:
           else
             echo "No changes"
           fi
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build site
+        run: npm run build
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: out
+
+  deploy:
+    needs: generate-table
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
