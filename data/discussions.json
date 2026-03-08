@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-08T21:14:42.041Z",
+  "generatedAt": "2026-03-08T21:19:57.170Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -307,6 +307,37 @@
         }
       ]
     },
+    "45410961": {
+      "titleId": "45410961",
+      "issueNumber": 90,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/90",
+      "updatedAt": "2026-03-08",
+      "entries": [
+        {
+          "id": "issue-90",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/90",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1773004585000,
+          "issueNumber": 90,
+          "excerpt": "There are visual glitches in the introduction videos, in the first cutscene the video and audio get out of sync, and when the game starts rendering it gets stuck indefinitely.",
+          "images": [],
+          "meta": {
+            "status": "intro",
+            "perf": "poor",
+            "device": "iPhone 15 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        }
+      ]
+    },
     "53450812": {
       "titleId": "53450812",
       "issueNumber": 8,
@@ -453,6 +484,72 @@
             "osVersion": "iOS 18.5",
             "gpuBackend": "MSL"
           }
+        }
+      ]
+    },
+    "4E4D0865": {
+      "titleId": "4E4D0865",
+      "issueNumber": 93,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/93",
+      "updatedAt": "2026-03-08",
+      "entries": [
+        {
+          "id": "issue-93",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/93",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1773004779000,
+          "issueNumber": 93,
+          "excerpt": "There are shadow errors, some minor rendering issues in cutscenes and gameplay, and it runs at a very poor refresh rate, but it is playable.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4E4D0865/1773004774679-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4E4D0865/1773004774679-2.jpg"
+          ],
+          "meta": {
+            "status": "ingame",
+            "perf": "poor",
+            "device": "iPhone 15 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        }
+      ]
+    },
+    "415608C3": {
+      "titleId": "415608C3",
+      "issueNumber": 92,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/92",
+      "updatedAt": "2026-03-08",
+      "entries": [
+        {
+          "id": "issue-92",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/92",
+          "author": "QualityControled",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1773004630000,
+          "issueNumber": 92,
+          "excerpt": "\"Loads\" into cyan colored screen. Nothing else.",
+          "images": [],
+          "meta": {}
+        },
+        {
+          "id": "issue-66",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/66",
+          "author": "QualityControled",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1772998433000,
+          "issueNumber": 66,
+          "excerpt": "Upon launch, full cyan colored screen. Nothing else.",
+          "images": [],
+          "meta": {}
         }
       ]
     },
@@ -795,26 +892,6 @@
           "createdAtMs": 1772998660000,
           "issueNumber": 67,
           "excerpt": "The game boots and you can get into the main game as expected. Video content (e.g. pre-rendered cutscenes and intro sequences) have heavy graphical glitches during playback. There is also an issue related to, what I think is, the physics with the skaters hair.",
-          "images": [],
-          "meta": {}
-        }
-      ]
-    },
-    "415608C3": {
-      "titleId": "415608C3",
-      "issueNumber": 66,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/66",
-      "updatedAt": "2026-03-08",
-      "entries": [
-        {
-          "id": "issue-66",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/66",
-          "author": "QualityControled",
-          "createdAt": "2026-03-08",
-          "createdAtMs": 1772998433000,
-          "issueNumber": 66,
-          "excerpt": "Upon launch, full cyan colored screen. Nothing else.",
           "images": [],
           "meta": {}
         }
