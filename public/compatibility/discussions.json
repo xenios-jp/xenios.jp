@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-08T17:22:18.465Z",
+  "generatedAt": "2026-03-08T17:26:21.024Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -334,6 +334,26 @@
             "osVersion": "iOS 18.5",
             "gpuBackend": "MSL"
           }
+        }
+      ]
+    },
+    "425307D1": {
+      "titleId": "425307D1",
+      "issueNumber": 46,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/46",
+      "updatedAt": "2026-03-08",
+      "entries": [
+        {
+          "id": "issue-46",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/46",
+          "author": "AloneAgainstWorld",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1772990762000,
+          "issueNumber": 46,
+          "excerpt": "The game launches but crashes when you start a game.",
+          "images": [],
+          "meta": {}
         }
       ]
     },
