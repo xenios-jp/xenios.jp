@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-08T18:20:35.015Z",
+  "generatedAt": "2026-03-08T18:26:43.648Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -755,8 +755,34 @@
       "titleId": "4D5307ED",
       "issueNumber": 7,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/7",
-      "updatedAt": "2026-03-07",
+      "updatedAt": "2026-03-08",
       "entries": [
+        {
+          "id": "comment-4019730549",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/7#issuecomment-4019730549",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1772994383000,
+          "issueNumber": 7,
+          "excerpt": "Requires dedicated XMA core enabled",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4D5307ED/1772994379832-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4D5307ED/1772994379832-2.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "poor",
+            "device": "iPhone 15 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        },
         {
           "id": "issue-7",
           "type": "issue",
