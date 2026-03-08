@@ -1,42 +1,12 @@
 {
-  "generatedAt": "2026-03-08T16:49:45Z",
+  "generatedAt": "2026-03-07T00:00:00Z",
   "platforms": {
     "ios": {
-      "release": {
-        "buildId": "ios-release-1.0.0-9280",
-        "channel": "release",
-        "official": true,
-        "appVersion": "1.0.0",
-        "buildNumber": "9280",
-        "stage": "stable",
-        "commitShort": "2633e8177",
-        "publishedAt": "2026-03-08T16:49:39Z",
-        "label": "1.0.0-9280",
-        "notes": "Official CI release build published from xenios-jp/XeniOS.",
-        "sourceLabel": "GitHub Release",
-        "sourceUrl": "https://github.com/xenios-jp/XeniOS/releases/tag/release-v1.0.0-build-9280",
-        "artifacts": [],
-        "platform": "ios"
-      },
+      "release": null,
       "preview": null
     },
     "macos": {
-      "release": {
-        "buildId": "macos-release-1.0.0-9280",
-        "channel": "release",
-        "official": true,
-        "appVersion": "1.0.0",
-        "buildNumber": "9280",
-        "stage": "stable",
-        "commitShort": "2633e8177",
-        "publishedAt": "2026-03-08T16:49:39Z",
-        "label": "1.0.0-9280",
-        "notes": "Official CI release build published from xenios-jp/XeniOS.",
-        "sourceLabel": "GitHub Release",
-        "sourceUrl": "https://github.com/xenios-jp/XeniOS/releases/tag/release-v1.0.0-build-9280",
-        "artifacts": [],
-        "platform": "macos"
-      },
+      "release": null,
       "preview": null
     }
   }
