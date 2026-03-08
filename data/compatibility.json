@@ -2073,23 +2073,43 @@
     "slug": "halo-3",
     "title": "Halo 3",
     "titleId": "4D5307E6",
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "intro",
+    "perf": "poor",
     "tags": [],
     "platforms": [
       "ios",
       "macos"
     ],
     "lastReport": {
-      "device": "iPad Pro (M2)",
+      "device": "iPhone 17",
       "platform": "ios",
-      "osVersion": "18.3.1",
+      "osVersion": "26.3",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-04",
-    "notes": "Crashes upon launch ping the game.",
+    "updatedAt": "2026-03-08",
+    "notes": "Dev test report",
     "reports": [
+      {
+        "device": "iPhone 17",
+        "platform": "ios",
+        "osVersion": "26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "intro",
+        "perf": "poor",
+        "date": "2026-03-08",
+        "notes": "Dev test report",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0-1",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0",
+          "buildNumber": "1",
+          "commitShort": "315f4dee9"
+        }
+      },
       {
         "device": "iPad Pro (M2)",
         "platform": "ios",
@@ -2234,21 +2254,28 @@
         "channel": "all",
         "status": "playable",
         "perf": "poor",
-        "notes": "Crashes upon launch ping the game.",
-        "updatedAt": "2026-03-04",
-        "reportCount": 7,
+        "notes": "Dev test report",
+        "updatedAt": "2026-03-08",
+        "reportCount": 8,
         "latestReport": {
-          "device": "iPad Pro (M2)",
+          "device": "iPhone 17",
           "platform": "ios",
-          "osVersion": "18.3.1",
+          "osVersion": "26.3",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-04",
-          "notes": "Crashes upon launch ping the game.",
+          "status": "intro",
+          "perf": "poor",
+          "date": "2026-03-08",
+          "notes": "Dev test report",
           "source": "app",
-          "build": null
+          "build": {
+            "buildId": "ios-self-built-1.0-1",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0",
+            "buildNumber": "1",
+            "commitShort": "315f4dee9"
+          }
         },
         "bestReport": {
           "device": "iPhone17,1",

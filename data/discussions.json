@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-07T06:49:14.347Z",
+  "generatedAt": "2026-03-08T06:05:26.424Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1286,8 +1286,31 @@
       "titleId": "4D5307E6",
       "issueNumber": 42,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/42",
-      "updatedAt": "2026-03-07",
+      "updatedAt": "2026-03-08",
       "entries": [
+        {
+          "id": "comment-4018436926",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/42#issuecomment-4018436926",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1772949904000,
+          "issueNumber": 42,
+          "excerpt": "Dev test report",
+          "images": [],
+          "meta": {
+            "status": "intro",
+            "perf": "poor",
+            "device": "iPhone 17",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0",
+            "buildNumber": "1",
+            "commitShort": "`315f4dee9`"
+          }
+        },
         {
           "id": "comment-4015746376",
           "type": "comment",
@@ -1380,25 +1403,6 @@
             "device": "iPhone 16 Pro Max",
             "platform": "macOS",
             "osVersion": "macOS 18.3",
-            "gpuBackend": "MSL"
-          }
-        },
-        {
-          "id": "comment-4015746360",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/42#issuecomment-4015746360",
-          "author": "xenios-jp",
-          "createdAt": "2026-02-28",
-          "createdAtMs": 1772262794000,
-          "issueNumber": 42,
-          "excerpt": "Does not boot",
-          "images": [],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPhone 17",
-            "platform": "macOS",
-            "osVersion": "macOS iOS 26.3",
             "gpuBackend": "MSL"
           }
         }
