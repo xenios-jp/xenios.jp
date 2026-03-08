@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **47 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **48 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **12** · 🔵 In-Game: **12** · 🟡 Intro: **8** · 🟠 Loads: **5** · 🔴 Doesn't Boot: **10**
+> 🟢 Playable: **12** · 🔵 In-Game: **13** · 🟡 Intro: **8** · 🟠 Loads: **5** · 🔴 Doesn't Boot: **10**
 >
-> 📱 iOS: **44** · 🖥️ macOS: **4**
+> 📱 iOS: **45** · 🖥️ macOS: **4**
 
 ## Legend
 
@@ -42,6 +42,7 @@
 | 🔵 | Just Cause 2 | `534307E7` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 | 2026-03-06 |
 | 🔵 | Metro: Last Light | `4B4D07F5` | 🖥️ macOS | In-Game | 👌 OK | MacBook Pro M4 Pro/Max | 2026-02-28 |
 | 🔵 | skate. | `45410813` | 📱 iOS | In-Game | 🐢 Poor | iPad Pro (M2) | 2026-03-03 |
+| 🔵 | Sonic the Hedgehog | `534507D6` | 📱 iOS | In-Game | 👌 OK | Iphone Air | 2026-03-08 |
 | 🔵 | SONIC UNLEASHED | `53450812` | 📱 iOS | In-Game | 👌 OK | iPhone 17 | 2026-03-06 |
 | 🔵 | Toy Story 3 | `425607E5` | 📱 iOS | In-Game | 👌 OK | iPhone 14 Pro Max | 2026-03-08 |
 | 🟡 | Beautiful Katamari | `4E4D07DC` | 📱 iOS | Intro | 👌 OK | iPhone 16 Pro | 2026-03-05 |
