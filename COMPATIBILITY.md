@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **69 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **70 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **18** · 🔵 In-Game: **16** · 🟡 Intro: **12** · 🟠 Loads: **8** · 🔴 Doesn't Boot: **15**
+> 🟢 Playable: **19** · 🔵 In-Game: **16** · 🟡 Intro: **12** · 🟠 Loads: **8** · 🔴 Doesn't Boot: **15**
 >
-> 📱 iOS: **67** · 🖥️ macOS: **4**
+> 📱 iOS: **68** · 🖥️ macOS: **4**
 
 ## Legend
 
@@ -20,6 +20,7 @@
 
 | | Title | Title ID | Platform | Status | Perf | Last Device | Updated |
 |-|-------|----------|----------|--------|------|-------------|---------|
+| 🟢 | [Need for Speed: ProStreet] | `45410822` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro | 2026-03-08 |
 | 🟢 | BioShock | `545407D8` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-08 |
 | 🟢 | Call of Duty 2 | `415607D1` | 📱 iOS | Playable | 🚀 Great | iPhone 14 Pro Max | 2026-03-08 |
 | 🟢 | Call of Duty 4 | `415607E6` | 📱 iOS | Playable | 👌 OK | iPhone 17 Pro Max | 2026-03-08 |

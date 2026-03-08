@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-08T22:50:43.191Z",
+  "generatedAt": "2026-03-08T23:01:18.516Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -185,6 +185,26 @@
             "osVersion": "iOS 18.3.1",
             "gpuBackend": "MSL"
           }
+        }
+      ]
+    },
+    "45410822": {
+      "titleId": "45410822",
+      "issueNumber": 102,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/102",
+      "updatedAt": "2026-03-08",
+      "entries": [
+        {
+          "id": "issue-102",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/102",
+          "author": "tOSdude",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1773010858000,
+          "issueNumber": 102,
+          "excerpt": "Start screen and FMVs are covered in green graphical glitches, gameplay appears to work as expected, larger maps and more CPU cars reduce the framerate, resulting in excessive input delay.",
+          "images": [],
+          "meta": {}
         }
       ]
     },
