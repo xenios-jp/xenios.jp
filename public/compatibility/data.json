@@ -115,6 +115,118 @@
     }
   },
   {
+    "slug": "spongebob-heropants",
+    "title": "[Spongebob Heropants]",
+    "titleId": "41560919",
+    "status": "playable",
+    "perf": "ok",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPad Mini 7",
+      "platform": "ios",
+      "osVersion": "26.3.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-08",
+    "notes": "FMV sequences are loud, menu constantly interrupts asking for a save storage until you select New Game, and use the old XMA Decoder to get past the blue flash at launch.",
+    "reports": [
+      {
+        "device": "iPad Mini 7",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-03-08",
+        "notes": "FMV sequences are loud, menu constantly interrupts asking for a save storage until you select New Game, and use the old XMA Decoder to get past the blue flash at launch.",
+        "source": "github",
+        "build": {
+          "buildId": "ios-release-1.0.0-9280-9820",
+          "channel": "release",
+          "official": true,
+          "appVersion": "1.0.0-9280",
+          "buildNumber": "9820"
+        }
+      }
+    ],
+    "screenshots": [],
+    "issueNumber": 48,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/48",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "playable",
+        "perf": "ok",
+        "notes": "FMV sequences are loud, menu constantly interrupts asking for a save storage until you select New Game, and use the old XMA Decoder to get past the blue flash at launch.",
+        "updatedAt": "2026-03-08",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPad Mini 7",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-03-08",
+          "notes": "FMV sequences are loud, menu constantly interrupts asking for a save storage until you select New Game, and use the old XMA Decoder to get past the blue flash at launch.",
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-1.0.0-9280-9820",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.0-9280",
+            "buildNumber": "9820"
+          }
+        },
+        "bestReport": {
+          "device": "iPad Mini 7",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-03-08",
+          "notes": "FMV sequences are loud, menu constantly interrupts asking for a save storage until you select New Game, and use the old XMA Decoder to get past the blue flash at launch.",
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-1.0.0-9280-9820",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.0-9280",
+            "buildNumber": "9820"
+          }
+        }
+      }
+    }
+  },
+  {
     "slug": "bayonetta",
     "title": "Bayonetta",
     "titleId": "53450813",
@@ -2964,6 +3076,118 @@
           "source": "discord",
           "submittedBy": "reality111",
           "build": null
+        }
+      }
+    }
+  },
+  {
+    "slug": "minecraft-xbox-360-edition-disc-edition",
+    "title": "Minecraft Xbox 360 Edition (DISC EDITION)",
+    "titleId": "4D530A81",
+    "status": "nothing",
+    "perf": "n/a",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 14 Pro Max",
+      "platform": "ios",
+      "osVersion": "26.3",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-08",
+    "notes": "Boots, stuck on a black screen. No audio, nothing.",
+    "reports": [
+      {
+        "device": "iPhone 14 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-03-08",
+        "notes": "Boots, stuck on a black screen. No audio, nothing.",
+        "source": "github",
+        "build": {
+          "buildId": "ios-release-1.0.0-9280-9280",
+          "channel": "release",
+          "official": true,
+          "appVersion": "1.0.0-9280",
+          "buildNumber": "9280"
+        }
+      }
+    ],
+    "screenshots": [],
+    "issueNumber": 49,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/49",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "nothing",
+        "perf": "n/a",
+        "notes": "Boots, stuck on a black screen. No audio, nothing.",
+        "updatedAt": "2026-03-08",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 14 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-03-08",
+          "notes": "Boots, stuck on a black screen. No audio, nothing.",
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-1.0.0-9280-9280",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.0-9280",
+            "buildNumber": "9280"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 14 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-03-08",
+          "notes": "Boots, stuck on a black screen. No audio, nothing.",
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-1.0.0-9280-9280",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.0-9280",
+            "buildNumber": "9280"
+          }
         }
       }
     }

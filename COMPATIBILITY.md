@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **45 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **47 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **10** · 🔵 In-Game: **11** · 🟡 Intro: **8** · 🟠 Loads: **5** · 🔴 Doesn't Boot: **11**
+> 🟢 Playable: **11** · 🔵 In-Game: **11** · 🟡 Intro: **8** · 🟠 Loads: **5** · 🔴 Doesn't Boot: **12**
 >
-> 📱 iOS: **42** · 🖥️ macOS: **4**
+> 📱 iOS: **44** · 🖥️ macOS: **4**
 
 ## Legend
 
@@ -20,6 +20,7 @@
 
 | | Title | Title ID | Platform | Status | Perf | Last Device | Updated |
 |-|-------|----------|----------|--------|------|-------------|---------|
+| 🟢 | [Spongebob Heropants] | `41560919` | 📱 iOS | Playable | 👌 OK | iPad Mini 7 | 2026-03-08 |
 | 🟢 | BioShock | `545407D8` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro | 2026-03-02 |
 | 🟢 | DB: Raging Blast 2 | `4E4D0826` | 📱 iOS | Playable | 🐢 Poor | iPad Pro (M2) | 2026-03-03 |
 | 🟢 | DEAD OR ALIVE 4 | `544307D1` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro | 2026-03-05 |
@@ -56,6 +57,7 @@
 | 🟠 | Sonic Transformed | `5345085D` | 📱 iOS | Loads | 🐢 Poor | iPhone 16 Pro | 2026-03-05 |
 | 🔴 | [Prototype]™ | `4156084E` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 12 Pro Max | 2026-03-08 |
 | 🔴 | FIGHT NIGHT CHAMPION | `45410915` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Pro (M2) | 2026-03-03 |
+| 🔴 | Minecraft Xbox 360 Edition (DISC EDITION) | `4D530A81` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 14 Pro Max | 2026-03-08 |
 | 🔴 | Modern Warfare® 2 | `41560817` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Pro (M2) | 2026-03-02 |
 | 🔴 | RESIDENT EVIL 5 | `434307D4` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-03 |
 | 🔴 | SONIC GENERATIONS | `53450848` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-05 |

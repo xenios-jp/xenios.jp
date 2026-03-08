@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-08T17:33:48.357Z",
+  "generatedAt": "2026-03-08T17:52:38.004Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -62,6 +62,26 @@
             "buildNumber": "9280",
             "commitShort": "`2633e8177`"
           }
+        }
+      ]
+    },
+    "41560919": {
+      "titleId": "41560919",
+      "issueNumber": 48,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/48",
+      "updatedAt": "2026-03-08",
+      "entries": [
+        {
+          "id": "issue-48",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/48",
+          "author": "supermariofan3720",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1772991311000,
+          "issueNumber": 48,
+          "excerpt": "FMV sequences are loud, menu constantly interrupts asking for a save storage until you select New Game, and use the old XMA Decoder to get past the blue flash at launch.",
+          "images": [],
+          "meta": {}
         }
       ]
     },
@@ -334,6 +354,26 @@
             "osVersion": "iOS 18.5",
             "gpuBackend": "MSL"
           }
+        }
+      ]
+    },
+    "4D530A81": {
+      "titleId": "4D530A81",
+      "issueNumber": 49,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/49",
+      "updatedAt": "2026-03-08",
+      "entries": [
+        {
+          "id": "issue-49",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/49",
+          "author": "DevZer0D4Y",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1772992342000,
+          "issueNumber": 49,
+          "excerpt": "Boots, stuck on a black screen. No audio, nothing.",
+          "images": [],
+          "meta": {}
         }
       ]
     },
