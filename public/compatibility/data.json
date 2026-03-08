@@ -2899,42 +2899,23 @@
     "slug": "halo-3",
     "title": "Halo 3",
     "titleId": "4D5307E6",
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "intro",
+    "perf": "poor",
     "tags": [],
     "platforms": [
       "ios",
       "macos"
     ],
     "lastReport": {
-      "device": "MacBook Pro M1",
+      "device": "iPhone 17",
       "platform": "ios",
-      "osVersion": "15.6.3",
+      "osVersion": "26.3",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-03-08",
-    "notes": "Shows Halo 3 copyright screen with logo and crashes immediately.",
+    "notes": "Dev test report",
     "reports": [
-      {
-        "device": "MacBook Pro M1",
-        "platform": "ios",
-        "osVersion": "15.6.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-03-08",
-        "notes": "Shows Halo 3 copyright screen with logo and crashes immediately.",
-        "source": "github",
-        "build": {
-          "buildId": "ios-release-1.0.0-9280",
-          "channel": "release",
-          "official": true,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280"
-        }
-      },
       {
         "device": "iPhone 17",
         "platform": "ios",
@@ -3033,6 +3014,25 @@
           "appVersion": "1.0.0",
           "buildNumber": "9276",
           "commitShort": "e8106d3ddb"
+        }
+      },
+      {
+        "device": "MacBook Pro M1",
+        "platform": "ios",
+        "osVersion": "15.6.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-03-08",
+        "notes": "Shows Halo 3 copyright screen with logo and crashes immediately.",
+        "source": "github",
+        "build": {
+          "buildId": "ios-release-1.0.0-9280",
+          "channel": "release",
+          "official": true,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280"
         }
       },
       {
@@ -3191,26 +3191,27 @@
         "channel": "all",
         "status": "playable",
         "perf": "poor",
-        "notes": "Shows Halo 3 copyright screen with logo and crashes immediately.",
+        "notes": "Dev test report",
         "updatedAt": "2026-03-08",
         "reportCount": 13,
         "latestReport": {
-          "device": "MacBook Pro M1",
+          "device": "iPhone 17",
           "platform": "ios",
-          "osVersion": "15.6.3",
+          "osVersion": "26.3",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
+          "status": "intro",
+          "perf": "poor",
           "date": "2026-03-08",
-          "notes": "Shows Halo 3 copyright screen with logo and crashes immediately.",
-          "source": "github",
+          "notes": "Dev test report",
+          "source": "app",
           "build": {
-            "buildId": "ios-release-1.0.0-9280",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280"
+            "buildId": "ios-self-built-1.0-1",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0",
+            "buildNumber": "1",
+            "commitShort": "315f4dee9"
           }
         },
         "bestReport": {

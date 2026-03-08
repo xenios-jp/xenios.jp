@@ -2,7 +2,7 @@
 
 > **59 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **16** · 🔵 In-Game: **11** · 🟡 Intro: **10** · 🟠 Loads: **6** · 🔴 Doesn't Boot: **16**
+> 🟢 Playable: **16** · 🔵 In-Game: **11** · 🟡 Intro: **11** · 🟠 Loads: **6** · 🔴 Doesn't Boot: **15**
 >
 > 📱 iOS: **57** · 🖥️ macOS: **4**
 
@@ -52,6 +52,7 @@
 | 🟡 | DB: Raging Blast | `4E4D0803` | 📱 iOS | Intro | 🐢 Poor | iPad Pro (M2) | 2026-03-02 |
 | 🟡 | DEAD RISING | `434307D2` | 📱 iOS | Intro | 👌 OK | iPad (11th gen) | 2026-03-04 |
 | 🟡 | DOOM 3 BFG Edition | `425307F1` | 📱 iOS | Intro | 🚀 Great | iPhone 16 Pro | 2026-03-03 |
+| 🟡 | Halo 3 | `4D5307E6` | 📱 iOS, 🖥️ macOS | Intro | 🐢 Poor | iPhone 17 | 2026-03-08 |
 | 🟡 | Halo 3: ODST | `4D530877` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro | 2026-03-03 |
 | 🟡 | Halo 4 | `4D530919` | 📱 iOS | Intro | 👌 OK | iPhone 17 Pro Max | 2026-03-08 |
 | 🟡 | Halo Wars | `4D530808` | 📱 iOS | Intro | 👌 OK | iPhone 17 | 2026-03-03 |
@@ -69,7 +70,6 @@
 | 🔴 | FH2: Fast & Furious | `4D530AB5` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad 10th Gen | 2026-03-08 |
 | 🔴 | FIGHT NIGHT CHAMPION | `45410915` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Pro (M2) | 2026-03-03 |
 | 🔴 | GTA IV | `545407F2` | 📱 iOS, 🖥️ macOS | Doesn't Boot | ➖ N/A | iPhone 17 Pro | 2026-03-08 |
-| 🔴 | Halo 3 | `4D5307E6` | 📱 iOS, 🖥️ macOS | Doesn't Boot | ➖ N/A | MacBook Pro M1 | 2026-03-08 |
 | 🔴 | Modern Warfare® 2 | `41560817` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 Pro | 2026-03-08 |
 | 🔴 | RESIDENT EVIL 5 | `434307D4` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-03 |
 | 🔴 | Skate 3 | `454108E6` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 Pro Max | 2026-03-08 |
