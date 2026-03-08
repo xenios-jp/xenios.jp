@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-08T18:00:35.570Z",
+  "generatedAt": "2026-03-08T18:20:35.015Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -353,6 +353,70 @@
             "platform": "iOS",
             "osVersion": "iOS 18.5",
             "gpuBackend": "MSL"
+          }
+        }
+      ]
+    },
+    "425607E5": {
+      "titleId": "425607E5",
+      "issueNumber": 52,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/52",
+      "updatedAt": "2026-03-08",
+      "entries": [
+        {
+          "id": "issue-52",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/52",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1772994018000,
+          "issueNumber": 52,
+          "excerpt": "Audio is ok, everything works great but some corruptions in game.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/425607E5/1772994014616-1.jpg"
+          ],
+          "meta": {
+            "status": "ingame",
+            "perf": "ok",
+            "device": "iPhone 14 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        }
+      ]
+    },
+    "4D530AB5": {
+      "titleId": "4D530AB5",
+      "issueNumber": 51,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/51",
+      "updatedAt": "2026-03-08",
+      "entries": [
+        {
+          "id": "issue-51",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/51",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1772993113000,
+          "issueNumber": 51,
+          "excerpt": "When I try to boot I just get a black screen",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPad 10th Gen",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
           }
         }
       ]
