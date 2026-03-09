@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **67 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **68 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **18** · 🔵 In-Game: **13** · 🟡 Intro: **12** · 🟠 Loads: **9** · 🔴 Doesn't Boot: **15**
+> 🟢 Playable: **19** · 🔵 In-Game: **13** · 🟡 Intro: **12** · 🟠 Loads: **9** · 🔴 Doesn't Boot: **15**
 >
-> 📱 iOS: **65** · 🖥️ macOS: **4**
+> 📱 iOS: **66** · 🖥️ macOS: **4**
 
 ## Legend
 
@@ -34,6 +34,7 @@
 | 🟢 | PES 2012/WE 2012 | `4B4E0837` | 📱 iOS | Playable | 👌 OK | iPhone 14 Pro Max | 2026-03-08 |
 | 🟢 | Ridge Racer 6 | `4E4D07D3` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-08 |
 | 🟢 | STEINS;GATE 比翼恋理のだーりん | `465607E8` | 📱 iOS | Playable | 🚀 Great | iPhone 17 | 2026-03-02 |
+| 🟢 | StreetFighter IV | `434307FC` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro Max | 2026-03-09 |
 | 🟢 | The Outfit | `545107D2` | 📱 iOS | Playable | 🐢 Poor | iPhone 15 Pro Max | 2026-03-08 |
 | 🟢 | Title 4D5307ED | `4D5307ED` | 📱 iOS | Playable | 🐢 Poor | iPhone 15 Pro Max | 2026-03-08 |
 | 🟢 | Title 534507EE | `534507EE` | 📱 iOS | Playable | 👌 OK | iPhone 17 Pro Max | 2026-03-03 |

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-09T00:34:34.861Z",
+  "generatedAt": "2026-03-09T00:37:00.085Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -565,6 +565,40 @@
             "platform": "iOS",
             "osVersion": "iOS 18.5",
             "gpuBackend": "MSL"
+          }
+        }
+      ]
+    },
+    "434307FC": {
+      "titleId": "434307FC",
+      "issueNumber": 106,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/106",
+      "updatedAt": "2026-03-09",
+      "entries": [
+        {
+          "id": "issue-106",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/106",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-09",
+          "createdAtMs": 1773016592000,
+          "issueNumber": 106,
+          "excerpt": "Some graphic glitches at opening/title screen. After getting in game runs around 20-30 fps not quite full speed yet.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/434307FC/1773016589595-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/434307FC/1773016589595-2.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 16 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.2",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
           }
         }
       ]
