@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-09T00:40:37.441Z",
+  "generatedAt": "2026-03-09T00:47:58.721Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2584,8 +2584,33 @@
       "titleId": "454108E6",
       "issueNumber": 30,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/30",
-      "updatedAt": "2026-03-08",
+      "updatedAt": "2026-03-09",
       "entries": [
+        {
+          "id": "comment-4020431475",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/30#issuecomment-4020431475",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-09",
+          "createdAtMs": 1773017246000,
+          "issueNumber": 30,
+          "excerpt": "Runs pretty low fps and anytime I teleport to another location, the game crashes",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454108E6/1773017243906-1.jpg"
+          ],
+          "meta": {
+            "status": "loads",
+            "perf": "poor",
+            "device": "iPhone 13 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        },
         {
           "id": "comment-4019812206",
           "type": "comment",
