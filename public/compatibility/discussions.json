@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-09T05:45:18.144Z",
+  "generatedAt": "2026-03-09T06:02:49.519Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -655,6 +655,49 @@
             "buildNumber": "9280",
             "commitShort": "`2633e8177`"
           }
+        }
+      ]
+    },
+    "4D5309C9": {
+      "titleId": "4D5309C9",
+      "issueNumber": 125,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/125",
+      "updatedAt": "2026-03-09",
+      "entries": [
+        {
+          "id": "issue-125",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/125",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-09",
+          "createdAtMs": 1773036137000,
+          "issueNumber": 125,
+          "excerpt": "Distortions and is unplayable experience",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "poor",
+            "device": "iPhone 15 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        },
+        {
+          "id": "issue-61",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/61",
+          "author": "ssdecf",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1772997390000,
+          "issueNumber": 61,
+          "excerpt": "Nothing seems to work",
+          "images": [],
+          "meta": {}
         }
       ]
     },
@@ -1818,26 +1861,6 @@
           "createdAtMs": 1772997809000,
           "issueNumber": 62,
           "excerpt": "after it loads it just goes into a black screen ):",
-          "images": [],
-          "meta": {}
-        }
-      ]
-    },
-    "4D5309C9": {
-      "titleId": "4D5309C9",
-      "issueNumber": 61,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/61",
-      "updatedAt": "2026-03-08",
-      "entries": [
-        {
-          "id": "issue-61",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/61",
-          "author": "ssdecf",
-          "createdAt": "2026-03-08",
-          "createdAtMs": 1772997390000,
-          "issueNumber": 61,
-          "excerpt": "Nothing seems to work",
           "images": [],
           "meta": {}
         }

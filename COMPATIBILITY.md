@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **82 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **83 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **20** · 🔵 In-Game: **15** · 🟡 Intro: **15** · 🟠 Loads: **15** · 🔴 Doesn't Boot: **17**
+> 🟢 Playable: **20** · 🔵 In-Game: **16** · 🟡 Intro: **15** · 🟠 Loads: **15** · 🔴 Doesn't Boot: **17**
 >
-> 📱 iOS: **80** · 🖥️ macOS: **4**
+> 📱 iOS: **81** · 🖥️ macOS: **4**
 
 ## Legend
 
@@ -45,6 +45,7 @@
 | 🔵 | Diablo III | `394F07D1` | 📱 iOS | In-Game | 🐢 Poor | iPhone Air | 2026-03-09 |
 | 🔵 | Diablo III: RoS | `394F07D4` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 | 2026-03-06 |
 | 🔵 | FIFA 16 | `454109EE` | 📱 iOS | In-Game | 👌 OK | iPhone 14 Pro Max | 2026-03-08 |
+| 🔵 | Forza Horizon | `4D5309C9` | 📱 iOS | In-Game | 🐢 Poor | iPhone 15 Pro Max | 2026-03-09 |
 | 🔵 | Gears of War | `4D5307D5` | 🖥️ macOS | In-Game | 👌 OK | MacBook Pro M4 Pro/Max | 2026-02-28 |
 | 🔵 | Halo: Reach | `4D53085B` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 | 2026-03-06 |
 | 🔵 | Just Cause 2 | `534307E7` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 | 2026-03-06 |
