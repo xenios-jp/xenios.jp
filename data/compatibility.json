@@ -2318,6 +2318,168 @@
     }
   },
   {
+    "slug": "diablo-iii-ros",
+    "title": "Diablo 3: Reaper of Souls",
+    "titleId": "394F07D4",
+    "status": "loads",
+    "perf": "poor",
+    "tags": [],
+    "platforms": [
+      "ios",
+      "macos"
+    ],
+    "lastReport": {
+      "device": "Macbook Pro M4",
+      "platform": "macos",
+      "osVersion": "26.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-09",
+    "notes": "Corruption on video FMV. Loads menus, allowed to start game but hangs on loading screen.",
+    "reports": [
+      {
+        "device": "Macbook Pro M4",
+        "platform": "macos",
+        "osVersion": "26.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "loads",
+        "perf": "poor",
+        "date": "2026-03-09",
+        "notes": "Corruption on video FMV. Loads menus, allowed to start game but hangs on loading screen.",
+        "source": "github",
+        "build": {
+          "buildId": "macos-release-1.0.0-9280",
+          "channel": "release",
+          "official": true,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "commitShort": "2633E8177"
+        }
+      },
+      {
+        "device": "iPhone 17",
+        "platform": "ios",
+        "osVersion": "26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "poor",
+        "date": "2026-03-06",
+        "notes": "Game runs at 15-20fps on iPhone 17. No noticeable graphical issues. Runs in slow motion due to engine expecting 60fps.",
+        "source": "app",
+        "build": null
+      }
+    ],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/xenios.jp/main/public/compatibility/screenshots/394F07D4/1772815326075-1.jpg"
+    ],
+    "issueNumber": 2,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/2",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "loads",
+        "perf": "poor",
+        "notes": "Corruption on video FMV. Loads menus, allowed to start game but hangs on loading screen.",
+        "updatedAt": "2026-03-09",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "Macbook Pro M4",
+          "platform": "macos",
+          "osVersion": "26.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "loads",
+          "perf": "poor",
+          "date": "2026-03-09",
+          "notes": "Corruption on video FMV. Loads menus, allowed to start game but hangs on loading screen.",
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-1.0.0-9280",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "2633E8177"
+          }
+        },
+        "bestReport": {
+          "device": "Macbook Pro M4",
+          "platform": "macos",
+          "osVersion": "26.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "loads",
+          "perf": "poor",
+          "date": "2026-03-09",
+          "notes": "Corruption on video FMV. Loads menus, allowed to start game but hangs on loading screen.",
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-1.0.0-9280",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "2633E8177"
+          }
+        }
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "ingame",
+        "perf": "poor",
+        "notes": "Corruption on video FMV. Loads menus, allowed to start game but hangs on loading screen.",
+        "updatedAt": "2026-03-09",
+        "reportCount": 2,
+        "latestReport": {
+          "device": "Macbook Pro M4",
+          "platform": "macos",
+          "osVersion": "26.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "loads",
+          "perf": "poor",
+          "date": "2026-03-09",
+          "notes": "Corruption on video FMV. Loads menus, allowed to start game but hangs on loading screen.",
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-1.0.0-9280",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "2633E8177"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 17",
+          "platform": "ios",
+          "osVersion": "26.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-03-06",
+          "notes": "Game runs at 15-20fps on iPhone 17. No noticeable graphical issues. Runs in slow motion due to engine expecting 60fps.",
+          "source": "app",
+          "build": null
+        }
+      }
+    }
+  },
+  {
     "slug": "diablo-iii",
     "title": "Diablo III",
     "titleId": "394F07D1",
@@ -2428,102 +2590,6 @@
             "buildNumber": "9280",
             "commitShort": "2633e8177"
           }
-        }
-      }
-    }
-  },
-  {
-    "slug": "diablo-iii-ros",
-    "title": "Diablo III: RoS",
-    "titleId": "394F07D4",
-    "status": "ingame",
-    "perf": "poor",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 17",
-      "platform": "ios",
-      "osVersion": "26.3",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-06",
-    "notes": "Game runs at 15-20fps on iPhone 17. No noticeable graphical issues. Runs in slow motion due to engine expecting 60fps.",
-    "reports": [
-      {
-        "device": "iPhone 17",
-        "platform": "ios",
-        "osVersion": "26.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "perf": "poor",
-        "date": "2026-03-06",
-        "notes": "Game runs at 15-20fps on iPhone 17. No noticeable graphical issues. Runs in slow motion due to engine expecting 60fps.",
-        "source": "app",
-        "build": null
-      }
-    ],
-    "screenshots": [
-      "https://raw.githubusercontent.com/xenios-jp/xenios.jp/main/public/compatibility/screenshots/394F07D4/1772815326075-1.jpg"
-    ],
-    "issueNumber": 2,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/2",
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "ingame",
-        "perf": "poor",
-        "notes": "Game runs at 15-20fps on iPhone 17. No noticeable graphical issues. Runs in slow motion due to engine expecting 60fps.",
-        "updatedAt": "2026-03-06",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 17",
-          "platform": "ios",
-          "osVersion": "26.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-03-06",
-          "notes": "Game runs at 15-20fps on iPhone 17. No noticeable graphical issues. Runs in slow motion due to engine expecting 60fps.",
-          "source": "app",
-          "build": null
-        },
-        "bestReport": {
-          "device": "iPhone 17",
-          "platform": "ios",
-          "osVersion": "26.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-03-06",
-          "notes": "Game runs at 15-20fps on iPhone 17. No noticeable graphical issues. Runs in slow motion due to engine expecting 60fps.",
-          "source": "app",
-          "build": null
         }
       }
     }
@@ -2994,22 +3060,42 @@
     "slug": "fable-iii",
     "title": "Fable III",
     "titleId": "4D5308D6",
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "ingame",
+    "perf": "poor",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 16 Pro Max",
+      "device": "iPhone 15 Pro Max",
       "platform": "ios",
-      "osVersion": "26.3.1",
+      "osVersion": "26.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-08",
-    "notes": "Nothing start",
+    "updatedAt": "2026-03-09",
+    "notes": "Loads menus and when it renders graphics. It’s incomplete and crashes",
     "reports": [
+      {
+        "device": "iPhone 15 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "poor",
+        "date": "2026-03-09",
+        "notes": "Loads menus and when it renders graphics. It’s incomplete and crashes",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.0-9280",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "commitShort": "2633e8177"
+        }
+      },
       {
         "device": "iPhone 16 Pro Max",
         "platform": "ios",
@@ -3057,21 +3143,21 @@
       },
       "all": {
         "channel": "all",
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "Nothing start",
-        "updatedAt": "2026-03-08",
-        "reportCount": 1,
+        "status": "ingame",
+        "perf": "poor",
+        "notes": "Loads menus and when it renders graphics. It’s incomplete and crashes",
+        "updatedAt": "2026-03-09",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 16 Pro Max",
+          "device": "iPhone 15 Pro Max",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "26.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-08",
-          "notes": "Nothing start",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-03-09",
+          "notes": "Loads menus and when it renders graphics. It’s incomplete and crashes",
           "source": "app",
           "build": {
             "buildId": "ios-self-built-1.0.0-9280",
@@ -3083,15 +3169,15 @@
           }
         },
         "bestReport": {
-          "device": "iPhone 16 Pro Max",
+          "device": "iPhone 15 Pro Max",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "26.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-08",
-          "notes": "Nothing start",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-03-09",
+          "notes": "Loads menus and when it renders graphics. It’s incomplete and crashes",
           "source": "app",
           "build": {
             "buildId": "ios-self-built-1.0.0-9280",
@@ -4201,8 +4287,8 @@
     "perf": "n/a",
     "tags": [],
     "platforms": [
-      "ios",
-      "macos"
+      "macos",
+      "ios"
     ],
     "lastReport": {
       "device": "Macbook Pro M4",
