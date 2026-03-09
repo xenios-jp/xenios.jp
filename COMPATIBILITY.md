@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **75 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **76 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **20** · 🔵 In-Game: **14** · 🟡 Intro: **14** · 🟠 Loads: **12** · 🔴 Doesn't Boot: **15**
+> 🟢 Playable: **20** · 🔵 In-Game: **14** · 🟡 Intro: **14** · 🟠 Loads: **13** · 🔴 Doesn't Boot: **15**
 >
-> 📱 iOS: **73** · 🖥️ macOS: **4**
+> 📱 iOS: **74** · 🖥️ macOS: **4**
 
 ## Legend
 
@@ -68,6 +68,7 @@
 | 🟡 | Oblivion | `425307D1` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro Max | 2026-03-08 |
 | 🟡 | PopCap Collection | `504787D8` | 📱 iOS | Intro | 🚀 Great | iPhone 13 Pro | 2026-03-09 |
 | 🟡 | Tales of Vesperia | `4E4D07E9` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro | 2026-03-03 |
+| 🟠 | CoD: World at War | `4156081C` | 📱 iOS | Loads | 🐢 Poor | iPhone 15 Pro Max | 2026-03-09 |
 | 🟠 | Crash Of The Titans | `565507E4` | 📱 iOS | Loads | 🚀 Great | iPad 11th Gen | 2026-03-08 |
 | 🟠 | DB: Raging Blast | `4E4D0803` | 📱 iOS | Loads | 🐢 Poor | iPhone 13 Pro | 2026-03-09 |
 | 🟠 | Deadpool | `415608EC` | 📱 iOS | Loads | 🚀 Great | iPhone 15 Pro | 2026-03-09 |

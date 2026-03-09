@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-09T02:28:32.720Z",
+  "generatedAt": "2026-03-09T03:37:16.996Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -623,6 +623,37 @@
             "platform": "iOS",
             "osVersion": "iOS 18.5",
             "gpuBackend": "MSL"
+          }
+        }
+      ]
+    },
+    "4156081C": {
+      "titleId": "4156081C",
+      "issueNumber": 117,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/117",
+      "updatedAt": "2026-03-09",
+      "entries": [
+        {
+          "id": "issue-117",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/117",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-09",
+          "createdAtMs": 1773027415000,
+          "issueNumber": 117,
+          "excerpt": "Crashes at boot, get the initial loading screen then nothing",
+          "images": [],
+          "meta": {
+            "status": "loads",
+            "perf": "poor",
+            "device": "iPhone 15 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
           }
         }
       ]
