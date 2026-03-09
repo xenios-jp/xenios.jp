@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **78 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **79 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **20** · 🔵 In-Game: **14** · 🟡 Intro: **14** · 🟠 Loads: **13** · 🔴 Doesn't Boot: **17**
+> 🟢 Playable: **20** · 🔵 In-Game: **14** · 🟡 Intro: **15** · 🟠 Loads: **13** · 🔴 Doesn't Boot: **17**
 >
-> 📱 iOS: **76** · 🖥️ macOS: **4**
+> 📱 iOS: **77** · 🖥️ macOS: **4**
 
 ## Legend
 
@@ -56,6 +56,7 @@
 | 🔵 | Toy Story 3 | `425607E5` | 📱 iOS | In-Game | 👌 OK | iPhone 14 Pro Max | 2026-03-08 |
 | 🟡 | Batman: Arkham Asylum | `534307F6` | 📱 iOS | Intro | 🚀 Great | iPhone 15 Pro | 2026-03-08 |
 | 🟡 | Beautiful Katamari | `4E4D07DC` | 📱 iOS | Intro | 👌 OK | iPhone 16 Pro | 2026-03-05 |
+| 🟡 | Burnout Revenge | `454107DC` | 📱 iOS | Intro | 🐢 Poor | iPhone 15 Pro Max | 2026-03-09 |
 | 🟡 | DARK SOULS II | `465307E4` | 📱 iOS | Intro | 🐢 Poor | iPhone 17 Pro Max | 2026-03-09 |
 | 🟡 | DEAD RISING | `434307D2` | 📱 iOS | Intro | 👌 OK | iPad (11th gen) | 2026-03-04 |
 | 🟡 | DOOM 3 BFG Edition | `425307F1` | 📱 iOS | Intro | 🚀 Great | iPhone 16 Pro | 2026-03-03 |

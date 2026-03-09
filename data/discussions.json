@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-09T04:17:46.954Z",
+  "generatedAt": "2026-03-09T04:51:23.293Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -649,6 +649,39 @@
             "device": "iPhone 13 Mini",
             "platform": "iOS",
             "osVersion": "iOS 16.6.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        }
+      ]
+    },
+    "454107DC": {
+      "titleId": "454107DC",
+      "issueNumber": 120,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/120",
+      "updatedAt": "2026-03-09",
+      "entries": [
+        {
+          "id": "issue-120",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/120",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-09",
+          "createdAtMs": 1773031861000,
+          "issueNumber": 120,
+          "excerpt": "So the game runs but you can not see anything in menus and have to go blind. Also exploding sound. Then in game it’s dead silent. This is very rough and I cannon consider this to be playable or in game even though I can go in game if I guess prompts in menu.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454107DC/1773031857872-1.jpg"
+          ],
+          "meta": {
+            "status": "intro",
+            "perf": "poor",
+            "device": "iPhone 15 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.1",
             "gpuBackend": "MSL",
             "buildChannel": "self-built",
             "appVersion": "1.0.0",
