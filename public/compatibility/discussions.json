@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-09T01:19:04.428Z",
+  "generatedAt": "2026-03-09T01:20:40.557Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -575,6 +575,29 @@
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/112",
       "updatedAt": "2026-03-09",
       "entries": [
+        {
+          "id": "comment-4020507765",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/112#issuecomment-4020507765",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-09",
+          "createdAtMs": 1773019212000,
+          "issueNumber": 112,
+          "excerpt": "P.S the audio isn’t the greatest either. Turn music volume off upon opening",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 13 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        },
         {
           "id": "issue-112",
           "type": "issue",
