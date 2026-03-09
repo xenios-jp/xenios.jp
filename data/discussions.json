@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-08T23:32:30.867Z",
+  "generatedAt": "2026-03-09T00:05:08.192Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -565,6 +565,39 @@
             "platform": "iOS",
             "osVersion": "iOS 18.5",
             "gpuBackend": "MSL"
+          }
+        }
+      ]
+    },
+    "4B4E080A": {
+      "titleId": "4B4E080A",
+      "issueNumber": 104,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/104",
+      "updatedAt": "2026-03-09",
+      "entries": [
+        {
+          "id": "issue-104",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/104",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-09",
+          "createdAtMs": 1773014679000,
+          "issueNumber": 104,
+          "excerpt": "Take three boot to get through the menu, but after that run, smooth",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4B4E080A/1773014677621-1.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
           }
         }
       ]
