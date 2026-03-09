@@ -25,7 +25,7 @@
 | 🟢 | DB: Raging Blast 2 | `4E4D0826` | 📱 iOS | Playable | 🐢 Poor | iPad Pro (M2) | 2026-03-03 |
 | 🟢 | DEAD OR ALIVE 4 | `544307D1` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro | 2026-03-05 |
 | 🟢 | Dead Space™ | `45410857` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro | 2026-03-03 |
-| 🟢 | DEADLY PREMONITION | `494F07D4` | 📱 iOS | Playable | 👌 OK | iPad (11th gen) | 2026-03-06 |
+| 🟢 | DEADLY PREMONITION | `494F07D4` | 📱 iOS | Playable | 👌 OK | iPad 11th Gen | 2026-03-09 |
 | 🟢 | DOA5 Ultimate | `4B5607E8` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro Max | 2026-03-09 |
 | 🟢 | FINAL FANTASY XIII | `535107E4` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-03 |
 | 🟢 | Guacamelee | `00000000` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-03 |
@@ -76,7 +76,7 @@
 | 🟠 | Crash Of The Titans | `565507E4` | 📱 iOS | Loads | 🚀 Great | iPad 11th Gen | 2026-03-08 |
 | 🟠 | DB: Raging Blast | `4E4D0803` | 📱 iOS | Loads | 🐢 Poor | iPhone 13 Pro | 2026-03-09 |
 | 🟠 | Deadpool | `415608EC` | 📱 iOS | Loads | 🚀 Great | iPhone 15 Pro | 2026-03-09 |
-| 🟠 | Diablo 3: Reaper of Souls | `394F07D4` | 📱 iOS, 🖥️ macOS | Loads | 🐢 Poor | Macbook Pro M4 | 2026-03-09 |
+| 🟠 | Diablo III: RoS | `394F07D4` | 🖥️ macOS, 📱 iOS | Loads | 🐢 Poor | Macbook Pro M4 | 2026-03-09 |
 | 🟠 | Disney Epic Mickey 2 | `42560816` | 📱 iOS | Loads | 🐢 Poor | iPhone 15 Pro Max | 2026-03-08 |
 | 🟠 | Jeopardy! | `545108AE` | 📱 iOS | Loads | 🐢 Poor | iPhone 16 Pro | 2026-03-05 |
 | 🟠 | Left 4 Dead | `45410830` | 📱 iOS | Loads | 🐢 Poor | iPhone 17 Pro Max | 2026-03-08 |

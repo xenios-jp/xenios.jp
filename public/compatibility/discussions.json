@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-09T09:21:18.186Z",
+  "generatedAt": "2026-03-09T10:28:01.989Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2540,8 +2540,34 @@
       "titleId": "494F07D4",
       "issueNumber": 5,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/5",
-      "updatedAt": "2026-03-07",
+      "updatedAt": "2026-03-09",
       "entries": [
+        {
+          "id": "comment-4022730684",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/5#issuecomment-4022730684",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-09",
+          "createdAtMs": 1773052022000,
+          "issueNumber": 5,
+          "excerpt": "Compatibility update with the release version. Audio effects and music work well. FPS speed is usually between 15 -20. The XeniOS 1.0 release is stable for this game, once you get it launched in game with audio it works great.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/494F07D4/1773052016095-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/494F07D4/1773052016095-2.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPad 11th Gen",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        },
         {
           "id": "issue-5",
           "type": "issue",
