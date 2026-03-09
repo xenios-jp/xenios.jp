@@ -1,4 +1,5 @@
 import compatData from "../../data/compatibility.json";
+import releaseBuildsData from "../../data/release-builds.json";
 import DEVICE_NAMES from "@/../data/device-names.json";
 import {
   getBuildDisplayLabel,
@@ -6,6 +7,7 @@ import {
   normalizeBuildStage,
   type DisplayBuildStage,
 } from "@/lib/build-display";
+import { matchesPublishedReleaseBuild } from "@/lib/release-build-match";
 
 export type GameStatus = "playable" | "ingame" | "intro" | "loads" | "nothing";
 export type SummaryStatus = GameStatus | "untested";
@@ -42,6 +44,8 @@ export interface GameReport extends LastReportSnapshot {
   perf?: PerfTier;
   date: string;
   notes: string;
+  reportedTitleId?: string;
+  reportedTitle?: string;
   screenshots?: string[];
   submittedBy?: string;
   source?: ReportSource;
@@ -68,6 +72,7 @@ export interface Game {
   slug: string;
   title: string;
   titleId: string;
+  titleIds: string[];
   status: GameStatus;
   perf: PerfTier;
   tags: string[];
@@ -159,6 +164,20 @@ function cleanString(value: unknown): string | null {
   return trimmed.length > 0 ? trimmed : null;
 }
 
+function normalizeGameTitle(value: unknown): string | null {
+  const cleaned = cleanString(value);
+  if (!cleaned) return null;
+
+  const wrappedMatch = cleaned.match(/^\[(.+)\]([™®©])?$/u);
+  if (!wrappedMatch) {
+    return cleaned;
+  }
+
+  const innerTitle = wrappedMatch[1]?.trim();
+  const suffix = wrappedMatch[2] ?? "";
+  return innerTitle ? `${innerTitle}${suffix}` : cleaned;
+}
+
 function cleanBoolean(value: unknown): boolean | undefined {
   if (typeof value === "boolean") return value;
   return undefined;
@@ -214,6 +233,31 @@ function normalizeStringArray(value: unknown): string[] {
     .filter(Boolean);
 }
 
+function normalizeTitleId(value: unknown): string | null {
+  if (typeof value !== "string") return null;
+  const normalized = value.trim().toUpperCase();
+  return /^[A-F0-9]{8}$/.test(normalized) ? normalized : null;
+}
+
+function normalizeTitleIds(value: unknown, fallbackTitleId?: string | null): string[] {
+  const seen = new Set<string>();
+  const titleIds: string[] = [];
+
+  const pushTitleId = (candidate: unknown) => {
+    const normalized = normalizeTitleId(candidate);
+    if (!normalized || seen.has(normalized)) return;
+    seen.add(normalized);
+    titleIds.push(normalized);
+  };
+
+  pushTitleId(fallbackTitleId);
+  if (Array.isArray(value)) {
+    value.forEach((candidate) => pushTitleId(candidate));
+  }
+
+  return titleIds;
+}
+
 function normalizeBuild(value: unknown): ReportBuild | undefined {
   const record = asRecord(value);
   if (!record) return undefined;
@@ -233,6 +277,13 @@ function normalizeBuild(value: unknown): ReportBuild | undefined {
   return Object.values(build).some((entry) => entry !== undefined)
     ? build
     : undefined;
+}
+
+function getCurrentReleaseBuild(platform: Platform): ReportBuild | undefined {
+  const manifest = asRecord(releaseBuildsData);
+  const platforms = asRecord(manifest?.platforms);
+  const platformRecord = asRecord(platforms?.[platform]);
+  return normalizeBuild(platformRecord?.release);
 }
 
 function normalizeLastReport(value: unknown): LastReportSnapshot | null {
@@ -297,6 +348,8 @@ function normalizeReport(value: unknown): GameReport | null {
     perf,
     date,
     notes,
+    reportedTitleId: normalizeTitleId(record.reportedTitleId) ?? undefined,
+    reportedTitle: normalizeGameTitle(record.reportedTitle) ?? undefined,
     screenshots: normalizeStringArray(record.screenshots),
     submittedBy: cleanString(record.submittedBy) ?? undefined,
     source:
@@ -422,8 +475,20 @@ function normalizeGame(value: unknown): Game {
   const fallbackSummary = getLegacyFallbackSummary(record);
   const derivedAll = summarizeReports(reports, fallbackSummary);
   const structuredChannels = hasChannelMetadata(reports);
+  const currentReleaseBuilds: Record<Platform, ReportBuild | undefined> = {
+    ios: getCurrentReleaseBuild("ios"),
+    macos: getCurrentReleaseBuild("macos"),
+  };
   const derivedRelease = structuredChannels
-    ? summarizeReports(reports.filter((report) => report.build?.channel === "release"))
+    ? summarizeReports(
+        reports.filter((report) => {
+          const currentBuild = currentReleaseBuilds[report.platform];
+          if (currentBuild) {
+            return matchesPublishedReleaseBuild(report.build, currentBuild);
+          }
+          return report.build?.channel === "release";
+        }),
+      )
     : summarizeReports(reports, fallbackSummary);
   const derivedPreview = structuredChannels
     ? summarizeReports(reports.filter((report) => report.build?.channel === "preview"))
@@ -431,7 +496,7 @@ function normalizeGame(value: unknown): Game {
 
   const rawSummaries = asRecord(record.summaries);
   const summaries: GameSummaries = {
-    release: normalizeSummary(rawSummaries?.release, derivedRelease),
+    release: derivedRelease,
     preview: normalizeSummary(rawSummaries?.preview, derivedPreview),
     all: normalizeSummary(rawSummaries?.all, derivedAll),
   };
@@ -442,11 +507,14 @@ function normalizeGame(value: unknown): Game {
   const topLevelPerf =
     normalizePerfTier(record.perf) ??
     (summaries.all.status === "nothing" ? "n/a" : summaries.all.perf);
+  const titleId = normalizeTitleId(record.titleId) ?? "UNKNOWN";
+  const titleIds = normalizeTitleIds(record.titleIds, titleId);
 
   return {
     slug: cleanString(record.slug) ?? "",
-    title: cleanString(record.title) ?? "Unknown Title",
-    titleId: cleanString(record.titleId)?.toUpperCase() ?? "UNKNOWN",
+    title: normalizeGameTitle(record.title) ?? "Unknown Title",
+    titleId,
+    titleIds,
     status: topLevelStatus,
     perf: topLevelPerf,
     tags: normalizeStringArray(record.tags),
@@ -627,7 +695,22 @@ export function getReportsForChannel(
     return channel === "release" ? game.reports : [];
   }
 
-  return game.reports.filter((report) => report.build?.channel === channel);
+  if (channel === "preview") {
+    return game.reports.filter((report) => report.build?.channel === "preview");
+  }
+
+  const currentReleaseBuilds: Record<Platform, ReportBuild | undefined> = {
+    ios: getCurrentReleaseBuild("ios"),
+    macos: getCurrentReleaseBuild("macos"),
+  };
+
+  return game.reports.filter((report) => {
+    const currentBuild = currentReleaseBuilds[report.platform];
+    if (currentBuild) {
+      return matchesPublishedReleaseBuild(report.build, currentBuild);
+    }
+    return report.build?.channel === "release";
+  });
 }
 
 export function getBestReport(

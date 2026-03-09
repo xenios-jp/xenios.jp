@@ -19,7 +19,18 @@ import {
   getLatestBuild,
   isRenderableBuild,
 } from "@/lib/builds";
-import { getDiscussionByTitleId, type DiscussionEntry } from "@/lib/discussions";
+import {
+  ALPHA_BUCKETS,
+  CATALOG_BUCKETS,
+  alphaBucketForTitle,
+  parseCompatibilityBrowseFilters,
+  type AlphaBucket,
+  type CatalogBucket,
+  type CompatibilityBrowseFilters,
+  type PlatformFilter,
+} from "@/lib/compatibility-browse";
+import { getDiscussionByTitleIds, type DiscussionEntry } from "@/lib/discussions";
+import { matchesPublishedReleaseBuild } from "@/lib/release-build-match";
 
 const STATUS_RANK: Record<GameReport["status"], number> = {
   nothing: 0,
@@ -101,8 +112,16 @@ export interface GameDetailViewModel {
   activity: ActivityItem[];
 }
 
+export interface CompatibilityListGame {
+  slug: string;
+  title: string;
+  titleId: string;
+  titleIds: string[];
+  tags: string[];
+}
+
 export interface CompatibilityListEntry {
-  game: Game;
+  game: CompatibilityListGame;
   platform: Platform | null;
   status: SummaryStatus;
   perf: PerfTier;
@@ -124,6 +143,60 @@ export interface CompatibilityPlatformEntry {
   variesByDevice: boolean;
   verified: boolean;
 }
+
+export interface CompatibilityDeviceGroup {
+  label: string;
+  rawValues: string[];
+}
+
+export interface CompatibilityAlphaCount {
+  bucket: AlphaBucket;
+  count: number;
+}
+
+export interface CompatibilityCatalogOverview {
+  totalTracked: number;
+  testedCount: number;
+  totalHiddenReports: number;
+  bucketCounts: CompatibilityAlphaCount[];
+}
+
+export interface CompatibilityStatusSummary {
+  total: number;
+  statusCounts: Record<SummaryStatus, number>;
+}
+
+export interface CompatibilityStatusSummaryByPlatform {
+  all: CompatibilityStatusSummary;
+  ios: CompatibilityStatusSummary;
+  macos: CompatibilityStatusSummary;
+}
+
+export interface CompatibilityCatalogPageData {
+  entries: CompatibilityListEntry[];
+  totalEntries: number;
+  page: number;
+  pageCount: number;
+  summaryByPlatform: CompatibilityStatusSummaryByPlatform;
+}
+
+export interface CompatibilityListPageData {
+  filters: CompatibilityBrowseFilters;
+  entries: CompatibilityListEntry[];
+  totalTracked: number;
+  testedCount: number;
+  baseTotal: number;
+  filteredTotal: number;
+  totalHiddenReports: number;
+  statusCounts: Record<SummaryStatus, number>;
+  deviceGroups: CompatibilityDeviceGroup[];
+  alphaCounts: CompatibilityAlphaCount[];
+  page: number;
+  pageCount: number;
+  pageSize: number;
+}
+
+export const COMPATIBILITY_CATALOG_PAGE_SIZE = 50;
 
 function reportIdentity(report: GameReport): string {
   return [
@@ -271,35 +344,15 @@ function reportMatchesCurrentBuild(
   }
 
   const reportBuild = report.build;
-  if (!reportBuild || reportBuild.official === false) {
+  if (!reportBuild) {
     return {
       matches: false,
       buildLabel: getBuildDisplayLabel(currentBuild),
     };
   }
 
-  const comparablePairs: Array<[string | undefined, string | undefined]> = [
-    [reportBuild.buildId, currentBuild.buildId],
-    [reportBuild.appVersion, currentBuild.appVersion],
-    [reportBuild.buildNumber, currentBuild.buildNumber],
-    [reportBuild.stage, currentBuild.stage],
-    [reportBuild.commitShort, currentBuild.commitShort],
-  ];
-
-  let comparedFields = 0;
-  for (const [left, right] of comparablePairs) {
-    if (!left || !right) continue;
-    comparedFields += 1;
-    if (left.toLowerCase() !== right.toLowerCase()) {
-      return {
-        matches: false,
-        buildLabel: getBuildDisplayLabel(currentBuild),
-      };
-    }
-  }
-
   return {
-    matches: comparedFields > 0,
+    matches: matchesPublishedReleaseBuild(reportBuild, currentBuild),
     buildLabel: getBuildDisplayLabel(currentBuild),
   };
 }
@@ -311,6 +364,12 @@ function getActivityTrack(report: GameReport): {
 } {
   if (report.build?.channel === "preview") {
     return { track: "preview", trackLabel: "Preview", affectsRelease: false };
+  }
+  if (
+    (report.build?.channel === "self-built" || report.build?.official === false) &&
+    reportMatchesCurrentBuild(report, report.platform).matches
+  ) {
+    return { track: "release", trackLabel: "Release Match", affectsRelease: true };
   }
   if (report.build?.channel === "self-built" || report.build?.official === false) {
     return { track: "self-built", trackLabel: "Self-built", affectsRelease: false };
@@ -473,10 +532,10 @@ function buildReleaseNote(
 ): string {
   if (selection.reports.length === 0) {
     if (selection.currentBuildKnown) {
-      return "No reports yet for the current official release. Preview and self-built reports below do not affect the public verdict.";
+      return "No reports yet for the current official release. Preview and non-matching local reports below do not affect the public verdict.";
     }
     if (platformReports.length > 0) {
-      return "Only preview, self-built, or older legacy reports are available right now. The public release verdict stays unverified.";
+      return "Only preview, non-matching local, or older legacy reports are available right now. There is not enough matched evidence for the published release yet.";
     }
     return "No reports have been submitted for this platform yet.";
   }
@@ -489,7 +548,7 @@ function buildReleaseNote(
     return "Current release reports consistently indicate playthrough-quality results on the reported devices.";
   }
 
-  return "Current release verdict is based only on release-track reports. Preview and self-built activity appears below for context.";
+  return "Current release verdict is based on the current published release. Preview and non-matching local activity appears below for context.";
 }
 
 function buildReleaseCard(
@@ -606,7 +665,13 @@ function buildCompatibilityListEntry(
   const observedDevices = [...new Set(primaryEvidence.map((report) => report.device))];
 
   return {
-    game,
+    game: {
+      slug: game.slug,
+      title: game.title,
+      titleId: game.titleId,
+      titleIds: game.titleIds,
+      tags: game.tags,
+    },
     platform: primaryCard?.platform ?? null,
     status: primaryCard?.status ?? "untested",
     perf: primaryCard?.perf ?? "n/a",
@@ -620,6 +685,118 @@ function buildCompatibilityListEntry(
     hiddenReportCount,
     platformEntries,
   };
+}
+
+function getListEntryProjection(
+  entry: CompatibilityListEntry,
+  platform: PlatformFilter,
+): {
+  platform: Platform | null;
+  status: SummaryStatus;
+  perf: PerfTier;
+  updatedAt: string;
+  observedDevices: string[];
+  variesByDevice: boolean;
+} {
+  if (platform === "all") {
+    return {
+      platform: entry.platform,
+      status: entry.status,
+      perf: entry.perf,
+      updatedAt: entry.updatedAt,
+      observedDevices: entry.observedDevices,
+      variesByDevice: entry.variesByDevice,
+    };
+  }
+
+  const platformEntry =
+    entry.platformEntries.find((candidate) => candidate.platform === platform) ?? null;
+
+  if (!platformEntry) {
+    return {
+      platform,
+      status: "untested",
+      perf: "n/a",
+      updatedAt: "",
+      observedDevices: [],
+      variesByDevice: false,
+    };
+  }
+
+  return {
+    platform: platformEntry.platform,
+    status: platformEntry.status,
+    perf: platformEntry.perf,
+    updatedAt: platformEntry.updatedAt,
+    observedDevices: platformEntry.observedDevices,
+    variesByDevice: platformEntry.variesByDevice,
+  };
+}
+
+function isTestedListEntry(entry: CompatibilityListEntry, platform: PlatformFilter): boolean {
+  return getListEntryProjection(entry, platform).status !== "untested";
+}
+
+function emptyStatusCounts(): Record<SummaryStatus, number> {
+  return {
+    playable: 0,
+    ingame: 0,
+    intro: 0,
+    loads: 0,
+    nothing: 0,
+    untested: 0,
+  };
+}
+
+function buildStatusSummary(
+  entries: CompatibilityListEntry[],
+  platform: PlatformFilter,
+): CompatibilityStatusSummary {
+  const statusCounts = emptyStatusCounts();
+
+  for (const entry of entries) {
+    const projection = getListEntryProjection(entry, platform);
+    statusCounts[projection.status] += 1;
+  }
+
+  return {
+    total: entries.length,
+    statusCounts,
+  };
+}
+
+function buildStatusSummaryByPlatform(
+  entries: CompatibilityListEntry[],
+): CompatibilityStatusSummaryByPlatform {
+  return {
+    all: buildStatusSummary(entries, "all"),
+    ios: buildStatusSummary(entries, "ios"),
+    macos: buildStatusSummary(entries, "macos"),
+  };
+}
+
+function sortCompatibilityEntries(
+  entries: CompatibilityListEntry[],
+  platform: PlatformFilter,
+  sort: CompatibilityBrowseFilters["sort"],
+): CompatibilityListEntry[] {
+  const sorted = [...entries];
+  if (sort === "alpha") {
+    sorted.sort((left, right) => left.game.title.localeCompare(right.game.title));
+    return sorted;
+  }
+
+  sorted.sort((left, right) => {
+    const rightProjection = getListEntryProjection(right, platform);
+    const leftProjection = getListEntryProjection(left, platform);
+    const dateDelta =
+      parseDateValue(rightProjection.updatedAt) - parseDateValue(leftProjection.updatedAt);
+    if (dateDelta !== 0) {
+      return dateDelta;
+    }
+    return left.game.title.localeCompare(right.game.title);
+  });
+  return sorted;
 }
 
 async function fetchLiveGameDetail(titleId: string): Promise<LiveGameDetailResponse | null> {
@@ -660,7 +837,22 @@ export const getCompatibilityGames = cache(async (): Promise<Game[]> => {
     mergedGames.set(game.slug, game);
   });
   liveGames.forEach((game) => {
-    mergedGames.set(game.slug, game);
+    const fallbackGame = mergedGames.get(game.slug);
+    if (!fallbackGame) {
+      mergedGames.set(game.slug, game);
+      return;
+    }
+
+    mergedGames.set(game.slug, {
+      ...game,
+      slug: fallbackGame.slug,
+      title: fallbackGame.title,
+      titleId: fallbackGame.titleId,
+      titleIds: fallbackGame.titleIds,
+      tags: fallbackGame.tags.length > 0 ? fallbackGame.tags : game.tags,
+      issueNumber: game.issueNumber ?? fallbackGame.issueNumber,
+      issueUrl: game.issueUrl ?? fallbackGame.issueUrl,
+    });
   });
 
   return [...mergedGames.values()];
@@ -677,7 +869,7 @@ export async function getGameDetailViewModel(
   game: Game,
 ): Promise<GameDetailViewModel> {
   const liveDetail = await fetchLiveGameDetail(game.titleId);
-  const discussion = getDiscussionByTitleId(game.titleId);
+  const discussion = getDiscussionByTitleIds(game.titleIds);
   const liveReports = normalizeLiveReports(liveDetail?.reports);
   const allReports =
     liveReports.length > 0 ? liveReports : [...game.reports].sort(compareReportsByDate);
@@ -751,7 +943,8 @@ export async function getGameDetailViewModel(
   };
 }
 
-export async function getCompatibilityListEntries(): Promise<CompatibilityListEntry[]> {
+export const getCompatibilityListEntries = cache(
+  async (): Promise<CompatibilityListEntry[]> => {
   const games = await getCompatibilityGames();
 
   return games
@@ -768,4 +961,198 @@ export async function getCompatibilityListEntries(): Promise<CompatibilityListEn
       }
       return left.game.title.localeCompare(right.game.title);
     });
+  },
+);
+
+export const getTestedCompatibilityListEntries = cache(
+  async (): Promise<CompatibilityListEntry[]> => {
+    const entries = await getCompatibilityListEntries();
+    return entries.filter((entry) => isTestedListEntry(entry, "all"));
+  },
+);
+
+export const getCompatibilityCatalogOverview = cache(
+  async (): Promise<CompatibilityCatalogOverview> => {
+    const entries = await getCompatibilityListEntries();
+
+    return {
+      totalTracked: entries.length,
+      testedCount: entries.filter((entry) => isTestedListEntry(entry, "all")).length,
+      totalHiddenReports: entries.reduce((sum, entry) => sum + entry.hiddenReportCount, 0),
+      bucketCounts: CATALOG_BUCKETS.map((bucket) => ({
+        bucket,
+        count: entries.filter((entry) => alphaBucketForTitle(entry.game.title) === bucket).length,
+      })),
+    };
+  },
+);
+
+export const getFullCompatibilityCatalogEntries = cache(
+  async (): Promise<CompatibilityListEntry[]> => {
+    const entries = await getCompatibilityListEntries();
+    return sortCompatibilityEntries(entries, "all", "alpha");
+  },
+);
+
+export async function getCompatibilityCatalogBucketEntries(
+  bucket: CatalogBucket,
+): Promise<CompatibilityListEntry[]> {
+  const entries = await getFullCompatibilityCatalogEntries();
+  return entries.filter((entry) => alphaBucketForTitle(entry.game.title) === bucket);
+}
+
+export async function getCompatibilityCatalogPageData(
+  bucket: CatalogBucket | null,
+  requestedPage: number,
+): Promise<CompatibilityCatalogPageData> {
+  const entries = bucket
+    ? await getCompatibilityCatalogBucketEntries(bucket)
+    : await getFullCompatibilityCatalogEntries();
+
+  const pageCount = Math.max(1, Math.ceil(entries.length / COMPATIBILITY_CATALOG_PAGE_SIZE));
+  const page = Math.min(Math.max(1, requestedPage), pageCount);
+  const start = (page - 1) * COMPATIBILITY_CATALOG_PAGE_SIZE;
+
+  return {
+    entries: entries.slice(start, start + COMPATIBILITY_CATALOG_PAGE_SIZE),
+    totalEntries: entries.length,
+    page,
+    pageCount,
+    summaryByPlatform: buildStatusSummaryByPlatform(entries),
+  };
+}
+
+export async function getCompatibilityListPageData(
+  searchParams: Record<string, string | string[] | undefined>,
+): Promise<CompatibilityListPageData> {
+  const filters = parseCompatibilityBrowseFilters(searchParams);
+  const rawSort = Array.isArray(searchParams.sort)
+    ? searchParams.sort[0]
+    : searchParams.sort;
+  if (filters.scope === "all" && !rawSort) {
+    filters.sort = "alpha";
+  }
+  const allEntries = await getCompatibilityListEntries();
+  const totalTracked = allEntries.length;
+  const testedCount = allEntries.filter((entry) =>
+    isTestedListEntry(entry, filters.platform),
+  ).length;
+  const totalHiddenReports = allEntries.reduce(
+    (sum, entry) => sum + entry.hiddenReportCount,
+    0,
+  );
+  const pageSize =
+    filters.scope === "all" ? COMPATIBILITY_CATALOG_PAGE_SIZE : 100;
+
+  const scopedEntries =
+    filters.scope === "all"
+      ? allEntries
+      : allEntries.filter((entry) => isTestedListEntry(entry, filters.platform));
+
+  const alphaCounts = ALPHA_BUCKETS.map((bucket) => ({
+    bucket,
+    count:
+      bucket === "all"
+        ? scopedEntries.length
+        : scopedEntries.filter((entry) => alphaBucketForTitle(entry.game.title) === bucket).length,
+  }));
+
+  const bucketEntries =
+    filters.bucket === "all"
+      ? scopedEntries
+      : scopedEntries.filter(
+          (entry) => alphaBucketForTitle(entry.game.title) === filters.bucket,
+        );
+
+  const searchedEntries = filters.q
+    ? bucketEntries.filter((entry) => {
+        const query = filters.q.toLowerCase();
+        return (
+          entry.game.title.toLowerCase().includes(query) ||
+          entry.game.titleIds.some((titleId) => titleId.toLowerCase().includes(query)) ||
+          entry.game.tags.some((tag) => tag.toLowerCase().includes(query))
+        );
+      })
+    : bucketEntries;
+
+  const baseEntries = searchedEntries;
+
+  const statusCounts: Record<SummaryStatus, number> = {
+    playable: 0,
+    ingame: 0,
+    intro: 0,
+    loads: 0,
+    nothing: 0,
+    untested: 0,
+  };
+  for (const entry of baseEntries) {
+    const projection = getListEntryProjection(entry, filters.platform);
+    statusCounts[projection.status] += 1;
+  }
+
+  const normalizedDeviceGroups = new Map<string, string[]>();
+  if (filters.platform !== "all") {
+    for (const raw of [
+      ...new Set(
+        baseEntries.flatMap((entry) =>
+          getListEntryProjection(entry, filters.platform).observedDevices,
+        ),
+      ),
+    ]) {
+      const label = deviceName(raw);
+      const existing = normalizedDeviceGroups.get(label) ?? [];
+      existing.push(raw);
+      normalizedDeviceGroups.set(label, existing);
+    }
+  }
+
+  const deviceGroupList: CompatibilityDeviceGroup[] = [...normalizedDeviceGroups.entries()]
+    .sort(([left], [right]) => left.localeCompare(right))
+    .map(([label, rawValues]) => ({ label, rawValues }));
+
+  const filteredEntries = baseEntries.filter((entry) => {
+    const projection = getListEntryProjection(entry, filters.platform);
+
+    if (filters.status && projection.status !== filters.status) {
+      return false;
+    }
+    if (filters.perf !== "all" && projection.perf !== filters.perf) {
+      return false;
+    }
+    if (filters.platform !== "all" && filters.device) {
+      const rawValues =
+        deviceGroupList.find((group) => group.label === filters.device)?.rawValues ??
+        [filters.device];
+      if (!projection.observedDevices.some((device) => rawValues.includes(device))) {
+        return false;
+      }
+    }
+
+    return true;
+  });
+
+  const sortedEntries = sortCompatibilityEntries(filteredEntries, filters.platform, filters.sort);
+  const pageCount = Math.max(1, Math.ceil(sortedEntries.length / pageSize));
+  const page = Math.min(filters.page, pageCount);
+  const start = (page - 1) * pageSize;
+  const entries = sortedEntries.slice(start, start + pageSize);
+
+  return {
+    filters: {
+      ...filters,
+      page,
+    },
+    entries,
+    totalTracked,
+    testedCount,
+    baseTotal: baseEntries.length,
+    filteredTotal: sortedEntries.length,
+    totalHiddenReports,
+    statusCounts,
+    deviceGroups: deviceGroupList,
+    alphaCounts,
+    page,
+    pageCount,
+    pageSize,
+  };
 }

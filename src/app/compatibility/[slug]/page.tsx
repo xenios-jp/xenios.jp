@@ -6,6 +6,7 @@ import {
   getGameDetailViewModel,
   selectPrimaryReleaseCard,
 } from "@/lib/game-detail";
+import { withCanonical } from "@/lib/metadata";
 import { GameDetailClient } from "./game-detail-client";
 
 export async function generateStaticParams() {
@@ -28,10 +29,13 @@ export async function generateMetadata({
     ? getStatusLabel(primaryCard.status)
     : "Unverified";
 
-  return {
-    title: `${game.title} — Compatibility`,
-    description: `XeniOS compatibility report for ${game.title} (${game.titleId}). Current public release status: ${releaseStatus}.`,
-  };
+  return withCanonical(
+    {
+      title: `${game.title} — Compatibility`,
+      description: `XeniOS compatibility report for ${game.title} (${game.titleId}). Current public release status: ${releaseStatus}.`,
+    },
+    `/compatibility/${game.slug}`
+  );
 }
 
 export default async function GameDetailPage({

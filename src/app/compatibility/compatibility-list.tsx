@@ -1,9 +1,8 @@
 "use client";
 
-import type { ChangeEvent, FormEvent } from "react";
-import { Suspense, useCallback, useMemo } from "react";
+import type { ChangeEvent } from "react";
+import { useState } from "react";
 import Link from "next/link";
-import { useRouter, useSearchParams } from "next/navigation";
 import { Pill } from "@/components/pill";
 import {
   SUMMARY_STATUS_ORDER,
@@ -15,23 +14,21 @@ import {
   type Platform,
   type SummaryStatus,
 } from "@/lib/compatibility";
+import {
+  CATALOG_BUCKETS,
+  alphaBucketLabel,
+  catalogBucketToSlug,
+  type CatalogBucket,
+  type PlatformFilter,
+  type SortKey,
+} from "@/lib/compatibility-browse";
 import type {
+  CompatibilityAlphaCount,
   CompatibilityListEntry,
   CompatibilityPlatformEntry,
+  CompatibilityStatusSummaryByPlatform,
 } from "@/lib/game-detail";
 import { COMPATIBILITY_TRACKER_REPORT_URL } from "@/lib/constants";
-
-type SortKey = "updated" | "alpha";
-type PlatformFilter = "all" | Platform;
-
-interface FilterState {
-  platform: PlatformFilter;
-  q: string;
-  status: SummaryStatus | null;
-  perf: PerfTier | "all";
-  device: string;
-  sort: SortKey;
-}
 
 interface EntryProjection {
   platform: Platform | null;
@@ -42,6 +39,23 @@ interface EntryProjection {
   variesByDevice: boolean;
 }
 
+type CompatibilityListMode = "tested" | "catalog";
+
+interface CompatibilityListProps {
+  mode: CompatibilityListMode;
+  entries: CompatibilityListEntry[];
+  totalTracked: number;
+  testedCount: number;
+  totalHiddenReports: number;
+  bucketCounts?: CompatibilityAlphaCount[];
+  activeBucket?: CatalogBucket;
+  catalogSummaryByPlatform?: CompatibilityStatusSummaryByPlatform;
+  catalogPage?: number;
+  catalogPageCount?: number;
+  catalogTotalEntries?: number;
+  catalogBasePath?: string;
+}
+
 const STATUS_COLORS: Record<SummaryStatus, string> = {
   playable: "bg-emerald-400",
   ingame: "bg-blue-400",
@@ -50,40 +64,6 @@ const STATUS_COLORS: Record<SummaryStatus, string> = {
   nothing: "bg-red-400",
   untested: "bg-zinc-400",
 };
-
-function parsePlatform(value: string | null): PlatformFilter {
-  return value === "ios" || value === "macos" ? value : "all";
-}
-
-function parseStatus(value: string | null): SummaryStatus | null {
-  if (!value) return null;
-  return SUMMARY_STATUS_ORDER.includes(value as SummaryStatus)
-    ? (value as SummaryStatus)
-    : null;
-}
-
-function parsePerf(value: string | null): PerfTier | "all" {
-  if (value === "great" || value === "ok" || value === "poor" || value === "n/a") {
-    return value;
-  }
-  return "all";
-}
-
-function parseSort(value: string | null): SortKey {
-  return value === "alpha" ? "alpha" : "updated";
-}
-
-function buildQueryString(filters: FilterState): string {
-  const params = new URLSearchParams();
-  if (filters.platform !== "all") params.set("platform", filters.platform);
-  if (filters.q) params.set("q", filters.q);
-  if (filters.status) params.set("status", filters.status);
-  if (filters.perf !== "all") params.set("perf", filters.perf);
-  if (filters.platform !== "all" && filters.device) params.set("device", filters.device);
-  if (filters.sort !== "updated") params.set("sort", filters.sort);
-  const query = params.toString();
-  return query ? `?${query}` : "";
-}
 
 function parseDateValue(value?: string | null): number {
   if (!value) return 0;
@@ -103,6 +83,7 @@ function formatDateLabel(value?: string | null): string {
     year: "numeric",
     month: "short",
     day: "numeric",
+    timeZone: "UTC",
   });
 }
 
@@ -116,6 +97,42 @@ function entryHref(slug: string): string {
   return `/compatibility/${slug}`;
 }
 
+function titleIdsForDisplay(entry: CompatibilityListEntry): string[] {
+  return entry.game.titleIds.length > 0 ? entry.game.titleIds : [entry.game.titleId];
+}
+
+function TitleIdList({
+  entry,
+  compact = false,
+  interactive = true,
+}: {
+  entry: CompatibilityListEntry;
+  compact?: boolean;
+  interactive?: boolean;
+}) {
+  const titleIds = titleIdsForDisplay(entry);
+
+  return (
+    <div className={`flex flex-col ${compact ? "gap-0.5" : "gap-1"}`}>
+      {titleIds.map((titleId) =>
+        interactive ? (
+          <Link
+            key={titleId}
+            href={entryHref(entry.game.slug)}
+            className="font-mono text-sm text-text-muted transition hover:text-accent"
+          >
+            {titleId}
+          </Link>
+        ) : (
+          <span key={titleId} className="font-mono text-sm text-text-muted">
+            {titleId}
+          </span>
+        ),
+      )}
+    </div>
+  );
+}
+
 function getPlatformEntry(
   entry: CompatibilityListEntry,
   platform: Platform,
@@ -126,7 +143,7 @@ function getPlatformEntry(
 function getEntryProjection(
   entry: CompatibilityListEntry,
   platform: PlatformFilter,
-): EntryProjection | null {
+): EntryProjection {
   if (platform === "all") {
     return {
       platform: entry.platform,
@@ -139,7 +156,16 @@ function getEntryProjection(
   }
 
   const platformEntry = getPlatformEntry(entry, platform);
-  if (!platformEntry) return null;
+  if (!platformEntry) {
+    return {
+      platform,
+      status: "untested",
+      perf: "n/a",
+      updatedAt: "",
+      observedDevices: [],
+      variesByDevice: false,
+    };
+  }
 
   return {
     platform: platformEntry.platform,
@@ -168,10 +194,6 @@ function hasPlatformVariance(entry: CompatibilityListEntry): boolean {
   return statuses.size > 1;
 }
 
-function entryUpdatedAtMs(entry: CompatibilityListEntry, platform: PlatformFilter): number {
-  return parseDateValue(getEntryProjection(entry, platform)?.updatedAt);
-}
-
 function observedDevicesLabel(observedDevices: string[], variesByDevice: boolean): string {
   if (observedDevices.length === 0) {
     return "Unverified";
@@ -189,6 +211,75 @@ function observedDevicesLabel(observedDevices: string[], variesByDevice: boolean
   return `${deviceName(firstDevice)} + ${rest.length} more`;
 }
 
+function sortEntries(
+  entries: CompatibilityListEntry[],
+  platform: PlatformFilter,
+  sort: SortKey,
+): CompatibilityListEntry[] {
+  const sorted = [...entries];
+  if (sort === "alpha") {
+    sorted.sort((left, right) => left.game.title.localeCompare(right.game.title));
+    return sorted;
+  }
+
+  sorted.sort((left, right) => {
+    const rightProjection = getEntryProjection(right, platform);
+    const leftProjection = getEntryProjection(left, platform);
+    const dateDelta =
+      parseDateValue(rightProjection.updatedAt) - parseDateValue(leftProjection.updatedAt);
+    if (dateDelta !== 0) {
+      return dateDelta;
+    }
+    return left.game.title.localeCompare(right.game.title);
+  });
+  return sorted;
+}
+
+function countForBucket(
+  bucketCounts: CompatibilityAlphaCount[] | undefined,
+  bucket: CatalogBucket,
+): number {
+  return bucketCounts?.find((entry) => entry.bucket === bucket)?.count ?? 0;
+}
+
+function paginationItems(page: number, pageCount: number): Array<number | "ellipsis"> {
+  if (pageCount <= 12) {
+    return Array.from({ length: pageCount }, (_, index) => index + 1);
+  }
+
+  const items: Array<number | "ellipsis"> = [1];
+  const start = Math.max(2, page - 5);
+  const end = Math.min(pageCount - 1, page + 5);
+
+  if (start > 2) {
+    items.push("ellipsis");
+  }
+
+  for (let value = start; value <= end; value += 1) {
+    items.push(value);
+  }
+
+  if (end < pageCount - 1) {
+    items.push("ellipsis");
+  }
+
+  items.push(pageCount);
+  return items;
+}
+
+function catalogPageHref(basePath: string, page: number): string {
+  return page <= 1 ? basePath : `${basePath}/page/${page}`;
+}
+
+function matchesSearch(entry: CompatibilityListEntry, query: string): boolean {
+  const normalizedQuery = query.toLowerCase();
+  return (
+    entry.game.title.toLowerCase().includes(normalizedQuery) ||
+    entry.game.titleIds.some((titleId) => titleId.toLowerCase().includes(normalizedQuery)) ||
+    entry.game.tags.some((tag) => tag.toLowerCase().includes(normalizedQuery))
+  );
+}
+
 function GameRow({
   entry,
   platform,
@@ -197,19 +288,12 @@ function GameRow({
   platform: PlatformFilter;
 }) {
   const projection = getEntryProjection(entry, platform);
-  if (!projection) return null;
-
   const displayedPlatforms = getDisplayedPlatforms(entry, platform);
 
   return (
     <tr className="border-b border-border transition hover:bg-bg-surface/60">
       <td className="py-2.5 pr-4 pl-4 font-mono text-sm text-text-muted">
-        <Link
-          href={entryHref(entry.game.slug)}
-          className="transition hover:text-accent"
-        >
-          {entry.game.titleId}
-        </Link>
+        <TitleIdList entry={entry} />
       </td>
       <td className="py-2.5 pr-4">
         <Link
@@ -261,8 +345,6 @@ function GameCard({
   platform: PlatformFilter;
 }) {
   const projection = getEntryProjection(entry, platform);
-  if (!projection) return null;
-
   const displayedPlatforms = getDisplayedPlatforms(entry, platform);
 
   return (
@@ -273,9 +355,9 @@ function GameCard({
       <div className="mb-3 flex items-start justify-between gap-2">
         <div>
           <h3 className="font-medium text-text-primary">{entry.game.title}</h3>
-          <span className="font-mono text-xs text-text-muted">
-            {entry.game.titleId}
-          </span>
+          <div className="mt-1">
+            <TitleIdList entry={entry} compact interactive={false} />
+          </div>
         </div>
         <Pill variant={projection.status}>{getStatusLabel(projection.status)}</Pill>
       </div>
@@ -305,185 +387,153 @@ function GameCard({
   );
 }
 
-function CompatibilityListInner({
+export function CompatibilityList({
+  mode,
   entries: allEntries,
-}: {
-  entries: CompatibilityListEntry[];
-}) {
-  const searchParams = useSearchParams();
-  const router = useRouter();
+  totalTracked,
+  testedCount,
+  totalHiddenReports,
+  bucketCounts,
+  activeBucket,
+  catalogSummaryByPlatform,
+  catalogPage,
+  catalogPageCount,
+  catalogTotalEntries,
+  catalogBasePath,
+}: CompatibilityListProps) {
+  const [platform, setPlatform] = useState<PlatformFilter>("all");
+  const [query, setQuery] = useState("");
+  const [status, setStatus] = useState<SummaryStatus | null>(null);
+  const [perf, setPerf] = useState<PerfTier | "all">("all");
+  const [device, setDevice] = useState("");
+  const [sort, setSort] = useState<SortKey>(mode === "catalog" ? "alpha" : "updated");
 
-  const filters: FilterState = useMemo(
-    () => ({
-      platform: parsePlatform(searchParams.get("platform")),
-      q: (searchParams.get("q") ?? "").trim(),
-      status: parseStatus(searchParams.get("status")),
-      perf: parsePerf(searchParams.get("perf")),
-      device: searchParams.get("device") ?? "",
-      sort: parseSort(searchParams.get("sort")),
-    }),
-    [searchParams],
-  );
+  const isCatalogMode = mode === "catalog";
+  const currentPlatform = platform;
+  const platformScopedEntries =
+    !isCatalogMode && currentPlatform !== "all"
+      ? allEntries.filter(
+          (entry) => getEntryProjection(entry, currentPlatform).status !== "untested",
+        )
+      : allEntries;
+  const trimmedQuery = query.trim();
+  const searchedEntries = trimmedQuery
+    ? platformScopedEntries.filter((entry) => matchesSearch(entry, trimmedQuery))
+    : platformScopedEntries;
+  const visibleSummaryStatuses = isCatalogMode
+    ? SUMMARY_STATUS_ORDER
+    : SUMMARY_STATUS_ORDER.filter((summaryStatus) => summaryStatus !== "untested");
 
-  const totalTracked = allEntries.length;
-  const totalHiddenReports = useMemo(
-    () => allEntries.reduce((sum, entry) => sum + entry.hiddenReportCount, 0),
-    [allEntries],
-  );
+  const localStatusCounts: Record<SummaryStatus, number> = {
+    playable: 0,
+    ingame: 0,
+    intro: 0,
+    loads: 0,
+    nothing: 0,
+    untested: 0,
+  };
 
-  const platformEntries = useMemo(
-    () =>
-      filters.platform === "all"
-        ? allEntries
-        : allEntries.filter((entry) => getEntryProjection(entry, filters.platform) !== null),
-    [allEntries, filters.platform],
-  );
+  for (const entry of searchedEntries) {
+    const projection = getEntryProjection(entry, currentPlatform);
+    localStatusCounts[projection.status] += 1;
+  }
 
-  const baseTotal = platformEntries.length;
-
-  const deviceGroups = useMemo(() => {
-    if (filters.platform === "all") return [] as Array<[string, string[]]>;
-
-    const allRaw = [
+  const normalizedDeviceGroups = new Map<string, string[]>();
+  if (currentPlatform !== "all") {
+    for (const raw of [
       ...new Set(
-        platformEntries.flatMap(
-          (entry) => getEntryProjection(entry, filters.platform)?.observedDevices ?? [],
+        searchedEntries.flatMap((entry) =>
+          getEntryProjection(entry, currentPlatform).observedDevices,
         ),
       ),
-    ];
-    const groups = new Map<string, string[]>();
-
-    for (const raw of allRaw) {
-      const display = deviceName(raw);
-      const existing = groups.get(display) ?? [];
+    ]) {
+      const label = deviceName(raw);
+      const existing = normalizedDeviceGroups.get(label) ?? [];
       existing.push(raw);
-      groups.set(display, existing);
+      normalizedDeviceGroups.set(label, existing);
+    }
+  }
+
+  const deviceGroups = [...normalizedDeviceGroups.entries()]
+    .sort(([left], [right]) => left.localeCompare(right))
+    .map(([label, rawValues]) => ({ label, rawValues }));
+
+  const filteredEntries = searchedEntries.filter((entry) => {
+    const projection = getEntryProjection(entry, currentPlatform);
+
+    if (status && projection.status !== status) {
+      return false;
+    }
+    if (perf !== "all" && projection.perf !== perf) {
+      return false;
+    }
+    if (currentPlatform !== "all" && device) {
+      const rawValues =
+        deviceGroups.find((group) => group.label === device)?.rawValues ?? [device];
+      if (
+        !projection.observedDevices.some((observedDevice) => rawValues.includes(observedDevice))
+      ) {
+        return false;
+      }
     }
 
-    return [...groups.entries()].sort(([left], [right]) => left.localeCompare(right));
-  }, [platformEntries, filters.platform]);
+    return true;
+  });
 
-  const deviceCount = deviceGroups.length;
-
-  const statusCounts: Record<SummaryStatus, number> = useMemo(() => {
-    const counts: Record<SummaryStatus, number> = {
-      playable: 0,
-      ingame: 0,
-      intro: 0,
-      loads: 0,
-      nothing: 0,
-      untested: 0,
-    };
-
-    platformEntries.forEach((entry) => {
-      const projection = getEntryProjection(entry, filters.platform);
-      if (!projection) return;
-      counts[projection.status] += 1;
-    });
-
-    return counts;
-  }, [platformEntries, filters.platform]);
-
-  const entries = useMemo(() => {
-    let filtered = platformEntries;
-
-    if (filters.q) {
-      const query = filters.q.toLowerCase();
-      filtered = filtered.filter(
-        (entry) =>
-          entry.game.title.toLowerCase().includes(query) ||
-          entry.game.titleId.toLowerCase().includes(query) ||
-          entry.game.tags.some((tag) => tag.toLowerCase().includes(query)),
-      );
-    }
-
-    if (filters.status) {
-      filtered = filtered.filter(
-        (entry) => getEntryProjection(entry, filters.platform)?.status === filters.status,
-      );
-    }
-
-    if (filters.perf !== "all") {
-      filtered = filtered.filter(
-        (entry) => getEntryProjection(entry, filters.platform)?.perf === filters.perf,
-      );
-    }
-
-    if (filters.platform !== "all" && filters.device) {
-      const group = deviceGroups.find(([display]) => display === filters.device);
-      const rawValues = group ? group[1] : [filters.device];
-      filtered = filtered.filter((entry) => {
-        const projection = getEntryProjection(entry, filters.platform);
-        return Boolean(
-          projection?.observedDevices.some((device) => rawValues.includes(device)),
-        );
-      });
-    }
-
-    const sorted = [...filtered];
-    if (filters.sort === "alpha") {
-      sorted.sort((left, right) => left.game.title.localeCompare(right.game.title));
-    } else {
-      sorted.sort((left, right) => {
-        const dateDelta =
-          entryUpdatedAtMs(right, filters.platform) - entryUpdatedAtMs(left, filters.platform);
-        if (dateDelta !== 0) {
-          return dateDelta;
-        }
-        return left.game.title.localeCompare(right.game.title);
-      });
-    }
-
-    return sorted;
-  }, [platformEntries, deviceGroups, filters]);
-
+  const sortedEntries = sortEntries(filteredEntries, currentPlatform, sort);
+  const effectiveCatalogPageCount = isCatalogMode
+    ? Math.max(1, catalogPageCount ?? 1)
+    : 1;
+  const effectiveCatalogPage = isCatalogMode
+    ? Math.min(catalogPage ?? 1, effectiveCatalogPageCount)
+    : 1;
+  const visibleEntries = sortedEntries;
   const hasFilter =
-    filters.platform !== "all" ||
-    Boolean(filters.q) ||
-    filters.status !== null ||
-    filters.perf !== "all" ||
-    Boolean(filters.device);
-
-  const handlePlatformChange = useCallback(
-    (event: ChangeEvent<HTMLSelectElement>) => {
-      const platform = parsePlatform(event.target.value);
-      router.push(
-        `/compatibility${buildQueryString({
-          ...filters,
-          platform,
-          device: "",
-        })}`,
-      );
-    },
-    [filters, router],
-  );
-
-  const handleSubmit = useCallback(
-    (event: FormEvent<HTMLFormElement>) => {
-      event.preventDefault();
-      const formData = new FormData(event.currentTarget);
-      const nextFilters: FilterState = {
-        platform: filters.platform,
-        q: ((formData.get("q") as string) ?? "").trim(),
-        status: filters.status,
-        perf: parsePerf(formData.get("perf") as string),
-        device:
-          filters.platform === "all"
-            ? ""
-            : ((formData.get("device") as string) ?? "").trim(),
-        sort: parseSort(formData.get("sort") as string),
-      };
-      router.push(`/compatibility${buildQueryString(nextFilters)}`);
-    },
-    [filters, router],
-  );
+    currentPlatform !== "all" ||
+    Boolean(trimmedQuery) ||
+    status !== null ||
+    perf !== "all" ||
+    Boolean(device) ||
+    sort !== (mode === "catalog" ? "alpha" : "updated");
 
   const heroCountLabel =
-    filters.platform === "all"
-      ? `${baseTotal} ${baseTotal === 1 ? "game" : "games"} tracked`
-      : `${baseTotal} ${baseTotal === 1 ? "game" : "games"} with ${getPlatformLabel(
-          filters.platform,
-        )} release evidence`;
+    mode === "catalog"
+      ? `${totalTracked} canonical titles in the full catalog`
+      : `${testedCount} games with current public release evidence`;
+
+  const hasCatalogPagination =
+    isCatalogMode &&
+    Boolean(catalogBasePath) &&
+    effectiveCatalogPageCount > 1;
+  const resolvedCatalogBasePath = catalogBasePath ?? "/compatibility/catalog";
+  const summaryForCurrentPlatform =
+    isCatalogMode && catalogSummaryByPlatform
+      ? catalogSummaryByPlatform[currentPlatform]
+      : null;
+  const summaryStatusCounts = summaryForCurrentPlatform?.statusCounts ?? localStatusCounts;
+  const summaryTotal = summaryForCurrentPlatform?.total ?? searchedEntries.length;
+  const statusCounts = localStatusCounts;
+  const baseTotal = searchedEntries.length;
+  const statusGridClass = isCatalogMode ? "lg:grid-cols-6" : "lg:grid-cols-5";
+  const catalogViewTotal = isCatalogMode ? allEntries.length : 0;
+
+  const handlePlatformChange = (event: ChangeEvent<HTMLSelectElement>) => {
+    const nextPlatform =
+      event.target.value === "ios" || event.target.value === "macos"
+        ? event.target.value
+        : "all";
+    setPlatform(nextPlatform);
+    setDevice("");
+  };
+
+  const resetFilters = () => {
+    setPlatform("all");
+    setQuery("");
+    setStatus(null);
+    setPerf("all");
+    setDevice("");
+    setSort(mode === "catalog" ? "alpha" : "updated");
+  };
 
   return (
     <div className="min-h-screen bg-bg-primary">
@@ -498,7 +548,9 @@ function CompatibilityListInner({
             </div>
 
             <div className="flex flex-wrap items-center gap-2">
-              <Pill variant="tag">{getPlatformFilterLabel(filters.platform)}</Pill>
+              <Pill variant="tag">{getPlatformFilterLabel(currentPlatform)}</Pill>
+              <Pill variant="tag">{mode === "catalog" ? "Full Catalog" : "Tested Only"}</Pill>
+              {activeBucket ? <Pill variant="tag">{alphaBucketLabel(activeBucket)} Bucket</Pill> : null}
               {totalHiddenReports > 0 ? (
                 <Pill variant="tag">{totalHiddenReports} filtered reports</Pill>
               ) : null}
@@ -506,53 +558,62 @@ function CompatibilityListInner({
           </div>
 
           <p className="mt-4 max-w-3xl text-sm leading-relaxed text-text-muted">
-            Public status uses the latest official release when known. Choose a platform to switch
-            the release-facing verdict. Device filtering becomes platform-specific once iOS or
-            macOS is selected.
+            Public status uses the latest official release when known. The tested view stays strict
+            and focused; the catalog view keeps untested placeholders in A-Z buckets so browsing
+            does not flood a single page.
           </p>
 
           <p className="mt-3 max-w-3xl text-sm leading-relaxed text-text-muted">
-            XeniOS is still alpha software. Reports describe what happened on specific
-            devices and builds, not a guarantee of a smooth or complete experience.
-            Even a playable label should be read as current evidence, not a promise of
-            perfection.
+            XeniOS is still alpha software. Reports describe what happened on specific devices and
+            builds, not a guarantee of a smooth or complete experience.
           </p>
-
-          {totalHiddenReports > 0 ? (
-            <p className="mt-3 max-w-3xl text-sm leading-relaxed text-text-muted">
-              Conflicting platform metadata is hidden from the public list until it is corrected.
-            </p>
-          ) : null}
-
-          {filters.platform !== "all" ? (
-            <p className="mt-3 text-sm text-text-muted">{totalTracked} games tracked overall.</p>
-          ) : null}
         </div>
       </section>
 
       <section className="border-b border-border px-4 py-6 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-6xl">
-          <div className="mb-4 text-sm text-text-muted">
-            {filters.platform === "all"
-              ? "Select iOS or macOS to narrow the list by device."
-              : deviceCount > 0
-                ? `${deviceCount} devices represented in ${getPlatformLabel(filters.platform)} release evidence`
-                : `No ${getPlatformLabel(filters.platform)} release-track device evidence yet`}
+          <div className="inline-flex flex-wrap items-center gap-2 rounded-2xl border border-border bg-bg-surface p-1">
+            <Link
+              href="/compatibility"
+              className={`rounded-xl px-4 py-2 text-sm font-semibold transition ${
+                mode === "tested"
+                  ? "bg-accent text-accent-fg"
+                  : "text-text-secondary hover:bg-bg-surface-2 hover:text-text-primary"
+              }`}
+            >
+              Tested <span className="text-current/80">({testedCount})</span>
+            </Link>
+            <Link
+              href="/compatibility/catalog"
+              className={`rounded-xl px-4 py-2 text-sm font-semibold transition ${
+                mode === "catalog"
+                  ? "bg-accent text-accent-fg"
+                  : "text-text-secondary hover:bg-bg-surface-2 hover:text-text-primary"
+              }`}
+            >
+              Full Catalog <span className="text-current/80">({totalTracked})</span>
+            </Link>
           </div>
 
-          <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-6">
-            {SUMMARY_STATUS_ORDER.map((status) => {
-              const count = statusCounts[status];
-              const pct = baseTotal > 0 ? (count / baseTotal) * 100 : 0;
+          <div className="mt-4 text-sm text-text-muted">
+            {mode === "catalog"
+              ? "Browse the full catalog by category and page. The strict tested view remains separate so the main compatibility page stays focused."
+              : "Only titles with current public release evidence appear here. Use the full catalog to browse untested placeholders."}
+          </div>
+
+          <div className={`mt-4 grid grid-cols-2 gap-3 sm:grid-cols-3 ${statusGridClass}`}>
+            {visibleSummaryStatuses.map((summaryStatus) => {
+              const count = summaryStatusCounts[summaryStatus];
+              const pct = summaryTotal > 0 ? (count / summaryTotal) * 100 : 0;
               return (
-                <div key={status} className="flex items-center gap-3">
+                <div key={summaryStatus} className="flex items-center gap-3">
                   <span
-                    className={`h-2.5 w-2.5 shrink-0 rounded-full ${STATUS_COLORS[status]}`}
+                    className={`h-2.5 w-2.5 shrink-0 rounded-full ${STATUS_COLORS[summaryStatus]}`}
                   />
                   <div className="min-w-0 flex-1">
                     <div className="flex items-baseline justify-between gap-2">
                       <span className="text-sm font-medium text-text-primary">
-                        {getStatusLabel(status)}
+                        {getStatusLabel(summaryStatus)}
                       </span>
                       <span className="text-sm text-text-muted">
                         {count} ({pct.toFixed(0)}%)
@@ -560,7 +621,7 @@ function CompatibilityListInner({
                     </div>
                     <div className="mt-1 h-1.5 w-full rounded-full bg-bg-surface-2">
                       <div
-                        className={`h-1.5 rounded-full ${STATUS_COLORS[status]}`}
+                        className={`h-1.5 rounded-full ${STATUS_COLORS[summaryStatus]}`}
                         style={{ width: `${pct}%` }}
                       />
                     </div>
@@ -569,43 +630,85 @@ function CompatibilityListInner({
               );
             })}
           </div>
+
+          {mode === "catalog" && bucketCounts ? (
+            <div className="mt-5 inline-flex max-w-full flex-wrap items-center gap-1 rounded-2xl border border-border bg-bg-surface p-1.5">
+              <Link
+                href="/compatibility/catalog"
+                className={`rounded-lg px-3 py-1.5 text-sm font-semibold transition ${
+                  !activeBucket
+                    ? "bg-accent text-accent-fg"
+                    : "text-text-primary hover:bg-bg-surface-2"
+                }`}
+              >
+                All
+              </Link>
+              {CATALOG_BUCKETS.map((bucket) => (
+                <Link
+                  key={bucket}
+                  href={`/compatibility/catalog/${catalogBucketToSlug(bucket)}`}
+                  className={`rounded-lg px-3 py-1.5 text-sm font-semibold transition ${
+                    activeBucket === bucket
+                      ? "bg-accent text-accent-fg"
+                      : "text-text-primary hover:bg-bg-surface-2"
+                  }`}
+                >
+                  {alphaBucketLabel(bucket)}
+                </Link>
+              ))}
+            </div>
+          ) : null}
+
+          {mode === "catalog" && bucketCounts ? (
+            <p className="mt-3 text-sm text-text-muted">
+              {!activeBucket
+                ? `All catalog: ${totalTracked} canonical titles`
+                : `${alphaBucketLabel(activeBucket)} bucket: ${countForBucket(
+                    bucketCounts,
+                    activeBucket,
+                  )} canonical titles`}
+              {effectiveCatalogPageCount > 0
+                ? ` · page ${effectiveCatalogPage} of ${effectiveCatalogPageCount}`
+                : ""}
+            </p>
+          ) : null}
         </div>
       </section>
 
       <div className="mx-auto max-w-6xl px-4 pt-6 sm:px-6 lg:px-8">
         <div className="flex flex-wrap gap-2">
-          <Link
-            href={`/compatibility${buildQueryString({ ...filters, status: null })}`}
-            className={`rounded-full border px-4 py-1.5 text-sm font-medium transition focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-bg-primary ${
-              filters.status === null
+          <button
+            type="button"
+            onClick={() => setStatus(null)}
+            className={`rounded-full border px-4 py-1.5 text-sm font-medium transition ${
+              status === null
                 ? "border-accent bg-accent text-accent-fg"
                 : "border-border bg-bg-surface text-text-secondary hover:text-text-primary"
             }`}
           >
             All ({baseTotal})
-          </Link>
-          {SUMMARY_STATUS_ORDER.map((status) => {
-            const nextStatus = filters.status === status ? null : status;
-            return (
-              <Link
-                key={status}
-                href={`/compatibility${buildQueryString({ ...filters, status: nextStatus })}`}
-                className={`rounded-full border px-4 py-1.5 text-sm font-medium transition focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-bg-primary ${
-                  filters.status === status
-                    ? "border-accent bg-accent text-accent-fg"
-                    : "border-border bg-bg-surface text-text-secondary hover:text-text-primary"
-                }`}
-              >
-                {getStatusLabel(status)} ({statusCounts[status]})
-              </Link>
-            );
-          })}
+          </button>
+          {visibleSummaryStatuses.map((summaryStatus) => (
+            <button
+              key={summaryStatus}
+              type="button"
+              onClick={() =>
+                setStatus((currentStatus) =>
+                  currentStatus === summaryStatus ? null : summaryStatus,
+                )
+              }
+              className={`rounded-full border px-4 py-1.5 text-sm font-medium transition ${
+                status === summaryStatus
+                  ? "border-accent bg-accent text-accent-fg"
+                  : "border-border bg-bg-surface text-text-secondary hover:text-text-primary"
+              }`}
+            >
+              {getStatusLabel(summaryStatus)} ({statusCounts[summaryStatus]})
+            </button>
+          ))}
         </div>
 
-        <form
-          onSubmit={handleSubmit}
-          className="mt-4 flex flex-col gap-3 sm:flex-row sm:items-center"
-        >
+        <div className="mt-4 flex flex-col gap-3 sm:flex-row sm:items-center">
           <div className="relative flex-1">
             <svg
               className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-text-muted"
@@ -623,10 +726,9 @@ function CompatibilityListInner({
             </svg>
             <input
               type="text"
-              name="q"
+              value={query}
+              onChange={(event) => setQuery(event.target.value)}
               placeholder="Search by title, title ID, or tag..."
-              defaultValue={filters.q}
-              key={filters.q}
               aria-label="Search games"
               className="w-full rounded-lg border border-border bg-bg-surface py-2.5 pl-10 pr-4 text-base text-text-primary placeholder-text-muted outline-none transition focus:border-accent/40 focus:ring-1 focus:ring-accent/20"
             />
@@ -634,7 +736,7 @@ function CompatibilityListInner({
 
           <div className="flex flex-wrap gap-3">
             <select
-              value={filters.platform}
+              value={platform}
               onChange={handlePlatformChange}
               aria-label="Filter by platform"
               className="rounded-lg border border-border bg-bg-surface px-3 py-2.5 text-sm text-text-primary outline-none transition focus:border-accent/40"
@@ -645,9 +747,17 @@ function CompatibilityListInner({
             </select>
 
             <select
-              name="perf"
-              defaultValue={filters.perf}
-              key={`perf-${filters.perf}`}
+              value={perf}
+              onChange={(event) =>
+                setPerf(
+                  event.target.value === "great" ||
+                    event.target.value === "ok" ||
+                    event.target.value === "poor" ||
+                    event.target.value === "n/a"
+                    ? event.target.value
+                    : "all",
+                )
+              }
               aria-label="Filter by performance"
               className="rounded-lg border border-border bg-bg-surface px-3 py-2.5 text-sm text-text-primary outline-none transition focus:border-accent/40"
             >
@@ -659,27 +769,25 @@ function CompatibilityListInner({
             </select>
 
             <select
-              name="device"
-              defaultValue={filters.device}
-              key={`device-${filters.platform}-${filters.device}`}
+              value={device}
+              onChange={(event) => setDevice(event.target.value)}
               aria-label="Filter by device"
-              disabled={filters.platform === "all"}
+              disabled={platform === "all"}
               className="rounded-lg border border-border bg-bg-surface px-3 py-2.5 text-sm text-text-primary outline-none transition focus:border-accent/40 disabled:cursor-not-allowed disabled:text-text-muted"
             >
               <option value="">
-                {filters.platform === "all" ? "Select Platform First" : "All Devices"}
+                {platform === "all" ? "Select Platform First" : "All Devices"}
               </option>
-              {deviceGroups.map(([display]) => (
-                <option key={display} value={display}>
-                  {display}
+              {deviceGroups.map((group) => (
+                <option key={group.label} value={group.label}>
+                  {group.label}
                 </option>
               ))}
             </select>
 
             <select
-              name="sort"
-              defaultValue={filters.sort}
-              key={`sort-${filters.sort}`}
+              value={sort}
+              onChange={(event) => setSort(event.target.value === "alpha" ? "alpha" : "updated")}
               aria-label="Sort order"
               className="rounded-lg border border-border bg-bg-surface px-3 py-2.5 text-sm text-text-primary outline-none transition focus:border-accent/40"
             >
@@ -688,24 +796,23 @@ function CompatibilityListInner({
             </select>
 
             <button
-              type="submit"
-              className="rounded-lg border border-border bg-bg-surface px-4 py-2.5 text-sm font-medium text-text-primary transition hover:bg-bg-surface-2"
-            >
-              Apply
-            </button>
-
-            <Link
-              href="/compatibility"
+              type="button"
+              onClick={resetFilters}
               className="rounded-lg border border-border bg-bg-surface px-4 py-2.5 text-sm font-medium text-text-secondary transition hover:bg-bg-surface-2 hover:text-text-primary"
             >
               Reset
-            </Link>
+            </button>
           </div>
-        </form>
+        </div>
 
         <p className="mt-4 text-sm text-text-muted">
-          {entries.length} {entries.length === 1 ? "game" : "games"}
-          {hasFilter ? " matching filters" : ""}
+          {isCatalogMode
+            ? `Showing ${visibleEntries.length} of ${catalogViewTotal} titles on this page`
+            : `Showing ${visibleEntries.length} of ${baseTotal} games`}
+          {hasFilter ? " matching the current view" : ""}
+          {isCatalogMode && catalogTotalEntries && catalogTotalEntries !== catalogViewTotal
+            ? ` · ${catalogTotalEntries} titles across this catalog section`
+            : ""}
         </p>
       </div>
 
@@ -714,7 +821,7 @@ function CompatibilityListInner({
           <table className="w-full text-left text-sm">
             <thead>
               <tr className="border-b border-border text-xs font-semibold uppercase tracking-wider text-text-muted">
-                <th className="py-3 pr-4 pl-4">Title ID</th>
+                <th className="py-3 pr-4 pl-4">Title IDs</th>
                 <th className="py-3 pr-4">Title</th>
                 <th className="py-3 pr-4">Platforms</th>
                 <th className="py-3 pr-4">Status</th>
@@ -724,31 +831,99 @@ function CompatibilityListInner({
               </tr>
             </thead>
             <tbody>
-              {entries.map((entry) => (
-                <GameRow key={entry.game.slug} entry={entry} platform={filters.platform} />
+              {visibleEntries.map((entry) => (
+                <GameRow key={entry.game.slug} entry={entry} platform={currentPlatform} />
               ))}
             </tbody>
           </table>
 
-          {entries.length === 0 ? (
+          {visibleEntries.length === 0 ? (
             <div className="px-6 py-12 text-center text-sm text-text-muted">
-              No games match the current filters.
+              No games match the current view.
             </div>
           ) : null}
         </div>
 
         <div className="flex flex-col gap-2 md:hidden">
-          {entries.map((entry) => (
-            <GameCard key={entry.game.slug} entry={entry} platform={filters.platform} />
+          {visibleEntries.map((entry) => (
+            <GameCard key={entry.game.slug} entry={entry} platform={currentPlatform} />
           ))}
 
-          {entries.length === 0 ? (
+          {visibleEntries.length === 0 ? (
             <div className="rounded-lg border border-border bg-bg-surface px-6 py-12 text-center text-sm text-text-muted">
-              No games match the current filters.
+              No games match the current view.
             </div>
           ) : null}
         </div>
       </div>
+
+      {hasCatalogPagination ? (
+        <div className="mx-auto max-w-6xl px-4 pb-10 sm:px-6 lg:px-8">
+          <div className="rounded-2xl border border-border bg-bg-surface px-4 py-4 sm:px-5">
+            <div className="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
+              <div className="text-sm font-semibold text-text-primary sm:text-base">
+                Page {effectiveCatalogPage} of {effectiveCatalogPageCount}
+              </div>
+
+              <div className="flex flex-wrap items-center gap-2">
+                <Link
+                  href={catalogPageHref(
+                    resolvedCatalogBasePath,
+                    Math.max(1, effectiveCatalogPage - 1),
+                  )}
+                  aria-disabled={effectiveCatalogPage === 1}
+                  className={`rounded-lg px-3 py-2 text-sm font-semibold transition ${
+                    effectiveCatalogPage === 1
+                      ? "pointer-events-none bg-bg-surface text-text-muted"
+                      : "bg-bg-surface text-text-primary hover:bg-bg-surface-2"
+                  }`}
+                >
+                  Prev
+                </Link>
+
+                {paginationItems(effectiveCatalogPage, effectiveCatalogPageCount).map(
+                  (item, index) =>
+                    item === "ellipsis" ? (
+                      <span
+                        key={`ellipsis-${index}`}
+                        className="px-2 text-sm font-semibold text-text-muted"
+                      >
+                        …
+                      </span>
+                    ) : (
+                      <Link
+                        key={item}
+                        href={catalogPageHref(resolvedCatalogBasePath, item)}
+                        className={`rounded-lg px-3 py-2 text-sm font-semibold transition ${
+                          item === effectiveCatalogPage
+                            ? "bg-accent text-accent-fg"
+                            : "bg-bg-surface text-text-primary hover:bg-bg-surface-2"
+                        }`}
+                      >
+                        {String(item).padStart(2, "0")}
+                      </Link>
+                    ),
+                )}
+
+                <Link
+                  href={catalogPageHref(
+                    resolvedCatalogBasePath,
+                    Math.min(effectiveCatalogPageCount, effectiveCatalogPage + 1),
+                  )}
+                  aria-disabled={effectiveCatalogPage === effectiveCatalogPageCount}
+                  className={`rounded-lg px-3 py-2 text-sm font-semibold transition ${
+                    effectiveCatalogPage === effectiveCatalogPageCount
+                      ? "pointer-events-none bg-bg-surface text-text-muted"
+                      : "bg-bg-surface text-text-primary hover:bg-bg-surface-2"
+                  }`}
+                >
+                  Next
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      ) : null}
 
       <div className="mx-auto max-w-6xl px-4 pb-16 sm:px-6 lg:px-8">
         <section className="rounded-xl border border-accent/20 bg-accent/[0.04] p-8 text-center">
@@ -782,17 +957,5 @@ function CompatibilityListInner({
         </section>
       </div>
     </div>
-  );
-}
-
-export function CompatibilityList({
-  entries,
-}: {
-  entries: CompatibilityListEntry[];
-}) {
-  return (
-    <Suspense>
-      <CompatibilityListInner entries={entries} />
-    </Suspense>
   );
 }

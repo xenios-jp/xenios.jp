@@ -28,14 +28,15 @@ function formatDateLabel(value?: string | null): string {
     year: "numeric",
     month: "short",
     day: "numeric",
+    timeZone: "UTC",
   });
 }
 
 function releaseCardHeadline(card: ReleaseStatusCard): string {
   if (!card.verified) {
     return card.buildLabel
-      ? `${getPlatformLabel(card.platform)} release is currently unverified`
-      : `${getPlatformLabel(card.platform)} release reports are not verified yet`;
+      ? `${getPlatformLabel(card.platform)} release has no matched reports yet`
+      : `${getPlatformLabel(card.platform)} release reports have no matched evidence yet`;
   }
 
   return `${getStatusLabel(card.status)} on the release track`;
@@ -46,7 +47,7 @@ function activityRoleLabel(item: ActivityItem): string {
     return "Included in the current release verdict.";
   }
   if (item.track === "preview" || item.track === "self-built") {
-    return "Context only. Preview and self-built reports do not change the public release verdict.";
+    return "Context only. Preview and non-matching local reports do not change the public release verdict.";
   }
   return "Historical release-track report retained for context.";
 }
@@ -160,8 +161,8 @@ function ReleaseStatusSection({
         <div>
           <h2 className="text-xl font-semibold text-text-primary">Current Release Status</h2>
           <p className="mt-1 text-[15px] leading-relaxed text-text-muted">
-            Public status stays conservative and only uses release-track reports. Preview and
-            self-built activity appears below for context.
+            Public status stays conservative and only uses evidence that matches the current
+            published release. Preview and non-matching local activity appears below for context.
           </p>
         </div>
         <div className="text-sm text-text-muted">
@@ -457,9 +458,10 @@ export function GameDetailClient({
               <h1 className="text-4xl font-bold tracking-tight text-text-primary md:text-5xl">
                 {game.title}
               </h1>
-              <p className="mt-1 font-mono text-[15px] leading-relaxed text-text-muted">
-                Title ID: {game.titleId}
-              </p>
+              <div className="mt-1 font-mono text-[15px] leading-relaxed text-text-muted">
+                <span className="mr-2 not-italic">Title IDs:</span>
+                <span>{(game.titleIds.length > 0 ? game.titleIds : [game.titleId]).join(", ")}</span>
+              </div>
             </div>
 
             <div className="flex flex-wrap items-center gap-2">
@@ -476,9 +478,9 @@ export function GameDetailClient({
           </div>
 
           <p className="mt-5 max-w-3xl text-[15px] leading-relaxed text-text-muted">
-            Public compatibility status tracks the latest official release only. Preview and
-            self-built reports still matter, but they stay in the activity feed so they do not
-            overwrite the release verdict.
+            Public compatibility status tracks the latest official release only. Preview reports
+            and local builds that do not match that release stay in the activity feed so they do
+            not overwrite the release verdict.
           </p>
         </div>
       </section>

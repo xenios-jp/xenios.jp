@@ -3,36 +3,20 @@ import { StateStrip } from "@/components/state-strip";
 import { Pill } from "@/components/pill";
 import { HeroTitle } from "@/components/hero-title";
 import { getBuildDisplayLabel, getLatestBuild } from "@/lib/builds";
-import {
-  deviceName,
-  getActiveSummary,
-  getAllGames,
-  getStatusLabel,
-} from "@/lib/compatibility";
+import { getStatusLabel } from "@/lib/compatibility";
+import { getTestedCompatibilityListEntries } from "@/lib/game-detail";
 import {
   DISCORD_URL,
   XENIA_CANARY_RELEASES_URL,
   XENIA_EDGE_RELEASES_URL,
 } from "@/lib/constants";
 
-function gameUpdatedAtMs(updatedAt: string | undefined): number {
-  const timestamp = new Date(updatedAt ?? "").getTime();
-  return Number.isNaN(timestamp) ? 0 : timestamp;
-}
-
-export default function Home() {
+export default async function Home() {
   const iosRelease = getLatestBuild("ios", "release");
   const macRelease = getLatestBuild("macos", "release");
   const previewBuild =
     getLatestBuild("ios", "preview") ?? getLatestBuild("macos", "preview");
-
-  const compatibilityPreview = [...getAllGames()]
-    .sort(
-      (a, b) =>
-        gameUpdatedAtMs(getActiveSummary(b, "release").updatedAt) -
-        gameUpdatedAtMs(getActiveSummary(a, "release").updatedAt),
-    )
-    .slice(0, 6);
+  const compatibilityPreview = (await getTestedCompatibilityListEntries()).slice(0, 6);
 
   return (
     <>
@@ -249,25 +233,23 @@ export default function Home() {
                   </tr>
                 </thead>
                 <tbody>
-                  {compatibilityPreview.map((game) => (
-                    <tr key={game.slug} className="border-b border-border last:border-0">
+                  {compatibilityPreview.map((entry) => (
+                    <tr key={entry.game.slug} className="border-b border-border last:border-0">
                       <td className="py-3 pr-4 text-text-primary">
                         <Link
-                          href={`/compatibility/${game.slug}`}
+                          href={`/compatibility/${entry.game.slug}`}
                           className="transition hover:text-accent"
                         >
-                          {game.title}
+                          {entry.game.title}
                         </Link>
                       </td>
                       <td className="py-3 pr-4">
-                        <Pill variant={getActiveSummary(game, "release").status}>
-                          {getStatusLabel(getActiveSummary(game, "release").status)}
+                        <Pill variant={entry.status}>
+                          {getStatusLabel(entry.status)}
                         </Pill>
                       </td>
                       <td className="hidden py-3 text-text-secondary sm:table-cell">
-                        {getActiveSummary(game, "release").lastReport
-                          ? deviceName(getActiveSummary(game, "release").lastReport!.device)
-                          : "Awaiting release report"}
+                        {entry.deviceLabel}
                       </td>
                     </tr>
                   ))}

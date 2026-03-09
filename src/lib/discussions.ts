@@ -47,3 +47,13 @@ const snapshot = discussionSnapshot as DiscussionSnapshot;
 export function getDiscussionByTitleId(titleId: string): DiscussionData | null {
   return snapshot.discussions[titleId.toUpperCase()] ?? null;
 }
+
+export function getDiscussionByTitleIds(titleIds: string[]): DiscussionData | null {
+  for (const titleId of titleIds) {
+    const discussion = getDiscussionByTitleId(titleId);
+    if (discussion) {
+      return discussion;
+    }
+  }
+  return null;
+}
