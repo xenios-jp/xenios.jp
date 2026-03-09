@@ -2,7 +2,7 @@
 
 > **72 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **19** · 🔵 In-Game: **13** · 🟡 Intro: **14** · 🟠 Loads: **10** · 🔴 Doesn't Boot: **16**
+> 🟢 Playable: **19** · 🔵 In-Game: **13** · 🟡 Intro: **14** · 🟠 Loads: **11** · 🔴 Doesn't Boot: **15**
 >
 > 📱 iOS: **70** · 🖥️ macOS: **4**
 
@@ -71,6 +71,7 @@
 | 🟠 | Disney Epic Mickey 2 | `42560816` | 📱 iOS | Loads | 🐢 Poor | iPhone 15 Pro Max | 2026-03-08 |
 | 🟠 | Jeopardy! | `545108AE` | 📱 iOS | Loads | 🐢 Poor | iPhone 16 Pro | 2026-03-05 |
 | 🟠 | Left 4 Dead | `45410830` | 📱 iOS | Loads | 🐢 Poor | iPhone 17 Pro Max | 2026-03-08 |
+| 🟠 | LEGO® Star Wars® III | `4C4107F3` | 📱 iOS | Loads | 🐢 Poor | iPhone 13 Pro | 2026-03-09 |
 | 🟠 | Lost Odyssey | `4D5307FA` | 📱 iOS | Loads | 🐢 Poor | iPhone 16 Pro | 2026-03-03 |
 | 🟠 | NARUTO STORM 3 | `4E4D085C` | 📱 iOS | Loads | 🐢 Poor | iPhone 15 Pro Max | 2026-03-08 |
 | 🟠 | Skate 3 | `454108E6` | 📱 iOS | Loads | 🐢 Poor | iPhone 13 Pro | 2026-03-09 |
@@ -83,7 +84,6 @@
 | 🔴 | FH2: Fast & Furious | `4D530AB5` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad 10th Gen | 2026-03-08 |
 | 🔴 | FIGHT NIGHT CHAMPION | `45410915` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Pro (M2) | 2026-03-03 |
 | 🔴 | GTA IV | `545407F2` | 📱 iOS, 🖥️ macOS | Doesn't Boot | ➖ N/A | iPhone 17 Pro | 2026-03-08 |
-| 🔴 | Mighty No. 9 | `584114A4` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 13 | 2026-03-09 |
 | 🔴 | Modern Warfare® 2 | `41560817` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 Pro | 2026-03-08 |
 | 🔴 | RESIDENT EVIL 5 | `434307D4` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-03 |
 | 🔴 | SONIC GENERATIONS | `53450848` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 13 Pro | 2026-03-08 |
