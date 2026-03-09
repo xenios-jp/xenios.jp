@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **85 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **86 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **22** · 🔵 In-Game: **17** · 🟡 Intro: **14** · 🟠 Loads: **15** · 🔴 Doesn't Boot: **17**
+> 🟢 Playable: **23** · 🔵 In-Game: **18** · 🟡 Intro: **14** · 🟠 Loads: **15** · 🔴 Doesn't Boot: **16**
 >
-> 📱 iOS: **83** · 🖥️ macOS: **5**
+> 📱 iOS: **84** · 🖥️ macOS: **5**
 
 ## Legend
 
@@ -20,6 +20,8 @@
 
 | | Title | Title ID | Platform | Status | Perf | Last Device | Updated |
 |-|-------|----------|----------|--------|------|-------------|---------|
+| 🟢 | [Angry Birds Trilogy] | `415608E4` | 📱 iOS | Playable | 🚀 Great | iPad 11th Gen | 2026-03-09 |
+| 🟢 | Banjo Kazooie: Nuts & Bolts | `4D5307ED` | 📱 iOS | Playable | 🐢 Poor | iPhone 15 Pro Max | 2026-03-08 |
 | 🟢 | BioShock | `545407D8` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-08 |
 | 🟢 | Call of Duty 4 | `415607E6` | 📱 iOS | Playable | 👌 OK | iPhone 17 Pro Max | 2026-03-08 |
 | 🟢 | DB: Raging Blast 2 | `4E4D0826` | 📱 iOS | Playable | 🐢 Poor | iPad Pro (M2) | 2026-03-03 |
@@ -31,6 +33,7 @@
 | 🟢 | Guacamelee | `00000000` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-03 |
 | 🟢 | Halo: CE Anniversary | `4D5309B1` | 📱 iOS | Playable | 🚀 Great | iPhone 15 Pro Max | 2026-03-08 |
 | 🟢 | Just Cause 2 | `534307E7` | 📱 iOS | Playable | 🐢 Poor | iPhone 17 Pro | 2026-03-09 |
+| 🟢 | Lollipop Chainsaw | `565707D0` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-03 |
 | 🟢 | Marvel Ult. Alliance 2 | `4156082F` | 📱 iOS | Playable | 👌 OK | iPhone 13 Pro | 2026-03-09 |
 | 🟢 | METAL GEAR RISING | `4B4E080A` | 📱 iOS | Playable | 👌 OK | iPhone 17 Pro Max | 2026-03-09 |
 | 🟢 | NFS Undercover | `45410876` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-09 |
@@ -39,12 +42,11 @@
 | 🟢 | STEINS;GATE 比翼恋理のだーりん | `465607E8` | 📱 iOS | Playable | 🚀 Great | iPhone 17 | 2026-03-02 |
 | 🟢 | StreetFighter IV | `434307FC` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro Max | 2026-03-09 |
 | 🟢 | The Outfit | `545107D2` | 📱 iOS | Playable | 🐢 Poor | iPhone 15 Pro Max | 2026-03-08 |
-| 🟢 | Title 4D5307ED | `4D5307ED` | 📱 iOS | Playable | 🐢 Poor | iPhone 15 Pro Max | 2026-03-08 |
-| 🟢 | Title 534507EE | `534507EE` | 📱 iOS | Playable | 👌 OK | iPhone 17 Pro Max | 2026-03-03 |
-| 🟢 | Title 565707D0 | `565707D0` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-03 |
+| 🟢 | Virtua Fighter 5: Final Showdown | `534507EE` | 📱 iOS | Playable | 👌 OK | iPhone 17 Pro Max | 2026-03-03 |
 | 🔵 | Bayonetta | `53450813` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 | 2026-03-08 |
 | 🔵 | Call of Duty 2 | `415607D1` | 📱 iOS | In-Game | 👌 OK | iPhone 16 | 2026-03-09 |
 | 🔵 | Diablo III | `394F07D1` | 📱 iOS | In-Game | 🐢 Poor | iPhone Air | 2026-03-09 |
+| 🔵 | Fable Anniversary | `4D530A87` | 📱 iOS | In-Game | 🐢 Poor | iPhone 16 Pro Max | 2026-03-09 |
 | 🔵 | Fable III | `4D5308D6` | 📱 iOS | In-Game | 🐢 Poor | iPhone 15 Pro Max | 2026-03-09 |
 | 🔵 | Far Cry® 3 | `5553088C` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro | 2026-03-09 |
 | 🔵 | FIFA 16 | `454109EE` | 📱 iOS | In-Game | 👌 OK | iPhone 14 Pro Max | 2026-03-08 |
@@ -90,21 +92,20 @@
 | 🟠 | Tron: Evolution | `425607ED` | 📱 iOS | Loads | 👌 OK | iPhone 15 Pro Max | 2026-03-09 |
 | 🔴 | [Prototype]™ | `4156084E` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 12 Pro Max | 2026-03-08 |
 | 🔴 | Call Of Duty 3 | `415607E1` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-09 |
+| 🔴 | Call of Duty: Black Ops | `41560855` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 Pro Max | 2026-03-09 |
 | 🔴 | DBZ: BURST LIMIT | `424107DC` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro Max | 2026-03-09 |
 | 🔴 | Fable II | `4D5307F1` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 15 Pro Max | 2026-03-09 |
 | 🔴 | FH2: Fast & Furious | `4D530AB5` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad 10th Gen | 2026-03-08 |
 | 🔴 | FIGHT NIGHT CHAMPION | `45410915` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Pro (M2) | 2026-03-03 |
 | 🔴 | GTA IV | `545407F2` | 📱 iOS, 🖥️ macOS | Doesn't Boot | ➖ N/A | iPhone 17 Pro | 2026-03-08 |
 | 🔴 | Modern Warfare® 2 | `41560817` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 Pro | 2026-03-08 |
+| 🔴 | Ninja Gaiden II | `544307D5` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 15 Pro Max | 2026-03-08 |
 | 🔴 | RESIDENT EVIL 5 | `434307D4` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-03 |
+| 🔴 | Rise of the Tomb Raider | `53510823` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 13 Mini | 2026-03-09 |
 | 🔴 | SONIC GENERATIONS | `53450848` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 13 Pro | 2026-03-08 |
 | 🔴 | Star Ocean: TLH | `535107DD` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-03 |
 | 🔴 | TEKKEN 6 | `4E4D07FC` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-03 |
 | 🔴 | The Godfather™ | `454107E9` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-09 |
-| 🔴 | Title 41560855 | `41560855` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 Pro Max | 2026-03-09 |
-| 🔴 | Title 415608E4 | `415608E4` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 14 Pro Max | 2026-03-08 |
-| 🔴 | Title 53510823 | `53510823` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 13 Mini | 2026-03-09 |
-| 🔴 | Title 544307D5 | `544307D5` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 15 Pro Max | 2026-03-08 |
 
 ---
 

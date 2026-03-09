@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-09T11:34:58.995Z",
+  "generatedAt": "2026-03-09T12:25:40.518Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -680,6 +680,37 @@
             "device": "iPhone 13 Mini",
             "platform": "iOS",
             "osVersion": "iOS 16.6.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        }
+      ]
+    },
+    "4D530A87": {
+      "titleId": "4D530A87",
+      "issueNumber": 133,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/133",
+      "updatedAt": "2026-03-09",
+      "entries": [
+        {
+          "id": "issue-133",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/133",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-09",
+          "createdAtMs": 1773059118000,
+          "issueNumber": 133,
+          "excerpt": "Crash after 2min, a lot of bug graphic",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "poor",
+            "device": "iPhone 16 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
             "gpuBackend": "MSL",
             "buildChannel": "self-built",
             "appVersion": "1.0.0",
@@ -1793,7 +1824,7 @@
       "titleId": "544307D5",
       "issueNumber": 73,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/73",
-      "updatedAt": "2026-03-08",
+      "updatedAt": "2026-03-09",
       "entries": [
         {
           "id": "issue-73",
@@ -2343,7 +2374,7 @@
       "titleId": "415608E4",
       "issueNumber": 47,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/47",
-      "updatedAt": "2026-03-08",
+      "updatedAt": "2026-03-09",
       "entries": [
         {
           "id": "issue-47",
@@ -2757,7 +2788,7 @@
       "titleId": "4D5307ED",
       "issueNumber": 7,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/7",
-      "updatedAt": "2026-03-08",
+      "updatedAt": "2026-03-09",
       "entries": [
         {
           "id": "comment-4019731187",
@@ -3068,7 +3099,7 @@
       "titleId": "534507EE",
       "issueNumber": 20,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/20",
-      "updatedAt": "2026-03-07",
+      "updatedAt": "2026-03-09",
       "entries": [
         {
           "id": "issue-20",
@@ -3530,7 +3561,7 @@
       "titleId": "565707D0",
       "issueNumber": 36,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/36",
-      "updatedAt": "2026-03-07",
+      "updatedAt": "2026-03-09",
       "entries": [
         {
           "id": "comment-4015746082",
