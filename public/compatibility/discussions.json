@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-09T02:12:36.997Z",
+  "generatedAt": "2026-03-09T02:28:32.720Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -248,6 +248,41 @@
           "excerpt": "Start screen and FMVs are covered in green graphical glitches, gameplay appears to work as expected, larger maps and more CPU cars reduce the framerate, resulting in excessive input delay.",
           "images": [],
           "meta": {}
+        }
+      ]
+    },
+    "45410828": {
+      "titleId": "45410828",
+      "issueNumber": 116,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/116",
+      "updatedAt": "2026-03-09",
+      "entries": [
+        {
+          "id": "issue-116",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/116",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-09",
+          "createdAtMs": 1773023291000,
+          "issueNumber": 116,
+          "excerpt": "A few graphical glitches. Low fps. Choppy audio",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/45410828/1773023288272-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/45410828/1773023288272-2.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/45410828/1773023288272-3.jpg"
+          ],
+          "meta": {
+            "status": "ingame",
+            "perf": "poor",
+            "device": "iPhone 17 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
         }
       ]
     },

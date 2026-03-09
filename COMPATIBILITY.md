@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **74 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **75 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **20** · 🔵 In-Game: **13** · 🟡 Intro: **14** · 🟠 Loads: **12** · 🔴 Doesn't Boot: **15**
+> 🟢 Playable: **20** · 🔵 In-Game: **14** · 🟡 Intro: **14** · 🟠 Loads: **12** · 🔴 Doesn't Boot: **15**
 >
-> 📱 iOS: **72** · 🖥️ macOS: **4**
+> 📱 iOS: **73** · 🖥️ macOS: **4**
 
 ## Legend
 
@@ -47,6 +47,7 @@
 | 🔵 | Gears of War | `4D5307D5` | 🖥️ macOS | In-Game | 👌 OK | MacBook Pro M4 Pro/Max | 2026-02-28 |
 | 🔵 | Halo: Reach | `4D53085B` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 | 2026-03-06 |
 | 🔵 | Just Cause 2 | `534307E7` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 | 2026-03-06 |
+| 🔵 | Mercenaries 2 | `45410828` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro | 2026-03-09 |
 | 🔵 | Metro: Last Light | `4B4D07F5` | 🖥️ macOS | In-Game | 👌 OK | MacBook Pro M4 Pro/Max | 2026-02-28 |
 | 🔵 | PAC-MAN™ GHOSTLY ADV | `4E4D0865` | 📱 iOS | In-Game | 🐢 Poor | iPhone 15 Pro Max | 2026-03-08 |
 | 🔵 | Saints Row 2 | `545107FC` | 📱 iOS | In-Game | 🐢 Poor | iPhone 14 Pro Max | 2026-03-08 |
