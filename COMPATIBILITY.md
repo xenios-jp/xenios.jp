@@ -91,7 +91,7 @@
 | 🔴 | SONIC GENERATIONS | `53450848` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 13 Pro | 2026-03-08 |
 | 🔴 | Star Ocean: TLH | `535107DD` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-03 |
 | 🔴 | TEKKEN 6 | `4E4D07FC` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-03 |
-| 🔴 | Title 41560855 | `41560855` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Pro 12.9 inch 6th Gen | 2026-03-08 |
+| 🔴 | Title 41560855 | `41560855` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 Pro Max | 2026-03-09 |
 | 🔴 | Title 415608E4 | `415608E4` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 14 Pro Max | 2026-03-08 |
 | 🔴 | Title 544307D5 | `544307D5` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 15 Pro Max | 2026-03-08 |
 
