@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **79 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **80 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **20** · 🔵 In-Game: **14** · 🟡 Intro: **15** · 🟠 Loads: **13** · 🔴 Doesn't Boot: **17**
+> 🟢 Playable: **20** · 🔵 In-Game: **14** · 🟡 Intro: **15** · 🟠 Loads: **14** · 🔴 Doesn't Boot: **17**
 >
-> 📱 iOS: **77** · 🖥️ macOS: **4**
+> 📱 iOS: **78** · 🖥️ macOS: **4**
 
 ## Legend
 
@@ -82,6 +82,7 @@
 | 🟠 | Skate 3 | `454108E6` | 📱 iOS | Loads | 🐢 Poor | iPhone 13 Pro | 2026-03-09 |
 | 🟠 | Sonic Transformed | `5345085D` | 📱 iOS | Loads | 🐢 Poor | iPhone 16 Pro | 2026-03-05 |
 | 🟠 | The Orange Box | `4541080F` | 📱 iOS | Loads | 🐢 Poor | iPhone 17 Pro Max | 2026-03-08 |
+| 🟠 | Tron: Evolution | `425607ED` | 📱 iOS | Loads | 👌 OK | iPhone 15 Pro Max | 2026-03-09 |
 | 🔴 | [Prototype]™ | `4156084E` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 12 Pro Max | 2026-03-08 |
 | 🔴 | DBZ: BURST LIMIT | `424107DC` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro Max | 2026-03-09 |
 | 🔴 | Fable II | `4D5307F1` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro Max | 2026-03-08 |
