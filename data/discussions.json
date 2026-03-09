@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-09T01:40:44.052Z",
+  "generatedAt": "2026-03-09T01:41:48.204Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -565,6 +565,37 @@
             "platform": "iOS",
             "osVersion": "iOS 18.5",
             "gpuBackend": "MSL"
+          }
+        }
+      ]
+    },
+    "4C4107F3": {
+      "titleId": "4C4107F3",
+      "issueNumber": 114,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/114",
+      "updatedAt": "2026-03-09",
+      "entries": [
+        {
+          "id": "issue-114",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/114",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-09",
+          "createdAtMs": 1773020452000,
+          "issueNumber": 114,
+          "excerpt": "Graphical glitches and overall slow",
+          "images": [],
+          "meta": {
+            "status": "loads",
+            "perf": "poor",
+            "device": "iPhone 13 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 18.6",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
           }
         }
       ]
@@ -2809,8 +2840,33 @@
       "titleId": "4E4D0803",
       "issueNumber": 31,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/31",
-      "updatedAt": "2026-03-07",
+      "updatedAt": "2026-03-09",
       "entries": [
+        {
+          "id": "comment-4020573162",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/31#issuecomment-4020573162",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-09",
+          "createdAtMs": 1773020471000,
+          "issueNumber": 31,
+          "excerpt": "I get stuck at the intro screen",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4E4D0803/1773020469657-1.jpg"
+          ],
+          "meta": {
+            "status": "loads",
+            "perf": "poor",
+            "device": "iPhone 13 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        },
         {
           "id": "comment-4015745928",
           "type": "comment",
