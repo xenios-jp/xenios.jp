@@ -2,7 +2,7 @@
 
 > **82 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **20** · 🔵 In-Game: **16** · 🟡 Intro: **15** · 🟠 Loads: **14** · 🔴 Doesn't Boot: **17**
+> 🟢 Playable: **20** · 🔵 In-Game: **17** · 🟡 Intro: **14** · 🟠 Loads: **14** · 🔴 Doesn't Boot: **17**
 >
 > 📱 iOS: **80** · 🖥️ macOS: **4**
 
@@ -47,6 +47,7 @@
 | 🔵 | FIFA 16 | `454109EE` | 📱 iOS | In-Game | 👌 OK | iPhone 14 Pro Max | 2026-03-08 |
 | 🔵 | Forza Horizon | `4D5309C9` | 📱 iOS | In-Game | 🐢 Poor | iPhone 15 Pro Max | 2026-03-09 |
 | 🔵 | Gears of War | `4D5307D5` | 🖥️ macOS | In-Game | 👌 OK | MacBook Pro M4 Pro/Max | 2026-02-28 |
+| 🔵 | Halo 3 | `4D5307E6` | 📱 iOS, 🖥️ macOS | In-Game | ➖ N/A | Macbook Pro M4 | 2026-03-09 |
 | 🔵 | Halo: Reach | `4D53085B` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 | 2026-03-06 |
 | 🔵 | Just Cause 2 | `534307E7` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 | 2026-03-06 |
 | 🔵 | Mercenaries 2 | `45410828` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro | 2026-03-09 |
@@ -63,7 +64,6 @@
 | 🟡 | DEAD RISING | `434307D2` | 📱 iOS | Intro | 👌 OK | iPad (11th gen) | 2026-03-04 |
 | 🟡 | DOOM 3 BFG Edition | `425307F1` | 📱 iOS | Intro | 🚀 Great | iPhone 16 Pro | 2026-03-03 |
 | 🟡 | Grand Theft Auto V | `545408A7` | 📱 iOS | Intro | 🐢 Poor | iPhone 17 | 2026-03-09 |
-| 🟡 | Halo 3 | `4D5307E6` | 📱 iOS, 🖥️ macOS | Intro | 🐢 Poor | iPhone 17 | 2026-03-08 |
 | 🟡 | Halo 3: ODST | `4D530877` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro | 2026-03-03 |
 | 🟡 | Halo 4 | `4D530919` | 📱 iOS | Intro | 👌 OK | iPhone 17 Pro Max | 2026-03-08 |
 | 🟡 | Halo Wars | `4D530808` | 📱 iOS | Intro | 👌 OK | iPhone 17 | 2026-03-03 |
