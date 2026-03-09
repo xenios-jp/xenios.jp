@@ -1,5 +1,158 @@
 [
   {
+    "slug": "bully-scholarship-edition",
+    "title": "[Bully: Scholarship Edition]",
+    "titleId": "545407D6",
+    "status": "playable",
+    "perf": "great",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPad Pro M2",
+      "platform": "ios",
+      "osVersion": "26.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-09",
+    "notes": "Runs pretty well at locked 30FPS",
+    "reports": [
+      {
+        "device": "iPad Pro M2",
+        "platform": "ios",
+        "osVersion": "26.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-03-09",
+        "notes": "Runs pretty well at locked 30FPS",
+        "source": "github",
+        "build": {
+          "buildId": "ios-release-1.0.0-9280",
+          "channel": "release",
+          "official": true,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "commitShort": "2633E8177"
+        }
+      }
+    ],
+    "screenshots": [],
+    "issueNumber": 108,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/108",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "playable",
+        "perf": "great",
+        "notes": "Runs pretty well at locked 30FPS",
+        "updatedAt": "2026-03-09",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPad Pro M2",
+          "platform": "ios",
+          "osVersion": "26.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-03-09",
+          "notes": "Runs pretty well at locked 30FPS",
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-1.0.0-9280",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "2633E8177"
+          }
+        },
+        "bestReport": {
+          "device": "iPad Pro M2",
+          "platform": "ios",
+          "osVersion": "26.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-03-09",
+          "notes": "Runs pretty well at locked 30FPS",
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-1.0.0-9280",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "2633E8177"
+          }
+        }
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "playable",
+        "perf": "great",
+        "notes": "Runs pretty well at locked 30FPS",
+        "updatedAt": "2026-03-09",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPad Pro M2",
+          "platform": "ios",
+          "osVersion": "26.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-03-09",
+          "notes": "Runs pretty well at locked 30FPS",
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-1.0.0-9280",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "2633E8177"
+          }
+        },
+        "bestReport": {
+          "device": "iPad Pro M2",
+          "platform": "ios",
+          "osVersion": "26.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-03-09",
+          "notes": "Runs pretty well at locked 30FPS",
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-1.0.0-9280",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "2633E8177"
+          }
+        }
+      }
+    }
+  },
+  {
     "slug": "prototype",
     "title": "[Prototype]™",
     "titleId": "4156084E",
@@ -1396,6 +1549,124 @@
     }
   },
   {
+    "slug": "dbz-burst-limit",
+    "title": "DBZ: BURST LIMIT",
+    "titleId": "424107DC",
+    "status": "nothing",
+    "perf": "n/a",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 16 Pro Max",
+      "platform": "ios",
+      "osVersion": "26.2",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-09",
+    "notes": "Stuck on cyan/black screen when trying to boot",
+    "reports": [
+      {
+        "device": "iPhone 16 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-03-09",
+        "notes": "Stuck on cyan/black screen when trying to boot",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "stage": "stable",
+          "commitShort": "2633e8177",
+          "buildId": "ios-self-built-1.0.0-9280"
+        }
+      }
+    ],
+    "screenshots": [],
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "nothing",
+        "perf": "n/a",
+        "notes": "Stuck on cyan/black screen when trying to boot",
+        "updatedAt": "2026-03-09",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 16 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.2",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-03-09",
+          "notes": "Stuck on cyan/black screen when trying to boot",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "stage": "stable",
+            "commitShort": "2633e8177",
+            "buildId": "ios-self-built-1.0.0-9280"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 16 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.2",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-03-09",
+          "notes": "Stuck on cyan/black screen when trying to boot",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "stage": "stable",
+            "commitShort": "2633e8177",
+            "buildId": "ios-self-built-1.0.0-9280"
+          }
+        }
+      }
+    },
+    "issueNumber": 107,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/107"
+  },
+  {
     "slug": "dead-or-alive-4",
     "title": "DEAD OR ALIVE 4",
     "titleId": "544307D1",
@@ -1809,6 +2080,124 @@
         }
       }
     }
+  },
+  {
+    "slug": "deadpool",
+    "title": "Deadpool",
+    "titleId": "415608EC",
+    "status": "loads",
+    "perf": "great",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 15 Pro",
+      "platform": "ios",
+      "osVersion": "26.3",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-09",
+    "notes": "The game works but when you l\nStart the first mission it loads forever so game doesn’t work",
+    "reports": [
+      {
+        "device": "iPhone 15 Pro",
+        "platform": "ios",
+        "osVersion": "26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "loads",
+        "perf": "great",
+        "date": "2026-03-09",
+        "notes": "The game works but when you l\nStart the first mission it loads forever so game doesn’t work",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "stage": "stable",
+          "commitShort": "2633e8177",
+          "buildId": "ios-self-built-1.0.0-9280"
+        }
+      }
+    ],
+    "screenshots": [],
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "loads",
+        "perf": "great",
+        "notes": "The game works but when you l\nStart the first mission it loads forever so game doesn’t work",
+        "updatedAt": "2026-03-09",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 15 Pro",
+          "platform": "ios",
+          "osVersion": "26.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "loads",
+          "perf": "great",
+          "date": "2026-03-09",
+          "notes": "The game works but when you l\nStart the first mission it loads forever so game doesn’t work",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "stage": "stable",
+            "commitShort": "2633e8177",
+            "buildId": "ios-self-built-1.0.0-9280"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 15 Pro",
+          "platform": "ios",
+          "osVersion": "26.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "loads",
+          "perf": "great",
+          "date": "2026-03-09",
+          "notes": "The game works but when you l\nStart the first mission it loads forever so game doesn’t work",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "stage": "stable",
+            "commitShort": "2633e8177",
+            "buildId": "ios-self-built-1.0.0-9280"
+          }
+        }
+      }
+    },
+    "issueNumber": 105,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/105"
   },
   {
     "slug": "diablo-iii-ros",
@@ -4529,6 +4918,126 @@
     }
   },
   {
+    "slug": "metal-gear-rising",
+    "title": "METAL GEAR RISING",
+    "titleId": "4B4E080A",
+    "status": "playable",
+    "perf": "ok",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 17 Pro Max",
+      "platform": "ios",
+      "osVersion": "26.3.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-09",
+    "notes": "Take three boot to get through the menu, but after that run, smooth",
+    "reports": [
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-03-09",
+        "notes": "Take three boot to get through the menu, but after that run, smooth",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "stage": "stable",
+          "commitShort": "2633e8177",
+          "buildId": "ios-self-built-1.0.0-9280"
+        }
+      }
+    ],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4B4E080A/1773014677621-1.jpg"
+    ],
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "playable",
+        "perf": "ok",
+        "notes": "Take three boot to get through the menu, but after that run, smooth",
+        "updatedAt": "2026-03-09",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-03-09",
+          "notes": "Take three boot to get through the menu, but after that run, smooth",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "stage": "stable",
+            "commitShort": "2633e8177",
+            "buildId": "ios-self-built-1.0.0-9280"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-03-09",
+          "notes": "Take three boot to get through the menu, but after that run, smooth",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "stage": "stable",
+            "commitShort": "2633e8177",
+            "buildId": "ios-self-built-1.0.0-9280"
+          }
+        }
+      }
+    },
+    "issueNumber": 104,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/104"
+  },
+  {
     "slug": "metro-last-light",
     "title": "Metro: Last Light",
     "titleId": "4B4D07F5",
@@ -6522,6 +7031,127 @@
     }
   },
   {
+    "slug": "streetfighter-iv",
+    "title": "StreetFighter IV",
+    "titleId": "434307FC",
+    "status": "playable",
+    "perf": "ok",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 16 Pro Max",
+      "platform": "ios",
+      "osVersion": "26.2",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-09",
+    "notes": "Some graphic glitches at opening/title screen. After getting in game runs around 20-30 fps not quite full speed yet.",
+    "reports": [
+      {
+        "device": "iPhone 16 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-03-09",
+        "notes": "Some graphic glitches at opening/title screen. After getting in game runs around 20-30 fps not quite full speed yet.",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "stage": "stable",
+          "commitShort": "2633e8177",
+          "buildId": "ios-self-built-1.0.0-9280"
+        }
+      }
+    ],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/434307FC/1773016589595-1.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/434307FC/1773016589595-2.jpg"
+    ],
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "playable",
+        "perf": "ok",
+        "notes": "Some graphic glitches at opening/title screen. After getting in game runs around 20-30 fps not quite full speed yet.",
+        "updatedAt": "2026-03-09",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 16 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.2",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-03-09",
+          "notes": "Some graphic glitches at opening/title screen. After getting in game runs around 20-30 fps not quite full speed yet.",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "stage": "stable",
+            "commitShort": "2633e8177",
+            "buildId": "ios-self-built-1.0.0-9280"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 16 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.2",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-03-09",
+          "notes": "Some graphic glitches at opening/title screen. After getting in game runs around 20-30 fps not quite full speed yet.",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "stage": "stable",
+            "commitShort": "2633e8177",
+            "buildId": "ios-self-built-1.0.0-9280"
+          }
+        }
+      }
+    },
+    "issueNumber": 106,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/106"
+  },
+  {
     "slug": "tales-of-vesperia",
     "title": "Tales of Vesperia",
     "titleId": "4E4D07E9",
@@ -7848,482 +8478,5 @@
         }
       }
     }
-  },
-  {
-    "slug": "metal-gear-rising",
-    "title": "METAL GEAR RISING",
-    "titleId": "4B4E080A",
-    "status": "playable",
-    "perf": "ok",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 17 Pro Max",
-      "platform": "ios",
-      "osVersion": "26.3.1",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-09",
-    "notes": "Take three boot to get through the menu, but after that run, smooth",
-    "reports": [
-      {
-        "device": "iPhone 17 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "ok",
-        "date": "2026-03-09",
-        "notes": "Take three boot to get through the menu, but after that run, smooth",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "stage": "stable",
-          "commitShort": "2633e8177",
-          "buildId": "ios-self-built-1.0.0-9280"
-        }
-      }
-    ],
-    "screenshots": [
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4B4E080A/1773014677621-1.jpg"
-    ],
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "playable",
-        "perf": "ok",
-        "notes": "Take three boot to get through the menu, but after that run, smooth",
-        "updatedAt": "2026-03-09",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 17 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-03-09",
-          "notes": "Take three boot to get through the menu, but after that run, smooth",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 17 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-03-09",
-          "notes": "Take three boot to get through the menu, but after that run, smooth",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
-          }
-        }
-      }
-    },
-    "issueNumber": 104,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/104"
-  },
-  {
-    "slug": "deadpool",
-    "title": "Deadpool",
-    "titleId": "415608EC",
-    "status": "loads",
-    "perf": "great",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 15 Pro",
-      "platform": "ios",
-      "osVersion": "26.3",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-09",
-    "notes": "The game works but when you l\nStart the first mission it loads forever so game doesn’t work",
-    "reports": [
-      {
-        "device": "iPhone 15 Pro",
-        "platform": "ios",
-        "osVersion": "26.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "loads",
-        "perf": "great",
-        "date": "2026-03-09",
-        "notes": "The game works but when you l\nStart the first mission it loads forever so game doesn’t work",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "stage": "stable",
-          "commitShort": "2633e8177",
-          "buildId": "ios-self-built-1.0.0-9280"
-        }
-      }
-    ],
-    "screenshots": [],
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "loads",
-        "perf": "great",
-        "notes": "The game works but when you l\nStart the first mission it loads forever so game doesn’t work",
-        "updatedAt": "2026-03-09",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 15 Pro",
-          "platform": "ios",
-          "osVersion": "26.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "great",
-          "date": "2026-03-09",
-          "notes": "The game works but when you l\nStart the first mission it loads forever so game doesn’t work",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 15 Pro",
-          "platform": "ios",
-          "osVersion": "26.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "great",
-          "date": "2026-03-09",
-          "notes": "The game works but when you l\nStart the first mission it loads forever so game doesn’t work",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
-          }
-        }
-      }
-    },
-    "issueNumber": 105,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/105"
-  },
-  {
-    "slug": "streetfighter-iv",
-    "title": "StreetFighter IV",
-    "titleId": "434307FC",
-    "status": "playable",
-    "perf": "ok",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 16 Pro Max",
-      "platform": "ios",
-      "osVersion": "26.2",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-09",
-    "notes": "Some graphic glitches at opening/title screen. After getting in game runs around 20-30 fps not quite full speed yet.",
-    "reports": [
-      {
-        "device": "iPhone 16 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.2",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "ok",
-        "date": "2026-03-09",
-        "notes": "Some graphic glitches at opening/title screen. After getting in game runs around 20-30 fps not quite full speed yet.",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "stage": "stable",
-          "commitShort": "2633e8177",
-          "buildId": "ios-self-built-1.0.0-9280"
-        }
-      }
-    ],
-    "screenshots": [
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/434307FC/1773016589595-1.jpg",
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/434307FC/1773016589595-2.jpg"
-    ],
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "playable",
-        "perf": "ok",
-        "notes": "Some graphic glitches at opening/title screen. After getting in game runs around 20-30 fps not quite full speed yet.",
-        "updatedAt": "2026-03-09",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 16 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.2",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-03-09",
-          "notes": "Some graphic glitches at opening/title screen. After getting in game runs around 20-30 fps not quite full speed yet.",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 16 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.2",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-03-09",
-          "notes": "Some graphic glitches at opening/title screen. After getting in game runs around 20-30 fps not quite full speed yet.",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
-          }
-        }
-      }
-    },
-    "issueNumber": 106,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/106"
-  },
-  {
-    "slug": "dbz-burst-limit",
-    "title": "DBZ: BURST LIMIT",
-    "titleId": "424107DC",
-    "status": "nothing",
-    "perf": "n/a",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 16 Pro Max",
-      "platform": "ios",
-      "osVersion": "26.2",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-09",
-    "notes": "Stuck on cyan/black screen when trying to boot",
-    "reports": [
-      {
-        "device": "iPhone 16 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.2",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-03-09",
-        "notes": "Stuck on cyan/black screen when trying to boot",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "stage": "stable",
-          "commitShort": "2633e8177",
-          "buildId": "ios-self-built-1.0.0-9280"
-        }
-      }
-    ],
-    "screenshots": [],
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "Stuck on cyan/black screen when trying to boot",
-        "updatedAt": "2026-03-09",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 16 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.2",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-09",
-          "notes": "Stuck on cyan/black screen when trying to boot",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 16 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.2",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-09",
-          "notes": "Stuck on cyan/black screen when trying to boot",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
-          }
-        }
-      }
-    },
-    "issueNumber": 107,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/107"
   }
 ]

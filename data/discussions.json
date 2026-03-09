@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-09T00:39:34.563Z",
+  "generatedAt": "2026-03-09T00:40:37.441Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -566,6 +566,26 @@
             "osVersion": "iOS 18.5",
             "gpuBackend": "MSL"
           }
+        }
+      ]
+    },
+    "545407D6": {
+      "titleId": "545407D6",
+      "issueNumber": 108,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/108",
+      "updatedAt": "2026-03-09",
+      "entries": [
+        {
+          "id": "issue-108",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/108",
+          "author": "azizgaming30770-ctrl",
+          "createdAt": "2026-03-09",
+          "createdAtMs": 1773016816000,
+          "issueNumber": 108,
+          "excerpt": "Runs pretty well at locked 30FPS",
+          "images": [],
+          "meta": {}
         }
       ]
     },
