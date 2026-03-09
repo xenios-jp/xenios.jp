@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **82 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **83 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **20** · 🔵 In-Game: **17** · 🟡 Intro: **14** · 🟠 Loads: **15** · 🔴 Doesn't Boot: **16**
+> 🟢 Playable: **21** · 🔵 In-Game: **17** · 🟡 Intro: **14** · 🟠 Loads: **15** · 🔴 Doesn't Boot: **16**
 >
-> 📱 iOS: **80** · 🖥️ macOS: **5**
+> 📱 iOS: **81** · 🖥️ macOS: **5**
 
 ## Legend
 
@@ -32,6 +32,7 @@
 | 🟢 | Halo: CE Anniversary | `4D5309B1` | 📱 iOS | Playable | 🚀 Great | iPhone 15 Pro Max | 2026-03-08 |
 | 🟢 | Marvel Ult. Alliance 2 | `4156082F` | 📱 iOS | Playable | 👌 OK | iPhone 13 Pro | 2026-03-09 |
 | 🟢 | METAL GEAR RISING | `4B4E080A` | 📱 iOS | Playable | 👌 OK | iPhone 17 Pro Max | 2026-03-09 |
+| 🟢 | NFS Undercover | `45410876` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-09 |
 | 🟢 | PES 2012/WE 2012 | `4B4E0837` | 📱 iOS | Playable | 👌 OK | iPhone 14 Pro Max | 2026-03-08 |
 | 🟢 | Ridge Racer 6 | `4E4D07D3` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-08 |
 | 🟢 | STEINS;GATE 比翼恋理のだーりん | `465607E8` | 📱 iOS | Playable | 🚀 Great | iPhone 17 | 2026-03-02 |
