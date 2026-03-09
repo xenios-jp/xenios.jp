@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **71 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **72 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **19** · 🔵 In-Game: **13** · 🟡 Intro: **14** · 🟠 Loads: **10** · 🔴 Doesn't Boot: **15**
+> 🟢 Playable: **19** · 🔵 In-Game: **13** · 🟡 Intro: **14** · 🟠 Loads: **10** · 🔴 Doesn't Boot: **16**
 >
-> 📱 iOS: **69** · 🖥️ macOS: **4**
+> 📱 iOS: **70** · 🖥️ macOS: **4**
 
 ## Legend
 
@@ -83,6 +83,7 @@
 | 🔴 | FH2: Fast & Furious | `4D530AB5` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad 10th Gen | 2026-03-08 |
 | 🔴 | FIGHT NIGHT CHAMPION | `45410915` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Pro (M2) | 2026-03-03 |
 | 🔴 | GTA IV | `545407F2` | 📱 iOS, 🖥️ macOS | Doesn't Boot | ➖ N/A | iPhone 17 Pro | 2026-03-08 |
+| 🔴 | Mighty No. 9 | `584114A4` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 13 | 2026-03-09 |
 | 🔴 | Modern Warfare® 2 | `41560817` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 Pro | 2026-03-08 |
 | 🔴 | RESIDENT EVIL 5 | `434307D4` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-03 |
 | 🔴 | SONIC GENERATIONS | `53450848` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 13 Pro | 2026-03-08 |

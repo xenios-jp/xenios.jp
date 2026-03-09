@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-09T01:20:40.557Z",
+  "generatedAt": "2026-03-09T01:31:48.830Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -566,6 +566,26 @@
             "osVersion": "iOS 18.5",
             "gpuBackend": "MSL"
           }
+        }
+      ]
+    },
+    "584114A4": {
+      "titleId": "584114A4",
+      "issueNumber": 113,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/113",
+      "updatedAt": "2026-03-09",
+      "entries": [
+        {
+          "id": "issue-113",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/113",
+          "author": "OM3GAZX",
+          "createdAt": "2026-03-09",
+          "createdAtMs": 1773019887000,
+          "issueNumber": 113,
+          "excerpt": "Game gets to a light blue screen, and doesn't do anything after that. Safe to say that the game simply does not work on XeniOS yet.\nThe game appears to work normally on Xenia, however.",
+          "images": [],
+          "meta": {}
         }
       ]
     },
