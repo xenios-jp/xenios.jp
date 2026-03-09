@@ -169,6 +169,8 @@ const DEFAULT_COMPAT_REPO_BRANCH = "main";
 const DEFAULT_RELEASE_MANIFEST_URL =
   "https://raw.githubusercontent.com/xenios-jp/xenios.jp/main/data/release-builds.json";
 const DEFAULT_WEBSITE_BASE = "https://xenios.jp";
+const PUBLIC_GAMES_CACHE_KEY = "https://xenios-compat-api.internal/public/games";
+const PUBLIC_GAMES_CACHE_TTL_SECONDS = 60;
 
 // ── Schema (single source of truth for valid values) ─────────────────
 // When adding new platforms, GPU backends, etc., update these arrays.
@@ -562,6 +564,33 @@ function errorResponse(message: string, status = 400): Response {
   return jsonResponse({ error: message }, status);
 }
 
+function cacheStorage(): Cache {
+  return (caches as CacheStorage & { default: Cache }).default;
+}
+
+async function readCachedJson<T>(key: string): Promise<T | null> {
+  const response = await cacheStorage().match(key);
+  if (!response) return null;
+
+  try {
+    return (await response.json()) as T;
+  } catch {
+    return null;
+  }
+}
+
+async function writeCachedJson(key: string, data: unknown, ttlSeconds: number): Promise<void> {
+  await cacheStorage().put(
+    key,
+    new Response(JSON.stringify(data), {
+      headers: {
+        "Content-Type": "application/json",
+        "Cache-Control": `public, s-maxage=${ttlSeconds}`,
+      },
+    })
+  );
+}
+
 function hexToUint8Array(hex: string): Uint8Array {
   const pairs = hex.match(/.{1,2}/g);
   if (!pairs) return new Uint8Array(0);
@@ -765,6 +794,27 @@ async function getFileFromGitHub(env: Env, token: string): Promise<{ content: Ga
   const bytes = Uint8Array.from(atob(json.content.replace(/\n/g, "")), (c) => c.charCodeAt(0));
   const decoded = new TextDecoder().decode(bytes);
   return { content: JSON.parse(decoded) as Game[], sha: json.sha };
+}
+
+async function getPublicGames(env: Env): Promise<Game[]> {
+  const cached = await readCachedJson<Game[]>(PUBLIC_GAMES_CACHE_KEY);
+  if (cached) {
+    return cached;
+  }
+
+  const response = await fetch(githubRawUrl(env, COMPAT_PATH), {
+    headers: {
+      "User-Agent": "xenios-compat-api-public",
+      Accept: "application/json",
+    },
+  });
+  if (!response.ok) {
+    throw new Error(`Public compatibility fetch failed: ${response.status} ${await response.text()}`);
+  }
+
+  const games = (await response.json()) as Game[];
+  await writeCachedJson(PUBLIC_GAMES_CACHE_KEY, games, PUBLIC_GAMES_CACHE_TTL_SECONDS);
+  return games;
 }
 
 async function commitToGitHub(env: Env, token: string, games: Game[], sha: string, message: string): Promise<void> {
@@ -1503,6 +1553,12 @@ async function processReport(
     console.error("Board update failed:", e);
   }
 
+  try {
+    await writeCachedJson(PUBLIC_GAMES_CACHE_KEY, updated, PUBLIC_GAMES_CACHE_TTL_SECONDS);
+  } catch (e) {
+    console.error("Public games cache update failed:", e);
+  }
+
   return {
     success: true,
     game: trustedReport.title,
@@ -1750,7 +1806,7 @@ async function handleDiscordInteraction(request: Request, env: Env, ctx: Executi
         const query = getOption("game").toLowerCase().trim();
 
         try {
-          const { content: games } = await getFileFromGitHub(env, env.GITHUB_TOKEN);
+          const games = await getPublicGames(env);
           const websiteBase = compatWebsiteBase(env);
 
           if (!query) {
@@ -2066,7 +2122,7 @@ export default {
     // GET /games — public read-only endpoint for the app
     if (url.pathname === "/games" && request.method === "GET") {
       try {
-        const { content: games } = await getFileFromGitHub(env, env.GITHUB_TOKEN);
+        const games = await getPublicGames(env);
         return jsonResponse(games);
       } catch (e) {
         return errorResponse(`Failed to fetch games: ${(e as Error).message}`, 500);
@@ -2078,18 +2134,11 @@ export default {
     if (discussionMatch && request.method === "GET") {
       const titleId = discussionMatch[1].toUpperCase();
       try {
-        // Get structured game data from compatibility.json.
-        const { content: games } = await getFileFromGitHub(env, env.GITHUB_TOKEN);
+        // Get structured game data from the public compatibility snapshot.
+        const games = await getPublicGames(env);
         const game = games.find((g) => g.titleId.toUpperCase() === titleId);
-
-        // Find linked GitHub issue (if any).
-        let issueNumber: number | null = null;
-        let issueUrl: string | null = null;
-        const existing = await findExistingIssue(env, env.GITHUB_TOKEN, titleId);
-        if (existing) {
-          issueNumber = existing.number;
-          issueUrl = `https://github.com/${compatRepoOwner(env)}/${compatRepoName(env)}/issues/${existing.number}`;
-        }
+        const issueNumber = game?.issueNumber ?? null;
+        const issueUrl = game?.issueUrl ?? null;
 
         if (!game) {
           return jsonResponse({ found: false, titleId, reports: [], issueNumber, issueUrl });
