@@ -11,12 +11,16 @@ import {
   XENIA_CANARY_RELEASES_URL,
   XENIA_EDGE_RELEASES_URL,
 } from "@/lib/constants";
+import { withCanonical } from "@/lib/metadata";
 
-export const metadata: Metadata = {
-  title: "FAQ",
-  description:
-    "Frequently asked questions about XeniOS on iPhone, iPad, and Mac.",
-};
+export const metadata: Metadata = withCanonical(
+  {
+    title: "FAQ",
+    description:
+      "Frequently asked questions about XeniOS on iPhone, iPad, and Mac.",
+  },
+  "/faq"
+);
 
 const project = [
   {

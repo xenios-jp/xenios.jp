@@ -1,10 +1,14 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { withCanonical } from "@/lib/metadata";
 
-export const metadata: Metadata = {
-  title: "Download",
-  description: "Download XeniOS for iPhone, iPad, or Mac.",
-};
+export const metadata: Metadata = withCanonical(
+  {
+    title: "Download",
+    description: "Download XeniOS for iPhone, iPad, or Mac.",
+  },
+  "/download"
+);
 
 export default function DownloadPickerPage() {
   return (

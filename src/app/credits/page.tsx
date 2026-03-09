@@ -2,12 +2,16 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { XENIA_REPOS_FOR_CREDITS } from "@/lib/constants";
 import { getXeniaContributors } from "@/lib/credits";
+import { withCanonical } from "@/lib/metadata";
 
-export const metadata: Metadata = {
-  title: "Credits",
-  description:
-    "Contributor credits for upstream Xenia repositories that underpin XeniOS.",
-};
+export const metadata: Metadata = withCanonical(
+  {
+    title: "Credits",
+    description:
+      "Contributor credits for upstream Xenia repositories that underpin XeniOS.",
+  },
+  "/credits"
+);
 
 function formatSnapshotDate(dateString: string): string | null {
   const parsed = new Date(dateString);

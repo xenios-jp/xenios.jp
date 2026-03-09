@@ -1,10 +1,10 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { ThemeToggle } from "@/components/theme-toggle";
-import { WEBSITE_GITHUB_URL, DISCORD_URL, KOFI_URL } from "@/lib/constants";
+import { EMULATOR_GITHUB_URL, DISCORD_URL, KOFI_URL } from "@/lib/constants";
 
 const navLinks = [
   { label: "Download", href: "/download" },
@@ -95,12 +95,9 @@ function CloseIcon({ className }: { className?: string }) {
 }
 
 export function Navbar() {
-  const [mobileOpen, setMobileOpen] = useState(false);
+  const [mobileOpenPath, setMobileOpenPath] = useState<string | null>(null);
   const pathname = usePathname();
-
-  useEffect(() => {
-    setMobileOpen(false);
-  }, [pathname]);
+  const mobileOpen = mobileOpenPath === pathname;
 
   return (
     <header className="fixed top-0 z-50 w-full bg-bg-primary/80 backdrop-blur-md border-b border-border">
@@ -134,7 +131,7 @@ export function Navbar() {
         {/* Desktop right icons */}
         <div className="hidden md:flex items-center gap-3">
           <a
-            href={WEBSITE_GITHUB_URL}
+            href={EMULATOR_GITHUB_URL}
             target="_blank"
             rel="noopener noreferrer"
             className="p-2 text-text-secondary transition-colors hover:text-text-primary"
@@ -166,7 +163,7 @@ export function Navbar() {
         {/* Mobile right icons + menu button */}
         <div className="flex md:hidden items-center gap-1">
           <a
-            href={WEBSITE_GITHUB_URL}
+            href={EMULATOR_GITHUB_URL}
             target="_blank"
             rel="noopener noreferrer"
             className="p-2 text-text-secondary transition-colors hover:text-text-primary"
@@ -196,7 +193,7 @@ export function Navbar() {
           <button
             type="button"
             className="p-2 text-text-secondary hover:text-text-primary"
-            onClick={() => setMobileOpen(!mobileOpen)}
+            onClick={() => setMobileOpenPath(mobileOpen ? null : pathname)}
             aria-label={mobileOpen ? "Close menu" : "Open menu"}
           >
             {mobileOpen ? (
@@ -219,7 +216,7 @@ export function Navbar() {
               <Link
                 key={link.href}
                 href={link.href}
-                onClick={() => setMobileOpen(false)}
+                onClick={() => setMobileOpenPath(null)}
                 className={`block rounded-md px-3 py-2 text-sm transition-colors ${
                   pathname.startsWith(link.href)
                     ? "text-accent font-medium bg-accent/5"

@@ -5,14 +5,17 @@ import {
   XENIA_EDGE_REPO_URL,
   XENIA_UPSTREAM_LICENSE_URL,
   EMULATOR_GITHUB_URL,
-  WEBSITE_GITHUB_URL,
 } from "@/lib/constants";
+import { withCanonical } from "@/lib/metadata";
 
-export const metadata: Metadata = {
-  title: "Legal / Disclaimer",
-  description:
-    "Legal disclaimer for XeniOS — emulation research, license inheritance, and project attribution.",
-};
+export const metadata: Metadata = withCanonical(
+  {
+    title: "Legal / Disclaimer",
+    description:
+      "Legal disclaimer for XeniOS — emulation research, license inheritance, and project attribution.",
+  },
+  "/legal"
+);
 
 export default function LegalPage() {
   return (
@@ -108,22 +111,11 @@ export default function LegalPage() {
               Repository references
             </h2>
             <p className="mt-3 text-[15px] leading-relaxed text-text-secondary">
-              The website and emulator repositories are:
+              The main project and upstream repositories are:
             </p>
             <ul className="mt-3 space-y-1.5 text-[15px] leading-relaxed text-text-secondary">
               <li>
-                Site:&nbsp;
-                <a
-                  href={WEBSITE_GITHUB_URL}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-accent underline underline-offset-2 hover:text-accent-hover"
-                >
-                  https://github.com/xenios-jp/xenios.jp
-                </a>
-              </li>
-              <li>
-                Emulator:&nbsp;
+                XeniOS:&nbsp;
                 <a
                   href={EMULATOR_GITHUB_URL}
                   target="_blank"

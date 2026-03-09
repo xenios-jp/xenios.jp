@@ -1,17 +1,18 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { notFound } from "next/navigation";
+import { notFound, permanentRedirect } from "next/navigation";
 import { Callout } from "@/components/callout";
 import { IosReadFirst } from "@/components/ios-read-first";
 import {
   DISCORD_URL,
   EMULATOR_GITHUB_URL,
+  EMULATOR_GITHUB_ISSUES_URL,
   SIDESTORE_JIT_GUIDE_URL,
   STIKDEBUG_RELEASES_URL,
   STIKDEBUG_UNIVERSAL_SCRIPT_URL,
   STIKDEBUG_URL,
-  WEBSITE_GITHUB_ISSUES_URL,
 } from "@/lib/constants";
+import { withCanonical } from "@/lib/metadata";
 
 interface DocEntry {
   title: string;
@@ -475,7 +476,7 @@ flush_log = true`}</pre>
         <p className="mt-3 text-[15px] text-text-secondary leading-relaxed">
           Open a new issue on the{" "}
           <a
-            href={WEBSITE_GITHUB_ISSUES_URL}
+            href={EMULATOR_GITHUB_ISSUES_URL}
             target="_blank"
             rel="noopener noreferrer"
             className="text-accent underline underline-offset-2 hover:text-accent-hover"
@@ -721,7 +722,7 @@ const macDocs: Record<string, DocEntry> = {
         <p className="mt-3 text-[15px] text-text-secondary leading-relaxed">
           File issues on{" "}
           <a
-            href={WEBSITE_GITHUB_ISSUES_URL}
+            href={EMULATOR_GITHUB_ISSUES_URL}
             target="_blank"
             rel="noopener noreferrer"
             className="text-accent underline underline-offset-2 hover:text-accent-hover"
@@ -795,12 +796,16 @@ function parseDocRoute(slug: string[]) {
   const pageSlug = pageParts.length > 0 ? pageParts.join("/") : "getting-started";
   const docsForPlatform = platform === "mac" ? macDocs : iosDocs;
   const slugOrder = platform === "mac" ? macSlugOrder : iosSlugOrder;
+  const platformLabel = platform === "mac" ? "Mac" : "iPhone / iPad";
+  const canonicalPath = `/docs/${platform}/${pageSlug}`;
 
-  return { platform, pageSlug, docsForPlatform, slugOrder };
+  return { platform, platformLabel, pageSlug, docsForPlatform, slugOrder, canonicalPath };
 }
 
 export function generateStaticParams() {
   return [
+    { slug: ["ios"] },
+    { slug: ["mac"] },
     ...iosSlugOrder.map((slug) => ({ slug: [slug] })),
     ...iosSlugOrder.map((slug) => ({ slug: ["ios", slug] })),
     ...macSlugOrder.map((slug) => ({ slug: ["mac", slug] })),
@@ -813,12 +818,36 @@ export function generateMetadata({
   params: Promise<{ slug: string[] }>;
 }): Promise<Metadata> {
   return params.then(({ slug }) => {
-    const { docsForPlatform, pageSlug } = parseDocRoute(slug);
+    const route = parseDocRoute(slug);
+    if (!route) {
+      return {
+        title: "Not Found",
+        robots: {
+          index: false,
+          follow: false,
+        },
+      };
+    }
+
+    const { docsForPlatform, pageSlug, canonicalPath, platformLabel } = route;
     const doc = docsForPlatform[pageSlug];
-    return {
-      title: doc?.title ?? "Not Found",
-      description: doc?.description,
-    };
+    if (!doc) {
+      return {
+        title: "Not Found",
+        robots: {
+          index: false,
+          follow: false,
+        },
+      };
+    }
+
+    return withCanonical(
+      {
+        title: `${doc.title} (${platformLabel})`,
+        description: doc.description,
+      },
+      canonicalPath
+    );
   });
 }
 
@@ -828,11 +857,21 @@ export default async function DocPage({
   params: Promise<{ slug: string[] }>;
 }) {
   const { slug } = await params;
-  const { platform, pageSlug, docsForPlatform, slugOrder } = parseDocRoute(slug);
+  const route = parseDocRoute(slug);
+  if (!route) {
+    notFound();
+  }
+
+  const { platform, pageSlug, docsForPlatform, slugOrder, canonicalPath } = route;
   const doc = docsForPlatform[pageSlug];
 
   if (!doc) {
     notFound();
+  }
+
+  const requestedPath = `/docs/${slug.join("/")}`;
+  if (requestedPath !== canonicalPath) {
+    permanentRedirect(canonicalPath);
   }
 
   const currentIndex = slugOrder.indexOf(pageSlug);

@@ -1,11 +1,15 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { withCanonical } from "@/lib/metadata";
 
-export const metadata: Metadata = {
-  title: "Documentation",
-  description:
-    "XeniOS documentation for iPhone/iPad and Mac — installation, settings, troubleshooting, and more.",
-};
+export const metadata: Metadata = withCanonical(
+  {
+    title: "Documentation",
+    description:
+      "XeniOS documentation for iPhone/iPad and Mac — installation, settings, troubleshooting, and more.",
+  },
+  "/docs"
+);
 
 export default function DocsPage() {
   return (

@@ -4,6 +4,7 @@ import { Inter, JetBrains_Mono } from "next/font/google";
 import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
 import { ThemeProvider } from "@/components/theme-provider";
+import { withCanonical } from "@/lib/metadata";
 import "./globals.css";
 
 const inter = Inter({
@@ -18,30 +19,32 @@ const jetbrainsMono = JetBrains_Mono({
   display: "swap",
 });
 
-export const metadata: Metadata = {
-  title: {
-    default: "XeniOS — Xbox 360 Emulator for iPhone, iPad & Mac",
-    template: "%s — XeniOS",
-  },
-  description:
-    "Xbox 360 emulation on iPhone, iPad, and Mac. Play your favorite Xbox 360 games on Apple devices. Free, open source, and community-driven.",
-  metadataBase: new URL("https://xenios.jp"),
-  openGraph: {
-    title: "XeniOS — Xbox 360 Emulator for iPhone, iPad & Mac",
+export const metadata: Metadata = withCanonical(
+  {
+    title: {
+      default: "XeniOS — Xbox 360 Emulator for iPhone, iPad & Mac",
+      template: "%s — XeniOS",
+    },
     description:
-      "Play Xbox 360 games on iPhone, iPad, and Mac. Free, open source, and community-driven.",
-    url: "https://xenios.jp",
-    siteName: "XeniOS",
-    locale: "en_US",
-    type: "website",
+      "Xbox 360 emulation on iPhone, iPad, and Mac. Play your favorite Xbox 360 games on Apple devices. Free, open source, and community-driven.",
+    metadataBase: new URL("https://xenios.jp"),
+    openGraph: {
+      title: "XeniOS — Xbox 360 Emulator for iPhone, iPad & Mac",
+      description:
+        "Play Xbox 360 games on iPhone, iPad, and Mac. Free, open source, and community-driven.",
+      siteName: "XeniOS",
+      locale: "en_US",
+      type: "website",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: "XeniOS — Xbox 360 Emulator for iPhone, iPad & Mac",
+      description:
+        "Play Xbox 360 games on iPhone, iPad, and Mac. Free, open source, and community-driven.",
+    },
   },
-  twitter: {
-    card: "summary_large_image",
-    title: "XeniOS — Xbox 360 Emulator for iPhone, iPad & Mac",
-    description:
-      "Play Xbox 360 games on iPhone, iPad, and Mac. Free, open source, and community-driven.",
-  },
-};
+  "/"
+);
 
 export default function RootLayout({
   children,

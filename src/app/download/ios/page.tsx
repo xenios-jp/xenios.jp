@@ -12,12 +12,16 @@ import {
   type PublicBuildEntry,
 } from "@/lib/builds";
 import { DISCORD_URL } from "@/lib/constants";
+import { withCanonical } from "@/lib/metadata";
 
-export const metadata: Metadata = {
-  title: "Download",
-  description:
-    "Download XeniOS and start playing Xbox 360 games on your iPhone or iPad.",
-};
+export const metadata: Metadata = withCanonical(
+  {
+    title: "Download for iPhone / iPad",
+    description:
+      "Download XeniOS and start playing Xbox 360 games on your iPhone or iPad.",
+  },
+  "/download/ios"
+);
 
 function BuildCard({
   title,

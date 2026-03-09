@@ -1,15 +1,18 @@
 import type { Metadata } from "next";
 import {
-  WEBSITE_GITHUB_URL,
   EMULATOR_GITHUB_URL,
   XENIA_UPSTREAM_REPO_URL,
 } from "@/lib/constants";
+import { withCanonical } from "@/lib/metadata";
 
-export const metadata: Metadata = {
-  title: "Privacy",
-  description:
-    "Privacy policy for the XeniOS website and related community resources.",
-};
+export const metadata: Metadata = withCanonical(
+  {
+    title: "Privacy",
+    description:
+      "Privacy policy for the XeniOS website and related community resources.",
+  },
+  "/privacy"
+);
 
 export default function PrivacyPage() {
   return (
@@ -94,24 +97,17 @@ export default function PrivacyPage() {
           </h2>
           <p className="mt-3 text-[15px] leading-relaxed text-text-secondary">
             If you need clarification on any privacy-related process used by
-            upstream repositories, please consult their repository documentation.
+            the project or upstream repositories, please consult their
+            repository documentation.
           </p>
           <div className="mt-4 grid gap-2 text-[15px] text-text-secondary">
-            <a
-              href={WEBSITE_GITHUB_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-accent underline underline-offset-2 hover:text-accent-hover"
-            >
-              Website repository: {WEBSITE_GITHUB_URL}
-            </a>
             <a
               href={EMULATOR_GITHUB_URL}
               target="_blank"
               rel="noopener noreferrer"
               className="text-accent underline underline-offset-2 hover:text-accent-hover"
             >
-              Emulator repository: {EMULATOR_GITHUB_URL}
+              XeniOS repository: {EMULATOR_GITHUB_URL}
             </a>
             <a
               href={XENIA_UPSTREAM_REPO_URL}

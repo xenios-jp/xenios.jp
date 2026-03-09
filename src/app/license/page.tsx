@@ -2,12 +2,16 @@ import type { Metadata } from "next";
 import { readFile } from "node:fs/promises";
 import path from "node:path";
 import { XENIA_UPSTREAM_LICENSE_URL } from "@/lib/constants";
+import { withCanonical } from "@/lib/metadata";
 
-export const metadata: Metadata = {
-  title: "License",
-  description:
-    "License terms that apply to XeniOS through inheritance from the Xenia project.",
-};
+export const metadata: Metadata = withCanonical(
+  {
+    title: "License",
+    description:
+      "License terms that apply to XeniOS through inheritance from the Xenia project.",
+  },
+  "/license"
+);
 
 async function fetchLicenseText(): Promise<string | null> {
   try {

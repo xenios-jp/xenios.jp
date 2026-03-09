@@ -1,6 +1,6 @@
 import Link from "next/link";
 import {
-  WEBSITE_GITHUB_URL,
+  EMULATOR_GITHUB_URL,
   DISCORD_URL,
   KOFI_URL,
   XENIA_EDGE_REPO_URL,
@@ -13,7 +13,7 @@ const footerLinks = [
   { label: "Privacy", href: "/privacy" },
   {
     label: "GitHub",
-    href: WEBSITE_GITHUB_URL,
+    href: EMULATOR_GITHUB_URL,
     external: true,
   },
   { label: "Discord", href: DISCORD_URL, external: true },

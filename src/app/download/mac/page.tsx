@@ -13,11 +13,15 @@ import {
 } from "@/lib/builds";
 import { getArchitectureDisplayLabel } from "@/lib/build-display";
 import { DISCORD_URL } from "@/lib/constants";
+import { withCanonical } from "@/lib/metadata";
 
-export const metadata: Metadata = {
-  title: "Download",
-  description: "Download XeniOS for Mac.",
-};
+export const metadata: Metadata = withCanonical(
+  {
+    title: "Download for Mac",
+    description: "Download XeniOS for Mac.",
+  },
+  "/download/mac"
+);
 
 function macArtifactSortValue(artifact: PublicBuildArtifact): number {
   switch (artifact.arch) {
