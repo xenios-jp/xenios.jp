@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **90 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **91 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **24** · 🔵 In-Game: **19** · 🟡 Intro: **16** · 🟠 Loads: **15** · 🔴 Doesn't Boot: **16**
+> 🟢 Playable: **24** · 🔵 In-Game: **19** · 🟡 Intro: **16** · 🟠 Loads: **16** · 🔴 Doesn't Boot: **16**
 >
-> 📱 iOS: **88** · 🖥️ macOS: **5**
+> 📱 iOS: **89** · 🖥️ macOS: **5**
 
 ## Legend
 
@@ -92,6 +92,7 @@
 | 🟠 | NARUTO STORM 3 | `4E4D085C` | 📱 iOS | Loads | 🐢 Poor | iPhone 15 Pro Max | 2026-03-08 |
 | 🟠 | Skate 3 | `454108E6` | 📱 iOS | Loads | 🐢 Poor | iPhone 13 Pro | 2026-03-09 |
 | 🟠 | Sonic Transformed | `5345085D` | 📱 iOS | Loads | 🐢 Poor | iPhone 16 Pro | 2026-03-05 |
+| 🟠 | Spider-Man™: EoT | `415608B2` | 📱 iOS | Loads | 🐢 Poor | iPhone 15 Pro Max | 2026-03-09 |
 | 🟠 | The Orange Box | `4541080F` | 📱 iOS | Loads | 🐢 Poor | iPhone 17 Pro Max | 2026-03-08 |
 | 🟠 | Tron: Evolution | `425607ED` | 📱 iOS | Loads | 👌 OK | iPhone 15 Pro Max | 2026-03-09 |
 | 🔴 | [Prototype]™ | `4156084E` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 12 Pro Max | 2026-03-08 |

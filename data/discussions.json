@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-09T13:54:18.524Z",
+  "generatedAt": "2026-03-09T14:00:05.120Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -708,6 +708,43 @@
           "meta": {
             "status": "ingame",
             "perf": "ok",
+            "device": "iPhone 15 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        }
+      ]
+    },
+    "415608B2": {
+      "titleId": "415608B2",
+      "issueNumber": 138,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/138",
+      "updatedAt": "2026-03-09",
+      "entries": [
+        {
+          "id": "issue-138",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/138",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-09",
+          "createdAtMs": 1773064764000,
+          "issueNumber": 138,
+          "excerpt": "Game loads up, intros are still not really working.\n\nUpon moving past the intro, it will usually appear as a black screen, with the time vortex being the only thing showing, however on some instances, it attempts to render geometry, but it’s all blue. \n\nGame technically functions and can start, move and fight, but there are no visuals aside from text and the pause menu.\n\nLoading screen seems to be fine.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/415608B2/1773064759220-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/415608B2/1773064759220-2.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/415608B2/1773064759220-3.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/415608B2/1773064759220-4.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/415608B2/1773064759220-5.jpg"
+          ],
+          "meta": {
+            "status": "loads",
+            "perf": "poor",
             "device": "iPhone 15 Pro Max",
             "platform": "iOS",
             "osVersion": "iOS 26.3",
