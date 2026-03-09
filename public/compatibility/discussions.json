@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-09T00:05:08.192Z",
+  "generatedAt": "2026-03-09T00:34:34.861Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -565,6 +565,37 @@
             "platform": "iOS",
             "osVersion": "iOS 18.5",
             "gpuBackend": "MSL"
+          }
+        }
+      ]
+    },
+    "415608EC": {
+      "titleId": "415608EC",
+      "issueNumber": 105,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/105",
+      "updatedAt": "2026-03-09",
+      "entries": [
+        {
+          "id": "issue-105",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/105",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-09",
+          "createdAtMs": 1773016449000,
+          "issueNumber": 105,
+          "excerpt": "The game works but when you l\nStart the first mission it loads forever so game doesn’t work",
+          "images": [],
+          "meta": {
+            "status": "loads",
+            "perf": "great",
+            "device": "iPhone 15 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
           }
         }
       ]
