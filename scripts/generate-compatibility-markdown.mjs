@@ -43,20 +43,24 @@ async function readJson(relativePath) {
 }
 
 function buildMarkdown(games, deviceNames) {
-  const sorted = [...games].sort((left, right) => {
+  const testedGames = games.filter(
+    (game) => game.lastReport && Array.isArray(game.platforms) && game.platforms.length > 0,
+  );
+
+  const sorted = [...testedGames].sort((left, right) => {
     const statusDelta = statusOrder.indexOf(left.status) - statusOrder.indexOf(right.status);
     if (statusDelta !== 0) return statusDelta;
     return left.title.localeCompare(right.title);
   });
 
-  const total = games.length;
+  const total = testedGames.length;
   const counts = Object.fromEntries(statusOrder.map((status) => [status, 0]));
-  for (const game of games) {
+  for (const game of testedGames) {
     counts[game.status] += 1;
   }
 
   const platformCounts = { ios: 0, macos: 0 };
-  for (const game of games) {
+  for (const game of testedGames) {
     for (const platform of game.platforms || []) {
       if (platform in platformCounts) {
         platformCounts[platform] += 1;
@@ -77,8 +81,14 @@ function buildMarkdown(games, deviceNames) {
 
   const rows = sorted
     .map((game) => {
-      const platforms = (game.platforms || []).map((platform) => platformLabel[platform] || platform).join(", ");
-      return `| ${statusEmoji[game.status]} | ${game.title} | \`${game.titleId}\` | ${platforms} | ${statusLabel[game.status]} | ${perfLabel[game.perf]} | ${deviceNameFor(game.lastReport.device)} | ${game.updatedAt} |`;
+      const platforms = (game.platforms || [])
+        .map((platform) => platformLabel[platform] || platform)
+        .join(", ");
+      const lastDevice = game.lastReport?.device
+        ? deviceNameFor(game.lastReport.device)
+        : "Unverified";
+      const updatedAt = game.updatedAt || "—";
+      return `| ${statusEmoji[game.status]} | ${game.title} | \`${game.titleId}\` | ${platforms || "—"} | ${statusLabel[game.status]} | ${perfLabel[game.perf] || game.perf} | ${lastDevice} | ${updatedAt} |`;
     })
     .join("\n");
 
@@ -121,8 +131,11 @@ async function main() {
   ]);
 
   const markdown = buildMarkdown(games, deviceNames);
+  const testedCount = games.filter(
+    (game) => game.lastReport && Array.isArray(game.platforms) && game.platforms.length > 0,
+  ).length;
   await fs.writeFile(path.join(repoRoot, "COMPATIBILITY.md"), `${markdown}\n`, "utf8");
-  console.log(`Generated COMPATIBILITY.md with ${games.length} games`);
+  console.log(`Generated COMPATIBILITY.md with ${testedCount} tested games`);
 }
 
 main().catch((error) => {
