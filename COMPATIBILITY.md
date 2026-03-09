@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **88 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **89 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **23** · 🔵 In-Game: **18** · 🟡 Intro: **16** · 🟠 Loads: **15** · 🔴 Doesn't Boot: **16**
+> 🟢 Playable: **24** · 🔵 In-Game: **18** · 🟡 Intro: **16** · 🟠 Loads: **15** · 🔴 Doesn't Boot: **16**
 >
-> 📱 iOS: **86** · 🖥️ macOS: **5**
+> 📱 iOS: **87** · 🖥️ macOS: **5**
 
 ## Legend
 
@@ -21,6 +21,7 @@
 | | Title | Title ID | Platform | Status | Perf | Last Device | Updated |
 |-|-------|----------|----------|--------|------|-------------|---------|
 | 🟢 | [Angry Birds Trilogy] | `415608E4` | 📱 iOS | Playable | 🚀 Great | iPad 11th Gen | 2026-03-09 |
+| 🟢 | Alan Wake | `4D530805` | 📱 iOS | Playable | 🐢 Poor | iPad 11th Gen | 2026-03-09 |
 | 🟢 | Banjo Kazooie: Nuts & Bolts | `4D5307ED` | 📱 iOS | Playable | 🐢 Poor | iPhone 15 Pro Max | 2026-03-08 |
 | 🟢 | BioShock | `545407D8` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-08 |
 | 🟢 | Call of Duty 4 | `415607E6` | 📱 iOS | Playable | 👌 OK | iPhone 17 Pro Max | 2026-03-08 |

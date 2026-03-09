@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-09T12:30:17.916Z",
+  "generatedAt": "2026-03-09T13:38:04.164Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -680,6 +680,39 @@
             "device": "iPhone 13 Mini",
             "platform": "iOS",
             "osVersion": "iOS 16.6.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        }
+      ]
+    },
+    "4D530805": {
+      "titleId": "4D530805",
+      "issueNumber": 136,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/136",
+      "updatedAt": "2026-03-09",
+      "entries": [
+        {
+          "id": "issue-136",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/136",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-09",
+          "createdAtMs": 1773063458000,
+          "issueNumber": 136,
+          "excerpt": "This is a challenging 3D game that pushes the boundaries. Game Hangs or freezes a few times after starting and selecting Dark/Brightness setting, before you can get in game. Menu text is blurred and not readable making navigation challenging. The trick that seemed to allow it to load in game is navigating to Settings and manually changing the Brightness settings before trying to start. Then back out and start the game. When you first get in game it takes a few seconds for the world to load in, causing colorful or blank areas. In game the FPS is low average around 10-15 FPS. However despite these issues the game does run and is playable.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4D530805/1773063452621-1.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "poor",
+            "device": "iPad 11th Gen",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
             "gpuBackend": "MSL",
             "buildChannel": "self-built",
             "appVersion": "1.0.0",

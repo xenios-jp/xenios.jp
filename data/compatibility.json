@@ -10903,5 +10903,125 @@
     },
     "issueNumber": 135,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/135"
+  },
+  {
+    "slug": "alan-wake",
+    "title": "Alan Wake",
+    "titleId": "4D530805",
+    "status": "playable",
+    "perf": "poor",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPad 11th Gen",
+      "platform": "ios",
+      "osVersion": "26.3",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-09",
+    "notes": "This is a challenging 3D game that pushes the boundaries. Game Hangs or freezes a few times after starting and selecting Dark/Brightness setting, before you can get in game. Menu text is blurred and not readable making navigation challenging. The trick that seemed to allow it to load in game is navigating to Settings and manually changing the Brightness settings before trying to start. Then back out and start the game. When you first get in game it takes a few seconds for the world to load in, causing colorful or blank areas. In game the FPS is low average around 10-15 FPS. However despite these issues the game does run and is playable.",
+    "reports": [
+      {
+        "device": "iPad 11th Gen",
+        "platform": "ios",
+        "osVersion": "26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "poor",
+        "date": "2026-03-09",
+        "notes": "This is a challenging 3D game that pushes the boundaries. Game Hangs or freezes a few times after starting and selecting Dark/Brightness setting, before you can get in game. Menu text is blurred and not readable making navigation challenging. The trick that seemed to allow it to load in game is navigating to Settings and manually changing the Brightness settings before trying to start. Then back out and start the game. When you first get in game it takes a few seconds for the world to load in, causing colorful or blank areas. In game the FPS is low average around 10-15 FPS. However despite these issues the game does run and is playable.",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "stage": "stable",
+          "commitShort": "2633e8177",
+          "buildId": "ios-self-built-1.0.0-9280"
+        }
+      }
+    ],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4D530805/1773063452621-1.jpg"
+    ],
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "playable",
+        "perf": "poor",
+        "notes": "This is a challenging 3D game that pushes the boundaries. Game Hangs or freezes a few times after starting and selecting Dark/Brightness setting, before you can get in game. Menu text is blurred and not readable making navigation challenging. The trick that seemed to allow it to load in game is navigating to Settings and manually changing the Brightness settings before trying to start. Then back out and start the game. When you first get in game it takes a few seconds for the world to load in, causing colorful or blank areas. In game the FPS is low average around 10-15 FPS. However despite these issues the game does run and is playable.",
+        "updatedAt": "2026-03-09",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPad 11th Gen",
+          "platform": "ios",
+          "osVersion": "26.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "poor",
+          "date": "2026-03-09",
+          "notes": "This is a challenging 3D game that pushes the boundaries. Game Hangs or freezes a few times after starting and selecting Dark/Brightness setting, before you can get in game. Menu text is blurred and not readable making navigation challenging. The trick that seemed to allow it to load in game is navigating to Settings and manually changing the Brightness settings before trying to start. Then back out and start the game. When you first get in game it takes a few seconds for the world to load in, causing colorful or blank areas. In game the FPS is low average around 10-15 FPS. However despite these issues the game does run and is playable.",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "stage": "stable",
+            "commitShort": "2633e8177",
+            "buildId": "ios-self-built-1.0.0-9280"
+          }
+        },
+        "bestReport": {
+          "device": "iPad 11th Gen",
+          "platform": "ios",
+          "osVersion": "26.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "poor",
+          "date": "2026-03-09",
+          "notes": "This is a challenging 3D game that pushes the boundaries. Game Hangs or freezes a few times after starting and selecting Dark/Brightness setting, before you can get in game. Menu text is blurred and not readable making navigation challenging. The trick that seemed to allow it to load in game is navigating to Settings and manually changing the Brightness settings before trying to start. Then back out and start the game. When you first get in game it takes a few seconds for the world to load in, causing colorful or blank areas. In game the FPS is low average around 10-15 FPS. However despite these issues the game does run and is playable.",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "stage": "stable",
+            "commitShort": "2633e8177",
+            "buildId": "ios-self-built-1.0.0-9280"
+          }
+        }
+      }
+    },
+    "issueNumber": 136,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/136"
   }
 ]
