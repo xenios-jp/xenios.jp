@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **83 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **85 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **22** · 🔵 In-Game: **16** · 🟡 Intro: **14** · 🟠 Loads: **15** · 🔴 Doesn't Boot: **16**
+> 🟢 Playable: **22** · 🔵 In-Game: **17** · 🟡 Intro: **14** · 🟠 Loads: **15** · 🔴 Doesn't Boot: **17**
 >
-> 📱 iOS: **81** · 🖥️ macOS: **5**
+> 📱 iOS: **83** · 🖥️ macOS: **5**
 
 ## Legend
 
@@ -46,6 +46,7 @@
 | 🔵 | Call of Duty 2 | `415607D1` | 📱 iOS | In-Game | 👌 OK | iPhone 16 | 2026-03-09 |
 | 🔵 | Diablo III | `394F07D1` | 📱 iOS | In-Game | 🐢 Poor | iPhone Air | 2026-03-09 |
 | 🔵 | Fable III | `4D5308D6` | 📱 iOS | In-Game | 🐢 Poor | iPhone 15 Pro Max | 2026-03-09 |
+| 🔵 | Far Cry® 3 | `5553088C` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro | 2026-03-09 |
 | 🔵 | FIFA 16 | `454109EE` | 📱 iOS | In-Game | 👌 OK | iPhone 14 Pro Max | 2026-03-08 |
 | 🔵 | Forza Horizon | `4D5309C9` | 📱 iOS | In-Game | 🐢 Poor | iPhone 15 Pro Max | 2026-03-09 |
 | 🔵 | Gears of War | `4D5307D5` | 🖥️ macOS | In-Game | 👌 OK | MacBook Pro M4 Pro/Max | 2026-02-28 |
@@ -88,6 +89,7 @@
 | 🟠 | The Orange Box | `4541080F` | 📱 iOS | Loads | 🐢 Poor | iPhone 17 Pro Max | 2026-03-08 |
 | 🟠 | Tron: Evolution | `425607ED` | 📱 iOS | Loads | 👌 OK | iPhone 15 Pro Max | 2026-03-09 |
 | 🔴 | [Prototype]™ | `4156084E` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 12 Pro Max | 2026-03-08 |
+| 🔴 | Call Of Duty 3 | `415607E1` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-09 |
 | 🔴 | DBZ: BURST LIMIT | `424107DC` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro Max | 2026-03-09 |
 | 🔴 | Fable II | `4D5307F1` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 15 Pro Max | 2026-03-09 |
 | 🔴 | FH2: Fast & Furious | `4D530AB5` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad 10th Gen | 2026-03-08 |
