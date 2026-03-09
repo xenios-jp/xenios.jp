@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-09T10:28:01.989Z",
+  "generatedAt": "2026-03-09T11:03:07.096Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2462,8 +2462,31 @@
       "titleId": "534307E7",
       "issueNumber": 3,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/3",
-      "updatedAt": "2026-03-07",
+      "updatedAt": "2026-03-09",
       "entries": [
+        {
+          "id": "comment-4022930361",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/3#issuecomment-4022930361",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-09",
+          "createdAtMs": 1773054145000,
+          "issueNumber": 3,
+          "excerpt": "Game is playable, around FPS on iPhone 17 Pro, 720p, expect stuttering / latency, audio issue (too crisp no matter the settings",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "poor",
+            "device": "iPhone 17 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        },
         {
           "id": "issue-3",
           "type": "issue",

@@ -2,7 +2,7 @@
 
 > **83 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **21** · 🔵 In-Game: **17** · 🟡 Intro: **14** · 🟠 Loads: **15** · 🔴 Doesn't Boot: **16**
+> 🟢 Playable: **22** · 🔵 In-Game: **16** · 🟡 Intro: **14** · 🟠 Loads: **15** · 🔴 Doesn't Boot: **16**
 >
 > 📱 iOS: **81** · 🖥️ macOS: **5**
 
@@ -30,6 +30,7 @@
 | 🟢 | FINAL FANTASY XIII | `535107E4` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-03 |
 | 🟢 | Guacamelee | `00000000` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-03 |
 | 🟢 | Halo: CE Anniversary | `4D5309B1` | 📱 iOS | Playable | 🚀 Great | iPhone 15 Pro Max | 2026-03-08 |
+| 🟢 | Just Cause 2 | `534307E7` | 📱 iOS | Playable | 🐢 Poor | iPhone 17 Pro | 2026-03-09 |
 | 🟢 | Marvel Ult. Alliance 2 | `4156082F` | 📱 iOS | Playable | 👌 OK | iPhone 13 Pro | 2026-03-09 |
 | 🟢 | METAL GEAR RISING | `4B4E080A` | 📱 iOS | Playable | 👌 OK | iPhone 17 Pro Max | 2026-03-09 |
 | 🟢 | NFS Undercover | `45410876` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-09 |
@@ -50,7 +51,6 @@
 | 🔵 | Gears of War | `4D5307D5` | 🖥️ macOS | In-Game | 👌 OK | MacBook Pro M4 Pro/Max | 2026-02-28 |
 | 🔵 | Halo 3 | `4D5307E6` | 🖥️ macOS, 📱 iOS | In-Game | ➖ N/A | Macbook Pro M4 | 2026-03-09 |
 | 🔵 | Halo: Reach | `4D53085B` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 | 2026-03-06 |
-| 🔵 | Just Cause 2 | `534307E7` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 | 2026-03-06 |
 | 🔵 | Mercenaries 2 | `45410828` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro | 2026-03-09 |
 | 🔵 | Metro: Last Light | `4B4D07F5` | 🖥️ macOS | In-Game | 👌 OK | MacBook Pro M4 Pro/Max | 2026-02-28 |
 | 🔵 | PAC-MAN™ GHOSTLY ADV | `4E4D0865` | 📱 iOS | In-Game | 🐢 Poor | iPhone 15 Pro Max | 2026-03-08 |
