@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-09T06:02:49.519Z",
+  "generatedAt": "2026-03-09T06:12:00.651Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1510,8 +1510,31 @@
       "titleId": "4D5307F1",
       "issueNumber": 82,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/82",
-      "updatedAt": "2026-03-08",
+      "updatedAt": "2026-03-09",
       "entries": [
+        {
+          "id": "comment-4021392205",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/82#issuecomment-4021392205",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-09",
+          "createdAtMs": 1773036683000,
+          "issueNumber": 82,
+          "excerpt": "Nothing happens",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 15 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        },
         {
           "id": "issue-82",
           "type": "issue",

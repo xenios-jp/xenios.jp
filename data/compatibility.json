@@ -1,153 +1,5 @@
 [
   {
-    "slug": "fifa-street-3",
-    "title": "[FIFA Street 3]",
-    "titleId": "4541083B",
-    "status": "loads",
-    "perf": "n/a",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPad Air 5",
-      "platform": "ios",
-      "osVersion": "18.6.2",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-09",
-    "notes": "The first boot up screens look laggy . The menu is fine and doesn't lag. When u enter a football match it shows a black screen but still you can access the pause menu. The game eventually crashes.",
-    "reports": [
-      {
-        "device": "iPad Air 5",
-        "platform": "ios",
-        "osVersion": "18.6.2",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "loads",
-        "perf": "n/a",
-        "date": "2026-03-09",
-        "notes": "The first boot up screens look laggy . The menu is fine and doesn't lag. When u enter a football match it shows a black screen but still you can access the pause menu. The game eventually crashes.",
-        "source": "github",
-        "build": {
-          "buildId": "ios-release-1.0.0-9280",
-          "channel": "release",
-          "official": true,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280"
-        }
-      }
-    ],
-    "screenshots": [],
-    "issueNumber": 124,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/124",
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "loads",
-        "perf": "n/a",
-        "notes": "The first boot up screens look laggy . The menu is fine and doesn't lag. When u enter a football match it shows a black screen but still you can access the pause menu. The game eventually crashes.",
-        "updatedAt": "2026-03-09",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPad Air 5",
-          "platform": "ios",
-          "osVersion": "18.6.2",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "n/a",
-          "date": "2026-03-09",
-          "notes": "The first boot up screens look laggy . The menu is fine and doesn't lag. When u enter a football match it shows a black screen but still you can access the pause menu. The game eventually crashes.",
-          "source": "github",
-          "build": {
-            "buildId": "ios-release-1.0.0-9280",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280"
-          }
-        },
-        "bestReport": {
-          "device": "iPad Air 5",
-          "platform": "ios",
-          "osVersion": "18.6.2",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "n/a",
-          "date": "2026-03-09",
-          "notes": "The first boot up screens look laggy . The menu is fine and doesn't lag. When u enter a football match it shows a black screen but still you can access the pause menu. The game eventually crashes.",
-          "source": "github",
-          "build": {
-            "buildId": "ios-release-1.0.0-9280",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280"
-          }
-        }
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "loads",
-        "perf": "n/a",
-        "notes": "The first boot up screens look laggy . The menu is fine and doesn't lag. When u enter a football match it shows a black screen but still you can access the pause menu. The game eventually crashes.",
-        "updatedAt": "2026-03-09",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPad Air 5",
-          "platform": "ios",
-          "osVersion": "18.6.2",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "n/a",
-          "date": "2026-03-09",
-          "notes": "The first boot up screens look laggy . The menu is fine and doesn't lag. When u enter a football match it shows a black screen but still you can access the pause menu. The game eventually crashes.",
-          "source": "github",
-          "build": {
-            "buildId": "ios-release-1.0.0-9280",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280"
-          }
-        },
-        "bestReport": {
-          "device": "iPad Air 5",
-          "platform": "ios",
-          "osVersion": "18.6.2",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "n/a",
-          "date": "2026-03-09",
-          "notes": "The first boot up screens look laggy . The menu is fine and doesn't lag. When u enter a football match it shows a black screen but still you can access the pause menu. The game eventually crashes.",
-          "source": "github",
-          "build": {
-            "buildId": "ios-release-1.0.0-9280",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280"
-          }
-        }
-      }
-    }
-  },
-  {
     "slug": "prototype",
     "title": "[Prototype]™",
     "titleId": "4156084E",
@@ -818,19 +670,20 @@
         "notes": "So the game runs but you can not see anything in menus and have to go blind. Also exploding sound. Then in game it’s dead silent. This is very rough and I cannon consider this to be playable or in game even though I can go in game if I guess prompts in menu.",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.0-9280",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.0",
           "buildNumber": "9280",
-          "stage": "stable",
-          "commitShort": "2633e8177",
-          "buildId": "ios-self-built-1.0.0-9280"
+          "commitShort": "2633e8177"
         }
       }
     ],
     "screenshots": [
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454107DC/1773031857872-1.jpg"
     ],
+    "issueNumber": 120,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/120",
     "summaries": {
       "release": {
         "channel": "release",
@@ -871,13 +724,12 @@
           "notes": "So the game runs but you can not see anything in menus and have to go blind. Also exploding sound. Then in game it’s dead silent. This is very rough and I cannon consider this to be playable or in game even though I can go in game if I guess prompts in menu.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
+            "commitShort": "2633e8177"
           }
         },
         "bestReport": {
@@ -892,19 +744,16 @@
           "notes": "So the game runs but you can not see anything in menus and have to go blind. Also exploding sound. Then in game it’s dead silent. This is very rough and I cannon consider this to be playable or in game even though I can go in game if I guess prompts in menu.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
+            "commitShort": "2633e8177"
           }
         }
       }
-    },
-    "issueNumber": 120,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/120"
+    }
   },
   {
     "slug": "call-of-duty-2",
@@ -1278,17 +1127,18 @@
         "notes": "Crashes at boot, get the initial loading screen then nothing",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.0-9280",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.0",
           "buildNumber": "9280",
-          "stage": "stable",
-          "commitShort": "2633e8177",
-          "buildId": "ios-self-built-1.0.0-9280"
+          "commitShort": "2633e8177"
         }
       }
     ],
     "screenshots": [],
+    "issueNumber": 117,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/117",
     "summaries": {
       "release": {
         "channel": "release",
@@ -1329,13 +1179,12 @@
           "notes": "Crashes at boot, get the initial loading screen then nothing",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
+            "commitShort": "2633e8177"
           }
         },
         "bestReport": {
@@ -1350,19 +1199,16 @@
           "notes": "Crashes at boot, get the initial loading screen then nothing",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
+            "commitShort": "2633e8177"
           }
         }
       }
-    },
-    "issueNumber": 117,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/117"
+    }
   },
   {
     "slug": "crash-of-the-titans",
@@ -2503,17 +2349,18 @@
         "notes": "Runs slow.",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.0-9280",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.0",
           "buildNumber": "9280",
-          "stage": "stable",
-          "commitShort": "2633e8177",
-          "buildId": "ios-self-built-1.0.0-9280"
+          "commitShort": "2633e8177"
         }
       }
     ],
     "screenshots": [],
+    "issueNumber": 123,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/123",
     "summaries": {
       "release": {
         "channel": "release",
@@ -2554,13 +2401,12 @@
           "notes": "Runs slow.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
+            "commitShort": "2633e8177"
           }
         },
         "bestReport": {
@@ -2575,19 +2421,16 @@
           "notes": "Runs slow.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
+            "commitShort": "2633e8177"
           }
         }
       }
-    },
-    "issueNumber": 123,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/123"
+    }
   },
   {
     "slug": "diablo-iii-ros",
@@ -3023,15 +2866,35 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 16 Pro Max",
+      "device": "iPhone 15 Pro Max",
       "platform": "ios",
-      "osVersion": "26.3.1",
+      "osVersion": "26.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-08",
-    "notes": "Nothing start",
+    "updatedAt": "2026-03-09",
+    "notes": "Nothing happens",
     "reports": [
+      {
+        "device": "iPhone 15 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-03-09",
+        "notes": "Nothing happens",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.0-9280",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "commitShort": "2633e8177"
+        }
+      },
       {
         "device": "iPhone 16 Pro Max",
         "platform": "ios",
@@ -3081,19 +2944,19 @@
         "channel": "all",
         "status": "nothing",
         "perf": "n/a",
-        "notes": "Nothing start",
-        "updatedAt": "2026-03-08",
-        "reportCount": 1,
+        "notes": "Nothing happens",
+        "updatedAt": "2026-03-09",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 16 Pro Max",
+          "device": "iPhone 15 Pro Max",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "26.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "nothing",
           "perf": "n/a",
-          "date": "2026-03-08",
-          "notes": "Nothing start",
+          "date": "2026-03-09",
+          "notes": "Nothing happens",
           "source": "app",
           "build": {
             "buildId": "ios-self-built-1.0.0-9280",
@@ -3105,15 +2968,15 @@
           }
         },
         "bestReport": {
-          "device": "iPhone 16 Pro Max",
+          "device": "iPhone 15 Pro Max",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "26.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "nothing",
           "perf": "n/a",
-          "date": "2026-03-08",
-          "notes": "Nothing start",
+          "date": "2026-03-09",
+          "notes": "Nothing happens",
           "source": "app",
           "build": {
             "buildId": "ios-self-built-1.0.0-9280",
@@ -3662,6 +3525,121 @@
           "notes": "-Graphics: minor glitches like hair transparency \n-Performance: full speed on higher end devices with minor dips.\n-Sound: No sound…\n-Menus: Perfect \n-Videos: work\n\n*Tested for an hour with no crash",
           "source": "app",
           "build": null
+        }
+      }
+    }
+  },
+  {
+    "slug": "forza-horizon",
+    "title": "Forza Horizon",
+    "titleId": "4D5309C9",
+    "status": "ingame",
+    "perf": "poor",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 15 Pro Max",
+      "platform": "ios",
+      "osVersion": "26.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-09",
+    "notes": "Distortions and is unplayable experience",
+    "reports": [
+      {
+        "device": "iPhone 15 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "poor",
+        "date": "2026-03-09",
+        "notes": "Distortions and is unplayable experience",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.0-9280",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "commitShort": "2633e8177"
+        }
+      }
+    ],
+    "screenshots": [],
+    "issueNumber": 125,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/125",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "ingame",
+        "perf": "poor",
+        "notes": "Distortions and is unplayable experience",
+        "updatedAt": "2026-03-09",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 15 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-03-09",
+          "notes": "Distortions and is unplayable experience",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "2633e8177"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 15 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-03-09",
+          "notes": "Distortions and is unplayable experience",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "2633e8177"
+          }
         }
       }
     }
@@ -5824,13 +5802,12 @@
         "notes": "A few graphical glitches. Low fps. Choppy audio",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.0-9280",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.0",
           "buildNumber": "9280",
-          "stage": "stable",
-          "commitShort": "2633e8177",
-          "buildId": "ios-self-built-1.0.0-9280"
+          "commitShort": "2633e8177"
         }
       }
     ],
@@ -5839,6 +5816,8 @@
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/45410828/1773023288272-2.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/45410828/1773023288272-3.jpg"
     ],
+    "issueNumber": 116,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/116",
     "summaries": {
       "release": {
         "channel": "release",
@@ -5879,13 +5858,12 @@
           "notes": "A few graphical glitches. Low fps. Choppy audio",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
+            "commitShort": "2633e8177"
           }
         },
         "bestReport": {
@@ -5900,19 +5878,16 @@
           "notes": "A few graphical glitches. Low fps. Choppy audio",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
+            "commitShort": "2633e8177"
           }
         }
       }
-    },
-    "issueNumber": 116,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/116"
+    }
   },
   {
     "slug": "metal-gear-rising",
@@ -8499,17 +8474,18 @@
         "notes": "Black screen, XeniOS freezes.",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.0-9280",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.0",
           "buildNumber": "9280",
-          "stage": "stable",
-          "commitShort": "2633e8177",
-          "buildId": "ios-self-built-1.0.0-9280"
+          "commitShort": "2633e8177"
         }
       }
     ],
     "screenshots": [],
+    "issueNumber": 118,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/118",
     "summaries": {
       "release": {
         "channel": "release",
@@ -8550,13 +8526,12 @@
           "notes": "Black screen, XeniOS freezes.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
+            "commitShort": "2633e8177"
           }
         },
         "bestReport": {
@@ -8571,19 +8546,16 @@
           "notes": "Black screen, XeniOS freezes.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
+            "commitShort": "2633e8177"
           }
         }
       }
-    },
-    "issueNumber": 118,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/118"
+    }
   },
   {
     "slug": "the-orange-box",
@@ -9418,17 +9390,18 @@
         "notes": "Does not load, crashes app immediately on launch",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.0-9280",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.0",
           "buildNumber": "9280",
-          "stage": "stable",
-          "commitShort": "2633e8177",
-          "buildId": "ios-self-built-1.0.0-9280"
+          "commitShort": "2633e8177"
         }
       }
     ],
     "screenshots": [],
+    "issueNumber": 119,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/119",
     "summaries": {
       "release": {
         "channel": "release",
@@ -9469,13 +9442,12 @@
           "notes": "Does not load, crashes app immediately on launch",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
+            "commitShort": "2633e8177"
           }
         },
         "bestReport": {
@@ -9490,19 +9462,16 @@
           "notes": "Does not load, crashes app immediately on launch",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
+            "commitShort": "2633e8177"
           }
         }
       }
-    },
-    "issueNumber": 119,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/119"
+    }
   },
   {
     "slug": "title-544307d5",
@@ -9895,13 +9864,12 @@
         "notes": "Has slight graphical issues and goes into menu but when trying to start the campaign. It gets stuck in a loading loop",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.0-9280",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.0",
           "buildNumber": "9280",
-          "stage": "stable",
-          "commitShort": "2633e8177",
-          "buildId": "ios-self-built-1.0.0-9280"
+          "commitShort": "2633e8177"
         }
       }
     ],
@@ -9909,6 +9877,8 @@
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/425607ED/1773034118408-1.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/425607ED/1773034118408-2.jpg"
     ],
+    "issueNumber": 122,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/122",
     "summaries": {
       "release": {
         "channel": "release",
@@ -9949,13 +9919,12 @@
           "notes": "Has slight graphical issues and goes into menu but when trying to start the campaign. It gets stuck in a loading loop",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
+            "commitShort": "2633e8177"
           }
         },
         "bestReport": {
@@ -9970,136 +9939,15 @@
           "notes": "Has slight graphical issues and goes into menu but when trying to start the campaign. It gets stuck in a loading loop",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
+            "commitShort": "2633e8177"
           }
         }
       }
-    },
-    "issueNumber": 122,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/122"
-  },
-  {
-    "slug": "forza-horizon",
-    "title": "Forza Horizon",
-    "titleId": "4D5309C9",
-    "status": "ingame",
-    "perf": "poor",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 15 Pro Max",
-      "platform": "ios",
-      "osVersion": "26.1",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-09",
-    "notes": "Distortions and is unplayable experience",
-    "reports": [
-      {
-        "device": "iPhone 15 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "perf": "poor",
-        "date": "2026-03-09",
-        "notes": "Distortions and is unplayable experience",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "stage": "stable",
-          "commitShort": "2633e8177",
-          "buildId": "ios-self-built-1.0.0-9280"
-        }
-      }
-    ],
-    "screenshots": [],
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "ingame",
-        "perf": "poor",
-        "notes": "Distortions and is unplayable experience",
-        "updatedAt": "2026-03-09",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 15 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-03-09",
-          "notes": "Distortions and is unplayable experience",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 15 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-03-09",
-          "notes": "Distortions and is unplayable experience",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
-          }
-        }
-      }
-    },
-    "issueNumber": 125,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/125"
+    }
   }
 ]
