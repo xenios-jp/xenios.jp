@@ -29,10 +29,23 @@ import {
   type CompatibilityBrowseFilters,
   type PlatformFilter,
 } from "@/lib/compatibility-browse";
-import { getDiscussionByTitleIds, type DiscussionEntry } from "@/lib/discussions";
+import {
+  getDiscussionByTitleIds,
+  type DiscussionData,
+  type DiscussionEntry,
+} from "@/lib/discussions";
 import { matchesPublishedReleaseBuild } from "@/lib/release-build-match";
 
 const STATUS_RANK: Record<GameReport["status"], number> = {
+  nothing: 0,
+  loads: 1,
+  intro: 2,
+  ingame: 3,
+  playable: 4,
+};
+
+const SUMMARY_STATUS_RANK: Record<SummaryStatus, number> = {
+  untested: -1,
   nothing: 0,
   loads: 1,
   intro: 2,
@@ -127,6 +140,8 @@ export interface CompatibilityListEntry {
   perf: PerfTier;
   updatedAt: string;
   latestActivityDate: string | null;
+  hasHistory: boolean;
+  historyPlatforms: Platform[];
   deviceLabel: string;
   observedDevices: string[];
   variesByDevice: boolean;
@@ -197,6 +212,13 @@ export interface CompatibilityListPageData {
 }
 
 export const COMPATIBILITY_CATALOG_PAGE_SIZE = 50;
+
+interface CompatibilityObservation {
+  status: SummaryStatus;
+  perf: PerfTier;
+  date: string;
+  device: string | null;
+}
 
 function reportIdentity(report: GameReport): string {
   return [
@@ -408,6 +430,190 @@ function normalizeDiscussionPlatform(value?: string | null): Platform | null {
   return null;
 }
 
+function normalizeDiscussionStatus(value?: string | null): SummaryStatus | null {
+  const normalized = value?.trim().toLowerCase();
+  if (!normalized) return null;
+  if (
+    normalized === "playable" ||
+    normalized === "ingame" ||
+    normalized === "intro" ||
+    normalized === "loads" ||
+    normalized === "nothing" ||
+    normalized === "untested"
+  ) {
+    return normalized;
+  }
+  return null;
+}
+
+function normalizeDiscussionPerf(value?: string | null): PerfTier | null {
+  const normalized = value?.trim().toLowerCase();
+  if (
+    normalized === "great" ||
+    normalized === "ok" ||
+    normalized === "poor" ||
+    normalized === "n/a"
+  ) {
+    return normalized;
+  }
+  return null;
+}
+
+function compareObservationsByDate(
+  left: CompatibilityObservation,
+  right: CompatibilityObservation,
+): number {
+  const byDate = parseDateValue(right.date) - parseDateValue(left.date);
+  if (byDate !== 0) return byDate;
+  return SUMMARY_STATUS_RANK[right.status] - SUMMARY_STATUS_RANK[left.status];
+}
+
+function deriveHistoryStatus(observations: CompatibilityObservation[]): SummaryStatus {
+  if (observations.length === 0) return "untested";
+
+  const bestStatus = observations.reduce<SummaryStatus>((best, observation) => {
+    return SUMMARY_STATUS_RANK[observation.status] > SUMMARY_STATUS_RANK[best]
+      ? observation.status
+      : best;
+  }, "untested");
+
+  if (
+    bestStatus === "playable" &&
+    observations.some(
+      (observation) =>
+        observation.status !== "playable" && observation.status !== "untested",
+    )
+  ) {
+    return "ingame";
+  }
+
+  return bestStatus;
+}
+
+function deriveHistoryPerf(
+  observations: CompatibilityObservation[],
+  status: SummaryStatus,
+): PerfTier {
+  if (observations.length === 0 || status === "untested" || status === "nothing") {
+    return "n/a";
+  }
+
+  const candidates = observations
+    .map((observation) => observation.perf)
+    .filter((perf): perf is PerfTier => Boolean(perf) && perf !== "n/a");
+
+  if (candidates.includes("poor")) return "poor";
+  if (candidates.includes("ok")) return "ok";
+  if (candidates.includes("great")) return "great";
+  return "n/a";
+}
+
+function buildReportObservations(reports: GameReport[]): CompatibilityObservation[] {
+  return [...reports]
+    .sort(compareReportsByDate)
+    .map((report) => ({
+      status: report.status,
+      perf: report.perf ?? "n/a",
+      date: report.date,
+      device: report.device,
+    }));
+}
+
+function buildDiscussionObservations(entries: DiscussionEntry[]): CompatibilityObservation[] {
+  return entries
+    .map((entry) => {
+      const status = normalizeDiscussionStatus(entry.meta.status);
+      if (!status) return null;
+      return {
+        status,
+        perf: normalizeDiscussionPerf(entry.meta.perf) ?? "n/a",
+        date: entry.createdAt,
+        device: entry.meta.device?.trim() || null,
+      } satisfies CompatibilityObservation;
+    })
+    .filter((entry): entry is CompatibilityObservation => Boolean(entry))
+    .sort(compareObservationsByDate);
+}
+
+function sortPlatforms(platforms: Iterable<Platform>): Platform[] {
+  const ordered: Platform[] = [];
+  for (const platform of ["ios", "macos"] as const) {
+    if ([...platforms].includes(platform)) {
+      ordered.push(platform);
+    }
+  }
+  return ordered;
+}
+
+function latestDiscussionDate(discussion: DiscussionData | null): string | null {
+  if (!discussion) return null;
+
+  const dates = [
+    discussion.updatedAt,
+    ...discussion.entries.map((entry) => entry.createdAt),
+  ].filter(Boolean);
+  if (dates.length === 0) return null;
+
+  return [...dates].sort((left, right) => parseDateValue(right) - parseDateValue(left))[0] ?? null;
+}
+
+function buildHistoryPlatformEntry(
+  platform: Platform,
+  reports: GameReport[],
+  discussionEntries: DiscussionEntry[],
+): CompatibilityPlatformEntry | null {
+  const platformReports = reports.filter((report) => report.platform === platform);
+  const platformDiscussionEntries = discussionEntries.filter(
+    (entry) => normalizeDiscussionPlatform(entry.meta.platform) === platform,
+  );
+  if (platformReports.length === 0 && platformDiscussionEntries.length === 0) {
+    return null;
+  }
+
+  const reportObservations = buildReportObservations(platformReports);
+  const discussionObservations = buildDiscussionObservations(platformDiscussionEntries);
+  const observations =
+    reportObservations.length > 0 ? reportObservations : discussionObservations;
+  const status = deriveHistoryStatus(observations);
+  const updatedAt =
+    observations[0]?.date ??
+    [...platformDiscussionEntries]
+      .sort((left, right) => parseDateValue(right.createdAt) - parseDateValue(left.createdAt))[0]
+      ?.createdAt ??
+    "";
+  const observedDevicesSource =
+    observations.length > 0
+      ? observations
+      : [...platformDiscussionEntries]
+          .sort((left, right) => parseDateValue(right.createdAt) - parseDateValue(left.createdAt))
+          .map((entry) => ({
+            device: entry.meta.device?.trim() || null,
+          }));
+  const observedDevices = [
+    ...new Set(
+      observedDevicesSource
+        .map((observation) => observation.device)
+        .filter((device): device is string => Boolean(device)),
+    ),
+  ];
+  const variesByDevice =
+    new Set(
+      observations
+        .map((observation) => observation.status)
+        .filter((candidate) => candidate !== "untested"),
+    ).size > 1;
+
+  return {
+    platform,
+    status,
+    perf: deriveHistoryPerf(observations, status),
+    updatedAt,
+    observedDevices,
+    variesByDevice,
+    verified: platformReports.length > 0,
+  };
+}
+
 function discussionMatchesReport(entry: DiscussionEntry, report: GameReport): boolean {
   if (entry.createdAt !== report.date) return false;
 
@@ -508,6 +714,50 @@ function selectReleaseEvidence(
     basis: "Legacy release-track reports",
     currentBuildKnown: false,
   };
+}
+
+function selectPlatformsForListEntry(
+  game: Game,
+  reports: GameReport[],
+  discussionEntries: DiscussionEntry[],
+): Platform[] {
+  const platforms = new Set<Platform>();
+
+  for (const report of reports) {
+    platforms.add(report.platform);
+  }
+
+  for (const entry of discussionEntries) {
+    const platform = normalizeDiscussionPlatform(entry.meta.platform);
+    if (platform) {
+      platforms.add(platform);
+    }
+  }
+
+  for (const platform of game.platforms) {
+    if (platform === "ios" || platform === "macos") {
+      platforms.add(platform);
+    }
+  }
+
+  const ordered = sortPlatforms(platforms);
+  return ordered.length > 0 ? ordered : ["ios"];
+}
+
+function selectPrimaryListPlatformEntry(
+  entries: CompatibilityPlatformEntry[],
+): CompatibilityPlatformEntry | null {
+  if (entries.length === 0) return null;
+
+  const priority = (entry: CompatibilityPlatformEntry): number => {
+    let score = 0;
+    if (entry.platform === "ios") score += 100;
+    if (entry.verified) score += 10;
+    if (entry.variesByDevice) score -= 1;
+    return score;
+  };
+
+  return [...entries].sort((left, right) => priority(right) - priority(left))[0] ?? null;
 }
 
 function derivePublicStatus(reports: GameReport[]): SummaryStatus {
@@ -643,26 +893,17 @@ function buildCompatibilityListEntry(
   reports: GameReport[],
   hiddenReportCount: number,
 ): CompatibilityListEntry {
-  const releaseCards = selectPlatformsForCards(game, reports).map((platform) =>
-    buildReleaseCard(platform, reports),
-  );
-  const platformEntries = releaseCards.map((card) => {
-    const evidence = selectReleaseEvidence(card.platform, reports).reports;
-    return {
-      platform: card.platform,
-      status: card.status,
-      perf: card.perf,
-      updatedAt: card.latestReportDate ?? "",
-      observedDevices: [...new Set(evidence.map((report) => report.device))],
-      variesByDevice: card.variesByDevice,
-      verified: card.verified,
-    } satisfies CompatibilityPlatformEntry;
-  });
-  const primaryCard = selectPrimaryReleaseCard(releaseCards);
-  const primaryEvidence = primaryCard
-    ? selectReleaseEvidence(primaryCard.platform, reports).reports
-    : [];
-  const observedDevices = [...new Set(primaryEvidence.map((report) => report.device))];
+  const discussion = getDiscussionByTitleIds(game.titleIds);
+  const discussionEntries = discussion?.entries ?? [];
+  const platformEntries = selectPlatformsForListEntry(game, reports, discussionEntries)
+    .map((platform) => buildHistoryPlatformEntry(platform, reports, discussionEntries))
+    .filter((entry): entry is CompatibilityPlatformEntry => Boolean(entry));
+  const primaryPlatformEntry = selectPrimaryListPlatformEntry(platformEntries);
+  const latestActivityDate = [reports[0]?.date ?? null, latestDiscussionDate(discussion)]
+    .filter(Boolean)
+    .sort((left, right) => parseDateValue(right) - parseDateValue(left))[0] ?? null;
+  const historyPlatforms = sortPlatforms(platformEntries.map((entry) => entry.platform));
+  const observedDevices = primaryPlatformEntry?.observedDevices ?? [];
 
   return {
     game: {
@@ -672,16 +913,18 @@ function buildCompatibilityListEntry(
       titleIds: game.titleIds,
       tags: game.tags,
     },
-    platform: primaryCard?.platform ?? null,
-    status: primaryCard?.status ?? "untested",
-    perf: primaryCard?.perf ?? "n/a",
-    updatedAt: primaryCard?.latestReportDate ?? "",
-    latestActivityDate: reports[0]?.date ?? null,
-    deviceLabel: primaryCard?.variesByDevice
+    platform: primaryPlatformEntry?.platform ?? null,
+    status: primaryPlatformEntry?.status ?? "untested",
+    perf: primaryPlatformEntry?.perf ?? "n/a",
+    updatedAt: primaryPlatformEntry?.updatedAt ?? latestActivityDate ?? "",
+    latestActivityDate,
+    hasHistory: reports.length > 0 || discussionEntries.length > 0,
+    historyPlatforms,
+    deviceLabel: primaryPlatformEntry?.variesByDevice
       ? "Varies by device"
-      : primaryCard?.bestObserved?.device ?? "Unverified",
+      : observedDevices[0] ?? "Unverified",
     observedDevices,
-    variesByDevice: primaryCard?.variesByDevice ?? false,
+    variesByDevice: primaryPlatformEntry?.variesByDevice ?? false,
     hiddenReportCount,
     platformEntries,
   };
@@ -734,7 +977,15 @@ function getListEntryProjection(
 }
 
 function isTestedListEntry(entry: CompatibilityListEntry, platform: PlatformFilter): boolean {
-  return getListEntryProjection(entry, platform).status !== "untested";
+  if (!entry.hasHistory) {
+    return false;
+  }
+
+  if (platform === "all") {
+    return true;
+  }
+
+  return entry.historyPlatforms.includes(platform);
 }
 
 function emptyStatusCounts(): Record<SummaryStatus, number> {
@@ -945,22 +1196,22 @@ export async function getGameDetailViewModel(
 
 export const getCompatibilityListEntries = cache(
   async (): Promise<CompatibilityListEntry[]> => {
-  const games = await getCompatibilityGames();
+    const games = await getCompatibilityGames();
 
-  return games
-    .map((game) => {
-      const sortedReports = [...game.reports].sort(compareReportsByDate);
-      const { valid, hidden } = partitionReportsByMetadata(sortedReports);
-      return buildCompatibilityListEntry(game, valid, hidden.length);
-    })
-    .sort((left, right) => {
-      const leftTime = parseDateValue(left.updatedAt);
-      const rightTime = parseDateValue(right.updatedAt);
-      if (leftTime !== rightTime) {
-        return rightTime - leftTime;
-      }
-      return left.game.title.localeCompare(right.game.title);
-    });
+    return games
+      .map((game) => {
+        const sortedReports = [...game.reports].sort(compareReportsByDate);
+        const { valid, hidden } = partitionReportsByMetadata(sortedReports);
+        return buildCompatibilityListEntry(game, valid, hidden.length);
+      })
+      .sort((left, right) => {
+        const leftTime = parseDateValue(left.latestActivityDate ?? left.updatedAt);
+        const rightTime = parseDateValue(right.latestActivityDate ?? right.updatedAt);
+        if (leftTime !== rightTime) {
+          return rightTime - leftTime;
+        }
+        return left.game.title.localeCompare(right.game.title);
+      });
   },
 );
 

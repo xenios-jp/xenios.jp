@@ -226,7 +226,8 @@ function sortEntries(
     const rightProjection = getEntryProjection(right, platform);
     const leftProjection = getEntryProjection(left, platform);
     const dateDelta =
-      parseDateValue(rightProjection.updatedAt) - parseDateValue(leftProjection.updatedAt);
+      parseDateValue(rightProjection.updatedAt || right.latestActivityDate) -
+      parseDateValue(leftProjection.updatedAt || left.latestActivityDate);
     if (dateDelta !== 0) {
       return dateDelta;
     }
@@ -412,17 +413,12 @@ export function CompatibilityList({
   const currentPlatform = platform;
   const platformScopedEntries =
     !isCatalogMode && currentPlatform !== "all"
-      ? allEntries.filter(
-          (entry) => getEntryProjection(entry, currentPlatform).status !== "untested",
-        )
+      ? allEntries.filter((entry) => entry.historyPlatforms.includes(currentPlatform))
       : allEntries;
   const trimmedQuery = query.trim();
   const searchedEntries = trimmedQuery
     ? platformScopedEntries.filter((entry) => matchesSearch(entry, trimmedQuery))
     : platformScopedEntries;
-  const visibleSummaryStatuses = isCatalogMode
-    ? SUMMARY_STATUS_ORDER
-    : SUMMARY_STATUS_ORDER.filter((summaryStatus) => summaryStatus !== "untested");
 
   const localStatusCounts: Record<SummaryStatus, number> = {
     playable: 0,
@@ -437,6 +433,10 @@ export function CompatibilityList({
     const projection = getEntryProjection(entry, currentPlatform);
     localStatusCounts[projection.status] += 1;
   }
+  const visibleSummaryStatuses =
+    isCatalogMode || localStatusCounts.untested > 0
+      ? SUMMARY_STATUS_ORDER
+      : SUMMARY_STATUS_ORDER.filter((summaryStatus) => summaryStatus !== "untested");
 
   const normalizedDeviceGroups = new Map<string, string[]>();
   if (currentPlatform !== "all") {
@@ -499,7 +499,7 @@ export function CompatibilityList({
   const heroCountLabel =
     mode === "catalog"
       ? `${totalTracked} canonical titles in the full catalog`
-      : `${testedCount} games with current public release evidence`;
+      : `${testedCount} games with report or discussion history`;
 
   const hasCatalogPagination =
     isCatalogMode &&
@@ -558,9 +558,10 @@ export function CompatibilityList({
           </div>
 
           <p className="mt-4 max-w-3xl text-sm leading-relaxed text-text-muted">
-            Public status uses the latest official release when known. The tested view stays strict
-            and focused; the catalog view keeps untested placeholders in A-Z buckets so browsing
-            does not flood a single page.
+            Detail pages still highlight the latest official release when that evidence exists.
+            The tested view includes any title with reports or GitHub discussion history, while
+            the catalog keeps untested placeholders in A-Z buckets so browsing does not flood a
+            single page.
           </p>
 
           <p className="mt-3 max-w-3xl text-sm leading-relaxed text-text-muted">
@@ -597,8 +598,8 @@ export function CompatibilityList({
 
           <div className="mt-4 text-sm text-text-muted">
             {mode === "catalog"
-              ? "Browse the full catalog by category and page. The strict tested view remains separate so the main compatibility page stays focused."
-              : "Only titles with current public release evidence appear here. Use the full catalog to browse untested placeholders."}
+              ? "Browse the full catalog by category and page. The tested view stays separate so titles with history are easier to scan."
+              : "Titles with reports or GitHub discussion history appear here. Use the full catalog to browse untested placeholders."}
           </div>
 
           <div className={`mt-4 grid grid-cols-2 gap-3 sm:grid-cols-3 ${statusGridClass}`}>
