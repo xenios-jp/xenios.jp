@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-09T01:41:48.204Z",
+  "generatedAt": "2026-03-09T01:46:16.430Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -565,6 +565,40 @@
             "platform": "iOS",
             "osVersion": "iOS 18.5",
             "gpuBackend": "MSL"
+          }
+        }
+      ]
+    },
+    "4B5607E8": {
+      "titleId": "4B5607E8",
+      "issueNumber": 115,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/115",
+      "updatedAt": "2026-03-09",
+      "entries": [
+        {
+          "id": "issue-115",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/115",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-09",
+          "createdAtMs": 1773020745000,
+          "issueNumber": 115,
+          "excerpt": "Game has some graphical bugs during intro screen, after shader compilation, fps increases and game runs 30-57 fps.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4B5607E8/1773020742635-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4B5607E8/1773020742635-2.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 16 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.2",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
           }
         }
       ]
@@ -1462,6 +1496,29 @@
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/62",
       "updatedAt": "2026-03-09",
       "entries": [
+        {
+          "id": "comment-4020577528",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/62#issuecomment-4020577528",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-09",
+          "createdAtMs": 1773020573000,
+          "issueNumber": 62,
+          "excerpt": "It shows the start then goes black the audio is a bit bugged too",
+          "images": [],
+          "meta": {
+            "status": "intro",
+            "perf": "poor",
+            "device": "iPhone 17",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        },
         {
           "id": "comment-4020570582",
           "type": "comment",

@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **72 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **74 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **19** · 🔵 In-Game: **13** · 🟡 Intro: **13** · 🟠 Loads: **12** · 🔴 Doesn't Boot: **15**
+> 🟢 Playable: **20** · 🔵 In-Game: **13** · 🟡 Intro: **14** · 🟠 Loads: **12** · 🔴 Doesn't Boot: **15**
 >
-> 📱 iOS: **70** · 🖥️ macOS: **4**
+> 📱 iOS: **72** · 🖥️ macOS: **4**
 
 ## Legend
 
@@ -26,6 +26,7 @@
 | 🟢 | DEAD OR ALIVE 4 | `544307D1` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro | 2026-03-05 |
 | 🟢 | Dead Space™ | `45410857` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro | 2026-03-03 |
 | 🟢 | DEADLY PREMONITION | `494F07D4` | 📱 iOS | Playable | 👌 OK | iPad (11th gen) | 2026-03-06 |
+| 🟢 | DOA5 Ultimate | `4B5607E8` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro Max | 2026-03-09 |
 | 🟢 | FINAL FANTASY XIII | `535107E4` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-03 |
 | 🟢 | Guacamelee | `00000000` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-03 |
 | 🟢 | Halo: CE Anniversary | `4D5309B1` | 📱 iOS | Playable | 🚀 Great | iPhone 15 Pro Max | 2026-03-08 |
@@ -57,6 +58,7 @@
 | 🟡 | DARK SOULS II | `465307E4` | 📱 iOS | Intro | 🐢 Poor | iPhone 17 Pro Max | 2026-03-09 |
 | 🟡 | DEAD RISING | `434307D2` | 📱 iOS | Intro | 👌 OK | iPad (11th gen) | 2026-03-04 |
 | 🟡 | DOOM 3 BFG Edition | `425307F1` | 📱 iOS | Intro | 🚀 Great | iPhone 16 Pro | 2026-03-03 |
+| 🟡 | Grand Theft Auto V | `545408A7` | 📱 iOS | Intro | 🐢 Poor | iPhone 17 | 2026-03-09 |
 | 🟡 | Halo 3 | `4D5307E6` | 📱 iOS, 🖥️ macOS | Intro | 🐢 Poor | iPhone 17 | 2026-03-08 |
 | 🟡 | Halo 3: ODST | `4D530877` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro | 2026-03-03 |
 | 🟡 | Halo 4 | `4D530919` | 📱 iOS | Intro | 👌 OK | iPhone 17 Pro Max | 2026-03-08 |
