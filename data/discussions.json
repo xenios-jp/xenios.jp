@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-09T05:38:17.919Z",
+  "generatedAt": "2026-03-09T05:45:18.144Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -655,6 +655,35 @@
             "buildNumber": "9280",
             "commitShort": "`2633e8177`"
           }
+        }
+      ]
+    },
+    "4541083B": {
+      "titleId": "4541083B",
+      "issueNumber": 124,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/124",
+      "updatedAt": "2026-03-09",
+      "entries": [
+        {
+          "id": "issue-124",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/124",
+          "author": "Hzi9a",
+          "createdAt": "2026-03-09",
+          "createdAtMs": 1773035087000,
+          "issueNumber": 124,
+          "excerpt": "The first boot up screens look laggy . The menu is fine and doesn't lag. When u enter a football match it shows a black screen but still you can access the pause menu. The game eventually crashes.",
+          "images": [
+            "https://github.com/user-attachments/assets/1c6191f6-219c-47f9-bd3c-41840cef6ec3",
+            "https://github.com/user-attachments/assets/e948930c-1b97-49ee-a4f3-39f34babdb2e",
+            "https://github.com/user-attachments/assets/410a6664-ef99-408f-839f-fc3821da189f",
+            "https://github.com/user-attachments/assets/01ae0729-7114-4427-aecd-ce96974c8d8e",
+            "https://github.com/user-attachments/assets/b2c7992e-6a32-42da-b151-d84e2f274c5e",
+            "https://github.com/user-attachments/assets/68b7f411-cd53-4c5e-ab58-2259e5664a70",
+            "https://github.com/user-attachments/assets/ba718029-51a2-4b0e-ab9d-6bc6227695d0",
+            "https://github.com/user-attachments/assets/86cdff70-1ea3-4ea4-87ac-6fbe2e68dfd8"
+          ],
+          "meta": {}
         }
       ]
     },
