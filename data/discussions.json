@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-09T12:25:40.518Z",
+  "generatedAt": "2026-03-09T12:27:10.117Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -680,6 +680,39 @@
             "device": "iPhone 13 Mini",
             "platform": "iOS",
             "osVersion": "iOS 16.6.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        }
+      ]
+    },
+    "535007D4": {
+      "titleId": "535007D4",
+      "issueNumber": 134,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/134",
+      "updatedAt": "2026-03-09",
+      "entries": [
+        {
+          "id": "issue-134",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/134",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-09",
+          "createdAtMs": 1773059205000,
+          "issueNumber": 134,
+          "excerpt": "Graphical glitch and not playable",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/535007D4/1773059200712-1.jpg"
+          ],
+          "meta": {
+            "status": "intro",
+            "perf": "poor",
+            "device": "iPhone 16 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
             "gpuBackend": "MSL",
             "buildChannel": "self-built",
             "appVersion": "1.0.0",
