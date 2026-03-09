@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-09T13:38:04.164Z",
+  "generatedAt": "2026-03-09T13:54:18.524Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -680,6 +680,37 @@
             "device": "iPhone 13 Mini",
             "platform": "iOS",
             "osVersion": "iOS 16.6.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        }
+      ]
+    },
+    "57520802": {
+      "titleId": "57520802",
+      "issueNumber": 137,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/137",
+      "updatedAt": "2026-03-09",
+      "entries": [
+        {
+          "id": "issue-137",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/137",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-09",
+          "createdAtMs": 1773064421000,
+          "issueNumber": 137,
+          "excerpt": "Intro is messed up, but loads.\n\nCrashes occasionally (upon new game, and certain heavy scene changes)\n\nSlows down occasionally, lights also visible through geometry, and models sometimes appear and disappear.",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "ok",
+            "device": "iPhone 15 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
             "gpuBackend": "MSL",
             "buildChannel": "self-built",
             "appVersion": "1.0.0",
