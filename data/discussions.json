@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-09T01:13:49.968Z",
+  "generatedAt": "2026-03-09T01:19:04.428Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -565,6 +565,39 @@
             "platform": "iOS",
             "osVersion": "iOS 18.5",
             "gpuBackend": "MSL"
+          }
+        }
+      ]
+    },
+    "4156082F": {
+      "titleId": "4156082F",
+      "issueNumber": 112,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/112",
+      "updatedAt": "2026-03-09",
+      "entries": [
+        {
+          "id": "issue-112",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/112",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-09",
+          "createdAtMs": 1773019122000,
+          "issueNumber": 112,
+          "excerpt": "FPS isn’t the highest but it’s not bad averaging 18-24 FPS on 6GB ram i13 Pro so i’m sure it plays better on A16+",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4156082F/1773019120483-1.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 13 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
           }
         }
       ]
