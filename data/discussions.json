@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-09T05:29:11.030Z",
+  "generatedAt": "2026-03-09T05:38:17.919Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -649,6 +649,37 @@
             "device": "iPhone 13 Mini",
             "platform": "iOS",
             "osVersion": "iOS 16.6.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        }
+      ]
+    },
+    "394F07D1": {
+      "titleId": "394F07D1",
+      "issueNumber": 123,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/123",
+      "updatedAt": "2026-03-09",
+      "entries": [
+        {
+          "id": "issue-123",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/123",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-09",
+          "createdAtMs": 1773034675000,
+          "issueNumber": 123,
+          "excerpt": "Runs slow.",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "poor",
+            "device": "iPhone Air",
+            "platform": "iOS",
+            "osVersion": "iOS 26.1",
             "gpuBackend": "MSL",
             "buildChannel": "self-built",
             "appVersion": "1.0.0",

@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **80 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **81 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **20** · 🔵 In-Game: **14** · 🟡 Intro: **15** · 🟠 Loads: **14** · 🔴 Doesn't Boot: **17**
+> 🟢 Playable: **20** · 🔵 In-Game: **15** · 🟡 Intro: **15** · 🟠 Loads: **14** · 🔴 Doesn't Boot: **17**
 >
-> 📱 iOS: **78** · 🖥️ macOS: **4**
+> 📱 iOS: **79** · 🖥️ macOS: **4**
 
 ## Legend
 
@@ -42,6 +42,7 @@
 | 🟢 | Title 565707D0 | `565707D0` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-03 |
 | 🔵 | Bayonetta | `53450813` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 | 2026-03-08 |
 | 🔵 | Call of Duty 2 | `415607D1` | 📱 iOS | In-Game | 👌 OK | iPhone 16 | 2026-03-09 |
+| 🔵 | Diablo III | `394F07D1` | 📱 iOS | In-Game | 🐢 Poor | iPhone Air | 2026-03-09 |
 | 🔵 | Diablo III: RoS | `394F07D4` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 | 2026-03-06 |
 | 🔵 | FIFA 16 | `454109EE` | 📱 iOS | In-Game | 👌 OK | iPhone 14 Pro Max | 2026-03-08 |
 | 🔵 | Gears of War | `4D5307D5` | 🖥️ macOS | In-Game | 👌 OK | MacBook Pro M4 Pro/Max | 2026-02-28 |
