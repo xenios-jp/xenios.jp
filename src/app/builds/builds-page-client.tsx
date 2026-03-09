@@ -1,7 +1,3 @@
-"use client";
-
-import Link from "next/link";
-import { useSearchParams } from "next/navigation";
 import { getArtifactLabel, getBuildDisplayLabel } from "@/lib/build-display";
 
 type BuildChannel = "release" | "preview";
@@ -45,6 +41,7 @@ function formatPublishedDate(value?: string): string {
     year: "numeric",
     month: "short",
     day: "numeric",
+    timeZone: "UTC",
   });
 }
 
@@ -65,14 +62,6 @@ function formatFileSize(sizeBytes?: number, sizeLabel?: string): string | null {
   return `${value.toFixed(value >= 10 || unitIndex === 0 ? 0 : 1)} ${units[unitIndex]}`;
 }
 
-function parseChannel(value: string | null): BuildChannel {
-  return value === "preview" ? "preview" : "release";
-}
-
-function buildTabHref(channel: BuildChannel): string {
-  return channel === "release" ? "/builds" : `/builds?channel=${channel}`;
-}
-
 function BuildHistoryCard({ build }: { build: BuildHistoryEntry }) {
   return (
     <article className="rounded-xl border border-border bg-bg-surface p-6">
@@ -82,9 +71,9 @@ function BuildHistoryCard({ build }: { build: BuildHistoryEntry }) {
             {build.platform === "ios" ? "iPhone / iPad" : "Mac"} •{" "}
             {getBuildChannelLabel(build.channel ?? "release")}
           </p>
-          <h2 className="mt-2 text-2xl font-bold text-text-primary">
+          <h3 className="mt-2 text-2xl font-bold text-text-primary">
             {getBuildDisplayLabel(build)}
-          </h2>
+          </h3>
           <p className="mt-2 text-sm text-text-secondary">
             Published {formatPublishedDate(build.publishedAt)}
           </p>
@@ -170,10 +159,67 @@ function BuildHistoryCard({ build }: { build: BuildHistoryEntry }) {
   );
 }
 
+function BuildHistorySection({
+  builds,
+  channel,
+}: {
+  builds: BuildHistoryEntry[];
+  channel: BuildChannel;
+}) {
+  const id = channel === "release" ? "release" : "preview";
+  const title =
+    channel === "release" ? "Release builds" : "Preview builds";
+  const description =
+    channel === "release"
+      ? "Public, supported builds with direct download links and checksums."
+      : "Experimental builds for faster testing and validation before a public release.";
+
+  return (
+    <section id={id} className="scroll-mt-24">
+      <div className="flex flex-wrap items-end justify-between gap-3">
+        <div>
+          <h2 className="text-3xl font-bold tracking-tight text-text-primary">
+            {title}
+          </h2>
+          <p className="mt-2 max-w-3xl text-[15px] leading-relaxed text-text-secondary">
+            {description}
+          </p>
+        </div>
+        <p className="text-sm text-text-muted">
+          {builds.length} {builds.length === 1 ? "build" : "builds"}
+        </p>
+      </div>
+
+      <div className="mt-6">
+        {builds.length > 0 ? (
+          <div className="flex flex-col gap-6">
+            {builds.map((build) => (
+              <BuildHistoryCard key={build.id} build={build} />
+            ))}
+          </div>
+        ) : (
+          <div className="rounded-xl border border-dashed border-border bg-bg-surface p-8">
+            <h3 className="text-2xl font-semibold text-text-primary">
+              No {channel} builds published yet
+            </h3>
+            <p className="mt-3 max-w-3xl text-[15px] leading-relaxed text-text-secondary">
+              This page reads from{" "}
+              <code className="rounded bg-bg-surface-2 px-1.5 py-0.5 font-mono text-xs">
+                data/builds-history.json
+              </code>
+              . Once that manifest is populated, versioned build history will
+              appear here automatically.
+            </p>
+          </div>
+        )}
+      </div>
+    </section>
+  );
+}
+
 export function BuildsPageClient({ builds }: { builds: BuildHistoryEntry[] }) {
-  const searchParams = useSearchParams();
-  const channel = parseChannel(searchParams.get("channel"));
-  const filteredBuilds = builds.filter((build) => build.channel === channel);
+  const releaseBuilds = builds.filter((build) => build.channel === "release");
+  const previewBuilds = builds.filter((build) => build.channel === "preview");
 
   return (
     <div className="min-h-screen bg-bg-primary">
@@ -193,49 +239,26 @@ export function BuildsPageClient({ builds }: { builds: BuildHistoryEntry[] }) {
       <section className="border-b border-border bg-bg-surface/30 px-6 py-4">
         <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-3">
           <div className="inline-flex rounded-full border border-border bg-bg-surface p-1">
-            {(["release", "preview"] as const).map((entry) => {
-              const active = entry === channel;
-              return (
-                <Link
-                  key={entry}
-                  href={buildTabHref(entry)}
-                  className={`rounded-full px-4 py-2 text-sm font-medium transition ${
-                    active
-                      ? "bg-accent text-accent-fg"
-                      : "text-text-secondary hover:text-text-primary"
-                  }`}
-                >
-                  {getBuildChannelLabel(entry)}
-                </Link>
-              );
-            })}
+            {(["release", "preview"] as const).map((entry) => (
+              <a
+                key={entry}
+                href={`#${entry}`}
+                className="rounded-full px-4 py-2 text-sm font-medium text-text-secondary transition hover:text-text-primary"
+              >
+                {getBuildChannelLabel(entry)}
+              </a>
+            ))}
           </div>
 
           <p className="text-sm text-text-muted">
-            {filteredBuilds.length} {filteredBuilds.length === 1 ? "build" : "builds"} in this view
+            {builds.length} total {builds.length === 1 ? "build" : "builds"} tracked
           </p>
         </div>
       </section>
 
-      <div className="mx-auto max-w-6xl px-6 py-10">
-        {filteredBuilds.length > 0 ? (
-          <div className="flex flex-col gap-6">
-            {filteredBuilds.map((build) => (
-              <BuildHistoryCard key={build.id} build={build} />
-            ))}
-          </div>
-        ) : (
-          <div className="rounded-xl border border-dashed border-border bg-bg-surface p-8">
-            <h2 className="text-2xl font-semibold text-text-primary">
-              No {getBuildChannelLabel(channel).toLowerCase()} builds published yet
-            </h2>
-            <p className="mt-3 max-w-3xl text-[15px] leading-relaxed text-text-secondary">
-              This page reads from <code className="rounded bg-bg-surface-2 px-1.5 py-0.5 font-mono text-xs">data/builds-history.json</code>.
-              Once that manifest is populated, versioned release and preview history will show up
-              here automatically.
-            </p>
-          </div>
-        )}
+      <div className="mx-auto max-w-6xl space-y-12 px-6 py-10">
+        <BuildHistorySection builds={releaseBuilds} channel="release" />
+        <BuildHistorySection builds={previewBuilds} channel="preview" />
       </div>
     </div>
   );
