@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **68 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **69 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **19** · 🔵 In-Game: **13** · 🟡 Intro: **12** · 🟠 Loads: **9** · 🔴 Doesn't Boot: **15**
+> 🟢 Playable: **19** · 🔵 In-Game: **13** · 🟡 Intro: **12** · 🟠 Loads: **9** · 🔴 Doesn't Boot: **16**
 >
-> 📱 iOS: **66** · 🖥️ macOS: **4**
+> 📱 iOS: **67** · 🖥️ macOS: **4**
 
 ## Legend
 
@@ -74,6 +74,7 @@
 | 🟠 | Sonic Transformed | `5345085D` | 📱 iOS | Loads | 🐢 Poor | iPhone 16 Pro | 2026-03-05 |
 | 🟠 | The Orange Box | `4541080F` | 📱 iOS | Loads | 🐢 Poor | iPhone 17 Pro Max | 2026-03-08 |
 | 🔴 | [Prototype]™ | `4156084E` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 12 Pro Max | 2026-03-08 |
+| 🔴 | DBZ: BURST LIMIT | `424107DC` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro Max | 2026-03-09 |
 | 🔴 | Fable II | `4D5307F1` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro Max | 2026-03-08 |
 | 🔴 | Fable III | `4D5308D6` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro Max | 2026-03-08 |
 | 🔴 | FH2: Fast & Furious | `4D530AB5` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad 10th Gen | 2026-03-08 |

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-09T00:37:00.085Z",
+  "generatedAt": "2026-03-09T00:39:34.563Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -565,6 +565,37 @@
             "platform": "iOS",
             "osVersion": "iOS 18.5",
             "gpuBackend": "MSL"
+          }
+        }
+      ]
+    },
+    "424107DC": {
+      "titleId": "424107DC",
+      "issueNumber": 107,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/107",
+      "updatedAt": "2026-03-09",
+      "entries": [
+        {
+          "id": "issue-107",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/107",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-09",
+          "createdAtMs": 1773016749000,
+          "issueNumber": 107,
+          "excerpt": "Stuck on cyan/black screen when trying to boot",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 16 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.2",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
           }
         }
       ]
