@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-10T21:00:22.979Z",
+  "generatedAt": "2026-03-10T21:13:31.983Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2770,8 +2770,33 @@
       "titleId": "4B4E080A",
       "issueNumber": 104,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/104",
-      "updatedAt": "2026-03-09",
+      "updatedAt": "2026-03-10",
       "entries": [
+        {
+          "id": "comment-4034509620",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/104#issuecomment-4034509620",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-10",
+          "createdAtMs": 1773177164000,
+          "issueNumber": 104,
+          "excerpt": "Gameplay runs great some audio issues during heavy gameplay and for sure no sound during cutscenes as well as graphical glitches during cutscenes. Running at 30FPS",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4B4E080A/1773177160507-1.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.0.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        },
         {
           "id": "issue-104",
           "type": "issue",
