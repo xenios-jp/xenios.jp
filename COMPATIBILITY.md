@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **105 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **106 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **31** · 🔵 In-Game: **22** · 🟡 Intro: **17** · 🟠 Loads: **18** · 🔴 Doesn't Boot: **17**
+> 🟢 Playable: **32** · 🔵 In-Game: **22** · 🟡 Intro: **17** · 🟠 Loads: **18** · 🔴 Doesn't Boot: **17**
 >
-> 📱 iOS: **103** · 🖥️ macOS: **5**
+> 📱 iOS: **104** · 🖥️ macOS: **5**
 
 ## Legend
 
@@ -23,6 +23,7 @@
 | 🟢 | Alan Wake | `4D530805` | 📱 iOS | Playable | 🐢 Poor | iPad 11th Gen | 2026-03-09 |
 | 🟢 | Angry Birds Trilogy | `415608E4` | 📱 iOS | Playable | 🚀 Great | iPad 11th Gen | 2026-03-09 |
 | 🟢 | Banjo Kazooie: Nuts & Bolts | `4D5307ED` | 📱 iOS | Playable | 🐢 Poor | iPhone 15 Pro Max | 2026-03-08 |
+| 🟢 | BattleBlock Theater | `58410A30` | 📱 iOS | Playable | 🚀 Great | iPhone 13 | 2026-03-10 |
 | 🟢 | BioShock | `545407D8` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-08 |
 | 🟢 | Call of Duty 4 | `415607E6` | 📱 iOS | Playable | 🚀 Great | iPhone 15 Pro | 2026-03-10 |
 | 🟢 | DB: Raging Blast 2 | `4E4D0826` | 📱 iOS | Playable | 🐢 Poor | iPad Pro (M2) | 2026-03-03 |

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-10T17:14:05.425Z",
+  "generatedAt": "2026-03-10T17:30:06.050Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -754,6 +754,41 @@
             "device": "iPhone 15 Pro Max",
             "platform": "iOS",
             "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        }
+      ]
+    },
+    "58410A30": {
+      "titleId": "58410A30",
+      "issueNumber": 171,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/171",
+      "updatedAt": "2026-03-10",
+      "entries": [
+        {
+          "id": "issue-171",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/171",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-10",
+          "createdAtMs": 1773163777000,
+          "issueNumber": 171,
+          "excerpt": "Main menu and cutscenes have major graphical issues. Gameplay runs smooth without issue.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/58410A30/1773163773326-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/58410A30/1773163773326-2.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/58410A30/1773163773326-3.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 13",
+            "platform": "iOS",
+            "osVersion": "iOS 18.0.1",
             "gpuBackend": "MSL",
             "buildChannel": "self-built",
             "appVersion": "1.0.0",
