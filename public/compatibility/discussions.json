@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-10T21:25:53.312Z",
+  "generatedAt": "2026-03-10T21:56:04.480Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -754,6 +754,40 @@
             "device": "iPhone 16e",
             "platform": "iOS",
             "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        }
+      ]
+    },
+    "55530810": {
+      "titleId": "55530810",
+      "issueNumber": 182,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/182",
+      "updatedAt": "2026-03-10",
+      "entries": [
+        {
+          "id": "issue-182",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/182",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-10",
+          "createdAtMs": 1773179734000,
+          "issueNumber": 182,
+          "excerpt": "Had to try opening the game a couple of times since it would always be stuck at an infinite loading screen, but there are almost no graphical issues once all shaders are properly rendered.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/55530810/1773179728631-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/55530810/1773179728631-2.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "poor",
+            "device": "iPhone 16",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
             "gpuBackend": "MSL",
             "buildChannel": "self-built",
             "appVersion": "1.0.0",
