@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-10T12:34:14.731Z",
+  "generatedAt": "2026-03-10T13:04:00.486Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -748,6 +748,26 @@
             "buildNumber": "9280",
             "commitShort": "`2633e8177`"
           }
+        }
+      ]
+    },
+    "4B4E085C": {
+      "titleId": "4B4E085C",
+      "issueNumber": 166,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/166",
+      "updatedAt": "2026-03-10",
+      "entries": [
+        {
+          "id": "issue-166",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/166",
+          "author": "vorosvskoyaylem",
+          "createdAt": "2026-03-10",
+          "createdAtMs": 1773147802000,
+          "issueNumber": 166,
+          "excerpt": "lights are missing text is bugged",
+          "images": [],
+          "meta": {}
         }
       ]
     },
