@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-10T17:30:06.050Z",
+  "generatedAt": "2026-03-10T17:46:00.780Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -754,6 +754,39 @@
             "device": "iPhone 15 Pro Max",
             "platform": "iOS",
             "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        }
+      ]
+    },
+    "5841121D": {
+      "titleId": "5841121D",
+      "issueNumber": 172,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/172",
+      "updatedAt": "2026-03-10",
+      "entries": [
+        {
+          "id": "issue-172",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/172",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-10",
+          "createdAtMs": 1773164728000,
+          "issueNumber": 172,
+          "excerpt": "Sometimes the game will freeze before you can even access the menu. Once you do get in-game the FPS and speed is too low for an enjoyable experience.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/5841121D/1773164725590-1.jpg"
+          ],
+          "meta": {
+            "status": "ingame",
+            "perf": "poor",
+            "device": "iPhone 13",
+            "platform": "iOS",
+            "osVersion": "iOS 18.0.1",
             "gpuBackend": "MSL",
             "buildChannel": "self-built",
             "appVersion": "1.0.0",
