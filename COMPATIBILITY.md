@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **102 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **103 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **29** · 🔵 In-Game: **22** · 🟡 Intro: **16** · 🟠 Loads: **18** · 🔴 Doesn't Boot: **17**
+> 🟢 Playable: **29** · 🔵 In-Game: **22** · 🟡 Intro: **17** · 🟠 Loads: **18** · 🔴 Doesn't Boot: **17**
 >
-> 📱 iOS: **100** · 🖥️ macOS: **5**
+> 📱 iOS: **101** · 🖥️ macOS: **5**
 
 ## Legend
 
@@ -78,6 +78,7 @@
 | 🟡 | DEAD RISING | `434307D2` | 📱 iOS | Intro | 👌 OK | iPad (11th gen) | 2026-03-04 |
 | 🟡 | Divinity II - DKS | `464507D6` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro Max | 2026-03-09 |
 | 🟡 | DOOM 3 BFG Edition | `425307F1` | 📱 iOS | Intro | 🚀 Great | iPhone 16 Pro | 2026-03-03 |
+| 🟡 | Fallout: New Vegas | `425307E0` | 📱 iOS | Intro | 🐢 Poor | iPhone 13 | 2026-03-10 |
 | 🟡 | Grand Theft Auto V | `545408A7` | 📱 iOS | Intro | 🐢 Poor | iPhone 17 | 2026-03-09 |
 | 🟡 | Halo 3: ODST | `4D530877` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro | 2026-03-03 |
 | 🟡 | Halo 4 | `4D530919` | 📱 iOS | Intro | 👌 OK | iPhone 17 Pro Max | 2026-03-08 |

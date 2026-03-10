@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-10T14:09:03.058Z",
+  "generatedAt": "2026-03-10T14:36:13.593Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -760,6 +760,61 @@
             "buildNumber": "9280",
             "commitShort": "`2633e8177`"
           }
+        }
+      ]
+    },
+    "425307E0": {
+      "titleId": "425307E0",
+      "issueNumber": 168,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/168",
+      "updatedAt": "2026-03-10",
+      "entries": [
+        {
+          "id": "issue-168",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/168",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-10",
+          "createdAtMs": 1773153337000,
+          "issueNumber": 168,
+          "excerpt": "Loads only to menu but froze when trying to create save",
+          "images": [],
+          "meta": {
+            "status": "intro",
+            "perf": "poor",
+            "device": "iPhone 13",
+            "platform": "iOS",
+            "osVersion": "iOS 26.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        },
+        {
+          "id": "comment-4019794445",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/56#issuecomment-4019794445",
+          "author": "daisuke1227",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1772996757000,
+          "issueNumber": 56,
+          "excerpt": "try relaunching a couple of times and see if that fixes it",
+          "images": [],
+          "meta": {}
+        },
+        {
+          "id": "issue-56",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/56",
+          "author": "randomname2077",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1772995869000,
+          "issueNumber": 56,
+          "excerpt": "the game just insta crashes no matter what you do. this appears to be an issue that extends to iOS/iPadOS 17 at large, not particularly tied to this specific game.",
+          "images": [],
+          "meta": {}
         }
       ]
     },
@@ -3136,38 +3191,6 @@
             "buildNumber": "9280",
             "commitShort": "`2633e8177`"
           }
-        }
-      ]
-    },
-    "425307E0": {
-      "titleId": "425307E0",
-      "issueNumber": 56,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/56",
-      "updatedAt": "2026-03-08",
-      "entries": [
-        {
-          "id": "comment-4019794445",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/56#issuecomment-4019794445",
-          "author": "daisuke1227",
-          "createdAt": "2026-03-08",
-          "createdAtMs": 1772996757000,
-          "issueNumber": 56,
-          "excerpt": "try relaunching a couple of times and see if that fixes it",
-          "images": [],
-          "meta": {}
-        },
-        {
-          "id": "issue-56",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/56",
-          "author": "randomname2077",
-          "createdAt": "2026-03-08",
-          "createdAtMs": 1772995869000,
-          "issueNumber": 56,
-          "excerpt": "the game just insta crashes no matter what you do. this appears to be an issue that extends to iOS/iPadOS 17 at large, not particularly tied to this specific game.",
-          "images": [],
-          "meta": {}
         }
       ]
     },
