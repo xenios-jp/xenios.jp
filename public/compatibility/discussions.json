@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-10T13:13:44.297Z",
+  "generatedAt": "2026-03-10T14:09:03.058Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -266,8 +266,20 @@
       "titleId": "45410822",
       "issueNumber": 102,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/102",
-      "updatedAt": "2026-03-08",
+      "updatedAt": "2026-03-10",
       "entries": [
+        {
+          "id": "comment-4031653899",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/102#issuecomment-4031653899",
+          "author": "tOSdude",
+          "createdAt": "2026-03-10",
+          "createdAtMs": 1773151666000,
+          "issueNumber": 102,
+          "excerpt": "Gameplay averages 15 FPS if you keep the phone cool, closer to 20 fps in drag races (due to smaller map and fewer cpu cars)",
+          "images": [],
+          "meta": {}
+        },
         {
           "id": "issue-102",
           "type": "issue",
