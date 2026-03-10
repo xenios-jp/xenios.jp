@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-10T20:25:14.187Z",
+  "generatedAt": "2026-03-10T20:29:51.185Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -785,6 +785,39 @@
             "device": "iPhone 15 Pro Max",
             "platform": "iOS",
             "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        }
+      ]
+    },
+    "454108C1": {
+      "titleId": "454108C1",
+      "issueNumber": 179,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/179",
+      "updatedAt": "2026-03-10",
+      "entries": [
+        {
+          "id": "issue-179",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/179",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-10",
+          "createdAtMs": 1773174559000,
+          "issueNumber": 179,
+          "excerpt": "FPS is bad and player models don’t load",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454108C1/1773174556883-1.jpg"
+          ],
+          "meta": {
+            "status": "ingame",
+            "perf": "poor",
+            "device": "iPhone 16e",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
             "gpuBackend": "MSL",
             "buildChannel": "self-built",
             "appVersion": "1.0.0",
