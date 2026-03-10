@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **108 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **109 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **32** · 🔵 In-Game: **23** · 🟡 Intro: **17** · 🟠 Loads: **18** · 🔴 Doesn't Boot: **18**
+> 🟢 Playable: **32** · 🔵 In-Game: **24** · 🟡 Intro: **17** · 🟠 Loads: **18** · 🔴 Doesn't Boot: **18**
 >
-> 📱 iOS: **106** · 🖥️ macOS: **5**
+> 📱 iOS: **107** · 🖥️ macOS: **5**
 
 ## Legend
 
@@ -71,6 +71,7 @@
 | 🔵 | PES 2013/WE 2013 | `4B4E084C` | 📱 iOS | In-Game | 👌 OK | iPhone 14 | 2026-03-09 |
 | 🔵 | PES 2016 | `4B4E0861` | 📱 iOS | In-Game | 👌 OK | iPhone 14 | 2026-03-09 |
 | 🔵 | Pinball Arcade | `5841121D` | 📱 iOS | In-Game | 🐢 Poor | iPhone 13 | 2026-03-10 |
+| 🔵 | Saints Row | `545107D1` | 📱 iOS | In-Game | 👌 OK | iPhone 16 | 2026-03-10 |
 | 🔵 | Saints Row 2 | `545107FC` | 📱 iOS | In-Game | 🐢 Poor | iPhone 14 Pro Max | 2026-03-08 |
 | 🔵 | skate. | `45410813` | 📱 iOS | In-Game | 🐢 Poor | iPad Pro (M2) | 2026-03-03 |
 | 🔵 | SONIC UNLEASHED | `53450812` | 📱 iOS | In-Game | 👌 OK | iPhone 17 | 2026-03-06 |

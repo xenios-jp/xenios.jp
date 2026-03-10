@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-10T19:40:36.918Z",
+  "generatedAt": "2026-03-10T19:46:24.174Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -763,12 +763,85 @@
         }
       ]
     },
+    "545107D1": {
+      "titleId": "545107D1",
+      "issueNumber": 174,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/174",
+      "updatedAt": "2026-03-10",
+      "entries": [
+        {
+          "id": "issue-174",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/174",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-10",
+          "createdAtMs": 1773171898000,
+          "issueNumber": 174,
+          "excerpt": "Managed to get into the game in the fifth attempt; first tries were stuck at an infinite loading screen.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545107D1/1773171890346-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545107D1/1773171890346-2.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545107D1/1773171890346-3.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545107D1/1773171890346-4.jpg"
+          ],
+          "meta": {
+            "status": "ingame",
+            "perf": "ok",
+            "device": "iPhone 16",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        },
+        {
+          "id": "issue-161",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/161",
+          "author": "tracylovesu",
+          "createdAt": "2026-03-10",
+          "createdAtMs": 1773106004000,
+          "issueNumber": 161,
+          "excerpt": "Game start & gets through intro screens & lets you access the menu (the menu has music but for some reason it doesn't play on this emulator.) but infinitely loads when trying to start a new game.",
+          "images": [],
+          "meta": {}
+        }
+      ]
+    },
     "5454087A": {
       "titleId": "5454087A",
       "issueNumber": 173,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/173",
       "updatedAt": "2026-03-10",
       "entries": [
+        {
+          "id": "comment-4033998736",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/173#issuecomment-4033998736",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-10",
+          "createdAtMs": 1773171915000,
+          "issueNumber": 173,
+          "excerpt": "It gets to the NBA Credit screen but doesn’t get past it",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/5454087A/1773171913110-1.jpg"
+          ],
+          "meta": {
+            "status": "loads",
+            "perf": "poor",
+            "device": "iPhone 16e",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        },
         {
           "id": "issue-173",
           "type": "issue",
@@ -1096,26 +1169,6 @@
             "buildNumber": "9280",
             "commitShort": "`2633e8177`"
           }
-        }
-      ]
-    },
-    "545107D1": {
-      "titleId": "545107D1",
-      "issueNumber": 161,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/161",
-      "updatedAt": "2026-03-10",
-      "entries": [
-        {
-          "id": "issue-161",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/161",
-          "author": "tracylovesu",
-          "createdAt": "2026-03-10",
-          "createdAtMs": 1773106004000,
-          "issueNumber": 161,
-          "excerpt": "Game start & gets through intro screens & lets you access the menu (the menu has music but for some reason it doesn't play on this emulator.) but infinitely loads when trying to start a new game.",
-          "images": [],
-          "meta": {}
         }
       ]
     },
