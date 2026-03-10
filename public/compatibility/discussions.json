@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-10T19:56:57.609Z",
+  "generatedAt": "2026-03-10T20:08:04.137Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -848,6 +848,29 @@
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/173",
       "updatedAt": "2026-03-10",
       "entries": [
+        {
+          "id": "comment-4034128567",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/173#issuecomment-4034128567",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-10",
+          "createdAtMs": 1773173236000,
+          "issueNumber": 173,
+          "excerpt": "Right before the first game loads in after u press start the game crashes",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "ok",
+            "device": "iPhone 16e",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        },
         {
           "id": "comment-4033998736",
           "type": "comment",
