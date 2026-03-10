@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-10T13:06:31.096Z",
+  "generatedAt": "2026-03-10T13:13:44.297Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -748,6 +748,29 @@
             "buildNumber": "9280",
             "commitShort": "`2633e8177`"
           }
+        }
+      ]
+    },
+    "415607E2": {
+      "titleId": "415607E2",
+      "issueNumber": 167,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/167",
+      "updatedAt": "2026-03-10",
+      "entries": [
+        {
+          "id": "issue-167",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/167",
+          "author": "heysehaven",
+          "createdAt": "2026-03-10",
+          "createdAtMs": 1773148379000,
+          "issueNumber": 167,
+          "excerpt": "Game’s menu had some weird graphical issues but in game graphics are rendering perfectly fine",
+          "images": [
+            "https://github.com/user-attachments/assets/8bf6f562-d7e4-43cc-b3e8-e6fb0bd2b9e1",
+            "https://github.com/user-attachments/assets/024c23e1-1094-483c-b834-bcc6fec98be7"
+          ],
+          "meta": {}
         }
       ]
     },
