@@ -4881,8 +4881,8 @@
     "slug": "fallout-new-vegas",
     "title": "Fallout: New Vegas",
     "titleId": "425307E0",
-    "status": "intro",
-    "perf": "poor",
+    "status": "ingame",
+    "perf": "ok",
     "tags": [],
     "platforms": [
       "ios"
@@ -4895,8 +4895,29 @@
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-03-10",
-    "notes": "Loads only to menu but froze when trying to create save",
+    "notes": "Performance is ok game loads with few texture issues but not playable due to glitch when falling trough ground",
     "reports": [
+      {
+        "device": "iPhone 13",
+        "platform": "ios",
+        "osVersion": "26.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "ok",
+        "date": "2026-03-10",
+        "notes": "Performance is ok game loads with few texture issues but not playable due to glitch when falling trough ground",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "stage": "stable",
+          "commitShort": "2633e8177",
+          "buildId": "ios-self-built-1.0.0-9280"
+        }
+      },
       {
         "device": "iPhone 13",
         "platform": "ios",
@@ -4944,29 +4965,30 @@
       },
       "all": {
         "channel": "all",
-        "status": "intro",
-        "perf": "poor",
-        "notes": "Loads only to menu but froze when trying to create save",
+        "status": "ingame",
+        "perf": "ok",
+        "notes": "Performance is ok game loads with few texture issues but not playable due to glitch when falling trough ground",
         "updatedAt": "2026-03-10",
-        "reportCount": 1,
+        "reportCount": 2,
         "latestReport": {
           "device": "iPhone 13",
           "platform": "ios",
           "osVersion": "26.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "poor",
+          "status": "ingame",
+          "perf": "ok",
           "date": "2026-03-10",
-          "notes": "Loads only to menu but froze when trying to create save",
+          "notes": "Performance is ok game loads with few texture issues but not playable due to glitch when falling trough ground",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "commitShort": "2633e8177"
+            "stage": "stable",
+            "commitShort": "2633e8177",
+            "buildId": "ios-self-built-1.0.0-9280"
           }
         },
         "bestReport": {
@@ -4975,18 +4997,19 @@
           "osVersion": "26.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "poor",
+          "status": "ingame",
+          "perf": "ok",
           "date": "2026-03-10",
-          "notes": "Loads only to menu but froze when trying to create save",
+          "notes": "Performance is ok game loads with few texture issues but not playable due to glitch when falling trough ground",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "commitShort": "2633e8177"
+            "stage": "stable",
+            "commitShort": "2633e8177",
+            "buildId": "ios-self-built-1.0.0-9280"
           }
         }
       }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-10T22:29:50.071Z",
+  "generatedAt": "2026-03-10T22:47:46.512Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1314,6 +1314,29 @@
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/168",
       "updatedAt": "2026-03-10",
       "entries": [
+        {
+          "id": "comment-4034948293",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/168#issuecomment-4034948293",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-10",
+          "createdAtMs": 1773182815000,
+          "issueNumber": 168,
+          "excerpt": "Performance is ok game loads with few texture issues but not playable due to glitch when falling trough ground",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "ok",
+            "device": "iPhone 13",
+            "platform": "iOS",
+            "osVersion": "iOS 26.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        },
         {
           "id": "issue-168",
           "type": "issue",

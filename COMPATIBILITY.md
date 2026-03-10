@@ -2,7 +2,7 @@
 
 > **117 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **35** · 🔵 In-Game: **29** · 🟡 Intro: **17** · 🟠 Loads: **18** · 🔴 Doesn't Boot: **18**
+> 🟢 Playable: **35** · 🔵 In-Game: **30** · 🟡 Intro: **16** · 🟠 Loads: **18** · 🔴 Doesn't Boot: **18**
 >
 > 📱 iOS: **115** · 🖥️ macOS: **5**
 
@@ -63,6 +63,7 @@
 | 🔵 | EA SPORTS FN 3 | `454107DE` | 📱 iOS | In-Game | 🐢 Poor | iPhone 16e | 2026-03-10 |
 | 🔵 | Fable Anniversary | `4D530A87` | 📱 iOS | In-Game | 🐢 Poor | iPhone 16 Pro Max | 2026-03-09 |
 | 🔵 | Fable III | `4D5308D6` | 📱 iOS | In-Game | 🐢 Poor | iPhone 15 Pro Max | 2026-03-09 |
+| 🔵 | Fallout: New Vegas | `425307E0` | 📱 iOS | In-Game | 👌 OK | iPhone 13 | 2026-03-10 |
 | 🔵 | Far Cry® 3 | `5553088C` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro | 2026-03-09 |
 | 🔵 | FIFA 16 | `454109EE` | 📱 iOS | In-Game | 👌 OK | iPhone 14 Pro Max | 2026-03-08 |
 | 🔵 | Forza Horizon | `4D5309C9` | 🖥️ macOS, 📱 iOS | In-Game | 🐢 Poor | Macbook Air M1 | 2026-03-10 |
@@ -91,7 +92,6 @@
 | 🟡 | DEAD RISING | `434307D2` | 📱 iOS | Intro | 👌 OK | iPad (11th gen) | 2026-03-04 |
 | 🟡 | Divinity II - DKS | `464507D6` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro Max | 2026-03-09 |
 | 🟡 | DOOM 3 BFG Edition | `425307F1` | 📱 iOS | Intro | 🚀 Great | iPhone 16 Pro | 2026-03-03 |
-| 🟡 | Fallout: New Vegas | `425307E0` | 📱 iOS | Intro | 🐢 Poor | iPhone 13 | 2026-03-10 |
 | 🟡 | Grand Theft Auto V | `545408A7` | 📱 iOS | Intro | 🐢 Poor | iPhone 17 | 2026-03-09 |
 | 🟡 | Halo 3: ODST | `4D530877` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro | 2026-03-03 |
 | 🟡 | Halo 4 | `4D530919` | 📱 iOS | Intro | 🐢 Poor | iPad Pro 12.9 inch 6th Gen | 2026-03-10 |
