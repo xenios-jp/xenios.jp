@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **104 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **105 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **30** · 🔵 In-Game: **22** · 🟡 Intro: **17** · 🟠 Loads: **18** · 🔴 Doesn't Boot: **17**
+> 🟢 Playable: **31** · 🔵 In-Game: **22** · 🟡 Intro: **17** · 🟠 Loads: **18** · 🔴 Doesn't Boot: **17**
 >
-> 📱 iOS: **102** · 🖥️ macOS: **5**
+> 📱 iOS: **103** · 🖥️ macOS: **5**
 
 ## Legend
 
@@ -31,6 +31,7 @@
 | 🟢 | DEADLY PREMONITION | `494F07D4` | 📱 iOS | Playable | 👌 OK | iPad 11th Gen | 2026-03-09 |
 | 🟢 | DOA5 Ultimate | `4B5607E8` | 📱 iOS | Playable | 👌 OK | iPhone 13 | 2026-03-10 |
 | 🟢 | FINAL FANTASY XIII | `535107E4` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-03 |
+| 🟢 | Geometry Wars Evolved | `584107ED` | 📱 iOS | Playable | 🚀 Great | iPhone 13 | 2026-03-10 |
 | 🟢 | GTA IV | `545407F2` | 📱 iOS | Playable | 🐢 Poor | iPhone 15 Pro | 2026-03-09 |
 | 🟢 | Guacamelee | `00000000` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-03 |
 | 🟢 | Halo: CE Anniversary | `4D5309B1` | 📱 iOS | Playable | 🚀 Great | iPhone 15 Pro Max | 2026-03-08 |

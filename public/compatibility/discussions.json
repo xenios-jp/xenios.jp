@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-10T15:14:41.902Z",
+  "generatedAt": "2026-03-10T17:14:05.425Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -754,6 +754,39 @@
             "device": "iPhone 15 Pro Max",
             "platform": "iOS",
             "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        }
+      ]
+    },
+    "584107ED": {
+      "titleId": "584107ED",
+      "issueNumber": 170,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/170",
+      "updatedAt": "2026-03-10",
+      "entries": [
+        {
+          "id": "issue-170",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/170",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-10",
+          "createdAtMs": 1773162815000,
+          "issueNumber": 170,
+          "excerpt": "Runs great, rock solid at 57FPS. On each launch the game will freeze for a few seconds around the start of the evolved mode, but runs smooth for the rest of the session.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584107ED/1773162812686-1.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 13",
+            "platform": "iOS",
+            "osVersion": "iOS 18.0.1",
             "gpuBackend": "MSL",
             "buildChannel": "self-built",
             "appVersion": "1.0.0",
