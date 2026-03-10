@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **107 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **108 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **32** · 🔵 In-Game: **23** · 🟡 Intro: **17** · 🟠 Loads: **18** · 🔴 Doesn't Boot: **17**
+> 🟢 Playable: **32** · 🔵 In-Game: **23** · 🟡 Intro: **17** · 🟠 Loads: **18** · 🔴 Doesn't Boot: **18**
 >
-> 📱 iOS: **105** · 🖥️ macOS: **5**
+> 📱 iOS: **106** · 🖥️ macOS: **5**
 
 ## Legend
 
@@ -85,7 +85,7 @@
 | 🟡 | Fallout: New Vegas | `425307E0` | 📱 iOS | Intro | 🐢 Poor | iPhone 13 | 2026-03-10 |
 | 🟡 | Grand Theft Auto V | `545408A7` | 📱 iOS | Intro | 🐢 Poor | iPhone 17 | 2026-03-09 |
 | 🟡 | Halo 3: ODST | `4D530877` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro | 2026-03-03 |
-| 🟡 | Halo 4 | `4D530919` | 📱 iOS | Intro | 👌 OK | iPhone 17 Pro Max | 2026-03-08 |
+| 🟡 | Halo 4 | `4D530919` | 📱 iOS | Intro | 🐢 Poor | iPad Pro 12.9 inch 6th Gen | 2026-03-10 |
 | 🟡 | Halo Wars | `4D530808` | 📱 iOS | Intro | 👌 OK | iPhone 17 | 2026-03-03 |
 | 🟡 | NFS: Most Wanted | `45410961` | 📱 iOS | Intro | 🐢 Poor | iPhone 15 Pro Max | 2026-03-08 |
 | 🟡 | Oblivion | `425307D1` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro Max | 2026-03-08 |
@@ -127,6 +127,7 @@
 | 🔴 | Star Ocean: TLH | `535107DD` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-03 |
 | 🔴 | TEKKEN 6 | `4E4D07FC` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-03 |
 | 🔴 | The Godfather™ | `454107E9` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-09 |
+| 🔴 | Title 5454087A | `5454087A` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16e | 2026-03-10 |
 
 ---
 

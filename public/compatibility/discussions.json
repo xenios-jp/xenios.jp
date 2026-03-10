@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-10T19:29:29.110Z",
+  "generatedAt": "2026-03-10T19:40:36.918Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -754,6 +754,37 @@
             "device": "iPhone 15 Pro Max",
             "platform": "iOS",
             "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        }
+      ]
+    },
+    "5454087A": {
+      "titleId": "5454087A",
+      "issueNumber": 173,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/173",
+      "updatedAt": "2026-03-10",
+      "entries": [
+        {
+          "id": "issue-173",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/173",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-10",
+          "createdAtMs": 1773171605000,
+          "issueNumber": 173,
+          "excerpt": "Black Screen",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 16e",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
             "gpuBackend": "MSL",
             "buildChannel": "self-built",
             "appVersion": "1.0.0",

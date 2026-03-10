@@ -6795,21 +6795,41 @@
     "title": "Halo 4",
     "titleId": "4D530919",
     "status": "intro",
-    "perf": "ok",
+    "perf": "poor",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 17 Pro Max",
+      "device": "iPad Pro 12.9 inch 6th Gen",
       "platform": "ios",
-      "osVersion": "26.3.1",
+      "osVersion": "18.7.2",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-08",
-    "notes": "Can make it through the menu, but that’s it",
+    "updatedAt": "2026-03-10",
+    "notes": "After those images just black screen, sadly",
     "reports": [
+      {
+        "device": "iPad Pro 12.9 inch 6th Gen",
+        "platform": "ios",
+        "osVersion": "18.7.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "intro",
+        "perf": "poor",
+        "date": "2026-03-10",
+        "notes": "After those images just black screen, sadly",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.0-9280",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "commitShort": "2633e8177"
+        }
+      },
       {
         "device": "iPhone 17 Pro Max",
         "platform": "ios",
@@ -6831,7 +6851,10 @@
         }
       }
     ],
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4D530919/1773170910839-1.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4D530919/1773170910839-2.jpg"
+    ],
     "issueNumber": 57,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/57",
     "summaries": {
@@ -6858,20 +6881,20 @@
       "all": {
         "channel": "all",
         "status": "intro",
-        "perf": "ok",
-        "notes": "Can make it through the menu, but that’s it",
-        "updatedAt": "2026-03-08",
-        "reportCount": 1,
+        "perf": "poor",
+        "notes": "After those images just black screen, sadly",
+        "updatedAt": "2026-03-10",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 17 Pro Max",
+          "device": "iPad Pro 12.9 inch 6th Gen",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "18.7.2",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "intro",
-          "perf": "ok",
-          "date": "2026-03-08",
-          "notes": "Can make it through the menu, but that’s it",
+          "perf": "poor",
+          "date": "2026-03-10",
+          "notes": "After those images just black screen, sadly",
           "source": "app",
           "build": {
             "buildId": "ios-self-built-1.0.0-9280",
@@ -6883,15 +6906,15 @@
           }
         },
         "bestReport": {
-          "device": "iPhone 17 Pro Max",
+          "device": "iPad Pro 12.9 inch 6th Gen",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "18.7.2",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "intro",
-          "perf": "ok",
-          "date": "2026-03-08",
-          "notes": "Can make it through the menu, but that’s it",
+          "perf": "poor",
+          "date": "2026-03-10",
+          "notes": "After those images just black screen, sadly",
           "source": "app",
           "build": {
             "buildId": "ios-self-built-1.0.0-9280",
@@ -13198,5 +13221,123 @@
         }
       }
     }
+  },
+  {
+    "slug": "title-5454087a",
+    "title": "Title 5454087A",
+    "titleId": "5454087A",
+    "status": "nothing",
+    "perf": "n/a",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 16e",
+      "platform": "ios",
+      "osVersion": "26.3.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-10",
+    "notes": "Black Screen",
+    "reports": [
+      {
+        "device": "iPhone 16e",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-03-10",
+        "notes": "Black Screen",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "stage": "stable",
+          "commitShort": "2633e8177",
+          "buildId": "ios-self-built-1.0.0-9280"
+        }
+      }
+    ],
+    "screenshots": [],
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "nothing",
+        "perf": "n/a",
+        "notes": "Black Screen",
+        "updatedAt": "2026-03-10",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 16e",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-03-10",
+          "notes": "Black Screen",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "stage": "stable",
+            "commitShort": "2633e8177",
+            "buildId": "ios-self-built-1.0.0-9280"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 16e",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-03-10",
+          "notes": "Black Screen",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "stage": "stable",
+            "commitShort": "2633e8177",
+            "buildId": "ios-self-built-1.0.0-9280"
+          }
+        }
+      }
+    },
+    "issueNumber": 173,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/173"
   }
 ]
