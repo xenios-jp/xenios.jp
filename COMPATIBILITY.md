@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **114 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **115 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **33** · 🔵 In-Game: **28** · 🟡 Intro: **17** · 🟠 Loads: **18** · 🔴 Doesn't Boot: **18**
+> 🟢 Playable: **34** · 🔵 In-Game: **28** · 🟡 Intro: **17** · 🟠 Loads: **18** · 🔴 Doesn't Boot: **18**
 >
-> 📱 iOS: **112** · 🖥️ macOS: **5**
+> 📱 iOS: **113** · 🖥️ macOS: **5**
 
 ## Legend
 
@@ -20,6 +20,7 @@
 
 | | Title | Title ID | Platform | Status | Perf | Last Device | Updated |
 |-|-------|----------|----------|--------|------|-------------|---------|
+| 🟢 | 50 Cent: BotS | `5451083B` | 📱 iOS | Playable | 👌 OK | iPhone 16e | 2026-03-10 |
 | 🟢 | Alan Wake | `4D530805` | 📱 iOS | Playable | 🐢 Poor | iPad 11th Gen | 2026-03-09 |
 | 🟢 | Angry Birds Trilogy | `415608E4` | 📱 iOS | Playable | 🚀 Great | iPad 11th Gen | 2026-03-09 |
 | 🟢 | Banjo Kazooie: Nuts & Bolts | `4D5307ED` | 📱 iOS | Playable | 🐢 Poor | iPhone 15 Pro Max | 2026-03-08 |
