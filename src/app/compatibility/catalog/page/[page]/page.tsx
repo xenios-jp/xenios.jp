@@ -8,7 +8,9 @@ import {
 import { withCanonical } from "@/lib/metadata";
 import { CompatibilityList } from "../../../compatibility-list";
 
-export const dynamicParams = false;
+const EMPTY_CATALOG_PAGE_STATIC_PARAM = {
+  page: "__placeholder__",
+} as const;
 
 async function getAllCatalogPageCount(): Promise<number> {
   const overview = await getCompatibilityCatalogOverview();
@@ -17,9 +19,10 @@ async function getAllCatalogPageCount(): Promise<number> {
 
 export async function generateStaticParams() {
   const pageCount = await getAllCatalogPageCount();
-  return Array.from({ length: Math.max(0, pageCount - 1) }, (_, index) => ({
+  const params = Array.from({ length: Math.max(0, pageCount - 1) }, (_, index) => ({
     page: String(index + 2),
   }));
+  return params.length > 0 ? params : [EMPTY_CATALOG_PAGE_STATIC_PARAM];
 }
 
 export async function generateMetadata({

@@ -13,8 +13,6 @@ import {
 import { withCanonical } from "@/lib/metadata";
 import { CompatibilityList } from "../../compatibility-list";
 
-export const dynamicParams = false;
-
 export async function generateStaticParams() {
   return CATALOG_BUCKETS.map((bucket) => ({
     bucket: catalogBucketToSlug(bucket),

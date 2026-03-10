@@ -15,7 +15,10 @@ import {
 import { withCanonical } from "@/lib/metadata";
 import { CompatibilityList } from "../../../../compatibility-list";
 
-export const dynamicParams = false;
+const EMPTY_BUCKET_PAGE_STATIC_PARAM = {
+  bucket: "__placeholder__",
+  page: "2",
+} as const;
 
 export async function generateStaticParams() {
   const params: Array<{ bucket: string; page: string }> = [];
@@ -32,7 +35,10 @@ export async function generateStaticParams() {
     }
   }
 
-  return params;
+  // `output: "export"` requires at least one param to validate this route.
+  // When the mirrored dataset has no bucket with a second page, return a
+  // placeholder path that immediately resolves to notFound().
+  return params.length > 0 ? params : [EMPTY_BUCKET_PAGE_STATIC_PARAM];
 }
 
 export async function generateMetadata({
