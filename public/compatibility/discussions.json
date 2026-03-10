@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-10T17:46:00.780Z",
+  "generatedAt": "2026-03-10T18:12:43.328Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -870,6 +870,31 @@
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/169",
       "updatedAt": "2026-03-10",
       "entries": [
+        {
+          "id": "comment-4033455610",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/169#issuecomment-4033455610",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-10",
+          "createdAtMs": 1773166298000,
+          "issueNumber": 169,
+          "excerpt": "Sits comfortably at around 20FPS. The inventory and crafting interface cause major lag with the FPS constantly dropping until they are closed. Too many mobs on screen will also make the game lag. Audio doesn’t seem to work. Using the base XBLA version.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584111F7/1773166296409-1.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 13",
+            "platform": "iOS",
+            "osVersion": "iOS 18.0.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        },
         {
           "id": "issue-169",
           "type": "issue",
