@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **103 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **104 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **29** · 🔵 In-Game: **22** · 🟡 Intro: **17** · 🟠 Loads: **18** · 🔴 Doesn't Boot: **17**
+> 🟢 Playable: **30** · 🔵 In-Game: **22** · 🟡 Intro: **17** · 🟠 Loads: **18** · 🔴 Doesn't Boot: **17**
 >
-> 📱 iOS: **101** · 🖥️ macOS: **5**
+> 📱 iOS: **102** · 🖥️ macOS: **5**
 
 ## Legend
 
@@ -39,6 +39,7 @@
 | 🟢 | Lollipop Chainsaw | `565707D0` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-03 |
 | 🟢 | Marvel Ult. Alliance 2 | `4156082F` | 📱 iOS | Playable | 👌 OK | iPhone 13 Pro | 2026-03-09 |
 | 🟢 | METAL GEAR RISING | `4B4E080A` | 📱 iOS | Playable | 👌 OK | iPhone 17 Pro Max | 2026-03-09 |
+| 🟢 | Minecraft | `584111F7` | 📱 iOS | Playable | 👌 OK | iPhone 14 Pro Max | 2026-03-10 |
 | 🟢 | Mortal Kombat | `575207FD` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro Max | 2026-03-10 |
 | 🟢 | Naruto Rise Of A Ninja | `555307E5` | 📱 iOS | Playable | 🚀 Great | iPhone 15 Pro | 2026-03-09 |
 | 🟢 | NFS Undercover | `45410876` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-09 |

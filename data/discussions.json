@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-10T14:36:13.593Z",
+  "generatedAt": "2026-03-10T15:14:41.902Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -763,6 +763,52 @@
         }
       ]
     },
+    "584111F7": {
+      "titleId": "584111F7",
+      "issueNumber": 169,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/169",
+      "updatedAt": "2026-03-10",
+      "entries": [
+        {
+          "id": "issue-169",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/169",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-10",
+          "createdAtMs": 1773155629000,
+          "issueNumber": 169,
+          "excerpt": "Plays really well, but no audio in any part of the game. Low fps but playable. (USING XBLA VERSION WITH NO TITLE UPDATE!)",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584111F7/1773155623241-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584111F7/1773155623241-2.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 14 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        },
+        {
+          "id": "issue-156",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/156",
+          "author": "nyquickee",
+          "createdAt": "2026-03-09",
+          "createdAtMs": 1773092266000,
+          "issueNumber": 156,
+          "excerpt": "Game runs and is playable. Saves also work as expected. Installed title update and performance was unchanged. If black screen on launch restart and relaunch.",
+          "images": [],
+          "meta": {}
+        }
+      ]
+    },
     "425307E0": {
       "titleId": "425307E0",
       "issueNumber": 168,
@@ -1024,26 +1070,6 @@
           "createdAtMs": 1773094766000,
           "issueNumber": 157,
           "excerpt": "The game boots but instantly freezes on the first few seconds.",
-          "images": [],
-          "meta": {}
-        }
-      ]
-    },
-    "584111F7": {
-      "titleId": "584111F7",
-      "issueNumber": 156,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/156",
-      "updatedAt": "2026-03-09",
-      "entries": [
-        {
-          "id": "issue-156",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/156",
-          "author": "nyquickee",
-          "createdAt": "2026-03-09",
-          "createdAtMs": 1773092266000,
-          "issueNumber": 156,
-          "excerpt": "Game runs and is playable. Saves also work as expected. Installed title update and performance was unchanged. If black screen on launch restart and relaunch.",
           "images": [],
           "meta": {}
         }
