@@ -253,6 +253,123 @@
     }
   },
   {
+    "slug": "50-cent-bots",
+    "title": "50 Cent: BotS",
+    "titleId": "5451083B",
+    "status": "playable",
+    "perf": "ok",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 16e",
+      "platform": "ios",
+      "osVersion": "26.3.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-10",
+    "notes": "Audio is good but some graphical issues but it overall loads good. Cutscenes play fully",
+    "reports": [
+      {
+        "device": "iPhone 16e",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-03-10",
+        "notes": "Audio is good but some graphical issues but it overall loads good. Cutscenes play fully",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.0-9280",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "commitShort": "2633e8177"
+        }
+      }
+    ],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/5451083B/1773177919503-1.jpg"
+    ],
+    "issueNumber": 181,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/181",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "playable",
+        "perf": "ok",
+        "notes": "Audio is good but some graphical issues but it overall loads good. Cutscenes play fully",
+        "updatedAt": "2026-03-10",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 16e",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-03-10",
+          "notes": "Audio is good but some graphical issues but it overall loads good. Cutscenes play fully",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "2633e8177"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 16e",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-03-10",
+          "notes": "Audio is good but some graphical issues but it overall loads good. Cutscenes play fully",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "2633e8177"
+          }
+        }
+      }
+    }
+  },
+  {
     "slug": "alan-wake",
     "title": "Alan Wake",
     "titleId": "4D530805",
@@ -4493,6 +4610,123 @@
     }
   },
   {
+    "slug": "ea-sports-fn-3",
+    "title": "EA SPORTS FN 3",
+    "titleId": "454107DE",
+    "status": "ingame",
+    "perf": "poor",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 16e",
+      "platform": "ios",
+      "osVersion": "26.3.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-10",
+    "notes": "Stuck on loading screen",
+    "reports": [
+      {
+        "device": "iPhone 16e",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "poor",
+        "date": "2026-03-10",
+        "notes": "Stuck on loading screen",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.0-9280",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "commitShort": "2633e8177"
+        }
+      }
+    ],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454107DE/1773181755279-1.jpg"
+    ],
+    "issueNumber": 183,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/183",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "ingame",
+        "perf": "poor",
+        "notes": "Stuck on loading screen",
+        "updatedAt": "2026-03-10",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 16e",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-03-10",
+          "notes": "Stuck on loading screen",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "2633e8177"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 16e",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-03-10",
+          "notes": "Stuck on loading screen",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "2633e8177"
+          }
+        }
+      }
+    }
+  },
+  {
     "slug": "fable-anniversary",
     "title": "Fable Anniversary",
     "titleId": "4D530A87",
@@ -4881,8 +5115,8 @@
     "slug": "fallout-new-vegas",
     "title": "Fallout: New Vegas",
     "titleId": "425307E0",
-    "status": "ingame",
-    "perf": "ok",
+    "status": "intro",
+    "perf": "poor",
     "tags": [],
     "platforms": [
       "ios"
@@ -4895,29 +5129,8 @@
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-03-10",
-    "notes": "Performance is ok game loads with few texture issues but not playable due to glitch when falling trough ground",
+    "notes": "Loads only to menu but froze when trying to create save",
     "reports": [
-      {
-        "device": "iPhone 13",
-        "platform": "ios",
-        "osVersion": "26.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "perf": "ok",
-        "date": "2026-03-10",
-        "notes": "Performance is ok game loads with few texture issues but not playable due to glitch when falling trough ground",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "stage": "stable",
-          "commitShort": "2633e8177",
-          "buildId": "ios-self-built-1.0.0-9280"
-        }
-      },
       {
         "device": "iPhone 13",
         "platform": "ios",
@@ -4928,6 +5141,26 @@
         "perf": "poor",
         "date": "2026-03-10",
         "notes": "Loads only to menu but froze when trying to create save",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.0-9280",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "commitShort": "2633e8177"
+        }
+      },
+      {
+        "device": "iPhone 13",
+        "platform": "ios",
+        "osVersion": "26.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "ok",
+        "date": "2026-03-10",
+        "notes": "Performance is ok game loads with few texture issues but not playable due to glitch when falling trough ground",
         "source": "app",
         "build": {
           "buildId": "ios-self-built-1.0.0-9280",
@@ -4967,7 +5200,7 @@
         "channel": "all",
         "status": "ingame",
         "perf": "ok",
-        "notes": "Performance is ok game loads with few texture issues but not playable due to glitch when falling trough ground",
+        "notes": "Loads only to menu but froze when trying to create save",
         "updatedAt": "2026-03-10",
         "reportCount": 2,
         "latestReport": {
@@ -4976,19 +5209,18 @@
           "osVersion": "26.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "ok",
+          "status": "intro",
+          "perf": "poor",
           "date": "2026-03-10",
-          "notes": "Performance is ok game loads with few texture issues but not playable due to glitch when falling trough ground",
+          "notes": "Loads only to menu but froze when trying to create save",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
+            "commitShort": "2633e8177"
           }
         },
         "bestReport": {
@@ -5003,13 +5235,130 @@
           "notes": "Performance is ok game loads with few texture issues but not playable due to glitch when falling trough ground",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
+            "commitShort": "2633e8177"
+          }
+        }
+      }
+    }
+  },
+  {
+    "slug": "far-cry-2",
+    "title": "Far Cry® 2",
+    "titleId": "55530810",
+    "status": "playable",
+    "perf": "poor",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 16",
+      "platform": "ios",
+      "osVersion": "26.3",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-10",
+    "notes": "Had to try opening the game a couple of times since it would always be stuck at an infinite loading screen, but there are almost no graphical issues once all shaders are properly rendered.",
+    "reports": [
+      {
+        "device": "iPhone 16",
+        "platform": "ios",
+        "osVersion": "26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "poor",
+        "date": "2026-03-10",
+        "notes": "Had to try opening the game a couple of times since it would always be stuck at an infinite loading screen, but there are almost no graphical issues once all shaders are properly rendered.",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.0-9280",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "commitShort": "2633e8177"
+        }
+      }
+    ],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/55530810/1773179728631-1.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/55530810/1773179728631-2.jpg"
+    ],
+    "issueNumber": 182,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/182",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "playable",
+        "perf": "poor",
+        "notes": "Had to try opening the game a couple of times since it would always be stuck at an infinite loading screen, but there are almost no graphical issues once all shaders are properly rendered.",
+        "updatedAt": "2026-03-10",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 16",
+          "platform": "ios",
+          "osVersion": "26.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "poor",
+          "date": "2026-03-10",
+          "notes": "Had to try opening the game a couple of times since it would always be stuck at an infinite loading screen, but there are almost no graphical issues once all shaders are properly rendered.",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "2633e8177"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 16",
+          "platform": "ios",
+          "osVersion": "26.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "poor",
+          "date": "2026-03-10",
+          "notes": "Had to try opening the game a couple of times since it would always be stuck at an infinite loading screen, but there are almost no graphical issues once all shaders are properly rendered.",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "2633e8177"
           }
         }
       }
@@ -14124,276 +14473,35 @@
     }
   },
   {
-    "slug": "50-cent-bots",
-    "title": "50 Cent: BotS",
-    "titleId": "5451083B",
-    "status": "playable",
+    "slug": "fallout-3",
+    "title": "Fallout 3",
+    "titleId": "425307D5",
+    "status": "ingame",
     "perf": "ok",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 16e",
+      "device": "iPhone 13",
       "platform": "ios",
-      "osVersion": "26.3.1",
+      "osVersion": "26.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-03-10",
-    "notes": "Audio is good but some graphical issues but it overall loads good. Cutscenes play fully",
+    "notes": "Performance is ok game loads with few texture issues but not playable due to glitch when falling trough ground",
     "reports": [
       {
-        "device": "iPhone 16e",
+        "device": "iPhone 13",
         "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "ok",
-        "date": "2026-03-10",
-        "notes": "Audio is good but some graphical issues but it overall loads good. Cutscenes play fully",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "stage": "stable",
-          "commitShort": "2633e8177",
-          "buildId": "ios-self-built-1.0.0-9280"
-        }
-      }
-    ],
-    "screenshots": [
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/5451083B/1773177919503-1.jpg"
-    ],
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "playable",
-        "perf": "ok",
-        "notes": "Audio is good but some graphical issues but it overall loads good. Cutscenes play fully",
-        "updatedAt": "2026-03-10",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 16e",
-          "platform": "ios",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-03-10",
-          "notes": "Audio is good but some graphical issues but it overall loads good. Cutscenes play fully",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 16e",
-          "platform": "ios",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-03-10",
-          "notes": "Audio is good but some graphical issues but it overall loads good. Cutscenes play fully",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
-          }
-        }
-      }
-    },
-    "issueNumber": 181,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/181"
-  },
-  {
-    "slug": "far-cry-2",
-    "title": "Far Cry® 2",
-    "titleId": "55530810",
-    "status": "playable",
-    "perf": "poor",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 16",
-      "platform": "ios",
-      "osVersion": "26.3",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-10",
-    "notes": "Had to try opening the game a couple of times since it would always be stuck at an infinite loading screen, but there are almost no graphical issues once all shaders are properly rendered.",
-    "reports": [
-      {
-        "device": "iPhone 16",
-        "platform": "ios",
-        "osVersion": "26.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "poor",
-        "date": "2026-03-10",
-        "notes": "Had to try opening the game a couple of times since it would always be stuck at an infinite loading screen, but there are almost no graphical issues once all shaders are properly rendered.",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "stage": "stable",
-          "commitShort": "2633e8177",
-          "buildId": "ios-self-built-1.0.0-9280"
-        }
-      }
-    ],
-    "screenshots": [
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/55530810/1773179728631-1.jpg",
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/55530810/1773179728631-2.jpg"
-    ],
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "playable",
-        "perf": "poor",
-        "notes": "Had to try opening the game a couple of times since it would always be stuck at an infinite loading screen, but there are almost no graphical issues once all shaders are properly rendered.",
-        "updatedAt": "2026-03-10",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 16",
-          "platform": "ios",
-          "osVersion": "26.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "poor",
-          "date": "2026-03-10",
-          "notes": "Had to try opening the game a couple of times since it would always be stuck at an infinite loading screen, but there are almost no graphical issues once all shaders are properly rendered.",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 16",
-          "platform": "ios",
-          "osVersion": "26.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "poor",
-          "date": "2026-03-10",
-          "notes": "Had to try opening the game a couple of times since it would always be stuck at an infinite loading screen, but there are almost no graphical issues once all shaders are properly rendered.",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
-          }
-        }
-      }
-    },
-    "issueNumber": 182,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/182"
-  },
-  {
-    "slug": "ea-sports-fn-3",
-    "title": "EA SPORTS FN 3",
-    "titleId": "454107DE",
-    "status": "ingame",
-    "perf": "poor",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 16e",
-      "platform": "ios",
-      "osVersion": "26.3.1",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-10",
-    "notes": "Stuck on loading screen",
-    "reports": [
-      {
-        "device": "iPhone 16e",
-        "platform": "ios",
-        "osVersion": "26.3.1",
+        "osVersion": "26.1",
         "arch": "arm64",
         "gpuBackend": "msl",
         "status": "ingame",
-        "perf": "poor",
+        "perf": "ok",
         "date": "2026-03-10",
-        "notes": "Stuck on loading screen",
+        "notes": "Performance is ok game loads with few texture issues but not playable due to glitch when falling trough ground",
         "source": "app",
         "build": {
           "channel": "self-built",
@@ -14406,9 +14514,7 @@
         }
       }
     ],
-    "screenshots": [
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454107DE/1773181755279-1.jpg"
-    ],
+    "screenshots": [],
     "summaries": {
       "release": {
         "channel": "release",
@@ -14433,20 +14539,20 @@
       "all": {
         "channel": "all",
         "status": "ingame",
-        "perf": "poor",
-        "notes": "Stuck on loading screen",
+        "perf": "ok",
+        "notes": "Performance is ok game loads with few texture issues but not playable due to glitch when falling trough ground",
         "updatedAt": "2026-03-10",
         "reportCount": 1,
         "latestReport": {
-          "device": "iPhone 16e",
+          "device": "iPhone 13",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "26.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "ingame",
-          "perf": "poor",
+          "perf": "ok",
           "date": "2026-03-10",
-          "notes": "Stuck on loading screen",
+          "notes": "Performance is ok game loads with few texture issues but not playable due to glitch when falling trough ground",
           "source": "app",
           "build": {
             "channel": "self-built",
@@ -14459,15 +14565,15 @@
           }
         },
         "bestReport": {
-          "device": "iPhone 16e",
+          "device": "iPhone 13",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "26.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "ingame",
-          "perf": "poor",
+          "perf": "ok",
           "date": "2026-03-10",
-          "notes": "Stuck on loading screen",
+          "notes": "Performance is ok game loads with few texture issues but not playable due to glitch when falling trough ground",
           "source": "app",
           "build": {
             "channel": "self-built",
@@ -14481,7 +14587,7 @@
         }
       }
     },
-    "issueNumber": 183,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/183"
+    "issueNumber": 184,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/184"
   }
 ]
