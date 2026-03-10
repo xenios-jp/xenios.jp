@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-10T18:12:43.328Z",
+  "generatedAt": "2026-03-10T19:29:29.110Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -3319,8 +3319,34 @@
       "titleId": "4D530919",
       "issueNumber": 57,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/57",
-      "updatedAt": "2026-03-08",
+      "updatedAt": "2026-03-10",
       "entries": [
+        {
+          "id": "comment-4033904428",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/57#issuecomment-4033904428",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-10",
+          "createdAtMs": 1773170914000,
+          "issueNumber": 57,
+          "excerpt": "After those images just black screen, sadly",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4D530919/1773170910839-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4D530919/1773170910839-2.jpg"
+          ],
+          "meta": {
+            "status": "intro",
+            "perf": "poor",
+            "device": "iPad Pro 12.9 inch 6th Gen",
+            "platform": "iOS",
+            "osVersion": "iOS 18.7.2",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        },
         {
           "id": "issue-57",
           "type": "issue",
