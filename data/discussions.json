@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-10T22:49:09.694Z",
+  "generatedAt": "2026-03-10T22:59:02.552Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -817,6 +817,40 @@
             "status": "ingame",
             "perf": "ok",
             "device": "iPhone 15 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        }
+      ]
+    },
+    "4D5307EA": {
+      "titleId": "4D5307EA",
+      "issueNumber": 185,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/185",
+      "updatedAt": "2026-03-10",
+      "entries": [
+        {
+          "id": "issue-185",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/185",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-10",
+          "createdAtMs": 1773183492000,
+          "issueNumber": 185,
+          "excerpt": "game runs fine with great graphics but low framerate",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4D5307EA/1773183486826-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4D5307EA/1773183486826-2.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "poor",
+            "device": "iPhone 16",
             "platform": "iOS",
             "osVersion": "iOS 26.3",
             "gpuBackend": "MSL",

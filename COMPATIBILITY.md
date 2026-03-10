@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **118 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **119 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **35** · 🔵 In-Game: **30** · 🟡 Intro: **17** · 🟠 Loads: **18** · 🔴 Doesn't Boot: **18**
+> 🟢 Playable: **36** · 🔵 In-Game: **30** · 🟡 Intro: **17** · 🟠 Loads: **18** · 🔴 Doesn't Boot: **18**
 >
-> 📱 iOS: **116** · 🖥️ macOS: **5**
+> 📱 iOS: **117** · 🖥️ macOS: **5**
 
 ## Legend
 
@@ -34,6 +34,7 @@
 | 🟢 | DOA5 Ultimate | `4B5607E8` | 📱 iOS | Playable | 👌 OK | iPhone 13 | 2026-03-10 |
 | 🟢 | Far Cry® 2 | `55530810` | 📱 iOS | Playable | 🐢 Poor | iPhone 16 | 2026-03-10 |
 | 🟢 | FINAL FANTASY XIII | `535107E4` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-03 |
+| 🟢 | Forza Motorsport 2 | `4D5307EA` | 📱 iOS | Playable | 🐢 Poor | iPhone 16 | 2026-03-10 |
 | 🟢 | Geometry Wars Evolved | `584107ED` | 📱 iOS | Playable | 🚀 Great | iPhone 13 | 2026-03-10 |
 | 🟢 | GTA IV | `545407F2` | 📱 iOS | Playable | 🐢 Poor | iPhone 15 Pro | 2026-03-09 |
 | 🟢 | Guacamelee | `00000000` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-03 |
