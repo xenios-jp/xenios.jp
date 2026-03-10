@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-10T20:08:04.137Z",
+  "generatedAt": "2026-03-10T20:18:27.253Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -760,6 +760,26 @@
             "buildNumber": "9280",
             "commitShort": "`2633e8177`"
           }
+        }
+      ]
+    },
+    "4343082F": {
+      "titleId": "4343082F",
+      "issueNumber": 176,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/176",
+      "updatedAt": "2026-03-10",
+      "entries": [
+        {
+          "id": "issue-176",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/176",
+          "author": "JustWoody",
+          "createdAt": "2026-03-10",
+          "createdAtMs": 1773173857000,
+          "issueNumber": 176,
+          "excerpt": "Audio screeching in cutscenes\nYou can play through the first level with minor glitches, but then it crashes once you enter the casket",
+          "images": [],
+          "meta": {}
         }
       ]
     },

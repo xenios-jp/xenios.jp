@@ -10602,6 +10602,121 @@
     }
   },
   {
+    "slug": "remember-me",
+    "title": "Remember Me",
+    "titleId": "4343082F",
+    "status": "ingame",
+    "perf": "great",
+    "tags": [],
+    "platforms": [
+      "macos"
+    ],
+    "lastReport": {
+      "device": "Macbook Pro M3",
+      "platform": "macos",
+      "osVersion": "26.3.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-10",
+    "notes": "Audio screeching in cutscenes\nYou can play through the first level with minor glitches, but then it crashes once you enter the casket",
+    "reports": [
+      {
+        "device": "Macbook Pro M3",
+        "platform": "macos",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "great",
+        "date": "2026-03-10",
+        "notes": "Audio screeching in cutscenes\nYou can play through the first level with minor glitches, but then it crashes once you enter the casket",
+        "source": "github",
+        "build": {
+          "buildId": "macos-release-1.0.0-9280-9280",
+          "channel": "release",
+          "official": true,
+          "appVersion": "1.0.0-9280",
+          "buildNumber": "9280",
+          "commitShort": "2633E8177"
+        }
+      }
+    ],
+    "screenshots": [],
+    "issueNumber": 176,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/176",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "ingame",
+        "perf": "great",
+        "notes": "Audio screeching in cutscenes\nYou can play through the first level with minor glitches, but then it crashes once you enter the casket",
+        "updatedAt": "2026-03-10",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "Macbook Pro M3",
+          "platform": "macos",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "great",
+          "date": "2026-03-10",
+          "notes": "Audio screeching in cutscenes\nYou can play through the first level with minor glitches, but then it crashes once you enter the casket",
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-1.0.0-9280-9280",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.0-9280",
+            "buildNumber": "9280",
+            "commitShort": "2633E8177"
+          }
+        },
+        "bestReport": {
+          "device": "Macbook Pro M3",
+          "platform": "macos",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "great",
+          "date": "2026-03-10",
+          "notes": "Audio screeching in cutscenes\nYou can play through the first level with minor glitches, but then it crashes once you enter the casket",
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-1.0.0-9280-9280",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.0-9280",
+            "buildNumber": "9280",
+            "commitShort": "2633E8177"
+          }
+        }
+      }
+    }
+  },
+  {
     "slug": "resident-evil-5",
     "title": "RESIDENT EVIL 5",
     "titleId": "434307D4",

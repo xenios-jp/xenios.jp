@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **110 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **111 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **32** · 🔵 In-Game: **25** · 🟡 Intro: **17** · 🟠 Loads: **18** · 🔴 Doesn't Boot: **18**
+> 🟢 Playable: **32** · 🔵 In-Game: **26** · 🟡 Intro: **17** · 🟠 Loads: **18** · 🔴 Doesn't Boot: **18**
 >
-> 📱 iOS: **108** · 🖥️ macOS: **5**
+> 📱 iOS: **108** · 🖥️ macOS: **6**
 
 ## Legend
 
@@ -72,6 +72,7 @@
 | 🔵 | PES 2013/WE 2013 | `4B4E084C` | 📱 iOS | In-Game | 👌 OK | iPhone 14 | 2026-03-09 |
 | 🔵 | PES 2016 | `4B4E0861` | 📱 iOS | In-Game | 👌 OK | iPhone 14 | 2026-03-09 |
 | 🔵 | Pinball Arcade | `5841121D` | 📱 iOS | In-Game | 🐢 Poor | iPhone 13 | 2026-03-10 |
+| 🔵 | Remember Me | `4343082F` | 🖥️ macOS | In-Game | 🚀 Great | Macbook Pro M3 | 2026-03-10 |
 | 🔵 | Saints Row | `545107D1` | 📱 iOS | In-Game | 👌 OK | iPhone 16 | 2026-03-10 |
 | 🔵 | Saints Row 2 | `545107FC` | 📱 iOS | In-Game | 🐢 Poor | iPhone 14 Pro Max | 2026-03-08 |
 | 🔵 | skate. | `45410813` | 📱 iOS | In-Game | 🐢 Poor | iPad Pro (M2) | 2026-03-03 |
