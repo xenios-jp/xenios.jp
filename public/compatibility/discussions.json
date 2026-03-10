@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-10T19:46:24.174Z",
+  "generatedAt": "2026-03-10T19:56:57.609Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -754,6 +754,37 @@
             "device": "iPhone 15 Pro Max",
             "platform": "iOS",
             "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        }
+      ]
+    },
+    "454107F7": {
+      "titleId": "454107F7",
+      "issueNumber": 175,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/175",
+      "updatedAt": "2026-03-10",
+      "entries": [
+        {
+          "id": "issue-175",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/175",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-10",
+          "createdAtMs": 1773172587000,
+          "issueNumber": 175,
+          "excerpt": "Everything loads almost perfectly but when you actually play a game the screen is black",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "ok",
+            "device": "iPhone 16e",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
             "gpuBackend": "MSL",
             "buildChannel": "self-built",
             "appVersion": "1.0.0",
