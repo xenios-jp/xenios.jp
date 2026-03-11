@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **120 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **121 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **36** · 🔵 In-Game: **30** · 🟡 Intro: **17** · 🟠 Loads: **19** · 🔴 Doesn't Boot: **18**
+> 🟢 Playable: **36** · 🔵 In-Game: **30** · 🟡 Intro: **17** · 🟠 Loads: **20** · 🔴 Doesn't Boot: **18**
 >
-> 📱 iOS: **118** · 🖥️ macOS: **5**
+> 📱 iOS: **119** · 🖥️ macOS: **5**
 
 ## Legend
 
@@ -104,6 +104,7 @@
 | 🟡 | Tales of Vesperia | `4E4D07E9` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro | 2026-03-03 |
 | 🟡 | Two Worlds | `535007D4` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro Max | 2026-03-09 |
 | 🟠 | ASURA'S WRATH | `43430817` | 📱 iOS | Loads | 🐢 Poor | iPhone 16 Pro Max | 2026-03-09 |
+| 🟠 | Battlefield 3 | `45410950` | 📱 iOS | Loads | 🐢 Poor | iPhone 16 | 2026-03-11 |
 | 🟠 | CoD: World at War | `4156081C` | 📱 iOS | Loads | 🐢 Poor | iPhone 15 Pro Max | 2026-03-09 |
 | 🟠 | Crash Of The Titans | `565507E4` | 📱 iOS | Loads | 🚀 Great | iPad 11th Gen | 2026-03-08 |
 | 🟠 | DB: Raging Blast | `4E4D0803` | 📱 iOS | Loads | 🐢 Poor | iPhone 13 Pro | 2026-03-09 |

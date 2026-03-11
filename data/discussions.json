@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-11T00:44:09.466Z",
+  "generatedAt": "2026-03-11T01:10:10.645Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -517,6 +517,39 @@
             "platform": "iOS",
             "osVersion": "iOS 18.3.1",
             "gpuBackend": "MSL"
+          }
+        }
+      ]
+    },
+    "45410950": {
+      "titleId": "45410950",
+      "issueNumber": 187,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/187",
+      "updatedAt": "2026-03-11",
+      "entries": [
+        {
+          "id": "issue-187",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/187",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-11",
+          "createdAtMs": 1773191365000,
+          "issueNumber": 187,
+          "excerpt": "freezes when trying to load a new campaign",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/45410950/1773191354675-2.jpg"
+          ],
+          "meta": {
+            "status": "loads",
+            "perf": "poor",
+            "device": "iPhone 16",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
           }
         }
       ]
