@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-11T17:08:59.136Z",
+  "generatedAt": "2026-03-11T17:35:24.103Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -5938,8 +5938,27 @@
       "titleId": "4D5307FA",
       "issueNumber": 24,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/24",
-      "updatedAt": "2026-03-07",
+      "updatedAt": "2026-03-11",
       "entries": [
+        {
+          "id": "comment-4040915413",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/24#issuecomment-4040915413",
+          "author": "vivat-concordia",
+          "createdAt": "2026-03-11",
+          "createdAtMs": 1773250471000,
+          "issueNumber": 24,
+          "excerpt": "Field Value \n :--- :--- \n **Title** Lost Odyssey \n **Title ID** `4D5307FA` \n **Status** 🟦 In-Game \n **Performance** Great \n **Platform** macOS \n **Device** Mac14,3 \n **OS Version** macOS 15.7 \n **Architecture** arm64 \n **GPU Backend** MSC \n\n**Notes**\nAs I see it, these are typical problems. Cutscenes feature a riot of green and pink colors on the screen and choppy sound, making it impossible to understand anything. Gameplay is smooth, with only occasional stutters. I'm not saying \"playable\" out of caution; it needs to be fully tested, which would take tens of hours. Oh, and for some reason, all games need to be launched and closed several times before they get past the initial loading screens. Then, apparently, a cache is created and the problem goes away.",
+          "images": [],
+          "meta": {
+            "status": "In-Game",
+            "perf": "Great",
+            "device": "Mac14,3",
+            "platform": "macOS",
+            "osVersion": "macOS 15.7",
+            "gpuBackend": "MSC"
+          }
+        },
         {
           "id": "issue-24",
           "type": "issue",
