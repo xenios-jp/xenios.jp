@@ -1780,15 +1780,36 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 17 Pro Max",
+      "device": "iPhone 14",
       "platform": "ios",
-      "osVersion": "26.3",
+      "osVersion": "26.3.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-08",
-    "notes": "Campaign fully playable after an hour of gameplay. Saving works. Occasional FPS drops and audio stutters when assets load. Certain textures appear grainy. Occasional graphical issues with reflections or shadows.",
+    "updatedAt": "2026-03-11",
+    "notes": "Tuns great! Stable FPS occasionally jitter when loading a new section or fighting multiple enemies. Audio and music is good too.",
     "reports": [
+      {
+        "device": "iPhone 14",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-03-11",
+        "notes": "Tuns great! Stable FPS occasionally jitter when loading a new section or fighting multiple enemies. Audio and music is good too.",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "stage": "stable",
+          "commitShort": "2633e8177",
+          "buildId": "ios-self-built-1.0.0-9280"
+        }
+      },
       {
         "device": "iPhone 17 Pro Max",
         "platform": "ios",
@@ -1823,9 +1844,11 @@
         "build": null
       }
     ],
-    "screenshots": [],
-    "issueNumber": 34,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/34",
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407D8/1773213354773-1.jpg"
+    ],
+    "issueNumber": 196,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/196",
     "summaries": {
       "release": {
         "channel": "release",
@@ -1889,47 +1912,49 @@
         "channel": "all",
         "status": "playable",
         "perf": "great",
-        "notes": "Campaign fully playable after an hour of gameplay. Saving works. Occasional FPS drops and audio stutters when assets load. Certain textures appear grainy. Occasional graphical issues with reflections or shadows.",
-        "updatedAt": "2026-03-08",
-        "reportCount": 2,
+        "notes": "Tuns great! Stable FPS occasionally jitter when loading a new section or fighting multiple enemies. Audio and music is good too.",
+        "updatedAt": "2026-03-11",
+        "reportCount": 3,
         "latestReport": {
-          "device": "iPhone 17 Pro Max",
+          "device": "iPhone 14",
           "platform": "ios",
-          "osVersion": "26.3",
+          "osVersion": "26.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "great",
-          "date": "2026-03-08",
-          "notes": "Campaign fully playable after an hour of gameplay. Saving works. Occasional FPS drops and audio stutters when assets load. Certain textures appear grainy. Occasional graphical issues with reflections or shadows.",
-          "source": "github",
+          "date": "2026-03-11",
+          "notes": "Tuns great! Stable FPS occasionally jitter when loading a new section or fighting multiple enemies. Audio and music is good too.",
+          "source": "app",
           "build": {
-            "buildId": "ios-release-1.0.0-9280",
-            "channel": "release",
-            "official": true,
+            "channel": "self-built",
+            "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "commitShort": "2633E8177"
+            "stage": "stable",
+            "commitShort": "2633e8177",
+            "buildId": "ios-self-built-1.0.0-9280"
           }
         },
         "bestReport": {
-          "device": "iPhone 17 Pro Max",
+          "device": "iPhone 14",
           "platform": "ios",
-          "osVersion": "26.3",
+          "osVersion": "26.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "great",
-          "date": "2026-03-08",
-          "notes": "Campaign fully playable after an hour of gameplay. Saving works. Occasional FPS drops and audio stutters when assets load. Certain textures appear grainy. Occasional graphical issues with reflections or shadows.",
-          "source": "github",
+          "date": "2026-03-11",
+          "notes": "Tuns great! Stable FPS occasionally jitter when loading a new section or fighting multiple enemies. Audio and music is good too.",
+          "source": "app",
           "build": {
-            "buildId": "ios-release-1.0.0-9280",
-            "channel": "release",
-            "official": true,
+            "channel": "self-built",
+            "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "commitShort": "2633E8177"
+            "stage": "stable",
+            "commitShort": "2633e8177",
+            "buildId": "ios-self-built-1.0.0-9280"
           }
         }
       }
@@ -6828,22 +6853,44 @@
     "slug": "gears-of-war",
     "title": "Gears of War",
     "titleId": "4D5307D5",
-    "status": "ingame",
+    "status": "intro",
     "perf": "ok",
     "tags": [],
     "platforms": [
-      "macos"
+      "macos",
+      "ios"
     ],
     "lastReport": {
-      "device": "MacBook Pro M4 Pro/Max",
-      "platform": "macos",
-      "osVersion": "26.3",
+      "device": "iPhone 16 Pro",
+      "platform": "ios",
+      "osVersion": "26.3.1",
       "arch": "arm64",
-      "gpuBackend": "msc"
+      "gpuBackend": "msl"
     },
-    "updatedAt": "2026-02-28",
-    "notes": "Runs well but with pretty severe intermittent graphical issues.",
+    "updatedAt": "2026-03-11",
+    "notes": "Makes it into and through the game start menu, gets stuck loading when starting campaign. Will continue to test and amend if changes.",
     "reports": [
+      {
+        "device": "iPhone 16 Pro",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "intro",
+        "perf": "ok",
+        "date": "2026-03-11",
+        "notes": "Makes it into and through the game start menu, gets stuck loading when starting campaign. Will continue to test and amend if changes.",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9294",
+          "stage": "stable",
+          "commitShort": "3f7efcbfb",
+          "buildId": "ios-self-built-1.0.0-9294"
+        }
+      },
       {
         "device": "MacBook Pro M4 Pro/Max",
         "platform": "macos",
@@ -6860,8 +6907,8 @@
       }
     ],
     "screenshots": [],
-    "issueNumber": 40,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/40",
+    "issueNumber": 195,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/195",
     "summaries": {
       "release": {
         "channel": "release",
@@ -6887,22 +6934,29 @@
         "channel": "all",
         "status": "ingame",
         "perf": "ok",
-        "notes": "Runs well but with pretty severe intermittent graphical issues.",
-        "updatedAt": "2026-02-28",
-        "reportCount": 1,
+        "notes": "Makes it into and through the game start menu, gets stuck loading when starting campaign. Will continue to test and amend if changes.",
+        "updatedAt": "2026-03-11",
+        "reportCount": 2,
         "latestReport": {
-          "device": "MacBook Pro M4 Pro/Max",
-          "platform": "macos",
-          "osVersion": "26.3",
+          "device": "iPhone 16 Pro",
+          "platform": "ios",
+          "osVersion": "26.3.1",
           "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "ingame",
+          "gpuBackend": "msl",
+          "status": "intro",
           "perf": "ok",
-          "date": "2026-02-28",
-          "notes": "Runs well but with pretty severe intermittent graphical issues.",
-          "source": "discord",
-          "submittedBy": "reality111",
-          "build": null
+          "date": "2026-03-11",
+          "notes": "Makes it into and through the game start menu, gets stuck loading when starting campaign. Will continue to test and amend if changes.",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9294",
+            "stage": "stable",
+            "commitShort": "3f7efcbfb",
+            "buildId": "ios-self-built-1.0.0-9294"
+          }
         },
         "bestReport": {
           "device": "MacBook Pro M4 Pro/Max",

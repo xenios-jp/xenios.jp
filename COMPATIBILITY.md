@@ -2,9 +2,9 @@
 
 > **128 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **38** · 🔵 In-Game: **33** · 🟡 Intro: **18** · 🟠 Loads: **20** · 🔴 Doesn't Boot: **19**
+> 🟢 Playable: **38** · 🔵 In-Game: **32** · 🟡 Intro: **19** · 🟠 Loads: **20** · 🔴 Doesn't Boot: **19**
 >
-> 📱 iOS: **126** · 🖥️ macOS: **5**
+> 📱 iOS: **127** · 🖥️ macOS: **5**
 
 ## Legend
 
@@ -25,7 +25,7 @@
 | 🟢 | Angry Birds Trilogy | `415608E4` | 📱 iOS | Playable | 🚀 Great | iPad 11th Gen | 2026-03-09 |
 | 🟢 | Banjo Kazooie: Nuts & Bolts | `4D5307ED` | 📱 iOS | Playable | 🐢 Poor | iPhone 15 Pro Max | 2026-03-08 |
 | 🟢 | BattleBlock Theater | `58410A30` | 📱 iOS | Playable | 🚀 Great | iPhone 13 | 2026-03-10 |
-| 🟢 | BioShock | `545407D8` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-08 |
+| 🟢 | BioShock | `545407D8` | 📱 iOS | Playable | 🚀 Great | iPhone 14 | 2026-03-11 |
 | 🟢 | Call of Duty 4 | `415607E6` | 📱 iOS | Playable | 🚀 Great | iPhone 15 Pro | 2026-03-10 |
 | 🟢 | DB: Raging Blast 2 | `4E4D0826` | 📱 iOS | Playable | 🐢 Poor | iPad Pro (M2) | 2026-03-03 |
 | 🟢 | DEAD OR ALIVE 4 | `544307D1` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro | 2026-03-05 |
@@ -72,7 +72,6 @@
 | 🔵 | Far Cry® 3 | `5553088C` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro | 2026-03-09 |
 | 🔵 | FIFA 16 | `454109EE` | 📱 iOS | In-Game | 👌 OK | iPhone 14 Pro Max | 2026-03-08 |
 | 🔵 | Forza Horizon | `4D5309C9` | 🖥️ macOS, 📱 iOS | In-Game | 🐢 Poor | Macbook Air M1 | 2026-03-10 |
-| 🔵 | Gears of War | `4D5307D5` | 🖥️ macOS | In-Game | 👌 OK | MacBook Pro M4 Pro/Max | 2026-02-28 |
 | 🔵 | Halo 3 | `4D5307E6` | 🖥️ macOS, 📱 iOS | In-Game | ➖ N/A | Macbook Pro M4 | 2026-03-09 |
 | 🔵 | Halo: Reach | `4D53085B` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 | 2026-03-06 |
 | 🔵 | Mercenaries 2 | `45410828` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro | 2026-03-09 |
@@ -99,6 +98,7 @@
 | 🟡 | Divinity II - DKS | `464507D6` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro Max | 2026-03-09 |
 | 🟡 | DOOM 3 BFG Edition | `425307F1` | 📱 iOS | Intro | 🚀 Great | iPhone 16 Pro | 2026-03-03 |
 | 🟡 | Fallout: New Vegas | `425307E0` | 📱 iOS | Intro | 🐢 Poor | iPhone 13 | 2026-03-10 |
+| 🟡 | Gears of War | `4D5307D5` | 🖥️ macOS, 📱 iOS | Intro | 👌 OK | iPhone 16 Pro | 2026-03-11 |
 | 🟡 | Grand Theft Auto V | `545408A7` | 📱 iOS | Intro | 🐢 Poor | iPhone 17 | 2026-03-09 |
 | 🟡 | Halo 3: ODST | `4D530877` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro | 2026-03-03 |
 | 🟡 | Halo 4 | `4D530919` | 📱 iOS | Intro | 🐢 Poor | iPad Pro 12.9 inch 6th Gen | 2026-03-10 |

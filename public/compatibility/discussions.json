@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-11T05:49:52.266Z",
+  "generatedAt": "2026-03-11T07:16:36.814Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -953,6 +953,58 @@
             "appVersion": "1.0.0",
             "buildNumber": "9280",
             "commitShort": "`2633e8177`"
+          }
+        }
+      ]
+    },
+    "545407D8": {
+      "titleId": "545407D8",
+      "issueNumber": 196,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/196",
+      "updatedAt": "2026-03-11",
+      "entries": [
+        {
+          "id": "issue-196",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/196",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-11",
+          "createdAtMs": 1773213359000,
+          "issueNumber": 196,
+          "excerpt": "Tuns great! Stable FPS occasionally jitter when loading a new section or fighting multiple enemies. Audio and music is good too.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407D8/1773213354773-1.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 14",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        },
+        {
+          "id": "issue-34",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/34",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-02",
+          "createdAtMs": 1772438754000,
+          "issueNumber": 34,
+          "excerpt": "Occasional drops in FPS but very much playable.",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone17,1",
+            "platform": "iOS",
+            "osVersion": "iOS 18.5",
+            "gpuBackend": "MSL"
           }
         }
       ]
@@ -5652,33 +5704,6 @@
             "device": "iPhone18,3",
             "platform": "iOS",
             "osVersion": "iOS 26.3",
-            "gpuBackend": "MSL"
-          }
-        }
-      ]
-    },
-    "545407D8": {
-      "titleId": "545407D8",
-      "issueNumber": 34,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/34",
-      "updatedAt": "2026-03-08",
-      "entries": [
-        {
-          "id": "issue-34",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/34",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-02",
-          "createdAtMs": 1772438754000,
-          "issueNumber": 34,
-          "excerpt": "Occasional drops in FPS but very much playable.",
-          "images": [],
-          "meta": {
-            "status": "playable",
-            "perf": "ok",
-            "device": "iPhone17,1",
-            "platform": "iOS",
-            "osVersion": "iOS 18.5",
             "gpuBackend": "MSL"
           }
         }
