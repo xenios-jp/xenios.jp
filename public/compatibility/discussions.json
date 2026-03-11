@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-11T04:26:30.749Z",
+  "generatedAt": "2026-03-11T04:32:01.543Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -932,6 +932,32 @@
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/193",
       "updatedAt": "2026-03-11",
       "entries": [
+        {
+          "id": "comment-4036281976",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/193#issuecomment-4036281976",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-11",
+          "createdAtMs": 1773203476000,
+          "issueNumber": 193,
+          "excerpt": "No audio issues, there is some artifacts during gameplay due to shader compilation, textures take few moments to load, and has frame drops during heavy scenes. Overall it runs fine",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/415607FF/1773203471363-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/415607FF/1773203471363-2.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPad Pro 12.9 inch 6th Gen",
+            "platform": "iOS",
+            "osVersion": "iOS 26.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        },
         {
           "id": "issue-193",
           "type": "issue",
