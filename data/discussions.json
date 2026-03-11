@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-11T16:49:15.675Z",
+  "generatedAt": "2026-03-11T16:53:37.470Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1031,6 +1031,26 @@
             "buildNumber": "9280",
             "commitShort": "`2633e8177`"
           }
+        }
+      ]
+    },
+    "4D5307DF": {
+      "titleId": "4D5307DF",
+      "issueNumber": 206,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/206",
+      "updatedAt": "2026-03-11",
+      "entries": [
+        {
+          "id": "issue-206",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/206",
+          "author": "vivat-concordia",
+          "createdAt": "2026-03-11",
+          "createdAtMs": 1773247976000,
+          "issueNumber": 206,
+          "excerpt": "It runs smoothly, but occasionally stutters. During some cutscenes, the visuals look like The Matrix, and the frame rate drops noticeably. During gameplay, the colors sometimes (probably when the camera overlaps something) also skew to a greenish something. If you ignore these issues, the game is probably (more testing is needed) even playable from start to finish.",
+          "images": [],
+          "meta": {}
         }
       ]
     },

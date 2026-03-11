@@ -1963,6 +1963,154 @@
     }
   },
   {
+    "slug": "blue-dragon",
+    "title": "Blue Dragon",
+    "titleId": "4D5307DF",
+    "status": "ingame",
+    "perf": "great",
+    "tags": [],
+    "platforms": [
+      "macos"
+    ],
+    "lastReport": {
+      "device": "MacMini M2",
+      "platform": "macos",
+      "osVersion": "15.7",
+      "arch": "arm64",
+      "gpuBackend": "msc"
+    },
+    "updatedAt": "2026-03-11",
+    "notes": "It runs smoothly, but occasionally stutters. During some cutscenes, the visuals look like The Matrix, and the frame rate drops noticeably. During gameplay, the colors sometimes (probably when the camera overlaps something) also skew to a greenish something. If you ignore these issues, the game is probably (more testing is needed) even playable from start to finish.",
+    "reports": [
+      {
+        "device": "MacMini M2",
+        "platform": "macos",
+        "osVersion": "15.7",
+        "arch": "arm64",
+        "gpuBackend": "msc",
+        "status": "ingame",
+        "perf": "great",
+        "date": "2026-03-11",
+        "notes": "It runs smoothly, but occasionally stutters. During some cutscenes, the visuals look like The Matrix, and the frame rate drops noticeably. During gameplay, the colors sometimes (probably when the camera overlaps something) also skew to a greenish something. If you ignore these issues, the game is probably (more testing is needed) even playable from start to finish.",
+        "source": "github",
+        "build": {
+          "buildId": "macos-release-1.0.0-9296",
+          "channel": "release",
+          "official": true,
+          "appVersion": "1.0.0",
+          "buildNumber": "9296"
+        }
+      }
+    ],
+    "screenshots": [],
+    "issueNumber": 206,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/206",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "ingame",
+        "perf": "great",
+        "notes": "It runs smoothly, but occasionally stutters. During some cutscenes, the visuals look like The Matrix, and the frame rate drops noticeably. During gameplay, the colors sometimes (probably when the camera overlaps something) also skew to a greenish something. If you ignore these issues, the game is probably (more testing is needed) even playable from start to finish.",
+        "updatedAt": "2026-03-11",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "MacMini M2",
+          "platform": "macos",
+          "osVersion": "15.7",
+          "arch": "arm64",
+          "gpuBackend": "msc",
+          "status": "ingame",
+          "perf": "great",
+          "date": "2026-03-11",
+          "notes": "It runs smoothly, but occasionally stutters. During some cutscenes, the visuals look like The Matrix, and the frame rate drops noticeably. During gameplay, the colors sometimes (probably when the camera overlaps something) also skew to a greenish something. If you ignore these issues, the game is probably (more testing is needed) even playable from start to finish.",
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-1.0.0-9296",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.0",
+            "buildNumber": "9296"
+          }
+        },
+        "bestReport": {
+          "device": "MacMini M2",
+          "platform": "macos",
+          "osVersion": "15.7",
+          "arch": "arm64",
+          "gpuBackend": "msc",
+          "status": "ingame",
+          "perf": "great",
+          "date": "2026-03-11",
+          "notes": "It runs smoothly, but occasionally stutters. During some cutscenes, the visuals look like The Matrix, and the frame rate drops noticeably. During gameplay, the colors sometimes (probably when the camera overlaps something) also skew to a greenish something. If you ignore these issues, the game is probably (more testing is needed) even playable from start to finish.",
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-1.0.0-9296",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.0",
+            "buildNumber": "9296"
+          }
+        }
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "ingame",
+        "perf": "great",
+        "notes": "It runs smoothly, but occasionally stutters. During some cutscenes, the visuals look like The Matrix, and the frame rate drops noticeably. During gameplay, the colors sometimes (probably when the camera overlaps something) also skew to a greenish something. If you ignore these issues, the game is probably (more testing is needed) even playable from start to finish.",
+        "updatedAt": "2026-03-11",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "MacMini M2",
+          "platform": "macos",
+          "osVersion": "15.7",
+          "arch": "arm64",
+          "gpuBackend": "msc",
+          "status": "ingame",
+          "perf": "great",
+          "date": "2026-03-11",
+          "notes": "It runs smoothly, but occasionally stutters. During some cutscenes, the visuals look like The Matrix, and the frame rate drops noticeably. During gameplay, the colors sometimes (probably when the camera overlaps something) also skew to a greenish something. If you ignore these issues, the game is probably (more testing is needed) even playable from start to finish.",
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-1.0.0-9296",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.0",
+            "buildNumber": "9296"
+          }
+        },
+        "bestReport": {
+          "device": "MacMini M2",
+          "platform": "macos",
+          "osVersion": "15.7",
+          "arch": "arm64",
+          "gpuBackend": "msc",
+          "status": "ingame",
+          "perf": "great",
+          "date": "2026-03-11",
+          "notes": "It runs smoothly, but occasionally stutters. During some cutscenes, the visuals look like The Matrix, and the frame rate drops noticeably. During gameplay, the colors sometimes (probably when the camera overlaps something) also skew to a greenish something. If you ignore these issues, the game is probably (more testing is needed) even playable from start to finish.",
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-1.0.0-9296",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.0",
+            "buildNumber": "9296"
+          }
+        }
+      }
+    }
+  },
+  {
     "slug": "burnout-revenge",
     "title": "Burnout Revenge",
     "titleId": "454107DC",
@@ -3668,6 +3816,124 @@
         }
       }
     }
+  },
+  {
+    "slug": "dead-island",
+    "title": "Dead Island",
+    "titleId": "4B4D07DF",
+    "status": "playable",
+    "perf": "great",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 16e",
+      "platform": "ios",
+      "osVersion": "26.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-11",
+    "notes": "Black distortion on side of screen but works great",
+    "reports": [
+      {
+        "device": "iPhone 16e",
+        "platform": "ios",
+        "osVersion": "26.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-03-11",
+        "notes": "Black distortion on side of screen but works great",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9296",
+          "stage": "stable",
+          "commitShort": "ab2ca341a",
+          "buildId": "ios-self-built-1.0.0-9296"
+        }
+      }
+    ],
+    "screenshots": [],
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "playable",
+        "perf": "great",
+        "notes": "Black distortion on side of screen but works great",
+        "updatedAt": "2026-03-11",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 16e",
+          "platform": "ios",
+          "osVersion": "26.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-03-11",
+          "notes": "Black distortion on side of screen but works great",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9296",
+            "stage": "stable",
+            "commitShort": "ab2ca341a",
+            "buildId": "ios-self-built-1.0.0-9296"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 16e",
+          "platform": "ios",
+          "osVersion": "26.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-03-11",
+          "notes": "Black distortion on side of screen but works great",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9296",
+            "stage": "stable",
+            "commitShort": "ab2ca341a",
+            "buildId": "ios-self-built-1.0.0-9296"
+          }
+        }
+      }
+    },
+    "issueNumber": 205,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/205"
   },
   {
     "slug": "dead-or-alive-4",
@@ -9152,6 +9418,124 @@
         }
       }
     }
+  },
+  {
+    "slug": "marathon-exe",
+    "title": "marathon.exe",
+    "titleId": "534507D6",
+    "status": "nothing",
+    "perf": "n/a",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 16",
+      "platform": "ios",
+      "osVersion": "26.2.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-11",
+    "notes": "Doesn’t want to launch. Kicks me out and shows black screen if I attempt to launch again",
+    "reports": [
+      {
+        "device": "iPhone 16",
+        "platform": "ios",
+        "osVersion": "26.2.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-03-11",
+        "notes": "Doesn’t want to launch. Kicks me out and shows black screen if I attempt to launch again",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9296",
+          "stage": "stable",
+          "commitShort": "ab2ca341a",
+          "buildId": "ios-self-built-1.0.0-9296"
+        }
+      }
+    ],
+    "screenshots": [],
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "nothing",
+        "perf": "n/a",
+        "notes": "Doesn’t want to launch. Kicks me out and shows black screen if I attempt to launch again",
+        "updatedAt": "2026-03-11",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 16",
+          "platform": "ios",
+          "osVersion": "26.2.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-03-11",
+          "notes": "Doesn’t want to launch. Kicks me out and shows black screen if I attempt to launch again",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9296",
+            "stage": "stable",
+            "commitShort": "ab2ca341a",
+            "buildId": "ios-self-built-1.0.0-9296"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 16",
+          "platform": "ios",
+          "osVersion": "26.2.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-03-11",
+          "notes": "Doesn’t want to launch. Kicks me out and shows black screen if I attempt to launch again",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9296",
+            "stage": "stable",
+            "commitShort": "ab2ca341a",
+            "buildId": "ios-self-built-1.0.0-9296"
+          }
+        }
+      }
+    },
+    "issueNumber": 204,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/204"
   },
   {
     "slug": "marvel-ult-alliance-2",
@@ -15908,241 +16292,5 @@
         }
       }
     }
-  },
-  {
-    "slug": "marathon-exe",
-    "title": "marathon.exe",
-    "titleId": "534507D6",
-    "status": "nothing",
-    "perf": "n/a",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 16",
-      "platform": "ios",
-      "osVersion": "26.2.1",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-11",
-    "notes": "Doesn’t want to launch. Kicks me out and shows black screen if I attempt to launch again",
-    "reports": [
-      {
-        "device": "iPhone 16",
-        "platform": "ios",
-        "osVersion": "26.2.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-03-11",
-        "notes": "Doesn’t want to launch. Kicks me out and shows black screen if I attempt to launch again",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9296",
-          "stage": "stable",
-          "commitShort": "ab2ca341a",
-          "buildId": "ios-self-built-1.0.0-9296"
-        }
-      }
-    ],
-    "screenshots": [],
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "Doesn’t want to launch. Kicks me out and shows black screen if I attempt to launch again",
-        "updatedAt": "2026-03-11",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 16",
-          "platform": "ios",
-          "osVersion": "26.2.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-11",
-          "notes": "Doesn’t want to launch. Kicks me out and shows black screen if I attempt to launch again",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9296",
-            "stage": "stable",
-            "commitShort": "ab2ca341a",
-            "buildId": "ios-self-built-1.0.0-9296"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 16",
-          "platform": "ios",
-          "osVersion": "26.2.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-11",
-          "notes": "Doesn’t want to launch. Kicks me out and shows black screen if I attempt to launch again",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9296",
-            "stage": "stable",
-            "commitShort": "ab2ca341a",
-            "buildId": "ios-self-built-1.0.0-9296"
-          }
-        }
-      }
-    },
-    "issueNumber": 204,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/204"
-  },
-  {
-    "slug": "dead-island",
-    "title": "Dead Island",
-    "titleId": "4B4D07DF",
-    "status": "playable",
-    "perf": "great",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 16e",
-      "platform": "ios",
-      "osVersion": "26.1",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-11",
-    "notes": "Black distortion on side of screen but works great",
-    "reports": [
-      {
-        "device": "iPhone 16e",
-        "platform": "ios",
-        "osVersion": "26.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "great",
-        "date": "2026-03-11",
-        "notes": "Black distortion on side of screen but works great",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9296",
-          "stage": "stable",
-          "commitShort": "ab2ca341a",
-          "buildId": "ios-self-built-1.0.0-9296"
-        }
-      }
-    ],
-    "screenshots": [],
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "playable",
-        "perf": "great",
-        "notes": "Black distortion on side of screen but works great",
-        "updatedAt": "2026-03-11",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 16e",
-          "platform": "ios",
-          "osVersion": "26.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-03-11",
-          "notes": "Black distortion on side of screen but works great",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9296",
-            "stage": "stable",
-            "commitShort": "ab2ca341a",
-            "buildId": "ios-self-built-1.0.0-9296"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 16e",
-          "platform": "ios",
-          "osVersion": "26.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-03-11",
-          "notes": "Black distortion on side of screen but works great",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9296",
-            "stage": "stable",
-            "commitShort": "ab2ca341a",
-            "buildId": "ios-self-built-1.0.0-9296"
-          }
-        }
-      }
-    },
-    "issueNumber": 205,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/205"
   }
 ]

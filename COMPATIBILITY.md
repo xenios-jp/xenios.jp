@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **135 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **136 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **41** · 🔵 In-Game: **33** · 🟡 Intro: **19** · 🟠 Loads: **21** · 🔴 Doesn't Boot: **21**
+> 🟢 Playable: **41** · 🔵 In-Game: **34** · 🟡 Intro: **19** · 🟠 Loads: **21** · 🔴 Doesn't Boot: **21**
 >
-> 📱 iOS: **133** · 🖥️ macOS: **4**
+> 📱 iOS: **133** · 🖥️ macOS: **5**
 
 ## Legend
 
@@ -66,6 +66,7 @@
 | 🔵 | AC Revelations | `55530879` | 📱 iOS | In-Game | 🐢 Poor | iPhone 15 Pro Max | 2026-03-11 |
 | 🔵 | Batman: Arkham City™ | `57520802` | 📱 iOS | In-Game | 👌 OK | iPhone 15 Pro Max | 2026-03-09 |
 | 🔵 | Bayonetta | `53450813` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 | 2026-03-08 |
+| 🔵 | Blue Dragon | `4D5307DF` | 🖥️ macOS | In-Game | 🚀 Great | MacMini M2 | 2026-03-11 |
 | 🔵 | Call of Duty 2 | `415607D1` | 📱 iOS | In-Game | 👌 OK | iPhone 16 | 2026-03-09 |
 | 🔵 | DEF JAM: ICON™ | `454107EE` | 📱 iOS | In-Game | 🐢 Poor | iPhone 16e | 2026-03-11 |
 | 🔵 | Diablo III | `394F07D1` | 📱 iOS | In-Game | 🐢 Poor | iPhone Air | 2026-03-09 |
