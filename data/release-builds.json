@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-03-08T16:24:39Z",
+  "generatedAt": "2026-03-11T08:03:53Z",
   "platforms": {
     "ios": {
       "release": {
-        "buildId": "ios-release-1.0.0-9280",
+        "buildId": "ios-release-1.0.0-9296",
         "channel": "release",
         "official": true,
         "appVersion": "1.0.0",
-        "buildNumber": "9280",
+        "buildNumber": "9296",
         "stage": "stable",
-        "commitShort": "2633e8177",
-        "publishedAt": "2026-03-08T15:56:00Z",
-        "label": "1.0.0-9280",
+        "commitShort": "ab2ca341a",
+        "publishedAt": "2026-03-11T07:38:28Z",
+        "label": "1.0.0-9296",
         "notes": "Official CI release build published from xenios-jp/XeniOS.",
         "sourceLabel": "GitHub Release",
-        "sourceUrl": "https://github.com/xenios-jp/XeniOS/releases/tag/release-v1.0.0-build-9280",
+        "sourceUrl": "https://github.com/xenios-jp/XeniOS/releases/tag/release-v1.0.0-build-9296",
         "artifacts": [
           {
             "id": "ios-arm64-ipa-xenios-ios-iphone-ipad-ipa",
@@ -23,9 +23,9 @@
             "platform": "ios",
             "arch": "arm64",
             "kind": "ipa",
-            "downloadUrl": "https://github.com/xenios-jp/XeniOS/releases/download/release-v1.0.0-build-9280/xenios_ios_iphone_ipad.ipa",
-            "sha256": "8444fed10caf61cc46e1cb8988621538263ee6c26861b88154109ac3f5391b51",
-            "sizeBytes": 11684381,
+            "downloadUrl": "https://github.com/xenios-jp/XeniOS/releases/download/release-v1.0.0-build-9296/xenios_ios_iphone_ipad.ipa",
+            "sha256": "3d632d377c4ec8d7d80dd5d98f151f23dd126fdbdf962b7170224277078fe2a5",
+            "sizeBytes": 11702513,
             "sizeLabel": "11 MB"
           }
         ],
@@ -35,18 +35,18 @@
     },
     "macos": {
       "release": {
-        "buildId": "macos-release-1.0.0-9280",
+        "buildId": "macos-release-1.0.0-9296",
         "channel": "release",
         "official": true,
         "appVersion": "1.0.0",
-        "buildNumber": "9280",
+        "buildNumber": "9296",
         "stage": "stable",
-        "commitShort": "2633e8177",
-        "publishedAt": "2026-03-08T15:56:00Z",
-        "label": "1.0.0-9280",
+        "commitShort": "ab2ca341a",
+        "publishedAt": "2026-03-11T07:38:28Z",
+        "label": "1.0.0-9296",
         "notes": "Official CI release build published from xenios-jp/XeniOS.",
         "sourceLabel": "GitHub Release",
-        "sourceUrl": "https://github.com/xenios-jp/XeniOS/releases/tag/release-v1.0.0-build-9280",
+        "sourceUrl": "https://github.com/xenios-jp/XeniOS/releases/tag/release-v1.0.0-build-9296",
         "artifacts": [
           {
             "id": "macos-arm64-dmg-xenios-macos-apple-silicon-dmg",
@@ -55,9 +55,9 @@
             "platform": "macos",
             "arch": "arm64",
             "kind": "dmg",
-            "downloadUrl": "https://github.com/xenios-jp/XeniOS/releases/download/release-v1.0.0-build-9280/xenios_macos_apple_silicon.dmg",
-            "sha256": "9c1ba1c1f2945dc994f3f49b6e5ceadf2c176ac6b9f41049578eabc644033b05",
-            "sizeBytes": 62784250,
+            "downloadUrl": "https://github.com/xenios-jp/XeniOS/releases/download/release-v1.0.0-build-9296/xenios_macos_apple_silicon.dmg",
+            "sha256": "29e8d57b443d3cb0e441e296c5cc9ee5685810318dd8d9f9d365b81ff1efa1ac",
+            "sizeBytes": 62793684,
             "sizeLabel": "60 MB"
           },
           {
@@ -67,9 +67,9 @@
             "platform": "macos",
             "arch": "x86_64",
             "kind": "dmg",
-            "downloadUrl": "https://github.com/xenios-jp/XeniOS/releases/download/release-v1.0.0-build-9280/xenios_macos_intel.dmg",
-            "sha256": "5ea064eb1df50172ee38764d018aa96a6e8b77b6f24d3c11e973a1fa7fea155f",
-            "sizeBytes": 63920433,
+            "downloadUrl": "https://github.com/xenios-jp/XeniOS/releases/download/release-v1.0.0-build-9296/xenios_macos_intel.dmg",
+            "sha256": "b4e06b3c27ee5823167bdbc74420a35e113114f327c3870aae89a9746aa34396",
+            "sizeBytes": 63944833,
             "sizeLabel": "61 MB"
           }
         ],
