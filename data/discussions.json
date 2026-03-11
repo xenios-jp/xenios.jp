@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-11T04:13:09.224Z",
+  "generatedAt": "2026-03-11T04:25:58.665Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1047,6 +1047,35 @@
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/186",
       "updatedAt": "2026-03-11",
       "entries": [
+        {
+          "id": "comment-4036261342",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/186#issuecomment-4036261342",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-11",
+          "createdAtMs": 1773203084000,
+          "issueNumber": 186,
+          "excerpt": "In my case I had to convert the dumped game’s ISO file using extract-iso. The game itself is a launcher for each .xex file for the individual games. Each game must be manually booted by pressing the + button in XeniOS and selecting the respective folder for each title (DBZ1 for Budokai 1 and DBZ3 for Budokai 3). Both games have good performance. Budokai 1 has more graphical issues than Budokai 3. In the character select screen for Budokai 1, there are graphical glitches with the characters’ artwork. When entering a battle, a black screen appears. For Budokai 3, a black screen appears when entering Dragon Universe mode. During battles, the enemy character is invisible and only appears when using a blast attack (ex. Kamehameha), teleporting, activating Hyper Mode, or triggering Dragon Rush. Overall, both games run very well, with Budokai 3 having fewer issues.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4E4D0856/1773203079327-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4E4D0856/1773203079327-2.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4E4D0856/1773203079327-3.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4E4D0856/1773203079327-4.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4E4D0856/1773203079327-5.jpg"
+          ],
+          "meta": {
+            "status": "ingame",
+            "perf": "great",
+            "device": "iPhone 16 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.2",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        },
         {
           "id": "issue-186",
           "type": "issue",

@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **126 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **127 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **38** · 🔵 In-Game: **32** · 🟡 Intro: **17** · 🟠 Loads: **20** · 🔴 Doesn't Boot: **19**
+> 🟢 Playable: **38** · 🔵 In-Game: **33** · 🟡 Intro: **17** · 🟠 Loads: **20** · 🔴 Doesn't Boot: **19**
 >
-> 📱 iOS: **124** · 🖥️ macOS: **5**
+> 📱 iOS: **125** · 🖥️ macOS: **5**
 
 ## Legend
 
@@ -48,7 +48,7 @@
 | 🟢 | Mortal Kombat | `575207FD` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro Max | 2026-03-10 |
 | 🟢 | Naruto Rise Of A Ninja | `555307E5` | 📱 iOS | Playable | 🚀 Great | iPhone 15 Pro | 2026-03-09 |
 | 🟢 | NBA LIVE 06 | `454107D8` | 📱 iOS | Playable | 👌 OK | iPhone 16e | 2026-03-10 |
-| 🟢 | NFS ProStreet | `45410822` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro | 2026-03-11 |
+| 🟢 | Need for Speed: ProStreet | `45410822` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro | 2026-03-11 |
 | 🟢 | NFS Undercover | `45410876` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-09 |
 | 🟢 | PES 2012/WE 2012 | `4B4E0837` | 📱 iOS | Playable | 👌 OK | iPhone 14 Pro Max | 2026-03-08 |
 | 🟢 | Ridge Racer 6 | `4E4D07D3` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-08 |
@@ -84,6 +84,7 @@
 | 🔵 | PES 2013/WE 2013 | `4B4E084C` | 📱 iOS | In-Game | 👌 OK | iPhone 14 | 2026-03-09 |
 | 🔵 | PES 2016 | `4B4E0861` | 📱 iOS | In-Game | 👌 OK | iPhone 14 | 2026-03-09 |
 | 🔵 | Pinball Arcade | `5841121D` | 📱 iOS | In-Game | 🐢 Poor | iPhone 13 | 2026-03-10 |
+| 🔵 | Quantum of Solace | `415607FF` | 📱 iOS | In-Game | 🐢 Poor | iPhone 16 Pro Max | 2026-03-11 |
 | 🔵 | Saints Row | `545107D1` | 📱 iOS | In-Game | 👌 OK | iPhone 16 | 2026-03-10 |
 | 🔵 | Saints Row 2 | `545107FC` | 📱 iOS | In-Game | 🐢 Poor | iPhone 14 Pro Max | 2026-03-08 |
 | 🔵 | skate. | `45410813` | 📱 iOS | In-Game | 🐢 Poor | iPad Pro (M2) | 2026-03-03 |
