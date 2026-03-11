@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-11T16:56:04.551Z",
+  "generatedAt": "2026-03-11T17:08:59.136Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1030,6 +1030,41 @@
             "appVersion": "1.0.0",
             "buildNumber": "9280",
             "commitShort": "`2633e8177`"
+          }
+        }
+      ]
+    },
+    "545408B8": {
+      "titleId": "545408B8",
+      "issueNumber": 208,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/208",
+      "updatedAt": "2026-03-11",
+      "entries": [
+        {
+          "id": "issue-208",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/208",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-11",
+          "createdAtMs": 1773248875000,
+          "issueNumber": 208,
+          "excerpt": "Intro video shows glitched static. Audio is glitched as well. Menu works.\n\nWhen starting the game, there is no loadscreen music and the game loads forever with the loading progress bar moving ever so slightly once in a while.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408B8/1773248864425-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408B8/1773248864425-2.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408B8/1773248864425-3.jpg"
+          ],
+          "meta": {
+            "status": "loads",
+            "perf": "ok",
+            "device": "iPhone 16 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 18.6",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9296",
+            "commitShort": "`ab2ca341a`"
           }
         }
       ]

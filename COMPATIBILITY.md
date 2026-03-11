@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **137 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **138 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **41** · 🔵 In-Game: **35** · 🟡 Intro: **19** · 🟠 Loads: **21** · 🔴 Doesn't Boot: **21**
+> 🟢 Playable: **41** · 🔵 In-Game: **35** · 🟡 Intro: **19** · 🟠 Loads: **22** · 🔴 Doesn't Boot: **21**
 >
-> 📱 iOS: **134** · 🖥️ macOS: **5**
+> 📱 iOS: **135** · 🖥️ macOS: **5**
 
 ## Legend
 
@@ -124,6 +124,7 @@
 | 🟠 | Deadpool | `415608EC` | 📱 iOS | Loads | 🚀 Great | iPhone 15 Pro | 2026-03-09 |
 | 🟠 | Diablo III: RoS | `394F07D4` | 🖥️ macOS, 📱 iOS | Loads | 🐢 Poor | Macbook Pro M4 | 2026-03-09 |
 | 🟠 | Disney Epic Mickey 2 | `42560816` | 📱 iOS | Loads | 🐢 Poor | iPhone 15 Pro Max | 2026-03-08 |
+| 🟠 | GTA: San Andreas | `545408B8` | 📱 iOS | Loads | 👌 OK | iPhone 16 Pro Max | 2026-03-11 |
 | 🟠 | Jeopardy! | `545108AE` | 📱 iOS | Loads | 🐢 Poor | iPhone 16 Pro | 2026-03-05 |
 | 🟠 | Left 4 Dead | `45410830` | 📱 iOS | Loads | 🐢 Poor | iPhone 17 Pro Max | 2026-03-08 |
 | 🟠 | LEGO® Star Wars® III | `4C4107F3` | 📱 iOS | Loads | 👌 OK | iPhone 15 Pro | 2026-03-10 |
