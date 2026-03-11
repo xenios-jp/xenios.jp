@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-11T16:38:44.481Z",
+  "generatedAt": "2026-03-11T16:49:15.675Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1031,6 +1031,80 @@
             "buildNumber": "9280",
             "commitShort": "`2633e8177`"
           }
+        }
+      ]
+    },
+    "4B4D07DF": {
+      "titleId": "4B4D07DF",
+      "issueNumber": 205,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/205",
+      "updatedAt": "2026-03-11",
+      "entries": [
+        {
+          "id": "issue-205",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/205",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-11",
+          "createdAtMs": 1773247710000,
+          "issueNumber": 205,
+          "excerpt": "Black distortion on side of screen but works great",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 16e",
+            "platform": "iOS",
+            "osVersion": "iOS 26.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9296",
+            "commitShort": "`ab2ca341a`"
+          }
+        }
+      ]
+    },
+    "534507D6": {
+      "titleId": "534507D6",
+      "issueNumber": 204,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/204",
+      "updatedAt": "2026-03-11",
+      "entries": [
+        {
+          "id": "issue-204",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/204",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-11",
+          "createdAtMs": 1773247264000,
+          "issueNumber": 204,
+          "excerpt": "Doesn’t want to launch. Kicks me out and shows black screen if I attempt to launch again",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 16",
+            "platform": "iOS",
+            "osVersion": "iOS 26.2.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9296",
+            "commitShort": "`ab2ca341a`"
+          }
+        },
+        {
+          "id": "issue-53",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/53",
+          "author": "daisuke1227",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1772995043000,
+          "issueNumber": 53,
+          "excerpt": "So basically this took a couple of launches for it to even get past the title screen and it's at 30FPS when launching the game it doesn't render it correctly and it's just a green mess of whatever and sometimes even in game it just doesn't render things correctly (shown in the video) and performance doesn't change even when not recording",
+          "images": [],
+          "meta": {}
         }
       ]
     },
@@ -4921,26 +4995,6 @@
             "buildNumber": "9280",
             "commitShort": "`2633e8177`"
           }
-        }
-      ]
-    },
-    "534507D6": {
-      "titleId": "534507D6",
-      "issueNumber": 53,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/53",
-      "updatedAt": "2026-03-08",
-      "entries": [
-        {
-          "id": "issue-53",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/53",
-          "author": "daisuke1227",
-          "createdAt": "2026-03-08",
-          "createdAtMs": 1772995043000,
-          "issueNumber": 53,
-          "excerpt": "So basically this took a couple of launches for it to even get past the title screen and it's at 30FPS when launching the game it doesn't render it correctly and it's just a green mess of whatever and sometimes even in game it just doesn't render things correctly (shown in the video) and performance doesn't change even when not recording",
-          "images": [],
-          "meta": {}
         }
       ]
     },
