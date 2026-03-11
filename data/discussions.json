@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-11T11:15:51.582Z",
+  "generatedAt": "2026-03-11T12:52:32.793Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -820,6 +820,39 @@
             "appVersion": "1.0.0",
             "buildNumber": "9280",
             "commitShort": "`2633e8177`"
+          }
+        }
+      ]
+    },
+    "54510890": {
+      "titleId": "54510890",
+      "issueNumber": 200,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/200",
+      "updatedAt": "2026-03-11",
+      "entries": [
+        {
+          "id": "issue-200",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/200",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-11",
+          "createdAtMs": 1773233500000,
+          "issueNumber": 200,
+          "excerpt": "Now loading infinite screen",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/54510890/1773233497218-1.jpg"
+          ],
+          "meta": {
+            "status": "loads",
+            "perf": "ok",
+            "device": "iPhone 15 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9296",
+            "commitShort": "`ab2ca341a`"
           }
         }
       ]

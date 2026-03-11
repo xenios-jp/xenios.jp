@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **130 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **131 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **39** · 🔵 In-Game: **32** · 🟡 Intro: **19** · 🟠 Loads: **20** · 🔴 Doesn't Boot: **20**
+> 🟢 Playable: **39** · 🔵 In-Game: **32** · 🟡 Intro: **19** · 🟠 Loads: **21** · 🔴 Doesn't Boot: **20**
 >
-> 📱 iOS: **129** · 🖥️ macOS: **3**
+> 📱 iOS: **130** · 🖥️ macOS: **3**
 
 ## Legend
 
@@ -130,6 +130,7 @@
 | 🟠 | Spider-Man™: EoT | `415608B2` | 📱 iOS | Loads | 🐢 Poor | iPhone 15 Pro Max | 2026-03-09 |
 | 🟠 | The Orange Box | `4541080F` | 📱 iOS | Loads | 🐢 Poor | iPhone 17 Pro Max | 2026-03-08 |
 | 🟠 | Tron: Evolution | `425607ED` | 📱 iOS | Loads | 👌 OK | iPhone 15 Pro Max | 2026-03-09 |
+| 🟠 | WWE '12 | `54510890` | 📱 iOS | Loads | 👌 OK | iPhone 15 Pro | 2026-03-11 |
 | 🔴 | [Prototype]™ | `4156084E` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 12 Pro Max | 2026-03-08 |
 | 🔴 | Call Of Duty 3 | `415607E1` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-09 |
 | 🔴 | Call of Duty: Black Ops | `41560855` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 Pro Max | 2026-03-09 |
