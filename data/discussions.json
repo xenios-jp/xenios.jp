@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-11T14:09:46.327Z",
+  "generatedAt": "2026-03-11T14:58:47.399Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -526,8 +526,26 @@
       "titleId": "45410915",
       "issueNumber": 14,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/14",
-      "updatedAt": "2026-03-07",
+      "updatedAt": "2026-03-11",
       "entries": [
+        {
+          "id": "comment-4039820234",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/14#issuecomment-4039820234",
+          "author": "NardoKrazy",
+          "createdAt": "2026-03-11",
+          "createdAtMs": 1773241069000,
+          "issueNumber": 14,
+          "excerpt": "Booting INGAME Running on iPhone 17 Pro Max\n\n<img width=\"1434\" height=\"660\" alt=\"Image\" src=\" />",
+          "images": [
+            "https://github.com/user-attachments/assets/8e9fe2c4-ebed-46ec-9cde-49894b916297",
+            "https://github.com/user-attachments/assets/fa868d95-ebf8-45b9-9acb-11587d675576",
+            "https://github.com/user-attachments/assets/f43faa54-b6d3-4421-b778-574ca6291d1b",
+            "https://github.com/user-attachments/assets/288abe9a-93bf-4f44-a9eb-b196142edb19",
+            "https://github.com/user-attachments/assets/615842f0-0147-4187-9ebe-756b70c42cba"
+          ],
+          "meta": {}
+        },
         {
           "id": "issue-14",
           "type": "issue",
