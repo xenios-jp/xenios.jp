@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-11T15:24:41.135Z",
+  "generatedAt": "2026-03-11T15:49:42.728Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1005,6 +1005,26 @@
             "buildNumber": "9280",
             "commitShort": "`2633e8177`"
           }
+        }
+      ]
+    },
+    "4B4E07D1": {
+      "titleId": "4B4E07D1",
+      "issueNumber": 202,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/202",
+      "updatedAt": "2026-03-11",
+      "entries": [
+        {
+          "id": "issue-202",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/202",
+          "author": "vivat-concordia",
+          "createdAt": "2026-03-11",
+          "createdAtMs": 1773244139000,
+          "issueNumber": 202,
+          "excerpt": "Sometimes it freezes on loading, the intro video and the city map have strong glitches, sometimes the sound disappears until restarting.",
+          "images": [],
+          "meta": {}
         }
       ]
     },

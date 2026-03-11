@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **131 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **132 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **39** · 🔵 In-Game: **32** · 🟡 Intro: **19** · 🟠 Loads: **21** · 🔴 Doesn't Boot: **20**
+> 🟢 Playable: **40** · 🔵 In-Game: **32** · 🟡 Intro: **19** · 🟠 Loads: **21** · 🔴 Doesn't Boot: **20**
 >
-> 📱 iOS: **130** · 🖥️ macOS: **3**
+> 📱 iOS: **130** · 🖥️ macOS: **4**
 
 ## Legend
 
@@ -53,6 +53,7 @@
 | 🟢 | NFS Undercover | `45410876` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-09 |
 | 🟢 | PES 2012/WE 2012 | `4B4E0837` | 📱 iOS | Playable | 👌 OK | iPhone 14 Pro Max | 2026-03-08 |
 | 🟢 | Ridge Racer 6 | `4E4D07D3` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-08 |
+| 🟢 | Rumble Roses XX | `4B4E07D1` | 🖥️ macOS | Playable | 🚀 Great | MacMini M2 | 2026-03-11 |
 | 🟢 | STEINS;GATE 比翼恋理のだーりん | `465607E8` | 📱 iOS | Playable | 🚀 Great | iPhone 17 | 2026-03-02 |
 | 🟢 | StreetFighter IV | `434307FC` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro Max | 2026-03-09 |
 | 🟢 | STREETFIGHTER X TEKKEN | `4343080F` | 📱 iOS | Playable | 🐢 Poor | iPhone 16 Pro Max | 2026-03-11 |

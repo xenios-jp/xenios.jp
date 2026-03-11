@@ -7938,8 +7938,8 @@
       "https://raw.githubusercontent.com/xenios-jp/xenios.jp/main/public/compatibility/screenshots/4D5309B1/1772815889495-2.jpg",
       "https://raw.githubusercontent.com/xenios-jp/xenios.jp/main/public/compatibility/screenshots/4D5309B1/1772815889495-3.jpg"
     ],
-    "issueNumber": 1,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/1",
+    "issueNumber": 201,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/201",
     "summaries": {
       "release": {
         "channel": "release",
@@ -12487,6 +12487,118 @@
             "appVersion": "1.0.0",
             "buildNumber": "9280",
             "commitShort": "2633e8177"
+          }
+        }
+      }
+    }
+  },
+  {
+    "slug": "rumble-roses-xx",
+    "title": "Rumble Roses XX",
+    "titleId": "4B4E07D1",
+    "status": "playable",
+    "perf": "great",
+    "tags": [],
+    "platforms": [
+      "macos"
+    ],
+    "lastReport": {
+      "device": "MacMini M2",
+      "platform": "macos",
+      "osVersion": "15.7",
+      "arch": "arm64",
+      "gpuBackend": "msc"
+    },
+    "updatedAt": "2026-03-11",
+    "notes": "Sometimes it freezes on loading, the intro video and the city map have strong glitches, sometimes the sound disappears until restarting.",
+    "reports": [
+      {
+        "device": "MacMini M2",
+        "platform": "macos",
+        "osVersion": "15.7",
+        "arch": "arm64",
+        "gpuBackend": "msc",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-03-11",
+        "notes": "Sometimes it freezes on loading, the intro video and the city map have strong glitches, sometimes the sound disappears until restarting.",
+        "source": "github",
+        "build": {
+          "buildId": "macos-release-1.0.0-9296-9296",
+          "channel": "release",
+          "official": true,
+          "appVersion": "1.0.0-9296",
+          "buildNumber": "9296"
+        }
+      }
+    ],
+    "screenshots": [],
+    "issueNumber": 202,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/202",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "playable",
+        "perf": "great",
+        "notes": "Sometimes it freezes on loading, the intro video and the city map have strong glitches, sometimes the sound disappears until restarting.",
+        "updatedAt": "2026-03-11",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "MacMini M2",
+          "platform": "macos",
+          "osVersion": "15.7",
+          "arch": "arm64",
+          "gpuBackend": "msc",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-03-11",
+          "notes": "Sometimes it freezes on loading, the intro video and the city map have strong glitches, sometimes the sound disappears until restarting.",
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-1.0.0-9296-9296",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.0-9296",
+            "buildNumber": "9296"
+          }
+        },
+        "bestReport": {
+          "device": "MacMini M2",
+          "platform": "macos",
+          "osVersion": "15.7",
+          "arch": "arm64",
+          "gpuBackend": "msc",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-03-11",
+          "notes": "Sometimes it freezes on loading, the intro video and the city map have strong glitches, sometimes the sound disappears until restarting.",
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-1.0.0-9296-9296",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.0-9296",
+            "buildNumber": "9296"
           }
         }
       }
