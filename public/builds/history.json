@@ -1,6 +1,80 @@
 {
-  "generatedAt": "2026-03-08T16:24:39Z",
+  "generatedAt": "2026-03-11T08:03:53Z",
   "builds": [
+    {
+      "buildId": "ios-release-1.0.0-9296",
+      "channel": "release",
+      "official": true,
+      "appVersion": "1.0.0",
+      "buildNumber": "9296",
+      "stage": "stable",
+      "commitShort": "ab2ca341a",
+      "publishedAt": "2026-03-11T07:38:28Z",
+      "label": "1.0.0-9296",
+      "notes": "Official CI release build published from xenios-jp/XeniOS.",
+      "sourceLabel": "GitHub Release",
+      "sourceUrl": "https://github.com/xenios-jp/XeniOS/releases/tag/release-v1.0.0-build-9296",
+      "artifacts": [
+        {
+          "id": "ios-arm64-ipa-xenios-ios-iphone-ipad-ipa",
+          "name": "XeniOS for iPhone / iPad",
+          "label": "iPhone / iPad (IPA)",
+          "platform": "ios",
+          "arch": "arm64",
+          "kind": "ipa",
+          "downloadUrl": "https://github.com/xenios-jp/XeniOS/releases/download/release-v1.0.0-build-9296/xenios_ios_iphone_ipad.ipa",
+          "sha256": "3d632d377c4ec8d7d80dd5d98f151f23dd126fdbdf962b7170224277078fe2a5",
+          "sizeBytes": 11702513,
+          "sizeLabel": "11 MB"
+        }
+      ],
+      "platform": "ios",
+      "id": "ios-release-ios-release-1.0.0-9296",
+      "submittedBy": "GitHub Actions"
+    },
+    {
+      "buildId": "macos-release-1.0.0-9296",
+      "channel": "release",
+      "official": true,
+      "appVersion": "1.0.0",
+      "buildNumber": "9296",
+      "stage": "stable",
+      "commitShort": "ab2ca341a",
+      "publishedAt": "2026-03-11T07:38:28Z",
+      "label": "1.0.0-9296",
+      "notes": "Official CI release build published from xenios-jp/XeniOS.",
+      "sourceLabel": "GitHub Release",
+      "sourceUrl": "https://github.com/xenios-jp/XeniOS/releases/tag/release-v1.0.0-build-9296",
+      "artifacts": [
+        {
+          "id": "macos-arm64-dmg-xenios-macos-apple-silicon-dmg",
+          "name": "XeniOS for Apple Silicon",
+          "label": "Apple Silicon",
+          "platform": "macos",
+          "arch": "arm64",
+          "kind": "dmg",
+          "downloadUrl": "https://github.com/xenios-jp/XeniOS/releases/download/release-v1.0.0-build-9296/xenios_macos_apple_silicon.dmg",
+          "sha256": "29e8d57b443d3cb0e441e296c5cc9ee5685810318dd8d9f9d365b81ff1efa1ac",
+          "sizeBytes": 62793684,
+          "sizeLabel": "60 MB"
+        },
+        {
+          "id": "macos-x86_64-dmg-xenios-macos-intel-dmg",
+          "name": "XeniOS for Intel",
+          "label": "Intel",
+          "platform": "macos",
+          "arch": "x86_64",
+          "kind": "dmg",
+          "downloadUrl": "https://github.com/xenios-jp/XeniOS/releases/download/release-v1.0.0-build-9296/xenios_macos_intel.dmg",
+          "sha256": "b4e06b3c27ee5823167bdbc74420a35e113114f327c3870aae89a9746aa34396",
+          "sizeBytes": 63944833,
+          "sizeLabel": "61 MB"
+        }
+      ],
+      "platform": "macos",
+      "id": "macos-release-macos-release-1.0.0-9296",
+      "submittedBy": "GitHub Actions"
+    },
     {
       "buildId": "ios-release-1.0.0-9280",
       "channel": "release",
