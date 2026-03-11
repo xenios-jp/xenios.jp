@@ -15307,5 +15307,129 @@
     },
     "issueNumber": 189,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/189"
+  },
+  {
+    "slug": "ac-revelations",
+    "title": "AC Revelations",
+    "titleId": "55530879",
+    "status": "ingame",
+    "perf": "poor",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 15 Pro Max",
+      "platform": "ios",
+      "osVersion": "26.3",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-11",
+    "notes": "Game loads up, and runs decently with moderate slowdown and audio hiccups.\n\nOn initial run, the main menu may load weirdly, but is usually fixed in subsequent runs.\n\nVideos work fine, but lack any form of audio, and some in-engine cutscenes may also have issues with audio. \n\nVisual glitches occur, especially with the lower body of the player character when standing still.\n\nGame crashes occasionally, usually when entering new sections of the story. Intro runs decently, leading up to the first memory.\n\nGame also crashes at a specific point in the tutorial,(screenshot attached where Ezio is looking at Altair’s ghost on the wooden brackets) \n\nSo far, using a save from later on doesn’t seem to work well as later areas induce massive slowdowns with the increasing number of buildings and NPCS.",
+    "reports": [
+      {
+        "device": "iPhone 15 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "poor",
+        "date": "2026-03-11",
+        "notes": "Game loads up, and runs decently with moderate slowdown and audio hiccups.\n\nOn initial run, the main menu may load weirdly, but is usually fixed in subsequent runs.\n\nVideos work fine, but lack any form of audio, and some in-engine cutscenes may also have issues with audio. \n\nVisual glitches occur, especially with the lower body of the player character when standing still.\n\nGame crashes occasionally, usually when entering new sections of the story. Intro runs decently, leading up to the first memory.\n\nGame also crashes at a specific point in the tutorial,(screenshot attached where Ezio is looking at Altair’s ghost on the wooden brackets) \n\nSo far, using a save from later on doesn’t seem to work well as later areas induce massive slowdowns with the increasing number of buildings and NPCS.",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "stage": "stable",
+          "commitShort": "2633e8177",
+          "buildId": "ios-self-built-1.0.0-9280"
+        }
+      }
+    ],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/55530879/1773197309578-1.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/55530879/1773197309578-2.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/55530879/1773197309578-3.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/55530879/1773197309578-4.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/55530879/1773197309578-5.jpg"
+    ],
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "ingame",
+        "perf": "poor",
+        "notes": "Game loads up, and runs decently with moderate slowdown and audio hiccups.\n\nOn initial run, the main menu may load weirdly, but is usually fixed in subsequent runs.\n\nVideos work fine, but lack any form of audio, and some in-engine cutscenes may also have issues with audio. \n\nVisual glitches occur, especially with the lower body of the player character when standing still.\n\nGame crashes occasionally, usually when entering new sections of the story. Intro runs decently, leading up to the first memory.\n\nGame also crashes at a specific point in the tutorial,(screenshot attached where Ezio is looking at Altair’s ghost on the wooden brackets) \n\nSo far, using a save from later on doesn’t seem to work well as later areas induce massive slowdowns with the increasing number of buildings and NPCS.",
+        "updatedAt": "2026-03-11",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 15 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-03-11",
+          "notes": "Game loads up, and runs decently with moderate slowdown and audio hiccups.\n\nOn initial run, the main menu may load weirdly, but is usually fixed in subsequent runs.\n\nVideos work fine, but lack any form of audio, and some in-engine cutscenes may also have issues with audio. \n\nVisual glitches occur, especially with the lower body of the player character when standing still.\n\nGame crashes occasionally, usually when entering new sections of the story. Intro runs decently, leading up to the first memory.\n\nGame also crashes at a specific point in the tutorial,(screenshot attached where Ezio is looking at Altair’s ghost on the wooden brackets) \n\nSo far, using a save from later on doesn’t seem to work well as later areas induce massive slowdowns with the increasing number of buildings and NPCS.",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "stage": "stable",
+            "commitShort": "2633e8177",
+            "buildId": "ios-self-built-1.0.0-9280"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 15 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-03-11",
+          "notes": "Game loads up, and runs decently with moderate slowdown and audio hiccups.\n\nOn initial run, the main menu may load weirdly, but is usually fixed in subsequent runs.\n\nVideos work fine, but lack any form of audio, and some in-engine cutscenes may also have issues with audio. \n\nVisual glitches occur, especially with the lower body of the player character when standing still.\n\nGame crashes occasionally, usually when entering new sections of the story. Intro runs decently, leading up to the first memory.\n\nGame also crashes at a specific point in the tutorial,(screenshot attached where Ezio is looking at Altair’s ghost on the wooden brackets) \n\nSo far, using a save from later on doesn’t seem to work well as later areas induce massive slowdowns with the increasing number of buildings and NPCS.",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "stage": "stable",
+            "commitShort": "2633e8177",
+            "buildId": "ios-self-built-1.0.0-9280"
+          }
+        }
+      }
+    },
+    "issueNumber": 190,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/190"
   }
 ]

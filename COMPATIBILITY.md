@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **124 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **125 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **37** · 🔵 In-Game: **31** · 🟡 Intro: **17** · 🟠 Loads: **20** · 🔴 Doesn't Boot: **19**
+> 🟢 Playable: **37** · 🔵 In-Game: **32** · 🟡 Intro: **17** · 🟠 Loads: **20** · 🔴 Doesn't Boot: **19**
 >
-> 📱 iOS: **122** · 🖥️ macOS: **5**
+> 📱 iOS: **123** · 🖥️ macOS: **5**
 
 ## Legend
 
@@ -58,6 +58,7 @@
 | 🟢 | The Outfit | `545107D2` | 📱 iOS | Playable | 🐢 Poor | iPhone 15 Pro Max | 2026-03-08 |
 | 🟢 | Virtua Fighter 5: Final Showdown | `534507EE` | 📱 iOS | Playable | 👌 OK | iPhone 17 Pro Max | 2026-03-03 |
 | 🔵 | [Midnight Club: Los Angeles] | `545407F8` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro Max | 2026-03-10 |
+| 🔵 | AC Revelations | `55530879` | 📱 iOS | In-Game | 🐢 Poor | iPhone 15 Pro Max | 2026-03-11 |
 | 🔵 | Batman: Arkham City™ | `57520802` | 📱 iOS | In-Game | 👌 OK | iPhone 15 Pro Max | 2026-03-09 |
 | 🔵 | Bayonetta | `53450813` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 | 2026-03-08 |
 | 🔵 | Call of Duty 2 | `415607D1` | 📱 iOS | In-Game | 👌 OK | iPhone 16 | 2026-03-09 |
