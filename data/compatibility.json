@@ -7863,21 +7863,42 @@
     "title": "Halo: CE Anniversary",
     "titleId": "4D5309B1",
     "status": "playable",
-    "perf": "great",
+    "perf": "ok",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 15 Pro Max",
+      "device": "iPhone 16 Pro",
       "platform": "ios",
-      "osVersion": "26.4",
+      "osVersion": "26.3.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-08",
-    "notes": "Works great as long as graphics are switched to classic.",
+    "updatedAt": "2026-03-11",
+    "notes": "Playable and with decent performance just make sure you are set to classic video and audio.",
     "reports": [
+      {
+        "device": "iPhone 16 Pro",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-03-11",
+        "notes": "Playable and with decent performance just make sure you are set to classic video and audio.",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9296",
+          "stage": "stable",
+          "commitShort": "ab2ca341a",
+          "buildId": "ios-self-built-1.0.0-9296"
+        }
+      },
       {
         "device": "iPhone 15 Pro Max",
         "platform": "ios",
@@ -7943,48 +7964,50 @@
       "all": {
         "channel": "all",
         "status": "playable",
-        "perf": "great",
-        "notes": "Works great as long as graphics are switched to classic.",
-        "updatedAt": "2026-03-08",
-        "reportCount": 2,
+        "perf": "ok",
+        "notes": "Playable and with decent performance just make sure you are set to classic video and audio.",
+        "updatedAt": "2026-03-11",
+        "reportCount": 3,
         "latestReport": {
-          "device": "iPhone 15 Pro Max",
+          "device": "iPhone 16 Pro",
           "platform": "ios",
-          "osVersion": "26.4",
+          "osVersion": "26.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
-          "perf": "great",
-          "date": "2026-03-08",
-          "notes": "Works great as long as graphics are switched to classic.",
+          "perf": "ok",
+          "date": "2026-03-11",
+          "notes": "Playable and with decent performance just make sure you are set to classic video and audio.",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633e8177"
+            "buildNumber": "9296",
+            "stage": "stable",
+            "commitShort": "ab2ca341a",
+            "buildId": "ios-self-built-1.0.0-9296"
           }
         },
         "bestReport": {
-          "device": "iPhone 15 Pro Max",
+          "device": "iPhone 16 Pro",
           "platform": "ios",
-          "osVersion": "26.4",
+          "osVersion": "26.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
-          "perf": "great",
-          "date": "2026-03-08",
-          "notes": "Works great as long as graphics are switched to classic.",
+          "perf": "ok",
+          "date": "2026-03-11",
+          "notes": "Playable and with decent performance just make sure you are set to classic video and audio.",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633e8177"
+            "buildNumber": "9296",
+            "stage": "stable",
+            "commitShort": "ab2ca341a",
+            "buildId": "ios-self-built-1.0.0-9296"
           }
         }
       }
