@@ -14948,5 +14948,246 @@
     },
     "issueNumber": 187,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/187"
+  },
+  {
+    "slug": "nfs-prostreet",
+    "title": "NFS ProStreet",
+    "titleId": "45410822",
+    "status": "playable",
+    "perf": "ok",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 16 Pro",
+      "platform": "ios",
+      "osVersion": "26.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-11",
+    "notes": "FMVs are green and very few run at full speed, but they are skippable. The first menu is also green but that goes away when you hit start. \nGameplay looks pretty much exactly as intended, runs anywhere between 15-20 fps depending on the track and number of opponents, dips to 10 if temperatures rise or low power mode is enabled. Recommend performance testing on M series for more data.",
+    "reports": [
+      {
+        "device": "iPhone 16 Pro",
+        "platform": "ios",
+        "osVersion": "26.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-03-11",
+        "notes": "FMVs are green and very few run at full speed, but they are skippable. The first menu is also green but that goes away when you hit start. \nGameplay looks pretty much exactly as intended, runs anywhere between 15-20 fps depending on the track and number of opponents, dips to 10 if temperatures rise or low power mode is enabled. Recommend performance testing on M series for more data.",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "stage": "stable",
+          "commitShort": "2633e8177",
+          "buildId": "ios-self-built-1.0.0-9280"
+        }
+      }
+    ],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/45410822/1773195289208-1.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/45410822/1773195289208-2.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/45410822/1773195289208-3.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/45410822/1773195289208-4.jpg"
+    ],
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "playable",
+        "perf": "ok",
+        "notes": "FMVs are green and very few run at full speed, but they are skippable. The first menu is also green but that goes away when you hit start. \nGameplay looks pretty much exactly as intended, runs anywhere between 15-20 fps depending on the track and number of opponents, dips to 10 if temperatures rise or low power mode is enabled. Recommend performance testing on M series for more data.",
+        "updatedAt": "2026-03-11",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 16 Pro",
+          "platform": "ios",
+          "osVersion": "26.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-03-11",
+          "notes": "FMVs are green and very few run at full speed, but they are skippable. The first menu is also green but that goes away when you hit start. \nGameplay looks pretty much exactly as intended, runs anywhere between 15-20 fps depending on the track and number of opponents, dips to 10 if temperatures rise or low power mode is enabled. Recommend performance testing on M series for more data.",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "stage": "stable",
+            "commitShort": "2633e8177",
+            "buildId": "ios-self-built-1.0.0-9280"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 16 Pro",
+          "platform": "ios",
+          "osVersion": "26.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-03-11",
+          "notes": "FMVs are green and very few run at full speed, but they are skippable. The first menu is also green but that goes away when you hit start. \nGameplay looks pretty much exactly as intended, runs anywhere between 15-20 fps depending on the track and number of opponents, dips to 10 if temperatures rise or low power mode is enabled. Recommend performance testing on M series for more data.",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "stage": "stable",
+            "commitShort": "2633e8177",
+            "buildId": "ios-self-built-1.0.0-9280"
+          }
+        }
+      }
+    },
+    "issueNumber": 102,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/102"
+  },
+  {
+    "slug": "def-jam-icon",
+    "title": "DEF JAM: ICON™",
+    "titleId": "454107EE",
+    "status": "ingame",
+    "perf": "poor",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 16e",
+      "platform": "ios",
+      "osVersion": "26.3.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-11",
+    "notes": "Everything but the player models load. The fps is a little slow & audio is bad",
+    "reports": [
+      {
+        "device": "iPhone 16e",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "poor",
+        "date": "2026-03-11",
+        "notes": "Everything but the player models load. The fps is a little slow & audio is bad",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "stage": "stable",
+          "commitShort": "2633e8177",
+          "buildId": "ios-self-built-1.0.0-9280"
+        }
+      }
+    ],
+    "screenshots": [],
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "ingame",
+        "perf": "poor",
+        "notes": "Everything but the player models load. The fps is a little slow & audio is bad",
+        "updatedAt": "2026-03-11",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 16e",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-03-11",
+          "notes": "Everything but the player models load. The fps is a little slow & audio is bad",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "stage": "stable",
+            "commitShort": "2633e8177",
+            "buildId": "ios-self-built-1.0.0-9280"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 16e",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-03-11",
+          "notes": "Everything but the player models load. The fps is a little slow & audio is bad",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "stage": "stable",
+            "commitShort": "2633e8177",
+            "buildId": "ios-self-built-1.0.0-9280"
+          }
+        }
+      }
+    },
+    "issueNumber": 188,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/188"
   }
 ]

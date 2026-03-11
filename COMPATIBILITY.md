@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **121 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **123 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **36** · 🔵 In-Game: **30** · 🟡 Intro: **17** · 🟠 Loads: **20** · 🔴 Doesn't Boot: **18**
+> 🟢 Playable: **37** · 🔵 In-Game: **31** · 🟡 Intro: **17** · 🟠 Loads: **20** · 🔴 Doesn't Boot: **18**
 >
-> 📱 iOS: **119** · 🖥️ macOS: **5**
+> 📱 iOS: **121** · 🖥️ macOS: **5**
 
 ## Legend
 
@@ -48,6 +48,7 @@
 | 🟢 | Mortal Kombat | `575207FD` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro Max | 2026-03-10 |
 | 🟢 | Naruto Rise Of A Ninja | `555307E5` | 📱 iOS | Playable | 🚀 Great | iPhone 15 Pro | 2026-03-09 |
 | 🟢 | NBA LIVE 06 | `454107D8` | 📱 iOS | Playable | 👌 OK | iPhone 16e | 2026-03-10 |
+| 🟢 | NFS ProStreet | `45410822` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro | 2026-03-11 |
 | 🟢 | NFS Undercover | `45410876` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-09 |
 | 🟢 | PES 2012/WE 2012 | `4B4E0837` | 📱 iOS | Playable | 👌 OK | iPhone 14 Pro Max | 2026-03-08 |
 | 🟢 | Ridge Racer 6 | `4E4D07D3` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-08 |
@@ -60,6 +61,7 @@
 | 🔵 | Batman: Arkham City™ | `57520802` | 📱 iOS | In-Game | 👌 OK | iPhone 15 Pro Max | 2026-03-09 |
 | 🔵 | Bayonetta | `53450813` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 | 2026-03-08 |
 | 🔵 | Call of Duty 2 | `415607D1` | 📱 iOS | In-Game | 👌 OK | iPhone 16 | 2026-03-09 |
+| 🔵 | DEF JAM: ICON™ | `454107EE` | 📱 iOS | In-Game | 🐢 Poor | iPhone 16e | 2026-03-11 |
 | 🔵 | Diablo III | `394F07D1` | 📱 iOS | In-Game | 🐢 Poor | iPhone Air | 2026-03-09 |
 | 🔵 | EA SPORTS FN 3 | `454107DE` | 📱 iOS | In-Game | 🐢 Poor | iPhone 16e | 2026-03-10 |
 | 🔵 | Fable Anniversary | `4D530A87` | 📱 iOS | In-Game | 🐢 Poor | iPhone 16 Pro Max | 2026-03-09 |
