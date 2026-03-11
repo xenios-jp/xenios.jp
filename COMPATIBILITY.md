@@ -4,7 +4,7 @@
 >
 > 🟢 Playable: **38** · 🔵 In-Game: **32** · 🟡 Intro: **19** · 🟠 Loads: **20** · 🔴 Doesn't Boot: **19**
 >
-> 📱 iOS: **127** · 🖥️ macOS: **4**
+> 📱 iOS: **127** · 🖥️ macOS: **3**
 
 ## Legend
 
@@ -31,7 +31,7 @@
 | 🟢 | DEAD OR ALIVE 4 | `544307D1` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro | 2026-03-05 |
 | 🟢 | Dead Space™ | `45410857` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro | 2026-03-03 |
 | 🟢 | DEADLY PREMONITION | `494F07D4` | 📱 iOS | Playable | 👌 OK | iPad 11th Gen | 2026-03-09 |
-| 🟢 | DOA5 Ultimate | `4B5607E8` | 📱 iOS | Playable | 👌 OK | iPhone 13 | 2026-03-10 |
+| 🟢 | DOA5 Ultimate | `4B5607E8` | 📱 iOS | Playable | 🚀 Great | iPad Air 11-inch 7th Gen | 2026-03-11 |
 | 🟢 | Far Cry® 2 | `55530810` | 📱 iOS | Playable | 🐢 Poor | iPhone 16 | 2026-03-10 |
 | 🟢 | FINAL FANTASY XIII | `535107E4` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-03 |
 | 🟢 | Forza Motorsport 2 | `4D5307EA` | 📱 iOS | Playable | 🐢 Poor | iPhone 16 | 2026-03-10 |
@@ -72,7 +72,7 @@
 | 🔵 | Far Cry® 3 | `5553088C` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro | 2026-03-09 |
 | 🔵 | FIFA 16 | `454109EE` | 📱 iOS | In-Game | 👌 OK | iPhone 14 Pro Max | 2026-03-08 |
 | 🔵 | Forza Horizon | `4D5309C9` | 🖥️ macOS, 📱 iOS | In-Game | 🐢 Poor | Macbook Air M1 | 2026-03-10 |
-| 🔵 | Halo 3 | `4D5307E6` | 🖥️ macOS, 📱 iOS | In-Game | ➖ N/A | Macbook Pro M4 | 2026-03-09 |
+| 🔵 | Halo 3 | `4D5307E6` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 | 2026-03-11 |
 | 🔵 | Halo: Reach | `4D53085B` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 | 2026-03-06 |
 | 🔵 | Mercenaries 2 | `45410828` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro | 2026-03-09 |
 | 🔵 | Metro: Last Light | `4B4D07F5` | 🖥️ macOS | In-Game | 👌 OK | MacBook Pro M4 Pro/Max | 2026-02-28 |

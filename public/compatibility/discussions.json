@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-11T08:17:52.859Z",
+  "generatedAt": "2026-03-11T09:21:36.637Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -953,6 +953,152 @@
             "appVersion": "1.0.0",
             "buildNumber": "9280",
             "commitShort": "`2633e8177`"
+          }
+        }
+      ]
+    },
+    "4D5307E6": {
+      "titleId": "4D5307E6",
+      "issueNumber": 197,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/197",
+      "updatedAt": "2026-03-11",
+      "entries": [
+        {
+          "id": "issue-197",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/197",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-11",
+          "createdAtMs": 1773217236000,
+          "issueNumber": 197,
+          "excerpt": "Boots fine and loads into game with the initial cutscene loop workaround.",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "poor",
+            "device": "iPhone 17",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9296",
+            "commitShort": "`ab2ca341a`"
+          }
+        },
+        {
+          "id": "comment-4020045866",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/42#issuecomment-4020045866",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1773005064000,
+          "issueNumber": 42,
+          "excerpt": "- XeniOS is inside of LiveContainer nightly with universal.js as its script and it boots up the App Store version of StikDebug (the App Store version launches JIT for other apps just fine)\n- The PiP window almost never shows up\n- Halo 3 usually opens into a black screen but sometimes the entire app just closes instantly\n- I have all modern scripts in the scripts folder of the App Store version of StikDebug",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.0",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        },
+        {
+          "id": "comment-4019193267",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/42#issuecomment-4019193267",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1772981595000,
+          "issueNumber": 42,
+          "excerpt": "Another test",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "poor",
+            "device": "iPhone 17",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9276",
+            "commitShort": "`e8106d3ddb`"
+          }
+        },
+        {
+          "id": "comment-4018914091",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/42#issuecomment-4018914091",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1772970850000,
+          "issueNumber": 42,
+          "excerpt": "One more for luck…",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "poor",
+            "device": "iPhone 17",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9271",
+            "commitShort": "`0a5bf5b240`"
+          }
+        },
+        {
+          "id": "comment-4018869257",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/42#issuecomment-4018869257",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1772968770000,
+          "issueNumber": 42,
+          "excerpt": "Dev test report pre release",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "poor",
+            "device": "iPhone 17",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9271",
+            "commitShort": "`21f106d09e`"
+          }
+        },
+        {
+          "id": "comment-4018640275",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/42#issuecomment-4018640275",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1772958530000,
+          "issueNumber": 42,
+          "excerpt": "Test report",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "poor",
+            "device": "iPhone 17",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0",
+            "buildNumber": "1",
+            "commitShort": "`21f106d09e`"
           }
         }
       ]
@@ -3081,8 +3227,54 @@
       "titleId": "4B5607E8",
       "issueNumber": 115,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/115",
-      "updatedAt": "2026-03-10",
+      "updatedAt": "2026-03-11",
       "entries": [
+        {
+          "id": "comment-4037699738",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/115#issuecomment-4037699738",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-11",
+          "createdAtMs": 1773220837000,
+          "issueNumber": 115,
+          "excerpt": "Well done on iPad Air m3",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPad Air 11-inch 7th Gen",
+            "platform": "iOS",
+            "osVersion": "iOS 18.7.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9296",
+            "commitShort": "`ab2ca341a`"
+          }
+        },
+        {
+          "id": "comment-4037698432",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/115#issuecomment-4037698432",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-11",
+          "createdAtMs": 1773220827000,
+          "issueNumber": 115,
+          "excerpt": "Well done on iPad Air m3",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPad Air 11-inch 7th Gen",
+            "platform": "iOS",
+            "osVersion": "iOS 18.7.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9296",
+            "commitShort": "`ab2ca341a`"
+          }
+        },
         {
           "id": "comment-4028748967",
           "type": "comment",
@@ -5802,152 +5994,6 @@
             "osVersion": "macOS 26.3",
             "gpuBackend": "MSC",
             "submittedBy": "reality111"
-          }
-        }
-      ]
-    },
-    "4D5307E6": {
-      "titleId": "4D5307E6",
-      "issueNumber": 42,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/42",
-      "updatedAt": "2026-03-09",
-      "entries": [
-        {
-          "id": "comment-4020045866",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/42#issuecomment-4020045866",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-08",
-          "createdAtMs": 1773005064000,
-          "issueNumber": 42,
-          "excerpt": "- XeniOS is inside of LiveContainer nightly with universal.js as its script and it boots up the App Store version of StikDebug (the App Store version launches JIT for other apps just fine)\n- The PiP window almost never shows up\n- Halo 3 usually opens into a black screen but sometimes the entire app just closes instantly\n- I have all modern scripts in the scripts folder of the App Store version of StikDebug",
-          "images": [],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPhone 17 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 26.0",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "`2633e8177`"
-          }
-        },
-        {
-          "id": "comment-4019193267",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/42#issuecomment-4019193267",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-08",
-          "createdAtMs": 1772981595000,
-          "issueNumber": 42,
-          "excerpt": "Another test",
-          "images": [],
-          "meta": {
-            "status": "ingame",
-            "perf": "poor",
-            "device": "iPhone 17",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9276",
-            "commitShort": "`e8106d3ddb`"
-          }
-        },
-        {
-          "id": "comment-4018914091",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/42#issuecomment-4018914091",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-08",
-          "createdAtMs": 1772970850000,
-          "issueNumber": 42,
-          "excerpt": "One more for luck…",
-          "images": [],
-          "meta": {
-            "status": "ingame",
-            "perf": "poor",
-            "device": "iPhone 17",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9271",
-            "commitShort": "`0a5bf5b240`"
-          }
-        },
-        {
-          "id": "comment-4018869257",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/42#issuecomment-4018869257",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-08",
-          "createdAtMs": 1772968770000,
-          "issueNumber": 42,
-          "excerpt": "Dev test report pre release",
-          "images": [],
-          "meta": {
-            "status": "ingame",
-            "perf": "poor",
-            "device": "iPhone 17",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9271",
-            "commitShort": "`21f106d09e`"
-          }
-        },
-        {
-          "id": "comment-4018640275",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/42#issuecomment-4018640275",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-08",
-          "createdAtMs": 1772958530000,
-          "issueNumber": 42,
-          "excerpt": "Test report",
-          "images": [],
-          "meta": {
-            "status": "ingame",
-            "perf": "poor",
-            "device": "iPhone 17",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0",
-            "buildNumber": "1",
-            "commitShort": "`21f106d09e`"
-          }
-        },
-        {
-          "id": "comment-4018436926",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/42#issuecomment-4018436926",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-08",
-          "createdAtMs": 1772949904000,
-          "issueNumber": 42,
-          "excerpt": "Dev test report",
-          "images": [],
-          "meta": {
-            "status": "intro",
-            "perf": "poor",
-            "device": "iPhone 17",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0",
-            "buildNumber": "1",
-            "commitShort": "`315f4dee9`"
           }
         }
       ]

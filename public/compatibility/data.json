@@ -4715,21 +4715,61 @@
     "title": "DOA5 Ultimate",
     "titleId": "4B5607E8",
     "status": "playable",
-    "perf": "ok",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 13",
+      "device": "iPad Air 11-inch 7th Gen",
       "platform": "ios",
-      "osVersion": "18.0.1",
+      "osVersion": "18.7.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-10",
-    "notes": "The intro FMV has major graphical issues, but the rest of the game seems unaffected. After shader comp: Menuing works fine, in-game it sits at around 30FPS with the game slowing down to around 50% speed. It’s not unplayable and likely performs closer to full speed on a more powerful device, the A15 Bionic isn’t great for this. \n\nInternal display resolution set to 640x480, though DOA5 seems unaffected by it.",
+    "updatedAt": "2026-03-11",
+    "notes": "Well done on iPad Air m3",
     "reports": [
+      {
+        "device": "iPad Air 11-inch 7th Gen",
+        "platform": "ios",
+        "osVersion": "18.7.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-03-11",
+        "notes": "Well done on iPad Air m3",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.0-9296",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9296",
+          "commitShort": "ab2ca341a"
+        }
+      },
+      {
+        "device": "iPad Air 11-inch 7th Gen",
+        "platform": "ios",
+        "osVersion": "18.7.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-03-11",
+        "notes": "Well done on iPad Air m3",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.0-9296",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9296",
+          "commitShort": "ab2ca341a"
+        }
+      },
       {
         "device": "iPhone 13",
         "platform": "ios",
@@ -4803,48 +4843,48 @@
       "all": {
         "channel": "all",
         "status": "playable",
-        "perf": "ok",
-        "notes": "The intro FMV has major graphical issues, but the rest of the game seems unaffected. After shader comp: Menuing works fine, in-game it sits at around 30FPS with the game slowing down to around 50% speed. It’s not unplayable and likely performs closer to full speed on a more powerful device, the A15 Bionic isn’t great for this. \n\nInternal display resolution set to 640x480, though DOA5 seems unaffected by it.",
-        "updatedAt": "2026-03-10",
-        "reportCount": 2,
+        "perf": "great",
+        "notes": "Well done on iPad Air m3",
+        "updatedAt": "2026-03-11",
+        "reportCount": 4,
         "latestReport": {
-          "device": "iPhone 13",
+          "device": "iPad Air 11-inch 7th Gen",
           "platform": "ios",
-          "osVersion": "18.0.1",
+          "osVersion": "18.7.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
-          "perf": "ok",
-          "date": "2026-03-10",
-          "notes": "The intro FMV has major graphical issues, but the rest of the game seems unaffected. After shader comp: Menuing works fine, in-game it sits at around 30FPS with the game slowing down to around 50% speed. It’s not unplayable and likely performs closer to full speed on a more powerful device, the A15 Bionic isn’t great for this. \n\nInternal display resolution set to 640x480, though DOA5 seems unaffected by it.",
+          "perf": "great",
+          "date": "2026-03-11",
+          "notes": "Well done on iPad Air m3",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
+            "buildId": "ios-self-built-1.0.0-9296",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633e8177"
+            "buildNumber": "9296",
+            "commitShort": "ab2ca341a"
           }
         },
         "bestReport": {
-          "device": "iPhone 13",
+          "device": "iPad Air 11-inch 7th Gen",
           "platform": "ios",
-          "osVersion": "18.0.1",
+          "osVersion": "18.7.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
-          "perf": "ok",
-          "date": "2026-03-10",
-          "notes": "The intro FMV has major graphical issues, but the rest of the game seems unaffected. After shader comp: Menuing works fine, in-game it sits at around 30FPS with the game slowing down to around 50% speed. It’s not unplayable and likely performs closer to full speed on a more powerful device, the A15 Bionic isn’t great for this. \n\nInternal display resolution set to 640x480, though DOA5 seems unaffected by it.",
+          "perf": "great",
+          "date": "2026-03-11",
+          "notes": "Well done on iPad Air m3",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
+            "buildId": "ios-self-built-1.0.0-9296",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633e8177"
+            "buildNumber": "9296",
+            "commitShort": "ab2ca341a"
           }
         }
       }
@@ -7251,63 +7291,22 @@
     "title": "Halo 3",
     "titleId": "4D5307E6",
     "status": "ingame",
-    "perf": "n/a",
+    "perf": "poor",
     "tags": [],
     "platforms": [
-      "macos",
       "ios"
     ],
     "lastReport": {
-      "device": "Macbook Pro M4",
-      "platform": "macos",
-      "osVersion": "26.1",
+      "device": "iPhone 17",
+      "platform": "ios",
+      "osVersion": "26.3",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-09",
-    "notes": "Crashes immediately on load.",
+    "updatedAt": "2026-03-11",
+    "notes": "Boots fine and loads into game with the initial cutscene loop workaround.",
     "reports": [
       {
-        "device": "Macbook Pro M4",
-        "platform": "macos",
-        "osVersion": "26.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "perf": "n/a",
-        "date": "2026-03-09",
-        "notes": "Crashes immediately on load.",
-        "source": "github",
-        "build": {
-          "buildId": "macos-release-1.0.0-9280",
-          "channel": "release",
-          "official": true,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "commitShort": "2633E8177"
-        }
-      },
-      {
-        "device": "iPhone 17",
-        "platform": "ios",
-        "osVersion": "26.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "intro",
-        "perf": "poor",
-        "date": "2026-03-08",
-        "notes": "Dev test report",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0-1",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0",
-          "buildNumber": "1",
-          "commitShort": "315f4dee9"
-        }
-      },
-      {
         "device": "iPhone 17",
         "platform": "ios",
         "osVersion": "26.3",
@@ -7315,212 +7314,22 @@
         "gpuBackend": "msl",
         "status": "ingame",
         "perf": "poor",
-        "date": "2026-03-08",
-        "notes": "Test report",
+        "date": "2026-03-11",
+        "notes": "Boots fine and loads into game with the initial cutscene loop workaround.",
         "source": "app",
         "build": {
-          "buildId": "ios-self-built-1.0-1",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0",
-          "buildNumber": "1",
-          "commitShort": "21f106d09e"
-        }
-      },
-      {
-        "device": "iPhone 17",
-        "platform": "ios",
-        "osVersion": "26.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "perf": "poor",
-        "date": "2026-03-08",
-        "notes": "Dev test report pre release",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.0-9271",
+          "buildId": "ios-self-built-1.0.0-9296",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.0",
-          "buildNumber": "9271",
-          "commitShort": "21f106d09e"
+          "buildNumber": "9296",
+          "commitShort": "ab2ca341a"
         }
-      },
-      {
-        "device": "iPhone 17",
-        "platform": "ios",
-        "osVersion": "26.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "perf": "poor",
-        "date": "2026-03-08",
-        "notes": "One more for luck…",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.0-9271",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9271",
-          "commitShort": "0a5bf5b240"
-        }
-      },
-      {
-        "device": "iPhone 17",
-        "platform": "ios",
-        "osVersion": "26.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "perf": "poor",
-        "date": "2026-03-08",
-        "notes": "Another test",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.0-9276",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9276",
-          "commitShort": "e8106d3ddb"
-        }
-      },
-      {
-        "device": "MacBook Pro M1",
-        "platform": "ios",
-        "osVersion": "15.6.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-03-08",
-        "notes": "Shows Halo 3 copyright screen with logo and crashes immediately.",
-        "source": "github",
-        "build": {
-          "buildId": "ios-release-1.0.0-9280",
-          "channel": "release",
-          "official": true,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280"
-        }
-      },
-      {
-        "device": "iPhone 17 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.0",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-03-08",
-        "notes": "- XeniOS is inside of LiveContainer nightly with universal.js as its script and it boots up the App Store version of StikDebug (the App Store version launches JIT for other apps just fine)\n- The PiP window almost never shows up\n- Halo 3 usually opens into a black screen but sometimes the entire app just closes instantly\n- I have all modern scripts in the scripts folder of the App Store version of StikDebug",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.0-9280",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "commitShort": "2633e8177"
-        }
-      },
-      {
-        "device": "iPad Pro (M2)",
-        "platform": "ios",
-        "osVersion": "18.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-03-04",
-        "notes": "Crashes upon launch ping the game.",
-        "source": "app",
-        "build": null
-      },
-      {
-        "device": "iPhone17,1",
-        "platform": "ios",
-        "osVersion": "18.5",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "poor",
-        "date": "2026-03-04",
-        "notes": "Low FPS, but can start and play campaign, important note, if you die you can get stuck in a cutscene loop.",
-        "source": "app",
-        "build": null
-      },
-      {
-        "device": "iPhone17,1",
-        "platform": "ios",
-        "osVersion": "18.5",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "perf": "poor",
-        "date": "2026-03-02",
-        "notes": "Can play in campaign, frequently drops in FPS but seems to sit around 11-19 range. As described by another user you will need to select mission to bypass the initial cutscene which loops.",
-        "source": "app",
-        "build": null
-      },
-      {
-        "device": "iPhone18,3",
-        "platform": "ios",
-        "osVersion": "26.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "perf": "poor",
-        "date": "2026-03-01",
-        "notes": "Campaign cutscene cannot transition into gameplay in at least the first level. Workaround is to hit A to skip loop it once, back out, and start  the actual first mission from the campaign menu. \n\nPerformance is about 15fps on iPhone 17.",
-        "source": "app",
-        "build": null
-      },
-      {
-        "device": "iPhone 17",
-        "platform": "ios",
-        "osVersion": "iOS 26.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "poor",
-        "date": "2026-02-28",
-        "notes": "Does not boot",
-        "source": "discord",
-        "build": null
-      },
-      {
-        "device": "iPhone 17",
-        "platform": "macos",
-        "osVersion": "iOS 26.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-02-28",
-        "notes": "Does not boot",
-        "source": "discord",
-        "build": null
-      },
-      {
-        "device": "iPhone 16 Pro Max",
-        "platform": "macos",
-        "osVersion": "18.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-02-28",
-        "notes": "Does not boot",
-        "source": "discord",
-        "build": null
       }
     ],
     "screenshots": [],
-    "issueNumber": 42,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/42",
+    "issueNumber": 197,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/197",
     "summaries": {
       "release": {
         "channel": "release",
@@ -7544,43 +7353,50 @@
       },
       "all": {
         "channel": "all",
-        "status": "playable",
+        "status": "ingame",
         "perf": "poor",
-        "notes": "Crashes immediately on load.",
-        "updatedAt": "2026-03-09",
-        "reportCount": 15,
+        "notes": "Boots fine and loads into game with the initial cutscene loop workaround.",
+        "updatedAt": "2026-03-11",
+        "reportCount": 1,
         "latestReport": {
-          "device": "Macbook Pro M4",
-          "platform": "macos",
-          "osVersion": "26.1",
+          "device": "iPhone 17",
+          "platform": "ios",
+          "osVersion": "26.3",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "ingame",
-          "perf": "n/a",
-          "date": "2026-03-09",
-          "notes": "Crashes immediately on load.",
-          "source": "github",
+          "perf": "poor",
+          "date": "2026-03-11",
+          "notes": "Boots fine and loads into game with the initial cutscene loop workaround.",
+          "source": "app",
           "build": {
-            "buildId": "macos-release-1.0.0-9280",
-            "channel": "release",
-            "official": true,
+            "buildId": "ios-self-built-1.0.0-9296",
+            "channel": "self-built",
+            "official": false,
             "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633E8177"
+            "buildNumber": "9296",
+            "commitShort": "ab2ca341a"
           }
         },
         "bestReport": {
-          "device": "iPhone17,1",
+          "device": "iPhone 17",
           "platform": "ios",
-          "osVersion": "18.5",
+          "osVersion": "26.3",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "playable",
+          "status": "ingame",
           "perf": "poor",
-          "date": "2026-03-04",
-          "notes": "Low FPS, but can start and play campaign, important note, if you die you can get stuck in a cutscene loop.",
+          "date": "2026-03-11",
+          "notes": "Boots fine and loads into game with the initial cutscene loop workaround.",
           "source": "app",
-          "build": null
+          "build": {
+            "buildId": "ios-self-built-1.0.0-9296",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9296",
+            "commitShort": "ab2ca341a"
+          }
         }
       }
     }
