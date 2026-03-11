@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **138 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **136 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **41** · 🔵 In-Game: **35** · 🟡 Intro: **19** · 🟠 Loads: **22** · 🔴 Doesn't Boot: **21**
+> 🟢 Playable: **40** · 🔵 In-Game: **34** · 🟡 Intro: **20** · 🟠 Loads: **21** · 🔴 Doesn't Boot: **21**
 >
-> 📱 iOS: **135** · 🖥️ macOS: **5**
+> 📱 iOS: **135** · 🖥️ macOS: **4**
 
 ## Legend
 
@@ -54,7 +54,6 @@
 | 🟢 | NFS Undercover | `45410876` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-09 |
 | 🟢 | PES 2012/WE 2012 | `4B4E0837` | 📱 iOS | Playable | 👌 OK | iPhone 14 Pro Max | 2026-03-08 |
 | 🟢 | Ridge Racer 6 | `4E4D07D3` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-08 |
-| 🟢 | Rumble Roses XX | `4B4E07D1` | 🖥️ macOS | Playable | 🚀 Great | MacMini M2 | 2026-03-11 |
 | 🟢 | STEINS;GATE 比翼恋理のだーりん | `465607E8` | 📱 iOS | Playable | 🚀 Great | iPhone 17 | 2026-03-02 |
 | 🟢 | StreetFighter IV | `434307FC` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro Max | 2026-03-09 |
 | 🟢 | STREETFIGHTER X TEKKEN | `4343080F` | 📱 iOS | Playable | 🐢 Poor | iPhone 16 Pro Max | 2026-03-11 |
@@ -62,11 +61,9 @@
 | 🟢 | The Outfit | `545107D2` | 📱 iOS | Playable | 🐢 Poor | iPhone 15 Pro Max | 2026-03-08 |
 | 🟢 | Virtua Fighter 5: Final Showdown | `534507EE` | 📱 iOS | Playable | 👌 OK | iPhone 17 Pro Max | 2026-03-03 |
 | 🔵 | [Midnight Club: Los Angeles] | `545407F8` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro Max | 2026-03-10 |
-| 🔵 | [NFL TOUR] | `45410835` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro Max | 2026-03-11 |
 | 🔵 | AC Revelations | `55530879` | 📱 iOS | In-Game | 🐢 Poor | iPhone 15 Pro Max | 2026-03-11 |
 | 🔵 | Batman: Arkham City™ | `57520802` | 📱 iOS | In-Game | 👌 OK | iPhone 15 Pro Max | 2026-03-09 |
 | 🔵 | Bayonetta | `53450813` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 | 2026-03-08 |
-| 🔵 | Blue Dragon | `4D5307DF` | 🖥️ macOS | In-Game | 🚀 Great | MacMini M2 | 2026-03-11 |
 | 🔵 | Call of Duty 2 | `415607D1` | 📱 iOS | In-Game | 👌 OK | iPhone 16 | 2026-03-09 |
 | 🔵 | DEF JAM: ICON™ | `454107EE` | 📱 iOS | In-Game | 🐢 Poor | iPhone 16e | 2026-03-11 |
 | 🔵 | Diablo III | `394F07D1` | 📱 iOS | In-Game | 🐢 Poor | iPhone Air | 2026-03-09 |
@@ -79,6 +76,7 @@
 | 🔵 | Forza Horizon | `4D5309C9` | 🖥️ macOS, 📱 iOS | In-Game | 🐢 Poor | Macbook Air M1 | 2026-03-10 |
 | 🔵 | Halo 3 | `4D5307E6` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 | 2026-03-11 |
 | 🔵 | Halo: Reach | `4D53085B` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 | 2026-03-06 |
+| 🔵 | Lost Odyssey | `4D5307FA` | 🖥️ macOS, 📱 iOS | In-Game | 🚀 Great | Mac mini (M2) | 2026-03-11 |
 | 🔵 | Mercenaries 2 | `45410828` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro | 2026-03-09 |
 | 🔵 | Metro: Last Light | `4B4D07F5` | 🖥️ macOS | In-Game | 👌 OK | MacBook Pro M4 Pro/Max | 2026-02-28 |
 | 🔵 | NBA 2K10 | `54540852` | 📱 iOS | In-Game | 👌 OK | iPhone 16e | 2026-03-10 |
@@ -96,6 +94,7 @@
 | 🔵 | Spider-Man 3 | `415607E2` | 📱 iOS | In-Game | 🐢 Poor | iPhone 16 | 2026-03-10 |
 | 🔵 | Tomb Raider Underworld | `534307EC` | 📱 iOS | In-Game | 👌 OK | iPhone 16 Pro Max | 2026-03-11 |
 | 🔵 | Toy Story 3 | `425607E5` | 📱 iOS | In-Game | 👌 OK | iPhone 14 Pro Max | 2026-03-08 |
+| 🟡 | Assassin's Creed II | `5553083B` | 📱 iOS | Intro | 👌 OK | iPhone 15 Pro Max | 2026-03-11 |
 | 🟡 | Batman: Arkham Asylum | `534307F6` | 📱 iOS | Intro | 🚀 Great | iPhone 15 Pro | 2026-03-08 |
 | 🟡 | Beautiful Katamari | `4E4D07DC` | 📱 iOS | Intro | 👌 OK | iPhone 16 Pro | 2026-03-05 |
 | 🟡 | Burnout Revenge | `454107DC` | 📱 iOS | Intro | 🐢 Poor | iPhone 15 Pro Max | 2026-03-09 |
@@ -128,7 +127,6 @@
 | 🟠 | Jeopardy! | `545108AE` | 📱 iOS | Loads | 🐢 Poor | iPhone 16 Pro | 2026-03-05 |
 | 🟠 | Left 4 Dead | `45410830` | 📱 iOS | Loads | 🐢 Poor | iPhone 17 Pro Max | 2026-03-08 |
 | 🟠 | LEGO® Star Wars® III | `4C4107F3` | 📱 iOS | Loads | 👌 OK | iPhone 15 Pro | 2026-03-10 |
-| 🟠 | Lost Odyssey | `4D5307FA` | 📱 iOS | Loads | 🐢 Poor | iPhone 16 Pro | 2026-03-03 |
 | 🟠 | NARUTO STORM 3 | `4E4D085C` | 📱 iOS | Loads | 🐢 Poor | iPhone 15 Pro Max | 2026-03-08 |
 | 🟠 | NFS Most Wanted | `454107D9` | 📱 iOS | Loads | 👌 OK | iPad 11th Gen | 2026-03-09 |
 | 🟠 | Skate 3 | `454108E6` | 📱 iOS | Loads | 🐢 Poor | iPhone 13 Pro | 2026-03-09 |

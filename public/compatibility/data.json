@@ -138,118 +138,6 @@
     }
   },
   {
-    "slug": "nfl-tour",
-    "title": "[NFL TOUR]",
-    "titleId": "45410835",
-    "status": "ingame",
-    "perf": "poor",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 17 Pro Max",
-      "platform": "ios",
-      "osVersion": "26.3",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-11",
-    "notes": "Game loads up every texture is perfect but the field and game runs slow motion",
-    "reports": [
-      {
-        "device": "iPhone 17 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "perf": "poor",
-        "date": "2026-03-11",
-        "notes": "Game loads up every texture is perfect but the field and game runs slow motion",
-        "source": "github",
-        "build": {
-          "buildId": "ios-release-1.0.0-9296-9296",
-          "channel": "release",
-          "official": true,
-          "appVersion": "1.0.0-9296",
-          "buildNumber": "9296"
-        }
-      }
-    ],
-    "screenshots": [],
-    "issueNumber": 203,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/203",
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "ingame",
-        "perf": "poor",
-        "notes": "Game loads up every texture is perfect but the field and game runs slow motion",
-        "updatedAt": "2026-03-11",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 17 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-03-11",
-          "notes": "Game loads up every texture is perfect but the field and game runs slow motion",
-          "source": "github",
-          "build": {
-            "buildId": "ios-release-1.0.0-9296-9296",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.0-9296",
-            "buildNumber": "9296"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 17 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-03-11",
-          "notes": "Game loads up every texture is perfect but the field and game runs slow motion",
-          "source": "github",
-          "build": {
-            "buildId": "ios-release-1.0.0-9296-9296",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.0-9296",
-            "buildNumber": "9296"
-          }
-        }
-      }
-    }
-  },
-  {
     "slug": "prototype",
     "title": "[Prototype]™",
     "titleId": "4156084E",
@@ -1957,154 +1845,6 @@
             "appVersion": "1.0.0",
             "buildNumber": "9280",
             "commitShort": "2633e8177"
-          }
-        }
-      }
-    }
-  },
-  {
-    "slug": "blue-dragon",
-    "title": "Blue Dragon",
-    "titleId": "4D5307DF",
-    "status": "ingame",
-    "perf": "great",
-    "tags": [],
-    "platforms": [
-      "macos"
-    ],
-    "lastReport": {
-      "device": "MacMini M2",
-      "platform": "macos",
-      "osVersion": "15.7",
-      "arch": "arm64",
-      "gpuBackend": "msc"
-    },
-    "updatedAt": "2026-03-11",
-    "notes": "It runs smoothly, but occasionally stutters. During some cutscenes, the visuals look like The Matrix, and the frame rate drops noticeably. During gameplay, the colors sometimes (probably when the camera overlaps something) also skew to a greenish something. If you ignore these issues, the game is probably (more testing is needed) even playable from start to finish.",
-    "reports": [
-      {
-        "device": "MacMini M2",
-        "platform": "macos",
-        "osVersion": "15.7",
-        "arch": "arm64",
-        "gpuBackend": "msc",
-        "status": "ingame",
-        "perf": "great",
-        "date": "2026-03-11",
-        "notes": "It runs smoothly, but occasionally stutters. During some cutscenes, the visuals look like The Matrix, and the frame rate drops noticeably. During gameplay, the colors sometimes (probably when the camera overlaps something) also skew to a greenish something. If you ignore these issues, the game is probably (more testing is needed) even playable from start to finish.",
-        "source": "github",
-        "build": {
-          "buildId": "macos-release-1.0.0-9296",
-          "channel": "release",
-          "official": true,
-          "appVersion": "1.0.0",
-          "buildNumber": "9296"
-        }
-      }
-    ],
-    "screenshots": [],
-    "issueNumber": 206,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/206",
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "ingame",
-        "perf": "great",
-        "notes": "It runs smoothly, but occasionally stutters. During some cutscenes, the visuals look like The Matrix, and the frame rate drops noticeably. During gameplay, the colors sometimes (probably when the camera overlaps something) also skew to a greenish something. If you ignore these issues, the game is probably (more testing is needed) even playable from start to finish.",
-        "updatedAt": "2026-03-11",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "MacMini M2",
-          "platform": "macos",
-          "osVersion": "15.7",
-          "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "ingame",
-          "perf": "great",
-          "date": "2026-03-11",
-          "notes": "It runs smoothly, but occasionally stutters. During some cutscenes, the visuals look like The Matrix, and the frame rate drops noticeably. During gameplay, the colors sometimes (probably when the camera overlaps something) also skew to a greenish something. If you ignore these issues, the game is probably (more testing is needed) even playable from start to finish.",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.0-9296",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.0",
-            "buildNumber": "9296"
-          }
-        },
-        "bestReport": {
-          "device": "MacMini M2",
-          "platform": "macos",
-          "osVersion": "15.7",
-          "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "ingame",
-          "perf": "great",
-          "date": "2026-03-11",
-          "notes": "It runs smoothly, but occasionally stutters. During some cutscenes, the visuals look like The Matrix, and the frame rate drops noticeably. During gameplay, the colors sometimes (probably when the camera overlaps something) also skew to a greenish something. If you ignore these issues, the game is probably (more testing is needed) even playable from start to finish.",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.0-9296",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.0",
-            "buildNumber": "9296"
-          }
-        }
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "ingame",
-        "perf": "great",
-        "notes": "It runs smoothly, but occasionally stutters. During some cutscenes, the visuals look like The Matrix, and the frame rate drops noticeably. During gameplay, the colors sometimes (probably when the camera overlaps something) also skew to a greenish something. If you ignore these issues, the game is probably (more testing is needed) even playable from start to finish.",
-        "updatedAt": "2026-03-11",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "MacMini M2",
-          "platform": "macos",
-          "osVersion": "15.7",
-          "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "ingame",
-          "perf": "great",
-          "date": "2026-03-11",
-          "notes": "It runs smoothly, but occasionally stutters. During some cutscenes, the visuals look like The Matrix, and the frame rate drops noticeably. During gameplay, the colors sometimes (probably when the camera overlaps something) also skew to a greenish something. If you ignore these issues, the game is probably (more testing is needed) even playable from start to finish.",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.0-9296",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.0",
-            "buildNumber": "9296"
-          }
-        },
-        "bestReport": {
-          "device": "MacMini M2",
-          "platform": "macos",
-          "osVersion": "15.7",
-          "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "ingame",
-          "perf": "great",
-          "date": "2026-03-11",
-          "notes": "It runs smoothly, but occasionally stutters. During some cutscenes, the visuals look like The Matrix, and the frame rate drops noticeably. During gameplay, the colors sometimes (probably when the camera overlaps something) also skew to a greenish something. If you ignore these issues, the game is probably (more testing is needed) even playable from start to finish.",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.0-9296",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.0",
-            "buildNumber": "9296"
           }
         }
       }
@@ -3849,17 +3589,18 @@
         "notes": "Black distortion on side of screen but works great",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.0-9296",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.0",
           "buildNumber": "9296",
-          "stage": "stable",
-          "commitShort": "ab2ca341a",
-          "buildId": "ios-self-built-1.0.0-9296"
+          "commitShort": "ab2ca341a"
         }
       }
     ],
     "screenshots": [],
+    "issueNumber": 205,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/205",
     "summaries": {
       "release": {
         "channel": "release",
@@ -3900,13 +3641,12 @@
           "notes": "Black distortion on side of screen but works great",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9296",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9296",
-            "stage": "stable",
-            "commitShort": "ab2ca341a",
-            "buildId": "ios-self-built-1.0.0-9296"
+            "commitShort": "ab2ca341a"
           }
         },
         "bestReport": {
@@ -3921,19 +3661,16 @@
           "notes": "Black distortion on side of screen but works great",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9296",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9296",
-            "stage": "stable",
-            "commitShort": "ab2ca341a",
-            "buildId": "ios-self-built-1.0.0-9296"
+            "commitShort": "ab2ca341a"
           }
         }
       }
-    },
-    "issueNumber": 205,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/205"
+    }
   },
   {
     "slug": "dead-or-alive-4",
@@ -7571,6 +7308,125 @@
     }
   },
   {
+    "slug": "gta-san-andreas",
+    "title": "GTA: San Andreas",
+    "titleId": "545408B8",
+    "status": "loads",
+    "perf": "ok",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 16 Pro Max",
+      "platform": "ios",
+      "osVersion": "18.6",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-11",
+    "notes": "Intro video shows glitched static. Audio is glitched as well. Menu works.\n\nWhen starting the game, there is no loadscreen music and the game loads forever with the loading progress bar moving ever so slightly once in a while.",
+    "reports": [
+      {
+        "device": "iPhone 16 Pro Max",
+        "platform": "ios",
+        "osVersion": "18.6",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "loads",
+        "perf": "ok",
+        "date": "2026-03-11",
+        "notes": "Intro video shows glitched static. Audio is glitched as well. Menu works.\n\nWhen starting the game, there is no loadscreen music and the game loads forever with the loading progress bar moving ever so slightly once in a while.",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.0-9296",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9296",
+          "commitShort": "ab2ca341a"
+        }
+      }
+    ],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408B8/1773248864425-1.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408B8/1773248864425-2.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408B8/1773248864425-3.jpg"
+    ],
+    "issueNumber": 208,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/208",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "loads",
+        "perf": "ok",
+        "notes": "Intro video shows glitched static. Audio is glitched as well. Menu works.\n\nWhen starting the game, there is no loadscreen music and the game loads forever with the loading progress bar moving ever so slightly once in a while.",
+        "updatedAt": "2026-03-11",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 16 Pro Max",
+          "platform": "ios",
+          "osVersion": "18.6",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "loads",
+          "perf": "ok",
+          "date": "2026-03-11",
+          "notes": "Intro video shows glitched static. Audio is glitched as well. Menu works.\n\nWhen starting the game, there is no loadscreen music and the game loads forever with the loading progress bar moving ever so slightly once in a while.",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.0-9296",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9296",
+            "commitShort": "ab2ca341a"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 16 Pro Max",
+          "platform": "ios",
+          "osVersion": "18.6",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "loads",
+          "perf": "ok",
+          "date": "2026-03-11",
+          "notes": "Intro video shows glitched static. Audio is glitched as well. Menu works.\n\nWhen starting the game, there is no loadscreen music and the game loads forever with the loading progress bar moving ever so slightly once in a while.",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.0-9296",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9296",
+            "commitShort": "ab2ca341a"
+          }
+        }
+      }
+    }
+  },
+  {
     "slug": "guacamelee",
     "title": "Guacamelee",
     "titleId": "00000000",
@@ -8268,47 +8124,13 @@
         "notes": "Playable and with decent performance just make sure you are set to classic video and audio.",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.0-9296",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.0",
           "buildNumber": "9296",
-          "stage": "stable",
-          "commitShort": "ab2ca341a",
-          "buildId": "ios-self-built-1.0.0-9296"
+          "commitShort": "ab2ca341a"
         }
-      },
-      {
-        "device": "iPhone 15 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.4",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "great",
-        "date": "2026-03-08",
-        "notes": "Works great as long as graphics are switched to classic.",
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.0-9280",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "commitShort": "2633e8177"
-        }
-      },
-      {
-        "device": "iPhone 17",
-        "platform": "ios",
-        "osVersion": "26.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "perf": "great",
-        "date": "2026-03-06",
-        "notes": "If loading into game with classic graphics, runs at a steady 30fps. In anniversary mode there are severe graphical issues. When switching back from anniversary to classic mid game this breaks rendering in classic. \n\nAdditionally, the game shows audio issues in the warthog and some covenant vehicles.",
-        "source": "app",
-        "build": null
       }
     ],
     "screenshots": [
@@ -8345,7 +8167,7 @@
         "perf": "ok",
         "notes": "Playable and with decent performance just make sure you are set to classic video and audio.",
         "updatedAt": "2026-03-11",
-        "reportCount": 3,
+        "reportCount": 1,
         "latestReport": {
           "device": "iPhone 16 Pro",
           "platform": "ios",
@@ -8358,13 +8180,12 @@
           "notes": "Playable and with decent performance just make sure you are set to classic video and audio.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9296",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9296",
-            "stage": "stable",
-            "commitShort": "ab2ca341a",
-            "buildId": "ios-self-built-1.0.0-9296"
+            "commitShort": "ab2ca341a"
           }
         },
         "bestReport": {
@@ -8379,13 +8200,12 @@
           "notes": "Playable and with decent performance just make sure you are set to classic video and audio.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9296",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9296",
-            "stage": "stable",
-            "commitShort": "ab2ca341a",
-            "buildId": "ios-self-built-1.0.0-9296"
+            "commitShort": "ab2ca341a"
           }
         }
       }
@@ -9329,22 +9149,35 @@
     "slug": "lost-odyssey",
     "title": "Lost Odyssey",
     "titleId": "4D5307FA",
-    "status": "loads",
-    "perf": "poor",
+    "status": "ingame",
+    "perf": "great",
     "tags": [],
     "platforms": [
+      "macos",
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone17,1",
-      "platform": "ios",
-      "osVersion": "18.5",
+      "device": "Mac14,3",
+      "platform": "macos",
+      "osVersion": "15.7",
       "arch": "arm64",
-      "gpuBackend": "msl"
+      "gpuBackend": "msc"
     },
-    "updatedAt": "2026-03-03",
-    "notes": "Game boots and loads into menu without issue but hangs on initial loading screen",
+    "updatedAt": "2026-03-11",
+    "notes": "",
     "reports": [
+      {
+        "device": "Mac14,3",
+        "platform": "macos",
+        "osVersion": "15.7",
+        "arch": "arm64",
+        "gpuBackend": "msc",
+        "status": "ingame",
+        "perf": "great",
+        "date": "2026-03-11",
+        "notes": "",
+        "build": null
+      },
       {
         "device": "iPhone17,1",
         "platform": "ios",
@@ -9385,35 +9218,33 @@
       },
       "all": {
         "channel": "all",
-        "status": "loads",
-        "perf": "poor",
-        "notes": "Game boots and loads into menu without issue but hangs on initial loading screen",
-        "updatedAt": "2026-03-03",
-        "reportCount": 1,
+        "status": "ingame",
+        "perf": "great",
+        "notes": "",
+        "updatedAt": "2026-03-11",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone17,1",
-          "platform": "ios",
-          "osVersion": "18.5",
+          "device": "Mac14,3",
+          "platform": "macos",
+          "osVersion": "15.7",
           "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "poor",
-          "date": "2026-03-03",
-          "notes": "Game boots and loads into menu without issue but hangs on initial loading screen",
-          "source": "app",
+          "gpuBackend": "msc",
+          "status": "ingame",
+          "perf": "great",
+          "date": "2026-03-11",
+          "notes": "",
           "build": null
         },
         "bestReport": {
-          "device": "iPhone17,1",
-          "platform": "ios",
-          "osVersion": "18.5",
+          "device": "Mac14,3",
+          "platform": "macos",
+          "osVersion": "15.7",
           "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "poor",
-          "date": "2026-03-03",
-          "notes": "Game boots and loads into menu without issue but hangs on initial loading screen",
-          "source": "app",
+          "gpuBackend": "msc",
+          "status": "ingame",
+          "perf": "great",
+          "date": "2026-03-11",
+          "notes": "",
           "build": null
         }
       }
@@ -9451,17 +9282,18 @@
         "notes": "Doesn’t want to launch. Kicks me out and shows black screen if I attempt to launch again",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.0-9296",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.0",
           "buildNumber": "9296",
-          "stage": "stable",
-          "commitShort": "ab2ca341a",
-          "buildId": "ios-self-built-1.0.0-9296"
+          "commitShort": "ab2ca341a"
         }
       }
     ],
     "screenshots": [],
+    "issueNumber": 204,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/204",
     "summaries": {
       "release": {
         "channel": "release",
@@ -9502,13 +9334,12 @@
           "notes": "Doesn’t want to launch. Kicks me out and shows black screen if I attempt to launch again",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9296",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9296",
-            "stage": "stable",
-            "commitShort": "ab2ca341a",
-            "buildId": "ios-self-built-1.0.0-9296"
+            "commitShort": "ab2ca341a"
           }
         },
         "bestReport": {
@@ -9523,19 +9354,16 @@
           "notes": "Doesn’t want to launch. Kicks me out and shows black screen if I attempt to launch again",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9296",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9296",
-            "stage": "stable",
-            "commitShort": "ab2ca341a",
-            "buildId": "ios-self-built-1.0.0-9296"
+            "commitShort": "ab2ca341a"
           }
         }
       }
-    },
-    "issueNumber": 204,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/204"
+    }
   },
   {
     "slug": "marvel-ult-alliance-2",
@@ -12989,118 +12817,6 @@
     }
   },
   {
-    "slug": "rumble-roses-xx",
-    "title": "Rumble Roses XX",
-    "titleId": "4B4E07D1",
-    "status": "playable",
-    "perf": "great",
-    "tags": [],
-    "platforms": [
-      "macos"
-    ],
-    "lastReport": {
-      "device": "MacMini M2",
-      "platform": "macos",
-      "osVersion": "15.7",
-      "arch": "arm64",
-      "gpuBackend": "msc"
-    },
-    "updatedAt": "2026-03-11",
-    "notes": "Sometimes it freezes on loading, the intro video and the city map have strong glitches, sometimes the sound disappears until restarting.",
-    "reports": [
-      {
-        "device": "MacMini M2",
-        "platform": "macos",
-        "osVersion": "15.7",
-        "arch": "arm64",
-        "gpuBackend": "msc",
-        "status": "playable",
-        "perf": "great",
-        "date": "2026-03-11",
-        "notes": "Sometimes it freezes on loading, the intro video and the city map have strong glitches, sometimes the sound disappears until restarting.",
-        "source": "github",
-        "build": {
-          "buildId": "macos-release-1.0.0-9296-9296",
-          "channel": "release",
-          "official": true,
-          "appVersion": "1.0.0-9296",
-          "buildNumber": "9296"
-        }
-      }
-    ],
-    "screenshots": [],
-    "issueNumber": 202,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/202",
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "playable",
-        "perf": "great",
-        "notes": "Sometimes it freezes on loading, the intro video and the city map have strong glitches, sometimes the sound disappears until restarting.",
-        "updatedAt": "2026-03-11",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "MacMini M2",
-          "platform": "macos",
-          "osVersion": "15.7",
-          "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-03-11",
-          "notes": "Sometimes it freezes on loading, the intro video and the city map have strong glitches, sometimes the sound disappears until restarting.",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.0-9296-9296",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.0-9296",
-            "buildNumber": "9296"
-          }
-        },
-        "bestReport": {
-          "device": "MacMini M2",
-          "platform": "macos",
-          "osVersion": "15.7",
-          "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-03-11",
-          "notes": "Sometimes it freezes on loading, the intro video and the city map have strong glitches, sometimes the sound disappears until restarting.",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.0-9296-9296",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.0-9296",
-            "buildNumber": "9296"
-          }
-        }
-      }
-    }
-  },
-  {
     "slug": "saints-row",
     "title": "Saints Row",
     "titleId": "545107D1",
@@ -15596,6 +15312,121 @@
     }
   },
   {
+    "slug": "tomb-raider-underworld",
+    "title": "Tomb Raider Underworld",
+    "titleId": "534307EC",
+    "status": "ingame",
+    "perf": "ok",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 16 Pro Max",
+      "platform": "ios",
+      "osVersion": "18.6",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-11",
+    "notes": "Video cutscenes show a glitched static. Menu works but the same static in background. Audio is buggy.\n\nThe game loads but no area or character textures load. Only the effects like dust, reflection of torches and such are visible when the camera is moved.",
+    "reports": [
+      {
+        "device": "iPhone 16 Pro Max",
+        "platform": "ios",
+        "osVersion": "18.6",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "ok",
+        "date": "2026-03-11",
+        "notes": "Video cutscenes show a glitched static. Menu works but the same static in background. Audio is buggy.\n\nThe game loads but no area or character textures load. Only the effects like dust, reflection of torches and such are visible when the camera is moved.",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.0-9296",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9296",
+          "commitShort": "ab2ca341a"
+        }
+      }
+    ],
+    "screenshots": [],
+    "issueNumber": 207,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/207",
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "ingame",
+        "perf": "ok",
+        "notes": "Video cutscenes show a glitched static. Menu works but the same static in background. Audio is buggy.\n\nThe game loads but no area or character textures load. Only the effects like dust, reflection of torches and such are visible when the camera is moved.",
+        "updatedAt": "2026-03-11",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 16 Pro Max",
+          "platform": "ios",
+          "osVersion": "18.6",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "ok",
+          "date": "2026-03-11",
+          "notes": "Video cutscenes show a glitched static. Menu works but the same static in background. Audio is buggy.\n\nThe game loads but no area or character textures load. Only the effects like dust, reflection of torches and such are visible when the camera is moved.",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.0-9296",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9296",
+            "commitShort": "ab2ca341a"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 16 Pro Max",
+          "platform": "ios",
+          "osVersion": "18.6",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "ok",
+          "date": "2026-03-11",
+          "notes": "Video cutscenes show a glitched static. Menu works but the same static in background. Audio is buggy.\n\nThe game loads but no area or character textures load. Only the effects like dust, reflection of torches and such are visible when the camera is moved.",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.0-9296",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9296",
+            "commitShort": "ab2ca341a"
+          }
+        }
+      }
+    }
+  },
+  {
     "slug": "toy-story-3",
     "title": "Toy Story 3",
     "titleId": "425607E5",
@@ -16294,44 +16125,44 @@
     }
   },
   {
-    "slug": "tomb-raider-underworld",
-    "title": "Tomb Raider Underworld",
-    "titleId": "534307EC",
-    "status": "ingame",
+    "slug": "assassin-s-creed-ii",
+    "title": "Assassin's Creed II",
+    "titleId": "5553083B",
+    "status": "intro",
     "perf": "ok",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 16 Pro Max",
+      "device": "iPhone 15 Pro Max",
       "platform": "ios",
-      "osVersion": "18.6",
+      "osVersion": "18.7",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-03-11",
-    "notes": "Video cutscenes show a glitched static. Menu works but the same static in background. Audio is buggy.\n\nThe game loads but no area or character textures load. Only the effects like dust, reflection of torches and such are visible when the camera is moved.",
+    "notes": "Loads everything really well up until the point when you press start at the title screen, which triggers it to crash the game.",
     "reports": [
       {
-        "device": "iPhone 16 Pro Max",
+        "device": "iPhone 15 Pro Max",
         "platform": "ios",
-        "osVersion": "18.6",
+        "osVersion": "18.7",
         "arch": "arm64",
         "gpuBackend": "msl",
-        "status": "ingame",
+        "status": "intro",
         "perf": "ok",
         "date": "2026-03-11",
-        "notes": "Video cutscenes show a glitched static. Menu works but the same static in background. Audio is buggy.\n\nThe game loads but no area or character textures load. Only the effects like dust, reflection of torches and such are visible when the camera is moved.",
+        "notes": "Loads everything really well up until the point when you press start at the title screen, which triggers it to crash the game.",
         "source": "app",
         "build": {
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.0",
-          "buildNumber": "9296",
+          "buildNumber": "9280",
           "stage": "stable",
-          "commitShort": "ab2ca341a",
-          "buildId": "ios-self-built-1.0.0-9296"
+          "commitShort": "2633e8177",
+          "buildId": "ios-self-built-1.0.0-9280"
         }
       }
     ],
@@ -16359,178 +16190,56 @@
       },
       "all": {
         "channel": "all",
-        "status": "ingame",
+        "status": "intro",
         "perf": "ok",
-        "notes": "Video cutscenes show a glitched static. Menu works but the same static in background. Audio is buggy.\n\nThe game loads but no area or character textures load. Only the effects like dust, reflection of torches and such are visible when the camera is moved.",
+        "notes": "Loads everything really well up until the point when you press start at the title screen, which triggers it to crash the game.",
         "updatedAt": "2026-03-11",
         "reportCount": 1,
         "latestReport": {
-          "device": "iPhone 16 Pro Max",
+          "device": "iPhone 15 Pro Max",
           "platform": "ios",
-          "osVersion": "18.6",
+          "osVersion": "18.7",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "ingame",
+          "status": "intro",
           "perf": "ok",
           "date": "2026-03-11",
-          "notes": "Video cutscenes show a glitched static. Menu works but the same static in background. Audio is buggy.\n\nThe game loads but no area or character textures load. Only the effects like dust, reflection of torches and such are visible when the camera is moved.",
+          "notes": "Loads everything really well up until the point when you press start at the title screen, which triggers it to crash the game.",
           "source": "app",
           "build": {
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
-            "buildNumber": "9296",
+            "buildNumber": "9280",
             "stage": "stable",
-            "commitShort": "ab2ca341a",
-            "buildId": "ios-self-built-1.0.0-9296"
+            "commitShort": "2633e8177",
+            "buildId": "ios-self-built-1.0.0-9280"
           }
         },
         "bestReport": {
-          "device": "iPhone 16 Pro Max",
+          "device": "iPhone 15 Pro Max",
           "platform": "ios",
-          "osVersion": "18.6",
+          "osVersion": "18.7",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "ingame",
+          "status": "intro",
           "perf": "ok",
           "date": "2026-03-11",
-          "notes": "Video cutscenes show a glitched static. Menu works but the same static in background. Audio is buggy.\n\nThe game loads but no area or character textures load. Only the effects like dust, reflection of torches and such are visible when the camera is moved.",
+          "notes": "Loads everything really well up until the point when you press start at the title screen, which triggers it to crash the game.",
           "source": "app",
           "build": {
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
-            "buildNumber": "9296",
+            "buildNumber": "9280",
             "stage": "stable",
-            "commitShort": "ab2ca341a",
-            "buildId": "ios-self-built-1.0.0-9296"
+            "commitShort": "2633e8177",
+            "buildId": "ios-self-built-1.0.0-9280"
           }
         }
       }
     },
-    "issueNumber": 207,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/207"
-  },
-  {
-    "slug": "gta-san-andreas",
-    "title": "GTA: San Andreas",
-    "titleId": "545408B8",
-    "status": "loads",
-    "perf": "ok",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 16 Pro Max",
-      "platform": "ios",
-      "osVersion": "18.6",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-11",
-    "notes": "Intro video shows glitched static. Audio is glitched as well. Menu works.\n\nWhen starting the game, there is no loadscreen music and the game loads forever with the loading progress bar moving ever so slightly once in a while.",
-    "reports": [
-      {
-        "device": "iPhone 16 Pro Max",
-        "platform": "ios",
-        "osVersion": "18.6",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "loads",
-        "perf": "ok",
-        "date": "2026-03-11",
-        "notes": "Intro video shows glitched static. Audio is glitched as well. Menu works.\n\nWhen starting the game, there is no loadscreen music and the game loads forever with the loading progress bar moving ever so slightly once in a while.",
-        "source": "app",
-        "build": {
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9296",
-          "stage": "stable",
-          "commitShort": "ab2ca341a",
-          "buildId": "ios-self-built-1.0.0-9296"
-        }
-      }
-    ],
-    "screenshots": [
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408B8/1773248864425-1.jpg",
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408B8/1773248864425-2.jpg",
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408B8/1773248864425-3.jpg"
-    ],
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "preview": {
-        "channel": "preview",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "loads",
-        "perf": "ok",
-        "notes": "Intro video shows glitched static. Audio is glitched as well. Menu works.\n\nWhen starting the game, there is no loadscreen music and the game loads forever with the loading progress bar moving ever so slightly once in a while.",
-        "updatedAt": "2026-03-11",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 16 Pro Max",
-          "platform": "ios",
-          "osVersion": "18.6",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "ok",
-          "date": "2026-03-11",
-          "notes": "Intro video shows glitched static. Audio is glitched as well. Menu works.\n\nWhen starting the game, there is no loadscreen music and the game loads forever with the loading progress bar moving ever so slightly once in a while.",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9296",
-            "stage": "stable",
-            "commitShort": "ab2ca341a",
-            "buildId": "ios-self-built-1.0.0-9296"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 16 Pro Max",
-          "platform": "ios",
-          "osVersion": "18.6",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "ok",
-          "date": "2026-03-11",
-          "notes": "Intro video shows glitched static. Audio is glitched as well. Menu works.\n\nWhen starting the game, there is no loadscreen music and the game loads forever with the loading progress bar moving ever so slightly once in a while.",
-          "source": "app",
-          "build": {
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9296",
-            "stage": "stable",
-            "commitShort": "ab2ca341a",
-            "buildId": "ios-self-built-1.0.0-9296"
-          }
-        }
-      }
-    },
-    "issueNumber": 208,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/208"
+    "issueNumber": 209,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/209"
   }
 ]
