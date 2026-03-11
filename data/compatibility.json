@@ -16241,5 +16241,125 @@
     },
     "issueNumber": 209,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/209"
+  },
+  {
+    "slug": "ncaa-basketball-10",
+    "title": "NCAA® Basketball 10",
+    "titleId": "454108C3",
+    "status": "loads",
+    "perf": "poor",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 16e",
+      "platform": "ios",
+      "osVersion": "26.3.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-11",
+    "notes": "doesn’t get past first load screen",
+    "reports": [
+      {
+        "device": "iPhone 16e",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "loads",
+        "perf": "poor",
+        "date": "2026-03-11",
+        "notes": "doesn’t get past first load screen",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9296",
+          "stage": "stable",
+          "commitShort": "ab2ca341a",
+          "buildId": "ios-self-built-1.0.0-9296"
+        }
+      }
+    ],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454108C3/1773261182888-1.jpg"
+    ],
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "loads",
+        "perf": "poor",
+        "notes": "doesn’t get past first load screen",
+        "updatedAt": "2026-03-11",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 16e",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "loads",
+          "perf": "poor",
+          "date": "2026-03-11",
+          "notes": "doesn’t get past first load screen",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9296",
+            "stage": "stable",
+            "commitShort": "ab2ca341a",
+            "buildId": "ios-self-built-1.0.0-9296"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 16e",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "loads",
+          "perf": "poor",
+          "date": "2026-03-11",
+          "notes": "doesn’t get past first load screen",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9296",
+            "stage": "stable",
+            "commitShort": "ab2ca341a",
+            "buildId": "ios-self-built-1.0.0-9296"
+          }
+        }
+      }
+    },
+    "issueNumber": 210,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/210"
   }
 ]

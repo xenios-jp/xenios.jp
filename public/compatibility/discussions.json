@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-11T18:29:39.291Z",
+  "generatedAt": "2026-03-11T20:33:40.654Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1030,6 +1030,39 @@
             "appVersion": "1.0.0",
             "buildNumber": "9280",
             "commitShort": "`2633e8177`"
+          }
+        }
+      ]
+    },
+    "454108C3": {
+      "titleId": "454108C3",
+      "issueNumber": 210,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/210",
+      "updatedAt": "2026-03-11",
+      "entries": [
+        {
+          "id": "issue-210",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/210",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-11",
+          "createdAtMs": 1773261185000,
+          "issueNumber": 210,
+          "excerpt": "doesn’t get past first load screen",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454108C3/1773261182888-1.jpg"
+          ],
+          "meta": {
+            "status": "loads",
+            "perf": "poor",
+            "device": "iPhone 16e",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9296",
+            "commitShort": "`ab2ca341a`"
           }
         }
       ]

@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **136 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **137 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **40** · 🔵 In-Game: **34** · 🟡 Intro: **20** · 🟠 Loads: **21** · 🔴 Doesn't Boot: **21**
+> 🟢 Playable: **40** · 🔵 In-Game: **34** · 🟡 Intro: **20** · 🟠 Loads: **22** · 🔴 Doesn't Boot: **21**
 >
-> 📱 iOS: **135** · 🖥️ macOS: **4**
+> 📱 iOS: **136** · 🖥️ macOS: **4**
 
 ## Legend
 
@@ -128,6 +128,7 @@
 | 🟠 | Left 4 Dead | `45410830` | 📱 iOS | Loads | 🐢 Poor | iPhone 17 Pro Max | 2026-03-08 |
 | 🟠 | LEGO® Star Wars® III | `4C4107F3` | 📱 iOS | Loads | 👌 OK | iPhone 15 Pro | 2026-03-10 |
 | 🟠 | NARUTO STORM 3 | `4E4D085C` | 📱 iOS | Loads | 🐢 Poor | iPhone 15 Pro Max | 2026-03-08 |
+| 🟠 | NCAA® Basketball 10 | `454108C3` | 📱 iOS | Loads | 🐢 Poor | iPhone 16e | 2026-03-11 |
 | 🟠 | NFS Most Wanted | `454107D9` | 📱 iOS | Loads | 👌 OK | iPad 11th Gen | 2026-03-09 |
 | 🟠 | Skate 3 | `454108E6` | 📱 iOS | Loads | 🐢 Poor | iPhone 13 Pro | 2026-03-09 |
 | 🟠 | Sonic Transformed | `5345085D` | 📱 iOS | Loads | 🐢 Poor | iPhone 16 Pro | 2026-03-05 |
