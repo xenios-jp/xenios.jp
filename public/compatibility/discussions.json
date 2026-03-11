@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-11T05:30:36.708Z",
+  "generatedAt": "2026-03-11T05:49:52.266Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -953,6 +953,57 @@
             "appVersion": "1.0.0",
             "buildNumber": "9280",
             "commitShort": "`2633e8177`"
+          }
+        }
+      ]
+    },
+    "4D5307D5": {
+      "titleId": "4D5307D5",
+      "issueNumber": 195,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/195",
+      "updatedAt": "2026-03-11",
+      "entries": [
+        {
+          "id": "issue-195",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/195",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-11",
+          "createdAtMs": 1773208162000,
+          "issueNumber": 195,
+          "excerpt": "Makes it into and through the game start menu, gets stuck loading when starting campaign. Will continue to test and amend if changes.",
+          "images": [],
+          "meta": {
+            "status": "intro",
+            "perf": "ok",
+            "device": "iPhone 16 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9294",
+            "commitShort": "`3f7efcbfb`"
+          }
+        },
+        {
+          "id": "issue-40",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/40",
+          "author": "xenios-jp",
+          "createdAt": "2026-02-28",
+          "createdAtMs": 1772288527000,
+          "issueNumber": 40,
+          "excerpt": "Runs well but with pretty severe intermittent graphical issues.",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "ok",
+            "device": "MacBook Pro M4 Pro/Max",
+            "platform": "macOS",
+            "osVersion": "macOS 26.3",
+            "gpuBackend": "MSC",
+            "submittedBy": "reality111"
           }
         }
       ]
@@ -5694,34 +5745,6 @@
           "createdAtMs": 1772289253000,
           "issueNumber": 39,
           "excerpt": "Playable in game with ok-ish framerate on M4 Pro, significant occlusion issues",
-          "images": [],
-          "meta": {
-            "status": "ingame",
-            "perf": "ok",
-            "device": "MacBook Pro M4 Pro/Max",
-            "platform": "macOS",
-            "osVersion": "macOS 26.3",
-            "gpuBackend": "MSC",
-            "submittedBy": "reality111"
-          }
-        }
-      ]
-    },
-    "4D5307D5": {
-      "titleId": "4D5307D5",
-      "issueNumber": 40,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/40",
-      "updatedAt": "2026-03-07",
-      "entries": [
-        {
-          "id": "issue-40",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/40",
-          "author": "xenios-jp",
-          "createdAt": "2026-02-28",
-          "createdAtMs": 1772288527000,
-          "issueNumber": 40,
-          "excerpt": "Runs well but with pretty severe intermittent graphical issues.",
           "images": [],
           "meta": {
             "status": "ingame",
