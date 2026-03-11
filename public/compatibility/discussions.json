@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-11T16:53:37.470Z",
+  "generatedAt": "2026-03-11T16:56:04.551Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1030,6 +1030,37 @@
             "appVersion": "1.0.0",
             "buildNumber": "9280",
             "commitShort": "`2633e8177`"
+          }
+        }
+      ]
+    },
+    "534307EC": {
+      "titleId": "534307EC",
+      "issueNumber": 207,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/207",
+      "updatedAt": "2026-03-11",
+      "entries": [
+        {
+          "id": "issue-207",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/207",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-11",
+          "createdAtMs": 1773248121000,
+          "issueNumber": 207,
+          "excerpt": "Video cutscenes show a glitched static. Menu works but the same static in background. Audio is buggy.\n\nThe game loads but no area or character textures load. Only the effects like dust, reflection of torches and such are visible when the camera is moved.",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "ok",
+            "device": "iPhone 16 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 18.6",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9296",
+            "commitShort": "`ab2ca341a`"
           }
         }
       ]

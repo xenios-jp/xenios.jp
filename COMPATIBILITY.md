@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **136 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **137 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **41** · 🔵 In-Game: **34** · 🟡 Intro: **19** · 🟠 Loads: **21** · 🔴 Doesn't Boot: **21**
+> 🟢 Playable: **41** · 🔵 In-Game: **35** · 🟡 Intro: **19** · 🟠 Loads: **21** · 🔴 Doesn't Boot: **21**
 >
-> 📱 iOS: **133** · 🖥️ macOS: **5**
+> 📱 iOS: **134** · 🖥️ macOS: **5**
 
 ## Legend
 
@@ -94,6 +94,7 @@
 | 🔵 | skate. | `45410813` | 📱 iOS | In-Game | 🐢 Poor | iPad Pro (M2) | 2026-03-03 |
 | 🔵 | SONIC UNLEASHED | `53450812` | 📱 iOS | In-Game | 👌 OK | iPhone 17 | 2026-03-06 |
 | 🔵 | Spider-Man 3 | `415607E2` | 📱 iOS | In-Game | 🐢 Poor | iPhone 16 | 2026-03-10 |
+| 🔵 | Tomb Raider Underworld | `534307EC` | 📱 iOS | In-Game | 👌 OK | iPhone 16 Pro Max | 2026-03-11 |
 | 🔵 | Toy Story 3 | `425607E5` | 📱 iOS | In-Game | 👌 OK | iPhone 14 Pro Max | 2026-03-08 |
 | 🟡 | Batman: Arkham Asylum | `534307F6` | 📱 iOS | Intro | 🚀 Great | iPhone 15 Pro | 2026-03-08 |
 | 🟡 | Beautiful Katamari | `4E4D07DC` | 📱 iOS | Intro | 👌 OK | iPhone 16 Pro | 2026-03-05 |

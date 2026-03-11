@@ -16292,5 +16292,121 @@
         }
       }
     }
+  },
+  {
+    "slug": "tomb-raider-underworld",
+    "title": "Tomb Raider Underworld",
+    "titleId": "534307EC",
+    "status": "ingame",
+    "perf": "ok",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 16 Pro Max",
+      "platform": "ios",
+      "osVersion": "18.6",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-11",
+    "notes": "Video cutscenes show a glitched static. Menu works but the same static in background. Audio is buggy.\n\nThe game loads but no area or character textures load. Only the effects like dust, reflection of torches and such are visible when the camera is moved.",
+    "reports": [
+      {
+        "device": "iPhone 16 Pro Max",
+        "platform": "ios",
+        "osVersion": "18.6",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "ok",
+        "date": "2026-03-11",
+        "notes": "Video cutscenes show a glitched static. Menu works but the same static in background. Audio is buggy.\n\nThe game loads but no area or character textures load. Only the effects like dust, reflection of torches and such are visible when the camera is moved.",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9296",
+          "stage": "stable",
+          "commitShort": "ab2ca341a",
+          "buildId": "ios-self-built-1.0.0-9296"
+        }
+      }
+    ],
+    "screenshots": [],
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "ingame",
+        "perf": "ok",
+        "notes": "Video cutscenes show a glitched static. Menu works but the same static in background. Audio is buggy.\n\nThe game loads but no area or character textures load. Only the effects like dust, reflection of torches and such are visible when the camera is moved.",
+        "updatedAt": "2026-03-11",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 16 Pro Max",
+          "platform": "ios",
+          "osVersion": "18.6",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "ok",
+          "date": "2026-03-11",
+          "notes": "Video cutscenes show a glitched static. Menu works but the same static in background. Audio is buggy.\n\nThe game loads but no area or character textures load. Only the effects like dust, reflection of torches and such are visible when the camera is moved.",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9296",
+            "stage": "stable",
+            "commitShort": "ab2ca341a",
+            "buildId": "ios-self-built-1.0.0-9296"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 16 Pro Max",
+          "platform": "ios",
+          "osVersion": "18.6",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "ok",
+          "date": "2026-03-11",
+          "notes": "Video cutscenes show a glitched static. Menu works but the same static in background. Audio is buggy.\n\nThe game loads but no area or character textures load. Only the effects like dust, reflection of torches and such are visible when the camera is moved.",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9296",
+            "stage": "stable",
+            "commitShort": "ab2ca341a",
+            "buildId": "ios-self-built-1.0.0-9296"
+          }
+        }
+      }
+    }
   }
 ]
