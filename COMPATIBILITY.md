@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **119 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **120 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **36** · 🔵 In-Game: **30** · 🟡 Intro: **17** · 🟠 Loads: **18** · 🔴 Doesn't Boot: **18**
+> 🟢 Playable: **36** · 🔵 In-Game: **30** · 🟡 Intro: **17** · 🟠 Loads: **19** · 🔴 Doesn't Boot: **18**
 >
-> 📱 iOS: **117** · 🖥️ macOS: **5**
+> 📱 iOS: **118** · 🖥️ macOS: **5**
 
 ## Legend
 
@@ -107,6 +107,7 @@
 | 🟠 | CoD: World at War | `4156081C` | 📱 iOS | Loads | 🐢 Poor | iPhone 15 Pro Max | 2026-03-09 |
 | 🟠 | Crash Of The Titans | `565507E4` | 📱 iOS | Loads | 🚀 Great | iPad 11th Gen | 2026-03-08 |
 | 🟠 | DB: Raging Blast | `4E4D0803` | 📱 iOS | Loads | 🐢 Poor | iPhone 13 Pro | 2026-03-09 |
+| 🟠 | DBZ Budokai HD | `4E4D0856` | 📱 iOS | Loads | 🐢 Poor | iPad 11th Gen | 2026-03-11 |
 | 🟠 | Deadpool | `415608EC` | 📱 iOS | Loads | 🚀 Great | iPhone 15 Pro | 2026-03-09 |
 | 🟠 | Diablo III: RoS | `394F07D4` | 🖥️ macOS, 📱 iOS | Loads | 🐢 Poor | Macbook Pro M4 | 2026-03-09 |
 | 🟠 | Disney Epic Mickey 2 | `42560816` | 📱 iOS | Loads | 🐢 Poor | iPhone 15 Pro Max | 2026-03-08 |

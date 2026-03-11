@@ -14710,5 +14710,123 @@
     },
     "issueNumber": 185,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/185"
+  },
+  {
+    "slug": "dbz-budokai-hd",
+    "title": "DBZ Budokai HD",
+    "titleId": "4E4D0856",
+    "status": "loads",
+    "perf": "poor",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPad 11th Gen",
+      "platform": "ios",
+      "osVersion": "18.3",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-11",
+    "notes": "Loads into game selection and crashes.",
+    "reports": [
+      {
+        "device": "iPad 11th Gen",
+        "platform": "ios",
+        "osVersion": "18.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "loads",
+        "perf": "poor",
+        "date": "2026-03-11",
+        "notes": "Loads into game selection and crashes.",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "stage": "stable",
+          "commitShort": "2633e8177",
+          "buildId": "ios-self-built-1.0.0-9280"
+        }
+      }
+    ],
+    "screenshots": [],
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "preview": {
+        "channel": "preview",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "loads",
+        "perf": "poor",
+        "notes": "Loads into game selection and crashes.",
+        "updatedAt": "2026-03-11",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPad 11th Gen",
+          "platform": "ios",
+          "osVersion": "18.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "loads",
+          "perf": "poor",
+          "date": "2026-03-11",
+          "notes": "Loads into game selection and crashes.",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "stage": "stable",
+            "commitShort": "2633e8177",
+            "buildId": "ios-self-built-1.0.0-9280"
+          }
+        },
+        "bestReport": {
+          "device": "iPad 11th Gen",
+          "platform": "ios",
+          "osVersion": "18.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "loads",
+          "perf": "poor",
+          "date": "2026-03-11",
+          "notes": "Loads into game selection and crashes.",
+          "source": "app",
+          "build": {
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "stage": "stable",
+            "commitShort": "2633e8177",
+            "buildId": "ios-self-built-1.0.0-9280"
+          }
+        }
+      }
+    },
+    "issueNumber": 186,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/186"
   }
 ]
