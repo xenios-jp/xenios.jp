@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-11T07:16:36.814Z",
+  "generatedAt": "2026-03-11T08:17:52.859Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1015,6 +1015,29 @@
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/195",
       "updatedAt": "2026-03-11",
       "entries": [
+        {
+          "id": "comment-4037336640",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/195#issuecomment-4037336640",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-11",
+          "createdAtMs": 1773217024000,
+          "issueNumber": 195,
+          "excerpt": "Able to load into game, low frame rates and severe graphical bugs but functions.",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "ok",
+            "device": "iPhone 16 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9296",
+            "commitShort": "`ab2ca341a`"
+          }
+        },
         {
           "id": "issue-195",
           "type": "issue",

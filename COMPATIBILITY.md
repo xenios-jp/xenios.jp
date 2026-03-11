@@ -4,7 +4,7 @@
 >
 > 🟢 Playable: **38** · 🔵 In-Game: **32** · 🟡 Intro: **19** · 🟠 Loads: **20** · 🔴 Doesn't Boot: **19**
 >
-> 📱 iOS: **127** · 🖥️ macOS: **5**
+> 📱 iOS: **127** · 🖥️ macOS: **4**
 
 ## Legend
 
@@ -98,7 +98,7 @@
 | 🟡 | Divinity II - DKS | `464507D6` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro Max | 2026-03-09 |
 | 🟡 | DOOM 3 BFG Edition | `425307F1` | 📱 iOS | Intro | 🚀 Great | iPhone 16 Pro | 2026-03-03 |
 | 🟡 | Fallout: New Vegas | `425307E0` | 📱 iOS | Intro | 🐢 Poor | iPhone 13 | 2026-03-10 |
-| 🟡 | Gears of War | `4D5307D5` | 🖥️ macOS, 📱 iOS | Intro | 👌 OK | iPhone 16 Pro | 2026-03-11 |
+| 🟡 | Gears of War | `4D5307D5` | 📱 iOS | Intro | 👌 OK | iPhone 16 Pro | 2026-03-11 |
 | 🟡 | Grand Theft Auto V | `545408A7` | 📱 iOS | Intro | 🐢 Poor | iPhone 17 | 2026-03-09 |
 | 🟡 | Halo 3: ODST | `4D530877` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro | 2026-03-03 |
 | 🟡 | Halo 4 | `4D530919` | 📱 iOS | Intro | 🐢 Poor | iPad Pro 12.9 inch 6th Gen | 2026-03-10 |

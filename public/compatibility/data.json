@@ -692,49 +692,13 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "playable",
-        "perf": "great",
-        "notes": "Runs Perfectly",
-        "updatedAt": "2026-03-09",
-        "reportCount": 2,
-        "latestReport": {
-          "device": "iPad 11th Gen",
-          "platform": "ios",
-          "osVersion": "18.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-03-09",
-          "notes": "Runs Perfectly",
-          "source": "github",
-          "build": {
-            "buildId": "ios-release-1.0.0-9280",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280"
-          }
-        },
-        "bestReport": {
-          "device": "iPad 11th Gen",
-          "platform": "ios",
-          "osVersion": "18.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-03-09",
-          "notes": "Runs Perfectly",
-          "source": "github",
-          "build": {
-            "buildId": "ios-release-1.0.0-9280",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280"
-          }
-        }
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
       },
       "preview": {
         "channel": "preview",
@@ -1801,47 +1765,13 @@
         "notes": "Tuns great! Stable FPS occasionally jitter when loading a new section or fighting multiple enemies. Audio and music is good too.",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.0-9280",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.0",
           "buildNumber": "9280",
-          "stage": "stable",
-          "commitShort": "2633e8177",
-          "buildId": "ios-self-built-1.0.0-9280"
+          "commitShort": "2633e8177"
         }
-      },
-      {
-        "device": "iPhone 17 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "great",
-        "date": "2026-03-08",
-        "notes": "Campaign fully playable after an hour of gameplay. Saving works. Occasional FPS drops and audio stutters when assets load. Certain textures appear grainy. Occasional graphical issues with reflections or shadows.",
-        "source": "github",
-        "build": {
-          "buildId": "ios-release-1.0.0-9280",
-          "channel": "release",
-          "official": true,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "commitShort": "2633E8177"
-        }
-      },
-      {
-        "device": "iPhone17,1",
-        "platform": "ios",
-        "osVersion": "18.5",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "ok",
-        "date": "2026-03-02",
-        "notes": "Occasional drops in FPS but very much playable.",
-        "source": "app",
-        "build": null
       }
     ],
     "screenshots": [
@@ -1852,51 +1782,13 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "playable",
-        "perf": "great",
-        "notes": "Campaign fully playable after an hour of gameplay. Saving works. Occasional FPS drops and audio stutters when assets load. Certain textures appear grainy. Occasional graphical issues with reflections or shadows.",
-        "updatedAt": "2026-03-08",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 17 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-03-08",
-          "notes": "Campaign fully playable after an hour of gameplay. Saving works. Occasional FPS drops and audio stutters when assets load. Certain textures appear grainy. Occasional graphical issues with reflections or shadows.",
-          "source": "github",
-          "build": {
-            "buildId": "ios-release-1.0.0-9280",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633E8177"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 17 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-03-08",
-          "notes": "Campaign fully playable after an hour of gameplay. Saving works. Occasional FPS drops and audio stutters when assets load. Certain textures appear grainy. Occasional graphical issues with reflections or shadows.",
-          "source": "github",
-          "build": {
-            "buildId": "ios-release-1.0.0-9280",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633E8177"
-          }
-        }
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
       },
       "preview": {
         "channel": "preview",
@@ -1914,7 +1806,7 @@
         "perf": "great",
         "notes": "Tuns great! Stable FPS occasionally jitter when loading a new section or fighting multiple enemies. Audio and music is good too.",
         "updatedAt": "2026-03-11",
-        "reportCount": 3,
+        "reportCount": 1,
         "latestReport": {
           "device": "iPhone 14",
           "platform": "ios",
@@ -1927,13 +1819,12 @@
           "notes": "Tuns great! Stable FPS occasionally jitter when loading a new section or fighting multiple enemies. Audio and music is good too.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
+            "commitShort": "2633e8177"
           }
         },
         "bestReport": {
@@ -1948,13 +1839,12 @@
           "notes": "Tuns great! Stable FPS occasionally jitter when loading a new section or fighting multiple enemies. Audio and music is good too.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177",
-            "buildId": "ios-self-built-1.0.0-9280"
+            "commitShort": "2633e8177"
           }
         }
       }
@@ -2148,49 +2038,13 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "ingame",
-        "perf": "ok",
-        "notes": "Campaign loads, movement, controls, audio work all okay. Text does not display correctly. Graphical glitches a very common, particularly bright green colours appearing often.",
-        "updatedAt": "2026-03-09",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 16",
-          "platform": "ios",
-          "osVersion": "18.7.2",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "ok",
-          "date": "2026-03-09",
-          "notes": "Campaign loads, movement, controls, audio work all okay. Text does not display correctly. Graphical glitches a very common, particularly bright green colours appearing often.",
-          "source": "github",
-          "build": {
-            "buildId": "ios-release-1.0.0-9280",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 16",
-          "platform": "ios",
-          "osVersion": "18.7.2",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "ok",
-          "date": "2026-03-09",
-          "notes": "Campaign loads, movement, controls, audio work all okay. Text does not display correctly. Graphical glitches a very common, particularly bright green colours appearing often.",
-          "source": "github",
-          "build": {
-            "buildId": "ios-release-1.0.0-9280",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280"
-          }
-        }
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
       },
       "preview": {
         "channel": "preview",
@@ -4563,51 +4417,13 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "loads",
-        "perf": "poor",
-        "notes": "Corruption on video FMV. Loads menus, allowed to start game but hangs on loading screen.",
-        "updatedAt": "2026-03-09",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "Macbook Pro M4",
-          "platform": "macos",
-          "osVersion": "26.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "poor",
-          "date": "2026-03-09",
-          "notes": "Corruption on video FMV. Loads menus, allowed to start game but hangs on loading screen.",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.0-9280",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633E8177"
-          }
-        },
-        "bestReport": {
-          "device": "Macbook Pro M4",
-          "platform": "macos",
-          "osVersion": "26.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "poor",
-          "date": "2026-03-09",
-          "notes": "Corruption on video FMV. Loads menus, allowed to start game but hangs on loading screen.",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.0-9280",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633E8177"
-          }
-        }
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
       },
       "preview": {
         "channel": "preview",
@@ -6625,51 +6441,13 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "ingame",
-        "perf": "poor",
-        "notes": "The game is somewhat playable, but barely\n\nFull with bugs:\n- There is a 50% chance that the game will freeze during the tutorial.\n- The cutscenes are full of Purple green glitches.\n- If you hit the barrier, it throws out the entire map with a car. (To fix that, just rewind or go to the menu and again launch singleplayer)\n- Most of the map texture does not load.\n- Buggy UI\n- Audio very buggy/chopped\n- Pretty messy shadows\n- Pretty chopped framerate (stutters, 10-30fps)\n\nBut at least progression works and photomode right lol",
-        "updatedAt": "2026-03-10",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "Macbook Air M1",
-          "platform": "macos",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-03-10",
-          "notes": "The game is somewhat playable, but barely\n\nFull with bugs:\n- There is a 50% chance that the game will freeze during the tutorial.\n- The cutscenes are full of Purple green glitches.\n- If you hit the barrier, it throws out the entire map with a car. (To fix that, just rewind or go to the menu and again launch singleplayer)\n- Most of the map texture does not load.\n- Buggy UI\n- Audio very buggy/chopped\n- Pretty messy shadows\n- Pretty chopped framerate (stutters, 10-30fps)\n\nBut at least progression works and photomode right lol",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.0-9280",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633E8177"
-          }
-        },
-        "bestReport": {
-          "device": "Macbook Air M1",
-          "platform": "macos",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-03-10",
-          "notes": "The game is somewhat playable, but barely\n\nFull with bugs:\n- There is a 50% chance that the game will freeze during the tutorial.\n- The cutscenes are full of Purple green glitches.\n- If you hit the barrier, it throws out the entire map with a car. (To fix that, just rewind or go to the menu and again launch singleplayer)\n- Most of the map texture does not load.\n- Buggy UI\n- Audio very buggy/chopped\n- Pretty messy shadows\n- Pretty chopped framerate (stutters, 10-30fps)\n\nBut at least progression works and photomode right lol",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.0-9280",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633E8177"
-          }
-        }
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
       },
       "preview": {
         "channel": "preview",
@@ -6857,7 +6635,6 @@
     "perf": "ok",
     "tags": [],
     "platforms": [
-      "macos",
       "ios"
     ],
     "lastReport": {
@@ -6882,28 +6659,33 @@
         "notes": "Makes it into and through the game start menu, gets stuck loading when starting campaign. Will continue to test and amend if changes.",
         "source": "app",
         "build": {
+          "buildId": "ios-self-built-1.0.0-9294",
           "channel": "self-built",
           "official": false,
           "appVersion": "1.0.0",
           "buildNumber": "9294",
-          "stage": "stable",
-          "commitShort": "3f7efcbfb",
-          "buildId": "ios-self-built-1.0.0-9294"
+          "commitShort": "3f7efcbfb"
         }
       },
       {
-        "device": "MacBook Pro M4 Pro/Max",
-        "platform": "macos",
-        "osVersion": "26.3",
+        "device": "iPhone 16 Pro",
+        "platform": "ios",
+        "osVersion": "26.3.1",
         "arch": "arm64",
-        "gpuBackend": "msc",
+        "gpuBackend": "msl",
         "status": "ingame",
         "perf": "ok",
-        "date": "2026-02-28",
-        "notes": "Runs well but with pretty severe intermittent graphical issues.",
-        "source": "discord",
-        "submittedBy": "reality111",
-        "build": null
+        "date": "2026-03-11",
+        "notes": "Able to load into game, low frame rates and severe graphical bugs but functions.",
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.0-9296",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9296",
+          "commitShort": "ab2ca341a"
+        }
       }
     ],
     "screenshots": [],
@@ -6949,28 +6731,33 @@
           "notes": "Makes it into and through the game start menu, gets stuck loading when starting campaign. Will continue to test and amend if changes.",
           "source": "app",
           "build": {
+            "buildId": "ios-self-built-1.0.0-9294",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9294",
-            "stage": "stable",
-            "commitShort": "3f7efcbfb",
-            "buildId": "ios-self-built-1.0.0-9294"
+            "commitShort": "3f7efcbfb"
           }
         },
         "bestReport": {
-          "device": "MacBook Pro M4 Pro/Max",
-          "platform": "macos",
-          "osVersion": "26.3",
+          "device": "iPhone 16 Pro",
+          "platform": "ios",
+          "osVersion": "26.3.1",
           "arch": "arm64",
-          "gpuBackend": "msc",
+          "gpuBackend": "msl",
           "status": "ingame",
           "perf": "ok",
-          "date": "2026-02-28",
-          "notes": "Runs well but with pretty severe intermittent graphical issues.",
-          "source": "discord",
-          "submittedBy": "reality111",
-          "build": null
+          "date": "2026-03-11",
+          "notes": "Able to load into game, low frame rates and severe graphical bugs but functions.",
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.0-9296",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9296",
+            "commitShort": "ab2ca341a"
+          }
         }
       }
     }
@@ -7737,51 +7524,13 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "ingame",
-        "perf": "n/a",
-        "notes": "Crashes immediately on load.",
-        "updatedAt": "2026-03-09",
-        "reportCount": 2,
-        "latestReport": {
-          "device": "Macbook Pro M4",
-          "platform": "macos",
-          "osVersion": "26.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "n/a",
-          "date": "2026-03-09",
-          "notes": "Crashes immediately on load.",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.0-9280",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633E8177"
-          }
-        },
-        "bestReport": {
-          "device": "Macbook Pro M4",
-          "platform": "macos",
-          "osVersion": "26.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "n/a",
-          "date": "2026-03-09",
-          "notes": "Crashes immediately on load.",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.0-9280",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633E8177"
-          }
-        }
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
       },
       "preview": {
         "channel": "preview",
@@ -8931,51 +8680,13 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "playable",
-        "perf": "ok",
-        "notes": "For me I encountered Few Bug and Crashes around the first 4-5 boots then the game runs good after.",
-        "updatedAt": "2026-03-09",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPad 11th Gen",
-          "platform": "ios",
-          "osVersion": "18.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-03-09",
-          "notes": "For me I encountered Few Bug and Crashes around the first 4-5 boots then the game runs good after.",
-          "source": "github",
-          "build": {
-            "buildId": "ios-release-1.0.0-9280",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633e8177"
-          }
-        },
-        "bestReport": {
-          "device": "iPad 11th Gen",
-          "platform": "ios",
-          "osVersion": "18.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-03-09",
-          "notes": "For me I encountered Few Bug and Crashes around the first 4-5 boots then the game runs good after.",
-          "source": "github",
-          "build": {
-            "buildId": "ios-release-1.0.0-9280",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633e8177"
-          }
-        }
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
       },
       "preview": {
         "channel": "preview",
@@ -13183,51 +12894,13 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "ingame",
-        "perf": "poor",
-        "notes": "The game boots and you can get into the main game as expected. However, actual gameplay is quite slow. Loading into the map for the first time is especially slow and you will likely encounter some graphical glitches as it loads in. Video content (e.g. pre-rendered cutscenes) also has heavy graphical glitches during playback.",
-        "updatedAt": "2026-03-08",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 16 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.1 (23B85)",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-03-08",
-          "notes": "The game boots and you can get into the main game as expected. However, actual gameplay is quite slow. Loading into the map for the first time is especially slow and you will likely encounter some graphical glitches as it loads in. Video content (e.g. pre-rendered cutscenes) also has heavy graphical glitches during playback.",
-          "source": "github",
-          "build": {
-            "buildId": "ios-release-1.0.0-9280",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633E8177"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 16 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.1 (23B85)",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-03-08",
-          "notes": "The game boots and you can get into the main game as expected. However, actual gameplay is quite slow. Loading into the map for the first time is especially slow and you will likely encounter some graphical glitches as it loads in. Video content (e.g. pre-rendered cutscenes) also has heavy graphical glitches during playback.",
-          "source": "github",
-          "build": {
-            "buildId": "ios-release-1.0.0-9280",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633E8177"
-          }
-        }
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
       },
       "preview": {
         "channel": "preview",
@@ -14864,51 +14537,13 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "loads",
-        "perf": "poor",
-        "notes": "Consistent graphical issues and artifacts. Boots to game selection menu, clicking on any games leads to an immediate hang.",
-        "updatedAt": "2026-03-08",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 17 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "poor",
-          "date": "2026-03-08",
-          "notes": "Consistent graphical issues and artifacts. Boots to game selection menu, clicking on any games leads to an immediate hang.",
-          "source": "github",
-          "build": {
-            "buildId": "ios-release-1.0.0-9280",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633E8177"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 17 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "poor",
-          "date": "2026-03-08",
-          "notes": "Consistent graphical issues and artifacts. Boots to game selection menu, clicking on any games leads to an immediate hang.",
-          "source": "github",
-          "build": {
-            "buildId": "ios-release-1.0.0-9280",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633E8177"
-          }
-        }
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
       },
       "preview": {
         "channel": "preview",
