@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **125 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **126 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **37** · 🔵 In-Game: **32** · 🟡 Intro: **17** · 🟠 Loads: **20** · 🔴 Doesn't Boot: **19**
+> 🟢 Playable: **38** · 🔵 In-Game: **32** · 🟡 Intro: **17** · 🟠 Loads: **20** · 🔴 Doesn't Boot: **19**
 >
-> 📱 iOS: **123** · 🖥️ macOS: **5**
+> 📱 iOS: **124** · 🖥️ macOS: **5**
 
 ## Legend
 
@@ -54,6 +54,7 @@
 | 🟢 | Ridge Racer 6 | `4E4D07D3` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-08 |
 | 🟢 | STEINS;GATE 比翼恋理のだーりん | `465607E8` | 📱 iOS | Playable | 🚀 Great | iPhone 17 | 2026-03-02 |
 | 🟢 | StreetFighter IV | `434307FC` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro Max | 2026-03-09 |
+| 🟢 | STREETFIGHTER X TEKKEN | `4343080F` | 📱 iOS | Playable | 🐢 Poor | iPhone 16 Pro Max | 2026-03-11 |
 | 🟢 | The Force Unleashed | `4C4107D2` | 📱 iOS | Playable | 🚀 Great | iPhone 15 Pro | 2026-03-10 |
 | 🟢 | The Outfit | `545107D2` | 📱 iOS | Playable | 🐢 Poor | iPhone 15 Pro Max | 2026-03-08 |
 | 🟢 | Virtua Fighter 5: Final Showdown | `534507EE` | 📱 iOS | Playable | 👌 OK | iPhone 17 Pro Max | 2026-03-03 |
