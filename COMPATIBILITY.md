@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **128 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **129 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **38** · 🔵 In-Game: **32** · 🟡 Intro: **19** · 🟠 Loads: **20** · 🔴 Doesn't Boot: **19**
+> 🟢 Playable: **38** · 🔵 In-Game: **32** · 🟡 Intro: **19** · 🟠 Loads: **20** · 🔴 Doesn't Boot: **20**
 >
-> 📱 iOS: **127** · 🖥️ macOS: **3**
+> 📱 iOS: **128** · 🖥️ macOS: **3**
 
 ## Legend
 
@@ -143,6 +143,7 @@
 | 🔴 | RESIDENT EVIL 5 | `434307D4` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-03 |
 | 🔴 | Rise of the Tomb Raider | `53510823` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 13 Mini | 2026-03-09 |
 | 🔴 | SONIC GENERATIONS | `53450848` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 13 Pro | 2026-03-08 |
+| 🔴 | Soulcalibur IV | `4E4D07E0` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro Max | 2026-03-11 |
 | 🔴 | Star Ocean: TLH | `535107DD` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-03 |
 | 🔴 | TEKKEN 6 | `4E4D07FC` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-03 |
 | 🔴 | The Godfather™ | `454107E9` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-09 |
