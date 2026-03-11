@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-11T02:16:33.641Z",
+  "generatedAt": "2026-03-11T02:41:01.192Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -880,6 +880,37 @@
             "device": "iPhone 15 Pro Max",
             "platform": "iOS",
             "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        }
+      ]
+    },
+    "545408B6": {
+      "titleId": "545408B6",
+      "issueNumber": 189,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/189",
+      "updatedAt": "2026-03-11",
+      "entries": [
+        {
+          "id": "issue-189",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/189",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-11",
+          "createdAtMs": 1773196816000,
+          "issueNumber": 189,
+          "excerpt": "Game won’t boot.",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 16 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.2",
             "gpuBackend": "MSL",
             "buildChannel": "self-built",
             "appVersion": "1.0.0",
