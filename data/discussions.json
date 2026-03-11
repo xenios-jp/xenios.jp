@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-11T04:32:01.543Z",
+  "generatedAt": "2026-03-11T04:41:47.207Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -758,6 +758,37 @@
             "platform": "iOS",
             "osVersion": "iOS 18.5",
             "gpuBackend": "MSL"
+          }
+        }
+      ]
+    },
+    "53510804": {
+      "titleId": "53510804",
+      "issueNumber": 194,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/194",
+      "updatedAt": "2026-03-11",
+      "entries": [
+        {
+          "id": "issue-194",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/194",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-11",
+          "createdAtMs": 1773204079000,
+          "issueNumber": 194,
+          "excerpt": "It has audio & rendering issues,also the game crashes after few seconds into the first mission",
+          "images": [],
+          "meta": {
+            "status": "intro",
+            "perf": "poor",
+            "device": "iPad Pro 12.9 inch 6th Gen",
+            "platform": "iOS",
+            "osVersion": "iOS 26.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
           }
         }
       ]
