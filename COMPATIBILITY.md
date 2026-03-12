@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **165 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **166 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **54** · 🔵 In-Game: **51** · 🟡 Intro: **18** · 🟠 Loads: **21** · 🔴 Doesn't Boot: **21**
+> 🟢 Playable: **55** · 🔵 In-Game: **51** · 🟡 Intro: **18** · 🟠 Loads: **21** · 🔴 Doesn't Boot: **21**
 >
-> 📱 iOS: **160** · 🖥️ macOS: **11**
+> 📱 iOS: **161** · 🖥️ macOS: **11**
 
 ## Legend
 
@@ -62,6 +62,7 @@
 | 🟢 | Plants vs. Zombies | `584109FF` | 📱 iOS | Playable | 🚀 Great | iPad Mini 7 (A17 Pro) | 2026-03-12 |
 | 🟢 | Pro Evolution Soccer 2012 / PES 2012 | `4B4E0837` | 📱 iOS | Playable | 👌 OK | iPhone 14 Pro Max | 2026-03-08 |
 | 🟢 | Quantum of Solace | `415607FF` | 📱 iOS | Playable | 👌 OK | iPad Pro 12.9 inch 6th Gen | 2026-03-11 |
+| 🟢 | Resident Evil Revelations | `43430833` | 📱 iOS | Playable | 🚀 Great | iPhone 16e | 2026-03-12 |
 | 🟢 | Ridge Racer 6 | `4E4D07D3` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-08 |
 | 🟢 | Rumble Roses XX | `4B4E07D1` | 🖥️ macOS | Playable | 🚀 Great | MacMini M2 | 2026-03-11 |
 | 🟢 | Sonic Generations | `53450848` | 📱 iOS | Playable | 👌 OK | iPhone 17 Pro | 2026-03-08 |
