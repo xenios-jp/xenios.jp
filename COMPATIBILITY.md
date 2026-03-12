@@ -99,7 +99,7 @@
 | 🔵 | Lost Odyssey | `4D5307FA` | 📱 iOS, 🖥️ macOS | In-Game | 🚀 Great | Mac mini (M2) | 2026-03-11 |
 | 🔵 | Mercenaries 2: World in Flames | `45410828` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro | 2026-03-09 |
 | 🔵 | Metro Last Light | `4B4D07F5` | 🖥️ macOS | In-Game | 👌 OK | MacBook Pro M4 Pro/Max | 2026-02-28 |
-| 🔵 | Midnight Club: Los Angeles | `545407F8` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro Max | 2026-03-10 |
+| 🔵 | Midnight Club: Los Angeles | `545407F8` | 📱 iOS | In-Game | 🐢 Poor | iPhone 16 | 2026-03-12 |
 | 🔵 | Mirror's Edge | `45410850` | 📱 iOS | In-Game | 🐢 Poor | iPhone Air | 2026-03-08 |
 | 🔵 | NBA 2K10 | `54540852` | 📱 iOS | In-Game | 👌 OK | iPhone 16e | 2026-03-10 |
 | 🔵 | NBA 2K11 | `5454087A` | 📱 iOS | In-Game | 👌 OK | iPhone 16e | 2026-03-10 |
@@ -107,7 +107,7 @@
 | 🔵 | NBA Live 10 | `454108C1` | 📱 iOS | In-Game | 🐢 Poor | iPhone 16e | 2026-03-10 |
 | 🔵 | NBA Street Homecourt | `454107F7` | 📱 iOS | In-Game | 👌 OK | iPhone 16e | 2026-03-10 |
 | 🔵 | NBA Street Homecourt | `454107E3` | 📱 iOS | In-Game | 🚀 Great | iPhone 17 Pro Max | 2026-03-09 |
-| 🔵 | Need for Speed Most Wanted (2005) | `454107D9` | 📱 iOS | In-Game | 👌 OK | iPhone 17 | 2026-03-09 |
+| 🔵 | Need for Speed Most Wanted (2005) | `454107D9` | 📱 iOS | In-Game | 👌 OK | iPhone 17 | 2026-03-08 |
 | 🔵 | NFL Tour | `45410835` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro Max | 2026-03-11 |
 | 🔵 | PAC-MAN and the Ghostly Adventures | `4E4D0865` | 📱 iOS | In-Game | 🐢 Poor | iPhone 15 Pro Max | 2026-03-08 |
 | 🔵 | Pinball Arcade | `5841121D` | 📱 iOS | In-Game | 🐢 Poor | iPhone 13 | 2026-03-10 |
