@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **170 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **171 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **56** · 🔵 In-Game: **50** · 🟡 Intro: **20** · 🟠 Loads: **22** · 🔴 Doesn't Boot: **22**
+> 🟢 Playable: **58** · 🔵 In-Game: **48** · 🟡 Intro: **20** · 🟠 Loads: **23** · 🔴 Doesn't Boot: **22**
 >
-> 📱 iOS: **165** · 🖥️ macOS: **11**
+> 📱 iOS: **166** · 🖥️ macOS: **12**
 
 ## Legend
 
@@ -58,6 +58,7 @@
 | 🟢 | Naruto: Rise Of A Ninja | `555307E5` | 📱 iOS | Playable | 🚀 Great | iPhone 15 Pro | 2026-03-09 |
 | 🟢 | NBA Live 06 | `454107D8` | 📱 iOS | Playable | 👌 OK | iPhone 16e | 2026-03-10 |
 | 🟢 | Need for Speed Carbon | `454107EC` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-12 |
+| 🟢 | Need for Speed Most Wanted (2005) | `454107D9` | 📱 iOS, 🖥️ macOS | Playable | 👌 OK | MacBook Air M4 | 2026-03-12 |
 | 🟢 | Need for Speed: ProStreet | `45410822` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro | 2026-03-11 |
 | 🟢 | Need for Speed: Undercover | `45410876` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-09 |
 | 🟢 | Plants vs. Zombies | `584109FF` | 📱 iOS | Playable | 🚀 Great | iPad Mini 7 (A17 Pro) | 2026-03-12 |
@@ -66,6 +67,7 @@
 | 🟢 | Resident Evil Revelations | `43430833` | 📱 iOS | Playable | 🚀 Great | iPhone 16e | 2026-03-12 |
 | 🟢 | Ridge Racer 6 | `4E4D07D3` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-08 |
 | 🟢 | Rumble Roses XX | `4B4E07D1` | 🖥️ macOS | Playable | 🚀 Great | MacMini M2 | 2026-03-11 |
+| 🟢 | Skate 2 | `4541087F` | 📱 iOS | Playable | 🐢 Poor | iPhone 16e | 2026-03-12 |
 | 🟢 | Sonic Generations | `53450848` | 📱 iOS | Playable | 👌 OK | iPhone 17 Pro | 2026-03-08 |
 | 🟢 | SpongeBob HeroPants | `41560919` | 📱 iOS | Playable | 👌 OK | iPad Mini 7 | 2026-03-08 |
 | 🟢 | Star Wars: The Force Unleashed | `4C4107D2` | 📱 iOS | Playable | 🚀 Great | iPhone 15 Pro | 2026-03-10 |
@@ -107,7 +109,6 @@
 | 🔵 | NBA Live 10 | `454108C1` | 📱 iOS | In-Game | 🐢 Poor | iPhone 16e | 2026-03-10 |
 | 🔵 | NBA Street Homecourt | `454107F7` | 📱 iOS | In-Game | 👌 OK | iPhone 16e | 2026-03-10 |
 | 🔵 | NBA Street Homecourt | `454107E3` | 📱 iOS | In-Game | 🚀 Great | iPhone 17 Pro Max | 2026-03-09 |
-| 🔵 | Need for Speed Most Wanted (2005) | `454107D9` | 📱 iOS | In-Game | 👌 OK | iPhone 17 | 2026-03-08 |
 | 🔵 | NFL Tour | `45410835` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro Max | 2026-03-11 |
 | 🔵 | PAC-MAN and the Ghostly Adventures | `4E4D0865` | 📱 iOS | In-Game | 🐢 Poor | iPhone 15 Pro Max | 2026-03-08 |
 | 🔵 | Pinball Arcade | `5841121D` | 📱 iOS | In-Game | 🐢 Poor | iPhone 13 | 2026-03-10 |
@@ -119,7 +120,6 @@
 | 🔵 | Saints Row | `545107D1` | 📱 iOS | In-Game | 👌 OK | iPhone 16 | 2026-03-10 |
 | 🔵 | Saints Row 2 | `545107FC` | 📱 iOS | In-Game | 🐢 Poor | iPhone 14 Pro Max | 2026-03-08 |
 | 🔵 | Serious Sam HD: The First Encounter | `584109DA` | 📱 iOS | In-Game | 🐢 Poor | iPhone Air | 2026-03-08 |
-| 🔵 | Skate 2 | `4541087F` | 📱 iOS | In-Game | 🐢 Poor | iPhone 16 Pro Max | 2026-03-08 |
 | 🔵 | Skate 3 | `454108E6` | 📱 iOS | In-Game | 🐢 Poor | iPhone 16 Pro Max | 2026-03-09 |
 | 🔵 | skate. | `45410813` | 📱 iOS | In-Game | 🐢 Poor | iPad Pro (M2) | 2026-03-03 |
 | 🔵 | Sonic the Hedgehog | `534507D6` | 📱 iOS | In-Game | 👌 OK | Iphone Air | 2026-03-11 |
@@ -151,6 +151,7 @@
 | 🟠 | Call Of Duty: World At War | `4156081C` | 📱 iOS | Loads | 🐢 Poor | iPhone 15 Pro Max | 2026-03-09 |
 | 🟠 | Crash Of The Titans | `565507E4` | 📱 iOS | Loads | 🚀 Great | iPad 11th Gen | 2026-03-08 |
 | 🟠 | Crysis 3 | `4541098E` | 📱 iOS | Loads | 🐢 Poor | iPad Pro M5 | 2026-03-09 |
+| 🟠 | Dark Souls | `4E4D083A` | 📱 iOS | Loads | 🐢 Poor | iPhone 17 | 2026-03-12 |
 | 🟠 | Deadpool | `415608EC` | 📱 iOS | Loads | 🚀 Great | iPhone 15 Pro | 2026-03-09 |
 | 🟠 | Epic Mickey 2 The Power Of Two | `42560816` | 📱 iOS | Loads | 🐢 Poor | iPhone 15 Pro Max | 2026-03-08 |
 | 🟠 | Family Guy: Back To The Multiverse | `415608C5` | 📱 iOS | Loads | 🐢 Poor | iPhone 17 | 2026-03-12 |
