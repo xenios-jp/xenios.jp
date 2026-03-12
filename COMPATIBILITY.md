@@ -2,7 +2,7 @@
 
 > **141 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **41** · 🔵 In-Game: **34** · 🟡 Intro: **20** · 🟠 Loads: **22** · 🔴 Doesn't Boot: **24**
+> 🟢 Playable: **41** · 🔵 In-Game: **34** · 🟡 Intro: **19** · 🟠 Loads: **23** · 🔴 Doesn't Boot: **24**
 >
 > 📱 iOS: **140** · 🖥️ macOS: **4**
 
@@ -105,7 +105,6 @@
 | 🟡 | DOOM 3 BFG Edition | `425307F1` | 📱 iOS | Intro | 🚀 Great | iPhone 16 Pro | 2026-03-03 |
 | 🟡 | Fallout: New Vegas | `425307E0` | 📱 iOS | Intro | 🐢 Poor | iPhone 13 | 2026-03-10 |
 | 🟡 | Gears of War | `4D5307D5` | 📱 iOS | Intro | 👌 OK | iPhone 16 Pro | 2026-03-11 |
-| 🟡 | Grand Theft Auto V | `545408A7` | 📱 iOS | Intro | 🐢 Poor | iPhone 17 | 2026-03-09 |
 | 🟡 | Halo 3: ODST | `4D530877` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro | 2026-03-03 |
 | 🟡 | Halo 4 | `4D530919` | 📱 iOS | Intro | 🐢 Poor | iPad Pro 12.9 inch 6th Gen | 2026-03-10 |
 | 🟡 | Halo Wars | `4D530808` | 📱 iOS | Intro | 👌 OK | iPhone 17 | 2026-03-03 |
@@ -124,6 +123,7 @@
 | 🟠 | Deadpool | `415608EC` | 📱 iOS | Loads | 🚀 Great | iPhone 15 Pro | 2026-03-09 |
 | 🟠 | Diablo III: RoS | `394F07D4` | 🖥️ macOS, 📱 iOS | Loads | 🐢 Poor | Macbook Pro M4 | 2026-03-09 |
 | 🟠 | Disney Epic Mickey 2 | `42560816` | 📱 iOS | Loads | 🐢 Poor | iPhone 15 Pro Max | 2026-03-08 |
+| 🟠 | Grand Theft Auto V | `545408A7` | 📱 iOS | Loads | 🐢 Poor | iPhone 16 | 2026-03-12 |
 | 🟠 | GTA: San Andreas | `545408B8` | 📱 iOS | Loads | 👌 OK | iPhone 16 Pro Max | 2026-03-11 |
 | 🟠 | Jeopardy! | `545108AE` | 📱 iOS | Loads | 🐢 Poor | iPhone 16 Pro | 2026-03-05 |
 | 🟠 | Left 4 Dead | `45410830` | 📱 iOS | Loads | 🐢 Poor | iPhone 17 Pro Max | 2026-03-08 |

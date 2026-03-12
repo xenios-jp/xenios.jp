@@ -7268,22 +7268,43 @@
     "slug": "grand-theft-auto-v",
     "title": "Grand Theft Auto V",
     "titleId": "545408A7",
-    "status": "intro",
+    "status": "loads",
     "perf": "poor",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 17",
+      "device": "iPhone 16",
       "platform": "ios",
-      "osVersion": "26.3.1",
+      "osVersion": "26.3",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-09",
-    "notes": "It shows the start then goes black the audio is a bit bugged too",
+    "updatedAt": "2026-03-12",
+    "notes": "Game gets stuck on a black screen when it should be loading the game. If you try to touch the screen to open the XeniOS menu, nothing happens. But if you touch the screen before the black screen, then you’re trapped at the XeniOS menu.",
     "reports": [
+      {
+        "device": "iPhone 16",
+        "platform": "ios",
+        "osVersion": "26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "loads",
+        "perf": "poor",
+        "date": "2026-03-12",
+        "notes": "Game gets stuck on a black screen when it should be loading the game. If you try to touch the screen to open the XeniOS menu, nothing happens. But if you touch the screen before the black screen, then you’re trapped at the XeniOS menu.",
+        "source": "app",
+        "build": {
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "stage": "stable",
+          "commitShort": "2633e8177",
+          "buildId": "ios-self-built-1.0.0-9280"
+        }
+      },
       {
         "device": "iPhone 17",
         "platform": "ios",
@@ -7345,9 +7366,14 @@
         }
       }
     ],
-    "screenshots": [],
-    "issueNumber": 62,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/62",
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408A7/1773275205163-1.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408A7/1773275205163-2.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408A7/1773275205163-3.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408A7/1773275205163-4.jpg"
+    ],
+    "issueNumber": 214,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/214",
     "summaries": {
       "release": {
         "channel": "release",
@@ -7373,27 +7399,28 @@
         "channel": "all",
         "status": "intro",
         "perf": "poor",
-        "notes": "It shows the start then goes black the audio is a bit bugged too",
-        "updatedAt": "2026-03-09",
-        "reportCount": 3,
+        "notes": "Game gets stuck on a black screen when it should be loading the game. If you try to touch the screen to open the XeniOS menu, nothing happens. But if you touch the screen before the black screen, then you’re trapped at the XeniOS menu.",
+        "updatedAt": "2026-03-12",
+        "reportCount": 4,
         "latestReport": {
-          "device": "iPhone 17",
+          "device": "iPhone 16",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "26.3",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "intro",
+          "status": "loads",
           "perf": "poor",
-          "date": "2026-03-09",
-          "notes": "It shows the start then goes black the audio is a bit bugged too",
+          "date": "2026-03-12",
+          "notes": "Game gets stuck on a black screen when it should be loading the game. If you try to touch the screen to open the XeniOS menu, nothing happens. But if you touch the screen before the black screen, then you’re trapped at the XeniOS menu.",
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9280",
-            "commitShort": "2633e8177"
+            "stage": "stable",
+            "commitShort": "2633e8177",
+            "buildId": "ios-self-built-1.0.0-9280"
           }
         },
         "bestReport": {
@@ -16818,6 +16845,8 @@
           }
         }
       }
-    }
+    },
+    "issueNumber": 213,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/213"
   }
 ]
