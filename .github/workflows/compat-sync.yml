@@ -34,6 +34,11 @@ jobs:
           node-version: 20
           cache: npm
 
+      - name: Repair GitHub release artifact links
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: node scripts/repair-release-builds.mjs
+
       - name: Generate COMPATIBILITY.md
         run: node scripts/generate-compatibility-markdown.mjs
 
@@ -44,9 +49,9 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add COMPATIBILITY.md public/compatibility/data.json public/compatibility/discussions.json public/builds/release-builds.json public/builds/history.json
+          git add data/release-builds.json data/builds-history.json COMPATIBILITY.md public/compatibility/data.json public/compatibility/discussions.json public/builds/release-builds.json public/builds/history.json
           if ! git diff --staged --quiet; then
-            git commit -m "docs: sync public compatibility data [skip ci]"
+            git commit -m "data: sync published site data [skip ci]"
             git push
           else
             echo "No changes"
