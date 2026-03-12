@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-12T03:14:54.691Z",
+  "generatedAt": "2026-03-12T07:16:48.365Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1691,8 +1691,31 @@
       "titleId": "415607F7",
       "issueNumber": 199,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/199",
-      "updatedAt": "2026-03-11",
+      "updatedAt": "2026-03-12",
       "entries": [
+        {
+          "id": "comment-4044528622",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/199#issuecomment-4044528622",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-12",
+          "createdAtMs": 1773299755000,
+          "issueNumber": 199,
+          "excerpt": "Se puede jugar sin audio",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        },
         {
           "id": "issue-199",
           "type": "issue",
