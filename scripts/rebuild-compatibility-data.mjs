@@ -9,6 +9,7 @@ const repoRoot = path.resolve(__dirname, "..");
 const owner = process.env.COMPAT_SOURCE_OWNER || "xenios-jp";
 const repo = process.env.COMPAT_SOURCE_REPO || "game-compatibility";
 const branch = process.env.COMPAT_SOURCE_BRANCH || "main";
+const BASE_CATALOG_PATH = "data/compatibility-base.json";
 
 const STATUS_RANK = {
   nothing: 0,
@@ -628,7 +629,7 @@ function slugifySyntheticGameTitle(title, titleId) {
 
 async function main() {
   const [baseCatalog, discussionSnapshot, trackerCatalog, issueIndex] = await Promise.all([
-    readJson("data/compatibility.json"),
+    readJson(BASE_CATALOG_PATH),
     readJson("data/discussions.json"),
     fetchJson(
       `https://raw.githubusercontent.com/${owner}/${repo}/${branch}/data/compatibility.json`,
