@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **164 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **165 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **53** · 🔵 In-Game: **51** · 🟡 Intro: **18** · 🟠 Loads: **21** · 🔴 Doesn't Boot: **21**
+> 🟢 Playable: **54** · 🔵 In-Game: **51** · 🟡 Intro: **18** · 🟠 Loads: **21** · 🔴 Doesn't Boot: **21**
 >
-> 📱 iOS: **159** · 🖥️ macOS: **11**
+> 📱 iOS: **160** · 🖥️ macOS: **11**
 
 ## Legend
 
@@ -56,6 +56,7 @@
 | 🟢 | Mortal Kombat Komplete Edition | `575207FD` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro Max | 2026-03-10 |
 | 🟢 | Naruto: Rise Of A Ninja | `555307E5` | 📱 iOS | Playable | 🚀 Great | iPhone 15 Pro | 2026-03-09 |
 | 🟢 | NBA Live 06 | `454107D8` | 📱 iOS | Playable | 👌 OK | iPhone 16e | 2026-03-10 |
+| 🟢 | Need for Speed Carbon | `454107EC` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-12 |
 | 🟢 | Need for Speed: ProStreet | `45410822` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro | 2026-03-11 |
 | 🟢 | Need for Speed: Undercover | `45410876` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-09 |
 | 🟢 | Plants vs. Zombies | `584109FF` | 📱 iOS | Playable | 🚀 Great | iPad Mini 7 (A17 Pro) | 2026-03-12 |
