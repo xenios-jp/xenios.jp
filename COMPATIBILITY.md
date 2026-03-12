@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **140 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **141 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **40** · 🔵 In-Game: **34** · 🟡 Intro: **20** · 🟠 Loads: **22** · 🔴 Doesn't Boot: **24**
+> 🟢 Playable: **41** · 🔵 In-Game: **34** · 🟡 Intro: **20** · 🟠 Loads: **22** · 🔴 Doesn't Boot: **24**
 >
-> 📱 iOS: **139** · 🖥️ macOS: **4**
+> 📱 iOS: **140** · 🖥️ macOS: **4**
 
 ## Legend
 
@@ -59,6 +59,7 @@
 | 🟢 | STREETFIGHTER X TEKKEN | `4343080F` | 📱 iOS | Playable | 🐢 Poor | iPhone 16 Pro Max | 2026-03-11 |
 | 🟢 | The Force Unleashed | `4C4107D2` | 📱 iOS | Playable | 🚀 Great | iPhone 15 Pro | 2026-03-10 |
 | 🟢 | The Outfit | `545107D2` | 📱 iOS | Playable | 🐢 Poor | iPhone 15 Pro Max | 2026-03-08 |
+| 🟢 | The Simpsons™ Game | `45410809` | 📱 iOS | Playable | 🚀 Great | iPhone 15 Pro Max | 2026-03-12 |
 | 🟢 | Virtua Fighter 5: Final Showdown | `534507EE` | 📱 iOS | Playable | 👌 OK | iPhone 17 Pro Max | 2026-03-03 |
 | 🔵 | [Midnight Club: Los Angeles] | `545407F8` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro Max | 2026-03-10 |
 | 🔵 | AC Revelations | `55530879` | 📱 iOS | In-Game | 🐢 Poor | iPhone 15 Pro Max | 2026-03-11 |

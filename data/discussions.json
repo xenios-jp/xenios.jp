@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-12T00:14:36.694Z",
+  "generatedAt": "2026-03-12T00:15:25.456Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -238,10 +238,33 @@
     },
     "45410809": {
       "titleId": "45410809",
-      "issueNumber": 98,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/98",
-      "updatedAt": "2026-03-08",
+      "issueNumber": 213,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/213",
+      "updatedAt": "2026-03-12",
       "entries": [
+        {
+          "id": "issue-213",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/213",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-12",
+          "createdAtMs": 1773274493000,
+          "issueNumber": 213,
+          "excerpt": "Cinematics graphics bug",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 15 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.2",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9296",
+            "commitShort": "`ab2ca341a`"
+          }
+        },
         {
           "id": "issue-98",
           "type": "issue",
