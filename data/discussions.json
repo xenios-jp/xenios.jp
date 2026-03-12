@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-12T15:20:26.215Z",
+  "generatedAt": "2026-03-12T15:41:30.039Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -107,6 +107,37 @@
             "appVersion": "1.0.0",
             "buildNumber": "9280",
             "commitShort": "`2633e8177`"
+          }
+        }
+      ]
+    },
+    "41560905": {
+      "titleId": "41560905",
+      "issueNumber": 221,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/221",
+      "updatedAt": "2026-03-12",
+      "entries": [
+        {
+          "id": "issue-221",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/221",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-12",
+          "createdAtMs": 1773328832000,
+          "issueNumber": 221,
+          "excerpt": "The game does not launch and the app crashes",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 17",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9299",
+            "commitShort": "`d8c101905`"
           }
         }
       ]
@@ -1188,6 +1219,82 @@
             "appVersion": "1.0.0",
             "buildNumber": "9280",
             "commitShort": "`2633e8177`"
+          }
+        }
+      ]
+    },
+    "454107D9": {
+      "titleId": "454107D9",
+      "issueNumber": 223,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/223",
+      "updatedAt": "2026-03-12",
+      "entries": [
+        {
+          "id": "issue-223",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/223",
+          "author": "TheVaroX",
+          "createdAt": "2026-03-12",
+          "createdAtMs": 1773329886000,
+          "issueNumber": 223,
+          "excerpt": "- The introductory videos (such as the EA intro or the Razón and Cross cinematics) have glitches and issues, but this does not affect gameplay.\n- The \"Campaign\" works up to a certain point, where the audio cuts out and the game subsequently freezes (see last attached image).\n- The \"Challenge Series\" mode works almost entirely (I haven't finished it completely).\n- Achievement unlocking and online play have not been verified.",
+          "images": [],
+          "meta": {}
+        },
+        {
+          "id": "issue-151",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/151",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-09",
+          "createdAtMs": 1773084382000,
+          "issueNumber": 151,
+          "excerpt": "Stuck sen tried to strt a quick race",
+          "images": [],
+          "meta": {
+            "status": "loads",
+            "perf": "ok",
+            "device": "iPad 11th Gen",
+            "platform": "iOS",
+            "osVersion": "iOS 26.2.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        }
+      ]
+    },
+    "415608C5": {
+      "titleId": "415608C5",
+      "issueNumber": 222,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/222",
+      "updatedAt": "2026-03-12",
+      "entries": [
+        {
+          "id": "issue-222",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/222",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-12",
+          "createdAtMs": 1773328958000,
+          "issueNumber": 222,
+          "excerpt": "Stuck on the loading into the game to get to main menu",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/415608C5/1773328953635-1.jpg"
+          ],
+          "meta": {
+            "status": "loads",
+            "perf": "poor",
+            "device": "iPhone 17",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9296",
+            "commitShort": "`ab2ca341a`"
           }
         }
       ]
@@ -3471,37 +3578,6 @@
             "platform": "macOS",
             "osVersion": "macOS 15.3",
             "gpuBackend": "MSC"
-          }
-        }
-      ]
-    },
-    "454107D9": {
-      "titleId": "454107D9",
-      "issueNumber": 151,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/151",
-      "updatedAt": "2026-03-09",
-      "entries": [
-        {
-          "id": "issue-151",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/151",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-09",
-          "createdAtMs": 1773084382000,
-          "issueNumber": 151,
-          "excerpt": "Stuck sen tried to strt a quick race",
-          "images": [],
-          "meta": {
-            "status": "loads",
-            "perf": "ok",
-            "device": "iPad 11th Gen",
-            "platform": "iOS",
-            "osVersion": "iOS 26.2.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "`2633e8177`"
           }
         }
       ]
