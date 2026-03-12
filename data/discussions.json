@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-12T00:27:26.621Z",
+  "generatedAt": "2026-03-12T02:41:53.409Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -918,8 +918,35 @@
       "titleId": "53510823",
       "issueNumber": 119,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/119",
-      "updatedAt": "2026-03-09",
+      "updatedAt": "2026-03-12",
       "entries": [
+        {
+          "id": "comment-4043415891",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/119#issuecomment-4043415891",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-12",
+          "createdAtMs": 1773281659000,
+          "issueNumber": 119,
+          "excerpt": "With default settings, crashes immediately on launch. \n\nWith “AR64 Stack Synchronization” setting turned on it goes till the menu, crashes a few seconds after the intro starts. Graphics are glitched, though the audio is clear.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/53510823/1773281650689-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/53510823/1773281650689-2.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/53510823/1773281650689-3.jpg"
+          ],
+          "meta": {
+            "status": "intro",
+            "perf": "poor",
+            "device": "iPhone 16 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 18.6",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9296",
+            "commitShort": "`ab2ca341a`"
+          }
+        },
         {
           "id": "issue-119",
           "type": "issue",
@@ -1697,8 +1724,31 @@
       "titleId": "4D5307E6",
       "issueNumber": 197,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/197",
-      "updatedAt": "2026-03-11",
+      "updatedAt": "2026-03-12",
       "entries": [
+        {
+          "id": "comment-4043509556",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/197#issuecomment-4043509556",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-12",
+          "createdAtMs": 1773283251000,
+          "issueNumber": 197,
+          "excerpt": "Halo 3 crashes instantly when opened even with JIT enabled. The game closes but XeniOS remains open.",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.0",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9296",
+            "commitShort": "`ab2ca341a`"
+          }
+        },
         {
           "id": "issue-197",
           "type": "issue",
@@ -1811,29 +1861,6 @@
             "buildChannel": "self-built",
             "appVersion": "1.0.0",
             "buildNumber": "9271",
-            "commitShort": "`21f106d09e`"
-          }
-        },
-        {
-          "id": "comment-4018640275",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/42#issuecomment-4018640275",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-08",
-          "createdAtMs": 1772958530000,
-          "issueNumber": 42,
-          "excerpt": "Test report",
-          "images": [],
-          "meta": {
-            "status": "ingame",
-            "perf": "poor",
-            "device": "iPhone 17",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0",
-            "buildNumber": "1",
             "commitShort": "`21f106d09e`"
           }
         }
