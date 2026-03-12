@@ -30,6 +30,7 @@ import {
   type PlatformFilter,
 } from "@/lib/compatibility-browse";
 import {
+  getAllDiscussions,
   getDiscussionByTitleIds,
   type DiscussionData,
   type DiscussionEntry,
@@ -1075,6 +1076,253 @@ async function fetchLiveGames(): Promise<Game[] | null> {
   }
 }
 
+async function fetchGitHubIssueTitle(issueNumber: number): Promise<string | null> {
+  try {
+    const response = await fetch(
+      `https://api.github.com/repos/xenios-jp/game-compatibility/issues/${issueNumber}`,
+      {
+        headers: {
+          Accept: "application/vnd.github+json",
+          "User-Agent": "xenios-website-compatibility",
+        },
+        next: { revalidate: 60 },
+      },
+    );
+    if (!response.ok) return null;
+
+    const payload = (await response.json()) as { title?: unknown };
+    return typeof payload.title === "string" && payload.title.trim().length > 0
+      ? payload.title.trim()
+      : null;
+  } catch {
+    return null;
+  }
+}
+
+const GENERIC_GAME_TITLE_PATTERN = /^Title [A-F0-9]{8}$/i;
+const ISSUE_TITLE_ID_PREFIX_PATTERN = /^\[?[A-F0-9]{8}\]?\s*(?:—|-)\s*/i;
+const WRAPPED_GAME_TITLE_PATTERN = /^\[(.+)\]([™®©])?$/u;
+
+function isGenericGameTitle(title?: string | null): boolean {
+  if (!title) return true;
+  return title === "Unknown Title" || GENERIC_GAME_TITLE_PATTERN.test(title.trim());
+}
+
+function normalizeWrappedGameTitle(title: string): string {
+  const wrappedMatch = title.match(WRAPPED_GAME_TITLE_PATTERN);
+  if (!wrappedMatch) {
+    return title;
+  }
+
+  const innerTitle = wrappedMatch[1]?.trim();
+  const suffix = wrappedMatch[2] ?? "";
+  return innerTitle ? `${innerTitle}${suffix}` : title;
+}
+
+function parseGameTitleFromIssueTitle(issueTitle: string): string | null {
+  const cleaned = normalizeWrappedGameTitle(
+    issueTitle
+      .trim()
+      .replace(ISSUE_TITLE_ID_PREFIX_PATTERN, "")
+      .replace(/^\[?[A-F0-9]{8}\]?\s*/i, "")
+      .trim(),
+  );
+
+  return cleaned.length > 0 ? cleaned : null;
+}
+
+function slugifySyntheticGameTitle(title: string, titleId: string): string {
+  const slug = title
+    .normalize("NFKD")
+    .toLowerCase()
+    .replace(/['’]/g, "")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "")
+    .replace(/-{2,}/g, "-");
+
+  return slug || `title-${titleId.toLowerCase()}`;
+}
+
+function mergeUniqueValues<T extends string>(...lists: Array<readonly T[] | undefined>): T[] {
+  const seen = new Set<T>();
+  const merged: T[] = [];
+
+  for (const list of lists) {
+    for (const value of list ?? []) {
+      if (!value || seen.has(value)) continue;
+      seen.add(value);
+      merged.push(value);
+    }
+  }
+
+  return merged;
+}
+
+function getGamePrimaryTitleId(game: Pick<Game, "titleId">): string | null {
+  return game.titleId && game.titleId !== "UNKNOWN" ? game.titleId : null;
+}
+
+function getGameKnownTitleIds(game: Pick<Game, "titleId" | "titleIds">): string[] {
+  return mergeUniqueValues(
+    game.titleIds.filter((titleId) => titleId !== "UNKNOWN"),
+    getGamePrimaryTitleId(game) ? [getGamePrimaryTitleId(game)!] : [],
+  );
+}
+
+function dedupeReports(reports: GameReport[]): GameReport[] {
+  const deduped = new Map<string, GameReport>();
+
+  [...reports]
+    .sort(compareReportsByDate)
+    .forEach((report) => {
+      const key = reportIdentity(report);
+      if (!deduped.has(key)) {
+        deduped.set(key, report);
+      }
+    });
+
+  return [...deduped.values()];
+}
+
+function chooseCanonicalGame(existing: Game, incoming: Game): Game {
+  if (isGenericGameTitle(existing.title) && !isGenericGameTitle(incoming.title)) {
+    return incoming;
+  }
+  if (!existing.slug && incoming.slug) {
+    return incoming;
+  }
+  return existing;
+}
+
+function mergeCompatibilityGames(existing: Game, incoming: Game): Game {
+  const canonical = chooseCanonicalGame(existing, incoming);
+  const mergedReports = dedupeReports([...existing.reports, ...incoming.reports]);
+  const mergedTitleIds = mergeUniqueValues(
+    existing.titleIds.filter((titleId) => titleId !== "UNKNOWN"),
+    incoming.titleIds.filter((titleId) => titleId !== "UNKNOWN"),
+    getGamePrimaryTitleId(existing) ? [getGamePrimaryTitleId(existing)!] : [],
+    getGamePrimaryTitleId(incoming) ? [getGamePrimaryTitleId(incoming)!] : [],
+  );
+  const mergedScreenshots = mergeUniqueValues(
+    existing.screenshots,
+    incoming.screenshots,
+    ...mergedReports.map((report) => report.screenshots ?? []),
+  );
+  const mergedPlatforms = mergeUniqueValues(
+    existing.platforms,
+    incoming.platforms,
+    mergedReports.map((report) => report.platform),
+  );
+  const metadataSource =
+    parseDateValue(incoming.updatedAt) > parseDateValue(existing.updatedAt) ? incoming : existing;
+
+  const mergedRecord: Record<string, unknown> = {
+    slug: canonical.slug || existing.slug || incoming.slug,
+    title: canonical.title || existing.title || incoming.title,
+    titleId:
+      (canonical.titleId && canonical.titleId !== "UNKNOWN"
+        ? canonical.titleId
+        : mergedTitleIds[0]) ?? "UNKNOWN",
+    titleIds: mergedTitleIds,
+    tags: mergeUniqueValues(existing.tags, incoming.tags),
+    issueNumber: canonical.issueNumber ?? existing.issueNumber ?? incoming.issueNumber,
+    issueUrl: canonical.issueUrl ?? existing.issueUrl ?? incoming.issueUrl,
+    reports: mergedReports,
+    screenshots: mergedScreenshots,
+    platforms: mergedPlatforms,
+  };
+
+  if (mergedReports.length === 0) {
+    mergedRecord.status = metadataSource.status;
+    mergedRecord.perf = metadataSource.perf;
+    mergedRecord.updatedAt = metadataSource.updatedAt;
+    mergedRecord.notes = metadataSource.notes;
+    mergedRecord.lastReport = metadataSource.lastReport;
+    mergedRecord.summaries = metadataSource.summaries;
+  }
+
+  return normalizeGames([mergedRecord])[0] ?? canonical;
+}
+
+async function reconcileDiscussionAliases(games: Game[]): Promise<Game[]> {
+  const reconciledGames = [...games];
+  const knownTitleIds = new Set(
+    reconciledGames.flatMap((game) =>
+      mergeUniqueValues(game.titleIds, getGamePrimaryTitleId(game) ? [getGamePrimaryTitleId(game)!] : []),
+    ),
+  );
+  const titleIndex = new Map<string, Game[]>();
+
+  for (const game of reconciledGames) {
+    const titleKey = normalizeComparableText(game.title);
+    if (!titleKey) continue;
+    const existing = titleIndex.get(titleKey) ?? [];
+    existing.push(game);
+    titleIndex.set(titleKey, existing);
+  }
+
+  const unresolvedDiscussions = getAllDiscussions().filter(
+    (discussion) => !knownTitleIds.has(discussion.titleId),
+  );
+  if (unresolvedDiscussions.length === 0) {
+    return reconciledGames;
+  }
+
+  for (const discussion of unresolvedDiscussions) {
+    const issueTitle = await fetchGitHubIssueTitle(discussion.issueNumber);
+    const inferredTitle = issueTitle ? parseGameTitleFromIssueTitle(issueTitle) : null;
+    const titleMatches = inferredTitle
+      ? titleIndex.get(normalizeComparableText(inferredTitle)) ?? []
+      : [];
+
+    if (titleMatches.length === 1) {
+      const target = titleMatches[0]!;
+      target.titleIds = mergeUniqueValues(target.titleIds, [discussion.titleId]);
+      knownTitleIds.add(discussion.titleId);
+      continue;
+    }
+
+    const syntheticTitle = inferredTitle ?? `Title ${discussion.titleId}`;
+    let syntheticSlug = slugifySyntheticGameTitle(syntheticTitle, discussion.titleId);
+    if (reconciledGames.some((game) => game.slug === syntheticSlug)) {
+      syntheticSlug = `${syntheticSlug}-${discussion.titleId.toLowerCase()}`;
+    }
+
+    const syntheticGame =
+      normalizeGames([
+        {
+          slug: syntheticSlug,
+          title: syntheticTitle,
+          titleId: discussion.titleId,
+          titleIds: [discussion.titleId],
+          issueNumber: discussion.issueNumber,
+          issueUrl: discussion.issueUrl,
+          updatedAt: discussion.updatedAt,
+          notes: discussion.entries[0]?.excerpt ?? "",
+          reports: [],
+          screenshots: mergeUniqueValues(...discussion.entries.map((entry) => entry.images ?? [])),
+          platforms: [],
+          tags: [],
+        },
+      ])[0] ?? null;
+
+    if (!syntheticGame) {
+      continue;
+    }
+
+    reconciledGames.push(syntheticGame);
+    knownTitleIds.add(discussion.titleId);
+
+    const titleKey = normalizeComparableText(syntheticGame.title);
+    if (!titleKey) continue;
+    const existing = titleIndex.get(titleKey) ?? [];
+    existing.push(syntheticGame);
+    titleIndex.set(titleKey, existing);
+  }
+
+  return reconciledGames;
+}
+
 export const getCompatibilityGames = cache(async (): Promise<Game[]> => {
   const fallbackGames = getAllGames();
   const liveGames = await fetchLiveGames();
@@ -1084,29 +1332,57 @@ export const getCompatibilityGames = cache(async (): Promise<Game[]> => {
   }
 
   const mergedGames = new Map<string, Game>();
-  fallbackGames.forEach((game) => {
-    mergedGames.set(game.slug, game);
-  });
-  liveGames.forEach((game) => {
-    const fallbackGame = mergedGames.get(game.slug);
-    if (!fallbackGame) {
-      mergedGames.set(game.slug, game);
+  const titleIdToGameKey = new Map<string, string>();
+  let unknownKeyCounter = 0;
+
+  const registerGameAliases = (gameKey: string, game: Game) => {
+    for (const titleId of getGameKnownTitleIds(game)) {
+      if (!titleIdToGameKey.has(titleId)) {
+        titleIdToGameKey.set(titleId, gameKey);
+      }
+    }
+  };
+
+  const allocateGameKey = (game: Game) => {
+    return getGamePrimaryTitleId(game) ?? game.slug ?? `unknown-${unknownKeyCounter++}`;
+  };
+
+  const findExistingGameKey = (game: Game): string | null => {
+    const primaryTitleId = getGamePrimaryTitleId(game);
+    if (primaryTitleId) {
+      const existingKey = titleIdToGameKey.get(primaryTitleId);
+      if (existingKey) return existingKey;
+    }
+    return null;
+  };
+
+  const insertFallbackGame = (game: Game) => {
+    const newKey = allocateGameKey(game);
+    mergedGames.set(newKey, game);
+    registerGameAliases(newKey, game);
+  };
+
+  const upsertLiveGame = (game: Game) => {
+    const existingKey = findExistingGameKey(game);
+    if (!existingKey) {
+      const newKey = allocateGameKey(game);
+      mergedGames.set(newKey, game);
+      registerGameAliases(newKey, game);
       return;
     }
 
-    mergedGames.set(game.slug, {
-      ...game,
-      slug: fallbackGame.slug,
-      title: fallbackGame.title,
-      titleId: fallbackGame.titleId,
-      titleIds: fallbackGame.titleIds,
-      tags: fallbackGame.tags.length > 0 ? fallbackGame.tags : game.tags,
-      issueNumber: game.issueNumber ?? fallbackGame.issueNumber,
-      issueUrl: game.issueUrl ?? fallbackGame.issueUrl,
-    });
-  });
+    const existingGame = mergedGames.get(existingKey);
+    if (!existingGame) return;
 
-  return [...mergedGames.values()];
+    const mergedGame = mergeCompatibilityGames(existingGame, game);
+    mergedGames.set(existingKey, mergedGame);
+    registerGameAliases(existingKey, mergedGame);
+  };
+
+  fallbackGames.forEach(insertFallbackGame);
+  liveGames.forEach(upsertLiveGame);
+
+  return reconcileDiscussionAliases([...mergedGames.values()]);
 });
 
 export async function getCompatibilityGameBySlug(
@@ -1122,8 +1398,7 @@ export async function getGameDetailViewModel(
   const liveDetail = await fetchLiveGameDetail(game.titleId);
   const discussion = getDiscussionByTitleIds(game.titleIds);
   const liveReports = normalizeLiveReports(liveDetail?.reports);
-  const allReports =
-    liveReports.length > 0 ? liveReports : [...game.reports].sort(compareReportsByDate);
+  const allReports = dedupeReports([...game.reports, ...liveReports]).sort(compareReportsByDate);
   const { valid: reports, hidden } = partitionReportsByMetadata(allReports);
 
   const platforms = selectPlatformsForCards(game, reports);

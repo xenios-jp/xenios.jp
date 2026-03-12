@@ -44,16 +44,62 @@ interface DiscussionSnapshot {
 
 const snapshot = discussionSnapshot as DiscussionSnapshot;
 
+function compareDiscussionEntriesByDate(
+  left: DiscussionEntry,
+  right: DiscussionEntry,
+): number {
+  const byDate = right.createdAtMs - left.createdAtMs;
+  if (byDate !== 0) return byDate;
+  return left.id.localeCompare(right.id);
+}
+
+function mergeDiscussionData(discussions: DiscussionData[]): DiscussionData | null {
+  if (discussions.length === 0) {
+    return null;
+  }
+
+  const primary = discussions[0]!;
+  const entries = new Map<string, DiscussionEntry>();
+
+  for (const discussion of discussions) {
+    for (const entry of discussion.entries) {
+      entries.set(entry.id, entry);
+    }
+  }
+
+  const latestUpdatedAt =
+    [...discussions]
+      .map((discussion) => discussion.updatedAt)
+      .filter(Boolean)
+      .sort()
+      .at(-1) ?? primary.updatedAt;
+
+  return {
+    titleId: primary.titleId,
+    issueNumber: primary.issueNumber,
+    issueUrl: primary.issueUrl,
+    updatedAt: latestUpdatedAt,
+    entries: [...entries.values()].sort(compareDiscussionEntriesByDate),
+  };
+}
+
+export function getAllDiscussions(): DiscussionData[] {
+  return Object.values(snapshot.discussions);
+}
+
 export function getDiscussionByTitleId(titleId: string): DiscussionData | null {
   return snapshot.discussions[titleId.toUpperCase()] ?? null;
 }
 
 export function getDiscussionByTitleIds(titleIds: string[]): DiscussionData | null {
+  const matches: DiscussionData[] = [];
+
   for (const titleId of titleIds) {
     const discussion = getDiscussionByTitleId(titleId);
     if (discussion) {
-      return discussion;
+      matches.push(discussion);
     }
   }
-  return null;
+
+  return mergeDiscussionData(matches);
 }
