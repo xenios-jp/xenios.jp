@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **166 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **167 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **55** · 🔵 In-Game: **51** · 🟡 Intro: **18** · 🟠 Loads: **21** · 🔴 Doesn't Boot: **21**
+> 🟢 Playable: **55** · 🔵 In-Game: **51** · 🟡 Intro: **18** · 🟠 Loads: **21** · 🔴 Doesn't Boot: **22**
 >
-> 📱 iOS: **161** · 🖥️ macOS: **11**
+> 📱 iOS: **162** · 🖥️ macOS: **11**
 
 ## Legend
 
@@ -86,7 +86,7 @@
 | 🔵 | Dragon Ball Z Budokai HD Collection | `4E4D0856` | 📱 iOS | In-Game | 🚀 Great | iPhone 16 Pro Max | 2026-03-11 |
 | 🔵 | Fable 3 | `4D5308D6` | 📱 iOS | In-Game | 🐢 Poor | iPhone 15 Pro Max | 2026-03-09 |
 | 🔵 | Fable Anniversary | `4D530A87` | 📱 iOS | In-Game | 🐢 Poor | iPhone 16 Pro Max | 2026-03-09 |
-| 🔵 | Fallout 3 | `425307D5` | 📱 iOS | In-Game | 👌 OK | iPhone 13 | 2026-03-10 |
+| 🔵 | Fallout 3 | `425307D5` | 📱 iOS | In-Game | 👌 OK | iPhone 13 | 2026-03-12 |
 | 🔵 | Fallout: New Vegas | `425307E0` | 📱 iOS | In-Game | 👌 OK | iPhone 13 | 2026-03-10 |
 | 🔵 | Far Cry 3 | `5553088C` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro | 2026-03-09 |
 | 🔵 | FIFA 16 | `454109EE` | 📱 iOS | In-Game | 👌 OK | iPhone 14 Pro Max | 2026-03-08 |
@@ -183,6 +183,7 @@
 | 🔴 | Soulcalibur IV | `4E4D07E0` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro Max | 2026-03-11 |
 | 🔴 | Star Ocean: The Last Hope | `535107DD` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-03 |
 | 🔴 | Tekken 6 | `4E4D07FC` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-03 |
+| 🔴 | The Amazing Spider-Man 2 | `41560905` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 | 2026-03-12 |
 | 🔴 | The Godfather | `454107E9` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-09 |
 | 🔴 | Tomb Raider | `53510802` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 15 Pro Max | 2026-03-12 |
 | 🔴 | WWE 2K15 | `545408B6` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro Max | 2026-03-11 |
