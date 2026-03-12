@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **137 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **139 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **40** · 🔵 In-Game: **34** · 🟡 Intro: **20** · 🟠 Loads: **22** · 🔴 Doesn't Boot: **21**
+> 🟢 Playable: **40** · 🔵 In-Game: **34** · 🟡 Intro: **20** · 🟠 Loads: **22** · 🔴 Doesn't Boot: **23**
 >
-> 📱 iOS: **136** · 🖥️ macOS: **4**
+> 📱 iOS: **138** · 🖥️ macOS: **4**
 
 ## Legend
 
@@ -137,6 +137,7 @@
 | 🟠 | Tron: Evolution | `425607ED` | 📱 iOS | Loads | 👌 OK | iPhone 15 Pro Max | 2026-03-09 |
 | 🟠 | WWE '12 | `54510890` | 📱 iOS | Loads | 👌 OK | iPhone 15 Pro | 2026-03-11 |
 | 🔴 | [Prototype]™ | `4156084E` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 12 Pro Max | 2026-03-08 |
+| 🔴 | Burnout Paradise | `45410806` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 15 Pro Max | 2026-03-12 |
 | 🔴 | Call Of Duty 3 | `415607E1` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-09 |
 | 🔴 | Call of Duty: Black Ops | `41560855` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 Pro Max | 2026-03-09 |
 | 🔴 | Call of Duty: Black Ops 2 | `415608C3` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 13 | 2026-03-09 |
@@ -145,6 +146,7 @@
 | 🔴 | Fable II | `4D5307F1` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 15 Pro Max | 2026-03-09 |
 | 🔴 | FH2: Fast & Furious | `4D530AB5` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad 10th Gen | 2026-03-08 |
 | 🔴 | FIGHT NIGHT CHAMPION | `45410915` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Pro (M2) | 2026-03-03 |
+| 🔴 | launcher.exe | `545407EF` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16e | 2026-03-11 |
 | 🔴 | marathon.exe | `534507D6` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 | 2026-03-11 |
 | 🔴 | Modern Warfare® 2 | `41560817` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 Pro | 2026-03-08 |
 | 🔴 | Ninja Gaiden II | `544307D5` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 15 Pro Max | 2026-03-08 |

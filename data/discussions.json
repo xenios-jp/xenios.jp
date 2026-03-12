@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-11T20:51:10.756Z",
+  "generatedAt": "2026-03-12T00:12:18.628Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -197,8 +197,31 @@
       "titleId": "45410806",
       "issueNumber": 103,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/103",
-      "updatedAt": "2026-03-08",
+      "updatedAt": "2026-03-12",
       "entries": [
+        {
+          "id": "comment-4043021802",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/103#issuecomment-4043021802",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-12",
+          "createdAtMs": 1773274256000,
+          "issueNumber": 103,
+          "excerpt": "Freeze or crash alter loading",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 15 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.2",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9296",
+            "commitShort": "`ab2ca341a`"
+          }
+        },
         {
           "id": "issue-103",
           "type": "issue",
