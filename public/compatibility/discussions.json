@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-12T17:19:00.809Z",
+  "generatedAt": "2026-03-12T18:15:02.613Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1219,6 +1219,37 @@
             "appVersion": "1.0.0",
             "buildNumber": "9280",
             "commitShort": "`2633e8177`"
+          }
+        }
+      ]
+    },
+    "4D5707E9": {
+      "titleId": "4D5707E9",
+      "issueNumber": 226,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/226",
+      "updatedAt": "2026-03-12",
+      "entries": [
+        {
+          "id": "issue-226",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/226",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-12",
+          "createdAtMs": 1773339264000,
+          "issueNumber": 226,
+          "excerpt": "The game after the opening videos and after downloading the logos by pressing the start, loading and hanging on the dead.\n\nRandom couple of moments with loading into the game, menu and in combat training mode. Slightly after playing for 2-3 minutes, the game hung tightly.",
+          "images": [],
+          "meta": {
+            "status": "intro",
+            "perf": "poor",
+            "device": "iPhone 16 Plus",
+            "platform": "iOS",
+            "osVersion": "iOS 18.6",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9299",
+            "commitShort": "`d8c101905`"
           }
         }
       ]

@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **169 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **170 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **55** · 🔵 In-Game: **51** · 🟡 Intro: **19** · 🟠 Loads: **22** · 🔴 Doesn't Boot: **22**
+> 🟢 Playable: **55** · 🔵 In-Game: **51** · 🟡 Intro: **20** · 🟠 Loads: **22** · 🔴 Doesn't Boot: **22**
 >
-> 📱 iOS: **164** · 🖥️ macOS: **11**
+> 📱 iOS: **165** · 🖥️ macOS: **11**
 
 ## Legend
 
@@ -138,6 +138,7 @@
 | 🟡 | Halo 4 | `4D530919` | 📱 iOS | Intro | 🐢 Poor | iPad Pro 12.9 inch 6th Gen | 2026-03-10 |
 | 🟡 | Halo Wars | `4D530808` | 📱 iOS | Intro | 👌 OK | iPhone 17 | 2026-03-03 |
 | 🟡 | Hitman: Absolution | `53510804` | 📱 iOS | Intro | 🐢 Poor | iPad Pro 12.9 inch 6th Gen | 2026-03-11 |
+| 🟡 | Mortal Kombat vs. DC Universe | `4D5707E9` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Plus | 2026-03-12 |
 | 🟡 | Naruto Shippuden: UNS 3 Full Burst | `4E4D085C` | 📱 iOS | Intro | 🐢 Poor | iPhone 15 Pro Max | 2026-03-08 |
 | 🟡 | Need for Speed Most Wanted (2012) | `45410961` | 📱 iOS | Intro | 🐢 Poor | iPhone 15 Pro Max | 2026-03-08 |
 | 🟡 | PopCap Collection | `504787D8` | 📱 iOS | Intro | 🚀 Great | iPhone 13 Pro | 2026-03-09 |
