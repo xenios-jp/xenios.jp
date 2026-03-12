@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-12T02:41:53.409Z",
+  "generatedAt": "2026-03-12T03:07:47.832Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1135,6 +1135,26 @@
             "buildNumber": "9280",
             "commitShort": "`2633e8177`"
           }
+        }
+      ]
+    },
+    "584109FF": {
+      "titleId": "584109FF",
+      "issueNumber": 215,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/215",
+      "updatedAt": "2026-03-12",
+      "entries": [
+        {
+          "id": "issue-215",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/215",
+          "author": "DerekS10",
+          "createdAt": "2026-03-12",
+          "createdAtMs": 1773284832000,
+          "issueNumber": 215,
+          "excerpt": "It works excellent, it only has a graphic error in the seeds and in the introduction of the game, for the rest no problem",
+          "images": [],
+          "meta": {}
         }
       ]
     },
