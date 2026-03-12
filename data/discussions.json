@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-12T16:43:14.130Z",
+  "generatedAt": "2026-03-12T17:19:00.809Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1219,6 +1219,39 @@
             "appVersion": "1.0.0",
             "buildNumber": "9280",
             "commitShort": "`2633e8177`"
+          }
+        }
+      ]
+    },
+    "584113FC": {
+      "titleId": "584113FC",
+      "issueNumber": 225,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/225",
+      "updatedAt": "2026-03-12",
+      "entries": [
+        {
+          "id": "issue-225",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/225",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-12",
+          "createdAtMs": 1773335901000,
+          "issueNumber": 225,
+          "excerpt": "Stuck in Main menu because I don’t have joystick. 🤣",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584113FC/1773335893447-1.jpg"
+          ],
+          "meta": {
+            "status": "intro",
+            "perf": "ok",
+            "device": "iPhone 15",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9299",
+            "commitShort": "`d8c101905`"
           }
         }
       ]

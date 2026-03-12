@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **168 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **169 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **55** · 🔵 In-Game: **51** · 🟡 Intro: **18** · 🟠 Loads: **22** · 🔴 Doesn't Boot: **22**
+> 🟢 Playable: **55** · 🔵 In-Game: **51** · 🟡 Intro: **19** · 🟠 Loads: **22** · 🔴 Doesn't Boot: **22**
 >
-> 📱 iOS: **163** · 🖥️ macOS: **11**
+> 📱 iOS: **164** · 🖥️ macOS: **11**
 
 ## Legend
 
@@ -127,6 +127,7 @@
 | 🔵 | Spider-Man 3 | `415607E2` | 📱 iOS | In-Game | 🐢 Poor | iPhone 16 | 2026-03-10 |
 | 🔵 | Tomb Raider Underworld | `534307EC` | 📱 iOS | In-Game | 👌 OK | iPhone 16 Pro Max | 2026-03-11 |
 | 🟡 | Assassin's Creed II | `5553083B` | 📱 iOS | Intro | 👌 OK | iPhone 15 Pro Max | 2026-03-11 |
+| 🟡 | Assassins Creed III - Liberation HD | `584113FC` | 📱 iOS | Intro | 👌 OK | iPhone 15 | 2026-03-12 |
 | 🟡 | Beautiful Katamari | `4E4D07DC` | 📱 iOS | Intro | 👌 OK | iPhone 16 Pro | 2026-03-05 |
 | 🟡 | Burnout Revenge | `454107DC` | 📱 iOS | Intro | 🐢 Poor | iPhone 15 Pro Max | 2026-03-09 |
 | 🟡 | Dark Souls 2 | `465307E4` | 📱 iOS | Intro | 🐢 Poor | iPhone 17 Pro Max | 2026-03-09 |
