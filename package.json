@@ -6,6 +6,7 @@
     "build": "next build",
     "build:credits": "node scripts/build-credits.mjs",
     "build:discussions": "node scripts/mirror-compat-data.mjs",
+    "build:compat-data": "node scripts/rebuild-compatibility-data.mjs",
     "dev": "next dev",
     "start": "next start",
     "lint": "eslint",

@@ -32,8 +32,11 @@ jobs:
           node-version: 20
           cache: npm
 
-      - name: Mirror canonical compatibility data
+      - name: Mirror canonical compatibility discussions
         run: node scripts/mirror-compat-data.mjs
+
+      - name: Rebuild canonical compatibility catalog
+        run: node scripts/rebuild-compatibility-data.mjs
 
       - name: Generate COMPATIBILITY.md
         run: node scripts/generate-compatibility-markdown.mjs

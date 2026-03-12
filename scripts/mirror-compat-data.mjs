@@ -11,7 +11,6 @@ const repo = process.env.COMPAT_SOURCE_REPO || "game-compatibility";
 const branch = process.env.COMPAT_SOURCE_BRANCH || "main";
 
 const files = [
-  ["data/compatibility.json", "data/compatibility.json"],
   ["data/discussions.json", "data/discussions.json"],
 ];
 
