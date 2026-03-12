@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-12T20:38:56.986Z",
+  "generatedAt": "2026-03-12T21:28:39.412Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1223,88 +1223,37 @@
         }
       ]
     },
-    "584111F7": {
-      "titleId": "584111F7",
-      "issueNumber": 169,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/169",
+    "545407E6": {
+      "titleId": "545407E6",
+      "issueNumber": 233,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/233",
       "updatedAt": "2026-03-12",
       "entries": [
         {
-          "id": "issue-232",
+          "id": "issue-233",
           "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/232",
-          "author": "daisuke1227",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/233",
+          "author": "xenios-jp",
           "createdAt": "2026-03-12",
-          "createdAtMs": 1773347874000,
-          "issueNumber": 232,
-          "excerpt": "So surprisingly you can definitely get Minecraft running it's a good 20-30FPS but the fact it runs at all is insane i mean it's the 1.0.0 version or XBLA version but this is amazing and i'm so happy to see Minecraft running it's definitely playable and if the owner can get the latest version of minecraft running then someone can beat minecraft 360 version on iphone!?",
+          "createdAtMs": 1773350858000,
+          "issueNumber": 233,
+          "excerpt": "The game on my device currently runs at around 20 FPS, with some graphical flickering in lighting areas; the sound is unrecognizable, but it works.\n\nThe version of xenios that I used is 1.0.0 from CI #35: Commit d8c1019 pushed by xenios-jp in the actions section",
           "images": [
-            "https://github.com/user-attachments/assets/c2d308d8-a223-451e-b2b6-14855f08d095"
-          ],
-          "meta": {}
-        },
-        {
-          "id": "comment-4033455610",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/169#issuecomment-4033455610",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-10",
-          "createdAtMs": 1773166298000,
-          "issueNumber": 169,
-          "excerpt": "Sits comfortably at around 20FPS. The inventory and crafting interface cause major lag with the FPS constantly dropping until they are closed. Too many mobs on screen will also make the game lag. Audio doesn’t seem to work. Using the base XBLA version.",
-          "images": [
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584111F7/1773166296409-1.jpg"
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407E6/1773350853348-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407E6/1773350853348-2.jpg"
           ],
           "meta": {
             "status": "playable",
             "perf": "ok",
-            "device": "iPhone 13",
+            "device": "iPhone 15 Plus",
             "platform": "iOS",
-            "osVersion": "iOS 18.0.1",
+            "osVersion": "iOS 26.0.1",
             "gpuBackend": "MSL",
             "buildChannel": "self-built",
             "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "`2633e8177`"
+            "buildNumber": "9299",
+            "commitShort": "`d8c101905`"
           }
-        },
-        {
-          "id": "issue-169",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/169",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-10",
-          "createdAtMs": 1773155629000,
-          "issueNumber": 169,
-          "excerpt": "Plays really well, but no audio in any part of the game. Low fps but playable. (USING XBLA VERSION WITH NO TITLE UPDATE!)",
-          "images": [
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584111F7/1773155623241-1.jpg",
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584111F7/1773155623241-2.jpg"
-          ],
-          "meta": {
-            "status": "playable",
-            "perf": "ok",
-            "device": "iPhone 14 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "`2633e8177`"
-          }
-        },
-        {
-          "id": "issue-156",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/156",
-          "author": "nyquickee",
-          "createdAt": "2026-03-09",
-          "createdAtMs": 1773092266000,
-          "issueNumber": 156,
-          "excerpt": "Game runs and is playable. Saves also work as expected. Installed title update and performance was unchanged. If black screen on launch restart and relaunch.",
-          "images": [],
-          "meta": {}
         }
       ]
     },
@@ -3373,6 +3322,77 @@
             "buildNumber": "9280",
             "commitShort": "`2633e8177`"
           }
+        }
+      ]
+    },
+    "584111F7": {
+      "titleId": "584111F7",
+      "issueNumber": 169,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/169",
+      "updatedAt": "2026-03-12",
+      "entries": [
+        {
+          "id": "comment-4033455610",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/169#issuecomment-4033455610",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-10",
+          "createdAtMs": 1773166298000,
+          "issueNumber": 169,
+          "excerpt": "Sits comfortably at around 20FPS. The inventory and crafting interface cause major lag with the FPS constantly dropping until they are closed. Too many mobs on screen will also make the game lag. Audio doesn’t seem to work. Using the base XBLA version.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584111F7/1773166296409-1.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 13",
+            "platform": "iOS",
+            "osVersion": "iOS 18.0.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        },
+        {
+          "id": "issue-169",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/169",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-10",
+          "createdAtMs": 1773155629000,
+          "issueNumber": 169,
+          "excerpt": "Plays really well, but no audio in any part of the game. Low fps but playable. (USING XBLA VERSION WITH NO TITLE UPDATE!)",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584111F7/1773155623241-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584111F7/1773155623241-2.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 14 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        },
+        {
+          "id": "issue-156",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/156",
+          "author": "nyquickee",
+          "createdAt": "2026-03-09",
+          "createdAtMs": 1773092266000,
+          "issueNumber": 156,
+          "excerpt": "Game runs and is playable. Saves also work as expected. Installed title update and performance was unchanged. If black screen on launch restart and relaunch.",
+          "images": [],
+          "meta": {}
         }
       ]
     },
