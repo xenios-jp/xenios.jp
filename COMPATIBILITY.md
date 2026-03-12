@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **139 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **140 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **40** · 🔵 In-Game: **34** · 🟡 Intro: **20** · 🟠 Loads: **22** · 🔴 Doesn't Boot: **23**
+> 🟢 Playable: **40** · 🔵 In-Game: **34** · 🟡 Intro: **20** · 🟠 Loads: **22** · 🔴 Doesn't Boot: **24**
 >
-> 📱 iOS: **138** · 🖥️ macOS: **4**
+> 📱 iOS: **139** · 🖥️ macOS: **4**
 
 ## Legend
 
@@ -158,6 +158,7 @@
 | 🔴 | TEKKEN 6 | `4E4D07FC` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-03 |
 | 🔴 | The Godfather™ | `454107E9` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-09 |
 | 🔴 | Title 5454087A | `5454087A` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16e | 2026-03-10 |
+| 🔴 | Tomb Raider | `53510802` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 15 Pro Max | 2026-03-12 |
 | 🔴 | WWE 2K15 | `545408B6` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro Max | 2026-03-11 |
 
 ---
