@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-12T13:01:00.861Z",
+  "generatedAt": "2026-03-12T15:20:26.215Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2483,8 +2483,33 @@
       "titleId": "425307D5",
       "issueNumber": 184,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/184",
-      "updatedAt": "2026-03-10",
+      "updatedAt": "2026-03-12",
       "entries": [
+        {
+          "id": "comment-4047608851",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/184#issuecomment-4047608851",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-12",
+          "createdAtMs": 1773328757000,
+          "issueNumber": 184,
+          "excerpt": "Does not load to character creation to enter the game",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/425307D5/1773328753130-1.jpg"
+          ],
+          "meta": {
+            "status": "intro",
+            "perf": "poor",
+            "device": "iPhone 17",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9296",
+            "commitShort": "`ab2ca341a`"
+          }
+        },
         {
           "id": "issue-184",
           "type": "issue",
