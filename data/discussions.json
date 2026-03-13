@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-12T21:28:39.412Z",
+  "generatedAt": "2026-03-13T00:44:01.313Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1214,6 +1214,135 @@
             "device": "iPhone 15 Pro Max",
             "platform": "iOS",
             "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        }
+      ]
+    },
+    "4B5607E8": {
+      "titleId": "4B5607E8",
+      "issueNumber": 234,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/234",
+      "updatedAt": "2026-03-13",
+      "entries": [
+        {
+          "id": "issue-234",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/234",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-13",
+          "createdAtMs": 1773362605000,
+          "issueNumber": 234,
+          "excerpt": "Some minor glitches in graphics during character selection and backgrounds, but game works well.",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9299",
+            "commitShort": "`d8c101905`"
+          }
+        },
+        {
+          "id": "comment-4037699738",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/115#issuecomment-4037699738",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-11",
+          "createdAtMs": 1773220837000,
+          "issueNumber": 115,
+          "excerpt": "Well done on iPad Air m3",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPad Air 11-inch 7th Gen",
+            "platform": "iOS",
+            "osVersion": "iOS 18.7.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9296",
+            "commitShort": "`ab2ca341a`"
+          }
+        },
+        {
+          "id": "comment-4037698432",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/115#issuecomment-4037698432",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-11",
+          "createdAtMs": 1773220827000,
+          "issueNumber": 115,
+          "excerpt": "Well done on iPad Air m3",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPad Air 11-inch 7th Gen",
+            "platform": "iOS",
+            "osVersion": "iOS 18.7.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9296",
+            "commitShort": "`ab2ca341a`"
+          }
+        },
+        {
+          "id": "comment-4028748967",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/115#issuecomment-4028748967",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-10",
+          "createdAtMs": 1773119683000,
+          "issueNumber": 115,
+          "excerpt": "The intro FMV has major graphical issues, but the rest of the game seems unaffected. After shader comp: Menuing works fine, in-game it sits at around 30FPS with the game slowing down to around 50% speed. It’s not unplayable and likely performs closer to full speed on a more powerful device, the A15 Bionic isn’t great for this. \n\nInternal display resolution set to 640x480, though DOA5 seems unaffected by it.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4B5607E8/1773119681320-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4B5607E8/1773119681320-2.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 13",
+            "platform": "iOS",
+            "osVersion": "iOS 18.0.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        },
+        {
+          "id": "issue-115",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/115",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-09",
+          "createdAtMs": 1773020745000,
+          "issueNumber": 115,
+          "excerpt": "Game has some graphical bugs during intro screen, after shader compilation, fps increases and game runs 30-57 fps.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4B5607E8/1773020742635-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4B5607E8/1773020742635-2.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 16 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.2",
             "gpuBackend": "MSL",
             "buildChannel": "self-built",
             "appVersion": "1.0.0",
@@ -4549,112 +4678,6 @@
             "device": "iPhone 15 Pro Max",
             "platform": "iOS",
             "osVersion": "iOS 26.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "`2633e8177`"
-          }
-        }
-      ]
-    },
-    "4B5607E8": {
-      "titleId": "4B5607E8",
-      "issueNumber": 115,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/115",
-      "updatedAt": "2026-03-11",
-      "entries": [
-        {
-          "id": "comment-4037699738",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/115#issuecomment-4037699738",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-11",
-          "createdAtMs": 1773220837000,
-          "issueNumber": 115,
-          "excerpt": "Well done on iPad Air m3",
-          "images": [],
-          "meta": {
-            "status": "playable",
-            "perf": "great",
-            "device": "iPad Air 11-inch 7th Gen",
-            "platform": "iOS",
-            "osVersion": "iOS 18.7.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9296",
-            "commitShort": "`ab2ca341a`"
-          }
-        },
-        {
-          "id": "comment-4037698432",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/115#issuecomment-4037698432",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-11",
-          "createdAtMs": 1773220827000,
-          "issueNumber": 115,
-          "excerpt": "Well done on iPad Air m3",
-          "images": [],
-          "meta": {
-            "status": "playable",
-            "perf": "great",
-            "device": "iPad Air 11-inch 7th Gen",
-            "platform": "iOS",
-            "osVersion": "iOS 18.7.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9296",
-            "commitShort": "`ab2ca341a`"
-          }
-        },
-        {
-          "id": "comment-4028748967",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/115#issuecomment-4028748967",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-10",
-          "createdAtMs": 1773119683000,
-          "issueNumber": 115,
-          "excerpt": "The intro FMV has major graphical issues, but the rest of the game seems unaffected. After shader comp: Menuing works fine, in-game it sits at around 30FPS with the game slowing down to around 50% speed. It’s not unplayable and likely performs closer to full speed on a more powerful device, the A15 Bionic isn’t great for this. \n\nInternal display resolution set to 640x480, though DOA5 seems unaffected by it.",
-          "images": [
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4B5607E8/1773119681320-1.jpg",
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4B5607E8/1773119681320-2.jpg"
-          ],
-          "meta": {
-            "status": "playable",
-            "perf": "ok",
-            "device": "iPhone 13",
-            "platform": "iOS",
-            "osVersion": "iOS 18.0.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "`2633e8177`"
-          }
-        },
-        {
-          "id": "issue-115",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/115",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-09",
-          "createdAtMs": 1773020745000,
-          "issueNumber": 115,
-          "excerpt": "Game has some graphical bugs during intro screen, after shader compilation, fps increases and game runs 30-57 fps.",
-          "images": [
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4B5607E8/1773020742635-1.jpg",
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4B5607E8/1773020742635-2.jpg"
-          ],
-          "meta": {
-            "status": "playable",
-            "perf": "great",
-            "device": "iPhone 16 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 26.2",
             "gpuBackend": "MSL",
             "buildChannel": "self-built",
             "appVersion": "1.0.0",
