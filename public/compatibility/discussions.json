@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-13T10:05:47.251Z",
+  "generatedAt": "2026-03-13T10:25:33.810Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1219,6 +1219,39 @@
             "appVersion": "1.0.0",
             "buildNumber": "9280",
             "commitShort": "`2633e8177`"
+          }
+        }
+      ]
+    },
+    "565507DA": {
+      "titleId": "565507DA",
+      "issueNumber": 240,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/240",
+      "updatedAt": "2026-03-13",
+      "entries": [
+        {
+          "id": "issue-240",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/240",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-13",
+          "createdAtMs": 1773397496000,
+          "issueNumber": 240,
+          "excerpt": "Cutscenes shown correctly, no audio corruption.\nGameplay:\nFPS a bit low - around 10-12 FPS at the time of testing\nAudio does not cause ear bleeding.\nAs expected, at the beginning game loads assets and things are rendered black for some time until before fully stabilizing.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/565507DA/1773397492970-1.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 16 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9299",
+            "commitShort": "`d8c101905`"
           }
         }
       ]
