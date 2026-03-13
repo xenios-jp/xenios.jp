@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-13T21:53:51.765Z",
+  "generatedAt": "2026-03-13T23:31:07.569Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -4763,8 +4763,31 @@
       "titleId": "545407E5",
       "issueNumber": 142,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/142",
-      "updatedAt": "2026-03-09",
+      "updatedAt": "2026-03-13",
       "entries": [
+        {
+          "id": "comment-4058686120",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/142#issuecomment-4058686120",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-13",
+          "createdAtMs": 1773444579000,
+          "issueNumber": 142,
+          "excerpt": "Instant crash on boot after Metal shaders rendering",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 16 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 18.6.2",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
         {
           "id": "issue-142",
           "type": "issue",
