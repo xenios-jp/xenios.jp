@@ -1,6 +1,42 @@
 {
-  "generatedAt": "2026-03-12T11:35:26.590Z",
+  "generatedAt": "2026-03-13T16:25:20Z",
   "builds": [
+    {
+      "buildId": "ios-release-1.0.1-9288",
+      "channel": "release",
+      "official": true,
+      "appVersion": "1.0.1",
+      "buildNumber": "9288",
+      "stage": "stable",
+      "commitShort": "056d2f64d",
+      "publishedAt": "2026-03-13T15:43:21Z",
+      "label": "1.0.1-9288",
+      "notes": "Official CI release build published from xenios-jp/XeniOS.",
+      "sourceLabel": "GitHub Release",
+      "sourceUrl": "https://github.com/xenios-jp/XeniOS/releases/tag/release-v1.0.1-build-9288",
+      "artifacts": [],
+      "platform": "ios",
+      "id": "ios-release-ios-release-1.0.1-9288",
+      "submittedBy": "GitHub Actions"
+    },
+    {
+      "buildId": "macos-release-1.0.1-9288",
+      "channel": "release",
+      "official": true,
+      "appVersion": "1.0.1",
+      "buildNumber": "9288",
+      "stage": "stable",
+      "commitShort": "056d2f64d",
+      "publishedAt": "2026-03-13T15:43:21Z",
+      "label": "1.0.1-9288",
+      "notes": "Official CI release build published from xenios-jp/XeniOS.",
+      "sourceLabel": "GitHub Release",
+      "sourceUrl": "https://github.com/xenios-jp/XeniOS/releases/tag/release-v1.0.1-build-9288",
+      "artifacts": [],
+      "platform": "macos",
+      "id": "macos-release-macos-release-1.0.1-9288",
+      "submittedBy": "GitHub Actions"
+    },
     {
       "buildId": "ios-release-1.0.0-9299",
       "channel": "release",
