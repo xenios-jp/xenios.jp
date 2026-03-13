@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-13T14:36:14.041Z",
+  "generatedAt": "2026-03-13T15:25:23.557Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1250,6 +1250,39 @@
             "appVersion": "1.0.0",
             "buildNumber": "9280",
             "commitShort": "`2633e8177`"
+          }
+        }
+      ]
+    },
+    "565507D9": {
+      "titleId": "565507D9",
+      "issueNumber": 245,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/245",
+      "updatedAt": "2026-03-13",
+      "entries": [
+        {
+          "id": "issue-245",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/245",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-13",
+          "createdAtMs": 1773415479000,
+          "issueNumber": 245,
+          "excerpt": "[Visuals]:\n - Vertical line in the middle of the screen sometimes appears for a split second.\n - Lighting bugs on either side of the screen divided by vertical line mentioned above, usually random, not specific to any spot or looking angle.\n - Buggy textures on FPS hands\n[Audio/Performance]:\n - Explosions, blood splatter, particles and/or volume/smoke may cause slight audio stuttering.\n - Performance drops depending on the environment, amount of enemies and presence of smoke/fog.\n\n[FPS Range After Loading Save]: 10-28\nNo crashes, managed to complete few missions.\n\nAudio for Cutscenes, Loading Screens, Intro, Logos on boot works fine.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/565507D9/1773415475070-1.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 16 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9299",
+            "commitShort": "`d8c101905`"
           }
         }
       ]

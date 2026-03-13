@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **177 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **178 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **63** · 🔵 In-Game: **48** · 🟡 Intro: **20** · 🟠 Loads: **22** · 🔴 Doesn't Boot: **24**
+> 🟢 Playable: **64** · 🔵 In-Game: **48** · 🟡 Intro: **20** · 🟠 Loads: **22** · 🔴 Doesn't Boot: **24**
 >
-> 📱 iOS: **172** · 🖥️ macOS: **11**
+> 📱 iOS: **173** · 🖥️ macOS: **11**
 
 ## Legend
 
@@ -38,6 +38,7 @@
 | 🟢 | Dead Space | `45410857` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro | 2026-03-03 |
 | 🟢 | Deadly Premonition | `4D5607D1` | 📱 iOS | Playable | 👌 OK | iPad (A16) | 2026-03-09 |
 | 🟢 | DOA5 Ultimate | `4B5607DA` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-13 |
+| 🟢 | F.E.A.R: First Encounter Assault Recon | `565507D9` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro | 2026-03-13 |
 | 🟢 | Fallout: New Vegas | `425307E0` | 📱 iOS | Playable | 👌 OK | iPhone 16e | 2026-03-12 |
 | 🟢 | Family Guy: Back To The Multiverse | `415608C5` | 📱 iOS | Playable | 👌 OK | iPad Mini (A17 Pro) | 2026-03-13 |
 | 🟢 | Far Cry 2 | `55530810` | 📱 iOS | Playable | 🐢 Poor | iPhone 16 | 2026-03-10 |
