@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-13T10:25:33.810Z",
+  "generatedAt": "2026-03-13T10:37:39.376Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1219,6 +1219,39 @@
             "appVersion": "1.0.0",
             "buildNumber": "9280",
             "commitShort": "`2633e8177`"
+          }
+        }
+      ]
+    },
+    "545407E7": {
+      "titleId": "545407E7",
+      "issueNumber": 241,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/241",
+      "updatedAt": "2026-03-13",
+      "entries": [
+        {
+          "id": "issue-241",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/241",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-13",
+          "createdAtMs": 1773398212000,
+          "issueNumber": 241,
+          "excerpt": "Game boot Intros and cinematics have audio issues.\nGameplay:\nAfter loading a save, FPS is around 14-15 and 10-12 when assets finished loading. \nCharacter color editing menu has minor UI glitches.\nNo crashes so far.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407E7/1773398208451-1.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 16 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9299",
+            "commitShort": "`d8c101905`"
           }
         }
       ]
