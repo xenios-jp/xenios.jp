@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **172 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **173 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **58** · 🔵 In-Game: **49** · 🟡 Intro: **20** · 🟠 Loads: **23** · 🔴 Doesn't Boot: **22**
+> 🟢 Playable: **58** · 🔵 In-Game: **49** · 🟡 Intro: **20** · 🟠 Loads: **23** · 🔴 Doesn't Boot: **23**
 >
-> 📱 iOS: **167** · 🖥️ macOS: **11**
+> 📱 iOS: **168** · 🖥️ macOS: **11**
 
 ## Legend
 
@@ -178,6 +178,7 @@
 | 🔴 | Civilization Revolution | `545407E5` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-09 |
 | 🔴 | Dragon Ball Z Burst Limit | `424107DC` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro Max | 2026-03-09 |
 | 🔴 | Fable 2 | `4D5307F1` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 15 Pro Max | 2026-03-12 |
+| 🔴 | FIFA 15 | `454109DB` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Pro 12.9 inch 7th Gen | 2026-03-13 |
 | 🔴 | Fight Night Champion | `45410915` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Pro (M2) | 2026-03-03 |
 | 🔴 | Forza Horizon 2 Presents Fast & Furious | `4D530AB5` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad 10th Gen | 2026-03-08 |
 | 🔴 | Mighty No. 9 | `584114A4` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 13 | 2026-03-09 |

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-13T01:31:09.352Z",
+  "generatedAt": "2026-03-13T02:15:03.870Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1219,6 +1219,37 @@
             "appVersion": "1.0.0",
             "buildNumber": "9280",
             "commitShort": "`2633e8177`"
+          }
+        }
+      ]
+    },
+    "454109DB": {
+      "titleId": "454109DB",
+      "issueNumber": 235,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/235",
+      "updatedAt": "2026-03-13",
+      "entries": [
+        {
+          "id": "issue-235",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/235",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-13",
+          "createdAtMs": 1773368066000,
+          "issueNumber": 235,
+          "excerpt": "Crashes on IpadOS 26.3.1 IPad Pro 13in 5G M4 1TB 16gb ram could be the iOS version im on is too new at the moment.",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPad Pro 12.9 inch 7th Gen",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9296",
+            "commitShort": "`ab2ca341a`"
           }
         }
       ]
