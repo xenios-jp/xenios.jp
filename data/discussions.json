@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-13T12:08:28.335Z",
+  "generatedAt": "2026-03-13T13:05:46.454Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2067,7 +2067,7 @@
       "titleId": "415608C5",
       "issueNumber": 222,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/222",
-      "updatedAt": "2026-03-12",
+      "updatedAt": "2026-03-13",
       "entries": [
         {
           "id": "issue-222",
@@ -4457,6 +4457,29 @@
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/144",
       "updatedAt": "2026-03-13",
       "entries": [
+        {
+          "id": "comment-4054938263",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/144#issuecomment-4054938263",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-13",
+          "createdAtMs": 1773407071000,
+          "issueNumber": 144,
+          "excerpt": "Shader compilation is buggy but 100% playable on IPad Pro M4 13in 1TB 16GB Ram on iOS 16.3.1 MAKE SURE TO DOWNLOAD REQUIRE STICK DEBUG SCRIPT! I previously posted game crashes comment. Please ignore.",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPad Pro 13-inch (M4)",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9296",
+            "commitShort": "`ab2ca341a`"
+          }
+        },
         {
           "id": "comment-4051600448",
           "type": "comment",
