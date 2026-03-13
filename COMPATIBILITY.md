@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **178 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **179 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **64** · 🔵 In-Game: **48** · 🟡 Intro: **20** · 🟠 Loads: **22** · 🔴 Doesn't Boot: **24**
+> 🟢 Playable: **64** · 🔵 In-Game: **48** · 🟡 Intro: **20** · 🟠 Loads: **22** · 🔴 Doesn't Boot: **25**
 >
-> 📱 iOS: **173** · 🖥️ macOS: **11**
+> 📱 iOS: **174** · 🖥️ macOS: **11**
 
 ## Legend
 
@@ -185,6 +185,7 @@
 | 🔴 | FIFA 15 | `454109DB` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Pro 13-inch (M4) | 2026-03-13 |
 | 🔴 | Fight Night Champion | `45410915` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Pro (M2) | 2026-03-03 |
 | 🔴 | Forza Horizon 2 Presents Fast & Furious | `4D530AB5` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad 10 | 2026-03-08 |
+| 🔴 | Left 4 Dead 2 | `454108D4` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Air 4 | 2026-03-13 |
 | 🔴 | Mighty No. 9 | `584114A4` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 13 | 2026-03-09 |
 | 🔴 | NBA 2K12 | `54540894` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro Max | 2026-03-13 |
 | 🔴 | NBA 2K7 | `545407EF` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16e | 2026-03-11 |
