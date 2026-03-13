@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-13T13:12:16.236Z",
+  "generatedAt": "2026-03-13T14:36:14.041Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1250,6 +1250,104 @@
             "appVersion": "1.0.0",
             "buildNumber": "9280",
             "commitShort": "`2633e8177`"
+          }
+        }
+      ]
+    },
+    "454108E6": {
+      "titleId": "454108E6",
+      "issueNumber": 244,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/244",
+      "updatedAt": "2026-03-13",
+      "entries": [
+        {
+          "id": "issue-244",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/244",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-13",
+          "createdAtMs": 1773412522000,
+          "issueNumber": 244,
+          "excerpt": "FPS hovers around 15-25fps… many stating teleporting causes crash. My game did not crash at all and in fact it seems to stabilize fps the more i play it but it doesnt exceed 24fps. It’s honestly good enough for me to feel confident playing. But i am on extremely expensive hardware. It’s a IPad Pro 13in M4 1TB 16GB Ram. This alone feels like it should be running at at 40+ fps but im going to assume new updates to the emulator will fix this over time.",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "poor",
+            "device": "iPad Pro 13-inch (M4)",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9296",
+            "commitShort": "`ab2ca341a`"
+          }
+        },
+        {
+          "id": "comment-4020431475",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/30#issuecomment-4020431475",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-09",
+          "createdAtMs": 1773017246000,
+          "issueNumber": 30,
+          "excerpt": "Runs pretty low fps and anytime I teleport to another location, the game crashes",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454108E6/1773017243906-1.jpg"
+          ],
+          "meta": {
+            "status": "loads",
+            "perf": "poor",
+            "device": "iPhone 13 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        },
+        {
+          "id": "comment-4019812206",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/30#issuecomment-4019812206",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1772997239000,
+          "issueNumber": 30,
+          "excerpt": "Black screen",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        },
+        {
+          "id": "issue-30",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/30",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-02",
+          "createdAtMs": 1772475279000,
+          "issueNumber": 30,
+          "excerpt": "The intro has some graphical issues and the game crashes after the intro",
+          "images": [],
+          "meta": {
+            "status": "loads",
+            "perf": "poor",
+            "device": "iPad Pro (M2)",
+            "platform": "iOS",
+            "osVersion": "iOS 18.3.1",
+            "gpuBackend": "MSL"
           }
         }
       ]
@@ -7060,81 +7158,6 @@
             "device": "iPhone 17",
             "platform": "iOS",
             "osVersion": "iOS 26.3",
-            "gpuBackend": "MSL"
-          }
-        }
-      ]
-    },
-    "454108E6": {
-      "titleId": "454108E6",
-      "issueNumber": 30,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/30",
-      "updatedAt": "2026-03-09",
-      "entries": [
-        {
-          "id": "comment-4020431475",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/30#issuecomment-4020431475",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-09",
-          "createdAtMs": 1773017246000,
-          "issueNumber": 30,
-          "excerpt": "Runs pretty low fps and anytime I teleport to another location, the game crashes",
-          "images": [
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454108E6/1773017243906-1.jpg"
-          ],
-          "meta": {
-            "status": "loads",
-            "perf": "poor",
-            "device": "iPhone 13 Pro",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "`2633e8177`"
-          }
-        },
-        {
-          "id": "comment-4019812206",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/30#issuecomment-4019812206",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-08",
-          "createdAtMs": 1772997239000,
-          "issueNumber": 30,
-          "excerpt": "Black screen",
-          "images": [],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPhone 17 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "`2633e8177`"
-          }
-        },
-        {
-          "id": "issue-30",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/30",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-02",
-          "createdAtMs": 1772475279000,
-          "issueNumber": 30,
-          "excerpt": "The intro has some graphical issues and the game crashes after the intro",
-          "images": [],
-          "meta": {
-            "status": "loads",
-            "perf": "poor",
-            "device": "iPad Pro (M2)",
-            "platform": "iOS",
-            "osVersion": "iOS 18.3.1",
             "gpuBackend": "MSL"
           }
         }
