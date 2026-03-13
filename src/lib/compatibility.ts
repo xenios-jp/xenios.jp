@@ -625,8 +625,27 @@ export function getGameBySlug(slug: string): Game | undefined {
   return normalizedGames.find((game) => game.slug === slug);
 }
 
+const DEVICE_NAME_MAP = DEVICE_NAMES as Record<string, string>;
+const NORMALIZED_DEVICE_NAMES = new Map<string, string>();
+
+function normalizeDeviceLookupKey(raw: string): string {
+  return raw.toLowerCase().replace(/[^a-z0-9]+/g, "");
+}
+
+for (const [input, output] of Object.entries(DEVICE_NAME_MAP)) {
+  NORMALIZED_DEVICE_NAMES.set(normalizeDeviceLookupKey(input), output);
+  NORMALIZED_DEVICE_NAMES.set(normalizeDeviceLookupKey(output), output);
+}
+
 export function deviceName(raw: string): string {
-  return (DEVICE_NAMES as Record<string, string>)[raw] || raw;
+  const trimmed = raw.trim();
+  if (!trimmed) return trimmed;
+
+  return (
+    DEVICE_NAME_MAP[trimmed] ||
+    NORMALIZED_DEVICE_NAMES.get(normalizeDeviceLookupKey(trimmed)) ||
+    trimmed
+  );
 }
 
 export function getStatusLabel(status: SummaryStatus): string {

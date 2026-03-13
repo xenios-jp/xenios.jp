@@ -706,7 +706,10 @@ function validatePayload(body: unknown): { ok: true; data: ReportPayload } | { o
       status: b.status as GameStatus,
       perf: b.perf as PerfTier,
       platform: b.platform as Platform,
-      device: (b.device as string).trim(),
+      device: canonicalizeReportDevice(
+        (b.device as string).trim(),
+        typeof b.deviceMachine === "string" ? b.deviceMachine : undefined
+      ),
       osVersion: (b.osVersion as string).trim(),
       arch: b.arch as Architecture,
       gpuBackend: b.gpuBackend as GpuBackend,
@@ -1689,8 +1692,39 @@ function inferPlatform(device: string): "ios" | "macos" {
 
 import DEVICE_NAMES from "../../data/device-names.json";
 
+const DEVICE_NAME_MAP = DEVICE_NAMES as Record<string, string>;
+const NORMALIZED_DEVICE_NAMES = new Map<string, string>();
+
+function normalizeDeviceLookupKey(raw: string): string {
+  return raw.toLowerCase().replace(/[^a-z0-9]+/g, "");
+}
+
+for (const [input, output] of Object.entries(DEVICE_NAME_MAP)) {
+  NORMALIZED_DEVICE_NAMES.set(normalizeDeviceLookupKey(input), output);
+  NORMALIZED_DEVICE_NAMES.set(normalizeDeviceLookupKey(output), output);
+}
+
 function deviceDisplayName(raw: string): string {
-  return (DEVICE_NAMES as Record<string, string>)[raw] || raw;
+  const trimmed = raw.trim();
+  if (!trimmed) return trimmed;
+
+  return (
+    DEVICE_NAME_MAP[trimmed] ||
+    NORMALIZED_DEVICE_NAMES.get(normalizeDeviceLookupKey(trimmed)) ||
+    trimmed
+  );
+}
+
+function canonicalizeReportDevice(device: string, deviceMachine?: string): string {
+  const trimmedMachine = String(deviceMachine || "").trim();
+  if (trimmedMachine) {
+    const machineDisplayName = deviceDisplayName(trimmedMachine);
+    if (machineDisplayName && machineDisplayName !== trimmedMachine) {
+      return machineDisplayName;
+    }
+  }
+
+  return deviceDisplayName(device);
 }
 
 // ── Cache command options between slash command → modal submit ────────

@@ -43,6 +43,13 @@ async function readJson(relativePath) {
 }
 
 function buildMarkdown(games, deviceNames) {
+  const normalizedDeviceNames = new Map();
+  const normalizeDeviceLookupKey = (raw) => String(raw || "").toLowerCase().replace(/[^a-z0-9]+/g, "");
+  for (const [input, output] of Object.entries(deviceNames)) {
+    normalizedDeviceNames.set(normalizeDeviceLookupKey(input), output);
+    normalizedDeviceNames.set(normalizeDeviceLookupKey(output), output);
+  }
+
   const testedGames = games.filter(
     (game) => game.lastReport && Array.isArray(game.platforms) && game.platforms.length > 0,
   );
@@ -77,7 +84,8 @@ function buildMarkdown(games, deviceNames) {
     .map(([platform, count]) => `${platformLabel[platform]}: **${count}**`)
     .join(" · ");
 
-  const deviceNameFor = (raw) => deviceNames[raw] || raw;
+  const deviceNameFor = (raw) =>
+    deviceNames[raw] || normalizedDeviceNames.get(normalizeDeviceLookupKey(raw)) || raw;
 
   const rows = sorted
     .map((game) => {

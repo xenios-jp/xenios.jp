@@ -99,7 +99,7 @@
           "meta": {
             "status": "nothing",
             "perf": "n/a",
-            "device": "iPad Pro 12.9 inch 6th Gen",
+            "device": "iPad Pro 12.9-inch (M2)",
             "platform": "iOS",
             "osVersion": "iOS 17.0",
             "gpuBackend": "MSL",
@@ -507,7 +507,7 @@
           "meta": {
             "status": "loads",
             "perf": "ok",
-            "device": "iPhone18,2",
+            "device": "iPhone 17 Pro Max",
             "platform": "iOS",
             "osVersion": "iOS 26.3",
             "gpuBackend": "MSL"
@@ -582,7 +582,7 @@
           "meta": {
             "status": "playable",
             "perf": "ok",
-            "device": "iPhone17,1",
+            "device": "iPhone 16 Pro",
             "platform": "iOS",
             "osVersion": "iOS 18.5",
             "gpuBackend": "MSL"
@@ -620,7 +620,7 @@
           "meta": {
             "status": "playable",
             "perf": "ok",
-            "device": "iPhone17,1",
+            "device": "iPhone 16 Pro",
             "platform": "iOS",
             "osVersion": "iOS 18.5",
             "gpuBackend": "MSL"
@@ -929,7 +929,7 @@
           "meta": {
             "status": "nothing",
             "perf": "n/a",
-            "device": "iPhone17,1",
+            "device": "iPhone 16 Pro",
             "platform": "iOS",
             "osVersion": "iOS 18.5",
             "gpuBackend": "MSL"
@@ -987,7 +987,7 @@
           "meta": {
             "status": "intro",
             "perf": "poor",
-            "device": "iPad Pro 12.9 inch 6th Gen",
+            "device": "iPad Pro 12.9-inch (M2)",
             "platform": "iOS",
             "osVersion": "iOS 26.1",
             "gpuBackend": "MSL",
@@ -1045,7 +1045,7 @@
           "meta": {
             "status": "nothing",
             "perf": "n/a",
-            "device": "iPhone 13 Mini",
+            "device": "iPhone 13 mini",
             "platform": "iOS",
             "osVersion": "iOS 16.6.1",
             "gpuBackend": "MSL",
@@ -1273,7 +1273,7 @@
           "meta": {
             "status": "nothing",
             "perf": "n/a",
-            "device": "iPad Pro 12.9 inch 7th Gen",
+            "device": "iPad Pro 13-inch (M4)",
             "platform": "iOS",
             "osVersion": "iOS 26.3.1",
             "gpuBackend": "MSL",
@@ -1327,7 +1327,7 @@
           "meta": {
             "status": "playable",
             "perf": "great",
-            "device": "iPad Air 11-inch 7th Gen",
+            "device": "iPad Air 11-inch (M3)",
             "platform": "iOS",
             "osVersion": "iOS 18.7.1",
             "gpuBackend": "MSL",
@@ -1350,7 +1350,7 @@
           "meta": {
             "status": "playable",
             "perf": "great",
-            "device": "iPad Air 11-inch 7th Gen",
+            "device": "iPad Air 11-inch (M3)",
             "platform": "iOS",
             "osVersion": "iOS 18.7.1",
             "gpuBackend": "MSL",
@@ -1719,7 +1719,7 @@
           "meta": {
             "status": "loads",
             "perf": "ok",
-            "device": "iPad 11th Gen",
+            "device": "iPad (A16)",
             "platform": "iOS",
             "osVersion": "iOS 26.2.1",
             "gpuBackend": "MSL",
@@ -1951,7 +1951,7 @@
           "meta": {
             "status": "nothing",
             "perf": "n/a",
-            "device": "iPad Pro 12.9 inch 6th Gen",
+            "device": "iPad Pro 12.9-inch (M2)",
             "platform": "iOS",
             "osVersion": "iOS 16.2",
             "gpuBackend": "MSL",
@@ -2699,7 +2699,7 @@
           "meta": {
             "status": "playable",
             "perf": "ok",
-            "device": "iPhone17,1",
+            "device": "iPhone 16 Pro",
             "platform": "iOS",
             "osVersion": "iOS 18.5",
             "gpuBackend": "MSL"
@@ -2803,7 +2803,7 @@
           "meta": {
             "status": "playable",
             "perf": "ok",
-            "device": "iPad Pro 12.9 inch 6th Gen",
+            "device": "iPad Pro 12.9-inch (M2)",
             "platform": "iOS",
             "osVersion": "iOS 26.1",
             "gpuBackend": "MSL",
@@ -3005,7 +3005,7 @@
           "meta": {
             "status": "loads",
             "perf": "poor",
-            "device": "iPad 11th Gen",
+            "device": "iPad (A16)",
             "platform": "iOS",
             "osVersion": "iOS 18.3",
             "gpuBackend": "MSL",
@@ -4138,7 +4138,7 @@
           "meta": {
             "status": "nothing",
             "perf": "n/a",
-            "device": "iPad Pro 12.9 inch 7th Gen",
+            "device": "iPad Pro 13-inch (M4)",
             "platform": "iOS",
             "osVersion": "iOS 26.3.1",
             "gpuBackend": "MSL",
@@ -4209,7 +4209,7 @@
           "meta": {
             "status": "ingame",
             "perf": "ok",
-            "device": "iPhone18,3",
+            "device": "iPhone 17",
             "platform": "iOS",
             "osVersion": "iOS 26.3",
             "gpuBackend": "MSL"
@@ -4346,7 +4346,7 @@
           "meta": {
             "status": "playable",
             "perf": "poor",
-            "device": "iPad 11th Gen",
+            "device": "iPad (A16)",
             "platform": "iOS",
             "osVersion": "iOS 26.3",
             "gpuBackend": "MSL",
@@ -5583,7 +5583,7 @@
           "meta": {
             "status": "loads",
             "perf": "great",
-            "device": "iPad 11th Gen",
+            "device": "iPad (A16)",
             "platform": "iOS",
             "osVersion": "iOS 18.3",
             "gpuBackend": "MSL",
@@ -5768,7 +5768,7 @@
           "meta": {
             "status": "intro",
             "perf": "poor",
-            "device": "iPad Pro 12.9 inch 6th Gen",
+            "device": "iPad Pro 12.9-inch (M2)",
             "platform": "iOS",
             "osVersion": "iOS 18.7.2",
             "gpuBackend": "MSL",
@@ -5968,7 +5968,7 @@
           "meta": {
             "status": "nothing",
             "perf": "n/a",
-            "device": "iPad 10th Gen",
+            "device": "iPad 10",
             "platform": "iOS",
             "osVersion": "iOS 26.3",
             "gpuBackend": "MSL",
@@ -6214,7 +6214,7 @@
           "meta": {
             "status": "playable",
             "perf": "ok",
-            "device": "iPad 11th Gen",
+            "device": "iPad (A16)",
             "platform": "iOS",
             "osVersion": "iOS 26.3",
             "gpuBackend": "MSL",
@@ -6237,7 +6237,7 @@
           "meta": {
             "status": "playable",
             "perf": "ok",
-            "device": "iPad15,7",
+            "device": "iPad (A16)",
             "platform": "iOS",
             "osVersion": "iOS 26.3",
             "gpuBackend": "MSL"
@@ -6419,7 +6419,7 @@
           "meta": {
             "status": "intro",
             "perf": "ok",
-            "device": "iPhone17,1",
+            "device": "iPhone 16 Pro",
             "platform": "iOS",
             "osVersion": "iOS 18.5",
             "gpuBackend": "MSL"
@@ -6446,7 +6446,7 @@
           "meta": {
             "status": "loads",
             "perf": "poor",
-            "device": "iPhone17,1",
+            "device": "iPhone 16 Pro",
             "platform": "iOS",
             "osVersion": "iOS 18.5",
             "gpuBackend": "MSL"
@@ -6473,7 +6473,7 @@
           "meta": {
             "status": "loads",
             "perf": "poor",
-            "device": "iPhone17,1",
+            "device": "iPhone 16 Pro",
             "platform": "iOS",
             "osVersion": "iOS 18.5",
             "gpuBackend": "MSL"
@@ -6500,7 +6500,7 @@
           "meta": {
             "status": "intro",
             "perf": "ok",
-            "device": "iPad15,7",
+            "device": "iPad (A16)",
             "platform": "iOS",
             "osVersion": "iOS 26.3",
             "gpuBackend": "MSL"
@@ -6608,7 +6608,7 @@
           "meta": {
             "status": "playable",
             "perf": "great",
-            "device": "iPhone17,1",
+            "device": "iPhone 16 Pro",
             "platform": "iOS",
             "osVersion": "iOS 18.5",
             "gpuBackend": "MSL"
@@ -6681,7 +6681,7 @@
           "meta": {
             "status": "nothing",
             "perf": "n/a",
-            "device": "iPhone17,1",
+            "device": "iPhone 16 Pro",
             "platform": "iOS",
             "osVersion": "iOS 18.5",
             "gpuBackend": "MSL"
@@ -6708,7 +6708,7 @@
           "meta": {
             "status": "intro",
             "perf": "great",
-            "device": "iPhone17,1",
+            "device": "iPhone 16 Pro",
             "platform": "iOS",
             "osVersion": "iOS 18.5",
             "gpuBackend": "MSL"
@@ -6735,7 +6735,7 @@
           "meta": {
             "status": "intro",
             "perf": "poor",
-            "device": "iPhone17,1",
+            "device": "iPhone 16 Pro",
             "platform": "iOS",
             "osVersion": "iOS 18.5",
             "gpuBackend": "MSL"
@@ -6762,7 +6762,7 @@
           "meta": {
             "status": "In-Game",
             "perf": "Great",
-            "device": "Mac14,3",
+            "device": "Mac mini (M2)",
             "platform": "macOS",
             "osVersion": "macOS 15.7",
             "gpuBackend": "MSC"
@@ -6781,7 +6781,7 @@
           "meta": {
             "status": "loads",
             "perf": "poor",
-            "device": "iPhone17,1",
+            "device": "iPhone 16 Pro",
             "platform": "iOS",
             "osVersion": "iOS 18.5",
             "gpuBackend": "MSL"
@@ -6808,7 +6808,7 @@
           "meta": {
             "status": "nothing",
             "perf": "n/a",
-            "device": "iPhone17,1",
+            "device": "iPhone 16 Pro",
             "platform": "iOS",
             "osVersion": "iOS 18.5",
             "gpuBackend": "MSL"
@@ -6835,7 +6835,7 @@
           "meta": {
             "status": "nothing",
             "perf": "n/a",
-            "device": "iPhone17,1",
+            "device": "iPhone 16 Pro",
             "platform": "iOS",
             "osVersion": "iOS 18.5",
             "gpuBackend": "MSL"
@@ -7062,7 +7062,7 @@
           "meta": {
             "status": "intro",
             "perf": "poor",
-            "device": "iPhone17,1",
+            "device": "iPhone 16 Pro",
             "platform": "iOS",
             "osVersion": "iOS 18.5",
             "gpuBackend": "MSL"
@@ -7081,7 +7081,7 @@
           "meta": {
             "status": "ingame",
             "perf": "poor",
-            "device": "iPhone18,3",
+            "device": "iPhone 17",
             "platform": "iOS",
             "osVersion": "iOS 26.3",
             "gpuBackend": "MSL"
@@ -7108,7 +7108,7 @@
           "meta": {
             "status": "playable",
             "perf": "great",
-            "device": "iPhone18,2",
+            "device": "iPhone 17 Pro Max",
             "platform": "iOS",
             "osVersion": "iOS 26.3",
             "gpuBackend": "MSL"
@@ -7127,7 +7127,7 @@
           "meta": {
             "status": "playable",
             "perf": "great",
-            "device": "iPhone18,2",
+            "device": "iPhone 17 Pro Max",
             "platform": "iOS",
             "osVersion": "iOS 26.3",
             "gpuBackend": "MSL"
