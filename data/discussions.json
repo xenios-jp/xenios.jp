@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-13T13:05:46.454Z",
+  "generatedAt": "2026-03-13T13:12:16.236Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -4470,29 +4470,6 @@
           "meta": {
             "status": "playable",
             "perf": "ok",
-            "device": "iPad Pro 13-inch (M4)",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9296",
-            "commitShort": "`ab2ca341a`"
-          }
-        },
-        {
-          "id": "comment-4051600448",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/144#issuecomment-4051600448",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-13",
-          "createdAtMs": 1773365383000,
-          "issueNumber": 144,
-          "excerpt": "I am on IPad os 26.3.1 this could obv be the reason the game doesnt load. It is important to note that i ripped directly from RGH in .XEX format. I will try a different format to see if game will load. Obv my M4 is powerful enough to load and play the game.",
-          "images": [],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
             "device": "iPad Pro 13-inch (M4)",
             "platform": "iOS",
             "osVersion": "iOS 26.3.1",
