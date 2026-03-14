@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **185 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **186 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **72** · 🔵 In-Game: **44** · 🟡 Intro: **21** · 🟠 Loads: **23** · 🔴 Doesn't Boot: **25**
+> 🟢 Playable: **72** · 🔵 In-Game: **44** · 🟡 Intro: **21** · 🟠 Loads: **24** · 🔴 Doesn't Boot: **25**
 >
-> 📱 iOS: **179** · 🖥️ macOS: **11**
+> 📱 iOS: **180** · 🖥️ macOS: **11**
 
 ## Legend
 
@@ -175,6 +175,7 @@
 | 🟠 | Metal Gear Solid V: Ground Zeroes | `4B4E085C` | 📱 iOS | Loads | 🐢 Poor | iPhone 15 Pro Max | 2026-03-10 |
 | 🟠 | NCAA Basketball 10 | `454108C3` | 📱 iOS | Loads | 🐢 Poor | iPhone 16e | 2026-03-11 |
 | 🟠 | Project Gotham Racing 4 | `4D5307F9` | 🖥️ macOS | Loads | 🚀 Great | MacBook Pro (M4 Max) | 2026-03-14 |
+| 🟠 | Resident Evil 6 | `43430819` | 📱 iOS | Loads | 🐢 Poor | iPhone 13 | 2026-03-14 |
 | 🟠 | Sonic & All-Stars Racing Transformed | `5345085D` | 📱 iOS | Loads | 🐢 Poor | iPhone 16 Pro | 2026-03-05 |
 | 🟠 | Spider Man: Edge Of Time | `415608B2` | 📱 iOS | Loads | 🐢 Poor | iPhone 15 Pro Max | 2026-03-09 |
 | 🟠 | The Orange Box | `4541080F` | 📱 iOS | Loads | 🐢 Poor | iPhone Air | 2026-03-08 |
