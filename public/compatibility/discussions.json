@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-14T06:05:53.160Z",
+  "generatedAt": "2026-03-14T08:28:09.292Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1275,6 +1275,56 @@
             "appVersion": "1.0.0",
             "buildNumber": "9280",
             "commitShort": "`2633e8177`"
+          }
+        }
+      ]
+    },
+    "535107E4": {
+      "titleId": "535107E4",
+      "issueNumber": 256,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/256",
+      "updatedAt": "2026-03-14",
+      "entries": [
+        {
+          "id": "issue-256",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/256",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-14",
+          "createdAtMs": 1773476856000,
+          "issueNumber": 256,
+          "excerpt": "Black Screen.",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 12 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
+        {
+          "id": "issue-17",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/17",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-03",
+          "createdAtMs": 1772554095000,
+          "issueNumber": 17,
+          "excerpt": "-Graphics: minor glitches like hair transparency \n-Performance: full speed on higher end devices with minor dips.\n-Sound: No sound…\n-Menus: Perfect \n-Videos: work\n\n*Tested for an hour with no crash",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.1",
+            "gpuBackend": "MSL"
           }
         }
       ]
@@ -7220,33 +7270,6 @@
             "device": "iPad Pro (M2)",
             "platform": "iOS",
             "osVersion": "iOS 18.3.1",
-            "gpuBackend": "MSL"
-          }
-        }
-      ]
-    },
-    "535107E4": {
-      "titleId": "535107E4",
-      "issueNumber": 17,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/17",
-      "updatedAt": "2026-03-07",
-      "entries": [
-        {
-          "id": "issue-17",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/17",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-03",
-          "createdAtMs": 1772554095000,
-          "issueNumber": 17,
-          "excerpt": "-Graphics: minor glitches like hair transparency \n-Performance: full speed on higher end devices with minor dips.\n-Sound: No sound…\n-Menus: Perfect \n-Videos: work\n\n*Tested for an hour with no crash",
-          "images": [],
-          "meta": {
-            "status": "playable",
-            "perf": "great",
-            "device": "iPhone 17 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 26.1",
             "gpuBackend": "MSL"
           }
         }
