@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-14T01:39:21.680Z",
+  "generatedAt": "2026-03-14T01:48:39.223Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1243,6 +1243,91 @@
             "status": "ingame",
             "perf": "ok",
             "device": "iPhone 15 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        }
+      ]
+    },
+    "5553088C": {
+      "titleId": "5553088C",
+      "issueNumber": 251,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/251",
+      "updatedAt": "2026-03-14",
+      "entries": [
+        {
+          "id": "comment-4059119597",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/251#issuecomment-4059119597",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-14",
+          "createdAtMs": 1773452828000,
+          "issueNumber": 251,
+          "excerpt": "graphics are almost perfect, but still too demanding",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/5553088C/1773452822067-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/5553088C/1773452822067-2.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/5553088C/1773452822067-3.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "poor",
+            "device": "iPhone 16",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
+        {
+          "id": "issue-251",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/251",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-14",
+          "createdAtMs": 1773452810000,
+          "issueNumber": 251,
+          "excerpt": "Graphics are almost perfect, but still too demanding.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/5553088C/1773452803534-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/5553088C/1773452803534-2.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/5553088C/1773452803534-3.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "poor",
+            "device": "iPhone 16",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
+        {
+          "id": "issue-129",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/129",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-09",
+          "createdAtMs": 1773056036000,
+          "issueNumber": 129,
+          "excerpt": "iPhone 17 Pro, not playable, runs at about 10-15 fps, texture shredding / graphic issues",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "poor",
+            "device": "iPhone 17 Pro",
             "platform": "iOS",
             "osVersion": "iOS 26.3",
             "gpuBackend": "MSL",
@@ -5227,37 +5312,6 @@
             "device": "iPhone 16 Pro",
             "platform": "iOS",
             "osVersion": "iOS 26.2",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "`2633e8177`"
-          }
-        }
-      ]
-    },
-    "5553088C": {
-      "titleId": "5553088C",
-      "issueNumber": 129,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/129",
-      "updatedAt": "2026-03-09",
-      "entries": [
-        {
-          "id": "issue-129",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/129",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-09",
-          "createdAtMs": 1773056036000,
-          "issueNumber": 129,
-          "excerpt": "iPhone 17 Pro, not playable, runs at about 10-15 fps, texture shredding / graphic issues",
-          "images": [],
-          "meta": {
-            "status": "ingame",
-            "perf": "poor",
-            "device": "iPhone 17 Pro",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3",
             "gpuBackend": "MSL",
             "buildChannel": "self-built",
             "appVersion": "1.0.0",
