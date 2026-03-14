@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-14T20:31:49.937Z",
+  "generatedAt": "2026-03-14T20:33:41.570Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1470,6 +1470,29 @@
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/259",
       "updatedAt": "2026-03-14",
       "entries": [
+        {
+          "id": "comment-4061331331",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/259#issuecomment-4061331331",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-14",
+          "createdAtMs": 1773520366000,
+          "issueNumber": 259,
+          "excerpt": "There are graphical glitches, but it is playable",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
         {
           "id": "issue-259",
           "type": "issue",
