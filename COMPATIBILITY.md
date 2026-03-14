@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **179 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **181 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **64** · 🔵 In-Game: **49** · 🟡 Intro: **20** · 🟠 Loads: **22** · 🔴 Doesn't Boot: **24**
+> 🟢 Playable: **64** · 🔵 In-Game: **49** · 🟡 Intro: **20** · 🟠 Loads: **22** · 🔴 Doesn't Boot: **26**
 >
-> 📱 iOS: **174** · 🖥️ macOS: **11**
+> 📱 iOS: **176** · 🖥️ macOS: **11**
 
 ## Legend
 
@@ -181,6 +181,7 @@
 | 🔴 | Call of Duty: Black Ops III | `4156091D` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Pro M5 | 2026-03-09 |
 | 🔴 | Call of Duty: Modern Warfare 2 | `41560817` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 Pro | 2026-03-08 |
 | 🔴 | Civilization Revolution | `545407E5` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-13 |
+| 🔴 | Dead Rising 2 | `434307EC` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 Pro Max | 2026-03-14 |
 | 🔴 | Dragon Ball Z Burst Limit | `424107DC` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro Max | 2026-03-09 |
 | 🔴 | Fable 2 | `4D5307F1` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 15 Pro Max | 2026-03-12 |
 | 🔴 | FIFA 15 | `454109DB` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Pro 13-inch (M4) | 2026-03-13 |
@@ -191,6 +192,7 @@
 | 🔴 | NBA 2K12 | `54540894` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro Max | 2026-03-13 |
 | 🔴 | NBA 2K7 | `545407EF` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16e | 2026-03-11 |
 | 🔴 | Ninja Gaiden II | `544307D5` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 15 Pro Max | 2026-03-08 |
+| 🔴 | Resident Evil 4 | `4343081C` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16e | 2026-03-14 |
 | 🔴 | Resident Evil 5 | `434307D4` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-03 |
 | 🔴 | Soulcalibur IV | `4E4D07E0` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro Max | 2026-03-11 |
 | 🔴 | Star Ocean: The Last Hope | `535107DD` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-03 |

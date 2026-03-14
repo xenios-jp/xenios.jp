@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-14T01:36:04.592Z",
+  "generatedAt": "2026-03-14T01:39:21.680Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1250,6 +1250,68 @@
             "appVersion": "1.0.0",
             "buildNumber": "9280",
             "commitShort": "`2633e8177`"
+          }
+        }
+      ]
+    },
+    "434307EC": {
+      "titleId": "434307EC",
+      "issueNumber": 250,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/250",
+      "updatedAt": "2026-03-14",
+      "entries": [
+        {
+          "id": "issue-250",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/250",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-14",
+          "createdAtMs": 1773452324000,
+          "issueNumber": 250,
+          "excerpt": "Black screen, no loading, no nothing.",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        }
+      ]
+    },
+    "4343081C": {
+      "titleId": "4343081C",
+      "issueNumber": 249,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/249",
+      "updatedAt": "2026-03-14",
+      "entries": [
+        {
+          "id": "issue-249",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/249",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-14",
+          "createdAtMs": 1773452201000,
+          "issueNumber": 249,
+          "excerpt": "Just black screen on boot up",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 16e",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
           }
         }
       ]
