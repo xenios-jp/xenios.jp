@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-14T04:27:52.174Z",
+  "generatedAt": "2026-03-14T06:05:53.160Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1276,6 +1276,26 @@
             "buildNumber": "9280",
             "commitShort": "`2633e8177`"
           }
+        }
+      ]
+    },
+    "4D5307F9": {
+      "titleId": "4D5307F9",
+      "issueNumber": 255,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/255",
+      "updatedAt": "2026-03-14",
+      "entries": [
+        {
+          "id": "issue-255",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/255",
+          "author": "tracylovesu",
+          "createdAt": "2026-03-14",
+          "createdAtMs": 1773468293000,
+          "issueNumber": 255,
+          "excerpt": "Game boots, gets past intro screens, then immediately crashes the emulator when trying to get past the first warning dialogue box / loading bit.",
+          "images": [],
+          "meta": {}
         }
       ]
     },
