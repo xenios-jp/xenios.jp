@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **183 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **184 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **71** · 🔵 In-Game: **44** · 🟡 Intro: **20** · 🟠 Loads: **23** · 🔴 Doesn't Boot: **25**
+> 🟢 Playable: **72** · 🔵 In-Game: **44** · 🟡 Intro: **20** · 🟠 Loads: **23** · 🔴 Doesn't Boot: **25**
 >
-> 📱 iOS: **177** · 🖥️ macOS: **11**
+> 📱 iOS: **178** · 🖥️ macOS: **11**
 
 ## Legend
 
@@ -55,6 +55,7 @@
 | 🟢 | Halo 3 | `4D5307E6` | 🖥️ macOS, 📱 iOS | Playable | 🐢 Poor | iPhone 16 Pro | 2026-03-12 |
 | 🟢 | Halo: CE Anniversary | `4D5309B1` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro | 2026-03-11 |
 | 🟢 | Just Cause 2 | `534307E7` | 📱 iOS | Playable | 🐢 Poor | iPhone 17 Pro | 2026-03-09 |
+| 🟢 | Lego Harry Potter Years 1-4 | `575207E6` | 📱 iOS | Playable | 🐢 Poor | iPhone 13 | 2026-03-14 |
 | 🟢 | Lego Indiana Jones 2 | `4C4107ED` | 📱 iOS | Playable | 🐢 Poor | iPhone 13 | 2026-03-14 |
 | 🟢 | LEGO Star Wars: TCS | `4C4107D7` | 📱 iOS | Playable | 👌 OK | iPad (A16) | 2026-03-09 |
 | 🟢 | Lollipop Chainsaw | `565707D0` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-03 |
