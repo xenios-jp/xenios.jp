@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-14T19:16:52.629Z",
+  "generatedAt": "2026-03-14T19:53:26.490Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1365,6 +1365,26 @@
             "buildNumber": "9288",
             "commitShort": "`056d2f64d`"
           }
+        }
+      ]
+    },
+    "58411436": {
+      "titleId": "58411436",
+      "issueNumber": 263,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/263",
+      "updatedAt": "2026-03-14",
+      "entries": [
+        {
+          "id": "issue-263",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/263",
+          "author": "supermariofan3720",
+          "createdAt": "2026-03-14",
+          "createdAtMs": 1773517964000,
+          "issueNumber": 263,
+          "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
+          "images": [],
+          "meta": {}
         }
       ]
     },

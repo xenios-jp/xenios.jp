@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **186 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **187 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **72** · 🔵 In-Game: **44** · 🟡 Intro: **21** · 🟠 Loads: **24** · 🔴 Doesn't Boot: **25**
+> 🟢 Playable: **73** · 🔵 In-Game: **44** · 🟡 Intro: **21** · 🟠 Loads: **24** · 🔴 Doesn't Boot: **25**
 >
-> 📱 iOS: **180** · 🖥️ macOS: **11**
+> 📱 iOS: **181** · 🖥️ macOS: **11**
 
 ## Legend
 
@@ -70,6 +70,7 @@
 | 🟢 | Need for Speed Carbon | `454107EC` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-12 |
 | 🟢 | Need for Speed: ProStreet | `45410822` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro | 2026-03-11 |
 | 🟢 | Need for Speed: Undercover | `45410876` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-09 |
+| 🟢 | Peggle 2 | `58411436` | 📱 iOS | Playable | 🚀 Great | iPad Mini (A17 Pro) | 2026-03-14 |
 | 🟢 | Plants vs. Zombies | `584109FF` | 📱 iOS | Playable | 🚀 Great | iPad Mini (A17 Pro) | 2026-03-12 |
 | 🟢 | Portal 2 | `45410912` | 📱 iOS | Playable | 🐢 Poor | iPhone 17 Pro Max | 2026-03-14 |
 | 🟢 | Pro Evolution Soccer 2012 / PES 2012 | `4B4E0837` | 📱 iOS | Playable | 👌 OK | iPhone 14 Pro Max | 2026-03-08 |
