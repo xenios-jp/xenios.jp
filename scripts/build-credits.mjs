@@ -179,7 +179,12 @@ async function main() {
     return;
   }
 
-  const { successfulRepos, ...persistedSnapshot } = snapshot;
+  const persistedSnapshot = {
+    generatedAt: snapshot.generatedAt,
+    totalProjects: snapshot.totalProjects,
+    contributors: snapshot.contributors,
+    errors: snapshot.errors,
+  };
   await fs.writeFile(OUTPUT_PATH, `${JSON.stringify(persistedSnapshot, null, 2)}\n`, "utf8");
   console.log(
     `Wrote credits snapshot with ${persistedSnapshot.contributors.length} contributors across ${persistedSnapshot.totalProjects} repos`
