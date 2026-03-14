@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-14T09:12:48.866Z",
+  "generatedAt": "2026-03-14T14:24:00.615Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -5001,8 +5001,31 @@
       "titleId": "545407F2",
       "issueNumber": 152,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/152",
-      "updatedAt": "2026-03-13",
+      "updatedAt": "2026-03-14",
       "entries": [
+        {
+          "id": "comment-4060629990",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/152#issuecomment-4060629990",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-14",
+          "createdAtMs": 1773498149000,
+          "issueNumber": 152,
+          "excerpt": "There is a lag in a all playing but I can play well\nThe sound is completely broken",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 16 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
         {
           "id": "comment-4058194269",
           "type": "comment",
@@ -5124,25 +5147,6 @@
             "appVersion": "1.0.0",
             "buildNumber": "9280",
             "commitShort": "`2633e8177`"
-          }
-        },
-        {
-          "id": "issue-41",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/41",
-          "author": "xenios-jp",
-          "createdAt": "2026-02-28",
-          "createdAtMs": 1772273998000,
-          "issueNumber": 41,
-          "excerpt": "Get's into game with severe graphical issues. Framerate is above 30 on M4 Pro.",
-          "images": [],
-          "meta": {
-            "status": "ingame",
-            "perf": "poor",
-            "device": "MacBook Pro M4 Pro/Max",
-            "platform": "macOS",
-            "osVersion": "macOS 15.3",
-            "gpuBackend": "MSC"
           }
         }
       ]
