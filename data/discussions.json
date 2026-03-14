@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-14T02:23:40.972Z",
+  "generatedAt": "2026-03-14T04:27:52.174Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1270,6 +1270,85 @@
             "device": "iPhone 15 Pro Max",
             "platform": "iOS",
             "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        }
+      ]
+    },
+    "545407E5": {
+      "titleId": "545407E5",
+      "issueNumber": 254,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/254",
+      "updatedAt": "2026-03-14",
+      "entries": [
+        {
+          "id": "issue-254",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/254",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-14",
+          "createdAtMs": 1773462440000,
+          "issueNumber": 254,
+          "excerpt": "Game needs the following config:\nprotect_zero = false\n\nUse 50Hz PAL Timing helps with stutters.\n\nGame ended up crashing after like 30 minutes, keep saving if you plan to play from start to end.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407E5/1773462436599-1.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 16 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 18.6.2",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
+        {
+          "id": "comment-4058686120",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/142#issuecomment-4058686120",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-13",
+          "createdAtMs": 1773444579000,
+          "issueNumber": 142,
+          "excerpt": "Instant crash on boot after Metal shaders rendering",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 16 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 18.6.2",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
+        {
+          "id": "issue-142",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/142",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-09",
+          "createdAtMs": 1773076405000,
+          "issueNumber": 142,
+          "excerpt": "Nothing",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 16 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 18.6.2",
             "gpuBackend": "MSL",
             "buildChannel": "self-built",
             "appVersion": "1.0.0",
@@ -5205,60 +5284,6 @@
           "excerpt": "black ops logo shows for half a second then stuck on black screen,",
           "images": [],
           "meta": {}
-        }
-      ]
-    },
-    "545407E5": {
-      "titleId": "545407E5",
-      "issueNumber": 142,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/142",
-      "updatedAt": "2026-03-13",
-      "entries": [
-        {
-          "id": "comment-4058686120",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/142#issuecomment-4058686120",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-13",
-          "createdAtMs": 1773444579000,
-          "issueNumber": 142,
-          "excerpt": "Instant crash on boot after Metal shaders rendering",
-          "images": [],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPhone 16 Pro",
-            "platform": "iOS",
-            "osVersion": "iOS 18.6.2",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "`056d2f64d`"
-          }
-        },
-        {
-          "id": "issue-142",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/142",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-09",
-          "createdAtMs": 1773076405000,
-          "issueNumber": 142,
-          "excerpt": "Nothing",
-          "images": [],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPhone 16 Pro",
-            "platform": "iOS",
-            "osVersion": "iOS 18.6.2",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "`2633e8177`"
-          }
         }
       ]
     },
