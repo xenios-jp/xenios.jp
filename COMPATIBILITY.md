@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **187 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **188 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **73** · 🔵 In-Game: **44** · 🟡 Intro: **21** · 🟠 Loads: **24** · 🔴 Doesn't Boot: **25**
+> 🟢 Playable: **73** · 🔵 In-Game: **44** · 🟡 Intro: **21** · 🟠 Loads: **24** · 🔴 Doesn't Boot: **26**
 >
-> 📱 iOS: **181** · 🖥️ macOS: **11**
+> 📱 iOS: **182** · 🖥️ macOS: **11**
 
 ## Legend
 
@@ -190,6 +190,7 @@
 | 🔴 | Dead Rising 2 | `434307EC` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 Pro Max | 2026-03-14 |
 | 🔴 | Dragon Ball Z Burst Limit | `424107DC` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro Max | 2026-03-09 |
 | 🔴 | Fable 2 | `4D5307F1` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 15 Pro Max | 2026-03-09 |
+| 🔴 | FIFA 14 | `454109C3` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 15 Pro Max | 2026-03-14 |
 | 🔴 | FIFA 15 | `454109DB` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Pro 13-inch (M4) | 2026-03-13 |
 | 🔴 | Fight Night Champion | `45410915` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Pro (M2) | 2026-03-03 |
 | 🔴 | Forza Horizon 2 Presents Fast & Furious | `4D530AB5` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad 10 | 2026-03-08 |
