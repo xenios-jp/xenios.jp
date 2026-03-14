@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-14T16:24:54.871Z",
+  "generatedAt": "2026-03-14T16:26:05.030Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1334,6 +1334,49 @@
             "buildNumber": "9288",
             "commitShort": "`056d2f64d`"
           }
+        }
+      ]
+    },
+    "4156091D": {
+      "titleId": "4156091D",
+      "issueNumber": 261,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/261",
+      "updatedAt": "2026-03-14",
+      "entries": [
+        {
+          "id": "issue-261",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/261",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-14",
+          "createdAtMs": 1773505506000,
+          "issueNumber": 261,
+          "excerpt": "Black screen",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 13",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
+        {
+          "id": "issue-143",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/143",
+          "author": "fonsooooooo9",
+          "createdAt": "2026-03-09",
+          "createdAtMs": 1773076715000,
+          "issueNumber": 143,
+          "excerpt": "black ops logo shows for half a second then stuck on black screen,",
+          "images": [],
+          "meta": {}
         }
       ]
     },
@@ -5562,26 +5605,6 @@
             "osVersion": "iOS 26.3",
             "gpuBackend": "MSL"
           }
-        }
-      ]
-    },
-    "4156091D": {
-      "titleId": "4156091D",
-      "issueNumber": 143,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/143",
-      "updatedAt": "2026-03-09",
-      "entries": [
-        {
-          "id": "issue-143",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/143",
-          "author": "fonsooooooo9",
-          "createdAt": "2026-03-09",
-          "createdAtMs": 1773076715000,
-          "issueNumber": 143,
-          "excerpt": "black ops logo shows for half a second then stuck on black screen,",
-          "images": [],
-          "meta": {}
         }
       ]
     },
