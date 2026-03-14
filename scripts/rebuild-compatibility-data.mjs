@@ -342,13 +342,9 @@ function buildSummaries(reports) {
         (report) => report.build?.channel === "release" || !report.build?.channel,
       )
     : normalizedReports;
-  const previewReports = hasChannelMetadata
-    ? normalizedReports.filter((report) => report.build?.channel === "preview")
-    : [];
 
   return {
     release: summarizeReports(releaseReports, "release"),
-    preview: summarizeReports(previewReports, "preview"),
     all: summarizeReports(normalizedReports, "all"),
   };
 }

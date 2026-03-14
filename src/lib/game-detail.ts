@@ -783,7 +783,7 @@ function buildReleaseNote(
 ): string {
   if (selection.reports.length === 0) {
     if (selection.currentBuildKnown) {
-      return "No reports yet for the current official release. Preview and non-matching local reports below do not affect the public verdict.";
+      return "No reports yet for the current official release. Preview, self-built, and non-matching local reports below do not affect the public verdict.";
     }
     if (platformReports.length > 0) {
       return "Only preview, non-matching local, or older legacy reports are available right now. There is not enough matched evidence for the published release yet.";
@@ -799,7 +799,7 @@ function buildReleaseNote(
     return "Current release reports consistently indicate playthrough-quality results on the reported devices.";
   }
 
-  return "Current release verdict is based on the current published release. Preview and non-matching local activity appears below for context.";
+  return "Current release verdict is based on the current published release. Preview, self-built, and non-matching local activity appears below for context.";
 }
 
 function buildReleaseCard(

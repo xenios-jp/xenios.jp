@@ -58,7 +58,6 @@ PAYLOAD=$(cat <<'EOF'
       "required": true,
       "choices": [
         { "name": "Release", "value": "release" },
-        { "name": "Preview / TestFlight", "value": "preview" },
         { "name": "Self-built / custom", "value": "self-built" }
       ]
     },

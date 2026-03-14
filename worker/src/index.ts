@@ -56,9 +56,9 @@ type PerfTier = "great" | "ok" | "poor" | "n/a";
 type Platform = "ios" | "macos";
 type Architecture = "arm64" | "x86_64";
 type GpuBackend = "msc" | "msl";
-type BuildChannel = "release" | "preview" | "self-built";
+type BuildChannel = "release" | "self-built";
 type BuildStage = "alpha" | "beta" | "rc" | "stable";
-type SummaryChannel = "release" | "preview" | "all";
+type SummaryChannel = "release" | "all";
 
 type ReportSource = "app" | "discord" | "github";
 
@@ -123,7 +123,6 @@ interface GameSummary {
 
 interface GameSummaries {
   release: GameSummary;
-  preview: GameSummary;
   all: GameSummary;
 }
 
@@ -210,7 +209,7 @@ const VALID_PERFS = SCHEMA.perfTiers.map((p) => p.value);
 const VALID_PLATFORMS = SCHEMA.platforms.map((p) => p.value);
 const VALID_ARCHS = SCHEMA.architectures.map((a) => a.value);
 const VALID_GPU_BACKENDS = SCHEMA.gpuBackends.map((g) => g.value);
-const VALID_BUILD_CHANNELS: BuildChannel[] = ["release", "preview", "self-built"];
+const VALID_BUILD_CHANNELS: BuildChannel[] = ["release", "self-built"];
 const VALID_BUILD_STAGES: BuildStage[] = ["alpha", "beta", "rc", "stable"];
 const STATUS_RANK: Record<GameStatus, number> = {
   playable: 4,
@@ -306,9 +305,6 @@ function formatBuildDisplayLabel(build: BuildInfo): string {
     : build.buildId ?? "Unknown build";
   const stageLabel = getBuildStageDisplayLabel(build.stage);
 
-  if (build.channel === "preview") {
-    return stageLabel ? `${stageLabel} Preview ${versionLabel}` : `Preview ${versionLabel}`;
-  }
   if (build.channel === "release") {
     return stageLabel ? `${stageLabel} ${versionLabel}` : versionLabel;
   }
@@ -374,7 +370,7 @@ function parseBuildAttestationPayload(
   payload: string
 ): {
   platform?: Platform;
-  channel?: "release" | "preview";
+  channel?: "release";
   buildId?: string;
   appVersion?: string;
   buildNumber?: string;
@@ -401,7 +397,7 @@ function parseBuildAttestationPayload(
 
   const platform = values.get("platform");
   const channel = values.get("channel");
-  if ((platform !== "ios" && platform !== "macos") || (channel !== "release" && channel !== "preview")) {
+  if ((platform !== "ios" && platform !== "macos") || channel !== "release") {
     return null;
   }
 
@@ -1058,14 +1054,6 @@ function reportMatchesSummaryChannel(
   const currentBuildId =
     currentBuild && typeof currentBuild.buildId === "string" ? currentBuild.buildId : null;
 
-  if (channel === "preview") {
-    if (!build || build.channel !== "preview") return false;
-    if (currentBuildId) {
-      return build.buildId === currentBuildId;
-    }
-    return true;
-  }
-
   if (currentBuildId) {
     return Boolean(build && build.channel === "release" && build.buildId === currentBuildId);
   }
@@ -1120,7 +1108,6 @@ function decorateGameWithSummaries(
     ...game,
     summaries: {
       release: buildSummaryForChannel(game.reports, releaseBuilds, "release"),
-      preview: buildSummaryForChannel(game.reports, releaseBuilds, "preview"),
       all: buildSummaryForChannel(game.reports, releaseBuilds, "all"),
     },
   };
@@ -2095,7 +2082,7 @@ async function handleDiscordInteraction(request: Request, env: Env, ctx: Executi
 
 // ── Request handler ──────────────────────────────────────────────────
 
-export default {
+const worker = {
   async fetch(request: Request, env: Env, ctx: ExecutionContext): Promise<Response> {
     // Handle CORS preflight
     if (request.method === "OPTIONS") {
@@ -2214,3 +2201,5 @@ export default {
     return errorResponse("Not found", 404);
   },
 };
+
+export default worker;

@@ -47,7 +47,7 @@ function activityRoleLabel(item: ActivityItem): string {
     return "Included in the current release verdict.";
   }
   if (item.track === "preview" || item.track === "self-built") {
-    return "Context only. Preview and non-matching local reports do not change the public release verdict.";
+    return "Context only. Preview, self-built, and non-matching local reports do not change the public release verdict.";
   }
   return "Historical release-track report retained for context.";
 }
@@ -162,7 +162,8 @@ function ReleaseStatusSection({
           <h2 className="text-xl font-semibold text-text-primary">Current Release Status</h2>
           <p className="mt-1 text-[15px] leading-relaxed text-text-muted">
             Public status stays conservative and only uses evidence that matches the current
-            published release. Preview and non-matching local activity appears below for context.
+            published release. Preview, self-built, and non-matching local activity appears
+            below for context.
           </p>
         </div>
         <div className="text-sm text-text-muted">
@@ -478,9 +479,9 @@ export function GameDetailClient({
           </div>
 
           <p className="mt-5 max-w-3xl text-[15px] leading-relaxed text-text-muted">
-            Public compatibility status tracks the latest official release only. Preview reports
-            and local builds that do not match that release stay in the activity feed so they do
-            not overwrite the release verdict.
+            Public compatibility status tracks the latest official release only. Preview,
+            self-built, and local builds that do not match that release stay in the activity feed
+            so they do not overwrite the release verdict.
           </p>
         </div>
       </section>

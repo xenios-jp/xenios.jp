@@ -18,7 +18,7 @@ export type GpuBackend = "msc" | "msl";
 export type ReportSource = "app" | "discord" | "github";
 export type ReportBuildChannel = "release" | "preview" | "self-built";
 export type ReportBuildStage = DisplayBuildStage;
-export type CompatibilityChannel = "release" | "preview" | "all";
+export type CompatibilityChannel = "release" | "all";
 
 export interface ReportBuild {
   buildId?: string;
@@ -64,7 +64,6 @@ export interface GameSummary {
 
 export interface GameSummaries {
   release: GameSummary;
-  preview: GameSummary;
   all: GameSummary;
 }
 
@@ -130,7 +129,6 @@ export const SUMMARY_STATUS_ORDER: SummaryStatus[] = [
 
 export const COMPATIBILITY_CHANNELS: CompatibilityChannel[] = [
   "release",
-  "preview",
   "all",
 ];
 
@@ -490,14 +488,9 @@ function normalizeGame(value: unknown): Game {
         }),
       )
     : summarizeReports(reports, fallbackSummary);
-  const derivedPreview = structuredChannels
-    ? summarizeReports(reports.filter((report) => report.build?.channel === "preview"))
-    : EMPTY_SUMMARY;
-
   const rawSummaries = asRecord(record.summaries);
   const summaries: GameSummaries = {
     release: derivedRelease,
-    preview: normalizeSummary(rawSummaries?.preview, derivedPreview),
     all: normalizeSummary(rawSummaries?.all, derivedAll),
   };
 
@@ -680,7 +673,7 @@ export function getGpuLabel(gpuBackend: GpuBackend): string {
 
 export function getCompatibilityChannelLabel(channel: CompatibilityChannel): string {
   if (channel === "all") return "All Reports";
-  return channel === "release" ? "Release" : "Preview";
+  return "Release";
 }
 
 export function getReportChannelLabel(channel: ReportBuildChannel): string {
@@ -692,7 +685,7 @@ export function getReportChannelLabel(channel: ReportBuildChannel): string {
 export function parseCompatibilityChannel(
   value: string | null | undefined,
 ): CompatibilityChannel {
-  if (value === "preview" || value === "all") return value;
+  if (value === "all") return value;
   return "release";
 }
 
@@ -711,11 +704,7 @@ export function getReportsForChannel(
 
   const reportsWithChannels = hasChannelMetadata(game.reports);
   if (!reportsWithChannels) {
-    return channel === "release" ? game.reports : [];
-  }
-
-  if (channel === "preview") {
-    return game.reports.filter((report) => report.build?.channel === "preview");
+    return game.reports;
   }
 
   const currentReleaseBuilds: Record<Platform, ReportBuild | undefined> = {
