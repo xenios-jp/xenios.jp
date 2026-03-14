@@ -6,7 +6,7 @@ import { BuildsPageClient } from "./builds-page-client";
 export const metadata: Metadata = withCanonical(
   {
     title: "Builds",
-    description: "Release and preview build history for XeniOS.",
+    description: "Release build history for XeniOS.",
   },
   "/builds"
 );

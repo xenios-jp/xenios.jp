@@ -187,7 +187,6 @@ function BuildCard({
 
 export default function DownloadMacPage() {
   const latestRelease = getLatestBuild("macos", "release");
-  const latestPreview = getLatestBuild("macos", "preview");
   const historyCount = getBuildsHistory("all").filter((build) => build.platform === "macos").length;
   const releaseArtifacts = latestRelease ? sortMacArtifacts(latestRelease.artifacts) : [];
 
@@ -265,10 +264,10 @@ export default function DownloadMacPage() {
         <div className="mx-auto max-w-6xl px-6">
           <div className="flex flex-wrap items-end justify-between gap-4">
             <div>
-              <h2 className="text-2xl font-bold text-text-primary">Latest Mac Builds</h2>
+              <h2 className="text-2xl font-bold text-text-primary">Latest Mac Build</h2>
               <p className="mt-2 max-w-3xl text-[15px] leading-relaxed text-text-secondary">
-                Release stays separate from Preview, and each build can publish dedicated Apple
-                Silicon and Intel downloads so users always know which artifact matches their Mac.
+                Current public release with dedicated Apple Silicon and Intel downloads so users
+                always know which artifact matches their Mac.
               </p>
             </div>
             <p className="text-sm text-text-muted">
@@ -276,16 +275,11 @@ export default function DownloadMacPage() {
             </p>
           </div>
 
-          <div className="mt-6 grid gap-6 lg:grid-cols-2">
+          <div className="mt-6">
             <BuildCard
-              title="Latest Release"
+              title="Current Release"
               build={latestRelease}
               emptyMessage="Publish data/release-builds.json to surface the current public Mac release with Apple Silicon and Intel downloads."
-            />
-            <BuildCard
-              title="Latest Preview"
-              build={latestPreview}
-              emptyMessage="No preview Mac build has been published yet."
             />
           </div>
         </div>
@@ -366,51 +360,6 @@ export default function DownloadMacPage() {
         </div>
       </section>
 
-      <section className="pb-12 md:pb-16">
-        <div className="mx-auto max-w-6xl px-6">
-          <div className="rounded-xl border border-border bg-bg-surface p-8">
-            <h3 className="mb-4 text-lg font-bold text-text-primary">
-              Build Metadata
-            </h3>
-            {isRenderableBuild(latestRelease) ? (
-              <dl className="grid grid-cols-2 gap-4 text-[15px] font-mono md:grid-cols-4">
-                <div>
-                  <dt className="text-text-muted">Version</dt>
-                  <dd className="mt-1 text-text-primary">
-                    {latestRelease.appVersion ?? "Unavailable"}
-                  </dd>
-                </div>
-                <div>
-                  <dt className="text-text-muted">Build</dt>
-                  <dd className="mt-1 text-text-primary">
-                    {latestRelease.buildNumber ?? "Unavailable"}
-                  </dd>
-                </div>
-                <div>
-                  <dt className="text-text-muted">Commit</dt>
-                  <dd className="mt-1 text-text-primary">
-                    {latestRelease.commitShort?.toUpperCase() ?? "Unavailable"}
-                  </dd>
-                </div>
-                <div>
-                  <dt className="text-text-muted">Date</dt>
-                  <dd className="mt-1 text-text-primary">
-                    {formatPublishedDate(latestRelease.publishedAt)}
-                  </dd>
-                </div>
-              </dl>
-            ) : (
-              <p className="text-[15px] leading-relaxed text-text-secondary">
-                No manifest-backed Mac release metadata is published yet.
-              </p>
-            )}
-            <p className="mt-4 text-sm leading-relaxed text-text-secondary">
-              When available, the release manifest should publish separate macOS artifacts labeled
-              <strong> Apple Silicon</strong> and <strong> Intel</strong>.
-            </p>
-          </div>
-        </div>
-      </section>
     </>
   );
 }

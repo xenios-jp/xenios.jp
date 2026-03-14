@@ -139,9 +139,6 @@ function BuildCard({
 
 export default function DownloadPage() {
   const latestRelease = getLatestBuild("ios", "release");
-  const latestPreview = getLatestBuild("ios", "preview");
-  const releaseMetadata =
-    latestRelease && isRenderableBuild(latestRelease) ? latestRelease : null;
   const historyCount = getBuildsHistory("all").filter((build) => build.platform === "ios").length;
   const releaseArtifact = latestRelease?.artifacts[0];
 
@@ -227,10 +224,9 @@ export default function DownloadPage() {
         <div className="mx-auto max-w-6xl px-6">
           <div className="flex flex-wrap items-end justify-between gap-4">
             <div>
-              <h2 className="text-2xl font-bold text-text-primary">Latest iPhone / iPad Builds</h2>
+              <h2 className="text-2xl font-bold text-text-primary">Latest iPhone / iPad Build</h2>
               <p className="mt-2 max-w-3xl text-[15px] leading-relaxed text-text-secondary">
-                Release is the public default. Preview builds stay separate so it is always clear
-                which version a report or download refers to.
+                Current public release with direct download, checksums, and build metadata.
               </p>
             </div>
             <p className="text-sm text-text-muted">
@@ -238,16 +234,11 @@ export default function DownloadPage() {
             </p>
           </div>
 
-          <div className="mt-6 grid gap-6 lg:grid-cols-2">
+          <div className="mt-6">
             <BuildCard
-              title="Latest Release"
+              title="Current Release"
               build={latestRelease}
               emptyMessage="Publish data/release-builds.json to surface the current public iPhone / iPad build."
-            />
-            <BuildCard
-              title="Latest Preview"
-              build={latestPreview}
-              emptyMessage="No preview iPhone / iPad build has been published yet."
             />
           </div>
         </div>
@@ -410,48 +401,6 @@ export default function DownloadPage() {
                 </span>
               )}
             </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="pb-12 md:pb-16">
-        <div className="mx-auto max-w-6xl px-6">
-          <div className="rounded-xl border border-border bg-bg-surface p-8">
-            <h3 className="mb-4 text-lg font-bold text-text-primary">
-              Build Metadata
-            </h3>
-            {releaseMetadata ? (
-              <dl className="grid grid-cols-2 gap-4 text-[15px] font-mono md:grid-cols-4">
-                <div>
-                  <dt className="text-text-muted">Version</dt>
-                  <dd className="mt-1 text-text-primary">
-                    {releaseMetadata.appVersion ?? "Unavailable"}
-                  </dd>
-                </div>
-                <div>
-                  <dt className="text-text-muted">Build</dt>
-                  <dd className="mt-1 text-text-primary">
-                    {releaseMetadata.buildNumber ?? "Unavailable"}
-                  </dd>
-                </div>
-                <div>
-                  <dt className="text-text-muted">Commit</dt>
-                  <dd className="mt-1 text-text-primary">
-                    {releaseMetadata.commitShort?.toUpperCase() ?? "Unavailable"}
-                  </dd>
-                </div>
-                <div>
-                  <dt className="text-text-muted">Date</dt>
-                  <dd className="mt-1 text-text-primary">
-                    {formatPublishedDate(releaseMetadata.publishedAt)}
-                  </dd>
-                </div>
-              </dl>
-            ) : (
-              <p className="text-[15px] leading-relaxed text-text-secondary">
-                No manifest-backed iPhone / iPad release metadata is published yet.
-              </p>
-            )}
           </div>
         </div>
       </section>

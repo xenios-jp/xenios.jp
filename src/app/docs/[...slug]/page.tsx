@@ -634,7 +634,7 @@ const macDocs: Record<string, DocEntry> = {
             </Link>
             .
           </li>
-          <li>Download the latest macOS artifact from Releases.</li>
+          <li>Download the latest macOS artifact from the Mac download page.</li>
           <li>Open the downloaded file and move the app to Applications.</li>
           <li>
             If macOS blocks first launch, right-click the app and choose{" "}
@@ -684,7 +684,7 @@ const macDocs: Record<string, DocEntry> = {
       <>
         <h2>App Doesn&apos;t Launch</h2>
         <ol className="mt-3 space-y-1.5 text-[15px] text-text-secondary leading-relaxed list-decimal pl-5">
-          <li>Re-download the latest build from Releases.</li>
+          <li>Re-download the latest build from the Mac download page.</li>
           <li>Move the app to Applications before first run.</li>
           <li>
             If blocked by Gatekeeper, right-click the app and choose Open once.

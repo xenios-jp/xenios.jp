@@ -14,8 +14,6 @@ import {
 export default async function Home() {
   const iosRelease = getLatestBuild("ios", "release");
   const macRelease = getLatestBuild("macos", "release");
-  const previewBuild =
-    getLatestBuild("ios", "preview") ?? getLatestBuild("macos", "preview");
   const compatibilityPreview = (await getTestedCompatibilityListEntries()).slice(0, 6);
 
   return (
@@ -63,10 +61,6 @@ export default async function Home() {
           {
             label: "Public release",
             value: iosRelease ? getBuildDisplayLabel(iosRelease) : "No manifest",
-          },
-          {
-            label: "Preview",
-            value: previewBuild ? getBuildDisplayLabel(previewBuild) : "Not published",
           },
           {
             label: "iPhone/iPad",

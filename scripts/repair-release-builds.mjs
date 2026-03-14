@@ -294,7 +294,7 @@ async function main() {
     const platformRecord = asRecord(releaseManifest?.platforms?.[platform]);
     if (!platformRecord) continue;
 
-    for (const channel of ["release", "preview"]) {
+    for (const channel of ["release"]) {
       const currentEntry = platformRecord[channel];
       const repaired = await repairBuildEntry(currentEntry, platform);
       platformRecord[channel] = repaired.entry;

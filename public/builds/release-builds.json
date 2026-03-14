@@ -30,8 +30,7 @@
           }
         ],
         "platform": "ios"
-      },
-      "preview": null
+      }
     },
     "macos": {
       "release": {
@@ -74,8 +73,7 @@
           }
         ],
         "platform": "macos"
-      },
-      "preview": null
+      }
     }
   }
 }

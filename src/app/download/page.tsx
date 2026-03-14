@@ -53,8 +53,8 @@ export default function DownloadPickerPage() {
             >
               <h2 className="text-2xl font-semibold text-text-primary">Mac</h2>
               <p className="mt-2 text-[15px] leading-relaxed text-text-secondary">
-                Download the macOS build from Releases and install it like a
-                normal Mac app (Intel and Apple Silicon supported).
+                Download the current macOS build and install it like a normal
+                Mac app (Intel and Apple Silicon supported).
               </p>
               <span className="mt-4 inline-block text-[15px] text-accent group-hover:text-accent-hover transition-colors">
                 Download for Mac &rarr;
