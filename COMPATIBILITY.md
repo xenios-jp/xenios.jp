@@ -45,7 +45,7 @@
 | 🟢 | Family Guy: Back To The Multiverse | `415608C5` | 📱 iOS | Playable | 👌 OK | iPad Mini (A17 Pro) | 2026-03-13 |
 | 🟢 | Far Cry 2 | `55530810` | 📱 iOS | Playable | 🐢 Poor | iPhone 16 | 2026-03-10 |
 | 🟢 | Far Cry 3 | `5553088C` | 📱 iOS | Playable | 🐢 Poor | iPhone 16 | 2026-03-14 |
-| 🟢 | Final Fantasy XIII | `535107E4` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-03 |
+| 🟢 | Final Fantasy XIII | `535107E4` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-14 |
 | 🟢 | Forza Horizon | `4D5309C9` | 📱 iOS | Playable | 🐢 Poor | iPhone 17 Pro Max | 2026-03-14 |
 | 🟢 | Forza Motorsport 2 | `4D5307EA` | 📱 iOS | Playable | 🐢 Poor | iPhone 16 | 2026-03-10 |
 | 🟢 | Geometry Wars Evolved | `584107ED` | 📱 iOS | Playable | 🚀 Great | iPhone 13 | 2026-03-10 |
@@ -184,7 +184,7 @@
 | 🔴 | Call of Duty: Modern Warfare 2 | `41560817` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 Pro | 2026-03-08 |
 | 🔴 | Dead Rising 2 | `434307EC` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 Pro Max | 2026-03-14 |
 | 🔴 | Dragon Ball Z Burst Limit | `424107DC` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro Max | 2026-03-09 |
-| 🔴 | Fable 2 | `4D5307F1` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 15 Pro Max | 2026-03-12 |
+| 🔴 | Fable 2 | `4D5307F1` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 15 Pro Max | 2026-03-09 |
 | 🔴 | FIFA 15 | `454109DB` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Pro 13-inch (M4) | 2026-03-13 |
 | 🔴 | Fight Night Champion | `45410915` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Pro (M2) | 2026-03-03 |
 | 🔴 | Forza Horizon 2 Presents Fast & Furious | `4D530AB5` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad 10 | 2026-03-08 |
