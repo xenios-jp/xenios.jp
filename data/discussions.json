@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-14T01:55:10.792Z",
+  "generatedAt": "2026-03-14T02:05:09.535Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1276,6 +1276,88 @@
             "buildNumber": "9280",
             "commitShort": "`2633e8177`"
           }
+        }
+      ]
+    },
+    "415608C3": {
+      "titleId": "415608C3",
+      "issueNumber": 253,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/253",
+      "updatedAt": "2026-03-14",
+      "entries": [
+        {
+          "id": "issue-253",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/253",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-14",
+          "createdAtMs": 1773453855000,
+          "issueNumber": 253,
+          "excerpt": "cyan 👍",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/415608C3/1773453853718-1.jpg"
+          ],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
+        {
+          "id": "comment-4025103892",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/92#issuecomment-4025103892",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-09",
+          "createdAtMs": 1773074334000,
+          "issueNumber": 92,
+          "excerpt": "Boots into a cyan screen after like 5 seconds. Tried changing settings and booted like over 10 times.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/415608C3/1773074330525-1.jpg"
+          ],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 13",
+            "platform": "iOS",
+            "osVersion": "iOS 26.0.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        },
+        {
+          "id": "issue-92",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/92",
+          "author": "QualityControled",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1773004630000,
+          "issueNumber": 92,
+          "excerpt": "\"Loads\" into cyan colored screen. Nothing else.",
+          "images": [],
+          "meta": {}
+        },
+        {
+          "id": "issue-66",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/66",
+          "author": "QualityControled",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1772998433000,
+          "issueNumber": 66,
+          "excerpt": "Upon launch, full cyan colored screen. Nothing else.",
+          "images": [],
+          "meta": {}
         }
       ]
     },
@@ -3770,8 +3852,37 @@
       "titleId": "4E4D0856",
       "issueNumber": 186,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/186",
-      "updatedAt": "2026-03-11",
+      "updatedAt": "2026-03-14",
       "entries": [
+        {
+          "id": "comment-4059144056",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/186#issuecomment-4059144056",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-14",
+          "createdAtMs": 1773453372000,
+          "issueNumber": 186,
+          "excerpt": "As of the new update, Budokai 3’s Dragon Universe mode no longer shows a black screen. Enemy characters are now visible. Budokai 3 runs great. In Budokai 1, the character select screen still has texture glitches, but the game is no longer a black screen during battles.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4E4D0856/1773453367467-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4E4D0856/1773453367467-2.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4E4D0856/1773453367467-3.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4E4D0856/1773453367467-4.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4E4D0856/1773453367467-5.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 16 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.2",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
         {
           "id": "comment-4036261342",
           "type": "comment",
@@ -5994,63 +6105,6 @@
             "buildNumber": "9280",
             "commitShort": "`2633e8177`"
           }
-        }
-      ]
-    },
-    "415608C3": {
-      "titleId": "415608C3",
-      "issueNumber": 92,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/92",
-      "updatedAt": "2026-03-09",
-      "entries": [
-        {
-          "id": "comment-4025103892",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/92#issuecomment-4025103892",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-09",
-          "createdAtMs": 1773074334000,
-          "issueNumber": 92,
-          "excerpt": "Boots into a cyan screen after like 5 seconds. Tried changing settings and booted like over 10 times.",
-          "images": [
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/415608C3/1773074330525-1.jpg"
-          ],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPhone 13",
-            "platform": "iOS",
-            "osVersion": "iOS 26.0.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "`2633e8177`"
-          }
-        },
-        {
-          "id": "issue-92",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/92",
-          "author": "QualityControled",
-          "createdAt": "2026-03-08",
-          "createdAtMs": 1773004630000,
-          "issueNumber": 92,
-          "excerpt": "\"Loads\" into cyan colored screen. Nothing else.",
-          "images": [],
-          "meta": {}
-        },
-        {
-          "id": "issue-66",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/66",
-          "author": "QualityControled",
-          "createdAt": "2026-03-08",
-          "createdAtMs": 1772998433000,
-          "issueNumber": 66,
-          "excerpt": "Upon launch, full cyan colored screen. Nothing else.",
-          "images": [],
-          "meta": {}
         }
       ]
     },

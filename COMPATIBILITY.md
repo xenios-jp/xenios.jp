@@ -2,7 +2,7 @@
 
 > **181 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **65** · 🔵 In-Game: **48** · 🟡 Intro: **20** · 🟠 Loads: **22** · 🔴 Doesn't Boot: **26**
+> 🟢 Playable: **67** · 🔵 In-Game: **46** · 🟡 Intro: **20** · 🟠 Loads: **22** · 🔴 Doesn't Boot: **26**
 >
 > 📱 iOS: **176** · 🖥️ macOS: **10**
 
@@ -38,6 +38,7 @@
 | 🟢 | Dead Space | `45410857` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro | 2026-03-03 |
 | 🟢 | Deadly Premonition | `4D5607D1` | 📱 iOS | Playable | 👌 OK | iPad (A16) | 2026-03-09 |
 | 🟢 | DOA5 Ultimate | `4B5607DA` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-13 |
+| 🟢 | Dragon Ball Z Budokai HD Collection | `4E4D0856` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro Max | 2026-03-14 |
 | 🟢 | F.E.A.R: First Encounter Assault Recon | `565507D9` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro | 2026-03-13 |
 | 🟢 | Fallout: New Vegas | `425307E0` | 📱 iOS | Playable | 👌 OK | iPhone 16e | 2026-03-12 |
 | 🟢 | Family Guy: Back To The Multiverse | `415608C5` | 📱 iOS | Playable | 👌 OK | iPad Mini (A17 Pro) | 2026-03-13 |
@@ -66,6 +67,7 @@
 | 🟢 | Need for Speed: ProStreet | `45410822` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro | 2026-03-11 |
 | 🟢 | Need for Speed: Undercover | `45410876` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-09 |
 | 🟢 | Plants vs. Zombies | `584109FF` | 📱 iOS | Playable | 🚀 Great | iPad Mini (A17 Pro) | 2026-03-12 |
+| 🟢 | Portal 2 | `45410912` | 📱 iOS | Playable | 🐢 Poor | iPhone 17 Pro Max | 2026-03-14 |
 | 🟢 | Pro Evolution Soccer 2012 / PES 2012 | `4B4E0837` | 📱 iOS | Playable | 👌 OK | iPhone 14 Pro Max | 2026-03-08 |
 | 🟢 | Quantum of Solace | `415607FF` | 📱 iOS | Playable | 👌 OK | iPad Pro 12.9-inch (M2) | 2026-03-11 |
 | 🟢 | Resident Evil Revelations | `43430833` | 📱 iOS | Playable | 🚀 Great | iPhone 16e | 2026-03-12 |
@@ -93,7 +95,6 @@
 | 🔵 | DB Raging Blast | `4E4D0803` | 📱 iOS | In-Game | 🐢 Poor | iPad Pro (M2) | 2026-03-09 |
 | 🔵 | Def Jam Icon | `454107EE` | 📱 iOS | In-Game | 🐢 Poor | iPhone 16e | 2026-03-11 |
 | 🔵 | Diablo III | `394F07D1` | 📱 iOS, 🖥️ macOS | In-Game | 🐢 Poor | iPhone Air | 2026-03-09 |
-| 🔵 | Dragon Ball Z Budokai HD Collection | `4E4D0856` | 📱 iOS | In-Game | 🚀 Great | iPhone 16 Pro Max | 2026-03-11 |
 | 🔵 | Fable 3 | `4D5308D6` | 📱 iOS | In-Game | 🐢 Poor | iPhone 15 Pro Max | 2026-03-09 |
 | 🔵 | Fable Anniversary | `4D530A87` | 📱 iOS | In-Game | 🐢 Poor | iPhone 16 Pro Max | 2026-03-09 |
 | 🔵 | Fallout 3 | `425307D5` | 📱 iOS | In-Game | 👌 OK | iPhone 13 | 2026-03-12 |
@@ -119,7 +120,6 @@
 | 🔵 | NFL Tour | `45410835` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro Max | 2026-03-11 |
 | 🔵 | PAC-MAN and the Ghostly Adventures | `4E4D0865` | 📱 iOS | In-Game | 🐢 Poor | iPhone 15 Pro Max | 2026-03-08 |
 | 🔵 | Pinball Arcade | `5841121D` | 📱 iOS | In-Game | 🐢 Poor | iPhone 13 | 2026-03-10 |
-| 🔵 | Portal 2 | `45410912` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro Max | 2026-03-08 |
 | 🔵 | Pro Evolution Soccer 2013 / PES 2013 | `4B4E084C` | 📱 iOS | In-Game | 👌 OK | iPhone 14 | 2026-03-09 |
 | 🔵 | Pro Evolution Soccer 2016 / PES 2016 | `4B4E0861` | 📱 iOS | In-Game | 👌 OK | iPhone 14 | 2026-03-09 |
 | 🔵 | PROTOTYPE | `4156084E` | 📱 iOS | In-Game | 🐢 Poor | iPhone 16e | 2026-03-14 |
@@ -177,7 +177,7 @@
 | 🟠 | WWE 12 | `54510890` | 📱 iOS | Loads | 👌 OK | iPhone 15 Pro | 2026-03-11 |
 | 🔴 | Call of Duty 3 | `415607E1` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-09 |
 | 🔴 | Call of Duty: Black Ops | `41560855` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 Pro Max | 2026-03-09 |
-| 🔴 | Call of Duty: Black Ops II | `415608C3` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 13 | 2026-03-09 |
+| 🔴 | Call of Duty: Black Ops II | `415608C3` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 Pro Max | 2026-03-14 |
 | 🔴 | Call of Duty: Black Ops III | `4156091D` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Pro M5 | 2026-03-09 |
 | 🔴 | Call of Duty: Modern Warfare 2 | `41560817` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 Pro | 2026-03-08 |
 | 🔴 | Civilization Revolution | `545407E5` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-13 |
