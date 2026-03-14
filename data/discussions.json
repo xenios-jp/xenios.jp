@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-14T02:05:09.535Z",
+  "generatedAt": "2026-03-14T02:23:40.972Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1568,6 +1568,29 @@
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/247",
       "updatedAt": "2026-03-14",
       "entries": [
+        {
+          "id": "comment-4059208206",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/247#issuecomment-4059208206",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-14",
+          "createdAtMs": 1773454962000,
+          "issueNumber": 247,
+          "excerpt": "I'd consider it to be \"playable\" but it gives you a bad experience. hovers around 10-15 fps with missing foliage in the background and VERY loud audio.",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "poor",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
         {
           "id": "issue-247",
           "type": "issue",
