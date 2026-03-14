@@ -1,7 +1,7 @@
 "use client";
 
 import type { ChangeEvent } from "react";
-import { useState } from "react";
+import { useDeferredValue, useEffect, useState } from "react";
 import Link from "next/link";
 import { Pill } from "@/components/pill";
 import {
@@ -10,12 +10,14 @@ import {
   getPerfLabel,
   getPlatformLabel,
   getStatusLabel,
+  type Game,
   type PerfTier,
   type Platform,
   type SummaryStatus,
 } from "@/lib/compatibility";
 import {
   CATALOG_BUCKETS,
+  alphaBucketForTitle,
   alphaBucketLabel,
   catalogBucketToSlug,
   type CatalogBucket,
@@ -41,6 +43,39 @@ interface EntryProjection {
 
 type CompatibilityListMode = "tested" | "catalog";
 
+interface DisplayEntryGame {
+  slug: string;
+  title: string;
+  titleId: string;
+  titleIds: string[];
+  tags?: string[];
+}
+
+interface DisplayEntry {
+  game: DisplayEntryGame;
+  platform: Platform | null;
+  status: SummaryStatus;
+  perf: PerfTier;
+  updatedAt: string;
+  latestActivityDate?: string | null;
+  observedDevices: string[];
+  variesByDevice: boolean;
+  platformEntries: CompatibilityPlatformEntry[];
+}
+
+type RawCatalogSearchEntry = DisplayEntry & {
+  searchText: string;
+  titleBucket: ReturnType<typeof alphaBucketForTitle>;
+};
+
+type CatalogSearchEntry = RawCatalogSearchEntry & {
+  normalizedTitle: string;
+  normalizedTitleIds: string[];
+  normalizedTags: string[];
+  titleWords: string[];
+  tagWords: string[][];
+};
+
 interface CompatibilityListProps {
   mode: CompatibilityListMode;
   entries: CompatibilityListEntry[];
@@ -64,6 +99,17 @@ const STATUS_COLORS: Record<SummaryStatus, string> = {
   nothing: "bg-red-400",
   untested: "bg-zinc-400",
 };
+
+const STATUS_RANK: Record<SummaryStatus, number> = {
+  untested: -1,
+  nothing: 0,
+  loads: 1,
+  intro: 2,
+  ingame: 3,
+  playable: 4,
+};
+
+const PLATFORM_ORDER: Platform[] = ["ios", "macos"];
 
 function parseDateValue(value?: string | null): number {
   if (!value) return 0;
@@ -97,8 +143,12 @@ function entryHref(slug: string): string {
   return `/compatibility/${slug}`;
 }
 
-function titleIdsForDisplay(entry: CompatibilityListEntry): string[] {
+function titleIdsForDisplay(entry: DisplayEntry): string[] {
   return entry.game.titleIds.length > 0 ? entry.game.titleIds : [entry.game.titleId];
+}
+
+function entryListKey(entry: DisplayEntry): string {
+  return `${entry.game.slug}:${titleIdsForDisplay(entry).join("|")}`;
 }
 
 function TitleIdList({
@@ -106,7 +156,7 @@ function TitleIdList({
   compact = false,
   interactive = true,
 }: {
-  entry: CompatibilityListEntry;
+  entry: DisplayEntry;
   compact?: boolean;
   interactive?: boolean;
 }) {
@@ -134,14 +184,14 @@ function TitleIdList({
 }
 
 function getPlatformEntry(
-  entry: CompatibilityListEntry,
+  entry: DisplayEntry,
   platform: Platform,
 ): CompatibilityPlatformEntry | null {
   return entry.platformEntries.find((candidate) => candidate.platform === platform) ?? null;
 }
 
 function getEntryProjection(
-  entry: CompatibilityListEntry,
+  entry: DisplayEntry,
   platform: PlatformFilter,
 ): EntryProjection {
   if (platform === "all") {
@@ -178,7 +228,7 @@ function getEntryProjection(
 }
 
 function getDisplayedPlatforms(
-  entry: CompatibilityListEntry,
+  entry: DisplayEntry,
   platform: PlatformFilter,
 ): Platform[] {
   if (platform === "all") {
@@ -189,7 +239,7 @@ function getDisplayedPlatforms(
     : [];
 }
 
-function hasPlatformVariance(entry: CompatibilityListEntry): boolean {
+function hasPlatformVariance(entry: DisplayEntry): boolean {
   const statuses = new Set(entry.platformEntries.map((candidate) => candidate.status));
   return statuses.size > 1;
 }
@@ -212,10 +262,10 @@ function observedDevicesLabel(observedDevices: string[], variesByDevice: boolean
 }
 
 function sortEntries(
-  entries: CompatibilityListEntry[],
+  entries: DisplayEntry[],
   platform: PlatformFilter,
   sort: SortKey,
-): CompatibilityListEntry[] {
+): DisplayEntry[] {
   const sorted = [...entries];
   if (sort === "alpha") {
     sorted.sort((left, right) => left.game.title.localeCompare(right.game.title));
@@ -272,20 +322,214 @@ function catalogPageHref(basePath: string, page: number): string {
   return page <= 1 ? basePath : `${basePath}/page/${page}`;
 }
 
-function matchesSearch(entry: CompatibilityListEntry, query: string): boolean {
+function normalizeSearchValue(value: string): string {
+  return String(value || "")
+    .toLowerCase()
+    .normalize("NFKD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim();
+}
+
+function compactSearchValue(value: string): string {
+  return normalizeSearchValue(value).replace(/ /g, "");
+}
+
+function splitSearchWords(value: string): string[] {
+  const normalized = normalizeSearchValue(value);
+  return normalized ? normalized.split(/\s+/) : [];
+}
+
+function hasSequentialWordPrefix(words: string[], queryWords: string[]): boolean {
+  let index = 0;
+
+  for (const queryWord of queryWords) {
+    let found = false;
+
+    while (index < words.length) {
+      if (words[index]?.startsWith(queryWord)) {
+        found = true;
+        index += 1;
+        break;
+      }
+      index += 1;
+    }
+
+    if (!found) {
+      return false;
+    }
+  }
+
+  return true;
+}
+
+function matchesSearch(entry: DisplayEntry, query: string): boolean {
   const normalizedQuery = query.toLowerCase();
   return (
     entry.game.title.toLowerCase().includes(normalizedQuery) ||
     entry.game.titleIds.some((titleId) => titleId.toLowerCase().includes(normalizedQuery)) ||
-    entry.game.tags.some((tag) => tag.toLowerCase().includes(normalizedQuery))
+    (entry.game.tags?.some((tag) => tag.toLowerCase().includes(normalizedQuery)) ?? false)
   );
+}
+
+function prepareCatalogSearchEntry(entry: RawCatalogSearchEntry): CatalogSearchEntry {
+  return {
+    ...entry,
+    normalizedTitle: normalizeSearchValue(entry.game.title),
+    normalizedTitleIds: entry.game.titleIds.map((titleId) => compactSearchValue(titleId)),
+    normalizedTags: (entry.game.tags ?? []).map((tag) => normalizeSearchValue(tag)),
+    titleWords: splitSearchWords(entry.game.title),
+    tagWords: (entry.game.tags ?? []).map((tag) => splitSearchWords(tag)),
+  };
+}
+
+function isCatalogSearchEntry(entry: DisplayEntry): entry is CatalogSearchEntry {
+  return "normalizedTitle" in entry;
+}
+
+function matchesCatalogSearch(entry: CatalogSearchEntry, query: string): boolean {
+  const normalizedQuery = normalizeSearchValue(query);
+  if (!normalizedQuery) {
+    return true;
+  }
+
+  const queryWords = normalizedQuery.split(/\s+/);
+  const compactQuery = normalizedQuery.replace(/ /g, "");
+
+  if (entry.normalizedTitle.startsWith(normalizedQuery)) {
+    return true;
+  }
+
+  if (entry.normalizedTitleIds.some((titleId) => titleId.startsWith(compactQuery))) {
+    return true;
+  }
+
+  if (entry.normalizedTags.some((tag) => tag.startsWith(normalizedQuery))) {
+    return true;
+  }
+
+  if (queryWords.length > 1) {
+    return (
+      hasSequentialWordPrefix(entry.titleWords, queryWords) ||
+      entry.tagWords.some((tagWords) => hasSequentialWordPrefix(tagWords, queryWords))
+    );
+  }
+
+  if (normalizedQuery.length < 4) {
+    return false;
+  }
+
+  return (
+    entry.titleWords.slice(1).some((word) => word.startsWith(normalizedQuery)) ||
+    entry.tagWords.some((tagWords) =>
+      tagWords.slice(1).some((word) => word.startsWith(normalizedQuery)),
+    )
+  );
+}
+
+function deriveSearchStatus(statuses: SummaryStatus[]): SummaryStatus {
+  if (statuses.length === 0) return "untested";
+
+  const bestStatus = statuses.reduce<SummaryStatus>((best, status) => {
+    return STATUS_RANK[status] > STATUS_RANK[best] ? status : best;
+  }, "untested");
+
+  if (bestStatus === "playable" && statuses.some((status) => status !== "playable")) {
+    return "ingame";
+  }
+
+  return bestStatus;
+}
+
+function deriveSearchPerf(reports: Game["reports"], status: SummaryStatus): PerfTier {
+  if (reports.length === 0 || status === "untested" || status === "nothing") {
+    return "n/a";
+  }
+
+  const candidates = reports
+    .map((report) => report.perf)
+    .filter((perf): perf is PerfTier => Boolean(perf) && perf !== "n/a");
+
+  if (candidates.includes("poor")) return "poor";
+  if (candidates.includes("ok")) return "ok";
+  if (candidates.includes("great")) return "great";
+  return "n/a";
+}
+
+function buildCatalogSearchPlatformEntry(
+  game: Game,
+  platform: Platform,
+): CompatibilityPlatformEntry | null {
+  const reports = [...game.reports]
+    .filter((report) => report.platform === platform)
+    .sort((left, right) => parseDateValue(right.date) - parseDateValue(left.date));
+
+  if (reports.length === 0) {
+    return null;
+  }
+
+  const observedDevices = [...new Set(reports.map((report) => report.device).filter(Boolean))];
+  const status = deriveSearchStatus(reports.map((report) => report.status));
+
+  return {
+    platform,
+    status,
+    perf: deriveSearchPerf(reports, status),
+    updatedAt: reports[0]?.date ?? "",
+    observedDevices,
+    variesByDevice: new Set(reports.map((report) => report.status)).size > 1,
+    verified: true,
+  };
+}
+
+function selectPrimaryCatalogSearchPlatformEntry(
+  entries: CompatibilityPlatformEntry[],
+): CompatibilityPlatformEntry | null {
+  if (entries.length === 0) return null;
+
+  const priority = (entry: CompatibilityPlatformEntry): number => {
+    let score = 0;
+    if (entry.platform === "ios") score += 100;
+    if (entry.verified) score += 10;
+    if (entry.variesByDevice) score -= 1;
+    return score;
+  };
+
+  return [...entries].sort((left, right) => priority(right) - priority(left))[0] ?? null;
+}
+
+function buildCatalogSearchEntry(game: Game): CatalogSearchEntry {
+  const platformEntries = PLATFORM_ORDER.map((platform) =>
+    buildCatalogSearchPlatformEntry(game, platform),
+  ).filter((entry): entry is CompatibilityPlatformEntry => Boolean(entry));
+  const primaryPlatformEntry = selectPrimaryCatalogSearchPlatformEntry(platformEntries);
+  const observedDevices = primaryPlatformEntry?.observedDevices ?? [];
+  const titleIds = game.titleIds.length > 0 ? game.titleIds : [game.titleId];
+
+  return prepareCatalogSearchEntry({
+    game: {
+      slug: game.slug,
+      title: game.title,
+      titleId: game.titleId,
+      titleIds,
+    },
+    platform: primaryPlatformEntry?.platform ?? null,
+    status: primaryPlatformEntry?.status ?? game.status,
+    perf: primaryPlatformEntry?.perf ?? game.perf,
+    updatedAt: primaryPlatformEntry?.updatedAt ?? game.updatedAt,
+    observedDevices,
+    variesByDevice: primaryPlatformEntry?.variesByDevice ?? false,
+    platformEntries,
+    searchText: [game.title, game.titleId, ...titleIds, ...game.tags].join("\n").toLowerCase(),
+    titleBucket: alphaBucketForTitle(game.title),
+  });
 }
 
 function GameRow({
   entry,
   platform,
 }: {
-  entry: CompatibilityListEntry;
+  entry: DisplayEntry;
   platform: PlatformFilter;
 }) {
   const projection = getEntryProjection(entry, platform);
@@ -342,7 +586,7 @@ function GameCard({
   entry,
   platform,
 }: {
-  entry: CompatibilityListEntry;
+  entry: DisplayEntry;
   platform: PlatformFilter;
 }) {
   const projection = getEntryProjection(entry, platform);
@@ -408,16 +652,92 @@ export function CompatibilityList({
   const [perf, setPerf] = useState<PerfTier | "all">("all");
   const [device, setDevice] = useState("");
   const [sort, setSort] = useState<SortKey>(mode === "catalog" ? "alpha" : "updated");
+  const [catalogSearchEntries, setCatalogSearchEntries] = useState<CatalogSearchEntry[] | null>(
+    null,
+  );
+  const [catalogSearchState, setCatalogSearchState] = useState<
+    "idle" | "loading" | "ready" | "error"
+  >("idle");
 
   const isCatalogMode = mode === "catalog";
   const currentPlatform = platform;
-  const platformScopedEntries =
-    !isCatalogMode && currentPlatform !== "all"
-      ? allEntries.filter((entry) => entry.historyPlatforms.includes(currentPlatform))
-      : allEntries;
   const trimmedQuery = query.trim();
-  const searchedEntries = trimmedQuery
-    ? platformScopedEntries.filter((entry) => matchesSearch(entry, trimmedQuery))
+  const deferredQuery = useDeferredValue(trimmedQuery);
+  const needsFullCatalogSearch = isCatalogMode && trimmedQuery.length > 0;
+  const isCatalogSearchPending = needsFullCatalogSearch && deferredQuery !== trimmedQuery;
+  const useFullCatalogSearch = isCatalogMode && deferredQuery.length > 0;
+
+  useEffect(() => {
+    if (!isCatalogMode || catalogSearchEntries) {
+      return;
+    }
+
+    const controller = new AbortController();
+
+    async function loadCatalogSearchEntries() {
+      setCatalogSearchState("loading");
+
+      try {
+        const indexResponse = await fetch("/compatibility/search-index.json", {
+          signal: controller.signal,
+        });
+        if (indexResponse.ok) {
+          const entries = (await indexResponse.json()) as RawCatalogSearchEntry[];
+          if (controller.signal.aborted) return;
+
+          setCatalogSearchEntries(entries.map((entry) => prepareCatalogSearchEntry(entry)));
+          setCatalogSearchState("ready");
+          return;
+        }
+
+        const response = await fetch("/compatibility/data.json", {
+          signal: controller.signal,
+        });
+        if (!response.ok) {
+          throw new Error(`Compatibility catalog fetch failed: ${response.status}`);
+        }
+
+        const games = (await response.json()) as Game[];
+        if (controller.signal.aborted) return;
+
+        setCatalogSearchEntries(games.map((game) => buildCatalogSearchEntry(game)));
+        setCatalogSearchState("ready");
+      } catch {
+        if (controller.signal.aborted) return;
+        setCatalogSearchState("error");
+      }
+    }
+
+    void loadCatalogSearchEntries();
+
+    return () => {
+      controller.abort();
+    };
+  }, [isCatalogMode, catalogSearchEntries]);
+
+  const catalogSearchSourceEntries =
+    useFullCatalogSearch && catalogSearchEntries
+      ? activeBucket
+        ? catalogSearchEntries.filter(
+            (entry) => entry.titleBucket === activeBucket,
+          )
+        : catalogSearchEntries
+      : null;
+  const sourceEntries =
+    useFullCatalogSearch
+      ? catalogSearchSourceEntries ?? []
+      : !isCatalogMode && currentPlatform !== "all"
+        ? allEntries.filter((entry) => entry.historyPlatforms.includes(currentPlatform))
+        : allEntries;
+  const platformScopedEntries = sourceEntries;
+  const normalizedDeferredQuery = deferredQuery.toLowerCase();
+  const searchedEntries = normalizedDeferredQuery
+    ? platformScopedEntries.filter((entry) => {
+        if (isCatalogSearchEntry(entry)) {
+          return matchesCatalogSearch(entry, normalizedDeferredQuery);
+        }
+        return matchesSearch(entry, normalizedDeferredQuery);
+      })
     : platformScopedEntries;
 
   const localStatusCounts: Record<SummaryStatus, number> = {
@@ -504,10 +824,11 @@ export function CompatibilityList({
   const hasCatalogPagination =
     isCatalogMode &&
     Boolean(catalogBasePath) &&
-    effectiveCatalogPageCount > 1;
+    effectiveCatalogPageCount > 1 &&
+    !needsFullCatalogSearch;
   const resolvedCatalogBasePath = catalogBasePath ?? "/compatibility/catalog";
   const summaryForCurrentPlatform =
-    isCatalogMode && catalogSummaryByPlatform
+    isCatalogMode && catalogSummaryByPlatform && !needsFullCatalogSearch
       ? catalogSummaryByPlatform[currentPlatform]
       : null;
   const summaryStatusCounts = summaryForCurrentPlatform?.statusCounts ?? localStatusCounts;
@@ -515,7 +836,31 @@ export function CompatibilityList({
   const statusCounts = localStatusCounts;
   const baseTotal = searchedEntries.length;
   const statusGridClass = isCatalogMode ? "lg:grid-cols-6" : "lg:grid-cols-5";
-  const catalogViewTotal = isCatalogMode ? allEntries.length : 0;
+  const catalogSearchTotal =
+    activeBucket && bucketCounts
+      ? countForBucket(bucketCounts, activeBucket)
+      : catalogTotalEntries ?? totalTracked;
+  const catalogViewTotal = isCatalogMode
+    ? needsFullCatalogSearch
+      ? catalogSearchSourceEntries?.length ?? catalogSearchTotal
+      : sourceEntries.length
+    : 0;
+  const emptyStateMessage =
+    needsFullCatalogSearch && (catalogSearchState === "loading" || isCatalogSearchPending)
+      ? "Loading full catalog search results..."
+      : needsFullCatalogSearch && catalogSearchState === "error"
+        ? "Full catalog search is unavailable right now. Reload and try again."
+        : "No games match the current view.";
+  const resultsLabel =
+    isCatalogMode &&
+    needsFullCatalogSearch &&
+    (isCatalogSearchPending || catalogSearchState === "loading")
+      ? `Searching ${catalogViewTotal} catalog titles...`
+      : isCatalogMode
+        ? needsFullCatalogSearch
+          ? `Showing ${visibleEntries.length} of ${catalogViewTotal} catalog titles`
+          : `Showing ${visibleEntries.length} of ${catalogViewTotal} titles on this page`
+        : `Showing ${visibleEntries.length} of ${baseTotal} games`;
 
   const handlePlatformChange = (event: ChangeEvent<HTMLSelectElement>) => {
     const nextPlatform =
@@ -668,7 +1013,7 @@ export function CompatibilityList({
                     bucketCounts,
                     activeBucket,
                   )} canonical titles`}
-              {effectiveCatalogPageCount > 0
+              {!needsFullCatalogSearch && effectiveCatalogPageCount > 0
                 ? ` · page ${effectiveCatalogPage} of ${effectiveCatalogPageCount}`
                 : ""}
             </p>
@@ -807,9 +1152,7 @@ export function CompatibilityList({
         </div>
 
         <p className="mt-4 text-sm text-text-muted">
-          {isCatalogMode
-            ? `Showing ${visibleEntries.length} of ${catalogViewTotal} titles on this page`
-            : `Showing ${visibleEntries.length} of ${baseTotal} games`}
+          {resultsLabel}
           {hasFilter ? " matching the current view" : ""}
           {isCatalogMode && catalogTotalEntries && catalogTotalEntries !== catalogViewTotal
             ? ` · ${catalogTotalEntries} titles across this catalog section`
@@ -833,26 +1176,26 @@ export function CompatibilityList({
             </thead>
             <tbody>
               {visibleEntries.map((entry) => (
-                <GameRow key={entry.game.slug} entry={entry} platform={currentPlatform} />
+                <GameRow key={entryListKey(entry)} entry={entry} platform={currentPlatform} />
               ))}
             </tbody>
           </table>
 
           {visibleEntries.length === 0 ? (
             <div className="px-6 py-12 text-center text-sm text-text-muted">
-              No games match the current view.
+              {emptyStateMessage}
             </div>
           ) : null}
         </div>
 
         <div className="flex flex-col gap-2 md:hidden">
           {visibleEntries.map((entry) => (
-            <GameCard key={entry.game.slug} entry={entry} platform={currentPlatform} />
+            <GameCard key={entryListKey(entry)} entry={entry} platform={currentPlatform} />
           ))}
 
           {visibleEntries.length === 0 ? (
             <div className="rounded-lg border border-border bg-bg-surface px-6 py-12 text-center text-sm text-text-muted">
-              No games match the current view.
+              {emptyStateMessage}
             </div>
           ) : null}
         </div>
