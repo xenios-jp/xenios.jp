@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-14T14:24:00.615Z",
+  "generatedAt": "2026-03-14T14:26:56.338Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -3293,8 +3293,31 @@
       "titleId": "4B4D07DF",
       "issueNumber": 205,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/205",
-      "updatedAt": "2026-03-11",
+      "updatedAt": "2026-03-14",
       "entries": [
+        {
+          "id": "comment-4060634538",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/205#issuecomment-4060634538",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-14",
+          "createdAtMs": 1773498364000,
+          "issueNumber": 205,
+          "excerpt": "The screen is distorted on startup but there is no problem for playing.\nBlack distortion happens sometime but play absolutely good and there is no lag.\nThe sound is also perfect.\n\nFirst",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 16 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
         {
           "id": "issue-205",
           "type": "issue",
