@@ -63,7 +63,7 @@
 | 🟢 | Metal Gear Rising: Revengeance | `4B4E080A` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-10 |
 | 🟢 | METAL GEAR SOLID PEACE WALKER HD EDITION | `4B4E083C` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Plus | 2026-03-08 |
 | 🟢 | Minecraft: Xbox 360 Edition | `4D530A81` | 📱 iOS | Playable | 👌 OK | iPhone Air | 2026-03-12 |
-| 🟢 | Mortal Kombat Komplete Edition | `575207FD` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro Max | 2026-03-10 |
+| 🟢 | Mortal Kombat Komplete Edition | `575207FD` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro Max | 2026-03-14 |
 | 🟢 | Naruto: Rise Of A Ninja | `555307E5` | 📱 iOS | Playable | 🚀 Great | iPhone 15 Pro | 2026-03-09 |
 | 🟢 | NBA Live 06 | `454107D8` | 📱 iOS | Playable | 👌 OK | iPhone 16e | 2026-03-10 |
 | 🟢 | Need for Speed Carbon | `454107EC` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-12 |
