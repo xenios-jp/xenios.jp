@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-14T15:24:00.165Z",
+  "generatedAt": "2026-03-14T15:46:11.179Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -3407,6 +3407,29 @@
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/204",
       "updatedAt": "2026-03-14",
       "entries": [
+        {
+          "id": "comment-4060743005",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/204#issuecomment-4060743005",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-14",
+          "createdAtMs": 1773503110000,
+          "issueNumber": 204,
+          "excerpt": "If you skip the intro quickly, you can play the game. However, the game has strong slowdowns",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "poor",
+            "device": "iPhone 16 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
         {
           "id": "comment-4060661577",
           "type": "comment",
