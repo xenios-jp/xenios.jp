@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **188 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **189 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **73** · 🔵 In-Game: **44** · 🟡 Intro: **21** · 🟠 Loads: **24** · 🔴 Doesn't Boot: **26**
+> 🟢 Playable: **73** · 🔵 In-Game: **44** · 🟡 Intro: **21** · 🟠 Loads: **25** · 🔴 Doesn't Boot: **26**
 >
-> 📱 iOS: **182** · 🖥️ macOS: **11**
+> 📱 iOS: **183** · 🖥️ macOS: **11**
 
 ## Legend
 
@@ -179,6 +179,7 @@
 | 🟠 | Resident Evil 6 | `43430819` | 📱 iOS | Loads | 🐢 Poor | iPhone 13 | 2026-03-14 |
 | 🟠 | Sonic & All-Stars Racing Transformed | `5345085D` | 📱 iOS | Loads | 🐢 Poor | iPhone 16 Pro | 2026-03-05 |
 | 🟠 | Spider Man: Edge Of Time | `415608B2` | 📱 iOS | Loads | 🐢 Poor | iPhone 15 Pro Max | 2026-03-09 |
+| 🟠 | The Elder Scrolls V: Skyrim | `425307E6` | 📱 iOS | Loads | 🐢 Poor | iPhone 17 Pro Max | 2026-03-14 |
 | 🟠 | The Orange Box | `4541080F` | 📱 iOS | Loads | 🐢 Poor | iPhone Air | 2026-03-08 |
 | 🟠 | Tron: Evolution | `425607ED` | 📱 iOS | Loads | 👌 OK | iPhone 15 Pro Max | 2026-03-09 |
 | 🟠 | WWE 12 | `54510890` | 📱 iOS | Loads | 👌 OK | iPhone 15 Pro | 2026-03-11 |

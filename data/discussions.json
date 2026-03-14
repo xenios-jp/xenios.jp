@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-14T20:33:41.570Z",
+  "generatedAt": "2026-03-14T20:42:03.914Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1385,6 +1385,43 @@
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
           "images": [],
           "meta": {}
+        }
+      ]
+    },
+    "425307E6": {
+      "titleId": "425307E6",
+      "issueNumber": 265,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/265",
+      "updatedAt": "2026-03-14",
+      "entries": [
+        {
+          "id": "issue-265",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/265",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-14",
+          "createdAtMs": 1773520865000,
+          "issueNumber": 265,
+          "excerpt": "no sound\nunplayable",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/425307E6/1773520858304-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/425307E6/1773520858304-2.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/425307E6/1773520858304-3.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/425307E6/1773520858304-4.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/425307E6/1773520858304-5.jpg"
+          ],
+          "meta": {
+            "status": "loads",
+            "perf": "poor",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
         }
       ]
     },
