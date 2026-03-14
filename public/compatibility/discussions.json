@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-14T14:26:56.338Z",
+  "generatedAt": "2026-03-14T14:45:33.493Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1275,6 +1275,37 @@
             "appVersion": "1.0.0",
             "buildNumber": "9280",
             "commitShort": "`2633e8177`"
+          }
+        }
+      ]
+    },
+    "4C4107ED": {
+      "titleId": "4C4107ED",
+      "issueNumber": 258,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/258",
+      "updatedAt": "2026-03-14",
+      "entries": [
+        {
+          "id": "issue-258",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/258",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-14",
+          "createdAtMs": 1773499499000,
+          "issueNumber": 258,
+          "excerpt": "Áudio Issues",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "poor",
+            "device": "iPhone 13",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
           }
         }
       ]
