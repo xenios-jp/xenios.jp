@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-13T23:31:07.569Z",
+  "generatedAt": "2026-03-14T00:09:34.521Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1251,6 +1251,95 @@
             "buildNumber": "9280",
             "commitShort": "`2633e8177`"
           }
+        }
+      ]
+    },
+    "4D5309C9": {
+      "titleId": "4D5309C9",
+      "issueNumber": 247,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/247",
+      "updatedAt": "2026-03-14",
+      "entries": [
+        {
+          "id": "issue-247",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/247",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-14",
+          "createdAtMs": 1773446943000,
+          "issueNumber": 247,
+          "excerpt": "FPS stayed around 10",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "poor",
+            "device": "iPhone 14 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
+        {
+          "id": "comment-4025874034",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/125#issuecomment-4025874034",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-09",
+          "createdAtMs": 1773080896000,
+          "issueNumber": 125,
+          "excerpt": "Glitches",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "ok",
+            "device": "iPhone 14",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        },
+        {
+          "id": "issue-125",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/125",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-09",
+          "createdAtMs": 1773036137000,
+          "issueNumber": 125,
+          "excerpt": "Distortions and is unplayable experience",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "poor",
+            "device": "iPhone 15 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        },
+        {
+          "id": "issue-61",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/61",
+          "author": "ssdecf",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1772997390000,
+          "issueNumber": 61,
+          "excerpt": "Nothing seems to work",
+          "images": [],
+          "meta": {}
         }
       ]
     },
@@ -5059,72 +5148,6 @@
             "buildNumber": "9280",
             "commitShort": "`2633e8177`"
           }
-        }
-      ]
-    },
-    "4D5309C9": {
-      "titleId": "4D5309C9",
-      "issueNumber": 125,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/125",
-      "updatedAt": "2026-03-10",
-      "entries": [
-        {
-          "id": "comment-4025874034",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/125#issuecomment-4025874034",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-09",
-          "createdAtMs": 1773080896000,
-          "issueNumber": 125,
-          "excerpt": "Glitches",
-          "images": [],
-          "meta": {
-            "status": "ingame",
-            "perf": "ok",
-            "device": "iPhone 14",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "`2633e8177`"
-          }
-        },
-        {
-          "id": "issue-125",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/125",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-09",
-          "createdAtMs": 1773036137000,
-          "issueNumber": 125,
-          "excerpt": "Distortions and is unplayable experience",
-          "images": [],
-          "meta": {
-            "status": "ingame",
-            "perf": "poor",
-            "device": "iPhone 15 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 26.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "`2633e8177`"
-          }
-        },
-        {
-          "id": "issue-61",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/61",
-          "author": "ssdecf",
-          "createdAt": "2026-03-08",
-          "createdAtMs": 1772997390000,
-          "issueNumber": 61,
-          "excerpt": "Nothing seems to work",
-          "images": [],
-          "meta": {}
         }
       ]
     },
