@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-15T15:05:01.299Z",
+  "generatedAt": "2026-03-15T17:03:41.138Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -873,10 +873,33 @@
     },
     "53450812": {
       "titleId": "53450812",
-      "issueNumber": 8,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/8",
-      "updatedAt": "2026-03-07",
+      "issueNumber": 272,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/272",
+      "updatedAt": "2026-03-15",
       "entries": [
+        {
+          "id": "issue-272",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/272",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-15",
+          "createdAtMs": 1773594183000,
+          "issueNumber": 272,
+          "excerpt": "It can be playable but sometimes there are FPS drops or even just get freeze",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "poor",
+            "device": "iPad Air 11-inch (M2)",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
         {
           "id": "comment-4015745064",
           "type": "comment",
