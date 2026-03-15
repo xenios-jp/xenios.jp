@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **190 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **191 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **75** · 🔵 In-Game: **42** · 🟡 Intro: **22** · 🟠 Loads: **25** · 🔴 Doesn't Boot: **26**
+> 🟢 Playable: **75** · 🔵 In-Game: **42** · 🟡 Intro: **22** · 🟠 Loads: **25** · 🔴 Doesn't Boot: **27**
 >
-> 📱 iOS: **184** · 🖥️ macOS: **11**
+> 📱 iOS: **185** · 🖥️ macOS: **11**
 
 ## Legend
 
@@ -204,6 +204,7 @@
 | 🔴 | Resident Evil 4 | `4343081C` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16e | 2026-03-14 |
 | 🔴 | Resident Evil 5 | `434307D4` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-03 |
 | 🔴 | Soulcalibur IV | `4E4D07E0` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro Max | 2026-03-11 |
+| 🔴 | SpongeBob SquarePants: Underpants Slam | `5841089F` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Mini (A17 Pro) | 2026-03-15 |
 | 🔴 | Star Ocean: The Last Hope | `535107DD` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-03 |
 | 🔴 | Tekken 6 | `4E4D07FC` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-03 |
 | 🔴 | The Amazing Spider-Man 2 | `41560905` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 | 2026-03-12 |

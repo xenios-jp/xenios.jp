@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-15T11:54:45.181Z",
+  "generatedAt": "2026-03-15T14:20:41.331Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1429,6 +1429,26 @@
           "createdAtMs": 1773517964000,
           "issueNumber": 263,
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
+          "images": [],
+          "meta": {}
+        }
+      ]
+    },
+    "5841089F": {
+      "titleId": "5841089F",
+      "issueNumber": 270,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/270",
+      "updatedAt": "2026-03-15",
+      "entries": [
+        {
+          "id": "issue-270",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/270",
+          "author": "supermariofan3720",
+          "createdAt": "2026-03-15",
+          "createdAtMs": 1773584397000,
+          "issueNumber": 270,
+          "excerpt": "Black screen of death",
           "images": [],
           "meta": {}
         }
