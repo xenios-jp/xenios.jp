@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-15T06:55:31.389Z",
+  "generatedAt": "2026-03-15T09:20:33.069Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1500,6 +1500,29 @@
       "updatedAt": "2026-03-15",
       "entries": [
         {
+          "id": "comment-4062633482",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/266#issuecomment-4062633482",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-15",
+          "createdAtMs": 1773566335000,
+          "issueNumber": 266,
+          "excerpt": "Playable but some stutters and low fps",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPad Pro 11 inch 5th Gen",
+            "platform": "iOS",
+            "osVersion": "iOS 26.2",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
+        {
           "id": "issue-266",
           "type": "issue",
           "url": "https://github.com/xenios-jp/game-compatibility/issues/266",
@@ -1615,29 +1638,6 @@
             "device": "iPhone 15 Pro",
             "platform": "iOS",
             "osVersion": "iOS 26.3",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "`2633e8177`"
-          }
-        },
-        {
-          "id": "comment-4019907259",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/41#issuecomment-4019907259",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-08",
-          "createdAtMs": 1773000764000,
-          "issueNumber": 41,
-          "excerpt": "Doesn’t eve load anything just crashes",
-          "images": [],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPhone 17 Pro",
-            "platform": "iOS",
-            "osVersion": "iOS 26.0.1",
             "gpuBackend": "MSL",
             "buildChannel": "self-built",
             "appVersion": "1.0.0",
