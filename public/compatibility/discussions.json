@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-15T22:22:01.700Z",
+  "generatedAt": "2026-03-15T22:31:59.629Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1691,6 +1691,29 @@
       "updatedAt": "2026-03-15",
       "entries": [
         {
+          "id": "comment-4064049368",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/266#issuecomment-4064049368",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-15",
+          "createdAtMs": 1773613856000,
+          "issueNumber": 266,
+          "excerpt": "A little low frame，and also some small lags.",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "poor",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
+        {
           "id": "comment-4062633482",
           "type": "comment",
           "url": "https://github.com/xenios-jp/game-compatibility/issues/266#issuecomment-4062633482",
@@ -1803,29 +1826,6 @@
           "meta": {
             "status": "playable",
             "perf": "poor",
-            "device": "iPhone 15 Pro",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "`2633e8177`"
-          }
-        },
-        {
-          "id": "comment-4020014302",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/41#issuecomment-4020014302",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-08",
-          "createdAtMs": 1773004052000,
-          "issueNumber": 41,
-          "excerpt": "game crashes as soon as it’s launched",
-          "images": [],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
             "device": "iPhone 15 Pro",
             "platform": "iOS",
             "osVersion": "iOS 26.3",
