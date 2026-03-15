@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **189 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **190 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **74** · 🔵 In-Game: **42** · 🟡 Intro: **22** · 🟠 Loads: **25** · 🔴 Doesn't Boot: **26**
+> 🟢 Playable: **75** · 🔵 In-Game: **42** · 🟡 Intro: **22** · 🟠 Loads: **25** · 🔴 Doesn't Boot: **26**
 >
-> 📱 iOS: **183** · 🖥️ macOS: **11**
+> 📱 iOS: **184** · 🖥️ macOS: **11**
 
 ## Legend
 
@@ -71,6 +71,7 @@
 | 🟢 | Need for Speed Carbon | `454107EC` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-12 |
 | 🟢 | Need for Speed: ProStreet | `45410822` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro | 2026-03-11 |
 | 🟢 | Need for Speed: Undercover | `45410876` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-09 |
+| 🟢 | Peggle | `58410889` | 📱 iOS | Playable | 🚀 Great | iPhone 15 Pro Max | 2026-03-15 |
 | 🟢 | Peggle 2 | `58411436` | 📱 iOS | Playable | 🚀 Great | iPad Mini (A17 Pro) | 2026-03-14 |
 | 🟢 | Plants vs. Zombies | `584109FF` | 📱 iOS | Playable | 🚀 Great | iPad Mini (A17 Pro) | 2026-03-12 |
 | 🟢 | Portal 2 | `45410912` | 📱 iOS | Playable | 🐢 Poor | iPhone 17 Pro Max | 2026-03-14 |

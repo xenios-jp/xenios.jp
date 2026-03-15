@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-15T09:20:33.069Z",
+  "generatedAt": "2026-03-15T11:54:45.181Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1391,6 +1391,26 @@
             "buildNumber": "9288",
             "commitShort": "`056d2f64d`"
           }
+        }
+      ]
+    },
+    "58410889": {
+      "titleId": "58410889",
+      "issueNumber": 269,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/269",
+      "updatedAt": "2026-03-15",
+      "entries": [
+        {
+          "id": "issue-269",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/269",
+          "author": "oliviaiacovou",
+          "createdAt": "2026-03-15",
+          "createdAtMs": 1773575647000,
+          "issueNumber": 269,
+          "excerpt": "Intro video is very glitchy, but visuals look as intended from then on. Menus experience a little slow-down from time to time, and at the end of a level the effects can make it slower than full speed",
+          "images": [],
+          "meta": {}
         }
       ]
     },
