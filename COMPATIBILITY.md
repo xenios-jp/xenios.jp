@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **191 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **192 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **75** · 🔵 In-Game: **43** · 🟡 Intro: **21** · 🟠 Loads: **25** · 🔴 Doesn't Boot: **27**
+> 🟢 Playable: **76** · 🔵 In-Game: **43** · 🟡 Intro: **21** · 🟠 Loads: **25** · 🔴 Doesn't Boot: **27**
 >
-> 📱 iOS: **185** · 🖥️ macOS: **11**
+> 📱 iOS: **185** · 🖥️ macOS: **12**
 
 ## Legend
 
@@ -40,6 +40,7 @@
 | 🟢 | Dead Space | `45410857` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro | 2026-03-03 |
 | 🟢 | Deadly Premonition | `4D5607D1` | 📱 iOS | Playable | 👌 OK | iPad (A16) | 2026-03-09 |
 | 🟢 | DOA5 Ultimate | `4B5607DA` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-13 |
+| 🟢 | Dragon Age: Origins - Ultimate Edition | `454108C0` | 🖥️ macOS | Playable | 🚀 Great | Mac mini (M4) | 2026-03-15 |
 | 🟢 | Dragon Ball Z Budokai HD Collection | `4E4D0856` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro Max | 2026-03-14 |
 | 🟢 | F.E.A.R: First Encounter Assault Recon | `565507D9` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro | 2026-03-13 |
 | 🟢 | Fallout: New Vegas | `425307E0` | 📱 iOS | Playable | 👌 OK | iPhone 16e | 2026-03-12 |

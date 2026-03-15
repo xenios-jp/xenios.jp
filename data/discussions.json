@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-15T19:49:26.345Z",
+  "generatedAt": "2026-03-15T22:22:01.700Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1501,6 +1501,26 @@
           "createdAtMs": 1773517964000,
           "issueNumber": 263,
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
+          "images": [],
+          "meta": {}
+        }
+      ]
+    },
+    "454108C0": {
+      "titleId": "454108C0",
+      "issueNumber": 274,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/274",
+      "updatedAt": "2026-03-15",
+      "entries": [
+        {
+          "id": "issue-274",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/274",
+          "author": "EnochMwanzo",
+          "createdAt": "2026-03-15",
+          "createdAtMs": 1773613278000,
+          "issueNumber": 274,
+          "excerpt": "Playable except for splash screen audio issues, and occasional performance drops in-game.",
           "images": [],
           "meta": {}
         }
