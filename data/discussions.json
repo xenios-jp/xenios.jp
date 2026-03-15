@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-15T14:20:41.331Z",
+  "generatedAt": "2026-03-15T15:05:01.299Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -972,10 +972,33 @@
     },
     "53450848": {
       "titleId": "53450848",
-      "issueNumber": 12,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/12",
-      "updatedAt": "2026-03-08",
+      "issueNumber": 271,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/271",
+      "updatedAt": "2026-03-15",
       "entries": [
+        {
+          "id": "issue-271",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/271",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-15",
+          "createdAtMs": 1773587062000,
+          "issueNumber": 271,
+          "excerpt": "Performance drops, low fps, runs well certain areas.",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "poor",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
         {
           "id": "comment-4019846453",
           "type": "comment",
