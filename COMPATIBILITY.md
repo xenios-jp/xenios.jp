@@ -2,7 +2,7 @@
 
 > **189 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **74** · 🔵 In-Game: **43** · 🟡 Intro: **21** · 🟠 Loads: **25** · 🔴 Doesn't Boot: **26**
+> 🟢 Playable: **74** · 🔵 In-Game: **42** · 🟡 Intro: **22** · 🟠 Loads: **25** · 🔴 Doesn't Boot: **26**
 >
 > 📱 iOS: **183** · 🖥️ macOS: **11**
 
@@ -129,7 +129,6 @@
 | 🔵 | Pro Evolution Soccer 2016 / PES 2016 | `4B4E0861` | 📱 iOS | In-Game | 👌 OK | iPhone 14 | 2026-03-09 |
 | 🔵 | PROTOTYPE | `4156084E` | 📱 iOS | In-Game | 🐢 Poor | iPhone 16e | 2026-03-14 |
 | 🔵 | Rayman Legends | `555308C3` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro Max | 2026-03-08 |
-| 🔵 | Remember Me | `4343082F` | 🖥️ macOS | In-Game | 🚀 Great | MacBook Pro (M3) | 2026-03-10 |
 | 🔵 | Saints Row | `545107D1` | 📱 iOS | In-Game | 👌 OK | iPhone 16 | 2026-03-10 |
 | 🔵 | Saints Row 2 | `545107FC` | 📱 iOS | In-Game | 🐢 Poor | iPhone 14 Pro Max | 2026-03-08 |
 | 🔵 | Serious Sam HD: The First Encounter | `584109DA` | 📱 iOS | In-Game | 🐢 Poor | iPhone Air | 2026-03-08 |
@@ -154,6 +153,7 @@
 | 🟡 | Naruto Shippuden: UNS 3 Full Burst | `4E4D085C` | 📱 iOS | Intro | 🐢 Poor | iPhone 15 Pro Max | 2026-03-13 |
 | 🟡 | Need for Speed Most Wanted (2012) | `45410961` | 📱 iOS | Intro | 🐢 Poor | iPhone 15 Pro Max | 2026-03-08 |
 | 🟡 | PopCap Collection | `504787D8` | 📱 iOS | Intro | 🚀 Great | iPhone 13 Pro | 2026-03-09 |
+| 🟡 | Remember Me | `4343082F` | 🖥️ macOS | Intro | 🚀 Great | Mac mini (M2) | 2026-03-15 |
 | 🟡 | Rise of the Tomb Raider | `53510823` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro Max | 2026-03-12 |
 | 🟡 | Tales of Vesperia | `4E4D07E9` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro | 2026-03-03 |
 | 🟡 | The Elder Scrolls 4: Oblivion - Game of the Year Edition | `425307D1` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro Max | 2026-03-08 |
