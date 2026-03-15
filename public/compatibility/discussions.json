@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-15T00:20:38.116Z",
+  "generatedAt": "2026-03-15T01:14:07.260Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1273,8 +1273,34 @@
       "titleId": "55530879",
       "issueNumber": 190,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/190",
-      "updatedAt": "2026-03-11",
+      "updatedAt": "2026-03-15",
       "entries": [
+        {
+          "id": "comment-4061891226",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/190#issuecomment-4061891226",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-15",
+          "createdAtMs": 1773537193000,
+          "issueNumber": 190,
+          "excerpt": "Game runs but with audio hiccups. \nVisual glitches especially with the lower body of the player character",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/55530879/1773537188572-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/55530879/1773537188572-2.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 16",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
         {
           "id": "issue-190",
           "type": "issue",
