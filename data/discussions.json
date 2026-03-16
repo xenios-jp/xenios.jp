@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-16T08:29:43.967Z",
+  "generatedAt": "2026-03-16T09:13:01.128Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2574,8 +2574,31 @@
       "titleId": "4156084E",
       "issueNumber": 248,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/248",
-      "updatedAt": "2026-03-14",
+      "updatedAt": "2026-03-16",
       "entries": [
+        {
+          "id": "comment-4066169577",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/248#issuecomment-4066169577",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-16",
+          "createdAtMs": 1773652303000,
+          "issueNumber": 248,
+          "excerpt": "Lots of stuff don’t load",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "poor",
+            "device": "iPhone 16 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
         {
           "id": "issue-248",
           "type": "issue",

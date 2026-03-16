@@ -2,7 +2,7 @@
 
 > **194 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **76** · 🔵 In-Game: **44** · 🟡 Intro: **21** · 🟠 Loads: **26** · 🔴 Doesn't Boot: **27**
+> 🟢 Playable: **77** · 🔵 In-Game: **43** · 🟡 Intro: **21** · 🟠 Loads: **26** · 🔴 Doesn't Boot: **27**
 >
 > 📱 iOS: **187** · 🖥️ macOS: **12**
 
@@ -77,6 +77,7 @@
 | 🟢 | Plants vs. Zombies | `584109FF` | 📱 iOS | Playable | 🚀 Great | iPad Mini (A17 Pro) | 2026-03-12 |
 | 🟢 | Portal 2 | `45410912` | 📱 iOS | Playable | 🐢 Poor | iPhone 17 Pro Max | 2026-03-14 |
 | 🟢 | Pro Evolution Soccer 2012 / PES 2012 | `4B4E0837` | 📱 iOS | Playable | 👌 OK | iPhone 14 Pro Max | 2026-03-15 |
+| 🟢 | PROTOTYPE | `4156084E` | 📱 iOS | Playable | 🐢 Poor | iPhone 16 Pro Max | 2026-03-16 |
 | 🟢 | Quantum of Solace | `415607FF` | 📱 iOS | Playable | 👌 OK | iPad Pro 12.9-inch (M2) | 2026-03-11 |
 | 🟢 | Resident Evil Revelations | `43430833` | 📱 iOS | Playable | 👌 OK | iPhone 16 | 2026-03-15 |
 | 🟢 | Ridge Racer 6 | `4E4D07D3` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-08 |
@@ -131,7 +132,6 @@
 | 🔵 | Pinball Arcade | `5841121D` | 📱 iOS | In-Game | 🐢 Poor | iPhone 13 | 2026-03-10 |
 | 🔵 | Pro Evolution Soccer 2013 / PES 2013 | `4B4E084C` | 📱 iOS | In-Game | 👌 OK | iPhone 14 | 2026-03-09 |
 | 🔵 | Pro Evolution Soccer 2016 / PES 2016 | `4B4E0861` | 📱 iOS | In-Game | 👌 OK | iPhone 14 | 2026-03-09 |
-| 🔵 | PROTOTYPE | `4156084E` | 📱 iOS | In-Game | 🐢 Poor | iPhone 16e | 2026-03-14 |
 | 🔵 | Rayman Legends | `555308C3` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro Max | 2026-03-08 |
 | 🔵 | Saints Row | `545107D1` | 📱 iOS | In-Game | 👌 OK | iPhone 16 | 2026-03-10 |
 | 🔵 | Saints Row 2 | `545107FC` | 📱 iOS | In-Game | 🐢 Poor | iPhone 14 Pro Max | 2026-03-08 |
