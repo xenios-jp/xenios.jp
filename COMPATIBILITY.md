@@ -95,7 +95,7 @@
 | 🟢 | Toy Story 3 | `425607E5` | 📱 iOS | Playable | 👌 OK | iPhone 15 Pro | 2026-03-15 |
 | 🟢 | Ultra Street Fighter IV | `434307FC` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro Max | 2026-03-09 |
 | 🟢 | Virtua Fighter 5: Final Showdown | `534507EE` | 📱 iOS | Playable | 👌 OK | iPhone 17 Pro Max | 2026-03-03 |
-| 🟢 | WWE Smackdown vs RAW 2008 | `5451080B` | 📱 iOS | Playable | 👌 OK | iPhone 16e | 2026-03-13 |
+| 🟢 | WWE Smackdown vs RAW 2008 | `5451080B` | 📱 iOS | Playable | 👌 OK | iPhone 16e | 2026-03-16 |
 | 🔵 | Batman: Arkham City | `57520802` | 📱 iOS | In-Game | 👌 OK | iPhone 15 Pro Max | 2026-03-09 |
 | 🔵 | Bayonetta | `53450813` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 | 2026-03-08 |
 | 🔵 | Blue Dragon | `4D5307DF` | 🖥️ macOS | In-Game | 🚀 Great | Mac mini (M2) | 2026-03-11 |
