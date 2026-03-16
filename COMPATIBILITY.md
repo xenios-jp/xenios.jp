@@ -4,7 +4,7 @@
 >
 > 🟢 Playable: **77** · 🔵 In-Game: **43** · 🟡 Intro: **21** · 🟠 Loads: **26** · 🔴 Doesn't Boot: **28**
 >
-> 📱 iOS: **188** · 🖥️ macOS: **12**
+> 📱 iOS: **188** · 🖥️ macOS: **13**
 
 ## Legend
 
@@ -143,7 +143,7 @@
 | 🟡 | Assassin's Creed II | `5553083B` | 📱 iOS | Intro | 👌 OK | iPhone 15 Pro Max | 2026-03-11 |
 | 🟡 | Assassins Creed III - Liberation HD | `584113FC` | 📱 iOS | Intro | 👌 OK | iPhone 15 | 2026-03-12 |
 | 🟡 | Beautiful Katamari | `4E4D07DC` | 📱 iOS | Intro | 👌 OK | iPhone 16 Pro | 2026-03-05 |
-| 🟡 | Burnout Revenge | `454107DC` | 📱 iOS | Intro | 🐢 Poor | iPhone 15 Pro Max | 2026-03-09 |
+| 🟡 | Burnout Revenge | `454107DC` | 📱 iOS, 🖥️ macOS | Intro | 🐢 Poor | iPhone 15 Pro Max | 2026-03-16 |
 | 🟡 | Dark Souls 2 | `465307E4` | 📱 iOS | Intro | 🐢 Poor | iPhone 17 Pro Max | 2026-03-09 |
 | 🟡 | Dead Rising | `434307D2` | 📱 iOS | Intro | 👌 OK | iPad (A16) | 2026-03-04 |
 | 🟡 | Divinity II Dragon Knight Saga | `464507D6` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro Max | 2026-03-09 |
