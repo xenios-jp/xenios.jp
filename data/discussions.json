@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-16T18:09:52.045Z",
+  "generatedAt": "2026-03-16T21:41:32.507Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1588,6 +1588,37 @@
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
           "images": [],
           "meta": {}
+        }
+      ]
+    },
+    "584107D7": {
+      "titleId": "584107D7",
+      "issueNumber": 283,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/283",
+      "updatedAt": "2026-03-16",
+      "entries": [
+        {
+          "id": "issue-283",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/283",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-16",
+          "createdAtMs": 1773697224000,
+          "issueNumber": 283,
+          "excerpt": "Marble sometimes freezes in place and falls through floor",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 15 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
         }
       ]
     },
