@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **194 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **195 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **77** · 🔵 In-Game: **43** · 🟡 Intro: **21** · 🟠 Loads: **26** · 🔴 Doesn't Boot: **27**
+> 🟢 Playable: **77** · 🔵 In-Game: **43** · 🟡 Intro: **21** · 🟠 Loads: **26** · 🔴 Doesn't Boot: **28**
 >
-> 📱 iOS: **187** · 🖥️ macOS: **12**
+> 📱 iOS: **188** · 🖥️ macOS: **12**
 
 ## Legend
 
@@ -58,7 +58,7 @@
 | 🟢 | Halo: CE Anniversary | `4D5309B1` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro | 2026-03-11 |
 | 🟢 | Just Cause 2 | `534307E7` | 📱 iOS | Playable | 🐢 Poor | iPhone 17 Pro | 2026-03-09 |
 | 🟢 | Lego Harry Potter Years 1-4 | `575207E6` | 📱 iOS | Playable | 🐢 Poor | iPhone 13 | 2026-03-14 |
-| 🟢 | Lego Indiana Jones 2 | `4C4107ED` | 📱 iOS | Playable | 🐢 Poor | iPhone 13 | 2026-03-14 |
+| 🟢 | Lego Indiana Jones 2 | `4C4107ED` | 📱 iOS | Playable | 👌 OK | iPhone 14 | 2026-03-16 |
 | 🟢 | LEGO Star Wars: TCS | `4C4107D7` | 📱 iOS | Playable | 👌 OK | iPad (A16) | 2026-03-09 |
 | 🟢 | Lollipop Chainsaw | `565707D0` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-03 |
 | 🟢 | Mafia 2 | `545407E6` | 📱 iOS | Playable | 👌 OK | iPhone 15 Plus | 2026-03-12 |
@@ -200,6 +200,7 @@
 | 🔴 | Fight Night Champion | `45410915` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Pro (M2) | 2026-03-03 |
 | 🔴 | Forza Horizon 2 Presents Fast & Furious | `4D530AB5` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad 10 | 2026-03-08 |
 | 🔴 | Left 4 Dead 2 | `454108D4` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Air 4 | 2026-03-13 |
+| 🔴 | LEGO Star Wars: The Force Awakens | `57520851` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 14 | 2026-03-16 |
 | 🔴 | Mighty No. 9 | `584114A4` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 13 | 2026-03-09 |
 | 🔴 | NBA 2K12 | `54540894` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro Max | 2026-03-13 |
 | 🔴 | NBA 2K7 | `545407EF` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16e | 2026-03-11 |
