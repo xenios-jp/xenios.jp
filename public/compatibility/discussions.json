@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-15T22:31:59.629Z",
+  "generatedAt": "2026-03-16T00:25:16.351Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -3418,8 +3418,33 @@
       "titleId": "4E4D083A",
       "issueNumber": 229,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/229",
-      "updatedAt": "2026-03-12",
+      "updatedAt": "2026-03-16",
       "entries": [
+        {
+          "id": "comment-4064298071",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/229#issuecomment-4064298071",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-16",
+          "createdAtMs": 1773620647000,
+          "issueNumber": 229,
+          "excerpt": "Can’t get past loading page",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4E4D083A/1773620645247-1.jpg"
+          ],
+          "meta": {
+            "status": "loads",
+            "perf": "poor",
+            "device": "iPhone 16e",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
         {
           "id": "issue-229",
           "type": "issue",
