@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-16T17:37:59.247Z",
+  "generatedAt": "2026-03-16T17:46:34.616Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1560,48 +1560,23 @@
         }
       ]
     },
-    "454107DC": {
-      "titleId": "454107DC",
-      "issueNumber": 120,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/120",
+    "555307DC": {
+      "titleId": "555307DC",
+      "issueNumber": 280,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/280",
       "updatedAt": "2026-03-16",
       "entries": [
         {
-          "id": "issue-279",
+          "id": "issue-280",
           "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/279",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/280",
           "author": "nFrong1",
           "createdAt": "2026-03-16",
-          "createdAtMs": 1773682601000,
-          "issueNumber": 279,
-          "excerpt": "Plays audio for intro cinematic, screen is a green mess. Black screen with no sound after intro cinematic ends.",
+          "createdAtMs": 1773683143000,
+          "issueNumber": 280,
+          "excerpt": "Plays intro cinematic flawlessly, then its just a black screen.",
           "images": [],
           "meta": {}
-        },
-        {
-          "id": "issue-120",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/120",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-09",
-          "createdAtMs": 1773031861000,
-          "issueNumber": 120,
-          "excerpt": "So the game runs but you can not see anything in menus and have to go blind. Also exploding sound. Then in game it’s dead silent. This is very rough and I cannon consider this to be playable or in game even though I can go in game if I guess prompts in menu.",
-          "images": [
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454107DC/1773031857872-1.jpg"
-          ],
-          "meta": {
-            "status": "intro",
-            "perf": "poor",
-            "device": "iPhone 15 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 26.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "`2633e8177`"
-          }
         }
       ]
     },
@@ -5565,6 +5540,85 @@
         }
       ]
     },
+    "5454087A": {
+      "titleId": "5454087A",
+      "issueNumber": 173,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/173",
+      "updatedAt": "2026-03-10",
+      "entries": [
+        {
+          "id": "comment-4034128567",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/173#issuecomment-4034128567",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-10",
+          "createdAtMs": 1773173236000,
+          "issueNumber": 173,
+          "excerpt": "Right before the first game loads in after u press start the game crashes",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "ok",
+            "device": "iPhone 16e",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        },
+        {
+          "id": "comment-4033998736",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/173#issuecomment-4033998736",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-10",
+          "createdAtMs": 1773171915000,
+          "issueNumber": 173,
+          "excerpt": "It gets to the NBA Credit screen but doesn’t get past it",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/5454087A/1773171913110-1.jpg"
+          ],
+          "meta": {
+            "status": "loads",
+            "perf": "poor",
+            "device": "iPhone 16e",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        },
+        {
+          "id": "issue-173",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/173",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-10",
+          "createdAtMs": 1773171605000,
+          "issueNumber": 173,
+          "excerpt": "Black Screen",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 16e",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        }
+      ]
+    },
     "5841121D": {
       "titleId": "5841121D",
       "issueNumber": 172,
@@ -6568,6 +6622,39 @@
           "meta": {
             "status": "loads",
             "perf": "ok",
+            "device": "iPhone 15 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        }
+      ]
+    },
+    "454107DC": {
+      "titleId": "454107DC",
+      "issueNumber": 120,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/120",
+      "updatedAt": "2026-03-16",
+      "entries": [
+        {
+          "id": "issue-120",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/120",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-09",
+          "createdAtMs": 1773031861000,
+          "issueNumber": 120,
+          "excerpt": "So the game runs but you can not see anything in menus and have to go blind. Also exploding sound. Then in game it’s dead silent. This is very rough and I cannon consider this to be playable or in game even though I can go in game if I guess prompts in menu.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454107DC/1773031857872-1.jpg"
+          ],
+          "meta": {
+            "status": "intro",
+            "perf": "poor",
             "device": "iPhone 15 Pro Max",
             "platform": "iOS",
             "osVersion": "iOS 26.1",
