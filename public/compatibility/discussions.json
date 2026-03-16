@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-16T01:38:57.702Z",
+  "generatedAt": "2026-03-16T02:47:07.322Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -3799,8 +3799,20 @@
       "titleId": "545408A7",
       "issueNumber": 214,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/214",
-      "updatedAt": "2026-03-15",
+      "updatedAt": "2026-03-16",
       "entries": [
+        {
+          "id": "comment-4064707743",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/214#issuecomment-4064707743",
+          "author": "m7wshd5892-commits",
+          "createdAt": "2026-03-16",
+          "createdAtMs": 1773629162000,
+          "issueNumber": 214,
+          "excerpt": "Hi, how did you open it? I’m stuck on the loading screen.",
+          "images": [],
+          "meta": {}
+        },
         {
           "id": "comment-4063761200",
           "type": "comment",
@@ -3924,18 +3936,6 @@
             "buildNumber": "9280",
             "commitShort": "`2633e8177`"
           }
-        },
-        {
-          "id": "comment-4020570582",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/62#issuecomment-4020570582",
-          "author": "Blue7366",
-          "createdAt": "2026-03-09",
-          "createdAtMs": 1773020396000,
-          "issueNumber": 62,
-          "excerpt": "Same",
-          "images": [],
-          "meta": {}
         }
       ]
     },
