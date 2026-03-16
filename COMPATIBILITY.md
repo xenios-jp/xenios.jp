@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **193 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **194 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **76** · 🔵 In-Game: **43** · 🟡 Intro: **21** · 🟠 Loads: **26** · 🔴 Doesn't Boot: **27**
+> 🟢 Playable: **76** · 🔵 In-Game: **44** · 🟡 Intro: **21** · 🟠 Loads: **26** · 🔴 Doesn't Boot: **27**
 >
-> 📱 iOS: **186** · 🖥️ macOS: **12**
+> 📱 iOS: **187** · 🖥️ macOS: **12**
 
 ## Legend
 
@@ -125,6 +125,7 @@
 | 🔵 | NBA Street Homecourt | `454107F7` | 📱 iOS | In-Game | 👌 OK | iPhone 16e | 2026-03-10 |
 | 🔵 | NBA Street Homecourt | `454107E3` | 📱 iOS | In-Game | 🚀 Great | iPhone 17 Pro Max | 2026-03-09 |
 | 🔵 | Need for Speed Most Wanted (2005) | `454107D9` | 📱 iOS | In-Game | 👌 OK | iPhone 17 | 2026-03-08 |
+| 🔵 | Need for Speed: Rivals | `454109C6` | 📱 iOS | In-Game | 🐢 Poor | iPad Pro 12.9-inch (M2) | 2026-03-16 |
 | 🔵 | NFL Tour | `45410835` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro Max | 2026-03-11 |
 | 🔵 | PAC-MAN and the Ghostly Adventures | `4E4D0865` | 📱 iOS | In-Game | 🐢 Poor | iPhone 15 Pro Max | 2026-03-08 |
 | 🔵 | Pinball Arcade | `5841121D` | 📱 iOS | In-Game | 🐢 Poor | iPhone 13 | 2026-03-10 |

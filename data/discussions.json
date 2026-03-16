@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-16T02:47:07.322Z",
+  "generatedAt": "2026-03-16T05:28:39.318Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1503,6 +1503,39 @@
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
           "images": [],
           "meta": {}
+        }
+      ]
+    },
+    "454109C6": {
+      "titleId": "454109C6",
+      "issueNumber": 277,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/277",
+      "updatedAt": "2026-03-16",
+      "entries": [
+        {
+          "id": "issue-277",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/277",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-16",
+          "createdAtMs": 1773638861000,
+          "issueNumber": 277,
+          "excerpt": "The world isn’t rendered correctly, basically all black. Took several attempts to get it working",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454109C6/1773638857904-1.jpg"
+          ],
+          "meta": {
+            "status": "ingame",
+            "perf": "poor",
+            "device": "iPad Pro 12.9-inch (M2)",
+            "platform": "iOS",
+            "osVersion": "iOS 26.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9320",
+            "commitShort": "`3d70b7b41a`"
+          }
         }
       ]
     },
