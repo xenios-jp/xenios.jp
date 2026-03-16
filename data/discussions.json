@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-16T08:26:46.809Z",
+  "generatedAt": "2026-03-16T08:29:43.967Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -4234,8 +4234,31 @@
       "titleId": "534507D6",
       "issueNumber": 204,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/204",
-      "updatedAt": "2026-03-14",
+      "updatedAt": "2026-03-16",
       "entries": [
+        {
+          "id": "comment-4065947902",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/204#issuecomment-4065947902",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-16",
+          "createdAtMs": 1773649713000,
+          "issueNumber": 204,
+          "excerpt": "NO SOUND NO NOTHING JUST BLACK SCREEN",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 14",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
         {
           "id": "comment-4060743005",
           "type": "comment",
