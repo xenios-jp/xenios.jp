@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-16T00:25:16.351Z",
+  "generatedAt": "2026-03-16T01:38:57.702Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1503,6 +1503,40 @@
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
           "images": [],
           "meta": {}
+        }
+      ]
+    },
+    "545407EE": {
+      "titleId": "545407EE",
+      "issueNumber": 275,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/275",
+      "updatedAt": "2026-03-16",
+      "entries": [
+        {
+          "id": "issue-275",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/275",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-16",
+          "createdAtMs": 1773625076000,
+          "issueNumber": 275,
+          "excerpt": "Game boots fully but renders no visual whatsoever, calls for syskeys and comes up empty handed, seems like an easy enough fix to get to boot by stubbing a few calls",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407EE/1773625073575-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407EE/1773625073575-2.jpg"
+          ],
+          "meta": {
+            "status": "loads",
+            "perf": "ok",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
         }
       ]
     },
