@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-16T17:46:34.616Z",
+  "generatedAt": "2026-03-16T18:09:52.045Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1212,6 +1212,37 @@
         }
       ]
     },
+    "54510826": {
+      "titleId": "54510826",
+      "issueNumber": 281,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/281",
+      "updatedAt": "2026-03-16",
+      "entries": [
+        {
+          "id": "issue-281",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/281",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-16",
+          "createdAtMs": 1773684470000,
+          "issueNumber": 281,
+          "excerpt": "Crashing upon loading match",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPad (A16)",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        }
+      ]
+    },
     "54510890": {
       "titleId": "54510890",
       "issueNumber": 200,
@@ -1557,6 +1588,37 @@
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
           "images": [],
           "meta": {}
+        }
+      ]
+    },
+    "5451085D": {
+      "titleId": "5451085D",
+      "issueNumber": 282,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/282",
+      "updatedAt": "2026-03-16",
+      "entries": [
+        {
+          "id": "issue-282",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/282",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-16",
+          "createdAtMs": 1773684516000,
+          "issueNumber": 282,
+          "excerpt": "Loading only not working",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPad (A16)",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
         }
       ]
     },
