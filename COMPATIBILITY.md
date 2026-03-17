@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **201 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **202 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **79** · 🔵 In-Game: **43** · 🟡 Intro: **21** · 🟠 Loads: **27** · 🔴 Doesn't Boot: **31**
+> 🟢 Playable: **79** · 🔵 In-Game: **44** · 🟡 Intro: **21** · 🟠 Loads: **27** · 🔴 Doesn't Boot: **31**
 >
-> 📱 iOS: **193** · 🖥️ macOS: **14**
+> 📱 iOS: **194** · 🖥️ macOS: **14**
 
 ## Legend
 
@@ -104,6 +104,7 @@
 | 🔵 | Blue Dragon | `4D5307DF` | 🖥️ macOS | In-Game | 🚀 Great | Mac mini (M2) | 2026-03-11 |
 | 🔵 | Burnout Paradise | `45410806` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro Max | 2026-03-12 |
 | 🔵 | DB Raging Blast | `4E4D0803` | 📱 iOS | In-Game | 🐢 Poor | iPad Pro (M2) | 2026-03-09 |
+| 🔵 | Dead Island Riptide | `4B4D07F2` | 📱 iOS | In-Game | 🐢 Poor | iPhone 14 Pro | 2026-03-17 |
 | 🔵 | Def Jam Icon | `454107EE` | 📱 iOS | In-Game | 🐢 Poor | iPhone 16e | 2026-03-11 |
 | 🔵 | Diablo III | `394F07D1` | 📱 iOS, 🖥️ macOS | In-Game | 🐢 Poor | iPhone Air | 2026-03-09 |
 | 🔵 | Fable 3 | `4D5308D6` | 📱 iOS | In-Game | 🐢 Poor | iPhone 15 Pro Max | 2026-03-09 |
