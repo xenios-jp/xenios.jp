@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-17T00:52:50.738Z",
+  "generatedAt": "2026-03-17T01:27:47.459Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -3699,8 +3699,31 @@
       "titleId": "4541087F",
       "issueNumber": 230,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/230",
-      "updatedAt": "2026-03-12",
+      "updatedAt": "2026-03-17",
       "entries": [
+        {
+          "id": "comment-4071713581",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/230#issuecomment-4071713581",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-17",
+          "createdAtMs": 1773710796000,
+          "issueNumber": 230,
+          "excerpt": "Patches make the game run faster",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 16e",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
         {
           "id": "issue-230",
           "type": "issue",

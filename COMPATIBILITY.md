@@ -84,7 +84,7 @@
 | 🟢 | Resident Evil Revelations | `43430833` | 📱 iOS | Playable | 👌 OK | iPhone 16 | 2026-03-15 |
 | 🟢 | Ridge Racer 6 | `4E4D07D3` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-08 |
 | 🟢 | Rumble Roses XX | `4B4E07D1` | 🖥️ macOS | Playable | 🚀 Great | Mac mini (M2) | 2026-03-11 |
-| 🟢 | Skate 2 | `4541087F` | 📱 iOS | Playable | 🐢 Poor | iPhone 16e | 2026-03-12 |
+| 🟢 | Skate 2 | `4541087F` | 📱 iOS | Playable | 👌 OK | iPhone 16e | 2026-03-17 |
 | 🟢 | Skate 3 | `454108E6` | 📱 iOS | Playable | 🐢 Poor | iPad Pro 13-inch (M4) | 2026-03-13 |
 | 🟢 | Sonic Generations | `53450848` | 📱 iOS | Playable | 🐢 Poor | iPhone 17 Pro Max | 2026-03-15 |
 | 🟢 | Sonic the Hedgehog | `534507D6` | 📱 iOS | Playable | 🐢 Poor | iPhone 16 Pro | 2026-03-16 |
