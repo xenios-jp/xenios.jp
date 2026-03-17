@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **198 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **200 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **77** · 🔵 In-Game: **43** · 🟡 Intro: **21** · 🟠 Loads: **26** · 🔴 Doesn't Boot: **31**
+> 🟢 Playable: **79** · 🔵 In-Game: **43** · 🟡 Intro: **21** · 🟠 Loads: **26** · 🔴 Doesn't Boot: **31**
 >
-> 📱 iOS: **190** · 🖥️ macOS: **14**
+> 📱 iOS: **192** · 🖥️ macOS: **14**
 
 ## Legend
 
@@ -50,6 +50,7 @@
 | 🟢 | Final Fantasy XIII | `535107E4` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-14 |
 | 🟢 | Forza Horizon | `4D5309C9` | 📱 iOS | Playable | 🐢 Poor | iPhone 17 Pro Max | 2026-03-14 |
 | 🟢 | Forza Motorsport 2 | `4D5307EA` | 📱 iOS | Playable | 🐢 Poor | iPhone 16 | 2026-03-10 |
+| 🟢 | Forza Motorsport 4 | `4D530910` | 📱 iOS | Playable | 👌 OK | iPhone 17 Pro Max | 2026-03-17 |
 | 🟢 | Geometry Wars Evolved | `584107ED` | 📱 iOS | Playable | 🚀 Great | iPhone 13 | 2026-03-10 |
 | 🟢 | Grand Theft Auto IV | `545407F2` | 📱 iOS, 🖥️ macOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-16 |
 | 🟢 | Guacamelee Super Turbo Championship Edition | `58411446` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-03 |
@@ -62,6 +63,7 @@
 | 🟢 | LEGO Star Wars: TCS | `4C4107D7` | 📱 iOS | Playable | 👌 OK | iPad (A16) | 2026-03-09 |
 | 🟢 | Lollipop Chainsaw | `565707D0` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-03 |
 | 🟢 | Mafia 2 | `545407E6` | 📱 iOS | Playable | 👌 OK | iPhone 15 Plus | 2026-03-12 |
+| 🟢 | Marble Blast Ultra | `584107D7` | 📱 iOS | Playable | 👌 OK | iPhone 15 Pro Max | 2026-03-16 |
 | 🟢 | Marvel Ultimate Alliance 2 | `4156082F` | 📱 iOS | Playable | 👌 OK | iPhone 13 Pro | 2026-03-09 |
 | 🟢 | Metal Gear Rising: Revengeance | `4B4E080A` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-10 |
 | 🟢 | METAL GEAR SOLID PEACE WALKER HD EDITION | `4B4E083C` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Plus | 2026-03-08 |
