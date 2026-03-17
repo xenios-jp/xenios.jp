@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-17T11:56:33.333Z",
+  "generatedAt": "2026-03-17T23:30:19.910Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -829,6 +829,37 @@
             "platform": "iOS",
             "osVersion": "iOS 18.3.1",
             "gpuBackend": "MSL"
+          }
+        }
+      ]
+    },
+    "45410916": {
+      "titleId": "45410916",
+      "issueNumber": 289,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/289",
+      "updatedAt": "2026-03-17",
+      "entries": [
+        {
+          "id": "issue-289",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/289",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-17",
+          "createdAtMs": 1773790183000,
+          "issueNumber": 289,
+          "excerpt": "The game as a whole is stable and remains playable. The performance is acceptable: sometimes there are small FPS drawdowns and delays when loading textures, but this does not have a critical effect on gameplay.\n\nThe main problem is related to the sound.\nDuring the intro at startup, in cut scenes, as well as when interacting with objects containing voice acting (for example, flasks with memories), audio is played with strong distortion. The sound is excessively loud, accompanied by a squeak and an overload effect, as if the volume level has been increased many times.\n\nAdditionally:\nTo start the game correctly, you must disable the \"Force 10bpc Presenter Output” setting in the emulator. When this option is enabled, the game does not start (at least in the current configuration).",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 16 Plus",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
           }
         }
       ]

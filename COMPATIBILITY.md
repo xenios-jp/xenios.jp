@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **203 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **204 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **80** · 🔵 In-Game: **44** · 🟡 Intro: **21** · 🟠 Loads: **27** · 🔴 Doesn't Boot: **31**
+> 🟢 Playable: **81** · 🔵 In-Game: **44** · 🟡 Intro: **21** · 🟠 Loads: **27** · 🔴 Doesn't Boot: **31**
 >
-> 📱 iOS: **195** · 🖥️ macOS: **14**
+> 📱 iOS: **196** · 🖥️ macOS: **14**
 
 ## Legend
 
@@ -22,6 +22,7 @@
 |-|-------|----------|----------|--------|------|-------------|---------|
 | 🟢 | 50 Cent: Blood on the Sand | `5451083B` | 📱 iOS | Playable | 👌 OK | iPhone 16e | 2026-03-10 |
 | 🟢 | Alan Wake | `4D530805` | 📱 iOS | Playable | 🐢 Poor | iPad (A16) | 2026-03-09 |
+| 🟢 | Alice: Madness Returns | `45410916` | 📱 iOS | Playable | 👌 OK | iPhone 16 Plus | 2026-03-17 |
 | 🟢 | Angry Birds Trilogy | `415608E4` | 📱 iOS | Playable | 🚀 Great | iPad (A16) | 2026-03-09 |
 | 🟢 | Assassin's Creed: Revelations | `55530879` | 📱 iOS | Playable | 👌 OK | iPhone 16 | 2026-03-15 |
 | 🟢 | Banjo Kazooie: Nuts & Bolts | `4D5307ED` | 📱 iOS | Playable | 🐢 Poor | iPhone 15 Pro Max | 2026-03-08 |
