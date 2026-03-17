@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-17T23:30:19.910Z",
+  "generatedAt": "2026-03-17T23:53:50.373Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1619,6 +1619,41 @@
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
           "images": [],
           "meta": {}
+        }
+      ]
+    },
+    "573607E2": {
+      "titleId": "573607E2",
+      "issueNumber": 290,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/290",
+      "updatedAt": "2026-03-17",
+      "entries": [
+        {
+          "id": "issue-290",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/290",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-17",
+          "createdAtMs": 1773791577000,
+          "issueNumber": 290,
+          "excerpt": "stable high frame\n\nno graphic errors, except that the screen becomes very dark when starting the engine. If it can be fixed, this game is very playable",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/573607E2/1773791565732-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/573607E2/1773791565732-2.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/573607E2/1773791565732-3.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "poor",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
         }
       ]
     },
