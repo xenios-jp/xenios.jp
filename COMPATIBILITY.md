@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **200 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **201 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **79** · 🔵 In-Game: **43** · 🟡 Intro: **21** · 🟠 Loads: **26** · 🔴 Doesn't Boot: **31**
+> 🟢 Playable: **79** · 🔵 In-Game: **43** · 🟡 Intro: **21** · 🟠 Loads: **27** · 🔴 Doesn't Boot: **31**
 >
-> 📱 iOS: **192** · 🖥️ macOS: **14**
+> 📱 iOS: **193** · 🖥️ macOS: **14**
 
 ## Legend
 
@@ -175,6 +175,7 @@
 | 🟠 | Forza Horizon 2 | `4D530AA4` | 📱 iOS | Loads | 🐢 Poor | iPhone 17 Pro Max | 2026-03-08 |
 | 🟠 | Grand Theft Auto: San Andreas | `545408B8` | 📱 iOS | Loads | 👌 OK | iPhone 16 Pro Max | 2026-03-11 |
 | 🟠 | Jeopardy! | `545108AE` | 📱 iOS | Loads | 🐢 Poor | iPhone 16 Pro | 2026-03-05 |
+| 🟠 | Kung Fu Panda | `415607F2` | 📱 iOS | Loads | 🐢 Poor | iPhone 15 Pro Max | 2026-03-17 |
 | 🟠 | Left 4 Dead | `45410830` | 📱 iOS | Loads | 🐢 Poor | iPhone 17 Pro Max | 2026-03-08 |
 | 🟠 | Lego Dimensions | `5752084B` | 📱 iOS | Loads | 🐢 Poor | iPad (A16) | 2026-03-09 |
 | 🟠 | Lego Star Wars III: The Clone Wars | `4C4107F3` | 📱 iOS | Loads | 👌 OK | iPhone 15 Pro | 2026-03-10 |
