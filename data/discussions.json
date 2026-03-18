@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-18T22:14:08.849Z",
+  "generatedAt": "2026-03-18T23:05:18.118Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2336,6 +2336,29 @@
       "updatedAt": "2026-03-18",
       "entries": [
         {
+          "id": "comment-4086146610",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/266#issuecomment-4086146610",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-18",
+          "createdAtMs": 1773875037000,
+          "issueNumber": 266,
+          "excerpt": "App crashiing",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone11,6",
+            "platform": "iOS",
+            "osVersion": "iOS 16.4",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
+        {
           "id": "comment-4082908345",
           "type": "comment",
           "url": "https://github.com/xenios-jp/game-compatibility/issues/266#issuecomment-4082908345",
@@ -2447,29 +2470,6 @@
             "device": "iPhone 15 Pro Max",
             "platform": "iOS",
             "osVersion": "iOS 26.2",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "`056d2f64d`"
-          }
-        },
-        {
-          "id": "comment-4060629990",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/152#issuecomment-4060629990",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-14",
-          "createdAtMs": 1773498149000,
-          "issueNumber": 152,
-          "excerpt": "There is a lag in a all playing but I can play well\nThe sound is completely broken",
-          "images": [],
-          "meta": {
-            "status": "playable",
-            "perf": "ok",
-            "device": "iPhone 16 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3.1",
             "gpuBackend": "MSL",
             "buildChannel": "self-built",
             "appVersion": "1.0.1",
