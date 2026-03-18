@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-18T08:16:45.802Z",
+  "generatedAt": "2026-03-18T11:48:22.613Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -5296,8 +5296,31 @@
       "titleId": "545407D8",
       "issueNumber": 196,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/196",
-      "updatedAt": "2026-03-11",
+      "updatedAt": "2026-03-18",
       "entries": [
+        {
+          "id": "comment-4081875872",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/196#issuecomment-4081875872",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-18",
+          "createdAtMs": 1773834392000,
+          "issueNumber": 196,
+          "excerpt": "App crashes as soon as I launch the game :/",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 13 mini",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
         {
           "id": "issue-196",
           "type": "issue",
