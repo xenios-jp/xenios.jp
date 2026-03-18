@@ -184,7 +184,7 @@
 | 🟠 | Lego Dimensions | `5752084B` | 📱 iOS | Loads | 🐢 Poor | iPad (A16) | 2026-03-09 |
 | 🟠 | Lego Star Wars III: The Clone Wars | `4C4107F3` | 📱 iOS | Loads | 👌 OK | iPhone 15 Pro | 2026-03-10 |
 | 🟠 | Metal Gear Solid V: Ground Zeroes | `4B4E085C` | 📱 iOS | Loads | 🐢 Poor | iPhone 15 Pro Max | 2026-03-10 |
-| 🟠 | NBA 2K10 | `54549852` | 🖥️ macOS | Loads | 🚀 Great | MacBook Air (M4) | 2026-03-18 |
+| 🟠 | NBA 2K10 | `54549852` | 🖥️ macOS | Loads | 🐢 Poor | MacBook Air (M4) | 2026-03-18 |
 | 🟠 | NCAA Basketball 10 | `454108C3` | 📱 iOS | Loads | 🐢 Poor | iPhone 16e | 2026-03-11 |
 | 🟠 | Project Gotham Racing 4 | `4D5307F9` | 🖥️ macOS | Loads | 🚀 Great | MacBook Pro (M4 Max) | 2026-03-14 |
 | 🟠 | Resident Evil 6 | `43430819` | 📱 iOS | Loads | 🐢 Poor | iPhone 13 | 2026-03-14 |
