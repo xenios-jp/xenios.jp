@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-18T04:15:30.538Z",
+  "generatedAt": "2026-03-18T07:55:55.695Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1366,6 +1366,26 @@
             "buildNumber": "9299",
             "commitShort": "`d8c101905`"
           }
+        }
+      ]
+    },
+    "54549852": {
+      "titleId": "54549852",
+      "issueNumber": 292,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/292",
+      "updatedAt": "2026-03-18",
+      "entries": [
+        {
+          "id": "issue-292",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/292",
+          "author": "lemaridm8",
+          "createdAt": "2026-03-18",
+          "createdAtMs": 1773820511000,
+          "issueNumber": 292,
+          "excerpt": "Menus Load, Crashes when trying to start gameplay",
+          "images": [],
+          "meta": {}
         }
       ]
     },
