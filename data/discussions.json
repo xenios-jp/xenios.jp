@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-18T21:05:22.015Z",
+  "generatedAt": "2026-03-18T22:04:50.213Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1687,6 +1687,43 @@
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
           "images": [],
           "meta": {}
+        }
+      ]
+    },
+    "415407D2": {
+      "titleId": "415407D2",
+      "issueNumber": 295,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/295",
+      "updatedAt": "2026-03-18",
+      "entries": [
+        {
+          "id": "issue-295",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/295",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-18",
+          "createdAtMs": 1773871441000,
+          "issueNumber": 295,
+          "excerpt": "Runs at full speed, (but it did take 5 restarts). Besides the graphical error with the text and video, this games runs great.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/415407D2/1773871434692-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/415407D2/1773871434692-2.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/415407D2/1773871434692-3.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/415407D2/1773871434692-4.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/415407D2/1773871434692-5.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPad Pro 11 inch 5th Gen",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
         }
       ]
     },
