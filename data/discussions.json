@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-18T01:27:53.695Z",
+  "generatedAt": "2026-03-18T04:15:30.538Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2660,8 +2660,35 @@
       "titleId": "535107E4",
       "issueNumber": 256,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/256",
-      "updatedAt": "2026-03-14",
+      "updatedAt": "2026-03-18",
       "entries": [
+        {
+          "id": "comment-4079534782",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/256#issuecomment-4079534782",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-18",
+          "createdAtMs": 1773807265000,
+          "issueNumber": 256,
+          "excerpt": "I’d rate performance ok, however in my opinion locked 30fps doesn’t really seem to be a strict requirement for this game to be totally playable. Ranges from about 18-25, with higher framerate especially in combat. Minor transparency rendering issues with characters hair. Other than that, nothing noticeable. \n\nDo note that there are severe audio issues in cutscenes and no audio in game.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/535107E4/1773807257305-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/535107E4/1773807257305-2.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/535107E4/1773807257305-3.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 17",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9334",
+            "commitShort": "`cf76b3baaa`"
+          }
+        },
         {
           "id": "issue-256",
           "type": "issue",
