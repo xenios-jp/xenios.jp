@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-18T20:10:47.470Z",
+  "generatedAt": "2026-03-18T21:04:11.079Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -3578,8 +3578,20 @@
       "titleId": "4156081C",
       "issueNumber": 239,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/239",
-      "updatedAt": "2026-03-13",
+      "updatedAt": "2026-03-18",
       "entries": [
+        {
+          "id": "comment-4085561984",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/239#issuecomment-4085561984",
+          "author": "xelahot",
+          "createdAt": "2026-03-18",
+          "createdAtMs": 1773867780000,
+          "issueNumber": 239,
+          "excerpt": "Oh that game would ve sick on iPhone! I tried an ISO but I on'y get a black screen",
+          "images": [],
+          "meta": {}
+        },
         {
           "id": "issue-239",
           "type": "issue",
