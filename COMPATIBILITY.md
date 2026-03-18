@@ -54,7 +54,7 @@
 | 🟢 | Forza Motorsport 4 | `4D530910` | 📱 iOS | Playable | 👌 OK | iPhone 17 Pro Max | 2026-03-17 |
 | 🟢 | Gears of War: Judgment | `4D530A26` | 📱 iOS | Playable | 🐢 Poor | iPhone 17 Pro Max | 2026-03-17 |
 | 🟢 | Geometry Wars Evolved | `584107ED` | 📱 iOS | Playable | 🚀 Great | iPhone 13 | 2026-03-10 |
-| 🟢 | Grand Theft Auto IV | `545407F2` | 📱 iOS, 🖥️ macOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-16 |
+| 🟢 | Grand Theft Auto IV | `545407F2` | 📱 iOS, 🖥️ macOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-18 |
 | 🟢 | Guacamelee Super Turbo Championship Edition | `58411446` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-03 |
 | 🟢 | Guitar Hero III Legends of Rock | `415607F7` | 📱 iOS | Playable | 👌 OK | iPhone 17 Pro Max | 2026-03-12 |
 | 🟢 | Halo 3 | `4D5307E6` | 🖥️ macOS, 📱 iOS | Playable | 🐢 Poor | iPhone 16 Pro | 2026-03-12 |

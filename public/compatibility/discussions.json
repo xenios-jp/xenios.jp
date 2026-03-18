@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-18T11:48:22.613Z",
+  "generatedAt": "2026-03-18T14:18:43.210Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2215,8 +2215,31 @@
       "titleId": "545407F2",
       "issueNumber": 266,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/266",
-      "updatedAt": "2026-03-16",
+      "updatedAt": "2026-03-18",
       "entries": [
+        {
+          "id": "comment-4082908345",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/266#issuecomment-4082908345",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-18",
+          "createdAtMs": 1773843395000,
+          "issueNumber": 266,
+          "excerpt": "Stuck at loading intro mission",
+          "images": [],
+          "meta": {
+            "status": "intro",
+            "perf": "ok",
+            "device": "iPhone 15 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
         {
           "id": "comment-4067809263",
           "type": "comment",
@@ -2329,34 +2352,6 @@
             "device": "iPhone 16 Pro Max",
             "platform": "iOS",
             "osVersion": "iOS 26.3.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "`056d2f64d`"
-          }
-        },
-        {
-          "id": "comment-4058194269",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/152#issuecomment-4058194269",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-13",
-          "createdAtMs": 1773438736000,
-          "issueNumber": 152,
-          "excerpt": "Low framerate, audio doesn’t seem to be working",
-          "images": [
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407F2/1773438728737-1.jpg",
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407F2/1773438728737-2.jpg",
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407F2/1773438728737-3.jpg",
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407F2/1773438728737-4.jpg"
-          ],
-          "meta": {
-            "status": "playable",
-            "perf": "poor",
-            "device": "iPhone 16",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3",
             "gpuBackend": "MSL",
             "buildChannel": "self-built",
             "appVersion": "1.0.1",
