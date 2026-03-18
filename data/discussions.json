@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-18T22:04:50.213Z",
+  "generatedAt": "2026-03-18T22:14:08.849Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -4563,8 +4563,31 @@
       "titleId": "545408A7",
       "issueNumber": 214,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/214",
-      "updatedAt": "2026-03-16",
+      "updatedAt": "2026-03-18",
       "entries": [
+        {
+          "id": "comment-4085887561",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/214#issuecomment-4085887561",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-18",
+          "createdAtMs": 1773871931000,
+          "issueNumber": 214,
+          "excerpt": "You need to fix lots of things before it works audio is bugged though.",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 17",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
         {
           "id": "comment-4064707743",
           "type": "comment",
@@ -4669,29 +4692,6 @@
             "status": "nothing",
             "perf": "n/a",
             "device": "iPhone 12 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "`2633e8177`"
-          }
-        },
-        {
-          "id": "comment-4020577528",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/62#issuecomment-4020577528",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-09",
-          "createdAtMs": 1773020573000,
-          "issueNumber": 62,
-          "excerpt": "It shows the start then goes black the audio is a bit bugged too",
-          "images": [],
-          "meta": {
-            "status": "intro",
-            "perf": "poor",
-            "device": "iPhone 17",
             "platform": "iOS",
             "osVersion": "iOS 26.3.1",
             "gpuBackend": "MSL",
