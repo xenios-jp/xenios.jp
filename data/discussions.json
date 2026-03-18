@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-18T14:25:46.334Z",
+  "generatedAt": "2026-03-18T15:55:38.532Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1664,6 +1664,39 @@
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
           "images": [],
           "meta": {}
+        }
+      ]
+    },
+    "425607D9": {
+      "titleId": "425607D9",
+      "issueNumber": 293,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/293",
+      "updatedAt": "2026-03-18",
+      "entries": [
+        {
+          "id": "issue-293",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/293",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-18",
+          "createdAtMs": 1773849273000,
+          "issueNumber": 293,
+          "excerpt": "Lags at the beginning of a race but once you get to top 5 the speed goes back to normal. But solo races are at full speed.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/425607D9/1773849270153-1.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPad Pro 11 inch 5th Gen",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
         }
       ]
     },

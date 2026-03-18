@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **206 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **207 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **83** · 🔵 In-Game: **44** · 🟡 Intro: **20** · 🟠 Loads: **28** · 🔴 Doesn't Boot: **31**
+> 🟢 Playable: **84** · 🔵 In-Game: **44** · 🟡 Intro: **20** · 🟠 Loads: **28** · 🔴 Doesn't Boot: **31**
 >
-> 📱 iOS: **197** · 🖥️ macOS: **15**
+> 📱 iOS: **198** · 🖥️ macOS: **15**
 
 ## Legend
 
@@ -83,6 +83,7 @@
 | 🟢 | Portal 2 | `45410912` | 📱 iOS | Playable | 🐢 Poor | iPhone 17 Pro Max | 2026-03-14 |
 | 🟢 | Pro Evolution Soccer 2012 / PES 2012 | `4B4E0837` | 📱 iOS | Playable | 👌 OK | iPhone 14 Pro Max | 2026-03-15 |
 | 🟢 | PROTOTYPE | `4156084E` | 📱 iOS | Playable | 🐢 Poor | iPhone 16 Pro Max | 2026-03-16 |
+| 🟢 | Pure | `425607D9` | 📱 iOS | Playable | 👌 OK | iPad Pro 11 inch 5th Gen | 2026-03-18 |
 | 🟢 | Quantum of Solace | `415607FF` | 📱 iOS | Playable | 👌 OK | iPad Pro 12.9-inch (M2) | 2026-03-11 |
 | 🟢 | Resident Evil Revelations | `43430833` | 📱 iOS | Playable | 👌 OK | iPhone 16 | 2026-03-15 |
 | 🟢 | Ridge Racer 6 | `4E4D07D3` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-08 |
