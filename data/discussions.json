@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-17T23:53:50.373Z",
+  "generatedAt": "2026-03-18T01:00:52.200Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1617,6 +1617,49 @@
           "createdAtMs": 1773517964000,
           "issueNumber": 263,
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
+          "images": [],
+          "meta": {}
+        }
+      ]
+    },
+    "4B4E083C": {
+      "titleId": "4B4E083C",
+      "issueNumber": 291,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/291",
+      "updatedAt": "2026-03-18",
+      "entries": [
+        {
+          "id": "issue-291",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/291",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-18",
+          "createdAtMs": 1773795600000,
+          "issueNumber": 291,
+          "excerpt": "cutscenes have this weird green purple and black color covering it and the audio is garbled",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 16 Plus",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
+        {
+          "id": "issue-59",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/59",
+          "author": "kazoki32",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1772997318000,
+          "issueNumber": 59,
+          "excerpt": "Game runs damn near perfect the only isssue is No audio anywhere throughout the boot or whilst playing the game only other issues i have ran into was a cutscene not working not random colors and a hud on the top left not being what it’s supposed to be.Other than that it runs perfect",
           "images": [],
           "meta": {}
         }
@@ -7894,26 +7937,6 @@
             "buildNumber": "9280",
             "commitShort": "`2633e8177`"
           }
-        }
-      ]
-    },
-    "4B4E083C": {
-      "titleId": "4B4E083C",
-      "issueNumber": 59,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/59",
-      "updatedAt": "2026-03-08",
-      "entries": [
-        {
-          "id": "issue-59",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/59",
-          "author": "kazoki32",
-          "createdAt": "2026-03-08",
-          "createdAtMs": 1772997318000,
-          "issueNumber": 59,
-          "excerpt": "Game runs damn near perfect the only isssue is No audio anywhere throughout the boot or whilst playing the game only other issues i have ran into was a cutscene not working not random colors and a hud on the top left not being what it’s supposed to be.Other than that it runs perfect",
-          "images": [],
-          "meta": {}
         }
       ]
     },
