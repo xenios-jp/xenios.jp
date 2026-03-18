@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-18T15:55:38.532Z",
+  "generatedAt": "2026-03-18T17:29:46.447Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -4870,8 +4870,35 @@
       "titleId": "534507D6",
       "issueNumber": 204,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/204",
-      "updatedAt": "2026-03-16",
+      "updatedAt": "2026-03-18",
       "entries": [
+        {
+          "id": "comment-4084309882",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/204#issuecomment-4084309882",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-18",
+          "createdAtMs": 1773854903000,
+          "issueNumber": 204,
+          "excerpt": "Was able to get into the game after initially turning off compile metal shaders in background. Before turning that off I would get a black screen after choosing the character to start story missions.Has some graphical errors but and plays slow at times. Tested on IPhone 16 pro max",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/534507D6/1773854897913-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/534507D6/1773854897913-2.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/534507D6/1773854897913-3.jpg"
+          ],
+          "meta": {
+            "status": "ingame",
+            "perf": "poor",
+            "device": "iPhone 16 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
         {
           "id": "comment-4065947902",
           "type": "comment",
