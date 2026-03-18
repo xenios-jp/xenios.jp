@@ -2,7 +2,7 @@
 
 > **206 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **82** · 🔵 In-Game: **44** · 🟡 Intro: **21** · 🟠 Loads: **28** · 🔴 Doesn't Boot: **31**
+> 🟢 Playable: **83** · 🔵 In-Game: **44** · 🟡 Intro: **20** · 🟠 Loads: **28** · 🔴 Doesn't Boot: **31**
 >
 > 📱 iOS: **197** · 🖥️ macOS: **15**
 
@@ -59,6 +59,7 @@
 | 🟢 | Guitar Hero III Legends of Rock | `415607F7` | 📱 iOS | Playable | 👌 OK | iPhone 17 Pro Max | 2026-03-12 |
 | 🟢 | Halo 3 | `4D5307E6` | 🖥️ macOS, 📱 iOS | Playable | 🐢 Poor | iPhone 16 Pro | 2026-03-12 |
 | 🟢 | Halo: CE Anniversary | `4D5309B1` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro | 2026-03-11 |
+| 🟢 | Hitman: Absolution | `53510804` | 📱 iOS | Playable | 🚀 Great | iPad Pro 12.9-inch (M2) | 2026-03-18 |
 | 🟢 | Just Cause 2 | `534307E7` | 📱 iOS | Playable | 🐢 Poor | iPhone 17 Pro | 2026-03-09 |
 | 🟢 | Lego Harry Potter Years 1-4 | `575207E6` | 📱 iOS | Playable | 🐢 Poor | iPhone 13 | 2026-03-14 |
 | 🟢 | Lego Indiana Jones 2 | `4C4107ED` | 📱 iOS | Playable | 👌 OK | iPhone 14 | 2026-03-16 |
@@ -156,7 +157,6 @@
 | 🟡 | DOOM 3 BFG Edition | `425307F1` | 📱 iOS | Intro | 🚀 Great | iPhone 16 Pro | 2026-03-03 |
 | 🟡 | Halo 4 | `4D530919` | 📱 iOS | Intro | 🐢 Poor | iPad Pro 12.9-inch (M2) | 2026-03-10 |
 | 🟡 | Halo Wars | `4D530808` | 📱 iOS | Intro | 👌 OK | iPhone 17 | 2026-03-03 |
-| 🟡 | Hitman: Absolution | `53510804` | 📱 iOS | Intro | 🐢 Poor | iPad Pro 12.9-inch (M2) | 2026-03-11 |
 | 🟡 | Lego Batman 2: DC Super Heroes | `57520817` | 📱 iOS | Intro | 🐢 Poor | iPhone 13 | 2026-03-14 |
 | 🟡 | Mortal Kombat vs. DC Universe | `4D5707E9` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Plus | 2026-03-12 |
 | 🟡 | Naruto Shippuden: UNS 3 Full Burst | `4E4D085C` | 📱 iOS | Intro | 🐢 Poor | iPhone 15 Pro Max | 2026-03-13 |

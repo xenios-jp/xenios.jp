@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-18T14:18:43.210Z",
+  "generatedAt": "2026-03-18T14:25:46.334Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1158,8 +1158,33 @@
       "titleId": "53510804",
       "issueNumber": 194,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/194",
-      "updatedAt": "2026-03-11",
+      "updatedAt": "2026-03-18",
       "entries": [
+        {
+          "id": "comment-4082955090",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/194#issuecomment-4082955090",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-18",
+          "createdAtMs": 1773843838000,
+          "issueNumber": 194,
+          "excerpt": "The new build fixed all graphical issues, also it doesn’t crash anymore",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/53510804/1773843832304-1.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPad Pro 12.9-inch (M2)",
+            "platform": "iOS",
+            "osVersion": "iOS 26.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9299",
+            "commitShort": "`d8c101905`"
+          }
+        },
         {
           "id": "issue-194",
           "type": "issue",
