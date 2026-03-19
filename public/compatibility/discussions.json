@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-19T23:21:37.009Z",
+  "generatedAt": "2026-03-19T23:50:19.362Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1730,6 +1730,26 @@
           "createdAtMs": 1773517964000,
           "issueNumber": 263,
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
+          "images": [],
+          "meta": {}
+        }
+      ]
+    },
+    "545107D8": {
+      "titleId": "545107D8",
+      "issueNumber": 299,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/299",
+      "updatedAt": "2026-03-19",
+      "entries": [
+        {
+          "id": "issue-299",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/299",
+          "author": "coreypin",
+          "createdAt": "2026-03-19",
+          "createdAtMs": 1773964175000,
+          "issueNumber": 299,
+          "excerpt": "Campaign playable up to second act, audio is broken in gameplay but works fine in cutscenes, performance was not the best with slow downs quite often",
           "images": [],
           "meta": {}
         }
