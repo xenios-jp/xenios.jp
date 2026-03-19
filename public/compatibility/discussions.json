@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-19T03:17:23.548Z",
+  "generatedAt": "2026-03-19T05:49:23.395Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2401,8 +2401,31 @@
       "titleId": "545407F2",
       "issueNumber": 266,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/266",
-      "updatedAt": "2026-03-18",
+      "updatedAt": "2026-03-19",
       "entries": [
+        {
+          "id": "comment-4087974050",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/266#issuecomment-4087974050",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-19",
+          "createdAtMs": 1773899257000,
+          "issueNumber": 266,
+          "excerpt": "Loads first mission endlessly",
+          "images": [],
+          "meta": {
+            "status": "intro",
+            "perf": "poor",
+            "device": "iPhone 13",
+            "platform": "iOS",
+            "osVersion": "iOS 18.5",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
         {
           "id": "comment-4086146610",
           "type": "comment",
@@ -2513,29 +2536,6 @@
             "status": "playable",
             "perf": "ok",
             "device": "iPad Pro 11 inch 5th Gen",
-            "platform": "iOS",
-            "osVersion": "iOS 26.2",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "`056d2f64d`"
-          }
-        },
-        {
-          "id": "issue-266",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/266",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-15",
-          "createdAtMs": 1773533990000,
-          "issueNumber": 266,
-          "excerpt": "5-12FPS",
-          "images": [],
-          "meta": {
-            "status": "playable",
-            "perf": "poor",
-            "device": "iPhone 15 Pro Max",
             "platform": "iOS",
             "osVersion": "iOS 26.2",
             "gpuBackend": "MSL",
