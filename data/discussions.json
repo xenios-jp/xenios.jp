@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-19T20:56:06.269Z",
+  "generatedAt": "2026-03-19T21:43:56.293Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -4737,6 +4737,29 @@
       "updatedAt": "2026-03-19",
       "entries": [
         {
+          "id": "comment-4093476802",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/214#issuecomment-4093476802",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-19",
+          "createdAtMs": 1773956523000,
+          "issueNumber": 214,
+          "excerpt": "Game loads into then black screens. I have extra ram entitlement, Jit, and i am using the custom script recommended by the developers of xenios. I am on a 13in 5G M4 iPad Pro 1TB 16gigs of ram. People saying they got it to run on iPhones but didn’t share how. Ridiculous on their part.",
+          "images": [],
+          "meta": {
+            "status": "intro",
+            "perf": "poor",
+            "device": "iPad Pro 13-inch (M4)",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
+        {
           "id": "comment-4093234634",
           "type": "comment",
           "url": "https://github.com/xenios-jp/game-compatibility/issues/214#issuecomment-4093234634",
@@ -4842,29 +4865,6 @@
             "device": "iPhone 16",
             "platform": "iOS",
             "osVersion": "iOS 26.3",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "`2633e8177`"
-          }
-        },
-        {
-          "id": "comment-4027504953",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/62#issuecomment-4027504953",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-09",
-          "createdAtMs": 1773097724000,
-          "issueNumber": 62,
-          "excerpt": "Not working on iOS 16.2",
-          "images": [],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPad Pro 12.9-inch (M2)",
-            "platform": "iOS",
-            "osVersion": "iOS 16.2",
             "gpuBackend": "MSL",
             "buildChannel": "self-built",
             "appVersion": "1.0.0",
