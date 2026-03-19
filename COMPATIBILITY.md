@@ -92,7 +92,7 @@
 | 🟢 | Ridge Racer 6 | `4E4D07D3` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-08 |
 | 🟢 | Rumble Roses XX | `4B4E07D1` | 🖥️ macOS | Playable | 🚀 Great | Mac mini (M2) | 2026-03-11 |
 | 🟢 | Skate 2 | `4541087F` | 📱 iOS | Playable | 👌 OK | iPhone 16e | 2026-03-17 |
-| 🟢 | Skate 3 | `454108E6` | 📱 iOS | Playable | 🐢 Poor | iPad Pro 13-inch (M4) | 2026-03-13 |
+| 🟢 | Skate 3 | `454108E6` | 📱 iOS | Playable | 🐢 Poor | iPad Pro 13-inch (M4) | 2026-03-19 |
 | 🟢 | Sonic Generations | `53450848` | 📱 iOS | Playable | 🐢 Poor | iPhone 17 Pro Max | 2026-03-15 |
 | 🟢 | Sonic the Hedgehog | `534507D6` | 📱 iOS | Playable | 🐢 Poor | iPhone 16 Pro | 2026-03-18 |
 | 🟢 | SpongeBob HeroPants | `41560919` | 📱 iOS | Playable | 👌 OK | iPad Mini (A17 Pro) | 2026-03-08 |
@@ -128,7 +128,7 @@
 | 🔵 | Lost Odyssey | `4D5307FA` | 📱 iOS, 🖥️ macOS | In-Game | 🚀 Great | Mac mini (M2) | 2026-03-11 |
 | 🔵 | Mercenaries 2: World in Flames | `45410828` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro | 2026-03-09 |
 | 🔵 | Metro Last Light | `4B4D07F5` | 🖥️ macOS | In-Game | 👌 OK | MacBook Pro M4 Pro/Max | 2026-02-28 |
-| 🔵 | Midnight Club: Los Angeles | `545407F8` | 📱 iOS | In-Game | 🐢 Poor | iPhone 16 | 2026-03-12 |
+| 🔵 | Midnight Club: Los Angeles | `545407F8` | 📱 iOS | In-Game | 🐢 Poor | iPhone 16 Pro Max | 2026-03-19 |
 | 🔵 | Mirror's Edge | `45410850` | 📱 iOS | In-Game | 🐢 Poor | iPhone Air | 2026-03-08 |
 | 🔵 | NBA 2K10 | `54540852` | 📱 iOS | In-Game | 👌 OK | iPhone 16e | 2026-03-10 |
 | 🔵 | NBA 2K11 | `5454087A` | 📱 iOS | In-Game | 👌 OK | iPhone 16e | 2026-03-10 |
