@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-18T23:05:18.118Z",
+  "generatedAt": "2026-03-19T01:07:40.562Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -4802,8 +4802,36 @@
       "titleId": "545408B8",
       "issueNumber": 208,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/208",
-      "updatedAt": "2026-03-11",
+      "updatedAt": "2026-03-19",
       "entries": [
+        {
+          "id": "comment-4086782362",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/208#issuecomment-4086782362",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-19",
+          "createdAtMs": 1773882385000,
+          "issueNumber": 208,
+          "excerpt": "The intro screen has graphical issues but once it gets to the loading screen it takes a bit of time. Once it gets past the loading screen it plays pretty well with a few graphical issues and model issues. Graphical issue with big smokes model. Opening the pause menu has a slight graphical issue but it goes away after a few seconds.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408B8/1773882380535-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408B8/1773882380535-2.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408B8/1773882380535-3.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408B8/1773882380535-4.jpg"
+          ],
+          "meta": {
+            "status": "ingame",
+            "perf": "ok",
+            "device": "iPhone 16 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
         {
           "id": "issue-208",
           "type": "issue",
