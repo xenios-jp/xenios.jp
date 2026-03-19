@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-19T07:38:20.531Z",
+  "generatedAt": "2026-03-19T20:56:06.269Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -4734,8 +4734,31 @@
       "titleId": "545408A7",
       "issueNumber": 214,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/214",
-      "updatedAt": "2026-03-18",
+      "updatedAt": "2026-03-19",
       "entries": [
+        {
+          "id": "comment-4093234634",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/214#issuecomment-4093234634",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-19",
+          "createdAtMs": 1773953689000,
+          "issueNumber": 214,
+          "excerpt": "The game loads but the when the rolling loading animation comes the screen goes black and XeniOS locks up. The audio artifacts, frame rate looks fine, no stutter, at least when its running.",
+          "images": [],
+          "meta": {
+            "status": "intro",
+            "perf": "ok",
+            "device": "iPhone 15",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
         {
           "id": "comment-4085887561",
           "type": "comment",
@@ -4842,29 +4865,6 @@
             "device": "iPad Pro 12.9-inch (M2)",
             "platform": "iOS",
             "osVersion": "iOS 16.2",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "`2633e8177`"
-          }
-        },
-        {
-          "id": "comment-4026231316",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/62#issuecomment-4026231316",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-09",
-          "createdAtMs": 1773084677000,
-          "issueNumber": 62,
-          "excerpt": "Black screen, when you touch the screen the menu does NOT appear so you’re trapped and have to exit xenios and close the window.",
-          "images": [],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPhone 12 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3.1",
             "gpuBackend": "MSL",
             "buildChannel": "self-built",
             "appVersion": "1.0.0",
