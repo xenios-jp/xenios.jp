@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **208 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **209 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **86** · 🔵 In-Game: **44** · 🟡 Intro: **20** · 🟠 Loads: **27** · 🔴 Doesn't Boot: **31**
+> 🟢 Playable: **86** · 🔵 In-Game: **44** · 🟡 Intro: **20** · 🟠 Loads: **28** · 🔴 Doesn't Boot: **31**
 >
-> 📱 iOS: **199** · 🖥️ macOS: **16**
+> 📱 iOS: **200** · 🖥️ macOS: **16**
 
 ## Legend
 
@@ -135,7 +135,7 @@
 | 🔵 | NBA Live 10 | `454108C1` | 📱 iOS | In-Game | 🐢 Poor | iPhone 16e | 2026-03-10 |
 | 🔵 | NBA Street Homecourt | `454107F7` | 📱 iOS | In-Game | 👌 OK | iPhone 16e | 2026-03-10 |
 | 🔵 | NBA Street Homecourt | `454107E3` | 📱 iOS | In-Game | 🚀 Great | iPhone 17 Pro Max | 2026-03-09 |
-| 🔵 | Need for Speed Most Wanted (2005) | `454107D9` | 📱 iOS, 🖥️ macOS | In-Game | 🚀 Great | MacBook Pro (M3 Pro) | 2026-03-12 |
+| 🔵 | Need for Speed Most Wanted (2005) | `454107D9` | 📱 iOS, 🖥️ macOS | In-Game | 👌 OK | iPhone 16 Pro Max | 2026-03-19 |
 | 🔵 | Need for Speed: Rivals | `454109C6` | 📱 iOS | In-Game | 🐢 Poor | iPad Pro 12.9-inch (M2) | 2026-03-16 |
 | 🔵 | NFL Tour | `45410835` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro Max | 2026-03-11 |
 | 🔵 | PAC-MAN and the Ghostly Adventures | `4E4D0865` | 📱 iOS | In-Game | 🐢 Poor | iPhone 15 Pro Max | 2026-03-08 |
@@ -171,6 +171,7 @@
 | 🟡 | The Elder Scrolls 4: Oblivion - Game of the Year Edition | `425307D1` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro Max | 2026-03-08 |
 | 🟡 | Two Worlds | `535007D4` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro Max | 2026-03-09 |
 | 🟠 | Asura's Wrath | `43430817` | 📱 iOS | Loads | 🐢 Poor | iPhone 16 Pro Max | 2026-03-09 |
+| 🟠 | Avatar: The Last Airbender - The Burning Earth | `545107E1` | 📱 iOS | Loads | 🐢 Poor | iPhone 16 Pro Max | 2026-03-19 |
 | 🟠 | Battlefield 3 | `45410950` | 📱 iOS | Loads | 🐢 Poor | iPhone 16 | 2026-03-11 |
 | 🟠 | Call Of Duty: World At War | `4156081C` | 📱 iOS | Loads | 🐢 Poor | iPhone 15 Pro Max | 2026-03-13 |
 | 🟠 | Crash Of The Titans | `565507E4` | 📱 iOS | Loads | 🚀 Great | iPad (A16) | 2026-03-08 |
