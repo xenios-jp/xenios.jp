@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-19T07:35:54.172Z",
+  "generatedAt": "2026-03-19T07:38:20.531Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -54,6 +54,26 @@
             "osVersion": "iOS 18.3.1",
             "gpuBackend": "MSL"
           }
+        }
+      ]
+    },
+    "41560845": {
+      "titleId": "41560845",
+      "issueNumber": 298,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/298",
+      "updatedAt": "2026-03-19",
+      "entries": [
+        {
+          "id": "issue-298",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/298",
+          "author": "vsnngny2nb-web",
+          "createdAt": "2026-03-19",
+          "createdAtMs": 1773905631000,
+          "issueNumber": 298,
+          "excerpt": "Renders developer title cards. Once past that, renders car in-menu. Able to rotate camera. Many artifacts. No menu options appear. What does render seems to be 60fps.",
+          "images": [],
+          "meta": {}
         }
       ]
     },
