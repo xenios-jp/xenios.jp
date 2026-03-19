@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **209 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **210 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **86** · 🔵 In-Game: **44** · 🟡 Intro: **20** · 🟠 Loads: **28** · 🔴 Doesn't Boot: **31**
+> 🟢 Playable: **87** · 🔵 In-Game: **44** · 🟡 Intro: **20** · 🟠 Loads: **28** · 🔴 Doesn't Boot: **31**
 >
-> 📱 iOS: **200** · 🖥️ macOS: **16**
+> 📱 iOS: **201** · 🖥️ macOS: **16**
 
 ## Legend
 
@@ -73,6 +73,7 @@
 | 🟢 | METAL GEAR SOLID PEACE WALKER HD EDITION | `4B4E083C` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Plus | 2026-03-18 |
 | 🟢 | Minecraft: Xbox 360 Edition | `4D530A81` | 📱 iOS | Playable | 👌 OK | iPhone Air | 2026-03-12 |
 | 🟢 | Mortal Kombat Komplete Edition | `575207FD` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro Max | 2026-03-14 |
+| 🟢 | Naruto Shippuden: Ultimate Ninja Storm Generations | `4E4D0842` | 📱 iOS | Playable | 🐢 Poor | iPhone 16 Pro Max | 2026-03-19 |
 | 🟢 | Naruto: Rise Of A Ninja | `555307E5` | 📱 iOS | Playable | 🚀 Great | iPhone 15 Pro | 2026-03-09 |
 | 🟢 | NBA Live 06 | `454107D8` | 📱 iOS | Playable | 👌 OK | iPhone 16e | 2026-03-10 |
 | 🟢 | Need for Speed Carbon | `454107EC` | 📱 iOS | Playable | 🐢 Poor | iPhone 16 | 2026-03-17 |

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-19T02:42:24.967Z",
+  "generatedAt": "2026-03-19T03:12:21.156Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1687,6 +1687,43 @@
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
           "images": [],
           "meta": {}
+        }
+      ]
+    },
+    "4E4D0842": {
+      "titleId": "4E4D0842",
+      "issueNumber": 297,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/297",
+      "updatedAt": "2026-03-19",
+      "entries": [
+        {
+          "id": "issue-297",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/297",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-19",
+          "createdAtMs": 1773889903000,
+          "issueNumber": 297,
+          "excerpt": "Graphical issues on intro when the game is loading up. Playing normally the game is playable but Iphone gets a little hot. When playing in power saver mode the game has really bad fps but it’s playable just bad frames.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4E4D0842/1773889897674-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4E4D0842/1773889897674-2.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4E4D0842/1773889897674-3.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4E4D0842/1773889897674-4.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4E4D0842/1773889897674-5.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "poor",
+            "device": "iPhone 16 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
         }
       ]
     },
