@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **210 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **211 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **87** · 🔵 In-Game: **44** · 🟡 Intro: **20** · 🟠 Loads: **28** · 🔴 Doesn't Boot: **31**
+> 🟢 Playable: **87** · 🔵 In-Game: **44** · 🟡 Intro: **20** · 🟠 Loads: **29** · 🔴 Doesn't Boot: **31**
 >
-> 📱 iOS: **201** · 🖥️ macOS: **16**
+> 📱 iOS: **201** · 🖥️ macOS: **17**
 
 ## Legend
 
@@ -174,6 +174,7 @@
 | 🟠 | Asura's Wrath | `43430817` | 📱 iOS | Loads | 🐢 Poor | iPhone 16 Pro Max | 2026-03-09 |
 | 🟠 | Avatar: The Last Airbender - The Burning Earth | `545107E1` | 📱 iOS | Loads | 🐢 Poor | iPhone 16 Pro Max | 2026-03-19 |
 | 🟠 | Battlefield 3 | `45410950` | 📱 iOS | Loads | 🐢 Poor | iPhone 16 | 2026-03-11 |
+| 🟠 | Blur | `41560845` | 🖥️ macOS | Loads | 👌 OK | MacBook Air (M2) | 2026-03-19 |
 | 🟠 | Call Of Duty: World At War | `4156081C` | 📱 iOS | Loads | 🐢 Poor | iPhone 15 Pro Max | 2026-03-13 |
 | 🟠 | Crash Of The Titans | `565507E4` | 📱 iOS | Loads | 🚀 Great | iPad (A16) | 2026-03-08 |
 | 🟠 | Crysis 3 | `4541098E` | 📱 iOS | Loads | 🐢 Poor | iPad Pro M5 | 2026-03-09 |
