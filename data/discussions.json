@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-19T03:12:21.156Z",
+  "generatedAt": "2026-03-19T03:17:23.548Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -3519,8 +3519,34 @@
       "titleId": "454108E6",
       "issueNumber": 244,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/244",
-      "updatedAt": "2026-03-13",
+      "updatedAt": "2026-03-19",
       "entries": [
+        {
+          "id": "comment-4087428671",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/244#issuecomment-4087428671",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-19",
+          "createdAtMs": 1773890055000,
+          "issueNumber": 244,
+          "excerpt": "The game is essentially unplayable. Some assets on the character selection do not load. The game is full of visual glitches, and switching maps caused the game and whole app to crash.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454108E6/1773890051198-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454108E6/1773890051198-2.jpg"
+          ],
+          "meta": {
+            "status": "loads",
+            "perf": "poor",
+            "device": "iPhone 16",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
         {
           "id": "issue-244",
           "type": "issue",
@@ -4380,8 +4406,36 @@
       "titleId": "545407F8",
       "issueNumber": 224,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/224",
-      "updatedAt": "2026-03-12",
+      "updatedAt": "2026-03-19",
       "entries": [
+        {
+          "id": "comment-4087434807",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/224#issuecomment-4087434807",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-19",
+          "createdAtMs": 1773890115000,
+          "issueNumber": 224,
+          "excerpt": "This game loads but extremely slow and may take multiple tries. It has really bad frames once you actually are able to get in the game. Cut scenes have graphical issues",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407F8/1773890110735-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407F8/1773890110735-2.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407F8/1773890110735-3.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407F8/1773890110735-4.jpg"
+          ],
+          "meta": {
+            "status": "ingame",
+            "perf": "poor",
+            "device": "iPhone 16 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
         {
           "id": "issue-224",
           "type": "issue",
