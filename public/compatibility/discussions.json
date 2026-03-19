@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-19T01:07:40.562Z",
+  "generatedAt": "2026-03-19T02:40:54.757Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -4396,10 +4396,39 @@
     },
     "454107D9": {
       "titleId": "454107D9",
-      "issueNumber": 151,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/151",
-      "updatedAt": "2026-03-12",
+      "issueNumber": 223,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/223",
+      "updatedAt": "2026-03-19",
       "entries": [
+        {
+          "id": "comment-4087246949",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/223#issuecomment-4087246949",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-19",
+          "createdAtMs": 1773887988000,
+          "issueNumber": 223,
+          "excerpt": "Game has graphical issues on all cut scenes. Low frame rates during racing but it’s playable. Some freezing here and there. Toggling and u toggling low power mode seems to help when the game freezes.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454107D9/1773887982298-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454107D9/1773887982298-2.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454107D9/1773887982298-3.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454107D9/1773887982298-4.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454107D9/1773887982298-5.jpg"
+          ],
+          "meta": {
+            "status": "ingame",
+            "perf": "ok",
+            "device": "iPhone 16 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
         {
           "id": "issue-223",
           "type": "issue",
