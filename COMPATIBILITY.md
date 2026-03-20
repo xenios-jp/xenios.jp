@@ -2,9 +2,9 @@
 
 > **212 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **87** · 🔵 In-Game: **45** · 🟡 Intro: **20** · 🟠 Loads: **28** · 🔴 Doesn't Boot: **32**
+> 🟢 Playable: **87** · 🔵 In-Game: **46** · 🟡 Intro: **20** · 🟠 Loads: **27** · 🔴 Doesn't Boot: **32**
 >
-> 📱 iOS: **202** · 🖥️ macOS: **18**
+> 📱 iOS: **202** · 🖥️ macOS: **17**
 
 ## Legend
 
@@ -32,7 +32,7 @@
 | 🟢 | Borderlands | `545407E7` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro | 2026-03-13 |
 | 🟢 | Bully: Scholarship Edition | `5454081A` | 📱 iOS | Playable | 🚀 Great | iPad Pro M2 | 2026-03-09 |
 | 🟢 | Call of Duty 2 | `415607D1` | 📱 iOS | Playable | 🚀 Great | iPhone 14 Pro Max | 2026-03-09 |
-| 🟢 | Call of Duty 4: Modern Warfare | `415607E6` | 📱 iOS, 🖥️ macOS | Playable | 👌 OK | iPad Pro 13-inch (M4) | 2026-03-20 |
+| 🟢 | Call of Duty 4: Modern Warfare | `415607E6` | 📱 iOS | Playable | 👌 OK | iPad Pro 13-inch (M4) | 2026-03-13 |
 | 🟢 | Castle Crashers | `584108B7` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro Max | 2026-03-11 |
 | 🟢 | Civilization Revolution | `545407E5` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro | 2026-03-14 |
 | 🟢 | DB: Raging Blast 2 | `4E4D0826` | 📱 iOS | Playable | 🐢 Poor | iPad Pro (M2) | 2026-03-03 |
@@ -121,7 +121,7 @@
 | 🔵 | FIFA 16 | `454109EE` | 📱 iOS | In-Game | 👌 OK | iPhone 14 Pro Max | 2026-03-08 |
 | 🔵 | Fight Night Round 3 | `454107DE` | 📱 iOS | In-Game | 🐢 Poor | iPhone 16e | 2026-03-10 |
 | 🔵 | Frontlines: Fuel of War | `545107D8` | 🖥️ macOS | In-Game | 🐢 Poor | Macbook Neo A18 Pro | 2026-03-19 |
-| 🔵 | Gears of War | `4D5307D5` | 🖥️ macOS, 📱 iOS | In-Game | 🐢 Poor | Macbook Neo A18 Pro | 2026-03-19 |
+| 🔵 | Gears of War | `4D5307D5` | 🖥️ macOS, 📱 iOS | In-Game | 👌 OK | iPhone 16 Pro | 2026-03-11 |
 | 🔵 | Gears of War 3 | `4D5308AB` | 🖥️ macOS | In-Game | 👌 OK | M2 Mac mini | 2026-03-08 |
 | 🔵 | Grand Theft Auto: San Andreas | `545408B8` | 📱 iOS | In-Game | 👌 OK | iPhone 16 Pro Max | 2026-03-19 |
 | 🔵 | Halo 3: ODST | `4D530877` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 | 2026-03-03 |
@@ -145,6 +145,7 @@
 | 🔵 | Pro Evolution Soccer 2013 / PES 2013 | `4B4E084C` | 📱 iOS | In-Game | 👌 OK | iPhone 14 | 2026-03-09 |
 | 🔵 | Pro Evolution Soccer 2016 / PES 2016 | `4B4E0861` | 📱 iOS | In-Game | 👌 OK | iPhone 14 | 2026-03-09 |
 | 🔵 | Rayman Legends | `555308C3` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro Max | 2026-03-08 |
+| 🔵 | Resident Evil 6 | `43430819` | 📱 iOS | In-Game | 🐢 Poor | iPhone 13 Pro Max | 2026-03-20 |
 | 🔵 | Saints Row | `545107D1` | 📱 iOS | In-Game | 👌 OK | iPhone 16 | 2026-03-10 |
 | 🔵 | Saints Row 2 | `545107FC` | 📱 iOS | In-Game | 🐢 Poor | iPhone 14 Pro Max | 2026-03-08 |
 | 🔵 | Serious Sam HD: The First Encounter | `584109DA` | 📱 iOS | In-Game | 🐢 Poor | iPhone Air | 2026-03-08 |
@@ -192,7 +193,6 @@
 | 🟠 | NBA 2K10 | `54549852` | 🖥️ macOS | Loads | 🐢 Poor | MacBook Air (M4) | 2026-03-18 |
 | 🟠 | NCAA Basketball 10 | `454108C3` | 📱 iOS | Loads | 🐢 Poor | iPhone 16e | 2026-03-11 |
 | 🟠 | Project Gotham Racing 4 | `4D5307F9` | 🖥️ macOS | Loads | 🚀 Great | MacBook Pro (M4 Max) | 2026-03-14 |
-| 🟠 | Resident Evil 6 | `43430819` | 📱 iOS | Loads | 🐢 Poor | iPhone 13 | 2026-03-14 |
 | 🟠 | Sonic & All-Stars Racing Transformed | `5345085D` | 📱 iOS | Loads | 🐢 Poor | iPhone 16 Pro | 2026-03-05 |
 | 🟠 | Spider Man: Edge Of Time | `415608B2` | 📱 iOS | Loads | 🐢 Poor | iPhone 15 Pro Max | 2026-03-09 |
 | 🟠 | The Darkness | `545407EE` | 📱 iOS | Loads | 👌 OK | iPhone 17 Pro Max | 2026-03-16 |
