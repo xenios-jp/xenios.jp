@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-20T00:40:37.375Z",
+  "generatedAt": "2026-03-20T01:29:13.906Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -693,10 +693,33 @@
     },
     "45410850": {
       "titleId": "45410850",
-      "issueNumber": 76,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/76",
-      "updatedAt": "2026-03-08",
+      "issueNumber": 303,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/303",
+      "updatedAt": "2026-03-20",
       "entries": [
+        {
+          "id": "issue-303",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/303",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-20",
+          "createdAtMs": 1773970106000,
+          "issueNumber": 303,
+          "excerpt": "Blue screen upon launching game. Never loads",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 12",
+            "platform": "iOS",
+            "osVersion": "iOS 18.6",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
         {
           "id": "issue-76",
           "type": "issue",
