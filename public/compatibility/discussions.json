@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-20T12:12:21.307Z",
+  "generatedAt": "2026-03-20T14:40:19.142Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -3689,8 +3689,31 @@
       "titleId": "4D5309C9",
       "issueNumber": 247,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/247",
-      "updatedAt": "2026-03-14",
+      "updatedAt": "2026-03-20",
       "entries": [
+        {
+          "id": "comment-4098484245",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/247#issuecomment-4098484245",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-20",
+          "createdAtMs": 1774017536000,
+          "issueNumber": 247,
+          "excerpt": "Please dev I know you did biggest thing yet but you need to a little more thanks if you see this",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPad Air 5",
+            "platform": "iOS",
+            "osVersion": "iOS 26.0.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
         {
           "id": "comment-4059208206",
           "type": "comment",
