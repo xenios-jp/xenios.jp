@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-20T00:21:18.520Z",
+  "generatedAt": "2026-03-20T00:40:37.375Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1757,6 +1757,87 @@
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
           "images": [],
           "meta": {}
+        }
+      ]
+    },
+    "4B4E080A": {
+      "titleId": "4B4E080A",
+      "issueNumber": 302,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/302",
+      "updatedAt": "2026-03-20",
+      "entries": [
+        {
+          "id": "issue-302",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/302",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-20",
+          "createdAtMs": 1773967194000,
+          "issueNumber": 302,
+          "excerpt": "Game stares at a black screen",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 16",
+            "platform": "iOS",
+            "osVersion": "iOS 18.6.2",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
+        {
+          "id": "comment-4034509620",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/104#issuecomment-4034509620",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-10",
+          "createdAtMs": 1773177164000,
+          "issueNumber": 104,
+          "excerpt": "Gameplay runs great some audio issues during heavy gameplay and for sure no sound during cutscenes as well as graphical glitches during cutscenes. Running at 30FPS",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4B4E080A/1773177160507-1.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.0.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        },
+        {
+          "id": "issue-104",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/104",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-09",
+          "createdAtMs": 1773014679000,
+          "issueNumber": 104,
+          "excerpt": "Take three boot to get through the menu, but after that run, smooth",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4B4E080A/1773014677621-1.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
         }
       ]
     },
@@ -7937,64 +8018,6 @@
             "device": "iPhone 15 Pro",
             "platform": "iOS",
             "osVersion": "iOS 26.3",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "`2633e8177`"
-          }
-        }
-      ]
-    },
-    "4B4E080A": {
-      "titleId": "4B4E080A",
-      "issueNumber": 104,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/104",
-      "updatedAt": "2026-03-10",
-      "entries": [
-        {
-          "id": "comment-4034509620",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/104#issuecomment-4034509620",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-10",
-          "createdAtMs": 1773177164000,
-          "issueNumber": 104,
-          "excerpt": "Gameplay runs great some audio issues during heavy gameplay and for sure no sound during cutscenes as well as graphical glitches during cutscenes. Running at 30FPS",
-          "images": [
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4B4E080A/1773177160507-1.jpg"
-          ],
-          "meta": {
-            "status": "playable",
-            "perf": "great",
-            "device": "iPhone 17 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 26.0.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "`2633e8177`"
-          }
-        },
-        {
-          "id": "issue-104",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/104",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-09",
-          "createdAtMs": 1773014679000,
-          "issueNumber": 104,
-          "excerpt": "Take three boot to get through the menu, but after that run, smooth",
-          "images": [
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4B4E080A/1773014677621-1.jpg"
-          ],
-          "meta": {
-            "status": "playable",
-            "perf": "ok",
-            "device": "iPhone 17 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3.1",
             "gpuBackend": "MSL",
             "buildChannel": "self-built",
             "appVersion": "1.0.0",
