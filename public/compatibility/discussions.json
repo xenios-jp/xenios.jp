@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-19T23:58:34.339Z",
+  "generatedAt": "2026-03-19T23:59:14.907Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1732,92 +1732,6 @@
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
           "images": [],
           "meta": {}
-        }
-      ]
-    },
-    "4D5307D5": {
-      "titleId": "4D5307D5",
-      "issueNumber": 300,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/300",
-      "updatedAt": "2026-03-19",
-      "entries": [
-        {
-          "id": "issue-300",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/300",
-          "author": "coreypin",
-          "createdAt": "2026-03-19",
-          "createdAtMs": 1773964661000,
-          "issueNumber": 300,
-          "excerpt": "Can't play past when Graphics start glitching out, Random colors, game audio cracks, cutscenes play fine, I am able to use the full main menu",
-          "images": [],
-          "meta": {}
-        },
-        {
-          "id": "comment-4037336640",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/195#issuecomment-4037336640",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-11",
-          "createdAtMs": 1773217024000,
-          "issueNumber": 195,
-          "excerpt": "Able to load into game, low frame rates and severe graphical bugs but functions.",
-          "images": [],
-          "meta": {
-            "status": "ingame",
-            "perf": "ok",
-            "device": "iPhone 16 Pro",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9296",
-            "commitShort": "`ab2ca341a`"
-          }
-        },
-        {
-          "id": "issue-195",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/195",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-11",
-          "createdAtMs": 1773208162000,
-          "issueNumber": 195,
-          "excerpt": "Makes it into and through the game start menu, gets stuck loading when starting campaign. Will continue to test and amend if changes.",
-          "images": [],
-          "meta": {
-            "status": "intro",
-            "perf": "ok",
-            "device": "iPhone 16 Pro",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9294",
-            "commitShort": "`3f7efcbfb`"
-          }
-        },
-        {
-          "id": "issue-40",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/40",
-          "author": "xenios-jp",
-          "createdAt": "2026-02-28",
-          "createdAtMs": 1772288527000,
-          "issueNumber": 40,
-          "excerpt": "Runs well but with pretty severe intermittent graphical issues.",
-          "images": [],
-          "meta": {
-            "status": "ingame",
-            "perf": "ok",
-            "device": "MacBook Pro M4 Pro/Max",
-            "platform": "macOS",
-            "osVersion": "macOS 26.3",
-            "gpuBackend": "MSC",
-            "submittedBy": "reality111"
-          }
         }
       ]
     },
@@ -5829,6 +5743,80 @@
             "platform": "iOS",
             "osVersion": "iOS 18.5",
             "gpuBackend": "MSL"
+          }
+        }
+      ]
+    },
+    "4D5307D5": {
+      "titleId": "4D5307D5",
+      "issueNumber": 40,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/40",
+      "updatedAt": "2026-03-19",
+      "entries": [
+        {
+          "id": "comment-4037336640",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/195#issuecomment-4037336640",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-11",
+          "createdAtMs": 1773217024000,
+          "issueNumber": 195,
+          "excerpt": "Able to load into game, low frame rates and severe graphical bugs but functions.",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "ok",
+            "device": "iPhone 16 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9296",
+            "commitShort": "`ab2ca341a`"
+          }
+        },
+        {
+          "id": "issue-195",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/195",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-11",
+          "createdAtMs": 1773208162000,
+          "issueNumber": 195,
+          "excerpt": "Makes it into and through the game start menu, gets stuck loading when starting campaign. Will continue to test and amend if changes.",
+          "images": [],
+          "meta": {
+            "status": "intro",
+            "perf": "ok",
+            "device": "iPhone 16 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9294",
+            "commitShort": "`3f7efcbfb`"
+          }
+        },
+        {
+          "id": "issue-40",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/40",
+          "author": "xenios-jp",
+          "createdAt": "2026-02-28",
+          "createdAtMs": 1772288527000,
+          "issueNumber": 40,
+          "excerpt": "Runs well but with pretty severe intermittent graphical issues.",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "ok",
+            "device": "MacBook Pro M4 Pro/Max",
+            "platform": "macOS",
+            "osVersion": "macOS 26.3",
+            "gpuBackend": "MSC",
+            "submittedBy": "reality111"
           }
         }
       ]

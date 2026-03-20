@@ -121,7 +121,7 @@
 | 🔵 | FIFA 16 | `454109EE` | 📱 iOS | In-Game | 👌 OK | iPhone 14 Pro Max | 2026-03-08 |
 | 🔵 | Fight Night Round 3 | `454107DE` | 📱 iOS | In-Game | 🐢 Poor | iPhone 16e | 2026-03-10 |
 | 🔵 | Frontlines: Fuel of War | `545107D8` | 🖥️ macOS | In-Game | 🐢 Poor | Macbook Neo A18 Pro | 2026-03-19 |
-| 🔵 | Gears of War | `4D5307D5` | 🖥️ macOS, 📱 iOS | In-Game | 👌 OK | iPhone 16 Pro | 2026-03-11 |
+| 🔵 | Gears of War | `4D5307D5` | 🖥️ macOS, 📱 iOS | In-Game | 🐢 Poor | Macbook Neo A18 Pro | 2026-03-19 |
 | 🔵 | Gears of War 3 | `4D5308AB` | 🖥️ macOS | In-Game | 👌 OK | M2 Mac mini | 2026-03-08 |
 | 🔵 | Grand Theft Auto: San Andreas | `545408B8` | 📱 iOS | In-Game | 👌 OK | iPhone 16 Pro Max | 2026-03-19 |
 | 🔵 | Halo 3: ODST | `4D530877` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 | 2026-03-03 |
