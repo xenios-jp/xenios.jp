@@ -4,7 +4,7 @@
 >
 > 🟢 Playable: **87** · 🔵 In-Game: **45** · 🟡 Intro: **20** · 🟠 Loads: **28** · 🔴 Doesn't Boot: **32**
 >
-> 📱 iOS: **202** · 🖥️ macOS: **17**
+> 📱 iOS: **202** · 🖥️ macOS: **18**
 
 ## Legend
 
@@ -32,7 +32,7 @@
 | 🟢 | Borderlands | `545407E7` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro | 2026-03-13 |
 | 🟢 | Bully: Scholarship Edition | `5454081A` | 📱 iOS | Playable | 🚀 Great | iPad Pro M2 | 2026-03-09 |
 | 🟢 | Call of Duty 2 | `415607D1` | 📱 iOS | Playable | 🚀 Great | iPhone 14 Pro Max | 2026-03-09 |
-| 🟢 | Call of Duty 4: Modern Warfare | `415607E6` | 📱 iOS | Playable | 👌 OK | iPad Pro 13-inch (M4) | 2026-03-13 |
+| 🟢 | Call of Duty 4: Modern Warfare | `415607E6` | 📱 iOS, 🖥️ macOS | Playable | 👌 OK | iPad Pro 13-inch (M4) | 2026-03-20 |
 | 🟢 | Castle Crashers | `584108B7` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro Max | 2026-03-11 |
 | 🟢 | Civilization Revolution | `545407E5` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro | 2026-03-14 |
 | 🟢 | DB: Raging Blast 2 | `4E4D0826` | 📱 iOS | Playable | 🐢 Poor | iPad Pro (M2) | 2026-03-03 |

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-19T23:59:14.907Z",
+  "generatedAt": "2026-03-20T00:07:00.789Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1732,6 +1732,116 @@
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
           "images": [],
           "meta": {}
+        }
+      ]
+    },
+    "415607E6": {
+      "titleId": "415607E6",
+      "issueNumber": 37,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/37",
+      "updatedAt": "2026-03-20",
+      "entries": [
+        {
+          "id": "issue-301",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/301",
+          "author": "coreypin",
+          "createdAt": "2026-03-20",
+          "createdAtMs": 1773965160000,
+          "issueNumber": 301,
+          "excerpt": "Has Major Graphical Glitches, with models going though walls, your hand glitching around you, audio was fine for me nothing terrible, if you stay on the main menu for too long it freezes, so I had to spam the A button to get into campaign fast",
+          "images": [],
+          "meta": {}
+        },
+        {
+          "id": "comment-4054938263",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/144#issuecomment-4054938263",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-13",
+          "createdAtMs": 1773407071000,
+          "issueNumber": 144,
+          "excerpt": "Shader compilation is buggy but 100% playable on IPad Pro M4 13in 1TB 16GB Ram on iOS 16.3.1 MAKE SURE TO DOWNLOAD REQUIRE STICK DEBUG SCRIPT! I previously posted game crashes comment. Please ignore.",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPad Pro 13-inch (M4)",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9296",
+            "commitShort": "`ab2ca341a`"
+          }
+        },
+        {
+          "id": "comment-4028468601",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/144#issuecomment-4028468601",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-10",
+          "createdAtMs": 1773114624000,
+          "issueNumber": 144,
+          "excerpt": "The game is awesome runs super good it’s chefs kiss. Overall: spectacular",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 15 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        },
+        {
+          "id": "issue-144",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/144",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-09",
+          "createdAtMs": 1773077300000,
+          "issueNumber": 144,
+          "excerpt": "I’d recon that this game is playable but not enjoyable many gotches when first loading the game and when playing the gam. Like random textures spreading around and blue flashing on the screen. To the developer please fix the issue where I can’t report games that are iso I’ve been able to report games that are in GOD format. Also mw1 has pretty alright fps but does start to stutter in combat. Like full fps when doing the training course but on the boat it fluctuates.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/415607E6/1773077297584-1.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        },
+        {
+          "id": "issue-37",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/37",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-01",
+          "createdAtMs": 1772347531000,
+          "issueNumber": 37,
+          "excerpt": "Loads into game but experiences severe graphical issues.",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "ok",
+            "device": "iPhone 17",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL"
+          }
         }
       ]
     },
@@ -5821,67 +5931,6 @@
         }
       ]
     },
-    "415607FF": {
-      "titleId": "415607FF",
-      "issueNumber": 193,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/193",
-      "updatedAt": "2026-03-11",
-      "entries": [
-        {
-          "id": "comment-4036281976",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/193#issuecomment-4036281976",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-11",
-          "createdAtMs": 1773203476000,
-          "issueNumber": 193,
-          "excerpt": "No audio issues, there is some artifacts during gameplay due to shader compilation, textures take few moments to load, and has frame drops during heavy scenes. Overall it runs fine",
-          "images": [
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/415607FF/1773203471363-1.jpg",
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/415607FF/1773203471363-2.jpg"
-          ],
-          "meta": {
-            "status": "playable",
-            "perf": "ok",
-            "device": "iPad Pro 12.9-inch (M2)",
-            "platform": "iOS",
-            "osVersion": "iOS 26.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "`2633e8177`"
-          }
-        },
-        {
-          "id": "issue-193",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/193",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-11",
-          "createdAtMs": 1773203164000,
-          "issueNumber": 193,
-          "excerpt": "Game loads into home screen easily, after a few attempts I was able to get past the difficulty selection. Pre-rendered Intro scene played at full speed; once gameplay started there were graphical glitches until most things were rendered in; game only runs between 9-17fps during gameplay; crashes at random points",
-          "images": [
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/415607FF/1773203160616-1.jpg",
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/415607FF/1773203160616-2.jpg",
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/415607FF/1773203160616-3.jpg"
-          ],
-          "meta": {
-            "status": "ingame",
-            "perf": "poor",
-            "device": "iPhone 16 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 18.6",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "`2633e8177`"
-          }
-        }
-      ]
-    },
     "584108B7": {
       "titleId": "584108B7",
       "issueNumber": 192,
@@ -7136,104 +7185,6 @@
             "https://github.com/user-attachments/assets/d9acdd0a-699f-42d7-b020-a88ce3e39e91"
           ],
           "meta": {}
-        }
-      ]
-    },
-    "415607E6": {
-      "titleId": "415607E6",
-      "issueNumber": 144,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/144",
-      "updatedAt": "2026-03-13",
-      "entries": [
-        {
-          "id": "comment-4054938263",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/144#issuecomment-4054938263",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-13",
-          "createdAtMs": 1773407071000,
-          "issueNumber": 144,
-          "excerpt": "Shader compilation is buggy but 100% playable on IPad Pro M4 13in 1TB 16GB Ram on iOS 16.3.1 MAKE SURE TO DOWNLOAD REQUIRE STICK DEBUG SCRIPT! I previously posted game crashes comment. Please ignore.",
-          "images": [],
-          "meta": {
-            "status": "playable",
-            "perf": "ok",
-            "device": "iPad Pro 13-inch (M4)",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9296",
-            "commitShort": "`ab2ca341a`"
-          }
-        },
-        {
-          "id": "comment-4028468601",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/144#issuecomment-4028468601",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-10",
-          "createdAtMs": 1773114624000,
-          "issueNumber": 144,
-          "excerpt": "The game is awesome runs super good it’s chefs kiss. Overall: spectacular",
-          "images": [],
-          "meta": {
-            "status": "playable",
-            "perf": "great",
-            "device": "iPhone 15 Pro",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "`2633e8177`"
-          }
-        },
-        {
-          "id": "issue-144",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/144",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-09",
-          "createdAtMs": 1773077300000,
-          "issueNumber": 144,
-          "excerpt": "I’d recon that this game is playable but not enjoyable many gotches when first loading the game and when playing the gam. Like random textures spreading around and blue flashing on the screen. To the developer please fix the issue where I can’t report games that are iso I’ve been able to report games that are in GOD format. Also mw1 has pretty alright fps but does start to stutter in combat. Like full fps when doing the training course but on the boat it fluctuates.",
-          "images": [
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/415607E6/1773077297584-1.jpg"
-          ],
-          "meta": {
-            "status": "playable",
-            "perf": "ok",
-            "device": "iPhone 17 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "`2633e8177`"
-          }
-        },
-        {
-          "id": "issue-37",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/37",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-01",
-          "createdAtMs": 1772347531000,
-          "issueNumber": 37,
-          "excerpt": "Loads into game but experiences severe graphical issues.",
-          "images": [],
-          "meta": {
-            "status": "ingame",
-            "perf": "ok",
-            "device": "iPhone 17",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3",
-            "gpuBackend": "MSL"
-          }
         }
       ]
     },
