@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-20T17:10:54.069Z",
+  "generatedAt": "2026-03-20T18:52:00.397Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -5213,8 +5213,31 @@
       "titleId": "545408A7",
       "issueNumber": 214,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/214",
-      "updatedAt": "2026-03-19",
+      "updatedAt": "2026-03-20",
       "entries": [
+        {
+          "id": "comment-4100315080",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/214#issuecomment-4100315080",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-20",
+          "createdAtMs": 1774032656000,
+          "issueNumber": 214,
+          "excerpt": "Audio artifacts when game is booting. After intro and the game goes into a black screen",
+          "images": [],
+          "meta": {
+            "status": "intro",
+            "perf": "poor",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
         {
           "id": "comment-4094455712",
           "type": "comment",
@@ -5307,33 +5330,6 @@
           "excerpt": "Hi, how did you open it? I’m stuck on the loading screen.",
           "images": [],
           "meta": {}
-        },
-        {
-          "id": "comment-4063761200",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/214#issuecomment-4063761200",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-15",
-          "createdAtMs": 1773604066000,
-          "issueNumber": 214,
-          "excerpt": "was able to get in-game after hours of trial and error using the latest build. Also, it needs specific settings otherwise the game loads forever. The performance ranged from 20 to 30 fps surprisingly and it actually takes 4 seconds to load to in game. Sound is manufactured by a forgotten demon from purgatory and will burn your eardrums. Control is amazing with vibrations. The graphics are actually nice because all textures are rendered but the graphical glitches are only matched by the effect of the heaviest drugs known to mankind. Amazing that it even runs on an iPhone and that it doesn’t overheat my phone that much.",
-          "images": [
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408A7/1773604061258-1.jpg",
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408A7/1773604061258-2.jpg",
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408A7/1773604061258-3.jpg"
-          ],
-          "meta": {
-            "status": "ingame",
-            "perf": "ok",
-            "device": "iPhone 17 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 26.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9320",
-            "commitShort": "`3d70b7b41a`"
-          }
         }
       ]
     },
