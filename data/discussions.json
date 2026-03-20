@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-20T14:40:19.142Z",
+  "generatedAt": "2026-03-20T16:47:19.519Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1789,6 +1789,29 @@
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/305",
       "updatedAt": "2026-03-20",
       "entries": [
+        {
+          "id": "comment-4099512350",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/305#issuecomment-4099512350",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-20",
+          "createdAtMs": 1774025123000,
+          "issueNumber": 305,
+          "excerpt": "Loads into main menu but freezes when new game/level select is pressed",
+          "images": [],
+          "meta": {
+            "status": "loads",
+            "perf": "ok",
+            "device": "iPad Air 11-inch (M3)",
+            "platform": "iOS",
+            "osVersion": "iOS 26.2.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
         {
           "id": "issue-305",
           "type": "issue",
