@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-20T16:47:19.519Z",
+  "generatedAt": "2026-03-20T17:10:54.069Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1780,6 +1780,113 @@
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
           "images": [],
           "meta": {}
+        }
+      ]
+    },
+    "4D5307EA": {
+      "titleId": "4D5307EA",
+      "issueNumber": 306,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/306",
+      "updatedAt": "2026-03-20",
+      "entries": [
+        {
+          "id": "issue-306",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/306",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-20",
+          "createdAtMs": 1774026594000,
+          "issueNumber": 306,
+          "excerpt": "Game runs great with occasional stutters",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPad Air 11-inch (M3)",
+            "platform": "iOS",
+            "osVersion": "iOS 26.2.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
+        {
+          "id": "comment-4078976143",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/185#issuecomment-4078976143",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-18",
+          "createdAtMs": 1773796151000,
+          "issueNumber": 185,
+          "excerpt": "Performance is good after shaders have compiled, 20-25 FPS in-game and up to 35 FPS in replay mode, trees don’t load properly in-game, however they do load in replay mode.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4D5307EA/1773796147409-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4D5307EA/1773796147409-2.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4D5307EA/1773796147409-3.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.2",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
+        {
+          "id": "comment-4078975520",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/185#issuecomment-4078975520",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-18",
+          "createdAtMs": 1773796137000,
+          "issueNumber": 185,
+          "excerpt": "Performance is good after shaders have compiled, 20-25 FPS in-game and up to 35 FPS in replay mode, trees don’t load properly in-game, however they do load in replay mode.",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.2",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
+        {
+          "id": "issue-185",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/185",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-10",
+          "createdAtMs": 1773183492000,
+          "issueNumber": 185,
+          "excerpt": "game runs fine with great graphics but low framerate",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4D5307EA/1773183486826-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4D5307EA/1773183486826-2.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "poor",
+            "device": "iPhone 16",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
         }
       ]
     },
@@ -6404,90 +6511,6 @@
             "device": "iPad (A16)",
             "platform": "iOS",
             "osVersion": "iOS 18.3",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "`2633e8177`"
-          }
-        }
-      ]
-    },
-    "4D5307EA": {
-      "titleId": "4D5307EA",
-      "issueNumber": 185,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/185",
-      "updatedAt": "2026-03-18",
-      "entries": [
-        {
-          "id": "comment-4078976143",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/185#issuecomment-4078976143",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-18",
-          "createdAtMs": 1773796151000,
-          "issueNumber": 185,
-          "excerpt": "Performance is good after shaders have compiled, 20-25 FPS in-game and up to 35 FPS in replay mode, trees don’t load properly in-game, however they do load in replay mode.",
-          "images": [
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4D5307EA/1773796147409-1.jpg",
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4D5307EA/1773796147409-2.jpg",
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4D5307EA/1773796147409-3.jpg"
-          ],
-          "meta": {
-            "status": "playable",
-            "perf": "ok",
-            "device": "iPhone 17 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 26.2",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "`056d2f64d`"
-          }
-        },
-        {
-          "id": "comment-4078975520",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/185#issuecomment-4078975520",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-18",
-          "createdAtMs": 1773796137000,
-          "issueNumber": 185,
-          "excerpt": "Performance is good after shaders have compiled, 20-25 FPS in-game and up to 35 FPS in replay mode, trees don’t load properly in-game, however they do load in replay mode.",
-          "images": [],
-          "meta": {
-            "status": "playable",
-            "perf": "ok",
-            "device": "iPhone 17 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 26.2",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "`056d2f64d`"
-          }
-        },
-        {
-          "id": "issue-185",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/185",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-10",
-          "createdAtMs": 1773183492000,
-          "issueNumber": 185,
-          "excerpt": "game runs fine with great graphics but low framerate",
-          "images": [
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4D5307EA/1773183486826-1.jpg",
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4D5307EA/1773183486826-2.jpg"
-          ],
-          "meta": {
-            "status": "playable",
-            "perf": "poor",
-            "device": "iPhone 16",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3",
             "gpuBackend": "MSL",
             "buildChannel": "self-built",
             "appVersion": "1.0.0",
