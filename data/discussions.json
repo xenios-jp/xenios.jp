@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-20T18:52:00.397Z",
+  "generatedAt": "2026-03-20T21:11:36.544Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1780,6 +1780,60 @@
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
           "images": [],
           "meta": {}
+        }
+      ]
+    },
+    "504787D8": {
+      "titleId": "504787D8",
+      "issueNumber": 307,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/307",
+      "updatedAt": "2026-03-20",
+      "entries": [
+        {
+          "id": "issue-307",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/307",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-20",
+          "createdAtMs": 1774040992000,
+          "issueNumber": 307,
+          "excerpt": "Nothing at all just crashes .",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 14 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 26.2.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
+        {
+          "id": "issue-109",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/109",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-09",
+          "createdAtMs": 1773017383000,
+          "issueNumber": 109,
+          "excerpt": "I load into the game and can move in the title select screen but the A button won’t start a game",
+          "images": [],
+          "meta": {
+            "status": "intro",
+            "perf": "great",
+            "device": "iPhone 13 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 18.6",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
         }
       ]
     },
@@ -8013,37 +8067,6 @@
             "device": "iPhone 17 Pro Max",
             "platform": "iOS",
             "osVersion": "iOS 26.3.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "`2633e8177`"
-          }
-        }
-      ]
-    },
-    "504787D8": {
-      "titleId": "504787D8",
-      "issueNumber": 109,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/109",
-      "updatedAt": "2026-03-09",
-      "entries": [
-        {
-          "id": "issue-109",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/109",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-09",
-          "createdAtMs": 1773017383000,
-          "issueNumber": 109,
-          "excerpt": "I load into the game and can move in the title select screen but the A button won’t start a game",
-          "images": [],
-          "meta": {
-            "status": "intro",
-            "perf": "great",
-            "device": "iPhone 13 Pro",
-            "platform": "iOS",
-            "osVersion": "iOS 18.6",
             "gpuBackend": "MSL",
             "buildChannel": "self-built",
             "appVersion": "1.0.0",
