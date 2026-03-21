@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **215 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **216 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **87** · 🔵 In-Game: **46** · 🟡 Intro: **20** · 🟠 Loads: **28** · 🔴 Doesn't Boot: **34**
+> 🟢 Playable: **87** · 🔵 In-Game: **46** · 🟡 Intro: **20** · 🟠 Loads: **28** · 🔴 Doesn't Boot: **35**
 >
-> 📱 iOS: **205** · 🖥️ macOS: **17**
+> 📱 iOS: **205** · 🖥️ macOS: **18**
 
 ## Legend
 
@@ -215,6 +215,7 @@
 | 🔴 | FIFA 15 | `454109DB` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Pro 13-inch (M4) | 2026-03-13 |
 | 🔴 | Fight Night Champion | `45410915` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Pro (M2) | 2026-03-03 |
 | 🔴 | Forza Horizon 2 Presents Fast & Furious | `4D530AB5` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad 10 | 2026-03-08 |
+| 🔴 | GRID | `434D07FF` | 🖥️ macOS | Doesn't Boot | ➖ N/A | MacBook Air M1 | 2026-03-21 |
 | 🔴 | Left 4 Dead 2 | `454108D4` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Air 4 | 2026-03-13 |
 | 🔴 | LEGO Star Wars: The Force Awakens | `57520851` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 14 | 2026-03-16 |
 | 🔴 | Mighty No. 9 | `584114A4` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 13 | 2026-03-09 |

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-21T11:04:35.556Z",
+  "generatedAt": "2026-03-21T18:30:26.344Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1801,6 +1801,26 @@
           "createdAtMs": 1773517964000,
           "issueNumber": 263,
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
+          "images": [],
+          "meta": {}
+        }
+      ]
+    },
+    "434D07FF": {
+      "titleId": "434D07FF",
+      "issueNumber": 310,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/310",
+      "updatedAt": "2026-03-21",
+      "entries": [
+        {
+          "id": "issue-310",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/310",
+          "author": "GonnaMakeMeTweak",
+          "createdAt": "2026-03-21",
+          "createdAtMs": 1774117788000,
+          "issueNumber": 310,
+          "excerpt": "It displays the game logo for 1 second and then crashes/black screen loop.",
           "images": [],
           "meta": {}
         }
