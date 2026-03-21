@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-21T18:30:26.344Z",
+  "generatedAt": "2026-03-21T18:37:01.382Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1808,10 +1808,22 @@
     },
     "434D07FF": {
       "titleId": "434D07FF",
-      "issueNumber": 310,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/310",
+      "issueNumber": 311,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/311",
       "updatedAt": "2026-03-21",
       "entries": [
+        {
+          "id": "issue-311",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/311",
+          "author": "GonnaMakeMeTweak",
+          "createdAt": "2026-03-21",
+          "createdAtMs": 1774118179000,
+          "issueNumber": 311,
+          "excerpt": "It displays the game logo for 1 second and then crashes.",
+          "images": [],
+          "meta": {}
+        },
         {
           "id": "issue-310",
           "type": "issue",
