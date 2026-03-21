@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-21T09:46:11.701Z",
+  "generatedAt": "2026-03-21T09:58:25.856Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -452,8 +452,31 @@
       "titleId": "45410809",
       "issueNumber": 213,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/213",
-      "updatedAt": "2026-03-12",
+      "updatedAt": "2026-03-21",
       "entries": [
+        {
+          "id": "comment-4102978925",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/213#issuecomment-4102978925",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-21",
+          "createdAtMs": 1774087042000,
+          "issueNumber": 213,
+          "excerpt": "Its all static and then shuts down",
+          "images": [],
+          "meta": {
+            "status": "intro",
+            "perf": "poor",
+            "device": "iPhone 16 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
         {
           "id": "issue-213",
           "type": "issue",

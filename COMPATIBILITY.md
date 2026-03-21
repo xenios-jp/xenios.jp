@@ -100,7 +100,7 @@
 | 🟢 | Steins;Gate Hiyoku Renri no Darling | `465607E8` | 📱 iOS | Playable | 🚀 Great | iPhone 17 | 2026-03-02 |
 | 🟢 | STREET FIGHTER X TEKKEN | `4343080F` | 📱 iOS | Playable | 🐢 Poor | iPhone 16 Pro Max | 2026-03-11 |
 | 🟢 | The Outfit | `545107D2` | 📱 iOS | Playable | 🐢 Poor | iPhone 15 Pro Max | 2026-03-13 |
-| 🟢 | The Simpsons Game | `45410809` | 📱 iOS | Playable | 🚀 Great | iPhone 15 Pro Max | 2026-03-12 |
+| 🟢 | The Simpsons Game | `45410809` | 📱 iOS | Playable | 🚀 Great | iPhone 15 Pro Max | 2026-03-21 |
 | 🟢 | TimeShift | `565507DA` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro | 2026-03-13 |
 | 🟢 | Toy Story 3 | `425607E5` | 📱 iOS | Playable | 👌 OK | iPhone 15 Pro | 2026-03-15 |
 | 🟢 | Ultra Street Fighter IV | `434307FC` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro Max | 2026-03-09 |
