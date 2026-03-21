@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-20T21:11:36.544Z",
+  "generatedAt": "2026-03-21T04:06:23.016Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1780,6 +1780,37 @@
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
           "images": [],
           "meta": {}
+        }
+      ]
+    },
+    "4B4E0802": {
+      "titleId": "4B4E0802",
+      "issueNumber": 308,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/308",
+      "updatedAt": "2026-03-21",
+      "entries": [
+        {
+          "id": "issue-308",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/308",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-21",
+          "createdAtMs": 1774065940000,
+          "issueNumber": 308,
+          "excerpt": "The game will load the opening credits smoothly at full speed and then hangs immediately after loading; and before the menu.",
+          "images": [],
+          "meta": {
+            "status": "loads",
+            "perf": "ok",
+            "device": "iPhone 16 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 18.5",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
         }
       ]
     },
