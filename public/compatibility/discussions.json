@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-21T09:58:25.856Z",
+  "generatedAt": "2026-03-21T11:03:33.274Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -5352,8 +5352,35 @@
       "titleId": "545408A7",
       "issueNumber": 214,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/214",
-      "updatedAt": "2026-03-20",
+      "updatedAt": "2026-03-21",
       "entries": [
+        {
+          "id": "comment-4103091203",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/214#issuecomment-4103091203",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-21",
+          "createdAtMs": 1774090950000,
+          "issueNumber": 214,
+          "excerpt": "I upload the tutorial\n\n【【教程】Xenia Canary双盘GTAV教程[附iOS端Xenios部分教程]-哔哩哔哩】 \n\nIf you are not Chinese, please translate the tutorial content yourself.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408A7/1774090937401-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408A7/1774090937401-2.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408A7/1774090937401-3.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
         {
           "id": "comment-4100315080",
           "type": "comment",
@@ -5457,18 +5484,6 @@
             "buildNumber": "9288",
             "commitShort": "`056d2f64d`"
           }
-        },
-        {
-          "id": "comment-4064707743",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/214#issuecomment-4064707743",
-          "author": "m7wshd5892-commits",
-          "createdAt": "2026-03-16",
-          "createdAtMs": 1773629162000,
-          "issueNumber": 214,
-          "excerpt": "Hi, how did you open it? I’m stuck on the loading screen.",
-          "images": [],
-          "meta": {}
         }
       ]
     },
