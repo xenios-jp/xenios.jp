@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-22T20:19:01.711Z",
+  "generatedAt": "2026-03-22T20:34:54.212Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -76,6 +76,39 @@
           "meta": {
             "status": "playable",
             "perf": "ok",
+            "device": "iPhone 13 mini",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        }
+      ]
+    },
+    "41560830": {
+      "titleId": "41560830",
+      "issueNumber": 320,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/320",
+      "updatedAt": "2026-03-22",
+      "entries": [
+        {
+          "id": "issue-320",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/320",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-22",
+          "createdAtMs": 1774211655000,
+          "issueNumber": 320,
+          "excerpt": "Have trouble loading into songs some times\nPerformance very poor on iPhone 13 Mini\nAudio is glitched",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/41560830/1774211651421-1.jpg"
+          ],
+          "meta": {
+            "status": "ingame",
+            "perf": "poor",
             "device": "iPhone 13 mini",
             "platform": "iOS",
             "osVersion": "iOS 26.3.1",
