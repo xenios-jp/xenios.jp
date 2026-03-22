@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **226 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **227 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **90** · 🔵 In-Game: **53** · 🟡 Intro: **19** · 🟠 Loads: **28** · 🔴 Doesn't Boot: **36**
+> 🟢 Playable: **90** · 🔵 In-Game: **53** · 🟡 Intro: **19** · 🟠 Loads: **29** · 🔴 Doesn't Boot: **36**
 >
-> 📱 iOS: **215** · 🖥️ macOS: **25**
+> 📱 iOS: **216** · 🖥️ macOS: **25**
 
 ## Legend
 
@@ -202,6 +202,7 @@
 | 🟠 | NBA 2K10 | `54549852` | 🖥️ macOS | Loads | 🐢 Poor | MacBook Air (M4) | 2026-03-18 |
 | 🟠 | NCAA Basketball 10 | `454108C3` | 📱 iOS | Loads | 🐢 Poor | iPhone 16e | 2026-03-11 |
 | 🟠 | Project Gotham Racing 4 | `4D5307F9` | 🖥️ macOS | Loads | 🚀 Great | MacBook Pro (M4 Max) | 2026-03-14 |
+| 🟠 | Rock Band | `45410829` | 📱 iOS | Loads | 🐢 Poor | iPhone 13 mini | 2026-03-22 |
 | 🟠 | Saw | `4B4E0802` | 📱 iOS | Loads | 👌 OK | iPhone 16 Pro | 2026-03-21 |
 | 🟠 | Sonic & All-Stars Racing Transformed | `5345085D` | 📱 iOS | Loads | 🐢 Poor | iPhone 16 Pro | 2026-03-05 |
 | 🟠 | Spider Man: Edge Of Time | `415608B2` | 📱 iOS | Loads | 🐢 Poor | iPhone 15 Pro Max | 2026-03-09 |

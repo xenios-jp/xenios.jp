@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-22T23:27:00.098Z",
+  "generatedAt": "2026-03-22T23:45:34.147Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -812,6 +812,39 @@
             "appVersion": "1.0.0",
             "buildNumber": "9280",
             "commitShort": "`2633e8177`"
+          }
+        }
+      ]
+    },
+    "45410829": {
+      "titleId": "45410829",
+      "issueNumber": 334,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/334",
+      "updatedAt": "2026-03-22",
+      "entries": [
+        {
+          "id": "issue-334",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/334",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-22",
+          "createdAtMs": 1774223064000,
+          "issueNumber": 334,
+          "excerpt": "Sound does not work in game\nSoftlocks when entering in game",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/45410829/1774223059749-1.jpg"
+          ],
+          "meta": {
+            "status": "loads",
+            "perf": "poor",
+            "device": "iPhone 13 mini",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
           }
         }
       ]
