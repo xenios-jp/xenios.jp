@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-22T21:16:13.282Z",
+  "generatedAt": "2026-03-22T21:26:10.160Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -94,18 +94,6 @@
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/320",
       "updatedAt": "2026-03-22",
       "entries": [
-        {
-          "id": "issue-323",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/323",
-          "author": "kControllerVocals",
-          "createdAt": "2026-03-22",
-          "createdAtMs": 1774214122000,
-          "issueNumber": 323,
-          "excerpt": "Game will take a couple of restart before loading into a song\nAudio is glitched",
-          "images": [],
-          "meta": {}
-        },
         {
           "id": "issue-320",
           "type": "issue",
@@ -486,6 +474,41 @@
             "buildNumber": "9296",
             "commitShort": "`ab2ca341a`"
           }
+        },
+        {
+          "id": "comment-4043021802",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/103#issuecomment-4043021802",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-12",
+          "createdAtMs": 1773274256000,
+          "issueNumber": 103,
+          "excerpt": "Freeze or crash alter loading",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 15 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.2",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9296",
+            "commitShort": "`ab2ca341a`"
+          }
+        },
+        {
+          "id": "issue-103",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/103",
+          "author": "QualityControled",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1773012730000,
+          "issueNumber": 103,
+          "excerpt": "All pre-rendered scenes have graphical issues. Menus are fine, upon game loading game speed was 50% and lead to a crash. Restarting app after every crash would get me further.",
+          "images": [],
+          "meta": {}
         }
       ]
     },
@@ -1847,6 +1870,51 @@
         }
       ]
     },
+    "4156083E": {
+      "titleId": "4156083E",
+      "issueNumber": 321,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/321",
+      "updatedAt": "2026-03-22",
+      "entries": [
+        {
+          "id": "issue-324",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/324",
+          "author": "kControllerVocals",
+          "createdAt": "2026-03-22",
+          "createdAtMs": 1774214708000,
+          "issueNumber": 324,
+          "excerpt": "Takes some reboots to load into a song\nAudio is Glitched",
+          "images": [],
+          "meta": {}
+        },
+        {
+          "id": "issue-321",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/321",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-22",
+          "createdAtMs": 1774212230000,
+          "issueNumber": 321,
+          "excerpt": "Has trouble loading into songs some times\nPerformance very poor on iPhone 13 Mini\nAudio is Glitched",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4156083E/1774212226124-1.jpg"
+          ],
+          "meta": {
+            "status": "ingame",
+            "perf": "poor",
+            "device": "iPhone 13 mini",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        }
+      ]
+    },
     "4156083D": {
       "titleId": "4156083D",
       "issueNumber": 322,
@@ -1864,39 +1932,6 @@
           "excerpt": "Have trouble loading into songs some times Performance very bad on iPhone 13 Mini\nAudio is Glitched",
           "images": [
             "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4156083D/1774213182040-1.jpg"
-          ],
-          "meta": {
-            "status": "ingame",
-            "perf": "poor",
-            "device": "iPhone 13 mini",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "`056d2f64d`"
-          }
-        }
-      ]
-    },
-    "4156083E": {
-      "titleId": "4156083E",
-      "issueNumber": 321,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/321",
-      "updatedAt": "2026-03-22",
-      "entries": [
-        {
-          "id": "issue-321",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/321",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-22",
-          "createdAtMs": 1774212230000,
-          "issueNumber": 321,
-          "excerpt": "Has trouble loading into songs some times\nPerformance very poor on iPhone 13 Mini\nAudio is Glitched",
-          "images": [
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4156083E/1774212226124-1.jpg"
           ],
           "meta": {
             "status": "ingame",

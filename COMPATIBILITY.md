@@ -4,7 +4,7 @@
 >
 > 🟢 Playable: **90** · 🔵 In-Game: **50** · 🟡 Intro: **19** · 🟠 Loads: **28** · 🔴 Doesn't Boot: **36**
 >
-> 📱 iOS: **212** · 🖥️ macOS: **19**
+> 📱 iOS: **212** · 🖥️ macOS: **20**
 
 ## Legend
 
@@ -130,7 +130,7 @@
 | 🔵 | Guitar Hero Metallica | `41560830` | 📱 iOS, 🖥️ macOS | In-Game | 👌 OK | MacBook Pro (M4) | 2026-03-22 |
 | 🔵 | Guitar Hero Van Halen | `4156083D` | 📱 iOS | In-Game | 🐢 Poor | iPhone 13 mini | 2026-03-22 |
 | 🔵 | Guitar Hero World Tour | `4156081A` | 📱 iOS | In-Game | 🐢 Poor | iPhone 13 mini | 2026-03-22 |
-| 🔵 | Guitar Hero: Greatest Hits | `4156083E` | 📱 iOS | In-Game | 🐢 Poor | iPhone 13 mini | 2026-03-22 |
+| 🔵 | Guitar Hero: Greatest Hits | `4156083E` | 📱 iOS, 🖥️ macOS | In-Game | 👌 OK | MacBook Pro (M4) | 2026-03-22 |
 | 🔵 | Halo 3: ODST | `4D530877` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 | 2026-03-03 |
 | 🔵 | Halo: Reach | `4D53085B` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 | 2026-03-06 |
 | 🔵 | Lost Odyssey | `4D5307FA` | 📱 iOS, 🖥️ macOS | In-Game | 🚀 Great | Mac mini (M2) | 2026-03-11 |

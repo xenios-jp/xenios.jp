@@ -105593,23 +105593,44 @@
       "4156083E"
     ],
     "status": "ingame",
-    "perf": "poor",
+    "perf": "ok",
     "tags": [],
     "platforms": [
-      "ios"
+      "ios",
+      "macos"
     ],
     "lastReport": {
-      "device": "iPhone 13 Mini",
-      "platform": "ios",
+      "device": "MacBook Pro (M4)",
+      "platform": "macos",
       "osVersion": "26.3.1",
       "arch": "arm64",
-      "gpuBackend": "msl"
+      "gpuBackend": "msc"
     },
     "updatedAt": "2026-03-22",
     "issueNumber": 321,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/321",
-    "notes": "Has trouble loading into songs some times\nPerformance very poor on iPhone 13 Mini\nAudio is Glitched",
+    "notes": "Takes some reboots to load into a song\nAudio is Glitched",
     "reports": [
+      {
+        "device": "MacBook Pro (M4)",
+        "platform": "macos",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msc",
+        "status": "ingame",
+        "perf": "ok",
+        "date": "2026-03-22",
+        "notes": "Takes some reboots to load into a song\nAudio is Glitched",
+        "screenshots": [],
+        "source": "github",
+        "build": {
+          "buildId": "macos-release-1.0.1-9288",
+          "channel": "release",
+          "official": true,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288"
+        }
+      },
       {
         "device": "iPhone 13 Mini",
         "platform": "ios",
@@ -105639,65 +105660,99 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
         "status": "ingame",
-        "perf": "poor",
-        "notes": "Has trouble loading into songs some times\nPerformance very poor on iPhone 13 Mini\nAudio is Glitched",
+        "perf": "ok",
+        "notes": "Takes some reboots to load into a song\nAudio is Glitched",
         "updatedAt": "2026-03-22",
         "date": "2026-03-22",
         "reportCount": 1,
         "latestReport": {
-          "device": "iPhone 13 Mini",
-          "platform": "ios",
+          "device": "MacBook Pro (M4)",
+          "platform": "macos",
           "osVersion": "26.3.1",
           "arch": "arm64",
-          "gpuBackend": "msl",
+          "gpuBackend": "msc",
           "status": "ingame",
-          "perf": "poor",
+          "perf": "ok",
           "date": "2026-03-22",
-          "notes": "Has trouble loading into songs some times\nPerformance very poor on iPhone 13 Mini\nAudio is Glitched",
+          "notes": "Takes some reboots to load into a song\nAudio is Glitched",
           "screenshots": [],
-          "source": "app",
+          "source": "github",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
-            "channel": "self-built",
-            "official": false,
+            "buildId": "macos-release-1.0.1-9288",
+            "channel": "release",
+            "official": true,
             "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d"
+            "buildNumber": "9288"
           }
         },
         "bestReport": {
-          "device": "iPhone 13 Mini",
-          "platform": "ios",
+          "device": "MacBook Pro (M4)",
+          "platform": "macos",
           "osVersion": "26.3.1",
           "arch": "arm64",
-          "gpuBackend": "msl",
+          "gpuBackend": "msc",
           "status": "ingame",
-          "perf": "poor",
+          "perf": "ok",
           "date": "2026-03-22",
-          "notes": "Has trouble loading into songs some times\nPerformance very poor on iPhone 13 Mini\nAudio is Glitched",
+          "notes": "Takes some reboots to load into a song\nAudio is Glitched",
           "screenshots": [],
-          "source": "app",
+          "source": "github",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
-            "channel": "self-built",
-            "official": false,
+            "buildId": "macos-release-1.0.1-9288",
+            "channel": "release",
+            "official": true,
             "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d"
+            "buildNumber": "9288"
+          }
+        }
+      },
+      "all": {
+        "channel": "all",
+        "status": "ingame",
+        "perf": "ok",
+        "notes": "Takes some reboots to load into a song\nAudio is Glitched",
+        "updatedAt": "2026-03-22",
+        "date": "2026-03-22",
+        "reportCount": 2,
+        "latestReport": {
+          "device": "MacBook Pro (M4)",
+          "platform": "macos",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msc",
+          "status": "ingame",
+          "perf": "ok",
+          "date": "2026-03-22",
+          "notes": "Takes some reboots to load into a song\nAudio is Glitched",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-1.0.1-9288",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288"
+          }
+        },
+        "bestReport": {
+          "device": "MacBook Pro (M4)",
+          "platform": "macos",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msc",
+          "status": "ingame",
+          "perf": "ok",
+          "date": "2026-03-22",
+          "notes": "Takes some reboots to load into a song\nAudio is Glitched",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-1.0.1-9288",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288"
           }
         }
       }
