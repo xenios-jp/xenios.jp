@@ -4,7 +4,7 @@
 >
 > 🟢 Playable: **90** · 🔵 In-Game: **52** · 🟡 Intro: **19** · 🟠 Loads: **28** · 🔴 Doesn't Boot: **36**
 >
-> 📱 iOS: **214** · 🖥️ macOS: **24**
+> 📱 iOS: **214** · 🖥️ macOS: **25**
 
 ## Legend
 
@@ -57,7 +57,7 @@
 | 🟢 | Grand Theft Auto IV | `545407F2` | 📱 iOS, 🖥️ macOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-19 |
 | 🟢 | Grand Theft Auto V | `545408A7` | 📱 iOS | Playable | 👌 OK | iPhone 17 | 2026-03-20 |
 | 🟢 | Guacamelee Super Turbo Championship Edition | `58411446` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-03 |
-| 🟢 | Guitar Hero Aerosmith | `41560819` | 📱 iOS | Playable | 👌 OK | iPhone 13 mini | 2026-03-22 |
+| 🟢 | Guitar Hero Aerosmith | `41560819` | 📱 iOS, 🖥️ macOS | Playable | 👌 OK | MacBook Pro (M4) | 2026-03-22 |
 | 🟢 | Guitar Hero II | `415607E7` | 📱 iOS | Playable | 👌 OK | iPhone 13 mini | 2026-03-22 |
 | 🟢 | Guitar Hero III Legends of Rock | `415607F7` | 📱 iOS, 🖥️ macOS | Playable | 👌 OK | MacBook Pro (M4) | 2026-03-22 |
 | 🟢 | Halo 3 | `4D5307E6` | 🖥️ macOS, 📱 iOS | Playable | 🐢 Poor | iPhone 16 Plus | 2026-03-22 |
