@@ -2,7 +2,7 @@
 
 > **217 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **87** · 🔵 In-Game: **46** · 🟡 Intro: **20** · 🟠 Loads: **28** · 🔴 Doesn't Boot: **36**
+> 🟢 Playable: **88** · 🔵 In-Game: **46** · 🟡 Intro: **19** · 🟠 Loads: **28** · 🔴 Doesn't Boot: **36**
 >
 > 📱 iOS: **206** · 🖥️ macOS: **18**
 
@@ -58,7 +58,7 @@
 | 🟢 | Grand Theft Auto V | `545408A7` | 📱 iOS | Playable | 👌 OK | iPhone 17 | 2026-03-20 |
 | 🟢 | Guacamelee Super Turbo Championship Edition | `58411446` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-03 |
 | 🟢 | Guitar Hero III Legends of Rock | `415607F7` | 📱 iOS | Playable | 👌 OK | iPhone 17 Pro Max | 2026-03-12 |
-| 🟢 | Halo 3 | `4D5307E6` | 🖥️ macOS, 📱 iOS | Playable | 🐢 Poor | iPhone 16 Pro | 2026-03-12 |
+| 🟢 | Halo 3 | `4D5307E6` | 🖥️ macOS, 📱 iOS | Playable | 🐢 Poor | iPhone 16 Plus | 2026-03-22 |
 | 🟢 | Halo: CE Anniversary | `4D5309B1` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro | 2026-03-11 |
 | 🟢 | Hitman: Absolution | `53510804` | 📱 iOS | Playable | 🚀 Great | iPad Pro 12.9-inch (M2) | 2026-03-18 |
 | 🟢 | Just Cause 2 | `534307E7` | 📱 iOS | Playable | 🐢 Poor | iPhone 17 Pro | 2026-03-09 |
@@ -99,6 +99,7 @@
 | 🟢 | Star Wars: The Force Unleashed | `4C4107D2` | 📱 iOS | Playable | 🚀 Great | iPhone 15 Pro | 2026-03-10 |
 | 🟢 | Steins;Gate Hiyoku Renri no Darling | `465607E8` | 📱 iOS | Playable | 🚀 Great | iPhone 17 | 2026-03-02 |
 | 🟢 | STREET FIGHTER X TEKKEN | `4343080F` | 📱 iOS | Playable | 🐢 Poor | iPhone 16 Pro Max | 2026-03-11 |
+| 🟢 | The Elder Scrolls 4: Oblivion - Game of the Year Edition | `425307D1` | 📱 iOS | Playable | 👌 OK | iPhone 14 Plus | 2026-03-22 |
 | 🟢 | The Outfit | `545107D2` | 📱 iOS | Playable | 🐢 Poor | iPhone 15 Pro Max | 2026-03-13 |
 | 🟢 | The Simpsons Game | `45410809` | 📱 iOS | Playable | 🚀 Great | iPhone 15 Pro Max | 2026-03-21 |
 | 🟢 | TimeShift | `565507DA` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro | 2026-03-13 |
@@ -171,7 +172,6 @@
 | 🟡 | Remember Me | `4343082F` | 🖥️ macOS | Intro | 🚀 Great | Mac mini (M2) | 2026-03-15 |
 | 🟡 | Rise of the Tomb Raider | `53510823` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro Max | 2026-03-12 |
 | 🟡 | Tales of Vesperia | `4E4D07E9` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro | 2026-03-03 |
-| 🟡 | The Elder Scrolls 4: Oblivion - Game of the Year Edition | `425307D1` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro Max | 2026-03-08 |
 | 🟡 | Two Worlds | `535007D4` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro Max | 2026-03-09 |
 | 🟠 | Asura's Wrath | `43430817` | 📱 iOS | Loads | 🐢 Poor | iPhone 16 Pro Max | 2026-03-09 |
 | 🟠 | Avatar: The Last Airbender - The Burning Earth | `545107E1` | 📱 iOS | Loads | 🐢 Poor | iPhone 16 Pro Max | 2026-03-19 |

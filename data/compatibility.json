@@ -106577,17 +106577,39 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 16 Pro",
+      "device": "iPhone 16 Plus",
       "platform": "ios",
-      "osVersion": "18.5",
+      "osVersion": "26.3.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-12",
+    "updatedAt": "2026-03-22",
     "issueNumber": 42,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/42",
-    "notes": "Low FPS, but can start and play campaign, important note, if you die you can get stuck in a cutscene loop.",
+    "notes": "To launch you do have to disable mount cache and you’ll need to know you way around because it doesn’t display words",
     "reports": [
+      {
+        "device": "iPhone 16 Plus",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "poor",
+        "date": "2026-03-22",
+        "notes": "To launch you do have to disable mount cache and you’ll need to know you way around because it doesn’t display words",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "stage": "stable",
+          "commitShort": "056d2f64d"
+        }
+      },
       {
         "device": "iPhone 17 Pro Max",
         "platform": "ios",
@@ -106920,7 +106942,9 @@
         "source": "discord"
       }
     ],
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4D5307E6/1774197362457-1.jpg"
+    ],
     "summaries": {
       "release": {
         "channel": "release",
@@ -106965,45 +106989,53 @@
         "channel": "all",
         "status": "playable",
         "perf": "poor",
-        "notes": "Low FPS, but can start and play campaign, important note, if you die you can get stuck in a cutscene loop.",
-        "updatedAt": "2026-03-12",
-        "date": "2026-03-12",
-        "reportCount": 17,
+        "notes": "To launch you do have to disable mount cache and you’ll need to know you way around because it doesn’t display words",
+        "updatedAt": "2026-03-22",
+        "date": "2026-03-22",
+        "reportCount": 18,
         "latestReport": {
-          "device": "iPhone 17 Pro Max",
+          "device": "iPhone 16 Plus",
           "platform": "ios",
-          "osVersion": "26.0",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-12",
-          "notes": "Halo 3 crashes instantly when opened even with JIT enabled. The game closes but XeniOS remains open.",
-          "screenshots": [],
-          "source": "app",
-          "build": {
-            "buildId": "ios-self-built-1.0.0-9296",
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9296",
-            "commitShort": "ab2ca341a"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 16 Pro",
-          "platform": "ios",
-          "osVersion": "18.5",
+          "osVersion": "26.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "poor",
-          "date": "2026-03-04",
-          "notes": "Low FPS, but can start and play campaign, important note, if you die you can get stuck in a cutscene loop.",
-          "reportedTitleId": "4D5307E6",
-          "reportedTitle": "Halo 3",
+          "date": "2026-03-22",
+          "notes": "To launch you do have to disable mount cache and you’ll need to know you way around because it doesn’t display words",
           "screenshots": [],
-          "source": "app"
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "stage": "stable",
+            "commitShort": "056d2f64d"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 16 Plus",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "poor",
+          "date": "2026-03-22",
+          "notes": "To launch you do have to disable mount cache and you’ll need to know you way around because it doesn’t display words",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "stage": "stable",
+            "commitShort": "056d2f64d"
+          }
         }
       }
     }
@@ -224906,24 +224938,46 @@
       "425307D1",
       "425307E2"
     ],
-    "status": "intro",
-    "perf": "poor",
+    "status": "playable",
+    "perf": "ok",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 16 Pro Max",
+      "device": "iPhone 14 Plus",
       "platform": "ios",
-      "osVersion": "26.3.1",
+      "osVersion": "26.2",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-08",
+    "updatedAt": "2026-03-22",
     "issueNumber": 68,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/68",
-    "notes": "After start new game crash in loading.",
+    "notes": "Graphical issues are very common, otherwise it is playable.",
     "reports": [
+      {
+        "device": "iPhone 14 Plus",
+        "platform": "ios",
+        "osVersion": "26.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-03-22",
+        "notes": "Graphical issues are very common, otherwise it is playable.",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "stage": "stable",
+          "commitShort": "056d2f64d"
+        }
+      },
       {
         "device": "iPhone 16 Pro Max",
         "platform": "ios",
@@ -224949,7 +225003,10 @@
         }
       }
     ],
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/425307D1/1774185975510-1.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/425307D1/1774185975510-2.jpg"
+    ],
     "summaries": {
       "release": {
         "channel": "release",
@@ -224964,58 +225021,54 @@
       },
       "all": {
         "channel": "all",
-        "status": "intro",
-        "perf": "poor",
-        "notes": "After start new game crash in loading.",
-        "updatedAt": "2026-03-08",
-        "date": "2026-03-08",
-        "reportCount": 1,
+        "status": "playable",
+        "perf": "ok",
+        "notes": "Graphical issues are very common, otherwise it is playable.",
+        "updatedAt": "2026-03-22",
+        "date": "2026-03-22",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 16 Pro Max",
+          "device": "iPhone 14 Plus",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "26.2",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "poor",
-          "date": "2026-03-08",
-          "notes": "After start new game crash in loading.",
-          "reportedTitleId": "425307D1",
-          "reportedTitle": "Oblivion",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-03-22",
+          "notes": "Graphical issues are very common, otherwise it is playable.",
           "screenshots": [],
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
             "stage": "stable",
-            "commitShort": "2633e8177"
+            "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
-          "device": "iPhone 16 Pro Max",
+          "device": "iPhone 14 Plus",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "26.2",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "poor",
-          "date": "2026-03-08",
-          "notes": "After start new game crash in loading.",
-          "reportedTitleId": "425307D1",
-          "reportedTitle": "Oblivion",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-03-22",
+          "notes": "Graphical issues are very common, otherwise it is playable.",
           "screenshots": [],
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
             "stage": "stable",
-            "commitShort": "2633e8177"
+            "commitShort": "056d2f64d"
           }
         }
       }
