@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-22T22:01:06.353Z",
+  "generatedAt": "2026-03-22T22:12:43.655Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1913,6 +1913,40 @@
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
           "images": [],
           "meta": {}
+        }
+      ]
+    },
+    "4156085C": {
+      "titleId": "4156085C",
+      "issueNumber": 327,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/327",
+      "updatedAt": "2026-03-22",
+      "entries": [
+        {
+          "id": "issue-327",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/327",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-22",
+          "createdAtMs": 1774217502000,
+          "issueNumber": 327,
+          "excerpt": "Performance very poor on iPhone 13 Mini\nAudio is glitched\nMenu text is glitched",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4156085C/1774217498054-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4156085C/1774217498054-2.jpg"
+          ],
+          "meta": {
+            "status": "ingame",
+            "perf": "poor",
+            "device": "iPhone 13 mini",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
         }
       ]
     },
