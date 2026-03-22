@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-22T19:50:15.804Z",
+  "generatedAt": "2026-03-22T19:55:17.009Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -53,6 +53,37 @@
             "platform": "iOS",
             "osVersion": "iOS 18.3.1",
             "gpuBackend": "MSL"
+          }
+        }
+      ]
+    },
+    "41560819": {
+      "titleId": "41560819",
+      "issueNumber": 318,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/318",
+      "updatedAt": "2026-03-22",
+      "entries": [
+        {
+          "id": "issue-318",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/318",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-22",
+          "createdAtMs": 1774209280000,
+          "issueNumber": 318,
+          "excerpt": "Performance is expected for an iPhone 13 Mini\nGame runs",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 13 mini",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
           }
         }
       ]
