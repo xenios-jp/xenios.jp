@@ -105091,23 +105091,44 @@
       "415607E7"
     ],
     "status": "playable",
-    "perf": "ok",
+    "perf": "great",
     "tags": [],
     "platforms": [
-      "ios"
+      "ios",
+      "macos"
     ],
     "lastReport": {
-      "device": "iPhone 13 mini",
-      "platform": "ios",
+      "device": "MacBook Pro (M4)",
+      "platform": "macos",
       "osVersion": "26.3.1",
       "arch": "arm64",
-      "gpuBackend": "msl"
+      "gpuBackend": "msc"
     },
     "updatedAt": "2026-03-22",
     "issueNumber": 316,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/316",
-    "notes": "Game may need a couple of reboot to get in game\nPerformance is expected for an iPhone 13 Mini\nSmall Graphical Glitches that does not affect gameplay",
+    "notes": "The intro fmv is glitched and you need to restart the game multiple time to get it to load correctly\nIn game, it runs perfectly with very minor frame drops occasionally",
     "reports": [
+      {
+        "device": "MacBook Pro (M4)",
+        "platform": "macos",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msc",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-03-22",
+        "notes": "The intro fmv is glitched and you need to restart the game multiple time to get it to load correctly\nIn game, it runs perfectly with very minor frame drops occasionally",
+        "screenshots": [],
+        "source": "github",
+        "build": {
+          "buildId": "macos-release-1.0.1-9288",
+          "channel": "release",
+          "official": true,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288"
+        }
+      },
       {
         "device": "iPhone 13 mini",
         "platform": "ios",
@@ -105134,63 +105155,99 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
         "status": "playable",
-        "perf": "ok",
-        "notes": "Game may need a couple of reboot to get in game\nPerformance is expected for an iPhone 13 Mini\nSmall Graphical Glitches that does not affect gameplay",
+        "perf": "great",
+        "notes": "The intro fmv is glitched and you need to restart the game multiple time to get it to load correctly\nIn game, it runs perfectly with very minor frame drops occasionally",
         "updatedAt": "2026-03-22",
         "date": "2026-03-22",
         "reportCount": 1,
         "latestReport": {
-          "device": "iPhone 13 mini",
-          "platform": "ios",
+          "device": "MacBook Pro (M4)",
+          "platform": "macos",
           "osVersion": "26.3.1",
           "arch": "arm64",
-          "gpuBackend": "msl",
+          "gpuBackend": "msc",
           "status": "playable",
-          "perf": "ok",
+          "perf": "great",
           "date": "2026-03-22",
-          "notes": "Game may need a couple of reboot to get in game\nPerformance is expected for an iPhone 13 Mini\nSmall Graphical Glitches that does not affect gameplay",
+          "notes": "The intro fmv is glitched and you need to restart the game multiple time to get it to load correctly\nIn game, it runs perfectly with very minor frame drops occasionally",
           "screenshots": [],
-          "source": "app",
+          "source": "github",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
-            "channel": "self-built",
-            "official": false,
+            "buildId": "macos-release-1.0.1-9288",
+            "channel": "release",
+            "official": true,
             "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "buildNumber": "9288"
           }
         },
         "bestReport": {
-          "device": "iPhone 13 mini",
-          "platform": "ios",
+          "device": "MacBook Pro (M4)",
+          "platform": "macos",
           "osVersion": "26.3.1",
           "arch": "arm64",
-          "gpuBackend": "msl",
+          "gpuBackend": "msc",
           "status": "playable",
-          "perf": "ok",
+          "perf": "great",
           "date": "2026-03-22",
-          "notes": "Game may need a couple of reboot to get in game\nPerformance is expected for an iPhone 13 Mini\nSmall Graphical Glitches that does not affect gameplay",
+          "notes": "The intro fmv is glitched and you need to restart the game multiple time to get it to load correctly\nIn game, it runs perfectly with very minor frame drops occasionally",
           "screenshots": [],
-          "source": "app",
+          "source": "github",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
-            "channel": "self-built",
-            "official": false,
+            "buildId": "macos-release-1.0.1-9288",
+            "channel": "release",
+            "official": true,
             "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "buildNumber": "9288"
+          }
+        }
+      },
+      "all": {
+        "channel": "all",
+        "status": "playable",
+        "perf": "great",
+        "notes": "The intro fmv is glitched and you need to restart the game multiple time to get it to load correctly\nIn game, it runs perfectly with very minor frame drops occasionally",
+        "updatedAt": "2026-03-22",
+        "date": "2026-03-22",
+        "reportCount": 2,
+        "latestReport": {
+          "device": "MacBook Pro (M4)",
+          "platform": "macos",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msc",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-03-22",
+          "notes": "The intro fmv is glitched and you need to restart the game multiple time to get it to load correctly\nIn game, it runs perfectly with very minor frame drops occasionally",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-1.0.1-9288",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288"
+          }
+        },
+        "bestReport": {
+          "device": "MacBook Pro (M4)",
+          "platform": "macos",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msc",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-03-22",
+          "notes": "The intro fmv is glitched and you need to restart the game multiple time to get it to load correctly\nIn game, it runs perfectly with very minor frame drops occasionally",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-1.0.1-9288",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288"
           }
         }
       }
@@ -106152,37 +106209,144 @@
     "titleIds": [
       "41560883"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "ingame",
+    "perf": "ok",
     "tags": [],
-    "platforms": [],
-    "lastReport": null,
-    "updatedAt": "",
-    "notes": "",
-    "reports": [],
+    "platforms": [
+      "macos"
+    ],
+    "lastReport": {
+      "device": "MacBook Pro (M4)",
+      "platform": "macos",
+      "osVersion": "26.3.1",
+      "arch": "arm64",
+      "gpuBackend": "msc"
+    },
+    "updatedAt": "2026-03-22",
+    "issueNumber": 333,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/333",
+    "notes": "Needs a couple of restart for the game to load\nSome audio tracks don't play during gameplay",
+    "reports": [
+      {
+        "device": "MacBook Pro (M4)",
+        "platform": "macos",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msc",
+        "status": "ingame",
+        "perf": "ok",
+        "date": "2026-03-22",
+        "notes": "Needs a couple of restart for the game to load\nSome audio tracks don't play during gameplay",
+        "screenshots": [],
+        "source": "github",
+        "build": {
+          "buildId": "macos-release-1.0.1-9288",
+          "channel": "release",
+          "official": true,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288"
+        }
+      }
+    ],
     "screenshots": [],
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "ingame",
+        "perf": "ok",
+        "notes": "Needs a couple of restart for the game to load\nSome audio tracks don't play during gameplay",
+        "updatedAt": "2026-03-22",
+        "date": "2026-03-22",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "MacBook Pro (M4)",
+          "platform": "macos",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msc",
+          "status": "ingame",
+          "perf": "ok",
+          "date": "2026-03-22",
+          "notes": "Needs a couple of restart for the game to load\nSome audio tracks don't play during gameplay",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-1.0.1-9288",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288"
+          }
+        },
+        "bestReport": {
+          "device": "MacBook Pro (M4)",
+          "platform": "macos",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msc",
+          "status": "ingame",
+          "perf": "ok",
+          "date": "2026-03-22",
+          "notes": "Needs a couple of restart for the game to load\nSome audio tracks don't play during gameplay",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-1.0.1-9288",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288"
+          }
+        }
       },
       "all": {
         "channel": "all",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "ingame",
+        "perf": "ok",
+        "notes": "Needs a couple of restart for the game to load\nSome audio tracks don't play during gameplay",
+        "updatedAt": "2026-03-22",
+        "date": "2026-03-22",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "MacBook Pro (M4)",
+          "platform": "macos",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msc",
+          "status": "ingame",
+          "perf": "ok",
+          "date": "2026-03-22",
+          "notes": "Needs a couple of restart for the game to load\nSome audio tracks don't play during gameplay",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-1.0.1-9288",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288"
+          }
+        },
+        "bestReport": {
+          "device": "MacBook Pro (M4)",
+          "platform": "macos",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msc",
+          "status": "ingame",
+          "perf": "ok",
+          "date": "2026-03-22",
+          "notes": "Needs a couple of restart for the game to load\nSome audio tracks don't play during gameplay",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-1.0.1-9288",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288"
+          }
+        }
       }
     }
   },
