@@ -105460,15 +105460,50 @@
     "titleIds": [
       "4156083E"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "ingame",
+    "perf": "poor",
     "tags": [],
-    "platforms": [],
-    "lastReport": null,
-    "updatedAt": "",
-    "notes": "",
-    "reports": [],
-    "screenshots": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 13 Mini",
+      "platform": "ios",
+      "osVersion": "26.3.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-22",
+    "issueNumber": 321,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/321",
+    "notes": "Has trouble loading into songs some times\nPerformance very poor on iPhone 13 Mini\nAudio is Glitched",
+    "reports": [
+      {
+        "device": "iPhone 13 Mini",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "poor",
+        "date": "2026-03-22",
+        "notes": "Has trouble loading into songs some times\nPerformance very poor on iPhone 13 Mini\nAudio is Glitched",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "stage": "stable",
+          "commitShort": "056d2f64d"
+        }
+      }
+    ],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4156083E/1774212226124-1.jpg"
+    ],
     "summaries": {
       "release": {
         "channel": "release",
@@ -105483,14 +105518,56 @@
       },
       "all": {
         "channel": "all",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "ingame",
+        "perf": "poor",
+        "notes": "Has trouble loading into songs some times\nPerformance very poor on iPhone 13 Mini\nAudio is Glitched",
+        "updatedAt": "2026-03-22",
+        "date": "2026-03-22",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 13 Mini",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-03-22",
+          "notes": "Has trouble loading into songs some times\nPerformance very poor on iPhone 13 Mini\nAudio is Glitched",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "stage": "stable",
+            "commitShort": "056d2f64d"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 13 Mini",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-03-22",
+          "notes": "Has trouble loading into songs some times\nPerformance very poor on iPhone 13 Mini\nAudio is Glitched",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "stage": "stable",
+            "commitShort": "056d2f64d"
+          }
+        }
       }
     }
   },
