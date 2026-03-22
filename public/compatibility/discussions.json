@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-22T22:27:26.589Z",
+  "generatedAt": "2026-03-22T22:38:16.618Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1916,39 +1916,37 @@
         }
       ]
     },
-    "4156081A": {
-      "titleId": "4156081A",
-      "issueNumber": 319,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/319",
+    "415607F7": {
+      "titleId": "415607F7",
+      "issueNumber": 199,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/199",
       "updatedAt": "2026-03-22",
       "entries": [
         {
-          "id": "issue-329",
+          "id": "issue-330",
           "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/329",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/330",
           "author": "kControllerVocals",
           "createdAt": "2026-03-22",
-          "createdAtMs": 1774218403000,
-          "issueNumber": 329,
-          "excerpt": "Game Audio is glitched\ntakes a couple of reboots before loading a long",
+          "createdAtMs": 1774219046000,
+          "issueNumber": 330,
+          "excerpt": "Game runs at 30-50 FPS\nAudio desyncs\nSome lights might flash",
           "images": [],
           "meta": {}
         },
         {
-          "id": "issue-319",
+          "id": "issue-317",
           "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/319",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/317",
           "author": "xenios-jp",
           "createdAt": "2026-03-22",
-          "createdAtMs": 1774210694000,
-          "issueNumber": 319,
-          "excerpt": "Have trouble loading into songs some times\nPerformance is very poor on iPhone 13 Mini\nAudio is glitched",
-          "images": [
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4156081A/1774210690171-1.jpg"
-          ],
+          "createdAtMs": 1774208961000,
+          "issueNumber": 317,
+          "excerpt": "Small Graphical Glitches that don’t affect gameplay \nPerformance is expected for an iPhone 13 Mini\nAudio does tend to desync but that could also be due to low fps",
+          "images": [],
           "meta": {
-            "status": "ingame",
-            "perf": "poor",
+            "status": "playable",
+            "perf": "ok",
             "device": "iPhone 13 mini",
             "platform": "iOS",
             "osVersion": "iOS 26.3.1",
@@ -1957,6 +1955,55 @@
             "appVersion": "1.0.1",
             "buildNumber": "9288",
             "commitShort": "`056d2f64d`"
+          }
+        },
+        {
+          "id": "comment-4044528622",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/199#issuecomment-4044528622",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-12",
+          "createdAtMs": 1773299755000,
+          "issueNumber": 199,
+          "excerpt": "Se puede jugar sin audio",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        },
+        {
+          "id": "issue-199",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/199",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-11",
+          "createdAtMs": 1773227702000,
+          "issueNumber": 199,
+          "excerpt": "Game runs fine with no graphical errors, gameplay not being full speed makes it hard to play.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/415607F7/1773227699414-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/415607F7/1773227699414-2.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 16 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.2",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
           }
         }
       ]
@@ -2061,25 +2108,27 @@
         }
       ]
     },
-    "415607F7": {
-      "titleId": "415607F7",
-      "issueNumber": 317,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/317",
+    "4156081A": {
+      "titleId": "4156081A",
+      "issueNumber": 319,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/319",
       "updatedAt": "2026-03-22",
       "entries": [
         {
-          "id": "issue-317",
+          "id": "issue-319",
           "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/317",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/319",
           "author": "xenios-jp",
           "createdAt": "2026-03-22",
-          "createdAtMs": 1774208961000,
-          "issueNumber": 317,
-          "excerpt": "Small Graphical Glitches that don’t affect gameplay \nPerformance is expected for an iPhone 13 Mini\nAudio does tend to desync but that could also be due to low fps",
-          "images": [],
+          "createdAtMs": 1774210694000,
+          "issueNumber": 319,
+          "excerpt": "Have trouble loading into songs some times\nPerformance is very poor on iPhone 13 Mini\nAudio is glitched",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4156081A/1774210690171-1.jpg"
+          ],
           "meta": {
-            "status": "playable",
-            "perf": "ok",
+            "status": "ingame",
+            "perf": "poor",
             "device": "iPhone 13 mini",
             "platform": "iOS",
             "osVersion": "iOS 26.3.1",
@@ -2088,55 +2137,6 @@
             "appVersion": "1.0.1",
             "buildNumber": "9288",
             "commitShort": "`056d2f64d`"
-          }
-        },
-        {
-          "id": "comment-4044528622",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/199#issuecomment-4044528622",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-12",
-          "createdAtMs": 1773299755000,
-          "issueNumber": 199,
-          "excerpt": "Se puede jugar sin audio",
-          "images": [],
-          "meta": {
-            "status": "playable",
-            "perf": "ok",
-            "device": "iPhone 17 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "`2633e8177`"
-          }
-        },
-        {
-          "id": "issue-199",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/199",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-11",
-          "createdAtMs": 1773227702000,
-          "issueNumber": 199,
-          "excerpt": "Game runs fine with no graphical errors, gameplay not being full speed makes it hard to play.",
-          "images": [
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/415607F7/1773227699414-1.jpg",
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/415607F7/1773227699414-2.jpg"
-          ],
-          "meta": {
-            "status": "playable",
-            "perf": "ok",
-            "device": "iPhone 16 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 26.2",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "`2633e8177`"
           }
         }
       ]

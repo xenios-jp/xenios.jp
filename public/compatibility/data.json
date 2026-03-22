@@ -105150,20 +105150,41 @@
     "perf": "ok",
     "tags": [],
     "platforms": [
-      "ios"
+      "ios",
+      "macos"
     ],
     "lastReport": {
-      "device": "iPhone 13 mini",
-      "platform": "ios",
+      "device": "MacBook Pro (M4)",
+      "platform": "macos",
       "osVersion": "26.3.1",
       "arch": "arm64",
-      "gpuBackend": "msl"
+      "gpuBackend": "msc"
     },
     "updatedAt": "2026-03-22",
-    "issueNumber": 317,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/317",
-    "notes": "Small Graphical Glitches that don’t affect gameplay \nPerformance is expected for an iPhone 13 Mini\nAudio does tend to desync but that could also be due to low fps",
+    "issueNumber": 199,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/199",
+    "notes": "Game runs at 30-50 FPS\nAudio desyncs\nSome lights might flash",
     "reports": [
+      {
+        "device": "MacBook Pro (M4)",
+        "platform": "macos",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msc",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-03-22",
+        "notes": "Game runs at 30-50 FPS\nAudio desyncs\nSome lights might flash",
+        "screenshots": [],
+        "source": "github",
+        "build": {
+          "buildId": "macos-release-1.0.1-9288",
+          "channel": "release",
+          "official": true,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288"
+        }
+      },
       {
         "device": "iPhone 13 mini",
         "platform": "ios",
@@ -105193,63 +105214,99 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "playable",
+        "perf": "ok",
+        "notes": "Game runs at 30-50 FPS\nAudio desyncs\nSome lights might flash",
+        "updatedAt": "2026-03-22",
+        "date": "2026-03-22",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "MacBook Pro (M4)",
+          "platform": "macos",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msc",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-03-22",
+          "notes": "Game runs at 30-50 FPS\nAudio desyncs\nSome lights might flash",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-1.0.1-9288",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288"
+          }
+        },
+        "bestReport": {
+          "device": "MacBook Pro (M4)",
+          "platform": "macos",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msc",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-03-22",
+          "notes": "Game runs at 30-50 FPS\nAudio desyncs\nSome lights might flash",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-1.0.1-9288",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288"
+          }
+        }
       },
       "all": {
         "channel": "all",
         "status": "playable",
         "perf": "ok",
-        "notes": "Small Graphical Glitches that don’t affect gameplay \nPerformance is expected for an iPhone 13 Mini\nAudio does tend to desync but that could also be due to low fps",
+        "notes": "Game runs at 30-50 FPS\nAudio desyncs\nSome lights might flash",
         "updatedAt": "2026-03-22",
         "date": "2026-03-22",
-        "reportCount": 1,
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 13 mini",
-          "platform": "ios",
+          "device": "MacBook Pro (M4)",
+          "platform": "macos",
           "osVersion": "26.3.1",
           "arch": "arm64",
-          "gpuBackend": "msl",
+          "gpuBackend": "msc",
           "status": "playable",
           "perf": "ok",
           "date": "2026-03-22",
-          "notes": "Small Graphical Glitches that don’t affect gameplay \nPerformance is expected for an iPhone 13 Mini\nAudio does tend to desync but that could also be due to low fps",
+          "notes": "Game runs at 30-50 FPS\nAudio desyncs\nSome lights might flash",
           "screenshots": [],
-          "source": "app",
+          "source": "github",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
-            "channel": "self-built",
-            "official": false,
+            "buildId": "macos-release-1.0.1-9288",
+            "channel": "release",
+            "official": true,
             "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "buildNumber": "9288"
           }
         },
         "bestReport": {
-          "device": "iPhone 13 mini",
-          "platform": "ios",
+          "device": "MacBook Pro (M4)",
+          "platform": "macos",
           "osVersion": "26.3.1",
           "arch": "arm64",
-          "gpuBackend": "msl",
+          "gpuBackend": "msc",
           "status": "playable",
           "perf": "ok",
           "date": "2026-03-22",
-          "notes": "Small Graphical Glitches that don’t affect gameplay \nPerformance is expected for an iPhone 13 Mini\nAudio does tend to desync but that could also be due to low fps",
+          "notes": "Game runs at 30-50 FPS\nAudio desyncs\nSome lights might flash",
           "screenshots": [],
-          "source": "app",
+          "source": "github",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
-            "channel": "self-built",
-            "official": false,
+            "buildId": "macos-release-1.0.1-9288",
+            "channel": "release",
+            "official": true,
             "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "buildNumber": "9288"
           }
         }
       }
