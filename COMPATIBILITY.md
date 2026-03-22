@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **219 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **220 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **90** · 🔵 In-Game: **46** · 🟡 Intro: **19** · 🟠 Loads: **28** · 🔴 Doesn't Boot: **36**
+> 🟢 Playable: **90** · 🔵 In-Game: **47** · 🟡 Intro: **19** · 🟠 Loads: **28** · 🔴 Doesn't Boot: **36**
 >
-> 📱 iOS: **208** · 🖥️ macOS: **18**
+> 📱 iOS: **209** · 🖥️ macOS: **18**
 
 ## Legend
 
@@ -127,6 +127,7 @@
 | 🔵 | Gears of War | `4D5307D5` | 🖥️ macOS, 📱 iOS | In-Game | 👌 OK | iPhone 16 Pro | 2026-03-11 |
 | 🔵 | Gears of War 3 | `4D5308AB` | 🖥️ macOS | In-Game | 👌 OK | M2 Mac mini | 2026-03-08 |
 | 🔵 | Grand Theft Auto: San Andreas | `545408B8` | 📱 iOS | In-Game | 👌 OK | iPhone 16 Pro Max | 2026-03-19 |
+| 🔵 | Guitar Hero World Tour | `4156081A` | 📱 iOS | In-Game | 🐢 Poor | iPhone 13 mini | 2026-03-22 |
 | 🔵 | Halo 3: ODST | `4D530877` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 | 2026-03-03 |
 | 🔵 | Halo: Reach | `4D53085B` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 | 2026-03-06 |
 | 🔵 | Lost Odyssey | `4D5307FA` | 📱 iOS, 🖥️ macOS | In-Game | 🚀 Great | Mac mini (M2) | 2026-03-11 |
