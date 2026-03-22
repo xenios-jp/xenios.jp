@@ -105143,23 +105143,44 @@
       "41560830"
     ],
     "status": "ingame",
-    "perf": "poor",
+    "perf": "ok",
     "tags": [],
     "platforms": [
-      "ios"
+      "ios",
+      "macos"
     ],
     "lastReport": {
-      "device": "iPhone 13 Mini",
-      "platform": "ios",
+      "device": "MacBook Pro (M4)",
+      "platform": "macos",
       "osVersion": "26.3.1",
       "arch": "arm64",
-      "gpuBackend": "msl"
+      "gpuBackend": "msc"
     },
     "updatedAt": "2026-03-22",
     "issueNumber": 320,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/320",
-    "notes": "Have trouble loading into songs some times\nPerformance very poor on iPhone 13 Mini\nAudio is glitched",
+    "notes": "Game will take a couple of restart before loading into a song\nAudio is glitched",
     "reports": [
+      {
+        "device": "MacBook Pro (M4)",
+        "platform": "macos",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msc",
+        "status": "ingame",
+        "perf": "ok",
+        "date": "2026-03-22",
+        "notes": "Game will take a couple of restart before loading into a song\nAudio is glitched",
+        "screenshots": [],
+        "source": "github",
+        "build": {
+          "buildId": "macos-release-6.10.1-6.10.1",
+          "channel": "release",
+          "official": true,
+          "appVersion": "6.10.1",
+          "buildNumber": "6.10.1"
+        }
+      },
       {
         "device": "iPhone 13 Mini",
         "platform": "ios",
@@ -105189,65 +105210,99 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
         "status": "ingame",
-        "perf": "poor",
-        "notes": "Have trouble loading into songs some times\nPerformance very poor on iPhone 13 Mini\nAudio is glitched",
+        "perf": "ok",
+        "notes": "Game will take a couple of restart before loading into a song\nAudio is glitched",
         "updatedAt": "2026-03-22",
         "date": "2026-03-22",
         "reportCount": 1,
         "latestReport": {
-          "device": "iPhone 13 Mini",
-          "platform": "ios",
+          "device": "MacBook Pro (M4)",
+          "platform": "macos",
           "osVersion": "26.3.1",
           "arch": "arm64",
-          "gpuBackend": "msl",
+          "gpuBackend": "msc",
           "status": "ingame",
-          "perf": "poor",
+          "perf": "ok",
           "date": "2026-03-22",
-          "notes": "Have trouble loading into songs some times\nPerformance very poor on iPhone 13 Mini\nAudio is glitched",
+          "notes": "Game will take a couple of restart before loading into a song\nAudio is glitched",
           "screenshots": [],
-          "source": "app",
+          "source": "github",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d"
+            "buildId": "macos-release-6.10.1-6.10.1",
+            "channel": "release",
+            "official": true,
+            "appVersion": "6.10.1",
+            "buildNumber": "6.10.1"
           }
         },
         "bestReport": {
-          "device": "iPhone 13 Mini",
-          "platform": "ios",
+          "device": "MacBook Pro (M4)",
+          "platform": "macos",
           "osVersion": "26.3.1",
           "arch": "arm64",
-          "gpuBackend": "msl",
+          "gpuBackend": "msc",
           "status": "ingame",
-          "perf": "poor",
+          "perf": "ok",
           "date": "2026-03-22",
-          "notes": "Have trouble loading into songs some times\nPerformance very poor on iPhone 13 Mini\nAudio is glitched",
+          "notes": "Game will take a couple of restart before loading into a song\nAudio is glitched",
           "screenshots": [],
-          "source": "app",
+          "source": "github",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d"
+            "buildId": "macos-release-6.10.1-6.10.1",
+            "channel": "release",
+            "official": true,
+            "appVersion": "6.10.1",
+            "buildNumber": "6.10.1"
+          }
+        }
+      },
+      "all": {
+        "channel": "all",
+        "status": "ingame",
+        "perf": "ok",
+        "notes": "Game will take a couple of restart before loading into a song\nAudio is glitched",
+        "updatedAt": "2026-03-22",
+        "date": "2026-03-22",
+        "reportCount": 2,
+        "latestReport": {
+          "device": "MacBook Pro (M4)",
+          "platform": "macos",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msc",
+          "status": "ingame",
+          "perf": "ok",
+          "date": "2026-03-22",
+          "notes": "Game will take a couple of restart before loading into a song\nAudio is glitched",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-6.10.1-6.10.1",
+            "channel": "release",
+            "official": true,
+            "appVersion": "6.10.1",
+            "buildNumber": "6.10.1"
+          }
+        },
+        "bestReport": {
+          "device": "MacBook Pro (M4)",
+          "platform": "macos",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msc",
+          "status": "ingame",
+          "perf": "ok",
+          "date": "2026-03-22",
+          "notes": "Game will take a couple of restart before loading into a song\nAudio is glitched",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-6.10.1-6.10.1",
+            "channel": "release",
+            "official": true,
+            "appVersion": "6.10.1",
+            "buildNumber": "6.10.1"
           }
         }
       }
