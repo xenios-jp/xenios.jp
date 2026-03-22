@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-21T18:37:01.382Z",
+  "generatedAt": "2026-03-22T02:57:56.849Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1803,6 +1803,60 @@
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
           "images": [],
           "meta": {}
+        }
+      ]
+    },
+    "415608EC": {
+      "titleId": "415608EC",
+      "issueNumber": 312,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/312",
+      "updatedAt": "2026-03-22",
+      "entries": [
+        {
+          "id": "issue-312",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/312",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-22",
+          "createdAtMs": 1774148239000,
+          "issueNumber": 312,
+          "excerpt": "Deadpool will not boot. Tried a variety of settings combos to no avail.",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 16 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 18.5",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
+        {
+          "id": "issue-105",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/105",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-09",
+          "createdAtMs": 1773016449000,
+          "issueNumber": 105,
+          "excerpt": "The game works but when you l\nStart the first mission it loads forever so game doesn’t work",
+          "images": [],
+          "meta": {
+            "status": "loads",
+            "perf": "great",
+            "device": "iPhone 15 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
         }
       ]
     },
@@ -8269,37 +8323,6 @@
             "device": "iPhone 16 Pro Max",
             "platform": "iOS",
             "osVersion": "iOS 26.2",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "`2633e8177`"
-          }
-        }
-      ]
-    },
-    "415608EC": {
-      "titleId": "415608EC",
-      "issueNumber": 105,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/105",
-      "updatedAt": "2026-03-09",
-      "entries": [
-        {
-          "id": "issue-105",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/105",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-09",
-          "createdAtMs": 1773016449000,
-          "issueNumber": 105,
-          "excerpt": "The game works but when you l\nStart the first mission it loads forever so game doesn’t work",
-          "images": [],
-          "meta": {
-            "status": "loads",
-            "perf": "great",
-            "device": "iPhone 15 Pro",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3",
             "gpuBackend": "MSL",
             "buildChannel": "self-built",
             "appVersion": "1.0.0",

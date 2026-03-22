@@ -180,7 +180,7 @@
 | 🟠 | Crash Of The Titans | `565507E4` | 📱 iOS | Loads | 🚀 Great | iPad (A16) | 2026-03-08 |
 | 🟠 | Crysis 3 | `4541098E` | 📱 iOS | Loads | 🐢 Poor | iPad Pro M5 | 2026-03-09 |
 | 🟠 | Dark Souls | `4E4D083A` | 📱 iOS | Loads | 🐢 Poor | iPhone 16e | 2026-03-16 |
-| 🟠 | Deadpool | `415608EC` | 📱 iOS | Loads | 🚀 Great | iPhone 15 Pro | 2026-03-09 |
+| 🟠 | Deadpool | `415608EC` | 📱 iOS | Loads | 🚀 Great | iPhone 15 Pro | 2026-03-22 |
 | 🟠 | Epic Mickey 2 The Power Of Two | `42560816` | 📱 iOS | Loads | 🐢 Poor | iPhone 15 Pro Max | 2026-03-08 |
 | 🟠 | FIFA Street 3 | `4541083B` | 📱 iOS | Loads | ➖ N/A | iPad Air 5 | 2026-03-09 |
 | 🟠 | Forza Horizon 2 | `4D530AA4` | 📱 iOS | Loads | 🐢 Poor | iPhone 17 Pro Max | 2026-03-08 |
