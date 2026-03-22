@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-22T23:13:28.833Z",
+  "generatedAt": "2026-03-22T23:27:00.098Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -272,6 +272,31 @@
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/333",
       "updatedAt": "2026-03-22",
       "entries": [
+        {
+          "id": "comment-4107197448",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/333#issuecomment-4107197448",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-22",
+          "createdAtMs": 1774221957000,
+          "issueNumber": 333,
+          "excerpt": "Performance very poor on iPhone 13 Mini\nAudio is glitched",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/41560883/1774221953568-1.jpg"
+          ],
+          "meta": {
+            "status": "ingame",
+            "perf": "poor",
+            "device": "iPhone 13 mini",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
         {
           "id": "issue-333",
           "type": "issue",
