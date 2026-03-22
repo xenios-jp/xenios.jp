@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **217 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **218 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **88** · 🔵 In-Game: **46** · 🟡 Intro: **19** · 🟠 Loads: **28** · 🔴 Doesn't Boot: **36**
+> 🟢 Playable: **89** · 🔵 In-Game: **46** · 🟡 Intro: **19** · 🟠 Loads: **28** · 🔴 Doesn't Boot: **36**
 >
-> 📱 iOS: **206** · 🖥️ macOS: **18**
+> 📱 iOS: **207** · 🖥️ macOS: **18**
 
 ## Legend
 
@@ -57,6 +57,7 @@
 | 🟢 | Grand Theft Auto IV | `545407F2` | 📱 iOS, 🖥️ macOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-19 |
 | 🟢 | Grand Theft Auto V | `545408A7` | 📱 iOS | Playable | 👌 OK | iPhone 17 | 2026-03-20 |
 | 🟢 | Guacamelee Super Turbo Championship Edition | `58411446` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-03 |
+| 🟢 | Guitar Hero II | `415607E7` | 📱 iOS | Playable | 👌 OK | iPhone 13 mini | 2026-03-22 |
 | 🟢 | Guitar Hero III Legends of Rock | `415607F7` | 📱 iOS | Playable | 👌 OK | iPhone 17 Pro Max | 2026-03-12 |
 | 🟢 | Halo 3 | `4D5307E6` | 🖥️ macOS, 📱 iOS | Playable | 🐢 Poor | iPhone 16 Plus | 2026-03-22 |
 | 🟢 | Halo: CE Anniversary | `4D5309B1` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro | 2026-03-11 |
