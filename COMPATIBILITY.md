@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **222 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **223 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **90** · 🔵 In-Game: **49** · 🟡 Intro: **19** · 🟠 Loads: **28** · 🔴 Doesn't Boot: **36**
+> 🟢 Playable: **90** · 🔵 In-Game: **50** · 🟡 Intro: **19** · 🟠 Loads: **28** · 🔴 Doesn't Boot: **36**
 >
-> 📱 iOS: **211** · 🖥️ macOS: **18**
+> 📱 iOS: **212** · 🖥️ macOS: **18**
 
 ## Legend
 
@@ -128,6 +128,7 @@
 | 🔵 | Gears of War 3 | `4D5308AB` | 🖥️ macOS | In-Game | 👌 OK | M2 Mac mini | 2026-03-08 |
 | 🔵 | Grand Theft Auto: San Andreas | `545408B8` | 📱 iOS | In-Game | 👌 OK | iPhone 16 Pro Max | 2026-03-19 |
 | 🔵 | Guitar Hero Metallica | `41560830` | 📱 iOS | In-Game | 🐢 Poor | iPhone 13 mini | 2026-03-22 |
+| 🔵 | Guitar Hero Van Halen | `4156083D` | 📱 iOS | In-Game | 🐢 Poor | iPhone 13 mini | 2026-03-22 |
 | 🔵 | Guitar Hero World Tour | `4156081A` | 📱 iOS | In-Game | 🐢 Poor | iPhone 13 mini | 2026-03-22 |
 | 🔵 | Guitar Hero: Greatest Hits | `4156083E` | 📱 iOS | In-Game | 🐢 Poor | iPhone 13 mini | 2026-03-22 |
 | 🔵 | Halo 3: ODST | `4D530877` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 | 2026-03-03 |
