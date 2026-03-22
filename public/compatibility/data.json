@@ -65896,7 +65896,6 @@
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
           "commitShort": "056d2f64d"
         }
       },
@@ -65964,7 +65963,6 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         },
@@ -103658,28 +103656,12 @@
         "perf": "n/a",
         "date": "2026-03-21",
         "notes": "It displays the game logo for 1 second and then crashes.",
-        "screenshots": [],
-        "source": "github",
-        "build": {
-          "buildId": "macos-release-1.0.1-9288",
-          "channel": "release",
-          "official": true,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056D2F64D"
-        }
-      },
-      {
-        "device": "MacBook Air M1",
-        "platform": "macos",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msc",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-03-21",
-        "notes": "It displays the game logo for 1 second and then crashes/black screen loop.",
-        "screenshots": [],
+        "reportedTitleId": "434D07FF",
+        "reportedTitle": "GRID",
+        "screenshots": [
+          "https://github.com/user-attachments/assets/504fcaaa-398a-4577-9ea7-b654c212c2b0"
+        ],
+        "submittedBy": "GonnaMakeMeTweak",
         "source": "github",
         "build": {
           "buildId": "macos-release-1.0.1-9288",
@@ -103691,7 +103673,9 @@
         }
       }
     ],
-    "screenshots": [],
+    "screenshots": [
+      "https://github.com/user-attachments/assets/504fcaaa-398a-4577-9ea7-b654c212c2b0"
+    ],
     "summaries": {
       "release": {
         "channel": "release",
@@ -103700,7 +103684,7 @@
         "notes": "It displays the game logo for 1 second and then crashes.",
         "updatedAt": "2026-03-21",
         "date": "2026-03-21",
-        "reportCount": 2,
+        "reportCount": 1,
         "latestReport": {
           "device": "MacBook Air 1",
           "platform": "macos",
@@ -103711,7 +103695,12 @@
           "perf": "n/a",
           "date": "2026-03-21",
           "notes": "It displays the game logo for 1 second and then crashes.",
-          "screenshots": [],
+          "reportedTitleId": "434D07FF",
+          "reportedTitle": "GRID",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/504fcaaa-398a-4577-9ea7-b654c212c2b0"
+          ],
+          "submittedBy": "GonnaMakeMeTweak",
           "source": "github",
           "build": {
             "buildId": "macos-release-1.0.1-9288",
@@ -103732,7 +103721,12 @@
           "perf": "n/a",
           "date": "2026-03-21",
           "notes": "It displays the game logo for 1 second and then crashes.",
-          "screenshots": [],
+          "reportedTitleId": "434D07FF",
+          "reportedTitle": "GRID",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/504fcaaa-398a-4577-9ea7-b654c212c2b0"
+          ],
+          "submittedBy": "GonnaMakeMeTweak",
           "source": "github",
           "build": {
             "buildId": "macos-release-1.0.1-9288",
@@ -103751,7 +103745,7 @@
         "notes": "It displays the game logo for 1 second and then crashes.",
         "updatedAt": "2026-03-21",
         "date": "2026-03-21",
-        "reportCount": 2,
+        "reportCount": 1,
         "latestReport": {
           "device": "MacBook Air 1",
           "platform": "macos",
@@ -103762,7 +103756,12 @@
           "perf": "n/a",
           "date": "2026-03-21",
           "notes": "It displays the game logo for 1 second and then crashes.",
-          "screenshots": [],
+          "reportedTitleId": "434D07FF",
+          "reportedTitle": "GRID",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/504fcaaa-398a-4577-9ea7-b654c212c2b0"
+          ],
+          "submittedBy": "GonnaMakeMeTweak",
           "source": "github",
           "build": {
             "buildId": "macos-release-1.0.1-9288",
@@ -103783,7 +103782,12 @@
           "perf": "n/a",
           "date": "2026-03-21",
           "notes": "It displays the game logo for 1 second and then crashes.",
-          "screenshots": [],
+          "reportedTitleId": "434D07FF",
+          "reportedTitle": "GRID",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/504fcaaa-398a-4577-9ea7-b654c212c2b0"
+          ],
+          "submittedBy": "GonnaMakeMeTweak",
           "source": "github",
           "build": {
             "buildId": "macos-release-1.0.1-9288",
@@ -104627,141 +104631,109 @@
       "41560840"
     ],
     "status": "ingame",
-    "perf": "ok",
+    "perf": "poor",
     "tags": [],
     "platforms": [
-      "macos"
+      "ios"
     ],
     "lastReport": {
-      "device": "MacBook Pro (M4)",
-      "platform": "macos",
+      "device": "iPhone 13 mini",
+      "platform": "ios",
       "osVersion": "26.3.1",
       "arch": "arm64",
-      "gpuBackend": "msc"
+      "gpuBackend": "msl"
     },
     "updatedAt": "2026-03-22",
     "issueNumber": 326,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/326",
-    "notes": "Needs the be rebooted several time for the game to fully load\nThe Intro video sound is glitched and during gameplay only Guitar and Bass Pedal stems plays",
+    "notes": "Game runs very poorly on iPhone 13 Mini\nAudio is Glitched\nMenu text is glitched",
     "reports": [
       {
-        "device": "MacBook Pro (M4)",
-        "platform": "macos",
+        "device": "iPhone 13 mini",
+        "platform": "ios",
         "osVersion": "26.3.1",
         "arch": "arm64",
-        "gpuBackend": "msc",
+        "gpuBackend": "msl",
         "status": "ingame",
-        "perf": "ok",
+        "perf": "poor",
         "date": "2026-03-22",
-        "notes": "Needs the be rebooted several time for the game to fully load\nThe Intro video sound is glitched and during gameplay only Guitar and Bass Pedal stems plays",
+        "notes": "Game runs very poorly on iPhone 13 Mini\nAudio is Glitched\nMenu text is glitched",
         "screenshots": [],
-        "source": "github",
+        "source": "app",
         "build": {
-          "buildId": "macos-release-1.0.1-9288",
-          "channel": "release",
-          "official": true,
+          "buildId": "ios-self-built-1.0.1-9288",
+          "channel": "self-built",
+          "official": false,
           "appVersion": "1.0.1",
-          "buildNumber": "9288"
+          "buildNumber": "9288",
+          "commitShort": "056d2f64d"
         }
       }
     ],
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/41560840/1774216795265-1.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/41560840/1774216795265-2.jpg"
+    ],
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "ingame",
-        "perf": "ok",
-        "notes": "Needs the be rebooted several time for the game to fully load\nThe Intro video sound is glitched and during gameplay only Guitar and Bass Pedal stems plays",
-        "updatedAt": "2026-03-22",
-        "date": "2026-03-22",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "MacBook Pro (M4)",
-          "platform": "macos",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "ingame",
-          "perf": "ok",
-          "date": "2026-03-22",
-          "notes": "Needs the be rebooted several time for the game to fully load\nThe Intro video sound is glitched and during gameplay only Guitar and Bass Pedal stems plays",
-          "screenshots": [],
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288"
-          }
-        },
-        "bestReport": {
-          "device": "MacBook Pro (M4)",
-          "platform": "macos",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "ingame",
-          "perf": "ok",
-          "date": "2026-03-22",
-          "notes": "Needs the be rebooted several time for the game to fully load\nThe Intro video sound is glitched and during gameplay only Guitar and Bass Pedal stems plays",
-          "screenshots": [],
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288"
-          }
-        }
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "date": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
       },
       "all": {
         "channel": "all",
         "status": "ingame",
-        "perf": "ok",
-        "notes": "Needs the be rebooted several time for the game to fully load\nThe Intro video sound is glitched and during gameplay only Guitar and Bass Pedal stems plays",
+        "perf": "poor",
+        "notes": "Game runs very poorly on iPhone 13 Mini\nAudio is Glitched\nMenu text is glitched",
         "updatedAt": "2026-03-22",
         "date": "2026-03-22",
         "reportCount": 1,
         "latestReport": {
-          "device": "MacBook Pro (M4)",
-          "platform": "macos",
+          "device": "iPhone 13 mini",
+          "platform": "ios",
           "osVersion": "26.3.1",
           "arch": "arm64",
-          "gpuBackend": "msc",
+          "gpuBackend": "msl",
           "status": "ingame",
-          "perf": "ok",
+          "perf": "poor",
           "date": "2026-03-22",
-          "notes": "Needs the be rebooted several time for the game to fully load\nThe Intro video sound is glitched and during gameplay only Guitar and Bass Pedal stems plays",
+          "notes": "Game runs very poorly on iPhone 13 Mini\nAudio is Glitched\nMenu text is glitched",
           "screenshots": [],
-          "source": "github",
+          "source": "app",
           "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
             "appVersion": "1.0.1",
-            "buildNumber": "9288"
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
-          "device": "MacBook Pro (M4)",
-          "platform": "macos",
+          "device": "iPhone 13 mini",
+          "platform": "ios",
           "osVersion": "26.3.1",
           "arch": "arm64",
-          "gpuBackend": "msc",
+          "gpuBackend": "msl",
           "status": "ingame",
-          "perf": "ok",
+          "perf": "poor",
           "date": "2026-03-22",
-          "notes": "Needs the be rebooted several time for the game to fully load\nThe Intro video sound is glitched and during gameplay only Guitar and Bass Pedal stems plays",
+          "notes": "Game runs very poorly on iPhone 13 Mini\nAudio is Glitched\nMenu text is glitched",
           "screenshots": [],
-          "source": "github",
+          "source": "app",
           "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
             "appVersion": "1.0.1",
-            "buildNumber": "9288"
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
           }
         }
       }
@@ -104781,7 +104753,7 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 13 Mini",
+      "device": "iPhone 13 mini",
       "platform": "ios",
       "osVersion": "26.3.1",
       "arch": "arm64",
@@ -104793,7 +104765,7 @@
     "notes": "Performance is expected for an iPhone 13 Mini\nGame runs",
     "reports": [
       {
-        "device": "iPhone 13 Mini",
+        "device": "iPhone 13 mini",
         "platform": "ios",
         "osVersion": "26.3.1",
         "arch": "arm64",
@@ -104810,7 +104782,6 @@
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
           "commitShort": "056d2f64d"
         }
       }
@@ -104837,7 +104808,7 @@
         "date": "2026-03-22",
         "reportCount": 1,
         "latestReport": {
-          "device": "iPhone 13 Mini",
+          "device": "iPhone 13 mini",
           "platform": "ios",
           "osVersion": "26.3.1",
           "arch": "arm64",
@@ -104854,12 +104825,11 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
-          "device": "iPhone 13 Mini",
+          "device": "iPhone 13 mini",
           "platform": "ios",
           "osVersion": "26.3.1",
           "arch": "arm64",
@@ -104876,7 +104846,6 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         }
@@ -104938,7 +104907,7 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 13 Mini",
+      "device": "iPhone 13 mini",
       "platform": "ios",
       "osVersion": "26.3.1",
       "arch": "arm64",
@@ -104950,7 +104919,7 @@
     "notes": "Game may need a couple of reboot to get in game\nPerformance is expected for an iPhone 13 Mini\nSmall Graphical Glitches that does not affect gameplay",
     "reports": [
       {
-        "device": "iPhone 13 Mini",
+        "device": "iPhone 13 mini",
         "platform": "ios",
         "osVersion": "26.3.1",
         "arch": "arm64",
@@ -104967,7 +104936,6 @@
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
           "commitShort": "056d2f64d"
         }
       }
@@ -104994,7 +104962,7 @@
         "date": "2026-03-22",
         "reportCount": 1,
         "latestReport": {
-          "device": "iPhone 13 Mini",
+          "device": "iPhone 13 mini",
           "platform": "ios",
           "osVersion": "26.3.1",
           "arch": "arm64",
@@ -105011,12 +104979,11 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
-          "device": "iPhone 13 Mini",
+          "device": "iPhone 13 mini",
           "platform": "ios",
           "osVersion": "26.3.1",
           "arch": "arm64",
@@ -105033,7 +105000,6 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         }
@@ -105054,7 +105020,7 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 13 Mini",
+      "device": "iPhone 13 mini",
       "platform": "ios",
       "osVersion": "26.3.1",
       "arch": "arm64",
@@ -105066,7 +105032,7 @@
     "notes": "Small Graphical Glitches that don’t affect gameplay \nPerformance is expected for an iPhone 13 Mini\nAudio does tend to desync but that could also be due to low fps",
     "reports": [
       {
-        "device": "iPhone 13 Mini",
+        "device": "iPhone 13 mini",
         "platform": "ios",
         "osVersion": "26.3.1",
         "arch": "arm64",
@@ -105083,50 +105049,7 @@
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
           "commitShort": "056d2f64d"
-        }
-      },
-      {
-        "device": "iPhone 17 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "ok",
-        "date": "2026-03-12",
-        "notes": "Se puede jugar sin audio",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.0-9280",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "commitShort": "2633e8177"
-        }
-      },
-      {
-        "device": "iPhone 16 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.2",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "ok",
-        "date": "2026-03-11",
-        "notes": "Game runs fine with no graphical errors, gameplay not being full speed makes it hard to play.",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.0-9280",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "commitShort": "2633e8177"
         }
       }
     ],
@@ -105153,9 +105076,9 @@
         "notes": "Small Graphical Glitches that don’t affect gameplay \nPerformance is expected for an iPhone 13 Mini\nAudio does tend to desync but that could also be due to low fps",
         "updatedAt": "2026-03-22",
         "date": "2026-03-22",
-        "reportCount": 3,
+        "reportCount": 1,
         "latestReport": {
-          "device": "iPhone 13 Mini",
+          "device": "iPhone 13 mini",
           "platform": "ios",
           "osVersion": "26.3.1",
           "arch": "arm64",
@@ -105172,12 +105095,11 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
-          "device": "iPhone 13 Mini",
+          "device": "iPhone 13 mini",
           "platform": "ios",
           "osVersion": "26.3.1",
           "arch": "arm64",
@@ -105194,7 +105116,6 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         }
@@ -105250,24 +105171,45 @@
       "41560830"
     ],
     "status": "ingame",
-    "perf": "ok",
+    "perf": "poor",
     "tags": [],
     "platforms": [
       "ios",
       "macos"
     ],
     "lastReport": {
-      "device": "MacBook Pro (M4)",
-      "platform": "macos",
+      "device": "iPhone 13 mini",
+      "platform": "ios",
       "osVersion": "26.3.1",
       "arch": "arm64",
-      "gpuBackend": "msc"
+      "gpuBackend": "msl"
     },
     "updatedAt": "2026-03-22",
     "issueNumber": 320,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/320",
-    "notes": "Game will take a couple of restart before loading into a song\nAudio is glitched",
+    "notes": "Have trouble loading into songs some times\nPerformance very poor on iPhone 13 Mini\nAudio is glitched",
     "reports": [
+      {
+        "device": "iPhone 13 mini",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "poor",
+        "date": "2026-03-22",
+        "notes": "Have trouble loading into songs some times\nPerformance very poor on iPhone 13 Mini\nAudio is glitched",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "commitShort": "056d2f64d"
+        }
+      },
       {
         "device": "MacBook Pro (M4)",
         "platform": "macos",
@@ -105286,28 +105228,6 @@
           "official": true,
           "appVersion": "6.10.1",
           "buildNumber": "6.10.1"
-        }
-      },
-      {
-        "device": "iPhone 13 Mini",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "perf": "poor",
-        "date": "2026-03-22",
-        "notes": "Have trouble loading into songs some times\nPerformance very poor on iPhone 13 Mini\nAudio is glitched",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d"
         }
       }
     ],
@@ -105367,49 +105287,51 @@
       "all": {
         "channel": "all",
         "status": "ingame",
-        "perf": "ok",
-        "notes": "Game will take a couple of restart before loading into a song\nAudio is glitched",
+        "perf": "poor",
+        "notes": "Have trouble loading into songs some times\nPerformance very poor on iPhone 13 Mini\nAudio is glitched",
         "updatedAt": "2026-03-22",
         "date": "2026-03-22",
         "reportCount": 2,
         "latestReport": {
-          "device": "MacBook Pro (M4)",
-          "platform": "macos",
+          "device": "iPhone 13 mini",
+          "platform": "ios",
           "osVersion": "26.3.1",
           "arch": "arm64",
-          "gpuBackend": "msc",
+          "gpuBackend": "msl",
           "status": "ingame",
-          "perf": "ok",
+          "perf": "poor",
           "date": "2026-03-22",
-          "notes": "Game will take a couple of restart before loading into a song\nAudio is glitched",
+          "notes": "Have trouble loading into songs some times\nPerformance very poor on iPhone 13 Mini\nAudio is glitched",
           "screenshots": [],
-          "source": "github",
+          "source": "app",
           "build": {
-            "buildId": "macos-release-6.10.1-6.10.1",
-            "channel": "release",
-            "official": true,
-            "appVersion": "6.10.1",
-            "buildNumber": "6.10.1"
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
-          "device": "MacBook Pro (M4)",
-          "platform": "macos",
+          "device": "iPhone 13 mini",
+          "platform": "ios",
           "osVersion": "26.3.1",
           "arch": "arm64",
-          "gpuBackend": "msc",
+          "gpuBackend": "msl",
           "status": "ingame",
-          "perf": "ok",
+          "perf": "poor",
           "date": "2026-03-22",
-          "notes": "Game will take a couple of restart before loading into a song\nAudio is glitched",
+          "notes": "Have trouble loading into songs some times\nPerformance very poor on iPhone 13 Mini\nAudio is glitched",
           "screenshots": [],
-          "source": "github",
+          "source": "app",
           "build": {
-            "buildId": "macos-release-6.10.1-6.10.1",
-            "channel": "release",
-            "official": true,
-            "appVersion": "6.10.1",
-            "buildNumber": "6.10.1"
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
           }
         }
       }
@@ -105423,24 +105345,45 @@
       "4156083D"
     ],
     "status": "ingame",
-    "perf": "ok",
+    "perf": "poor",
     "tags": [],
     "platforms": [
       "ios",
       "macos"
     ],
     "lastReport": {
-      "device": "MacBook Pro (M4)",
-      "platform": "macos",
+      "device": "iPhone 13 mini",
+      "platform": "ios",
       "osVersion": "26.3.1",
       "arch": "arm64",
-      "gpuBackend": "msc"
+      "gpuBackend": "msl"
     },
     "updatedAt": "2026-03-22",
     "issueNumber": 322,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/322",
-    "notes": "Game needs a couple of reboots for it to load a song\nAudio is Glitched",
+    "notes": "Have trouble loading into songs some times Performance very bad on iPhone 13 Mini\nAudio is Glitched",
     "reports": [
+      {
+        "device": "iPhone 13 mini",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "poor",
+        "date": "2026-03-22",
+        "notes": "Have trouble loading into songs some times Performance very bad on iPhone 13 Mini\nAudio is Glitched",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "commitShort": "056d2f64d"
+        }
+      },
       {
         "device": "MacBook Pro (M4)",
         "platform": "macos",
@@ -105459,28 +105402,6 @@
           "official": true,
           "appVersion": "1.0.1",
           "buildNumber": "9288"
-        }
-      },
-      {
-        "device": "iPhone 13 Mini",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "perf": "poor",
-        "date": "2026-03-22",
-        "notes": "Have trouble loading into songs some times Performance very bad on iPhone 13 Mini\nAudio is Glitched",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d"
         }
       }
     ],
@@ -105540,49 +105461,51 @@
       "all": {
         "channel": "all",
         "status": "ingame",
-        "perf": "ok",
-        "notes": "Game needs a couple of reboots for it to load a song\nAudio is Glitched",
+        "perf": "poor",
+        "notes": "Have trouble loading into songs some times Performance very bad on iPhone 13 Mini\nAudio is Glitched",
         "updatedAt": "2026-03-22",
         "date": "2026-03-22",
         "reportCount": 2,
         "latestReport": {
-          "device": "MacBook Pro (M4)",
-          "platform": "macos",
+          "device": "iPhone 13 mini",
+          "platform": "ios",
           "osVersion": "26.3.1",
           "arch": "arm64",
-          "gpuBackend": "msc",
+          "gpuBackend": "msl",
           "status": "ingame",
-          "perf": "ok",
+          "perf": "poor",
           "date": "2026-03-22",
-          "notes": "Game needs a couple of reboots for it to load a song\nAudio is Glitched",
+          "notes": "Have trouble loading into songs some times Performance very bad on iPhone 13 Mini\nAudio is Glitched",
           "screenshots": [],
-          "source": "github",
+          "source": "app",
           "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
             "appVersion": "1.0.1",
-            "buildNumber": "9288"
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
-          "device": "MacBook Pro (M4)",
-          "platform": "macos",
+          "device": "iPhone 13 mini",
+          "platform": "ios",
           "osVersion": "26.3.1",
           "arch": "arm64",
-          "gpuBackend": "msc",
+          "gpuBackend": "msl",
           "status": "ingame",
-          "perf": "ok",
+          "perf": "poor",
           "date": "2026-03-22",
-          "notes": "Game needs a couple of reboots for it to load a song\nAudio is Glitched",
+          "notes": "Have trouble loading into songs some times Performance very bad on iPhone 13 Mini\nAudio is Glitched",
           "screenshots": [],
-          "source": "github",
+          "source": "app",
           "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
             "appVersion": "1.0.1",
-            "buildNumber": "9288"
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
           }
         }
       }
@@ -105643,7 +105566,7 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 13 Mini",
+      "device": "iPhone 13 mini",
       "platform": "ios",
       "osVersion": "26.3.1",
       "arch": "arm64",
@@ -105655,7 +105578,7 @@
     "notes": "Have trouble loading into songs some times\nPerformance is very poor on iPhone 13 Mini\nAudio is glitched",
     "reports": [
       {
-        "device": "iPhone 13 Mini",
+        "device": "iPhone 13 mini",
         "platform": "ios",
         "osVersion": "26.3.1",
         "arch": "arm64",
@@ -105672,7 +105595,6 @@
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
           "commitShort": "056d2f64d"
         }
       }
@@ -105701,7 +105623,7 @@
         "date": "2026-03-22",
         "reportCount": 1,
         "latestReport": {
-          "device": "iPhone 13 Mini",
+          "device": "iPhone 13 mini",
           "platform": "ios",
           "osVersion": "26.3.1",
           "arch": "arm64",
@@ -105718,12 +105640,11 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
-          "device": "iPhone 13 Mini",
+          "device": "iPhone 13 mini",
           "platform": "ios",
           "osVersion": "26.3.1",
           "arch": "arm64",
@@ -105740,7 +105661,6 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         }
@@ -105755,24 +105675,45 @@
       "4156083E"
     ],
     "status": "ingame",
-    "perf": "ok",
+    "perf": "poor",
     "tags": [],
     "platforms": [
       "ios",
       "macos"
     ],
     "lastReport": {
-      "device": "MacBook Pro (M4)",
-      "platform": "macos",
+      "device": "iPhone 13 mini",
+      "platform": "ios",
       "osVersion": "26.3.1",
       "arch": "arm64",
-      "gpuBackend": "msc"
+      "gpuBackend": "msl"
     },
     "updatedAt": "2026-03-22",
     "issueNumber": 321,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/321",
-    "notes": "Takes some reboots to load into a song\nAudio is Glitched",
+    "notes": "Has trouble loading into songs some times\nPerformance very poor on iPhone 13 Mini\nAudio is Glitched",
     "reports": [
+      {
+        "device": "iPhone 13 mini",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "poor",
+        "date": "2026-03-22",
+        "notes": "Has trouble loading into songs some times\nPerformance very poor on iPhone 13 Mini\nAudio is Glitched",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "commitShort": "056d2f64d"
+        }
+      },
       {
         "device": "MacBook Pro (M4)",
         "platform": "macos",
@@ -105791,28 +105732,6 @@
           "official": true,
           "appVersion": "1.0.1",
           "buildNumber": "9288"
-        }
-      },
-      {
-        "device": "iPhone 13 Mini",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "perf": "poor",
-        "date": "2026-03-22",
-        "notes": "Has trouble loading into songs some times\nPerformance very poor on iPhone 13 Mini\nAudio is Glitched",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d"
         }
       }
     ],
@@ -105872,49 +105791,51 @@
       "all": {
         "channel": "all",
         "status": "ingame",
-        "perf": "ok",
-        "notes": "Takes some reboots to load into a song\nAudio is Glitched",
+        "perf": "poor",
+        "notes": "Has trouble loading into songs some times\nPerformance very poor on iPhone 13 Mini\nAudio is Glitched",
         "updatedAt": "2026-03-22",
         "date": "2026-03-22",
         "reportCount": 2,
         "latestReport": {
-          "device": "MacBook Pro (M4)",
-          "platform": "macos",
+          "device": "iPhone 13 mini",
+          "platform": "ios",
           "osVersion": "26.3.1",
           "arch": "arm64",
-          "gpuBackend": "msc",
+          "gpuBackend": "msl",
           "status": "ingame",
-          "perf": "ok",
+          "perf": "poor",
           "date": "2026-03-22",
-          "notes": "Takes some reboots to load into a song\nAudio is Glitched",
+          "notes": "Has trouble loading into songs some times\nPerformance very poor on iPhone 13 Mini\nAudio is Glitched",
           "screenshots": [],
-          "source": "github",
+          "source": "app",
           "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
             "appVersion": "1.0.1",
-            "buildNumber": "9288"
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
-          "device": "MacBook Pro (M4)",
-          "platform": "macos",
+          "device": "iPhone 13 mini",
+          "platform": "ios",
           "osVersion": "26.3.1",
           "arch": "arm64",
-          "gpuBackend": "msc",
+          "gpuBackend": "msl",
           "status": "ingame",
-          "perf": "ok",
+          "perf": "poor",
           "date": "2026-03-22",
-          "notes": "Takes some reboots to load into a song\nAudio is Glitched",
+          "notes": "Has trouble loading into songs some times\nPerformance very poor on iPhone 13 Mini\nAudio is Glitched",
           "screenshots": [],
-          "source": "github",
+          "source": "app",
           "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
             "appVersion": "1.0.1",
-            "buildNumber": "9288"
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
           }
         }
       }
@@ -107360,50 +107281,7 @@
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
           "commitShort": "056d2f64d"
-        }
-      },
-      {
-        "device": "iPhone 17 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.0",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-03-12",
-        "notes": "Halo 3 crashes instantly when opened even with JIT enabled. The game closes but XeniOS remains open.",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.0-9296",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9296",
-          "commitShort": "ab2ca341a"
-        }
-      },
-      {
-        "device": "iPhone 17",
-        "platform": "ios",
-        "osVersion": "26.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "perf": "poor",
-        "date": "2026-03-11",
-        "notes": "Boots fine and loads into game with the initial cutscene loop workaround.",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.0-9296",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9296",
-          "commitShort": "ab2ca341a"
         }
       },
       {
@@ -107746,7 +107624,7 @@
         "notes": "To launch you do have to disable mount cache and you’ll need to know you way around because it doesn’t display words",
         "updatedAt": "2026-03-22",
         "date": "2026-03-22",
-        "reportCount": 18,
+        "reportCount": 16,
         "latestReport": {
           "device": "iPhone 16 Plus",
           "platform": "ios",
@@ -107765,7 +107643,6 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         },
@@ -107787,7 +107664,6 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         }
@@ -200529,7 +200405,6 @@
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
           "commitShort": "056d2f64d"
         }
       }
@@ -200573,7 +200448,6 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         },
@@ -200595,7 +200469,6 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         }
@@ -225728,7 +225601,6 @@
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
           "commitShort": "056d2f64d"
         }
       },
@@ -225799,7 +225671,6 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         },
@@ -225821,7 +225692,6 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         }
