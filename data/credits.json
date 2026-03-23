@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-16T07:59:08.200Z",
+  "generatedAt": "2026-03-23T07:47:44.787Z",
   "totalProjects": 4,
   "contributors": [
     {
@@ -1419,6 +1419,15 @@
       "projects": [
         "xenia-canary",
         "xenia-edge"
+      ]
+    },
+    {
+      "id": "user:xenios-jp",
+      "displayName": "xenios-jp",
+      "profileUrl": "https://github.com/xenios-jp",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/262539360?v=4",
+      "projects": [
+        "xenia-canary"
       ]
     }
   ],
