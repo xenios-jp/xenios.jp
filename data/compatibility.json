@@ -5829,7 +5829,7 @@
       "macos"
     ],
     "lastReport": {
-      "device": "MacBook Pro M4",
+      "device": "MacBook Pro (M4)",
       "platform": "macos",
       "osVersion": "26.3.1",
       "arch": "arm64",
@@ -5841,7 +5841,7 @@
     "notes": "The game can reach the main menu\ncan't go in game because it require a guitar or drum controller",
     "reports": [
       {
-        "device": "MacBook Pro M4",
+        "device": "MacBook Pro (M4)",
         "platform": "macos",
         "osVersion": "26.3.1",
         "arch": "arm64",
@@ -5850,12 +5850,7 @@
         "perf": "great",
         "date": "2026-03-23",
         "notes": "The game can reach the main menu\ncan't go in game because it require a guitar or drum controller",
-        "reportedTitleId": "45410889",
-        "reportedTitle": "AC/DC LIVE: Rock Band",
-        "screenshots": [
-          "https://github.com/user-attachments/assets/069e0921-8011-4ca0-9b03-e520d8fac997"
-        ],
-        "submittedBy": "kControllerVocals",
+        "screenshots": [],
         "source": "github",
         "build": {
           "buildId": "macos-release-1.0.1-9288",
@@ -5866,9 +5861,7 @@
         }
       }
     ],
-    "screenshots": [
-      "https://github.com/user-attachments/assets/069e0921-8011-4ca0-9b03-e520d8fac997"
-    ],
+    "screenshots": [],
     "summaries": {
       "release": {
         "channel": "release",
@@ -5879,7 +5872,7 @@
         "date": "2026-03-23",
         "reportCount": 1,
         "latestReport": {
-          "device": "MacBook Pro M4",
+          "device": "MacBook Pro (M4)",
           "platform": "macos",
           "osVersion": "26.3.1",
           "arch": "arm64",
@@ -5888,12 +5881,7 @@
           "perf": "great",
           "date": "2026-03-23",
           "notes": "The game can reach the main menu\ncan't go in game because it require a guitar or drum controller",
-          "reportedTitleId": "45410889",
-          "reportedTitle": "AC/DC LIVE: Rock Band",
-          "screenshots": [
-            "https://github.com/user-attachments/assets/069e0921-8011-4ca0-9b03-e520d8fac997"
-          ],
-          "submittedBy": "kControllerVocals",
+          "screenshots": [],
           "source": "github",
           "build": {
             "buildId": "macos-release-1.0.1-9288",
@@ -5904,7 +5892,7 @@
           }
         },
         "bestReport": {
-          "device": "MacBook Pro M4",
+          "device": "MacBook Pro (M4)",
           "platform": "macos",
           "osVersion": "26.3.1",
           "arch": "arm64",
@@ -5913,12 +5901,7 @@
           "perf": "great",
           "date": "2026-03-23",
           "notes": "The game can reach the main menu\ncan't go in game because it require a guitar or drum controller",
-          "reportedTitleId": "45410889",
-          "reportedTitle": "AC/DC LIVE: Rock Band",
-          "screenshots": [
-            "https://github.com/user-attachments/assets/069e0921-8011-4ca0-9b03-e520d8fac997"
-          ],
-          "submittedBy": "kControllerVocals",
+          "screenshots": [],
           "source": "github",
           "build": {
             "buildId": "macos-release-1.0.1-9288",
@@ -5938,7 +5921,7 @@
         "date": "2026-03-23",
         "reportCount": 1,
         "latestReport": {
-          "device": "MacBook Pro M4",
+          "device": "MacBook Pro (M4)",
           "platform": "macos",
           "osVersion": "26.3.1",
           "arch": "arm64",
@@ -5947,12 +5930,7 @@
           "perf": "great",
           "date": "2026-03-23",
           "notes": "The game can reach the main menu\ncan't go in game because it require a guitar or drum controller",
-          "reportedTitleId": "45410889",
-          "reportedTitle": "AC/DC LIVE: Rock Band",
-          "screenshots": [
-            "https://github.com/user-attachments/assets/069e0921-8011-4ca0-9b03-e520d8fac997"
-          ],
-          "submittedBy": "kControllerVocals",
+          "screenshots": [],
           "source": "github",
           "build": {
             "buildId": "macos-release-1.0.1-9288",
@@ -5963,7 +5941,7 @@
           }
         },
         "bestReport": {
-          "device": "MacBook Pro M4",
+          "device": "MacBook Pro (M4)",
           "platform": "macos",
           "osVersion": "26.3.1",
           "arch": "arm64",
@@ -5972,12 +5950,7 @@
           "perf": "great",
           "date": "2026-03-23",
           "notes": "The game can reach the main menu\ncan't go in game because it require a guitar or drum controller",
-          "reportedTitleId": "45410889",
-          "reportedTitle": "AC/DC LIVE: Rock Band",
-          "screenshots": [
-            "https://github.com/user-attachments/assets/069e0921-8011-4ca0-9b03-e520d8fac997"
-          ],
-          "submittedBy": "kControllerVocals",
+          "screenshots": [],
           "source": "github",
           "build": {
             "buildId": "macos-release-1.0.1-9288",
@@ -190843,37 +190816,144 @@
     "titleIds": [
       "454108B0"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "loads",
+    "perf": "great",
     "tags": [],
-    "platforms": [],
-    "lastReport": null,
-    "updatedAt": "",
-    "notes": "",
-    "reports": [],
+    "platforms": [
+      "macos"
+    ],
+    "lastReport": {
+      "device": "MacBook Pro (M4)",
+      "platform": "macos",
+      "osVersion": "26.3.1",
+      "arch": "arm64",
+      "gpuBackend": "msc"
+    },
+    "updatedAt": "2026-03-23",
+    "issueNumber": 337,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/337",
+    "notes": "Game Boots\ncan't go past main menu because it's needs a guitar or drum controller",
+    "reports": [
+      {
+        "device": "MacBook Pro (M4)",
+        "platform": "macos",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msc",
+        "status": "loads",
+        "perf": "great",
+        "date": "2026-03-23",
+        "notes": "Game Boots\ncan't go past main menu because it's needs a guitar or drum controller",
+        "screenshots": [],
+        "source": "github",
+        "build": {
+          "buildId": "macos-release-1.0.1-9288",
+          "channel": "release",
+          "official": true,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288"
+        }
+      }
+    ],
     "screenshots": [],
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "loads",
+        "perf": "great",
+        "notes": "Game Boots\ncan't go past main menu because it's needs a guitar or drum controller",
+        "updatedAt": "2026-03-23",
+        "date": "2026-03-23",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "MacBook Pro (M4)",
+          "platform": "macos",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msc",
+          "status": "loads",
+          "perf": "great",
+          "date": "2026-03-23",
+          "notes": "Game Boots\ncan't go past main menu because it's needs a guitar or drum controller",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-1.0.1-9288",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288"
+          }
+        },
+        "bestReport": {
+          "device": "MacBook Pro (M4)",
+          "platform": "macos",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msc",
+          "status": "loads",
+          "perf": "great",
+          "date": "2026-03-23",
+          "notes": "Game Boots\ncan't go past main menu because it's needs a guitar or drum controller",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-1.0.1-9288",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288"
+          }
+        }
       },
       "all": {
         "channel": "all",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "loads",
+        "perf": "great",
+        "notes": "Game Boots\ncan't go past main menu because it's needs a guitar or drum controller",
+        "updatedAt": "2026-03-23",
+        "date": "2026-03-23",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "MacBook Pro (M4)",
+          "platform": "macos",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msc",
+          "status": "loads",
+          "perf": "great",
+          "date": "2026-03-23",
+          "notes": "Game Boots\ncan't go past main menu because it's needs a guitar or drum controller",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-1.0.1-9288",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288"
+          }
+        },
+        "bestReport": {
+          "device": "MacBook Pro (M4)",
+          "platform": "macos",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msc",
+          "status": "loads",
+          "perf": "great",
+          "date": "2026-03-23",
+          "notes": "Game Boots\ncan't go past main menu because it's needs a guitar or drum controller",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-1.0.1-9288",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288"
+          }
+        }
       }
     }
   },
