@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-23T00:41:00.400Z",
+  "generatedAt": "2026-03-23T00:45:44.607Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1040,6 +1040,26 @@
             "buildNumber": "9280",
             "commitShort": "`2633e8177`"
           }
+        }
+      ]
+    },
+    "45410881": {
+      "titleId": "45410881",
+      "issueNumber": 341,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/341",
+      "updatedAt": "2026-03-23",
+      "entries": [
+        {
+          "id": "issue-341",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/341",
+          "author": "kControllerVocals",
+          "createdAt": "2026-03-23",
+          "createdAtMs": 1774226684000,
+          "issueNumber": 341,
+          "excerpt": "game boots\ncan't get past main menu because it needs a guitar or drum controller",
+          "images": [],
+          "meta": {}
         }
       ]
     },
