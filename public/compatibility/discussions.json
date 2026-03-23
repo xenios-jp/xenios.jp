@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-23T11:32:42.706Z",
+  "generatedAt": "2026-03-23T12:38:05.417Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1208,6 +1208,39 @@
           "excerpt": "Menus are missing text and game has no audio.\nWill load into first mission with artifacts on the textures and occasional graphical issues. frame rate is stable.\nBut without audio and text for tutorial hints, game is unplayable.",
           "images": [],
           "meta": {}
+        }
+      ]
+    },
+    "45410914": {
+      "titleId": "45410914",
+      "issueNumber": 347,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/347",
+      "updatedAt": "2026-03-23",
+      "entries": [
+        {
+          "id": "issue-347",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/347",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-23",
+          "createdAtMs": 1774269434000,
+          "issueNumber": 347,
+          "excerpt": "Performance is poor on iPhone 13 Mini\nNeeds a couple of reboots before loading",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/45410914/1774269430383-1.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "poor",
+            "device": "iPhone 13 mini",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
         }
       ]
     },
