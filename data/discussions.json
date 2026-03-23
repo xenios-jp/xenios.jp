@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-22T23:45:34.147Z",
+  "generatedAt": "2026-03-23T00:01:09.302Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -480,63 +480,6 @@
         }
       ]
     },
-    "43430833": {
-      "titleId": "43430833",
-      "issueNumber": 218,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/218",
-      "updatedAt": "2026-03-15",
-      "entries": [
-        {
-          "id": "comment-4063479860",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/218#issuecomment-4063479860",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-15",
-          "createdAtMs": 1773596342000,
-          "issueNumber": 218,
-          "excerpt": "FPS: 18-22. artefacts: no",
-          "images": [
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/43430833/1773596337727-1.jpg",
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/43430833/1773596337727-2.jpg"
-          ],
-          "meta": {
-            "status": "playable",
-            "perf": "ok",
-            "device": "iPhone 16",
-            "platform": "iOS",
-            "osVersion": "iOS 26.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "`056d2f64d`"
-          }
-        },
-        {
-          "id": "issue-218",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/218",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-12",
-          "createdAtMs": 1773320166000,
-          "issueNumber": 218,
-          "excerpt": "Only glitches in cut scenes game plays just fine no lags",
-          "images": [],
-          "meta": {
-            "status": "playable",
-            "perf": "great",
-            "device": "iPhone 16e",
-            "platform": "iOS",
-            "osVersion": "iOS 26.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9299",
-            "commitShort": "`d8c101905`"
-          }
-        }
-      ]
-    },
     "45410806": {
       "titleId": "45410806",
       "issueNumber": 217,
@@ -820,8 +763,20 @@
       "titleId": "45410829",
       "issueNumber": 334,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/334",
-      "updatedAt": "2026-03-22",
+      "updatedAt": "2026-03-23",
       "entries": [
+        {
+          "id": "issue-335",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/335",
+          "author": "kControllerVocals",
+          "createdAt": "2026-03-23",
+          "createdAtMs": 1774224022000,
+          "issueNumber": 335,
+          "excerpt": "The game needs to be rebooted multiple time for it to load properly\nDuring gameplay minor frame drops happens but it stays playable",
+          "images": [],
+          "meta": {}
+        },
         {
           "id": "issue-334",
           "type": "issue",
