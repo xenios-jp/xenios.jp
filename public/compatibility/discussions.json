@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-23T00:35:25.811Z",
+  "generatedAt": "2026-03-23T00:41:00.400Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2009,6 +2009,26 @@
           "createdAtMs": 1773517964000,
           "issueNumber": 263,
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
+          "images": [],
+          "meta": {}
+        }
+      ]
+    },
+    "454108CD": {
+      "titleId": "454108CD",
+      "issueNumber": 340,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/340",
+      "updatedAt": "2026-03-23",
+      "entries": [
+        {
+          "id": "issue-340",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/340",
+          "author": "kControllerVocals",
+          "createdAt": "2026-03-23",
+          "createdAtMs": 1774226414000,
+          "issueNumber": 340,
+          "excerpt": "game boots\ncan't get past main menu because it require a guitar or drum controller",
           "images": [],
           "meta": {}
         }
