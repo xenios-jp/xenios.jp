@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-23T02:17:41.022Z",
+  "generatedAt": "2026-03-23T03:06:05.510Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -906,8 +906,31 @@
       "titleId": "45410850",
       "issueNumber": 303,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/303",
-      "updatedAt": "2026-03-20",
+      "updatedAt": "2026-03-23",
       "entries": [
+        {
+          "id": "comment-4107688169",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/303#issuecomment-4107688169",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-23",
+          "createdAtMs": 1774235070000,
+          "issueNumber": 303,
+          "excerpt": "Boots to a black screen and I let it sit for a while and still nothing. Eventually the app freezes so I just turned off my phone but then my touch screen became unresponsive when I tried to reboot, the buttons didn’t do anything so I had to use Siri. I don’t recommend.",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 16 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 26.0",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
         {
           "id": "issue-303",
           "type": "issue",
