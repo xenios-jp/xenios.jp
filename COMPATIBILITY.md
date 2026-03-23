@@ -4,7 +4,7 @@
 >
 > 🟢 Playable: **94** · 🔵 In-Game: **53** · 🟡 Intro: **19** · 🟠 Loads: **34** · 🔴 Doesn't Boot: **36**
 >
-> 📱 iOS: **219** · 🖥️ macOS: **33**
+> 📱 iOS: **219** · 🖥️ macOS: **34**
 
 ## Legend
 
@@ -94,7 +94,7 @@
 | 🟢 | Ridge Racer 6 | `4E4D07D3` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-08 |
 | 🟢 | Rock Band | `45410829` | 🖥️ macOS, 📱 iOS | Playable | 🚀 Great | MacBook Pro (M4) | 2026-03-23 |
 | 🟢 | Rock Band 2 | `45410869` | 📱 iOS, 🖥️ macOS | Playable | 🚀 Great | MacBook Pro (M4) | 2026-03-23 |
-| 🟢 | Rock Band 3 | `45410914` | 📱 iOS | Playable | 🐢 Poor | iPhone 13 mini | 2026-03-23 |
+| 🟢 | Rock Band 3 | `45410914` | 📱 iOS, 🖥️ macOS | Playable | 👌 OK | MacBook Pro (M4) | 2026-03-23 |
 | 🟢 | Rumble Roses XX | `4B4E07D1` | 🖥️ macOS | Playable | 🚀 Great | Mac mini (M2) | 2026-03-11 |
 | 🟢 | Skate 2 | `4541087F` | 📱 iOS | Playable | 👌 OK | iPhone 16e | 2026-03-17 |
 | 🟢 | Skate 3 | `454108E6` | 📱 iOS | Playable | 🐢 Poor | iPad Pro 13-inch (M4) | 2026-03-19 |
