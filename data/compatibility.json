@@ -108796,11 +108796,33 @@
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-11",
+    "updatedAt": "2026-03-23",
     "issueNumber": 1,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/1",
     "notes": "Playable and with decent performance just make sure you are set to classic video and audio.",
     "reports": [
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.0",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "ok",
+        "date": "2026-03-23",
+        "notes": "For my tests I have not tried campaign. There are lots of bugs:\n- The initial loading screen has a short and loud static sound that plays when the loading screen is finished loading.\n- There is another of the same sound that plays shortly after during the 343 intro logo.\n- The intro graphics are a green pixelated mess\n- Audio for buttons is messed up.\n- The 3d graphics in the background of the main menu are messed up.\n- Selecting the multiplayer button on the main menu closes the game instantly and goes back to the XeniOS app itself.\n- Some controller inputs are read twice and it is random when any controller input is read once or twice. For example, on the main menu I would press down one time and the selection would have a random chance of going down one time or two times.",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.0-9299",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9299",
+          "stage": "stable",
+          "commitShort": "d8c101905"
+        }
+      },
       {
         "device": "iPhone 16 Pro",
         "platform": "ios",
@@ -108912,28 +108934,29 @@
         "status": "playable",
         "perf": "ok",
         "notes": "Playable and with decent performance just make sure you are set to classic video and audio.",
-        "updatedAt": "2026-03-11",
-        "date": "2026-03-11",
-        "reportCount": 3,
+        "updatedAt": "2026-03-23",
+        "date": "2026-03-23",
+        "reportCount": 4,
         "latestReport": {
-          "device": "iPhone 16 Pro",
+          "device": "iPhone 17 Pro Max",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "26.0",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "playable",
+          "status": "ingame",
           "perf": "ok",
-          "date": "2026-03-11",
-          "notes": "Playable and with decent performance just make sure you are set to classic video and audio.",
+          "date": "2026-03-23",
+          "notes": "For my tests I have not tried campaign. There are lots of bugs:\n- The initial loading screen has a short and loud static sound that plays when the loading screen is finished loading.\n- There is another of the same sound that plays shortly after during the 343 intro logo.\n- The intro graphics are a green pixelated mess\n- Audio for buttons is messed up.\n- The 3d graphics in the background of the main menu are messed up.\n- Selecting the multiplayer button on the main menu closes the game instantly and goes back to the XeniOS app itself.\n- Some controller inputs are read twice and it is random when any controller input is read once or twice. For example, on the main menu I would press down one time and the selection would have a random chance of going down one time or two times.",
           "screenshots": [],
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9296",
+            "buildId": "ios-self-built-1.0.0-9299",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
-            "buildNumber": "9296",
-            "commitShort": "ab2ca341a"
+            "buildNumber": "9299",
+            "stage": "stable",
+            "commitShort": "d8c101905"
           }
         },
         "bestReport": {

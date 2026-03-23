@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-23T12:57:12.784Z",
+  "generatedAt": "2026-03-23T18:40:26.904Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2118,6 +2118,119 @@
           "createdAtMs": 1773517964000,
           "issueNumber": 263,
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
+          "images": [],
+          "meta": {}
+        }
+      ]
+    },
+    "4D5309B1": {
+      "titleId": "4D5309B1",
+      "issueNumber": 349,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/349",
+      "updatedAt": "2026-03-23",
+      "entries": [
+        {
+          "id": "issue-349",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/349",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-23",
+          "createdAtMs": 1774291159000,
+          "issueNumber": 349,
+          "excerpt": "For my tests I have not tried campaign. There are lots of bugs:\n- The initial loading screen has a short and loud static sound that plays when the loading screen is finished loading.\n- There is another of the same sound that plays shortly after during the 343 intro logo.\n- The intro graphics are a green pixelated mess\n- Audio for buttons is messed up.\n- The 3d graphics in the background of the main menu are messed up.\n- Selecting the multiplayer button on the main menu closes the game instantly and goes back to the XeniOS app itself.\n- Some controller inputs are read twice and it is random when any controller input is read once or twice. For example, on the main menu I would press down one time and the selection would have a random chance of going down one time or two times.",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "ok",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.0",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9299",
+            "commitShort": "`d8c101905`"
+          }
+        },
+        {
+          "id": "issue-201",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/201",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-11",
+          "createdAtMs": 1773242634000,
+          "issueNumber": 201,
+          "excerpt": "Playable and with decent performance just make sure you are set to classic video and audio.",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 16 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9296",
+            "commitShort": "`ab2ca341a`"
+          }
+        },
+        {
+          "id": "comment-4019991063",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/1#issuecomment-4019991063",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1773003086000,
+          "issueNumber": 1,
+          "excerpt": "Works great as long as graphics are switched to classic.",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 15 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.4",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        },
+        {
+          "id": "comment-4019623360",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/1#issuecomment-4019623360",
+          "author": "J7mbo",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1772991200000,
+          "issueNumber": 1,
+          "excerpt": "<img width=\"2622\" height=\"1206\" alt=\"Image\" src=\" />\n\nEnemies guns are seen through walls.",
+          "images": [],
+          "meta": {}
+        },
+        {
+          "id": "comment-4019619455",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/1#issuecomment-4019619455",
+          "author": "J7mbo",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1772991054000,
+          "issueNumber": 1,
+          "excerpt": "And... textures are messed up in classic. \n\n<img width=\"2622\" height=\"1206\" alt=\"Image\" src=\" />\n\nthen a restart helped. But when the covenant first come in:\n\n<img width=\"2622\" height=\"1206\" alt=\"Image\" src=\" />\n\n<img width=\"2622\" height=\"1206\" alt=\"Image\" src=\" />\n\n<img width=\"2622\" height=\"1206\" alt=\"Image\" src=\" />",
+          "images": [],
+          "meta": {}
+        },
+        {
+          "id": "comment-4019593790",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/1#issuecomment-4019593790",
+          "author": "J7mbo",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1772990512000,
+          "issueNumber": 1,
+          "excerpt": "Additionally even in classic mode, the characters for subtitles are completely scrambled.",
           "images": [],
           "meta": {}
         }
@@ -6951,119 +7064,6 @@
           "excerpt": "Sometimes it freezes on loading, the intro video and the city map have strong glitches, sometimes the sound disappears until restarting.",
           "images": [],
           "meta": {}
-        }
-      ]
-    },
-    "4D5309B1": {
-      "titleId": "4D5309B1",
-      "issueNumber": 201,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/201",
-      "updatedAt": "2026-03-11",
-      "entries": [
-        {
-          "id": "issue-201",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/201",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-11",
-          "createdAtMs": 1773242634000,
-          "issueNumber": 201,
-          "excerpt": "Playable and with decent performance just make sure you are set to classic video and audio.",
-          "images": [],
-          "meta": {
-            "status": "playable",
-            "perf": "ok",
-            "device": "iPhone 16 Pro",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9296",
-            "commitShort": "`ab2ca341a`"
-          }
-        },
-        {
-          "id": "comment-4019991063",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/1#issuecomment-4019991063",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-08",
-          "createdAtMs": 1773003086000,
-          "issueNumber": 1,
-          "excerpt": "Works great as long as graphics are switched to classic.",
-          "images": [],
-          "meta": {
-            "status": "playable",
-            "perf": "great",
-            "device": "iPhone 15 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 26.4",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "`2633e8177`"
-          }
-        },
-        {
-          "id": "comment-4019623360",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/1#issuecomment-4019623360",
-          "author": "J7mbo",
-          "createdAt": "2026-03-08",
-          "createdAtMs": 1772991200000,
-          "issueNumber": 1,
-          "excerpt": "<img width=\"2622\" height=\"1206\" alt=\"Image\" src=\" />\n\nEnemies guns are seen through walls.",
-          "images": [],
-          "meta": {}
-        },
-        {
-          "id": "comment-4019619455",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/1#issuecomment-4019619455",
-          "author": "J7mbo",
-          "createdAt": "2026-03-08",
-          "createdAtMs": 1772991054000,
-          "issueNumber": 1,
-          "excerpt": "And... textures are messed up in classic. \n\n<img width=\"2622\" height=\"1206\" alt=\"Image\" src=\" />\n\nthen a restart helped. But when the covenant first come in:\n\n<img width=\"2622\" height=\"1206\" alt=\"Image\" src=\" />\n\n<img width=\"2622\" height=\"1206\" alt=\"Image\" src=\" />\n\n<img width=\"2622\" height=\"1206\" alt=\"Image\" src=\" />",
-          "images": [],
-          "meta": {}
-        },
-        {
-          "id": "comment-4019593790",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/1#issuecomment-4019593790",
-          "author": "J7mbo",
-          "createdAt": "2026-03-08",
-          "createdAtMs": 1772990512000,
-          "issueNumber": 1,
-          "excerpt": "Additionally even in classic mode, the characters for subtitles are completely scrambled.",
-          "images": [],
-          "meta": {}
-        },
-        {
-          "id": "issue-1",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/1",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-06",
-          "createdAtMs": 1772815896000,
-          "issueNumber": 1,
-          "excerpt": "If loading into game with classic graphics, runs at a steady 30fps. In anniversary mode there are severe graphical issues. When switching back from anniversary to classic mid game this breaks rendering in classic. \n\nAdditionally, the game shows audio issues in the warthog and some covenant vehicles.",
-          "images": [
-            "https://raw.githubusercontent.com/xenios-jp/xenios.jp/main/public/compatibility/screenshots/4D5309B1/1772815889495-1.jpg",
-            "https://raw.githubusercontent.com/xenios-jp/xenios.jp/main/public/compatibility/screenshots/4D5309B1/1772815889495-2.jpg",
-            "https://raw.githubusercontent.com/xenios-jp/xenios.jp/main/public/compatibility/screenshots/4D5309B1/1772815889495-3.jpg"
-          ],
-          "meta": {
-            "status": "ingame",
-            "perf": "great",
-            "device": "iPhone 17",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3",
-            "gpuBackend": "MSL"
-          }
         }
       ]
     },
