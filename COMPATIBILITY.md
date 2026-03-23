@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **234 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **235 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **92** · 🔵 In-Game: **53** · 🟡 Intro: **19** · 🟠 Loads: **34** · 🔴 Doesn't Boot: **36**
+> 🟢 Playable: **93** · 🔵 In-Game: **53** · 🟡 Intro: **19** · 🟠 Loads: **34** · 🔴 Doesn't Boot: **36**
 >
-> 📱 iOS: **217** · 🖥️ macOS: **33**
+> 📱 iOS: **218** · 🖥️ macOS: **33**
 
 ## Legend
 
@@ -112,6 +112,7 @@
 | 🟢 | Virtua Fighter 5: Final Showdown | `534507EE` | 📱 iOS | Playable | 👌 OK | iPhone 17 Pro Max | 2026-03-03 |
 | 🟢 | WRC 5: FIA WORLD RALLY CHAMPIONSHIP | `573607E2` | 📱 iOS | Playable | 🐢 Poor | iPhone 17 Pro Max | 2026-03-17 |
 | 🟢 | WWE Smackdown vs RAW 2008 | `5451080B` | 📱 iOS | Playable | 👌 OK | iPhone 16e | 2026-03-16 |
+| 🟢 | Yaris | `5841087F` | 📱 iOS | Playable | 🚀 Great | iPhone 14 Pro Max | 2026-03-23 |
 | 🔵 | Band Hero | `4156085C` | 📱 iOS, 🖥️ macOS | In-Game | 🐢 Poor | iPhone 13 mini | 2026-03-22 |
 | 🔵 | Batman: Arkham City | `57520802` | 📱 iOS | In-Game | 👌 OK | iPhone 15 Pro Max | 2026-03-09 |
 | 🔵 | Bayonetta | `53450813` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 | 2026-03-08 |
