@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-23T00:45:44.607Z",
+  "generatedAt": "2026-03-23T01:01:48.547Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1008,6 +1008,39 @@
             "platform": "iOS",
             "osVersion": "iOS 18.5",
             "gpuBackend": "MSL"
+          }
+        }
+      ]
+    },
+    "45410869": {
+      "titleId": "45410869",
+      "issueNumber": 342,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/342",
+      "updatedAt": "2026-03-23",
+      "entries": [
+        {
+          "id": "issue-342",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/342",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-23",
+          "createdAtMs": 1774227635000,
+          "issueNumber": 342,
+          "excerpt": "Game freezes when loading a song on iPhone 13 Mini",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/45410869/1774227631407-1.jpg"
+          ],
+          "meta": {
+            "status": "loads",
+            "perf": "poor",
+            "device": "iPhone 13 mini",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
           }
         }
       ]
