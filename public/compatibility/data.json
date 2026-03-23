@@ -190692,24 +190692,45 @@
     "titleIds": [
       "45410869"
     ],
-    "status": "loads",
-    "perf": "poor",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
     "platforms": [
-      "ios"
+      "ios",
+      "macos"
     ],
     "lastReport": {
-      "device": "iPhone 13 Mini",
-      "platform": "ios",
+      "device": "MacBook Pro (M4)",
+      "platform": "macos",
       "osVersion": "26.3.1",
       "arch": "arm64",
-      "gpuBackend": "msl"
+      "gpuBackend": "msc"
     },
     "updatedAt": "2026-03-23",
     "issueNumber": 342,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/342",
-    "notes": "Game freezes when loading a song on iPhone 13 Mini",
+    "notes": "Minor graphical issue on menu \ngame runs perfectly fine with minor frame drops",
     "reports": [
+      {
+        "device": "MacBook Pro (M4)",
+        "platform": "macos",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msc",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-03-23",
+        "notes": "Minor graphical issue on menu \ngame runs perfectly fine with minor frame drops",
+        "screenshots": [],
+        "source": "github",
+        "build": {
+          "buildId": "macos-release-1.0.1-9288",
+          "channel": "release",
+          "official": true,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288"
+        }
+      },
       {
         "device": "iPhone 13 Mini",
         "platform": "ios",
@@ -190739,65 +190760,99 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "loads",
-        "perf": "poor",
-        "notes": "Game freezes when loading a song on iPhone 13 Mini",
+        "status": "playable",
+        "perf": "great",
+        "notes": "Minor graphical issue on menu \ngame runs perfectly fine with minor frame drops",
         "updatedAt": "2026-03-23",
         "date": "2026-03-23",
         "reportCount": 1,
         "latestReport": {
-          "device": "iPhone 13 Mini",
-          "platform": "ios",
+          "device": "MacBook Pro (M4)",
+          "platform": "macos",
           "osVersion": "26.3.1",
           "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "poor",
+          "gpuBackend": "msc",
+          "status": "playable",
+          "perf": "great",
           "date": "2026-03-23",
-          "notes": "Game freezes when loading a song on iPhone 13 Mini",
+          "notes": "Minor graphical issue on menu \ngame runs perfectly fine with minor frame drops",
           "screenshots": [],
-          "source": "app",
+          "source": "github",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
-            "channel": "self-built",
-            "official": false,
+            "buildId": "macos-release-1.0.1-9288",
+            "channel": "release",
+            "official": true,
             "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d"
+            "buildNumber": "9288"
           }
         },
         "bestReport": {
-          "device": "iPhone 13 Mini",
-          "platform": "ios",
+          "device": "MacBook Pro (M4)",
+          "platform": "macos",
           "osVersion": "26.3.1",
           "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "poor",
+          "gpuBackend": "msc",
+          "status": "playable",
+          "perf": "great",
           "date": "2026-03-23",
-          "notes": "Game freezes when loading a song on iPhone 13 Mini",
+          "notes": "Minor graphical issue on menu \ngame runs perfectly fine with minor frame drops",
           "screenshots": [],
-          "source": "app",
+          "source": "github",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
-            "channel": "self-built",
-            "official": false,
+            "buildId": "macos-release-1.0.1-9288",
+            "channel": "release",
+            "official": true,
             "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d"
+            "buildNumber": "9288"
+          }
+        }
+      },
+      "all": {
+        "channel": "all",
+        "status": "playable",
+        "perf": "great",
+        "notes": "Minor graphical issue on menu \ngame runs perfectly fine with minor frame drops",
+        "updatedAt": "2026-03-23",
+        "date": "2026-03-23",
+        "reportCount": 2,
+        "latestReport": {
+          "device": "MacBook Pro (M4)",
+          "platform": "macos",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msc",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-03-23",
+          "notes": "Minor graphical issue on menu \ngame runs perfectly fine with minor frame drops",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-1.0.1-9288",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288"
+          }
+        },
+        "bestReport": {
+          "device": "MacBook Pro (M4)",
+          "platform": "macos",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msc",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-03-23",
+          "notes": "Minor graphical issue on menu \ngame runs perfectly fine with minor frame drops",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-1.0.1-9288",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288"
           }
         }
       }
