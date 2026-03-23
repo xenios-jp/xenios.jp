@@ -108784,22 +108784,22 @@
       "4D5309B1"
     ],
     "status": "playable",
-    "perf": "ok",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 16 Pro",
+      "device": "iPhone 15 Pro Max",
       "platform": "ios",
-      "osVersion": "26.3.1",
+      "osVersion": "26.4",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-03-23",
     "issueNumber": 1,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/1",
-    "notes": "Playable and with decent performance just make sure you are set to classic video and audio.",
+    "notes": "Works great as long as graphics are switched to classic.",
     "reports": [
       {
         "device": "iPhone 17 Pro Max",
@@ -108819,29 +108819,7 @@
           "official": false,
           "appVersion": "1.0.0",
           "buildNumber": "9299",
-          "stage": "stable",
           "commitShort": "d8c101905"
-        }
-      },
-      {
-        "device": "iPhone 16 Pro",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "ok",
-        "date": "2026-03-11",
-        "notes": "Playable and with decent performance just make sure you are set to classic video and audio.",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.0-9296",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9296",
-          "commitShort": "ab2ca341a"
         }
       },
       {
@@ -108932,11 +108910,11 @@
       "all": {
         "channel": "all",
         "status": "playable",
-        "perf": "ok",
-        "notes": "Playable and with decent performance just make sure you are set to classic video and audio.",
+        "perf": "great",
+        "notes": "Works great as long as graphics are switched to classic.",
         "updatedAt": "2026-03-23",
         "date": "2026-03-23",
-        "reportCount": 4,
+        "reportCount": 3,
         "latestReport": {
           "device": "iPhone 17 Pro Max",
           "platform": "ios",
@@ -108955,29 +108933,31 @@
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9299",
-            "stage": "stable",
             "commitShort": "d8c101905"
           }
         },
         "bestReport": {
-          "device": "iPhone 16 Pro",
+          "device": "iPhone 15 Pro Max",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "26.4",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
-          "perf": "ok",
-          "date": "2026-03-11",
-          "notes": "Playable and with decent performance just make sure you are set to classic video and audio.",
+          "perf": "great",
+          "date": "2026-03-08",
+          "notes": "Works great as long as graphics are switched to classic.",
+          "reportedTitleId": "4D5309B1",
+          "reportedTitle": "Halo: CE Anniversary",
           "screenshots": [],
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9296",
+            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.0",
-            "buildNumber": "9296",
-            "commitShort": "ab2ca341a"
+            "buildNumber": "9280",
+            "stage": "stable",
+            "commitShort": "2633e8177"
           }
         }
       }
@@ -177473,29 +177453,7 @@
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
           "commitShort": "056d2f64d"
-        }
-      },
-      {
-        "device": "iPhone 14",
-        "platform": "ios",
-        "osVersion": "26.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "perf": "ok",
-        "date": "2026-03-09",
-        "notes": "Glitches",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.0-9280",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "commitShort": "2633e8177"
         }
       }
     ],
@@ -177519,7 +177477,7 @@
         "notes": "Football",
         "updatedAt": "2026-03-23",
         "date": "2026-03-23",
-        "reportCount": 2,
+        "reportCount": 1,
         "latestReport": {
           "device": "iPhone11,2",
           "platform": "ios",
@@ -177538,7 +177496,6 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         },
@@ -177560,7 +177517,6 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         }
@@ -190981,24 +190937,45 @@
       "4541891B"
     ],
     "status": "playable",
-    "perf": "ok",
+    "perf": "poor",
     "tags": [],
     "platforms": [
       "ios",
       "macos"
     ],
     "lastReport": {
-      "device": "MacBook Pro (M4)",
-      "platform": "macos",
+      "device": "iPhone 13 mini",
+      "platform": "ios",
       "osVersion": "26.3.1",
       "arch": "arm64",
-      "gpuBackend": "msc"
+      "gpuBackend": "msl"
     },
     "updatedAt": "2026-03-23",
     "issueNumber": 347,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/347",
-    "notes": "Game needs a couple of reboots but works fine with minor frame drops",
+    "notes": "Performance is poor on iPhone 13 Mini\nNeeds a couple of reboots before loading",
     "reports": [
+      {
+        "device": "iPhone 13 mini",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "poor",
+        "date": "2026-03-23",
+        "notes": "Performance is poor on iPhone 13 Mini\nNeeds a couple of reboots before loading",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "commitShort": "056d2f64d"
+        }
+      },
       {
         "device": "MacBook Pro (M4)",
         "platform": "macos",
@@ -191017,28 +190994,6 @@
           "official": true,
           "appVersion": "1.0.1",
           "buildNumber": "9288"
-        }
-      },
-      {
-        "device": "iPhone 13 Mini",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "poor",
-        "date": "2026-03-23",
-        "notes": "Performance is poor on iPhone 13 Mini\nNeeds a couple of reboots before loading",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d"
         }
       }
     ],
@@ -191098,49 +191053,51 @@
       "all": {
         "channel": "all",
         "status": "playable",
-        "perf": "ok",
-        "notes": "Game needs a couple of reboots but works fine with minor frame drops",
+        "perf": "poor",
+        "notes": "Performance is poor on iPhone 13 Mini\nNeeds a couple of reboots before loading",
         "updatedAt": "2026-03-23",
         "date": "2026-03-23",
         "reportCount": 2,
         "latestReport": {
-          "device": "MacBook Pro (M4)",
-          "platform": "macos",
+          "device": "iPhone 13 mini",
+          "platform": "ios",
           "osVersion": "26.3.1",
           "arch": "arm64",
-          "gpuBackend": "msc",
+          "gpuBackend": "msl",
           "status": "playable",
-          "perf": "ok",
+          "perf": "poor",
           "date": "2026-03-23",
-          "notes": "Game needs a couple of reboots but works fine with minor frame drops",
+          "notes": "Performance is poor on iPhone 13 Mini\nNeeds a couple of reboots before loading",
           "screenshots": [],
-          "source": "github",
+          "source": "app",
           "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
             "appVersion": "1.0.1",
-            "buildNumber": "9288"
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
-          "device": "MacBook Pro (M4)",
-          "platform": "macos",
+          "device": "iPhone 13 mini",
+          "platform": "ios",
           "osVersion": "26.3.1",
           "arch": "arm64",
-          "gpuBackend": "msc",
+          "gpuBackend": "msl",
           "status": "playable",
-          "perf": "ok",
+          "perf": "poor",
           "date": "2026-03-23",
-          "notes": "Game needs a couple of reboots but works fine with minor frame drops",
+          "notes": "Performance is poor on iPhone 13 Mini\nNeeds a couple of reboots before loading",
           "screenshots": [],
-          "source": "github",
+          "source": "app",
           "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
             "appVersion": "1.0.1",
-            "buildNumber": "9288"
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
           }
         }
       }

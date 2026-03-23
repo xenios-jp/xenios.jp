@@ -61,7 +61,7 @@
 | 🟢 | Guitar Hero II | `415607E7` | 📱 iOS, 🖥️ macOS | Playable | 👌 OK | iPhone 13 mini | 2026-03-22 |
 | 🟢 | Guitar Hero III Legends of Rock | `415607F7` | 📱 iOS | Playable | 👌 OK | iPhone 13 mini | 2026-03-22 |
 | 🟢 | Halo 3 | `4D5307E6` | 🖥️ macOS, 📱 iOS | Playable | 👌 OK | iPhone 17 Pro Max | 2026-03-23 |
-| 🟢 | Halo: CE Anniversary | `4D5309B1` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro | 2026-03-23 |
+| 🟢 | Halo: CE Anniversary | `4D5309B1` | 📱 iOS | Playable | 🚀 Great | iPhone 15 Pro Max | 2026-03-23 |
 | 🟢 | Hitman: Absolution | `53510804` | 📱 iOS | Playable | 🚀 Great | iPad Pro 12.9-inch (M2) | 2026-03-18 |
 | 🟢 | Just Cause 2 | `534307E7` | 📱 iOS | Playable | 🐢 Poor | iPhone 17 Pro | 2026-03-09 |
 | 🟢 | Lego Harry Potter Years 1-4 | `575207E6` | 📱 iOS | Playable | 🐢 Poor | iPhone 13 | 2026-03-14 |
@@ -94,7 +94,7 @@
 | 🟢 | Ridge Racer 6 | `4E4D07D3` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-08 |
 | 🟢 | Rock Band | `45410829` | 🖥️ macOS, 📱 iOS | Playable | 🚀 Great | MacBook Pro (M4) | 2026-03-23 |
 | 🟢 | Rock Band 2 | `45410869` | 📱 iOS, 🖥️ macOS | Playable | 🚀 Great | MacBook Pro (M4) | 2026-03-23 |
-| 🟢 | Rock Band 3 | `45410914` | 📱 iOS, 🖥️ macOS | Playable | 👌 OK | MacBook Pro (M4) | 2026-03-23 |
+| 🟢 | Rock Band 3 | `45410914` | 📱 iOS, 🖥️ macOS | Playable | 🐢 Poor | iPhone 13 mini | 2026-03-23 |
 | 🟢 | Rumble Roses XX | `4B4E07D1` | 🖥️ macOS | Playable | 🚀 Great | Mac mini (M2) | 2026-03-11 |
 | 🟢 | Skate 2 | `4541087F` | 📱 iOS | Playable | 👌 OK | iPhone 16e | 2026-03-17 |
 | 🟢 | Skate 3 | `454108E6` | 📱 iOS | Playable | 🐢 Poor | iPad Pro 13-inch (M4) | 2026-03-19 |

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-23T18:40:26.904Z",
+  "generatedAt": "2026-03-23T22:28:15.437Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -9652,8 +9652,20 @@
       "titleId": "4D530A81",
       "issueNumber": 49,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/49",
-      "updatedAt": "2026-03-08",
+      "updatedAt": "2026-03-23",
       "entries": [
+        {
+          "id": "comment-4114114552",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/49#issuecomment-4114114552",
+          "author": "UncountedOne",
+          "createdAt": "2026-03-23",
+          "createdAtMs": 1774304789000,
+          "issueNumber": 49,
+          "excerpt": "I get to a splash screen on my iPhone 17 Pro and then it takes me back to the library screen. I'm on version 1.0.1 of XeniOS",
+          "images": [],
+          "meta": {}
+        },
         {
           "id": "issue-49",
           "type": "issue",
