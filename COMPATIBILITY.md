@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **227 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **228 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **90** · 🔵 In-Game: **53** · 🟡 Intro: **19** · 🟠 Loads: **29** · 🔴 Doesn't Boot: **36**
+> 🟢 Playable: **91** · 🔵 In-Game: **53** · 🟡 Intro: **19** · 🟠 Loads: **29** · 🔴 Doesn't Boot: **36**
 >
-> 📱 iOS: **216** · 🖥️ macOS: **25**
+> 📱 iOS: **216** · 🖥️ macOS: **27**
 
 ## Legend
 
@@ -92,6 +92,7 @@
 | 🟢 | Quantum of Solace | `415607FF` | 📱 iOS | Playable | 👌 OK | iPad Pro 12.9-inch (M2) | 2026-03-11 |
 | 🟢 | Resident Evil Revelations | `43430833` | 📱 iOS | Playable | 👌 OK | iPhone 16 | 2026-03-15 |
 | 🟢 | Ridge Racer 6 | `4E4D07D3` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-08 |
+| 🟢 | Rock Band | `45410829` | 📱 iOS, 🖥️ macOS | Playable | 🚀 Great | MacBook Pro (M4) | 2026-03-23 |
 | 🟢 | Rumble Roses XX | `4B4E07D1` | 🖥️ macOS | Playable | 🚀 Great | Mac mini (M2) | 2026-03-11 |
 | 🟢 | Skate 2 | `4541087F` | 📱 iOS | Playable | 👌 OK | iPhone 16e | 2026-03-17 |
 | 🟢 | Skate 3 | `454108E6` | 📱 iOS | Playable | 🐢 Poor | iPad Pro 13-inch (M4) | 2026-03-19 |
@@ -182,6 +183,7 @@
 | 🟡 | Rise of the Tomb Raider | `53510823` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro Max | 2026-03-12 |
 | 🟡 | Tales of Vesperia | `4E4D07E9` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro | 2026-03-03 |
 | 🟡 | Two Worlds | `535007D4` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro Max | 2026-03-09 |
+| 🟠 | AC/DC LIVE: Rock Band | `45410889` | 🖥️ macOS | Loads | 🚀 Great | MacBook Pro (M4) | 2026-03-23 |
 | 🟠 | Asura's Wrath | `43430817` | 📱 iOS | Loads | 🐢 Poor | iPhone 16 Pro Max | 2026-03-09 |
 | 🟠 | Avatar: The Last Airbender - The Burning Earth | `545107E1` | 📱 iOS | Loads | 🐢 Poor | iPhone 16 Pro Max | 2026-03-19 |
 | 🟠 | Battlefield 3 | `45410950` | 📱 iOS | Loads | 🐢 Poor | iPhone 16 | 2026-03-11 |
@@ -202,7 +204,6 @@
 | 🟠 | NBA 2K10 | `54549852` | 🖥️ macOS | Loads | 🐢 Poor | MacBook Air (M4) | 2026-03-18 |
 | 🟠 | NCAA Basketball 10 | `454108C3` | 📱 iOS | Loads | 🐢 Poor | iPhone 16e | 2026-03-11 |
 | 🟠 | Project Gotham Racing 4 | `4D5307F9` | 🖥️ macOS | Loads | 🚀 Great | MacBook Pro (M4 Max) | 2026-03-14 |
-| 🟠 | Rock Band | `45410829` | 📱 iOS | Loads | 🐢 Poor | iPhone 13 mini | 2026-03-22 |
 | 🟠 | Saw | `4B4E0802` | 📱 iOS | Loads | 👌 OK | iPhone 16 Pro | 2026-03-21 |
 | 🟠 | Sonic & All-Stars Racing Transformed | `5345085D` | 📱 iOS | Loads | 🐢 Poor | iPhone 16 Pro | 2026-03-05 |
 | 🟠 | Spider Man: Edge Of Time | `415608B2` | 📱 iOS | Loads | 🐢 Poor | iPhone 15 Pro Max | 2026-03-09 |
