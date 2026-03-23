@@ -107800,7 +107800,6 @@
           "official": false,
           "appVersion": "1.0.0",
           "buildNumber": "9299",
-          "stage": "stable",
           "commitShort": "d8c101905"
         }
       },
@@ -108184,7 +108183,6 @@
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9299",
-            "stage": "stable",
             "commitShort": "d8c101905"
           }
         },
@@ -108206,7 +108204,6 @@
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9299",
-            "stage": "stable",
             "commitShort": "d8c101905"
           }
         }
@@ -177424,17 +177421,39 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 14",
+      "device": "iPhone11,2",
       "platform": "ios",
-      "osVersion": "26.3",
+      "osVersion": "18.7.6",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-09",
-    "issueNumber": 148,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/148",
-    "notes": "Glitches",
+    "updatedAt": "2026-03-23",
+    "issueNumber": 346,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/346",
+    "notes": "Football",
     "reports": [
+      {
+        "device": "iPhone11,2",
+        "platform": "ios",
+        "osVersion": "18.7.6",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "ok",
+        "date": "2026-03-23",
+        "notes": "Football",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "stage": "stable",
+          "commitShort": "056d2f64d"
+        }
+      },
       {
         "device": "iPhone 14",
         "platform": "ios",
@@ -177474,50 +177493,52 @@
         "channel": "all",
         "status": "ingame",
         "perf": "ok",
-        "notes": "Glitches",
-        "updatedAt": "2026-03-09",
-        "date": "2026-03-09",
-        "reportCount": 1,
+        "notes": "Football",
+        "updatedAt": "2026-03-23",
+        "date": "2026-03-23",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 14",
+          "device": "iPhone11,2",
           "platform": "ios",
-          "osVersion": "26.3",
+          "osVersion": "18.7.6",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "ingame",
           "perf": "ok",
-          "date": "2026-03-09",
-          "notes": "Glitches",
+          "date": "2026-03-23",
+          "notes": "Football",
           "screenshots": [],
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633e8177"
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "stage": "stable",
+            "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
-          "device": "iPhone 14",
+          "device": "iPhone11,2",
           "platform": "ios",
-          "osVersion": "26.3",
+          "osVersion": "18.7.6",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "ingame",
           "perf": "ok",
-          "date": "2026-03-09",
-          "notes": "Glitches",
+          "date": "2026-03-23",
+          "notes": "Football",
           "screenshots": [],
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633e8177"
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "stage": "stable",
+            "commitShort": "056d2f64d"
           }
         }
       }

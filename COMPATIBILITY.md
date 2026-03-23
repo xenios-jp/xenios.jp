@@ -155,7 +155,7 @@
 | 🔵 | NFL Tour | `45410835` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro Max | 2026-03-11 |
 | 🔵 | PAC-MAN and the Ghostly Adventures | `4E4D0865` | 📱 iOS | In-Game | 🐢 Poor | iPhone 15 Pro Max | 2026-03-08 |
 | 🔵 | Pinball Arcade | `5841121D` | 📱 iOS | In-Game | 🐢 Poor | iPhone 13 | 2026-03-10 |
-| 🔵 | Pro Evolution Soccer 2013 / PES 2013 | `4B4E084C` | 📱 iOS | In-Game | 👌 OK | iPhone 14 | 2026-03-09 |
+| 🔵 | Pro Evolution Soccer 2013 / PES 2013 | `4B4E084C` | 📱 iOS | In-Game | 👌 OK | iPhone11,2 | 2026-03-23 |
 | 🔵 | Pro Evolution Soccer 2016 / PES 2016 | `4B4E0861` | 📱 iOS | In-Game | 👌 OK | iPhone 14 | 2026-03-09 |
 | 🔵 | Rayman Legends | `555308C3` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro Max | 2026-03-08 |
 | 🔵 | Resident Evil 6 | `43430819` | 📱 iOS | In-Game | 🐢 Poor | iPhone 13 Pro Max | 2026-03-20 |
