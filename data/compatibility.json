@@ -107764,24 +107764,46 @@
       "4D530939"
     ],
     "status": "playable",
-    "perf": "poor",
+    "perf": "ok",
     "tags": [],
     "platforms": [
       "macos",
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 16 Plus",
+      "device": "iPhone 17 Pro Max",
       "platform": "ios",
-      "osVersion": "26.3.1",
+      "osVersion": "26.0",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-22",
+    "updatedAt": "2026-03-23",
     "issueNumber": 42,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/42",
-    "notes": "To launch you do have to disable mount cache and you’ll need to know you way around because it doesn’t display words",
+    "notes": "The game works and I was able to start a custom game with the default settings and map. I was also able to move around and do stuff in the map like shoot, throw grenades, use vehicles, etc. However, there are lots of bugs:\n- A lot of text is bugged and replaced with rectangles\n- Audio is very choppy\n- FPS is very low but playable\n- When loading into the custom game map it took several minutes for all the assets/visuals to fully load. I was able to move around while everything was loading in though, it was just the visual stuff that took several minutes to load. Sometimes the game would just freeze for a couple of seconds while I was in the map. Also, it wasn’t just the map assets that took several minutes to fully load, it was also player-related stuff such as the assets on the gun I was holding and the GUI itself.\n\nI have also not tried the campaign yet.",
     "reports": [
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.0",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-03-23",
+        "notes": "The game works and I was able to start a custom game with the default settings and map. I was also able to move around and do stuff in the map like shoot, throw grenades, use vehicles, etc. However, there are lots of bugs:\n- A lot of text is bugged and replaced with rectangles\n- Audio is very choppy\n- FPS is very low but playable\n- When loading into the custom game map it took several minutes for all the assets/visuals to fully load. I was able to move around while everything was loading in though, it was just the visual stuff that took several minutes to load. Sometimes the game would just freeze for a couple of seconds while I was in the map. Also, it wasn’t just the map assets that took several minutes to fully load, it was also player-related stuff such as the assets on the gun I was holding and the GUI itself.\n\nI have also not tried the campaign yet.",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.0-9299",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9299",
+          "stage": "stable",
+          "commitShort": "d8c101905"
+        }
+      },
       {
         "device": "iPhone 16 Plus",
         "platform": "ios",
@@ -108139,51 +108161,53 @@
       "all": {
         "channel": "all",
         "status": "playable",
-        "perf": "poor",
-        "notes": "To launch you do have to disable mount cache and you’ll need to know you way around because it doesn’t display words",
-        "updatedAt": "2026-03-22",
-        "date": "2026-03-22",
-        "reportCount": 16,
+        "perf": "ok",
+        "notes": "The game works and I was able to start a custom game with the default settings and map. I was also able to move around and do stuff in the map like shoot, throw grenades, use vehicles, etc. However, there are lots of bugs:\n- A lot of text is bugged and replaced with rectangles\n- Audio is very choppy\n- FPS is very low but playable\n- When loading into the custom game map it took several minutes for all the assets/visuals to fully load. I was able to move around while everything was loading in though, it was just the visual stuff that took several minutes to load. Sometimes the game would just freeze for a couple of seconds while I was in the map. Also, it wasn’t just the map assets that took several minutes to fully load, it was also player-related stuff such as the assets on the gun I was holding and the GUI itself.\n\nI have also not tried the campaign yet.",
+        "updatedAt": "2026-03-23",
+        "date": "2026-03-23",
+        "reportCount": 17,
         "latestReport": {
-          "device": "iPhone 16 Plus",
+          "device": "iPhone 17 Pro Max",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "26.0",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
-          "perf": "poor",
-          "date": "2026-03-22",
-          "notes": "To launch you do have to disable mount cache and you’ll need to know you way around because it doesn’t display words",
+          "perf": "ok",
+          "date": "2026-03-23",
+          "notes": "The game works and I was able to start a custom game with the default settings and map. I was also able to move around and do stuff in the map like shoot, throw grenades, use vehicles, etc. However, there are lots of bugs:\n- A lot of text is bugged and replaced with rectangles\n- Audio is very choppy\n- FPS is very low but playable\n- When loading into the custom game map it took several minutes for all the assets/visuals to fully load. I was able to move around while everything was loading in though, it was just the visual stuff that took several minutes to load. Sometimes the game would just freeze for a couple of seconds while I was in the map. Also, it wasn’t just the map assets that took several minutes to fully load, it was also player-related stuff such as the assets on the gun I was holding and the GUI itself.\n\nI have also not tried the campaign yet.",
           "screenshots": [],
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
+            "buildId": "ios-self-built-1.0.0-9299",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "appVersion": "1.0.0",
+            "buildNumber": "9299",
+            "stage": "stable",
+            "commitShort": "d8c101905"
           }
         },
         "bestReport": {
-          "device": "iPhone 16 Plus",
+          "device": "iPhone 17 Pro Max",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "26.0",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
-          "perf": "poor",
-          "date": "2026-03-22",
-          "notes": "To launch you do have to disable mount cache and you’ll need to know you way around because it doesn’t display words",
+          "perf": "ok",
+          "date": "2026-03-23",
+          "notes": "The game works and I was able to start a custom game with the default settings and map. I was also able to move around and do stuff in the map like shoot, throw grenades, use vehicles, etc. However, there are lots of bugs:\n- A lot of text is bugged and replaced with rectangles\n- Audio is very choppy\n- FPS is very low but playable\n- When loading into the custom game map it took several minutes for all the assets/visuals to fully load. I was able to move around while everything was loading in though, it was just the visual stuff that took several minutes to load. Sometimes the game would just freeze for a couple of seconds while I was in the map. Also, it wasn’t just the map assets that took several minutes to fully load, it was also player-related stuff such as the assets on the gun I was holding and the GUI itself.\n\nI have also not tried the campaign yet.",
           "screenshots": [],
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
+            "buildId": "ios-self-built-1.0.0-9299",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "appVersion": "1.0.0",
+            "buildNumber": "9299",
+            "stage": "stable",
+            "commitShort": "d8c101905"
           }
         }
       }

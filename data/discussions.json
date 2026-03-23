@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-23T03:06:05.510Z",
+  "generatedAt": "2026-03-23T07:04:13.013Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2449,8 +2449,31 @@
       "titleId": "4D5307E6",
       "issueNumber": 315,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/315",
-      "updatedAt": "2026-03-22",
+      "updatedAt": "2026-03-23",
       "entries": [
+        {
+          "id": "comment-4108446130",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/315#issuecomment-4108446130",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-23",
+          "createdAtMs": 1774249343000,
+          "issueNumber": 315,
+          "excerpt": "The game works and I was able to start a custom game with the default settings and map. I was also able to move around and do stuff in the map like shoot, throw grenades, use vehicles, etc. However, there are lots of bugs:\n- A lot of text is bugged and replaced with rectangles\n- Audio is very choppy\n- FPS is very low but playable\n- When loading into the custom game map it took several minutes for all the assets/visuals to fully load. I was able to move around while everything was loading in though, it was just the visual stuff that took several minutes to load. Sometimes the game would just freeze for a couple of seconds while I was in the map. Also, it wasn’t just the map assets that took several minutes to fully load, it was also player-related stuff such as the assets on the gun I was holding and the GUI itself.\n\nI have also not tried the campaign yet.",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.0",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9299",
+            "commitShort": "`d8c101905`"
+          }
+        },
         {
           "id": "issue-315",
           "type": "issue",
@@ -2566,29 +2589,6 @@
             "appVersion": "1.0.0",
             "buildNumber": "9276",
             "commitShort": "`e8106d3ddb`"
-          }
-        },
-        {
-          "id": "comment-4018914091",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/42#issuecomment-4018914091",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-08",
-          "createdAtMs": 1772970850000,
-          "issueNumber": 42,
-          "excerpt": "One more for luck…",
-          "images": [],
-          "meta": {
-            "status": "ingame",
-            "perf": "poor",
-            "device": "iPhone 17",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9271",
-            "commitShort": "`0a5bf5b240`"
           }
         }
       ]
