@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **230 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **231 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **91** · 🔵 In-Game: **53** · 🟡 Intro: **19** · 🟠 Loads: **31** · 🔴 Doesn't Boot: **36**
+> 🟢 Playable: **91** · 🔵 In-Game: **53** · 🟡 Intro: **19** · 🟠 Loads: **32** · 🔴 Doesn't Boot: **36**
 >
-> 📱 iOS: **216** · 🖥️ macOS: **29**
+> 📱 iOS: **216** · 🖥️ macOS: **30**
 
 ## Legend
 
@@ -205,6 +205,7 @@
 | 🟠 | NCAA Basketball 10 | `454108C3` | 📱 iOS | Loads | 🐢 Poor | iPhone 16e | 2026-03-11 |
 | 🟠 | Project Gotham Racing 4 | `4D5307F9` | 🖥️ macOS | Loads | 🚀 Great | MacBook Pro (M4 Max) | 2026-03-14 |
 | 🟠 | Rock Band Classic Rock | `454108B0` | 🖥️ macOS | Loads | 🚀 Great | MacBook Pro (M4) | 2026-03-23 |
+| 🟠 | Rock Band Country Pack | `454108CA` | 🖥️ macOS | Loads | 🚀 Great | MacBook Pro (M4) | 2026-03-23 |
 | 🟠 | Rock Band Country TP 2 | `4541092C` | 🖥️ macOS | Loads | 🚀 Great | MacBook Pro (M4) | 2026-03-23 |
 | 🟠 | Saw | `4B4E0802` | 📱 iOS | Loads | 👌 OK | iPhone 16 Pro | 2026-03-21 |
 | 🟠 | Sonic & All-Stars Racing Transformed | `5345085D` | 📱 iOS | Loads | 🐢 Poor | iPhone 16 Pro | 2026-03-05 |
