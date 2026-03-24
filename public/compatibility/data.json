@@ -160916,7 +160916,6 @@
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
           "commitShort": "056d2f64d"
         }
       },
@@ -160984,7 +160983,6 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         },
@@ -161006,7 +161004,6 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         }
@@ -175748,6 +175745,27 @@
     "notes": "Game \"can\" be played if you know how to operate menus without text. Textures are funky, and depending on where you stand the walls go invisible.",
     "reports": [
       {
+        "device": "iPhone 13 mini",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "poor",
+        "date": "2026-03-24",
+        "notes": "Audio does not work\nGraphics and text are glitched",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "commitShort": "056d2f64d"
+        }
+      },
+      {
         "device": "iPhone12,1",
         "platform": "ios",
         "osVersion": "17.5.1",
@@ -175835,6 +175853,11 @@
       }
     ],
     "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/45410912/1774368126919-1.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/45410912/1774368126919-2.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/45410912/1774368126919-3.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/45410912/1774368126919-4.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/45410912/1774368126919-5.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/45410912/1773500928011-1.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/45410912/1773500928011-2.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/45410912/1773500928011-3.jpg",
@@ -175859,17 +175882,17 @@
         "notes": "Game \"can\" be played if you know how to operate menus without text. Textures are funky, and depending on where you stand the walls go invisible.",
         "updatedAt": "2026-03-24",
         "date": "2026-03-24",
-        "reportCount": 4,
+        "reportCount": 5,
         "latestReport": {
-          "device": "iPhone12,1",
+          "device": "iPhone 13 mini",
           "platform": "ios",
-          "osVersion": "17.5.1",
+          "osVersion": "26.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
+          "status": "ingame",
+          "perf": "poor",
           "date": "2026-03-24",
-          "notes": "Well, uh. Guessing this fork is still in Alpha, and I do not have an iPhone 14. So, I guess I’ll wait.",
+          "notes": "Audio does not work\nGraphics and text are glitched",
           "screenshots": [],
           "source": "app",
           "build": {
@@ -199291,7 +199314,6 @@
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9320",
-          "stage": "stable",
           "commitShort": "3d70b7b41a"
         }
       },
@@ -199360,7 +199382,6 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9320",
-            "stage": "stable",
             "commitShort": "3d70b7b41a"
           }
         },
@@ -199382,7 +199403,6 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9320",
-            "stage": "stable",
             "commitShort": "3d70b7b41a"
           }
         }

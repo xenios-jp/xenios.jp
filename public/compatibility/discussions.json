@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-24T15:23:08.487Z",
+  "generatedAt": "2026-03-24T16:04:03.088Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1168,6 +1168,35 @@
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/252",
       "updatedAt": "2026-03-24",
       "entries": [
+        {
+          "id": "comment-4119466916",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/252#issuecomment-4119466916",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-24",
+          "createdAtMs": 1774368136000,
+          "issueNumber": 252,
+          "excerpt": "Audio does not work\nGraphics and text are glitched",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/45410912/1774368126919-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/45410912/1774368126919-2.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/45410912/1774368126919-3.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/45410912/1774368126919-4.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/45410912/1774368126919-5.jpg"
+          ],
+          "meta": {
+            "status": "ingame",
+            "perf": "poor",
+            "device": "iPhone 13 mini",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
         {
           "id": "comment-4116927561",
           "type": "comment",
