@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-24T16:10:13.969Z",
+  "generatedAt": "2026-03-24T21:58:00.016Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2243,6 +2243,56 @@
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
           "images": [],
           "meta": {}
+        }
+      ]
+    },
+    "5345085D": {
+      "titleId": "5345085D",
+      "issueNumber": 357,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/357",
+      "updatedAt": "2026-03-24",
+      "entries": [
+        {
+          "id": "issue-357",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/357",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-24",
+          "createdAtMs": 1774389416000,
+          "issueNumber": 357,
+          "excerpt": "extremely artifacted SEGA logo, that’s all you’re getting",
+          "images": [],
+          "meta": {
+            "status": "loads",
+            "perf": "poor",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.4",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
+        {
+          "id": "issue-11",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/11",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-05",
+          "createdAtMs": 1772729037000,
+          "issueNumber": 11,
+          "excerpt": "The game flashes a quick random color pattern and fails to load or boot.",
+          "images": [],
+          "meta": {
+            "status": "loads",
+            "perf": "poor",
+            "device": "iPhone 16 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 18.5",
+            "gpuBackend": "MSL"
+          }
         }
       ]
     },
@@ -10270,33 +10320,6 @@
           "createdAtMs": 1772730298000,
           "issueNumber": 10,
           "excerpt": "Boots quickly and smoothly but hangs on initial loading screen past logos.",
-          "images": [],
-          "meta": {
-            "status": "loads",
-            "perf": "poor",
-            "device": "iPhone 16 Pro",
-            "platform": "iOS",
-            "osVersion": "iOS 18.5",
-            "gpuBackend": "MSL"
-          }
-        }
-      ]
-    },
-    "5345085D": {
-      "titleId": "5345085D",
-      "issueNumber": 11,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/11",
-      "updatedAt": "2026-03-07",
-      "entries": [
-        {
-          "id": "issue-11",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/11",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-05",
-          "createdAtMs": 1772729037000,
-          "issueNumber": 11,
-          "excerpt": "The game flashes a quick random color pattern and fails to load or boot.",
           "images": [],
           "meta": {
             "status": "loads",

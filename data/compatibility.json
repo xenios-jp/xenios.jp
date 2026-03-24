@@ -207870,17 +207870,39 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 16 Pro",
+      "device": "iPhone 17 Pro Max",
       "platform": "ios",
-      "osVersion": "18.5",
+      "osVersion": "26.4",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-05",
+    "updatedAt": "2026-03-24",
     "issueNumber": 11,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/11",
-    "notes": "The game flashes a quick random color pattern and fails to load or boot.",
+    "notes": "extremely artifacted SEGA logo, that’s all you’re getting",
     "reports": [
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.4",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "loads",
+        "perf": "poor",
+        "date": "2026-03-24",
+        "notes": "extremely artifacted SEGA logo, that’s all you’re getting",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "stage": "stable",
+          "commitShort": "056d2f64d"
+        }
+      },
       {
         "device": "iPhone 16 Pro",
         "platform": "ios",
@@ -207942,39 +207964,53 @@
         "channel": "all",
         "status": "loads",
         "perf": "poor",
-        "notes": "The game flashes a quick random color pattern and fails to load or boot.",
-        "updatedAt": "2026-03-05",
-        "date": "2026-03-05",
-        "reportCount": 1,
+        "notes": "extremely artifacted SEGA logo, that’s all you’re getting",
+        "updatedAt": "2026-03-24",
+        "date": "2026-03-24",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 16 Pro",
+          "device": "iPhone 17 Pro Max",
           "platform": "ios",
-          "osVersion": "18.5",
+          "osVersion": "26.4",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "loads",
           "perf": "poor",
-          "date": "2026-03-05",
-          "notes": "The game flashes a quick random color pattern and fails to load or boot.",
-          "reportedTitleId": "5345085D",
-          "reportedTitle": "Sonic Transformed",
+          "date": "2026-03-24",
+          "notes": "extremely artifacted SEGA logo, that’s all you’re getting",
           "screenshots": [],
-          "source": "app"
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "stage": "stable",
+            "commitShort": "056d2f64d"
+          }
         },
         "bestReport": {
-          "device": "iPhone 16 Pro",
+          "device": "iPhone 17 Pro Max",
           "platform": "ios",
-          "osVersion": "18.5",
+          "osVersion": "26.4",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "loads",
           "perf": "poor",
-          "date": "2026-03-05",
-          "notes": "The game flashes a quick random color pattern and fails to load or boot.",
-          "reportedTitleId": "5345085D",
-          "reportedTitle": "Sonic Transformed",
+          "date": "2026-03-24",
+          "notes": "extremely artifacted SEGA logo, that’s all you’re getting",
           "screenshots": [],
-          "source": "app"
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "stage": "stable",
+            "commitShort": "056d2f64d"
+          }
         }
       }
     }

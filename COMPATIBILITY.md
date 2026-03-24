@@ -214,7 +214,7 @@
 | 🟠 | Rock Band Metal Pack | `454108CD` | 🖥️ macOS | Loads | 🚀 Great | MacBook Pro (M4) | 2026-03-23 |
 | 🟠 | Rock Band Song Pack 2 | `45410881` | 🖥️ macOS | Loads | 🚀 Great | MacBook Pro (M4) | 2026-03-23 |
 | 🟠 | Saw | `4B4E0802` | 📱 iOS | Loads | 👌 OK | iPhone 16 Pro | 2026-03-21 |
-| 🟠 | Sonic & All-Stars Racing Transformed | `5345085D` | 📱 iOS | Loads | 🐢 Poor | iPhone 16 Pro | 2026-03-05 |
+| 🟠 | Sonic & All-Stars Racing Transformed | `5345085D` | 📱 iOS | Loads | 🐢 Poor | iPhone 17 Pro Max | 2026-03-24 |
 | 🟠 | Spider Man: Edge Of Time | `415608B2` | 📱 iOS | Loads | 🐢 Poor | iPhone 15 Pro Max | 2026-03-09 |
 | 🟠 | The Darkness | `545407EE` | 📱 iOS | Loads | 👌 OK | iPhone 17 Pro Max | 2026-03-16 |
 | 🟠 | The Elder Scrolls V: Skyrim | `425307E6` | 📱 iOS | Loads | 🐢 Poor | iPhone 17 Pro Max | 2026-03-14 |
