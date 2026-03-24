@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **236 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **237 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **95** · 🔵 In-Game: **52** · 🟡 Intro: **19** · 🟠 Loads: **34** · 🔴 Doesn't Boot: **36**
+> 🟢 Playable: **95** · 🔵 In-Game: **52** · 🟡 Intro: **19** · 🟠 Loads: **34** · 🔴 Doesn't Boot: **37**
 >
-> 📱 iOS: **219** · 🖥️ macOS: **34**
+> 📱 iOS: **220** · 🖥️ macOS: **34**
 
 ## Legend
 
@@ -254,6 +254,7 @@
 | 🔴 | The Godfather | `454107E9` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-09 |
 | 🔴 | The Wolf Among Us | `443607D5` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-20 |
 | 🔴 | Tomb Raider | `53510802` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 15 Pro Max | 2026-03-12 |
+| 🔴 | Transformers: War for Cybertron | `4156084C` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-24 |
 | 🔴 | WWE 2K15 | `545408B6` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro Max | 2026-03-11 |
 | 🔴 | WWE Smackdown vs. Raw 2011 | `5451085D` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad (A16) | 2026-03-16 |
 
