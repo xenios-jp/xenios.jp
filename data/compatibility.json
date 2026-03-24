@@ -27081,7 +27081,6 @@
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
           "commitShort": "056d2f64d"
         }
       }
@@ -27125,7 +27124,6 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         },
@@ -27147,7 +27145,6 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         }
@@ -46994,7 +46991,6 @@
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
           "commitShort": "056d2f64d"
         }
       },
@@ -47105,7 +47101,6 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         },
@@ -47127,7 +47122,6 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         }
@@ -208847,6 +208841,27 @@
         }
       },
       {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.4",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-03-24",
+        "notes": "Major artifacts on anything pre-rendered (cutscenes, SEGA logo, etc.), but anything in-game looks pretty great. Loading times for assets can vary, and game does crash every once in a while. Hub worlds are stable and day stages are alright if there’s not too much going on",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "commitShort": "056d2f64d"
+        }
+      },
+      {
         "device": "iPad Air 11-inch (M2)",
         "platform": "ios",
         "osVersion": "26.3.1",
@@ -208899,7 +208914,8 @@
       }
     ],
     "screenshots": [
-      "https://raw.githubusercontent.com/xenios-jp/xenios.jp/main/public/compatibility/screenshots/53450812/1772815441036-1.jpg"
+      "https://raw.githubusercontent.com/xenios-jp/xenios.jp/main/public/compatibility/screenshots/53450812/1772815441036-1.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/53450812/1774335210084-1.jpg"
     ],
     "summaries": {
       "release": {
@@ -208948,7 +208964,7 @@
         "notes": "Videos have compatibility artifacts and game FPS is not the best but it’s playable.",
         "updatedAt": "2026-03-24",
         "date": "2026-03-24",
-        "reportCount": 4,
+        "reportCount": 5,
         "latestReport": {
           "device": "iPad Pro 13-inch (M4)",
           "platform": "ios",
@@ -239488,7 +239504,6 @@
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
           "commitShort": "056d2f64d"
         }
       }
@@ -239532,7 +239547,6 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         },
@@ -239554,7 +239568,6 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         }

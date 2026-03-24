@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-24T06:13:09.080Z",
+  "generatedAt": "2026-03-24T06:54:49.029Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1413,6 +1413,31 @@
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/272",
       "updatedAt": "2026-03-24",
       "entries": [
+        {
+          "id": "comment-4115854116",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/272#issuecomment-4115854116",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-24",
+          "createdAtMs": 1774335213000,
+          "issueNumber": 272,
+          "excerpt": "Major artifacts on anything pre-rendered (cutscenes, SEGA logo, etc.), but anything in-game looks pretty great. Loading times for assets can vary, and game does crash every once in a while. Hub worlds are stable and day stages are alright if there’s not too much going on",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/53450812/1774335210084-1.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.4",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
         {
           "id": "comment-4114639472",
           "type": "comment",
