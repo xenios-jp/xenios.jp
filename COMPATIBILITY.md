@@ -2,7 +2,7 @@
 
 > **238 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **95** · 🔵 In-Game: **52** · 🟡 Intro: **20** · 🟠 Loads: **34** · 🔴 Doesn't Boot: **37**
+> 🟢 Playable: **96** · 🔵 In-Game: **51** · 🟡 Intro: **20** · 🟠 Loads: **34** · 🔴 Doesn't Boot: **37**
 >
 > 📱 iOS: **221** · 🖥️ macOS: **34**
 
@@ -96,6 +96,7 @@
 | 🟢 | Rock Band 2 | `45410869` | 📱 iOS, 🖥️ macOS | Playable | 🚀 Great | MacBook Pro (M4) | 2026-03-23 |
 | 🟢 | Rock Band 3 | `45410914` | 📱 iOS, 🖥️ macOS | Playable | 🐢 Poor | iPhone 13 mini | 2026-03-23 |
 | 🟢 | Rumble Roses XX | `4B4E07D1` | 🖥️ macOS | Playable | 🚀 Great | Mac mini (M2) | 2026-03-11 |
+| 🟢 | Serious Sam HD: The First Encounter | `584109DA` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro | 2026-03-24 |
 | 🟢 | Skate 2 | `4541087F` | 📱 iOS | Playable | 👌 OK | iPhone 16e | 2026-03-17 |
 | 🟢 | Skate 3 | `454108E6` | 📱 iOS | Playable | 🐢 Poor | iPad Pro 13-inch (M4) | 2026-03-19 |
 | 🟢 | Sonic Generations | `53450848` | 📱 iOS | Playable | 🐢 Poor | iPhone 17 Pro Max | 2026-03-15 |
@@ -163,7 +164,6 @@
 | 🔵 | Resident Evil 6 | `43430819` | 📱 iOS | In-Game | 🐢 Poor | iPhone 13 Pro Max | 2026-03-20 |
 | 🔵 | Saints Row | `545107D1` | 📱 iOS | In-Game | 👌 OK | iPhone 16 | 2026-03-10 |
 | 🔵 | Saints Row 2 | `545107FC` | 📱 iOS | In-Game | 🐢 Poor | iPhone 14 Pro Max | 2026-03-08 |
-| 🔵 | Serious Sam HD: The First Encounter | `584109DA` | 📱 iOS | In-Game | 🐢 Poor | iPhone Air | 2026-03-08 |
 | 🔵 | skate. | `45410813` | 📱 iOS | In-Game | 🐢 Poor | iPad Pro (M2) | 2026-03-03 |
 | 🔵 | Spider-Man 3 | `415607E2` | 📱 iOS | In-Game | 🐢 Poor | iPhone 16 | 2026-03-10 |
 | 🔵 | Tomb Raider Underworld | `534307EC` | 📱 iOS | In-Game | 👌 OK | iPhone 16 Pro Max | 2026-03-11 |

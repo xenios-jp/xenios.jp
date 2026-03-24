@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-24T14:55:15.492Z",
+  "generatedAt": "2026-03-24T15:23:08.487Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2212,6 +2212,51 @@
           "createdAtMs": 1773517964000,
           "issueNumber": 263,
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
+          "images": [],
+          "meta": {}
+        }
+      ]
+    },
+    "584109DA": {
+      "titleId": "584109DA",
+      "issueNumber": 355,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/355",
+      "updatedAt": "2026-03-24",
+      "entries": [
+        {
+          "id": "issue-355",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/355",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-24",
+          "createdAtMs": 1774365730000,
+          "issueNumber": 355,
+          "excerpt": "- No audio glitches\n- Some effect getting rendered wrong, but those are very minor.\n- Good Performance, 20-27 FPS range",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584109DA/1774365725251-1.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 16 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9320",
+            "commitShort": "`3d70b7b41a`"
+          }
+        },
+        {
+          "id": "issue-78",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/78",
+          "author": "daisuke1227",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1773002334000,
+          "issueNumber": 78,
+          "excerpt": "So this takes a couple of reboots to actually get the game to launch it loads textures and assets very slowly and it gets around 9-10 FPS it runs but its super slow and loads shaders and everything super slowly",
           "images": [],
           "meta": {}
         }
@@ -9520,26 +9565,6 @@
           "createdAtMs": 1773002885000,
           "issueNumber": 81,
           "excerpt": "Game loads & goes ingame completely, but FMVs are completely messed up and the sound is crackly/slow. Game runs at around 1/2 speed on iPhone 17, but is fully playable regardless of the framerate. Sometimes slow to load assets in (e.g road surfaces, car meshes etc).",
-          "images": [],
-          "meta": {}
-        }
-      ]
-    },
-    "584109DA": {
-      "titleId": "584109DA",
-      "issueNumber": 78,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/78",
-      "updatedAt": "2026-03-08",
-      "entries": [
-        {
-          "id": "issue-78",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/78",
-          "author": "daisuke1227",
-          "createdAt": "2026-03-08",
-          "createdAtMs": 1773002334000,
-          "issueNumber": 78,
-          "excerpt": "So this takes a couple of reboots to actually get the game to launch it loads textures and assets very slowly and it gets around 9-10 FPS it runs but its super slow and loads shaders and everything super slowly",
           "images": [],
           "meta": {}
         }

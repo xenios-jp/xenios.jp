@@ -199255,24 +199255,46 @@
     "titleIds": [
       "584109DA"
     ],
-    "status": "ingame",
-    "perf": "poor",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone Air",
+      "device": "iPhone 16 Pro",
       "platform": "ios",
-      "osVersion": "26.0",
+      "osVersion": "26.3.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-08",
+    "updatedAt": "2026-03-24",
     "issueNumber": 78,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/78",
-    "notes": "So this takes a couple of reboots to actually get the game to launch it loads textures and assets very slowly and it gets around 9-10 FPS it runs but its super slow and loads shaders and everything super slowly",
+    "notes": "- No audio glitches\n- Some effect getting rendered wrong, but those are very minor.\n- Good Performance, 20-27 FPS range",
     "reports": [
+      {
+        "device": "iPhone 16 Pro",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-03-24",
+        "notes": "- No audio glitches\n- Some effect getting rendered wrong, but those are very minor.\n- Good Performance, 20-27 FPS range",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.1-9320",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9320",
+          "stage": "stable",
+          "commitShort": "3d70b7b41a"
+        }
+      },
       {
         "device": "iPhone Air",
         "platform": "ios",
@@ -199297,7 +199319,9 @@
         }
       }
     ],
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584109DA/1774365725251-1.jpg"
+    ],
     "summaries": {
       "release": {
         "channel": "release",
@@ -199312,56 +199336,54 @@
       },
       "all": {
         "channel": "all",
-        "status": "ingame",
-        "perf": "poor",
-        "notes": "So this takes a couple of reboots to actually get the game to launch it loads textures and assets very slowly and it gets around 9-10 FPS it runs but its super slow and loads shaders and everything super slowly",
-        "updatedAt": "2026-03-08",
-        "date": "2026-03-08",
-        "reportCount": 1,
+        "status": "playable",
+        "perf": "great",
+        "notes": "- No audio glitches\n- Some effect getting rendered wrong, but those are very minor.\n- Good Performance, 20-27 FPS range",
+        "updatedAt": "2026-03-24",
+        "date": "2026-03-24",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone Air",
+          "device": "iPhone 16 Pro",
           "platform": "ios",
-          "osVersion": "26.0",
+          "osVersion": "26.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-03-08",
-          "notes": "So this takes a couple of reboots to actually get the game to launch it loads textures and assets very slowly and it gets around 9-10 FPS it runs but its super slow and loads shaders and everything super slowly",
-          "reportedTitleId": "584109DA",
-          "reportedTitle": "Hydro Thunder Hurricane",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-03-24",
+          "notes": "- No audio glitches\n- Some effect getting rendered wrong, but those are very minor.\n- Good Performance, 20-27 FPS range",
           "screenshots": [],
-          "source": "github",
+          "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
+            "buildId": "ios-self-built-1.0.1-9320",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633E8177"
+            "appVersion": "1.0.1",
+            "buildNumber": "9320",
+            "stage": "stable",
+            "commitShort": "3d70b7b41a"
           }
         },
         "bestReport": {
-          "device": "iPhone Air",
+          "device": "iPhone 16 Pro",
           "platform": "ios",
-          "osVersion": "26.0",
+          "osVersion": "26.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-03-08",
-          "notes": "So this takes a couple of reboots to actually get the game to launch it loads textures and assets very slowly and it gets around 9-10 FPS it runs but its super slow and loads shaders and everything super slowly",
-          "reportedTitleId": "584109DA",
-          "reportedTitle": "Hydro Thunder Hurricane",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-03-24",
+          "notes": "- No audio glitches\n- Some effect getting rendered wrong, but those are very minor.\n- Good Performance, 20-27 FPS range",
           "screenshots": [],
-          "source": "github",
+          "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
+            "buildId": "ios-self-built-1.0.1-9320",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633E8177"
+            "appVersion": "1.0.1",
+            "buildNumber": "9320",
+            "stage": "stable",
+            "commitShort": "3d70b7b41a"
           }
         }
       }
