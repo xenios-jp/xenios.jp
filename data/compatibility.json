@@ -145828,17 +145828,39 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone Air",
+      "device": "iPhone 13 Mini",
       "platform": "ios",
-      "osVersion": "26.0",
+      "osVersion": "26.3.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-12",
+    "updatedAt": "2026-03-24",
     "issueNumber": 49,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/49",
-    "notes": "So surprisingly you can definitely get Minecraft running it's a good 20-30FPS but the fact it runs at all is insane i mean it's the 1.0.0 version or XBLA version but this is amazing and i'm so happy to see Minecraft running it's definitely playable and if the owner can get the latest version of minecraft running then someone can beat minecraft 360 version on iphone!?",
+    "notes": "Game runs ~20 fps on iPhone 13 Mini",
     "reports": [
+      {
+        "device": "iPhone 13 Mini",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-03-24",
+        "notes": "Game runs ~20 fps on iPhone 13 Mini",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "stage": "stable",
+          "commitShort": "056d2f64d"
+        }
+      },
       {
         "device": "iPhone Air",
         "platform": "ios",
@@ -145926,6 +145948,7 @@
       }
     ],
     "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584111F7/1774368552785-1.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584111F7/1773166296409-1.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584111F7/1773155623241-1.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584111F7/1773155623241-2.jpg"
@@ -145986,50 +146009,52 @@
         "channel": "all",
         "status": "playable",
         "perf": "ok",
-        "notes": "So surprisingly you can definitely get Minecraft running it's a good 20-30FPS but the fact it runs at all is insane i mean it's the 1.0.0 version or XBLA version but this is amazing and i'm so happy to see Minecraft running it's definitely playable and if the owner can get the latest version of minecraft running then someone can beat minecraft 360 version on iphone!?",
-        "updatedAt": "2026-03-12",
-        "date": "2026-03-12",
-        "reportCount": 4,
+        "notes": "Game runs ~20 fps on iPhone 13 Mini",
+        "updatedAt": "2026-03-24",
+        "date": "2026-03-24",
+        "reportCount": 5,
         "latestReport": {
-          "device": "iPhone Air",
+          "device": "iPhone 13 Mini",
           "platform": "ios",
-          "osVersion": "26.0",
+          "osVersion": "26.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "ok",
-          "date": "2026-03-12",
-          "notes": "So surprisingly you can definitely get Minecraft running it's a good 20-30FPS but the fact it runs at all is insane i mean it's the 1.0.0 version or XBLA version but this is amazing and i'm so happy to see Minecraft running it's definitely playable and if the owner can get the latest version of minecraft running then someone can beat minecraft 360 version on iphone!?",
+          "date": "2026-03-24",
+          "notes": "Game runs ~20 fps on iPhone 13 Mini",
           "screenshots": [],
-          "source": "github",
+          "source": "app",
           "build": {
-            "buildId": "ios-release-1.0.0-9299-9299",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.0-9299",
-            "buildNumber": "9299",
-            "commitShort": "D8C101905"
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "stage": "stable",
+            "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
-          "device": "iPhone Air",
+          "device": "iPhone 13 Mini",
           "platform": "ios",
-          "osVersion": "26.0",
+          "osVersion": "26.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "ok",
-          "date": "2026-03-12",
-          "notes": "So surprisingly you can definitely get Minecraft running it's a good 20-30FPS but the fact it runs at all is insane i mean it's the 1.0.0 version or XBLA version but this is amazing and i'm so happy to see Minecraft running it's definitely playable and if the owner can get the latest version of minecraft running then someone can beat minecraft 360 version on iphone!?",
+          "date": "2026-03-24",
+          "notes": "Game runs ~20 fps on iPhone 13 Mini",
           "screenshots": [],
-          "source": "github",
+          "source": "app",
           "build": {
-            "buildId": "ios-release-1.0.0-9299-9299",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.0-9299",
-            "buildNumber": "9299",
-            "commitShort": "D8C101905"
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "stage": "stable",
+            "commitShort": "056d2f64d"
           }
         }
       }
