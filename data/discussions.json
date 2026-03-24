@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-24T06:54:49.029Z",
+  "generatedAt": "2026-03-24T10:08:55.063Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1166,8 +1166,31 @@
       "titleId": "45410912",
       "issueNumber": 252,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/252",
-      "updatedAt": "2026-03-14",
+      "updatedAt": "2026-03-24",
       "entries": [
+        {
+          "id": "comment-4116927561",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/252#issuecomment-4116927561",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-24",
+          "createdAtMs": 1774346854000,
+          "issueNumber": 252,
+          "excerpt": "Well, uh. Guessing this fork is still in Alpha, and I do not have an iPhone 14. So, I guess I’ll wait.",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone12,1",
+            "platform": "iOS",
+            "osVersion": "iOS 17.5.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
         {
           "id": "comment-4060692488",
           "type": "comment",
