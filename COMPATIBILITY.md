@@ -2,7 +2,7 @@
 
 > **236 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **94** · 🔵 In-Game: **53** · 🟡 Intro: **19** · 🟠 Loads: **34** · 🔴 Doesn't Boot: **36**
+> 🟢 Playable: **95** · 🔵 In-Game: **52** · 🟡 Intro: **19** · 🟠 Loads: **34** · 🔴 Doesn't Boot: **36**
 >
 > 📱 iOS: **219** · 🖥️ macOS: **34**
 
@@ -100,6 +100,7 @@
 | 🟢 | Skate 3 | `454108E6` | 📱 iOS | Playable | 🐢 Poor | iPad Pro 13-inch (M4) | 2026-03-19 |
 | 🟢 | Sonic Generations | `53450848` | 📱 iOS | Playable | 🐢 Poor | iPhone 17 Pro Max | 2026-03-15 |
 | 🟢 | Sonic the Hedgehog | `534507D6` | 📱 iOS | Playable | 🐢 Poor | iPhone 16 Pro | 2026-03-18 |
+| 🟢 | Sonic Unleashed | `53450812` | 📱 iOS | Playable | 👌 OK | iPad Pro 13-inch (M4) | 2026-03-24 |
 | 🟢 | SpongeBob HeroPants | `41560919` | 📱 iOS | Playable | 👌 OK | iPad Mini (A17 Pro) | 2026-03-08 |
 | 🟢 | Star Wars: The Force Unleashed | `4C4107D2` | 📱 iOS | Playable | 🚀 Great | iPhone 15 Pro | 2026-03-10 |
 | 🟢 | Steins;Gate Hiyoku Renri no Darling | `465607E8` | 📱 iOS | Playable | 🚀 Great | iPhone 17 | 2026-03-02 |
@@ -164,7 +165,6 @@
 | 🔵 | Saints Row 2 | `545107FC` | 📱 iOS | In-Game | 🐢 Poor | iPhone 14 Pro Max | 2026-03-08 |
 | 🔵 | Serious Sam HD: The First Encounter | `584109DA` | 📱 iOS | In-Game | 🐢 Poor | iPhone Air | 2026-03-08 |
 | 🔵 | skate. | `45410813` | 📱 iOS | In-Game | 🐢 Poor | iPad Pro (M2) | 2026-03-03 |
-| 🔵 | Sonic Unleashed | `53450812` | 📱 iOS | In-Game | 🐢 Poor | iPad Air 11-inch (M2) | 2026-03-15 |
 | 🔵 | Spider-Man 3 | `415607E2` | 📱 iOS | In-Game | 🐢 Poor | iPhone 16 | 2026-03-10 |
 | 🔵 | Tomb Raider Underworld | `534307EC` | 📱 iOS | In-Game | 👌 OK | iPhone 16 Pro Max | 2026-03-11 |
 | 🟡 | Assassin's Creed II | `5553083B` | 📱 iOS | Intro | 👌 OK | iPhone 15 Pro Max | 2026-03-11 |

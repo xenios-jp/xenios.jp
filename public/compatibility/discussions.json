@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-23T22:28:15.437Z",
+  "generatedAt": "2026-03-24T00:45:39.437Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1388,8 +1388,31 @@
       "titleId": "53450812",
       "issueNumber": 272,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/272",
-      "updatedAt": "2026-03-15",
+      "updatedAt": "2026-03-24",
       "entries": [
+        {
+          "id": "comment-4114639472",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/272#issuecomment-4114639472",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-24",
+          "createdAtMs": 1774313066000,
+          "issueNumber": 272,
+          "excerpt": "Videos have compatibility artifacts and game FPS is not the best but it’s playable.",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPad Pro 13-inch (M4)",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
         {
           "id": "issue-272",
           "type": "issue",
