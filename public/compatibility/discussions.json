@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-24T03:25:37.990Z",
+  "generatedAt": "2026-03-24T03:43:23.144Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -9,10 +9,33 @@
   "discussions": {
     "41560817": {
       "titleId": "41560817",
-      "issueNumber": 29,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/29",
-      "updatedAt": "2026-03-08",
+      "issueNumber": 351,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/351",
+      "updatedAt": "2026-03-24",
       "entries": [
+        {
+          "id": "issue-351",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/351",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-24",
+          "createdAtMs": 1774323741000,
+          "issueNumber": 351,
+          "excerpt": "Doesn’t launch",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 14 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 16.4.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
         {
           "id": "comment-4019825569",
           "type": "comment",
