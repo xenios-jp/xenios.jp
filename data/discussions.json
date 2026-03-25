@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-24T23:56:14.215Z",
+  "generatedAt": "2026-03-25T01:30:00.190Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2300,8 +2300,31 @@
       "titleId": "584111F7",
       "issueNumber": 356,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/356",
-      "updatedAt": "2026-03-24",
+      "updatedAt": "2026-03-25",
       "entries": [
+        {
+          "id": "comment-4122520557",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/356#issuecomment-4122520557",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-25",
+          "createdAtMs": 1774402098000,
+          "issueNumber": 356,
+          "excerpt": "Menus are a bit of a struggle being slow and sometimes just not taking button inputs.",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 14 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 16.5",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "0.9.2",
+            "buildNumber": "9321",
+            "commitShort": "`6228dab43`"
+          }
+        },
         {
           "id": "issue-356",
           "type": "issue",

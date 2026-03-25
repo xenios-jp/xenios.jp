@@ -145828,19 +145828,40 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 13 Mini",
+      "device": "iPhone 14 Pro Max",
       "platform": "ios",
-      "osVersion": "26.3.1",
+      "osVersion": "16.5",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-24",
+    "updatedAt": "2026-03-25",
     "issueNumber": 49,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/49",
-    "notes": "Game runs ~20 fps on iPhone 13 Mini",
+    "notes": "Menus are a bit of a struggle being slow and sometimes just not taking button inputs.",
     "reports": [
       {
-        "device": "iPhone 13 Mini",
+        "device": "iPhone 14 Pro Max",
+        "platform": "ios",
+        "osVersion": "16.5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-03-25",
+        "notes": "Menus are a bit of a struggle being slow and sometimes just not taking button inputs.",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-0.9.2-9321",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "0.9.2",
+          "buildNumber": "9321",
+          "commitShort": "6228dab43"
+        }
+      },
+      {
+        "device": "iPhone 13 mini",
         "platform": "ios",
         "osVersion": "26.3.1",
         "arch": "arm64",
@@ -145857,71 +145878,7 @@
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
           "commitShort": "056d2f64d"
-        }
-      },
-      {
-        "device": "iPhone Air",
-        "platform": "ios",
-        "osVersion": "26.0",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "ok",
-        "date": "2026-03-12",
-        "notes": "So surprisingly you can definitely get Minecraft running it's a good 20-30FPS but the fact it runs at all is insane i mean it's the 1.0.0 version or XBLA version but this is amazing and i'm so happy to see Minecraft running it's definitely playable and if the owner can get the latest version of minecraft running then someone can beat minecraft 360 version on iphone!?",
-        "screenshots": [],
-        "source": "github",
-        "build": {
-          "buildId": "ios-release-1.0.0-9299-9299",
-          "channel": "release",
-          "official": true,
-          "appVersion": "1.0.0-9299",
-          "buildNumber": "9299",
-          "commitShort": "D8C101905"
-        }
-      },
-      {
-        "device": "iPhone 14 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "ok",
-        "date": "2026-03-10",
-        "notes": "Plays really well, but no audio in any part of the game. Low fps but playable. (USING XBLA VERSION WITH NO TITLE UPDATE!)",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.0-9280",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "commitShort": "2633e8177"
-        }
-      },
-      {
-        "device": "iPhone 13",
-        "platform": "ios",
-        "osVersion": "18.0.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "ok",
-        "date": "2026-03-10",
-        "notes": "Sits comfortably at around 20FPS. The inventory and crafting interface cause major lag with the FPS constantly dropping until they are closed. Too many mobs on screen will also make the game lag. Audio doesn’t seem to work. Using the base XBLA version.",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.0-9280",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "commitShort": "2633e8177"
         }
       },
       {
@@ -145956,105 +145913,63 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "playable",
-        "perf": "ok",
-        "notes": "So surprisingly you can definitely get Minecraft running it's a good 20-30FPS but the fact it runs at all is insane i mean it's the 1.0.0 version or XBLA version but this is amazing and i'm so happy to see Minecraft running it's definitely playable and if the owner can get the latest version of minecraft running then someone can beat minecraft 360 version on iphone!?",
-        "updatedAt": "2026-03-12",
-        "date": "2026-03-12",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone Air",
-          "platform": "ios",
-          "osVersion": "26.0",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-03-12",
-          "notes": "So surprisingly you can definitely get Minecraft running it's a good 20-30FPS but the fact it runs at all is insane i mean it's the 1.0.0 version or XBLA version but this is amazing and i'm so happy to see Minecraft running it's definitely playable and if the owner can get the latest version of minecraft running then someone can beat minecraft 360 version on iphone!?",
-          "screenshots": [],
-          "source": "github",
-          "build": {
-            "buildId": "ios-release-1.0.0-9299-9299",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.0-9299",
-            "buildNumber": "9299",
-            "commitShort": "D8C101905"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone Air",
-          "platform": "ios",
-          "osVersion": "26.0",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-03-12",
-          "notes": "So surprisingly you can definitely get Minecraft running it's a good 20-30FPS but the fact it runs at all is insane i mean it's the 1.0.0 version or XBLA version but this is amazing and i'm so happy to see Minecraft running it's definitely playable and if the owner can get the latest version of minecraft running then someone can beat minecraft 360 version on iphone!?",
-          "screenshots": [],
-          "source": "github",
-          "build": {
-            "buildId": "ios-release-1.0.0-9299-9299",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.0-9299",
-            "buildNumber": "9299",
-            "commitShort": "D8C101905"
-          }
-        }
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "date": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
       },
       "all": {
         "channel": "all",
         "status": "playable",
         "perf": "ok",
-        "notes": "Game runs ~20 fps on iPhone 13 Mini",
-        "updatedAt": "2026-03-24",
-        "date": "2026-03-24",
-        "reportCount": 5,
+        "notes": "Menus are a bit of a struggle being slow and sometimes just not taking button inputs.",
+        "updatedAt": "2026-03-25",
+        "date": "2026-03-25",
+        "reportCount": 3,
         "latestReport": {
-          "device": "iPhone 13 Mini",
+          "device": "iPhone 14 Pro Max",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "16.5",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "ok",
-          "date": "2026-03-24",
-          "notes": "Game runs ~20 fps on iPhone 13 Mini",
+          "date": "2026-03-25",
+          "notes": "Menus are a bit of a struggle being slow and sometimes just not taking button inputs.",
           "screenshots": [],
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
+            "buildId": "ios-self-built-0.9.2-9321",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d"
+            "appVersion": "0.9.2",
+            "buildNumber": "9321",
+            "commitShort": "6228dab43"
           }
         },
         "bestReport": {
-          "device": "iPhone 13 Mini",
+          "device": "iPhone 14 Pro Max",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "16.5",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "ok",
-          "date": "2026-03-24",
-          "notes": "Game runs ~20 fps on iPhone 13 Mini",
+          "date": "2026-03-25",
+          "notes": "Menus are a bit of a struggle being slow and sometimes just not taking button inputs.",
           "screenshots": [],
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
+            "buildId": "ios-self-built-0.9.2-9321",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d"
+            "appVersion": "0.9.2",
+            "buildNumber": "9321",
+            "commitShort": "6228dab43"
           }
         }
       }
@@ -153788,8 +153703,8 @@
     "perf": "great",
     "tags": [],
     "platforms": [
-      "ios",
-      "macos"
+      "macos",
+      "ios"
     ],
     "lastReport": {
       "device": "iPhone 15 Pro",
@@ -207957,7 +207872,6 @@
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
           "commitShort": "056d2f64d"
         }
       },
@@ -208044,7 +207958,6 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         },
@@ -208066,7 +207979,6 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         }
