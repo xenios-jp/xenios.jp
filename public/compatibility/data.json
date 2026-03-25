@@ -75950,14 +75950,47 @@
     "titleIds": [
       "584113C6"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "playable",
+    "perf": "poor",
     "tags": [],
-    "platforms": [],
-    "lastReport": null,
-    "updatedAt": "",
-    "notes": "",
-    "reports": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 14 Pro Max",
+      "platform": "ios",
+      "osVersion": "16.5",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-25",
+    "issueNumber": 361,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/361",
+    "notes": "The game works perfectly fine but after the glitchy company logos there is a really loud ringing sound with no stop.",
+    "reports": [
+      {
+        "device": "iPhone 14 Pro Max",
+        "platform": "ios",
+        "osVersion": "16.5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "poor",
+        "date": "2026-03-25",
+        "notes": "The game works perfectly fine but after the glitchy company logos there is a really loud ringing sound with no stop.",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-0.9.2-9321",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "0.9.2",
+          "buildNumber": "9321",
+          "stage": "stable",
+          "commitShort": "6228dab43"
+        }
+      }
+    ],
     "screenshots": [],
     "summaries": {
       "release": {
@@ -75973,14 +76006,56 @@
       },
       "all": {
         "channel": "all",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "playable",
+        "perf": "poor",
+        "notes": "The game works perfectly fine but after the glitchy company logos there is a really loud ringing sound with no stop.",
+        "updatedAt": "2026-03-25",
+        "date": "2026-03-25",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 14 Pro Max",
+          "platform": "ios",
+          "osVersion": "16.5",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "poor",
+          "date": "2026-03-25",
+          "notes": "The game works perfectly fine but after the glitchy company logos there is a really loud ringing sound with no stop.",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-0.9.2-9321",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "0.9.2",
+            "buildNumber": "9321",
+            "stage": "stable",
+            "commitShort": "6228dab43"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 14 Pro Max",
+          "platform": "ios",
+          "osVersion": "16.5",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "poor",
+          "date": "2026-03-25",
+          "notes": "The game works perfectly fine but after the glitchy company logos there is a really loud ringing sound with no stop.",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-0.9.2-9321",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "0.9.2",
+            "buildNumber": "9321",
+            "stage": "stable",
+            "commitShort": "6228dab43"
+          }
+        }
       }
     }
   },
@@ -153005,14 +153080,47 @@
     "titleIds": [
       "5841085C"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
-    "platforms": [],
-    "lastReport": null,
-    "updatedAt": "",
-    "notes": "",
-    "reports": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 14 Pro Max",
+      "platform": "ios",
+      "osVersion": "16.5",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-25",
+    "issueNumber": 360,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/360",
+    "notes": "No visible issues",
+    "reports": [
+      {
+        "device": "iPhone 14 Pro Max",
+        "platform": "ios",
+        "osVersion": "16.5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-03-25",
+        "notes": "No visible issues",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-0.9.2-9321",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "0.9.2",
+          "buildNumber": "9321",
+          "stage": "stable",
+          "commitShort": "6228dab43"
+        }
+      }
+    ],
     "screenshots": [],
     "summaries": {
       "release": {
@@ -153028,14 +153136,56 @@
       },
       "all": {
         "channel": "all",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "playable",
+        "perf": "great",
+        "notes": "No visible issues",
+        "updatedAt": "2026-03-25",
+        "date": "2026-03-25",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 14 Pro Max",
+          "platform": "ios",
+          "osVersion": "16.5",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-03-25",
+          "notes": "No visible issues",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-0.9.2-9321",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "0.9.2",
+            "buildNumber": "9321",
+            "stage": "stable",
+            "commitShort": "6228dab43"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 14 Pro Max",
+          "platform": "ios",
+          "osVersion": "16.5",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-03-25",
+          "notes": "No visible issues",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-0.9.2-9321",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "0.9.2",
+            "buildNumber": "9321",
+            "stage": "stable",
+            "commitShort": "6228dab43"
+          }
+        }
       }
     }
   },
@@ -168894,180 +169044,109 @@
       "58410889"
     ],
     "status": "playable",
-    "perf": "great",
+    "perf": "ok",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 15 Pro Max",
+      "device": "iPhone 14 Pro Max",
       "platform": "ios",
-      "osVersion": "18.6.2",
+      "osVersion": "16.5",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-15",
+    "updatedAt": "2026-03-25",
     "issueNumber": 269,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/269",
-    "notes": "Intro video is very glitchy, but visuals look as intended from then on. Menus experience a little slow-down from time to time, and at the end of a level the effects can make it slower than full speed",
+    "notes": "The intro popcap logo is super glitchy but other than that works perfectly fine.",
     "reports": [
       {
-        "device": "iPhone 15 Pro Max",
+        "device": "iPhone 14 Pro Max",
         "platform": "ios",
-        "osVersion": "18.6.2",
+        "osVersion": "16.5",
         "arch": "arm64",
         "gpuBackend": "msl",
         "status": "playable",
-        "perf": "great",
-        "date": "2026-03-15",
-        "notes": "Intro video is very glitchy, but visuals look as intended from then on. Menus experience a little slow-down from time to time, and at the end of a level the effects can make it slower than full speed",
-        "reportedTitleId": "58410889",
-        "reportedTitle": "Peggle",
-        "screenshots": [
-          "https://github.com/user-attachments/assets/4e638212-15fd-4c21-870a-307dd44b1292",
-          "https://github.com/user-attachments/assets/e82379ef-7231-48da-8895-ddc88ec16fbd",
-          "https://github.com/user-attachments/assets/ab85dbf6-1486-4b4c-b172-2e9c82158e73"
-        ],
-        "submittedBy": "oliviaiacovou",
-        "source": "github",
+        "perf": "ok",
+        "date": "2026-03-25",
+        "notes": "The intro popcap logo is super glitchy but other than that works perfectly fine.",
+        "screenshots": [],
+        "source": "app",
         "build": {
-          "buildId": "ios-release-1.0.1-9288",
-          "channel": "release",
-          "official": true,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288"
+          "buildId": "ios-self-built-0.9.2-9321",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "0.9.2",
+          "buildNumber": "9321",
+          "stage": "stable",
+          "commitShort": "6228dab43"
         }
       }
     ],
-    "screenshots": [
-      "https://github.com/user-attachments/assets/4e638212-15fd-4c21-870a-307dd44b1292",
-      "https://github.com/user-attachments/assets/e82379ef-7231-48da-8895-ddc88ec16fbd",
-      "https://github.com/user-attachments/assets/ab85dbf6-1486-4b4c-b172-2e9c82158e73"
-    ],
+    "screenshots": [],
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "playable",
-        "perf": "great",
-        "notes": "Intro video is very glitchy, but visuals look as intended from then on. Menus experience a little slow-down from time to time, and at the end of a level the effects can make it slower than full speed",
-        "updatedAt": "2026-03-15",
-        "date": "2026-03-15",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 15 Pro Max",
-          "platform": "ios",
-          "osVersion": "18.6.2",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-03-15",
-          "notes": "Intro video is very glitchy, but visuals look as intended from then on. Menus experience a little slow-down from time to time, and at the end of a level the effects can make it slower than full speed",
-          "reportedTitleId": "58410889",
-          "reportedTitle": "Peggle",
-          "screenshots": [
-            "https://github.com/user-attachments/assets/4e638212-15fd-4c21-870a-307dd44b1292",
-            "https://github.com/user-attachments/assets/e82379ef-7231-48da-8895-ddc88ec16fbd",
-            "https://github.com/user-attachments/assets/ab85dbf6-1486-4b4c-b172-2e9c82158e73"
-          ],
-          "submittedBy": "oliviaiacovou",
-          "source": "github",
-          "build": {
-            "buildId": "ios-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 15 Pro Max",
-          "platform": "ios",
-          "osVersion": "18.6.2",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-03-15",
-          "notes": "Intro video is very glitchy, but visuals look as intended from then on. Menus experience a little slow-down from time to time, and at the end of a level the effects can make it slower than full speed",
-          "reportedTitleId": "58410889",
-          "reportedTitle": "Peggle",
-          "screenshots": [
-            "https://github.com/user-attachments/assets/4e638212-15fd-4c21-870a-307dd44b1292",
-            "https://github.com/user-attachments/assets/e82379ef-7231-48da-8895-ddc88ec16fbd",
-            "https://github.com/user-attachments/assets/ab85dbf6-1486-4b4c-b172-2e9c82158e73"
-          ],
-          "submittedBy": "oliviaiacovou",
-          "source": "github",
-          "build": {
-            "buildId": "ios-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288"
-          }
-        }
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "date": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
       },
       "all": {
         "channel": "all",
         "status": "playable",
-        "perf": "great",
-        "notes": "Intro video is very glitchy, but visuals look as intended from then on. Menus experience a little slow-down from time to time, and at the end of a level the effects can make it slower than full speed",
-        "updatedAt": "2026-03-15",
-        "date": "2026-03-15",
+        "perf": "ok",
+        "notes": "The intro popcap logo is super glitchy but other than that works perfectly fine.",
+        "updatedAt": "2026-03-25",
+        "date": "2026-03-25",
         "reportCount": 1,
         "latestReport": {
-          "device": "iPhone 15 Pro Max",
+          "device": "iPhone 14 Pro Max",
           "platform": "ios",
-          "osVersion": "18.6.2",
+          "osVersion": "16.5",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
-          "perf": "great",
-          "date": "2026-03-15",
-          "notes": "Intro video is very glitchy, but visuals look as intended from then on. Menus experience a little slow-down from time to time, and at the end of a level the effects can make it slower than full speed",
-          "reportedTitleId": "58410889",
-          "reportedTitle": "Peggle",
-          "screenshots": [
-            "https://github.com/user-attachments/assets/4e638212-15fd-4c21-870a-307dd44b1292",
-            "https://github.com/user-attachments/assets/e82379ef-7231-48da-8895-ddc88ec16fbd",
-            "https://github.com/user-attachments/assets/ab85dbf6-1486-4b4c-b172-2e9c82158e73"
-          ],
-          "submittedBy": "oliviaiacovou",
-          "source": "github",
+          "perf": "ok",
+          "date": "2026-03-25",
+          "notes": "The intro popcap logo is super glitchy but other than that works perfectly fine.",
+          "screenshots": [],
+          "source": "app",
           "build": {
-            "buildId": "ios-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288"
+            "buildId": "ios-self-built-0.9.2-9321",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "0.9.2",
+            "buildNumber": "9321",
+            "stage": "stable",
+            "commitShort": "6228dab43"
           }
         },
         "bestReport": {
-          "device": "iPhone 15 Pro Max",
+          "device": "iPhone 14 Pro Max",
           "platform": "ios",
-          "osVersion": "18.6.2",
+          "osVersion": "16.5",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
-          "perf": "great",
-          "date": "2026-03-15",
-          "notes": "Intro video is very glitchy, but visuals look as intended from then on. Menus experience a little slow-down from time to time, and at the end of a level the effects can make it slower than full speed",
-          "reportedTitleId": "58410889",
-          "reportedTitle": "Peggle",
-          "screenshots": [
-            "https://github.com/user-attachments/assets/4e638212-15fd-4c21-870a-307dd44b1292",
-            "https://github.com/user-attachments/assets/e82379ef-7231-48da-8895-ddc88ec16fbd",
-            "https://github.com/user-attachments/assets/ab85dbf6-1486-4b4c-b172-2e9c82158e73"
-          ],
-          "submittedBy": "oliviaiacovou",
-          "source": "github",
+          "perf": "ok",
+          "date": "2026-03-25",
+          "notes": "The intro popcap logo is super glitchy but other than that works perfectly fine.",
+          "screenshots": [],
+          "source": "app",
           "build": {
-            "buildId": "ios-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288"
+            "buildId": "ios-self-built-0.9.2-9321",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "0.9.2",
+            "buildNumber": "9321",
+            "stage": "stable",
+            "commitShort": "6228dab43"
           }
         }
       }

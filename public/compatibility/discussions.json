@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-25T03:24:15.858Z",
+  "generatedAt": "2026-03-25T03:27:50.724Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2210,8 +2210,31 @@
       "titleId": "58410889",
       "issueNumber": 269,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/269",
-      "updatedAt": "2026-03-15",
+      "updatedAt": "2026-03-25",
       "entries": [
+        {
+          "id": "comment-4122868905",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/269#issuecomment-4122868905",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-25",
+          "createdAtMs": 1774409084000,
+          "issueNumber": 269,
+          "excerpt": "The intro popcap logo is super glitchy but other than that works perfectly fine.",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 14 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 16.5",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "0.9.2",
+            "buildNumber": "9321",
+            "commitShort": "`6228dab43`"
+          }
+        },
         {
           "id": "issue-269",
           "type": "issue",
@@ -2243,6 +2266,68 @@
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
           "images": [],
           "meta": {}
+        }
+      ]
+    },
+    "584113C6": {
+      "titleId": "584113C6",
+      "issueNumber": 361,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/361",
+      "updatedAt": "2026-03-25",
+      "entries": [
+        {
+          "id": "issue-361",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/361",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-25",
+          "createdAtMs": 1774409224000,
+          "issueNumber": 361,
+          "excerpt": "The game works perfectly fine but after the glitchy company logos there is a really loud ringing sound with no stop.",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "poor",
+            "device": "iPhone 14 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 16.5",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "0.9.2",
+            "buildNumber": "9321",
+            "commitShort": "`6228dab43`"
+          }
+        }
+      ]
+    },
+    "5841085C": {
+      "titleId": "5841085C",
+      "issueNumber": 360,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/360",
+      "updatedAt": "2026-03-25",
+      "entries": [
+        {
+          "id": "issue-360",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/360",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-25",
+          "createdAtMs": 1774409134000,
+          "issueNumber": 360,
+          "excerpt": "No visible issues",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 14 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 16.5",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "0.9.2",
+            "buildNumber": "9321",
+            "commitShort": "`6228dab43`"
+          }
         }
       ]
     },
