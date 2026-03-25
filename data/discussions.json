@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-25T01:30:00.190Z",
+  "generatedAt": "2026-03-25T03:24:15.858Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2241,6 +2241,61 @@
           "createdAtMs": 1773517964000,
           "issueNumber": 263,
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
+          "images": [],
+          "meta": {}
+        }
+      ]
+    },
+    "584109FF": {
+      "titleId": "584109FF",
+      "issueNumber": 359,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/359",
+      "updatedAt": "2026-03-25",
+      "entries": [
+        {
+          "id": "issue-359",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/359",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-25",
+          "createdAtMs": 1774409005000,
+          "issueNumber": 359,
+          "excerpt": "Takes a couple of launches to actually boot, the intro popcap logo is really loud and glitchy, and the first row of plants have a glitchy box overtop.",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 14 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 16.5",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "0.9.2",
+            "buildNumber": "9321",
+            "commitShort": "`6228dab43`"
+          }
+        },
+        {
+          "id": "comment-4043612875",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/215#issuecomment-4043612875",
+          "author": "DerekS10",
+          "createdAt": "2026-03-12",
+          "createdAtMs": 1773285204000,
+          "issueNumber": 215,
+          "excerpt": "<img width=\"1133\" height=\"744\" alt=\"Image\" src=\" />\n<img width=\"1133\" height=\"744\" alt=\"Image\" src=\" />\n<img width=\"1133\" height=\"744\" alt=\"Image\" src=\" />",
+          "images": [],
+          "meta": {}
+        },
+        {
+          "id": "issue-215",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/215",
+          "author": "DerekS10",
+          "createdAt": "2026-03-12",
+          "createdAtMs": 1773284832000,
+          "issueNumber": 215,
+          "excerpt": "It works excellent, it only has a graphic error in the seeds and in the introduction of the game, for the rest no problem",
           "images": [],
           "meta": {}
         }
@@ -6939,38 +6994,6 @@
             "buildNumber": "9280",
             "commitShort": "`2633e8177`"
           }
-        }
-      ]
-    },
-    "584109FF": {
-      "titleId": "584109FF",
-      "issueNumber": 215,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/215",
-      "updatedAt": "2026-03-12",
-      "entries": [
-        {
-          "id": "comment-4043612875",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/215#issuecomment-4043612875",
-          "author": "DerekS10",
-          "createdAt": "2026-03-12",
-          "createdAtMs": 1773285204000,
-          "issueNumber": 215,
-          "excerpt": "<img width=\"1133\" height=\"744\" alt=\"Image\" src=\" />\n<img width=\"1133\" height=\"744\" alt=\"Image\" src=\" />\n<img width=\"1133\" height=\"744\" alt=\"Image\" src=\" />",
-          "images": [],
-          "meta": {}
-        },
-        {
-          "id": "issue-215",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/215",
-          "author": "DerekS10",
-          "createdAt": "2026-03-12",
-          "createdAtMs": 1773284832000,
-          "issueNumber": 215,
-          "excerpt": "It works excellent, it only has a graphic error in the seeds and in the introduction of the game, for the rest no problem",
-          "images": [],
-          "meta": {}
         }
       ]
     },
