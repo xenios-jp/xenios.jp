@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-25T16:39:32.117Z",
+  "generatedAt": "2026-03-25T17:03:46.407Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -280,6 +280,43 @@
             "device": "iPad Pro 12.9-inch (M2)",
             "platform": "iOS",
             "osVersion": "iOS 17.0",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        }
+      ]
+    },
+    "41560881": {
+      "titleId": "41560881",
+      "issueNumber": 364,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/364",
+      "updatedAt": "2026-03-25",
+      "entries": [
+        {
+          "id": "issue-364",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/364",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-25",
+          "createdAtMs": 1774458174000,
+          "issueNumber": 364,
+          "excerpt": "The game will allow you to log in and create a profile, and when you start the game, it will froze on the loading screen of the beginning of the game.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/41560881/1774458159292-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/41560881/1774458159292-2.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/41560881/1774458159292-3.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/41560881/1774458159292-4.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/41560881/1774458159292-5.jpg"
+          ],
+          "meta": {
+            "status": "loads",
+            "perf": "poor",
+            "device": "iPhone 15 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
             "gpuBackend": "MSL",
             "buildChannel": "self-built",
             "appVersion": "1.0.0",

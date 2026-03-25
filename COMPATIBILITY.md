@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **241 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **243 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **99** · 🔵 In-Game: **51** · 🟡 Intro: **20** · 🟠 Loads: **34** · 🔴 Doesn't Boot: **37**
+> 🟢 Playable: **99** · 🔵 In-Game: **51** · 🟡 Intro: **20** · 🟠 Loads: **35** · 🔴 Doesn't Boot: **38**
 >
-> 📱 iOS: **224** · 🖥️ macOS: **35**
+> 📱 iOS: **226** · 🖥️ macOS: **35**
 
 ## Legend
 
@@ -219,6 +219,7 @@
 | 🟠 | Saw | `4B4E0802` | 📱 iOS | Loads | 👌 OK | iPhone 16 Pro | 2026-03-21 |
 | 🟠 | Sonic & All-Stars Racing Transformed | `5345085D` | 📱 iOS | Loads | 🐢 Poor | iPhone 17 Pro Max | 2026-03-24 |
 | 🟠 | Spider Man: Edge Of Time | `415608B2` | 📱 iOS | Loads | 🐢 Poor | iPhone 15 Pro Max | 2026-03-09 |
+| 🟠 | Spider-Man: Shattered Dimensions | `41560881` | 📱 iOS | Loads | 🐢 Poor | iPhone 15 Pro | 2026-03-25 |
 | 🟠 | The Darkness | `545407EE` | 📱 iOS | Loads | 👌 OK | iPhone 17 Pro Max | 2026-03-16 |
 | 🟠 | The Elder Scrolls V: Skyrim | `425307E6` | 📱 iOS | Loads | 🐢 Poor | iPhone 17 Pro Max | 2026-03-14 |
 | 🟠 | The Orange Box | `4541080F` | 📱 iOS | Loads | 🐢 Poor | iPhone Air | 2026-03-08 |
@@ -259,6 +260,7 @@
 | 🔴 | The Wolf Among Us | `443607D5` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-20 |
 | 🔴 | Tomb Raider | `53510802` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 15 Pro Max | 2026-03-12 |
 | 🔴 | Transformers: War for Cybertron | `4156084C` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-24 |
+| 🔴 | WWE 2k14 | `545408B2` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 | 2026-03-25 |
 | 🔴 | WWE 2K15 | `545408B6` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro Max | 2026-03-11 |
 | 🔴 | WWE Smackdown vs. Raw 2011 | `5451085D` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad (A16) | 2026-03-16 |
 
