@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-26T00:34:49.772Z",
+  "generatedAt": "2026-03-26T01:14:21.083Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2802,8 +2802,31 @@
       "titleId": "4156084C",
       "issueNumber": 350,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/350",
-      "updatedAt": "2026-03-24",
+      "updatedAt": "2026-03-26",
       "entries": [
+        {
+          "id": "comment-4130865104",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/350#issuecomment-4130865104",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-26",
+          "createdAtMs": 1774487589000,
+          "issueNumber": 350,
+          "excerpt": "Crashes the app",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 16 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 26.0",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
         {
           "id": "issue-350",
           "type": "issue",
