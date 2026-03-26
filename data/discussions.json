@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-25T17:03:46.407Z",
+  "generatedAt": "2026-03-26T00:34:49.772Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -762,8 +762,20 @@
       "titleId": "45410822",
       "issueNumber": 294,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/294",
-      "updatedAt": "2026-03-18",
+      "updatedAt": "2026-03-26",
       "entries": [
+        {
+          "id": "comment-4130735315",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/294#issuecomment-4130735315",
+          "author": "tOSdude",
+          "createdAt": "2026-03-26",
+          "createdAtMs": 1774485216000,
+          "issueNumber": 294,
+          "excerpt": "This is false, Xenia itself does not work on iOS 16 currently.",
+          "images": [],
+          "meta": {}
+        },
         {
           "id": "issue-294",
           "type": "issue",
