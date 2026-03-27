@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-26T01:14:21.083Z",
+  "generatedAt": "2026-03-27T07:45:13.798Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2315,6 +2315,42 @@
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
           "images": [],
           "meta": {}
+        }
+      ]
+    },
+    "544307D2": {
+      "titleId": "544307D2",
+      "issueNumber": 365,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/365",
+      "updatedAt": "2026-03-27",
+      "entries": [
+        {
+          "id": "issue-365",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/365",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-27",
+          "createdAtMs": 1774597465000,
+          "issueNumber": 365,
+          "excerpt": "Plays the opening cinematic with super glitched videos, a little slowed down - you can get to the menu after the cinematic if you don’t press anything. But then if you try to start playing after the menu screen it crashes.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/544307D2/1774597460577-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/544307D2/1774597460577-2.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/544307D2/1774597460577-3.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/544307D2/1774597460577-4.jpg"
+          ],
+          "meta": {
+            "status": "intro",
+            "perf": "poor",
+            "device": "iPhone 13 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 18.6.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
         }
       ]
     },

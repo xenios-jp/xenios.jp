@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **243 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **244 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **99** · 🔵 In-Game: **51** · 🟡 Intro: **20** · 🟠 Loads: **35** · 🔴 Doesn't Boot: **38**
+> 🟢 Playable: **99** · 🔵 In-Game: **51** · 🟡 Intro: **21** · 🟠 Loads: **35** · 🔴 Doesn't Boot: **38**
 >
-> 📱 iOS: **226** · 🖥️ macOS: **35**
+> 📱 iOS: **227** · 🖥️ macOS: **35**
 
 ## Legend
 
@@ -176,6 +176,7 @@
 | 🟡 | Beautiful Katamari | `4E4D07DC` | 📱 iOS | Intro | 👌 OK | iPhone 16 Pro | 2026-03-05 |
 | 🟡 | Burnout Revenge | `454107DC` | 📱 iOS, 🖥️ macOS | Intro | 🐢 Poor | iPhone 15 Pro Max | 2026-03-16 |
 | 🟡 | Dark Souls 2 | `465307E4` | 📱 iOS | Intro | 🐢 Poor | iPhone 17 Pro Max | 2026-03-09 |
+| 🟡 | Dead or Alive Xtreme 2 | `544307D2` | 📱 iOS | Intro | 🐢 Poor | iPhone 13 Pro Max | 2026-03-27 |
 | 🟡 | Dead Rising | `434307D2` | 📱 iOS | Intro | 👌 OK | iPad (A16) | 2026-03-04 |
 | 🟡 | Divinity II Dragon Knight Saga | `464507D6` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro Max | 2026-03-09 |
 | 🟡 | DOOM 3 BFG Edition | `425307F1` | 📱 iOS | Intro | 🚀 Great | iPhone 16 Pro | 2026-03-03 |
