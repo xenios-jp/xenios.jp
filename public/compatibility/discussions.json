@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-27T07:58:22.557Z",
+  "generatedAt": "2026-03-27T09:15:43.904Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2318,24 +2318,110 @@
         }
       ]
     },
+    "545407D8": {
+      "titleId": "545407D8",
+      "issueNumber": 367,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/367",
+      "updatedAt": "2026-03-27",
+      "entries": [
+        {
+          "id": "issue-367",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/367",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-27",
+          "createdAtMs": 1774602876000,
+          "issueNumber": 367,
+          "excerpt": "Playable, occasional drops in framerate",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 16 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
+        {
+          "id": "comment-4081875872",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/196#issuecomment-4081875872",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-18",
+          "createdAtMs": 1773834392000,
+          "issueNumber": 196,
+          "excerpt": "App crashes as soon as I launch the game :/",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 13 mini",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
+        {
+          "id": "issue-196",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/196",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-11",
+          "createdAtMs": 1773213359000,
+          "issueNumber": 196,
+          "excerpt": "Tuns great! Stable FPS occasionally jitter when loading a new section or fighting multiple enemies. Audio and music is good too.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407D8/1773213354773-1.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 14",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        },
+        {
+          "id": "issue-34",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/34",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-02",
+          "createdAtMs": 1772438754000,
+          "issueNumber": 34,
+          "excerpt": "Occasional drops in FPS but very much playable.",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 16 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 18.5",
+            "gpuBackend": "MSL"
+          }
+        }
+      ]
+    },
     "544307D2": {
       "titleId": "544307D2",
       "issueNumber": 365,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/365",
       "updatedAt": "2026-03-27",
       "entries": [
-        {
-          "id": "issue-366",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/366",
-          "author": "xdefdefdef-droid",
-          "createdAt": "2026-03-27",
-          "createdAtMs": 1774598245000,
-          "issueNumber": 366,
-          "excerpt": "Plays the opening cinematic but with super glitched videos, a little slowed down - you can get to the menu after the cinematic if you don't press anything. But then if you press the option to go to the island / play it crashes. Stay strong fellow gooners 👊 will hopefully be fixed soon",
-          "images": [],
-          "meta": {}
-        },
         {
           "id": "issue-365",
           "type": "issue",
@@ -7843,81 +7929,6 @@
         }
       ]
     },
-    "545407D8": {
-      "titleId": "545407D8",
-      "issueNumber": 196,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/196",
-      "updatedAt": "2026-03-18",
-      "entries": [
-        {
-          "id": "comment-4081875872",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/196#issuecomment-4081875872",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-18",
-          "createdAtMs": 1773834392000,
-          "issueNumber": 196,
-          "excerpt": "App crashes as soon as I launch the game :/",
-          "images": [],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPhone 13 mini",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "`056d2f64d`"
-          }
-        },
-        {
-          "id": "issue-196",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/196",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-11",
-          "createdAtMs": 1773213359000,
-          "issueNumber": 196,
-          "excerpt": "Tuns great! Stable FPS occasionally jitter when loading a new section or fighting multiple enemies. Audio and music is good too.",
-          "images": [
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407D8/1773213354773-1.jpg"
-          ],
-          "meta": {
-            "status": "playable",
-            "perf": "great",
-            "device": "iPhone 14",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "`2633e8177`"
-          }
-        },
-        {
-          "id": "issue-34",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/34",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-02",
-          "createdAtMs": 1772438754000,
-          "issueNumber": 34,
-          "excerpt": "Occasional drops in FPS but very much playable.",
-          "images": [],
-          "meta": {
-            "status": "playable",
-            "perf": "ok",
-            "device": "iPhone 16 Pro",
-            "platform": "iOS",
-            "osVersion": "iOS 18.5",
-            "gpuBackend": "MSL"
-          }
-        }
-      ]
-    },
     "4D5307D5": {
       "titleId": "4D5307D5",
       "issueNumber": 40,
@@ -10820,6 +10831,33 @@
           "meta": {
             "status": "nothing",
             "perf": "n/a",
+            "device": "iPhone 16 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 18.5",
+            "gpuBackend": "MSL"
+          }
+        }
+      ]
+    },
+    "425307F1": {
+      "titleId": "425307F1",
+      "issueNumber": 22,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/22",
+      "updatedAt": "2026-03-07",
+      "entries": [
+        {
+          "id": "issue-22",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/22",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-03",
+          "createdAtMs": 1772522930000,
+          "issueNumber": 22,
+          "excerpt": "Doom 3 boots perfectly through logos and menu with no visual distortion and perfect audio except for loud hiss at the beginning. When beginning campaign cutscene plays perfects but hangs after maybe 20 seconds or so.",
+          "images": [],
+          "meta": {
+            "status": "intro",
+            "perf": "great",
             "device": "iPhone 16 Pro",
             "platform": "iOS",
             "osVersion": "iOS 18.5",
