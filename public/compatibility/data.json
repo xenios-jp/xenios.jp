@@ -64908,6 +64908,26 @@
           "stage": "stable",
           "commitShort": "056d2f64d"
         }
+      },
+      {
+        "device": "iPhone 13 Pro Max",
+        "platform": "ios",
+        "osVersion": "iOS18.6.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "loads",
+        "perf": "poor",
+        "date": "2026-03-27",
+        "notes": "Plays the opening cinematic but with super glitched videos, a little slowed down - you can get to the menu after the cinematic if you don't press anything. But then if you press the option to go to the island / play it crashes. Stay strong fellow gooners 👊 will hopefully be fixed soon",
+        "screenshots": [],
+        "source": "github",
+        "build": {
+          "buildId": "ios-release-1.0.1-9288",
+          "channel": "release",
+          "official": true,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288"
+        }
       }
     ],
     "screenshots": [
@@ -64919,14 +64939,52 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "loads",
+        "perf": "poor",
+        "notes": "Plays the opening cinematic but with super glitched videos, a little slowed down - you can get to the menu after the cinematic if you don't press anything. But then if you press the option to go to the island / play it crashes. Stay strong fellow gooners 👊 will hopefully be fixed soon",
+        "updatedAt": "2026-03-27",
+        "date": "2026-03-27",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 13 Pro Max",
+          "platform": "ios",
+          "osVersion": "iOS18.6.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "loads",
+          "perf": "poor",
+          "date": "2026-03-27",
+          "notes": "Plays the opening cinematic but with super glitched videos, a little slowed down - you can get to the menu after the cinematic if you don't press anything. But then if you press the option to go to the island / play it crashes. Stay strong fellow gooners 👊 will hopefully be fixed soon",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-1.0.1-9288",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 13 Pro Max",
+          "platform": "ios",
+          "osVersion": "iOS18.6.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "loads",
+          "perf": "poor",
+          "date": "2026-03-27",
+          "notes": "Plays the opening cinematic but with super glitched videos, a little slowed down - you can get to the menu after the cinematic if you don't press anything. But then if you press the option to go to the island / play it crashes. Stay strong fellow gooners 👊 will hopefully be fixed soon",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-1.0.1-9288",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288"
+          }
+        }
       },
       "all": {
         "channel": "all",
@@ -64935,7 +64993,7 @@
         "notes": "Plays the opening cinematic with super glitched videos, a little slowed down - you can get to the menu after the cinematic if you don’t press anything. But then if you try to start playing after the menu screen it crashes.",
         "updatedAt": "2026-03-27",
         "date": "2026-03-27",
-        "reportCount": 1,
+        "reportCount": 2,
         "latestReport": {
           "device": "iPhone 13 Pro Max",
           "platform": "ios",

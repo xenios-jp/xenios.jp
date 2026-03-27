@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-27T07:45:13.798Z",
+  "generatedAt": "2026-03-27T07:58:22.557Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2324,6 +2324,18 @@
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/365",
       "updatedAt": "2026-03-27",
       "entries": [
+        {
+          "id": "issue-366",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/366",
+          "author": "xdefdefdef-droid",
+          "createdAt": "2026-03-27",
+          "createdAtMs": 1774598245000,
+          "issueNumber": 366,
+          "excerpt": "Plays the opening cinematic but with super glitched videos, a little slowed down - you can get to the menu after the cinematic if you don't press anything. But then if you press the option to go to the island / play it crashes. Stay strong fellow gooners 👊 will hopefully be fixed soon",
+          "images": [],
+          "meta": {}
+        },
         {
           "id": "issue-365",
           "type": "issue",
@@ -10808,33 +10820,6 @@
           "meta": {
             "status": "nothing",
             "perf": "n/a",
-            "device": "iPhone 16 Pro",
-            "platform": "iOS",
-            "osVersion": "iOS 18.5",
-            "gpuBackend": "MSL"
-          }
-        }
-      ]
-    },
-    "425307F1": {
-      "titleId": "425307F1",
-      "issueNumber": 22,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/22",
-      "updatedAt": "2026-03-07",
-      "entries": [
-        {
-          "id": "issue-22",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/22",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-03",
-          "createdAtMs": 1772522930000,
-          "issueNumber": 22,
-          "excerpt": "Doom 3 boots perfectly through logos and menu with no visual distortion and perfect audio except for loud hiss at the beginning. When beginning campaign cutscene plays perfects but hangs after maybe 20 seconds or so.",
-          "images": [],
-          "meta": {
-            "status": "intro",
-            "perf": "great",
             "device": "iPhone 16 Pro",
             "platform": "iOS",
             "osVersion": "iOS 18.5",
