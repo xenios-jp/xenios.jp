@@ -225239,10 +225239,18 @@
     "tags": [],
     "platforms": [],
     "lastReport": null,
-    "updatedAt": "",
+    "updatedAt": "2026-03-27",
+    "issueNumber": 368,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/368",
     "notes": "",
     "reports": [],
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/494707D4/1774632497790-1.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/494707D4/1774632497790-2.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/494707D4/1774632497790-3.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/494707D4/1774632497790-4.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/494707D4/1774632497790-5.jpg"
+    ],
     "summaries": {
       "release": {
         "channel": "release",

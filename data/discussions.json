@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-27T09:15:43.904Z",
+  "generatedAt": "2026-03-27T17:29:16.012Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2315,6 +2315,43 @@
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
           "images": [],
           "meta": {}
+        }
+      ]
+    },
+    "494707D4": {
+      "titleId": "494707D4",
+      "issueNumber": 368,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/368",
+      "updatedAt": "2026-03-27",
+      "entries": [
+        {
+          "id": "issue-368",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/368",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-27",
+          "createdAtMs": 1774632505000,
+          "issueNumber": 368,
+          "excerpt": "Some graphical artifacts occasionally while driving cutscenes works fine no graphical issues in menu’s and maps. Audio works fine very occasional clipping.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/494707D4/1774632497790-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/494707D4/1774632497790-2.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/494707D4/1774632497790-3.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/494707D4/1774632497790-4.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/494707D4/1774632497790-5.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
         }
       ]
     },
