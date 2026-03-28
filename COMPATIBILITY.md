@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **246 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **247 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **99** · 🔵 In-Game: **53** · 🟡 Intro: **21** · 🟠 Loads: **35** · 🔴 Doesn't Boot: **38**
+> 🟢 Playable: **99** · 🔵 In-Game: **53** · 🟡 Intro: **22** · 🟠 Loads: **35** · 🔴 Doesn't Boot: **38**
 >
-> 📱 iOS: **229** · 🖥️ macOS: **35**
+> 📱 iOS: **230** · 🖥️ macOS: **35**
 
 ## Legend
 
@@ -192,6 +192,7 @@
 | 🟡 | Remember Me | `4343082F` | 🖥️ macOS | Intro | 🚀 Great | Mac mini (M2) | 2026-03-15 |
 | 🟡 | Rise of the Tomb Raider | `53510823` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro Max | 2026-03-12 |
 | 🟡 | Tales of Vesperia | `4E4D07E9` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro | 2026-03-03 |
+| 🟡 | Test Drive Unlimited 2 | `49470804` | 📱 iOS | Intro | 🐢 Poor | iPhone 15 | 2026-03-28 |
 | 🟡 | Two Worlds | `535007D4` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro Max | 2026-03-09 |
 | 🟠 | AC/DC LIVE: Rock Band | `45410889` | 🖥️ macOS | Loads | 🚀 Great | MacBook Pro (M4) | 2026-03-23 |
 | 🟠 | Asura's Wrath | `43430817` | 📱 iOS | Loads | 🐢 Poor | iPhone 16 Pro Max | 2026-03-09 |
