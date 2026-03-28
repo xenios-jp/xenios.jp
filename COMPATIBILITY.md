@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **244 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **245 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **99** · 🔵 In-Game: **51** · 🟡 Intro: **21** · 🟠 Loads: **35** · 🔴 Doesn't Boot: **38**
+> 🟢 Playable: **100** · 🔵 In-Game: **51** · 🟡 Intro: **21** · 🟠 Loads: **35** · 🔴 Doesn't Boot: **38**
 >
-> 📱 iOS: **227** · 🖥️ macOS: **35**
+> 📱 iOS: **228** · 🖥️ macOS: **35**
 
 ## Legend
 
@@ -109,6 +109,7 @@
 | 🟢 | Star Wars: The Force Unleashed | `4C4107D2` | 📱 iOS | Playable | 🚀 Great | iPhone 15 Pro | 2026-03-10 |
 | 🟢 | Steins;Gate Hiyoku Renri no Darling | `465607E8` | 📱 iOS | Playable | 🚀 Great | iPhone 17 | 2026-03-02 |
 | 🟢 | STREET FIGHTER X TEKKEN | `4343080F` | 📱 iOS | Playable | 🐢 Poor | iPhone 16 Pro Max | 2026-03-11 |
+| 🟢 | Test Drive Unlimited | `494707D4` | 📱 iOS | Playable | 👌 OK | iPhone 17 Pro Max | 2026-03-27 |
 | 🟢 | The Elder Scrolls 4: Oblivion - Game of the Year Edition | `425307D1` | 📱 iOS | Playable | 👌 OK | iPhone 14 Plus | 2026-03-22 |
 | 🟢 | The Outfit | `545107D2` | 📱 iOS | Playable | 🐢 Poor | iPhone 15 Pro Max | 2026-03-13 |
 | 🟢 | The Simpsons Game | `45410809` | 📱 iOS | Playable | 🚀 Great | iPhone 15 Pro Max | 2026-03-21 |

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-27T17:29:16.012Z",
+  "generatedAt": "2026-03-28T02:25:50.664Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2315,6 +2315,141 @@
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
           "images": [],
           "meta": {}
+        }
+      ]
+    },
+    "545408A7": {
+      "titleId": "545408A7",
+      "issueNumber": 369,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/369",
+      "updatedAt": "2026-03-28",
+      "entries": [
+        {
+          "id": "issue-369",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/369",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-28",
+          "createdAtMs": 1774664674000,
+          "issueNumber": 369,
+          "excerpt": "The game runs poorly, graphical issues sometimes. Missions run alright but sometimes the npc freezes and you have to go back to the start and continue the mission. Sometimes because of the weather the game becomes nearly unplayable, but by changing the weather it fixes. \n\nOverall it’s really impressive that an iPhone 17 Pro can in fact run GTA V. Very cool!",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "poor",
+            "device": "iPhone 17 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 26.2",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
+        {
+          "id": "comment-4100315080",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/214#issuecomment-4100315080",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-20",
+          "createdAtMs": 1774032656000,
+          "issueNumber": 214,
+          "excerpt": "Audio artifacts when game is booting. After intro and the game goes into a black screen",
+          "images": [],
+          "meta": {
+            "status": "intro",
+            "perf": "poor",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
+        {
+          "id": "comment-4094455712",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/214#issuecomment-4094455712",
+          "author": "KilIswitch",
+          "createdAt": "2026-03-19",
+          "createdAtMs": 1773964645000,
+          "issueNumber": 214,
+          "excerpt": "> \n> Game loads into then black screens. I have extra ram entitlement, Jit, and i am using the custom script recommended by the developers of xenios. I am on a 13in 5G M4 iPad Pro 1TB 16gigs of ram. People saying they got it to run on iPhones but didn’t share how. Ridiculous on their part.\n> \n> _Submitted via XeniOS in-app reporter_\n\nIt loads in. Make sure ur in the discord there’s a whole tutorial for it and people willing to help not sure what ur talking about.",
+          "images": [],
+          "meta": {}
+        },
+        {
+          "id": "comment-4093476802",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/214#issuecomment-4093476802",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-19",
+          "createdAtMs": 1773956523000,
+          "issueNumber": 214,
+          "excerpt": "Game loads into then black screens. I have extra ram entitlement, Jit, and i am using the custom script recommended by the developers of xenios. I am on a 13in 5G M4 iPad Pro 1TB 16gigs of ram. People saying they got it to run on iPhones but didn’t share how. Ridiculous on their part.",
+          "images": [],
+          "meta": {
+            "status": "intro",
+            "perf": "poor",
+            "device": "iPad Pro 13-inch (M4)",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
+        {
+          "id": "comment-4093234634",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/214#issuecomment-4093234634",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-19",
+          "createdAtMs": 1773953689000,
+          "issueNumber": 214,
+          "excerpt": "The game loads but the when the rolling loading animation comes the screen goes black and XeniOS locks up. The audio artifacts, frame rate looks fine, no stutter, at least when its running.",
+          "images": [],
+          "meta": {
+            "status": "intro",
+            "perf": "ok",
+            "device": "iPhone 15",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
+        {
+          "id": "comment-4085887561",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/214#issuecomment-4085887561",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-18",
+          "createdAtMs": 1773871931000,
+          "issueNumber": 214,
+          "excerpt": "You need to fix lots of things before it works audio is bugged though.",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 17",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
         }
       ]
     },
@@ -7386,130 +7521,6 @@
             "buildNumber": "9280",
             "commitShort": "`2633e8177`"
           }
-        }
-      ]
-    },
-    "545408A7": {
-      "titleId": "545408A7",
-      "issueNumber": 214,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/214",
-      "updatedAt": "2026-03-21",
-      "entries": [
-        {
-          "id": "comment-4100315080",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/214#issuecomment-4100315080",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-20",
-          "createdAtMs": 1774032656000,
-          "issueNumber": 214,
-          "excerpt": "Audio artifacts when game is booting. After intro and the game goes into a black screen",
-          "images": [],
-          "meta": {
-            "status": "intro",
-            "perf": "poor",
-            "device": "iPhone 17 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "`056d2f64d`"
-          }
-        },
-        {
-          "id": "comment-4094455712",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/214#issuecomment-4094455712",
-          "author": "KilIswitch",
-          "createdAt": "2026-03-19",
-          "createdAtMs": 1773964645000,
-          "issueNumber": 214,
-          "excerpt": "> \n> Game loads into then black screens. I have extra ram entitlement, Jit, and i am using the custom script recommended by the developers of xenios. I am on a 13in 5G M4 iPad Pro 1TB 16gigs of ram. People saying they got it to run on iPhones but didn’t share how. Ridiculous on their part.\n> \n> _Submitted via XeniOS in-app reporter_\n\nIt loads in. Make sure ur in the discord there’s a whole tutorial for it and people willing to help not sure what ur talking about.",
-          "images": [],
-          "meta": {}
-        },
-        {
-          "id": "comment-4093476802",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/214#issuecomment-4093476802",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-19",
-          "createdAtMs": 1773956523000,
-          "issueNumber": 214,
-          "excerpt": "Game loads into then black screens. I have extra ram entitlement, Jit, and i am using the custom script recommended by the developers of xenios. I am on a 13in 5G M4 iPad Pro 1TB 16gigs of ram. People saying they got it to run on iPhones but didn’t share how. Ridiculous on their part.",
-          "images": [],
-          "meta": {
-            "status": "intro",
-            "perf": "poor",
-            "device": "iPad Pro 13-inch (M4)",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "`056d2f64d`"
-          }
-        },
-        {
-          "id": "comment-4093234634",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/214#issuecomment-4093234634",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-19",
-          "createdAtMs": 1773953689000,
-          "issueNumber": 214,
-          "excerpt": "The game loads but the when the rolling loading animation comes the screen goes black and XeniOS locks up. The audio artifacts, frame rate looks fine, no stutter, at least when its running.",
-          "images": [],
-          "meta": {
-            "status": "intro",
-            "perf": "ok",
-            "device": "iPhone 15",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "`056d2f64d`"
-          }
-        },
-        {
-          "id": "comment-4085887561",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/214#issuecomment-4085887561",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-18",
-          "createdAtMs": 1773871931000,
-          "issueNumber": 214,
-          "excerpt": "You need to fix lots of things before it works audio is bugged though.",
-          "images": [],
-          "meta": {
-            "status": "playable",
-            "perf": "ok",
-            "device": "iPhone 17",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "`056d2f64d`"
-          }
-        },
-        {
-          "id": "comment-4064707743",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/214#issuecomment-4064707743",
-          "author": "m7wshd5892-commits",
-          "createdAt": "2026-03-16",
-          "createdAtMs": 1773629162000,
-          "issueNumber": 214,
-          "excerpt": "Hi, how did you open it? I’m stuck on the loading screen.",
-          "images": [],
-          "meta": {}
         }
       ]
     },
