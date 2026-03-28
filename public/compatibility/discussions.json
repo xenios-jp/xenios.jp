@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-28T02:40:02.386Z",
+  "generatedAt": "2026-03-28T04:14:04.636Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2315,6 +2315,41 @@
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
           "images": [],
           "meta": {}
+        }
+      ]
+    },
+    "534507F2": {
+      "titleId": "534507F2",
+      "issueNumber": 370,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/370",
+      "updatedAt": "2026-03-28",
+      "entries": [
+        {
+          "id": "issue-370",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/370",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-28",
+          "createdAtMs": 1774671191000,
+          "issueNumber": 370,
+          "excerpt": "Audio stutters periodically with rgb graphical glitching in menu/cutscenes. Game loads first mission and freezes after 20 seconds of movement.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/534507F2/1774671187081-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/534507F2/1774671187081-2.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/534507F2/1774671187081-3.jpg"
+          ],
+          "meta": {
+            "status": "ingame",
+            "perf": "poor",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.2",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
         }
       ]
     },

@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **245 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **246 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **100** · 🔵 In-Game: **51** · 🟡 Intro: **21** · 🟠 Loads: **35** · 🔴 Doesn't Boot: **38**
+> 🟢 Playable: **100** · 🔵 In-Game: **52** · 🟡 Intro: **21** · 🟠 Loads: **35** · 🔴 Doesn't Boot: **38**
 >
-> 📱 iOS: **228** · 🖥️ macOS: **35**
+> 📱 iOS: **229** · 🖥️ macOS: **35**
 
 ## Legend
 
@@ -146,6 +146,7 @@
 | 🔵 | Guitar Hero: Warriors of Rock | `41560883` | 📱 iOS | In-Game | 🐢 Poor | iPhone 13 mini | 2026-03-22 |
 | 🔵 | Halo 3: ODST | `4D530877` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 | 2026-03-03 |
 | 🔵 | Halo: Reach | `4D53085B` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 | 2026-03-06 |
+| 🔵 | Iron Man | `534507F2` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro Max | 2026-03-28 |
 | 🔵 | Lost Odyssey | `4D5307FA` | 📱 iOS, 🖥️ macOS | In-Game | 🚀 Great | Mac mini (M2) | 2026-03-11 |
 | 🔵 | Mercenaries 2: World in Flames | `45410828` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro | 2026-03-09 |
 | 🔵 | Metro Last Light | `4B4D07F5` | 🖥️ macOS | In-Game | 👌 OK | MacBook Pro M4 Pro/Max | 2026-02-28 |
