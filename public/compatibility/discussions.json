@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-28T05:38:41.444Z",
+  "generatedAt": "2026-03-28T12:55:50.489Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1682,8 +1682,31 @@
       "titleId": "53450848",
       "issueNumber": 271,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/271",
-      "updatedAt": "2026-03-15",
+      "updatedAt": "2026-03-28",
       "entries": [
+        {
+          "id": "comment-4148026721",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/271#issuecomment-4148026721",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-28",
+          "createdAtMs": 1774702311000,
+          "issueNumber": 271,
+          "excerpt": "Sound isn’t bad FPS is great",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 16",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
         {
           "id": "issue-271",
           "type": "issue",
@@ -2506,6 +2529,29 @@
       "updatedAt": "2026-03-28",
       "entries": [
         {
+          "id": "comment-4148028891",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/369#issuecomment-4148028891",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-28",
+          "createdAtMs": 1774702403000,
+          "issueNumber": 369,
+          "excerpt": "No sound fps is good for a game like gta 5",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "ok",
+            "device": "iPhone 16",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
+        {
           "id": "comment-4146434820",
           "type": "comment",
           "url": "https://github.com/xenios-jp/game-compatibility/issues/369#issuecomment-4146434820",
@@ -2605,29 +2651,6 @@
             "status": "intro",
             "perf": "poor",
             "device": "iPad Pro 13-inch (M4)",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "`056d2f64d`"
-          }
-        },
-        {
-          "id": "comment-4093234634",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/214#issuecomment-4093234634",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-19",
-          "createdAtMs": 1773953689000,
-          "issueNumber": 214,
-          "excerpt": "The game loads but the when the rolling loading animation comes the screen goes black and XeniOS locks up. The audio artifacts, frame rate looks fine, no stutter, at least when its running.",
-          "images": [],
-          "meta": {
-            "status": "intro",
-            "perf": "ok",
-            "device": "iPhone 15",
             "platform": "iOS",
             "osVersion": "iOS 26.3.1",
             "gpuBackend": "MSL",
@@ -5410,8 +5433,31 @@
       "titleId": "545407F2",
       "issueNumber": 266,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/266",
-      "updatedAt": "2026-03-19",
+      "updatedAt": "2026-03-28",
       "entries": [
+        {
+          "id": "comment-4148027867",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/266#issuecomment-4148027867",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-28",
+          "createdAtMs": 1774702357000,
+          "issueNumber": 266,
+          "excerpt": "No sound fps stuck at 7",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "poor",
+            "device": "iPhone 16",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
         {
           "id": "comment-4087974050",
           "type": "comment",
@@ -5524,29 +5570,6 @@
             "device": "iPhone 17 Pro Max",
             "platform": "iOS",
             "osVersion": "iOS 26.3.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "`056d2f64d`"
-          }
-        },
-        {
-          "id": "comment-4062633482",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/266#issuecomment-4062633482",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-15",
-          "createdAtMs": 1773566335000,
-          "issueNumber": 266,
-          "excerpt": "Playable but some stutters and low fps",
-          "images": [],
-          "meta": {
-            "status": "playable",
-            "perf": "ok",
-            "device": "iPad Pro 11 inch 5th Gen",
-            "platform": "iOS",
-            "osVersion": "iOS 26.2",
             "gpuBackend": "MSL",
             "buildChannel": "self-built",
             "appVersion": "1.0.1",

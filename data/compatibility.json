@@ -92948,14 +92948,14 @@
       "4D538A67",
       "4D538A68"
     ],
-    "status": "playable",
+    "status": "ingame",
     "perf": "poor",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 17 Pro Max",
+      "device": "iPad Air 11-inch (M3)",
       "platform": "ios",
       "osVersion": "26.3.1",
       "arch": "arm64",
@@ -92964,10 +92964,10 @@
     "updatedAt": "2026-03-28",
     "issueNumber": 125,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/125",
-    "notes": "I'd consider it to be \"playable\" but it gives you a bad experience. hovers around 10-15 fps with missing foliage in the background and VERY loud audio.",
+    "notes": "In-game but with severe graphical and audio issues, way too unstable to be at all playable but somehow didn’t crash.",
     "reports": [
       {
-        "device": "iPad Air 11-inch 7th Gen",
+        "device": "iPad Air 11-inch (M3)",
         "platform": "ios",
         "osVersion": "26.3.1",
         "arch": "arm64",
@@ -92976,70 +92976,6 @@
         "perf": "poor",
         "date": "2026-03-28",
         "notes": "In-game but with severe graphical and audio issues, way too unstable to be at all playable but somehow didn’t crash.",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d"
-        }
-      },
-      {
-        "device": "iPad Air 5",
-        "platform": "ios",
-        "osVersion": "26.0.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-03-20",
-        "notes": "Please dev I know you did biggest thing yet but you need to a little more thanks if you see this",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
-        }
-      },
-      {
-        "device": "iPhone 17 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "poor",
-        "date": "2026-03-14",
-        "notes": "I'd consider it to be \"playable\" but it gives you a bad experience. hovers around 10-15 fps with missing foliage in the background and VERY loud audio.",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
-        }
-      },
-      {
-        "device": "iPhone 14 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "perf": "poor",
-        "date": "2026-03-14",
-        "notes": "FPS stayed around 10",
         "screenshots": [],
         "source": "app",
         "build": {
@@ -93091,14 +93027,14 @@
       },
       "all": {
         "channel": "all",
-        "status": "playable",
+        "status": "ingame",
         "perf": "poor",
-        "notes": "I'd consider it to be \"playable\" but it gives you a bad experience. hovers around 10-15 fps with missing foliage in the background and VERY loud audio.",
+        "notes": "In-game but with severe graphical and audio issues, way too unstable to be at all playable but somehow didn’t crash.",
         "updatedAt": "2026-03-28",
         "date": "2026-03-28",
-        "reportCount": 5,
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPad Air 11-inch 7th Gen",
+          "device": "iPad Air 11-inch (M3)",
           "platform": "ios",
           "osVersion": "26.3.1",
           "arch": "arm64",
@@ -93115,20 +93051,19 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
-          "device": "iPhone 17 Pro Max",
+          "device": "iPad Air 11-inch (M3)",
           "platform": "ios",
           "osVersion": "26.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "playable",
+          "status": "ingame",
           "perf": "poor",
-          "date": "2026-03-14",
-          "notes": "I'd consider it to be \"playable\" but it gives you a bad experience. hovers around 10-15 fps with missing foliage in the background and VERY loud audio.",
+          "date": "2026-03-28",
+          "notes": "In-game but with severe graphical and audio issues, way too unstable to be at all playable but somehow didn’t crash.",
           "screenshots": [],
           "source": "app",
           "build": {
@@ -102342,11 +102277,32 @@
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-19",
+    "updatedAt": "2026-03-28",
     "issueNumber": 41,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/41",
     "notes": "Playable with decent frame rate. Sound has issues",
     "reports": [
+      {
+        "device": "iPhone 16",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "poor",
+        "date": "2026-03-28",
+        "notes": "No sound fps stuck at 7",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "commitShort": "056d2f64d"
+        }
+      },
       {
         "device": "iPhone 13",
         "platform": "ios",
@@ -102683,19 +102639,19 @@
         "status": "playable",
         "perf": "great",
         "notes": "Playable with decent frame rate. Sound has issues",
-        "updatedAt": "2026-03-19",
-        "date": "2026-03-19",
-        "reportCount": 13,
+        "updatedAt": "2026-03-28",
+        "date": "2026-03-28",
+        "reportCount": 14,
         "latestReport": {
-          "device": "iPhone 13",
+          "device": "iPhone 16",
           "platform": "ios",
-          "osVersion": "18.5",
+          "osVersion": "26.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "intro",
+          "status": "ingame",
           "perf": "poor",
-          "date": "2026-03-19",
-          "notes": "Loads first mission endlessly",
+          "date": "2026-03-28",
+          "notes": "No sound fps stuck at 7",
           "screenshots": [],
           "source": "app",
           "build": {
@@ -102799,6 +102755,27 @@
         }
       },
       {
+        "device": "iPhone 16",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "ok",
+        "date": "2026-03-28",
+        "notes": "No sound fps is good for a game like gta 5",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "commitShort": "056d2f64d"
+        }
+      },
+      {
         "device": "iPhone 17",
         "platform": "ios",
         "osVersion": "26.3.1",
@@ -102881,7 +102858,7 @@
         "notes": "The game runs poorly, graphical issues sometimes. Missions run alright but sometimes the npc freezes and you have to go back to the start and continue the mission. Sometimes because of the weather the game becomes nearly unplayable, but by changing the weather it fixes. \n\nOverall it’s really impressive that an iPhone 17 Pro can in fact run GTA V. Very cool!",
         "updatedAt": "2026-03-28",
         "date": "2026-03-28",
-        "reportCount": 4,
+        "reportCount": 5,
         "latestReport": {
           "device": "iPhone 17 Pro",
           "platform": "ios",
@@ -119876,7 +119853,6 @@
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
           "commitShort": "056d2f64d"
         }
       }
@@ -119924,7 +119900,6 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         },
@@ -119946,7 +119921,6 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         }
@@ -208472,23 +208446,44 @@
       "53458861"
     ],
     "status": "playable",
-    "perf": "poor",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 17 Pro Max",
+      "device": "iPhone 16",
       "platform": "ios",
       "osVersion": "26.3.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-15",
+    "updatedAt": "2026-03-28",
     "issueNumber": 12,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/12",
-    "notes": "Performance drops, low fps, runs well certain areas.",
+    "notes": "Sound isn’t bad FPS is great",
     "reports": [
+      {
+        "device": "iPhone 16",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-03-28",
+        "notes": "Sound isn’t bad FPS is great",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "commitShort": "056d2f64d"
+        }
+      },
       {
         "device": "iPhone 17 Pro Max",
         "platform": "ios",
@@ -208616,21 +208611,21 @@
       "all": {
         "channel": "all",
         "status": "playable",
-        "perf": "poor",
-        "notes": "Performance drops, low fps, runs well certain areas.",
-        "updatedAt": "2026-03-15",
-        "date": "2026-03-15",
-        "reportCount": 4,
+        "perf": "great",
+        "notes": "Sound isn’t bad FPS is great",
+        "updatedAt": "2026-03-28",
+        "date": "2026-03-28",
+        "reportCount": 5,
         "latestReport": {
-          "device": "iPhone 17 Pro Max",
+          "device": "iPhone 16",
           "platform": "ios",
           "osVersion": "26.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
-          "perf": "poor",
-          "date": "2026-03-15",
-          "notes": "Performance drops, low fps, runs well certain areas.",
+          "perf": "great",
+          "date": "2026-03-28",
+          "notes": "Sound isn’t bad FPS is great",
           "screenshots": [],
           "source": "app",
           "build": {
@@ -208643,15 +208638,15 @@
           }
         },
         "bestReport": {
-          "device": "iPhone 17 Pro Max",
+          "device": "iPhone 16",
           "platform": "ios",
           "osVersion": "26.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
-          "perf": "poor",
-          "date": "2026-03-15",
-          "notes": "Performance drops, low fps, runs well certain areas.",
+          "perf": "great",
+          "date": "2026-03-28",
+          "notes": "Sound isn’t bad FPS is great",
           "screenshots": [],
           "source": "app",
           "build": {

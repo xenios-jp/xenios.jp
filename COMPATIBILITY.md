@@ -2,7 +2,7 @@
 
 > **246 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **100** · 🔵 In-Game: **52** · 🟡 Intro: **21** · 🟠 Loads: **35** · 🔴 Doesn't Boot: **38**
+> 🟢 Playable: **99** · 🔵 In-Game: **53** · 🟡 Intro: **21** · 🟠 Loads: **35** · 🔴 Doesn't Boot: **38**
 >
 > 📱 iOS: **229** · 🖥️ macOS: **35**
 
@@ -51,12 +51,11 @@
 | 🟢 | Far Cry 2 | `55530810` | 📱 iOS | Playable | 🐢 Poor | iPhone 16 | 2026-03-10 |
 | 🟢 | Far Cry 3 | `5553088C` | 📱 iOS | Playable | 🐢 Poor | iPhone 16 | 2026-03-14 |
 | 🟢 | Final Fantasy XIII | `535107E4` | 📱 iOS | Playable | 👌 OK | iPhone 17 | 2026-03-18 |
-| 🟢 | Forza Horizon | `4D5309C9` | 📱 iOS | Playable | 🐢 Poor | iPhone 17 Pro Max | 2026-03-28 |
 | 🟢 | Forza Motorsport 2 | `4D5307EA` | 📱 iOS | Playable | 🚀 Great | iPad Air 11-inch (M3) | 2026-03-20 |
 | 🟢 | Forza Motorsport 4 | `4D530910` | 📱 iOS | Playable | 👌 OK | iPhone 17 Pro Max | 2026-03-17 |
 | 🟢 | Gears of War: Judgment | `4D530A26` | 📱 iOS | Playable | 🐢 Poor | iPhone 17 Pro Max | 2026-03-17 |
 | 🟢 | Geometry Wars Evolved | `584107ED` | 📱 iOS | Playable | 🚀 Great | iPhone 13 | 2026-03-10 |
-| 🟢 | Grand Theft Auto IV | `545407F2` | 📱 iOS, 🖥️ macOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-19 |
+| 🟢 | Grand Theft Auto IV | `545407F2` | 📱 iOS, 🖥️ macOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-28 |
 | 🟢 | Grand Theft Auto V | `545408A7` | 📱 iOS | Playable | 🐢 Poor | iPhone 17 Pro | 2026-03-28 |
 | 🟢 | Guacamelee Super Turbo Championship Edition | `58411446` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-03 |
 | 🟢 | Guitar Hero Aerosmith | `41560819` | 📱 iOS, 🖥️ macOS | Playable | 👌 OK | iPhone 13 mini | 2026-03-22 |
@@ -102,7 +101,7 @@
 | 🟢 | Serious Sam HD: The First Encounter | `584109DA` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro | 2026-03-24 |
 | 🟢 | Skate 2 | `4541087F` | 📱 iOS | Playable | 👌 OK | iPhone 16e | 2026-03-17 |
 | 🟢 | Skate 3 | `454108E6` | 📱 iOS | Playable | 🐢 Poor | iPad Pro 13-inch (M4) | 2026-03-19 |
-| 🟢 | Sonic Generations | `53450848` | 📱 iOS | Playable | 🐢 Poor | iPhone 17 Pro Max | 2026-03-15 |
+| 🟢 | Sonic Generations | `53450848` | 📱 iOS | Playable | 🚀 Great | iPhone 16 | 2026-03-28 |
 | 🟢 | Sonic the Hedgehog | `534507D6` | 📱 iOS | Playable | 🐢 Poor | iPhone 16 Pro | 2026-03-18 |
 | 🟢 | Sonic Unleashed | `53450812` | 📱 iOS | Playable | 👌 OK | iPad Pro 13-inch (M4) | 2026-03-24 |
 | 🟢 | SpongeBob HeroPants | `41560919` | 📱 iOS | Playable | 👌 OK | iPad Mini (A17 Pro) | 2026-03-08 |
@@ -134,6 +133,7 @@
 | 🔵 | Fallout 3 | `425307D5` | 📱 iOS | In-Game | 👌 OK | iPhone 13 | 2026-03-12 |
 | 🔵 | FIFA 16 | `454109EE` | 📱 iOS | In-Game | 👌 OK | iPhone 14 Pro Max | 2026-03-08 |
 | 🔵 | Fight Night Round 3 | `454107DE` | 📱 iOS | In-Game | 🐢 Poor | iPhone 16e | 2026-03-10 |
+| 🔵 | Forza Horizon | `4D5309C9` | 📱 iOS | In-Game | 🐢 Poor | iPad Air 11-inch (M3) | 2026-03-28 |
 | 🔵 | Frontlines: Fuel of War | `545107D8` | 🖥️ macOS | In-Game | 🐢 Poor | Macbook Neo A18 Pro | 2026-03-19 |
 | 🔵 | Gears of War | `4D5307D5` | 🖥️ macOS, 📱 iOS | In-Game | 👌 OK | iPhone 16 Pro | 2026-03-11 |
 | 🔵 | Gears of War 3 | `4D5308AB` | 🖥️ macOS | In-Game | 👌 OK | M2 Mac mini | 2026-03-08 |
