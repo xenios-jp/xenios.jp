@@ -92961,11 +92961,33 @@
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-20",
+    "updatedAt": "2026-03-28",
     "issueNumber": 125,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/125",
     "notes": "I'd consider it to be \"playable\" but it gives you a bad experience. hovers around 10-15 fps with missing foliage in the background and VERY loud audio.",
     "reports": [
+      {
+        "device": "iPad Air 11-inch 7th Gen",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "poor",
+        "date": "2026-03-28",
+        "notes": "In-game but with severe graphical and audio issues, way too unstable to be at all playable but somehow didn’t crash.",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "stage": "stable",
+          "commitShort": "056d2f64d"
+        }
+      },
       {
         "device": "iPad Air 5",
         "platform": "ios",
@@ -93072,19 +93094,19 @@
         "status": "playable",
         "perf": "poor",
         "notes": "I'd consider it to be \"playable\" but it gives you a bad experience. hovers around 10-15 fps with missing foliage in the background and VERY loud audio.",
-        "updatedAt": "2026-03-20",
-        "date": "2026-03-20",
-        "reportCount": 4,
+        "updatedAt": "2026-03-28",
+        "date": "2026-03-28",
+        "reportCount": 5,
         "latestReport": {
-          "device": "iPad Air 5",
+          "device": "iPad Air 11-inch 7th Gen",
           "platform": "ios",
-          "osVersion": "26.0.1",
+          "osVersion": "26.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-20",
-          "notes": "Please dev I know you did biggest thing yet but you need to a little more thanks if you see this",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-03-28",
+          "notes": "In-game but with severe graphical and audio issues, way too unstable to be at all playable but somehow didn’t crash.",
           "screenshots": [],
           "source": "app",
           "build": {
@@ -93093,6 +93115,7 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
+            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         },
