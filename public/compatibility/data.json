@@ -102761,23 +102761,67 @@
       "545408A7"
     ],
     "status": "playable",
-    "perf": "ok",
+    "perf": "poor",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 17",
+      "device": "iPhone 17 Pro",
       "platform": "ios",
-      "osVersion": "26.3.1",
+      "osVersion": "26.2",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-20",
+    "updatedAt": "2026-03-28",
     "issueNumber": 62,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/62",
-    "notes": "You need to fix lots of things before it works audio is bugged though.",
+    "notes": "The game tuns mid, but here are some screenshots",
     "reports": [
+      {
+        "device": "iPhone 17 Pro",
+        "platform": "ios",
+        "osVersion": "26.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "poor",
+        "date": "2026-03-28",
+        "notes": "The game tuns mid, but here are some screenshots",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "stage": "stable",
+          "commitShort": "056d2f64d"
+        }
+      },
+      {
+        "device": "iPhone 17 Pro",
+        "platform": "ios",
+        "osVersion": "26.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "poor",
+        "date": "2026-03-28",
+        "notes": "The game runs poorly, graphical issues sometimes. Missions run alright but sometimes the npc freezes and you have to go back to the start and continue the mission. Sometimes because of the weather the game becomes nearly unplayable, but by changing the weather it fixes. \n\nOverall it’s really impressive that an iPhone 17 Pro can in fact run GTA V. Very cool!",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "stage": "stable",
+          "commitShort": "056d2f64d"
+        }
+      },
       {
         "device": "iPhone 17 Pro Max",
         "platform": "ios",
@@ -102953,6 +102997,10 @@
       }
     ],
     "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408A7/1774665519540-1.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408A7/1774665519540-2.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408A7/1774665519540-3.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408A7/1774665519540-4.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408A7/1774090937401-1.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408A7/1774090937401-2.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408A7/1774090937401-3.jpg",
@@ -102979,21 +103027,21 @@
       "all": {
         "channel": "all",
         "status": "playable",
-        "perf": "ok",
-        "notes": "You need to fix lots of things before it works audio is bugged though.",
-        "updatedAt": "2026-03-20",
-        "date": "2026-03-20",
-        "reportCount": 8,
+        "perf": "poor",
+        "notes": "The game tuns mid, but here are some screenshots",
+        "updatedAt": "2026-03-28",
+        "date": "2026-03-28",
+        "reportCount": 10,
         "latestReport": {
-          "device": "iPhone 17 Pro Max",
+          "device": "iPhone 17 Pro",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "26.2",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "intro",
+          "status": "playable",
           "perf": "poor",
-          "date": "2026-03-20",
-          "notes": "Audio artifacts when game is booting. After intro and the game goes into a black screen",
+          "date": "2026-03-28",
+          "notes": "The game tuns mid, but here are some screenshots",
           "screenshots": [],
           "source": "app",
           "build": {
@@ -103002,19 +103050,20 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
+            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
-          "device": "iPhone 17",
+          "device": "iPhone 17 Pro",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "26.2",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
-          "perf": "ok",
-          "date": "2026-03-18",
-          "notes": "You need to fix lots of things before it works audio is bugged though.",
+          "perf": "poor",
+          "date": "2026-03-28",
+          "notes": "The game tuns mid, but here are some screenshots",
           "screenshots": [],
           "source": "app",
           "build": {
@@ -103023,6 +103072,7 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
+            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         }

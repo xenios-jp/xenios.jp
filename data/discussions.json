@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-28T02:25:50.664Z",
+  "generatedAt": "2026-03-28T02:40:02.386Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2325,6 +2325,34 @@
       "updatedAt": "2026-03-28",
       "entries": [
         {
+          "id": "comment-4146434820",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/369#issuecomment-4146434820",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-28",
+          "createdAtMs": 1774665525000,
+          "issueNumber": 369,
+          "excerpt": "The game tuns mid, but here are some screenshots",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408A7/1774665519540-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408A7/1774665519540-2.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408A7/1774665519540-3.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408A7/1774665519540-4.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "poor",
+            "device": "iPhone 17 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 26.2",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
+        {
           "id": "issue-369",
           "type": "issue",
           "url": "https://github.com/xenios-jp/game-compatibility/issues/369",
@@ -2419,29 +2447,6 @@
             "status": "intro",
             "perf": "ok",
             "device": "iPhone 15",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "`056d2f64d`"
-          }
-        },
-        {
-          "id": "comment-4085887561",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/214#issuecomment-4085887561",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-18",
-          "createdAtMs": 1773871931000,
-          "issueNumber": 214,
-          "excerpt": "You need to fix lots of things before it works audio is bugged though.",
-          "images": [],
-          "meta": {
-            "status": "playable",
-            "perf": "ok",
-            "device": "iPhone 17",
             "platform": "iOS",
             "osVersion": "iOS 26.3.1",
             "gpuBackend": "MSL",
