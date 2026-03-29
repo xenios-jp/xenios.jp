@@ -83354,7 +83354,6 @@
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
           "commitShort": "056d2f64d"
         }
       }
@@ -83404,7 +83403,6 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         },
@@ -83426,7 +83424,6 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         }
@@ -157467,7 +157464,6 @@
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
           "commitShort": "056d2f64d"
         }
       }
@@ -157511,7 +157507,6 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         },
@@ -157533,7 +157528,6 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         }
@@ -178124,43 +178118,43 @@
       "4B4E0861",
       "4B4E8863"
     ],
-    "status": "ingame",
-    "perf": "ok",
+    "status": "playable",
+    "perf": "poor",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 14",
+      "device": "iPhone 16e",
       "platform": "ios",
-      "osVersion": "26.3",
+      "osVersion": "26.3.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-09",
-    "issueNumber": 147,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/147",
-    "notes": "Glitchis",
+    "updatedAt": "2026-03-29",
+    "issueNumber": 377,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/377",
+    "notes": "Graphical glitches \nGreen dotted pixelated graphical issues\nLoading lag \nLow FPS\nBut Playable",
     "reports": [
       {
-        "device": "iPhone 14",
+        "device": "iPhone 16e",
         "platform": "ios",
-        "osVersion": "26.3",
+        "osVersion": "26.3.1",
         "arch": "arm64",
         "gpuBackend": "msl",
-        "status": "ingame",
-        "perf": "ok",
-        "date": "2026-03-09",
-        "notes": "Glitchis",
+        "status": "playable",
+        "perf": "poor",
+        "date": "2026-03-29",
+        "notes": "Graphical glitches \nGreen dotted pixelated graphical issues\nLoading lag \nLow FPS\nBut Playable",
         "screenshots": [],
         "source": "app",
         "build": {
-          "buildId": "ios-self-built-1.0.0-9280",
+          "buildId": "ios-self-built-1.0.1-9288",
           "channel": "self-built",
           "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "commitShort": "2633e8177"
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "commitShort": "056d2f64d"
         }
       }
     ],
@@ -178183,52 +178177,52 @@
       },
       "all": {
         "channel": "all",
-        "status": "ingame",
-        "perf": "ok",
-        "notes": "Glitchis",
-        "updatedAt": "2026-03-09",
-        "date": "2026-03-09",
+        "status": "playable",
+        "perf": "poor",
+        "notes": "Graphical glitches \nGreen dotted pixelated graphical issues\nLoading lag \nLow FPS\nBut Playable",
+        "updatedAt": "2026-03-29",
+        "date": "2026-03-29",
         "reportCount": 1,
         "latestReport": {
-          "device": "iPhone 14",
+          "device": "iPhone 16e",
           "platform": "ios",
-          "osVersion": "26.3",
+          "osVersion": "26.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "ok",
-          "date": "2026-03-09",
-          "notes": "Glitchis",
+          "status": "playable",
+          "perf": "poor",
+          "date": "2026-03-29",
+          "notes": "Graphical glitches \nGreen dotted pixelated graphical issues\nLoading lag \nLow FPS\nBut Playable",
           "screenshots": [],
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633e8177"
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
-          "device": "iPhone 14",
+          "device": "iPhone 16e",
           "platform": "ios",
-          "osVersion": "26.3",
+          "osVersion": "26.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "ok",
-          "date": "2026-03-09",
-          "notes": "Glitchis",
+          "status": "playable",
+          "perf": "poor",
+          "date": "2026-03-29",
+          "notes": "Graphical glitches \nGreen dotted pixelated graphical issues\nLoading lag \nLow FPS\nBut Playable",
           "screenshots": [],
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633e8177"
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
           }
         }
       }
@@ -187693,7 +187687,7 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPad Air 13-inch 7th Gen",
+      "device": "iPad Air 13-inch (M3)",
       "platform": "ios",
       "osVersion": "26.3.1",
       "arch": "arm64",
@@ -187705,7 +187699,7 @@
     "notes": "Well, it is such a shame that RE5 isn’t booting up, well it is a good game and I hope you guys can make it more compatible I support you guys",
     "reports": [
       {
-        "device": "iPad Air 13-inch 7th Gen",
+        "device": "iPad Air 13-inch (M3)",
         "platform": "ios",
         "osVersion": "26.3.1",
         "arch": "arm64",
@@ -187722,7 +187716,6 @@
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
           "commitShort": "056d2f64d"
         }
       },
@@ -187792,7 +187785,7 @@
         "date": "2026-03-29",
         "reportCount": 2,
         "latestReport": {
-          "device": "iPad Air 13-inch 7th Gen",
+          "device": "iPad Air 13-inch (M3)",
           "platform": "ios",
           "osVersion": "26.3.1",
           "arch": "arm64",
@@ -187809,12 +187802,11 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
-          "device": "iPad Air 13-inch 7th Gen",
+          "device": "iPad Air 13-inch (M3)",
           "platform": "ios",
           "osVersion": "26.3.1",
           "arch": "arm64",
@@ -187831,7 +187823,6 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         }
@@ -213419,7 +213410,6 @@
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
           "commitShort": "056d2f64d"
         }
       }
@@ -213463,7 +213453,6 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         },
@@ -213485,7 +213474,6 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         }
@@ -225632,7 +225620,6 @@
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
           "commitShort": "056d2f64d"
         }
       }
@@ -225676,7 +225663,6 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         },
@@ -225698,7 +225684,6 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         }
@@ -255420,14 +255405,67 @@
     "titleIds": [
       "545108B4"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "intro",
+    "perf": "poor",
     "tags": [],
-    "platforms": [],
-    "lastReport": null,
-    "updatedAt": "",
-    "notes": "",
-    "reports": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 15 Pro",
+      "platform": "ios",
+      "osVersion": "26.3.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-29",
+    "issueNumber": 378,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/378",
+    "notes": "J",
+    "reports": [
+      {
+        "device": "iPhone 15 Pro",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "intro",
+        "perf": "poor",
+        "date": "2026-03-29",
+        "notes": "J",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "commitShort": "056d2f64d"
+        }
+      },
+      {
+        "device": "iPhone 15 Pro",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "intro",
+        "perf": "poor",
+        "date": "2026-03-29",
+        "notes": "Just spins logo",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "commitShort": "056d2f64d"
+        }
+      }
+    ],
     "screenshots": [],
     "summaries": {
       "release": {
@@ -255443,14 +255481,54 @@
       },
       "all": {
         "channel": "all",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "intro",
+        "perf": "poor",
+        "notes": "J",
+        "updatedAt": "2026-03-29",
+        "date": "2026-03-29",
+        "reportCount": 2,
+        "latestReport": {
+          "device": "iPhone 15 Pro",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "intro",
+          "perf": "poor",
+          "date": "2026-03-29",
+          "notes": "J",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 15 Pro",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "intro",
+          "perf": "poor",
+          "date": "2026-03-29",
+          "notes": "J",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
+          }
+        }
       }
     }
   },

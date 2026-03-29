@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **250 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **251 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **99** · 🔵 In-Game: **54** · 🟡 Intro: **22** · 🟠 Loads: **35** · 🔴 Doesn't Boot: **40**
+> 🟢 Playable: **100** · 🔵 In-Game: **53** · 🟡 Intro: **23** · 🟠 Loads: **35** · 🔴 Doesn't Boot: **40**
 >
-> 📱 iOS: **233** · 🖥️ macOS: **35**
+> 📱 iOS: **234** · 🖥️ macOS: **35**
 
 ## Legend
 
@@ -89,6 +89,7 @@
 | 🟢 | Plants vs. Zombies | `584109FF` | 📱 iOS | Playable | 👌 OK | iPhone 14 Pro Max | 2026-03-25 |
 | 🟢 | Portal 2 | `45410912` | 📱 iOS | Playable | 🐢 Poor | iPhone 17 Pro Max | 2026-03-24 |
 | 🟢 | Pro Evolution Soccer 2012 / PES 2012 | `4B4E0837` | 📱 iOS | Playable | 👌 OK | iPhone 14 Pro Max | 2026-03-15 |
+| 🟢 | Pro Evolution Soccer 2016 / PES 2016 | `4B4E0861` | 📱 iOS | Playable | 🐢 Poor | iPhone 16e | 2026-03-29 |
 | 🟢 | PROTOTYPE | `4156084E` | 📱 iOS | Playable | 🐢 Poor | iPhone 16 Pro Max | 2026-03-16 |
 | 🟢 | Pure | `425607D9` | 📱 iOS | Playable | 👌 OK | iPad Pro 11 inch 5th Gen | 2026-03-18 |
 | 🟢 | Quantum of Solace | `415607FF` | 📱 iOS | Playable | 👌 OK | iPad Pro 12.9-inch (M2) | 2026-03-11 |
@@ -165,7 +166,6 @@
 | 🔵 | PAC-MAN and the Ghostly Adventures | `4E4D0865` | 📱 iOS | In-Game | 🐢 Poor | iPhone 15 Pro Max | 2026-03-08 |
 | 🔵 | Pinball Arcade | `5841121D` | 📱 iOS | In-Game | 🐢 Poor | iPhone 13 | 2026-03-10 |
 | 🔵 | Pro Evolution Soccer 2013 / PES 2013 | `4B4E084C` | 📱 iOS | In-Game | 👌 OK | iPhone11,2 | 2026-03-23 |
-| 🔵 | Pro Evolution Soccer 2016 / PES 2016 | `4B4E0861` | 📱 iOS | In-Game | 👌 OK | iPhone 14 | 2026-03-09 |
 | 🔵 | Rayman Legends | `555308C3` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro Max | 2026-03-08 |
 | 🔵 | Resident Evil 6 | `43430819` | 📱 iOS | In-Game | 🐢 Poor | iPhone 13 Pro Max | 2026-03-20 |
 | 🔵 | Saints Row | `545107D1` | 📱 iOS | In-Game | 👌 OK | iPhone 16 | 2026-03-10 |
@@ -195,6 +195,7 @@
 | 🟡 | Tales of Vesperia | `4E4D07E9` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro | 2026-03-03 |
 | 🟡 | Test Drive Unlimited 2 | `49470804` | 📱 iOS | Intro | 🐢 Poor | iPhone 15 | 2026-03-28 |
 | 🟡 | Two Worlds | `535007D4` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro Max | 2026-03-09 |
+| 🟡 | WWE 13 | `545108B4` | 📱 iOS | Intro | 🐢 Poor | iPhone 15 Pro | 2026-03-29 |
 | 🟠 | AC/DC LIVE: Rock Band | `45410889` | 🖥️ macOS | Loads | 🚀 Great | MacBook Pro (M4) | 2026-03-23 |
 | 🟠 | Asura's Wrath | `43430817` | 📱 iOS | Loads | 🐢 Poor | iPhone 16 Pro Max | 2026-03-09 |
 | 🟠 | Avatar: The Last Airbender - The Burning Earth | `545107E1` | 📱 iOS | Loads | 🐢 Poor | iPhone 16 Pro Max | 2026-03-19 |

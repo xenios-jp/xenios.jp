@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-29T15:39:59.157Z",
+  "generatedAt": "2026-03-29T18:20:42.597Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2431,6 +2431,60 @@
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
           "images": [],
           "meta": {}
+        }
+      ]
+    },
+    "545108B4": {
+      "titleId": "545108B4",
+      "issueNumber": 378,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/378",
+      "updatedAt": "2026-03-29",
+      "entries": [
+        {
+          "id": "comment-4150776027",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/378#issuecomment-4150776027",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-29",
+          "createdAtMs": 1774808355000,
+          "issueNumber": 378,
+          "excerpt": "Just spins logo",
+          "images": [],
+          "meta": {
+            "status": "intro",
+            "perf": "poor",
+            "device": "iPhone 15 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
+        {
+          "id": "issue-378",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/378",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-29",
+          "createdAtMs": 1774808327000,
+          "issueNumber": 378,
+          "excerpt": "J",
+          "images": [],
+          "meta": {
+            "status": "intro",
+            "perf": "poor",
+            "device": "iPhone 15 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
         }
       ]
     },
