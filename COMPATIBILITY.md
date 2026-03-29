@@ -253,7 +253,7 @@
 | 🔴 | NHL 15 | `454109DC` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 Pro Max | 2026-03-21 |
 | 🔴 | Ninja Gaiden II | `544307D5` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 14 | 2026-03-24 |
 | 🔴 | Resident Evil 4 | `4343081C` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16e | 2026-03-14 |
-| 🔴 | Resident Evil 5 | `434307D4` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-03 |
+| 🔴 | Resident Evil 5 | `434307D4` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Air 13-inch (M3) | 2026-03-29 |
 | 🔴 | Silent Hill: Downpour | `4B4E0823` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-22 |
 | 🔴 | SmackDown vs. RAW 2009 | `54510826` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad (A16) | 2026-03-16 |
 | 🔴 | Soulcalibur IV | `4E4D07E0` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro Max | 2026-03-11 |

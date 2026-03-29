@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-29T07:59:28.982Z",
+  "generatedAt": "2026-03-29T10:21:52.155Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2400,6 +2400,56 @@
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
           "images": [],
           "meta": {}
+        }
+      ]
+    },
+    "434307D4": {
+      "titleId": "434307D4",
+      "issueNumber": 374,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/374",
+      "updatedAt": "2026-03-29",
+      "entries": [
+        {
+          "id": "issue-374",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/374",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-29",
+          "createdAtMs": 1774779665000,
+          "issueNumber": 374,
+          "excerpt": "Well, it is such a shame that RE5 isn’t booting up, well it is a good game and I hope you guys can make it more compatible I support you guys",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPad Air 13-inch (M3)",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
+        {
+          "id": "issue-26",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/26",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-03",
+          "createdAtMs": 1772513537000,
+          "issueNumber": 26,
+          "excerpt": "RE5 currently fails to boot",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 16 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 18.5",
+            "gpuBackend": "MSL"
+          }
         }
       ]
     },
@@ -11138,33 +11188,6 @@
           "createdAtMs": 1772513755000,
           "issueNumber": 25,
           "excerpt": "Star ocean fails to boot.",
-          "images": [],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPhone 16 Pro",
-            "platform": "iOS",
-            "osVersion": "iOS 18.5",
-            "gpuBackend": "MSL"
-          }
-        }
-      ]
-    },
-    "434307D4": {
-      "titleId": "434307D4",
-      "issueNumber": 26,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/26",
-      "updatedAt": "2026-03-07",
-      "entries": [
-        {
-          "id": "issue-26",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/26",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-03",
-          "createdAtMs": 1772513537000,
-          "issueNumber": 26,
-          "excerpt": "RE5 currently fails to boot",
           "images": [],
           "meta": {
             "status": "nothing",
