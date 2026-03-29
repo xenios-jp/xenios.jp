@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-29T15:36:03.819Z",
+  "generatedAt": "2026-03-29T15:39:59.157Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2431,6 +2431,64 @@
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
           "images": [],
           "meta": {}
+        }
+      ]
+    },
+    "4B4E0861": {
+      "titleId": "4B4E0861",
+      "issueNumber": 377,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/377",
+      "updatedAt": "2026-03-29",
+      "entries": [
+        {
+          "id": "issue-377",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/377",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-29",
+          "createdAtMs": 1774798754000,
+          "issueNumber": 377,
+          "excerpt": "Graphical glitches \nGreen dotted pixelated graphical issues\nLoading lag \nLow FPS\nBut Playable",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4B4E0861/1774798748494-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4B4E0861/1774798748494-2.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4B4E0861/1774798748494-3.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "poor",
+            "device": "iPhone 16e",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
+        {
+          "id": "issue-147",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/147",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-09",
+          "createdAtMs": 1773080858000,
+          "issueNumber": 147,
+          "excerpt": "Glitchis",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "ok",
+            "device": "iPhone 14",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
         }
       ]
     },
@@ -9381,37 +9439,6 @@
           "excerpt": "Game boots but is stuck on an infinite loading screen",
           "images": [],
           "meta": {}
-        }
-      ]
-    },
-    "4B4E0861": {
-      "titleId": "4B4E0861",
-      "issueNumber": 147,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/147",
-      "updatedAt": "2026-03-09",
-      "entries": [
-        {
-          "id": "issue-147",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/147",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-09",
-          "createdAtMs": 1773080858000,
-          "issueNumber": 147,
-          "excerpt": "Glitchis",
-          "images": [],
-          "meta": {
-            "status": "ingame",
-            "perf": "ok",
-            "device": "iPhone 14",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "`2633e8177`"
-          }
         }
       ]
     },
