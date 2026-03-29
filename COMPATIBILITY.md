@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **247 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **248 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **99** · 🔵 In-Game: **53** · 🟡 Intro: **22** · 🟠 Loads: **35** · 🔴 Doesn't Boot: **38**
+> 🟢 Playable: **99** · 🔵 In-Game: **53** · 🟡 Intro: **22** · 🟠 Loads: **35** · 🔴 Doesn't Boot: **39**
 >
-> 📱 iOS: **230** · 🖥️ macOS: **35**
+> 📱 iOS: **231** · 🖥️ macOS: **35**
 
 ## Legend
 
@@ -249,6 +249,7 @@
 | 🔴 | Mighty No. 9 | `584114A4` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 13 | 2026-03-09 |
 | 🔴 | NBA 2K12 | `54540894` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro Max | 2026-03-13 |
 | 🔴 | NBA 2K7 | `545407EF` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16e | 2026-03-11 |
+| 🔴 | Need for Speed Hot Pursuit | `45410903` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 15 | 2026-03-29 |
 | 🔴 | NHL 15 | `454109DC` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 Pro Max | 2026-03-21 |
 | 🔴 | Ninja Gaiden II | `544307D5` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 14 | 2026-03-24 |
 | 🔴 | Resident Evil 4 | `4343081C` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16e | 2026-03-14 |
