@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **248 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **250 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **99** · 🔵 In-Game: **53** · 🟡 Intro: **22** · 🟠 Loads: **35** · 🔴 Doesn't Boot: **39**
+> 🟢 Playable: **99** · 🔵 In-Game: **54** · 🟡 Intro: **22** · 🟠 Loads: **35** · 🔴 Doesn't Boot: **40**
 >
-> 📱 iOS: **231** · 🖥️ macOS: **35**
+> 📱 iOS: **233** · 🖥️ macOS: **35**
 
 ## Legend
 
@@ -128,6 +128,7 @@
 | 🔵 | Dead Island Riptide | `4B4D07F2` | 📱 iOS | In-Game | 🐢 Poor | iPhone 14 Pro | 2026-03-17 |
 | 🔵 | Def Jam Icon | `454107EE` | 📱 iOS | In-Game | 🐢 Poor | iPhone 16e | 2026-03-11 |
 | 🔵 | Diablo III | `394F07D1` | 📱 iOS, 🖥️ macOS | In-Game | 🐢 Poor | iPhone Air | 2026-03-09 |
+| 🔵 | F1 2010 | `434D082D` | 📱 iOS | In-Game | 🐢 Poor | iPhone 16e | 2026-03-29 |
 | 🔵 | Fable 3 | `4D5308D6` | 📱 iOS | In-Game | 🐢 Poor | iPhone 15 Pro Max | 2026-03-09 |
 | 🔵 | Fable Anniversary | `4D530A87` | 📱 iOS | In-Game | 🐢 Poor | iPhone 16 Pro Max | 2026-03-09 |
 | 🔵 | Fallout 3 | `425307D5` | 📱 iOS | In-Game | 👌 OK | iPhone 13 | 2026-03-12 |
@@ -257,6 +258,7 @@
 | 🔴 | Silent Hill: Downpour | `4B4E0823` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-22 |
 | 🔴 | SmackDown vs. RAW 2009 | `54510826` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad (A16) | 2026-03-16 |
 | 🔴 | Soulcalibur IV | `4E4D07E0` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro Max | 2026-03-11 |
+| 🔴 | Spider-Man: Web of Shadows | `41560815` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 Pro Max | 2026-03-29 |
 | 🔴 | SpongeBob SquarePants: Underpants Slam | `5841089F` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Mini (A17 Pro) | 2026-03-15 |
 | 🔴 | Star Ocean: The Last Hope | `535107DD` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-03 |
 | 🔴 | Tekken 6 | `4E4D07FC` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-03 |

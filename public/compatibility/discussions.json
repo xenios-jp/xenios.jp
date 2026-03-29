@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-29T14:07:15.394Z",
+  "generatedAt": "2026-03-29T15:36:03.819Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2431,6 +2431,43 @@
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
           "images": [],
           "meta": {}
+        }
+      ]
+    },
+    "434D082D": {
+      "titleId": "434D082D",
+      "issueNumber": 376,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/376",
+      "updatedAt": "2026-03-29",
+      "entries": [
+        {
+          "id": "issue-376",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/376",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-29",
+          "createdAtMs": 1774798495000,
+          "issueNumber": 376,
+          "excerpt": "Crashes a lot on loading ( it actually freezes) needs to be restarted 4-5 times to achieve boot in game\nIn game you need to progress and restart to compile shaders I guess cause it freezes\nGraphical issues white patches and screens, improper placed game assets\nVery low fps 3min-15max",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/434D082D/1774798486095-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/434D082D/1774798486095-2.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/434D082D/1774798486095-3.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/434D082D/1774798486095-4.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/434D082D/1774798486095-5.jpg"
+          ],
+          "meta": {
+            "status": "ingame",
+            "perf": "poor",
+            "device": "iPhone 16e",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
         }
       ]
     },

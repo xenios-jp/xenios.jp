@@ -83318,15 +83318,54 @@
     "titleIds": [
       "434D082D"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "ingame",
+    "perf": "poor",
     "tags": [],
-    "platforms": [],
-    "lastReport": null,
-    "updatedAt": "",
-    "notes": "",
-    "reports": [],
-    "screenshots": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 16e",
+      "platform": "ios",
+      "osVersion": "26.3.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-29",
+    "issueNumber": 376,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/376",
+    "notes": "Crashes a lot on loading ( it actually freezes) needs to be restarted 4-5 times to achieve boot in game\nIn game you need to progress and restart to compile shaders I guess cause it freezes\nGraphical issues white patches and screens, improper placed game assets\nVery low fps 3min-15max",
+    "reports": [
+      {
+        "device": "iPhone 16e",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "poor",
+        "date": "2026-03-29",
+        "notes": "Crashes a lot on loading ( it actually freezes) needs to be restarted 4-5 times to achieve boot in game\nIn game you need to progress and restart to compile shaders I guess cause it freezes\nGraphical issues white patches and screens, improper placed game assets\nVery low fps 3min-15max",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "stage": "stable",
+          "commitShort": "056d2f64d"
+        }
+      }
+    ],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/434D082D/1774798486095-1.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/434D082D/1774798486095-2.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/434D082D/1774798486095-3.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/434D082D/1774798486095-4.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/434D082D/1774798486095-5.jpg"
+    ],
     "summaries": {
       "release": {
         "channel": "release",
@@ -83341,14 +83380,56 @@
       },
       "all": {
         "channel": "all",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "ingame",
+        "perf": "poor",
+        "notes": "Crashes a lot on loading ( it actually freezes) needs to be restarted 4-5 times to achieve boot in game\nIn game you need to progress and restart to compile shaders I guess cause it freezes\nGraphical issues white patches and screens, improper placed game assets\nVery low fps 3min-15max",
+        "updatedAt": "2026-03-29",
+        "date": "2026-03-29",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 16e",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-03-29",
+          "notes": "Crashes a lot on loading ( it actually freezes) needs to be restarted 4-5 times to achieve boot in game\nIn game you need to progress and restart to compile shaders I guess cause it freezes\nGraphical issues white patches and screens, improper placed game assets\nVery low fps 3min-15max",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "stage": "stable",
+            "commitShort": "056d2f64d"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 16e",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-03-29",
+          "notes": "Crashes a lot on loading ( it actually freezes) needs to be restarted 4-5 times to achieve boot in game\nIn game you need to progress and restart to compile shaders I guess cause it freezes\nGraphical issues white patches and screens, improper placed game assets\nVery low fps 3min-15max",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "stage": "stable",
+            "commitShort": "056d2f64d"
+          }
+        }
       }
     }
   },
@@ -213301,13 +213382,44 @@
     "status": "nothing",
     "perf": "n/a",
     "tags": [],
-    "platforms": [],
-    "lastReport": null,
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 17 Pro Max",
+      "platform": "ios",
+      "osVersion": "26.4",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
     "updatedAt": "2026-03-29",
     "issueNumber": 375,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/375",
-    "notes": "",
-    "reports": [],
+    "notes": "Nothing happened stay on bad screen",
+    "reports": [
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.4",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-03-29",
+        "notes": "Nothing happened stay on bad screen",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "stage": "stable",
+          "commitShort": "056d2f64d"
+        }
+      }
+    ],
     "screenshots": [],
     "summaries": {
       "release": {
@@ -213323,14 +213435,56 @@
       },
       "all": {
         "channel": "all",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "nothing",
+        "perf": "n/a",
+        "notes": "Nothing happened stay on bad screen",
+        "updatedAt": "2026-03-29",
+        "date": "2026-03-29",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.4",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-03-29",
+          "notes": "Nothing happened stay on bad screen",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "stage": "stable",
+            "commitShort": "056d2f64d"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.4",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-03-29",
+          "notes": "Nothing happened stay on bad screen",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "stage": "stable",
+            "commitShort": "056d2f64d"
+          }
+        }
       }
     }
   },
