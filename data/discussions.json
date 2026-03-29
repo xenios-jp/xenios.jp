@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-29T10:21:52.155Z",
+  "generatedAt": "2026-03-29T14:07:15.394Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -7,6 +7,37 @@
     "state": "open"
   },
   "discussions": {
+    "41560815": {
+      "titleId": "41560815",
+      "issueNumber": 375,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/375",
+      "updatedAt": "2026-03-29",
+      "entries": [
+        {
+          "id": "issue-375",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/375",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-29",
+          "createdAtMs": 1774793167000,
+          "issueNumber": 375,
+          "excerpt": "Nothing happened stay on bad screen",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.4",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        }
+      ]
+    },
     "41560817": {
       "titleId": "41560817",
       "issueNumber": 351,
