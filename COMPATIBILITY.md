@@ -69,7 +69,7 @@
 | 🟢 | Lego Indiana Jones 2 | `4C4107ED` | 📱 iOS | Playable | 👌 OK | iPhone 14 | 2026-03-16 |
 | 🟢 | LEGO Star Wars: TCS | `4C4107D7` | 📱 iOS | Playable | 👌 OK | iPad (A16) | 2026-03-09 |
 | 🟢 | Lollipop Chainsaw | `565707D0` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-03 |
-| 🟢 | Mafia 2 | `545407E6` | 📱 iOS | Playable | 👌 OK | iPhone 15 Plus | 2026-03-12 |
+| 🟢 | Mafia 2 | `545407E6` | 📱 iOS | Playable | 🚀 Great | iPhone 14 | 2026-03-30 |
 | 🟢 | Marble Blast Ultra | `584107D7` | 📱 iOS | Playable | 👌 OK | iPhone 15 Pro Max | 2026-03-16 |
 | 🟢 | Marvel Ultimate Alliance 2 | `4156082F` | 📱 iOS | Playable | 👌 OK | iPhone 13 Pro | 2026-03-09 |
 | 🟢 | Metal Gear Rising: Revengeance | `4B4E080A` | 📱 iOS | Playable | 👌 OK | iPhone 17 Pro Max | 2026-03-20 |

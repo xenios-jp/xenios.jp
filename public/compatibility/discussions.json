@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-29T18:20:42.597Z",
+  "generatedAt": "2026-03-30T20:40:59.342Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2431,6 +2431,67 @@
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
           "images": [],
           "meta": {}
+        }
+      ]
+    },
+    "545407E6": {
+      "titleId": "545407E6",
+      "issueNumber": 379,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/379",
+      "updatedAt": "2026-03-30",
+      "entries": [
+        {
+          "id": "issue-379",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/379",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-30",
+          "createdAtMs": 1774903174000,
+          "issueNumber": 379,
+          "excerpt": "Disable new to fake",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407E6/1774903167866-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407E6/1774903167866-2.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407E6/1774903167866-3.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 14",
+            "platform": "iOS",
+            "osVersion": "iOS 26.4",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
+        {
+          "id": "issue-233",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/233",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-12",
+          "createdAtMs": 1773350858000,
+          "issueNumber": 233,
+          "excerpt": "The game on my device currently runs at around 20 FPS, with some graphical flickering in lighting areas; the sound is unrecognizable, but it works.\n\nThe version of xenios that I used is 1.0.0 from CI #35: Commit d8c1019 pushed by xenios-jp in the actions section",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407E6/1773350853348-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407E6/1773350853348-2.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 15 Plus",
+            "platform": "iOS",
+            "osVersion": "iOS 26.0.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9299",
+            "commitShort": "`d8c101905`"
+          }
         }
       ]
     },
@@ -7374,40 +7435,6 @@
             "appVersion": "1.0.0",
             "buildNumber": "9280",
             "commitShort": "`2633e8177`"
-          }
-        }
-      ]
-    },
-    "545407E6": {
-      "titleId": "545407E6",
-      "issueNumber": 233,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/233",
-      "updatedAt": "2026-03-12",
-      "entries": [
-        {
-          "id": "issue-233",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/233",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-12",
-          "createdAtMs": 1773350858000,
-          "issueNumber": 233,
-          "excerpt": "The game on my device currently runs at around 20 FPS, with some graphical flickering in lighting areas; the sound is unrecognizable, but it works.\n\nThe version of xenios that I used is 1.0.0 from CI #35: Commit d8c1019 pushed by xenios-jp in the actions section",
-          "images": [
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407E6/1773350853348-1.jpg",
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407E6/1773350853348-2.jpg"
-          ],
-          "meta": {
-            "status": "playable",
-            "perf": "ok",
-            "device": "iPhone 15 Plus",
-            "platform": "iOS",
-            "osVersion": "iOS 26.0.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9299",
-            "commitShort": "`d8c101905`"
           }
         }
       ]
