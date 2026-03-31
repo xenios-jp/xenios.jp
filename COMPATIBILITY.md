@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **250 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **251 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **99** · 🔵 In-Game: **53** · 🟡 Intro: **23** · 🟠 Loads: **35** · 🔴 Doesn't Boot: **40**
+> 🟢 Playable: **100** · 🔵 In-Game: **53** · 🟡 Intro: **23** · 🟠 Loads: **35** · 🔴 Doesn't Boot: **40**
 >
-> 📱 iOS: **233** · 🖥️ macOS: **35**
+> 📱 iOS: **234** · 🖥️ macOS: **35**
 
 ## Legend
 
@@ -85,6 +85,7 @@
 | 🟢 | Need for Speed: Undercover | `45410876` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-09 |
 | 🟢 | OPERATION DARKNESS | `535507D1` | 📱 iOS | Playable | 🚀 Great | iPad Pro 11 inch 5th Gen | 2026-03-18 |
 | 🟢 | Peggle | `58410889` | 📱 iOS | Playable | 👌 OK | iPhone 14 Pro Max | 2026-03-25 |
+| 🟢 | Peggle 2 | `58411436` | 📱 iOS | Playable | 🚀 Great | iPad Mini (A17 Pro) | 2026-03-14 |
 | 🟢 | Plants vs. Zombies | `584109FF` | 📱 iOS | Playable | 👌 OK | iPhone 14 Pro Max | 2026-03-25 |
 | 🟢 | Portal 2 | `45410912` | 📱 iOS | Playable | 🐢 Poor | iPhone 17 Pro Max | 2026-03-24 |
 | 🟢 | Pro Evolution Soccer 2012 / PES 2012 | `4B4E0837` | 📱 iOS | Playable | 👌 OK | iPhone 14 Pro Max | 2026-03-15 |
@@ -103,7 +104,7 @@
 | 🟢 | Skate 3 | `454108E6` | 📱 iOS | Playable | 🐢 Poor | iPad Pro 13-inch (M4) | 2026-03-19 |
 | 🟢 | Sonic Generations | `53450848` | 📱 iOS | Playable | 🚀 Great | iPhone 16 | 2026-03-28 |
 | 🟢 | Sonic the Hedgehog | `534507D6` | 📱 iOS | Playable | 🐢 Poor | iPhone 16 Pro | 2026-03-18 |
-| 🟢 | Sonic Unleashed | `53450812` | 📱 iOS | Playable | 👌 OK | iPad Pro 13-inch (M4) | 2026-03-24 |
+| 🟢 | Sonic Unleashed | `53450812` | 📱 iOS | Playable | 👌 OK | iPad Pro 13-inch (M4) | 2026-03-31 |
 | 🟢 | SpongeBob HeroPants | `41560919` | 📱 iOS | Playable | 👌 OK | iPad Mini (A17 Pro) | 2026-03-08 |
 | 🟢 | Star Wars: The Force Unleashed | `4C4107D2` | 📱 iOS | Playable | 🚀 Great | iPhone 15 Pro | 2026-03-10 |
 | 🟢 | Steins;Gate Hiyoku Renri no Darling | `465607E8` | 📱 iOS | Playable | 🚀 Great | iPhone 17 | 2026-03-02 |

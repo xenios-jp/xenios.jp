@@ -137412,29 +137412,7 @@
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
           "commitShort": "056d2f64d"
-        }
-      },
-      {
-        "device": "iPhone 15 Plus",
-        "platform": "ios",
-        "osVersion": "26.0.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "ok",
-        "date": "2026-03-12",
-        "notes": "The game on my device currently runs at around 20 FPS, with some graphical flickering in lighting areas; the sound is unrecognizable, but it works.\n\nThe version of xenios that I used is 1.0.0 from CI #35: Commit d8c1019 pushed by xenios-jp in the actions section",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.0-9299",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9299",
-          "commitShort": "d8c101905"
         }
       }
     ],
@@ -137464,7 +137442,7 @@
         "notes": "Disable new to fake",
         "updatedAt": "2026-03-30",
         "date": "2026-03-30",
-        "reportCount": 2,
+        "reportCount": 1,
         "latestReport": {
           "device": "iPhone 14",
           "platform": "ios",
@@ -137483,7 +137461,6 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         },
@@ -137505,7 +137482,6 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         }
@@ -169511,37 +169487,189 @@
     "titleIds": [
       "58411436"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
-    "platforms": [],
-    "lastReport": null,
-    "updatedAt": "",
-    "notes": "",
-    "reports": [],
-    "screenshots": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPad Mini (A17 Pro)",
+      "platform": "ios",
+      "osVersion": "26.3.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-14",
+    "issueNumber": 263,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/263",
+    "notes": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
+    "reports": [
+      {
+        "device": "iPad Mini (A17 Pro)",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-03-14",
+        "notes": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
+        "reportedTitleId": "58411436",
+        "reportedTitle": "Peggle 2",
+        "screenshots": [
+          "https://github.com/user-attachments/assets/56dda089-4a4d-4225-8646-079b64083373",
+          "https://github.com/user-attachments/assets/5d0dd958-3b87-466d-acb0-1deaa9f3b801",
+          "https://github.com/user-attachments/assets/c1eb5e36-06ce-4c0c-ac36-1f02d8488fc7",
+          "https://github.com/user-attachments/assets/d3999b6b-a04c-449c-9dbb-8ca3597c6c07"
+        ],
+        "submittedBy": "supermariofan3720",
+        "source": "github",
+        "build": {
+          "buildId": "ios-release-1.0.1-9288",
+          "channel": "release",
+          "official": true,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288"
+        }
+      }
+    ],
+    "screenshots": [
+      "https://github.com/user-attachments/assets/56dda089-4a4d-4225-8646-079b64083373",
+      "https://github.com/user-attachments/assets/5d0dd958-3b87-466d-acb0-1deaa9f3b801",
+      "https://github.com/user-attachments/assets/c1eb5e36-06ce-4c0c-ac36-1f02d8488fc7",
+      "https://github.com/user-attachments/assets/d3999b6b-a04c-449c-9dbb-8ca3597c6c07"
+    ],
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "playable",
+        "perf": "great",
+        "notes": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
+        "updatedAt": "2026-03-14",
+        "date": "2026-03-14",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPad Mini (A17 Pro)",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-03-14",
+          "notes": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
+          "reportedTitleId": "58411436",
+          "reportedTitle": "Peggle 2",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/56dda089-4a4d-4225-8646-079b64083373",
+            "https://github.com/user-attachments/assets/5d0dd958-3b87-466d-acb0-1deaa9f3b801",
+            "https://github.com/user-attachments/assets/c1eb5e36-06ce-4c0c-ac36-1f02d8488fc7",
+            "https://github.com/user-attachments/assets/d3999b6b-a04c-449c-9dbb-8ca3597c6c07"
+          ],
+          "submittedBy": "supermariofan3720",
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-1.0.1-9288",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288"
+          }
+        },
+        "bestReport": {
+          "device": "iPad Mini (A17 Pro)",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-03-14",
+          "notes": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
+          "reportedTitleId": "58411436",
+          "reportedTitle": "Peggle 2",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/56dda089-4a4d-4225-8646-079b64083373",
+            "https://github.com/user-attachments/assets/5d0dd958-3b87-466d-acb0-1deaa9f3b801",
+            "https://github.com/user-attachments/assets/c1eb5e36-06ce-4c0c-ac36-1f02d8488fc7",
+            "https://github.com/user-attachments/assets/d3999b6b-a04c-449c-9dbb-8ca3597c6c07"
+          ],
+          "submittedBy": "supermariofan3720",
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-1.0.1-9288",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288"
+          }
+        }
       },
       "all": {
         "channel": "all",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "playable",
+        "perf": "great",
+        "notes": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
+        "updatedAt": "2026-03-14",
+        "date": "2026-03-14",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPad Mini (A17 Pro)",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-03-14",
+          "notes": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
+          "reportedTitleId": "58411436",
+          "reportedTitle": "Peggle 2",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/56dda089-4a4d-4225-8646-079b64083373",
+            "https://github.com/user-attachments/assets/5d0dd958-3b87-466d-acb0-1deaa9f3b801",
+            "https://github.com/user-attachments/assets/c1eb5e36-06ce-4c0c-ac36-1f02d8488fc7",
+            "https://github.com/user-attachments/assets/d3999b6b-a04c-449c-9dbb-8ca3597c6c07"
+          ],
+          "submittedBy": "supermariofan3720",
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-1.0.1-9288",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288"
+          }
+        },
+        "bestReport": {
+          "device": "iPad Mini (A17 Pro)",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-03-14",
+          "notes": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
+          "reportedTitleId": "58411436",
+          "reportedTitle": "Peggle 2",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/56dda089-4a4d-4225-8646-079b64083373",
+            "https://github.com/user-attachments/assets/5d0dd958-3b87-466d-acb0-1deaa9f3b801",
+            "https://github.com/user-attachments/assets/c1eb5e36-06ce-4c0c-ac36-1f02d8488fc7",
+            "https://github.com/user-attachments/assets/d3999b6b-a04c-449c-9dbb-8ca3597c6c07"
+          ],
+          "submittedBy": "supermariofan3720",
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-1.0.1-9288",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288"
+          }
+        }
       }
     }
   },
@@ -209213,11 +209341,32 @@
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-24",
+    "updatedAt": "2026-03-31",
     "issueNumber": 8,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/8",
     "notes": "Videos have compatibility artifacts and game FPS is not the best but it’s playable.",
     "reports": [
+      {
+        "device": "iPhone 16 Pro",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "poor",
+        "date": "2026-03-31",
+        "notes": "Artifacts on any pre rendered videos. Playable up until the first hub world where it begins crashing frequently, and reaching the level select leads to an infinite loading screen.",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "commitShort": "056d2f64d"
+        }
+      },
       {
         "device": "iPad Pro 13-inch (M4)",
         "platform": "ios",
@@ -209314,6 +209463,7 @@
     ],
     "screenshots": [
       "https://raw.githubusercontent.com/xenios-jp/xenios.jp/main/public/compatibility/screenshots/53450812/1772815441036-1.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/53450812/1774981648385-1.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/53450812/1774335210084-1.jpg"
     ],
     "summaries": {
@@ -209361,19 +209511,19 @@
         "status": "playable",
         "perf": "ok",
         "notes": "Videos have compatibility artifacts and game FPS is not the best but it’s playable.",
-        "updatedAt": "2026-03-24",
-        "date": "2026-03-24",
-        "reportCount": 5,
+        "updatedAt": "2026-03-31",
+        "date": "2026-03-31",
+        "reportCount": 6,
         "latestReport": {
-          "device": "iPad Pro 13-inch (M4)",
+          "device": "iPhone 16 Pro",
           "platform": "ios",
           "osVersion": "26.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-03-24",
-          "notes": "Videos have compatibility artifacts and game FPS is not the best but it’s playable.",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-03-31",
+          "notes": "Artifacts on any pre rendered videos. Playable up until the first hub world where it begins crashing frequently, and reaching the level select leads to an infinite loading screen.",
           "screenshots": [],
           "source": "app",
           "build": {
