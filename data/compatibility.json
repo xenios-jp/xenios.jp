@@ -202671,14 +202671,47 @@
     "titleIds": [
       "4B4E0845"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "intro",
+    "perf": "great",
     "tags": [],
-    "platforms": [],
-    "lastReport": null,
-    "updatedAt": "",
-    "notes": "",
-    "reports": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPad17,1",
+      "platform": "ios",
+      "osVersion": "26.3.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-03-31",
+    "issueNumber": 381,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/381",
+    "notes": "The game crashes immediately after selecting either Silent Hill 2 or 3 from the main menu. Once a game is chosen, the emulator navigates back to the library, Then when trying to relaunch the screen just remains stuck on a black screen.",
+    "reports": [
+      {
+        "device": "iPad17,1",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "intro",
+        "perf": "great",
+        "date": "2026-03-31",
+        "notes": "The game crashes immediately after selecting either Silent Hill 2 or 3 from the main menu. Once a game is chosen, the emulator navigates back to the library, Then when trying to relaunch the screen just remains stuck on a black screen.",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "stage": "stable",
+          "commitShort": "056d2f64d"
+        }
+      }
+    ],
     "screenshots": [],
     "summaries": {
       "release": {
@@ -202694,14 +202727,56 @@
       },
       "all": {
         "channel": "all",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "intro",
+        "perf": "great",
+        "notes": "The game crashes immediately after selecting either Silent Hill 2 or 3 from the main menu. Once a game is chosen, the emulator navigates back to the library, Then when trying to relaunch the screen just remains stuck on a black screen.",
+        "updatedAt": "2026-03-31",
+        "date": "2026-03-31",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPad17,1",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "intro",
+          "perf": "great",
+          "date": "2026-03-31",
+          "notes": "The game crashes immediately after selecting either Silent Hill 2 or 3 from the main menu. Once a game is chosen, the emulator navigates back to the library, Then when trying to relaunch the screen just remains stuck on a black screen.",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "stage": "stable",
+            "commitShort": "056d2f64d"
+          }
+        },
+        "bestReport": {
+          "device": "iPad17,1",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "intro",
+          "perf": "great",
+          "date": "2026-03-31",
+          "notes": "The game crashes immediately after selecting either Silent Hill 2 or 3 from the main menu. Once a game is chosen, the emulator navigates back to the library, Then when trying to relaunch the screen just remains stuck on a black screen.",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "stage": "stable",
+            "commitShort": "056d2f64d"
+          }
+        }
       }
     }
   },

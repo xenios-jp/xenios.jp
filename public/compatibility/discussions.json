@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-31T18:29:34.113Z",
+  "generatedAt": "2026-03-31T19:25:02.934Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2456,6 +2456,37 @@
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
           "images": [],
           "meta": {}
+        }
+      ]
+    },
+    "4B4E0845": {
+      "titleId": "4B4E0845",
+      "issueNumber": 381,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/381",
+      "updatedAt": "2026-03-31",
+      "entries": [
+        {
+          "id": "issue-381",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/381",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-31",
+          "createdAtMs": 1774985051000,
+          "issueNumber": 381,
+          "excerpt": "The game crashes immediately after selecting either Silent Hill 2 or 3 from the main menu. Once a game is chosen, the emulator navigates back to the library, Then when trying to relaunch the screen just remains stuck on a black screen.",
+          "images": [],
+          "meta": {
+            "status": "intro",
+            "perf": "great",
+            "device": "iPad Pro 11-inch (M5)",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
         }
       ]
     },

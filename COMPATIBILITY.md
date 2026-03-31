@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **251 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **252 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **100** · 🔵 In-Game: **53** · 🟡 Intro: **23** · 🟠 Loads: **35** · 🔴 Doesn't Boot: **40**
+> 🟢 Playable: **100** · 🔵 In-Game: **53** · 🟡 Intro: **24** · 🟠 Loads: **35** · 🔴 Doesn't Boot: **40**
 >
-> 📱 iOS: **234** · 🖥️ macOS: **35**
+> 📱 iOS: **235** · 🖥️ macOS: **35**
 
 ## Legend
 
@@ -192,6 +192,7 @@
 | 🟡 | PopCap Collection | `504787D8` | 📱 iOS | Intro | 🚀 Great | iPhone 13 Pro | 2026-03-20 |
 | 🟡 | Remember Me | `4343082F` | 🖥️ macOS | Intro | 🚀 Great | Mac mini (M2) | 2026-03-15 |
 | 🟡 | Rise of the Tomb Raider | `53510823` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro Max | 2026-03-12 |
+| 🟡 | Silent Hill: HD Collection | `4B4E0845` | 📱 iOS | Intro | 🚀 Great | iPad Pro 11-inch (M5) | 2026-03-31 |
 | 🟡 | Tales of Vesperia | `4E4D07E9` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro | 2026-03-03 |
 | 🟡 | Test Drive Unlimited 2 | `49470804` | 📱 iOS | Intro | 🐢 Poor | iPhone 15 | 2026-03-28 |
 | 🟡 | Two Worlds | `535007D4` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro Max | 2026-03-09 |
