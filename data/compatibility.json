@@ -169511,189 +169511,37 @@
     "titleIds": [
       "58411436"
     ],
-    "status": "playable",
-    "perf": "great",
+    "status": "nothing",
+    "perf": "n/a",
     "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPad Mini (A17 Pro)",
-      "platform": "ios",
-      "osVersion": "26.3.1",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-14",
-    "issueNumber": 263,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/263",
-    "notes": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
-    "reports": [
-      {
-        "device": "iPad Mini (A17 Pro)",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "great",
-        "date": "2026-03-14",
-        "notes": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
-        "reportedTitleId": "58411436",
-        "reportedTitle": "Peggle 2",
-        "screenshots": [
-          "https://github.com/user-attachments/assets/56dda089-4a4d-4225-8646-079b64083373",
-          "https://github.com/user-attachments/assets/5d0dd958-3b87-466d-acb0-1deaa9f3b801",
-          "https://github.com/user-attachments/assets/c1eb5e36-06ce-4c0c-ac36-1f02d8488fc7",
-          "https://github.com/user-attachments/assets/d3999b6b-a04c-449c-9dbb-8ca3597c6c07"
-        ],
-        "submittedBy": "supermariofan3720",
-        "source": "github",
-        "build": {
-          "buildId": "ios-release-1.0.1-9288",
-          "channel": "release",
-          "official": true,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288"
-        }
-      }
-    ],
-    "screenshots": [
-      "https://github.com/user-attachments/assets/56dda089-4a4d-4225-8646-079b64083373",
-      "https://github.com/user-attachments/assets/5d0dd958-3b87-466d-acb0-1deaa9f3b801",
-      "https://github.com/user-attachments/assets/c1eb5e36-06ce-4c0c-ac36-1f02d8488fc7",
-      "https://github.com/user-attachments/assets/d3999b6b-a04c-449c-9dbb-8ca3597c6c07"
-    ],
+    "platforms": [],
+    "lastReport": null,
+    "updatedAt": "",
+    "notes": "",
+    "reports": [],
+    "screenshots": [],
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "playable",
-        "perf": "great",
-        "notes": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
-        "updatedAt": "2026-03-14",
-        "date": "2026-03-14",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPad Mini (A17 Pro)",
-          "platform": "ios",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-03-14",
-          "notes": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
-          "reportedTitleId": "58411436",
-          "reportedTitle": "Peggle 2",
-          "screenshots": [
-            "https://github.com/user-attachments/assets/56dda089-4a4d-4225-8646-079b64083373",
-            "https://github.com/user-attachments/assets/5d0dd958-3b87-466d-acb0-1deaa9f3b801",
-            "https://github.com/user-attachments/assets/c1eb5e36-06ce-4c0c-ac36-1f02d8488fc7",
-            "https://github.com/user-attachments/assets/d3999b6b-a04c-449c-9dbb-8ca3597c6c07"
-          ],
-          "submittedBy": "supermariofan3720",
-          "source": "github",
-          "build": {
-            "buildId": "ios-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288"
-          }
-        },
-        "bestReport": {
-          "device": "iPad Mini (A17 Pro)",
-          "platform": "ios",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-03-14",
-          "notes": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
-          "reportedTitleId": "58411436",
-          "reportedTitle": "Peggle 2",
-          "screenshots": [
-            "https://github.com/user-attachments/assets/56dda089-4a4d-4225-8646-079b64083373",
-            "https://github.com/user-attachments/assets/5d0dd958-3b87-466d-acb0-1deaa9f3b801",
-            "https://github.com/user-attachments/assets/c1eb5e36-06ce-4c0c-ac36-1f02d8488fc7",
-            "https://github.com/user-attachments/assets/d3999b6b-a04c-449c-9dbb-8ca3597c6c07"
-          ],
-          "submittedBy": "supermariofan3720",
-          "source": "github",
-          "build": {
-            "buildId": "ios-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288"
-          }
-        }
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "date": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
       },
       "all": {
         "channel": "all",
-        "status": "playable",
-        "perf": "great",
-        "notes": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
-        "updatedAt": "2026-03-14",
-        "date": "2026-03-14",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPad Mini (A17 Pro)",
-          "platform": "ios",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-03-14",
-          "notes": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
-          "reportedTitleId": "58411436",
-          "reportedTitle": "Peggle 2",
-          "screenshots": [
-            "https://github.com/user-attachments/assets/56dda089-4a4d-4225-8646-079b64083373",
-            "https://github.com/user-attachments/assets/5d0dd958-3b87-466d-acb0-1deaa9f3b801",
-            "https://github.com/user-attachments/assets/c1eb5e36-06ce-4c0c-ac36-1f02d8488fc7",
-            "https://github.com/user-attachments/assets/d3999b6b-a04c-449c-9dbb-8ca3597c6c07"
-          ],
-          "submittedBy": "supermariofan3720",
-          "source": "github",
-          "build": {
-            "buildId": "ios-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288"
-          }
-        },
-        "bestReport": {
-          "device": "iPad Mini (A17 Pro)",
-          "platform": "ios",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-03-14",
-          "notes": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
-          "reportedTitleId": "58411436",
-          "reportedTitle": "Peggle 2",
-          "screenshots": [
-            "https://github.com/user-attachments/assets/56dda089-4a4d-4225-8646-079b64083373",
-            "https://github.com/user-attachments/assets/5d0dd958-3b87-466d-acb0-1deaa9f3b801",
-            "https://github.com/user-attachments/assets/c1eb5e36-06ce-4c0c-ac36-1f02d8488fc7",
-            "https://github.com/user-attachments/assets/d3999b6b-a04c-449c-9dbb-8ca3597c6c07"
-          ],
-          "submittedBy": "supermariofan3720",
-          "source": "github",
-          "build": {
-            "buildId": "ios-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288"
-          }
-        }
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "date": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
       }
     }
   },

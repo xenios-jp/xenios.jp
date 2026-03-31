@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-30T20:40:59.342Z",
+  "generatedAt": "2026-03-31T17:54:34.707Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2414,23 +2414,138 @@
         }
       ]
     },
-    "58411436": {
-      "titleId": "58411436",
-      "issueNumber": 263,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/263",
-      "updatedAt": "2026-03-14",
+    "4D5309C9": {
+      "titleId": "4D5309C9",
+      "issueNumber": 125,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/125",
+      "updatedAt": "2026-03-31",
       "entries": [
         {
-          "id": "issue-263",
+          "id": "issue-380",
           "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/263",
-          "author": "supermariofan3720",
-          "createdAt": "2026-03-14",
-          "createdAtMs": 1773517964000,
-          "issueNumber": 263,
-          "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/380",
+          "author": "RGBandCMYK",
+          "createdAt": "2026-03-31",
+          "createdAtMs": 1774979588000,
+          "issueNumber": 380,
+          "excerpt": "Game loads into intro gameplay, however there are significant graphics, audio and gameplay issues, as going off the road causes the game to teleport the vehicle into a grey void which completely soft locks the game forcing you to go back to the menu and start the game again (unless you use a pre-existing save that takes place after the yellow wristband events) and most of the map itself doesn't load with trees floating and there being an endless grey void off the side of the road, and the game runs at about 15FPS with frequent stuttering making it extremely hard to drive.\n\nAdditionally there is major audio issues with the game where the initial splash screens for Playground Games, Turn 10 and Microsoft play this awful static sound, but once it gets to the Dolby splash screen and menu it's fine until you get in game, where audio only plays in the right channel for speakers/headphones and the noise it produces can be best be described as a loud bass heavy static that at louder volumes does run the risk of damaging whatever speaker it's playing out of.\n\nAs of writing this I haven't found any work arounds for any of these issues.",
           "images": [],
           "meta": {}
+        },
+        {
+          "id": "issue-371",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/371",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-28",
+          "createdAtMs": 1774676276000,
+          "issueNumber": 371,
+          "excerpt": "In-game but with severe graphical and audio issues, way too unstable to be at all playable but somehow didn’t crash.",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "poor",
+            "device": "iPad Air 11-inch (M3)",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
+        {
+          "id": "comment-4098484245",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/247#issuecomment-4098484245",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-20",
+          "createdAtMs": 1774017536000,
+          "issueNumber": 247,
+          "excerpt": "Please dev I know you did biggest thing yet but you need to a little more thanks if you see this",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPad Air 5",
+            "platform": "iOS",
+            "osVersion": "iOS 26.0.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
+        {
+          "id": "comment-4059208206",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/247#issuecomment-4059208206",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-14",
+          "createdAtMs": 1773454962000,
+          "issueNumber": 247,
+          "excerpt": "I'd consider it to be \"playable\" but it gives you a bad experience. hovers around 10-15 fps with missing foliage in the background and VERY loud audio.",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "poor",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
+        {
+          "id": "issue-247",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/247",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-14",
+          "createdAtMs": 1773446943000,
+          "issueNumber": 247,
+          "excerpt": "FPS stayed around 10",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "poor",
+            "device": "iPhone 14 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
+        {
+          "id": "comment-4025874034",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/125#issuecomment-4025874034",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-09",
+          "createdAtMs": 1773080896000,
+          "issueNumber": 125,
+          "excerpt": "Glitches",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "ok",
+            "device": "iPhone 14",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
         }
       ]
     },
@@ -2690,152 +2805,6 @@
             "platform": "iOS",
             "osVersion": "iOS 18.5",
             "gpuBackend": "MSL"
-          }
-        }
-      ]
-    },
-    "4D5309C9": {
-      "titleId": "4D5309C9",
-      "issueNumber": 371,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/371",
-      "updatedAt": "2026-03-28",
-      "entries": [
-        {
-          "id": "issue-371",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/371",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-28",
-          "createdAtMs": 1774676276000,
-          "issueNumber": 371,
-          "excerpt": "In-game but with severe graphical and audio issues, way too unstable to be at all playable but somehow didn’t crash.",
-          "images": [],
-          "meta": {
-            "status": "ingame",
-            "perf": "poor",
-            "device": "iPad Air 11-inch (M3)",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "`056d2f64d`"
-          }
-        },
-        {
-          "id": "comment-4098484245",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/247#issuecomment-4098484245",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-20",
-          "createdAtMs": 1774017536000,
-          "issueNumber": 247,
-          "excerpt": "Please dev I know you did biggest thing yet but you need to a little more thanks if you see this",
-          "images": [],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPad Air 5",
-            "platform": "iOS",
-            "osVersion": "iOS 26.0.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "`056d2f64d`"
-          }
-        },
-        {
-          "id": "comment-4059208206",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/247#issuecomment-4059208206",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-14",
-          "createdAtMs": 1773454962000,
-          "issueNumber": 247,
-          "excerpt": "I'd consider it to be \"playable\" but it gives you a bad experience. hovers around 10-15 fps with missing foliage in the background and VERY loud audio.",
-          "images": [],
-          "meta": {
-            "status": "playable",
-            "perf": "poor",
-            "device": "iPhone 17 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "`056d2f64d`"
-          }
-        },
-        {
-          "id": "issue-247",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/247",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-14",
-          "createdAtMs": 1773446943000,
-          "issueNumber": 247,
-          "excerpt": "FPS stayed around 10",
-          "images": [],
-          "meta": {
-            "status": "ingame",
-            "perf": "poor",
-            "device": "iPhone 14 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "`056d2f64d`"
-          }
-        },
-        {
-          "id": "comment-4025874034",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/125#issuecomment-4025874034",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-09",
-          "createdAtMs": 1773080896000,
-          "issueNumber": 125,
-          "excerpt": "Glitches",
-          "images": [],
-          "meta": {
-            "status": "ingame",
-            "perf": "ok",
-            "device": "iPhone 14",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "`2633e8177`"
-          }
-        },
-        {
-          "id": "issue-125",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/125",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-09",
-          "createdAtMs": 1773036137000,
-          "issueNumber": 125,
-          "excerpt": "Distortions and is unplayable experience",
-          "images": [],
-          "meta": {
-            "status": "ingame",
-            "perf": "poor",
-            "device": "iPhone 15 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 26.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "`2633e8177`"
           }
         }
       ]
