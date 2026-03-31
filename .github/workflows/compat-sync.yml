@@ -17,11 +17,13 @@ permissions:
   id-token: write
 
 concurrency:
-  group: compat-sync
+  group: pages
   cancel-in-progress: false
 
 jobs:
   generate-table:
+    outputs:
+      changed: ${{ steps.commit.outputs.changed }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -46,30 +48,37 @@ jobs:
         run: node scripts/sync-public-compat-data.mjs
 
       - name: Commit mirrored public data
+        id: commit
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/release-builds.json data/builds-history.json COMPATIBILITY.md public/compatibility/data.json public/compatibility/discussions.json public/builds/release-builds.json public/builds/history.json
+          git add data/release-builds.json data/builds-history.json COMPATIBILITY.md public/compatibility/data.json public/compatibility/discussions.json public/compatibility/search-index.json public/builds/release-builds.json public/builds/history.json
           if ! git diff --staged --quiet; then
             git commit -m "data: sync published site data [skip ci]"
             git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
           else
+            echo "changed=false" >> "$GITHUB_OUTPUT"
             echo "No changes"
           fi
 
       - name: Install dependencies
+        if: steps.commit.outputs.changed == 'true'
         run: npm ci
 
       - name: Build site
+        if: steps.commit.outputs.changed == 'true'
         run: npm run build
 
       - name: Upload Pages artifact
+        if: steps.commit.outputs.changed == 'true'
         uses: actions/upload-pages-artifact@v3
         with:
           path: out
 
   deploy:
     needs: generate-table
+    if: needs.generate-table.outputs.changed == 'true'
     runs-on: ubuntu-latest
     environment:
       name: github-pages

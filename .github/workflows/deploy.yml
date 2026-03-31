@@ -11,6 +11,7 @@ on:
       - "data/builds-history.json"
       - "public/compatibility/data.json"
       - "public/compatibility/discussions.json"
+      - "public/compatibility/search-index.json"
       - "public/builds/release-builds.json"
       - "public/builds/history.json"
   workflow_dispatch:

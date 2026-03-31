@@ -34,11 +34,17 @@ async function writeJson(relativePath, value) {
   await fs.writeFile(filePath, `${JSON.stringify(value, null, 2)}\n`, "utf8");
 }
 
+function getAuthHeaders() {
+  const token = (process.env.GITHUB_TOKEN || "").trim();
+  return token ? { Authorization: `Bearer ${token}` } : {};
+}
+
 async function fetchJson(url, headers = {}) {
   const response = await fetch(url, {
     headers: {
       Accept: "application/json",
       "User-Agent": "xenios-website-compat-rebuild",
+      ...getAuthHeaders(),
       ...headers,
     },
   });

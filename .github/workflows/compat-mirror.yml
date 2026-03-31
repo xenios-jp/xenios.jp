@@ -13,7 +13,7 @@ permissions:
   id-token: write
 
 concurrency:
-  group: compat-mirror
+  group: pages
   cancel-in-progress: false
 
 jobs:
@@ -36,6 +36,8 @@ jobs:
         run: node scripts/mirror-compat-data.mjs
 
       - name: Rebuild canonical compatibility catalog
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
         run: node scripts/rebuild-compatibility-data.mjs
 
       - name: Generate COMPATIBILITY.md
@@ -55,6 +57,7 @@ jobs:
             data/discussions.json \
             public/compatibility/data.json \
             public/compatibility/discussions.json \
+            public/compatibility/search-index.json \
             public/builds/release-builds.json \
             public/builds/history.json
           if git diff --staged --quiet; then
