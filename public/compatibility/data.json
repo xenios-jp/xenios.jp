@@ -97760,11 +97760,33 @@
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-11",
+    "updatedAt": "2026-04-02",
     "issueNumber": 40,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/40",
     "notes": "Able to load into game, low frame rates and severe graphical bugs but functions.",
     "reports": [
+      {
+        "device": "iPhone 14 Pro",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "intro",
+        "perf": "poor",
+        "date": "2026-04-02",
+        "notes": "I can't get past the loading screen to start the campaign, and there's no sound in the main menu either.",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "stage": "stable",
+          "commitShort": "056d2f64d"
+        }
+      },
       {
         "device": "iPhone 16 Pro",
         "platform": "ios",
@@ -97824,7 +97846,9 @@
         "source": "discord"
       }
     ],
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4D5307D5/1775150885735-1.jpg"
+    ],
     "summaries": {
       "release": {
         "channel": "release",
@@ -97872,28 +97896,29 @@
         "status": "ingame",
         "perf": "ok",
         "notes": "Able to load into game, low frame rates and severe graphical bugs but functions.",
-        "updatedAt": "2026-03-11",
-        "date": "2026-03-11",
-        "reportCount": 3,
+        "updatedAt": "2026-04-02",
+        "date": "2026-04-02",
+        "reportCount": 4,
         "latestReport": {
-          "device": "iPhone 16 Pro",
+          "device": "iPhone 14 Pro",
           "platform": "ios",
           "osVersion": "26.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "ok",
-          "date": "2026-03-11",
-          "notes": "Able to load into game, low frame rates and severe graphical bugs but functions.",
+          "status": "intro",
+          "perf": "poor",
+          "date": "2026-04-02",
+          "notes": "I can't get past the loading screen to start the campaign, and there's no sound in the main menu either.",
           "screenshots": [],
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9296",
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9296",
-            "commitShort": "ab2ca341a"
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "stage": "stable",
+            "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
