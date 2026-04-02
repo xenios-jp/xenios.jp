@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-02T17:29:08.515Z",
+  "generatedAt": "2026-04-02T21:41:59.650Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2454,6 +2454,49 @@
           "createdAtMs": 1773517964000,
           "issueNumber": 263,
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
+          "images": [],
+          "meta": {}
+        }
+      ]
+    },
+    "4D5308AB": {
+      "titleId": "4D5308AB",
+      "issueNumber": 383,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/383",
+      "updatedAt": "2026-04-02",
+      "entries": [
+        {
+          "id": "issue-383",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/383",
+          "author": "xenios-jp",
+          "createdAt": "2026-04-02",
+          "createdAtMs": 1775166065000,
+          "issueNumber": 383,
+          "excerpt": "crash",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 15",
+            "platform": "iOS",
+            "osVersion": "iOS 26.2",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
+        {
+          "id": "issue-87",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/87",
+          "author": "sinceohsix",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1773003653000,
+          "issueNumber": 87,
+          "excerpt": "Audio in the intro sequence is heavily distorted and ear-piercingly loud, please be careful when opening the game.\n\nLike some other games, there are heavy graphical errors during intro sequences as well as during loading screens. The game froze quite a few times on the main menu before I was able to get into actual gameplay. During gameplay, performance is a *bit* sluggish with noticeable stutters here and there. The game performs much better in smaller areas and in HORDE mode from my testing. There are graphical glitches with the lighting and shadows, especially when paused.",
           "images": [],
           "meta": {}
         }
@@ -10372,26 +10415,6 @@
             "buildNumber": "9280",
             "commitShort": "`2633e8177`"
           }
-        }
-      ]
-    },
-    "4D5308AB": {
-      "titleId": "4D5308AB",
-      "issueNumber": 87,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/87",
-      "updatedAt": "2026-03-08",
-      "entries": [
-        {
-          "id": "issue-87",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/87",
-          "author": "sinceohsix",
-          "createdAt": "2026-03-08",
-          "createdAtMs": 1773003653000,
-          "issueNumber": 87,
-          "excerpt": "Audio in the intro sequence is heavily distorted and ear-piercingly loud, please be careful when opening the game.\n\nLike some other games, there are heavy graphical errors during intro sequences as well as during loading screens. The game froze quite a few times on the main menu before I was able to get into actual gameplay. During gameplay, performance is a *bit* sluggish with noticeable stutters here and there. The game performs much better in smaller areas and in HORDE mode from my testing. There are graphical glitches with the lighting and shadows, especially when paused.",
-          "images": [],
-          "meta": {}
         }
       ]
     },
