@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-03T02:55:04.314Z",
+  "generatedAt": "2026-04-03T07:22:34.696Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2454,6 +2454,111 @@
           "createdAtMs": 1773517964000,
           "issueNumber": 263,
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
+          "images": [],
+          "meta": {}
+        }
+      ]
+    },
+    "415608C3": {
+      "titleId": "415608C3",
+      "issueNumber": 385,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/385",
+      "updatedAt": "2026-04-03",
+      "entries": [
+        {
+          "id": "issue-385",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/385",
+          "author": "xenios-jp",
+          "createdAt": "2026-04-03",
+          "createdAtMs": 1775200870000,
+          "issueNumber": 385,
+          "excerpt": "Cyan",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 17 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 26.5",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9296",
+            "commitShort": "`ab2ca341a`"
+          }
+        },
+        {
+          "id": "issue-253",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/253",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-14",
+          "createdAtMs": 1773453855000,
+          "issueNumber": 253,
+          "excerpt": "cyan 👍",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/415608C3/1773453853718-1.jpg"
+          ],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
+        {
+          "id": "comment-4025103892",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/92#issuecomment-4025103892",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-09",
+          "createdAtMs": 1773074334000,
+          "issueNumber": 92,
+          "excerpt": "Boots into a cyan screen after like 5 seconds. Tried changing settings and booted like over 10 times.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/415608C3/1773074330525-1.jpg"
+          ],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 13",
+            "platform": "iOS",
+            "osVersion": "iOS 26.0.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        },
+        {
+          "id": "issue-92",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/92",
+          "author": "QualityControled",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1773004630000,
+          "issueNumber": 92,
+          "excerpt": "\"Loads\" into cyan colored screen. Nothing else.",
+          "images": [],
+          "meta": {}
+        },
+        {
+          "id": "issue-66",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/66",
+          "author": "QualityControled",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1772998433000,
+          "issueNumber": 66,
+          "excerpt": "Upon launch, full cyan colored screen. Nothing else.",
           "images": [],
           "meta": {}
         }
@@ -6763,88 +6868,6 @@
             "buildNumber": "9280",
             "commitShort": "`2633e8177`"
           }
-        }
-      ]
-    },
-    "415608C3": {
-      "titleId": "415608C3",
-      "issueNumber": 253,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/253",
-      "updatedAt": "2026-03-14",
-      "entries": [
-        {
-          "id": "issue-253",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/253",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-14",
-          "createdAtMs": 1773453855000,
-          "issueNumber": 253,
-          "excerpt": "cyan 👍",
-          "images": [
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/415608C3/1773453853718-1.jpg"
-          ],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPhone 17 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "`056d2f64d`"
-          }
-        },
-        {
-          "id": "comment-4025103892",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/92#issuecomment-4025103892",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-09",
-          "createdAtMs": 1773074334000,
-          "issueNumber": 92,
-          "excerpt": "Boots into a cyan screen after like 5 seconds. Tried changing settings and booted like over 10 times.",
-          "images": [
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/415608C3/1773074330525-1.jpg"
-          ],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPhone 13",
-            "platform": "iOS",
-            "osVersion": "iOS 26.0.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "`2633e8177`"
-          }
-        },
-        {
-          "id": "issue-92",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/92",
-          "author": "QualityControled",
-          "createdAt": "2026-03-08",
-          "createdAtMs": 1773004630000,
-          "issueNumber": 92,
-          "excerpt": "\"Loads\" into cyan colored screen. Nothing else.",
-          "images": [],
-          "meta": {}
-        },
-        {
-          "id": "issue-66",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/66",
-          "author": "QualityControled",
-          "createdAt": "2026-03-08",
-          "createdAtMs": 1772998433000,
-          "issueNumber": 66,
-          "excerpt": "Upon launch, full cyan colored screen. Nothing else.",
-          "images": [],
-          "meta": {}
         }
       ]
     },
