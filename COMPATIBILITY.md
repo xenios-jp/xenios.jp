@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **252 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **253 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **100** · 🔵 In-Game: **53** · 🟡 Intro: **24** · 🟠 Loads: **35** · 🔴 Doesn't Boot: **40**
+> 🟢 Playable: **100** · 🔵 In-Game: **53** · 🟡 Intro: **24** · 🟠 Loads: **36** · 🔴 Doesn't Boot: **40**
 >
-> 📱 iOS: **236** · 🖥️ macOS: **35**
+> 📱 iOS: **236** · 🖥️ macOS: **36**
 
 ## Legend
 
@@ -218,6 +218,7 @@
 | 🟠 | NBA 2K10 | `54549852` | 🖥️ macOS | Loads | 🐢 Poor | MacBook Air (M4) | 2026-03-18 |
 | 🟠 | NCAA Basketball 10 | `454108C3` | 📱 iOS | Loads | 🐢 Poor | iPhone 16e | 2026-03-11 |
 | 🟠 | Project Gotham Racing 4 | `4D5307F9` | 🖥️ macOS | Loads | 🚀 Great | MacBook Pro (M4 Max) | 2026-03-14 |
+| 🟠 | Red Dead Redemption GOTY Edition | `5454082B` | 🖥️ macOS | Loads | 🐢 Poor | Mac Mini (M1) | 2026-04-03 |
 | 🟠 | Rock Band Classic Rock | `454108B0` | 🖥️ macOS | Loads | 🚀 Great | MacBook Pro (M4) | 2026-03-23 |
 | 🟠 | Rock Band Country Pack | `454108CA` | 🖥️ macOS | Loads | 🚀 Great | MacBook Pro (M4) | 2026-03-23 |
 | 🟠 | Rock Band Country TP 2 | `4541092C` | 🖥️ macOS | Loads | 🚀 Great | MacBook Pro (M4) | 2026-03-23 |

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-03T07:22:34.696Z",
+  "generatedAt": "2026-04-03T18:33:55.963Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2454,6 +2454,26 @@
           "createdAtMs": 1773517964000,
           "issueNumber": 263,
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
+          "images": [],
+          "meta": {}
+        }
+      ]
+    },
+    "5454082B": {
+      "titleId": "5454082B",
+      "issueNumber": 386,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/386",
+      "updatedAt": "2026-04-03",
+      "entries": [
+        {
+          "id": "issue-386",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/386",
+          "author": "AresgettaGamer",
+          "createdAt": "2026-04-03",
+          "createdAtMs": 1775241177000,
+          "issueNumber": 386,
+          "excerpt": "Game boots successfully from an external ExFAT SSD. It reaches the initial loading screen (\"Éxodo en EE. UU.\" / \"Exodus in America\") with the spinning revolver cylinder, but gets stuck in an infinite loading loop and never reaches in-game. Additionally, the audio during the intro and loading screen is heavily distorted/stuttering.\nTested with ffmpeg_disable_neon_on_arm64 enabled and disabled, audio distortion persists.",
           "images": [],
           "meta": {}
         }
