@@ -209034,11 +209034,33 @@
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-18",
+    "updatedAt": "2026-04-03",
     "issueNumber": 53,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/53",
     "notes": "If you skip the intro quickly, you can play the game. However, the game has strong slowdowns",
     "reports": [
+      {
+        "device": "iPhone 13",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-04-03",
+        "notes": "just crashes immediately when I press play",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "stage": "stable",
+          "commitShort": "056d2f64d"
+        }
+      },
       {
         "device": "iPhone 16 Pro Max",
         "platform": "ios",
@@ -209190,19 +209212,19 @@
         "status": "playable",
         "perf": "poor",
         "notes": "If you skip the intro quickly, you can play the game. However, the game has strong slowdowns",
-        "updatedAt": "2026-03-18",
-        "date": "2026-03-18",
-        "reportCount": 6,
+        "updatedAt": "2026-04-03",
+        "date": "2026-04-03",
+        "reportCount": 7,
         "latestReport": {
-          "device": "iPhone 16 Pro Max",
+          "device": "iPhone 13",
           "platform": "ios",
-          "osVersion": "26.3",
+          "osVersion": "26.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-03-18",
-          "notes": "Was able to get into the game after initially turning off compile metal shaders in background. Before turning that off I would get a black screen after choosing the character to start story missions.Has some graphical errors but and plays slow at times. Tested on IPhone 16 pro max",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-04-03",
+          "notes": "just crashes immediately when I press play",
           "screenshots": [],
           "source": "app",
           "build": {
@@ -209211,6 +209233,7 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
+            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         },

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-02T21:41:59.650Z",
+  "generatedAt": "2026-04-03T02:55:04.314Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2456,6 +2456,156 @@
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
           "images": [],
           "meta": {}
+        }
+      ]
+    },
+    "534507D6": {
+      "titleId": "534507D6",
+      "issueNumber": 384,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/384",
+      "updatedAt": "2026-04-03",
+      "entries": [
+        {
+          "id": "issue-384",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/384",
+          "author": "xenios-jp",
+          "createdAt": "2026-04-03",
+          "createdAtMs": 1775184825000,
+          "issueNumber": 384,
+          "excerpt": "just crashes immediately when I press play",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 13",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
+        {
+          "id": "comment-4084309882",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/204#issuecomment-4084309882",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-18",
+          "createdAtMs": 1773854903000,
+          "issueNumber": 204,
+          "excerpt": "Was able to get into the game after initially turning off compile metal shaders in background. Before turning that off I would get a black screen after choosing the character to start story missions.Has some graphical errors but and plays slow at times. Tested on IPhone 16 pro max",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/534507D6/1773854897913-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/534507D6/1773854897913-2.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/534507D6/1773854897913-3.jpg"
+          ],
+          "meta": {
+            "status": "ingame",
+            "perf": "poor",
+            "device": "iPhone 16 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
+        {
+          "id": "comment-4065947902",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/204#issuecomment-4065947902",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-16",
+          "createdAtMs": 1773649713000,
+          "issueNumber": 204,
+          "excerpt": "NO SOUND NO NOTHING JUST BLACK SCREEN",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 14",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
+        {
+          "id": "comment-4060743005",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/204#issuecomment-4060743005",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-14",
+          "createdAtMs": 1773503110000,
+          "issueNumber": 204,
+          "excerpt": "If you skip the intro quickly, you can play the game. However, the game has strong slowdowns",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "poor",
+            "device": "iPhone 16 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
+        {
+          "id": "comment-4060661577",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/204#issuecomment-4060661577",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-14",
+          "createdAtMs": 1773499606000,
+          "issueNumber": 204,
+          "excerpt": "Black screen",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 16 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
+        {
+          "id": "issue-204",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/204",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-11",
+          "createdAtMs": 1773247264000,
+          "issueNumber": 204,
+          "excerpt": "Doesn’t want to launch. Kicks me out and shows black screen if I attempt to launch again",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 16",
+            "platform": "iOS",
+            "osVersion": "iOS 26.2.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9296",
+            "commitShort": "`ab2ca341a`"
+          }
         }
       ]
     },
@@ -8375,145 +8525,6 @@
             "buildNumber": "9296",
             "commitShort": "`ab2ca341a`"
           }
-        }
-      ]
-    },
-    "534507D6": {
-      "titleId": "534507D6",
-      "issueNumber": 204,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/204",
-      "updatedAt": "2026-03-18",
-      "entries": [
-        {
-          "id": "comment-4084309882",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/204#issuecomment-4084309882",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-18",
-          "createdAtMs": 1773854903000,
-          "issueNumber": 204,
-          "excerpt": "Was able to get into the game after initially turning off compile metal shaders in background. Before turning that off I would get a black screen after choosing the character to start story missions.Has some graphical errors but and plays slow at times. Tested on IPhone 16 pro max",
-          "images": [
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/534507D6/1773854897913-1.jpg",
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/534507D6/1773854897913-2.jpg",
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/534507D6/1773854897913-3.jpg"
-          ],
-          "meta": {
-            "status": "ingame",
-            "perf": "poor",
-            "device": "iPhone 16 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "`056d2f64d`"
-          }
-        },
-        {
-          "id": "comment-4065947902",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/204#issuecomment-4065947902",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-16",
-          "createdAtMs": 1773649713000,
-          "issueNumber": 204,
-          "excerpt": "NO SOUND NO NOTHING JUST BLACK SCREEN",
-          "images": [],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPhone 14",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "`056d2f64d`"
-          }
-        },
-        {
-          "id": "comment-4060743005",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/204#issuecomment-4060743005",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-14",
-          "createdAtMs": 1773503110000,
-          "issueNumber": 204,
-          "excerpt": "If you skip the intro quickly, you can play the game. However, the game has strong slowdowns",
-          "images": [],
-          "meta": {
-            "status": "playable",
-            "perf": "poor",
-            "device": "iPhone 16 Pro",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "`056d2f64d`"
-          }
-        },
-        {
-          "id": "comment-4060661577",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/204#issuecomment-4060661577",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-14",
-          "createdAtMs": 1773499606000,
-          "issueNumber": 204,
-          "excerpt": "Black screen",
-          "images": [],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPhone 16 Pro",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "`056d2f64d`"
-          }
-        },
-        {
-          "id": "issue-204",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/204",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-11",
-          "createdAtMs": 1773247264000,
-          "issueNumber": 204,
-          "excerpt": "Doesn’t want to launch. Kicks me out and shows black screen if I attempt to launch again",
-          "images": [],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPhone 16",
-            "platform": "iOS",
-            "osVersion": "iOS 26.2.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9296",
-            "commitShort": "`ab2ca341a`"
-          }
-        },
-        {
-          "id": "issue-53",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/53",
-          "author": "daisuke1227",
-          "createdAt": "2026-03-08",
-          "createdAtMs": 1772995043000,
-          "issueNumber": 53,
-          "excerpt": "So basically this took a couple of launches for it to even get past the title screen and it's at 30FPS when launching the game it doesn't render it correctly and it's just a green mess of whatever and sometimes even in game it just doesn't render things correctly (shown in the video) and performance doesn't change even when not recording",
-          "images": [],
-          "meta": {}
         }
       ]
     },
