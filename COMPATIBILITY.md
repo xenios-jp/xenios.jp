@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **253 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **254 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **100** · 🔵 In-Game: **53** · 🟡 Intro: **24** · 🟠 Loads: **36** · 🔴 Doesn't Boot: **40**
+> 🟢 Playable: **101** · 🔵 In-Game: **53** · 🟡 Intro: **24** · 🟠 Loads: **36** · 🔴 Doesn't Boot: **40**
 >
-> 📱 iOS: **236** · 🖥️ macOS: **36**
+> 📱 iOS: **237** · 🖥️ macOS: **36**
 
 ## Legend
 
@@ -21,6 +21,7 @@
 | | Title | Title ID | Platform | Status | Perf | Last Device | Updated |
 |-|-------|----------|----------|--------|------|-------------|---------|
 | 🟢 | 50 Cent: Blood on the Sand | `5451083B` | 📱 iOS | Playable | 👌 OK | iPhone 16e | 2026-03-10 |
+| 🟢 | AFL Live 2 | `484507D6` | 📱 iOS | Playable | 🚀 Great | iPhone 17 | 2026-04-03 |
 | 🟢 | Alan Wake | `4D530805` | 📱 iOS | Playable | 🐢 Poor | iPad (A16) | 2026-03-09 |
 | 🟢 | Alice: Madness Returns | `45410916` | 📱 iOS | Playable | 👌 OK | iPhone 16 Plus | 2026-03-17 |
 | 🟢 | Angry Birds Trilogy | `415608E4` | 📱 iOS | Playable | 🚀 Great | iPad (A16) | 2026-03-09 |
