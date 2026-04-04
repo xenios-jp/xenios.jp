@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-04T02:40:19.537Z",
+  "generatedAt": "2026-04-04T03:12:42.488Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2456,6 +2456,37 @@
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
           "images": [],
           "meta": {}
+        }
+      ]
+    },
+    "454109F2": {
+      "titleId": "454109F2",
+      "issueNumber": 388,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/388",
+      "updatedAt": "2026-04-04",
+      "entries": [
+        {
+          "id": "issue-388",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/388",
+          "author": "xenios-jp",
+          "createdAt": "2026-04-04",
+          "createdAtMs": 1775272281000,
+          "issueNumber": 388,
+          "excerpt": "Screen goes black",
+          "images": [],
+          "meta": {
+            "status": "intro",
+            "perf": "poor",
+            "device": "iPad Air 11-inch (M3)",
+            "platform": "iOS",
+            "osVersion": "iOS 18.5",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
         }
       ]
     },

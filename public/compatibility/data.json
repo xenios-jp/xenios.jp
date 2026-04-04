@@ -7675,7 +7675,6 @@
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9289",
-          "stage": "stable",
           "commitShort": "bfc99274d"
         }
       }
@@ -7719,7 +7718,6 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9289",
-            "stage": "stable",
             "commitShort": "bfc99274d"
           }
         },
@@ -7741,7 +7739,6 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9289",
-            "stage": "stable",
             "commitShort": "bfc99274d"
           }
         }
@@ -46824,29 +46821,7 @@
           "official": false,
           "appVersion": "1.0.0",
           "buildNumber": "9296",
-          "stage": "stable",
           "commitShort": "ab2ca341a"
-        }
-      },
-      {
-        "device": "iPhone 17 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-03-14",
-        "notes": "cyan 👍",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
         }
       },
       {
@@ -46896,7 +46871,7 @@
         "notes": "Cyan",
         "updatedAt": "2026-04-03",
         "date": "2026-04-03",
-        "reportCount": 3,
+        "reportCount": 2,
         "latestReport": {
           "device": "iPhone 17 Pro",
           "platform": "ios",
@@ -46915,7 +46890,6 @@
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9296",
-            "stage": "stable",
             "commitShort": "ab2ca341a"
           }
         },
@@ -46937,7 +46911,6 @@
             "official": false,
             "appVersion": "1.0.0",
             "buildNumber": "9296",
-            "stage": "stable",
             "commitShort": "ab2ca341a"
           }
         }
@@ -97853,16 +97826,16 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 16 Pro",
-      "platform": "ios",
-      "osVersion": "26.3.1",
+      "device": "MacBook Pro M4 Pro/Max",
+      "platform": "macos",
+      "osVersion": "26.3",
       "arch": "arm64",
-      "gpuBackend": "msl"
+      "gpuBackend": "msc"
     },
     "updatedAt": "2026-04-02",
     "issueNumber": 40,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/40",
-    "notes": "Able to load into game, low frame rates and severe graphical bugs but functions.",
+    "notes": "Runs well but with pretty severe intermittent graphical issues.",
     "reports": [
       {
         "device": "iPhone 14 Pro",
@@ -97882,50 +97855,7 @@
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
           "commitShort": "056d2f64d"
-        }
-      },
-      {
-        "device": "iPhone 16 Pro",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "perf": "ok",
-        "date": "2026-03-11",
-        "notes": "Able to load into game, low frame rates and severe graphical bugs but functions.",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.0-9296",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9296",
-          "commitShort": "ab2ca341a"
-        }
-      },
-      {
-        "device": "iPhone 16 Pro",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "intro",
-        "perf": "ok",
-        "date": "2026-03-11",
-        "notes": "Makes it into and through the game start menu, gets stuck loading when starting campaign. Will continue to test and amend if changes.",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.0-9294",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9294",
-          "commitShort": "3f7efcbfb"
         }
       },
       {
@@ -97994,10 +97924,10 @@
         "channel": "all",
         "status": "ingame",
         "perf": "ok",
-        "notes": "Able to load into game, low frame rates and severe graphical bugs but functions.",
+        "notes": "Runs well but with pretty severe intermittent graphical issues.",
         "updatedAt": "2026-04-02",
         "date": "2026-04-02",
-        "reportCount": 4,
+        "reportCount": 2,
         "latestReport": {
           "device": "iPhone 14 Pro",
           "platform": "ios",
@@ -98016,30 +97946,24 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
-          "device": "iPhone 16 Pro",
-          "platform": "ios",
-          "osVersion": "26.3.1",
+          "device": "MacBook Pro M4 Pro/Max",
+          "platform": "macos",
+          "osVersion": "26.3",
           "arch": "arm64",
-          "gpuBackend": "msl",
+          "gpuBackend": "msc",
           "status": "ingame",
           "perf": "ok",
-          "date": "2026-03-11",
-          "notes": "Able to load into game, low frame rates and severe graphical bugs but functions.",
+          "date": "2026-02-28",
+          "notes": "Runs well but with pretty severe intermittent graphical issues.",
+          "reportedTitleId": "4D5307D5",
+          "reportedTitle": "Gears of War",
           "screenshots": [],
-          "source": "app",
-          "build": {
-            "buildId": "ios-self-built-1.0.0-9296",
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9296",
-            "commitShort": "ab2ca341a"
-          }
+          "submittedBy": "reality111",
+          "source": "discord"
         }
       }
     }
@@ -98213,7 +98137,6 @@
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
           "commitShort": "056d2f64d"
         }
       },
@@ -98280,7 +98203,6 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         },
@@ -102954,7 +102876,6 @@
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
           "commitShort": "056d2f64d"
         }
       },
@@ -103124,7 +103045,6 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         },
@@ -137377,14 +137297,47 @@
     "titleIds": [
       "454109F2"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "intro",
+    "perf": "poor",
     "tags": [],
-    "platforms": [],
-    "lastReport": null,
-    "updatedAt": "",
-    "notes": "",
-    "reports": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPad Air 11-inch 7th Gen",
+      "platform": "ios",
+      "osVersion": "18.5",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-04-04",
+    "issueNumber": 388,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/388",
+    "notes": "Screen goes black",
+    "reports": [
+      {
+        "device": "iPad Air 11-inch 7th Gen",
+        "platform": "ios",
+        "osVersion": "18.5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "intro",
+        "perf": "poor",
+        "date": "2026-04-04",
+        "notes": "Screen goes black",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "stage": "stable",
+          "commitShort": "056d2f64d"
+        }
+      }
+    ],
     "screenshots": [],
     "summaries": {
       "release": {
@@ -137400,14 +137353,56 @@
       },
       "all": {
         "channel": "all",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "intro",
+        "perf": "poor",
+        "notes": "Screen goes black",
+        "updatedAt": "2026-04-04",
+        "date": "2026-04-04",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPad Air 11-inch 7th Gen",
+          "platform": "ios",
+          "osVersion": "18.5",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "intro",
+          "perf": "poor",
+          "date": "2026-04-04",
+          "notes": "Screen goes black",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "stage": "stable",
+            "commitShort": "056d2f64d"
+          }
+        },
+        "bestReport": {
+          "device": "iPad Air 11-inch 7th Gen",
+          "platform": "ios",
+          "osVersion": "18.5",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "intro",
+          "perf": "poor",
+          "date": "2026-04-04",
+          "notes": "Screen goes black",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "stage": "stable",
+            "commitShort": "056d2f64d"
+          }
+        }
       }
     }
   },
@@ -186341,7 +186336,10 @@
         "perf": "poor",
         "date": "2026-04-03",
         "notes": "Game boots successfully from an external ExFAT SSD. It reaches the initial loading screen (\"Éxodo en EE. UU.\" / \"Exodus in America\") with the spinning revolver cylinder, but gets stuck in an infinite loading loop and never reaches in-game. Additionally, the audio during the intro and loading screen is heavily distorted/stuttering.\nTested with ffmpeg_disable_neon_on_arm64 enabled and disabled, audio distortion persists.",
+        "reportedTitleId": "5454082B",
+        "reportedTitle": "Red Dead Redemption",
         "screenshots": [],
+        "submittedBy": "AresgettaGamer",
         "source": "github",
         "build": {
           "buildId": "macos-release-1.0.1-9288",
@@ -186373,7 +186371,10 @@
           "perf": "poor",
           "date": "2026-04-03",
           "notes": "Game boots successfully from an external ExFAT SSD. It reaches the initial loading screen (\"Éxodo en EE. UU.\" / \"Exodus in America\") with the spinning revolver cylinder, but gets stuck in an infinite loading loop and never reaches in-game. Additionally, the audio during the intro and loading screen is heavily distorted/stuttering.\nTested with ffmpeg_disable_neon_on_arm64 enabled and disabled, audio distortion persists.",
+          "reportedTitleId": "5454082B",
+          "reportedTitle": "Red Dead Redemption",
           "screenshots": [],
+          "submittedBy": "AresgettaGamer",
           "source": "github",
           "build": {
             "buildId": "macos-release-1.0.1-9288",
@@ -186394,7 +186395,10 @@
           "perf": "poor",
           "date": "2026-04-03",
           "notes": "Game boots successfully from an external ExFAT SSD. It reaches the initial loading screen (\"Éxodo en EE. UU.\" / \"Exodus in America\") with the spinning revolver cylinder, but gets stuck in an infinite loading loop and never reaches in-game. Additionally, the audio during the intro and loading screen is heavily distorted/stuttering.\nTested with ffmpeg_disable_neon_on_arm64 enabled and disabled, audio distortion persists.",
+          "reportedTitleId": "5454082B",
+          "reportedTitle": "Red Dead Redemption",
           "screenshots": [],
+          "submittedBy": "AresgettaGamer",
           "source": "github",
           "build": {
             "buildId": "macos-release-1.0.1-9288",
@@ -186424,7 +186428,10 @@
           "perf": "poor",
           "date": "2026-04-03",
           "notes": "Game boots successfully from an external ExFAT SSD. It reaches the initial loading screen (\"Éxodo en EE. UU.\" / \"Exodus in America\") with the spinning revolver cylinder, but gets stuck in an infinite loading loop and never reaches in-game. Additionally, the audio during the intro and loading screen is heavily distorted/stuttering.\nTested with ffmpeg_disable_neon_on_arm64 enabled and disabled, audio distortion persists.",
+          "reportedTitleId": "5454082B",
+          "reportedTitle": "Red Dead Redemption",
           "screenshots": [],
+          "submittedBy": "AresgettaGamer",
           "source": "github",
           "build": {
             "buildId": "macos-release-1.0.1-9288",
@@ -186445,7 +186452,10 @@
           "perf": "poor",
           "date": "2026-04-03",
           "notes": "Game boots successfully from an external ExFAT SSD. It reaches the initial loading screen (\"Éxodo en EE. UU.\" / \"Exodus in America\") with the spinning revolver cylinder, but gets stuck in an infinite loading loop and never reaches in-game. Additionally, the audio during the intro and loading screen is heavily distorted/stuttering.\nTested with ffmpeg_disable_neon_on_arm64 enabled and disabled, audio distortion persists.",
+          "reportedTitleId": "5454082B",
+          "reportedTitle": "Red Dead Redemption",
           "screenshots": [],
+          "submittedBy": "AresgettaGamer",
           "source": "github",
           "build": {
             "buildId": "macos-release-1.0.1-9288",
@@ -202960,7 +202970,7 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPad17,1",
+      "device": "iPad Pro 11-inch (M5)",
       "platform": "ios",
       "osVersion": "26.3.1",
       "arch": "arm64",
@@ -202972,7 +202982,7 @@
     "notes": "The game crashes immediately after selecting either Silent Hill 2 or 3 from the main menu. Once a game is chosen, the emulator navigates back to the library, Then when trying to relaunch the screen just remains stuck on a black screen.",
     "reports": [
       {
-        "device": "iPad17,1",
+        "device": "iPad Pro 11-inch (M5)",
         "platform": "ios",
         "osVersion": "26.3.1",
         "arch": "arm64",
@@ -202989,7 +202999,6 @@
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
           "commitShort": "056d2f64d"
         }
       }
@@ -203016,7 +203025,7 @@
         "date": "2026-03-31",
         "reportCount": 1,
         "latestReport": {
-          "device": "iPad17,1",
+          "device": "iPad Pro 11-inch (M5)",
           "platform": "ios",
           "osVersion": "26.3.1",
           "arch": "arm64",
@@ -203033,12 +203042,11 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
-          "device": "iPad17,1",
+          "device": "iPad Pro 11-inch (M5)",
           "platform": "ios",
           "osVersion": "26.3.1",
           "arch": "arm64",
@@ -203055,7 +203063,6 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         }
@@ -209256,23 +209263,23 @@
     "titleIds": [
       "534507D6"
     ],
-    "status": "playable",
-    "perf": "poor",
+    "status": "ingame",
+    "perf": "ok",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 16 Pro",
+      "device": "iPhone Air",
       "platform": "ios",
-      "osVersion": "26.3",
+      "osVersion": "26.0",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-04-03",
     "issueNumber": 53,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/53",
-    "notes": "If you skip the intro quickly, you can play the game. However, the game has strong slowdowns",
+    "notes": "So basically this took a couple of launches for it to even get past the title screen and it's at 30FPS when launching the game it doesn't render it correctly and it's just a green mess of whatever and sometimes even in game it just doesn't render things correctly (shown in the video) and performance doesn't change even when not recording",
     "reports": [
       {
         "device": "iPhone 13",
@@ -209292,113 +209299,7 @@
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
           "commitShort": "056d2f64d"
-        }
-      },
-      {
-        "device": "iPhone 16 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "perf": "poor",
-        "date": "2026-03-18",
-        "notes": "Was able to get into the game after initially turning off compile metal shaders in background. Before turning that off I would get a black screen after choosing the character to start story missions.Has some graphical errors but and plays slow at times. Tested on IPhone 16 pro max",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
-        }
-      },
-      {
-        "device": "iPhone 14",
-        "platform": "ios",
-        "osVersion": "26.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-03-16",
-        "notes": "NO SOUND NO NOTHING JUST BLACK SCREEN",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
-        }
-      },
-      {
-        "device": "iPhone 16 Pro",
-        "platform": "ios",
-        "osVersion": "26.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "poor",
-        "date": "2026-03-14",
-        "notes": "If you skip the intro quickly, you can play the game. However, the game has strong slowdowns",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
-        }
-      },
-      {
-        "device": "iPhone 16 Pro",
-        "platform": "ios",
-        "osVersion": "26.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-03-14",
-        "notes": "Black screen",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
-        }
-      },
-      {
-        "device": "iPhone 16",
-        "platform": "ios",
-        "osVersion": "26.2.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-03-11",
-        "notes": "Doesn’t want to launch. Kicks me out and shows black screen if I attempt to launch again",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.0-9296",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9296",
-          "commitShort": "ab2ca341a"
         }
       },
       {
@@ -209444,12 +209345,12 @@
       },
       "all": {
         "channel": "all",
-        "status": "playable",
-        "perf": "poor",
-        "notes": "If you skip the intro quickly, you can play the game. However, the game has strong slowdowns",
+        "status": "ingame",
+        "perf": "ok",
+        "notes": "So basically this took a couple of launches for it to even get past the title screen and it's at 30FPS when launching the game it doesn't render it correctly and it's just a green mess of whatever and sometimes even in game it just doesn't render things correctly (shown in the video) and performance doesn't change even when not recording",
         "updatedAt": "2026-04-03",
         "date": "2026-04-03",
-        "reportCount": 7,
+        "reportCount": 2,
         "latestReport": {
           "device": "iPhone 13",
           "platform": "ios",
@@ -209468,29 +209369,30 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
-          "device": "iPhone 16 Pro",
+          "device": "iPhone Air",
           "platform": "ios",
-          "osVersion": "26.3",
+          "osVersion": "26.0",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "poor",
-          "date": "2026-03-14",
-          "notes": "If you skip the intro quickly, you can play the game. However, the game has strong slowdowns",
+          "status": "ingame",
+          "perf": "ok",
+          "date": "2026-03-08",
+          "notes": "So basically this took a couple of launches for it to even get past the title screen and it's at 30FPS when launching the game it doesn't render it correctly and it's just a green mess of whatever and sometimes even in game it just doesn't render things correctly (shown in the video) and performance doesn't change even when not recording",
+          "reportedTitleId": "534507D6",
+          "reportedTitle": "Sonic the Hedgehog",
           "screenshots": [],
-          "source": "app",
+          "source": "github",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
+            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "2633E8177"
           }
         }
       }
