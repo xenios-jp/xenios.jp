@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **255 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **256 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **100** · 🔵 In-Game: **54** · 🟡 Intro: **25** · 🟠 Loads: **36** · 🔴 Doesn't Boot: **40**
+> 🟢 Playable: **100** · 🔵 In-Game: **54** · 🟡 Intro: **25** · 🟠 Loads: **37** · 🔴 Doesn't Boot: **40**
 >
-> 📱 iOS: **238** · 🖥️ macOS: **36**
+> 📱 iOS: **239** · 🖥️ macOS: **36**
 
 ## Legend
 
@@ -208,6 +208,7 @@
 | 🟠 | Crysis 3 | `4541098E` | 📱 iOS | Loads | 🐢 Poor | iPad Pro M5 | 2026-03-09 |
 | 🟠 | Dark Souls | `4E4D083A` | 📱 iOS | Loads | 🐢 Poor | iPhone 16e | 2026-03-16 |
 | 🟠 | Deadpool | `415608EC` | 📱 iOS | Loads | 🚀 Great | iPhone 15 Pro | 2026-03-22 |
+| 🟠 | Dragon Ball Z Ultimate Tenkaichi | `4E4D0846` | 📱 iOS | Loads | 🐢 Poor | iPad Air 11-inch (M3) | 2026-04-04 |
 | 🟠 | Epic Mickey 2 The Power Of Two | `42560816` | 📱 iOS | Loads | 🐢 Poor | iPhone 15 Pro Max | 2026-03-08 |
 | 🟠 | FIFA Street 3 | `4541083B` | 📱 iOS | Loads | ➖ N/A | iPad Air 5 | 2026-03-09 |
 | 🟠 | Forza Horizon 2 | `4D530AA4` | 📱 iOS | Loads | 🐢 Poor | iPhone 17 Pro Max | 2026-03-08 |
