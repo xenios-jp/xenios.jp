@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-04T18:22:25.360Z",
+  "generatedAt": "2026-04-04T23:22:09.670Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2276,6 +2276,37 @@
             "appVersion": "1.0.0",
             "buildNumber": "9280",
             "commitShort": "`2633e8177`"
+          }
+        }
+      ]
+    },
+    "55530884": {
+      "titleId": "55530884",
+      "issueNumber": 390,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/390",
+      "updatedAt": "2026-04-04",
+      "entries": [
+        {
+          "id": "issue-390",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/390",
+          "author": "xenios-jp",
+          "createdAt": "2026-04-04",
+          "createdAtMs": 1775344880000,
+          "issueNumber": 390,
+          "excerpt": "It plays well",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPad Pro 12.9-inch 4",
+            "platform": "iOS",
+            "osVersion": "iOS 18.3.2",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
           }
         }
       ]

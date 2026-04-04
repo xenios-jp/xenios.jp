@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **256 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **257 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **100** · 🔵 In-Game: **54** · 🟡 Intro: **25** · 🟠 Loads: **37** · 🔴 Doesn't Boot: **40**
+> 🟢 Playable: **101** · 🔵 In-Game: **54** · 🟡 Intro: **25** · 🟠 Loads: **37** · 🔴 Doesn't Boot: **40**
 >
-> 📱 iOS: **239** · 🖥️ macOS: **36**
+> 📱 iOS: **240** · 🖥️ macOS: **36**
 
 ## Legend
 
@@ -94,6 +94,7 @@
 | 🟢 | PROTOTYPE | `4156084E` | 📱 iOS | Playable | 🐢 Poor | iPhone 16 Pro Max | 2026-03-16 |
 | 🟢 | Pure | `425607D9` | 📱 iOS | Playable | 👌 OK | iPad Pro 11 inch 5th Gen | 2026-03-18 |
 | 🟢 | Quantum of Solace | `415607FF` | 📱 iOS | Playable | 👌 OK | iPad Pro 12.9-inch (M2) | 2026-03-11 |
+| 🟢 | Rayman Origins | `55530884` | 📱 iOS | Playable | 🚀 Great | iPad Pro 12.9-inch 4 | 2026-04-04 |
 | 🟢 | Resident Evil Revelations | `43430833` | 📱 iOS | Playable | 👌 OK | iPhone 16 | 2026-03-15 |
 | 🟢 | Ridge Racer 6 | `4E4D07D3` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-08 |
 | 🟢 | Rock Band | `45410829` | 🖥️ macOS, 📱 iOS | Playable | 🚀 Great | MacBook Pro (M4) | 2026-03-23 |

@@ -185235,14 +185235,47 @@
       "55530884",
       "55538899"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
-    "platforms": [],
-    "lastReport": null,
-    "updatedAt": "",
-    "notes": "",
-    "reports": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPad Pro 12.9 inch 4th Gen",
+      "platform": "ios",
+      "osVersion": "18.3.2",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-04-04",
+    "issueNumber": 390,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/390",
+    "notes": "It plays well",
+    "reports": [
+      {
+        "device": "iPad Pro 12.9 inch 4th Gen",
+        "platform": "ios",
+        "osVersion": "18.3.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-04-04",
+        "notes": "It plays well",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "stage": "stable",
+          "commitShort": "056d2f64d"
+        }
+      }
+    ],
     "screenshots": [],
     "summaries": {
       "release": {
@@ -185258,14 +185291,56 @@
       },
       "all": {
         "channel": "all",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "playable",
+        "perf": "great",
+        "notes": "It plays well",
+        "updatedAt": "2026-04-04",
+        "date": "2026-04-04",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPad Pro 12.9 inch 4th Gen",
+          "platform": "ios",
+          "osVersion": "18.3.2",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-04-04",
+          "notes": "It plays well",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "stage": "stable",
+            "commitShort": "056d2f64d"
+          }
+        },
+        "bestReport": {
+          "device": "iPad Pro 12.9 inch 4th Gen",
+          "platform": "ios",
+          "osVersion": "18.3.2",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-04-04",
+          "notes": "It plays well",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "stage": "stable",
+            "commitShort": "056d2f64d"
+          }
+        }
       }
     }
   },
