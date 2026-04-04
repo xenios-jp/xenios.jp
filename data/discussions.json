@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-03T21:18:54.265Z",
+  "generatedAt": "2026-04-04T02:40:19.537Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -3383,8 +3383,33 @@
       "titleId": "545408A7",
       "issueNumber": 369,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/369",
-      "updatedAt": "2026-03-28",
+      "updatedAt": "2026-04-04",
       "entries": [
+        {
+          "id": "comment-4186056104",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/369#issuecomment-4186056104",
+          "author": "xenios-jp",
+          "createdAt": "2026-04-04",
+          "createdAtMs": 1775270346000,
+          "issueNumber": 369,
+          "excerpt": "Black screen after the R* & R* north logos",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408A7/1775270340275-1.jpg"
+          ],
+          "meta": {
+            "status": "loads",
+            "perf": "poor",
+            "device": "iPhone 13 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 18.7.7",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
         {
           "id": "comment-4148028891",
           "type": "comment",
@@ -3493,29 +3518,6 @@
           "excerpt": "> \n> Game loads into then black screens. I have extra ram entitlement, Jit, and i am using the custom script recommended by the developers of xenios. I am on a 13in 5G M4 iPad Pro 1TB 16gigs of ram. People saying they got it to run on iPhones but didn’t share how. Ridiculous on their part.\n> \n> _Submitted via XeniOS in-app reporter_\n\nIt loads in. Make sure ur in the discord there’s a whole tutorial for it and people willing to help not sure what ur talking about.",
           "images": [],
           "meta": {}
-        },
-        {
-          "id": "comment-4093476802",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/214#issuecomment-4093476802",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-19",
-          "createdAtMs": 1773956523000,
-          "issueNumber": 214,
-          "excerpt": "Game loads into then black screens. I have extra ram entitlement, Jit, and i am using the custom script recommended by the developers of xenios. I am on a 13in 5G M4 iPad Pro 1TB 16gigs of ram. People saying they got it to run on iPhones but didn’t share how. Ridiculous on their part.",
-          "images": [],
-          "meta": {
-            "status": "intro",
-            "perf": "poor",
-            "device": "iPad Pro 13-inch (M4)",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "`056d2f64d`"
-          }
         }
       ]
     },
