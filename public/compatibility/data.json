@@ -102573,11 +102573,33 @@
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-28",
+    "updatedAt": "2026-04-05",
     "issueNumber": 41,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/41",
     "notes": "Playable with decent frame rate. Sound has issues",
     "reports": [
+      {
+        "device": "iPhone 13 Pro",
+        "platform": "ios",
+        "osVersion": "18.7.7",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "ok",
+        "date": "2026-04-05",
+        "notes": "Surprised it actually ran on the device, sometimes crashes ingame, around 15fps 20 fps at most, the device could do much better obviously",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "stage": "stable",
+          "commitShort": "056d2f64d"
+        }
+      },
       {
         "device": "iPhone 16",
         "platform": "ios",
@@ -102935,19 +102957,19 @@
         "status": "playable",
         "perf": "great",
         "notes": "Playable with decent frame rate. Sound has issues",
-        "updatedAt": "2026-03-28",
-        "date": "2026-03-28",
-        "reportCount": 14,
+        "updatedAt": "2026-04-05",
+        "date": "2026-04-05",
+        "reportCount": 15,
         "latestReport": {
-          "device": "iPhone 16",
+          "device": "iPhone 13 Pro",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "18.7.7",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "ingame",
-          "perf": "poor",
-          "date": "2026-03-28",
-          "notes": "No sound fps stuck at 7",
+          "perf": "ok",
+          "date": "2026-04-05",
+          "notes": "Surprised it actually ran on the device, sometimes crashes ingame, around 15fps 20 fps at most, the device could do much better obviously",
           "screenshots": [],
           "source": "app",
           "build": {
@@ -102956,6 +102978,7 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
+            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         },
