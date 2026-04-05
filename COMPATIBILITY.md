@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **258 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **259 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **100** · 🔵 In-Game: **55** · 🟡 Intro: **25** · 🟠 Loads: **38** · 🔴 Doesn't Boot: **40**
+> 🟢 Playable: **100** · 🔵 In-Game: **56** · 🟡 Intro: **25** · 🟠 Loads: **38** · 🔴 Doesn't Boot: **40**
 >
-> 📱 iOS: **241** · 🖥️ macOS: **36**
+> 📱 iOS: **242** · 🖥️ macOS: **36**
 
 ## Legend
 
@@ -169,6 +169,7 @@
 | 🔵 | Pro Evolution Soccer 2013 / PES 2013 | `4B4E084C` | 📱 iOS | In-Game | 👌 OK | iPhone11,2 | 2026-03-23 |
 | 🔵 | Rayman Legends | `555308C3` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro Max | 2026-03-08 |
 | 🔵 | Resident Evil 6 | `43430819` | 📱 iOS | In-Game | 🐢 Poor | iPhone 13 Pro Max | 2026-03-20 |
+| 🔵 | Resident Evil Code: Veronica X | `43430822` | 📱 iOS | In-Game | 🐢 Poor | iPad (A16) | 2026-04-05 |
 | 🔵 | Saints Row | `545107D1` | 📱 iOS | In-Game | 👌 OK | iPhone 16 | 2026-03-10 |
 | 🔵 | Saints Row 2 | `545107FC` | 📱 iOS | In-Game | 🐢 Poor | iPhone 14 Pro Max | 2026-03-08 |
 | 🔵 | skate. | `45410813` | 📱 iOS | In-Game | 🐢 Poor | iPad Pro (M2) | 2026-03-03 |
