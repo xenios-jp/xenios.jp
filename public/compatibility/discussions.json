@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-05T11:51:36.652Z",
+  "generatedAt": "2026-04-05T16:30:06.438Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2516,6 +2516,61 @@
           "createdAtMs": 1773517964000,
           "issueNumber": 263,
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
+          "images": [],
+          "meta": {}
+        }
+      ]
+    },
+    "4D530A81": {
+      "titleId": "4D530A81",
+      "issueNumber": 393,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/393",
+      "updatedAt": "2026-04-05",
+      "entries": [
+        {
+          "id": "issue-393",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/393",
+          "author": "xenios-jp",
+          "createdAt": "2026-04-05",
+          "createdAtMs": 1775406554000,
+          "issueNumber": 393,
+          "excerpt": "Black Screen",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 16",
+            "platform": "iOS",
+            "osVersion": "iOS 26.4",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
+        {
+          "id": "comment-4114114552",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/49#issuecomment-4114114552",
+          "author": "UncountedOne",
+          "createdAt": "2026-03-23",
+          "createdAtMs": 1774304789000,
+          "issueNumber": 49,
+          "excerpt": "I get to a splash screen on my iPhone 17 Pro and then it takes me back to the library screen. I'm on version 1.0.1 of XeniOS",
+          "images": [],
+          "meta": {}
+        },
+        {
+          "id": "issue-49",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/49",
+          "author": "DevZer0D4Y",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1772992342000,
+          "issueNumber": 49,
+          "excerpt": "Boots, stuck on a black screen. No audio, nothing.",
           "images": [],
           "meta": {}
         }
@@ -11000,38 +11055,6 @@
             "buildNumber": "9280",
             "commitShort": "`2633e8177`"
           }
-        }
-      ]
-    },
-    "4D530A81": {
-      "titleId": "4D530A81",
-      "issueNumber": 49,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/49",
-      "updatedAt": "2026-03-23",
-      "entries": [
-        {
-          "id": "comment-4114114552",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/49#issuecomment-4114114552",
-          "author": "UncountedOne",
-          "createdAt": "2026-03-23",
-          "createdAtMs": 1774304789000,
-          "issueNumber": 49,
-          "excerpt": "I get to a splash screen on my iPhone 17 Pro and then it takes me back to the library screen. I'm on version 1.0.1 of XeniOS",
-          "images": [],
-          "meta": {}
-        },
-        {
-          "id": "issue-49",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/49",
-          "author": "DevZer0D4Y",
-          "createdAt": "2026-03-08",
-          "createdAtMs": 1772992342000,
-          "issueNumber": 49,
-          "excerpt": "Boots, stuck on a black screen. No audio, nothing.",
-          "images": [],
-          "meta": {}
         }
       ]
     },
