@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **257 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **258 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **101** · 🔵 In-Game: **54** · 🟡 Intro: **25** · 🟠 Loads: **37** · 🔴 Doesn't Boot: **40**
+> 🟢 Playable: **101** · 🔵 In-Game: **54** · 🟡 Intro: **25** · 🟠 Loads: **38** · 🔴 Doesn't Boot: **40**
 >
-> 📱 iOS: **240** · 🖥️ macOS: **36**
+> 📱 iOS: **241** · 🖥️ macOS: **36**
 
 ## Legend
 
@@ -212,6 +212,7 @@
 | 🟠 | Dragon Ball Z Ultimate Tenkaichi | `4E4D0846` | 📱 iOS | Loads | 🐢 Poor | iPad Air 11-inch (M3) | 2026-04-04 |
 | 🟠 | Epic Mickey 2 The Power Of Two | `42560816` | 📱 iOS | Loads | 🐢 Poor | iPhone 15 Pro Max | 2026-03-08 |
 | 🟠 | FIFA Street 3 | `4541083B` | 📱 iOS | Loads | ➖ N/A | iPad Air 5 | 2026-03-09 |
+| 🟠 | Final Fantasy XIII-2 | `53510806` | 📱 iOS | Loads | 🐢 Poor | iPhone 16 Pro Max | 2026-04-05 |
 | 🟠 | Forza Horizon 2 | `4D530AA4` | 📱 iOS | Loads | 🐢 Poor | iPhone 17 Pro Max | 2026-03-08 |
 | 🟠 | Jeopardy! | `545108AE` | 📱 iOS | Loads | 🐢 Poor | iPhone 16 Pro | 2026-03-05 |
 | 🟠 | Kung Fu Panda | `415607F2` | 📱 iOS | Loads | 🐢 Poor | iPhone 15 Pro Max | 2026-03-17 |

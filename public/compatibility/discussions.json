@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-04T23:22:09.670Z",
+  "generatedAt": "2026-04-05T06:53:04.812Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1975,6 +1975,37 @@
             "appVersion": "1.0.0",
             "buildNumber": "9280",
             "commitShort": "`2633e8177`"
+          }
+        }
+      ]
+    },
+    "53510806": {
+      "titleId": "53510806",
+      "issueNumber": 391,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/391",
+      "updatedAt": "2026-04-05",
+      "entries": [
+        {
+          "id": "issue-391",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/391",
+          "author": "xenios-jp",
+          "createdAt": "2026-04-05",
+          "createdAtMs": 1775371934000,
+          "issueNumber": 391,
+          "excerpt": "I see the square Enix into logo then I get bombared with some weird static noise and the game just goes black. I remember seeing when Xenios was in development that FF13 was played on it but for some reason it doesn’t work for me",
+          "images": [],
+          "meta": {
+            "status": "loads",
+            "perf": "poor",
+            "device": "iPhone 16 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
           }
         }
       ]

@@ -89519,14 +89519,47 @@
       "53518810",
       "53518812"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "loads",
+    "perf": "poor",
     "tags": [],
-    "platforms": [],
-    "lastReport": null,
-    "updatedAt": "",
-    "notes": "",
-    "reports": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 16 Pro Max",
+      "platform": "ios",
+      "osVersion": "26.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-04-05",
+    "issueNumber": 391,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/391",
+    "notes": "I see the square Enix into logo then I get bombared with some weird static noise and the game just goes black. I remember seeing when Xenios was in development that FF13 was played on it but for some reason it doesn’t work for me",
+    "reports": [
+      {
+        "device": "iPhone 16 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "loads",
+        "perf": "poor",
+        "date": "2026-04-05",
+        "notes": "I see the square Enix into logo then I get bombared with some weird static noise and the game just goes black. I remember seeing when Xenios was in development that FF13 was played on it but for some reason it doesn’t work for me",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "stage": "stable",
+          "commitShort": "056d2f64d"
+        }
+      }
+    ],
     "screenshots": [],
     "summaries": {
       "release": {
@@ -89542,14 +89575,56 @@
       },
       "all": {
         "channel": "all",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "loads",
+        "perf": "poor",
+        "notes": "I see the square Enix into logo then I get bombared with some weird static noise and the game just goes black. I remember seeing when Xenios was in development that FF13 was played on it but for some reason it doesn’t work for me",
+        "updatedAt": "2026-04-05",
+        "date": "2026-04-05",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 16 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "loads",
+          "perf": "poor",
+          "date": "2026-04-05",
+          "notes": "I see the square Enix into logo then I get bombared with some weird static noise and the game just goes black. I remember seeing when Xenios was in development that FF13 was played on it but for some reason it doesn’t work for me",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "stage": "stable",
+            "commitShort": "056d2f64d"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 16 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "loads",
+          "perf": "poor",
+          "date": "2026-04-05",
+          "notes": "I see the square Enix into logo then I get bombared with some weird static noise and the game just goes black. I remember seeing when Xenios was in development that FF13 was played on it but for some reason it doesn’t work for me",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "stage": "stable",
+            "commitShort": "056d2f64d"
+          }
+        }
       }
     }
   },
