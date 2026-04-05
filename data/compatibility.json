@@ -74697,7 +74697,7 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPad Air 11-inch 7th Gen",
+      "device": "iPad Air 11-inch (M3)",
       "platform": "ios",
       "osVersion": "18.5",
       "arch": "arm64",
@@ -74709,7 +74709,7 @@
     "notes": "Loads in that’s it",
     "reports": [
       {
-        "device": "iPad Air 11-inch 7th Gen",
+        "device": "iPad Air 11-inch (M3)",
         "platform": "ios",
         "osVersion": "18.5",
         "arch": "arm64",
@@ -74726,7 +74726,6 @@
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
           "commitShort": "056d2f64d"
         }
       }
@@ -74753,7 +74752,7 @@
         "date": "2026-04-04",
         "reportCount": 1,
         "latestReport": {
-          "device": "iPad Air 11-inch 7th Gen",
+          "device": "iPad Air 11-inch (M3)",
           "platform": "ios",
           "osVersion": "18.5",
           "arch": "arm64",
@@ -74770,12 +74769,11 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
-          "device": "iPad Air 11-inch 7th Gen",
+          "device": "iPad Air 11-inch (M3)",
           "platform": "ios",
           "osVersion": "18.5",
           "arch": "arm64",
@@ -74792,7 +74790,6 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         }
@@ -89555,7 +89552,6 @@
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
           "commitShort": "056d2f64d"
         }
       }
@@ -89599,7 +89595,6 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         },
@@ -89621,7 +89616,6 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         }
@@ -102559,24 +102553,24 @@
     "titleIds": [
       "545407F2"
     ],
-    "status": "playable",
-    "perf": "great",
+    "status": "ingame",
+    "perf": "ok",
     "tags": [],
     "platforms": [
       "ios",
       "macos"
     ],
     "lastReport": {
-      "device": "iPhone 17 Pro Max",
+      "device": "iPhone 13 Pro",
       "platform": "ios",
-      "osVersion": "26.1",
+      "osVersion": "18.7.7",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-04-05",
     "issueNumber": 41,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/41",
-    "notes": "Playable with decent frame rate. Sound has issues",
+    "notes": "Surprised it actually ran on the device, sometimes crashes ingame, around 15fps 20 fps at most, the device could do much better obviously",
     "reports": [
       {
         "device": "iPhone 13 Pro",
@@ -102596,167 +102590,19 @@
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
           "commitShort": "056d2f64d"
         }
       },
       {
-        "device": "iPhone 16",
+        "device": "iPhone 13 Pro",
         "platform": "ios",
-        "osVersion": "26.3.1",
+        "osVersion": "18.7.7",
         "arch": "arm64",
         "gpuBackend": "msl",
         "status": "ingame",
-        "perf": "poor",
-        "date": "2026-03-28",
-        "notes": "No sound fps stuck at 7",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
-        }
-      },
-      {
-        "device": "iPhone 13",
-        "platform": "ios",
-        "osVersion": "18.5",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "intro",
-        "perf": "poor",
-        "date": "2026-03-19",
-        "notes": "Loads first mission endlessly",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
-        }
-      },
-      {
-        "device": "iPhone 15 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "intro",
         "perf": "ok",
-        "date": "2026-03-18",
-        "notes": "Stuck at loading intro mission",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
-        }
-      },
-      {
-        "device": "iPhone11,6",
-        "platform": "ios",
-        "osVersion": "16.4",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-03-18",
-        "notes": "App crashiing",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
-        }
-      },
-      {
-        "device": "iPhone 17 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "great",
-        "date": "2026-03-16",
-        "notes": "Playable with decent frame rate. Sound has issues",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9320",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9320",
-          "commitShort": "3d70b7b41a"
-        }
-      },
-      {
-        "device": "iPhone 15 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.2",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "poor",
-        "date": "2026-03-15",
-        "notes": "5-12FPS",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
-        }
-      },
-      {
-        "device": "iPad Pro 11 inch 5th Gen",
-        "platform": "ios",
-        "osVersion": "26.2",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "ok",
-        "date": "2026-03-15",
-        "notes": "Playable but some stutters and low fps",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
-        }
-      },
-      {
-        "device": "iPhone 17 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "poor",
-        "date": "2026-03-15",
-        "notes": "A little low frame，and also some small lags.\n\nhttps://youtu.be/r6mT1ZWSEDs?si=6GgUYY9NpLXJIEkK",
+        "date": "2026-04-05",
+        "notes": "Needed to add that the sound is okay when loading and breaks once in gameplay",
         "screenshots": [],
         "source": "app",
         "build": {
@@ -102954,12 +102800,12 @@
       },
       "all": {
         "channel": "all",
-        "status": "playable",
-        "perf": "great",
-        "notes": "Playable with decent frame rate. Sound has issues",
+        "status": "ingame",
+        "perf": "ok",
+        "notes": "Surprised it actually ran on the device, sometimes crashes ingame, around 15fps 20 fps at most, the device could do much better obviously",
         "updatedAt": "2026-04-05",
         "date": "2026-04-05",
-        "reportCount": 15,
+        "reportCount": 8,
         "latestReport": {
           "device": "iPhone 13 Pro",
           "platform": "ios",
@@ -102978,29 +102824,28 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
-          "device": "iPhone 17 Pro Max",
+          "device": "iPhone 13 Pro",
           "platform": "ios",
-          "osVersion": "26.1",
+          "osVersion": "18.7.7",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-03-16",
-          "notes": "Playable with decent frame rate. Sound has issues",
+          "status": "ingame",
+          "perf": "ok",
+          "date": "2026-04-05",
+          "notes": "Surprised it actually ran on the device, sometimes crashes ingame, around 15fps 20 fps at most, the device could do much better obviously",
           "screenshots": [],
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9320",
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
             "appVersion": "1.0.1",
-            "buildNumber": "9320",
-            "commitShort": "3d70b7b41a"
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
           }
         }
       }
@@ -137477,7 +137322,7 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPad Air 11-inch 7th Gen",
+      "device": "iPad Air 11-inch (M3)",
       "platform": "ios",
       "osVersion": "18.5",
       "arch": "arm64",
@@ -137489,7 +137334,7 @@
     "notes": "Screen goes black",
     "reports": [
       {
-        "device": "iPad Air 11-inch 7th Gen",
+        "device": "iPad Air 11-inch (M3)",
         "platform": "ios",
         "osVersion": "18.5",
         "arch": "arm64",
@@ -137506,7 +137351,6 @@
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
           "commitShort": "056d2f64d"
         }
       }
@@ -137533,7 +137377,7 @@
         "date": "2026-04-04",
         "reportCount": 1,
         "latestReport": {
-          "device": "iPad Air 11-inch 7th Gen",
+          "device": "iPad Air 11-inch (M3)",
           "platform": "ios",
           "osVersion": "18.5",
           "arch": "arm64",
@@ -137550,12 +137394,11 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
-          "device": "iPad Air 11-inch 7th Gen",
+          "device": "iPad Air 11-inch (M3)",
           "platform": "ios",
           "osVersion": "18.5",
           "arch": "arm64",
@@ -137572,7 +137415,6 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         }
@@ -185340,7 +185182,7 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPad Pro 12.9 inch 4th Gen",
+      "device": "iPad Pro 12.9-inch 4",
       "platform": "ios",
       "osVersion": "18.3.2",
       "arch": "arm64",
@@ -185352,7 +185194,7 @@
     "notes": "It plays well",
     "reports": [
       {
-        "device": "iPad Pro 12.9 inch 4th Gen",
+        "device": "iPad Pro 12.9-inch 4",
         "platform": "ios",
         "osVersion": "18.3.2",
         "arch": "arm64",
@@ -185369,7 +185211,6 @@
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
           "commitShort": "056d2f64d"
         }
       }
@@ -185396,7 +185237,7 @@
         "date": "2026-04-04",
         "reportCount": 1,
         "latestReport": {
-          "device": "iPad Pro 12.9 inch 4th Gen",
+          "device": "iPad Pro 12.9-inch 4",
           "platform": "ios",
           "osVersion": "18.3.2",
           "arch": "arm64",
@@ -185413,12 +185254,11 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
-          "device": "iPad Pro 12.9 inch 4th Gen",
+          "device": "iPad Pro 12.9-inch 4",
           "platform": "ios",
           "osVersion": "18.3.2",
           "arch": "arm64",
@@ -185435,7 +185275,6 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-05T11:48:53.147Z",
+  "generatedAt": "2026-04-05T11:51:36.652Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2528,6 +2528,29 @@
       "updatedAt": "2026-04-05",
       "entries": [
         {
+          "id": "comment-4188766418",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/392#issuecomment-4188766418",
+          "author": "xenios-jp",
+          "createdAt": "2026-04-05",
+          "createdAtMs": 1775389763000,
+          "issueNumber": 392,
+          "excerpt": "Needed to add that the sound is okay when loading and breaks once in gameplay",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "ok",
+            "device": "iPhone 13 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 18.7.7",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
+        {
           "id": "issue-392",
           "type": "issue",
           "url": "https://github.com/xenios-jp/game-compatibility/issues/392",
@@ -2640,33 +2663,6 @@
             "appVersion": "1.0.1",
             "buildNumber": "9288",
             "commitShort": "`056d2f64d`"
-          }
-        },
-        {
-          "id": "comment-4067809263",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/266#issuecomment-4067809263",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-16",
-          "createdAtMs": 1773669024000,
-          "issueNumber": 266,
-          "excerpt": "Playable with decent frame rate. Sound has issues",
-          "images": [
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407F2/1773669019358-1.jpg",
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407F2/1773669019358-2.jpg",
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407F2/1773669019358-3.jpg"
-          ],
-          "meta": {
-            "status": "playable",
-            "perf": "great",
-            "device": "iPhone 17 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 26.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9320",
-            "commitShort": "`3d70b7b41a`"
           }
         }
       ]
