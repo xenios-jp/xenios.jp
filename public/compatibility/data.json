@@ -146374,7 +146374,6 @@
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
           "commitShort": "056d2f64d"
         }
       },
@@ -146487,7 +146486,6 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         },
@@ -178125,23 +178123,44 @@
       "4B4E8852"
     ],
     "status": "ingame",
-    "perf": "ok",
+    "perf": "poor",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone11,2",
+      "device": "iPhone 16",
       "platform": "ios",
-      "osVersion": "18.7.6",
+      "osVersion": "18.6.2",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-23",
+    "updatedAt": "2026-04-06",
     "issueNumber": 346,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/346",
-    "notes": "Football",
+    "notes": "Graphical glitches in cutscenes and the menu is ok but can't play a footbal' game",
     "reports": [
+      {
+        "device": "iPhone 16",
+        "platform": "ios",
+        "osVersion": "18.6.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "poor",
+        "date": "2026-04-06",
+        "notes": "Graphical glitches in cutscenes and the menu is ok but can't play a footbal' game",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "commitShort": "056d2f64d"
+        }
+      },
       {
         "device": "iPhone11,2",
         "platform": "ios",
@@ -178180,21 +178199,21 @@
       "all": {
         "channel": "all",
         "status": "ingame",
-        "perf": "ok",
-        "notes": "Football",
-        "updatedAt": "2026-03-23",
-        "date": "2026-03-23",
-        "reportCount": 1,
+        "perf": "poor",
+        "notes": "Graphical glitches in cutscenes and the menu is ok but can't play a footbal' game",
+        "updatedAt": "2026-04-06",
+        "date": "2026-04-06",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone11,2",
+          "device": "iPhone 16",
           "platform": "ios",
-          "osVersion": "18.7.6",
+          "osVersion": "18.6.2",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "ingame",
-          "perf": "ok",
-          "date": "2026-03-23",
-          "notes": "Football",
+          "perf": "poor",
+          "date": "2026-04-06",
+          "notes": "Graphical glitches in cutscenes and the menu is ok but can't play a footbal' game",
           "screenshots": [],
           "source": "app",
           "build": {
@@ -178207,15 +178226,15 @@
           }
         },
         "bestReport": {
-          "device": "iPhone11,2",
+          "device": "iPhone 16",
           "platform": "ios",
-          "osVersion": "18.7.6",
+          "osVersion": "18.6.2",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "ingame",
-          "perf": "ok",
-          "date": "2026-03-23",
-          "notes": "Football",
+          "perf": "poor",
+          "date": "2026-04-06",
+          "notes": "Graphical glitches in cutscenes and the menu is ok but can't play a footbal' game",
           "screenshots": [],
           "source": "app",
           "build": {
@@ -188386,7 +188405,7 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPad 11th Gen",
+      "device": "iPad (A16)",
       "platform": "ios",
       "osVersion": "18.3",
       "arch": "arm64",
@@ -188398,7 +188417,7 @@
     "notes": "Horrible cutscene glitches and ingame performance is poor",
     "reports": [
       {
-        "device": "iPad 11th Gen",
+        "device": "iPad (A16)",
         "platform": "ios",
         "osVersion": "18.3",
         "arch": "arm64",
@@ -188415,7 +188434,6 @@
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
           "commitShort": "056d2f64d"
         }
       }
@@ -188442,7 +188460,7 @@
         "date": "2026-04-05",
         "reportCount": 1,
         "latestReport": {
-          "device": "iPad 11th Gen",
+          "device": "iPad (A16)",
           "platform": "ios",
           "osVersion": "18.3",
           "arch": "arm64",
@@ -188459,12 +188477,11 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
-          "device": "iPad 11th Gen",
+          "device": "iPad (A16)",
           "platform": "ios",
           "osVersion": "18.3",
           "arch": "arm64",
@@ -188481,7 +188498,6 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         }
