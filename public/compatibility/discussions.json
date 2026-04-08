@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-08T11:19:52.280Z",
+  "generatedAt": "2026-04-08T15:21:31.781Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2249,8 +2249,20 @@
       "titleId": "55530810",
       "issueNumber": 182,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/182",
-      "updatedAt": "2026-03-10",
+      "updatedAt": "2026-04-08",
       "entries": [
+        {
+          "id": "comment-4207359442",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/182#issuecomment-4207359442",
+          "author": "iag85224-ui",
+          "createdAt": "2026-04-08",
+          "createdAtMs": 1775661559000,
+          "issueNumber": 182,
+          "excerpt": "Pls",
+          "images": [],
+          "meta": {}
+        },
         {
           "id": "issue-182",
           "type": "issue",
