@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-08T04:35:38.193Z",
+  "generatedAt": "2026-04-08T11:19:52.280Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2870,8 +2870,31 @@
       "titleId": "415608C3",
       "issueNumber": 385,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/385",
-      "updatedAt": "2026-04-03",
+      "updatedAt": "2026-04-08",
       "entries": [
+        {
+          "id": "comment-4205852531",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/385#issuecomment-4205852531",
+          "author": "xenios-jp",
+          "createdAt": "2026-04-08",
+          "createdAtMs": 1775647098000,
+          "issueNumber": 385,
+          "excerpt": "Just Cyan",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
         {
           "id": "issue-385",
           "type": "issue",
