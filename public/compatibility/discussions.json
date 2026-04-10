@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-10T09:40:36.509Z",
+  "generatedAt": "2026-04-10T10:18:37.780Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -8973,8 +8973,20 @@
       "titleId": "4B4E07D1",
       "issueNumber": 202,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/202",
-      "updatedAt": "2026-03-11",
+      "updatedAt": "2026-04-10",
       "entries": [
+        {
+          "id": "comment-4222793267",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/202#issuecomment-4222793267",
+          "author": "udance4ever",
+          "createdAt": "2026-04-10",
+          "createdAtMs": 1775816176000,
+          "issueNumber": 202,
+          "excerpt": "I have the same experience on a MacBookPro M1 16GB (Xenia commit 2633e8177). Thought I'd add missing screenshots :)\n\nCITY MAP glitching\n<img width=\"1920\" height=\"1080\" alt=\"Image\" src=\" />\n\nRING\n<img width=\"1920\" height=\"1080\" alt=\"Image\" src=\" />",
+          "images": [],
+          "meta": {}
+        },
         {
           "id": "issue-202",
           "type": "issue",
