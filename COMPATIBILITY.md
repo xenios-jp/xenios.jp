@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **259 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **260 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **100** · 🔵 In-Game: **56** · 🟡 Intro: **25** · 🟠 Loads: **38** · 🔴 Doesn't Boot: **40**
+> 🟢 Playable: **100** · 🔵 In-Game: **56** · 🟡 Intro: **25** · 🟠 Loads: **38** · 🔴 Doesn't Boot: **41**
 >
-> 📱 iOS: **242** · 🖥️ macOS: **36**
+> 📱 iOS: **243** · 🖥️ macOS: **36**
 
 ## Legend
 
@@ -239,6 +239,7 @@
 | 🟠 | The Orange Box | `4541080F` | 📱 iOS | Loads | 🐢 Poor | iPhone Air | 2026-03-08 |
 | 🟠 | Tron: Evolution | `425607ED` | 📱 iOS | Loads | 👌 OK | iPhone 15 Pro Max | 2026-03-09 |
 | 🟠 | WWE 12 | `54510890` | 📱 iOS | Loads | 👌 OK | iPhone 15 Pro | 2026-03-11 |
+| 🔴 | Assassin's Creed III | `555308AE` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 Pro Max | 2026-04-10 |
 | 🔴 | Blur | `41560845` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 15 | 2026-03-19 |
 | 🔴 | Call of Duty 3 | `415607E1` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-09 |
 | 🔴 | Call of Duty: Black Ops | `41560855` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 Pro Max | 2026-03-09 |
