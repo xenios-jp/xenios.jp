@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **261 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **262 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **100** · 🔵 In-Game: **57** · 🟡 Intro: **25** · 🟠 Loads: **38** · 🔴 Doesn't Boot: **41**
+> 🟢 Playable: **100** · 🔵 In-Game: **57** · 🟡 Intro: **25** · 🟠 Loads: **38** · 🔴 Doesn't Boot: **42**
 >
-> 📱 iOS: **244** · 🖥️ macOS: **36**
+> 📱 iOS: **245** · 🖥️ macOS: **36**
 
 ## Legend
 
@@ -276,6 +276,7 @@
 | 🔴 | The Amazing Spider-Man 2 | `41560905` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 | 2026-03-12 |
 | 🔴 | The Godfather | `454107E9` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-09 |
 | 🔴 | The Wolf Among Us | `443607D5` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-20 |
+| 🔴 | TMNT | `555307F8` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 13 Pro | 2026-04-10 |
 | 🔴 | Tomb Raider | `53510802` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 15 Pro Max | 2026-03-12 |
 | 🔴 | Transformers: War for Cybertron | `4156084C` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-26 |
 | 🔴 | WWE 2k14 | `545408B2` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 | 2026-03-25 |

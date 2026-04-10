@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-10T06:30:54.263Z",
+  "generatedAt": "2026-04-10T09:40:36.509Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2561,6 +2561,37 @@
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
           "images": [],
           "meta": {}
+        }
+      ]
+    },
+    "555307F8": {
+      "titleId": "555307F8",
+      "issueNumber": 398,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/398",
+      "updatedAt": "2026-04-10",
+      "entries": [
+        {
+          "id": "issue-398",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/398",
+          "author": "xenios-jp",
+          "createdAt": "2026-04-10",
+          "createdAtMs": 1775813982000,
+          "issueNumber": 398,
+          "excerpt": "Black Screen",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 13 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 26.2",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
         }
       ]
     },
