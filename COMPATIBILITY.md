@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **260 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **261 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **100** · 🔵 In-Game: **56** · 🟡 Intro: **25** · 🟠 Loads: **38** · 🔴 Doesn't Boot: **41**
+> 🟢 Playable: **100** · 🔵 In-Game: **57** · 🟡 Intro: **25** · 🟠 Loads: **38** · 🔴 Doesn't Boot: **41**
 >
-> 📱 iOS: **243** · 🖥️ macOS: **36**
+> 📱 iOS: **244** · 🖥️ macOS: **36**
 
 ## Legend
 
@@ -175,6 +175,7 @@
 | 🔵 | skate. | `45410813` | 📱 iOS | In-Game | 🐢 Poor | iPad Pro (M2) | 2026-03-03 |
 | 🔵 | Sonic the Hedgehog | `534507D6` | 📱 iOS | In-Game | 👌 OK | iPhone Air | 2026-04-03 |
 | 🔵 | Spider-Man 3 | `415607E2` | 📱 iOS | In-Game | 🐢 Poor | iPhone 16 | 2026-03-10 |
+| 🔵 | Tekken Tag Tournament 2 | `4E4D0859` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro Max | 2026-04-10 |
 | 🔵 | Tomb Raider Underworld | `534307EC` | 📱 iOS | In-Game | 👌 OK | iPhone 16 Pro Max | 2026-03-11 |
 | 🟡 | Assassin's Creed II | `5553083B` | 📱 iOS | Intro | 👌 OK | iPhone 15 Pro Max | 2026-03-11 |
 | 🟡 | Assassins Creed III - Liberation HD | `584113FC` | 📱 iOS | Intro | 👌 OK | iPhone 15 | 2026-03-12 |

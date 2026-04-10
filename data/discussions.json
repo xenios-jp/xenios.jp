@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-10T00:39:44.385Z",
+  "generatedAt": "2026-04-10T06:30:54.263Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2561,6 +2561,41 @@
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
           "images": [],
           "meta": {}
+        }
+      ]
+    },
+    "4E4D0859": {
+      "titleId": "4E4D0859",
+      "issueNumber": 397,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/397",
+      "updatedAt": "2026-04-10",
+      "entries": [
+        {
+          "id": "issue-397",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/397",
+          "author": "xenios-jp",
+          "createdAt": "2026-04-10",
+          "createdAtMs": 1775802606000,
+          "issueNumber": 397,
+          "excerpt": "Gets in game laggy audio lag outfits have issues on textures.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4E4D0859/1775802601635-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4E4D0859/1775802601635-2.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4E4D0859/1775802601635-3.jpg"
+          ],
+          "meta": {
+            "status": "ingame",
+            "perf": "poor",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.4",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
         }
       ]
     },
