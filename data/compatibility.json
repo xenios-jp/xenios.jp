@@ -236773,8 +236773,8 @@
     "titleIds": [
       "555307F8"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "playable",
+    "perf": "ok",
     "tags": [],
     "platforms": [
       "ios"
@@ -236789,8 +236789,29 @@
     "updatedAt": "2026-04-10",
     "issueNumber": 398,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/398",
-    "notes": "Black Screen",
+    "notes": "Audio started glitching at 2nd mission",
     "reports": [
+      {
+        "device": "iPhone 13 Pro",
+        "platform": "ios",
+        "osVersion": "26.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-04-10",
+        "notes": "Audio started glitching at 2nd mission",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "commitShort": "056d2f64d"
+        }
+      },
       {
         "device": "iPhone 13 Pro",
         "platform": "ios",
@@ -236828,22 +236849,22 @@
       },
       "all": {
         "channel": "all",
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "Black Screen",
+        "status": "playable",
+        "perf": "ok",
+        "notes": "Audio started glitching at 2nd mission",
         "updatedAt": "2026-04-10",
         "date": "2026-04-10",
-        "reportCount": 1,
+        "reportCount": 2,
         "latestReport": {
           "device": "iPhone 13 Pro",
           "platform": "ios",
           "osVersion": "26.2",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
+          "status": "playable",
+          "perf": "ok",
           "date": "2026-04-10",
-          "notes": "Black Screen",
+          "notes": "Audio started glitching at 2nd mission",
           "screenshots": [],
           "source": "app",
           "build": {
@@ -236861,10 +236882,10 @@
           "osVersion": "26.2",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
+          "status": "playable",
+          "perf": "ok",
           "date": "2026-04-10",
-          "notes": "Black Screen",
+          "notes": "Audio started glitching at 2nd mission",
           "screenshots": [],
           "source": "app",
           "build": {

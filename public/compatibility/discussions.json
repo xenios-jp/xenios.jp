@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-10T10:18:37.780Z",
+  "generatedAt": "2026-04-10T13:41:57.761Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2570,6 +2570,29 @@
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/398",
       "updatedAt": "2026-04-10",
       "entries": [
+        {
+          "id": "comment-4224141288",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/398#issuecomment-4224141288",
+          "author": "xenios-jp",
+          "createdAt": "2026-04-10",
+          "createdAtMs": 1775828370000,
+          "issueNumber": 398,
+          "excerpt": "Audio started glitching at 2nd mission",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 13 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 26.2",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
         {
           "id": "issue-398",
           "type": "issue",
