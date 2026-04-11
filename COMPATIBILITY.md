@@ -4,7 +4,7 @@
 >
 > 🟢 Playable: **101** · 🔵 In-Game: **57** · 🟡 Intro: **25** · 🟠 Loads: **38** · 🔴 Doesn't Boot: **41**
 >
-> 📱 iOS: **245** · 🖥️ macOS: **36**
+> 📱 iOS: **245** · 🖥️ macOS: **37**
 
 ## Legend
 
@@ -20,7 +20,7 @@
 
 | | Title | Title ID | Platform | Status | Perf | Last Device | Updated |
 |-|-------|----------|----------|--------|------|-------------|---------|
-| 🟢 | 50 Cent: Blood on the Sand | `5451083B` | 📱 iOS | Playable | 👌 OK | iPhone 16e | 2026-03-10 |
+| 🟢 | 50 Cent: Blood on the Sand | `5451083B` | 📱 iOS, 🖥️ macOS | Playable | 👌 OK | iPhone 16e | 2026-04-11 |
 | 🟢 | AFL Live 2 | `484507D6` | 📱 iOS | Playable | 🚀 Great | iPhone 17 | 2026-04-03 |
 | 🟢 | Alan Wake | `4D530805` | 📱 iOS | Playable | 🐢 Poor | iPad (A16) | 2026-03-09 |
 | 🟢 | Alice: Madness Returns | `45410916` | 📱 iOS | Playable | 👌 OK | iPhone 16 Plus | 2026-03-17 |
