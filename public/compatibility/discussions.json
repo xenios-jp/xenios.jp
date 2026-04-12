@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-12T12:14:43.768Z",
+  "generatedAt": "2026-04-12T22:18:36.224Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2180,6 +2180,26 @@
             "buildNumber": "9296",
             "commitShort": "`ab2ca341a`"
           }
+        }
+      ]
+    },
+    "54540832": {
+      "titleId": "54540832",
+      "issueNumber": 411,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/411",
+      "updatedAt": "2026-04-12",
+      "entries": [
+        {
+          "id": "issue-411",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/411",
+          "author": "udance4ever",
+          "createdAt": "2026-04-12",
+          "createdAtMs": 1776032264000,
+          "issueNumber": 411,
+          "excerpt": "While there are report it works in iOS, it freezes on the title screen for me after glitched logos. Sometimes it freezes on a glitched logo (can't skip).",
+          "images": [],
+          "meta": {}
         }
       ]
     },
