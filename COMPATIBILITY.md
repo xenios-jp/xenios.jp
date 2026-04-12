@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **262 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **263 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **101** · 🔵 In-Game: **57** · 🟡 Intro: **25** · 🟠 Loads: **38** · 🔴 Doesn't Boot: **41**
+> 🟢 Playable: **101** · 🔵 In-Game: **57** · 🟡 Intro: **25** · 🟠 Loads: **39** · 🔴 Doesn't Boot: **41**
 >
-> 📱 iOS: **245** · 🖥️ macOS: **38**
+> 📱 iOS: **245** · 🖥️ macOS: **39**
 
 ## Legend
 
@@ -213,6 +213,7 @@
 | 🟠 | Dark Souls | `4E4D083A` | 📱 iOS | Loads | 🐢 Poor | iPhone 16e | 2026-03-16 |
 | 🟠 | Deadpool | `415608EC` | 📱 iOS | Loads | 🚀 Great | iPhone 15 Pro | 2026-03-22 |
 | 🟠 | Dragon Ball Z Ultimate Tenkaichi | `4E4D0846` | 📱 iOS | Loads | 🐢 Poor | iPad Air 11-inch (M3) | 2026-04-04 |
+| 🟠 | Enslaved: Odyssey to the West | `4E4D07F1` | 🖥️ macOS | Loads | ➖ N/A | MacBook Pro (M1) | 2026-04-12 |
 | 🟠 | Epic Mickey 2 The Power Of Two | `42560816` | 📱 iOS | Loads | 🐢 Poor | iPhone 15 Pro Max | 2026-03-08 |
 | 🟠 | FIFA Street 3 | `4541083B` | 📱 iOS | Loads | ➖ N/A | iPad Air 5 | 2026-03-09 |
 | 🟠 | Final Fantasy XIII-2 | `53510806` | 📱 iOS | Loads | 🐢 Poor | iPhone 16 Pro Max | 2026-04-05 |

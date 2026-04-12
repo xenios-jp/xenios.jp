@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-12T10:39:55.866Z",
+  "generatedAt": "2026-04-12T11:29:10.510Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2564,104 +2564,23 @@
         }
       ]
     },
-    "4D5307F1": {
-      "titleId": "4D5307F1",
-      "issueNumber": 82,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/82",
+    "4E4D07F1": {
+      "titleId": "4E4D07F1",
+      "issueNumber": 402,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/402",
       "updatedAt": "2026-04-12",
       "entries": [
         {
-          "id": "issue-401",
+          "id": "issue-402",
           "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/401",
-          "author": "MojoWonder77",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/402",
+          "author": "udance4ever",
           "createdAt": "2026-04-12",
-          "createdAtMs": 1775990299000,
-          "issueNumber": 401,
-          "excerpt": "Did not run at all",
+          "createdAtMs": 1775993299000,
+          "issueNumber": 402,
+          "excerpt": "Game boots, you can get thru the menus and it hangs when it says \"Chapter 1\"",
           "images": [],
           "meta": {}
-        },
-        {
-          "id": "issue-257",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/257",
-          "author": "vivat-concordia",
-          "createdAt": "2026-03-14",
-          "createdAtMs": 1773478641000,
-          "issueNumber": 257,
-          "excerpt": "It won't load, no matter what I try.",
-          "images": [],
-          "meta": {}
-        },
-        {
-          "id": "issue-219",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/219",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-12",
-          "createdAtMs": 1773320403000,
-          "issueNumber": 219,
-          "excerpt": "It crash right at start without opening iPhone 15 pro max from a iso",
-          "images": [],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPhone 15 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9296",
-            "commitShort": "`ab2ca341a`"
-          }
-        },
-        {
-          "id": "comment-4021392205",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/82#issuecomment-4021392205",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-09",
-          "createdAtMs": 1773036683000,
-          "issueNumber": 82,
-          "excerpt": "Nothing happens",
-          "images": [],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPhone 15 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 26.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "`2633e8177`"
-          }
-        },
-        {
-          "id": "issue-82",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/82",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-08",
-          "createdAtMs": 1773002914000,
-          "issueNumber": 82,
-          "excerpt": "Nothing start",
-          "images": [],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPhone 16 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "`2633e8177`"
-          }
         }
       ]
     },
@@ -6597,6 +6516,40 @@
         }
       ]
     },
+    "4D530910": {
+      "titleId": "4D530910",
+      "issueNumber": 284,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/284",
+      "updatedAt": "2026-03-17",
+      "entries": [
+        {
+          "id": "issue-284",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/284",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-17",
+          "createdAtMs": 1773708713000,
+          "issueNumber": 284,
+          "excerpt": "Some minor stutters, overall very smooth, and slight visual errors",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4D530910/1773708704089-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4D530910/1773708704089-2.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        }
+      ]
+    },
     "584107D7": {
       "titleId": "584107D7",
       "issueNumber": 283,
@@ -7141,6 +7094,95 @@
             "appVersion": "1.0.1",
             "buildNumber": "9288",
             "commitShort": "`056d2f64d`"
+          }
+        }
+      ]
+    },
+    "4D5307F1": {
+      "titleId": "4D5307F1",
+      "issueNumber": 82,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/82",
+      "updatedAt": "2026-04-12",
+      "entries": [
+        {
+          "id": "issue-257",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/257",
+          "author": "vivat-concordia",
+          "createdAt": "2026-03-14",
+          "createdAtMs": 1773478641000,
+          "issueNumber": 257,
+          "excerpt": "It won't load, no matter what I try.",
+          "images": [],
+          "meta": {}
+        },
+        {
+          "id": "issue-219",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/219",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-12",
+          "createdAtMs": 1773320403000,
+          "issueNumber": 219,
+          "excerpt": "It crash right at start without opening iPhone 15 pro max from a iso",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 15 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9296",
+            "commitShort": "`ab2ca341a`"
+          }
+        },
+        {
+          "id": "comment-4021392205",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/82#issuecomment-4021392205",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-09",
+          "createdAtMs": 1773036683000,
+          "issueNumber": 82,
+          "excerpt": "Nothing happens",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 15 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        },
+        {
+          "id": "issue-82",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/82",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1773002914000,
+          "issueNumber": 82,
+          "excerpt": "Nothing start",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 16 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
           }
         }
       ]
