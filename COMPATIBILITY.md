@@ -32,7 +32,7 @@
 | 🟢 | Bioshock | `545407D8` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro | 2026-03-27 |
 | 🟢 | Bomberman Battlefest | `584109B2` | 📱 iOS | Playable | 🐢 Poor | iPhone 15 | 2026-03-25 |
 | 🟢 | Borderlands | `545407E7` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro | 2026-03-13 |
-| 🟢 | Bully: Scholarship Edition | `5454081A` | 📱 iOS | Playable | 🚀 Great | iPad Pro M2 | 2026-03-09 |
+| 🟢 | Bully: Scholarship Edition | `5454081A` | 📱 iOS | Playable | 🚀 Great | iPhone 16e | 2026-04-12 |
 | 🟢 | Call of Duty 2 | `415607D1` | 📱 iOS | Playable | 🚀 Great | iPhone 14 Pro Max | 2026-03-09 |
 | 🟢 | Call of Duty 4: Modern Warfare | `415607E6` | 📱 iOS | Playable | 👌 OK | iPhone 17 Pro Max | 2026-04-08 |
 | 🟢 | Castle Crashers | `584108B7` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro Max | 2026-03-11 |

@@ -43929,17 +43929,39 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPad Pro M2",
+      "device": "iPhone 16e",
       "platform": "ios",
-      "osVersion": "26.1",
+      "osVersion": "26.4.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-09",
+    "updatedAt": "2026-04-12",
     "issueNumber": 108,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/108",
-    "notes": "Runs pretty well at locked 30FPS",
+    "notes": "After everything loads in it runs smooth no glitches or graphic problems.",
     "reports": [
+      {
+        "device": "iPhone 16e",
+        "platform": "ios",
+        "osVersion": "26.4.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-04-12",
+        "notes": "After everything loads in it runs smooth no glitches or graphic problems.",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "stage": "stable",
+          "commitShort": "056d2f64d"
+        }
+      },
       {
         "device": "iPad Pro M2",
         "platform": "ios",
@@ -43981,54 +44003,52 @@
         "channel": "all",
         "status": "playable",
         "perf": "great",
-        "notes": "Runs pretty well at locked 30FPS",
-        "updatedAt": "2026-03-09",
-        "date": "2026-03-09",
-        "reportCount": 1,
+        "notes": "After everything loads in it runs smooth no glitches or graphic problems.",
+        "updatedAt": "2026-04-12",
+        "date": "2026-04-12",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPad Pro M2",
+          "device": "iPhone 16e",
           "platform": "ios",
-          "osVersion": "26.1",
+          "osVersion": "26.4.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "great",
-          "date": "2026-03-09",
-          "notes": "Runs pretty well at locked 30FPS",
-          "reportedTitleId": "545407D6",
-          "reportedTitle": "Bully: Scholarship Edition",
+          "date": "2026-04-12",
+          "notes": "After everything loads in it runs smooth no glitches or graphic problems.",
           "screenshots": [],
-          "source": "github",
+          "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633E8177"
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "stage": "stable",
+            "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
-          "device": "iPad Pro M2",
+          "device": "iPhone 16e",
           "platform": "ios",
-          "osVersion": "26.1",
+          "osVersion": "26.4.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "great",
-          "date": "2026-03-09",
-          "notes": "Runs pretty well at locked 30FPS",
-          "reportedTitleId": "545407D6",
-          "reportedTitle": "Bully: Scholarship Edition",
+          "date": "2026-04-12",
+          "notes": "After everything loads in it runs smooth no glitches or graphic problems.",
           "screenshots": [],
-          "source": "github",
+          "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633E8177"
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "stage": "stable",
+            "commitShort": "056d2f64d"
           }
         }
       }
@@ -187863,6 +187883,8 @@
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-03-15",
+    "issueNumber": 176,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/176",
     "notes": "Audio screeching in cutscenes You can play through the first level with minor glitches, but then it crashes once you enter the casket. Error: A64 access violation detected in A64 JIT code. Exiting immediately to prevent emulator freeze and log spam.",
     "reports": [
       {
