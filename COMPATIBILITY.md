@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **265 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **266 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **101** · 🔵 In-Game: **58** · 🟡 Intro: **25** · 🟠 Loads: **39** · 🔴 Doesn't Boot: **42**
+> 🟢 Playable: **101** · 🔵 In-Game: **58** · 🟡 Intro: **25** · 🟠 Loads: **39** · 🔴 Doesn't Boot: **43**
 >
-> 📱 iOS: **245** · 🖥️ macOS: **41**
+> 📱 iOS: **245** · 🖥️ macOS: **42**
 
 ## Legend
 
@@ -273,6 +273,7 @@
 | 🔴 | SmackDown vs. RAW 2009 | `54510826` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad (A16) | 2026-03-16 |
 | 🔴 | Soulcalibur IV | `4E4D07E0` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro Max | 2026-03-11 |
 | 🔴 | Spider-Man: Web of Shadows | `41560815` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 Pro Max | 2026-03-29 |
+| 🔴 | Split/Second | `425607E7` | 🖥️ macOS | Doesn't Boot | ➖ N/A | MacBook Pro (M1) | 2026-04-12 |
 | 🔴 | SpongeBob SquarePants: Underpants Slam | `5841089F` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Mini (A17 Pro) | 2026-03-15 |
 | 🔴 | Star Ocean: The Last Hope | `535107DD` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-03 |
 | 🔴 | Tekken 6 | `4E4D07FC` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-03 |
