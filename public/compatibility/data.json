@@ -50152,7 +50152,12 @@
         "perf": "n/a",
         "date": "2026-04-12",
         "notes": "crashes with JIT error immediately on launch.",
-        "screenshots": [],
+        "reportedTitleId": "4B4E084D",
+        "reportedTitle": "Castlevania: Lord of Shadows 2",
+        "screenshots": [
+          "https://github.com/user-attachments/assets/3caec5d0-ceee-40e9-8469-96c3bbecd40c"
+        ],
+        "submittedBy": "udance4ever",
         "source": "github",
         "build": {
           "buildId": "macos-release-1.0.1-9288",
@@ -50164,7 +50169,9 @@
         }
       }
     ],
-    "screenshots": [],
+    "screenshots": [
+      "https://github.com/user-attachments/assets/3caec5d0-ceee-40e9-8469-96c3bbecd40c"
+    ],
     "summaries": {
       "release": {
         "channel": "release",
@@ -50184,7 +50191,12 @@
           "perf": "n/a",
           "date": "2026-04-12",
           "notes": "crashes with JIT error immediately on launch.",
-          "screenshots": [],
+          "reportedTitleId": "4B4E084D",
+          "reportedTitle": "Castlevania: Lord of Shadows 2",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/3caec5d0-ceee-40e9-8469-96c3bbecd40c"
+          ],
+          "submittedBy": "udance4ever",
           "source": "github",
           "build": {
             "buildId": "macos-release-1.0.1-9288",
@@ -50205,7 +50217,12 @@
           "perf": "n/a",
           "date": "2026-04-12",
           "notes": "crashes with JIT error immediately on launch.",
-          "screenshots": [],
+          "reportedTitleId": "4B4E084D",
+          "reportedTitle": "Castlevania: Lord of Shadows 2",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/3caec5d0-ceee-40e9-8469-96c3bbecd40c"
+          ],
+          "submittedBy": "udance4ever",
           "source": "github",
           "build": {
             "buildId": "macos-release-1.0.1-9288",
@@ -50235,7 +50252,12 @@
           "perf": "n/a",
           "date": "2026-04-12",
           "notes": "crashes with JIT error immediately on launch.",
-          "screenshots": [],
+          "reportedTitleId": "4B4E084D",
+          "reportedTitle": "Castlevania: Lord of Shadows 2",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/3caec5d0-ceee-40e9-8469-96c3bbecd40c"
+          ],
+          "submittedBy": "udance4ever",
           "source": "github",
           "build": {
             "buildId": "macos-release-1.0.1-9288",
@@ -50256,7 +50278,12 @@
           "perf": "n/a",
           "date": "2026-04-12",
           "notes": "crashes with JIT error immediately on launch.",
-          "screenshots": [],
+          "reportedTitleId": "4B4E084D",
+          "reportedTitle": "Castlevania: Lord of Shadows 2",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/3caec5d0-ceee-40e9-8469-96c3bbecd40c"
+          ],
+          "submittedBy": "udance4ever",
           "source": "github",
           "build": {
             "buildId": "macos-release-1.0.1-9288",
@@ -68085,6 +68112,8 @@
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-03-11",
+    "issueNumber": 188,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/188",
     "notes": "Everything but the player models load. The fps is a little slow & audio is bad",
     "reports": [
       {
@@ -178787,45 +178816,23 @@
       "4B4E8852"
     ],
     "status": "ingame",
-    "perf": "great",
+    "perf": "poor",
     "tags": [],
     "platforms": [
-      "ios",
-      "macos"
+      "ios"
     ],
     "lastReport": {
-      "device": "MacBook Pro (M1)",
-      "platform": "macos",
-      "osVersion": "1.0.1",
+      "device": "iPhone 16",
+      "platform": "ios",
+      "osVersion": "18.6.2",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-04-12",
+    "updatedAt": "2026-04-06",
     "issueNumber": 148,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/148",
-    "notes": "Game works way better than expected.  Was able to complete a full exhibition match in ~25 min (lost 0-2 unfortunately).  Sometime the crowd sounds distorted but it's not a big deal since it's mostly white noise.  Logos on boot glitched, background glitched on menu (but menu itself perfectly readable and usable) and you'll see glitched transitions whenever I assume video is used (last screenshot)",
+    "notes": "Graphical glitches in cutscenes and the menu is ok but can't play a footbal' game",
     "reports": [
-      {
-        "device": "MacBook Pro (M1)",
-        "platform": "macos",
-        "osVersion": "1.0.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "perf": "great",
-        "date": "2026-04-12",
-        "notes": "Game works way better than expected.  Was able to complete a full exhibition match in ~25 min (lost 0-2 unfortunately).  Sometime the crowd sounds distorted but it's not a big deal since it's mostly white noise.  Logos on boot glitched, background glitched on menu (but menu itself perfectly readable and usable) and you'll see glitched transitions whenever I assume video is used (last screenshot)",
-        "screenshots": [],
-        "source": "github",
-        "build": {
-          "buildId": "macos-release-1.0.1-9288",
-          "channel": "release",
-          "official": true,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
-        }
-      },
       {
         "device": "iPhone 16",
         "platform": "ios",
@@ -178873,100 +178880,60 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "ingame",
-        "perf": "great",
-        "notes": "Game works way better than expected.  Was able to complete a full exhibition match in ~25 min (lost 0-2 unfortunately).  Sometime the crowd sounds distorted but it's not a big deal since it's mostly white noise.  Logos on boot glitched, background glitched on menu (but menu itself perfectly readable and usable) and you'll see glitched transitions whenever I assume video is used (last screenshot)",
-        "updatedAt": "2026-04-12",
-        "date": "2026-04-12",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "MacBook Pro (M1)",
-          "platform": "macos",
-          "osVersion": "1.0.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "great",
-          "date": "2026-04-12",
-          "notes": "Game works way better than expected.  Was able to complete a full exhibition match in ~25 min (lost 0-2 unfortunately).  Sometime the crowd sounds distorted but it's not a big deal since it's mostly white noise.  Logos on boot glitched, background glitched on menu (but menu itself perfectly readable and usable) and you'll see glitched transitions whenever I assume video is used (last screenshot)",
-          "screenshots": [],
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
-          }
-        },
-        "bestReport": {
-          "device": "MacBook Pro (M1)",
-          "platform": "macos",
-          "osVersion": "1.0.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "great",
-          "date": "2026-04-12",
-          "notes": "Game works way better than expected.  Was able to complete a full exhibition match in ~25 min (lost 0-2 unfortunately).  Sometime the crowd sounds distorted but it's not a big deal since it's mostly white noise.  Logos on boot glitched, background glitched on menu (but menu itself perfectly readable and usable) and you'll see glitched transitions whenever I assume video is used (last screenshot)",
-          "screenshots": [],
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
-          }
-        }
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "date": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
       },
       "all": {
         "channel": "all",
         "status": "ingame",
-        "perf": "great",
-        "notes": "Game works way better than expected.  Was able to complete a full exhibition match in ~25 min (lost 0-2 unfortunately).  Sometime the crowd sounds distorted but it's not a big deal since it's mostly white noise.  Logos on boot glitched, background glitched on menu (but menu itself perfectly readable and usable) and you'll see glitched transitions whenever I assume video is used (last screenshot)",
-        "updatedAt": "2026-04-12",
-        "date": "2026-04-12",
-        "reportCount": 3,
+        "perf": "poor",
+        "notes": "Graphical glitches in cutscenes and the menu is ok but can't play a footbal' game",
+        "updatedAt": "2026-04-06",
+        "date": "2026-04-06",
+        "reportCount": 2,
         "latestReport": {
-          "device": "MacBook Pro (M1)",
-          "platform": "macos",
-          "osVersion": "1.0.1",
+          "device": "iPhone 16",
+          "platform": "ios",
+          "osVersion": "18.6.2",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "ingame",
-          "perf": "great",
-          "date": "2026-04-12",
-          "notes": "Game works way better than expected.  Was able to complete a full exhibition match in ~25 min (lost 0-2 unfortunately).  Sometime the crowd sounds distorted but it's not a big deal since it's mostly white noise.  Logos on boot glitched, background glitched on menu (but menu itself perfectly readable and usable) and you'll see glitched transitions whenever I assume video is used (last screenshot)",
+          "perf": "poor",
+          "date": "2026-04-06",
+          "notes": "Graphical glitches in cutscenes and the menu is ok but can't play a footbal' game",
           "screenshots": [],
-          "source": "github",
+          "source": "app",
           "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
             "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
-          "device": "MacBook Pro (M1)",
-          "platform": "macos",
-          "osVersion": "1.0.1",
+          "device": "iPhone 16",
+          "platform": "ios",
+          "osVersion": "18.6.2",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "ingame",
-          "perf": "great",
-          "date": "2026-04-12",
-          "notes": "Game works way better than expected.  Was able to complete a full exhibition match in ~25 min (lost 0-2 unfortunately).  Sometime the crowd sounds distorted but it's not a big deal since it's mostly white noise.  Logos on boot glitched, background glitched on menu (but menu itself perfectly readable and usable) and you'll see glitched transitions whenever I assume video is used (last screenshot)",
+          "perf": "poor",
+          "date": "2026-04-06",
+          "notes": "Graphical glitches in cutscenes and the menu is ok but can't play a footbal' game",
           "screenshots": [],
-          "source": "github",
+          "source": "app",
           "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
             "commitShort": "056d2f64d"

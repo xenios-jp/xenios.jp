@@ -4,7 +4,7 @@
 >
 > 🟢 Playable: **101** · 🔵 In-Game: **60** · 🟡 Intro: **25** · 🟠 Loads: **39** · 🔴 Doesn't Boot: **47**
 >
-> 📱 iOS: **245** · 🖥️ macOS: **49**
+> 📱 iOS: **245** · 🖥️ macOS: **48**
 
 ## Legend
 
@@ -168,7 +168,7 @@
 | 🔵 | NFL Tour | `45410835` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro Max | 2026-03-11 |
 | 🔵 | PAC-MAN and the Ghostly Adventures | `4E4D0865` | 📱 iOS | In-Game | 🐢 Poor | iPhone 15 Pro Max | 2026-03-08 |
 | 🔵 | Pinball Arcade | `5841121D` | 📱 iOS | In-Game | 🐢 Poor | iPhone 13 | 2026-03-10 |
-| 🔵 | Pro Evolution Soccer 2013 / PES 2013 | `4B4E084C` | 📱 iOS, 🖥️ macOS | In-Game | 🚀 Great | MacBook Pro (M1) | 2026-04-12 |
+| 🔵 | Pro Evolution Soccer 2013 / PES 2013 | `4B4E084C` | 📱 iOS | In-Game | 🐢 Poor | iPhone 16 | 2026-04-06 |
 | 🔵 | Rayman Legends | `555308C3` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro Max | 2026-03-08 |
 | 🔵 | Resident Evil 6 | `43430819` | 📱 iOS | In-Game | 🐢 Poor | iPhone 13 Pro Max | 2026-03-20 |
 | 🔵 | Resident Evil Code: Veronica X | `43430822` | 📱 iOS | In-Game | 🐢 Poor | iPad (A16) | 2026-04-05 |
