@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-12T23:26:55.004Z",
+  "generatedAt": "2026-04-12T23:30:46.788Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -6285,8 +6285,20 @@
       "titleId": "4B4E080A",
       "issueNumber": 302,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/302",
-      "updatedAt": "2026-03-20",
+      "updatedAt": "2026-04-12",
       "entries": [
+        {
+          "id": "comment-4232975509",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/302#issuecomment-4232975509",
+          "author": "udance4ever",
+          "createdAt": "2026-04-12",
+          "createdAtMs": 1776036535000,
+          "issueNumber": 302,
+          "excerpt": "status can be upgraded to `Loading` - reaches menus and then freezes on MacBookPro (M1) 1.01-0288 (#056d2f64d)\n\n<img width=\"1392\" height=\"860\" alt=\"Image\" src=\" />",
+          "images": [],
+          "meta": {}
+        },
         {
           "id": "issue-302",
           "type": "issue",
