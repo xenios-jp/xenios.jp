@@ -4,7 +4,7 @@
 >
 > 🟢 Playable: **101** · 🔵 In-Game: **57** · 🟡 Intro: **25** · 🟠 Loads: **38** · 🔴 Doesn't Boot: **41**
 >
-> 📱 iOS: **245** · 🖥️ macOS: **37**
+> 📱 iOS: **245** · 🖥️ macOS: **38**
 
 ## Legend
 
@@ -250,7 +250,7 @@
 | 🔴 | Call of Duty: Modern Warfare 2 | `41560817` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 14 Pro Max | 2026-03-24 |
 | 🔴 | Dead Rising 2 | `434307EC` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 Pro Max | 2026-03-14 |
 | 🔴 | Dragon Ball Z Burst Limit | `424107DC` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro Max | 2026-03-09 |
-| 🔴 | Fable 2 | `4D5307F1` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 15 Pro Max | 2026-03-09 |
+| 🔴 | Fable 2 | `4D5307F1` | 📱 iOS, 🖥️ macOS | Doesn't Boot | ➖ N/A | Macbook Pro M1 pro | 2026-04-12 |
 | 🔴 | Far Cry: Instincts Predator | `555307DC` | 🖥️ macOS | Doesn't Boot | ➖ N/A | Mac Mini (M1) (Base Model) | 2026-03-16 |
 | 🔴 | FIFA 14 | `454109C3` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 15 Pro Max | 2026-03-14 |
 | 🔴 | FIFA 15 | `454109DB` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Pro 13-inch (M4) | 2026-03-13 |

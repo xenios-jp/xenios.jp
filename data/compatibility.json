@@ -84070,20 +84070,41 @@
     "perf": "n/a",
     "tags": [],
     "platforms": [
-      "ios"
+      "ios",
+      "macos"
     ],
     "lastReport": {
-      "device": "iPhone 15 Pro Max",
-      "platform": "ios",
-      "osVersion": "26.1",
+      "device": "Macbook Pro M1 pro",
+      "platform": "macos",
+      "osVersion": "26.3",
       "arch": "arm64",
-      "gpuBackend": "msl"
+      "gpuBackend": "msc"
     },
-    "updatedAt": "2026-03-09",
+    "updatedAt": "2026-04-12",
     "issueNumber": 82,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/82",
-    "notes": "Nothing happens",
+    "notes": "Did not run at all",
     "reports": [
+      {
+        "device": "Macbook Pro M1 pro",
+        "platform": "macos",
+        "osVersion": "26.3",
+        "arch": "arm64",
+        "gpuBackend": "msc",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-04-12",
+        "notes": "Did not run at all",
+        "screenshots": [],
+        "source": "github",
+        "build": {
+          "buildId": "macos-release-1.0.1-9288",
+          "channel": "release",
+          "official": true,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288"
+        }
+      },
       {
         "device": "iPhone 15 Pro Max",
         "platform": "ios",
@@ -84137,69 +84158,99 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "nothing",
+        "perf": "n/a",
+        "notes": "Did not run at all",
+        "updatedAt": "2026-04-12",
+        "date": "2026-04-12",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "Macbook Pro M1 pro",
+          "platform": "macos",
+          "osVersion": "26.3",
+          "arch": "arm64",
+          "gpuBackend": "msc",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-04-12",
+          "notes": "Did not run at all",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-1.0.1-9288",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288"
+          }
+        },
+        "bestReport": {
+          "device": "Macbook Pro M1 pro",
+          "platform": "macos",
+          "osVersion": "26.3",
+          "arch": "arm64",
+          "gpuBackend": "msc",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-04-12",
+          "notes": "Did not run at all",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-1.0.1-9288",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288"
+          }
+        }
       },
       "all": {
         "channel": "all",
         "status": "nothing",
         "perf": "n/a",
-        "notes": "Nothing happens",
-        "updatedAt": "2026-03-09",
-        "date": "2026-03-09",
-        "reportCount": 2,
+        "notes": "Did not run at all",
+        "updatedAt": "2026-04-12",
+        "date": "2026-04-12",
+        "reportCount": 3,
         "latestReport": {
-          "device": "iPhone 15 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.1",
+          "device": "Macbook Pro M1 pro",
+          "platform": "macos",
+          "osVersion": "26.3",
           "arch": "arm64",
-          "gpuBackend": "msl",
+          "gpuBackend": "msc",
           "status": "nothing",
           "perf": "n/a",
-          "date": "2026-03-09",
-          "notes": "Nothing happens",
-          "reportedTitleId": "4D5307F1",
-          "reportedTitle": "Fable II",
+          "date": "2026-04-12",
+          "notes": "Did not run at all",
           "screenshots": [],
-          "source": "app",
+          "source": "github",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177"
+            "buildId": "macos-release-1.0.1-9288",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288"
           }
         },
         "bestReport": {
-          "device": "iPhone 15 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.1",
+          "device": "Macbook Pro M1 pro",
+          "platform": "macos",
+          "osVersion": "26.3",
           "arch": "arm64",
-          "gpuBackend": "msl",
+          "gpuBackend": "msc",
           "status": "nothing",
           "perf": "n/a",
-          "date": "2026-03-09",
-          "notes": "Nothing happens",
-          "reportedTitleId": "4D5307F1",
-          "reportedTitle": "Fable II",
+          "date": "2026-04-12",
+          "notes": "Did not run at all",
           "screenshots": [],
-          "source": "app",
+          "source": "github",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177"
+            "buildId": "macos-release-1.0.1-9288",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288"
           }
         }
       }
@@ -93993,8 +94044,6 @@
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-03-17",
-    "issueNumber": 284,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/284",
     "notes": "Some minor stutters, overall very smooth, and slight visual errors",
     "reports": [
       {
