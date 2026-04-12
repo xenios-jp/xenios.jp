@@ -4,7 +4,7 @@
 >
 > 🟢 Playable: **101** · 🔵 In-Game: **60** · 🟡 Intro: **25** · 🟠 Loads: **39** · 🔴 Doesn't Boot: **46**
 >
-> 📱 iOS: **245** · 🖥️ macOS: **47**
+> 📱 iOS: **245** · 🖥️ macOS: **46**
 
 ## Legend
 
@@ -20,7 +20,7 @@
 
 | | Title | Title ID | Platform | Status | Perf | Last Device | Updated |
 |-|-------|----------|----------|--------|------|-------------|---------|
-| 🟢 | 50 Cent: Blood on the Sand | `5451083B` | 📱 iOS, 🖥️ macOS | Playable | 👌 OK | iPhone 16e | 2026-04-11 |
+| 🟢 | 50 Cent: Blood on the Sand | `5451083B` | 🖥️ macOS, 📱 iOS | Playable | 👌 OK | iPhone 16e | 2026-04-11 |
 | 🟢 | AFL Live 2 | `484507D6` | 📱 iOS | Playable | 🚀 Great | iPhone 17 | 2026-04-03 |
 | 🟢 | Alan Wake | `4D530805` | 📱 iOS | Playable | 🐢 Poor | iPad (A16) | 2026-03-09 |
 | 🟢 | Alice: Madness Returns | `45410916` | 📱 iOS | Playable | 👌 OK | iPhone 16 Plus | 2026-03-17 |
@@ -254,7 +254,7 @@
 | 🔴 | Call of Duty: Modern Warfare 2 | `41560817` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 14 Pro Max | 2026-03-24 |
 | 🔴 | Dead Rising 2 | `434307EC` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 Pro Max | 2026-03-14 |
 | 🔴 | Dragon Ball Z Burst Limit | `424107DC` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro Max | 2026-03-09 |
-| 🔴 | Fable 2 | `4D5307F1` | 📱 iOS, 🖥️ macOS | Doesn't Boot | ➖ N/A | Macbook Pro M1 pro | 2026-04-12 |
+| 🔴 | Fable 2 | `4D5307F1` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 15 Pro Max | 2026-03-09 |
 | 🔴 | Far Cry: Instincts Predator | `555307DC` | 🖥️ macOS | Doesn't Boot | ➖ N/A | Mac Mini (M1) (Base Model) | 2026-03-16 |
 | 🔴 | FIFA 14 | `454109C3` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 15 Pro Max | 2026-03-14 |
 | 🔴 | FIFA 15 | `454109DB` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Pro 13-inch (M4) | 2026-03-13 |

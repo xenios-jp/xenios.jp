@@ -2472,8 +2472,8 @@
     "perf": "ok",
     "tags": [],
     "platforms": [
-      "ios",
-      "macos"
+      "macos",
+      "ios"
     ],
     "lastReport": {
       "device": "iPhone 16e",
@@ -43958,7 +43958,6 @@
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
           "commitShort": "056d2f64d"
         }
       },
@@ -44025,7 +44024,6 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         },
@@ -44047,7 +44045,6 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         }
@@ -80656,7 +80653,12 @@
         "perf": "n/a",
         "date": "2026-04-12",
         "notes": "Game boots, you can get thru the menus and it hangs when it says \"Chapter 1\"",
-        "screenshots": [],
+        "reportedTitleId": "4E4D07F1",
+        "reportedTitle": "Enslaved",
+        "screenshots": [
+          "https://github.com/user-attachments/assets/07ee6fd1-cde6-4e90-a00c-efe92c3fc516"
+        ],
+        "submittedBy": "udance4ever",
         "source": "github",
         "build": {
           "buildId": "macos-release-1.0.1-9288",
@@ -80668,7 +80670,9 @@
         }
       }
     ],
-    "screenshots": [],
+    "screenshots": [
+      "https://github.com/user-attachments/assets/07ee6fd1-cde6-4e90-a00c-efe92c3fc516"
+    ],
     "summaries": {
       "release": {
         "channel": "release",
@@ -80688,7 +80692,12 @@
           "perf": "n/a",
           "date": "2026-04-12",
           "notes": "Game boots, you can get thru the menus and it hangs when it says \"Chapter 1\"",
-          "screenshots": [],
+          "reportedTitleId": "4E4D07F1",
+          "reportedTitle": "Enslaved",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/07ee6fd1-cde6-4e90-a00c-efe92c3fc516"
+          ],
+          "submittedBy": "udance4ever",
           "source": "github",
           "build": {
             "buildId": "macos-release-1.0.1-9288",
@@ -80709,7 +80718,12 @@
           "perf": "n/a",
           "date": "2026-04-12",
           "notes": "Game boots, you can get thru the menus and it hangs when it says \"Chapter 1\"",
-          "screenshots": [],
+          "reportedTitleId": "4E4D07F1",
+          "reportedTitle": "Enslaved",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/07ee6fd1-cde6-4e90-a00c-efe92c3fc516"
+          ],
+          "submittedBy": "udance4ever",
           "source": "github",
           "build": {
             "buildId": "macos-release-1.0.1-9288",
@@ -80739,7 +80753,12 @@
           "perf": "n/a",
           "date": "2026-04-12",
           "notes": "Game boots, you can get thru the menus and it hangs when it says \"Chapter 1\"",
-          "screenshots": [],
+          "reportedTitleId": "4E4D07F1",
+          "reportedTitle": "Enslaved",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/07ee6fd1-cde6-4e90-a00c-efe92c3fc516"
+          ],
+          "submittedBy": "udance4ever",
           "source": "github",
           "build": {
             "buildId": "macos-release-1.0.1-9288",
@@ -80760,7 +80779,12 @@
           "perf": "n/a",
           "date": "2026-04-12",
           "notes": "Game boots, you can get thru the menus and it hangs when it says \"Chapter 1\"",
-          "screenshots": [],
+          "reportedTitleId": "4E4D07F1",
+          "reportedTitle": "Enslaved",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/07ee6fd1-cde6-4e90-a00c-efe92c3fc516"
+          ],
+          "submittedBy": "udance4ever",
           "source": "github",
           "build": {
             "buildId": "macos-release-1.0.1-9288",
@@ -84182,41 +84206,20 @@
     "perf": "n/a",
     "tags": [],
     "platforms": [
-      "ios",
-      "macos"
+      "ios"
     ],
     "lastReport": {
-      "device": "Macbook Pro M1 pro",
-      "platform": "macos",
-      "osVersion": "26.3",
+      "device": "iPhone 15 Pro Max",
+      "platform": "ios",
+      "osVersion": "26.1",
       "arch": "arm64",
-      "gpuBackend": "msc"
+      "gpuBackend": "msl"
     },
-    "updatedAt": "2026-04-12",
+    "updatedAt": "2026-03-09",
     "issueNumber": 82,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/82",
-    "notes": "Did not run at all",
+    "notes": "Nothing happens",
     "reports": [
-      {
-        "device": "Macbook Pro M1 pro",
-        "platform": "macos",
-        "osVersion": "26.3",
-        "arch": "arm64",
-        "gpuBackend": "msc",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-04-12",
-        "notes": "Did not run at all",
-        "screenshots": [],
-        "source": "github",
-        "build": {
-          "buildId": "macos-release-1.0.1-9288",
-          "channel": "release",
-          "official": true,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288"
-        }
-      },
       {
         "device": "iPhone 15 Pro Max",
         "platform": "ios",
@@ -84270,99 +84273,69 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "Did not run at all",
-        "updatedAt": "2026-04-12",
-        "date": "2026-04-12",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "Macbook Pro M1 pro",
-          "platform": "macos",
-          "osVersion": "26.3",
-          "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-04-12",
-          "notes": "Did not run at all",
-          "screenshots": [],
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288"
-          }
-        },
-        "bestReport": {
-          "device": "Macbook Pro M1 pro",
-          "platform": "macos",
-          "osVersion": "26.3",
-          "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-04-12",
-          "notes": "Did not run at all",
-          "screenshots": [],
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288"
-          }
-        }
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "date": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
       },
       "all": {
         "channel": "all",
         "status": "nothing",
         "perf": "n/a",
-        "notes": "Did not run at all",
-        "updatedAt": "2026-04-12",
-        "date": "2026-04-12",
-        "reportCount": 3,
+        "notes": "Nothing happens",
+        "updatedAt": "2026-03-09",
+        "date": "2026-03-09",
+        "reportCount": 2,
         "latestReport": {
-          "device": "Macbook Pro M1 pro",
-          "platform": "macos",
-          "osVersion": "26.3",
+          "device": "iPhone 15 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.1",
           "arch": "arm64",
-          "gpuBackend": "msc",
+          "gpuBackend": "msl",
           "status": "nothing",
           "perf": "n/a",
-          "date": "2026-04-12",
-          "notes": "Did not run at all",
+          "date": "2026-03-09",
+          "notes": "Nothing happens",
+          "reportedTitleId": "4D5307F1",
+          "reportedTitle": "Fable II",
           "screenshots": [],
-          "source": "github",
+          "source": "app",
           "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288"
+            "buildId": "ios-self-built-1.0.0-9280",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "stage": "stable",
+            "commitShort": "2633e8177"
           }
         },
         "bestReport": {
-          "device": "Macbook Pro M1 pro",
-          "platform": "macos",
-          "osVersion": "26.3",
+          "device": "iPhone 15 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.1",
           "arch": "arm64",
-          "gpuBackend": "msc",
+          "gpuBackend": "msl",
           "status": "nothing",
           "perf": "n/a",
-          "date": "2026-04-12",
-          "notes": "Did not run at all",
+          "date": "2026-03-09",
+          "notes": "Nothing happens",
+          "reportedTitleId": "4D5307F1",
+          "reportedTitle": "Fable II",
           "screenshots": [],
-          "source": "github",
+          "source": "app",
           "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288"
+            "buildId": "ios-self-built-1.0.0-9280",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "stage": "stable",
+            "commitShort": "2633e8177"
           }
         }
       }
@@ -99617,7 +99590,12 @@
         "perf": "poor",
         "date": "2026-04-12",
         "notes": "Gets in-game just fine but performance not up to par despite simpler 2D graphics",
-        "screenshots": [],
+        "reportedTitleId": "584108FF",
+        "reportedTitle": "Geometry Wars Evolved 2",
+        "screenshots": [
+          "https://github.com/user-attachments/assets/6d5191c1-4afe-4af8-9080-ae5589253008"
+        ],
+        "submittedBy": "udance4ever",
         "source": "github",
         "build": {
           "buildId": "macos-release-1.0.1-9288",
@@ -99629,7 +99607,9 @@
         }
       }
     ],
-    "screenshots": [],
+    "screenshots": [
+      "https://github.com/user-attachments/assets/6d5191c1-4afe-4af8-9080-ae5589253008"
+    ],
     "summaries": {
       "release": {
         "channel": "release",
@@ -99649,7 +99629,12 @@
           "perf": "poor",
           "date": "2026-04-12",
           "notes": "Gets in-game just fine but performance not up to par despite simpler 2D graphics",
-          "screenshots": [],
+          "reportedTitleId": "584108FF",
+          "reportedTitle": "Geometry Wars Evolved 2",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/6d5191c1-4afe-4af8-9080-ae5589253008"
+          ],
+          "submittedBy": "udance4ever",
           "source": "github",
           "build": {
             "buildId": "macos-release-1.0.1-9288",
@@ -99670,7 +99655,12 @@
           "perf": "poor",
           "date": "2026-04-12",
           "notes": "Gets in-game just fine but performance not up to par despite simpler 2D graphics",
-          "screenshots": [],
+          "reportedTitleId": "584108FF",
+          "reportedTitle": "Geometry Wars Evolved 2",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/6d5191c1-4afe-4af8-9080-ae5589253008"
+          ],
+          "submittedBy": "udance4ever",
           "source": "github",
           "build": {
             "buildId": "macos-release-1.0.1-9288",
@@ -99700,7 +99690,12 @@
           "perf": "poor",
           "date": "2026-04-12",
           "notes": "Gets in-game just fine but performance not up to par despite simpler 2D graphics",
-          "screenshots": [],
+          "reportedTitleId": "584108FF",
+          "reportedTitle": "Geometry Wars Evolved 2",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/6d5191c1-4afe-4af8-9080-ae5589253008"
+          ],
+          "submittedBy": "udance4ever",
           "source": "github",
           "build": {
             "buildId": "macos-release-1.0.1-9288",
@@ -99721,7 +99716,12 @@
           "perf": "poor",
           "date": "2026-04-12",
           "notes": "Gets in-game just fine but performance not up to par despite simpler 2D graphics",
-          "screenshots": [],
+          "reportedTitleId": "584108FF",
+          "reportedTitle": "Geometry Wars Evolved 2",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/6d5191c1-4afe-4af8-9080-ae5589253008"
+          ],
+          "submittedBy": "udance4ever",
           "source": "github",
           "build": {
             "buildId": "macos-release-1.0.1-9288",
@@ -214823,7 +214823,12 @@
         "perf": "n/a",
         "date": "2026-04-12",
         "notes": "freezes after logos",
-        "screenshots": [],
+        "reportedTitleId": "425607E7",
+        "reportedTitle": "Split/Second",
+        "screenshots": [
+          "https://github.com/user-attachments/assets/5de6fbd8-5b1b-4c44-b516-83023f089ea3"
+        ],
+        "submittedBy": "udance4ever",
         "source": "github",
         "build": {
           "buildId": "macos-release-1.0.1-9288",
@@ -214834,7 +214839,9 @@
         }
       }
     ],
-    "screenshots": [],
+    "screenshots": [
+      "https://github.com/user-attachments/assets/5de6fbd8-5b1b-4c44-b516-83023f089ea3"
+    ],
     "summaries": {
       "release": {
         "channel": "release",
@@ -214854,7 +214861,12 @@
           "perf": "n/a",
           "date": "2026-04-12",
           "notes": "freezes after logos",
-          "screenshots": [],
+          "reportedTitleId": "425607E7",
+          "reportedTitle": "Split/Second",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/5de6fbd8-5b1b-4c44-b516-83023f089ea3"
+          ],
+          "submittedBy": "udance4ever",
           "source": "github",
           "build": {
             "buildId": "macos-release-1.0.1-9288",
@@ -214874,7 +214886,12 @@
           "perf": "n/a",
           "date": "2026-04-12",
           "notes": "freezes after logos",
-          "screenshots": [],
+          "reportedTitleId": "425607E7",
+          "reportedTitle": "Split/Second",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/5de6fbd8-5b1b-4c44-b516-83023f089ea3"
+          ],
+          "submittedBy": "udance4ever",
           "source": "github",
           "build": {
             "buildId": "macos-release-1.0.1-9288",
@@ -214903,7 +214920,12 @@
           "perf": "n/a",
           "date": "2026-04-12",
           "notes": "freezes after logos",
-          "screenshots": [],
+          "reportedTitleId": "425607E7",
+          "reportedTitle": "Split/Second",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/5de6fbd8-5b1b-4c44-b516-83023f089ea3"
+          ],
+          "submittedBy": "udance4ever",
           "source": "github",
           "build": {
             "buildId": "macos-release-1.0.1-9288",
@@ -214923,7 +214945,12 @@
           "perf": "n/a",
           "date": "2026-04-12",
           "notes": "freezes after logos",
-          "screenshots": [],
+          "reportedTitleId": "425607E7",
+          "reportedTitle": "Split/Second",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/5de6fbd8-5b1b-4c44-b516-83023f089ea3"
+          ],
+          "submittedBy": "udance4ever",
           "source": "github",
           "build": {
             "buildId": "macos-release-1.0.1-9288",
@@ -219855,7 +219882,12 @@
         "perf": "great",
         "date": "2026-04-12",
         "notes": "not yet marked as \"Playable\" as what was tested was getting in-game and moving around.  no noticeable graphical issues or performance issues (yet)",
-        "screenshots": [],
+        "reportedTitleId": "4D5707D2",
+        "reportedTitle": "Stranglehold",
+        "screenshots": [
+          "https://github.com/user-attachments/assets/92708799-1534-4468-952d-d85ad81d1967"
+        ],
+        "submittedBy": "udance4ever",
         "source": "github",
         "build": {
           "buildId": "macos-release-1.0.1-9288",
@@ -219867,7 +219899,9 @@
         }
       }
     ],
-    "screenshots": [],
+    "screenshots": [
+      "https://github.com/user-attachments/assets/92708799-1534-4468-952d-d85ad81d1967"
+    ],
     "summaries": {
       "release": {
         "channel": "release",
@@ -219887,7 +219921,12 @@
           "perf": "great",
           "date": "2026-04-12",
           "notes": "not yet marked as \"Playable\" as what was tested was getting in-game and moving around.  no noticeable graphical issues or performance issues (yet)",
-          "screenshots": [],
+          "reportedTitleId": "4D5707D2",
+          "reportedTitle": "Stranglehold",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/92708799-1534-4468-952d-d85ad81d1967"
+          ],
+          "submittedBy": "udance4ever",
           "source": "github",
           "build": {
             "buildId": "macos-release-1.0.1-9288",
@@ -219908,7 +219947,12 @@
           "perf": "great",
           "date": "2026-04-12",
           "notes": "not yet marked as \"Playable\" as what was tested was getting in-game and moving around.  no noticeable graphical issues or performance issues (yet)",
-          "screenshots": [],
+          "reportedTitleId": "4D5707D2",
+          "reportedTitle": "Stranglehold",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/92708799-1534-4468-952d-d85ad81d1967"
+          ],
+          "submittedBy": "udance4ever",
           "source": "github",
           "build": {
             "buildId": "macos-release-1.0.1-9288",
@@ -219938,7 +219982,12 @@
           "perf": "great",
           "date": "2026-04-12",
           "notes": "not yet marked as \"Playable\" as what was tested was getting in-game and moving around.  no noticeable graphical issues or performance issues (yet)",
-          "screenshots": [],
+          "reportedTitleId": "4D5707D2",
+          "reportedTitle": "Stranglehold",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/92708799-1534-4468-952d-d85ad81d1967"
+          ],
+          "submittedBy": "udance4ever",
           "source": "github",
           "build": {
             "buildId": "macos-release-1.0.1-9288",
@@ -219959,7 +220008,12 @@
           "perf": "great",
           "date": "2026-04-12",
           "notes": "not yet marked as \"Playable\" as what was tested was getting in-game and moving around.  no noticeable graphical issues or performance issues (yet)",
-          "screenshots": [],
+          "reportedTitleId": "4D5707D2",
+          "reportedTitle": "Stranglehold",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/92708799-1534-4468-952d-d85ad81d1967"
+          ],
+          "submittedBy": "udance4ever",
           "source": "github",
           "build": {
             "buildId": "macos-release-1.0.1-9288",
@@ -233081,7 +233135,12 @@
         "perf": "n/a",
         "date": "2026-04-12",
         "notes": "black screen on boot",
-        "screenshots": [],
+        "reportedTitleId": "5841099F",
+        "reportedTitle": "Path of Go",
+        "screenshots": [
+          "https://github.com/user-attachments/assets/e0bce395-9857-4d4a-8603-fc88e3fb0abd"
+        ],
+        "submittedBy": "udance4ever",
         "source": "github",
         "build": {
           "buildId": "macos-release-1.0.1-9288",
@@ -233093,7 +233152,9 @@
         }
       }
     ],
-    "screenshots": [],
+    "screenshots": [
+      "https://github.com/user-attachments/assets/e0bce395-9857-4d4a-8603-fc88e3fb0abd"
+    ],
     "summaries": {
       "release": {
         "channel": "release",
@@ -233113,7 +233174,12 @@
           "perf": "n/a",
           "date": "2026-04-12",
           "notes": "black screen on boot",
-          "screenshots": [],
+          "reportedTitleId": "5841099F",
+          "reportedTitle": "Path of Go",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/e0bce395-9857-4d4a-8603-fc88e3fb0abd"
+          ],
+          "submittedBy": "udance4ever",
           "source": "github",
           "build": {
             "buildId": "macos-release-1.0.1-9288",
@@ -233134,7 +233200,12 @@
           "perf": "n/a",
           "date": "2026-04-12",
           "notes": "black screen on boot",
-          "screenshots": [],
+          "reportedTitleId": "5841099F",
+          "reportedTitle": "Path of Go",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/e0bce395-9857-4d4a-8603-fc88e3fb0abd"
+          ],
+          "submittedBy": "udance4ever",
           "source": "github",
           "build": {
             "buildId": "macos-release-1.0.1-9288",
@@ -233164,7 +233235,12 @@
           "perf": "n/a",
           "date": "2026-04-12",
           "notes": "black screen on boot",
-          "screenshots": [],
+          "reportedTitleId": "5841099F",
+          "reportedTitle": "Path of Go",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/e0bce395-9857-4d4a-8603-fc88e3fb0abd"
+          ],
+          "submittedBy": "udance4ever",
           "source": "github",
           "build": {
             "buildId": "macos-release-1.0.1-9288",
@@ -233185,7 +233261,12 @@
           "perf": "n/a",
           "date": "2026-04-12",
           "notes": "black screen on boot",
-          "screenshots": [],
+          "reportedTitleId": "5841099F",
+          "reportedTitle": "Path of Go",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/e0bce395-9857-4d4a-8603-fc88e3fb0abd"
+          ],
+          "submittedBy": "udance4ever",
           "source": "github",
           "build": {
             "buildId": "macos-release-1.0.1-9288",
@@ -241676,7 +241757,13 @@
         "perf": "n/a",
         "date": "2026-04-12",
         "notes": "Hung repeatedly while attempting to load after copyright screen.   After 3 or 4x, it gets past and then freezes again while rendering title screen.",
-        "screenshots": [],
+        "reportedTitleId": "4156089C",
+        "reportedTitle": "Transformers: Fall of Cybertron",
+        "screenshots": [
+          "https://github.com/user-attachments/assets/1f94a97e-7752-43ac-98b6-0e8bac91fb49",
+          "https://github.com/user-attachments/assets/a7a0f81f-08da-4958-a5f6-bebe4d3da8bc"
+        ],
+        "submittedBy": "udance4ever",
         "source": "github",
         "build": {
           "buildId": "macos-release-1.0.1-9288",
@@ -241688,7 +241775,10 @@
         }
       }
     ],
-    "screenshots": [],
+    "screenshots": [
+      "https://github.com/user-attachments/assets/1f94a97e-7752-43ac-98b6-0e8bac91fb49",
+      "https://github.com/user-attachments/assets/a7a0f81f-08da-4958-a5f6-bebe4d3da8bc"
+    ],
     "summaries": {
       "release": {
         "channel": "release",
@@ -241708,7 +241798,13 @@
           "perf": "n/a",
           "date": "2026-04-12",
           "notes": "Hung repeatedly while attempting to load after copyright screen.   After 3 or 4x, it gets past and then freezes again while rendering title screen.",
-          "screenshots": [],
+          "reportedTitleId": "4156089C",
+          "reportedTitle": "Transformers: Fall of Cybertron",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/1f94a97e-7752-43ac-98b6-0e8bac91fb49",
+            "https://github.com/user-attachments/assets/a7a0f81f-08da-4958-a5f6-bebe4d3da8bc"
+          ],
+          "submittedBy": "udance4ever",
           "source": "github",
           "build": {
             "buildId": "macos-release-1.0.1-9288",
@@ -241729,7 +241825,13 @@
           "perf": "n/a",
           "date": "2026-04-12",
           "notes": "Hung repeatedly while attempting to load after copyright screen.   After 3 or 4x, it gets past and then freezes again while rendering title screen.",
-          "screenshots": [],
+          "reportedTitleId": "4156089C",
+          "reportedTitle": "Transformers: Fall of Cybertron",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/1f94a97e-7752-43ac-98b6-0e8bac91fb49",
+            "https://github.com/user-attachments/assets/a7a0f81f-08da-4958-a5f6-bebe4d3da8bc"
+          ],
+          "submittedBy": "udance4ever",
           "source": "github",
           "build": {
             "buildId": "macos-release-1.0.1-9288",
@@ -241759,7 +241861,13 @@
           "perf": "n/a",
           "date": "2026-04-12",
           "notes": "Hung repeatedly while attempting to load after copyright screen.   After 3 or 4x, it gets past and then freezes again while rendering title screen.",
-          "screenshots": [],
+          "reportedTitleId": "4156089C",
+          "reportedTitle": "Transformers: Fall of Cybertron",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/1f94a97e-7752-43ac-98b6-0e8bac91fb49",
+            "https://github.com/user-attachments/assets/a7a0f81f-08da-4958-a5f6-bebe4d3da8bc"
+          ],
+          "submittedBy": "udance4ever",
           "source": "github",
           "build": {
             "buildId": "macos-release-1.0.1-9288",
@@ -241780,7 +241888,13 @@
           "perf": "n/a",
           "date": "2026-04-12",
           "notes": "Hung repeatedly while attempting to load after copyright screen.   After 3 or 4x, it gets past and then freezes again while rendering title screen.",
-          "screenshots": [],
+          "reportedTitleId": "4156089C",
+          "reportedTitle": "Transformers: Fall of Cybertron",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/1f94a97e-7752-43ac-98b6-0e8bac91fb49",
+            "https://github.com/user-attachments/assets/a7a0f81f-08da-4958-a5f6-bebe4d3da8bc"
+          ],
+          "submittedBy": "udance4ever",
           "source": "github",
           "build": {
             "buildId": "macos-release-1.0.1-9288",
@@ -250667,7 +250781,12 @@
         "perf": "great",
         "date": "2026-04-12",
         "notes": "Gets in-game and has huge black bar across the screen.  You can still control Gromit with the gamepad.",
-        "screenshots": [],
+        "reportedTitleId": "5841093C",
+        "reportedTitle": "Wallace & Gromit: Fright of the Bumblebees",
+        "screenshots": [
+          "https://github.com/user-attachments/assets/bf74b33b-8653-419f-a104-5f38392cd8a8"
+        ],
+        "submittedBy": "udance4ever",
         "source": "github",
         "build": {
           "buildId": "macos-release-1.0.1-9288",
@@ -250679,7 +250798,9 @@
         }
       }
     ],
-    "screenshots": [],
+    "screenshots": [
+      "https://github.com/user-attachments/assets/bf74b33b-8653-419f-a104-5f38392cd8a8"
+    ],
     "summaries": {
       "release": {
         "channel": "release",
@@ -250699,7 +250820,12 @@
           "perf": "great",
           "date": "2026-04-12",
           "notes": "Gets in-game and has huge black bar across the screen.  You can still control Gromit with the gamepad.",
-          "screenshots": [],
+          "reportedTitleId": "5841093C",
+          "reportedTitle": "Wallace & Gromit: Fright of the Bumblebees",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/bf74b33b-8653-419f-a104-5f38392cd8a8"
+          ],
+          "submittedBy": "udance4ever",
           "source": "github",
           "build": {
             "buildId": "macos-release-1.0.1-9288",
@@ -250720,7 +250846,12 @@
           "perf": "great",
           "date": "2026-04-12",
           "notes": "Gets in-game and has huge black bar across the screen.  You can still control Gromit with the gamepad.",
-          "screenshots": [],
+          "reportedTitleId": "5841093C",
+          "reportedTitle": "Wallace & Gromit: Fright of the Bumblebees",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/bf74b33b-8653-419f-a104-5f38392cd8a8"
+          ],
+          "submittedBy": "udance4ever",
           "source": "github",
           "build": {
             "buildId": "macos-release-1.0.1-9288",
@@ -250750,7 +250881,12 @@
           "perf": "great",
           "date": "2026-04-12",
           "notes": "Gets in-game and has huge black bar across the screen.  You can still control Gromit with the gamepad.",
-          "screenshots": [],
+          "reportedTitleId": "5841093C",
+          "reportedTitle": "Wallace & Gromit: Fright of the Bumblebees",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/bf74b33b-8653-419f-a104-5f38392cd8a8"
+          ],
+          "submittedBy": "udance4ever",
           "source": "github",
           "build": {
             "buildId": "macos-release-1.0.1-9288",
@@ -250771,7 +250907,12 @@
           "perf": "great",
           "date": "2026-04-12",
           "notes": "Gets in-game and has huge black bar across the screen.  You can still control Gromit with the gamepad.",
-          "screenshots": [],
+          "reportedTitleId": "5841093C",
+          "reportedTitle": "Wallace & Gromit: Fright of the Bumblebees",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/bf74b33b-8653-419f-a104-5f38392cd8a8"
+          ],
+          "submittedBy": "udance4ever",
           "source": "github",
           "build": {
             "buildId": "macos-release-1.0.1-9288",
@@ -258197,7 +258338,12 @@
         "perf": "n/a",
         "date": "2026-04-12",
         "notes": "Hangs while loading... never gets in-game",
-        "screenshots": [],
+        "reportedTitleId": "41560816",
+        "reportedTitle": "X-Men Origins: Wolverine",
+        "screenshots": [
+          "https://github.com/user-attachments/assets/0514bf5c-377a-490b-a1e5-662edb8339df"
+        ],
+        "submittedBy": "udance4ever",
         "source": "github",
         "build": {
           "buildId": "macos-release-1.0.1-9288",
@@ -258209,7 +258355,9 @@
         }
       }
     ],
-    "screenshots": [],
+    "screenshots": [
+      "https://github.com/user-attachments/assets/0514bf5c-377a-490b-a1e5-662edb8339df"
+    ],
     "summaries": {
       "release": {
         "channel": "release",
@@ -258229,7 +258377,12 @@
           "perf": "n/a",
           "date": "2026-04-12",
           "notes": "Hangs while loading... never gets in-game",
-          "screenshots": [],
+          "reportedTitleId": "41560816",
+          "reportedTitle": "X-Men Origins: Wolverine",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/0514bf5c-377a-490b-a1e5-662edb8339df"
+          ],
+          "submittedBy": "udance4ever",
           "source": "github",
           "build": {
             "buildId": "macos-release-1.0.1-9288",
@@ -258250,7 +258403,12 @@
           "perf": "n/a",
           "date": "2026-04-12",
           "notes": "Hangs while loading... never gets in-game",
-          "screenshots": [],
+          "reportedTitleId": "41560816",
+          "reportedTitle": "X-Men Origins: Wolverine",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/0514bf5c-377a-490b-a1e5-662edb8339df"
+          ],
+          "submittedBy": "udance4ever",
           "source": "github",
           "build": {
             "buildId": "macos-release-1.0.1-9288",
@@ -258280,7 +258438,12 @@
           "perf": "n/a",
           "date": "2026-04-12",
           "notes": "Hangs while loading... never gets in-game",
-          "screenshots": [],
+          "reportedTitleId": "41560816",
+          "reportedTitle": "X-Men Origins: Wolverine",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/0514bf5c-377a-490b-a1e5-662edb8339df"
+          ],
+          "submittedBy": "udance4ever",
           "source": "github",
           "build": {
             "buildId": "macos-release-1.0.1-9288",
@@ -258301,7 +258464,12 @@
           "perf": "n/a",
           "date": "2026-04-12",
           "notes": "Hangs while loading... never gets in-game",
-          "screenshots": [],
+          "reportedTitleId": "41560816",
+          "reportedTitle": "X-Men Origins: Wolverine",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/0514bf5c-377a-490b-a1e5-662edb8339df"
+          ],
+          "submittedBy": "udance4ever",
           "source": "github",
           "build": {
             "buildId": "macos-release-1.0.1-9288",
@@ -265242,7 +265410,12 @@
         "perf": "n/a",
         "date": "2026-04-12",
         "notes": "black screen on boot",
-        "screenshots": [],
+        "reportedTitleId": "445007F4",
+        "reportedTitle": "Oneechanbara Z - Kagura (お姉チャンバラZ～カグラ)",
+        "screenshots": [
+          "https://github.com/user-attachments/assets/225ff65f-f861-4e8e-8860-4b5ea0f2f4ab"
+        ],
+        "submittedBy": "udance4ever",
         "source": "github",
         "build": {
           "buildId": "macos-release-1.0.1-9288",
@@ -265254,7 +265427,9 @@
         }
       }
     ],
-    "screenshots": [],
+    "screenshots": [
+      "https://github.com/user-attachments/assets/225ff65f-f861-4e8e-8860-4b5ea0f2f4ab"
+    ],
     "summaries": {
       "release": {
         "channel": "release",
@@ -265274,7 +265449,12 @@
           "perf": "n/a",
           "date": "2026-04-12",
           "notes": "black screen on boot",
-          "screenshots": [],
+          "reportedTitleId": "445007F4",
+          "reportedTitle": "Oneechanbara Z - Kagura (お姉チャンバラZ～カグラ)",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/225ff65f-f861-4e8e-8860-4b5ea0f2f4ab"
+          ],
+          "submittedBy": "udance4ever",
           "source": "github",
           "build": {
             "buildId": "macos-release-1.0.1-9288",
@@ -265295,7 +265475,12 @@
           "perf": "n/a",
           "date": "2026-04-12",
           "notes": "black screen on boot",
-          "screenshots": [],
+          "reportedTitleId": "445007F4",
+          "reportedTitle": "Oneechanbara Z - Kagura (お姉チャンバラZ～カグラ)",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/225ff65f-f861-4e8e-8860-4b5ea0f2f4ab"
+          ],
+          "submittedBy": "udance4ever",
           "source": "github",
           "build": {
             "buildId": "macos-release-1.0.1-9288",
@@ -265325,7 +265510,12 @@
           "perf": "n/a",
           "date": "2026-04-12",
           "notes": "black screen on boot",
-          "screenshots": [],
+          "reportedTitleId": "445007F4",
+          "reportedTitle": "Oneechanbara Z - Kagura (お姉チャンバラZ～カグラ)",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/225ff65f-f861-4e8e-8860-4b5ea0f2f4ab"
+          ],
+          "submittedBy": "udance4ever",
           "source": "github",
           "build": {
             "buildId": "macos-release-1.0.1-9288",
@@ -265346,7 +265536,12 @@
           "perf": "n/a",
           "date": "2026-04-12",
           "notes": "black screen on boot",
-          "screenshots": [],
+          "reportedTitleId": "445007F4",
+          "reportedTitle": "Oneechanbara Z - Kagura (お姉チャンバラZ～カグラ)",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/225ff65f-f861-4e8e-8860-4b5ea0f2f4ab"
+          ],
+          "submittedBy": "udance4ever",
           "source": "github",
           "build": {
             "buildId": "macos-release-1.0.1-9288",
