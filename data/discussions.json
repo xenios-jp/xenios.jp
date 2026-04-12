@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-12T23:43:47.146Z",
+  "generatedAt": "2026-04-12T23:49:21.514Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1861,10 +1861,24 @@
     },
     "53450848": {
       "titleId": "53450848",
-      "issueNumber": 271,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/271",
-      "updatedAt": "2026-03-28",
+      "issueNumber": 12,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/12",
+      "updatedAt": "2026-04-12",
       "entries": [
+        {
+          "id": "comment-4233006277",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/12#issuecomment-4233006277",
+          "author": "udance4ever",
+          "createdAt": "2026-04-12",
+          "createdAtMs": 1776037684000,
+          "issueNumber": 12,
+          "excerpt": "`In-Game` in macOS 26.4.1 on MacBook Pro (M1) (1.0.1-9288 #056d2f64d). Didn't play long enough to experience dips.",
+          "images": [
+            "https://github.com/user-attachments/assets/09f2639c-677d-4efc-9698-351ebedf0e60"
+          ],
+          "meta": {}
+        },
         {
           "id": "comment-4148026721",
           "type": "comment",
