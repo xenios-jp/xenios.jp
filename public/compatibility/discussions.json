@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-12T22:18:36.224Z",
+  "generatedAt": "2026-04-12T22:26:56.398Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -11955,8 +11955,20 @@
       "titleId": "544307D1",
       "issueNumber": 19,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/19",
-      "updatedAt": "2026-03-07",
+      "updatedAt": "2026-04-12",
       "entries": [
+        {
+          "id": "comment-4232873149",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/19#issuecomment-4232873149",
+          "author": "udance4ever",
+          "createdAt": "2026-04-12",
+          "createdAtMs": 1776032722000,
+          "issueNumber": 19,
+          "excerpt": "This game booted beautifully on MacBook Pro (M1) (build 1.0.1-9288 #056d2f64d) yesterday, today it throws the error pasted below without the call stack.\n\nSame issue with [Remember Me](#176) and [Blur](#298] (all 3 worked prior but crashes the same way today when other titles work)\n\n```\n*** Terminating app due to uncaught exception 'NSInternalInconsistencyException', reason: 'Invalid parameter not satisfying: CGRectContainsRect(CGRectMake((CGFloat)INT_MIN, (CGFloat)INT_MIN, (CGFloat)INT_MAX - (CGFloat)INT_MIN, (CGFloat)INT_MAX - (CGFloat)INT_MIN), frame). self=<QNSWindow: 0xa99255b80; contentView=NSObject(0x0)> frame={{0, 2147483633}, {1920, 1080}}'\n```",
+          "images": [],
+          "meta": {}
+        },
         {
           "id": "comment-4015745484",
           "type": "comment",
