@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-12T22:36:25.462Z",
+  "generatedAt": "2026-04-12T22:39:25.468Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2599,6 +2599,26 @@
           "createdAtMs": 1773517964000,
           "issueNumber": 263,
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
+          "images": [],
+          "meta": {}
+        }
+      ]
+    },
+    "4B4E084D": {
+      "titleId": "4B4E084D",
+      "issueNumber": 412,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/412",
+      "updatedAt": "2026-04-12",
+      "entries": [
+        {
+          "id": "issue-412",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/412",
+          "author": "udance4ever",
+          "createdAt": "2026-04-12",
+          "createdAtMs": 1776033491000,
+          "issueNumber": 412,
+          "excerpt": "crashes with JIT error immediately on launch.",
           "images": [],
           "meta": {}
         }
