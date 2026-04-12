@@ -258172,34 +258172,146 @@
     "status": "nothing",
     "perf": "n/a",
     "tags": [],
-    "platforms": [],
-    "lastReport": null,
-    "updatedAt": "",
-    "notes": "",
-    "reports": [],
+    "platforms": [
+      "macos"
+    ],
+    "lastReport": {
+      "device": "MacBook Pro (M1)",
+      "platform": "macos",
+      "osVersion": "26.4.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-04-12",
+    "issueNumber": 409,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/409",
+    "notes": "Hangs while loading... never gets in-game",
+    "reports": [
+      {
+        "device": "MacBook Pro (M1)",
+        "platform": "macos",
+        "osVersion": "26.4.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-04-12",
+        "notes": "Hangs while loading... never gets in-game",
+        "screenshots": [],
+        "source": "github",
+        "build": {
+          "buildId": "macos-release-1.0.1-9288",
+          "channel": "release",
+          "official": true,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "commitShort": "056d2f64d"
+        }
+      }
+    ],
     "screenshots": [],
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "nothing",
+        "perf": "n/a",
+        "notes": "Hangs while loading... never gets in-game",
+        "updatedAt": "2026-04-12",
+        "date": "2026-04-12",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "MacBook Pro (M1)",
+          "platform": "macos",
+          "osVersion": "26.4.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-04-12",
+          "notes": "Hangs while loading... never gets in-game",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-1.0.1-9288",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
+          }
+        },
+        "bestReport": {
+          "device": "MacBook Pro (M1)",
+          "platform": "macos",
+          "osVersion": "26.4.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-04-12",
+          "notes": "Hangs while loading... never gets in-game",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-1.0.1-9288",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
+          }
+        }
       },
       "all": {
         "channel": "all",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "nothing",
+        "perf": "n/a",
+        "notes": "Hangs while loading... never gets in-game",
+        "updatedAt": "2026-04-12",
+        "date": "2026-04-12",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "MacBook Pro (M1)",
+          "platform": "macos",
+          "osVersion": "26.4.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-04-12",
+          "notes": "Hangs while loading... never gets in-game",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-1.0.1-9288",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
+          }
+        },
+        "bestReport": {
+          "device": "MacBook Pro (M1)",
+          "platform": "macos",
+          "osVersion": "26.4.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-04-12",
+          "notes": "Hangs while loading... never gets in-game",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-1.0.1-9288",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
+          }
+        }
       }
     }
   },
@@ -265105,34 +265217,146 @@
     "status": "nothing",
     "perf": "n/a",
     "tags": [],
-    "platforms": [],
-    "lastReport": null,
-    "updatedAt": "",
-    "notes": "",
-    "reports": [],
+    "platforms": [
+      "macos"
+    ],
+    "lastReport": {
+      "device": "MacBook Pro (M1)",
+      "platform": "macos",
+      "osVersion": "26.4.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-04-12",
+    "issueNumber": 410,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/410",
+    "notes": "black screen on boot",
+    "reports": [
+      {
+        "device": "MacBook Pro (M1)",
+        "platform": "macos",
+        "osVersion": "26.4.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-04-12",
+        "notes": "black screen on boot",
+        "screenshots": [],
+        "source": "github",
+        "build": {
+          "buildId": "macos-release-1.0.1-9288",
+          "channel": "release",
+          "official": true,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "commitShort": "056d2f64d"
+        }
+      }
+    ],
     "screenshots": [],
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "nothing",
+        "perf": "n/a",
+        "notes": "black screen on boot",
+        "updatedAt": "2026-04-12",
+        "date": "2026-04-12",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "MacBook Pro (M1)",
+          "platform": "macos",
+          "osVersion": "26.4.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-04-12",
+          "notes": "black screen on boot",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-1.0.1-9288",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
+          }
+        },
+        "bestReport": {
+          "device": "MacBook Pro (M1)",
+          "platform": "macos",
+          "osVersion": "26.4.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-04-12",
+          "notes": "black screen on boot",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-1.0.1-9288",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
+          }
+        }
       },
       "all": {
         "channel": "all",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "nothing",
+        "perf": "n/a",
+        "notes": "black screen on boot",
+        "updatedAt": "2026-04-12",
+        "date": "2026-04-12",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "MacBook Pro (M1)",
+          "platform": "macos",
+          "osVersion": "26.4.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-04-12",
+          "notes": "black screen on boot",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-1.0.1-9288",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
+          }
+        },
+        "bestReport": {
+          "device": "MacBook Pro (M1)",
+          "platform": "macos",
+          "osVersion": "26.4.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-04-12",
+          "notes": "black screen on boot",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-1.0.1-9288",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
+          }
+        }
       }
     }
   },

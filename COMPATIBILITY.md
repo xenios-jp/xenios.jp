@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **269 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **271 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **101** · 🔵 In-Game: **60** · 🟡 Intro: **25** · 🟠 Loads: **39** · 🔴 Doesn't Boot: **44**
+> 🟢 Playable: **101** · 🔵 In-Game: **60** · 🟡 Intro: **25** · 🟠 Loads: **39** · 🔴 Doesn't Boot: **46**
 >
-> 📱 iOS: **245** · 🖥️ macOS: **45**
+> 📱 iOS: **245** · 🖥️ macOS: **47**
 
 ## Legend
 
@@ -289,6 +289,8 @@
 | 🔴 | WWE 2k14 | `545408B2` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 | 2026-03-25 |
 | 🔴 | WWE 2K15 | `545408B6` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro Max | 2026-03-11 |
 | 🔴 | WWE Smackdown vs. Raw 2011 | `5451085D` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad (A16) | 2026-03-16 |
+| 🔴 | X-Men Origins: Wolverine | `41560816` | 🖥️ macOS | Doesn't Boot | ➖ N/A | MacBook Pro (M1) | 2026-04-12 |
+| 🔴 | お姉チャンバラZ ～カグラ～ | `445007F4` | 🖥️ macOS | Doesn't Boot | ➖ N/A | MacBook Pro (M1) | 2026-04-12 |
 
 ---
 
