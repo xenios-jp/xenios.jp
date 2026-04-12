@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-12T22:26:56.398Z",
+  "generatedAt": "2026-04-12T22:31:55.637Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -6746,8 +6746,20 @@
       "titleId": "584107D7",
       "issueNumber": 283,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/283",
-      "updatedAt": "2026-03-16",
+      "updatedAt": "2026-04-12",
       "entries": [
+        {
+          "id": "comment-4232881219",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/283#issuecomment-4232881219",
+          "author": "udance4ever",
+          "createdAt": "2026-04-12",
+          "createdAtMs": 1776033038000,
+          "issueNumber": 283,
+          "excerpt": "adding photo of marble when it starts to fall through floor. Please change state to \"In-game\"\n\n<img width=\"1392\" height=\"860\" alt=\"Image\" src=\" />",
+          "images": [],
+          "meta": {}
+        },
         {
           "id": "issue-283",
           "type": "issue",
