@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-12T12:09:22.271Z",
+  "generatedAt": "2026-04-12T12:14:43.768Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -3203,7 +3203,7 @@
           "createdAt": "2026-04-12",
           "createdAtMs": 1775995543000,
           "issueNumber": 386,
-          "excerpt": "Same result on a MacBook Pro (M1) (same build)\n\n<img width=\"1392\" height=\"860\" alt=\"Image\" src=\" />",
+          "excerpt": "Same result on a MacBook Pro (M1) (same build: 1.0.1-9288)\n\n<img width=\"1392\" height=\"860\" alt=\"Image\" src=\" />",
           "images": [],
           "meta": {}
         },
