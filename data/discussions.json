@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-13T00:21:59.492Z",
+  "generatedAt": "2026-04-13T00:28:00.894Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -771,7 +771,7 @@
           "createdAt": "2026-04-13",
           "createdAtMs": 1776039191000,
           "issueNumber": 414,
-          "excerpt": "Made it to the 2nd segment (after chocolate dream) where you can switch to Bart - didn't experience any glitches or slowdown so `Playable` until proven otherwise. Cutscenes are impacted by the known FMV \"green glitching\" issue in common with most games in this build (esp logos) - it doesn't freeze the game in anyway but does take away from the overall experience of the game - otherwise, the interactive components play well!",
+          "excerpt": "Made it to the 2nd segment (after chocolate dream) where you can switch to Bart in the house - didn't experience any glitches or slowdown so `Playable` until proven otherwise. Cutscenes are impacted by the known FMV \"green glitching\" issue in common with most games in this build (esp logos) - it doesn't freeze the game in anyway but does take away from the overall experience of the game watching cutscenes between action. Otherwise, the game does play well!",
           "images": [
             "https://github.com/user-attachments/assets/21e43d82-9aff-459d-8d08-53920491d782"
           ],
