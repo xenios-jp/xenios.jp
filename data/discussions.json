@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-12T23:50:46.506Z",
+  "generatedAt": "2026-04-13T00:21:59.492Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -759,10 +759,36 @@
     },
     "45410809": {
       "titleId": "45410809",
-      "issueNumber": 213,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/213",
-      "updatedAt": "2026-03-21",
+      "issueNumber": 414,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/414",
+      "updatedAt": "2026-04-13",
       "entries": [
+        {
+          "id": "issue-414",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/414",
+          "author": "udance4ever",
+          "createdAt": "2026-04-13",
+          "createdAtMs": 1776039191000,
+          "issueNumber": 414,
+          "excerpt": "Made it to the 2nd segment (after chocolate dream) where you can switch to Bart - didn't experience any glitches or slowdown so `Playable` until proven otherwise. Cutscenes are impacted by the known FMV \"green glitching\" issue in common with most games in this build (esp logos) - it doesn't freeze the game in anyway but does take away from the overall experience of the game - otherwise, the interactive components play well!",
+          "images": [
+            "https://github.com/user-attachments/assets/21e43d82-9aff-459d-8d08-53920491d782"
+          ],
+          "meta": {}
+        },
+        {
+          "id": "comment-4233011583",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/213#issuecomment-4233011583",
+          "author": "udance4ever",
+          "createdAt": "2026-04-12",
+          "createdAtMs": 1776037879000,
+          "issueNumber": 213,
+          "excerpt": "`Playable` (no known issues in first 3% of the game other than FMV sequences)\nmacOS 26.4.1 MacBook Pro (M1) (1.0.1-9288 #056d2f64d)\n\nMade it to the next segment where you can switch to Bart and didn't experience any glitches or slowdown (opposed to the known FMV \"green glitch\" issue common in all games as of this build)\n\n<img width=\"1392\" height=\"860\" alt=\"Image\" src=\" />",
+          "images": [],
+          "meta": {}
+        },
         {
           "id": "comment-4102978925",
           "type": "comment",

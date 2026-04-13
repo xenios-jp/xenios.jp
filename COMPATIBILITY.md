@@ -112,7 +112,7 @@
 | 🟢 | Test Drive Unlimited | `494707D4` | 📱 iOS | Playable | 👌 OK | iPhone 17 Pro Max | 2026-03-27 |
 | 🟢 | The Elder Scrolls 4: Oblivion - Game of the Year Edition | `425307D1` | 📱 iOS | Playable | 👌 OK | iPhone 14 Plus | 2026-03-22 |
 | 🟢 | The Outfit | `545107D2` | 📱 iOS | Playable | 🐢 Poor | iPhone 15 Pro Max | 2026-03-13 |
-| 🟢 | The Simpsons Game | `45410809` | 📱 iOS | Playable | 🚀 Great | iPhone 15 Pro Max | 2026-03-21 |
+| 🟢 | The Simpsons Game | `45410809` | 📱 iOS | Playable | 👌 OK | iPhone Air | 2026-03-08 |
 | 🟢 | TimeShift | `565507DA` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro | 2026-03-13 |
 | 🟢 | TMNT | `555307F8` | 📱 iOS | Playable | 👌 OK | iPhone 13 Pro | 2026-04-10 |
 | 🟢 | Toy Story 3 | `425607E5` | 📱 iOS | Playable | 👌 OK | iPhone 15 Pro | 2026-03-15 |
