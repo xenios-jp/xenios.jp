@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-13T00:30:21.519Z",
+  "generatedAt": "2026-04-13T05:43:28.116Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2651,6 +2651,49 @@
           "createdAtMs": 1773517964000,
           "issueNumber": 263,
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
+          "images": [],
+          "meta": {}
+        }
+      ]
+    },
+    "4D530AA4": {
+      "titleId": "4D530AA4",
+      "issueNumber": 415,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/415",
+      "updatedAt": "2026-04-13",
+      "entries": [
+        {
+          "id": "issue-415",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/415",
+          "author": "xenios-jp",
+          "createdAt": "2026-04-13",
+          "createdAtMs": 1776058938000,
+          "issueNumber": 415,
+          "excerpt": "On only one run was it able to get to the copyright text which presumably is shown when the game is booted, otherwise it’s just a black screen.",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 12",
+            "platform": "iOS",
+            "osVersion": "iOS 18.5",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
+        {
+          "id": "issue-95",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/95",
+          "author": "QualityControled",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1773005611000,
+          "issueNumber": 95,
+          "excerpt": "Game boots on first try. Menu's work as intended, pre-rendered scenes behind the menus have graphical issues. \nUpon prompting the game to load into first area, the game will load indefinitely.",
           "images": [],
           "meta": {}
         }
@@ -11199,26 +11242,6 @@
             "buildNumber": "9280",
             "commitShort": "`2633e8177`"
           }
-        }
-      ]
-    },
-    "4D530AA4": {
-      "titleId": "4D530AA4",
-      "issueNumber": 95,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/95",
-      "updatedAt": "2026-03-08",
-      "entries": [
-        {
-          "id": "issue-95",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/95",
-          "author": "QualityControled",
-          "createdAt": "2026-03-08",
-          "createdAtMs": 1773005611000,
-          "issueNumber": 95,
-          "excerpt": "Game boots on first try. Menu's work as intended, pre-rendered scenes behind the menus have graphical issues. \nUpon prompting the game to load into first area, the game will load indefinitely.",
-          "images": [],
-          "meta": {}
         }
       ]
     },
