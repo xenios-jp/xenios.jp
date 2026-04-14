@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-13T05:43:28.116Z",
+  "generatedAt": "2026-04-14T19:55:54.821Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2653,6 +2653,86 @@
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
           "images": [],
           "meta": {}
+        }
+      ]
+    },
+    "454107EC": {
+      "titleId": "454107EC",
+      "issueNumber": 416,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/416",
+      "updatedAt": "2026-04-14",
+      "entries": [
+        {
+          "id": "issue-416",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/416",
+          "author": "xenios-jp",
+          "createdAt": "2026-04-14",
+          "createdAtMs": 1776196450000,
+          "issueNumber": 416,
+          "excerpt": "Performance drops, audio issues, graphical glitches",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 14 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 26.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
+        {
+          "id": "comment-4074422719",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/216#issuecomment-4074422719",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-17",
+          "createdAtMs": 1773748523000,
+          "issueNumber": 216,
+          "excerpt": "Screen recording: \nGame runs\nCutscenes are glitching\nPerformance is poor\nAudio stutters if the game lags (almost always)\nPhone was set on a fan for cooling and was charging with a 5 watt charger, connected to a dualshock 4 gen 2 controller via USB.\nI couldnt turn on game mode, but it shouldnt affect performance.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454107EC/1773748518148-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454107EC/1773748518148-2.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "poor",
+            "device": "iPhone 16",
+            "platform": "iOS",
+            "osVersion": "iOS 26.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
+        {
+          "id": "issue-216",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/216",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-12",
+          "createdAtMs": 1773301229000,
+          "issueNumber": 216,
+          "excerpt": "Se puede jugar sin sonido",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
         }
       ]
     },
@@ -9050,63 +9130,6 @@
             "appVersion": "1.0.0",
             "buildNumber": "9296",
             "commitShort": "`ab2ca341a`"
-          }
-        }
-      ]
-    },
-    "454107EC": {
-      "titleId": "454107EC",
-      "issueNumber": 216,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/216",
-      "updatedAt": "2026-03-17",
-      "entries": [
-        {
-          "id": "comment-4074422719",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/216#issuecomment-4074422719",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-17",
-          "createdAtMs": 1773748523000,
-          "issueNumber": 216,
-          "excerpt": "Screen recording: \nGame runs\nCutscenes are glitching\nPerformance is poor\nAudio stutters if the game lags (almost always)\nPhone was set on a fan for cooling and was charging with a 5 watt charger, connected to a dualshock 4 gen 2 controller via USB.\nI couldnt turn on game mode, but it shouldnt affect performance.",
-          "images": [
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454107EC/1773748518148-1.jpg",
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454107EC/1773748518148-2.jpg"
-          ],
-          "meta": {
-            "status": "playable",
-            "perf": "poor",
-            "device": "iPhone 16",
-            "platform": "iOS",
-            "osVersion": "iOS 26.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "`056d2f64d`"
-          }
-        },
-        {
-          "id": "issue-216",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/216",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-12",
-          "createdAtMs": 1773301229000,
-          "issueNumber": 216,
-          "excerpt": "Se puede jugar sin sonido",
-          "images": [],
-          "meta": {
-            "status": "playable",
-            "perf": "great",
-            "device": "iPhone 17 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "`2633e8177`"
           }
         }
       ]
