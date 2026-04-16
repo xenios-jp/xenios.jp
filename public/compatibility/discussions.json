@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-14T19:55:54.821Z",
+  "generatedAt": "2026-04-16T11:03:25.343Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2653,6 +2653,72 @@
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
           "images": [],
           "meta": {}
+        }
+      ]
+    },
+    "454108F9": {
+      "titleId": "454108F9",
+      "issueNumber": 418,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/418",
+      "updatedAt": "2026-04-16",
+      "entries": [
+        {
+          "id": "issue-418",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/418",
+          "author": "xenios-jp",
+          "createdAt": "2026-04-16",
+          "createdAtMs": 1776337347000,
+          "issueNumber": 418,
+          "excerpt": "Nothing happens ,please someone tell me how to play this or fix it",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454108F9/1776337340857-1.jpg"
+          ],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 16",
+            "platform": "iOS",
+            "osVersion": "iOS 26.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        }
+      ]
+    },
+    "454107FA": {
+      "titleId": "454107FA",
+      "issueNumber": 417,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/417",
+      "updatedAt": "2026-04-16",
+      "entries": [
+        {
+          "id": "issue-417",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/417",
+          "author": "xenios-jp",
+          "createdAt": "2026-04-16",
+          "createdAtMs": 1776337285000,
+          "issueNumber": 417,
+          "excerpt": "Please someone tell me how to fix this",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454107FA/1776337279805-1.jpg"
+          ],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 16",
+            "platform": "iOS",
+            "osVersion": "iOS 26.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
         }
       ]
     },
