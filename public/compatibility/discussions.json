@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-17T07:41:37.898Z",
+  "generatedAt": "2026-04-17T08:13:32.897Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -4421,8 +4421,31 @@
       "titleId": "545408A7",
       "issueNumber": 369,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/369",
-      "updatedAt": "2026-04-04",
+      "updatedAt": "2026-04-17",
       "entries": [
+        {
+          "id": "comment-4266404943",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/369#issuecomment-4266404943",
+          "author": "xenios-jp",
+          "createdAt": "2026-04-17",
+          "createdAtMs": 1776413520000,
+          "issueNumber": 369,
+          "excerpt": "When I open the game it’s just a black screen",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPad 10",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
         {
           "id": "comment-4186056104",
           "type": "comment",
@@ -4544,18 +4567,6 @@
             "buildNumber": "9288",
             "commitShort": "`056d2f64d`"
           }
-        },
-        {
-          "id": "comment-4094455712",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/214#issuecomment-4094455712",
-          "author": "KilIswitch",
-          "createdAt": "2026-03-19",
-          "createdAtMs": 1773964645000,
-          "issueNumber": 214,
-          "excerpt": "> \n> Game loads into then black screens. I have extra ram entitlement, Jit, and i am using the custom script recommended by the developers of xenios. I am on a 13in 5G M4 iPad Pro 1TB 16gigs of ram. People saying they got it to run on iPhones but didn’t share how. Ridiculous on their part.\n> \n> _Submitted via XeniOS in-app reporter_\n\nIt loads in. Make sure ur in the discord there’s a whole tutorial for it and people willing to help not sure what ur talking about.",
-          "images": [],
-          "meta": {}
         }
       ]
     },
