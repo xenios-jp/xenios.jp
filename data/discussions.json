@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-18T10:49:00.322Z",
+  "generatedAt": "2026-04-18T19:20:59.587Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2651,6 +2651,26 @@
           "createdAtMs": 1773517964000,
           "issueNumber": 263,
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
+          "images": [],
+          "meta": {}
+        }
+      ]
+    },
+    "454109C9": {
+      "titleId": "454109C9",
+      "issueNumber": 420,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/420",
+      "updatedAt": "2026-04-18",
+      "entries": [
+        {
+          "id": "issue-420",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/420",
+          "author": "katieyt2new",
+          "createdAt": "2026-04-18",
+          "createdAtMs": 1776540002000,
+          "issueNumber": 420,
+          "excerpt": "Doesn't even boot, crashes and goes back to the xenios screen",
           "images": [],
           "meta": {}
         }

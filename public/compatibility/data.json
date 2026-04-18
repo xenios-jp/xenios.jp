@@ -175109,34 +175109,141 @@
     "status": "nothing",
     "perf": "n/a",
     "tags": [],
-    "platforms": [],
-    "lastReport": null,
-    "updatedAt": "",
-    "notes": "",
-    "reports": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone XS Max",
+      "platform": "ios",
+      "osVersion": "18.7.7",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-04-18",
+    "issueNumber": 420,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/420",
+    "notes": "Doesn't even boot, crashes and goes back to the xenios screen",
+    "reports": [
+      {
+        "device": "iPhone XS Max",
+        "platform": "ios",
+        "osVersion": "18.7.7",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-04-18",
+        "notes": "Doesn't even boot, crashes and goes back to the xenios screen",
+        "screenshots": [],
+        "source": "github",
+        "build": {
+          "buildId": "ios-release-1.0.1-9288-9288",
+          "channel": "release",
+          "official": true,
+          "appVersion": "1.0.1-9288",
+          "buildNumber": "9288"
+        }
+      }
+    ],
     "screenshots": [],
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "nothing",
+        "perf": "n/a",
+        "notes": "Doesn't even boot, crashes and goes back to the xenios screen",
+        "updatedAt": "2026-04-18",
+        "date": "2026-04-18",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone XS Max",
+          "platform": "ios",
+          "osVersion": "18.7.7",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-04-18",
+          "notes": "Doesn't even boot, crashes and goes back to the xenios screen",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-1.0.1-9288-9288",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.1-9288",
+            "buildNumber": "9288"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone XS Max",
+          "platform": "ios",
+          "osVersion": "18.7.7",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-04-18",
+          "notes": "Doesn't even boot, crashes and goes back to the xenios screen",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-1.0.1-9288-9288",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.1-9288",
+            "buildNumber": "9288"
+          }
+        }
       },
       "all": {
         "channel": "all",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "nothing",
+        "perf": "n/a",
+        "notes": "Doesn't even boot, crashes and goes back to the xenios screen",
+        "updatedAt": "2026-04-18",
+        "date": "2026-04-18",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone XS Max",
+          "platform": "ios",
+          "osVersion": "18.7.7",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-04-18",
+          "notes": "Doesn't even boot, crashes and goes back to the xenios screen",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-1.0.1-9288-9288",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.1-9288",
+            "buildNumber": "9288"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone XS Max",
+          "platform": "ios",
+          "osVersion": "18.7.7",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-04-18",
+          "notes": "Doesn't even boot, crashes and goes back to the xenios screen",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-1.0.1-9288-9288",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.1-9288",
+            "buildNumber": "9288"
+          }
+        }
       }
     }
   },

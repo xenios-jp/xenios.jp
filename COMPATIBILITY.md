@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **275 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **276 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **101** · 🔵 In-Game: **61** · 🟡 Intro: **25** · 🟠 Loads: **39** · 🔴 Doesn't Boot: **49**
+> 🟢 Playable: **101** · 🔵 In-Game: **61** · 🟡 Intro: **25** · 🟠 Loads: **39** · 🔴 Doesn't Boot: **50**
 >
-> 📱 iOS: **247** · 🖥️ macOS: **49**
+> 📱 iOS: **248** · 🖥️ macOS: **49**
 
 ## Legend
 
@@ -273,6 +273,7 @@
 | 🔴 | Need for Speed Hot Pursuit | `45410903` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 15 | 2026-03-29 |
 | 🔴 | NHL 15 | `454109DC` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 Pro Max | 2026-03-21 |
 | 🔴 | Ninja Gaiden II | `544307D5` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 14 | 2026-03-24 |
+| 🔴 | Plants vs Zombies Garden Warfare | `454109C9` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone XS Max | 2026-04-18 |
 | 🔴 | Resident Evil 4 | `4343081C` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16e | 2026-03-14 |
 | 🔴 | Resident Evil 5 | `434307D4` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Air 13-inch (M3) | 2026-03-29 |
 | 🔴 | Silent Hill: Downpour | `4B4E0823` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-22 |
