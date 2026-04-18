@@ -194804,37 +194804,144 @@
     "titleIds": [
       "545407DF"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "ingame",
+    "perf": "poor",
     "tags": [],
-    "platforms": [],
-    "lastReport": null,
-    "updatedAt": "",
-    "notes": "",
-    "reports": [],
+    "platforms": [
+      "macos"
+    ],
+    "lastReport": {
+      "device": "Macbook Pro M1",
+      "platform": "macos",
+      "osVersion": "Tahoe 26.4.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-04-18",
+    "issueNumber": 419,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/419",
+    "notes": "The game loads and has audio in the intro, but no audio in the actual game. The menu runs at 100% emulation speed until you reach the part where 3D characters are being rendered, at which point the speed drops significantly. You can switch between game modes and play them, but all of them have very slow emulation speeds.",
+    "reports": [
+      {
+        "device": "Macbook Pro M1",
+        "platform": "macos",
+        "osVersion": "Tahoe 26.4.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "poor",
+        "date": "2026-04-18",
+        "notes": "The game loads and has audio in the intro, but no audio in the actual game. The menu runs at 100% emulation speed until you reach the part where 3D characters are being rendered, at which point the speed drops significantly. You can switch between game modes and play them, but all of them have very slow emulation speeds.",
+        "screenshots": [],
+        "source": "github",
+        "build": {
+          "buildId": "macos-release-1.0.1-9288",
+          "channel": "release",
+          "official": true,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288"
+        }
+      }
+    ],
     "screenshots": [],
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "ingame",
+        "perf": "poor",
+        "notes": "The game loads and has audio in the intro, but no audio in the actual game. The menu runs at 100% emulation speed until you reach the part where 3D characters are being rendered, at which point the speed drops significantly. You can switch between game modes and play them, but all of them have very slow emulation speeds.",
+        "updatedAt": "2026-04-18",
+        "date": "2026-04-18",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "Macbook Pro M1",
+          "platform": "macos",
+          "osVersion": "Tahoe 26.4.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-04-18",
+          "notes": "The game loads and has audio in the intro, but no audio in the actual game. The menu runs at 100% emulation speed until you reach the part where 3D characters are being rendered, at which point the speed drops significantly. You can switch between game modes and play them, but all of them have very slow emulation speeds.",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-1.0.1-9288",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288"
+          }
+        },
+        "bestReport": {
+          "device": "Macbook Pro M1",
+          "platform": "macos",
+          "osVersion": "Tahoe 26.4.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-04-18",
+          "notes": "The game loads and has audio in the intro, but no audio in the actual game. The menu runs at 100% emulation speed until you reach the part where 3D characters are being rendered, at which point the speed drops significantly. You can switch between game modes and play them, but all of them have very slow emulation speeds.",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-1.0.1-9288",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288"
+          }
+        }
       },
       "all": {
         "channel": "all",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "ingame",
+        "perf": "poor",
+        "notes": "The game loads and has audio in the intro, but no audio in the actual game. The menu runs at 100% emulation speed until you reach the part where 3D characters are being rendered, at which point the speed drops significantly. You can switch between game modes and play them, but all of them have very slow emulation speeds.",
+        "updatedAt": "2026-04-18",
+        "date": "2026-04-18",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "Macbook Pro M1",
+          "platform": "macos",
+          "osVersion": "Tahoe 26.4.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-04-18",
+          "notes": "The game loads and has audio in the intro, but no audio in the actual game. The menu runs at 100% emulation speed until you reach the part where 3D characters are being rendered, at which point the speed drops significantly. You can switch between game modes and play them, but all of them have very slow emulation speeds.",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-1.0.1-9288",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288"
+          }
+        },
+        "bestReport": {
+          "device": "Macbook Pro M1",
+          "platform": "macos",
+          "osVersion": "Tahoe 26.4.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-04-18",
+          "notes": "The game loads and has audio in the intro, but no audio in the actual game. The menu runs at 100% emulation speed until you reach the part where 3D characters are being rendered, at which point the speed drops significantly. You can switch between game modes and play them, but all of them have very slow emulation speeds.",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-1.0.1-9288",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288"
+          }
+        }
       }
     }
   },
