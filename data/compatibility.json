@@ -175134,13 +175134,16 @@
         "perf": "n/a",
         "date": "2026-04-18",
         "notes": "Doesn't even boot, crashes and goes back to the xenios screen",
+        "reportedTitleId": "454109C9",
+        "reportedTitle": "Plants vs. Zombies Garden Warfare",
         "screenshots": [],
+        "submittedBy": "katieyt2new",
         "source": "github",
         "build": {
-          "buildId": "ios-release-1.0.1-9288-9288",
+          "buildId": "ios-release-1.0.1-9288",
           "channel": "release",
           "official": true,
-          "appVersion": "1.0.1-9288",
+          "appVersion": "1.0.1",
           "buildNumber": "9288"
         }
       }
@@ -175165,13 +175168,16 @@
           "perf": "n/a",
           "date": "2026-04-18",
           "notes": "Doesn't even boot, crashes and goes back to the xenios screen",
+          "reportedTitleId": "454109C9",
+          "reportedTitle": "Plants vs. Zombies Garden Warfare",
           "screenshots": [],
+          "submittedBy": "katieyt2new",
           "source": "github",
           "build": {
-            "buildId": "ios-release-1.0.1-9288-9288",
+            "buildId": "ios-release-1.0.1-9288",
             "channel": "release",
             "official": true,
-            "appVersion": "1.0.1-9288",
+            "appVersion": "1.0.1",
             "buildNumber": "9288"
           }
         },
@@ -175185,13 +175191,16 @@
           "perf": "n/a",
           "date": "2026-04-18",
           "notes": "Doesn't even boot, crashes and goes back to the xenios screen",
+          "reportedTitleId": "454109C9",
+          "reportedTitle": "Plants vs. Zombies Garden Warfare",
           "screenshots": [],
+          "submittedBy": "katieyt2new",
           "source": "github",
           "build": {
-            "buildId": "ios-release-1.0.1-9288-9288",
+            "buildId": "ios-release-1.0.1-9288",
             "channel": "release",
             "official": true,
-            "appVersion": "1.0.1-9288",
+            "appVersion": "1.0.1",
             "buildNumber": "9288"
           }
         }
@@ -175214,13 +175223,16 @@
           "perf": "n/a",
           "date": "2026-04-18",
           "notes": "Doesn't even boot, crashes and goes back to the xenios screen",
+          "reportedTitleId": "454109C9",
+          "reportedTitle": "Plants vs. Zombies Garden Warfare",
           "screenshots": [],
+          "submittedBy": "katieyt2new",
           "source": "github",
           "build": {
-            "buildId": "ios-release-1.0.1-9288-9288",
+            "buildId": "ios-release-1.0.1-9288",
             "channel": "release",
             "official": true,
-            "appVersion": "1.0.1-9288",
+            "appVersion": "1.0.1",
             "buildNumber": "9288"
           }
         },
@@ -175234,13 +175246,16 @@
           "perf": "n/a",
           "date": "2026-04-18",
           "notes": "Doesn't even boot, crashes and goes back to the xenios screen",
+          "reportedTitleId": "454109C9",
+          "reportedTitle": "Plants vs. Zombies Garden Warfare",
           "screenshots": [],
+          "submittedBy": "katieyt2new",
           "source": "github",
           "build": {
-            "buildId": "ios-release-1.0.1-9288-9288",
+            "buildId": "ios-release-1.0.1-9288",
             "channel": "release",
             "official": true,
-            "appVersion": "1.0.1-9288",
+            "appVersion": "1.0.1",
             "buildNumber": "9288"
           }
         }
@@ -194939,7 +194954,10 @@
         "perf": "poor",
         "date": "2026-04-18",
         "notes": "The game loads and has audio in the intro, but no audio in the actual game. The menu runs at 100% emulation speed until you reach the part where 3D characters are being rendered, at which point the speed drops significantly. You can switch between game modes and play them, but all of them have very slow emulation speeds.",
+        "reportedTitleId": "545407DF",
+        "reportedTitle": "Rockstar Games Presents Table Tennis",
         "screenshots": [],
+        "submittedBy": "nitesw",
         "source": "github",
         "build": {
           "buildId": "macos-release-1.0.1-9288",
@@ -194970,7 +194988,10 @@
           "perf": "poor",
           "date": "2026-04-18",
           "notes": "The game loads and has audio in the intro, but no audio in the actual game. The menu runs at 100% emulation speed until you reach the part where 3D characters are being rendered, at which point the speed drops significantly. You can switch between game modes and play them, but all of them have very slow emulation speeds.",
+          "reportedTitleId": "545407DF",
+          "reportedTitle": "Rockstar Games Presents Table Tennis",
           "screenshots": [],
+          "submittedBy": "nitesw",
           "source": "github",
           "build": {
             "buildId": "macos-release-1.0.1-9288",
@@ -194990,7 +195011,10 @@
           "perf": "poor",
           "date": "2026-04-18",
           "notes": "The game loads and has audio in the intro, but no audio in the actual game. The menu runs at 100% emulation speed until you reach the part where 3D characters are being rendered, at which point the speed drops significantly. You can switch between game modes and play them, but all of them have very slow emulation speeds.",
+          "reportedTitleId": "545407DF",
+          "reportedTitle": "Rockstar Games Presents Table Tennis",
           "screenshots": [],
+          "submittedBy": "nitesw",
           "source": "github",
           "build": {
             "buildId": "macos-release-1.0.1-9288",
@@ -195019,7 +195043,10 @@
           "perf": "poor",
           "date": "2026-04-18",
           "notes": "The game loads and has audio in the intro, but no audio in the actual game. The menu runs at 100% emulation speed until you reach the part where 3D characters are being rendered, at which point the speed drops significantly. You can switch between game modes and play them, but all of them have very slow emulation speeds.",
+          "reportedTitleId": "545407DF",
+          "reportedTitle": "Rockstar Games Presents Table Tennis",
           "screenshots": [],
+          "submittedBy": "nitesw",
           "source": "github",
           "build": {
             "buildId": "macos-release-1.0.1-9288",
@@ -195039,7 +195066,10 @@
           "perf": "poor",
           "date": "2026-04-18",
           "notes": "The game loads and has audio in the intro, but no audio in the actual game. The menu runs at 100% emulation speed until you reach the part where 3D characters are being rendered, at which point the speed drops significantly. You can switch between game modes and play them, but all of them have very slow emulation speeds.",
+          "reportedTitleId": "545407DF",
+          "reportedTitle": "Rockstar Games Presents Table Tennis",
           "screenshots": [],
+          "submittedBy": "nitesw",
           "source": "github",
           "build": {
             "buildId": "macos-release-1.0.1-9288",
