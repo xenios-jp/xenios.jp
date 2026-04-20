@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-13T06:08:00.933Z",
+  "generatedAt": "2026-04-20T06:08:28.814Z",
   "totalProjects": 4,
   "contributors": [
     {
@@ -1382,6 +1382,16 @@
       ]
     },
     {
+      "id": "user:xenios-jp",
+      "displayName": "xenios-jp",
+      "profileUrl": "https://github.com/xenios-jp",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/262539360?v=4",
+      "projects": [
+        "xenia-canary",
+        "xenia-edge"
+      ]
+    },
+    {
       "id": "user:xphalnos",
       "displayName": "Xphalnos",
       "profileUrl": "https://github.com/Xphalnos",
@@ -1419,15 +1429,6 @@
       "projects": [
         "xenia-canary",
         "xenia-edge"
-      ]
-    },
-    {
-      "id": "user:xenios-jp",
-      "displayName": "xenios-jp",
-      "profileUrl": "https://github.com/xenios-jp",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/262539360?v=4",
-      "projects": [
-        "xenia-canary"
       ]
     }
   ],
