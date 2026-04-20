@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-19T12:12:25.696Z",
+  "generatedAt": "2026-04-20T08:32:45.707Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2653,6 +2653,89 @@
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
           "images": [],
           "meta": {}
+        }
+      ]
+    },
+    "4B4D07DF": {
+      "titleId": "4B4D07DF",
+      "issueNumber": 421,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/421",
+      "updatedAt": "2026-04-20",
+      "entries": [
+        {
+          "id": "issue-421",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/421",
+          "author": "xenios-jp",
+          "createdAt": "2026-04-20",
+          "createdAtMs": 1776673901000,
+          "issueNumber": 421,
+          "excerpt": "Killswitch’s fork used with on screen controls and gamerscore.\nPlayable but startup/main menu is glitchy (skip through), obviously need to start game as single player\nQuite laggy like 10-20 FPS on my iPhone 17 Pro Max.\nEmulator is in early stages so keen to see major performance and stability improvements as with GTA V.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4B4D07DF/1776673886854-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4B4D07DF/1776673886854-2.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4B4D07DF/1776673886854-3.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4B4D07DF/1776673886854-4.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4B4D07DF/1776673886854-5.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
+        {
+          "id": "comment-4060634538",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/205#issuecomment-4060634538",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-14",
+          "createdAtMs": 1773498364000,
+          "issueNumber": 205,
+          "excerpt": "The screen is distorted on startup but there is no problem for playing.\nBlack distortion happens sometime but play absolutely good and there is no lag.\nThe sound is also perfect.\n\nFirst",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 16 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
+        {
+          "id": "issue-205",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/205",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-11",
+          "createdAtMs": 1773247710000,
+          "issueNumber": 205,
+          "excerpt": "Black distortion on side of screen but works great",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 16e",
+            "platform": "iOS",
+            "osVersion": "iOS 26.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9296",
+            "commitShort": "`ab2ca341a`"
+          }
         }
       ]
     },
@@ -9485,60 +9568,6 @@
           "excerpt": "It runs smoothly, but occasionally stutters. During some cutscenes, the visuals look like The Matrix, and the frame rate drops noticeably. During gameplay, the colors sometimes (probably when the camera overlaps something) also skew to a greenish something. If you ignore these issues, the game is probably (more testing is needed) even playable from start to finish.",
           "images": [],
           "meta": {}
-        }
-      ]
-    },
-    "4B4D07DF": {
-      "titleId": "4B4D07DF",
-      "issueNumber": 205,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/205",
-      "updatedAt": "2026-03-14",
-      "entries": [
-        {
-          "id": "comment-4060634538",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/205#issuecomment-4060634538",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-14",
-          "createdAtMs": 1773498364000,
-          "issueNumber": 205,
-          "excerpt": "The screen is distorted on startup but there is no problem for playing.\nBlack distortion happens sometime but play absolutely good and there is no lag.\nThe sound is also perfect.\n\nFirst",
-          "images": [],
-          "meta": {
-            "status": "playable",
-            "perf": "great",
-            "device": "iPhone 16 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "`056d2f64d`"
-          }
-        },
-        {
-          "id": "issue-205",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/205",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-11",
-          "createdAtMs": 1773247710000,
-          "issueNumber": 205,
-          "excerpt": "Black distortion on side of screen but works great",
-          "images": [],
-          "meta": {
-            "status": "playable",
-            "perf": "great",
-            "device": "iPhone 16e",
-            "platform": "iOS",
-            "osVersion": "iOS 26.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9296",
-            "commitShort": "`ab2ca341a`"
-          }
         }
       ]
     },

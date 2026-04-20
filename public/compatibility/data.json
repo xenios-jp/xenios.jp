@@ -64792,17 +64792,39 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 16 Pro Max",
+      "device": "iPhone 17 Pro Max",
       "platform": "ios",
       "osVersion": "26.3.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-14",
-    "issueNumber": 205,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/205",
-    "notes": "The screen is distorted on startup but there is no problem for playing.\nBlack distortion happens sometime but play absolutely good and there is no lag.\nThe sound is also perfect.\n\nFirst",
+    "updatedAt": "2026-04-20",
+    "issueNumber": 421,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/421",
+    "notes": "Killswitch’s fork used with on screen controls and gamerscore.\nPlayable but startup/main menu is glitchy (skip through), obviously need to start game as single player\nQuite laggy like 10-20 FPS on my iPhone 17 Pro Max.\nEmulator is in early stages so keen to see major performance and stability improvements as with GTA V.",
     "reports": [
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-04-20",
+        "notes": "Killswitch’s fork used with on screen controls and gamerscore.\nPlayable but startup/main menu is glitchy (skip through), obviously need to start game as single player\nQuite laggy like 10-20 FPS on my iPhone 17 Pro Max.\nEmulator is in early stages so keen to see major performance and stability improvements as with GTA V.",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "stage": "stable",
+          "commitShort": "056d2f64d"
+        }
+      },
       {
         "device": "iPhone 16 Pro Max",
         "platform": "ios",
@@ -64846,7 +64868,13 @@
         }
       }
     ],
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4B4D07DF/1776673886854-1.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4B4D07DF/1776673886854-2.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4B4D07DF/1776673886854-3.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4B4D07DF/1776673886854-4.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4B4D07DF/1776673886854-5.jpg"
+    ],
     "summaries": {
       "release": {
         "channel": "release",
@@ -64863,20 +64891,20 @@
         "channel": "all",
         "status": "playable",
         "perf": "great",
-        "notes": "The screen is distorted on startup but there is no problem for playing.\nBlack distortion happens sometime but play absolutely good and there is no lag.\nThe sound is also perfect.\n\nFirst",
-        "updatedAt": "2026-03-14",
-        "date": "2026-03-14",
-        "reportCount": 2,
+        "notes": "Killswitch’s fork used with on screen controls and gamerscore.\nPlayable but startup/main menu is glitchy (skip through), obviously need to start game as single player\nQuite laggy like 10-20 FPS on my iPhone 17 Pro Max.\nEmulator is in early stages so keen to see major performance and stability improvements as with GTA V.",
+        "updatedAt": "2026-04-20",
+        "date": "2026-04-20",
+        "reportCount": 3,
         "latestReport": {
-          "device": "iPhone 16 Pro Max",
+          "device": "iPhone 17 Pro Max",
           "platform": "ios",
           "osVersion": "26.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "great",
-          "date": "2026-03-14",
-          "notes": "The screen is distorted on startup but there is no problem for playing.\nBlack distortion happens sometime but play absolutely good and there is no lag.\nThe sound is also perfect.\n\nFirst",
+          "date": "2026-04-20",
+          "notes": "Killswitch’s fork used with on screen controls and gamerscore.\nPlayable but startup/main menu is glitchy (skip through), obviously need to start game as single player\nQuite laggy like 10-20 FPS on my iPhone 17 Pro Max.\nEmulator is in early stages so keen to see major performance and stability improvements as with GTA V.",
           "screenshots": [],
           "source": "app",
           "build": {
@@ -64885,19 +64913,20 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
+            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
-          "device": "iPhone 16 Pro Max",
+          "device": "iPhone 17 Pro Max",
           "platform": "ios",
           "osVersion": "26.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "great",
-          "date": "2026-03-14",
-          "notes": "The screen is distorted on startup but there is no problem for playing.\nBlack distortion happens sometime but play absolutely good and there is no lag.\nThe sound is also perfect.\n\nFirst",
+          "date": "2026-04-20",
+          "notes": "Killswitch’s fork used with on screen controls and gamerscore.\nPlayable but startup/main menu is glitchy (skip through), obviously need to start game as single player\nQuite laggy like 10-20 FPS on my iPhone 17 Pro Max.\nEmulator is in early stages so keen to see major performance and stability improvements as with GTA V.",
           "screenshots": [],
           "source": "app",
           "build": {
@@ -64906,6 +64935,7 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
+            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         }
