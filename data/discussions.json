@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-22T20:18:38.172Z",
+  "generatedAt": "2026-04-22T20:33:29.202Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -3185,6 +3185,35 @@
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/400",
       "updatedAt": "2026-04-22",
       "entries": [
+        {
+          "id": "comment-4299754906",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/400#issuecomment-4299754906",
+          "author": "xenios-jp",
+          "createdAt": "2026-04-22",
+          "createdAtMs": 1776889895000,
+          "issueNumber": 400,
+          "excerpt": "After re-extracting the game just in case my game file was faulty, the same issues still persist; But in addition to what I already mentioned, there’s some weird light flickering that would happen at the start of the game, but I didn’t notice it after that.\nSome pics for reference attached (jimmy’s clothes aren’t supposed to be black):",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/5454081A/1776889882711-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/5454081A/1776889882711-2.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/5454081A/1776889882711-3.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/5454081A/1776889882711-4.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/5454081A/1776889882711-5.jpg"
+          ],
+          "meta": {
+            "status": "ingame",
+            "perf": "poor",
+            "device": "iPhone 15 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
         {
           "id": "comment-4299589031",
           "type": "comment",
