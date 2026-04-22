@@ -147341,6 +147341,28 @@
     "notes": "Menus are a bit of a struggle being slow and sometimes just not taking button inputs.",
     "reports": [
       {
+        "device": "iPhone 15",
+        "platform": "ios",
+        "osVersion": "26.4.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-04-22",
+        "notes": "nothing but a black or cyan screen",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "stage": "stable",
+          "commitShort": "056d2f64d"
+        }
+      },
+      {
         "device": "iPhone 12",
         "platform": "ios",
         "osVersion": "26.1",
@@ -147493,17 +147515,17 @@
         "notes": "Menus are a bit of a struggle being slow and sometimes just not taking button inputs.",
         "updatedAt": "2026-04-22",
         "date": "2026-04-22",
-        "reportCount": 6,
+        "reportCount": 7,
         "latestReport": {
-          "device": "iPhone 12",
+          "device": "iPhone 15",
           "platform": "ios",
-          "osVersion": "26.1",
+          "osVersion": "26.4.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "nothing",
           "perf": "n/a",
           "date": "2026-04-22",
-          "notes": "Just a black screen",
+          "notes": "nothing but a black or cyan screen",
           "screenshots": [],
           "source": "app",
           "build": {
@@ -147512,6 +147534,7 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
+            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         },

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-22T20:13:07.341Z",
+  "generatedAt": "2026-04-22T20:18:38.172Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -3359,6 +3359,29 @@
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/393",
       "updatedAt": "2026-04-22",
       "entries": [
+        {
+          "id": "comment-4299625046",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/393#issuecomment-4299625046",
+          "author": "xenios-jp",
+          "createdAt": "2026-04-22",
+          "createdAtMs": 1776888967000,
+          "issueNumber": 393,
+          "excerpt": "nothing but a black or cyan screen",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 15",
+            "platform": "iOS",
+            "osVersion": "iOS 26.4.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
         {
           "id": "comment-4292648747",
           "type": "comment",
