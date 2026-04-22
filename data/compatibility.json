@@ -64821,50 +64821,7 @@
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
           "commitShort": "056d2f64d"
-        }
-      },
-      {
-        "device": "iPhone 16 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "great",
-        "date": "2026-03-14",
-        "notes": "The screen is distorted on startup but there is no problem for playing.\nBlack distortion happens sometime but play absolutely good and there is no lag.\nThe sound is also perfect.\n\nFirst",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
-        }
-      },
-      {
-        "device": "iPhone 16e",
-        "platform": "ios",
-        "osVersion": "26.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "great",
-        "date": "2026-03-11",
-        "notes": "Black distortion on side of screen but works great",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.0-9296",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9296",
-          "commitShort": "ab2ca341a"
         }
       }
     ],
@@ -64894,7 +64851,7 @@
         "notes": "Killswitch’s fork used with on screen controls and gamerscore.\nPlayable but startup/main menu is glitchy (skip through), obviously need to start game as single player\nQuite laggy like 10-20 FPS on my iPhone 17 Pro Max.\nEmulator is in early stages so keen to see major performance and stability improvements as with GTA V.",
         "updatedAt": "2026-04-20",
         "date": "2026-04-20",
-        "reportCount": 3,
+        "reportCount": 1,
         "latestReport": {
           "device": "iPhone 17 Pro Max",
           "platform": "ios",
@@ -64913,7 +64870,6 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         },
@@ -64935,7 +64891,6 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         }
@@ -147287,11 +147242,32 @@
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-04-17",
+    "updatedAt": "2026-04-22",
     "issueNumber": 49,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/49",
     "notes": "Menus are a bit of a struggle being slow and sometimes just not taking button inputs.",
     "reports": [
+      {
+        "device": "iPhone 12",
+        "platform": "ios",
+        "osVersion": "26.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-04-22",
+        "notes": "Just a black screen",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "commitShort": "056d2f64d"
+        }
+      },
       {
         "device": "iPad 10",
         "platform": "ios",
@@ -147422,19 +147398,19 @@
         "status": "playable",
         "perf": "ok",
         "notes": "Menus are a bit of a struggle being slow and sometimes just not taking button inputs.",
-        "updatedAt": "2026-04-17",
-        "date": "2026-04-17",
-        "reportCount": 5,
+        "updatedAt": "2026-04-22",
+        "date": "2026-04-22",
+        "reportCount": 6,
         "latestReport": {
-          "device": "iPad 10",
+          "device": "iPhone 12",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "26.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "nothing",
           "perf": "n/a",
-          "date": "2026-04-17",
-          "notes": "I click the game and it just stays on a black screen.",
+          "date": "2026-04-22",
+          "notes": "Just a black screen",
           "screenshots": [],
           "source": "app",
           "build": {

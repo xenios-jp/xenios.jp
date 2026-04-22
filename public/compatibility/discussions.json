@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-20T08:32:45.707Z",
+  "generatedAt": "2026-04-22T00:09:02.385Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -3303,8 +3303,31 @@
       "titleId": "4D530A81",
       "issueNumber": 393,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/393",
-      "updatedAt": "2026-04-17",
+      "updatedAt": "2026-04-22",
       "entries": [
+        {
+          "id": "comment-4292648747",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/393#issuecomment-4292648747",
+          "author": "xenios-jp",
+          "createdAt": "2026-04-22",
+          "createdAtMs": 1776816457000,
+          "issueNumber": 393,
+          "excerpt": "Just a black screen",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 12",
+            "platform": "iOS",
+            "osVersion": "iOS 26.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
         {
           "id": "comment-4266244335",
           "type": "comment",
