@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **276 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **277 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **101** · 🔵 In-Game: **61** · 🟡 Intro: **25** · 🟠 Loads: **39** · 🔴 Doesn't Boot: **50**
+> 🟢 Playable: **102** · 🔵 In-Game: **61** · 🟡 Intro: **25** · 🟠 Loads: **39** · 🔴 Doesn't Boot: **50**
 >
-> 📱 iOS: **248** · 🖥️ macOS: **49**
+> 📱 iOS: **249** · 🖥️ macOS: **49**
 
 ## Legend
 
@@ -37,6 +37,7 @@
 | 🟢 | Call of Duty 4: Modern Warfare | `415607E6` | 📱 iOS | Playable | 👌 OK | iPhone 17 Pro Max | 2026-04-08 |
 | 🟢 | Castle Crashers | `584108B7` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro Max | 2026-03-11 |
 | 🟢 | Civilization Revolution | `545407E5` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro | 2026-03-14 |
+| 🟢 | Condemned: Criminal Origins | `534507D2` | 📱 iOS | Playable | 👌 OK | iPhone 17 | 2026-04-22 |
 | 🟢 | DB: Raging Blast 2 | `4E4D0826` | 📱 iOS | Playable | 🐢 Poor | iPad Pro (M2) | 2026-03-03 |
 | 🟢 | Dead Island | `4B4D07DF` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-04-20 |
 | 🟢 | DEAD OR ALIVE 4 | `544307D1` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro | 2026-03-05 |

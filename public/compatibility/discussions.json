@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-22T00:09:02.385Z",
+  "generatedAt": "2026-04-22T04:13:32.479Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2653,6 +2653,37 @@
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
           "images": [],
           "meta": {}
+        }
+      ]
+    },
+    "534507D2": {
+      "titleId": "534507D2",
+      "issueNumber": 422,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/422",
+      "updatedAt": "2026-04-22",
+      "entries": [
+        {
+          "id": "issue-422",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/422",
+          "author": "xenios-jp",
+          "createdAt": "2026-04-22",
+          "createdAtMs": 1776831153000,
+          "issueNumber": 422,
+          "excerpt": "Intros and certain in game videos like the phone screen are rainbow screened. All other cutscenes and gameplay look good though, except for expected frame rate drops.",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 17",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
         }
       ]
     },
