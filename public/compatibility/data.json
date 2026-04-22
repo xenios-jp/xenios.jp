@@ -43923,24 +43923,45 @@
       "545407D6"
     ],
     "status": "playable",
-    "perf": "great",
+    "perf": "poor",
     "tags": [],
     "platforms": [
       "ios",
       "macos"
     ],
     "lastReport": {
-      "device": "iPhone 16e",
+      "device": "iPhone 15 Pro Max",
       "platform": "ios",
-      "osVersion": "26.4.1",
+      "osVersion": "26.3.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-04-12",
+    "updatedAt": "2026-04-22",
     "issueNumber": 108,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/108",
-    "notes": "After everything loads in it runs smooth no glitches or graphic problems.",
+    "notes": "No issues in audio. Frame rate is choppy/low, missing textures + assets/characters constantly popping in and out, and cutscenes not working at all. The graphics are nice though.\nI will test some more to figure out whether my device is too weak or what exactly.",
     "reports": [
+      {
+        "device": "iPhone 15 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "poor",
+        "date": "2026-04-22",
+        "notes": "No issues in audio. Frame rate is choppy/low, missing textures + assets/characters constantly popping in and out, and cutscenes not working at all. The graphics are nice though.\nI will test some more to figure out whether my device is too weak or what exactly.",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "commitShort": "056d2f64d"
+        }
+      },
       {
         "device": "iPhone 16e",
         "platform": "ios",
@@ -44084,21 +44105,21 @@
       "all": {
         "channel": "all",
         "status": "playable",
-        "perf": "great",
-        "notes": "After everything loads in it runs smooth no glitches or graphic problems.",
-        "updatedAt": "2026-04-12",
-        "date": "2026-04-12",
-        "reportCount": 3,
+        "perf": "poor",
+        "notes": "No issues in audio. Frame rate is choppy/low, missing textures + assets/characters constantly popping in and out, and cutscenes not working at all. The graphics are nice though.\nI will test some more to figure out whether my device is too weak or what exactly.",
+        "updatedAt": "2026-04-22",
+        "date": "2026-04-22",
+        "reportCount": 4,
         "latestReport": {
-          "device": "iPhone 16e",
+          "device": "iPhone 15 Pro Max",
           "platform": "ios",
-          "osVersion": "26.4.1",
+          "osVersion": "26.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
-          "perf": "great",
-          "date": "2026-04-12",
-          "notes": "After everything loads in it runs smooth no glitches or graphic problems.",
+          "perf": "poor",
+          "date": "2026-04-22",
+          "notes": "No issues in audio. Frame rate is choppy/low, missing textures + assets/characters constantly popping in and out, and cutscenes not working at all. The graphics are nice though.\nI will test some more to figure out whether my device is too weak or what exactly.",
           "screenshots": [],
           "source": "app",
           "build": {
@@ -44111,15 +44132,15 @@
           }
         },
         "bestReport": {
-          "device": "iPhone 16e",
+          "device": "iPhone 15 Pro Max",
           "platform": "ios",
-          "osVersion": "26.4.1",
+          "osVersion": "26.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
-          "perf": "great",
-          "date": "2026-04-12",
-          "notes": "After everything loads in it runs smooth no glitches or graphic problems.",
+          "perf": "poor",
+          "date": "2026-04-22",
+          "notes": "No issues in audio. Frame rate is choppy/low, missing textures + assets/characters constantly popping in and out, and cutscenes not working at all. The graphics are nice though.\nI will test some more to figure out whether my device is too weak or what exactly.",
           "screenshots": [],
           "source": "app",
           "build": {
@@ -56657,7 +56678,6 @@
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
           "commitShort": "056d2f64d"
         }
       }
@@ -56701,7 +56721,6 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         },
@@ -56723,7 +56742,6 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         }

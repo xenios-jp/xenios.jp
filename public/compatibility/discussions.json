@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-22T04:13:32.479Z",
+  "generatedAt": "2026-04-22T20:13:07.341Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -3183,8 +3183,31 @@
       "titleId": "5454081A",
       "issueNumber": 400,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/400",
-      "updatedAt": "2026-04-12",
+      "updatedAt": "2026-04-22",
       "entries": [
+        {
+          "id": "comment-4299589031",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/400#issuecomment-4299589031",
+          "author": "xenios-jp",
+          "createdAt": "2026-04-22",
+          "createdAtMs": 1776888679000,
+          "issueNumber": 400,
+          "excerpt": "No issues in audio. Frame rate is choppy/low, missing textures + assets/characters constantly popping in and out, and cutscenes not working at all. The graphics are nice though.\nI will test some more to figure out whether my device is too weak or what exactly.",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "poor",
+            "device": "iPhone 15 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
         {
           "id": "issue-400",
           "type": "issue",
