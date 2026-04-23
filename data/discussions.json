@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-23T12:45:11.133Z",
+  "generatedAt": "2026-04-23T12:48:28.002Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -3837,8 +3837,33 @@
       "titleId": "5454082B",
       "issueNumber": 386,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/386",
-      "updatedAt": "2026-04-12",
+      "updatedAt": "2026-04-23",
       "entries": [
+        {
+          "id": "comment-4304465165",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/386#issuecomment-4304465165",
+          "author": "xenios-jp",
+          "createdAt": "2026-04-23",
+          "createdAtMs": 1776948405000,
+          "issueNumber": 386,
+          "excerpt": "After choosing the difficulty and clicking on start it would always be stuck on this screen, and loading screen is slightly long, around4-6 minutes or so.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/5454082B/1776948400530-1.jpg"
+          ],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 15 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
         {
           "id": "comment-4231467894",
           "type": "comment",

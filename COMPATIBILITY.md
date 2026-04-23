@@ -2,9 +2,9 @@
 
 > **277 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **102** · 🔵 In-Game: **61** · 🟡 Intro: **25** · 🟠 Loads: **39** · 🔴 Doesn't Boot: **50**
+> 🟢 Playable: **102** · 🔵 In-Game: **60** · 🟡 Intro: **25** · 🟠 Loads: **39** · 🔴 Doesn't Boot: **51**
 >
-> 📱 iOS: **249** · 🖥️ macOS: **49**
+> 📱 iOS: **250** · 🖥️ macOS: **48**
 
 ## Legend
 
@@ -143,7 +143,6 @@
 | 🔵 | Gears of War 3 | `4D5308AB` | 🖥️ macOS, 📱 iOS | In-Game | 👌 OK | M2 Mac mini | 2026-04-02 |
 | 🔵 | Geometry Wars Evolved² | `584108FF` | 🖥️ macOS | In-Game | 🐢 Poor | MacBook Pro (M1) | 2026-04-12 |
 | 🔵 | Grand Theft Auto IV | `545407F2` | 📱 iOS, 🖥️ macOS | In-Game | 👌 OK | iPhone 13 Pro | 2026-04-05 |
-| 🔵 | Grand Theft Auto: San Andreas | `545408B8` | 📱 iOS | In-Game | 👌 OK | iPhone 16 Pro Max | 2026-04-23 |
 | 🔵 | Guitar Hero 5 | `41560840` | 📱 iOS | In-Game | 🐢 Poor | iPhone 13 mini | 2026-03-22 |
 | 🔵 | Guitar Hero Metallica | `41560830` | 📱 iOS, 🖥️ macOS | In-Game | 🐢 Poor | iPhone 13 mini | 2026-03-22 |
 | 🔵 | Guitar Hero Van Halen | `4156083D` | 📱 iOS, 🖥️ macOS | In-Game | 🐢 Poor | iPhone 13 mini | 2026-03-22 |
@@ -223,6 +222,7 @@
 | 🟠 | FIFA Street 3 | `4541083B` | 📱 iOS | Loads | ➖ N/A | iPad Air 5 | 2026-03-09 |
 | 🟠 | Final Fantasy XIII-2 | `53510806` | 📱 iOS | Loads | 🐢 Poor | iPhone 16 Pro Max | 2026-04-05 |
 | 🟠 | Forza Horizon 2 | `4D530AA4` | 📱 iOS | Loads | 🐢 Poor | iPhone 17 Pro Max | 2026-04-13 |
+| 🟠 | Grand Theft Auto: San Andreas | `545408B8` | 📱 iOS | Loads | 🐢 Poor | iPhone 15 Pro Max | 2026-04-23 |
 | 🟠 | Jeopardy! | `545108AE` | 📱 iOS | Loads | 🐢 Poor | iPhone 16 Pro | 2026-03-05 |
 | 🟠 | Kung Fu Panda | `415607F2` | 📱 iOS | Loads | 🐢 Poor | iPhone 15 Pro Max | 2026-03-17 |
 | 🟠 | Left 4 Dead | `45410830` | 📱 iOS | Loads | 🐢 Poor | iPhone 17 Pro Max | 2026-03-08 |
@@ -232,7 +232,6 @@
 | 🟠 | NBA 2K10 | `54549852` | 🖥️ macOS | Loads | 🐢 Poor | MacBook Air (M4) | 2026-03-18 |
 | 🟠 | NCAA Basketball 10 | `454108C3` | 📱 iOS | Loads | 🐢 Poor | iPhone 16e | 2026-03-11 |
 | 🟠 | Project Gotham Racing 4 | `4D5307F9` | 🖥️ macOS | Loads | 🚀 Great | MacBook Pro (M4 Max) | 2026-03-14 |
-| 🟠 | Red Dead Redemption GOTY Edition | `5454082B` | 🖥️ macOS | Loads | 🐢 Poor | Mac Mini (M1) | 2026-04-03 |
 | 🟠 | Rock Band Classic Rock | `454108B0` | 🖥️ macOS | Loads | 🚀 Great | MacBook Pro (M4) | 2026-03-23 |
 | 🟠 | Rock Band Country Pack | `454108CA` | 🖥️ macOS | Loads | 🚀 Great | MacBook Pro (M4) | 2026-03-23 |
 | 🟠 | Rock Band Country TP 2 | `4541092C` | 🖥️ macOS | Loads | 🚀 Great | MacBook Pro (M4) | 2026-03-23 |
@@ -275,6 +274,7 @@
 | 🔴 | NHL 15 | `454109DC` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 Pro Max | 2026-03-21 |
 | 🔴 | Ninja Gaiden II | `544307D5` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 14 | 2026-03-24 |
 | 🔴 | Plants vs Zombies Garden Warfare | `454109C9` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone XS Max | 2026-04-18 |
+| 🔴 | Red Dead Redemption GOTY Edition | `5454082B` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 15 Pro Max | 2026-04-23 |
 | 🔴 | Resident Evil 4 | `4343081C` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16e | 2026-03-14 |
 | 🔴 | Resident Evil 5 | `434307D4` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Air 13-inch (M3) | 2026-03-29 |
 | 🔴 | Silent Hill: Downpour | `4B4E0823` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-22 |
