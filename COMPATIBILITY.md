@@ -2,7 +2,7 @@
 
 > **277 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **102** · 🔵 In-Game: **60** · 🟡 Intro: **25** · 🟠 Loads: **39** · 🔴 Doesn't Boot: **51**
+> 🟢 Playable: **102** · 🔵 In-Game: **60** · 🟡 Intro: **26** · 🟠 Loads: **38** · 🔴 Doesn't Boot: **51**
 >
 > 📱 iOS: **250** · 🖥️ macOS: **48**
 
@@ -192,6 +192,7 @@
 | 🟡 | Dead Rising | `434307D2` | 📱 iOS | Intro | 👌 OK | iPad (A16) | 2026-03-04 |
 | 🟡 | Divinity II Dragon Knight Saga | `464507D6` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro Max | 2026-03-09 |
 | 🟡 | DOOM 3 BFG Edition | `425307F1` | 📱 iOS | Intro | 🚀 Great | iPhone 16 Pro | 2026-03-03 |
+| 🟡 | Forza Horizon 2 | `4D530AA4` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro | 2026-04-24 |
 | 🟡 | Halo 4 | `4D530919` | 📱 iOS | Intro | 🐢 Poor | iPad Pro 12.9-inch (M2) | 2026-03-10 |
 | 🟡 | Halo Wars | `4D530808` | 📱 iOS | Intro | 👌 OK | iPhone 17 | 2026-03-03 |
 | 🟡 | Lego Batman 2: DC Super Heroes | `57520817` | 📱 iOS | Intro | 🐢 Poor | iPhone 13 | 2026-03-14 |
@@ -221,7 +222,6 @@
 | 🟠 | Epic Mickey 2 The Power Of Two | `42560816` | 📱 iOS | Loads | 🐢 Poor | iPhone 15 Pro Max | 2026-03-08 |
 | 🟠 | FIFA Street 3 | `4541083B` | 📱 iOS | Loads | ➖ N/A | iPad Air 5 | 2026-03-09 |
 | 🟠 | Final Fantasy XIII-2 | `53510806` | 📱 iOS | Loads | 🐢 Poor | iPhone 16 Pro Max | 2026-04-05 |
-| 🟠 | Forza Horizon 2 | `4D530AA4` | 📱 iOS | Loads | 🐢 Poor | iPhone 17 Pro Max | 2026-04-13 |
 | 🟠 | Grand Theft Auto: San Andreas | `545408B8` | 📱 iOS | Loads | 🐢 Poor | iPhone 15 Pro Max | 2026-04-23 |
 | 🟠 | Jeopardy! | `545108AE` | 📱 iOS | Loads | 🐢 Poor | iPhone 16 Pro | 2026-03-05 |
 | 🟠 | Kung Fu Panda | `415607F2` | 📱 iOS | Loads | 🐢 Poor | iPhone 15 Pro Max | 2026-03-17 |

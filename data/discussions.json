@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-23T12:48:28.002Z",
+  "generatedAt": "2026-04-24T06:49:02.943Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -3048,8 +3048,31 @@
       "titleId": "4D530AA4",
       "issueNumber": 415,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/415",
-      "updatedAt": "2026-04-13",
+      "updatedAt": "2026-04-24",
       "entries": [
+        {
+          "id": "comment-4311232082",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/415#issuecomment-4311232082",
+          "author": "xenios-jp",
+          "createdAt": "2026-04-24",
+          "createdAtMs": 1777013258000,
+          "issueNumber": 415,
+          "excerpt": "Got past the profile select and then waited to load for about as long as my phone could handle without blowing up",
+          "images": [],
+          "meta": {
+            "status": "intro",
+            "perf": "poor",
+            "device": "iPhone 16 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 26.4",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
         {
           "id": "issue-415",
           "type": "issue",
