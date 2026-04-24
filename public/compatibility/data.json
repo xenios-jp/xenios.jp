@@ -34560,23 +34560,44 @@
       "54540822"
     ],
     "status": "playable",
-    "perf": "ok",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 16 Pro",
+      "device": "iPad Pro 13-inch (M4)",
       "platform": "ios",
-      "osVersion": "26.3.1",
+      "osVersion": "26.4",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-27",
+    "updatedAt": "2026-04-24",
     "issueNumber": 34,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/34",
-    "notes": "Playable, occasional drops in framerate",
+    "notes": "Works fine on iPad Pro M4 16gb ram",
     "reports": [
+      {
+        "device": "iPad Pro 13-inch (M4)",
+        "platform": "ios",
+        "osVersion": "26.4",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-04-24",
+        "notes": "Works fine on iPad Pro M4 16gb ram",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "commitShort": "056d2f64d"
+        }
+      },
       {
         "device": "iPhone 16 Pro",
         "platform": "ios",
@@ -34683,21 +34704,21 @@
       "all": {
         "channel": "all",
         "status": "playable",
-        "perf": "ok",
-        "notes": "Playable, occasional drops in framerate",
-        "updatedAt": "2026-03-27",
-        "date": "2026-03-27",
-        "reportCount": 3,
+        "perf": "great",
+        "notes": "Works fine on iPad Pro M4 16gb ram",
+        "updatedAt": "2026-04-24",
+        "date": "2026-04-24",
+        "reportCount": 4,
         "latestReport": {
-          "device": "iPhone 16 Pro",
+          "device": "iPad Pro 13-inch (M4)",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "26.4",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
-          "perf": "ok",
-          "date": "2026-03-27",
-          "notes": "Playable, occasional drops in framerate",
+          "perf": "great",
+          "date": "2026-04-24",
+          "notes": "Works fine on iPad Pro M4 16gb ram",
           "screenshots": [],
           "source": "app",
           "build": {
@@ -34710,15 +34731,15 @@
           }
         },
         "bestReport": {
-          "device": "iPhone 16 Pro",
+          "device": "iPad Pro 13-inch (M4)",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "26.4",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
-          "perf": "ok",
-          "date": "2026-03-27",
-          "notes": "Playable, occasional drops in framerate",
+          "perf": "great",
+          "date": "2026-04-24",
+          "notes": "Works fine on iPad Pro M4 16gb ram",
           "screenshots": [],
           "source": "app",
           "build": {
@@ -94074,7 +94095,6 @@
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
           "commitShort": "056d2f64d"
         }
       },
@@ -94162,7 +94182,6 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         },
@@ -94184,7 +94203,6 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         }
@@ -187613,24 +187631,45 @@
     "titleIds": [
       "5454082B"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "loads",
+    "perf": "poor",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 15 Pro Max",
+      "device": "iPad Pro 13-inch (M4)",
       "platform": "ios",
-      "osVersion": "26.3.1",
+      "osVersion": "26.4",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-04-23",
+    "updatedAt": "2026-04-24",
     "issueNumber": 386,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/386",
-    "notes": "After choosing the difficulty and clicking on start it would always be stuck on this screen, and loading screen is slightly long, around4-6 minutes or so.",
+    "notes": "Horrível",
     "reports": [
+      {
+        "device": "iPad Pro 13-inch (M4)",
+        "platform": "ios",
+        "osVersion": "26.4",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "loads",
+        "perf": "poor",
+        "date": "2026-04-24",
+        "notes": "Horrível",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "commitShort": "056d2f64d"
+        }
+      },
       {
         "device": "iPhone 15 Pro Max",
         "platform": "ios",
@@ -187654,6 +187693,9 @@
       }
     ],
     "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/5454082B/1777063694524-1.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/5454082B/1777063694524-2.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/5454082B/1777063694524-3.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/5454082B/1776948400530-1.jpg"
     ],
     "summaries": {
@@ -187670,22 +187712,22 @@
       },
       "all": {
         "channel": "all",
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "After choosing the difficulty and clicking on start it would always be stuck on this screen, and loading screen is slightly long, around4-6 minutes or so.",
-        "updatedAt": "2026-04-23",
-        "date": "2026-04-23",
-        "reportCount": 1,
+        "status": "loads",
+        "perf": "poor",
+        "notes": "Horrível",
+        "updatedAt": "2026-04-24",
+        "date": "2026-04-24",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 15 Pro Max",
+          "device": "iPad Pro 13-inch (M4)",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "26.4",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-04-23",
-          "notes": "After choosing the difficulty and clicking on start it would always be stuck on this screen, and loading screen is slightly long, around4-6 minutes or so.",
+          "status": "loads",
+          "perf": "poor",
+          "date": "2026-04-24",
+          "notes": "Horrível",
           "screenshots": [],
           "source": "app",
           "build": {
@@ -187698,15 +187740,15 @@
           }
         },
         "bestReport": {
-          "device": "iPhone 15 Pro Max",
+          "device": "iPad Pro 13-inch (M4)",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "26.4",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-04-23",
-          "notes": "After choosing the difficulty and clicking on start it would always be stuck on this screen, and loading screen is slightly long, around4-6 minutes or so.",
+          "status": "loads",
+          "perf": "poor",
+          "date": "2026-04-24",
+          "notes": "Horrível",
           "screenshots": [],
           "source": "app",
           "build": {
