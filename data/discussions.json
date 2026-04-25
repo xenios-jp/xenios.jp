@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-24T20:51:39.172Z",
+  "generatedAt": "2026-04-25T14:54:04.706Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2656,6 +2656,88 @@
         }
       ]
     },
+    "4B4E0837": {
+      "titleId": "4B4E0837",
+      "issueNumber": 425,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/425",
+      "updatedAt": "2026-04-25",
+      "entries": [
+        {
+          "id": "issue-425",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/425",
+          "author": "xenios-jp",
+          "createdAt": "2026-04-25",
+          "createdAtMs": 1777128771000,
+          "issueNumber": 425,
+          "excerpt": "The game is slightly slow, but it’s still playable despite the frequent glitches in the cutscenes.",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 16 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 26.4.2",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
+        {
+          "id": "issue-273",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/273",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-15",
+          "createdAtMs": 1773594791000,
+          "issueNumber": 273,
+          "excerpt": "It only shows blue loading screen and then goes black completely",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 17",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9299",
+            "commitShort": "`d8c101905`"
+          }
+        },
+        {
+          "id": "issue-80",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/80",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1773002772000,
+          "issueNumber": 80,
+          "excerpt": "Playable, little graphical errors but not much. No audio in game (only training tested for now). Video glitch in menu video.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4B4E0837/1773002764964-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4B4E0837/1773002764964-2.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4B4E0837/1773002764964-3.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4B4E0837/1773002764964-4.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 14 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        }
+      ]
+    },
     "545408B8": {
       "titleId": "545408B8",
       "issueNumber": 424,
@@ -4510,8 +4592,31 @@
       "titleId": "4B4E0861",
       "issueNumber": 377,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/377",
-      "updatedAt": "2026-03-29",
+      "updatedAt": "2026-04-25",
       "entries": [
+        {
+          "id": "comment-4318660643",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/377#issuecomment-4318660643",
+          "author": "xenios-jp",
+          "createdAt": "2026-04-25",
+          "createdAtMs": 1777110021000,
+          "issueNumber": 377,
+          "excerpt": "Graphical glitches",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "ok",
+            "device": "iPhone 16e",
+            "platform": "iOS",
+            "osVersion": "iOS 26.4.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
         {
           "id": "issue-377",
           "type": "issue",
@@ -7670,65 +7775,6 @@
           "excerpt": "Playable except for splash screen audio issues, and occasional performance drops in-game.",
           "images": [],
           "meta": {}
-        }
-      ]
-    },
-    "4B4E0837": {
-      "titleId": "4B4E0837",
-      "issueNumber": 273,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/273",
-      "updatedAt": "2026-03-15",
-      "entries": [
-        {
-          "id": "issue-273",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/273",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-15",
-          "createdAtMs": 1773594791000,
-          "issueNumber": 273,
-          "excerpt": "It only shows blue loading screen and then goes black completely",
-          "images": [],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPhone 17",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9299",
-            "commitShort": "`d8c101905`"
-          }
-        },
-        {
-          "id": "issue-80",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/80",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-08",
-          "createdAtMs": 1773002772000,
-          "issueNumber": 80,
-          "excerpt": "Playable, little graphical errors but not much. No audio in game (only training tested for now). Video glitch in menu video.",
-          "images": [
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4B4E0837/1773002764964-1.jpg",
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4B4E0837/1773002764964-2.jpg",
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4B4E0837/1773002764964-3.jpg",
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4B4E0837/1773002764964-4.jpg"
-          ],
-          "meta": {
-            "status": "playable",
-            "perf": "ok",
-            "device": "iPhone 14 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "`2633e8177`"
-          }
         }
       ]
     },
