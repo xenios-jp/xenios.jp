@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-25T14:54:04.706Z",
+  "generatedAt": "2026-04-25T17:14:55.283Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -5827,8 +5827,31 @@
       "titleId": "4D5309B1",
       "issueNumber": 349,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/349",
-      "updatedAt": "2026-03-23",
+      "updatedAt": "2026-04-25",
       "entries": [
+        {
+          "id": "comment-4320143123",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/349#issuecomment-4320143123",
+          "author": "xenios-jp",
+          "createdAt": "2026-04-25",
+          "createdAtMs": 1777137172000,
+          "issueNumber": 349,
+          "excerpt": "Just a black screen with no audio. Logs says the game launched successfully but nothing ever happens",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 12",
+            "platform": "iOS",
+            "osVersion": "iOS 26.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
         {
           "id": "issue-349",
           "type": "issue",
@@ -5919,18 +5942,6 @@
           "createdAtMs": 1772991054000,
           "issueNumber": 1,
           "excerpt": "And... textures are messed up in classic. \n\n<img width=\"2622\" height=\"1206\" alt=\"Image\" src=\" />\n\nthen a restart helped. But when the covenant first come in:\n\n<img width=\"2622\" height=\"1206\" alt=\"Image\" src=\" />\n\n<img width=\"2622\" height=\"1206\" alt=\"Image\" src=\" />\n\n<img width=\"2622\" height=\"1206\" alt=\"Image\" src=\" />",
-          "images": [],
-          "meta": {}
-        },
-        {
-          "id": "comment-4019593790",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/1#issuecomment-4019593790",
-          "author": "J7mbo",
-          "createdAt": "2026-03-08",
-          "createdAtMs": 1772990512000,
-          "issueNumber": 1,
-          "excerpt": "Additionally even in classic mode, the characters for subtitles are completely scrambled.",
           "images": [],
           "meta": {}
         }
