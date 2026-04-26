@@ -49,6 +49,42 @@ export default function PrivacyPage() {
 
         <section className="rounded-xl border border-border bg-bg-surface p-6 md:p-8">
           <h2 className="text-lg font-semibold text-text-primary">
+            Analytics
+          </h2>
+          <p className="mt-3 text-[15px] leading-relaxed text-text-secondary">
+            This site uses{" "}
+            <a
+              href="https://www.cloudflare.com/web-analytics/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-accent underline underline-offset-2 hover:text-accent-hover"
+            >
+              Cloudflare Web Analytics
+            </a>
+            , a privacy-first, cookie-free analytics service. It collects
+            anonymous request metadata such as IP address (used to derive
+            country and aggregate traffic figures, then discarded), URL
+            requested, referrer, user agent, and basic Core Web Vitals. No
+            personal information, cross-site tracking, or device fingerprints
+            are gathered, and no analytics cookies are set.
+          </p>
+          <p className="mt-3 text-[15px] leading-relaxed text-text-secondary">
+            Cloudflare also provides DDoS mitigation and request routing for
+            this site; that processing is governed by{" "}
+            <a
+              href="https://www.cloudflare.com/privacypolicy/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-accent underline underline-offset-2 hover:text-accent-hover"
+            >
+              Cloudflare&apos;s privacy policy
+            </a>
+            .
+          </p>
+        </section>
+
+        <section className="rounded-xl border border-border bg-bg-surface p-6 md:p-8">
+          <h2 className="text-lg font-semibold text-text-primary">
             Browser-side storage
           </h2>
           <p className="mt-3 text-[15px] leading-relaxed text-text-secondary">
@@ -65,7 +101,11 @@ export default function PrivacyPage() {
           <p className="mt-3 text-[15px] leading-relaxed text-text-secondary">
             This website links to external services such as GitHub and Discord
             and may display public repository metadata derived from those
-            services. Those services are governed by their own privacy policies.
+            services. We also mirror public GitHub Discussions content
+            (including author display names and comment text) into static
+            files served from this site so compatibility pages stay fast and
+            offline-capable. Those upstream services are governed by their own
+            privacy policies.
           </p>
           <ul className="mt-4 space-y-2 text-[15px] leading-relaxed text-text-secondary">
             <li>

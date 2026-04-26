@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useId, useRef, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { ThemeToggle } from "@/components/theme-toggle";
@@ -98,6 +98,24 @@ export function Navbar() {
   const [mobileOpenPath, setMobileOpenPath] = useState<string | null>(null);
   const pathname = usePathname();
   const mobileOpen = mobileOpenPath === pathname;
+  const menuId = useId();
+  const buttonRef = useRef<HTMLButtonElement>(null);
+
+  function closeMobileMenu() {
+    setMobileOpenPath(null);
+  }
+
+  useEffect(() => {
+    if (!mobileOpen) return;
+    function onKeyDown(event: KeyboardEvent) {
+      if (event.key === "Escape") {
+        closeMobileMenu();
+        buttonRef.current?.focus();
+      }
+    }
+    document.addEventListener("keydown", onKeyDown);
+    return () => document.removeEventListener("keydown", onKeyDown);
+  }, [mobileOpen]);
 
   return (
     <header className="fixed top-0 z-50 w-full bg-bg-primary/80 backdrop-blur-md border-b border-border">
@@ -191,10 +209,15 @@ export function Navbar() {
           </a>
           <ThemeToggle />
           <button
+            ref={buttonRef}
             type="button"
             className="p-2 text-text-secondary hover:text-text-primary"
-            onClick={() => setMobileOpenPath(mobileOpen ? null : pathname)}
+            onClick={() =>
+              setMobileOpenPath(mobileOpen ? null : pathname)
+            }
             aria-label={mobileOpen ? "Close menu" : "Open menu"}
+            aria-expanded={mobileOpen}
+            aria-controls={menuId}
           >
             {mobileOpen ? (
               <CloseIcon className="h-5 w-5" />
@@ -207,7 +230,10 @@ export function Navbar() {
 
       {/* Mobile slide-down panel */}
       <div
-        className={`md:hidden border-t border-border bg-bg-primary/95 backdrop-blur-md overflow-hidden transition-[max-height,opacity] duration-200 ${
+        id={menuId}
+        inert={!mobileOpen}
+        aria-hidden={!mobileOpen}
+        className={`md:hidden border-t border-border bg-bg-primary/95 backdrop-blur-md overflow-hidden transition-[max-height,opacity] duration-200 motion-reduce:transition-none ${
           mobileOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
         }`}
       >
@@ -216,7 +242,7 @@ export function Navbar() {
               <Link
                 key={link.href}
                 href={link.href}
-                onClick={() => setMobileOpenPath(null)}
+                onClick={closeMobileMenu}
                 className={`block rounded-md px-3 py-2 text-sm transition-colors ${
                   pathname.startsWith(link.href)
                     ? "text-accent font-medium bg-accent/5"

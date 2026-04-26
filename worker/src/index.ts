@@ -43,6 +43,49 @@ interface Env {
   COMPAT_WEBSITE_BASE?: string;
   COMPAT_BUILD_ATTESTATION_HMAC_KEY?: string;
   COMPAT_BUILD_ATTESTATION_KEY_ID?: string;
+  ALLOWED_CORS_ORIGINS?: string;
+  DEBUG?: string;
+}
+
+// ── Logging ─────────────────────────────────────────────────────────
+// Verbose debug lines are gated so they don't pollute Cloudflare logs in
+// production. Set the DEBUG env var to "true" on the worker to re-enable.
+let debugEnabled = false;
+function configureDebug(env: Env): void {
+  debugEnabled = (env.DEBUG ?? "").toLowerCase() === "true";
+}
+function debugLog(...args: unknown[]): void {
+  if (debugEnabled) console.log(...args);
+}
+
+// ── Rate limiting ───────────────────────────────────────────────────
+// In-memory token bucket per client identifier. Cloudflare may rotate the
+// worker isolate at any time, so this is a best-effort soft limit. For a
+// hard guarantee, swap in a Durable Object or the Cloudflare Rate Limiting
+// binding.
+const RATE_LIMIT_WINDOW_MS = 15 * 60 * 1000;
+const RATE_LIMIT_MAX = 30;
+const rateLimitState = new Map<string, { count: number; reset: number }>();
+
+function checkRateLimit(key: string, max = RATE_LIMIT_MAX): boolean {
+  if (!key) return true;
+  const now = Date.now();
+  const entry = rateLimitState.get(key);
+  if (!entry || now > entry.reset) {
+    rateLimitState.set(key, { count: 1, reset: now + RATE_LIMIT_WINDOW_MS });
+    return true;
+  }
+  if (entry.count >= max) return false;
+  entry.count += 1;
+  return true;
+}
+
+function clientKey(request: Request): string {
+  return (
+    request.headers.get("CF-Connecting-IP") ??
+    request.headers.get("X-Forwarded-For") ??
+    "unknown"
+  );
 }
 
 interface ExecutionContext {
@@ -539,25 +582,48 @@ function buildReportMetadataComment(source: ReportSource, build: BuildInfo): str
   return `<!-- ${REPORT_METADATA_PREFIX}${encodeReportMetadata(source, build)} -->`;
 }
 
-function cors(response: Response): Response {
+const DEFAULT_ALLOWED_ORIGINS = [
+  "https://xenios.jp",
+  "https://www.xenios.jp",
+];
+
+function allowedOrigins(env: Env | null): string[] {
+  const fromEnv = env?.ALLOWED_CORS_ORIGINS
+    ?.split(",")
+    .map((origin) => origin.trim())
+    .filter(Boolean);
+  return fromEnv && fromEnv.length > 0 ? fromEnv : DEFAULT_ALLOWED_ORIGINS;
+}
+
+function resolveAllowOrigin(requestOrigin: string | null, env: Env | null): string {
+  const allowed = allowedOrigins(env);
+  if (requestOrigin && allowed.includes(requestOrigin)) return requestOrigin;
+  return allowed[0];
+}
+
+function cors(response: Response, requestOrigin: string | null = null, env: Env | null = null): Response {
   const headers = new Headers(response.headers);
-  headers.set("Access-Control-Allow-Origin", "*");
+  headers.set("Access-Control-Allow-Origin", resolveAllowOrigin(requestOrigin, env));
+  headers.set("Vary", "Origin");
   headers.set("Access-Control-Allow-Methods", "POST, GET, OPTIONS");
   headers.set("Access-Control-Allow-Headers", "Content-Type, Authorization");
+  headers.set("Access-Control-Max-Age", "86400");
   return new Response(response.body, { status: response.status, headers });
 }
 
-function jsonResponse(data: unknown, status = 200): Response {
+function jsonResponse(data: unknown, status = 200, requestOrigin: string | null = null, env: Env | null = null): Response {
   return cors(
     new Response(JSON.stringify(data), {
       status,
       headers: { "Content-Type": "application/json" },
-    })
+    }),
+    requestOrigin,
+    env
   );
 }
 
-function errorResponse(message: string, status = 400): Response {
-  return jsonResponse({ error: message }, status);
+function errorResponse(message: string, status = 400, requestOrigin: string | null = null, env: Env | null = null): Response {
+  return jsonResponse({ error: message }, status, requestOrigin, env);
 }
 
 function cacheStorage(): Cache {
@@ -610,7 +676,9 @@ function validatePayload(body: unknown): { ok: true; data: ReportPayload } | { o
   const b = body as Record<string, unknown>;
 
   if (!b.titleId || typeof b.titleId !== "string") return { ok: false, error: "titleId is required" };
+  if (!/^[A-Fa-f0-9]{8}$/.test(b.titleId.trim())) return { ok: false, error: "titleId must be 8 hexadecimal characters" };
   if (!b.title || typeof b.title !== "string") return { ok: false, error: "title is required" };
+  if (b.title.length > 255) return { ok: false, error: "title must be 255 characters or fewer" };
   if (!VALID_STATUSES.includes(b.status as GameStatus)) return { ok: false, error: `status must be one of: ${VALID_STATUSES.join(", ")}` };
   // Auto-set perf to "n/a" when status is "nothing" and perf not provided
   if (b.status === "nothing" && (!b.perf || b.perf === "n/a")) {
@@ -625,6 +693,15 @@ function validatePayload(body: unknown): { ok: true; data: ReportPayload } | { o
   if (!VALID_ARCHS.includes(b.arch as Architecture)) return { ok: false, error: `arch must be one of: ${VALID_ARCHS.join(", ")}` };
   if (!VALID_GPU_BACKENDS.includes(b.gpuBackend as GpuBackend)) return { ok: false, error: `gpuBackend must be one of: ${VALID_GPU_BACKENDS.join(", ")}` };
   if (!b.notes || typeof b.notes !== "string") return { ok: false, error: "notes is required" };
+  if (b.notes.length > 4000) return { ok: false, error: "notes must be 4000 characters or fewer" };
+  if (!b.device || typeof b.device !== "string") {
+    /* handled below */
+  } else if (b.device.length > 120) {
+    return { ok: false, error: "device must be 120 characters or fewer" };
+  }
+  if (typeof b.osVersion === "string" && b.osVersion.length > 60) {
+    return { ok: false, error: "osVersion must be 60 characters or fewer" };
+  }
   if (!b.build || typeof b.build !== "object") {
     return { ok: false, error: "build metadata is required" };
   }
@@ -686,6 +763,15 @@ function validatePayload(body: unknown): { ok: true; data: ReportPayload } | { o
     }
     if (!b.screenshots.every((s) => typeof s === "string" && s.trim().length > 0)) {
       return { ok: false, error: "screenshots must only contain non-empty strings" };
+    }
+    // Cap each screenshot at ~7 MB encoded (≈5 MB binary after base64 decode).
+    // base64 expands by ~4/3, so 7_372_800 bytes encoded ≈ 5.27 MB binary.
+    const MAX_SCREENSHOT_ENCODED_BYTES = 7_372_800;
+    const oversized = b.screenshots.find(
+      (s) => typeof s === "string" && s.length > MAX_SCREENSHOT_ENCODED_BYTES
+    );
+    if (oversized !== undefined) {
+      return { ok: false, error: "each screenshot must be 5 MB or smaller" };
     }
   }
 
@@ -1316,6 +1402,7 @@ async function updateCompatBoard(env: Env, games: Game[]): Promise<void> {
 
   if (res.ok) {
     const msg = (await res.json()) as { id: string };
+    // One-time bootstrap line — keep visible so operators can find the message ID.
     console.log(`[board] New board message posted, ID: ${msg.id}. Set DISCORD_BOARD_MESSAGE_ID=${msg.id} as a secret/var to enable editing.`);
   } else {
     console.error(`Board post failed: ${res.status} ${await res.text()}`);
@@ -1584,7 +1671,7 @@ async function verifyDiscordSignature(request: Request, publicKey: string): Prom
   const timestamp = request.headers.get("X-Signature-Timestamp");
   const body = await request.text();
 
-  console.log("[discord] verifying signature, has sig:", !!signature, "has ts:", !!timestamp);
+  debugLog("[discord] verifying signature, has sig:", !!signature, "has ts:", !!timestamp);
 
   if (!signature || !timestamp) {
     return { valid: false, body };
@@ -1610,7 +1697,7 @@ async function verifyDiscordSignature(request: Request, publicKey: string): Prom
       toArrayBuffer(sig),
       toArrayBuffer(message)
     );
-    console.log("[discord] signature valid:", valid);
+    debugLog("[discord] signature valid:", valid);
     return { valid, body };
   } catch (e) {
     console.error("[discord] Ed25519 verification error:", e);
@@ -1769,22 +1856,22 @@ function getModalField(components: unknown[], id: string): string {
 // ── Interaction handler ─────────────────────────────────────────────
 
 async function handleDiscordInteraction(request: Request, env: Env, ctx: ExecutionContext): Promise<Response> {
-  console.log("[discord] interaction received");
+  debugLog("[discord] interaction received");
 
   try {
     // Verify Ed25519 signature
     const { valid, body } = await verifyDiscordSignature(request, env.DISCORD_PUBLIC_KEY);
     if (!valid) {
-      console.log("[discord] signature invalid, returning 401");
+      debugLog("[discord] signature invalid, returning 401");
       return new Response("Invalid signature", { status: 401 });
     }
 
     const interaction = JSON.parse(body);
-    console.log("[discord] interaction type:", interaction.type);
+    debugLog("[discord] interaction type:", interaction.type);
 
     // Handle PING (Discord verification)
     if (interaction.type === INTERACTION_TYPE.PING) {
-      console.log("[discord] PING → PONG");
+      debugLog("[discord] PING → PONG");
       return discordJsonResponse({ type: RESPONSE_TYPE.PONG });
     }
 
@@ -1943,11 +2030,11 @@ async function handleDiscordInteraction(request: Request, env: Env, ctx: Executi
           submittedBy,
         };
 
-        console.log("[discord] command options:", JSON.stringify(cmdOpts));
+        debugLog("[discord] command options:", JSON.stringify(cmdOpts));
         ctx.waitUntil(storeCommandOptions(interactionId, cmdOpts));
 
         const customId = `compat:${interactionId}`;
-        console.log("[discord] opening text modal, custom_id:", customId);
+        debugLog("[discord] opening text modal, custom_id:", customId);
 
         return discordJsonResponse({
           type: RESPONSE_TYPE.MODAL,
@@ -2005,7 +2092,7 @@ async function handleDiscordInteraction(request: Request, env: Env, ctx: Executi
           },
         };
 
-        console.log("[discord] modal submitted, payload:", rawPayload.titleId, rawPayload.title);
+        debugLog("[discord] modal submitted, payload:", rawPayload.titleId, rawPayload.title);
 
         const validation = validatePayload(rawPayload);
         if (validation.ok === false) {
@@ -2084,21 +2171,26 @@ async function handleDiscordInteraction(request: Request, env: Env, ctx: Executi
 
 const worker = {
   async fetch(request: Request, env: Env, ctx: ExecutionContext): Promise<Response> {
+    configureDebug(env);
+
+    const requestOrigin = request.headers.get("Origin");
+    const ip = clientKey(request);
+
     // Handle CORS preflight
     if (request.method === "OPTIONS") {
-      return cors(new Response(null, { status: 204 }));
+      return cors(new Response(null, { status: 204 }), requestOrigin, env);
     }
 
     const url = new URL(request.url);
 
     // Health check
     if (url.pathname === "/" || url.pathname === "/health") {
-      return jsonResponse({ status: "ok", service: "xenios-compat-api" });
+      return jsonResponse({ status: "ok", service: "xenios-compat-api" }, 200, requestOrigin, env);
     }
 
     // GET /schema — valid field values (public, for app UI + self-documenting API)
     if (url.pathname === "/schema" && request.method === "GET") {
-      return jsonResponse(SCHEMA);
+      return jsonResponse(SCHEMA, 200, requestOrigin, env);
     }
 
     // POST /report — app submissions (Bearer token auth)
@@ -2106,7 +2198,11 @@ const worker = {
       // Auth check
       const authHeader = request.headers.get("Authorization");
       if (!authHeader || authHeader !== `Bearer ${env.API_KEY}`) {
-        return errorResponse("Unauthorized", 401);
+        return errorResponse("Unauthorized", 401, requestOrigin, env);
+      }
+
+      if (!checkRateLimit(`report:${ip}`)) {
+        return errorResponse("Too many requests", 429, requestOrigin, env);
       }
 
       // Parse & validate
@@ -2114,12 +2210,12 @@ const worker = {
       try {
         body = await request.json();
       } catch {
-        return errorResponse("Invalid JSON body");
+        return errorResponse("Invalid JSON body", 400, requestOrigin, env);
       }
 
       const validation = validatePayload(body);
       if (validation.ok === false) {
-        return errorResponse(validation.error);
+        return errorResponse(validation.error, 400, requestOrigin, env);
       }
 
       const report = validation.data;
@@ -2127,16 +2223,16 @@ const worker = {
       try {
         const screenshotUrls = await uploadReportScreenshots(env, env.GITHUB_TOKEN, report, "app");
         const result = await processReport(env, report, "app", screenshotUrls);
-        return jsonResponse(result);
+        return jsonResponse(result, 200, requestOrigin, env);
       } catch (e) {
         console.error("Report processing failed:", e);
-        return errorResponse(`Failed to process report: ${(e as Error).message}`, 500);
+        return errorResponse(`Failed to process report: ${(e as Error).message}`, 500, requestOrigin, env);
       }
     }
 
     // POST /discord — Discord interactions (Ed25519 verified)
     if (url.pathname === "/discord" && request.method === "POST") {
-      console.log("[fetch] POST /discord hit");
+      debugLog("[fetch] POST /discord hit");
       return handleDiscordInteraction(request, env, ctx);
     }
 
@@ -2144,9 +2240,9 @@ const worker = {
     if (url.pathname === "/games" && request.method === "GET") {
       try {
         const games = await getPublicGames(env);
-        return jsonResponse(games);
+        return jsonResponse(games, 200, requestOrigin, env);
       } catch (e) {
-        return errorResponse(`Failed to fetch games: ${(e as Error).message}`, 500);
+        return errorResponse(`Failed to fetch games: ${(e as Error).message}`, 500, requestOrigin, env);
       }
     }
 
@@ -2162,7 +2258,7 @@ const worker = {
         const issueUrl = game?.issueUrl ?? null;
 
         if (!game) {
-          return jsonResponse({ found: false, titleId, reports: [], issueNumber, issueUrl });
+          return jsonResponse({ found: false, titleId, reports: [], issueNumber, issueUrl }, 200, requestOrigin, env);
         }
 
         return jsonResponse({
@@ -2177,9 +2273,9 @@ const worker = {
           issueUrl,
           reports: game.reports,
           summaries: game.summaries,
-        });
+        }, 200, requestOrigin, env);
       } catch (e) {
-        return errorResponse(`Failed to fetch discussion: ${(e as Error).message}`, 500);
+        return errorResponse(`Failed to fetch discussion: ${(e as Error).message}`, 500, requestOrigin, env);
       }
     }
 
@@ -2187,18 +2283,21 @@ const worker = {
     if (url.pathname === "/board" && request.method === "POST") {
       const authHeader = request.headers.get("Authorization");
       if (authHeader !== `Bearer ${env.API_KEY}`) {
-        return errorResponse("Unauthorized", 401);
+        return errorResponse("Unauthorized", 401, requestOrigin, env);
+      }
+      if (!checkRateLimit(`board:${ip}`, 5)) {
+        return errorResponse("Too many requests", 429, requestOrigin, env);
       }
       try {
         const { content: games } = await getFileFromGitHub(env, env.GITHUB_TOKEN);
         await updateCompatBoard(env, games);
-        return jsonResponse({ ok: true, games: games.length });
+        return jsonResponse({ ok: true, games: games.length }, 200, requestOrigin, env);
       } catch (e) {
-        return errorResponse(`Board update failed: ${(e as Error).message}`, 500);
+        return errorResponse(`Board update failed: ${(e as Error).message}`, 500, requestOrigin, env);
       }
     }
 
-    return errorResponse("Not found", 404);
+    return errorResponse("Not found", 404, requestOrigin, env);
   },
 };
 
