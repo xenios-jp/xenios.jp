@@ -277,11 +277,20 @@ function normalizeBuild(value: unknown): ReportBuild | undefined {
     : undefined;
 }
 
+// Module-level cache: the manifest JSON is bundled and never changes within
+// a process lifetime, so parse it once instead of on every game normalization.
+let cachedReleaseBuilds: Partial<Record<Platform, ReportBuild | undefined>> | null = null;
+
 function getCurrentReleaseBuild(platform: Platform): ReportBuild | undefined {
+  if (cachedReleaseBuilds) return cachedReleaseBuilds[platform];
+
   const manifest = asRecord(releaseBuildsData);
   const platforms = asRecord(manifest?.platforms);
-  const platformRecord = asRecord(platforms?.[platform]);
-  return normalizeBuild(platformRecord?.release);
+  cachedReleaseBuilds = {
+    ios: normalizeBuild(asRecord(platforms?.ios)?.release),
+    macos: normalizeBuild(asRecord(platforms?.macos)?.release),
+  };
+  return cachedReleaseBuilds[platform];
 }
 
 function normalizeLastReport(value: unknown): LastReportSnapshot | null {
