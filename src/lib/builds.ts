@@ -11,6 +11,12 @@ import {
   normalizeBuildArchitecture,
   normalizeBuildStage,
 } from "@/lib/build-display";
+import {
+  asRecord,
+  cleanBoolean,
+  cleanBuildString as cleanString,
+  cleanNumberOrUndefined as cleanNumber,
+} from "@/lib/normalization";
 
 export type BuildChannel = Extract<ReportBuildChannel, "release">;
 export type BuildHistoryFilter = BuildChannel | "all";
@@ -59,39 +65,6 @@ export interface BuildHistoryEntry extends PublicBuildEntry {
 const DATA_DIR = path.join(process.cwd(), "data");
 const RELEASE_BUILDS_PATH = path.join(DATA_DIR, "release-builds.json");
 const BUILDS_HISTORY_PATH = path.join(DATA_DIR, "builds-history.json");
-
-function asRecord(value: unknown): Record<string, unknown> | null {
-  if (!value || typeof value !== "object" || Array.isArray(value)) {
-    return null;
-  }
-  return value as Record<string, unknown>;
-}
-
-function cleanString(value: unknown): string | undefined {
-  if (typeof value !== "string") return undefined;
-  const trimmed = value.trim();
-  if (!trimmed) return undefined;
-
-  const lower = trimmed.toLowerCase();
-  if (lower === "n/a" || lower === "tbd" || lower === "placeholder") {
-    return undefined;
-  }
-
-  return trimmed;
-}
-
-function cleanNumber(value: unknown): number | undefined {
-  if (typeof value === "number" && Number.isFinite(value)) return value;
-  if (typeof value === "string") {
-    const parsed = Number(value);
-    if (Number.isFinite(parsed)) return parsed;
-  }
-  return undefined;
-}
-
-function cleanBoolean(value: unknown): boolean | undefined {
-  return typeof value === "boolean" ? value : undefined;
-}
 
 function normalizeChannel(value: unknown): BuildChannel | undefined {
   const channel = normalizeBuildChannel(value);

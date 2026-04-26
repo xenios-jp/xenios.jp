@@ -36,23 +36,28 @@ import {
   type DiscussionEntry,
 } from "@/lib/discussions";
 import { matchesPublishedReleaseBuild } from "@/lib/release-build-match";
-
-const STATUS_RANK: Record<GameReport["status"], number> = {
-  nothing: 0,
-  loads: 1,
-  intro: 2,
-  ingame: 3,
-  playable: 4,
-};
-
-const SUMMARY_STATUS_RANK: Record<SummaryStatus, number> = {
-  untested: -1,
-  nothing: 0,
-  loads: 1,
-  intro: 2,
-  ingame: 3,
-  playable: 4,
-};
+import { STATUS_RANK, SUMMARY_STATUS_RANK } from "@/lib/compat-status";
+import {
+  compareActivityByDate,
+  compareObservationsByDate,
+  compareReportsByDate,
+  compareReportsByStatus,
+  parseDateValue,
+  type CompatibilityObservation,
+} from "@/lib/game-detail-compare";
+import {
+  normalizeComparableDevice,
+  normalizeComparableOsVersion,
+  normalizeComparableText,
+  normalizeDiscussionPerf,
+  normalizeDiscussionPlatform,
+  normalizeDiscussionStatus,
+} from "@/lib/game-detail-normalize";
+import {
+  isGenericGameTitle,
+  parseGameTitleFromIssueTitle,
+  slugifySyntheticGameTitle,
+} from "@/lib/game-detail-titles";
 
 type ActivityTrack = "release" | "preview" | "self-built" | "legacy" | "discussion";
 
@@ -214,13 +219,6 @@ export interface CompatibilityListPageData {
 
 export const COMPATIBILITY_CATALOG_PAGE_SIZE = 50;
 
-interface CompatibilityObservation {
-  status: SummaryStatus;
-  perf: PerfTier;
-  date: string;
-  device: string | null;
-}
-
 function reportIdentity(report: GameReport): string {
   return [
     report.date,
@@ -233,30 +231,6 @@ function reportIdentity(report: GameReport): string {
     report.build?.commitShort ?? "",
     report.notes,
   ].join("|");
-}
-
-function parseDateValue(value?: string | null): number {
-  if (!value) return 0;
-  const parsed = Date.parse(value);
-  return Number.isNaN(parsed) ? 0 : parsed;
-}
-
-function compareReportsByDate(left: GameReport, right: GameReport): number {
-  const byDate = parseDateValue(right.date) - parseDateValue(left.date);
-  if (byDate !== 0) return byDate;
-  return STATUS_RANK[right.status] - STATUS_RANK[left.status];
-}
-
-function compareReportsByStatus(
-  left: GameReport,
-  right: GameReport,
-  direction: "best" | "worst",
-): number {
-  const rankDelta = STATUS_RANK[left.status] - STATUS_RANK[right.status];
-  if (rankDelta !== 0) {
-    return direction === "best" ? -rankDelta : rankDelta;
-  }
-  return compareReportsByDate(left, right);
 }
 
 function isGameReport(value: unknown): value is GameReport {
@@ -401,72 +375,6 @@ function getActivityTrack(report: GameReport): {
     return { track: "release", trackLabel: "Release", affectsRelease: true };
   }
   return { track: "legacy", trackLabel: "Legacy Release", affectsRelease: true };
-}
-
-function compareActivityByDate(left: ActivityItem, right: ActivityItem): number {
-  const byDate = right.dateMs - left.dateMs;
-  if (byDate !== 0) return byDate;
-  return left.id.localeCompare(right.id);
-}
-
-function normalizeComparableText(value?: string | null): string {
-  return (value ?? "").trim().toLowerCase().replace(/\s+/g, " ");
-}
-
-function normalizeComparableDevice(value?: string | null): string {
-  return deviceName(value ?? "").toLowerCase().replace(/[^a-z0-9]+/g, "");
-}
-
-function normalizeComparableOsVersion(value?: string | null): string {
-  return (value ?? "")
-    .toLowerCase()
-    .replace(/\b(ios|ipados|macos|os x)\b/g, "")
-    .replace(/[^0-9.]+/g, "");
-}
-
-function normalizeDiscussionPlatform(value?: string | null): Platform | null {
-  const normalized = value?.trim().toLowerCase();
-  if (normalized === "ios") return "ios";
-  if (normalized === "macos") return "macos";
-  return null;
-}
-
-function normalizeDiscussionStatus(value?: string | null): SummaryStatus | null {
-  const normalized = value?.trim().toLowerCase();
-  if (!normalized) return null;
-  if (
-    normalized === "playable" ||
-    normalized === "ingame" ||
-    normalized === "intro" ||
-    normalized === "loads" ||
-    normalized === "nothing" ||
-    normalized === "untested"
-  ) {
-    return normalized;
-  }
-  return null;
-}
-
-function normalizeDiscussionPerf(value?: string | null): PerfTier | null {
-  const normalized = value?.trim().toLowerCase();
-  if (
-    normalized === "great" ||
-    normalized === "ok" ||
-    normalized === "poor" ||
-    normalized === "n/a"
-  ) {
-    return normalized;
-  }
-  return null;
-}
-
-function compareObservationsByDate(
-  left: CompatibilityObservation,
-  right: CompatibilityObservation,
-): number {
-  const byDate = parseDateValue(right.date) - parseDateValue(left.date);
-  if (byDate !== 0) return byDate;
-  return SUMMARY_STATUS_RANK[right.status] - SUMMARY_STATUS_RANK[left.status];
 }
 
 function deriveHistoryStatus(observations: CompatibilityObservation[]): SummaryStatus {
@@ -1097,50 +1005,6 @@ async function fetchGitHubIssueTitle(issueNumber: number): Promise<string | null
   } catch {
     return null;
   }
-}
-
-const GENERIC_GAME_TITLE_PATTERN = /^Title [A-F0-9]{8}$/i;
-const ISSUE_TITLE_ID_PREFIX_PATTERN = /^\[?[A-F0-9]{8}\]?\s*(?:—|-)\s*/i;
-const WRAPPED_GAME_TITLE_PATTERN = /^\[(.+)\]([™®©])?$/u;
-
-function isGenericGameTitle(title?: string | null): boolean {
-  if (!title) return true;
-  return title === "Unknown Title" || GENERIC_GAME_TITLE_PATTERN.test(title.trim());
-}
-
-function normalizeWrappedGameTitle(title: string): string {
-  const wrappedMatch = title.match(WRAPPED_GAME_TITLE_PATTERN);
-  if (!wrappedMatch) {
-    return title;
-  }
-
-  const innerTitle = wrappedMatch[1]?.trim();
-  const suffix = wrappedMatch[2] ?? "";
-  return innerTitle ? `${innerTitle}${suffix}` : title;
-}
-
-function parseGameTitleFromIssueTitle(issueTitle: string): string | null {
-  const cleaned = normalizeWrappedGameTitle(
-    issueTitle
-      .trim()
-      .replace(ISSUE_TITLE_ID_PREFIX_PATTERN, "")
-      .replace(/^\[?[A-F0-9]{8}\]?\s*/i, "")
-      .trim(),
-  );
-
-  return cleaned.length > 0 ? cleaned : null;
-}
-
-function slugifySyntheticGameTitle(title: string, titleId: string): string {
-  const slug = title
-    .normalize("NFKD")
-    .toLowerCase()
-    .replace(/['’]/g, "")
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/^-+|-+$/g, "")
-    .replace(/-{2,}/g, "-");
-
-  return slug || `title-${titleId.toLowerCase()}`;
 }
 
 function mergeUniqueValues<T extends string>(...lists: Array<readonly T[] | undefined>): T[] {

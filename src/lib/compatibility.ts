@@ -8,6 +8,13 @@ import {
   type DisplayBuildStage,
 } from "@/lib/build-display";
 import { matchesPublishedReleaseBuild } from "@/lib/release-build-match";
+import {
+  asRecord,
+  cleanBoolean,
+  cleanNumberOrNull as cleanNumber,
+  cleanStringOrNull as cleanString,
+} from "@/lib/normalization";
+import { STATUS_RANK } from "@/lib/compat-status";
 
 export type GameStatus = "playable" | "ingame" | "intro" | "loads" | "nothing";
 export type SummaryStatus = GameStatus | "untested";
@@ -132,14 +139,6 @@ export const COMPATIBILITY_CHANNELS: CompatibilityChannel[] = [
   "all",
 ];
 
-const STATUS_RANK: Record<GameStatus, number> = {
-  playable: 4,
-  ingame: 3,
-  intro: 2,
-  loads: 1,
-  nothing: 0,
-};
-
 const EMPTY_SUMMARY: GameSummary = {
   status: "untested",
   perf: "n/a",
@@ -148,19 +147,6 @@ const EMPTY_SUMMARY: GameSummary = {
   lastReport: null,
   reportCount: 0,
 };
-
-function asRecord(value: unknown): Record<string, unknown> | null {
-  if (!value || typeof value !== "object" || Array.isArray(value)) {
-    return null;
-  }
-  return value as Record<string, unknown>;
-}
-
-function cleanString(value: unknown): string | null {
-  if (typeof value !== "string") return null;
-  const trimmed = value.trim();
-  return trimmed.length > 0 ? trimmed : null;
-}
 
 function normalizeGameTitle(value: unknown): string | null {
   const cleaned = cleanString(value);
@@ -174,20 +160,6 @@ function normalizeGameTitle(value: unknown): string | null {
   const innerTitle = wrappedMatch[1]?.trim();
   const suffix = wrappedMatch[2] ?? "";
   return innerTitle ? `${innerTitle}${suffix}` : cleaned;
-}
-
-function cleanBoolean(value: unknown): boolean | undefined {
-  if (typeof value === "boolean") return value;
-  return undefined;
-}
-
-function cleanNumber(value: unknown): number | null {
-  if (typeof value === "number" && Number.isFinite(value)) return value;
-  if (typeof value === "string") {
-    const parsed = Number(value);
-    if (Number.isFinite(parsed)) return parsed;
-  }
-  return null;
 }
 
 function normalizeGameStatus(value: unknown): GameStatus | null {
