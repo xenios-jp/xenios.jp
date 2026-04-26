@@ -1,3 +1,4 @@
+import Script from "next/script";
 import { notFound } from "next/navigation";
 import { getStatusLabel } from "@/lib/compatibility";
 import {
@@ -7,6 +8,7 @@ import {
   selectPrimaryReleaseCard,
 } from "@/lib/game-detail";
 import { withCanonical } from "@/lib/metadata";
+import { SITE_URL } from "@/lib/constants";
 import { GameDetailClient } from "./game-detail-client";
 
 export async function generateStaticParams() {
@@ -48,5 +50,37 @@ export default async function GameDetailPage({
   if (!game) notFound();
 
   const detail = await getGameDetailViewModel(game);
-  return <GameDetailClient game={game} detail={detail} />;
+  const primaryCard = selectPrimaryReleaseCard(detail.releaseCards);
+
+  const videoGameLd = {
+    "@context": "https://schema.org",
+    "@type": "VideoGame",
+    name: game.title,
+    identifier: game.titleId,
+    url: `${SITE_URL}/compatibility/${game.slug}`,
+    gamePlatform: ["Xbox 360", "iOS", "iPadOS", "macOS"],
+    applicationCategory: "Game",
+    operatingSystem: "iOS, iPadOS, macOS",
+    ...(primaryCard?.verified
+      ? {
+          additionalProperty: {
+            "@type": "PropertyValue",
+            name: "XeniOS compatibility",
+            value: getStatusLabel(primaryCard.status),
+          },
+        }
+      : {}),
+  };
+
+  return (
+    <>
+      <Script
+        id={`ld-game-${game.slug}`}
+        type="application/ld+json"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(videoGameLd) }}
+      />
+      <GameDetailClient game={game} detail={detail} />
+    </>
+  );
 }

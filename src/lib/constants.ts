@@ -2,6 +2,8 @@ export const BUILD_VERSION = "N/A";
 export const BUILD_COMMIT = "N/A";
 export const BUILD_DATE = "N/A";
 
+export const SITE_URL = (process.env.SITE_URL ?? "https://xenios.jp").replace(/\/+$/, "");
+
 export const EMULATOR_GITHUB_URL = "https://github.com/xenios-jp/XeniOS";
 export const EMULATOR_GITHUB_RELEASES_URL = `${EMULATOR_GITHUB_URL}/releases`;
 export const EMULATOR_GITHUB_ISSUES_URL = `${EMULATOR_GITHUB_URL}/issues`;
