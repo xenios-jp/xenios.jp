@@ -32,8 +32,8 @@ html:not(.dark) {
   --color-bg-surface-2: #e4e4e7;
   --color-bg-surface-3: #d4d4d8;
   --color-text-primary: #09090b;
-  --color-text-secondary: #52525b;
-  --color-text-muted: #a1a1aa;
+  --color-text-secondary: #3f3f46;
+  --color-text-muted: #71717a;
   --color-accent: #10b981;
   --color-accent-hover: #059669;
   --color-accent-muted: oklch(0.45 0.17 163 / 0.08);
@@ -127,26 +127,33 @@ html:not(.dark) .hero-gradient-home {
 
 /* Title power-on: fades in + scales up, then sweep after visible */
 .hero-title {
-  background-image: linear-gradient(
-    90deg,
-    var(--color-text-primary) 0%,
-    var(--color-text-primary) 44%,
-    #34d399 47%,
-    #6ee7b7 50%,
-    #34d399 53%,
-    var(--color-text-primary) 56%,
-    var(--color-text-primary) 100%
-  );
-  background-size: 300% 100%;
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  /* Fallback solid color for browsers that don't support background-clip:text */
+  color: var(--color-text-primary);
   opacity: 0;
   transform: scale(0.92);
   animation:
     hero-power-on 0.5s ease-out forwards,
     hero-sweep 2s ease-in-out 0.6s 1 forwards;
-  background-position: 100% center;
+}
+
+@supports ((background-clip: text) or (-webkit-background-clip: text)) {
+  .hero-title {
+    background-image: linear-gradient(
+      90deg,
+      var(--color-text-primary) 0%,
+      var(--color-text-primary) 44%,
+      #34d399 47%,
+      #6ee7b7 50%,
+      #34d399 53%,
+      var(--color-text-primary) 56%,
+      var(--color-text-primary) 100%
+    );
+    background-size: 300% 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-position: 100% center;
+  }
 }
 
 html:not(.dark) .hero-title {

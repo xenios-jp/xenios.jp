@@ -1,22 +1,13 @@
 import Link from "next/link";
-import {
-  EMULATOR_GITHUB_URL,
-  DISCORD_URL,
-  KOFI_URL,
-  XENIA_EDGE_REPO_URL,
-} from "@/lib/constants";
+import { KOFI_URL, XENIA_EDGE_REPO_URL } from "@/lib/constants";
 
+// GitHub and Discord live in the navbar as icon links; keep the footer
+// for site-wide info and meta navigation only.
 const footerLinks = [
   { label: "Legal/Disclaimer", href: "/legal" },
   { label: "License", href: "/license" },
   { label: "Credits", href: "/credits" },
   { label: "Privacy", href: "/privacy" },
-  {
-    label: "GitHub",
-    href: EMULATOR_GITHUB_URL,
-    external: true,
-  },
-  { label: "Discord", href: DISCORD_URL, external: true },
   { label: "Support", href: KOFI_URL, external: true },
 ];
 

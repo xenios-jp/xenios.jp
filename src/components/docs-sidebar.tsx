@@ -36,9 +36,10 @@ export function DocsSidebar({ items }: DocsSidebarProps) {
           <Link
             key={item.slug}
             href={`${platformPrefix}/${item.slug}`}
+            aria-current={isActive ? "page" : undefined}
             className={`block rounded-lg px-3 py-2 text-[15px] transition-colors ${
               isActive
-                ? "bg-accent/10 text-accent font-medium border-l-2 border-accent -ml-px"
+                ? "bg-accent/10 text-accent font-medium"
                 : "text-text-secondary hover:text-text-primary hover:bg-bg-surface-2/50"
             }`}
           >

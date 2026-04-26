@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useId } from "react";
+import { useRef, useState, useId, type KeyboardEvent } from "react";
 
 interface AccordionItem {
   title: string;
@@ -30,13 +30,23 @@ function ChevronIcon({ className }: { className?: string }) {
 
 function AccordionRow({ item }: { item: AccordionItem }) {
   const [open, setOpen] = useState(false);
+  const buttonRef = useRef<HTMLButtonElement>(null);
   const id = useId();
   const triggerId = `${id}-trigger`;
   const panelId = `${id}-panel`;
 
+  function handleKeyDown(event: KeyboardEvent<HTMLDivElement>) {
+    if (open && event.key === "Escape") {
+      event.preventDefault();
+      setOpen(false);
+      buttonRef.current?.focus();
+    }
+  }
+
   return (
-    <div className="border-b border-border">
+    <div className="border-b border-border" onKeyDown={handleKeyDown}>
       <button
+        ref={buttonRef}
         type="button"
         id={triggerId}
         aria-expanded={open}
@@ -46,14 +56,14 @@ function AccordionRow({ item }: { item: AccordionItem }) {
       >
         {item.title}
         <ChevronIcon
-          className={`h-4 w-4 shrink-0 text-text-muted transition-transform duration-200 ${open ? "rotate-180" : ""}`}
+          className={`h-4 w-4 shrink-0 text-text-muted transition-transform duration-200 motion-reduce:transition-none ${open ? "rotate-180" : ""}`}
         />
       </button>
       <div
         id={panelId}
         role="region"
         aria-labelledby={triggerId}
-        className={`grid transition-[grid-template-rows] duration-200 ${open ? "grid-rows-[1fr]" : "grid-rows-[0fr]"}`}
+        className={`grid transition-[grid-template-rows] duration-200 motion-reduce:transition-none ${open ? "grid-rows-[1fr]" : "grid-rows-[0fr]"}`}
       >
         <div className="overflow-hidden">
           <div className="pb-4 text-[15px] leading-relaxed text-text-secondary">{item.content}</div>
@@ -63,11 +73,22 @@ function AccordionRow({ item }: { item: AccordionItem }) {
   );
 }
 
+function slugifyTitle(title: string, fallback: string): string {
+  const slug = title
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+  return slug || fallback;
+}
+
 export function Accordion({ items }: AccordionProps) {
   return (
     <div>
       {items.map((item, i) => (
-        <AccordionRow key={i} item={item} />
+        <AccordionRow
+          key={`${slugifyTitle(item.title, `item-${i}`)}-${i}`}
+          item={item}
+        />
       ))}
     </div>
   );

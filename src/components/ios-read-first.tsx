@@ -12,19 +12,24 @@ interface IosReadFirstProps {
   tone?: IosReadFirstTone;
 }
 
+const TONE_STYLES: Record<
+  IosReadFirstTone,
+  { text: string; list: string; link: string }
+> = {
+  primary: {
+    text: "text-[15px] leading-relaxed text-text-primary",
+    list: "mt-3 list-disc space-y-2 pl-5 text-[15px] leading-relaxed text-text-primary marker:text-accent",
+    link: "text-accent underline decoration-accent/30 underline-offset-2 hover:decoration-accent",
+  },
+  secondary: {
+    text: "text-[15px] leading-relaxed text-text-secondary",
+    list: "mt-3 list-disc space-y-2 pl-5 text-[15px] leading-relaxed text-text-secondary marker:text-accent",
+    link: "text-accent underline underline-offset-2 hover:text-accent-hover font-semibold",
+  },
+};
+
 export function IosReadFirst({ tone = "primary" }: IosReadFirstProps) {
-  const textClass =
-    tone === "primary"
-      ? "text-[15px] leading-relaxed text-text-primary"
-      : "text-[15px] leading-relaxed text-text-secondary";
-  const listClass =
-    tone === "primary"
-      ? "mt-3 list-disc space-y-2 pl-5 text-[15px] leading-relaxed text-text-primary marker:text-accent"
-      : "mt-3 list-disc space-y-2 pl-5 text-[15px] leading-relaxed text-text-secondary marker:text-accent";
-  const linkClass =
-    tone === "primary"
-      ? "text-accent underline decoration-accent/30 underline-offset-2 hover:decoration-accent"
-      : "text-accent underline underline-offset-2 hover:text-accent-hover font-semibold";
+  const { text: textClass, list: listClass, link: linkClass } = TONE_STYLES[tone];
 
   return (
     <>

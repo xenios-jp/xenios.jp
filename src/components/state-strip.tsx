@@ -11,12 +11,9 @@ interface StateStripProps {
 export function StateStrip({ items }: StateStripProps) {
   return (
     <div className="bg-bg-surface border-y border-border">
-      <div className="mx-auto max-w-6xl px-4 sm:px-6 py-4 flex items-center justify-center gap-x-5 text-[15px]">
+      <div className="mx-auto max-w-6xl px-4 sm:px-6 py-4 flex flex-wrap items-center justify-center gap-x-5 gap-y-2 text-[15px]">
         {items.map((item, i) => (
-          <span
-            key={item.label}
-            className={`flex items-center gap-x-2 ${i >= 2 ? "hidden sm:flex" : ""}`}
-          >
+          <span key={item.label} className="flex items-center gap-x-2">
             {i > 0 && (
               <span className="text-text-muted" aria-hidden="true">
                 &middot;

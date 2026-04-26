@@ -172,7 +172,7 @@ export default async function Home() {
                   href={XENIA_CANARY_RELEASES_URL}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="group flex min-w-[220px] flex-col rounded-xl border border-emerald-400/25 bg-emerald-500/10 px-5 py-4 text-left transition-colors hover:bg-emerald-500/15"
+                  className="group flex min-w-0 flex-col rounded-xl border border-emerald-400/25 bg-emerald-500/10 px-5 py-4 text-left transition-colors hover:bg-emerald-500/15"
                 >
                   <span className="inline-flex w-fit items-center rounded-full bg-emerald-400/15 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-[0.14em] text-emerald-300">
                     Stable
@@ -188,7 +188,7 @@ export default async function Home() {
                   href={XENIA_EDGE_RELEASES_URL}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="group flex min-w-[220px] flex-col rounded-xl border border-amber-400/25 bg-amber-500/10 px-5 py-4 text-left transition-colors hover:bg-amber-500/15"
+                  className="group flex min-w-0 flex-col rounded-xl border border-amber-400/25 bg-amber-500/10 px-5 py-4 text-left transition-colors hover:bg-amber-500/15"
                 >
                   <span className="inline-flex w-fit items-center rounded-full bg-amber-400/15 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-[0.14em] text-amber-300">
                     Experimental
@@ -236,6 +236,11 @@ export default async function Home() {
                         >
                           {entry.game.title}
                         </Link>
+                        {entry.deviceLabel && (
+                          <span className="mt-1 block text-xs text-text-muted sm:hidden">
+                            Tested on {entry.deviceLabel}
+                          </span>
+                        )}
                       </td>
                       <td className="py-3 pr-4">
                         <Pill variant={entry.status}>

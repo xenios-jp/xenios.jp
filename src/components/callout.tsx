@@ -9,8 +9,8 @@ const config: Record<
 > = {
   note: {
     title: "Note",
-    borderClass: "border-l-blue-400",
-    iconColor: "text-blue-400",
+    borderClass: "border-l-blue-500 dark:border-l-blue-400",
+    iconColor: "text-blue-600 dark:text-blue-400",
     icon: (
       <svg
         className="h-4 w-4"
@@ -29,8 +29,8 @@ const config: Record<
   },
   warning: {
     title: "Warning",
-    borderClass: "border-l-amber-400",
-    iconColor: "text-amber-400",
+    borderClass: "border-l-amber-500 dark:border-l-amber-400",
+    iconColor: "text-amber-600 dark:text-amber-400",
     icon: (
       <svg
         className="h-4 w-4"
@@ -48,8 +48,8 @@ const config: Record<
   },
   tip: {
     title: "Tip",
-    borderClass: "border-l-emerald-400",
-    iconColor: "text-emerald-400",
+    borderClass: "border-l-emerald-500 dark:border-l-emerald-400",
+    iconColor: "text-emerald-600 dark:text-emerald-400",
     icon: (
       <svg
         className="h-4 w-4"
@@ -72,7 +72,9 @@ export function Callout({ type, children }: CalloutProps) {
 
   return (
     <div
-      className={`border-l-2 ${borderClass} bg-bg-surface rounded-lg p-5`}
+      role="note"
+      aria-label={title}
+      className={`border-l-4 ${borderClass} bg-bg-surface rounded-lg p-5`}
     >
       <div className={`flex items-center gap-2 ${iconColor} mb-2`}>
         {icon}
