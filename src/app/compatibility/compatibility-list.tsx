@@ -10,14 +10,11 @@ import {
   getPerfLabel,
   getPlatformLabel,
   getStatusLabel,
-  type Game,
   type PerfTier,
-  type Platform,
   type SummaryStatus,
 } from "@/lib/compatibility";
 import {
   CATALOG_BUCKETS,
-  alphaBucketForTitle,
   alphaBucketLabel,
   catalogBucketToSlug,
   type CatalogBucket,
@@ -27,54 +24,33 @@ import {
 import type {
   CompatibilityAlphaCount,
   CompatibilityListEntry,
-  CompatibilityPlatformEntry,
   CompatibilityStatusSummaryByPlatform,
 } from "@/lib/game-detail";
 import { COMPATIBILITY_TRACKER_REPORT_URL } from "@/lib/constants";
-
-interface EntryProjection {
-  platform: Platform | null;
-  status: SummaryStatus;
-  perf: PerfTier;
-  updatedAt: string;
-  observedDevices: string[];
-  variesByDevice: boolean;
-}
-
-type CompatibilityListMode = "tested" | "catalog";
-
-interface DisplayEntryGame {
-  slug: string;
-  title: string;
-  titleId: string;
-  titleIds: string[];
-  tags?: string[];
-}
-
-interface DisplayEntry {
-  game: DisplayEntryGame;
-  platform: Platform | null;
-  status: SummaryStatus;
-  perf: PerfTier;
-  updatedAt: string;
-  latestActivityDate?: string | null;
-  observedDevices: string[];
-  variesByDevice: boolean;
-  platformEntries: CompatibilityPlatformEntry[];
-}
-
-type RawCatalogSearchEntry = DisplayEntry & {
-  searchText: string;
-  titleBucket: ReturnType<typeof alphaBucketForTitle>;
-};
-
-type CatalogSearchEntry = RawCatalogSearchEntry & {
-  normalizedTitle: string;
-  normalizedTitleIds: string[];
-  normalizedTags: string[];
-  titleWords: string[];
-  tagWords: string[][];
-};
+import {
+  STATUS_COLORS,
+  catalogPageHref,
+  countForBucket,
+  entryHref,
+  entryListKey,
+  formatDateLabel,
+  getDisplayedPlatforms,
+  getEntryProjection,
+  getPlatformFilterLabel,
+  hasPlatformVariance,
+  isCatalogSearchEntry,
+  matchesCatalogSearch,
+  matchesSearch,
+  observedDevicesLabel,
+  paginationItems,
+  prepareCatalogSearchEntry,
+  sortEntries,
+  titleIdsForDisplay,
+  type CatalogSearchEntry,
+  type CompatibilityListMode,
+  type DisplayEntry,
+  type RawCatalogSearchEntry,
+} from "./compatibility-list-utils";
 
 interface CompatibilityListProps {
   mode: CompatibilityListMode;
@@ -89,66 +65,6 @@ interface CompatibilityListProps {
   catalogPageCount?: number;
   catalogTotalEntries?: number;
   catalogBasePath?: string;
-}
-
-const STATUS_COLORS: Record<SummaryStatus, string> = {
-  playable: "bg-emerald-400",
-  ingame: "bg-blue-400",
-  intro: "bg-amber-400",
-  loads: "bg-orange-400",
-  nothing: "bg-red-400",
-  untested: "bg-zinc-400",
-};
-
-const STATUS_RANK: Record<SummaryStatus, number> = {
-  untested: -1,
-  nothing: 0,
-  loads: 1,
-  intro: 2,
-  ingame: 3,
-  playable: 4,
-};
-
-const PLATFORM_ORDER: Platform[] = ["ios", "macos"];
-
-function parseDateValue(value?: string | null): number {
-  if (!value) return 0;
-  const parsed = Date.parse(value);
-  return Number.isNaN(parsed) ? 0 : parsed;
-}
-
-function formatDateLabel(value?: string | null): string {
-  if (!value) return "Unverified";
-
-  const parsed = new Date(value);
-  if (Number.isNaN(parsed.getTime())) {
-    return value;
-  }
-
-  return parsed.toLocaleDateString("en-US", {
-    year: "numeric",
-    month: "short",
-    day: "numeric",
-    timeZone: "UTC",
-  });
-}
-
-function getPlatformFilterLabel(platform: PlatformFilter): string {
-  if (platform === "ios") return "iOS";
-  if (platform === "macos") return "macOS";
-  return "All Platforms";
-}
-
-function entryHref(slug: string): string {
-  return `/compatibility/${slug}`;
-}
-
-function titleIdsForDisplay(entry: DisplayEntry): string[] {
-  return entry.game.titleIds.length > 0 ? entry.game.titleIds : [entry.game.titleId];
-}
-
-function entryListKey(entry: DisplayEntry): string {
-  return `${entry.game.slug}:${titleIdsForDisplay(entry).join("|")}`;
 }
 
 function TitleIdList({
@@ -181,348 +97,6 @@ function TitleIdList({
       )}
     </div>
   );
-}
-
-function getPlatformEntry(
-  entry: DisplayEntry,
-  platform: Platform,
-): CompatibilityPlatformEntry | null {
-  return entry.platformEntries.find((candidate) => candidate.platform === platform) ?? null;
-}
-
-function getEntryProjection(
-  entry: DisplayEntry,
-  platform: PlatformFilter,
-): EntryProjection {
-  if (platform === "all") {
-    return {
-      platform: entry.platform,
-      status: entry.status,
-      perf: entry.perf,
-      updatedAt: entry.updatedAt,
-      observedDevices: entry.observedDevices,
-      variesByDevice: entry.variesByDevice,
-    };
-  }
-
-  const platformEntry = getPlatformEntry(entry, platform);
-  if (!platformEntry) {
-    return {
-      platform,
-      status: "untested",
-      perf: "n/a",
-      updatedAt: "",
-      observedDevices: [],
-      variesByDevice: false,
-    };
-  }
-
-  return {
-    platform: platformEntry.platform,
-    status: platformEntry.status,
-    perf: platformEntry.perf,
-    updatedAt: platformEntry.updatedAt,
-    observedDevices: platformEntry.observedDevices,
-    variesByDevice: platformEntry.variesByDevice,
-  };
-}
-
-function getDisplayedPlatforms(
-  entry: DisplayEntry,
-  platform: PlatformFilter,
-): Platform[] {
-  if (platform === "all") {
-    return entry.platformEntries.map((candidate) => candidate.platform);
-  }
-  return entry.platformEntries.some((candidate) => candidate.platform === platform)
-    ? [platform]
-    : [];
-}
-
-function hasPlatformVariance(entry: DisplayEntry): boolean {
-  const statuses = new Set(entry.platformEntries.map((candidate) => candidate.status));
-  return statuses.size > 1;
-}
-
-function observedDevicesLabel(observedDevices: string[], variesByDevice: boolean): string {
-  if (observedDevices.length === 0) {
-    return "Unverified";
-  }
-
-  if (!variesByDevice) {
-    return deviceName(observedDevices[0]);
-  }
-
-  const [firstDevice, ...rest] = observedDevices;
-  if (rest.length === 0) {
-    return deviceName(firstDevice);
-  }
-
-  return `${deviceName(firstDevice)} + ${rest.length} more`;
-}
-
-function sortEntries(
-  entries: DisplayEntry[],
-  platform: PlatformFilter,
-  sort: SortKey,
-): DisplayEntry[] {
-  const sorted = [...entries];
-  if (sort === "alpha") {
-    sorted.sort((left, right) => left.game.title.localeCompare(right.game.title));
-    return sorted;
-  }
-
-  sorted.sort((left, right) => {
-    const rightProjection = getEntryProjection(right, platform);
-    const leftProjection = getEntryProjection(left, platform);
-    const dateDelta =
-      parseDateValue(rightProjection.updatedAt || right.latestActivityDate) -
-      parseDateValue(leftProjection.updatedAt || left.latestActivityDate);
-    if (dateDelta !== 0) {
-      return dateDelta;
-    }
-    return left.game.title.localeCompare(right.game.title);
-  });
-  return sorted;
-}
-
-function countForBucket(
-  bucketCounts: CompatibilityAlphaCount[] | undefined,
-  bucket: CatalogBucket,
-): number {
-  return bucketCounts?.find((entry) => entry.bucket === bucket)?.count ?? 0;
-}
-
-function paginationItems(page: number, pageCount: number): Array<number | "ellipsis"> {
-  if (pageCount <= 12) {
-    return Array.from({ length: pageCount }, (_, index) => index + 1);
-  }
-
-  const items: Array<number | "ellipsis"> = [1];
-  const start = Math.max(2, page - 5);
-  const end = Math.min(pageCount - 1, page + 5);
-
-  if (start > 2) {
-    items.push("ellipsis");
-  }
-
-  for (let value = start; value <= end; value += 1) {
-    items.push(value);
-  }
-
-  if (end < pageCount - 1) {
-    items.push("ellipsis");
-  }
-
-  items.push(pageCount);
-  return items;
-}
-
-function catalogPageHref(basePath: string, page: number): string {
-  return page <= 1 ? basePath : `${basePath}/page/${page}`;
-}
-
-function normalizeSearchValue(value: string): string {
-  return String(value || "")
-    .toLowerCase()
-    .normalize("NFKD")
-    .replace(/[\u0300-\u036f]/g, "")
-    .replace(/[^a-z0-9]+/g, " ")
-    .trim();
-}
-
-function compactSearchValue(value: string): string {
-  return normalizeSearchValue(value).replace(/ /g, "");
-}
-
-function splitSearchWords(value: string): string[] {
-  const normalized = normalizeSearchValue(value);
-  return normalized ? normalized.split(/\s+/) : [];
-}
-
-function hasSequentialWordPrefix(words: string[], queryWords: string[]): boolean {
-  let index = 0;
-
-  for (const queryWord of queryWords) {
-    let found = false;
-
-    while (index < words.length) {
-      if (words[index]?.startsWith(queryWord)) {
-        found = true;
-        index += 1;
-        break;
-      }
-      index += 1;
-    }
-
-    if (!found) {
-      return false;
-    }
-  }
-
-  return true;
-}
-
-function matchesSearch(entry: DisplayEntry, query: string): boolean {
-  const normalizedQuery = query.toLowerCase();
-  return (
-    entry.game.title.toLowerCase().includes(normalizedQuery) ||
-    entry.game.titleIds.some((titleId) => titleId.toLowerCase().includes(normalizedQuery)) ||
-    (entry.game.tags?.some((tag) => tag.toLowerCase().includes(normalizedQuery)) ?? false)
-  );
-}
-
-function prepareCatalogSearchEntry(entry: RawCatalogSearchEntry): CatalogSearchEntry {
-  return {
-    ...entry,
-    normalizedTitle: normalizeSearchValue(entry.game.title),
-    normalizedTitleIds: entry.game.titleIds.map((titleId) => compactSearchValue(titleId)),
-    normalizedTags: (entry.game.tags ?? []).map((tag) => normalizeSearchValue(tag)),
-    titleWords: splitSearchWords(entry.game.title),
-    tagWords: (entry.game.tags ?? []).map((tag) => splitSearchWords(tag)),
-  };
-}
-
-function isCatalogSearchEntry(entry: DisplayEntry): entry is CatalogSearchEntry {
-  return "normalizedTitle" in entry;
-}
-
-function matchesCatalogSearch(entry: CatalogSearchEntry, query: string): boolean {
-  const normalizedQuery = normalizeSearchValue(query);
-  if (!normalizedQuery) {
-    return true;
-  }
-
-  const queryWords = normalizedQuery.split(/\s+/);
-  const compactQuery = normalizedQuery.replace(/ /g, "");
-
-  if (entry.normalizedTitle.startsWith(normalizedQuery)) {
-    return true;
-  }
-
-  if (entry.normalizedTitleIds.some((titleId) => titleId.startsWith(compactQuery))) {
-    return true;
-  }
-
-  if (entry.normalizedTags.some((tag) => tag.startsWith(normalizedQuery))) {
-    return true;
-  }
-
-  if (queryWords.length > 1) {
-    return (
-      hasSequentialWordPrefix(entry.titleWords, queryWords) ||
-      entry.tagWords.some((tagWords) => hasSequentialWordPrefix(tagWords, queryWords))
-    );
-  }
-
-  if (normalizedQuery.length < 4) {
-    return false;
-  }
-
-  return (
-    entry.titleWords.slice(1).some((word) => word.startsWith(normalizedQuery)) ||
-    entry.tagWords.some((tagWords) =>
-      tagWords.slice(1).some((word) => word.startsWith(normalizedQuery)),
-    )
-  );
-}
-
-function deriveSearchStatus(statuses: SummaryStatus[]): SummaryStatus {
-  if (statuses.length === 0) return "untested";
-
-  const bestStatus = statuses.reduce<SummaryStatus>((best, status) => {
-    return STATUS_RANK[status] > STATUS_RANK[best] ? status : best;
-  }, "untested");
-
-  if (bestStatus === "playable" && statuses.some((status) => status !== "playable")) {
-    return "ingame";
-  }
-
-  return bestStatus;
-}
-
-function deriveSearchPerf(reports: Game["reports"], status: SummaryStatus): PerfTier {
-  if (reports.length === 0 || status === "untested" || status === "nothing") {
-    return "n/a";
-  }
-
-  const candidates = reports
-    .map((report) => report.perf)
-    .filter((perf): perf is PerfTier => Boolean(perf) && perf !== "n/a");
-
-  if (candidates.includes("poor")) return "poor";
-  if (candidates.includes("ok")) return "ok";
-  if (candidates.includes("great")) return "great";
-  return "n/a";
-}
-
-function buildCatalogSearchPlatformEntry(
-  game: Game,
-  platform: Platform,
-): CompatibilityPlatformEntry | null {
-  const reports = [...game.reports]
-    .filter((report) => report.platform === platform)
-    .sort((left, right) => parseDateValue(right.date) - parseDateValue(left.date));
-
-  if (reports.length === 0) {
-    return null;
-  }
-
-  const observedDevices = [...new Set(reports.map((report) => report.device).filter(Boolean))];
-  const status = deriveSearchStatus(reports.map((report) => report.status));
-
-  return {
-    platform,
-    status,
-    perf: deriveSearchPerf(reports, status),
-    updatedAt: reports[0]?.date ?? "",
-    observedDevices,
-    variesByDevice: new Set(reports.map((report) => report.status)).size > 1,
-    verified: true,
-  };
-}
-
-function selectPrimaryCatalogSearchPlatformEntry(
-  entries: CompatibilityPlatformEntry[],
-): CompatibilityPlatformEntry | null {
-  if (entries.length === 0) return null;
-
-  const priority = (entry: CompatibilityPlatformEntry): number => {
-    let score = 0;
-    if (entry.platform === "ios") score += 100;
-    if (entry.verified) score += 10;
-    if (entry.variesByDevice) score -= 1;
-    return score;
-  };
-
-  return [...entries].sort((left, right) => priority(right) - priority(left))[0] ?? null;
-}
-
-function buildCatalogSearchEntry(game: Game): CatalogSearchEntry {
-  const platformEntries = PLATFORM_ORDER.map((platform) =>
-    buildCatalogSearchPlatformEntry(game, platform),
-  ).filter((entry): entry is CompatibilityPlatformEntry => Boolean(entry));
-  const primaryPlatformEntry = selectPrimaryCatalogSearchPlatformEntry(platformEntries);
-  const observedDevices = primaryPlatformEntry?.observedDevices ?? [];
-  const titleIds = game.titleIds.length > 0 ? game.titleIds : [game.titleId];
-
-  return prepareCatalogSearchEntry({
-    game: {
-      slug: game.slug,
-      title: game.title,
-      titleId: game.titleId,
-      titleIds,
-    },
-    platform: primaryPlatformEntry?.platform ?? null,
-    status: primaryPlatformEntry?.status ?? game.status,
-    perf: primaryPlatformEntry?.perf ?? game.perf,
-    updatedAt: primaryPlatformEntry?.updatedAt ?? game.updatedAt,
-    observedDevices,
-    variesByDevice: primaryPlatformEntry?.variesByDevice ?? false,
-    platformEntries,
-    searchText: [game.title, game.titleId, ...titleIds, ...game.tags].join("\n").toLowerCase(),
-    titleBucket: alphaBucketForTitle(game.title),
-  });
 }
 
 function GameRow({
@@ -678,29 +252,23 @@ export function CompatibilityList({
       setCatalogSearchState("loading");
 
       try {
+        // We deliberately do NOT fall back to /compatibility/data.json
+        // (~6 MB) here. The thin search index is the only payload visitors
+        // should ever pull on the client; if it fails, surface an error
+        // instead of triggering a multi-megabyte download.
         const indexResponse = await fetch("/compatibility/search-index.json", {
           signal: controller.signal,
         });
-        if (indexResponse.ok) {
-          const entries = (await indexResponse.json()) as RawCatalogSearchEntry[];
-          if (controller.signal.aborted) return;
-
-          setCatalogSearchEntries(entries.map((entry) => prepareCatalogSearchEntry(entry)));
-          setCatalogSearchState("ready");
-          return;
+        if (!indexResponse.ok) {
+          throw new Error(
+            `Compatibility search index fetch failed: ${indexResponse.status}`,
+          );
         }
 
-        const response = await fetch("/compatibility/data.json", {
-          signal: controller.signal,
-        });
-        if (!response.ok) {
-          throw new Error(`Compatibility catalog fetch failed: ${response.status}`);
-        }
-
-        const games = (await response.json()) as Game[];
+        const entries = (await indexResponse.json()) as RawCatalogSearchEntry[];
         if (controller.signal.aborted) return;
 
-        setCatalogSearchEntries(games.map((game) => buildCatalogSearchEntry(game)));
+        setCatalogSearchEntries(entries.map((entry) => prepareCatalogSearchEntry(entry)));
         setCatalogSearchState("ready");
       } catch {
         if (controller.signal.aborted) return;
