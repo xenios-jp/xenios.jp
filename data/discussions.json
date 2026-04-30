@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-28T10:48:45.549Z",
+  "generatedAt": "2026-04-30T17:44:54.191Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1692,10 +1692,33 @@
     },
     "53450812": {
       "titleId": "53450812",
-      "issueNumber": 272,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/272",
-      "updatedAt": "2026-03-31",
+      "issueNumber": 432,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/432",
+      "updatedAt": "2026-04-30",
       "entries": [
+        {
+          "id": "issue-432",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/432",
+          "author": "xenios-jp",
+          "createdAt": "2026-04-30",
+          "createdAtMs": 1777571023000,
+          "issueNumber": 432,
+          "excerpt": "It works has good fps on the M- series iPads on iPad 11 its ok but audio stutters but when it comes to gameplay it takes some time to get used to it but eventually you could say acceptable.",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPad 9",
+            "platform": "iOS",
+            "osVersion": "iOS 26.2.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
         {
           "id": "comment-4164572671",
           "type": "comment",
@@ -1810,25 +1833,6 @@
             "device": "iPhone 17",
             "platform": "iOS",
             "osVersion": "iOS 26.3",
-            "gpuBackend": "MSL"
-          }
-        },
-        {
-          "id": "issue-8",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/8",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-05",
-          "createdAtMs": 1772739103000,
-          "issueNumber": 8,
-          "excerpt": "Game Boots but can’t load the First Level it seems.",
-          "images": [],
-          "meta": {
-            "status": "intro",
-            "perf": "poor",
-            "device": "iPad Pro (M2)",
-            "platform": "iOS",
-            "osVersion": "iOS 18.3.1",
             "gpuBackend": "MSL"
           }
         }
