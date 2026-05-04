@@ -93921,24 +93921,45 @@
       "4D538A67",
       "4D538A68"
     ],
-    "status": "ingame",
-    "perf": "poor",
+    "status": "playable",
+    "perf": "ok",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPad Air 11-inch (M3)",
+      "device": "iPhone 16e",
       "platform": "ios",
-      "osVersion": "26.3.1",
+      "osVersion": "26.5",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-28",
+    "updatedAt": "2026-05-04",
     "issueNumber": 125,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/125",
-    "notes": "In-game but with severe graphical and audio issues, way too unstable to be at all playable but somehow didn’t crash.",
+    "notes": "No Racing",
     "reports": [
+      {
+        "device": "iPhone 16e",
+        "platform": "ios",
+        "osVersion": "26.5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-05-04",
+        "notes": "No Racing",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "commitShort": "056d2f64d"
+        }
+      },
       {
         "device": "iPad Air 11-inch (M3)",
         "platform": "ios",
@@ -94000,22 +94021,22 @@
       },
       "all": {
         "channel": "all",
-        "status": "ingame",
-        "perf": "poor",
-        "notes": "In-game but with severe graphical and audio issues, way too unstable to be at all playable but somehow didn’t crash.",
-        "updatedAt": "2026-03-28",
-        "date": "2026-03-28",
-        "reportCount": 2,
+        "status": "playable",
+        "perf": "ok",
+        "notes": "No Racing",
+        "updatedAt": "2026-05-04",
+        "date": "2026-05-04",
+        "reportCount": 3,
         "latestReport": {
-          "device": "iPad Air 11-inch (M3)",
+          "device": "iPhone 16e",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "26.5",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-03-28",
-          "notes": "In-game but with severe graphical and audio issues, way too unstable to be at all playable but somehow didn’t crash.",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-05-04",
+          "notes": "No Racing",
           "screenshots": [],
           "source": "app",
           "build": {
@@ -94028,15 +94049,15 @@
           }
         },
         "bestReport": {
-          "device": "iPad Air 11-inch (M3)",
+          "device": "iPhone 16e",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "26.5",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-03-28",
-          "notes": "In-game but with severe graphical and audio issues, way too unstable to be at all playable but somehow didn’t crash.",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-05-04",
+          "notes": "No Racing",
           "screenshots": [],
           "source": "app",
           "build": {
@@ -186599,7 +186620,6 @@
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
           "commitShort": "056d2f64d"
         }
       }
@@ -186643,7 +186663,6 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         },
@@ -186665,7 +186684,6 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         }
@@ -211221,7 +211239,7 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPad 9th Gen",
+      "device": "iPad 9",
       "platform": "ios",
       "osVersion": "26.2.1",
       "arch": "arm64",
@@ -211233,7 +211251,7 @@
     "notes": "It works has good fps on the M- series iPads on iPad 11 its ok but audio stutters but when it comes to gameplay it takes some time to get used to it but eventually you could say acceptable.",
     "reports": [
       {
-        "device": "iPad 9th Gen",
+        "device": "iPad 9",
         "platform": "ios",
         "osVersion": "26.2.1",
         "arch": "arm64",
@@ -211242,91 +211260,6 @@
         "perf": "ok",
         "date": "2026-04-30",
         "notes": "It works has good fps on the M- series iPads on iPad 11 its ok but audio stutters but when it comes to gameplay it takes some time to get used to it but eventually you could say acceptable.",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d"
-        }
-      },
-      {
-        "device": "iPhone 16 Pro",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "perf": "poor",
-        "date": "2026-03-31",
-        "notes": "Artifacts on any pre rendered videos. Playable up until the first hub world where it begins crashing frequently, and reaching the level select leads to an infinite loading screen.",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
-        }
-      },
-      {
-        "device": "iPad Pro 13-inch (M4)",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "ok",
-        "date": "2026-03-24",
-        "notes": "Videos have compatibility artifacts and game FPS is not the best but it’s playable.",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
-        }
-      },
-      {
-        "device": "iPhone 17 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.4",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "ok",
-        "date": "2026-03-24",
-        "notes": "Major artifacts on anything pre-rendered (cutscenes, SEGA logo, etc.), but anything in-game looks pretty great. Loading times for assets can vary, and game does crash every once in a while. Hub worlds are stable and day stages are alright if there’s not too much going on",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
-        }
-      },
-      {
-        "device": "iPad Air 11-inch (M2)",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "perf": "poor",
-        "date": "2026-03-15",
-        "notes": "It can be playable but sometimes there are FPS drops or even just get freeze",
         "screenshots": [],
         "source": "app",
         "build": {
@@ -211421,9 +211354,9 @@
         "notes": "It works has good fps on the M- series iPads on iPad 11 its ok but audio stutters but when it comes to gameplay it takes some time to get used to it but eventually you could say acceptable.",
         "updatedAt": "2026-04-30",
         "date": "2026-04-30",
-        "reportCount": 7,
+        "reportCount": 3,
         "latestReport": {
-          "device": "iPad 9th Gen",
+          "device": "iPad 9",
           "platform": "ios",
           "osVersion": "26.2.1",
           "arch": "arm64",
@@ -211440,12 +211373,11 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
-          "device": "iPad 9th Gen",
+          "device": "iPad 9",
           "platform": "ios",
           "osVersion": "26.2.1",
           "arch": "arm64",
@@ -211462,7 +211394,6 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         }
@@ -211758,29 +211689,7 @@
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
           "commitShort": "056d2f64d"
-        }
-      },
-      {
-        "device": "iPhone 16 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.2",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-03-11",
-        "notes": "Stuck on cyan screen.",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.0-9280",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "commitShort": "2633e8177"
         }
       }
     ],
@@ -211804,7 +211713,7 @@
         "notes": "Nothing boots",
         "updatedAt": "2026-04-28",
         "date": "2026-04-28",
-        "reportCount": 2,
+        "reportCount": 1,
         "latestReport": {
           "device": "iPhone 16 Pro",
           "platform": "ios",
@@ -211823,7 +211732,6 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         },
@@ -211845,7 +211753,6 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         }
@@ -227088,7 +226995,7 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPad 11th Gen",
+      "device": "iPad (A16)",
       "platform": "ios",
       "osVersion": "26.2.1",
       "arch": "arm64",
@@ -227100,7 +227007,7 @@
     "notes": "Doesn’t boot",
     "reports": [
       {
-        "device": "iPad 11th Gen",
+        "device": "iPad (A16)",
         "platform": "ios",
         "osVersion": "26.2.1",
         "arch": "arm64",
@@ -227117,7 +227024,6 @@
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
           "commitShort": "056d2f64d"
         }
       },
@@ -227187,7 +227093,7 @@
         "date": "2026-04-28",
         "reportCount": 2,
         "latestReport": {
-          "device": "iPad 11th Gen",
+          "device": "iPad (A16)",
           "platform": "ios",
           "osVersion": "26.2.1",
           "arch": "arm64",
@@ -227204,12 +227110,11 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
-          "device": "iPad 11th Gen",
+          "device": "iPad (A16)",
           "platform": "ios",
           "osVersion": "26.2.1",
           "arch": "arm64",
@@ -227226,7 +227131,6 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         }

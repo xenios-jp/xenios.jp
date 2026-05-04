@@ -2,7 +2,7 @@
 
 > **278 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **103** · 🔵 In-Game: **60** · 🟡 Intro: **26** · 🟠 Loads: **39** · 🔴 Doesn't Boot: **50**
+> 🟢 Playable: **104** · 🔵 In-Game: **59** · 🟡 Intro: **26** · 🟠 Loads: **39** · 🔴 Doesn't Boot: **50**
 >
 > 📱 iOS: **251** · 🖥️ macOS: **48**
 
@@ -53,6 +53,7 @@
 | 🟢 | Far Cry 2 | `55530810` | 📱 iOS | Playable | 🐢 Poor | iPhone 16 | 2026-03-10 |
 | 🟢 | Far Cry 3 | `5553088C` | 📱 iOS | Playable | 🐢 Poor | iPhone 16 | 2026-03-14 |
 | 🟢 | Final Fantasy XIII | `535107E4` | 📱 iOS | Playable | 👌 OK | iPhone 17 | 2026-03-18 |
+| 🟢 | Forza Horizon | `4D5309C9` | 📱 iOS | Playable | 👌 OK | iPhone 16e | 2026-05-04 |
 | 🟢 | Forza Motorsport 2 | `4D5307EA` | 📱 iOS | Playable | 🚀 Great | iPad Air 11-inch (M3) | 2026-03-20 |
 | 🟢 | Forza Motorsport 4 | `4D530910` | 📱 iOS | Playable | 👌 OK | iPhone 17 Pro Max | 2026-03-17 |
 | 🟢 | Gears of War: Judgment | `4D530A26` | 📱 iOS | Playable | 🐢 Poor | iPhone 17 Pro Max | 2026-03-17 |
@@ -138,7 +139,6 @@
 | 🔵 | Fallout 3 | `425307D5` | 📱 iOS | In-Game | 👌 OK | iPhone 13 | 2026-03-12 |
 | 🔵 | FIFA 16 | `454109EE` | 📱 iOS | In-Game | 👌 OK | iPhone 14 Pro Max | 2026-03-08 |
 | 🔵 | Fight Night Round 3 | `454107DE` | 📱 iOS | In-Game | 🐢 Poor | iPhone 16e | 2026-03-10 |
-| 🔵 | Forza Horizon | `4D5309C9` | 📱 iOS | In-Game | 🐢 Poor | iPad Air 11-inch (M3) | 2026-03-28 |
 | 🔵 | Frontlines: Fuel of War | `545107D8` | 🖥️ macOS | In-Game | 🐢 Poor | Macbook Neo A18 Pro | 2026-03-19 |
 | 🔵 | Gears of War | `4D5307D5` | 🖥️ macOS, 📱 iOS | In-Game | 👌 OK | MacBook Pro M4 Pro/Max | 2026-04-02 |
 | 🔵 | Gears of War 3 | `4D5308AB` | 🖥️ macOS, 📱 iOS | In-Game | 👌 OK | M2 Mac mini | 2026-04-02 |

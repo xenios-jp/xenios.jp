@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-30T18:36:18.996Z",
+  "generatedAt": "2026-05-04T17:22:56.529Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -4897,10 +4897,33 @@
     },
     "4D5309C9": {
       "titleId": "4D5309C9",
-      "issueNumber": 125,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/125",
-      "updatedAt": "2026-03-31",
+      "issueNumber": 371,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/371",
+      "updatedAt": "2026-05-04",
       "entries": [
+        {
+          "id": "comment-4373018874",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/371#issuecomment-4373018874",
+          "author": "xenios-jp",
+          "createdAt": "2026-05-04",
+          "createdAtMs": 1777915247000,
+          "issueNumber": 371,
+          "excerpt": "No Racing",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 16e",
+            "platform": "iOS",
+            "osVersion": "iOS 26.5",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
         {
           "id": "issue-371",
           "type": "issue",
@@ -5009,29 +5032,6 @@
             "device": "iPhone 14",
             "platform": "iOS",
             "osVersion": "iOS 26.3",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "`2633e8177`"
-          }
-        },
-        {
-          "id": "issue-125",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/125",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-09",
-          "createdAtMs": 1773036137000,
-          "issueNumber": 125,
-          "excerpt": "Distortions and is unplayable experience",
-          "images": [],
-          "meta": {
-            "status": "ingame",
-            "perf": "poor",
-            "device": "iPhone 15 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 26.1",
             "gpuBackend": "MSL",
             "buildChannel": "self-built",
             "appVersion": "1.0.0",
