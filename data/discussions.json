@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-04T17:22:56.529Z",
+  "generatedAt": "2026-05-05T12:27:03.230Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -3718,8 +3718,31 @@
       "titleId": "4D530A81",
       "issueNumber": 393,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/393",
-      "updatedAt": "2026-04-22",
+      "updatedAt": "2026-05-05",
       "entries": [
+        {
+          "id": "comment-4379158276",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/393#issuecomment-4379158276",
+          "author": "xenios-jp",
+          "createdAt": "2026-05-05",
+          "createdAtMs": 1777983807000,
+          "issueNumber": 393,
+          "excerpt": "Black screen",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone11,6",
+            "platform": "iOS",
+            "osVersion": "iOS 18.4.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
         {
           "id": "comment-4299625046",
           "type": "comment",
@@ -3821,18 +3844,6 @@
           "createdAtMs": 1774304789000,
           "issueNumber": 49,
           "excerpt": "I get to a splash screen on my iPhone 17 Pro and then it takes me back to the library screen. I'm on version 1.0.1 of XeniOS",
-          "images": [],
-          "meta": {}
-        },
-        {
-          "id": "issue-49",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/49",
-          "author": "DevZer0D4Y",
-          "createdAt": "2026-03-08",
-          "createdAtMs": 1772992342000,
-          "issueNumber": 49,
-          "excerpt": "Boots, stuck on a black screen. No audio, nothing.",
           "images": [],
           "meta": {}
         }
