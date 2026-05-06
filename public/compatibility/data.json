@@ -147429,6 +147429,50 @@
     "notes": "Menus are a bit of a struggle being slow and sometimes just not taking button inputs.",
     "reports": [
       {
+        "device": "iPhone 13",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-05-05",
+        "notes": "I’m",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "stage": "stable",
+          "commitShort": "056d2f64d"
+        }
+      },
+      {
+        "device": "iPhone 13",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-05-05",
+        "notes": "Opens to a loading screen? (Minecraft sandstone tower marketing). Other times produces aforementioned black screens.",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "stage": "stable",
+          "commitShort": "056d2f64d"
+        }
+      },
+      {
         "device": "iPhone11,6",
         "platform": "ios",
         "osVersion": "18.4.1",
@@ -147602,7 +147646,8 @@
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584111F7/1774368552785-1.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584111F7/1773166296409-1.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584111F7/1773155623241-1.jpg",
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584111F7/1773155623241-2.jpg"
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584111F7/1773155623241-2.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4D530A81/1778000317017-1.jpg"
     ],
     "summaries": {
       "release": {
@@ -147623,17 +147668,17 @@
         "notes": "Menus are a bit of a struggle being slow and sometimes just not taking button inputs.",
         "updatedAt": "2026-05-05",
         "date": "2026-05-05",
-        "reportCount": 8,
+        "reportCount": 10,
         "latestReport": {
-          "device": "iPhone11,6",
+          "device": "iPhone 13",
           "platform": "ios",
-          "osVersion": "18.4.1",
+          "osVersion": "26.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "nothing",
           "perf": "n/a",
           "date": "2026-05-05",
-          "notes": "Black screen",
+          "notes": "I’m",
           "screenshots": [],
           "source": "app",
           "build": {
@@ -147642,6 +147687,7 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
+            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         },
