@@ -147429,15 +147429,15 @@
     "notes": "Menus are a bit of a struggle being slow and sometimes just not taking button inputs.",
     "reports": [
       {
-        "device": "iPhone 13",
+        "device": "iPhone11,6",
         "platform": "ios",
-        "osVersion": "26.3.1",
+        "osVersion": "18.4.1",
         "arch": "arm64",
         "gpuBackend": "msl",
         "status": "nothing",
         "perf": "n/a",
         "date": "2026-05-05",
-        "notes": "I’m",
+        "notes": "Black screen",
         "screenshots": [],
         "source": "app",
         "build": {
@@ -147446,7 +147446,6 @@
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
           "commitShort": "056d2f64d"
         }
       },
@@ -147468,20 +147467,19 @@
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
           "commitShort": "056d2f64d"
         }
       },
       {
-        "device": "iPhone11,6",
+        "device": "iPhone 13",
         "platform": "ios",
-        "osVersion": "18.4.1",
+        "osVersion": "26.3.1",
         "arch": "arm64",
         "gpuBackend": "msl",
         "status": "nothing",
         "perf": "n/a",
         "date": "2026-05-05",
-        "notes": "Black screen",
+        "notes": "I’m",
         "screenshots": [],
         "source": "app",
         "build": {
@@ -147670,15 +147668,15 @@
         "date": "2026-05-05",
         "reportCount": 10,
         "latestReport": {
-          "device": "iPhone 13",
+          "device": "iPhone11,6",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "18.4.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "nothing",
           "perf": "n/a",
           "date": "2026-05-05",
-          "notes": "I’m",
+          "notes": "Black screen",
           "screenshots": [],
           "source": "app",
           "build": {
@@ -147687,7 +147685,6 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         },
