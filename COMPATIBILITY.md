@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **279 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **280 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **104** · 🔵 In-Game: **60** · 🟡 Intro: **26** · 🟠 Loads: **39** · 🔴 Doesn't Boot: **50**
+> 🟢 Playable: **105** · 🔵 In-Game: **60** · 🟡 Intro: **26** · 🟠 Loads: **39** · 🔴 Doesn't Boot: **50**
 >
-> 📱 iOS: **252** · 🖥️ macOS: **48**
+> 📱 iOS: **253** · 🖥️ macOS: **48**
 
 ## Legend
 
@@ -58,6 +58,7 @@
 | 🟢 | Forza Motorsport 4 | `4D530910` | 📱 iOS | Playable | 👌 OK | iPhone 17 Pro Max | 2026-03-17 |
 | 🟢 | Gears of War: Judgment | `4D530A26` | 📱 iOS | Playable | 🐢 Poor | iPhone 17 Pro Max | 2026-03-17 |
 | 🟢 | Geometry Wars Evolved | `584107ED` | 📱 iOS | Playable | 🚀 Great | iPhone 13 | 2026-03-10 |
+| 🟢 | GoldenEye: 007 Reloaded | `415608AF` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-05-09 |
 | 🟢 | Grand Theft Auto V | `545408A7` | 📱 iOS | Playable | 🐢 Poor | iPhone 17 Pro Max | 2026-04-19 |
 | 🟢 | Guacamelee Super Turbo Championship Edition | `58411446` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-03 |
 | 🟢 | Guitar Hero Aerosmith | `41560819` | 📱 iOS, 🖥️ macOS | Playable | 👌 OK | iPhone 13 mini | 2026-03-22 |
