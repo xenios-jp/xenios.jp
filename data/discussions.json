@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-07T11:47:57.012Z",
+  "generatedAt": "2026-05-09T07:42:57.558Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2657,6 +2657,37 @@
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
           "images": [],
           "meta": {}
+        }
+      ]
+    },
+    "5454086B": {
+      "titleId": "5454086B",
+      "issueNumber": 437,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/437",
+      "updatedAt": "2026-05-09",
+      "entries": [
+        {
+          "id": "issue-437",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/437",
+          "author": "xenios-jp",
+          "createdAt": "2026-05-09",
+          "createdAtMs": 1778312492000,
+          "issueNumber": 437,
+          "excerpt": "The videos are good. But the game looks complete black also de sound is very bad. Intro work good.",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "poor",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.4.2",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
         }
       ]
     },
