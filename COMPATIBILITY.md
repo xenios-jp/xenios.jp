@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **280 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **281 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **105** · 🔵 In-Game: **60** · 🟡 Intro: **26** · 🟠 Loads: **39** · 🔴 Doesn't Boot: **50**
+> 🟢 Playable: **105** · 🔵 In-Game: **60** · 🟡 Intro: **27** · 🟠 Loads: **39** · 🔴 Doesn't Boot: **50**
 >
-> 📱 iOS: **253** · 🖥️ macOS: **48**
+> 📱 iOS: **254** · 🖥️ macOS: **48**
 
 ## Legend
 
@@ -155,7 +155,7 @@
 | 🔵 | Halo: Reach | `4D53085B` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 | 2026-03-06 |
 | 🔵 | Iron Man | `534507F2` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro Max | 2026-03-28 |
 | 🔵 | Lost Odyssey | `4D5307FA` | 📱 iOS, 🖥️ macOS | In-Game | 🚀 Great | Mac mini (M2) | 2026-03-11 |
-| 🔵 | Max Payne 3 | `5454086B` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro Max | 2026-05-09 |
+| 🔵 | Max Payne 3 | `5454086B` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro Max | 2026-05-10 |
 | 🔵 | Mercenaries 2: World in Flames | `45410828` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro | 2026-03-09 |
 | 🔵 | Metro Last Light | `4B4D07F5` | 🖥️ macOS | In-Game | 👌 OK | MacBook Pro M4 Pro/Max | 2026-02-28 |
 | 🔵 | Midnight Club: Los Angeles | `545407F8` | 📱 iOS | In-Game | 🐢 Poor | iPhone 16 Pro Max | 2026-03-19 |
@@ -209,6 +209,7 @@
 | 🟡 | Silent Hill: HD Collection | `4B4E0845` | 📱 iOS | Intro | 🚀 Great | iPad Pro 11-inch (M5) | 2026-03-31 |
 | 🟡 | Tales of Vesperia | `4E4D07E9` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro | 2026-03-03 |
 | 🟡 | Test Drive Unlimited 2 | `49470804` | 📱 iOS | Intro | 🐢 Poor | iPhone 15 | 2026-03-28 |
+| 🟡 | The Evil Within | `425307F4` | 📱 iOS | Intro | 🐢 Poor | iPhone 17 Pro Max | 2026-05-09 |
 | 🟡 | Two Worlds | `535007D4` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro Max | 2026-03-09 |
 | 🟡 | WWE 13 | `545108B4` | 📱 iOS | Intro | 🐢 Poor | iPhone 15 Pro | 2026-03-29 |
 | 🟠 | AC/DC LIVE: Rock Band | `45410889` | 🖥️ macOS | Loads | 🚀 Great | MacBook Pro (M4) | 2026-03-23 |

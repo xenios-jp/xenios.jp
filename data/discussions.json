@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-09T07:46:13.721Z",
+  "generatedAt": "2026-05-10T02:32:45.969Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2660,6 +2660,37 @@
         }
       ]
     },
+    "425307F4": {
+      "titleId": "425307F4",
+      "issueNumber": 439,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/439",
+      "updatedAt": "2026-05-09",
+      "entries": [
+        {
+          "id": "issue-439",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/439",
+          "author": "xenios-jp",
+          "createdAt": "2026-05-09",
+          "createdAtMs": 1778312823000,
+          "issueNumber": 439,
+          "excerpt": "The game load perfect but the grafics looks like crashed.",
+          "images": [],
+          "meta": {
+            "status": "intro",
+            "perf": "poor",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.4.2",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        }
+      ]
+    },
     "415608AF": {
       "titleId": "415608AF",
       "issueNumber": 438,
@@ -2695,8 +2726,31 @@
       "titleId": "5454086B",
       "issueNumber": 437,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/437",
-      "updatedAt": "2026-05-09",
+      "updatedAt": "2026-05-10",
       "entries": [
+        {
+          "id": "comment-4414248294",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/437#issuecomment-4414248294",
+          "author": "xenios-jp",
+          "createdAt": "2026-05-10",
+          "createdAtMs": 1778380229000,
+          "issueNumber": 437,
+          "excerpt": "Load to de manu but every thing looks black. Menu work good",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.4.2",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
         {
           "id": "issue-437",
           "type": "issue",
