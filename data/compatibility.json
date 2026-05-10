@@ -102809,7 +102809,6 @@
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
           "commitShort": "056d2f64d"
         }
       }
@@ -102853,7 +102852,6 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         },
@@ -102875,7 +102873,6 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         }
@@ -142945,7 +142942,6 @@
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
           "commitShort": "056d2f64d"
         }
       },
@@ -142967,7 +142963,6 @@
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
           "commitShort": "056d2f64d"
         }
       }
@@ -143011,7 +143006,6 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         },
@@ -143033,7 +143027,6 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         }
@@ -180485,37 +180478,149 @@
     "titleIds": [
       "4D5307D1"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "loads",
+    "perf": "great",
     "tags": [],
-    "platforms": [],
-    "lastReport": null,
-    "updatedAt": "",
-    "notes": "",
-    "reports": [],
+    "platforms": [
+      "macos"
+    ],
+    "lastReport": {
+      "device": "Macbook Pro M1 Pro",
+      "platform": "macos",
+      "osVersion": "MacOS 26.4.1",
+      "arch": "arm64",
+      "gpuBackend": "msc"
+    },
+    "updatedAt": "2026-05-10",
+    "issueNumber": 440,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/440",
+    "notes": "Menus feels great, audio sounds amazing, but when you try to start a race, it crashes",
+    "reports": [
+      {
+        "device": "Macbook Pro M1 Pro",
+        "platform": "macos",
+        "osVersion": "MacOS 26.4.1",
+        "arch": "arm64",
+        "gpuBackend": "msc",
+        "status": "loads",
+        "perf": "great",
+        "date": "2026-05-10",
+        "notes": "Menus feels great, audio sounds amazing, but when you try to start a race, it crashes",
+        "screenshots": [],
+        "source": "github",
+        "build": {
+          "buildId": "macos-release-1.0.1-9288",
+          "channel": "release",
+          "official": true,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "commitShort": "056D2F64D"
+        }
+      }
+    ],
     "screenshots": [],
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "loads",
+        "perf": "great",
+        "notes": "Menus feels great, audio sounds amazing, but when you try to start a race, it crashes",
+        "updatedAt": "2026-05-10",
+        "date": "2026-05-10",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "Macbook Pro M1 Pro",
+          "platform": "macos",
+          "osVersion": "MacOS 26.4.1",
+          "arch": "arm64",
+          "gpuBackend": "msc",
+          "status": "loads",
+          "perf": "great",
+          "date": "2026-05-10",
+          "notes": "Menus feels great, audio sounds amazing, but when you try to start a race, it crashes",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-1.0.1-9288",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "056D2F64D"
+          }
+        },
+        "bestReport": {
+          "device": "Macbook Pro M1 Pro",
+          "platform": "macos",
+          "osVersion": "MacOS 26.4.1",
+          "arch": "arm64",
+          "gpuBackend": "msc",
+          "status": "loads",
+          "perf": "great",
+          "date": "2026-05-10",
+          "notes": "Menus feels great, audio sounds amazing, but when you try to start a race, it crashes",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-1.0.1-9288",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "056D2F64D"
+          }
+        }
       },
       "all": {
         "channel": "all",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "loads",
+        "perf": "great",
+        "notes": "Menus feels great, audio sounds amazing, but when you try to start a race, it crashes",
+        "updatedAt": "2026-05-10",
+        "date": "2026-05-10",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "Macbook Pro M1 Pro",
+          "platform": "macos",
+          "osVersion": "MacOS 26.4.1",
+          "arch": "arm64",
+          "gpuBackend": "msc",
+          "status": "loads",
+          "perf": "great",
+          "date": "2026-05-10",
+          "notes": "Menus feels great, audio sounds amazing, but when you try to start a race, it crashes",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-1.0.1-9288",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "056D2F64D"
+          }
+        },
+        "bestReport": {
+          "device": "Macbook Pro M1 Pro",
+          "platform": "macos",
+          "osVersion": "MacOS 26.4.1",
+          "arch": "arm64",
+          "gpuBackend": "msc",
+          "status": "loads",
+          "perf": "great",
+          "date": "2026-05-10",
+          "notes": "Menus feels great, audio sounds amazing, but when you try to start a race, it crashes",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-1.0.1-9288",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "056D2F64D"
+          }
+        }
       }
     }
   },
@@ -231051,7 +231156,6 @@
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
           "commitShort": "056d2f64d"
         }
       }
@@ -231095,7 +231199,6 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         },
@@ -231117,7 +231220,6 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         }

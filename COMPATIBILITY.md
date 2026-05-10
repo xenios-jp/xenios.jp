@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **281 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **282 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **105** · 🔵 In-Game: **60** · 🟡 Intro: **27** · 🟠 Loads: **39** · 🔴 Doesn't Boot: **50**
+> 🟢 Playable: **105** · 🔵 In-Game: **60** · 🟡 Intro: **27** · 🟠 Loads: **40** · 🔴 Doesn't Boot: **50**
 >
-> 📱 iOS: **254** · 🖥️ macOS: **48**
+> 📱 iOS: **254** · 🖥️ macOS: **49**
 
 ## Legend
 
@@ -235,6 +235,7 @@
 | 🟠 | Metal Gear Solid V: Ground Zeroes | `4B4E085C` | 📱 iOS | Loads | 🐢 Poor | iPhone 15 Pro Max | 2026-03-10 |
 | 🟠 | NBA 2K10 | `54549852` | 🖥️ macOS | Loads | 🐢 Poor | MacBook Air (M4) | 2026-03-18 |
 | 🟠 | NCAA Basketball 10 | `454108C3` | 📱 iOS | Loads | 🐢 Poor | iPhone 16e | 2026-03-11 |
+| 🟠 | Project Gotham Racing 3 | `4D5307D1` | 🖥️ macOS | Loads | 🚀 Great | Macbook Pro M1 Pro | 2026-05-10 |
 | 🟠 | Project Gotham Racing 4 | `4D5307F9` | 🖥️ macOS | Loads | 🚀 Great | MacBook Pro (M4 Max) | 2026-03-14 |
 | 🟠 | Red Dead Redemption GOTY Edition | `5454082B` | 📱 iOS | Loads | 🐢 Poor | iPad Pro 13-inch (M4) | 2026-04-24 |
 | 🟠 | Rock Band Classic Rock | `454108B0` | 🖥️ macOS | Loads | 🚀 Great | MacBook Pro (M4) | 2026-03-23 |

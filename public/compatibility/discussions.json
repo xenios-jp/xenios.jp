@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-10T02:32:45.969Z",
+  "generatedAt": "2026-05-10T04:28:30.191Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2655,6 +2655,26 @@
           "createdAtMs": 1773517964000,
           "issueNumber": 263,
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
+          "images": [],
+          "meta": {}
+        }
+      ]
+    },
+    "4D5307D1": {
+      "titleId": "4D5307D1",
+      "issueNumber": 440,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/440",
+      "updatedAt": "2026-05-10",
+      "entries": [
+        {
+          "id": "issue-440",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/440",
+          "author": "AboytesR3",
+          "createdAt": "2026-05-10",
+          "createdAtMs": 1778387199000,
+          "issueNumber": 440,
+          "excerpt": "Menus feels great, audio sounds amazing, but when you try to start a race, it crashes",
           "images": [],
           "meta": {}
         }
