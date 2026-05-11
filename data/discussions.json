@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-11T03:34:57.071Z",
+  "generatedAt": "2026-05-11T22:49:52.390Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -62,8 +62,31 @@
       "titleId": "41560817",
       "issueNumber": 351,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/351",
-      "updatedAt": "2026-03-24",
+      "updatedAt": "2026-05-11",
       "entries": [
+        {
+          "id": "comment-4425767551",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/351#issuecomment-4425767551",
+          "author": "xenios-jp",
+          "createdAt": "2026-05-11",
+          "createdAtMs": 1778539612000,
+          "issueNumber": 351,
+          "excerpt": "Cyan for a split second, then black screen, then crashes back to dashboard. Relaunch stays black. Have to restart app to get back to dashboard.",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPad Pro 11-inch (M5)",
+            "platform": "iOS",
+            "osVersion": "iOS 26.4.2",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
         {
           "id": "issue-351",
           "type": "issue",
