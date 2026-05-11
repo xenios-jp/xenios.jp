@@ -253,7 +253,7 @@
 | 🟠 | Tron: Evolution | `425607ED` | 📱 iOS | Loads | 👌 OK | iPhone 15 Pro Max | 2026-03-09 |
 | 🟠 | WWE 12 | `54510890` | 📱 iOS | Loads | 👌 OK | iPhone 15 Pro | 2026-03-11 |
 | 🔴 | Assassin's Creed III | `555308AE` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 Pro Max | 2026-04-10 |
-| 🔴 | Blur | `41560845` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 15 | 2026-03-19 |
+| 🔴 | Blur | `41560845` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 12 | 2026-05-11 |
 | 🔴 | Call of Duty 3 | `415607E1` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-09 |
 | 🔴 | Call of Duty: Black Ops | `41560855` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 Pro Max | 2026-03-09 |
 | 🔴 | Call of Duty: Black Ops II | `415608C3` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 Pro Max | 2026-04-08 |

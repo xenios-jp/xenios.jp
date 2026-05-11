@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-10T04:28:30.191Z",
+  "generatedAt": "2026-05-11T03:34:57.071Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -243,10 +243,33 @@
     },
     "41560845": {
       "titleId": "41560845",
-      "issueNumber": 298,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/298",
-      "updatedAt": "2026-03-19",
+      "issueNumber": 441,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/441",
+      "updatedAt": "2026-05-11",
       "entries": [
+        {
+          "id": "issue-441",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/441",
+          "author": "xenios-jp",
+          "createdAt": "2026-05-11",
+          "createdAtMs": 1778470408000,
+          "issueNumber": 441,
+          "excerpt": "Black screen",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 12",
+            "platform": "iOS",
+            "osVersion": "iOS 26.4",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
         {
           "id": "comment-4094056602",
           "type": "comment",

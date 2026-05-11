@@ -39242,17 +39242,39 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 15",
+      "device": "iPhone 12",
       "platform": "ios",
-      "osVersion": "26.2",
+      "osVersion": "26.4",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-19",
-    "issueNumber": 298,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/298",
-    "notes": "Amazing black screen gameplay",
+    "updatedAt": "2026-05-11",
+    "issueNumber": 441,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/441",
+    "notes": "Black screen",
     "reports": [
+      {
+        "device": "iPhone 12",
+        "platform": "ios",
+        "osVersion": "26.4",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-05-11",
+        "notes": "Black screen",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "stage": "stable",
+          "commitShort": "056d2f64d"
+        }
+      },
       {
         "device": "iPhone 15",
         "platform": "ios",
@@ -39294,20 +39316,20 @@
         "channel": "all",
         "status": "nothing",
         "perf": "n/a",
-        "notes": "Amazing black screen gameplay",
-        "updatedAt": "2026-03-19",
-        "date": "2026-03-19",
-        "reportCount": 1,
+        "notes": "Black screen",
+        "updatedAt": "2026-05-11",
+        "date": "2026-05-11",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 15",
+          "device": "iPhone 12",
           "platform": "ios",
-          "osVersion": "26.2",
+          "osVersion": "26.4",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "nothing",
           "perf": "n/a",
-          "date": "2026-03-19",
-          "notes": "Amazing black screen gameplay",
+          "date": "2026-05-11",
+          "notes": "Black screen",
           "screenshots": [],
           "source": "app",
           "build": {
@@ -39316,19 +39338,20 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
+            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
-          "device": "iPhone 15",
+          "device": "iPhone 12",
           "platform": "ios",
-          "osVersion": "26.2",
+          "osVersion": "26.4",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "nothing",
           "perf": "n/a",
-          "date": "2026-03-19",
-          "notes": "Amazing black screen gameplay",
+          "date": "2026-05-11",
+          "notes": "Black screen",
           "screenshots": [],
           "source": "app",
           "build": {
@@ -39337,6 +39360,7 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
+            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         }
