@@ -39271,28 +39271,6 @@
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d"
-        }
-      },
-      {
-        "device": "iPhone 15",
-        "platform": "ios",
-        "osVersion": "26.2",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-03-19",
-        "notes": "Amazing black screen gameplay",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
           "commitShort": "056d2f64d"
         }
       }
@@ -39319,7 +39297,7 @@
         "notes": "Black screen",
         "updatedAt": "2026-05-11",
         "date": "2026-05-11",
-        "reportCount": 2,
+        "reportCount": 1,
         "latestReport": {
           "device": "iPhone 12",
           "platform": "ios",
@@ -39338,7 +39316,6 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         },
@@ -39360,7 +39337,6 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         }
@@ -47455,7 +47431,7 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPad17,2",
+      "device": "iPad Pro 11-inch (M5)",
       "platform": "ios",
       "osVersion": "26.4.2",
       "arch": "arm64",
@@ -47467,7 +47443,7 @@
     "notes": "Cyan for a split second, then black screen, then crashes back to dashboard. Relaunch stays black. Have to restart app to get back to dashboard.",
     "reports": [
       {
-        "device": "iPad17,2",
+        "device": "iPad Pro 11-inch (M5)",
         "platform": "ios",
         "osVersion": "26.4.2",
         "arch": "arm64",
@@ -47484,7 +47460,6 @@
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
           "commitShort": "056d2f64d"
         }
       },
@@ -47599,7 +47574,7 @@
         "date": "2026-05-11",
         "reportCount": 4,
         "latestReport": {
-          "device": "iPad17,2",
+          "device": "iPad Pro 11-inch (M5)",
           "platform": "ios",
           "osVersion": "26.4.2",
           "arch": "arm64",
@@ -47616,12 +47591,11 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
-          "device": "iPad17,2",
+          "device": "iPad Pro 11-inch (M5)",
           "platform": "ios",
           "osVersion": "26.4.2",
           "arch": "arm64",
@@ -47638,7 +47612,6 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         }
@@ -180554,7 +180527,12 @@
         "perf": "great",
         "date": "2026-05-10",
         "notes": "Menus feels great, audio sounds amazing, but when you try to start a race, it crashes",
-        "screenshots": [],
+        "reportedTitleId": "4D5307D1",
+        "reportedTitle": "Project Gotham Racing 3",
+        "screenshots": [
+          "https://github.com/user-attachments/assets/ccdb0c67-bd7e-4a82-b86b-7f1003194234"
+        ],
+        "submittedBy": "AboytesR3",
         "source": "github",
         "build": {
           "buildId": "macos-release-1.0.1-9288",
@@ -180566,7 +180544,9 @@
         }
       }
     ],
-    "screenshots": [],
+    "screenshots": [
+      "https://github.com/user-attachments/assets/ccdb0c67-bd7e-4a82-b86b-7f1003194234"
+    ],
     "summaries": {
       "release": {
         "channel": "release",
@@ -180586,7 +180566,12 @@
           "perf": "great",
           "date": "2026-05-10",
           "notes": "Menus feels great, audio sounds amazing, but when you try to start a race, it crashes",
-          "screenshots": [],
+          "reportedTitleId": "4D5307D1",
+          "reportedTitle": "Project Gotham Racing 3",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/ccdb0c67-bd7e-4a82-b86b-7f1003194234"
+          ],
+          "submittedBy": "AboytesR3",
           "source": "github",
           "build": {
             "buildId": "macos-release-1.0.1-9288",
@@ -180607,7 +180592,12 @@
           "perf": "great",
           "date": "2026-05-10",
           "notes": "Menus feels great, audio sounds amazing, but when you try to start a race, it crashes",
-          "screenshots": [],
+          "reportedTitleId": "4D5307D1",
+          "reportedTitle": "Project Gotham Racing 3",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/ccdb0c67-bd7e-4a82-b86b-7f1003194234"
+          ],
+          "submittedBy": "AboytesR3",
           "source": "github",
           "build": {
             "buildId": "macos-release-1.0.1-9288",
@@ -180637,7 +180627,12 @@
           "perf": "great",
           "date": "2026-05-10",
           "notes": "Menus feels great, audio sounds amazing, but when you try to start a race, it crashes",
-          "screenshots": [],
+          "reportedTitleId": "4D5307D1",
+          "reportedTitle": "Project Gotham Racing 3",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/ccdb0c67-bd7e-4a82-b86b-7f1003194234"
+          ],
+          "submittedBy": "AboytesR3",
           "source": "github",
           "build": {
             "buildId": "macos-release-1.0.1-9288",
@@ -180658,7 +180653,12 @@
           "perf": "great",
           "date": "2026-05-10",
           "notes": "Menus feels great, audio sounds amazing, but when you try to start a race, it crashes",
-          "screenshots": [],
+          "reportedTitleId": "4D5307D1",
+          "reportedTitle": "Project Gotham Racing 3",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/ccdb0c67-bd7e-4a82-b86b-7f1003194234"
+          ],
+          "submittedBy": "AboytesR3",
           "source": "github",
           "build": {
             "buildId": "macos-release-1.0.1-9288",
