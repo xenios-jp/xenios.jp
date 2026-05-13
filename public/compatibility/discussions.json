@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-12T20:01:23.465Z",
+  "generatedAt": "2026-05-13T20:54:49.814Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -3588,8 +3588,33 @@
       "titleId": "4D530AA4",
       "issueNumber": 415,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/415",
-      "updatedAt": "2026-04-24",
+      "updatedAt": "2026-05-13",
       "entries": [
+        {
+          "id": "comment-4445124644",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/415#issuecomment-4445124644",
+          "author": "xenios-jp",
+          "createdAt": "2026-05-13",
+          "createdAtMs": 1778705578000,
+          "issueNumber": 415,
+          "excerpt": "Few artifacts here and there, but it’s playable",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4D530AA4/1778705572921-1.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPad Pro 12.9-inch (M2)",
+            "platform": "iOS",
+            "osVersion": "iOS 26.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "0",
+            "commitShort": "`f9f7b046b`"
+          }
+        },
         {
           "id": "comment-4311232082",
           "type": "comment",

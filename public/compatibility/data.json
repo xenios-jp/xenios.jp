@@ -94101,24 +94101,45 @@
       "4D530AA4",
       "4D538AB2"
     ],
-    "status": "intro",
-    "perf": "poor",
+    "status": "playable",
+    "perf": "ok",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 16 Pro",
+      "device": "iPad Pro 12.9-inch (M2)",
       "platform": "ios",
-      "osVersion": "26.4",
+      "osVersion": "26.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-04-24",
+    "updatedAt": "2026-05-13",
     "issueNumber": 95,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/95",
-    "notes": "Got past the profile select and then waited to load for about as long as my phone could handle without blowing up",
+    "notes": "Few artifacts here and there, but it’s playable",
     "reports": [
+      {
+        "device": "iPad Pro 12.9-inch (M2)",
+        "platform": "ios",
+        "osVersion": "26.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-05-13",
+        "notes": "Few artifacts here and there, but it’s playable",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.0-0",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "0",
+          "commitShort": "f9f7b046b"
+        }
+      },
       {
         "device": "iPhone 16 Pro",
         "platform": "ios",
@@ -94185,7 +94206,9 @@
         }
       }
     ],
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4D530AA4/1778705572921-1.jpg"
+    ],
     "summaries": {
       "release": {
         "channel": "release",
@@ -94200,52 +94223,52 @@
       },
       "all": {
         "channel": "all",
-        "status": "intro",
-        "perf": "poor",
-        "notes": "Got past the profile select and then waited to load for about as long as my phone could handle without blowing up",
-        "updatedAt": "2026-04-24",
-        "date": "2026-04-24",
-        "reportCount": 3,
+        "status": "playable",
+        "perf": "ok",
+        "notes": "Few artifacts here and there, but it’s playable",
+        "updatedAt": "2026-05-13",
+        "date": "2026-05-13",
+        "reportCount": 4,
         "latestReport": {
-          "device": "iPhone 16 Pro",
+          "device": "iPad Pro 12.9-inch (M2)",
           "platform": "ios",
-          "osVersion": "26.4",
+          "osVersion": "26.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "poor",
-          "date": "2026-04-24",
-          "notes": "Got past the profile select and then waited to load for about as long as my phone could handle without blowing up",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-05-13",
+          "notes": "Few artifacts here and there, but it’s playable",
           "screenshots": [],
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
+            "buildId": "ios-self-built-1.0.0-0",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "appVersion": "1.0.0",
+            "buildNumber": "0",
+            "commitShort": "f9f7b046b"
           }
         },
         "bestReport": {
-          "device": "iPhone 16 Pro",
+          "device": "iPad Pro 12.9-inch (M2)",
           "platform": "ios",
-          "osVersion": "26.4",
+          "osVersion": "26.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "poor",
-          "date": "2026-04-24",
-          "notes": "Got past the profile select and then waited to load for about as long as my phone could handle without blowing up",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-05-13",
+          "notes": "Few artifacts here and there, but it’s playable",
           "screenshots": [],
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
+            "buildId": "ios-self-built-1.0.0-0",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "appVersion": "1.0.0",
+            "buildNumber": "0",
+            "commitShort": "f9f7b046b"
           }
         }
       }
@@ -146674,23 +146697,23 @@
     "titleIds": [
       "545407F8"
     ],
-    "status": "ingame",
+    "status": "loads",
     "perf": "poor",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 16 Pro Max",
+      "device": "iPhone 16 Pro",
       "platform": "ios",
-      "osVersion": "26.3",
+      "osVersion": "26.4.2",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-05-12",
     "issueNumber": 442,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/442",
-    "notes": "This game loads but extremely slow and may take multiple tries. It has really bad frames once you actually are able to get in the game. Cut scenes have graphical issues",
+    "notes": "Try multiple Times for loading screen, massive lag and stutter",
     "reports": [
       {
         "device": "iPhone 16 Pro",
@@ -146710,50 +146733,7 @@
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
           "commitShort": "056d2f64d"
-        }
-      },
-      {
-        "device": "iPhone 16 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "perf": "poor",
-        "date": "2026-03-19",
-        "notes": "This game loads but extremely slow and may take multiple tries. It has really bad frames once you actually are able to get in the game. Cut scenes have graphical issues",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
-        }
-      },
-      {
-        "device": "iPhone 16",
-        "platform": "ios",
-        "osVersion": "26.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "perf": "poor",
-        "date": "2026-03-12",
-        "notes": "Must try booting the game a couple of times before actually loading in-game",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.0-9296",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9296",
-          "commitShort": "ab2ca341a"
         }
       }
     ],
@@ -146784,12 +146764,12 @@
       },
       "all": {
         "channel": "all",
-        "status": "ingame",
+        "status": "loads",
         "perf": "poor",
-        "notes": "This game loads but extremely slow and may take multiple tries. It has really bad frames once you actually are able to get in the game. Cut scenes have graphical issues",
+        "notes": "Try multiple Times for loading screen, massive lag and stutter",
         "updatedAt": "2026-05-12",
         "date": "2026-05-12",
-        "reportCount": 3,
+        "reportCount": 1,
         "latestReport": {
           "device": "iPhone 16 Pro",
           "platform": "ios",
@@ -146808,20 +146788,19 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
-          "device": "iPhone 16 Pro Max",
+          "device": "iPhone 16 Pro",
           "platform": "ios",
-          "osVersion": "26.3",
+          "osVersion": "26.4.2",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "ingame",
+          "status": "loads",
           "perf": "poor",
-          "date": "2026-03-19",
-          "notes": "This game loads but extremely slow and may take multiple tries. It has really bad frames once you actually are able to get in the game. Cut scenes have graphical issues",
+          "date": "2026-05-12",
+          "notes": "Try multiple Times for loading screen, massive lag and stutter",
           "screenshots": [],
           "source": "app",
           "build": {

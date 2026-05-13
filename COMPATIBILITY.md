@@ -2,7 +2,7 @@
 
 > **282 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **105** · 🔵 In-Game: **60** · 🟡 Intro: **27** · 🟠 Loads: **40** · 🔴 Doesn't Boot: **50**
+> 🟢 Playable: **106** · 🔵 In-Game: **59** · 🟡 Intro: **26** · 🟠 Loads: **41** · 🔴 Doesn't Boot: **50**
 >
 > 📱 iOS: **254** · 🖥️ macOS: **49**
 
@@ -54,6 +54,7 @@
 | 🟢 | Far Cry 3 | `5553088C` | 📱 iOS | Playable | 🐢 Poor | iPhone 16 | 2026-03-14 |
 | 🟢 | Final Fantasy XIII | `535107E4` | 📱 iOS | Playable | 👌 OK | iPhone 17 | 2026-03-18 |
 | 🟢 | Forza Horizon | `4D5309C9` | 📱 iOS | Playable | 👌 OK | iPhone 16e | 2026-05-04 |
+| 🟢 | Forza Horizon 2 | `4D530AA4` | 📱 iOS | Playable | 👌 OK | iPad Pro 12.9-inch (M2) | 2026-05-13 |
 | 🟢 | Forza Motorsport 2 | `4D5307EA` | 📱 iOS | Playable | 🚀 Great | iPad Air 11-inch (M3) | 2026-03-20 |
 | 🟢 | Forza Motorsport 4 | `4D530910` | 📱 iOS | Playable | 👌 OK | iPhone 17 Pro Max | 2026-03-17 |
 | 🟢 | Gears of War: Judgment | `4D530A26` | 📱 iOS | Playable | 🐢 Poor | iPhone 17 Pro Max | 2026-03-17 |
@@ -158,7 +159,6 @@
 | 🔵 | Max Payne 3 | `5454086B` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro Max | 2026-05-10 |
 | 🔵 | Mercenaries 2: World in Flames | `45410828` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro | 2026-03-09 |
 | 🔵 | Metro Last Light | `4B4D07F5` | 🖥️ macOS | In-Game | 👌 OK | MacBook Pro M4 Pro/Max | 2026-02-28 |
-| 🔵 | Midnight Club: Los Angeles | `545407F8` | 📱 iOS | In-Game | 🐢 Poor | iPhone 16 Pro Max | 2026-05-12 |
 | 🔵 | Mirror's Edge | `45410850` | 📱 iOS | In-Game | 🐢 Poor | iPhone Air | 2026-03-23 |
 | 🔵 | NBA 2K10 | `54540852` | 📱 iOS | In-Game | 👌 OK | iPhone 16e | 2026-03-10 |
 | 🔵 | NBA 2K11 | `5454087A` | 📱 iOS | In-Game | 👌 OK | iPhone 16e | 2026-03-10 |
@@ -195,7 +195,6 @@
 | 🟡 | Dead Rising | `434307D2` | 📱 iOS | Intro | 👌 OK | iPad (A16) | 2026-03-04 |
 | 🟡 | Divinity II Dragon Knight Saga | `464507D6` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro Max | 2026-03-09 |
 | 🟡 | DOOM 3 BFG Edition | `425307F1` | 📱 iOS | Intro | 🚀 Great | iPhone 16 Pro | 2026-03-03 |
-| 🟡 | Forza Horizon 2 | `4D530AA4` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro | 2026-04-24 |
 | 🟡 | Halo 4 | `4D530919` | 📱 iOS | Intro | 🐢 Poor | iPad Pro 12.9-inch (M2) | 2026-03-10 |
 | 🟡 | Halo Wars | `4D530808` | 📱 iOS | Intro | 👌 OK | iPhone 17 | 2026-03-03 |
 | 🟡 | Lego Batman 2: DC Super Heroes | `57520817` | 📱 iOS | Intro | 🐢 Poor | iPhone 13 | 2026-03-14 |
@@ -233,6 +232,7 @@
 | 🟠 | Lego Dimensions | `5752084B` | 📱 iOS | Loads | 🐢 Poor | iPad (A16) | 2026-03-09 |
 | 🟠 | Lego Star Wars III: The Clone Wars | `4C4107F3` | 📱 iOS | Loads | 👌 OK | iPhone 15 Pro | 2026-03-10 |
 | 🟠 | Metal Gear Solid V: Ground Zeroes | `4B4E085C` | 📱 iOS | Loads | 🐢 Poor | iPhone 15 Pro Max | 2026-03-10 |
+| 🟠 | Midnight Club: Los Angeles | `545407F8` | 📱 iOS | Loads | 🐢 Poor | iPhone 16 Pro | 2026-05-12 |
 | 🟠 | NBA 2K10 | `54549852` | 🖥️ macOS | Loads | 🐢 Poor | MacBook Air (M4) | 2026-03-18 |
 | 🟠 | NCAA Basketball 10 | `454108C3` | 📱 iOS | Loads | 🐢 Poor | iPhone 16e | 2026-03-11 |
 | 🟠 | Project Gotham Racing 3 | `4D5307D1` | 🖥️ macOS | Loads | 🚀 Great | Macbook Pro M1 Pro | 2026-05-10 |
