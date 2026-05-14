@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-14T18:08:45.902Z",
+  "generatedAt": "2026-05-14T19:41:50.436Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2701,26 +2701,6 @@
           "createdAtMs": 1773517964000,
           "issueNumber": 263,
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
-          "images": [],
-          "meta": {}
-        }
-      ]
-    },
-    "4541094A": {
-      "titleId": "4541094A",
-      "issueNumber": 444,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/444",
-      "updatedAt": "2026-05-14",
-      "entries": [
-        {
-          "id": "issue-444",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/444",
-          "author": "theultimate395er",
-          "createdAt": "2026-05-14",
-          "createdAtMs": 1778781111000,
-          "issueNumber": 444,
-          "excerpt": "Very glitchy screens upon loading. Certain loading screens work normally but the rest of the game is glitchy. Framerate and audio issues are few.",
           "images": [],
           "meta": {}
         }
