@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-15T10:05:16.312Z",
+  "generatedAt": "2026-05-15T18:44:45.009Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2703,6 +2703,43 @@
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
           "images": [],
           "meta": {}
+        }
+      ]
+    },
+    "584111F2": {
+      "titleId": "584111F2",
+      "issueNumber": 445,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/445",
+      "updatedAt": "2026-05-15",
+      "entries": [
+        {
+          "id": "issue-445",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/445",
+          "author": "xenios-jp",
+          "createdAt": "2026-05-15",
+          "createdAtMs": 1778870595000,
+          "issueNumber": 445,
+          "excerpt": "The game Is ok, it’s playable very well, but when you are in the water, it’s gonna be shining like… 5sec? And it’s gonna be normal dater that.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584111F2/1778870580254-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584111F2/1778870580254-2.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584111F2/1778870580254-3.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584111F2/1778870580254-4.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584111F2/1778870580254-5.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 16 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.5",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
         }
       ]
     },
