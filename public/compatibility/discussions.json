@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-14T19:41:50.436Z",
+  "generatedAt": "2026-05-15T10:05:16.312Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -3588,8 +3588,33 @@
       "titleId": "4D530AA4",
       "issueNumber": 415,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/415",
-      "updatedAt": "2026-05-13",
+      "updatedAt": "2026-05-15",
       "entries": [
+        {
+          "id": "comment-4458837955",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/415#issuecomment-4458837955",
+          "author": "xenios-jp",
+          "createdAt": "2026-05-15",
+          "createdAtMs": 1778839333000,
+          "issueNumber": 415,
+          "excerpt": "When Booted, it shows the copyright screen after waiting even for a long time, it still hasn’t loaded anything. It may be from the iso but i don’t know honestly.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4D530AA4/1778839326257-1.jpg"
+          ],
+          "meta": {
+            "status": "loads",
+            "perf": "poor",
+            "device": "iPad Air 4",
+            "platform": "iOS",
+            "osVersion": "iOS 18.0.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
         {
           "id": "comment-4445124644",
           "type": "comment",
