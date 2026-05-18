@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-11T06:57:13.214Z",
+  "generatedAt": "2026-05-18T07:53:19.871Z",
   "totalProjects": 4,
   "contributors": [
     {
@@ -1246,6 +1246,16 @@
       "displayName": "oltolm",
       "profileUrl": "https://github.com/oltolm",
       "avatarUrl": "https://avatars.githubusercontent.com/u/1674229?v=4",
+      "projects": [
+        "xenia-canary",
+        "xenia-edge"
+      ]
+    },
+    {
+      "id": "user:oreyg",
+      "displayName": "oreyg",
+      "profileUrl": "https://github.com/oreyg",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/13616895?v=4",
       "projects": [
         "xenia-canary",
         "xenia-edge"
