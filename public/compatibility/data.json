@@ -179517,15 +179517,49 @@
       "4B4E8830",
       "4B4E8832"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "playable",
+    "perf": "poor",
     "tags": [],
-    "platforms": [],
-    "lastReport": null,
-    "updatedAt": "",
-    "notes": "",
-    "reports": [],
-    "screenshots": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 16e",
+      "platform": "ios",
+      "osVersion": "26.4.2",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-05-20",
+    "issueNumber": 447,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/447",
+    "notes": "The game loads and runs adequately with generally good performance and occasional stable FPS. However, instability remains present, including random crashes, freezing, graphical artifacts, and visual glitches. Overall gameplay is functional and promising, with clear potential for improvement through further optimization and stability updates.",
+    "reports": [
+      {
+        "device": "iPhone 16e",
+        "platform": "ios",
+        "osVersion": "26.4.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "poor",
+        "date": "2026-05-20",
+        "notes": "The game loads and runs adequately with generally good performance and occasional stable FPS. However, instability remains present, including random crashes, freezing, graphical artifacts, and visual glitches. Overall gameplay is functional and promising, with clear potential for improvement through further optimization and stability updates.",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.0-0",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "0",
+          "commitShort": "303982db5"
+        }
+      }
+    ],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4B4E081D/1779276996771-1.jpg"
+    ],
     "summaries": {
       "release": {
         "channel": "release",
@@ -179540,14 +179574,54 @@
       },
       "all": {
         "channel": "all",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "playable",
+        "perf": "poor",
+        "notes": "The game loads and runs adequately with generally good performance and occasional stable FPS. However, instability remains present, including random crashes, freezing, graphical artifacts, and visual glitches. Overall gameplay is functional and promising, with clear potential for improvement through further optimization and stability updates.",
+        "updatedAt": "2026-05-20",
+        "date": "2026-05-20",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 16e",
+          "platform": "ios",
+          "osVersion": "26.4.2",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "poor",
+          "date": "2026-05-20",
+          "notes": "The game loads and runs adequately with generally good performance and occasional stable FPS. However, instability remains present, including random crashes, freezing, graphical artifacts, and visual glitches. Overall gameplay is functional and promising, with clear potential for improvement through further optimization and stability updates.",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.0-0",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "0",
+            "commitShort": "303982db5"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 16e",
+          "platform": "ios",
+          "osVersion": "26.4.2",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "poor",
+          "date": "2026-05-20",
+          "notes": "The game loads and runs adequately with generally good performance and occasional stable FPS. However, instability remains present, including random crashes, freezing, graphical artifacts, and visual glitches. Overall gameplay is functional and promising, with clear potential for improvement through further optimization and stability updates.",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.0-0",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "0",
+            "commitShort": "303982db5"
+          }
+        }
       }
     }
   },

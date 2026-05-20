@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-20T02:58:57.384Z",
+  "generatedAt": "2026-05-20T11:38:38.893Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2703,6 +2703,39 @@
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
           "images": [],
           "meta": {}
+        }
+      ]
+    },
+    "4B4E081D": {
+      "titleId": "4B4E081D",
+      "issueNumber": 447,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/447",
+      "updatedAt": "2026-05-20",
+      "entries": [
+        {
+          "id": "issue-447",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/447",
+          "author": "xenios-jp",
+          "createdAt": "2026-05-20",
+          "createdAtMs": 1779277001000,
+          "issueNumber": 447,
+          "excerpt": "The game loads and runs adequately with generally good performance and occasional stable FPS. However, instability remains present, including random crashes, freezing, graphical artifacts, and visual glitches. Overall gameplay is functional and promising, with clear potential for improvement through further optimization and stability updates.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4B4E081D/1779276996771-1.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "poor",
+            "device": "iPhone 16e",
+            "platform": "iOS",
+            "osVersion": "iOS 26.4.2",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "0",
+            "commitShort": "`303982db5`"
+          }
         }
       ]
     },

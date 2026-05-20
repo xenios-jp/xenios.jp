@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **284 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **285 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **107** · 🔵 In-Game: **59** · 🟡 Intro: **26** · 🟠 Loads: **41** · 🔴 Doesn't Boot: **51**
+> 🟢 Playable: **108** · 🔵 In-Game: **59** · 🟡 Intro: **26** · 🟠 Loads: **41** · 🔴 Doesn't Boot: **51**
 >
-> 📱 iOS: **256** · 🖥️ macOS: **49**
+> 📱 iOS: **257** · 🖥️ macOS: **49**
 
 ## Legend
 
@@ -92,6 +92,7 @@
 | 🟢 | Peggle 2 | `58411436` | 📱 iOS | Playable | 🚀 Great | iPad Mini (A17 Pro) | 2026-03-14 |
 | 🟢 | Plants vs. Zombies | `584109FF` | 📱 iOS | Playable | 👌 OK | iPhone 14 Pro Max | 2026-03-25 |
 | 🟢 | Portal 2 | `45410912` | 📱 iOS | Playable | 🐢 Poor | iPhone 17 Pro Max | 2026-03-24 |
+| 🟢 | Pro Evolution Soccer 2011 / PES 2011 | `4B4E081D` | 📱 iOS | Playable | 🐢 Poor | iPhone 16e | 2026-05-20 |
 | 🟢 | Pro Evolution Soccer 2012 / PES 2012 | `4B4E0837` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro | 2026-04-25 |
 | 🟢 | Pro Evolution Soccer 2016 / PES 2016 | `4B4E0861` | 📱 iOS | Playable | 🐢 Poor | iPhone 16e | 2026-04-25 |
 | 🟢 | PROTOTYPE | `4156084E` | 📱 iOS | Playable | 🐢 Poor | iPhone 16 Pro Max | 2026-03-16 |
