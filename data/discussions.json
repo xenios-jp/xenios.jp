@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-21T09:21:31.149Z",
+  "generatedAt": "2026-05-21T19:23:39.748Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2703,6 +2703,37 @@
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
           "images": [],
           "meta": {}
+        }
+      ]
+    },
+    "415607D4": {
+      "titleId": "415607D4",
+      "issueNumber": 449,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/449",
+      "updatedAt": "2026-05-21",
+      "entries": [
+        {
+          "id": "issue-449",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/449",
+          "author": "xenios-jp",
+          "createdAt": "2026-05-21",
+          "createdAtMs": 1779391296000,
+          "issueNumber": 449,
+          "excerpt": "Low fps",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "poor",
+            "device": "iPad Pro 13-inch (M4)",
+            "platform": "iOS",
+            "osVersion": "iOS 26.0",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
         }
       ]
     },

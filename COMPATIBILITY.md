@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **286 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **287 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **109** · 🔵 In-Game: **59** · 🟡 Intro: **26** · 🟠 Loads: **41** · 🔴 Doesn't Boot: **51**
+> 🟢 Playable: **110** · 🔵 In-Game: **59** · 🟡 Intro: **26** · 🟠 Loads: **41** · 🔴 Doesn't Boot: **51**
 >
-> 📱 iOS: **258** · 🖥️ macOS: **49**
+> 📱 iOS: **259** · 🖥️ macOS: **49**
 
 ## Legend
 
@@ -123,6 +123,7 @@
 | 🟢 | The Simpsons Game | `45410809` | 📱 iOS | Playable | 👌 OK | iPhone Air | 2026-03-08 |
 | 🟢 | TimeShift | `565507DA` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro | 2026-03-13 |
 | 🟢 | TMNT | `555307F8` | 📱 iOS | Playable | 👌 OK | iPhone 13 Pro | 2026-04-10 |
+| 🟢 | Tony Hawk's American Wasteland | `415607D4` | 📱 iOS | Playable | 🐢 Poor | iPad Pro 13-inch (M4) | 2026-05-21 |
 | 🟢 | Toy Story 3 | `425607E5` | 📱 iOS | Playable | 👌 OK | iPhone 15 Pro | 2026-03-15 |
 | 🟢 | Ultra Street Fighter IV | `434307FC` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro Max | 2026-03-09 |
 | 🟢 | Virtua Fighter 5: Final Showdown | `534507EE` | 📱 iOS | Playable | 👌 OK | iPhone 17 Pro Max | 2026-03-03 |
