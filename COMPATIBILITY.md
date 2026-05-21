@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **285 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **286 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **108** · 🔵 In-Game: **59** · 🟡 Intro: **26** · 🟠 Loads: **41** · 🔴 Doesn't Boot: **51**
+> 🟢 Playable: **109** · 🔵 In-Game: **59** · 🟡 Intro: **26** · 🟠 Loads: **41** · 🔴 Doesn't Boot: **51**
 >
-> 📱 iOS: **257** · 🖥️ macOS: **49**
+> 📱 iOS: **258** · 🖥️ macOS: **49**
 
 ## Legend
 
@@ -57,6 +57,7 @@
 | 🟢 | Forza Horizon 2 | `4D530AA4` | 📱 iOS | Playable | 👌 OK | iPad Pro 12.9-inch (M2) | 2026-05-15 |
 | 🟢 | Forza Motorsport 2 | `4D5307EA` | 📱 iOS | Playable | 🚀 Great | iPad Air 11-inch (M3) | 2026-03-20 |
 | 🟢 | Forza Motorsport 4 | `4D530910` | 📱 iOS | Playable | 👌 OK | iPhone 17 Pro Max | 2026-03-17 |
+| 🟢 | Gears of War 2 | `4D53082D` | 📱 iOS | Playable | 👌 OK | iPhone 17 | 2026-05-21 |
 | 🟢 | Gears of War: Judgment | `4D530A26` | 📱 iOS | Playable | 🐢 Poor | iPhone 17 Pro Max | 2026-03-17 |
 | 🟢 | Geometry Wars Evolved | `584107ED` | 📱 iOS | Playable | 🚀 Great | iPhone 13 | 2026-03-10 |
 | 🟢 | GoldenEye: 007 Reloaded | `415608AF` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-05-09 |
