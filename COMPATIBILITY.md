@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **287 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **288 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **110** · 🔵 In-Game: **59** · 🟡 Intro: **26** · 🟠 Loads: **41** · 🔴 Doesn't Boot: **51**
+> 🟢 Playable: **110** · 🔵 In-Game: **60** · 🟡 Intro: **26** · 🟠 Loads: **41** · 🔴 Doesn't Boot: **51**
 >
-> 📱 iOS: **259** · 🖥️ macOS: **49**
+> 📱 iOS: **260** · 🖥️ macOS: **49**
 
 ## Legend
 
@@ -144,6 +144,7 @@
 | 🔵 | Fable Anniversary | `4D530A87` | 📱 iOS | In-Game | 🐢 Poor | iPhone 16 Pro Max | 2026-03-09 |
 | 🔵 | Fallout 3 | `425307D5` | 📱 iOS | In-Game | 👌 OK | iPhone 13 | 2026-03-12 |
 | 🔵 | FIFA 16 | `454109EE` | 📱 iOS | In-Game | 👌 OK | iPhone 14 Pro Max | 2026-03-08 |
+| 🔵 | FIFA 19 | `454109F9` | 📱 iOS | In-Game | 🐢 Poor | iPhone 16 Pro Max | 2026-05-22 |
 | 🔵 | Fight Night Round 3 | `454107DE` | 📱 iOS | In-Game | 🐢 Poor | iPhone 16e | 2026-03-10 |
 | 🔵 | Frontlines: Fuel of War | `545107D8` | 🖥️ macOS | In-Game | 🐢 Poor | Macbook Neo A18 Pro | 2026-03-19 |
 | 🔵 | Gears of War | `4D5307D5` | 🖥️ macOS, 📱 iOS | In-Game | 👌 OK | MacBook Pro M4 Pro/Max | 2026-04-02 |
