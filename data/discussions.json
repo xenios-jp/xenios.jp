@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-22T22:43:41.953Z",
+  "generatedAt": "2026-05-23T14:23:30.517Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2500,8 +2500,31 @@
       "titleId": "55530884",
       "issueNumber": 390,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/390",
-      "updatedAt": "2026-04-04",
+      "updatedAt": "2026-05-23",
       "entries": [
+        {
+          "id": "comment-4525642742",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/390#issuecomment-4525642742",
+          "author": "xenios-jp",
+          "createdAt": "2026-05-23",
+          "createdAtMs": 1779546085000,
+          "issueNumber": 390,
+          "excerpt": "Works very great, just has some graphic glitches in the beginning but after that it’s all good and great",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 17",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
         {
           "id": "issue-390",
           "type": "issue",

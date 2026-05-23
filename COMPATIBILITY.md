@@ -99,7 +99,7 @@
 | 🟢 | PROTOTYPE | `4156084E` | 📱 iOS | Playable | 🐢 Poor | iPhone 16 Pro Max | 2026-03-16 |
 | 🟢 | Pure | `425607D9` | 📱 iOS | Playable | 👌 OK | iPad Pro 11 inch 5th Gen | 2026-03-18 |
 | 🟢 | Quantum of Solace | `415607FF` | 📱 iOS | Playable | 👌 OK | iPad Pro 12.9-inch (M2) | 2026-03-11 |
-| 🟢 | Rayman Origins | `55530884` | 📱 iOS | Playable | 🚀 Great | iPad Pro 12.9-inch 4 | 2026-04-04 |
+| 🟢 | Rayman Origins | `55530884` | 📱 iOS | Playable | 🚀 Great | iPhone 17 | 2026-05-23 |
 | 🟢 | Rayman Raving Rabbids | `555307F3` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro Max | 2026-04-30 |
 | 🟢 | Resident Evil Revelations | `43430833` | 📱 iOS | Playable | 👌 OK | iPhone 16 | 2026-03-15 |
 | 🟢 | Ridge Racer 6 | `4E4D07D3` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-08 |

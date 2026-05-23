@@ -6136,7 +6136,6 @@
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
           "commitShort": "056d2f64d"
         }
       }
@@ -6180,7 +6179,6 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         },
@@ -6202,7 +6200,6 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         }
@@ -89241,7 +89238,6 @@
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
           "commitShort": "056d2f64d"
         }
       }
@@ -89285,7 +89281,6 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         },
@@ -89307,7 +89302,6 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         }
@@ -187189,17 +187183,38 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPad Pro 12.9-inch 4",
+      "device": "iPhone 17",
       "platform": "ios",
-      "osVersion": "18.3.2",
+      "osVersion": "26.3",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-04-04",
+    "updatedAt": "2026-05-23",
     "issueNumber": 390,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/390",
-    "notes": "It plays well",
+    "notes": "Works very great, just has some graphic glitches in the beginning but after that it’s all good and great",
     "reports": [
+      {
+        "device": "iPhone 17",
+        "platform": "ios",
+        "osVersion": "26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-05-23",
+        "notes": "Works very great, just has some graphic glitches in the beginning but after that it’s all good and great",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "commitShort": "056d2f64d"
+        }
+      },
       {
         "device": "iPad Pro 12.9-inch 4",
         "platform": "ios",
@@ -187239,20 +187254,20 @@
         "channel": "all",
         "status": "playable",
         "perf": "great",
-        "notes": "It plays well",
-        "updatedAt": "2026-04-04",
-        "date": "2026-04-04",
-        "reportCount": 1,
+        "notes": "Works very great, just has some graphic glitches in the beginning but after that it’s all good and great",
+        "updatedAt": "2026-05-23",
+        "date": "2026-05-23",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPad Pro 12.9-inch 4",
+          "device": "iPhone 17",
           "platform": "ios",
-          "osVersion": "18.3.2",
+          "osVersion": "26.3",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "great",
-          "date": "2026-04-04",
-          "notes": "It plays well",
+          "date": "2026-05-23",
+          "notes": "Works very great, just has some graphic glitches in the beginning but after that it’s all good and great",
           "screenshots": [],
           "source": "app",
           "build": {
@@ -187265,15 +187280,15 @@
           }
         },
         "bestReport": {
-          "device": "iPad Pro 12.9-inch 4",
+          "device": "iPhone 17",
           "platform": "ios",
-          "osVersion": "18.3.2",
+          "osVersion": "26.3",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "great",
-          "date": "2026-04-04",
-          "notes": "It plays well",
+          "date": "2026-05-23",
+          "notes": "Works very great, just has some graphic glitches in the beginning but after that it’s all good and great",
           "screenshots": [],
           "source": "app",
           "build": {
@@ -211938,7 +211953,6 @@
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
           "commitShort": "056d2f64d"
         }
       }
@@ -211988,7 +212002,6 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         },
@@ -212010,7 +212023,6 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         }
@@ -241056,7 +241068,7 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPad Pro 12.9 inch 7th Gen",
+      "device": "iPad Pro 13-inch (M4)",
       "platform": "ios",
       "osVersion": "26.0",
       "arch": "arm64",
@@ -241068,7 +241080,7 @@
     "notes": "Low fps",
     "reports": [
       {
-        "device": "iPad Pro 12.9 inch 7th Gen",
+        "device": "iPad Pro 13-inch (M4)",
         "platform": "ios",
         "osVersion": "26.0",
         "arch": "arm64",
@@ -241085,7 +241097,6 @@
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
           "commitShort": "056d2f64d"
         }
       }
@@ -241112,7 +241123,7 @@
         "date": "2026-05-21",
         "reportCount": 1,
         "latestReport": {
-          "device": "iPad Pro 12.9 inch 7th Gen",
+          "device": "iPad Pro 13-inch (M4)",
           "platform": "ios",
           "osVersion": "26.0",
           "arch": "arm64",
@@ -241129,12 +241140,11 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
-          "device": "iPad Pro 12.9 inch 7th Gen",
+          "device": "iPad Pro 13-inch (M4)",
           "platform": "ios",
           "osVersion": "26.0",
           "arch": "arm64",
@@ -241151,7 +241161,6 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         }
