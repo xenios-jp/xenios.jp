@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-24T07:26:46.194Z",
+  "generatedAt": "2026-05-24T17:10:35.270Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -5692,8 +5692,31 @@
       "titleId": "545408A7",
       "issueNumber": 369,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/369",
-      "updatedAt": "2026-04-19",
+      "updatedAt": "2026-05-24",
       "entries": [
+        {
+          "id": "comment-4529432325",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/369#issuecomment-4529432325",
+          "author": "xenios-jp",
+          "createdAt": "2026-05-24",
+          "createdAtMs": 1779642503000,
+          "issueNumber": 369,
+          "excerpt": "Literally a black screen after the rockstar games and rockstar north logos",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPad Air 4",
+            "platform": "iOS",
+            "osVersion": "iOS 18.0.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
         {
           "id": "comment-4275868561",
           "type": "comment",
@@ -5808,29 +5831,6 @@
             "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408A7/1774665519540-3.jpg",
             "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408A7/1774665519540-4.jpg"
           ],
-          "meta": {
-            "status": "playable",
-            "perf": "poor",
-            "device": "iPhone 17 Pro",
-            "platform": "iOS",
-            "osVersion": "iOS 26.2",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "`056d2f64d`"
-          }
-        },
-        {
-          "id": "issue-369",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/369",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-28",
-          "createdAtMs": 1774664674000,
-          "issueNumber": 369,
-          "excerpt": "The game runs poorly, graphical issues sometimes. Missions run alright but sometimes the npc freezes and you have to go back to the start and continue the mission. Sometimes because of the weather the game becomes nearly unplayable, but by changing the weather it fixes. \n\nOverall it’s really impressive that an iPhone 17 Pro can in fact run GTA V. Very cool!",
-          "images": [],
           "meta": {
             "status": "playable",
             "perf": "poor",
