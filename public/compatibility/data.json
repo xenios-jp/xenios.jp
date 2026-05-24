@@ -94099,11 +94099,33 @@
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-05-04",
+    "updatedAt": "2026-05-24",
     "issueNumber": 125,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/125",
     "notes": "No Racing",
     "reports": [
+      {
+        "device": "iPhone 13 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "loads",
+        "perf": "ok",
+        "date": "2026-05-24",
+        "notes": "Bootd up fine but its all greenish pixels idk whats the issue but texts are fine but renders are just green",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "stage": "stable",
+          "commitShort": "056d2f64d"
+        }
+      },
       {
         "device": "iPhone 16e",
         "platform": "ios",
@@ -94189,19 +94211,19 @@
         "status": "playable",
         "perf": "ok",
         "notes": "No Racing",
-        "updatedAt": "2026-05-04",
-        "date": "2026-05-04",
-        "reportCount": 3,
+        "updatedAt": "2026-05-24",
+        "date": "2026-05-24",
+        "reportCount": 4,
         "latestReport": {
-          "device": "iPhone 16e",
+          "device": "iPhone 13 Pro Max",
           "platform": "ios",
-          "osVersion": "26.5",
+          "osVersion": "26.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "playable",
+          "status": "loads",
           "perf": "ok",
-          "date": "2026-05-04",
-          "notes": "No Racing",
+          "date": "2026-05-24",
+          "notes": "Bootd up fine but its all greenish pixels idk whats the issue but texts are fine but renders are just green",
           "screenshots": [],
           "source": "app",
           "build": {
@@ -94210,6 +94232,7 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
+            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         },

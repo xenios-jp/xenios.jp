@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-23T14:23:30.517Z",
+  "generatedAt": "2026-05-24T07:26:46.194Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -5511,8 +5511,31 @@
       "titleId": "4D5309C9",
       "issueNumber": 371,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/371",
-      "updatedAt": "2026-05-04",
+      "updatedAt": "2026-05-24",
       "entries": [
+        {
+          "id": "comment-4527710674",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/371#issuecomment-4527710674",
+          "author": "xenios-jp",
+          "createdAt": "2026-05-24",
+          "createdAtMs": 1779607479000,
+          "issueNumber": 371,
+          "excerpt": "Bootd up fine but its all greenish pixels idk whats the issue but texts are fine but renders are just green",
+          "images": [],
+          "meta": {
+            "status": "loads",
+            "perf": "ok",
+            "device": "iPhone 13 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
         {
           "id": "comment-4373018874",
           "type": "comment",
@@ -5626,29 +5649,6 @@
             "appVersion": "1.0.1",
             "buildNumber": "9288",
             "commitShort": "`056d2f64d`"
-          }
-        },
-        {
-          "id": "comment-4025874034",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/125#issuecomment-4025874034",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-09",
-          "createdAtMs": 1773080896000,
-          "issueNumber": 125,
-          "excerpt": "Glitches",
-          "images": [],
-          "meta": {
-            "status": "ingame",
-            "perf": "ok",
-            "device": "iPhone 14",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "`2633e8177`"
           }
         }
       ]
