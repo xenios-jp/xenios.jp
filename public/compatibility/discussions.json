@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-24T17:10:35.270Z",
+  "generatedAt": "2026-05-25T05:16:28.868Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -4777,8 +4777,31 @@
       "titleId": "415608C3",
       "issueNumber": 385,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/385",
-      "updatedAt": "2026-04-08",
+      "updatedAt": "2026-05-25",
       "entries": [
+        {
+          "id": "comment-4531700867",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/385#issuecomment-4531700867",
+          "author": "xenios-jp",
+          "createdAt": "2026-05-25",
+          "createdAtMs": 1779686043000,
+          "issueNumber": 385,
+          "excerpt": "Just boot into cyan screen",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 16 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.5",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
         {
           "id": "comment-4205852531",
           "type": "comment",
@@ -4884,18 +4907,6 @@
           "createdAtMs": 1773004630000,
           "issueNumber": 92,
           "excerpt": "\"Loads\" into cyan colored screen. Nothing else.",
-          "images": [],
-          "meta": {}
-        },
-        {
-          "id": "issue-66",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/66",
-          "author": "QualityControled",
-          "createdAt": "2026-03-08",
-          "createdAtMs": 1772998433000,
-          "issueNumber": 66,
-          "excerpt": "Upon launch, full cyan colored screen. Nothing else.",
           "images": [],
           "meta": {}
         }
