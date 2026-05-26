@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **288 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **289 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **110** · 🔵 In-Game: **60** · 🟡 Intro: **26** · 🟠 Loads: **41** · 🔴 Doesn't Boot: **51**
+> 🟢 Playable: **110** · 🔵 In-Game: **61** · 🟡 Intro: **26** · 🟠 Loads: **41** · 🔴 Doesn't Boot: **51**
 >
-> 📱 iOS: **260** · 🖥️ macOS: **49**
+> 📱 iOS: **261** · 🖥️ macOS: **49**
 
 ## Legend
 
@@ -190,6 +190,7 @@
 | 🔵 | Tekken Tag Tournament 2 | `4E4D0859` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro Max | 2026-04-10 |
 | 🔵 | Tomb Raider Underworld | `534307EC` | 📱 iOS | In-Game | 👌 OK | iPhone 16 Pro Max | 2026-03-11 |
 | 🔵 | Wallace and Gromit Episode 1 | `5841093C` | 🖥️ macOS | In-Game | 🚀 Great | MacBook Pro (M1) | 2026-04-12 |
+| 🔵 | WWE SmackDown! Vs Raw 2007 | `545107E0` | 📱 iOS | In-Game | 👌 OK | iPhone 17 | 2026-05-26 |
 | 🟡 | Assassin's Creed II | `5553083B` | 📱 iOS | Intro | 👌 OK | iPhone 15 Pro Max | 2026-03-11 |
 | 🟡 | Assassins Creed III - Liberation HD | `584113FC` | 📱 iOS | Intro | 👌 OK | iPhone 15 | 2026-03-12 |
 | 🟡 | Back to the Future | `443607D6` | 📱 iOS | Intro | 🚀 Great | iPhone 16 Pro | 2026-03-24 |
