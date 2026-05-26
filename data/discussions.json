@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-25T05:16:28.868Z",
+  "generatedAt": "2026-05-26T05:50:40.128Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2726,6 +2726,37 @@
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
           "images": [],
           "meta": {}
+        }
+      ]
+    },
+    "545107E0": {
+      "titleId": "545107E0",
+      "issueNumber": 451,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/451",
+      "updatedAt": "2026-05-26",
+      "entries": [
+        {
+          "id": "issue-451",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/451",
+          "author": "xenios-jp",
+          "createdAt": "2026-05-26",
+          "createdAtMs": 1779774522000,
+          "issueNumber": 451,
+          "excerpt": "Menus worked perfectly but noticeable fps drop when playing matches.",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "ok",
+            "device": "iPhone 17",
+            "platform": "iOS",
+            "osVersion": "iOS 26.4.2",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
         }
       ]
     },
