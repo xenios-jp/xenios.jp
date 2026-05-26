@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-26T05:50:40.128Z",
+  "generatedAt": "2026-05-26T07:03:06.329Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2726,6 +2726,60 @@
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
           "images": [],
           "meta": {}
+        }
+      ]
+    },
+    "5451085D": {
+      "titleId": "5451085D",
+      "issueNumber": 452,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/452",
+      "updatedAt": "2026-05-26",
+      "entries": [
+        {
+          "id": "issue-452",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/452",
+          "author": "xenios-jp",
+          "createdAt": "2026-05-26",
+          "createdAtMs": 1779778897000,
+          "issueNumber": 452,
+          "excerpt": "Opens but can’t get past the loading screen.",
+          "images": [],
+          "meta": {
+            "status": "loads",
+            "perf": "poor",
+            "device": "iPhone 17",
+            "platform": "iOS",
+            "osVersion": "iOS 26.4.2",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
+        {
+          "id": "issue-282",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/282",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-16",
+          "createdAtMs": 1773684516000,
+          "issueNumber": 282,
+          "excerpt": "Loading only not working",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPad (A16)",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
         }
       ]
     },
@@ -8433,37 +8487,6 @@
             "status": "playable",
             "perf": "ok",
             "device": "iPhone 15 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "`056d2f64d`"
-          }
-        }
-      ]
-    },
-    "5451085D": {
-      "titleId": "5451085D",
-      "issueNumber": 282,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/282",
-      "updatedAt": "2026-03-16",
-      "entries": [
-        {
-          "id": "issue-282",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/282",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-16",
-          "createdAtMs": 1773684516000,
-          "issueNumber": 282,
-          "excerpt": "Loading only not working",
-          "images": [],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPad (A16)",
             "platform": "iOS",
             "osVersion": "iOS 26.3",
             "gpuBackend": "MSL",
