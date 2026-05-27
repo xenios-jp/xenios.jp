@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-26T07:03:06.329Z",
+  "generatedAt": "2026-05-27T07:10:53.582Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2668,10 +2668,33 @@
     },
     "58410889": {
       "titleId": "58410889",
-      "issueNumber": 269,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/269",
-      "updatedAt": "2026-03-25",
+      "issueNumber": 453,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/453",
+      "updatedAt": "2026-05-27",
       "entries": [
+        {
+          "id": "issue-453",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/453",
+          "author": "xenios-jp",
+          "createdAt": "2026-05-27",
+          "createdAtMs": 1779865757000,
+          "issueNumber": 453,
+          "excerpt": "Intro loads, but freezes when I press any button to start/continue. It freezes only on button press.",
+          "images": [],
+          "meta": {
+            "status": "intro",
+            "perf": "ok",
+            "device": "iPhone 16 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
         {
           "id": "comment-4122868905",
           "type": "comment",

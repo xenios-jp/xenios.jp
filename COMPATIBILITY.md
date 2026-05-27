@@ -89,8 +89,8 @@
 | 🟢 | Need for Speed: ProStreet | `45410822` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro | 2026-03-18 |
 | 🟢 | Need for Speed: Undercover | `45410876` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-09 |
 | 🟢 | OPERATION DARKNESS | `535507D1` | 📱 iOS | Playable | 🚀 Great | iPad Pro 11 inch 5th Gen | 2026-03-18 |
-| 🟢 | Peggle | `58410889` | 📱 iOS | Playable | 👌 OK | iPhone 14 Pro Max | 2026-03-25 |
-| 🟢 | Peggle 2 | `58411436` | 📱 iOS | Playable | 🚀 Great | iPad Mini (A17 Pro) | 2026-03-14 |
+| 🟢 | Peggle | `58410889` | 📱 iOS | Playable | 👌 OK | iPhone 14 Pro Max | 2026-05-27 |
+| 🟢 | Peggle 2 | `58411436` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro Max | 2026-05-27 |
 | 🟢 | Plants vs. Zombies | `584109FF` | 📱 iOS | Playable | 👌 OK | iPhone 14 Pro Max | 2026-03-25 |
 | 🟢 | Portal 2 | `45410912` | 📱 iOS | Playable | 🐢 Poor | iPhone 17 Pro Max | 2026-03-24 |
 | 🟢 | Pro Evolution Soccer 2011 / PES 2011 | `4B4E081D` | 📱 iOS | Playable | 🐢 Poor | iPhone 16e | 2026-05-20 |
