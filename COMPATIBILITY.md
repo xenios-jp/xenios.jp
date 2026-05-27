@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **290 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **291 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **110** · 🔵 In-Game: **61** · 🟡 Intro: **27** · 🟠 Loads: **42** · 🔴 Doesn't Boot: **50**
+> 🟢 Playable: **110** · 🔵 In-Game: **61** · 🟡 Intro: **27** · 🟠 Loads: **42** · 🔴 Doesn't Boot: **51**
 >
-> 📱 iOS: **262** · 🖥️ macOS: **49**
+> 📱 iOS: **263** · 🖥️ macOS: **49**
 
 ## Legend
 
@@ -283,6 +283,7 @@
 | 🔴 | Left 4 Dead 2 | `454108D4` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Air 4 | 2026-03-13 |
 | 🔴 | LEGO Star Wars: The Force Awakens | `57520851` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 14 | 2026-03-16 |
 | 🔴 | Mighty No. 9 | `584114A4` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 13 | 2026-03-09 |
+| 🔴 | MLB 2K12 | `5454089E` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 | 2026-05-27 |
 | 🔴 | NBA 2K12 | `54540894` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro Max | 2026-03-13 |
 | 🔴 | NBA 2K7 | `545407EF` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16e | 2026-03-11 |
 | 🔴 | Need for Speed Hot Pursuit | `45410903` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 15 | 2026-03-29 |
