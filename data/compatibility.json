@@ -141022,27 +141022,27 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 15 Pro Max",
+      "device": "iPhone 16 Pro Max",
       "platform": "ios",
       "osVersion": "26.3",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-16",
-    "issueNumber": 283,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/283",
-    "notes": "Marble sometimes freezes in place and falls through floor",
+    "updatedAt": "2026-05-27",
+    "issueNumber": 456,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/456",
+    "notes": "It runs okay. It took a couple boots, and I think it only works with Universal.js script (not Amethyst )",
     "reports": [
       {
-        "device": "iPhone 15 Pro Max",
+        "device": "iPhone 16 Pro Max",
         "platform": "ios",
         "osVersion": "26.3",
         "arch": "arm64",
         "gpuBackend": "msl",
         "status": "playable",
         "perf": "ok",
-        "date": "2026-03-16",
-        "notes": "Marble sometimes freezes in place and falls through floor",
+        "date": "2026-05-27",
+        "notes": "It runs okay. It took a couple boots, and I think it only works with Universal.js script (not Amethyst )",
         "screenshots": [],
         "source": "app",
         "build": {
@@ -141072,20 +141072,20 @@
         "channel": "all",
         "status": "playable",
         "perf": "ok",
-        "notes": "Marble sometimes freezes in place and falls through floor",
-        "updatedAt": "2026-03-16",
-        "date": "2026-03-16",
+        "notes": "It runs okay. It took a couple boots, and I think it only works with Universal.js script (not Amethyst )",
+        "updatedAt": "2026-05-27",
+        "date": "2026-05-27",
         "reportCount": 1,
         "latestReport": {
-          "device": "iPhone 15 Pro Max",
+          "device": "iPhone 16 Pro Max",
           "platform": "ios",
           "osVersion": "26.3",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "ok",
-          "date": "2026-03-16",
-          "notes": "Marble sometimes freezes in place and falls through floor",
+          "date": "2026-05-27",
+          "notes": "It runs okay. It took a couple boots, and I think it only works with Universal.js script (not Amethyst )",
           "screenshots": [],
           "source": "app",
           "build": {
@@ -141098,15 +141098,15 @@
           }
         },
         "bestReport": {
-          "device": "iPhone 15 Pro Max",
+          "device": "iPhone 16 Pro Max",
           "platform": "ios",
           "osVersion": "26.3",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "ok",
-          "date": "2026-03-16",
-          "notes": "Marble sometimes freezes in place and falls through floor",
+          "date": "2026-05-27",
+          "notes": "It runs okay. It took a couple boots, and I think it only works with Universal.js script (not Amethyst )",
           "screenshots": [],
           "source": "app",
           "build": {
@@ -171245,23 +171245,44 @@
       "58410889"
     ],
     "status": "playable",
-    "perf": "ok",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 14 Pro Max",
+      "device": "iPhone 16 Pro Max",
       "platform": "ios",
-      "osVersion": "16.5",
+      "osVersion": "26.3",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-05-27",
     "issueNumber": 453,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/453",
-    "notes": "The intro popcap logo is super glitchy but other than that works perfectly fine.",
+    "notes": "It runs and plays great on Universal.js script. Intro is glitchy though.",
     "reports": [
+      {
+        "device": "iPhone 16 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-05-27",
+        "notes": "It runs and plays great on Universal.js script. Intro is glitchy though.",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "commitShort": "056d2f64d"
+        }
+      },
       {
         "device": "iPhone 16 Pro Max",
         "platform": "ios",
@@ -171280,29 +171301,7 @@
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
           "commitShort": "056d2f64d"
-        }
-      },
-      {
-        "device": "iPhone 14 Pro Max",
-        "platform": "ios",
-        "osVersion": "16.5",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "ok",
-        "date": "2026-03-25",
-        "notes": "The intro popcap logo is super glitchy but other than that works perfectly fine.",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-0.9.2-9321",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "0.9.2",
-          "buildNumber": "9321",
-          "commitShort": "6228dab43"
         }
       }
     ],
@@ -171322,8 +171321,8 @@
       "all": {
         "channel": "all",
         "status": "playable",
-        "perf": "ok",
-        "notes": "The intro popcap logo is super glitchy but other than that works perfectly fine.",
+        "perf": "great",
+        "notes": "It runs and plays great on Universal.js script. Intro is glitchy though.",
         "updatedAt": "2026-05-27",
         "date": "2026-05-27",
         "reportCount": 2,
@@ -171333,10 +171332,10 @@
           "osVersion": "26.3",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "ok",
+          "status": "playable",
+          "perf": "great",
           "date": "2026-05-27",
-          "notes": "Intro loads, but freezes when I press any button to start/continue. It freezes only on button press.",
+          "notes": "It runs and plays great on Universal.js script. Intro is glitchy though.",
           "screenshots": [],
           "source": "app",
           "build": {
@@ -171345,29 +171344,28 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
-          "device": "iPhone 14 Pro Max",
+          "device": "iPhone 16 Pro Max",
           "platform": "ios",
-          "osVersion": "16.5",
+          "osVersion": "26.3",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
-          "perf": "ok",
-          "date": "2026-03-25",
-          "notes": "The intro popcap logo is super glitchy but other than that works perfectly fine.",
+          "perf": "great",
+          "date": "2026-05-27",
+          "notes": "It runs and plays great on Universal.js script. Intro is glitchy though.",
           "screenshots": [],
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-0.9.2-9321",
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
-            "appVersion": "0.9.2",
-            "buildNumber": "9321",
-            "commitShort": "6228dab43"
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
           }
         }
       }
@@ -171394,8 +171392,8 @@
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-05-27",
-    "issueNumber": 263,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/263",
+    "issueNumber": 454,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/454",
     "notes": "I was able to start the first level. It runs playable. It is not bad.",
     "reports": [
       {
@@ -171416,110 +171414,22 @@
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
           "commitShort": "056d2f64d"
-        }
-      },
-      {
-        "device": "iPad Mini (A17 Pro)",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "great",
-        "date": "2026-03-14",
-        "notes": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
-        "reportedTitleId": "58411436",
-        "reportedTitle": "Peggle 2",
-        "screenshots": [
-          "https://github.com/user-attachments/assets/56dda089-4a4d-4225-8646-079b64083373",
-          "https://github.com/user-attachments/assets/5d0dd958-3b87-466d-acb0-1deaa9f3b801",
-          "https://github.com/user-attachments/assets/c1eb5e36-06ce-4c0c-ac36-1f02d8488fc7",
-          "https://github.com/user-attachments/assets/d3999b6b-a04c-449c-9dbb-8ca3597c6c07"
-        ],
-        "submittedBy": "supermariofan3720",
-        "source": "github",
-        "build": {
-          "buildId": "ios-release-1.0.1-9288",
-          "channel": "release",
-          "official": true,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288"
         }
       }
     ],
-    "screenshots": [
-      "https://github.com/user-attachments/assets/56dda089-4a4d-4225-8646-079b64083373",
-      "https://github.com/user-attachments/assets/5d0dd958-3b87-466d-acb0-1deaa9f3b801",
-      "https://github.com/user-attachments/assets/c1eb5e36-06ce-4c0c-ac36-1f02d8488fc7",
-      "https://github.com/user-attachments/assets/d3999b6b-a04c-449c-9dbb-8ca3597c6c07"
-    ],
+    "screenshots": [],
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "playable",
-        "perf": "great",
-        "notes": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
-        "updatedAt": "2026-03-14",
-        "date": "2026-03-14",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPad Mini (A17 Pro)",
-          "platform": "ios",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-03-14",
-          "notes": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
-          "reportedTitleId": "58411436",
-          "reportedTitle": "Peggle 2",
-          "screenshots": [
-            "https://github.com/user-attachments/assets/56dda089-4a4d-4225-8646-079b64083373",
-            "https://github.com/user-attachments/assets/5d0dd958-3b87-466d-acb0-1deaa9f3b801",
-            "https://github.com/user-attachments/assets/c1eb5e36-06ce-4c0c-ac36-1f02d8488fc7",
-            "https://github.com/user-attachments/assets/d3999b6b-a04c-449c-9dbb-8ca3597c6c07"
-          ],
-          "submittedBy": "supermariofan3720",
-          "source": "github",
-          "build": {
-            "buildId": "ios-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288"
-          }
-        },
-        "bestReport": {
-          "device": "iPad Mini (A17 Pro)",
-          "platform": "ios",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-03-14",
-          "notes": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
-          "reportedTitleId": "58411436",
-          "reportedTitle": "Peggle 2",
-          "screenshots": [
-            "https://github.com/user-attachments/assets/56dda089-4a4d-4225-8646-079b64083373",
-            "https://github.com/user-attachments/assets/5d0dd958-3b87-466d-acb0-1deaa9f3b801",
-            "https://github.com/user-attachments/assets/c1eb5e36-06ce-4c0c-ac36-1f02d8488fc7",
-            "https://github.com/user-attachments/assets/d3999b6b-a04c-449c-9dbb-8ca3597c6c07"
-          ],
-          "submittedBy": "supermariofan3720",
-          "source": "github",
-          "build": {
-            "buildId": "ios-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288"
-          }
-        }
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "date": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
       },
       "all": {
         "channel": "all",
@@ -171528,7 +171438,7 @@
         "notes": "I was able to start the first level. It runs playable. It is not bad.",
         "updatedAt": "2026-05-27",
         "date": "2026-05-27",
-        "reportCount": 2,
+        "reportCount": 1,
         "latestReport": {
           "device": "iPhone 16 Pro Max",
           "platform": "ios",
@@ -171547,7 +171457,6 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         },
@@ -171569,7 +171478,6 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         }
@@ -178315,14 +178223,46 @@
     "titleIds": [
       "58410960"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "intro",
+    "perf": "poor",
     "tags": [],
-    "platforms": [],
-    "lastReport": null,
-    "updatedAt": "",
-    "notes": "",
-    "reports": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 16 Pro Max",
+      "platform": "ios",
+      "osVersion": "26.3",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-05-27",
+    "issueNumber": 455,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/455",
+    "notes": "Glitchy intro then freezes",
+    "reports": [
+      {
+        "device": "iPhone 16 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "intro",
+        "perf": "poor",
+        "date": "2026-05-27",
+        "notes": "Glitchy intro then freezes",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "commitShort": "056d2f64d"
+        }
+      }
+    ],
     "screenshots": [],
     "summaries": {
       "release": {
@@ -178338,14 +178278,54 @@
       },
       "all": {
         "channel": "all",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "intro",
+        "perf": "poor",
+        "notes": "Glitchy intro then freezes",
+        "updatedAt": "2026-05-27",
+        "date": "2026-05-27",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 16 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "intro",
+          "perf": "poor",
+          "date": "2026-05-27",
+          "notes": "Glitchy intro then freezes",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 16 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "intro",
+          "perf": "poor",
+          "date": "2026-05-27",
+          "notes": "Glitchy intro then freezes",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
+          }
+        }
       }
     }
   },
@@ -259872,28 +259852,6 @@
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d"
-        }
-      },
-      {
-        "device": "iPad (A16)",
-        "platform": "ios",
-        "osVersion": "26.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-03-16",
-        "notes": "Loading only not working",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
           "commitShort": "056d2f64d"
         }
       }
@@ -259918,7 +259876,7 @@
         "notes": "Opens but can’t get past the loading screen.",
         "updatedAt": "2026-05-26",
         "date": "2026-05-26",
-        "reportCount": 2,
+        "reportCount": 1,
         "latestReport": {
           "device": "iPhone 17",
           "platform": "ios",
@@ -259937,7 +259895,6 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         },
@@ -259959,7 +259916,6 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         }
@@ -260009,7 +259965,6 @@
           "official": false,
           "appVersion": "1.0.1",
           "buildNumber": "9288",
-          "stage": "stable",
           "commitShort": "056d2f64d"
         }
       }
@@ -260053,7 +260008,6 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         },
@@ -260075,7 +260029,6 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
-            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         }

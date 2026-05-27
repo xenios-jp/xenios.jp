@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **289 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **290 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **110** · 🔵 In-Game: **61** · 🟡 Intro: **26** · 🟠 Loads: **42** · 🔴 Doesn't Boot: **50**
+> 🟢 Playable: **110** · 🔵 In-Game: **61** · 🟡 Intro: **27** · 🟠 Loads: **42** · 🔴 Doesn't Boot: **50**
 >
-> 📱 iOS: **261** · 🖥️ macOS: **49**
+> 📱 iOS: **262** · 🖥️ macOS: **49**
 
 ## Legend
 
@@ -75,7 +75,7 @@
 | 🟢 | LEGO Star Wars: TCS | `4C4107D7` | 📱 iOS | Playable | 👌 OK | iPad (A16) | 2026-03-09 |
 | 🟢 | Lollipop Chainsaw | `565707D0` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-03 |
 | 🟢 | Mafia 2 | `545407E6` | 📱 iOS | Playable | 🚀 Great | iPhone 14 | 2026-03-30 |
-| 🟢 | Marble Blast Ultra | `584107D7` | 📱 iOS | Playable | 👌 OK | iPhone 15 Pro Max | 2026-03-16 |
+| 🟢 | Marble Blast Ultra | `584107D7` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro Max | 2026-05-27 |
 | 🟢 | Marvel Ultimate Alliance 2 | `4156082F` | 📱 iOS | Playable | 👌 OK | iPhone 13 Pro | 2026-03-09 |
 | 🟢 | Metal Gear Rising: Revengeance | `4B4E080A` | 📱 iOS | Playable | 👌 OK | iPhone 17 Pro Max | 2026-03-20 |
 | 🟢 | METAL GEAR SOLID PEACE WALKER HD EDITION | `4B4E083C` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Plus | 2026-03-18 |
@@ -89,7 +89,7 @@
 | 🟢 | Need for Speed: ProStreet | `45410822` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro | 2026-03-18 |
 | 🟢 | Need for Speed: Undercover | `45410876` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-09 |
 | 🟢 | OPERATION DARKNESS | `535507D1` | 📱 iOS | Playable | 🚀 Great | iPad Pro 11 inch 5th Gen | 2026-03-18 |
-| 🟢 | Peggle | `58410889` | 📱 iOS | Playable | 👌 OK | iPhone 14 Pro Max | 2026-05-27 |
+| 🟢 | Peggle | `58410889` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro Max | 2026-05-27 |
 | 🟢 | Peggle 2 | `58411436` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro Max | 2026-05-27 |
 | 🟢 | Plants vs. Zombies | `584109FF` | 📱 iOS | Playable | 👌 OK | iPhone 14 Pro Max | 2026-03-25 |
 | 🟢 | Portal 2 | `45410912` | 📱 iOS | Playable | 🐢 Poor | iPhone 17 Pro Max | 2026-03-24 |
@@ -209,6 +209,7 @@
 | 🟡 | Naruto Shippuden: UNS 3 Full Burst | `4E4D085C` | 📱 iOS | Intro | 🐢 Poor | iPhone 15 Pro Max | 2026-03-13 |
 | 🟡 | Need for Speed Most Wanted (2012) | `45410961` | 📱 iOS | Intro | 🐢 Poor | iPhone 15 Pro Max | 2026-03-08 |
 | 🟡 | PopCap Collection | `504787D8` | 📱 iOS | Intro | 🚀 Great | iPhone 13 Pro | 2026-03-20 |
+| 🟡 | Portal: Still Alive | `58410960` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro Max | 2026-05-27 |
 | 🟡 | Remember Me | `4343082F` | 🖥️ macOS | Intro | 🚀 Great | Mac mini (M2) | 2026-03-15 |
 | 🟡 | Rise of the Tomb Raider | `53510823` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro Max | 2026-03-12 |
 | 🟡 | Silent Hill: HD Collection | `4B4E0845` | 📱 iOS | Intro | 🚀 Great | iPad Pro 11-inch (M5) | 2026-03-31 |
