@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **291 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **292 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **110** · 🔵 In-Game: **61** · 🟡 Intro: **27** · 🟠 Loads: **42** · 🔴 Doesn't Boot: **51**
+> 🟢 Playable: **110** · 🔵 In-Game: **61** · 🟡 Intro: **27** · 🟠 Loads: **43** · 🔴 Doesn't Boot: **51**
 >
-> 📱 iOS: **263** · 🖥️ macOS: **49**
+> 📱 iOS: **264** · 🖥️ macOS: **49**
 
 ## Legend
 
@@ -218,6 +218,7 @@
 | 🟡 | The Evil Within | `425307F4` | 📱 iOS | Intro | 🐢 Poor | iPhone 17 Pro Max | 2026-05-09 |
 | 🟡 | Two Worlds | `535007D4` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro Max | 2026-03-09 |
 | 🟡 | WWE 13 | `545108B4` | 📱 iOS | Intro | 🐢 Poor | iPhone 15 Pro | 2026-03-29 |
+| 🟠 | 2010 FIFA World Cup South Africa | `454108E4` | 📱 iOS | Loads | 🐢 Poor | iPhone 17 | 2026-05-27 |
 | 🟠 | AC/DC LIVE: Rock Band | `45410889` | 🖥️ macOS | Loads | 🚀 Great | MacBook Pro (M4) | 2026-03-23 |
 | 🟠 | Asura's Wrath | `43430817` | 📱 iOS | Loads | 🐢 Poor | iPhone 16 Pro Max | 2026-03-09 |
 | 🟠 | Avatar: The Last Airbender - The Burning Earth | `545107E1` | 📱 iOS | Loads | 🐢 Poor | iPhone 16 Pro Max | 2026-03-19 |
