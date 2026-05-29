@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-29T05:35:43.017Z",
+  "generatedAt": "2026-05-29T21:57:19.762Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -5855,8 +5855,31 @@
       "titleId": "4D5309C9",
       "issueNumber": 371,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/371",
-      "updatedAt": "2026-05-24",
+      "updatedAt": "2026-05-29",
       "entries": [
+        {
+          "id": "comment-4580180731",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/371#issuecomment-4580180731",
+          "author": "xenios-jp",
+          "createdAt": "2026-05-29",
+          "createdAtMs": 1780091702000,
+          "issueNumber": 371,
+          "excerpt": "Game just shows black screen.",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 14",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
         {
           "id": "comment-4527710674",
           "type": "comment",
@@ -5963,29 +5986,6 @@
             "status": "playable",
             "perf": "poor",
             "device": "iPhone 17 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "`056d2f64d`"
-          }
-        },
-        {
-          "id": "issue-247",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/247",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-14",
-          "createdAtMs": 1773446943000,
-          "issueNumber": 247,
-          "excerpt": "FPS stayed around 10",
-          "images": [],
-          "meta": {
-            "status": "ingame",
-            "perf": "poor",
-            "device": "iPhone 14 Pro Max",
             "platform": "iOS",
             "osVersion": "iOS 26.3.1",
             "gpuBackend": "MSL",
