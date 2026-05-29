@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-27T21:03:34.419Z",
+  "generatedAt": "2026-05-29T05:35:43.017Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2824,6 +2824,26 @@
           "createdAtMs": 1773517964000,
           "issueNumber": 263,
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
+          "images": [],
+          "meta": {}
+        }
+      ]
+    },
+    "454D07D2": {
+      "titleId": "454D07D2",
+      "issueNumber": 459,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/459",
+      "updatedAt": "2026-05-29",
+      "entries": [
+        {
+          "id": "issue-459",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/459",
+          "author": "Sevenbeatmeat",
+          "createdAt": "2026-05-29",
+          "createdAtMs": 1780032853000,
+          "issueNumber": 459,
+          "excerpt": "The intro video doesn't work (artifacts, subpixels, interference).\nThe menu, sound, and gamepad connection work perfectly. In dirt racing, it is very rare for there to be a short frame drop.",
           "images": [],
           "meta": {}
         }

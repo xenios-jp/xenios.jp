@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **292 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **293 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **110** · 🔵 In-Game: **61** · 🟡 Intro: **27** · 🟠 Loads: **43** · 🔴 Doesn't Boot: **51**
+> 🟢 Playable: **111** · 🔵 In-Game: **61** · 🟡 Intro: **27** · 🟠 Loads: **43** · 🔴 Doesn't Boot: **51**
 >
-> 📱 iOS: **264** · 🖥️ macOS: **49**
+> 📱 iOS: **264** · 🖥️ macOS: **50**
 
 ## Legend
 
@@ -53,6 +53,7 @@
 | 🟢 | Far Cry 2 | `55530810` | 📱 iOS | Playable | 🐢 Poor | iPhone 16 | 2026-03-10 |
 | 🟢 | Far Cry 3 | `5553088C` | 📱 iOS | Playable | 🐢 Poor | iPhone 16 | 2026-03-14 |
 | 🟢 | Final Fantasy XIII | `535107E4` | 📱 iOS | Playable | 👌 OK | iPhone 17 | 2026-03-18 |
+| 🟢 | FlatOut: Ultimate Carnage | `454D07D2` | 🖥️ macOS | Playable | 🚀 Great | Mac mini m4 16 256 | 2026-05-29 |
 | 🟢 | Forza Horizon | `4D5309C9` | 📱 iOS | Playable | 👌 OK | iPhone 16e | 2026-05-24 |
 | 🟢 | Forza Horizon 2 | `4D530AA4` | 📱 iOS | Playable | 👌 OK | iPad Pro 12.9-inch (M2) | 2026-05-15 |
 | 🟢 | Forza Motorsport 2 | `4D5307EA` | 📱 iOS | Playable | 🚀 Great | iPad Air 11-inch (M3) | 2026-03-20 |
