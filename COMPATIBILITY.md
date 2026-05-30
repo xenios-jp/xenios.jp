@@ -4,7 +4,7 @@
 >
 > 🟢 Playable: **111** · 🔵 In-Game: **61** · 🟡 Intro: **27** · 🟠 Loads: **43** · 🔴 Doesn't Boot: **51**
 >
-> 📱 iOS: **264** · 🖥️ macOS: **50**
+> 📱 iOS: **264** · 🖥️ macOS: **51**
 
 ## Legend
 
@@ -40,7 +40,7 @@
 | 🟢 | Condemned: Criminal Origins | `534507D2` | 📱 iOS | Playable | 👌 OK | iPhone 17 | 2026-04-22 |
 | 🟢 | DB: Raging Blast 2 | `4E4D0826` | 📱 iOS | Playable | 🐢 Poor | iPad Pro (M2) | 2026-03-03 |
 | 🟢 | Dead Island | `4B4D07DF` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-04-20 |
-| 🟢 | DEAD OR ALIVE 4 | `544307D1` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro | 2026-03-05 |
+| 🟢 | DEAD OR ALIVE 4 | `544307D1` | 📱 iOS, 🖥️ macOS | Playable | 🚀 Great | MacBook Pro M1 | 2026-05-30 |
 | 🟢 | Dead Space | `45410857` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro | 2026-03-03 |
 | 🟢 | Deadly Premonition | `4D5607D1` | 📱 iOS | Playable | 👌 OK | iPad (A16) | 2026-03-09 |
 | 🟢 | DOA5 Ultimate | `4B5607DA` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-17 |
