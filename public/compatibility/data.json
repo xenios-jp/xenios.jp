@@ -99544,25 +99544,46 @@
       "4D5389B9",
       "4D538A01"
     ],
-    "status": "ingame",
-    "perf": "ok",
+    "status": "playable",
+    "perf": "poor",
     "tags": [],
     "platforms": [
       "macos",
       "ios"
     ],
     "lastReport": {
-      "device": "M2 Mac mini",
-      "platform": "macos",
-      "osVersion": "26.3.1",
+      "device": "iPhone 17 Pro",
+      "platform": "ios",
+      "osVersion": "26.1",
       "arch": "arm64",
-      "gpuBackend": "msc"
+      "gpuBackend": "msl"
     },
-    "updatedAt": "2026-04-02",
+    "updatedAt": "2026-05-30",
     "issueNumber": 87,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/87",
-    "notes": "Audio in the intro sequence is heavily distorted and ear-piercingly loud, please be careful when opening the game.\n\nLike some other games, there are heavy graphical errors during intro sequences as well as during loading screens. The game froze quite a few times on the main menu before I was able to get into actual gameplay. During gameplay, performance is a *bit* sluggish with noticeable stutters here and there. The game performs much better in smaller areas and in HORDE mode from my testing. There are graphical glitches with the lighting and shadows, especially when paused.",
+    "notes": "Shaders looked wrong Marcus has a blue shade around him and emulation is really slow and audio is laggy",
     "reports": [
+      {
+        "device": "iPhone 17 Pro",
+        "platform": "ios",
+        "osVersion": "26.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "poor",
+        "date": "2026-05-30",
+        "notes": "Shaders looked wrong Marcus has a blue shade around him and emulation is really slow and audio is laggy",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "commitShort": "056d2f64d"
+        }
+      },
       {
         "device": "iPhone 15",
         "platform": "ios",
@@ -99623,22 +99644,22 @@
       },
       "all": {
         "channel": "all",
-        "status": "ingame",
-        "perf": "ok",
-        "notes": "Audio in the intro sequence is heavily distorted and ear-piercingly loud, please be careful when opening the game.\n\nLike some other games, there are heavy graphical errors during intro sequences as well as during loading screens. The game froze quite a few times on the main menu before I was able to get into actual gameplay. During gameplay, performance is a *bit* sluggish with noticeable stutters here and there. The game performs much better in smaller areas and in HORDE mode from my testing. There are graphical glitches with the lighting and shadows, especially when paused.",
-        "updatedAt": "2026-04-02",
-        "date": "2026-04-02",
-        "reportCount": 2,
+        "status": "playable",
+        "perf": "poor",
+        "notes": "Shaders looked wrong Marcus has a blue shade around him and emulation is really slow and audio is laggy",
+        "updatedAt": "2026-05-30",
+        "date": "2026-05-30",
+        "reportCount": 3,
         "latestReport": {
-          "device": "iPhone 15",
+          "device": "iPhone 17 Pro",
           "platform": "ios",
-          "osVersion": "26.2",
+          "osVersion": "26.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-04-02",
-          "notes": "crash",
+          "status": "playable",
+          "perf": "poor",
+          "date": "2026-05-30",
+          "notes": "Shaders looked wrong Marcus has a blue shade around him and emulation is really slow and audio is laggy",
           "screenshots": [],
           "source": "app",
           "build": {
@@ -99651,26 +99672,24 @@
           }
         },
         "bestReport": {
-          "device": "M2 Mac mini",
-          "platform": "macos",
-          "osVersion": "26.3.1",
+          "device": "iPhone 17 Pro",
+          "platform": "ios",
+          "osVersion": "26.1",
           "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "ingame",
-          "perf": "ok",
-          "date": "2026-03-08",
-          "notes": "Audio in the intro sequence is heavily distorted and ear-piercingly loud, please be careful when opening the game.\n\nLike some other games, there are heavy graphical errors during intro sequences as well as during loading screens. The game froze quite a few times on the main menu before I was able to get into actual gameplay. During gameplay, performance is a *bit* sluggish with noticeable stutters here and there. The game performs much better in smaller areas and in HORDE mode from my testing. There are graphical glitches with the lighting and shadows, especially when paused.",
-          "reportedTitleId": "4D5308AB",
-          "reportedTitle": "Gears of War 3",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "poor",
+          "date": "2026-05-30",
+          "notes": "Shaders looked wrong Marcus has a blue shade around him and emulation is really slow and audio is laggy",
           "screenshots": [],
-          "source": "github",
+          "source": "app",
           "build": {
-            "buildId": "macos-self-built-1.0.0-9280",
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633E8177"
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
           }
         }
       }
