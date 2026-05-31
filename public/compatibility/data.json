@@ -105926,174 +105926,109 @@
     "titleIds": [
       "434D07FF"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
     "platforms": [
-      "macos"
+      "ios"
     ],
     "lastReport": {
-      "device": "MacBook Air 1",
-      "platform": "macos",
-      "osVersion": "26.3.1",
+      "device": "iPhone 16 Pro",
+      "platform": "ios",
+      "osVersion": "26.5",
       "arch": "arm64",
-      "gpuBackend": "msc"
+      "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-21",
-    "issueNumber": 311,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/311",
-    "notes": "It displays the game logo for 1 second and then crashes.",
+    "updatedAt": "2026-05-31",
+    "issueNumber": 461,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/461",
+    "notes": "- Good Performance\n- No visual glitches \n- Messed up Audio in races, but perfect in menus.\n\n23-25 FPS with screen recording\n23-30 FPS without screen recording(30 FPS cap)",
     "reports": [
       {
-        "device": "MacBook Air 1",
-        "platform": "macos",
-        "osVersion": "26.3.1",
+        "device": "iPhone 16 Pro",
+        "platform": "ios",
+        "osVersion": "26.5",
         "arch": "arm64",
-        "gpuBackend": "msc",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-03-21",
-        "notes": "It displays the game logo for 1 second and then crashes.",
-        "reportedTitleId": "434D07FF",
-        "reportedTitle": "GRID",
-        "screenshots": [
-          "https://github.com/user-attachments/assets/504fcaaa-398a-4577-9ea7-b654c212c2b0"
-        ],
-        "submittedBy": "GonnaMakeMeTweak",
-        "source": "github",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-05-31",
+        "notes": "- Good Performance\n- No visual glitches \n- Messed up Audio in races, but perfect in menus.\n\n23-25 FPS with screen recording\n23-30 FPS without screen recording(30 FPS cap)",
+        "screenshots": [],
+        "source": "app",
         "build": {
-          "buildId": "macos-release-1.0.1-9288",
-          "channel": "release",
-          "official": true,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056D2F64D"
+          "buildId": "ios-self-built-1.0.0-0",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "0",
+          "commitShort": "4784e00e2"
         }
       }
     ],
     "screenshots": [
-      "https://github.com/user-attachments/assets/504fcaaa-398a-4577-9ea7-b654c212c2b0"
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/434D07FF/1780242636065-1.jpg"
     ],
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "It displays the game logo for 1 second and then crashes.",
-        "updatedAt": "2026-03-21",
-        "date": "2026-03-21",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "MacBook Air 1",
-          "platform": "macos",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-21",
-          "notes": "It displays the game logo for 1 second and then crashes.",
-          "reportedTitleId": "434D07FF",
-          "reportedTitle": "GRID",
-          "screenshots": [
-            "https://github.com/user-attachments/assets/504fcaaa-398a-4577-9ea7-b654c212c2b0"
-          ],
-          "submittedBy": "GonnaMakeMeTweak",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056D2F64D"
-          }
-        },
-        "bestReport": {
-          "device": "MacBook Air 1",
-          "platform": "macos",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-21",
-          "notes": "It displays the game logo for 1 second and then crashes.",
-          "reportedTitleId": "434D07FF",
-          "reportedTitle": "GRID",
-          "screenshots": [
-            "https://github.com/user-attachments/assets/504fcaaa-398a-4577-9ea7-b654c212c2b0"
-          ],
-          "submittedBy": "GonnaMakeMeTweak",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056D2F64D"
-          }
-        }
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "date": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
       },
       "all": {
         "channel": "all",
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "It displays the game logo for 1 second and then crashes.",
-        "updatedAt": "2026-03-21",
-        "date": "2026-03-21",
+        "status": "playable",
+        "perf": "great",
+        "notes": "- Good Performance\n- No visual glitches \n- Messed up Audio in races, but perfect in menus.\n\n23-25 FPS with screen recording\n23-30 FPS without screen recording(30 FPS cap)",
+        "updatedAt": "2026-05-31",
+        "date": "2026-05-31",
         "reportCount": 1,
         "latestReport": {
-          "device": "MacBook Air 1",
-          "platform": "macos",
-          "osVersion": "26.3.1",
+          "device": "iPhone 16 Pro",
+          "platform": "ios",
+          "osVersion": "26.5",
           "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-21",
-          "notes": "It displays the game logo for 1 second and then crashes.",
-          "reportedTitleId": "434D07FF",
-          "reportedTitle": "GRID",
-          "screenshots": [
-            "https://github.com/user-attachments/assets/504fcaaa-398a-4577-9ea7-b654c212c2b0"
-          ],
-          "submittedBy": "GonnaMakeMeTweak",
-          "source": "github",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-05-31",
+          "notes": "- Good Performance\n- No visual glitches \n- Messed up Audio in races, but perfect in menus.\n\n23-25 FPS with screen recording\n23-30 FPS without screen recording(30 FPS cap)",
+          "screenshots": [],
+          "source": "app",
           "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056D2F64D"
+            "buildId": "ios-self-built-1.0.0-0",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "0",
+            "commitShort": "4784e00e2"
           }
         },
         "bestReport": {
-          "device": "MacBook Air 1",
-          "platform": "macos",
-          "osVersion": "26.3.1",
+          "device": "iPhone 16 Pro",
+          "platform": "ios",
+          "osVersion": "26.5",
           "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-21",
-          "notes": "It displays the game logo for 1 second and then crashes.",
-          "reportedTitleId": "434D07FF",
-          "reportedTitle": "GRID",
-          "screenshots": [
-            "https://github.com/user-attachments/assets/504fcaaa-398a-4577-9ea7-b654c212c2b0"
-          ],
-          "submittedBy": "GonnaMakeMeTweak",
-          "source": "github",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-05-31",
+          "notes": "- Good Performance\n- No visual glitches \n- Messed up Audio in races, but perfect in menus.\n\n23-25 FPS with screen recording\n23-30 FPS without screen recording(30 FPS cap)",
+          "screenshots": [],
+          "source": "app",
           "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056D2F64D"
+            "buildId": "ios-self-built-1.0.0-0",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "0",
+            "commitShort": "4784e00e2"
           }
         }
       }

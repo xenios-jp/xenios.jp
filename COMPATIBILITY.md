@@ -2,9 +2,9 @@
 
 > **293 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **112** · 🔵 In-Game: **60** · 🟡 Intro: **27** · 🟠 Loads: **43** · 🔴 Doesn't Boot: **51**
+> 🟢 Playable: **113** · 🔵 In-Game: **60** · 🟡 Intro: **27** · 🟠 Loads: **43** · 🔴 Doesn't Boot: **50**
 >
-> 📱 iOS: **264** · 🖥️ macOS: **51**
+> 📱 iOS: **265** · 🖥️ macOS: **50**
 
 ## Legend
 
@@ -64,6 +64,7 @@
 | 🟢 | Geometry Wars Evolved | `584107ED` | 📱 iOS | Playable | 🚀 Great | iPhone 13 | 2026-03-10 |
 | 🟢 | GoldenEye: 007 Reloaded | `415608AF` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-05-09 |
 | 🟢 | Grand Theft Auto V | `545408A7` | 📱 iOS | Playable | 🐢 Poor | iPhone 17 Pro Max | 2026-05-24 |
+| 🟢 | GRID | `434D07FF` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro | 2026-05-31 |
 | 🟢 | Guacamelee Super Turbo Championship Edition | `58411446` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-03 |
 | 🟢 | Guitar Hero Aerosmith | `41560819` | 📱 iOS, 🖥️ macOS | Playable | 👌 OK | iPhone 13 mini | 2026-03-22 |
 | 🟢 | Guitar Hero II | `415607E7` | 📱 iOS, 🖥️ macOS | Playable | 👌 OK | iPhone 13 mini | 2026-03-22 |
@@ -279,7 +280,6 @@
 | 🔴 | FIFA 15 | `454109DB` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Pro 13-inch (M4) | 2026-03-13 |
 | 🔴 | Fight Night Champion | `45410915` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Pro (M2) | 2026-03-03 |
 | 🔴 | Forza Horizon 2 Presents Fast & Furious | `4D530AB5` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad 10 | 2026-03-08 |
-| 🔴 | GRID | `434D07FF` | 🖥️ macOS | Doesn't Boot | ➖ N/A | MacBook Air 1 | 2026-03-21 |
 | 🔴 | Harry Potter and the Deathly Hallows: Part 1 | `454108F9` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 | 2026-04-16 |
 | 🔴 | Harry Potter and the Half-Blood Prince | `454107FA` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 | 2026-04-16 |
 | 🔴 | Left 4 Dead 2 | `454108D4` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Air 4 | 2026-03-13 |
