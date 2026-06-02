@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-31T19:22:26.081Z",
+  "generatedAt": "2026-06-02T23:35:30.924Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -805,10 +805,22 @@
     },
     "45410809": {
       "titleId": "45410809",
-      "issueNumber": 414,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/414",
-      "updatedAt": "2026-04-13",
+      "issueNumber": 98,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/98",
+      "updatedAt": "2026-06-02",
       "entries": [
+        {
+          "id": "issue-463",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/463",
+          "author": "charbinkso",
+          "createdAt": "2026-06-02",
+          "createdAtMs": 1780443219000,
+          "issueNumber": 463,
+          "excerpt": "During cutscenes, everything is a mess. The audio works fine in cutscenes, while somtimes stopping to sync back up with the cutscene. This could be happening because the cutscenes are a video. In real gameplay, it runs very smoothly.",
+          "images": [],
+          "meta": {}
+        },
         {
           "id": "issue-414",
           "type": "issue",
