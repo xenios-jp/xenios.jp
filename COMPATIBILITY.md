@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **293 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **294 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **113** · 🔵 In-Game: **60** · 🟡 Intro: **27** · 🟠 Loads: **43** · 🔴 Doesn't Boot: **50**
+> 🟢 Playable: **113** · 🔵 In-Game: **60** · 🟡 Intro: **27** · 🟠 Loads: **43** · 🔴 Doesn't Boot: **51**
 >
-> 📱 iOS: **265** · 🖥️ macOS: **50**
+> 📱 iOS: **265** · 🖥️ macOS: **51**
 
 ## Legend
 
@@ -311,6 +311,7 @@
 | 🔴 | Transformers: War for Cybertron | `4156084C` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-26 |
 | 🔴 | WWE 2k14 | `545408B2` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 | 2026-03-25 |
 | 🔴 | WWE 2K15 | `545408B6` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro Max | 2026-03-11 |
+| 🔴 | WWE 2K17 | `545408BA` | 🖥️ macOS | Doesn't Boot | ➖ N/A | MacBook Pro M1 | 2026-05-31 |
 | 🔴 | X-Men Origins: Wolverine | `41560816` | 🖥️ macOS | Doesn't Boot | ➖ N/A | MacBook Pro (M1) | 2026-04-12 |
 | 🔴 | お姉チャンバラZ ～カグラ～ | `445007F4` | 🖥️ macOS | Doesn't Boot | ➖ N/A | MacBook Pro (M1) | 2026-04-12 |
 

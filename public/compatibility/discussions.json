@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-31T15:52:04.148Z",
+  "generatedAt": "2026-05-31T19:22:26.081Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2824,6 +2824,26 @@
           "createdAtMs": 1773517964000,
           "issueNumber": 263,
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
+          "images": [],
+          "meta": {}
+        }
+      ]
+    },
+    "545408BA": {
+      "titleId": "545408BA",
+      "issueNumber": 462,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/462",
+      "updatedAt": "2026-05-31",
+      "entries": [
+        {
+          "id": "issue-462",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/462",
+          "author": "beastmodelives",
+          "createdAt": "2026-05-31",
+          "createdAtMs": 1780255238000,
+          "issueNumber": 462,
+          "excerpt": "The game immediately freezes after the loading icon barely pops up, making you see the black screen the whole time.",
           "images": [],
           "meta": {}
         }
