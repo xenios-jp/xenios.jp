@@ -79026,15 +79026,52 @@
       "4541897D",
       "4541097F"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "playable",
+    "perf": "ok",
     "tags": [],
-    "platforms": [],
-    "lastReport": null,
-    "updatedAt": "",
-    "notes": "",
-    "reports": [],
-    "screenshots": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 16e",
+      "platform": "ios",
+      "osVersion": "26.4.2",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-06-03",
+    "issueNumber": 464,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/464",
+    "notes": "The game loads and is playable on XeniOS. Minor texture inaccuracies, visual artifacts, and occasional graphical errors are present. Performance is poor, with significant lag and extremely low FPS throughout gameplay. Despite these issues, the game remains functional and can be played.",
+    "reports": [
+      {
+        "device": "iPhone 16e",
+        "platform": "ios",
+        "osVersion": "26.4.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-06-03",
+        "notes": "The game loads and is playable on XeniOS. Minor texture inaccuracies, visual artifacts, and occasional graphical errors are present. Performance is poor, with significant lag and extremely low FPS throughout gameplay. Despite these issues, the game remains functional and can be played.",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.0-0",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "0",
+          "commitShort": "39be0d65a"
+        }
+      }
+    ],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4541097B/1780445277556-1.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4541097B/1780445277556-2.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4541097B/1780445277556-3.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4541097B/1780445277556-4.jpg"
+    ],
     "summaries": {
       "release": {
         "channel": "release",
@@ -79049,14 +79086,54 @@
       },
       "all": {
         "channel": "all",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "playable",
+        "perf": "ok",
+        "notes": "The game loads and is playable on XeniOS. Minor texture inaccuracies, visual artifacts, and occasional graphical errors are present. Performance is poor, with significant lag and extremely low FPS throughout gameplay. Despite these issues, the game remains functional and can be played.",
+        "updatedAt": "2026-06-03",
+        "date": "2026-06-03",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 16e",
+          "platform": "ios",
+          "osVersion": "26.4.2",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-06-03",
+          "notes": "The game loads and is playable on XeniOS. Minor texture inaccuracies, visual artifacts, and occasional graphical errors are present. Performance is poor, with significant lag and extremely low FPS throughout gameplay. Despite these issues, the game remains functional and can be played.",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.0-0",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "0",
+            "commitShort": "39be0d65a"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 16e",
+          "platform": "ios",
+          "osVersion": "26.4.2",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-06-03",
+          "notes": "The game loads and is playable on XeniOS. Minor texture inaccuracies, visual artifacts, and occasional graphical errors are present. Performance is poor, with significant lag and extremely low FPS throughout gameplay. Despite these issues, the game remains functional and can be played.",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.0-0",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "0",
+            "commitShort": "39be0d65a"
+          }
+        }
       }
     }
   },
@@ -236242,23 +236319,44 @@
       "45410809"
     ],
     "status": "playable",
-    "perf": "ok",
+    "perf": "great",
     "tags": [],
     "platforms": [
-      "ios"
+      "ios",
+      "macos"
     ],
     "lastReport": {
-      "device": "iPhone Air",
-      "platform": "ios",
-      "osVersion": "26.0",
+      "device": "Macbook Neo",
+      "platform": "macos",
+      "osVersion": "26.5",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-08",
+    "updatedAt": "2026-06-02",
     "issueNumber": 98,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/98",
-    "notes": "So when watching the cutscenes it's basically a mess there's way to much graphical errors and it's literally unwatchable the audio is super buggy when getting in game and i get 20-30 FPS but this is one of the phew games that aren't super bad all the shaders and assets load up relatively fast compared to other games and it's kinda playable just forget about the audio",
+    "notes": "During cutscenes, everything is a mess. The audio works fine in cutscenes, while somtimes stopping to sync back up with the cutscene. This could be happening because the cutscenes are a video. In real gameplay, it runs very smoothly.",
     "reports": [
+      {
+        "device": "Macbook Neo",
+        "platform": "macos",
+        "osVersion": "26.5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-06-02",
+        "notes": "During cutscenes, everything is a mess. The audio works fine in cutscenes, while somtimes stopping to sync back up with the cutscene. This could be happening because the cutscenes are a video. In real gameplay, it runs very smoothly.",
+        "screenshots": [],
+        "source": "github",
+        "build": {
+          "buildId": "macos-release-1.01-9288",
+          "channel": "release",
+          "official": true,
+          "appVersion": "1.01",
+          "buildNumber": "9288"
+        }
+      },
       {
         "device": "iPhone Air",
         "platform": "ios",
@@ -236290,67 +236388,99 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "playable",
+        "perf": "great",
+        "notes": "During cutscenes, everything is a mess. The audio works fine in cutscenes, while somtimes stopping to sync back up with the cutscene. This could be happening because the cutscenes are a video. In real gameplay, it runs very smoothly.",
+        "updatedAt": "2026-06-02",
+        "date": "2026-06-02",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "Macbook Neo",
+          "platform": "macos",
+          "osVersion": "26.5",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-06-02",
+          "notes": "During cutscenes, everything is a mess. The audio works fine in cutscenes, while somtimes stopping to sync back up with the cutscene. This could be happening because the cutscenes are a video. In real gameplay, it runs very smoothly.",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-1.01-9288",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.01",
+            "buildNumber": "9288"
+          }
+        },
+        "bestReport": {
+          "device": "Macbook Neo",
+          "platform": "macos",
+          "osVersion": "26.5",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-06-02",
+          "notes": "During cutscenes, everything is a mess. The audio works fine in cutscenes, while somtimes stopping to sync back up with the cutscene. This could be happening because the cutscenes are a video. In real gameplay, it runs very smoothly.",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-1.01-9288",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.01",
+            "buildNumber": "9288"
+          }
+        }
       },
       "all": {
         "channel": "all",
         "status": "playable",
-        "perf": "ok",
-        "notes": "So when watching the cutscenes it's basically a mess there's way to much graphical errors and it's literally unwatchable the audio is super buggy when getting in game and i get 20-30 FPS but this is one of the phew games that aren't super bad all the shaders and assets load up relatively fast compared to other games and it's kinda playable just forget about the audio",
-        "updatedAt": "2026-03-08",
-        "date": "2026-03-08",
-        "reportCount": 1,
+        "perf": "great",
+        "notes": "During cutscenes, everything is a mess. The audio works fine in cutscenes, while somtimes stopping to sync back up with the cutscene. This could be happening because the cutscenes are a video. In real gameplay, it runs very smoothly.",
+        "updatedAt": "2026-06-02",
+        "date": "2026-06-02",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone Air",
-          "platform": "ios",
-          "osVersion": "26.0",
+          "device": "Macbook Neo",
+          "platform": "macos",
+          "osVersion": "26.5",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
-          "perf": "ok",
-          "date": "2026-03-08",
-          "notes": "So when watching the cutscenes it's basically a mess there's way to much graphical errors and it's literally unwatchable the audio is super buggy when getting in game and i get 20-30 FPS but this is one of the phew games that aren't super bad all the shaders and assets load up relatively fast compared to other games and it's kinda playable just forget about the audio",
-          "reportedTitleId": "45410809",
-          "reportedTitle": "The Simpsons™ Game",
+          "perf": "great",
+          "date": "2026-06-02",
+          "notes": "During cutscenes, everything is a mess. The audio works fine in cutscenes, while somtimes stopping to sync back up with the cutscene. This could be happening because the cutscenes are a video. In real gameplay, it runs very smoothly.",
           "screenshots": [],
           "source": "github",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633E8177"
+            "buildId": "macos-release-1.01-9288",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.01",
+            "buildNumber": "9288"
           }
         },
         "bestReport": {
-          "device": "iPhone Air",
-          "platform": "ios",
-          "osVersion": "26.0",
+          "device": "Macbook Neo",
+          "platform": "macos",
+          "osVersion": "26.5",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
-          "perf": "ok",
-          "date": "2026-03-08",
-          "notes": "So when watching the cutscenes it's basically a mess there's way to much graphical errors and it's literally unwatchable the audio is super buggy when getting in game and i get 20-30 FPS but this is one of the phew games that aren't super bad all the shaders and assets load up relatively fast compared to other games and it's kinda playable just forget about the audio",
-          "reportedTitleId": "45410809",
-          "reportedTitle": "The Simpsons™ Game",
+          "perf": "great",
+          "date": "2026-06-02",
+          "notes": "During cutscenes, everything is a mess. The audio works fine in cutscenes, while somtimes stopping to sync back up with the cutscene. This could be happening because the cutscenes are a video. In real gameplay, it runs very smoothly.",
           "screenshots": [],
           "source": "github",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633E8177"
+            "buildId": "macos-release-1.01-9288",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.01",
+            "buildNumber": "9288"
           }
         }
       }

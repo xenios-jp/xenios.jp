@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-02T23:35:30.924Z",
+  "generatedAt": "2026-06-03T00:09:33.420Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -809,18 +809,6 @@
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/98",
       "updatedAt": "2026-06-02",
       "entries": [
-        {
-          "id": "issue-463",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/463",
-          "author": "charbinkso",
-          "createdAt": "2026-06-02",
-          "createdAtMs": 1780443219000,
-          "issueNumber": 463,
-          "excerpt": "During cutscenes, everything is a mess. The audio works fine in cutscenes, while somtimes stopping to sync back up with the cutscene. This could be happening because the cutscenes are a video. In real gameplay, it runs very smoothly.",
-          "images": [],
-          "meta": {}
-        },
         {
           "id": "issue-414",
           "type": "issue",
@@ -2838,6 +2826,42 @@
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
           "images": [],
           "meta": {}
+        }
+      ]
+    },
+    "4541097B": {
+      "titleId": "4541097B",
+      "issueNumber": 464,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/464",
+      "updatedAt": "2026-06-03",
+      "entries": [
+        {
+          "id": "issue-464",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/464",
+          "author": "xenios-jp",
+          "createdAt": "2026-06-03",
+          "createdAtMs": 1780445287000,
+          "issueNumber": 464,
+          "excerpt": "The game loads and is playable on XeniOS. Minor texture inaccuracies, visual artifacts, and occasional graphical errors are present. Performance is poor, with significant lag and extremely low FPS throughout gameplay. Despite these issues, the game remains functional and can be played.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4541097B/1780445277556-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4541097B/1780445277556-2.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4541097B/1780445277556-3.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4541097B/1780445277556-4.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 16e",
+            "platform": "iOS",
+            "osVersion": "iOS 26.4.2",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "0",
+            "commitShort": "`39be0d65a`"
+          }
         }
       ]
     },
