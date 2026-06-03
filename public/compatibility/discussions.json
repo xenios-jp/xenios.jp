@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-03T20:24:17.513Z",
+  "generatedAt": "2026-06-03T21:32:50.107Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -4954,8 +4954,31 @@
       "titleId": "545407F2",
       "issueNumber": 392,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/392",
-      "updatedAt": "2026-04-05",
+      "updatedAt": "2026-06-03",
       "entries": [
+        {
+          "id": "comment-4616880946",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/392#issuecomment-4616880946",
+          "author": "xenios-jp",
+          "createdAt": "2026-06-03",
+          "createdAtMs": 1780522212000,
+          "issueNumber": 392,
+          "excerpt": "Endless loading of the first mission after starting",
+          "images": [],
+          "meta": {
+            "status": "intro",
+            "perf": "poor",
+            "device": "iPhone 14 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 26.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
         {
           "id": "comment-4188766418",
           "type": "comment",
@@ -5064,29 +5087,6 @@
             "device": "iPhone11,6",
             "platform": "iOS",
             "osVersion": "iOS 16.4",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "`056d2f64d`"
-          }
-        },
-        {
-          "id": "comment-4082908345",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/266#issuecomment-4082908345",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-18",
-          "createdAtMs": 1773843395000,
-          "issueNumber": 266,
-          "excerpt": "Stuck at loading intro mission",
-          "images": [],
-          "meta": {
-            "status": "intro",
-            "perf": "ok",
-            "device": "iPhone 15 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3.1",
             "gpuBackend": "MSL",
             "buildChannel": "self-built",
             "appVersion": "1.0.1",

@@ -104219,11 +104219,33 @@
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-04-05",
+    "updatedAt": "2026-06-03",
     "issueNumber": 41,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/41",
     "notes": "Surprised it actually ran on the device, sometimes crashes ingame, around 15fps 20 fps at most, the device could do much better obviously",
     "reports": [
+      {
+        "device": "iPhone 14 Pro",
+        "platform": "ios",
+        "osVersion": "26.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "intro",
+        "perf": "poor",
+        "date": "2026-06-03",
+        "notes": "Endless loading of the first mission after starting",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "stage": "stable",
+          "commitShort": "056d2f64d"
+        }
+      },
       {
         "device": "iPhone 13 Pro",
         "platform": "ios",
@@ -104455,19 +104477,19 @@
         "status": "ingame",
         "perf": "ok",
         "notes": "Surprised it actually ran on the device, sometimes crashes ingame, around 15fps 20 fps at most, the device could do much better obviously",
-        "updatedAt": "2026-04-05",
-        "date": "2026-04-05",
-        "reportCount": 8,
+        "updatedAt": "2026-06-03",
+        "date": "2026-06-03",
+        "reportCount": 9,
         "latestReport": {
-          "device": "iPhone 13 Pro",
+          "device": "iPhone 14 Pro",
           "platform": "ios",
-          "osVersion": "18.7.7",
+          "osVersion": "26.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "ok",
-          "date": "2026-04-05",
-          "notes": "Surprised it actually ran on the device, sometimes crashes ingame, around 15fps 20 fps at most, the device could do much better obviously",
+          "status": "intro",
+          "perf": "poor",
+          "date": "2026-06-03",
+          "notes": "Endless loading of the first mission after starting",
           "screenshots": [],
           "source": "app",
           "build": {
@@ -104476,6 +104498,7 @@
             "official": false,
             "appVersion": "1.0.1",
             "buildNumber": "9288",
+            "stage": "stable",
             "commitShort": "056d2f64d"
           }
         },
