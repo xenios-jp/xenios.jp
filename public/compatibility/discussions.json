@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-03T00:09:33.420Z",
+  "generatedAt": "2026-06-03T00:15:12.724Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -5904,8 +5904,33 @@
       "titleId": "434D082D",
       "issueNumber": 376,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/376",
-      "updatedAt": "2026-03-29",
+      "updatedAt": "2026-06-03",
       "entries": [
+        {
+          "id": "comment-4607991843",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/376#issuecomment-4607991843",
+          "author": "xenios-jp",
+          "createdAt": "2026-06-03",
+          "createdAtMs": 1780445509000,
+          "issueNumber": 376,
+          "excerpt": "The game loads successfully and is playable on XeniOS. Minor graphical artifacts, texture inaccuracies, and visual glitches are present during gameplay. Performance is generally low, with consistently low FPS and noticeable lag. Despite these issues, the game runs and remains functional for gameplay",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/434D082D/1780445504713-1.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "poor",
+            "device": "iPhone 16e",
+            "platform": "iOS",
+            "osVersion": "iOS 26.4.2",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "0",
+            "commitShort": "`39be0d65a`"
+          }
+        },
         {
           "id": "issue-376",
           "type": "issue",
