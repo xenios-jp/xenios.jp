@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-03T00:15:12.724Z",
+  "generatedAt": "2026-06-03T20:24:17.513Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2826,6 +2826,60 @@
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
           "images": [],
           "meta": {}
+        }
+      ]
+    },
+    "5553083B": {
+      "titleId": "5553083B",
+      "issueNumber": 466,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/466",
+      "updatedAt": "2026-06-03",
+      "entries": [
+        {
+          "id": "issue-466",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/466",
+          "author": "xenios-jp",
+          "createdAt": "2026-06-03",
+          "createdAtMs": 1780518163000,
+          "issueNumber": 466,
+          "excerpt": "Black screen",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 14 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 26.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
+        {
+          "id": "issue-209",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/209",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-11",
+          "createdAtMs": 1773253740000,
+          "issueNumber": 209,
+          "excerpt": "Loads everything really well up until the point when you press start at the title screen, which triggers it to crash the game.",
+          "images": [],
+          "meta": {
+            "status": "intro",
+            "perf": "ok",
+            "device": "iPhone 15 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 18.7",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
         }
       ]
     },
@@ -10830,37 +10884,6 @@
             "appVersion": "1.0.0",
             "buildNumber": "9296",
             "commitShort": "`ab2ca341a`"
-          }
-        }
-      ]
-    },
-    "5553083B": {
-      "titleId": "5553083B",
-      "issueNumber": 209,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/209",
-      "updatedAt": "2026-03-11",
-      "entries": [
-        {
-          "id": "issue-209",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/209",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-11",
-          "createdAtMs": 1773253740000,
-          "issueNumber": 209,
-          "excerpt": "Loads everything really well up until the point when you press start at the title screen, which triggers it to crash the game.",
-          "images": [],
-          "meta": {
-            "status": "intro",
-            "perf": "ok",
-            "device": "iPhone 15 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 18.7",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "`2633e8177`"
           }
         }
       ]
