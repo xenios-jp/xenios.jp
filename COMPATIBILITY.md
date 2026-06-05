@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **296 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **297 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **116** · 🔵 In-Game: **59** · 🟡 Intro: **26** · 🟠 Loads: **43** · 🔴 Doesn't Boot: **52**
+> 🟢 Playable: **117** · 🔵 In-Game: **59** · 🟡 Intro: **26** · 🟠 Loads: **43** · 🔴 Doesn't Boot: **52**
 >
-> 📱 iOS: **267** · 🖥️ macOS: **51**
+> 📱 iOS: **268** · 🖥️ macOS: **51**
 
 ## Legend
 
@@ -54,6 +54,7 @@
 | 🟢 | Family Guy: Back To The Multiverse | `415608C5` | 📱 iOS | Playable | 👌 OK | iPad Mini (A17 Pro) | 2026-03-13 |
 | 🟢 | Far Cry 2 | `55530810` | 📱 iOS | Playable | 🐢 Poor | iPhone 16 | 2026-03-10 |
 | 🟢 | Far Cry 3 | `5553088C` | 📱 iOS | Playable | 🐢 Poor | iPhone 16 | 2026-03-14 |
+| 🟢 | FIFA 09 | `4541085B` | 📱 iOS | Playable | 🚀 Great | iPhone 16e | 2026-06-05 |
 | 🟢 | Final Fantasy XIII | `535107E4` | 📱 iOS | Playable | 👌 OK | iPhone 17 | 2026-03-18 |
 | 🟢 | FlatOut: Ultimate Carnage | `454D07D2` | 🖥️ macOS | Playable | 🚀 Great | Mac mini m4 16 256 | 2026-05-29 |
 | 🟢 | Forza Horizon | `4D5309C9` | 📱 iOS | Playable | 👌 OK | iPhone 16e | 2026-05-29 |
