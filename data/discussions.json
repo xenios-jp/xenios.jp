@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-05T05:30:11.309Z",
+  "generatedAt": "2026-06-05T10:59:25.046Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2846,6 +2846,80 @@
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
           "images": [],
           "meta": {}
+        }
+      ]
+    },
+    "4D53085B": {
+      "titleId": "4D53085B",
+      "issueNumber": 469,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/469",
+      "updatedAt": "2026-06-05",
+      "entries": [
+        {
+          "id": "issue-469",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/469",
+          "author": "xenios-jp",
+          "createdAt": "2026-06-05",
+          "createdAtMs": 1780657074000,
+          "issueNumber": 469,
+          "excerpt": "Pretty awesome playing Halo Reach on iPad :)",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4D53085B/1780657069221-1.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPad Pro 13-inch (M5)",
+            "platform": "iOS",
+            "osVersion": "iOS 26.2",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "0",
+            "commitShort": "`b2d36f3f1`"
+          }
+        },
+        {
+          "id": "comment-4015744902",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/4#issuecomment-4015744902",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-06",
+          "createdAtMs": 1772811941000,
+          "issueNumber": 4,
+          "excerpt": "Severe graphical issues rendering the game unplayable. Performance also extremely poor.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/xenios.jp/main/public/compatibility/screenshots/4D53085B/1772811936606-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/xenios.jp/main/public/compatibility/screenshots/4D53085B/1772811936606-2.jpg"
+          ],
+          "meta": {
+            "status": "ingame",
+            "perf": "poor",
+            "device": "iPhone 17",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL"
+          }
+        },
+        {
+          "id": "issue-4",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/4",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-06",
+          "createdAtMs": 1772809246000,
+          "issueNumber": 4,
+          "excerpt": "Loads into firefight but extreme graphical issues to the point that the game is unplayable.",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "poor",
+            "device": "iPhone 17",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL"
+          }
         }
       ]
     },
@@ -13312,55 +13386,6 @@
           "images": [
             "https://raw.githubusercontent.com/xenios-jp/xenios.jp/main/public/compatibility/screenshots/534307E7/1772813701653-1.jpg"
           ],
-          "meta": {
-            "status": "ingame",
-            "perf": "poor",
-            "device": "iPhone 17",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3",
-            "gpuBackend": "MSL"
-          }
-        }
-      ]
-    },
-    "4D53085B": {
-      "titleId": "4D53085B",
-      "issueNumber": 4,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/4",
-      "updatedAt": "2026-03-07",
-      "entries": [
-        {
-          "id": "comment-4015744902",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/4#issuecomment-4015744902",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-06",
-          "createdAtMs": 1772811941000,
-          "issueNumber": 4,
-          "excerpt": "Severe graphical issues rendering the game unplayable. Performance also extremely poor.",
-          "images": [
-            "https://raw.githubusercontent.com/xenios-jp/xenios.jp/main/public/compatibility/screenshots/4D53085B/1772811936606-1.jpg",
-            "https://raw.githubusercontent.com/xenios-jp/xenios.jp/main/public/compatibility/screenshots/4D53085B/1772811936606-2.jpg"
-          ],
-          "meta": {
-            "status": "ingame",
-            "perf": "poor",
-            "device": "iPhone 17",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3",
-            "gpuBackend": "MSL"
-          }
-        },
-        {
-          "id": "issue-4",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/4",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-06",
-          "createdAtMs": 1772809246000,
-          "issueNumber": 4,
-          "excerpt": "Loads into firefight but extreme graphical issues to the point that the game is unplayable.",
-          "images": [],
           "meta": {
             "status": "ingame",
             "perf": "poor",
