@@ -247657,37 +247657,144 @@
     "titleIds": [
       "54510851"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "ingame",
+    "perf": "poor",
     "tags": [],
-    "platforms": [],
-    "lastReport": null,
-    "updatedAt": "",
-    "notes": "",
-    "reports": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 16",
+      "platform": "ios",
+      "osVersion": "26.5 (iOS)",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-06-05",
+    "issueNumber": 468,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/468",
+    "notes": "Menus run fine, gameplay stutters on fighter intros then has slow gameplay with low fps.",
+    "reports": [
+      {
+        "device": "iPhone 16",
+        "platform": "ios",
+        "osVersion": "26.5 (iOS)",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "poor",
+        "date": "2026-06-05",
+        "notes": "Menus run fine, gameplay stutters on fighter intros then has slow gameplay with low fps.",
+        "screenshots": [],
+        "source": "github",
+        "build": {
+          "buildId": "ios-release-1.0.1-9288",
+          "channel": "release",
+          "official": true,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288"
+        }
+      }
+    ],
     "screenshots": [],
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "ingame",
+        "perf": "poor",
+        "notes": "Menus run fine, gameplay stutters on fighter intros then has slow gameplay with low fps.",
+        "updatedAt": "2026-06-05",
+        "date": "2026-06-05",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 16",
+          "platform": "ios",
+          "osVersion": "26.5 (iOS)",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-06-05",
+          "notes": "Menus run fine, gameplay stutters on fighter intros then has slow gameplay with low fps.",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-1.0.1-9288",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 16",
+          "platform": "ios",
+          "osVersion": "26.5 (iOS)",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-06-05",
+          "notes": "Menus run fine, gameplay stutters on fighter intros then has slow gameplay with low fps.",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-1.0.1-9288",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288"
+          }
+        }
       },
       "all": {
         "channel": "all",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "ingame",
+        "perf": "poor",
+        "notes": "Menus run fine, gameplay stutters on fighter intros then has slow gameplay with low fps.",
+        "updatedAt": "2026-06-05",
+        "date": "2026-06-05",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 16",
+          "platform": "ios",
+          "osVersion": "26.5 (iOS)",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-06-05",
+          "notes": "Menus run fine, gameplay stutters on fighter intros then has slow gameplay with low fps.",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-1.0.1-9288",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 16",
+          "platform": "ios",
+          "osVersion": "26.5 (iOS)",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-06-05",
+          "notes": "Menus run fine, gameplay stutters on fighter intros then has slow gameplay with low fps.",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-1.0.1-9288",
+            "channel": "release",
+            "official": true,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288"
+          }
+        }
       }
     }
   },

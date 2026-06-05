@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **295 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **296 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **115** · 🔵 In-Game: **59** · 🟡 Intro: **26** · 🟠 Loads: **43** · 🔴 Doesn't Boot: **52**
+> 🟢 Playable: **115** · 🔵 In-Game: **60** · 🟡 Intro: **26** · 🟠 Loads: **43** · 🔴 Doesn't Boot: **52**
 >
-> 📱 iOS: **266** · 🖥️ macOS: **51**
+> 📱 iOS: **267** · 🖥️ macOS: **51**
 
 ## Legend
 
@@ -192,6 +192,7 @@
 | 🔵 | Stranglehold | `4D5707D2` | 🖥️ macOS | In-Game | 🚀 Great | MacBook Pro (M1) | 2026-04-12 |
 | 🔵 | Tekken Tag Tournament 2 | `4E4D0859` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro Max | 2026-04-10 |
 | 🔵 | Tomb Raider Underworld | `534307EC` | 📱 iOS | In-Game | 👌 OK | iPhone 16 Pro Max | 2026-03-11 |
+| 🔵 | UFC Undisputed 2010 | `54510851` | 📱 iOS | In-Game | 🐢 Poor | iPhone 16 | 2026-06-05 |
 | 🔵 | Wallace and Gromit Episode 1 | `5841093C` | 🖥️ macOS | In-Game | 🚀 Great | MacBook Pro (M1) | 2026-04-12 |
 | 🔵 | WWE SmackDown! Vs Raw 2007 | `545107E0` | 📱 iOS | In-Game | 👌 OK | iPhone 17 | 2026-05-26 |
 | 🟡 | Assassins Creed III - Liberation HD | `584113FC` | 📱 iOS | Intro | 👌 OK | iPhone 15 | 2026-03-12 |

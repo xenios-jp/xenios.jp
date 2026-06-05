@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-03T21:32:50.107Z",
+  "generatedAt": "2026-06-05T05:30:11.309Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2249,6 +2249,26 @@
             "buildNumber": "9288",
             "commitShort": "`056d2f64d`"
           }
+        }
+      ]
+    },
+    "54510851": {
+      "titleId": "54510851",
+      "issueNumber": 468,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/468",
+      "updatedAt": "2026-06-05",
+      "entries": [
+        {
+          "id": "issue-468",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/468",
+          "author": "LeafyXX",
+          "createdAt": "2026-06-05",
+          "createdAtMs": 1780637325000,
+          "issueNumber": 468,
+          "excerpt": "Menus run fine, gameplay stutters on fighter intros then has slow gameplay with low fps.",
+          "images": [],
+          "meta": {}
         }
       ]
     },
