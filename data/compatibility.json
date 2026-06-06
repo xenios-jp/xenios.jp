@@ -49784,177 +49784,41 @@
     "titleIds": [
       "584108B7"
     ],
-    "status": "playable",
-    "perf": "great",
+    "status": "nothing",
+    "perf": "n/a",
     "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "Iphone 16 Pro Max",
-      "platform": "ios",
-      "osVersion": "iOS 26.3.1",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-03-11",
-    "issueNumber": 192,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/192",
-    "notes": "Game playable in almost perfect condition, sometimes audio wont work but restarting the app and restarting file may fix it. Cannot save because digital games have DRM and they cannot be unlocked as of yet",
-    "reports": [
-      {
-        "device": "Iphone 16 Pro Max",
-        "platform": "ios",
-        "osVersion": "iOS 26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "great",
-        "date": "2026-03-11",
-        "notes": "Game playable in almost perfect condition, sometimes audio wont work but restarting the app and restarting file may fix it. Cannot save because digital games have DRM and they cannot be unlocked as of yet",
-        "reportedTitleId": "584108B7",
-        "reportedTitle": "Castle Crashers",
-        "screenshots": [
-          "https://github.com/user-attachments/assets/822950f0-7f98-470c-a299-969873fcaca2",
-          "https://github.com/user-attachments/assets/df1d2c38-1a29-45e9-b91c-038b40aa634c"
-        ],
-        "submittedBy": "Theassassin2332",
-        "source": "github",
-        "build": {
-          "buildId": "ios-release-1.0.0-9290",
-          "channel": "release",
-          "official": true,
-          "appVersion": "1.0.0",
-          "buildNumber": "9290"
-        }
-      }
-    ],
+    "platforms": [],
+    "lastReport": null,
+    "updatedAt": "2026-06-06",
+    "issueNumber": 472,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/472",
+    "notes": "",
+    "reports": [],
     "screenshots": [
-      "https://github.com/user-attachments/assets/822950f0-7f98-470c-a299-969873fcaca2",
-      "https://github.com/user-attachments/assets/df1d2c38-1a29-45e9-b91c-038b40aa634c"
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584108B7/1780779832434-1.jpg"
     ],
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "playable",
-        "perf": "great",
-        "notes": "Game playable in almost perfect condition, sometimes audio wont work but restarting the app and restarting file may fix it. Cannot save because digital games have DRM and they cannot be unlocked as of yet",
-        "updatedAt": "2026-03-11",
-        "date": "2026-03-11",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "Iphone 16 Pro Max",
-          "platform": "ios",
-          "osVersion": "iOS 26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-03-11",
-          "notes": "Game playable in almost perfect condition, sometimes audio wont work but restarting the app and restarting file may fix it. Cannot save because digital games have DRM and they cannot be unlocked as of yet",
-          "reportedTitleId": "584108B7",
-          "reportedTitle": "Castle Crashers",
-          "screenshots": [
-            "https://github.com/user-attachments/assets/822950f0-7f98-470c-a299-969873fcaca2",
-            "https://github.com/user-attachments/assets/df1d2c38-1a29-45e9-b91c-038b40aa634c"
-          ],
-          "submittedBy": "Theassassin2332",
-          "source": "github",
-          "build": {
-            "buildId": "ios-release-1.0.0-9290",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.0",
-            "buildNumber": "9290"
-          }
-        },
-        "bestReport": {
-          "device": "Iphone 16 Pro Max",
-          "platform": "ios",
-          "osVersion": "iOS 26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-03-11",
-          "notes": "Game playable in almost perfect condition, sometimes audio wont work but restarting the app and restarting file may fix it. Cannot save because digital games have DRM and they cannot be unlocked as of yet",
-          "reportedTitleId": "584108B7",
-          "reportedTitle": "Castle Crashers",
-          "screenshots": [
-            "https://github.com/user-attachments/assets/822950f0-7f98-470c-a299-969873fcaca2",
-            "https://github.com/user-attachments/assets/df1d2c38-1a29-45e9-b91c-038b40aa634c"
-          ],
-          "submittedBy": "Theassassin2332",
-          "source": "github",
-          "build": {
-            "buildId": "ios-release-1.0.0-9290",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.0",
-            "buildNumber": "9290"
-          }
-        }
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "date": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
       },
       "all": {
         "channel": "all",
-        "status": "playable",
-        "perf": "great",
-        "notes": "Game playable in almost perfect condition, sometimes audio wont work but restarting the app and restarting file may fix it. Cannot save because digital games have DRM and they cannot be unlocked as of yet",
-        "updatedAt": "2026-03-11",
-        "date": "2026-03-11",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "Iphone 16 Pro Max",
-          "platform": "ios",
-          "osVersion": "iOS 26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-03-11",
-          "notes": "Game playable in almost perfect condition, sometimes audio wont work but restarting the app and restarting file may fix it. Cannot save because digital games have DRM and they cannot be unlocked as of yet",
-          "reportedTitleId": "584108B7",
-          "reportedTitle": "Castle Crashers",
-          "screenshots": [
-            "https://github.com/user-attachments/assets/822950f0-7f98-470c-a299-969873fcaca2",
-            "https://github.com/user-attachments/assets/df1d2c38-1a29-45e9-b91c-038b40aa634c"
-          ],
-          "submittedBy": "Theassassin2332",
-          "source": "github",
-          "build": {
-            "buildId": "ios-release-1.0.0-9290",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.0",
-            "buildNumber": "9290"
-          }
-        },
-        "bestReport": {
-          "device": "Iphone 16 Pro Max",
-          "platform": "ios",
-          "osVersion": "iOS 26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-03-11",
-          "notes": "Game playable in almost perfect condition, sometimes audio wont work but restarting the app and restarting file may fix it. Cannot save because digital games have DRM and they cannot be unlocked as of yet",
-          "reportedTitleId": "584108B7",
-          "reportedTitle": "Castle Crashers",
-          "screenshots": [
-            "https://github.com/user-attachments/assets/822950f0-7f98-470c-a299-969873fcaca2",
-            "https://github.com/user-attachments/assets/df1d2c38-1a29-45e9-b91c-038b40aa634c"
-          ],
-          "submittedBy": "Theassassin2332",
-          "source": "github",
-          "build": {
-            "buildId": "ios-release-1.0.0-9290",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.0",
-            "buildNumber": "9290"
-          }
-        }
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "date": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
       }
     }
   },

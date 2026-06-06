@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-06T02:46:08.233Z",
+  "generatedAt": "2026-06-06T21:05:56.443Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2844,6 +2844,51 @@
           "createdAtMs": 1773517964000,
           "issueNumber": 263,
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
+          "images": [],
+          "meta": {}
+        }
+      ]
+    },
+    "584108B7": {
+      "titleId": "584108B7",
+      "issueNumber": 472,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/472",
+      "updatedAt": "2026-06-06",
+      "entries": [
+        {
+          "id": "issue-472",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/472",
+          "author": "xenios-jp",
+          "createdAt": "2026-06-06",
+          "createdAtMs": 1780779835000,
+          "issueNumber": 472,
+          "excerpt": "Works very well on my iPhone 14 Pro very light game and you should try it if you want to test xenios. On version 2.0.0.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584108B7/1780779832434-1.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 14 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 26.2.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0",
+            "buildNumber": "9712",
+            "commitShort": "`358deaee5`"
+          }
+        },
+        {
+          "id": "issue-192",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/192",
+          "author": "Theassassin2332",
+          "createdAt": "2026-03-11",
+          "createdAtMs": 1773202359000,
+          "issueNumber": 192,
+          "excerpt": "Game playable in almost perfect condition, sometimes audio wont work but restarting the app and restarting file may fix it. Cannot save because digital games have DRM and they cannot be unlocked as of yet",
           "images": [],
           "meta": {}
         }
@@ -11158,26 +11203,6 @@
             "buildNumber": "9280",
             "commitShort": "`2633e8177`"
           }
-        }
-      ]
-    },
-    "584108B7": {
-      "titleId": "584108B7",
-      "issueNumber": 192,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/192",
-      "updatedAt": "2026-03-11",
-      "entries": [
-        {
-          "id": "issue-192",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/192",
-          "author": "Theassassin2332",
-          "createdAt": "2026-03-11",
-          "createdAtMs": 1773202359000,
-          "issueNumber": 192,
-          "excerpt": "Game playable in almost perfect condition, sometimes audio wont work but restarting the app and restarting file may fix it. Cannot save because digital games have DRM and they cannot be unlocked as of yet",
-          "images": [],
-          "meta": {}
         }
       ]
     },
