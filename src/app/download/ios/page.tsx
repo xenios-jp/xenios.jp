@@ -139,6 +139,7 @@ function BuildCard({
 
 export default function DownloadPage() {
   const latestRelease = getLatestBuild("ios", "release");
+  const latestPreview = getLatestBuild("ios", "preview");
   const historyCount = getBuildsHistory("all").filter((build) => build.platform === "ios").length;
   const releaseArtifact = latestRelease?.artifacts[0];
 
@@ -240,6 +241,15 @@ export default function DownloadPage() {
               build={latestRelease}
               emptyMessage="Publish data/release-builds.json to surface the current public iPhone / iPad build."
             />
+            {latestPreview ? (
+              <div className="mt-6">
+                <BuildCard
+                  title="Preview"
+                  build={latestPreview}
+                  emptyMessage="Preview publish data is not available yet."
+                />
+              </div>
+            ) : null}
           </div>
         </div>
       </section>
@@ -252,8 +262,9 @@ export default function DownloadPage() {
                 Before you install
               </h2>
               <p className="mt-1 text-sm text-text-secondary">
-                Check the tested baseline first so you do not troubleshoot an
-                unvalidated setup as if it were a supported one.
+                Check the tested baseline and hardware expectations first so
+                you do not troubleshoot an unvalidated setup as if it were a
+                supported one.
               </p>
             </div>
             <a
@@ -274,19 +285,19 @@ export default function DownloadPage() {
                 iOS / iPadOS 18.0
               </p>
               <p className="mt-2 text-sm leading-relaxed text-text-secondary">
-                Older versions may work, but they are currently untested. Do
-                not upgrade to iOS / iPadOS 26.4 beta right now.
+                Older versions may work, but they are currently untested.
               </p>
             </div>
             <div className="rounded-xl border border-border bg-bg-surface p-5">
               <p className="text-xs font-semibold uppercase tracking-wide text-accent">
-                Lowest Tested Hardware
+                Best Supported Hardware
               </p>
               <p className="mt-2 text-lg font-semibold text-text-primary">
-                A16-class silicon
+                Latest Apple silicon
               </p>
               <p className="mt-2 text-sm leading-relaxed text-text-secondary">
-                Older chips may work, but they are not currently validated.
+                A16-class is the lowest tested baseline. Newer iPhone and iPad
+                hardware has the best chance of playable performance.
               </p>
             </div>
             <div className="rounded-xl border border-border bg-bg-surface p-5">

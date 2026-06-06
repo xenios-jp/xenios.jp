@@ -25,11 +25,11 @@ export const metadata: Metadata = withCanonical(
 
 function macArtifactSortValue(artifact: PublicBuildArtifact): number {
   switch (artifact.arch) {
-    case "arm64":
-      return 0;
-    case "x86_64":
-      return 1;
     case "universal":
+      return 0;
+    case "arm64":
+      return 1;
+    case "x86_64":
       return 2;
     default:
       return 3;
@@ -55,13 +55,14 @@ function getMacArtifactDescription(artifact: PublicBuildArtifact): string {
     case "x86_64":
       return "Use this on Intel-based Macs.";
     case "universal":
-      return "Single app bundle containing both Apple Silicon and Intel binaries.";
+      return "Recommended. Single app bundle containing both Apple Silicon and Intel binaries.";
     default:
       return "Choose the build that matches your Mac hardware.";
   }
 }
 
 function getMacDownloadLabel(artifact: PublicBuildArtifact): string {
+  if (artifact.arch === "universal") return "Download for Mac";
   return `Download for ${getMacArchitectureLabel(artifact)}`;
 }
 
@@ -136,7 +137,7 @@ function BuildCard({
       </dl>
 
       {artifacts.length > 0 ? (
-        <div className="mt-5 grid gap-3 md:grid-cols-2">
+        <div className="mt-5 grid gap-3 md:grid-cols-2 xl:grid-cols-3">
           {artifacts.map((artifact, index) => (
             <div
               key={artifact.id ?? artifact.downloadUrl ?? `${title}-${index}`}
@@ -187,6 +188,7 @@ function BuildCard({
 
 export default function DownloadMacPage() {
   const latestRelease = getLatestBuild("macos", "release");
+  const latestPreview = getLatestBuild("macos", "preview");
   const historyCount = getBuildsHistory("all").filter((build) => build.platform === "macos").length;
   const releaseArtifacts = latestRelease ? sortMacArtifacts(latestRelease.artifacts) : [];
 
@@ -198,7 +200,8 @@ export default function DownloadMacPage() {
             Download
           </h1>
           <p className="mt-2 text-lg text-text-secondary">
-            XeniOS for Mac. Choose Apple Silicon for M-series Macs or Intel for older Macs.
+            XeniOS for Mac. Use the universal build by default, or choose an
+            architecture-specific build when you need one.
           </p>
         </div>
       </section>
@@ -221,7 +224,7 @@ export default function DownloadMacPage() {
               </Link>
             </div>
             <p className="text-sm text-text-secondary">
-              One codebase, two Mac downloads: Apple Silicon and Intel.
+              Universal Mac builds are published alongside Apple Silicon and Intel fallbacks.
             </p>
           </div>
         </div>
@@ -233,8 +236,9 @@ export default function DownloadMacPage() {
             <h2 className="text-base font-semibold text-text-primary">Read first</h2>
             <p className="mt-2 text-[15px] leading-relaxed text-text-primary">
               XeniOS for Mac currently requires{" "}
-              <strong>macOS 15.0 or newer</strong>. Not every game runs yet,
-              and performance and stability are still game-dependent.
+              <strong>macOS 15.0 or newer</strong>. Mac builds use a different,
+              more optimized path than iOS, but not every game runs yet, and
+              performance and stability are still game-dependent.
             </p>
             <p className="mt-3 text-[15px] leading-relaxed text-text-primary">
               XeniOS is still alpha software. Expect crashes, rough edges, and
@@ -266,8 +270,8 @@ export default function DownloadMacPage() {
             <div>
               <h2 className="text-2xl font-bold text-text-primary">Latest Mac Build</h2>
               <p className="mt-2 max-w-3xl text-[15px] leading-relaxed text-text-secondary">
-                Current public release with dedicated Apple Silicon and Intel downloads so users
-                always know which artifact matches their Mac.
+                Current public release with a universal Mac download first, plus Apple Silicon
+                and Intel fallbacks for troubleshooting.
               </p>
             </div>
             <p className="text-sm text-text-muted">
@@ -279,8 +283,17 @@ export default function DownloadMacPage() {
             <BuildCard
               title="Current Release"
               build={latestRelease}
-              emptyMessage="Publish data/release-builds.json to surface the current public Mac release with Apple Silicon and Intel downloads."
+              emptyMessage="Publish data/release-builds.json to surface the current public Mac release with universal, Apple Silicon, and Intel downloads."
             />
+            {latestPreview ? (
+              <div className="mt-6">
+                <BuildCard
+                  title="Preview"
+                  build={latestPreview}
+                  emptyMessage="Preview publish data is not available yet."
+                />
+              </div>
+            ) : null}
           </div>
         </div>
       </section>
@@ -293,7 +306,7 @@ export default function DownloadMacPage() {
             </h2>
             <ol className="mt-4 list-decimal space-y-2 pl-5 text-[15px] leading-relaxed text-text-primary">
               <li>Open the latest release card above or the build history page.</li>
-              <li>Choose the Apple Silicon download for M-series Macs or the Intel download for older Macs.</li>
+              <li>Use the universal Mac download unless you specifically need an architecture-only fallback.</li>
               <li>
                 If a{" "}
                 <code className="rounded bg-bg-surface-2 px-1.5 py-0.5 font-mono text-xs">
@@ -351,7 +364,7 @@ export default function DownloadMacPage() {
             Mac notes
           </h2>
           <ul className="list-disc space-y-3 pl-6 text-[15px] leading-relaxed text-text-primary marker:text-accent">
-            <li>Apple Silicon (M-series) and Intel Macs are published as separate downloads.</li>
+            <li>The universal Mac download is the default; Apple Silicon and Intel DMGs remain available as fallbacks.</li>
             <li>
               Performance and compatibility are still in progress and not fully validated yet.
             </li>

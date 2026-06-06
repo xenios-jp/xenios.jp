@@ -54,15 +54,16 @@ const iosDocs: Record<string, DocEntry> = {
 
         <h2>Prerequisites</h2>
         <p className="mt-3 text-[15px] text-text-secondary leading-relaxed">
-          You will need an ARM64 iPhone or iPad with Metal support. The lowest
-          tested setup right now is <strong className="text-text-primary">iOS / iPadOS 18.0</strong> on{" "}
+          You will need an ARM64 iPhone or iPad with Metal support. XeniOS runs
+          best on the latest iPhone and iPad hardware. The lowest tested setup
+          right now is <strong className="text-text-primary">iOS / iPadOS 18.0</strong> on{" "}
           <strong className="text-text-primary">A16-class hardware</strong>.
-          Older versions or older chips may work, but they are currently
-          untested. Do not upgrade to{" "}
-          <strong className="text-text-primary">iOS / iPadOS 26.4 beta</strong>{" "}
-          right now. You will also need game files dumped from your own Xbox
-          360 discs. XeniOS does not include, provide, or link to any game
-          files. Piracy is not supported or condoned.
+          Xbox 360 emulation is very demanding on iOS; older devices may launch
+          but are unlikely to perform well and are not validated. Mac builds are
+          a separate, more optimized target. You will also need game files
+          dumped from your own Xbox 360 discs. XeniOS does not include,
+          provide, or link to any game files. Piracy is not supported or
+          condoned.
         </p>
 
         <h2>Installation</h2>
@@ -288,9 +289,8 @@ const iosDocs: Record<string, DocEntry> = {
         <p className="mt-3 text-[15px] text-text-secondary leading-relaxed">
           Supported controllers: Xbox Wireless, PlayStation DualSense and
           DualShock 4, Nintendo Switch Pro, and MFi-certified gamepads. There
-          are currently no touchscreen gameplay controls. Touch screen input
-          is used for UI navigation only, and there is no touch-to-gamepad
-          mapping.
+          are also built-in touch controls for gameplay when you do not have an
+          external controller connected.
         </p>
 
         <h2>Config Files</h2>
@@ -328,7 +328,8 @@ const iosDocs: Record<string, DocEntry> = {
         <ol className="mt-3 space-y-1.5 text-[15px] text-text-secondary leading-relaxed list-decimal pl-5">
           <li>
             Confirm you are on a tested setup. The lowest tested combination
-            right now is iOS / iPadOS 18.0 on A16-class hardware.
+            right now is iOS / iPadOS 18.0 on A16-class hardware, and newer
+            iPhone or iPad hardware is strongly recommended for performance.
           </li>
           <li>Re-sign the IPA — expired signing profiles are the most common cause.</li>
           <li>

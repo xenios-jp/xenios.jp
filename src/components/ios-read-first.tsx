@@ -104,19 +104,16 @@ export function IosReadFirst({ tone = "primary" }: IosReadFirstProps) {
           for more information.
         </li>
         <li>
-          <strong>Controller required:</strong> There are currently no
-          touchscreen gameplay controls. Touch input is limited to launcher and
-          settings navigation, so you need a supported controller to play.
-        </li>
-        <li>
-          <strong>Do not upgrade:</strong> Avoid iOS / iPadOS 26.4 beta for
-          now. Treat it as unsupported until XeniOS compatibility is verified.
+          <strong>Touch controls supported:</strong> Use the built-in touch
+          controls for gameplay, or connect a supported external controller.
         </li>
       </ul>
       <p className={`mt-3 ${textClass}`}>
         XeniOS is still alpha software. Expect crashes, rough edges, and
-        title-specific problems. Do not expect a polished or fully stable
-        experience yet, even if installation succeeds.
+        title-specific problems. Xbox 360 emulation is very demanding on iOS,
+        and the latest iPhone and iPad hardware has the best chance of playable
+        performance. Do not expect a polished or fully stable experience yet,
+        even if installation succeeds.
       </p>
     </>
   );

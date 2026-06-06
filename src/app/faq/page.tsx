@@ -189,10 +189,11 @@ const ios = [
     title: "iPhone / iPad: What OS and hardware do I need?",
     content: (
       <p>
-        The lowest tested baseline right now is iOS / iPadOS 18.0 on A16-class
-        hardware. Older versions or older chips may work, but they are currently
-        untested and should not be treated as validated. Do not upgrade to
-        iOS / iPadOS 26.4 beta right now.
+        XeniOS runs best on the latest iPhone and iPad hardware. The lowest
+        tested baseline right now is iOS / iPadOS 18.0 on A16-class hardware.
+        Xbox 360 emulation is very demanding on iOS; older chips may launch,
+        but they are unlikely to perform well and should not be treated as
+        validated.
       </p>
     ),
   },
@@ -269,7 +270,8 @@ const ios = [
       <p>
         XeniOS targets ARM64 iPhone and iPad hardware with Metal support.
         Practical results vary heavily by chip, available memory, and the game
-        being tested. The app uses the{" "}
+        being tested. Support and performance are strongest on current iPhone
+        and iPad hardware. The app uses the{" "}
         <code className="text-text-primary bg-bg-surface-2 px-1 rounded">
           increased-memory-limit
         </code>{" "}
@@ -309,7 +311,9 @@ const mac = [
       <p>
         XeniOS for Mac currently requires macOS 15.0 or newer. Both Apple
         Silicon (M-series) and Intel Mac builds are supported, with separate
-        downloads published when available.
+        downloads published when available. Mac builds use a different, more
+        optimized path than iOS, though compatibility still varies by game and
+        hardware.
       </p>
     ),
   },
@@ -331,7 +335,9 @@ const performance = [
     content: (
       <p>
         Performance varies significantly by game, scene, device class, and
-        build. The{" "}
+        build. On iPhone and iPad, use the latest hardware available; older iOS
+        devices are unlikely to be performant for many games. Mac builds are
+        more optimized, but still game-dependent. The{" "}
         <Link
           href="/compatibility"
           className="text-accent hover:text-accent-hover transition-colors underline underline-offset-2"
@@ -347,6 +353,7 @@ const performance = [
     title: "How can I improve performance?",
     content: (
       <ul className="list-disc pl-5 space-y-1">
+        <li>On iPhone or iPad, use the newest hardware available.</li>
         <li>Close background apps to free up RAM and thermal headroom.</li>
         <li>Lower internal resolution to reduce GPU load where supported.</li>
         <li>Use per-game config overrides to tune settings for specific titles.</li>
@@ -379,9 +386,9 @@ const performance = [
     title: "My device gets very hot. Is this normal?",
     content: (
       <p>
-        Xbox 360 emulation is extremely demanding. Heat buildup is normal during
-        gameplay, and extended sessions under thermal throttling will degrade
-        performance.
+        Xbox 360 emulation is extremely demanding, especially on iPhone and
+        iPad. Heat buildup is normal during gameplay, and extended sessions
+        under thermal throttling will degrade performance.
       </p>
     ),
   },
@@ -597,9 +604,9 @@ const controllers = [
     title: "Can I use on-screen touch controls?",
     content: (
       <p>
-        No. There are currently no touchscreen gameplay controls. Touch input
-        is for launcher and settings UI navigation only, so you need a
-        supported controller to play.
+        Yes. XeniOS includes built-in on-screen touch controls for gameplay.
+        External Xbox, PlayStation, Nintendo Switch Pro, and MFi controllers
+        are still supported if you prefer a physical controller.
       </p>
     ),
   },

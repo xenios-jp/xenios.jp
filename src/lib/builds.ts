@@ -12,7 +12,7 @@ import {
   normalizeBuildStage,
 } from "@/lib/build-display";
 
-export type BuildChannel = Extract<ReportBuildChannel, "release">;
+export type BuildChannel = Extract<ReportBuildChannel, "release" | "preview">;
 export type BuildHistoryFilter = BuildChannel | "all";
 
 export interface PublicBuildArtifact {
@@ -95,7 +95,7 @@ function cleanBoolean(value: unknown): boolean | undefined {
 
 function normalizeChannel(value: unknown): BuildChannel | undefined {
   const channel = normalizeBuildChannel(value);
-  return channel === "release" ? channel : undefined;
+  return channel === "release" || channel === "preview" ? channel : undefined;
 }
 
 function normalizePlatform(value: unknown): Platform | undefined {
@@ -210,9 +210,11 @@ const loadReleaseManifest = cache((): ReleaseBuildsManifest => {
     platforms: {
       ios: {
         release: normalizeBuildEntry(ios?.release, "ios", "release"),
+        preview: normalizeBuildEntry(ios?.preview, "ios", "preview"),
       },
       macos: {
         release: normalizeBuildEntry(macos?.release, "macos", "release"),
+        preview: normalizeBuildEntry(macos?.preview, "macos", "preview"),
       },
     },
   };
@@ -291,7 +293,7 @@ export function isRenderableBuild(
 }
 
 export function getBuildChannelLabel(channel: BuildChannel): string {
-  return channel === "release" ? "Release" : channel;
+  return channel === "preview" ? "Preview" : "Release";
 }
 
 export function formatPublishedDate(value?: string): string {

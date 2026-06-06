@@ -1,6 +1,6 @@
 import { getArtifactLabel, getBuildDisplayLabel } from "@/lib/build-display";
 
-type BuildChannel = "release";
+type BuildChannel = "release" | "preview";
 type BuildPlatform = "ios" | "macos";
 
 const PLATFORM_ORDER: BuildPlatform[] = ["ios", "macos"];
@@ -46,7 +46,7 @@ interface BuildHistoryGroup {
 }
 
 function getBuildChannelLabel(channel: BuildChannel): string {
-  return channel === "release" ? "Release" : channel;
+  return channel === "preview" ? "Preview" : "Release";
 }
 
 function getPlatformLabel(platform: BuildPlatform): string {
@@ -298,13 +298,18 @@ function BuildHistoryCard({ group }: { group: BuildHistoryGroup }) {
 
 function BuildHistorySection({
   builds,
+  channel,
 }: {
   builds: BuildHistoryEntry[];
+  channel: BuildChannel;
 }) {
   const groupedBuilds = groupBuilds(builds);
-  const id = "release";
-  const title = "Release builds";
-  const description = "Public, supported builds with direct download links and checksums.";
+  const id = channel;
+  const title = channel === "preview" ? "Preview builds" : "Release builds";
+  const description =
+    channel === "preview"
+      ? "Staging builds used to verify downloads, checksums, and website rendering before promoting to the main release branch."
+      : "Public, supported builds with direct download links and checksums.";
 
   return (
     <section id={id} className="scroll-mt-24">
@@ -349,7 +354,8 @@ function BuildHistorySection({
 
 export function BuildsPageClient({ builds }: { builds: BuildHistoryEntry[] }) {
   const releaseBuilds = builds.filter((build) => build.channel === "release");
-  const totalBuilds = groupBuilds(releaseBuilds).length;
+  const previewBuilds = builds.filter((build) => build.channel === "preview");
+  const totalBuilds = groupBuilds(builds).length;
 
   return (
     <div className="min-h-screen bg-bg-primary">
@@ -361,7 +367,7 @@ export function BuildsPageClient({ builds }: { builds: BuildHistoryEntry[] }) {
           <p className="mt-2 max-w-3xl text-lg text-text-secondary">
             Public XeniOS release history with version, build number, commit, checksums, and
             direct artifact links. Each build groups iPhone / iPad and Mac downloads together,
-            while Mac still keeps Apple Silicon and Intel artifacts separate.
+            with preview builds separated from release builds for staging.
           </p>
         </div>
       </section>
@@ -370,7 +376,10 @@ export function BuildsPageClient({ builds }: { builds: BuildHistoryEntry[] }) {
         <p className="text-sm text-text-muted">
           {totalBuilds} total {totalBuilds === 1 ? "build" : "builds"} tracked
         </p>
-        <BuildHistorySection builds={releaseBuilds} />
+        {previewBuilds.length > 0 ? (
+          <BuildHistorySection builds={previewBuilds} channel="preview" />
+        ) : null}
+        <BuildHistorySection builds={releaseBuilds} channel="release" />
       </div>
     </div>
   );
