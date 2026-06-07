@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-07T03:15:57.407Z",
+  "generatedAt": "2026-06-07T05:22:32.776Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2686,6 +2686,39 @@
         }
       ]
     },
+    "58410818": {
+      "titleId": "58410818",
+      "issueNumber": 476,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/476",
+      "updatedAt": "2026-06-07",
+      "entries": [
+        {
+          "id": "issue-476",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/476",
+          "author": "xenios-jp",
+          "createdAt": "2026-06-07",
+          "createdAtMs": 1780809264000,
+          "issueNumber": 476,
+          "excerpt": "Run fine, without graphic glitches. Good job!",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/58410818/1780809255369-1.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 15",
+            "platform": "iOS",
+            "osVersion": "iOS 26.5",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0",
+            "buildNumber": "9712",
+            "commitShort": "`358deaee5`"
+          }
+        }
+      ]
+    },
     "58410889": {
       "titleId": "58410889",
       "issueNumber": 453,
@@ -2846,6 +2879,136 @@
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
           "images": [],
           "meta": {}
+        }
+      ]
+    },
+    "584108CF": {
+      "titleId": "584108CF",
+      "issueNumber": 480,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/480",
+      "updatedAt": "2026-06-07",
+      "entries": [
+        {
+          "id": "issue-480",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/480",
+          "author": "xenios-jp",
+          "createdAt": "2026-06-07",
+          "createdAtMs": 1780809659000,
+          "issueNumber": 480,
+          "excerpt": "Run full speed with weird color.",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 15",
+            "platform": "iOS",
+            "osVersion": "iOS 26.5",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0",
+            "buildNumber": "9712",
+            "commitShort": "`358deaee5`"
+          }
+        }
+      ]
+    },
+    "584109A3": {
+      "titleId": "584109A3",
+      "issueNumber": 479,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/479",
+      "updatedAt": "2026-06-07",
+      "entries": [
+        {
+          "id": "issue-479",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/479",
+          "author": "xenios-jp",
+          "createdAt": "2026-06-07",
+          "createdAtMs": 1780809541000,
+          "issueNumber": 479,
+          "excerpt": "Run full speed with weird color.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584109A3/1780809533131-1.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 15",
+            "platform": "iOS",
+            "osVersion": "iOS 26.5",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0",
+            "buildNumber": "9712",
+            "commitShort": "`358deaee5`"
+          }
+        }
+      ]
+    },
+    "58410B79": {
+      "titleId": "58410B79",
+      "issueNumber": 478,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/478",
+      "updatedAt": "2026-06-07",
+      "entries": [
+        {
+          "id": "issue-478",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/478",
+          "author": "xenios-jp",
+          "createdAt": "2026-06-07",
+          "createdAtMs": 1780809451000,
+          "issueNumber": 478,
+          "excerpt": "Run full speed but can’t control.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/58410B79/1780809443639-1.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 15",
+            "platform": "iOS",
+            "osVersion": "iOS 26.5",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0",
+            "buildNumber": "9712",
+            "commitShort": "`358deaee5`"
+          }
+        }
+      ]
+    },
+    "5841083F": {
+      "titleId": "5841083F",
+      "issueNumber": 477,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/477",
+      "updatedAt": "2026-06-07",
+      "entries": [
+        {
+          "id": "issue-477",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/477",
+          "author": "xenios-jp",
+          "createdAt": "2026-06-07",
+          "createdAtMs": 1780809348000,
+          "issueNumber": 477,
+          "excerpt": "Good work!",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/5841083F/1780809340330-1.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 15",
+            "platform": "iOS",
+            "osVersion": "iOS 26.5",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0",
+            "buildNumber": "9712",
+            "commitShort": "`358deaee5`"
+          }
         }
       ]
     },

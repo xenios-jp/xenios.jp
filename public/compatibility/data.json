@@ -40185,15 +40185,50 @@
     "titleIds": [
       "5841083F"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
-    "platforms": [],
-    "lastReport": null,
-    "updatedAt": "",
-    "notes": "",
-    "reports": [],
-    "screenshots": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 15",
+      "platform": "ios",
+      "osVersion": "26.5",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-06-07",
+    "issueNumber": 477,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/477",
+    "notes": "Good work!",
+    "reports": [
+      {
+        "device": "iPhone 15",
+        "platform": "ios",
+        "osVersion": "26.5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-06-07",
+        "notes": "Good work!",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0-9712",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0",
+          "buildNumber": "9712",
+          "stage": "stable",
+          "commitShort": "358deaee5"
+        }
+      }
+    ],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/5841083F/1780809340330-1.jpg"
+    ],
     "summaries": {
       "release": {
         "channel": "release",
@@ -40208,14 +40243,56 @@
       },
       "all": {
         "channel": "all",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "playable",
+        "perf": "great",
+        "notes": "Good work!",
+        "updatedAt": "2026-06-07",
+        "date": "2026-06-07",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 15",
+          "platform": "ios",
+          "osVersion": "26.5",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-06-07",
+          "notes": "Good work!",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-2.0-9712",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0",
+            "buildNumber": "9712",
+            "stage": "stable",
+            "commitShort": "358deaee5"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 15",
+          "platform": "ios",
+          "osVersion": "26.5",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-06-07",
+          "notes": "Good work!",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-2.0-9712",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0",
+            "buildNumber": "9712",
+            "stage": "stable",
+            "commitShort": "358deaee5"
+          }
+        }
       }
     }
   },
@@ -57337,15 +57414,50 @@
     "titleIds": [
       "58410818"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
-    "platforms": [],
-    "lastReport": null,
-    "updatedAt": "",
-    "notes": "",
-    "reports": [],
-    "screenshots": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 15",
+      "platform": "ios",
+      "osVersion": "26.5",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-06-07",
+    "issueNumber": 476,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/476",
+    "notes": "Run fine, without graphic glitches. Good job!",
+    "reports": [
+      {
+        "device": "iPhone 15",
+        "platform": "ios",
+        "osVersion": "26.5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-06-07",
+        "notes": "Run fine, without graphic glitches. Good job!",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0-9712",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0",
+          "buildNumber": "9712",
+          "stage": "stable",
+          "commitShort": "358deaee5"
+        }
+      }
+    ],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/58410818/1780809255369-1.jpg"
+    ],
     "summaries": {
       "release": {
         "channel": "release",
@@ -57360,14 +57472,56 @@
       },
       "all": {
         "channel": "all",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "playable",
+        "perf": "great",
+        "notes": "Run fine, without graphic glitches. Good job!",
+        "updatedAt": "2026-06-07",
+        "date": "2026-06-07",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 15",
+          "platform": "ios",
+          "osVersion": "26.5",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-06-07",
+          "notes": "Run fine, without graphic glitches. Good job!",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-2.0-9712",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0",
+            "buildNumber": "9712",
+            "stage": "stable",
+            "commitShort": "358deaee5"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 15",
+          "platform": "ios",
+          "osVersion": "26.5",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-06-07",
+          "notes": "Run fine, without graphic glitches. Good job!",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-2.0-9712",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0",
+            "buildNumber": "9712",
+            "stage": "stable",
+            "commitShort": "358deaee5"
+          }
+        }
       }
     }
   },
@@ -96671,15 +96825,50 @@
     "titleIds": [
       "58410B79"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
-    "platforms": [],
-    "lastReport": null,
-    "updatedAt": "",
-    "notes": "",
-    "reports": [],
-    "screenshots": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 15",
+      "platform": "ios",
+      "osVersion": "26.5",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-06-07",
+    "issueNumber": 478,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/478",
+    "notes": "Run full speed but can’t control.",
+    "reports": [
+      {
+        "device": "iPhone 15",
+        "platform": "ios",
+        "osVersion": "26.5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-06-07",
+        "notes": "Run full speed but can’t control.",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0-9712",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0",
+          "buildNumber": "9712",
+          "stage": "stable",
+          "commitShort": "358deaee5"
+        }
+      }
+    ],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/58410B79/1780809443639-1.jpg"
+    ],
     "summaries": {
       "release": {
         "channel": "release",
@@ -96694,14 +96883,56 @@
       },
       "all": {
         "channel": "all",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "playable",
+        "perf": "great",
+        "notes": "Run full speed but can’t control.",
+        "updatedAt": "2026-06-07",
+        "date": "2026-06-07",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 15",
+          "platform": "ios",
+          "osVersion": "26.5",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-06-07",
+          "notes": "Run full speed but can’t control.",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-2.0-9712",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0",
+            "buildNumber": "9712",
+            "stage": "stable",
+            "commitShort": "358deaee5"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 15",
+          "platform": "ios",
+          "osVersion": "26.5",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-06-07",
+          "notes": "Run full speed but can’t control.",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-2.0-9712",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0",
+            "buildNumber": "9712",
+            "stage": "stable",
+            "commitShort": "358deaee5"
+          }
+        }
       }
     }
   },
@@ -146633,14 +146864,47 @@
     "titleIds": [
       "584108CF"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
-    "platforms": [],
-    "lastReport": null,
-    "updatedAt": "",
-    "notes": "",
-    "reports": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 15",
+      "platform": "ios",
+      "osVersion": "26.5",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-06-07",
+    "issueNumber": 480,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/480",
+    "notes": "Run full speed with weird color.",
+    "reports": [
+      {
+        "device": "iPhone 15",
+        "platform": "ios",
+        "osVersion": "26.5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-06-07",
+        "notes": "Run full speed with weird color.",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0-9712",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0",
+          "buildNumber": "9712",
+          "stage": "stable",
+          "commitShort": "358deaee5"
+        }
+      }
+    ],
     "screenshots": [],
     "summaries": {
       "release": {
@@ -146656,14 +146920,56 @@
       },
       "all": {
         "channel": "all",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "playable",
+        "perf": "great",
+        "notes": "Run full speed with weird color.",
+        "updatedAt": "2026-06-07",
+        "date": "2026-06-07",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 15",
+          "platform": "ios",
+          "osVersion": "26.5",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-06-07",
+          "notes": "Run full speed with weird color.",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-2.0-9712",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0",
+            "buildNumber": "9712",
+            "stage": "stable",
+            "commitShort": "358deaee5"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 15",
+          "platform": "ios",
+          "osVersion": "26.5",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-06-07",
+          "notes": "Run full speed with weird color.",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-2.0-9712",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0",
+            "buildNumber": "9712",
+            "stage": "stable",
+            "commitShort": "358deaee5"
+          }
+        }
       }
     }
   },
@@ -158876,8 +159182,8 @@
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-06-07",
-    "issueNumber": 175,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/175",
+    "issueNumber": 475,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/475",
     "notes": "Last update this couldn’t even load players in a game but now with the new update the game is fully playable with smooth fps",
     "reports": [
       {
@@ -212539,15 +212845,50 @@
     "titleIds": [
       "584109A3"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
-    "platforms": [],
-    "lastReport": null,
-    "updatedAt": "",
-    "notes": "",
-    "reports": [],
-    "screenshots": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 15",
+      "platform": "ios",
+      "osVersion": "26.5",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-06-07",
+    "issueNumber": 479,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/479",
+    "notes": "Run full speed with weird color.",
+    "reports": [
+      {
+        "device": "iPhone 15",
+        "platform": "ios",
+        "osVersion": "26.5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-06-07",
+        "notes": "Run full speed with weird color.",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0-9712",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0",
+          "buildNumber": "9712",
+          "stage": "stable",
+          "commitShort": "358deaee5"
+        }
+      }
+    ],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584109A3/1780809533131-1.jpg"
+    ],
     "summaries": {
       "release": {
         "channel": "release",
@@ -212562,14 +212903,56 @@
       },
       "all": {
         "channel": "all",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "playable",
+        "perf": "great",
+        "notes": "Run full speed with weird color.",
+        "updatedAt": "2026-06-07",
+        "date": "2026-06-07",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 15",
+          "platform": "ios",
+          "osVersion": "26.5",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-06-07",
+          "notes": "Run full speed with weird color.",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-2.0-9712",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0",
+            "buildNumber": "9712",
+            "stage": "stable",
+            "commitShort": "358deaee5"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 15",
+          "platform": "ios",
+          "osVersion": "26.5",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-06-07",
+          "notes": "Run full speed with weird color.",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-2.0-9712",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0",
+            "buildNumber": "9712",
+            "stage": "stable",
+            "commitShort": "358deaee5"
+          }
+        }
       }
     }
   },

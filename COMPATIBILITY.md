@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **299 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **304 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **119** · 🔵 In-Game: **58** · 🟡 Intro: **27** · 🟠 Loads: **43** · 🔴 Doesn't Boot: **52**
+> 🟢 Playable: **124** · 🔵 In-Game: **58** · 🟡 Intro: **27** · 🟠 Loads: **43** · 🔴 Doesn't Boot: **52**
 >
-> 📱 iOS: **270** · 🖥️ macOS: **51**
+> 📱 iOS: **275** · 🖥️ macOS: **51**
 
 ## Legend
 
@@ -31,6 +31,7 @@
 | 🟢 | BattleBlock Theater | `58410A30` | 📱 iOS | Playable | 🚀 Great | iPhone 13 | 2026-03-10 |
 | 🟢 | Bioshock | `545407D8` | 📱 iOS | Playable | 🚀 Great | iPad Pro 13-inch (M4) | 2026-04-24 |
 | 🟢 | Bomberman Battlefest | `584109B2` | 📱 iOS | Playable | 🐢 Poor | iPhone 15 | 2026-03-25 |
+| 🟢 | Bomberman Live | `5841083F` | 📱 iOS | Playable | 🚀 Great | iPhone 15 | 2026-06-07 |
 | 🟢 | Borderlands | `545407E7` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro | 2026-03-13 |
 | 🟢 | Bully: Scholarship Edition | `5454081A` | 📱 iOS, 🖥️ macOS | Playable | 🐢 Poor | iPhone 15 Pro Max | 2026-04-22 |
 | 🟢 | Call of Duty 2 | `415607D1` | 📱 iOS | Playable | 🚀 Great | iPhone 14 Pro Max | 2026-03-09 |
@@ -38,6 +39,7 @@
 | 🟢 | Castle Crashers | `584108B7` | 📱 iOS | Playable | 🚀 Great | iPhone 14 Pro | 2026-06-06 |
 | 🟢 | Civilization Revolution | `545407E5` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro | 2026-03-14 |
 | 🟢 | Condemned: Criminal Origins | `534507D2` | 📱 iOS | Playable | 👌 OK | iPhone 17 | 2026-04-22 |
+| 🟢 | Contra | `58410818` | 📱 iOS | Playable | 🚀 Great | iPhone 15 | 2026-06-07 |
 | 🟢 | DB: Raging Blast 2 | `4E4D0826` | 📱 iOS | Playable | 🐢 Poor | iPad Pro (M2) | 2026-03-03 |
 | 🟢 | Dead Island | `4B4D07DF` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-04-20 |
 | 🟢 | DEAD OR ALIVE 4 | `544307D1` | 📱 iOS, 🖥️ macOS | Playable | 🚀 Great | MacBook Pro M1 | 2026-05-30 |
@@ -61,6 +63,7 @@
 | 🟢 | Forza Horizon 2 | `4D530AA4` | 📱 iOS | Playable | 👌 OK | iPad Pro 12.9-inch (M2) | 2026-05-15 |
 | 🟢 | Forza Motorsport 2 | `4D5307EA` | 📱 iOS | Playable | 🚀 Great | iPad Air 11-inch (M3) | 2026-03-20 |
 | 🟢 | Forza Motorsport 4 | `4D530910` | 📱 iOS | Playable | 👌 OK | iPhone 17 Pro Max | 2026-03-17 |
+| 🟢 | Fruit Ninja Kinect | `58410B79` | 📱 iOS | Playable | 🚀 Great | iPhone 15 | 2026-06-07 |
 | 🟢 | Gears of War 2 | `4D53082D` | 📱 iOS | Playable | 👌 OK | iPhone 17 | 2026-05-21 |
 | 🟢 | Gears of War 3 | `4D5308AB` | 🖥️ macOS, 📱 iOS | Playable | 🐢 Poor | iPhone 17 Pro | 2026-05-30 |
 | 🟢 | Gears of War: Judgment | `4D530A26` | 📱 iOS | Playable | 🐢 Poor | iPhone 17 Pro Max | 2026-03-17 |
@@ -86,6 +89,7 @@
 | 🟢 | Marvel Ultimate Alliance 2 | `4156082F` | 📱 iOS | Playable | 👌 OK | iPhone 13 Pro | 2026-03-09 |
 | 🟢 | Metal Gear Rising: Revengeance | `4B4E080A` | 📱 iOS | Playable | 👌 OK | iPhone 17 Pro Max | 2026-03-20 |
 | 🟢 | METAL GEAR SOLID PEACE WALKER HD EDITION | `4B4E083C` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Plus | 2026-03-18 |
+| 🟢 | Metal Slug 3 | `584108CF` | 📱 iOS | Playable | 🚀 Great | iPhone 15 | 2026-06-07 |
 | 🟢 | Minecraft: Xbox 360 Edition | `4D530A81` | 📱 iOS | Playable | 👌 OK | iPhone 14 Pro Max | 2026-05-05 |
 | 🟢 | Mortal Kombat Komplete Edition | `575207FD` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro Max | 2026-03-14 |
 | 🟢 | N+ | `5841085C` | 📱 iOS | Playable | 🚀 Great | iPhone 14 Pro Max | 2026-03-25 |
@@ -120,6 +124,7 @@
 | 🟢 | Skate 2 | `4541087F` | 📱 iOS | Playable | 👌 OK | iPhone 16e | 2026-03-17 |
 | 🟢 | Skate 3 | `454108E6` | 📱 iOS | Playable | 🐢 Poor | iPad Pro 13-inch (M4) | 2026-03-19 |
 | 🟢 | Sonic Generations | `53450848` | 📱 iOS | Playable | 🚀 Great | iPhone 16 | 2026-03-28 |
+| 🟢 | Sonic The Hedgehog 3 | `584109A3` | 📱 iOS | Playable | 🚀 Great | iPhone 15 | 2026-06-07 |
 | 🟢 | Sonic the Hedgehog 4: Episode II | `584111F2` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro Max | 2026-05-15 |
 | 🟢 | Sonic Unleashed | `53450812` | 📱 iOS | Playable | 👌 OK | iPad 9 | 2026-04-30 |
 | 🟢 | SpongeBob HeroPants | `41560919` | 📱 iOS | Playable | 👌 OK | iPad Mini (A17 Pro) | 2026-03-08 |
