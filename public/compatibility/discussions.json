@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-07T02:57:16.503Z",
+  "generatedAt": "2026-06-07T03:15:57.407Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2846,6 +2846,60 @@
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
           "images": [],
           "meta": {}
+        }
+      ]
+    },
+    "454107F7": {
+      "titleId": "454107F7",
+      "issueNumber": 475,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/475",
+      "updatedAt": "2026-06-07",
+      "entries": [
+        {
+          "id": "issue-475",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/475",
+          "author": "xenios-jp",
+          "createdAt": "2026-06-07",
+          "createdAtMs": 1780802067000,
+          "issueNumber": 475,
+          "excerpt": "Last update this couldn’t even load players in a game but now with the new update the game is fully playable with smooth fps",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 16e",
+            "platform": "iOS",
+            "osVersion": "iOS 26.5",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0",
+            "buildNumber": "9712",
+            "commitShort": "`358deaee5`"
+          }
+        },
+        {
+          "id": "issue-175",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/175",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-10",
+          "createdAtMs": 1773172587000,
+          "issueNumber": 175,
+          "excerpt": "Everything loads almost perfectly but when you actually play a game the screen is black",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "ok",
+            "device": "iPhone 16e",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
         }
       ]
     },
@@ -11657,37 +11711,6 @@
           "excerpt": "Audio screeching in cutscenes\nYou can play through the first level with minor glitches, but then it crashes once you enter the casket",
           "images": [],
           "meta": {}
-        }
-      ]
-    },
-    "454107F7": {
-      "titleId": "454107F7",
-      "issueNumber": 175,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/175",
-      "updatedAt": "2026-03-10",
-      "entries": [
-        {
-          "id": "issue-175",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/175",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-10",
-          "createdAtMs": 1773172587000,
-          "issueNumber": 175,
-          "excerpt": "Everything loads almost perfectly but when you actually play a game the screen is black",
-          "images": [],
-          "meta": {
-            "status": "ingame",
-            "perf": "ok",
-            "device": "iPhone 16e",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "`2633e8177`"
-          }
         }
       ]
     },
