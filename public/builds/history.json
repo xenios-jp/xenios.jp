@@ -1,6 +1,92 @@
 {
-  "generatedAt": "2026-06-06T20:06:10Z",
+  "generatedAt": "2026-06-07T19:24:40Z",
   "builds": [
+    {
+      "buildId": "ios-release-2.0.1-9729",
+      "channel": "release",
+      "official": true,
+      "appVersion": "2.0.1",
+      "buildNumber": "9729",
+      "stage": "stable",
+      "commitShort": "d1afdc63d",
+      "publishedAt": "2026-06-07T18:27:08Z",
+      "label": "2.0.1-9729",
+      "notes": "Official CI release build published from xenios-jp/XeniOS.",
+      "sourceLabel": "GitHub Release",
+      "sourceUrl": "https://github.com/xenios-jp/XeniOS/releases/tag/release-v2.0.1-build-9729",
+      "artifacts": [
+        {
+          "id": "ios-arm64-ipa-xenios-ios-iphone-ipad-ipa",
+          "name": "XeniOS for iPhone / iPad",
+          "label": "iPhone / iPad (IPA)",
+          "platform": "ios",
+          "arch": "arm64",
+          "kind": "ipa",
+          "downloadUrl": "https://github.com/xenios-jp/XeniOS/releases/download/release-v2.0.1-build-9729/xenios_ios_iphone_ipad.ipa",
+          "sha256": "2100237f60a82e51ec5203b404a12d6ff18cb75498592b3b08accadb51ab09ce",
+          "sizeBytes": 46246197,
+          "sizeLabel": "44 MB"
+        }
+      ],
+      "platform": "ios",
+      "id": "ios-release-ios-release-2.0.1-9729",
+      "submittedBy": "GitHub Actions"
+    },
+    {
+      "buildId": "macos-release-2.0.1-9729",
+      "channel": "release",
+      "official": true,
+      "appVersion": "2.0.1",
+      "buildNumber": "9729",
+      "stage": "stable",
+      "commitShort": "d1afdc63d",
+      "publishedAt": "2026-06-07T18:27:08Z",
+      "label": "2.0.1-9729",
+      "notes": "Official CI release build published from xenios-jp/XeniOS.",
+      "sourceLabel": "GitHub Release",
+      "sourceUrl": "https://github.com/xenios-jp/XeniOS/releases/tag/release-v2.0.1-build-9729",
+      "artifacts": [
+        {
+          "id": "macos-universal-dmg-xenios-macos-universal-dmg",
+          "name": "XeniOS for Mac",
+          "label": "Universal",
+          "platform": "macos",
+          "arch": "universal",
+          "kind": "dmg",
+          "downloadUrl": "https://github.com/xenios-jp/XeniOS/releases/download/release-v2.0.1-build-9729/xenios_macos_universal.dmg",
+          "sha256": "4dd340311dfb9729259fe7a1b17a31540f25929ece947bf127975cb62dc855d6",
+          "sizeBytes": 77245494,
+          "sizeLabel": "74 MB"
+        },
+        {
+          "id": "macos-arm64-dmg-xenios-macos-apple-silicon-dmg",
+          "name": "XeniOS for Apple Silicon",
+          "label": "Apple Silicon",
+          "platform": "macos",
+          "arch": "arm64",
+          "kind": "dmg",
+          "downloadUrl": "https://github.com/xenios-jp/XeniOS/releases/download/release-v2.0.1-build-9729/xenios_macos_apple_silicon.dmg",
+          "sha256": "e847fa3cb791195f2730b2abec8d139721d02fca27981937a8cb77efa7cac3b6",
+          "sizeBytes": 52792519,
+          "sizeLabel": "50 MB"
+        },
+        {
+          "id": "macos-x86_64-dmg-xenios-macos-intel-dmg",
+          "name": "XeniOS for Intel",
+          "label": "Intel",
+          "platform": "macos",
+          "arch": "x86_64",
+          "kind": "dmg",
+          "downloadUrl": "https://github.com/xenios-jp/XeniOS/releases/download/release-v2.0.1-build-9729/xenios_macos_intel.dmg",
+          "sha256": "a326fc080f4517ee19585f744be8dfa4e0d7687b62542d16602c293d503b99e1",
+          "sizeBytes": 54144540,
+          "sizeLabel": "52 MB"
+        }
+      ],
+      "platform": "macos",
+      "id": "macos-release-macos-release-2.0.1-9729",
+      "submittedBy": "GitHub Actions"
+    },
     {
       "buildId": "ios-release-2.0-9712",
       "channel": "release",
