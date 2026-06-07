@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-07T02:25:33.902Z",
+  "generatedAt": "2026-06-07T02:57:16.503Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2846,6 +2846,39 @@
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
           "images": [],
           "meta": {}
+        }
+      ]
+    },
+    "4541094A": {
+      "titleId": "4541094A",
+      "issueNumber": 474,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/474",
+      "updatedAt": "2026-06-07",
+      "entries": [
+        {
+          "id": "issue-474",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/474",
+          "author": "xenios-jp",
+          "createdAt": "2026-06-07",
+          "createdAtMs": 1780800917000,
+          "issueNumber": 474,
+          "excerpt": "stuck in intro",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4541094A/1780800914179-1.jpg"
+          ],
+          "meta": {
+            "status": "intro",
+            "perf": "ok",
+            "device": "iPhone 17 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 26.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0",
+            "buildNumber": "9712",
+            "commitShort": "`358deaee5`"
+          }
         }
       ]
     },
