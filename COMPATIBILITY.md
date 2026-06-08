@@ -2,7 +2,7 @@
 
 > **304 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **124** · 🔵 In-Game: **58** · 🟡 Intro: **27** · 🟠 Loads: **43** · 🔴 Doesn't Boot: **52**
+> 🟢 Playable: **125** · 🔵 In-Game: **57** · 🟡 Intro: **27** · 🟠 Loads: **43** · 🔴 Doesn't Boot: **52**
 >
 > 📱 iOS: **275** · 🖥️ macOS: **51**
 
@@ -64,6 +64,7 @@
 | 🟢 | Forza Motorsport 2 | `4D5307EA` | 📱 iOS | Playable | 🚀 Great | iPad Air 11-inch (M3) | 2026-03-20 |
 | 🟢 | Forza Motorsport 4 | `4D530910` | 📱 iOS | Playable | 👌 OK | iPhone 17 Pro Max | 2026-03-17 |
 | 🟢 | Fruit Ninja Kinect | `58410B79` | 📱 iOS | Playable | 🚀 Great | iPhone 15 | 2026-06-07 |
+| 🟢 | Gears of War | `4D5307D5` | 🖥️ macOS, 📱 iOS | Playable | 🐢 Poor | iPhone 15 Pro Max | 2026-06-07 |
 | 🟢 | Gears of War 2 | `4D53082D` | 📱 iOS | Playable | 👌 OK | iPhone 17 | 2026-05-21 |
 | 🟢 | Gears of War 3 | `4D5308AB` | 🖥️ macOS, 📱 iOS | Playable | 🐢 Poor | iPhone 17 Pro | 2026-05-30 |
 | 🟢 | Gears of War: Judgment | `4D530A26` | 📱 iOS | Playable | 🐢 Poor | iPhone 17 Pro Max | 2026-03-17 |
@@ -160,7 +161,6 @@
 | 🔵 | FIFA 19 | `454109F9` | 📱 iOS | In-Game | 🐢 Poor | iPhone 16 Pro Max | 2026-05-22 |
 | 🔵 | Fight Night Round 3 | `454107DE` | 📱 iOS | In-Game | 🐢 Poor | iPhone 16e | 2026-03-10 |
 | 🔵 | Frontlines: Fuel of War | `545107D8` | 🖥️ macOS | In-Game | 🐢 Poor | Macbook Neo A18 Pro | 2026-03-19 |
-| 🔵 | Gears of War | `4D5307D5` | 🖥️ macOS, 📱 iOS | In-Game | 👌 OK | MacBook Pro M4 Pro/Max | 2026-04-02 |
 | 🔵 | Geometry Wars Evolved² | `584108FF` | 🖥️ macOS | In-Game | 🐢 Poor | MacBook Pro (M1) | 2026-04-12 |
 | 🔵 | Grand Theft Auto IV | `545407F2` | 📱 iOS, 🖥️ macOS | In-Game | 👌 OK | iPhone 13 Pro | 2026-06-03 |
 | 🔵 | Guitar Hero 5 | `41560840` | 📱 iOS | In-Game | 🐢 Poor | iPhone 13 mini | 2026-03-22 |
