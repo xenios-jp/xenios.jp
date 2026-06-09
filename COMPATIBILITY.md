@@ -2,7 +2,7 @@
 
 > **304 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **125** · 🔵 In-Game: **57** · 🟡 Intro: **27** · 🟠 Loads: **43** · 🔴 Doesn't Boot: **52**
+> 🟢 Playable: **125** · 🔵 In-Game: **58** · 🟡 Intro: **26** · 🟠 Loads: **43** · 🔴 Doesn't Boot: **52**
 >
 > 📱 iOS: **275** · 🖥️ macOS: **51**
 
@@ -150,6 +150,7 @@
 | 🔵 | Bayonetta | `53450813` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 | 2026-03-08 |
 | 🔵 | Blue Dragon | `4D5307DF` | 🖥️ macOS | In-Game | 🚀 Great | Mac mini (M2) | 2026-03-11 |
 | 🔵 | Burnout Paradise | `45410806` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro Max | 2026-03-12 |
+| 🔵 | Burnout Revenge | `454107DC` | 📱 iOS, 🖥️ macOS | In-Game | 🐢 Poor | iPhone 17 | 2026-06-09 |
 | 🔵 | DB Raging Blast | `4E4D0803` | 📱 iOS | In-Game | 🐢 Poor | iPad Pro (M2) | 2026-03-09 |
 | 🔵 | Dead Island Riptide | `4B4D07F2` | 📱 iOS | In-Game | 🐢 Poor | iPhone 14 Pro | 2026-03-17 |
 | 🔵 | Def Jam Icon | `454107EE` | 📱 iOS | In-Game | 🐢 Poor | iPhone 16e | 2026-03-11 |
@@ -205,7 +206,6 @@
 | 🟡 | Assassins Creed III - Liberation HD | `584113FC` | 📱 iOS | Intro | 👌 OK | iPhone 15 | 2026-03-12 |
 | 🟡 | Back to the Future | `443607D6` | 📱 iOS | Intro | 🚀 Great | iPhone 16 Pro | 2026-03-24 |
 | 🟡 | Beautiful Katamari | `4E4D07DC` | 📱 iOS | Intro | 👌 OK | iPhone 16 Pro | 2026-03-05 |
-| 🟡 | Burnout Revenge | `454107DC` | 📱 iOS, 🖥️ macOS | Intro | 🐢 Poor | iPhone 15 Pro Max | 2026-03-16 |
 | 🟡 | Dark Souls 2 | `465307E4` | 📱 iOS | Intro | 🐢 Poor | iPhone 17 Pro Max | 2026-03-09 |
 | 🟡 | Dead or Alive Xtreme 2 | `544307D2` | 📱 iOS | Intro | 🐢 Poor | iPhone 13 Pro Max | 2026-03-27 |
 | 🟡 | Dead Rising | `434307D2` | 📱 iOS | Intro | 👌 OK | iPad (A16) | 2026-03-04 |

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-07T22:07:31.733Z",
+  "generatedAt": "2026-06-09T03:46:41.249Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2882,113 +2882,70 @@
         }
       ]
     },
-    "4D5307D5": {
-      "titleId": "4D5307D5",
-      "issueNumber": 40,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/40",
-      "updatedAt": "2026-06-07",
+    "454107DC": {
+      "titleId": "454107DC",
+      "issueNumber": 482,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/482",
+      "updatedAt": "2026-06-09",
       "entries": [
         {
-          "id": "issue-481",
+          "id": "issue-482",
           "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/481",
-          "author": "Wa1lLegend",
-          "createdAt": "2026-06-07",
-          "createdAtMs": 1780869940000,
-          "issueNumber": 481,
-          "excerpt": "Some graphical issues with shadows, especially in the first cutscene, but after that it’s playable albeit at a poor frame rate (likely around 20-24fps)",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/482",
+          "author": "xenios-jp",
+          "createdAt": "2026-06-09",
+          "createdAtMs": 1780976674000,
+          "issueNumber": 482,
+          "excerpt": "Somewhat playable in game, although performance is poor on iPhone 17 on both GPU backends.",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "poor",
+            "device": "iPhone 17",
+            "platform": "iOS",
+            "osVersion": "iOS 27.0",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "0",
+            "commitShort": "`796751121`"
+          }
+        },
+        {
+          "id": "comment-4232889618",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/120#issuecomment-4232889618",
+          "author": "udance4ever",
+          "createdAt": "2026-04-12",
+          "createdAtMs": 1776033270000,
+          "issueNumber": 120,
+          "excerpt": "on MacBookPro (M1) (same build: 1.0.01-9288) - also get a crash during logos - in fact, what is unique about this game is if you let the game keep running it keeping looping back to the same logo over and over again in an infinite loop:\n\n<img width=\"1392\" height=\"860\" alt=\"Image\" src=\" />",
           "images": [],
           "meta": {}
         },
         {
-          "id": "issue-382",
+          "id": "issue-120",
           "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/382",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/120",
           "author": "xenios-jp",
-          "createdAt": "2026-04-02",
-          "createdAtMs": 1775150889000,
-          "issueNumber": 382,
-          "excerpt": "I can't get past the loading screen to start the campaign, and there's no sound in the main menu either.",
+          "createdAt": "2026-03-09",
+          "createdAtMs": 1773031861000,
+          "issueNumber": 120,
+          "excerpt": "So the game runs but you can not see anything in menus and have to go blind. Also exploding sound. Then in game it’s dead silent. This is very rough and I cannon consider this to be playable or in game even though I can go in game if I guess prompts in menu.",
           "images": [
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4D5307D5/1775150885735-1.jpg"
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454107DC/1773031857872-1.jpg"
           ],
           "meta": {
             "status": "intro",
             "perf": "poor",
-            "device": "iPhone 14 Pro",
+            "device": "iPhone 15 Pro Max",
             "platform": "iOS",
-            "osVersion": "iOS 26.3.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "`056d2f64d`"
-          }
-        },
-        {
-          "id": "comment-4037336640",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/195#issuecomment-4037336640",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-11",
-          "createdAtMs": 1773217024000,
-          "issueNumber": 195,
-          "excerpt": "Able to load into game, low frame rates and severe graphical bugs but functions.",
-          "images": [],
-          "meta": {
-            "status": "ingame",
-            "perf": "ok",
-            "device": "iPhone 16 Pro",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3.1",
+            "osVersion": "iOS 26.1",
             "gpuBackend": "MSL",
             "buildChannel": "self-built",
             "appVersion": "1.0.0",
-            "buildNumber": "9296",
-            "commitShort": "`ab2ca341a`"
-          }
-        },
-        {
-          "id": "issue-195",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/195",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-11",
-          "createdAtMs": 1773208162000,
-          "issueNumber": 195,
-          "excerpt": "Makes it into and through the game start menu, gets stuck loading when starting campaign. Will continue to test and amend if changes.",
-          "images": [],
-          "meta": {
-            "status": "intro",
-            "perf": "ok",
-            "device": "iPhone 16 Pro",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9294",
-            "commitShort": "`3f7efcbfb`"
-          }
-        },
-        {
-          "id": "issue-40",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/40",
-          "author": "xenios-jp",
-          "createdAt": "2026-02-28",
-          "createdAtMs": 1772288527000,
-          "issueNumber": 40,
-          "excerpt": "Runs well but with pretty severe intermittent graphical issues.",
-          "images": [],
-          "meta": {
-            "status": "ingame",
-            "perf": "ok",
-            "device": "MacBook Pro M4 Pro/Max",
-            "platform": "macOS",
-            "osVersion": "macOS 26.3",
-            "gpuBackend": "MSC",
-            "submittedBy": "reality111"
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
           }
         }
       ]
@@ -6339,6 +6296,105 @@
           "excerpt": "Audio in the intro sequence is heavily distorted and ear-piercingly loud, please be careful when opening the game.\n\nLike some other games, there are heavy graphical errors during intro sequences as well as during loading screens. The game froze quite a few times on the main menu before I was able to get into actual gameplay. During gameplay, performance is a *bit* sluggish with noticeable stutters here and there. The game performs much better in smaller areas and in HORDE mode from my testing. There are graphical glitches with the lighting and shadows, especially when paused.",
           "images": [],
           "meta": {}
+        }
+      ]
+    },
+    "4D5307D5": {
+      "titleId": "4D5307D5",
+      "issueNumber": 40,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/40",
+      "updatedAt": "2026-06-07",
+      "entries": [
+        {
+          "id": "issue-382",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/382",
+          "author": "xenios-jp",
+          "createdAt": "2026-04-02",
+          "createdAtMs": 1775150889000,
+          "issueNumber": 382,
+          "excerpt": "I can't get past the loading screen to start the campaign, and there's no sound in the main menu either.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4D5307D5/1775150885735-1.jpg"
+          ],
+          "meta": {
+            "status": "intro",
+            "perf": "poor",
+            "device": "iPhone 14 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
+        {
+          "id": "comment-4037336640",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/195#issuecomment-4037336640",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-11",
+          "createdAtMs": 1773217024000,
+          "issueNumber": 195,
+          "excerpt": "Able to load into game, low frame rates and severe graphical bugs but functions.",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "ok",
+            "device": "iPhone 16 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9296",
+            "commitShort": "`ab2ca341a`"
+          }
+        },
+        {
+          "id": "issue-195",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/195",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-11",
+          "createdAtMs": 1773208162000,
+          "issueNumber": 195,
+          "excerpt": "Makes it into and through the game start menu, gets stuck loading when starting campaign. Will continue to test and amend if changes.",
+          "images": [],
+          "meta": {
+            "status": "intro",
+            "perf": "ok",
+            "device": "iPhone 16 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9294",
+            "commitShort": "`3f7efcbfb`"
+          }
+        },
+        {
+          "id": "issue-40",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/40",
+          "author": "xenios-jp",
+          "createdAt": "2026-02-28",
+          "createdAtMs": 1772288527000,
+          "issueNumber": 40,
+          "excerpt": "Runs well but with pretty severe intermittent graphical issues.",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "ok",
+            "device": "MacBook Pro M4 Pro/Max",
+            "platform": "macOS",
+            "osVersion": "macOS 26.3",
+            "gpuBackend": "MSC",
+            "submittedBy": "reality111"
+          }
         }
       ]
     },
@@ -12800,51 +12856,6 @@
         }
       ]
     },
-    "454107DC": {
-      "titleId": "454107DC",
-      "issueNumber": 120,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/120",
-      "updatedAt": "2026-04-12",
-      "entries": [
-        {
-          "id": "comment-4232889618",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/120#issuecomment-4232889618",
-          "author": "udance4ever",
-          "createdAt": "2026-04-12",
-          "createdAtMs": 1776033270000,
-          "issueNumber": 120,
-          "excerpt": "on MacBookPro (M1) (same build: 1.0.01-9288) - also get a crash during logos - in fact, what is unique about this game is if you let the game keep running it keeping looping back to the same logo over and over again in an infinite loop:\n\n<img width=\"1392\" height=\"860\" alt=\"Image\" src=\" />",
-          "images": [],
-          "meta": {}
-        },
-        {
-          "id": "issue-120",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/120",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-09",
-          "createdAtMs": 1773031861000,
-          "issueNumber": 120,
-          "excerpt": "So the game runs but you can not see anything in menus and have to go blind. Also exploding sound. Then in game it’s dead silent. This is very rough and I cannon consider this to be playable or in game even though I can go in game if I guess prompts in menu.",
-          "images": [
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454107DC/1773031857872-1.jpg"
-          ],
-          "meta": {
-            "status": "intro",
-            "perf": "poor",
-            "device": "iPhone 15 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 26.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "`2633e8177`"
-          }
-        }
-      ]
-    },
     "454107E9": {
       "titleId": "454107E9",
       "issueNumber": 118,
@@ -13975,6 +13986,64 @@
           "meta": {
             "status": "playable",
             "perf": "great",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.1",
+            "gpuBackend": "MSL"
+          }
+        }
+      ]
+    },
+    "544307D1": {
+      "titleId": "544307D1",
+      "issueNumber": 19,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/19",
+      "updatedAt": "2026-05-30",
+      "entries": [
+        {
+          "id": "comment-4232873149",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/19#issuecomment-4232873149",
+          "author": "udance4ever",
+          "createdAt": "2026-04-12",
+          "createdAtMs": 1776032722000,
+          "issueNumber": 19,
+          "excerpt": "This game booted beautifully on MacBook Pro (M1) (build 1.0.1-9288 #056d2f64d) yesterday, today it throws the error pasted below without the call stack.\n\nSame issue with [Remember Me](#176) and [Blur](#298] (all 3 worked prior but crashes the same way today when other titles work)\n\n```\n*** Terminating app due to uncaught exception 'NSInternalInconsistencyException', reason: 'Invalid parameter not satisfying: CGRectContainsRect(CGRectMake((CGFloat)INT_MIN, (CGFloat)INT_MIN, (CGFloat)INT_MAX - (CGFloat)INT_MIN, (CGFloat)INT_MAX - (CGFloat)INT_MIN), frame). self=<QNSWindow: 0xa99255b80; contentView=NSObject(0x0)> frame={{0, 2147483633}, {1920, 1080}}'\n```",
+          "images": [],
+          "meta": {}
+        },
+        {
+          "id": "comment-4015745484",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/19#issuecomment-4015745484",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-05",
+          "createdAtMs": 1772729182000,
+          "issueNumber": 19,
+          "excerpt": "Game loads with no glitches I could tell. The game runs smoothly but with slightly reduced speed. Very playable and very enjoyable!",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 16 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 18.5",
+            "gpuBackend": "MSL"
+          }
+        },
+        {
+          "id": "issue-19",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/19",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-03",
+          "createdAtMs": 1772553802000,
+          "issueNumber": 19,
+          "excerpt": "Visuals are perfect with no apparent glitches. Performance is half speed but stutter free. Menus are perfect and sound is perfect.",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
             "device": "iPhone 17 Pro Max",
             "platform": "iOS",
             "osVersion": "iOS 26.1",
