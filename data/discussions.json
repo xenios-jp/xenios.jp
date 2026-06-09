@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-09T03:46:41.249Z",
+  "generatedAt": "2026-06-09T09:51:41.430Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2879,6 +2879,39 @@
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
           "images": [],
           "meta": {}
+        }
+      ]
+    },
+    "415608B5": {
+      "titleId": "415608B5",
+      "issueNumber": 483,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/483",
+      "updatedAt": "2026-06-09",
+      "entries": [
+        {
+          "id": "issue-483",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/483",
+          "author": "xenios-jp",
+          "createdAt": "2026-06-09",
+          "createdAtMs": 1780998607000,
+          "issueNumber": 483,
+          "excerpt": "The videos before the title screen load but the game does not render at all besides the tutorial text",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/415608B5/1780998599029-1.jpg"
+          ],
+          "meta": {
+            "status": "loads",
+            "perf": "poor",
+            "device": "iPad Pro 11-inch (M4)",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
+          }
         }
       ]
     },
