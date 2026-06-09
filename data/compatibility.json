@@ -104815,11 +104815,31 @@
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-05-24",
+    "updatedAt": "2026-06-09",
     "issueNumber": 62,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/62",
     "notes": "Game runs, however very poorly with stutters and color flickering etc. with 10-15 FPS.\nEmulator is in early stages so I am keen to see major improvements :)",
     "reports": [
+      {
+        "device": "iPad Pro M2",
+        "platform": "ios",
+        "osVersion": "iPad OS 26.5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "loads",
+        "perf": "n/a",
+        "date": "2026-06-09",
+        "notes": "I convert game files to ZAR, if i open the game directly, game would infinity loading with blinking screen. If i open the game by select \"Launch Disc\" then choose disc2 ZAR, game will black screen and whole app stuck with no response. I tried many configurations but still the same problem. The game runs on old version of Xenios.\nHere are log files\n\n[xenia(balck screen).log](https://github.com/user-attachments/files/28751293/xenia.balck.screen.log)\n\n[xenia(infinity loading).log](https://github.com/user-attachments/files/28751296/xenia.infinity.loading.log)",
+        "screenshots": [],
+        "source": "github",
+        "build": {
+          "buildId": "ios-release-2.0.1-9730-9730",
+          "channel": "release",
+          "official": true,
+          "appVersion": "2.0.1-9730",
+          "buildNumber": "9730"
+        }
+      },
       {
         "device": "iPad Air 4",
         "platform": "ios",
@@ -105039,42 +105059,79 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "loads",
+        "perf": "n/a",
+        "notes": "I convert game files to ZAR, if i open the game directly, game would infinity loading with blinking screen. If i open the game by select \"Launch Disc\" then choose disc2 ZAR, game will black screen and whole app stuck with no response. I tried many configurations but still the same problem. The game runs on old version of Xenios.\nHere are log files\n\n[xenia(balck screen).log](https://github.com/user-attachments/files/28751293/xenia.balck.screen.log)\n\n[xenia(infinity loading).log](https://github.com/user-attachments/files/28751296/xenia.infinity.loading.log)",
+        "updatedAt": "2026-06-09",
+        "date": "2026-06-09",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPad Pro M2",
+          "platform": "ios",
+          "osVersion": "iPad OS 26.5",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "loads",
+          "perf": "n/a",
+          "date": "2026-06-09",
+          "notes": "I convert game files to ZAR, if i open the game directly, game would infinity loading with blinking screen. If i open the game by select \"Launch Disc\" then choose disc2 ZAR, game will black screen and whole app stuck with no response. I tried many configurations but still the same problem. The game runs on old version of Xenios.\nHere are log files\n\n[xenia(balck screen).log](https://github.com/user-attachments/files/28751293/xenia.balck.screen.log)\n\n[xenia(infinity loading).log](https://github.com/user-attachments/files/28751296/xenia.infinity.loading.log)",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-2.0.1-9730-9730",
+            "channel": "release",
+            "official": true,
+            "appVersion": "2.0.1-9730",
+            "buildNumber": "9730"
+          }
+        },
+        "bestReport": {
+          "device": "iPad Pro M2",
+          "platform": "ios",
+          "osVersion": "iPad OS 26.5",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "loads",
+          "perf": "n/a",
+          "date": "2026-06-09",
+          "notes": "I convert game files to ZAR, if i open the game directly, game would infinity loading with blinking screen. If i open the game by select \"Launch Disc\" then choose disc2 ZAR, game will black screen and whole app stuck with no response. I tried many configurations but still the same problem. The game runs on old version of Xenios.\nHere are log files\n\n[xenia(balck screen).log](https://github.com/user-attachments/files/28751293/xenia.balck.screen.log)\n\n[xenia(infinity loading).log](https://github.com/user-attachments/files/28751296/xenia.infinity.loading.log)",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-2.0.1-9730-9730",
+            "channel": "release",
+            "official": true,
+            "appVersion": "2.0.1-9730",
+            "buildNumber": "9730"
+          }
+        }
       },
       "all": {
         "channel": "all",
         "status": "playable",
         "perf": "poor",
         "notes": "Game runs, however very poorly with stutters and color flickering etc. with 10-15 FPS.\nEmulator is in early stages so I am keen to see major improvements :)",
-        "updatedAt": "2026-05-24",
-        "date": "2026-05-24",
-        "reportCount": 9,
+        "updatedAt": "2026-06-09",
+        "date": "2026-06-09",
+        "reportCount": 10,
         "latestReport": {
-          "device": "iPad Air 4",
+          "device": "iPad Pro M2",
           "platform": "ios",
-          "osVersion": "18.0.1",
+          "osVersion": "iPad OS 26.5",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
+          "status": "loads",
           "perf": "n/a",
-          "date": "2026-05-24",
-          "notes": "Literally a black screen after the rockstar games and rockstar north logos",
+          "date": "2026-06-09",
+          "notes": "I convert game files to ZAR, if i open the game directly, game would infinity loading with blinking screen. If i open the game by select \"Launch Disc\" then choose disc2 ZAR, game will black screen and whole app stuck with no response. I tried many configurations but still the same problem. The game runs on old version of Xenios.\nHere are log files\n\n[xenia(balck screen).log](https://github.com/user-attachments/files/28751293/xenia.balck.screen.log)\n\n[xenia(infinity loading).log](https://github.com/user-attachments/files/28751296/xenia.infinity.loading.log)",
           "screenshots": [],
-          "source": "app",
+          "source": "github",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "buildId": "ios-release-2.0.1-9730-9730",
+            "channel": "release",
+            "official": true,
+            "appVersion": "2.0.1-9730",
+            "buildNumber": "9730"
           }
         },
         "bestReport": {
