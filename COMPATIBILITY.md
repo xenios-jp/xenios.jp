@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **306 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **308 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **124** · 🔵 In-Game: **59** · 🟡 Intro: **26** · 🟠 Loads: **44** · 🔴 Doesn't Boot: **53**
+> 🟢 Playable: **124** · 🔵 In-Game: **59** · 🟡 Intro: **27** · 🟠 Loads: **44** · 🔴 Doesn't Boot: **54**
 >
-> 📱 iOS: **277** · 🖥️ macOS: **50**
+> 📱 iOS: **279** · 🖥️ macOS: **50**
 
 ## Legend
 
@@ -227,6 +227,7 @@
 | 🟡 | Tales of Vesperia | `4E4D07E9` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro | 2026-03-03 |
 | 🟡 | Test Drive Unlimited 2 | `49470804` | 📱 iOS | Intro | 🐢 Poor | iPhone 15 | 2026-03-28 |
 | 🟡 | The Evil Within | `425307F4` | 📱 iOS | Intro | 🐢 Poor | iPhone 17 Pro Max | 2026-05-09 |
+| 🟡 | Tom Clancy's Splinter Cell: Conviction | `5553080B` | 📱 iOS | Intro | 🐢 Poor | iPhone 15 Pro Max | 2026-06-10 |
 | 🟡 | Two Worlds | `535007D4` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro Max | 2026-03-09 |
 | 🟡 | WWE 13 | `545108B4` | 📱 iOS | Intro | 🐢 Poor | iPhone 15 Pro | 2026-03-29 |
 | 🟠 | 2010 FIFA World Cup South Africa | `454108E4` | 📱 iOS | Loads | 🐢 Poor | iPhone 17 | 2026-05-27 |
@@ -292,6 +293,7 @@
 | 🔴 | FIFA 15 | `454109DB` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Pro 13-inch (M4) | 2026-03-13 |
 | 🔴 | Fight Night Champion | `45410915` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Pro (M2) | 2026-03-03 |
 | 🔴 | Forza Horizon 2 Presents Fast & Furious | `4D530AB5` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad 10 | 2026-03-08 |
+| 🔴 | GRID 2 | `434D0844` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16e | 2026-06-09 |
 | 🔴 | Harry Potter and the Deathly Hallows: Part 1 | `454108F9` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 | 2026-04-16 |
 | 🔴 | Harry Potter and the Half-Blood Prince | `454107FA` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 | 2026-04-16 |
 | 🔴 | Left 4 Dead 2 | `454108D4` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Air 4 | 2026-03-13 |

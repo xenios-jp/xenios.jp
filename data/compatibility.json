@@ -106432,13 +106432,44 @@
     "status": "nothing",
     "perf": "n/a",
     "tags": [],
-    "platforms": [],
-    "lastReport": null,
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 16e",
+      "platform": "ios",
+      "osVersion": "26.5",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
     "updatedAt": "2026-06-09",
     "issueNumber": 488,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/488",
-    "notes": "",
-    "reports": [],
+    "notes": "Black screen",
+    "reports": [
+      {
+        "device": "iPhone 16e",
+        "platform": "ios",
+        "osVersion": "26.5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-06-09",
+        "notes": "Black screen",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140"
+        }
+      }
+    ],
     "screenshots": [],
     "summaries": {
       "release": {
@@ -106454,14 +106485,56 @@
       },
       "all": {
         "channel": "all",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "nothing",
+        "perf": "n/a",
+        "notes": "Black screen",
+        "updatedAt": "2026-06-09",
+        "date": "2026-06-09",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 16e",
+          "platform": "ios",
+          "osVersion": "26.5",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-06-09",
+          "notes": "Black screen",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 16e",
+          "platform": "ios",
+          "osVersion": "26.5",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-06-09",
+          "notes": "Black screen",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
+          }
+        }
       }
     }
   },
@@ -241423,14 +241496,47 @@
     "titleIds": [
       "5553080B"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "intro",
+    "perf": "poor",
     "tags": [],
-    "platforms": [],
-    "lastReport": null,
-    "updatedAt": "",
-    "notes": "",
-    "reports": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 15 Pro Max",
+      "platform": "ios",
+      "osVersion": "26.4",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-06-10",
+    "issueNumber": 489,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/489",
+    "notes": "Blackscreen after the intros and save notification",
+    "reports": [
+      {
+        "device": "iPhone 15 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.4",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "intro",
+        "perf": "poor",
+        "date": "2026-06-10",
+        "notes": "Blackscreen after the intros and save notification",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140"
+        }
+      }
+    ],
     "screenshots": [],
     "summaries": {
       "release": {
@@ -241446,14 +241552,56 @@
       },
       "all": {
         "channel": "all",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "intro",
+        "perf": "poor",
+        "notes": "Blackscreen after the intros and save notification",
+        "updatedAt": "2026-06-10",
+        "date": "2026-06-10",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 15 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.4",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "intro",
+          "perf": "poor",
+          "date": "2026-06-10",
+          "notes": "Blackscreen after the intros and save notification",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 15 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.4",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "intro",
+          "perf": "poor",
+          "date": "2026-06-10",
+          "notes": "Blackscreen after the intros and save notification",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
+          }
+        }
       }
     }
   },

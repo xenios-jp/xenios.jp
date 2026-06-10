@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-09T18:40:18.267Z",
+  "generatedAt": "2026-06-10T01:13:54.366Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2879,6 +2879,37 @@
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
           "images": [],
           "meta": {}
+        }
+      ]
+    },
+    "5553080B": {
+      "titleId": "5553080B",
+      "issueNumber": 489,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/489",
+      "updatedAt": "2026-06-10",
+      "entries": [
+        {
+          "id": "issue-489",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/489",
+          "author": "xenios-jp",
+          "createdAt": "2026-06-10",
+          "createdAtMs": 1781053941000,
+          "issueNumber": 489,
+          "excerpt": "Blackscreen after the intros and save notification",
+          "images": [],
+          "meta": {
+            "status": "intro",
+            "perf": "poor",
+            "device": "iPhone 15 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.4",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
+          }
         }
       ]
     },
