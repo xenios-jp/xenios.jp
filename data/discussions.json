@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-10T19:32:38.535Z",
+  "generatedAt": "2026-06-10T19:40:10.542Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -3044,8 +3044,35 @@
       "titleId": "454108E6",
       "issueNumber": 486,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/486",
-      "updatedAt": "2026-06-09",
+      "updatedAt": "2026-06-10",
       "entries": [
+        {
+          "id": "comment-4673772798",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/486#issuecomment-4673772798",
+          "author": "xenios-jp",
+          "createdAt": "2026-06-10",
+          "createdAtMs": 1781120247000,
+          "issueNumber": 486,
+          "excerpt": "some hiccups and sometimes low fps, game is playable",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454108E6/1781120235192-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454108E6/1781120235192-2.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454108E6/1781120235192-3.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 16",
+            "platform": "iOS",
+            "osVersion": "iOS 26.4.2",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
+          }
+        },
         {
           "id": "issue-486",
           "type": "issue",
@@ -3164,25 +3191,6 @@
             "appVersion": "1.0.0",
             "buildNumber": "9280",
             "commitShort": "`2633e8177`"
-          }
-        },
-        {
-          "id": "issue-30",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/30",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-02",
-          "createdAtMs": 1772475279000,
-          "issueNumber": 30,
-          "excerpt": "The intro has some graphical issues and the game crashes after the intro",
-          "images": [],
-          "meta": {
-            "status": "loads",
-            "perf": "poor",
-            "device": "iPad Pro (M2)",
-            "platform": "iOS",
-            "osVersion": "iOS 18.3.1",
-            "gpuBackend": "MSL"
           }
         }
       ]

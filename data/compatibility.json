@@ -207090,23 +207090,45 @@
       "454108E6"
     ],
     "status": "playable",
-    "perf": "great",
+    "perf": "ok",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 17 Pro Max",
+      "device": "iPhone 16",
       "platform": "ios",
-      "osVersion": "26.3",
+      "osVersion": "26.4.2",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-06-09",
+    "updatedAt": "2026-06-10",
     "issueNumber": 30,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/30",
-    "notes": "Works perfectly",
+    "notes": "some hiccups and sometimes low fps, game is playable",
     "reports": [
+      {
+        "device": "iPhone 16",
+        "platform": "ios",
+        "osVersion": "26.4.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-06-10",
+        "notes": "some hiccups and sometimes low fps, game is playable",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140"
+        }
+      },
       {
         "device": "iPhone 17 Pro Max",
         "platform": "ios",
@@ -207281,6 +207303,9 @@
       }
     ],
     "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454108E6/1781120235192-1.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454108E6/1781120235192-2.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454108E6/1781120235192-3.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454108E6/1773890051198-1.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454108E6/1773890051198-2.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454108E6/1773017243906-1.jpg"
@@ -207328,53 +207353,53 @@
       "all": {
         "channel": "all",
         "status": "playable",
-        "perf": "great",
-        "notes": "Works perfectly",
-        "updatedAt": "2026-06-09",
-        "date": "2026-06-09",
-        "reportCount": 8,
+        "perf": "ok",
+        "notes": "some hiccups and sometimes low fps, game is playable",
+        "updatedAt": "2026-06-10",
+        "date": "2026-06-10",
+        "reportCount": 9,
         "latestReport": {
-          "device": "iPhone 17 Pro Max",
+          "device": "iPhone 16",
           "platform": "ios",
-          "osVersion": "26.3",
+          "osVersion": "26.4.2",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
-          "perf": "great",
-          "date": "2026-06-09",
-          "notes": "Works perfectly",
+          "perf": "ok",
+          "date": "2026-06-10",
+          "notes": "some hiccups and sometimes low fps, game is playable",
           "screenshots": [],
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-2.0.1-9729",
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
-            "buildNumber": "9729",
+            "buildNumber": "9730",
             "stage": "stable",
-            "commitShort": "d1afdc63d"
+            "commitShort": "57c3ca140"
           }
         },
         "bestReport": {
-          "device": "iPhone 17 Pro Max",
+          "device": "iPhone 16",
           "platform": "ios",
-          "osVersion": "26.3",
+          "osVersion": "26.4.2",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
-          "perf": "great",
-          "date": "2026-06-09",
-          "notes": "Works perfectly",
+          "perf": "ok",
+          "date": "2026-06-10",
+          "notes": "some hiccups and sometimes low fps, game is playable",
           "screenshots": [],
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-2.0.1-9729",
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
-            "buildNumber": "9729",
+            "buildNumber": "9730",
             "stage": "stable",
-            "commitShort": "d1afdc63d"
+            "commitShort": "57c3ca140"
           }
         }
       }
