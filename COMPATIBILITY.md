@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **308 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **309 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **124** · 🔵 In-Game: **59** · 🟡 Intro: **27** · 🟠 Loads: **44** · 🔴 Doesn't Boot: **54**
+> 🟢 Playable: **124** · 🔵 In-Game: **60** · 🟡 Intro: **27** · 🟠 Loads: **44** · 🔴 Doesn't Boot: **54**
 >
-> 📱 iOS: **279** · 🖥️ macOS: **50**
+> 📱 iOS: **280** · 🖥️ macOS: **50**
 
 ## Legend
 
@@ -146,6 +146,7 @@
 | 🟢 | Yaris | `5841087F` | 📱 iOS | Playable | 🚀 Great | iPhone 14 Pro Max | 2026-03-23 |
 | 🔵 | Band Hero | `4156085C` | 📱 iOS, 🖥️ macOS | In-Game | 🐢 Poor | iPhone 13 mini | 2026-03-22 |
 | 🔵 | Batman: Arkham City | `57520802` | 📱 iOS | In-Game | 👌 OK | iPhone 15 Pro Max | 2026-03-09 |
+| 🔵 | Battlefield: Bad Company | `454107F9` | 📱 iOS | In-Game | 🐢 Poor | iPhone 15 Pro | 2026-06-10 |
 | 🔵 | Bayonetta | `53450813` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 | 2026-03-08 |
 | 🔵 | Blue Dragon | `4D5307DF` | 🖥️ macOS | In-Game | 🚀 Great | Mac mini (M2) | 2026-03-11 |
 | 🔵 | Burnout Paradise | `45410806` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro Max | 2026-03-12 |

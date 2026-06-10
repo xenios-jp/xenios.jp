@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-10T01:13:54.366Z",
+  "generatedAt": "2026-06-10T14:45:40.261Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2879,6 +2879,37 @@
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
           "images": [],
           "meta": {}
+        }
+      ]
+    },
+    "454107F9": {
+      "titleId": "454107F9",
+      "issueNumber": 490,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/490",
+      "updatedAt": "2026-06-10",
+      "entries": [
+        {
+          "id": "issue-490",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/490",
+          "author": "xenios-jp",
+          "createdAt": "2026-06-10",
+          "createdAtMs": 1781102600000,
+          "issueNumber": 490,
+          "excerpt": "Severe graphic bugs during. Impossible to play",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "poor",
+            "device": "iPhone 15 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 26.4.2",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
+          }
         }
       ]
     },
