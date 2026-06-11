@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-10T19:40:10.542Z",
+  "generatedAt": "2026-06-11T00:09:36.611Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -334,10 +334,33 @@
     },
     "41560855": {
       "titleId": "41560855",
-      "issueNumber": 45,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/45",
-      "updatedAt": "2026-03-09",
+      "issueNumber": 493,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/493",
+      "updatedAt": "2026-06-11",
       "entries": [
+        {
+          "id": "issue-493",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/493",
+          "author": "xenios-jp",
+          "createdAt": "2026-06-11",
+          "createdAtMs": 1781136466000,
+          "issueNumber": 493,
+          "excerpt": "The Performance is 17-24 pretty smooth I don’t know what the other reports are talking about I mean I do get some graphical issues put it’s still ok",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 15 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
+          }
+        },
         {
           "id": "comment-4020647266",
           "type": "comment",

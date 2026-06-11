@@ -31611,7 +31611,6 @@
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
-          "stage": "stable",
           "commitShort": "57c3ca140"
         }
       }
@@ -31655,7 +31654,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         },
@@ -31677,7 +31675,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         }
@@ -35060,7 +35057,6 @@
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
-          "stage": "stable",
           "commitShort": "57c3ca140"
         }
       }
@@ -35107,7 +35103,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         },
@@ -35129,7 +35124,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         }
@@ -47291,24 +47285,46 @@
       "415688B3",
       "4156889D"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "playable",
+    "perf": "ok",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 17 Pro Max",
+      "device": "iPhone 15 Pro",
       "platform": "ios",
       "osVersion": "26.3",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-09",
+    "updatedAt": "2026-06-11",
     "issueNumber": 45,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/45",
-    "notes": "Black screen",
+    "notes": "The Performance is 17-24 pretty smooth I don’t know what the other reports are talking about I mean I do get some graphical issues put it’s still ok",
     "reports": [
+      {
+        "device": "iPhone 15 Pro",
+        "platform": "ios",
+        "osVersion": "26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-06-11",
+        "notes": "The Performance is 17-24 pretty smooth I don’t know what the other reports are talking about I mean I do get some graphical issues put it’s still ok",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140"
+        }
+      },
       {
         "device": "iPhone 17 Pro Max",
         "platform": "ios",
@@ -47373,58 +47389,54 @@
       },
       "all": {
         "channel": "all",
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "Black screen",
-        "updatedAt": "2026-03-09",
-        "date": "2026-03-09",
-        "reportCount": 2,
+        "status": "playable",
+        "perf": "ok",
+        "notes": "The Performance is 17-24 pretty smooth I don’t know what the other reports are talking about I mean I do get some graphical issues put it’s still ok",
+        "updatedAt": "2026-06-11",
+        "date": "2026-06-11",
+        "reportCount": 3,
         "latestReport": {
-          "device": "iPhone 17 Pro Max",
+          "device": "iPhone 15 Pro",
           "platform": "ios",
           "osVersion": "26.3",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-09",
-          "notes": "Black screen",
-          "reportedTitleId": "41560855",
-          "reportedTitle": "Call of Duty Black Ops",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-06-11",
+          "notes": "The Performance is 17-24 pretty smooth I don’t know what the other reports are talking about I mean I do get some graphical issues put it’s still ok",
           "screenshots": [],
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
             "stage": "stable",
-            "commitShort": "2633e8177"
+            "commitShort": "57c3ca140"
           }
         },
         "bestReport": {
-          "device": "iPhone 17 Pro Max",
+          "device": "iPhone 15 Pro",
           "platform": "ios",
           "osVersion": "26.3",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-09",
-          "notes": "Black screen",
-          "reportedTitleId": "41560855",
-          "reportedTitle": "Call of Duty Black Ops",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-06-11",
+          "notes": "The Performance is 17-24 pretty smooth I don’t know what the other reports are talking about I mean I do get some graphical issues put it’s still ok",
           "screenshots": [],
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
             "stage": "stable",
-            "commitShort": "2633e8177"
+            "commitShort": "57c3ca140"
           }
         }
       }
@@ -84864,7 +84876,6 @@
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9729",
-          "stage": "stable",
           "commitShort": "d1afdc63d"
         }
       }
@@ -84908,7 +84919,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9729",
-            "stage": "stable",
             "commitShort": "d1afdc63d"
           }
         },
@@ -84930,7 +84940,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9729",
-            "stage": "stable",
             "commitShort": "d1afdc63d"
           }
         }
@@ -106618,7 +106627,6 @@
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
-          "stage": "stable",
           "commitShort": "57c3ca140"
         }
       }
@@ -106662,7 +106670,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         },
@@ -106684,7 +106691,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         }
@@ -207125,7 +207131,6 @@
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
-          "stage": "stable",
           "commitShort": "57c3ca140"
         }
       },
@@ -207147,50 +207152,7 @@
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9729",
-          "stage": "stable",
           "commitShort": "d1afdc63d"
-        }
-      },
-      {
-        "device": "iPhone 16",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "loads",
-        "perf": "poor",
-        "date": "2026-03-19",
-        "notes": "The game is essentially unplayable. Some assets on the character selection do not load. The game is full of visual glitches, and switching maps caused the game and whole app to crash.",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
-        }
-      },
-      {
-        "device": "iPad Pro 13-inch (M4)",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "poor",
-        "date": "2026-03-13",
-        "notes": "FPS hovers around 15-25fps… many stating teleporting causes crash. My game did not crash at all and in fact it seems to stabilize fps the more i play it but it doesnt exceed 24fps. It’s honestly good enough for me to feel confident playing. But i am on extremely expensive hardware. It’s a IPad Pro 13in M4 1TB 16GB Ram. This alone feels like it should be running at at 40+ fps but im going to assume new updates to the emulator will fix this over time.",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.0-9296",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9296",
-          "commitShort": "ab2ca341a"
         }
       },
       {
@@ -207357,7 +207319,7 @@
         "notes": "some hiccups and sometimes low fps, game is playable",
         "updatedAt": "2026-06-10",
         "date": "2026-06-10",
-        "reportCount": 9,
+        "reportCount": 7,
         "latestReport": {
           "device": "iPhone 16",
           "platform": "ios",
@@ -207376,7 +207338,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         },
@@ -207398,7 +207359,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         }
@@ -241710,7 +241670,6 @@
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
-          "stage": "stable",
           "commitShort": "57c3ca140"
         }
       }
@@ -241754,7 +241713,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         },
@@ -241776,7 +241734,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         }
