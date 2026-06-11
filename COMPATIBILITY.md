@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **311 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **312 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **126** · 🔵 In-Game: **61** · 🟡 Intro: **27** · 🟠 Loads: **44** · 🔴 Doesn't Boot: **53**
+> 🟢 Playable: **127** · 🔵 In-Game: **61** · 🟡 Intro: **28** · 🟠 Loads: **43** · 🔴 Doesn't Boot: **53**
 >
-> 📱 iOS: **282** · 🖥️ macOS: **50**
+> 📱 iOS: **283** · 🖥️ macOS: **50**
 
 ## Legend
 
@@ -50,6 +50,7 @@
 | 🟢 | DOA5 Ultimate | `4B5607DA` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-17 |
 | 🟢 | Dragon Age: Origins - Ultimate Edition | `454108C0` | 🖥️ macOS | Playable | 🚀 Great | Mac mini (M4) | 2026-03-15 |
 | 🟢 | Dragon Ball Z Budokai HD Collection | `4E4D0856` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro Max | 2026-03-14 |
+| 🟢 | Dragon Ball Z Ultimate Tenkaichi | `4E4D0846` | 📱 iOS | Playable | 👌 OK | iPad16,9 | 2026-06-11 |
 | 🟢 | DuckTales Remastered | `584113C6` | 📱 iOS | Playable | 🐢 Poor | iPhone 14 Pro Max | 2026-03-25 |
 | 🟢 | EA SPORTS FIFA Street | `4541097B` | 📱 iOS | Playable | 👌 OK | iPhone 16e | 2026-06-03 |
 | 🟢 | F.E.A.R: First Encounter Assault Recon | `565507D9` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro | 2026-03-13 |
@@ -231,7 +232,8 @@
 | 🟡 | Tales of Vesperia | `4E4D07E9` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro | 2026-03-03 |
 | 🟡 | Test Drive Unlimited 2 | `49470804` | 📱 iOS | Intro | 🐢 Poor | iPhone 15 | 2026-03-28 |
 | 🟡 | The Evil Within | `425307F4` | 📱 iOS | Intro | 🐢 Poor | iPhone 17 Pro Max | 2026-05-09 |
-| 🟡 | Tom Clancy's Splinter Cell: Conviction | `5553080B` | 📱 iOS | Intro | 🐢 Poor | iPhone 15 Pro Max | 2026-06-10 |
+| 🟡 | Tom Clancy's Splinter Cell: Blacklist | `555308B6` | 📱 iOS | Intro | 🐢 Poor | iPhone 15 Pro Max | 2026-06-11 |
+| 🟡 | Tom Clancy's Splinter Cell: Conviction | `5553080B` | 📱 iOS | Intro | 🚀 Great | iPhone 15 Pro Max | 2026-06-11 |
 | 🟡 | Two Worlds | `535007D4` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro Max | 2026-03-09 |
 | 🟡 | WWE 13 | `545108B4` | 📱 iOS | Intro | 🐢 Poor | iPhone 15 Pro | 2026-03-29 |
 | 🟠 | 2010 FIFA World Cup South Africa | `454108E4` | 📱 iOS | Loads | 🐢 Poor | iPhone 17 | 2026-05-27 |
@@ -244,7 +246,6 @@
 | 🟠 | Crysis 3 | `4541098E` | 📱 iOS | Loads | 🐢 Poor | iPad Pro M5 | 2026-03-09 |
 | 🟠 | Dark Souls | `4E4D083A` | 📱 iOS | Loads | 🐢 Poor | iPhone 16e | 2026-03-16 |
 | 🟠 | Deadpool | `415608EC` | 📱 iOS | Loads | 🚀 Great | iPhone 15 Pro | 2026-03-22 |
-| 🟠 | Dragon Ball Z Ultimate Tenkaichi | `4E4D0846` | 📱 iOS | Loads | 🐢 Poor | iPad Air 11-inch (M3) | 2026-04-04 |
 | 🟠 | Enslaved: Odyssey to the West | `4E4D07F1` | 🖥️ macOS | Loads | ➖ N/A | MacBook Pro (M1) | 2026-04-12 |
 | 🟠 | Epic Mickey 2 The Power Of Two | `42560816` | 📱 iOS | Loads | 🐢 Poor | iPhone 15 Pro Max | 2026-03-08 |
 | 🟠 | FIFA Street 3 | `4541083B` | 📱 iOS | Loads | ➖ N/A | iPad Air 5 | 2026-03-09 |

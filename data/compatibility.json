@@ -47321,7 +47321,6 @@
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
-          "stage": "stable",
           "commitShort": "57c3ca140"
         }
       },
@@ -47413,7 +47412,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         },
@@ -47435,7 +47433,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         }
@@ -48027,7 +48024,6 @@
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
-          "stage": "stable",
           "commitShort": "57c3ca140"
         }
       }
@@ -48071,7 +48067,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         },
@@ -48093,7 +48088,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         }
@@ -75744,24 +75738,45 @@
     "titleIds": [
       "4E4D0846"
     ],
-    "status": "loads",
-    "perf": "poor",
+    "status": "playable",
+    "perf": "ok",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPad Air 11-inch (M3)",
+      "device": "iPad16,9",
       "platform": "ios",
-      "osVersion": "18.5",
+      "osVersion": "26.5",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-04-04",
+    "updatedAt": "2026-06-11",
     "issueNumber": 389,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/389",
-    "notes": "Loads in that’s it",
+    "notes": "Runs a little slow but definitely works",
     "reports": [
+      {
+        "device": "iPad16,9",
+        "platform": "ios",
+        "osVersion": "26.5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-06-11",
+        "notes": "Runs a little slow but definitely works",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "commitShort": "57c3ca140"
+        }
+      },
       {
         "device": "iPad Air 11-inch (M3)",
         "platform": "ios",
@@ -75799,52 +75814,52 @@
       },
       "all": {
         "channel": "all",
-        "status": "loads",
-        "perf": "poor",
-        "notes": "Loads in that’s it",
-        "updatedAt": "2026-04-04",
-        "date": "2026-04-04",
-        "reportCount": 1,
+        "status": "playable",
+        "perf": "ok",
+        "notes": "Runs a little slow but definitely works",
+        "updatedAt": "2026-06-11",
+        "date": "2026-06-11",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPad Air 11-inch (M3)",
+          "device": "iPad16,9",
           "platform": "ios",
-          "osVersion": "18.5",
+          "osVersion": "26.5",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "poor",
-          "date": "2026-04-04",
-          "notes": "Loads in that’s it",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-06-11",
+          "notes": "Runs a little slow but definitely works",
           "screenshots": [],
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "57c3ca140"
           }
         },
         "bestReport": {
-          "device": "iPad Air 11-inch (M3)",
+          "device": "iPad16,9",
           "platform": "ios",
-          "osVersion": "18.5",
+          "osVersion": "26.5",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "poor",
-          "date": "2026-04-04",
-          "notes": "Loads in that’s it",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-06-11",
+          "notes": "Runs a little slow but definitely works",
           "screenshots": [],
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "57c3ca140"
           }
         }
       }
@@ -111453,50 +111468,7 @@
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
-          "stage": "stable",
           "commitShort": "57c3ca140"
-        }
-      },
-      {
-        "device": "iPhone 12",
-        "platform": "ios",
-        "osVersion": "26.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-04-25",
-        "notes": "Just a black screen with no audio. Logs says the game launched successfully but nothing ever happens",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
-        }
-      },
-      {
-        "device": "iPhone 17 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.0",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "perf": "ok",
-        "date": "2026-03-23",
-        "notes": "For my tests I have not tried campaign. There are lots of bugs:\n- The initial loading screen has a short and loud static sound that plays when the loading screen is finished loading.\n- There is another of the same sound that plays shortly after during the 343 intro logo.\n- The intro graphics are a green pixelated mess\n- Audio for buttons is messed up.\n- The 3d graphics in the background of the main menu are messed up.\n- Selecting the multiplayer button on the main menu closes the game instantly and goes back to the XeniOS app itself.\n- Some controller inputs are read twice and it is random when any controller input is read once or twice. For example, on the main menu I would press down one time and the selection would have a random chance of going down one time or two times.",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.0-9299",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9299",
-          "commitShort": "d8c101905"
         }
       },
       {
@@ -111591,7 +111563,7 @@
         "notes": "Works great as long as graphics are switched to classic.",
         "updatedAt": "2026-06-11",
         "date": "2026-06-11",
-        "reportCount": 5,
+        "reportCount": 3,
         "latestReport": {
           "device": "iPhone 17 Pro Max",
           "platform": "ios",
@@ -111610,7 +111582,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         },
@@ -241691,15 +241662,50 @@
     "titleIds": [
       "555308B6"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "intro",
+    "perf": "poor",
     "tags": [],
-    "platforms": [],
-    "lastReport": null,
-    "updatedAt": "",
-    "notes": "",
-    "reports": [],
-    "screenshots": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 15 Pro Max",
+      "platform": "ios",
+      "osVersion": "26.4",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-06-11",
+    "issueNumber": 496,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/496",
+    "notes": "Game loads. HUD is visible. Everything 3D is not rendered",
+    "reports": [
+      {
+        "device": "iPhone 15 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.4",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "intro",
+        "perf": "poor",
+        "date": "2026-06-11",
+        "notes": "Game loads. HUD is visible. Everything 3D is not rendered",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140"
+        }
+      }
+    ],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/555308B6/1781156293096-1.jpg"
+    ],
     "summaries": {
       "release": {
         "channel": "release",
@@ -241714,14 +241720,56 @@
       },
       "all": {
         "channel": "all",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "intro",
+        "perf": "poor",
+        "notes": "Game loads. HUD is visible. Everything 3D is not rendered",
+        "updatedAt": "2026-06-11",
+        "date": "2026-06-11",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 15 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.4",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "intro",
+          "perf": "poor",
+          "date": "2026-06-11",
+          "notes": "Game loads. HUD is visible. Everything 3D is not rendered",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 15 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.4",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "intro",
+          "perf": "poor",
+          "date": "2026-06-11",
+          "notes": "Game loads. HUD is visible. Everything 3D is not rendered",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
+          }
+        }
       }
     }
   },
@@ -241733,7 +241781,7 @@
       "5553080B"
     ],
     "status": "intro",
-    "perf": "poor",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
@@ -241745,11 +241793,32 @@
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-06-10",
+    "updatedAt": "2026-06-11",
     "issueNumber": 489,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/489",
-    "notes": "Blackscreen after the intros and save notification",
+    "notes": "Intro, Menu, HUD and options load but everything in 3D is not rendered",
     "reports": [
+      {
+        "device": "iPhone 15 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.4",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "intro",
+        "perf": "great",
+        "date": "2026-06-11",
+        "notes": "Intro, Menu, HUD and options load but everything in 3D is not rendered",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "commitShort": "57c3ca140"
+        }
+      },
       {
         "device": "iPhone 15 Pro Max",
         "platform": "ios",
@@ -241772,7 +241841,9 @@
         }
       }
     ],
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/5553080B/1781154681142-1.jpg"
+    ],
     "summaries": {
       "release": {
         "channel": "release",
@@ -241788,11 +241859,11 @@
       "all": {
         "channel": "all",
         "status": "intro",
-        "perf": "poor",
-        "notes": "Blackscreen after the intros and save notification",
-        "updatedAt": "2026-06-10",
-        "date": "2026-06-10",
-        "reportCount": 1,
+        "perf": "great",
+        "notes": "Intro, Menu, HUD and options load but everything in 3D is not rendered",
+        "updatedAt": "2026-06-11",
+        "date": "2026-06-11",
+        "reportCount": 2,
         "latestReport": {
           "device": "iPhone 15 Pro Max",
           "platform": "ios",
@@ -241800,9 +241871,9 @@
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "intro",
-          "perf": "poor",
-          "date": "2026-06-10",
-          "notes": "Blackscreen after the intros and save notification",
+          "perf": "great",
+          "date": "2026-06-11",
+          "notes": "Intro, Menu, HUD and options load but everything in 3D is not rendered",
           "screenshots": [],
           "source": "app",
           "build": {
@@ -241821,9 +241892,9 @@
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "intro",
-          "perf": "poor",
-          "date": "2026-06-10",
-          "notes": "Blackscreen after the intros and save notification",
+          "perf": "great",
+          "date": "2026-06-11",
+          "notes": "Intro, Menu, HUD and options load but everything in 3D is not rendered",
           "screenshots": [],
           "source": "app",
           "build": {
