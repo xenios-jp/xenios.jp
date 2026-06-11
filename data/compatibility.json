@@ -47991,14 +47991,47 @@
       "4156088E",
       "415688E6"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
-    "platforms": [],
-    "lastReport": null,
-    "updatedAt": "",
-    "notes": "",
-    "reports": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 15 Pro",
+      "platform": "ios",
+      "osVersion": "26.3",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-06-11",
+    "issueNumber": 494,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/494",
+    "notes": "The game runs AMAZINGLY at first there’s graphical issues but just walk around the map and it gets better and better it runs 30-50 fps. it’s up there with sonic unleashed to run 50 fps on A chip devices.",
+    "reports": [
+      {
+        "device": "iPhone 15 Pro",
+        "platform": "ios",
+        "osVersion": "26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-06-11",
+        "notes": "The game runs AMAZINGLY at first there’s graphical issues but just walk around the map and it gets better and better it runs 30-50 fps. it’s up there with sonic unleashed to run 50 fps on A chip devices.",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140"
+        }
+      }
+    ],
     "screenshots": [],
     "summaries": {
       "release": {
@@ -48014,14 +48047,56 @@
       },
       "all": {
         "channel": "all",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "playable",
+        "perf": "great",
+        "notes": "The game runs AMAZINGLY at first there’s graphical issues but just walk around the map and it gets better and better it runs 30-50 fps. it’s up there with sonic unleashed to run 50 fps on A chip devices.",
+        "updatedAt": "2026-06-11",
+        "date": "2026-06-11",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 15 Pro",
+          "platform": "ios",
+          "osVersion": "26.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-06-11",
+          "notes": "The game runs AMAZINGLY at first there’s graphical issues but just walk around the map and it gets better and better it runs 30-50 fps. it’s up there with sonic unleashed to run 50 fps on A chip devices.",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 15 Pro",
+          "platform": "ios",
+          "osVersion": "26.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-06-11",
+          "notes": "The game runs AMAZINGLY at first there’s graphical issues but just walk around the map and it gets better and better it runs 30-50 fps. it’s up there with sonic unleashed to run 50 fps on A chip devices.",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
+          }
+        }
       }
     }
   },
@@ -111355,11 +111430,33 @@
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-04-25",
+    "updatedAt": "2026-06-11",
     "issueNumber": 1,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/1",
     "notes": "Works great as long as graphics are switched to classic.",
     "reports": [
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.0",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "loads",
+        "perf": "poor",
+        "date": "2026-06-11",
+        "notes": "The game gets stuck at the end of the initial loading screen most of the time, and on the off chance that I can actually get to the main menu:\n- Audio does not exist (this is extremely rare though)\n- Selecting the multiplayer crashes the game back to the XeniOS emulator every time.\n- Sometimes the Extras menu from the main menu gets stuck on “Wait…” forever",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140"
+        }
+      },
       {
         "device": "iPhone 12",
         "platform": "ios",
@@ -111492,28 +111589,29 @@
         "status": "playable",
         "perf": "great",
         "notes": "Works great as long as graphics are switched to classic.",
-        "updatedAt": "2026-04-25",
-        "date": "2026-04-25",
-        "reportCount": 4,
+        "updatedAt": "2026-06-11",
+        "date": "2026-06-11",
+        "reportCount": 5,
         "latestReport": {
-          "device": "iPhone 12",
+          "device": "iPhone 17 Pro Max",
           "platform": "ios",
-          "osVersion": "26.1",
+          "osVersion": "26.0",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-04-25",
-          "notes": "Just a black screen with no audio. Logs says the game launched successfully but nothing ever happens",
+          "status": "loads",
+          "perf": "poor",
+          "date": "2026-06-11",
+          "notes": "The game gets stuck at the end of the initial loading screen most of the time, and on the off chance that I can actually get to the main menu:\n- Audio does not exist (this is extremely rare though)\n- Selecting the multiplayer crashes the game back to the XeniOS emulator every time.\n- Sometimes the Extras menu from the main menu gets stuck on “Wait…” forever",
           "screenshots": [],
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
           }
         },
         "bestReport": {
