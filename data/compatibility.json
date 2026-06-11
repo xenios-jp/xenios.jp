@@ -190949,24 +190949,47 @@
     "titleIds": [
       "4343082F"
     ],
-    "status": "intro",
-    "perf": "great",
+    "status": "ingame",
+    "perf": "poor",
     "tags": [],
     "platforms": [
-      "macos"
+      "macos",
+      "ios"
     ],
     "lastReport": {
-      "device": "Mac mini (M2)",
-      "platform": "macos",
-      "osVersion": "26.3.1",
+      "device": "iPhone 15 Pro",
+      "platform": "ios",
+      "osVersion": "26.4.2",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-15",
-    "issueNumber": 176,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/176",
-    "notes": "Audio screeching in cutscenes You can play through the first level with minor glitches, but then it crashes once you enter the casket. Error: A64 access violation detected in A64 JIT code. Exiting immediately to prevent emulator freeze and log spam.",
+    "updatedAt": "2026-06-11",
+    "issueNumber": 497,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/497",
+    "notes": "It’s possible to complete first level only. Lack of sound during gameplay and graphical bugs",
     "reports": [
+      {
+        "device": "iPhone 15 Pro",
+        "platform": "ios",
+        "osVersion": "26.4.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "poor",
+        "date": "2026-06-11",
+        "notes": "It’s possible to complete first level only. Lack of sound during gameplay and graphical bugs",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140"
+        }
+      },
       {
         "device": "Mac mini (M2)",
         "platform": "macos",
@@ -191004,52 +191027,54 @@
       },
       "all": {
         "channel": "all",
-        "status": "intro",
-        "perf": "great",
-        "notes": "Audio screeching in cutscenes You can play through the first level with minor glitches, but then it crashes once you enter the casket. Error: A64 access violation detected in A64 JIT code. Exiting immediately to prevent emulator freeze and log spam.",
-        "updatedAt": "2026-03-15",
-        "date": "2026-03-15",
-        "reportCount": 1,
+        "status": "ingame",
+        "perf": "poor",
+        "notes": "It’s possible to complete first level only. Lack of sound during gameplay and graphical bugs",
+        "updatedAt": "2026-06-11",
+        "date": "2026-06-11",
+        "reportCount": 2,
         "latestReport": {
-          "device": "Mac mini (M2)",
-          "platform": "macos",
-          "osVersion": "26.3.1",
+          "device": "iPhone 15 Pro",
+          "platform": "ios",
+          "osVersion": "26.4.2",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "great",
-          "date": "2026-03-15",
-          "notes": "Audio screeching in cutscenes You can play through the first level with minor glitches, but then it crashes once you enter the casket. Error: A64 access violation detected in A64 JIT code. Exiting immediately to prevent emulator freeze and log spam.",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-06-11",
+          "notes": "It’s possible to complete first level only. Lack of sound during gameplay and graphical bugs",
           "screenshots": [],
-          "source": "github",
+          "source": "app",
           "build": {
-            "buildId": "macos-self-built-6.10.1-mar-13-2026",
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
-            "appVersion": "6.10.1",
-            "buildNumber": "Mar 13 2026",
-            "commitShort": "056d2f64d"
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
           }
         },
         "bestReport": {
-          "device": "Mac mini (M2)",
-          "platform": "macos",
-          "osVersion": "26.3.1",
+          "device": "iPhone 15 Pro",
+          "platform": "ios",
+          "osVersion": "26.4.2",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "great",
-          "date": "2026-03-15",
-          "notes": "Audio screeching in cutscenes You can play through the first level with minor glitches, but then it crashes once you enter the casket. Error: A64 access violation detected in A64 JIT code. Exiting immediately to prevent emulator freeze and log spam.",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-06-11",
+          "notes": "It’s possible to complete first level only. Lack of sound during gameplay and graphical bugs",
           "screenshots": [],
-          "source": "github",
+          "source": "app",
           "build": {
-            "buildId": "macos-self-built-6.10.1-mar-13-2026",
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
-            "appVersion": "6.10.1",
-            "buildNumber": "Mar 13 2026",
-            "commitShort": "056d2f64d"
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
           }
         }
       }

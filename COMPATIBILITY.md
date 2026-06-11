@@ -2,9 +2,9 @@
 
 > **312 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **127** · 🔵 In-Game: **61** · 🟡 Intro: **28** · 🟠 Loads: **43** · 🔴 Doesn't Boot: **53**
+> 🟢 Playable: **127** · 🔵 In-Game: **62** · 🟡 Intro: **27** · 🟠 Loads: **43** · 🔴 Doesn't Boot: **53**
 >
-> 📱 iOS: **283** · 🖥️ macOS: **50**
+> 📱 iOS: **284** · 🖥️ macOS: **50**
 
 ## Legend
 
@@ -194,6 +194,7 @@
 | 🔵 | Pinball Arcade | `5841121D` | 📱 iOS | In-Game | 🐢 Poor | iPhone 13 | 2026-03-10 |
 | 🔵 | Pro Evolution Soccer 2013 / PES 2013 | `4B4E084C` | 📱 iOS | In-Game | 🐢 Poor | iPhone 16 | 2026-04-06 |
 | 🔵 | Rayman Legends | `555308C3` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro Max | 2026-03-08 |
+| 🔵 | Remember Me | `4343082F` | 🖥️ macOS, 📱 iOS | In-Game | 🐢 Poor | iPhone 15 Pro | 2026-06-11 |
 | 🔵 | Resident Evil 6 | `43430819` | 📱 iOS | In-Game | 🐢 Poor | iPhone 13 Pro Max | 2026-03-20 |
 | 🔵 | Resident Evil Code: Veronica X | `43430822` | 📱 iOS | In-Game | 🐢 Poor | iPad (A16) | 2026-04-05 |
 | 🔵 | Rockstar Games Presents Table Tennis | `545407DF` | 🖥️ macOS | In-Game | 🐢 Poor | Macbook Pro M1 | 2026-04-18 |
@@ -226,7 +227,6 @@
 | 🟡 | Need for Speed: The Run | `4541094A` | 📱 iOS | Intro | 👌 OK | iPhone 17 Pro | 2026-06-07 |
 | 🟡 | PopCap Collection | `504787D8` | 📱 iOS | Intro | 🚀 Great | iPhone 13 Pro | 2026-03-20 |
 | 🟡 | Portal: Still Alive | `58410960` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro Max | 2026-05-27 |
-| 🟡 | Remember Me | `4343082F` | 🖥️ macOS | Intro | 🚀 Great | Mac mini (M2) | 2026-03-15 |
 | 🟡 | Rise of the Tomb Raider | `53510823` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro Max | 2026-03-12 |
 | 🟡 | Silent Hill: HD Collection | `4B4E0845` | 📱 iOS | Intro | 🚀 Great | iPad Pro 11-inch (M5) | 2026-03-31 |
 | 🟡 | Tales of Vesperia | `4E4D07E9` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro | 2026-03-03 |
