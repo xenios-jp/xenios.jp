@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **312 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **313 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **127** · 🔵 In-Game: **62** · 🟡 Intro: **27** · 🟠 Loads: **43** · 🔴 Doesn't Boot: **53**
+> 🟢 Playable: **127** · 🔵 In-Game: **62** · 🟡 Intro: **28** · 🟠 Loads: **43** · 🔴 Doesn't Boot: **53**
 >
-> 📱 iOS: **284** · 🖥️ macOS: **50**
+> 📱 iOS: **285** · 🖥️ macOS: **50**
 
 ## Legend
 
@@ -232,6 +232,7 @@
 | 🟡 | Tales of Vesperia | `4E4D07E9` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro | 2026-03-03 |
 | 🟡 | Test Drive Unlimited 2 | `49470804` | 📱 iOS | Intro | 🐢 Poor | iPhone 15 | 2026-03-28 |
 | 🟡 | The Evil Within | `425307F4` | 📱 iOS | Intro | 🐢 Poor | iPhone 17 Pro Max | 2026-05-09 |
+| 🟡 | Tom Clancy's Ghost Recon: Future Soldier | `55530833` | 📱 iOS | Intro | 🚀 Great | iPhone 15 Pro | 2026-06-11 |
 | 🟡 | Tom Clancy's Splinter Cell: Blacklist | `555308B6` | 📱 iOS | Intro | 🐢 Poor | iPhone 15 Pro Max | 2026-06-11 |
 | 🟡 | Tom Clancy's Splinter Cell: Conviction | `5553080B` | 📱 iOS | Intro | 🚀 Great | iPhone 15 Pro Max | 2026-06-11 |
 | 🟡 | Two Worlds | `535007D4` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro Max | 2026-03-09 |

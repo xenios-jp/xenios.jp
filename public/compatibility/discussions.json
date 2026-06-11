@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-11T06:15:55.754Z",
+  "generatedAt": "2026-06-11T12:27:00.605Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2472,6 +2472,37 @@
             "appVersion": "1.0.0",
             "buildNumber": "9280",
             "commitShort": "`2633e8177`"
+          }
+        }
+      ]
+    },
+    "55530833": {
+      "titleId": "55530833",
+      "issueNumber": 498,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/498",
+      "updatedAt": "2026-06-11",
+      "entries": [
+        {
+          "id": "issue-498",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/498",
+          "author": "xenios-jp",
+          "createdAt": "2026-06-11",
+          "createdAtMs": 1781180730000,
+          "issueNumber": 498,
+          "excerpt": "Infinite loading when tried to start a campaign",
+          "images": [],
+          "meta": {
+            "status": "intro",
+            "perf": "great",
+            "device": "iPhone 15 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 26.4.2",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
           }
         }
       ]
