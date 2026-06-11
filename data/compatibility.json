@@ -169974,14 +169974,47 @@
     "titleIds": [
       "58410968"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "ingame",
+    "perf": "poor",
     "tags": [],
-    "platforms": [],
-    "lastReport": null,
-    "updatedAt": "",
-    "notes": "",
-    "reports": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPad Pro 13-inch (M5)",
+      "platform": "ios",
+      "osVersion": "26.5",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-06-11",
+    "issueNumber": 503,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/503",
+    "notes": "Plays to the point of having to drive your car off the starting line, then crashes.",
+    "reports": [
+      {
+        "device": "iPad Pro 13-inch (M5)",
+        "platform": "ios",
+        "osVersion": "26.5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "poor",
+        "date": "2026-06-11",
+        "notes": "Plays to the point of having to drive your car off the starting line, then crashes.",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140"
+        }
+      }
+    ],
     "screenshots": [],
     "summaries": {
       "release": {
@@ -169997,14 +170030,56 @@
       },
       "all": {
         "channel": "all",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "ingame",
+        "perf": "poor",
+        "notes": "Plays to the point of having to drive your car off the starting line, then crashes.",
+        "updatedAt": "2026-06-11",
+        "date": "2026-06-11",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPad Pro 13-inch (M5)",
+          "platform": "ios",
+          "osVersion": "26.5",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-06-11",
+          "notes": "Plays to the point of having to drive your car off the starting line, then crashes.",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
+          }
+        },
+        "bestReport": {
+          "device": "iPad Pro 13-inch (M5)",
+          "platform": "ios",
+          "osVersion": "26.5",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-06-11",
+          "notes": "Plays to the point of having to drive your car off the starting line, then crashes.",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
+          }
+        }
       }
     }
   },

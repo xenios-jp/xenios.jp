@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **317 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **318 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **128** · 🔵 In-Game: **63** · 🟡 Intro: **28** · 🟠 Loads: **43** · 🔴 Doesn't Boot: **55**
+> 🟢 Playable: **128** · 🔵 In-Game: **64** · 🟡 Intro: **28** · 🟠 Loads: **43** · 🔴 Doesn't Boot: **55**
 >
-> 📱 iOS: **289** · 🖥️ macOS: **50**
+> 📱 iOS: **290** · 🖥️ macOS: **50**
 
 ## Legend
 
@@ -192,6 +192,7 @@
 | 🔵 | Need for Speed Most Wanted (2005) | `454107D9` | 📱 iOS, 🖥️ macOS | In-Game | 👌 OK | iPhone 16 Pro Max | 2026-03-19 |
 | 🔵 | Need for Speed: Rivals | `454109C6` | 📱 iOS | In-Game | 🐢 Poor | iPad Pro 12.9-inch (M2) | 2026-03-16 |
 | 🔵 | NFL Tour | `45410835` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro Max | 2026-03-11 |
+| 🔵 | OutRun Online Arcade | `58410968` | 📱 iOS | In-Game | 🐢 Poor | iPad Pro 13-inch (M5) | 2026-06-11 |
 | 🔵 | PAC-MAN and the Ghostly Adventures | `4E4D0865` | 📱 iOS | In-Game | 🐢 Poor | iPhone 15 Pro Max | 2026-03-08 |
 | 🔵 | Pinball Arcade | `5841121D` | 📱 iOS | In-Game | 🐢 Poor | iPhone 13 | 2026-03-10 |
 | 🔵 | Pro Evolution Soccer 2013 / PES 2013 | `4B4E084C` | 📱 iOS | In-Game | 🐢 Poor | iPhone 16 | 2026-04-06 |
