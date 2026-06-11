@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-11T12:27:00.605Z",
+  "generatedAt": "2026-06-11T13:38:53.567Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2893,6 +2893,37 @@
         }
       ]
     },
+    "58411220": {
+      "titleId": "58411220",
+      "issueNumber": 499,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/499",
+      "updatedAt": "2026-06-11",
+      "entries": [
+        {
+          "id": "issue-499",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/499",
+          "author": "xenios-jp",
+          "createdAt": "2026-06-11",
+          "createdAtMs": 1781184817000,
+          "issueNumber": 499,
+          "excerpt": "Black screen",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPad Pro 13-inch (M5)",
+            "platform": "iOS",
+            "osVersion": "iOS 26.5",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
+          }
+        }
+      ]
+    },
     "58411436": {
       "titleId": "58411436",
       "issueNumber": 454,
@@ -2933,6 +2964,99 @@
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
           "images": [],
           "meta": {}
+        }
+      ]
+    },
+    "58410A06": {
+      "titleId": "58410A06",
+      "issueNumber": 502,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/502",
+      "updatedAt": "2026-06-11",
+      "entries": [
+        {
+          "id": "issue-502",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/502",
+          "author": "xenios-jp",
+          "createdAt": "2026-06-11",
+          "createdAtMs": 1781185029000,
+          "issueNumber": 502,
+          "excerpt": "Fails to load 3D graphics",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "poor",
+            "device": "iPad Pro 13-inch (M5)",
+            "platform": "iOS",
+            "osVersion": "iOS 26.5",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
+          }
+        }
+      ]
+    },
+    "58410B1D": {
+      "titleId": "58410B1D",
+      "issueNumber": 501,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/501",
+      "updatedAt": "2026-06-11",
+      "entries": [
+        {
+          "id": "issue-501",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/501",
+          "author": "xenios-jp",
+          "createdAt": "2026-06-11",
+          "createdAtMs": 1781184951000,
+          "issueNumber": 501,
+          "excerpt": "Minor stutters but not many",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPad Pro 13-inch (M5)",
+            "platform": "iOS",
+            "osVersion": "iOS 26.5",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
+          }
+        }
+      ]
+    },
+    "58410AC2": {
+      "titleId": "58410AC2",
+      "issueNumber": 500,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/500",
+      "updatedAt": "2026-06-11",
+      "entries": [
+        {
+          "id": "issue-500",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/500",
+          "author": "xenios-jp",
+          "createdAt": "2026-06-11",
+          "createdAtMs": 1781184891000,
+          "issueNumber": 500,
+          "excerpt": "Loads to title screen then stops",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPad Pro 13-inch (M5)",
+            "platform": "iOS",
+            "osVersion": "iOS 26.5",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
+          }
         }
       ]
     },

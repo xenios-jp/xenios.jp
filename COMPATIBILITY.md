@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **313 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **317 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **127** · 🔵 In-Game: **62** · 🟡 Intro: **28** · 🟠 Loads: **43** · 🔴 Doesn't Boot: **53**
+> 🟢 Playable: **128** · 🔵 In-Game: **63** · 🟡 Intro: **28** · 🟠 Loads: **43** · 🔴 Doesn't Boot: **55**
 >
-> 📱 iOS: **285** · 🖥️ macOS: **50**
+> 📱 iOS: **289** · 🖥️ macOS: **50**
 
 ## Legend
 
@@ -42,6 +42,7 @@
 | 🟢 | Civilization Revolution | `545407E5` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro | 2026-03-14 |
 | 🟢 | Condemned: Criminal Origins | `534507D2` | 📱 iOS | Playable | 👌 OK | iPhone 17 | 2026-04-22 |
 | 🟢 | Contra | `58410818` | 📱 iOS | Playable | 🚀 Great | iPhone 15 | 2026-06-07 |
+| 🟢 | DAYTONA USA | `58410B1D` | 📱 iOS | Playable | 🚀 Great | iPad Pro 13-inch (M5) | 2026-06-11 |
 | 🟢 | DB: Raging Blast 2 | `4E4D0826` | 📱 iOS | Playable | 🐢 Poor | iPad Pro (M2) | 2026-03-03 |
 | 🟢 | Dead Island | `4B4D07DF` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-04-20 |
 | 🟢 | DEAD OR ALIVE 4 | `544307D1` | 📱 iOS, 🖥️ macOS | Playable | 🚀 Great | MacBook Pro M1 | 2026-05-30 |
@@ -147,6 +148,7 @@
 | 🟢 | WRC 5: FIA WORLD RALLY CHAMPIONSHIP | `573607E2` | 📱 iOS | Playable | 🐢 Poor | iPhone 17 Pro Max | 2026-03-17 |
 | 🟢 | WWE Smackdown vs RAW 2008 | `5451080B` | 📱 iOS | Playable | 👌 OK | iPhone 16e | 2026-03-16 |
 | 🟢 | Yaris | `5841087F` | 📱 iOS | Playable | 🚀 Great | iPhone 14 Pro Max | 2026-03-23 |
+| 🔵 | After Burner Climax | `58410A06` | 📱 iOS | In-Game | 🐢 Poor | iPad Pro 13-inch (M5) | 2026-06-11 |
 | 🔵 | Band Hero | `4156085C` | 📱 iOS, 🖥️ macOS | In-Game | 🐢 Poor | iPhone 13 mini | 2026-03-22 |
 | 🔵 | Batman: Arkham City | `57520802` | 📱 iOS | In-Game | 👌 OK | iPhone 15 Pro Max | 2026-03-09 |
 | 🔵 | Battlefield: Bad Company | `454107F9` | 📱 iOS | In-Game | 🐢 Poor | iPhone 15 Pro | 2026-06-10 |
@@ -281,6 +283,7 @@
 | 🟠 | WWE 12 | `54510890` | 📱 iOS | Loads | 👌 OK | iPhone 15 Pro | 2026-03-11 |
 | 🟠 | WWE Smackdown vs. Raw 2011 | `5451085D` | 📱 iOS | Loads | 🐢 Poor | iPhone 17 | 2026-05-26 |
 | 🔴 | ACE COMBAT 6 Fires of Liberation | `4E4D07D1` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Pro 11 inch 5th Gen | 2026-05-20 |
+| 🔴 | AMY | `58411220` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Pro 13-inch (M5) | 2026-06-11 |
 | 🔴 | Assassin's Creed II | `5553083B` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 14 Pro | 2026-06-03 |
 | 🔴 | Assassin's Creed III | `555308AE` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 Pro Max | 2026-04-10 |
 | 🔴 | Blur | `41560845` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 12 | 2026-05-11 |
@@ -313,6 +316,7 @@
 | 🔴 | Plants vs Zombies Garden Warfare | `454109C9` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone XS Max | 2026-04-18 |
 | 🔴 | Resident Evil 4 | `4343081C` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16e | 2026-03-14 |
 | 🔴 | Resident Evil 5 | `434307D4` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Air 13-inch (M3) | 2026-03-29 |
+| 🔴 | SEGA Rally Online Arcade | `58410AC2` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Pro 13-inch (M5) | 2026-06-11 |
 | 🔴 | Silent Hill: Downpour | `4B4E0823` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-22 |
 | 🔴 | SmackDown vs. RAW 2009 | `54510826` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad (A16) | 2026-03-16 |
 | 🔴 | Soulcalibur IV | `4E4D07E0` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-04-28 |
