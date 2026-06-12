@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-11T17:19:39.238Z",
+  "generatedAt": "2026-06-12T00:43:29.064Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2657,10 +2657,33 @@
     },
     "57520817": {
       "titleId": "57520817",
-      "issueNumber": 260,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/260",
-      "updatedAt": "2026-03-14",
+      "issueNumber": 506,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/506",
+      "updatedAt": "2026-06-11",
       "entries": [
+        {
+          "id": "issue-506",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/506",
+          "author": "xenios-jp",
+          "createdAt": "2026-06-11",
+          "createdAtMs": 1781204898000,
+          "issueNumber": 506,
+          "excerpt": "Game turns into goop and glop on loading",
+          "images": [],
+          "meta": {
+            "status": "loads",
+            "perf": "poor",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
+          }
+        },
         {
           "id": "issue-260",
           "type": "issue",
@@ -2995,6 +3018,91 @@
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
           "images": [],
           "meta": {}
+        }
+      ]
+    },
+    "465307E4": {
+      "titleId": "465307E4",
+      "issueNumber": 507,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/507",
+      "updatedAt": "2026-06-12",
+      "entries": [
+        {
+          "id": "issue-507",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/507",
+          "author": "xenios-jp",
+          "createdAt": "2026-06-12",
+          "createdAtMs": 1781224891000,
+          "issueNumber": 507,
+          "excerpt": "Requires compatibility pack to go pass the start screen",
+          "images": [],
+          "meta": {
+            "status": "intro",
+            "perf": "ok",
+            "device": "iPhone 15 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 26.2.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
+          }
+        },
+        {
+          "id": "issue-110",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/110",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-09",
+          "createdAtMs": 1773018487000,
+          "issueNumber": 110,
+          "excerpt": "Crashes after pressing start button.",
+          "images": [],
+          "meta": {
+            "status": "intro",
+            "perf": "poor",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        }
+      ]
+    },
+    "434307DF": {
+      "titleId": "434307DF",
+      "issueNumber": 505,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/505",
+      "updatedAt": "2026-06-11",
+      "entries": [
+        {
+          "id": "issue-505",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/505",
+          "author": "xenios-jp",
+          "createdAt": "2026-06-11",
+          "createdAtMs": 1781198484000,
+          "issueNumber": 505,
+          "excerpt": "The motion in the games is Runs smooth but very slowly sometimes purple screen appears",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "poor",
+            "device": "iPhone 14 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 18.1.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
+          }
         }
       ]
     },
@@ -13608,37 +13716,6 @@
             "device": "iPhone 13 Pro",
             "platform": "iOS",
             "osVersion": "iOS 26.3",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "`2633e8177`"
-          }
-        }
-      ]
-    },
-    "465307E4": {
-      "titleId": "465307E4",
-      "issueNumber": 110,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/110",
-      "updatedAt": "2026-03-09",
-      "entries": [
-        {
-          "id": "issue-110",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/110",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-09",
-          "createdAtMs": 1773018487000,
-          "issueNumber": 110,
-          "excerpt": "Crashes after pressing start button.",
-          "images": [],
-          "meta": {
-            "status": "intro",
-            "perf": "poor",
-            "device": "iPhone 17 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3.1",
             "gpuBackend": "MSL",
             "buildChannel": "self-built",
             "appVersion": "1.0.0",

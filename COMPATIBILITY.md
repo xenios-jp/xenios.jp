@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **318 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **319 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **128** · 🔵 In-Game: **64** · 🟡 Intro: **28** · 🟠 Loads: **43** · 🔴 Doesn't Boot: **55**
+> 🟢 Playable: **129** · 🔵 In-Game: **64** · 🟡 Intro: **28** · 🟠 Loads: **43** · 🔴 Doesn't Boot: **55**
 >
-> 📱 iOS: **290** · 🖥️ macOS: **50**
+> 📱 iOS: **291** · 🖥️ macOS: **50**
 
 ## Legend
 
@@ -48,6 +48,7 @@
 | 🟢 | DEAD OR ALIVE 4 | `544307D1` | 📱 iOS, 🖥️ macOS | Playable | 🚀 Great | MacBook Pro M1 | 2026-05-30 |
 | 🟢 | Dead Space | `45410857` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro | 2026-03-03 |
 | 🟢 | Deadly Premonition | `4D5607D1` | 📱 iOS | Playable | 👌 OK | iPad (A16) | 2026-03-09 |
+| 🟢 | Devil May Cry 4 | `434307DF` | 📱 iOS | Playable | 🐢 Poor | iPhone 14 Pro | 2026-06-11 |
 | 🟢 | DOA5 Ultimate | `4B5607DA` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-17 |
 | 🟢 | Dragon Age: Origins - Ultimate Edition | `454108C0` | 🖥️ macOS | Playable | 🚀 Great | Mac mini (M4) | 2026-03-15 |
 | 🟢 | Dragon Ball Z Budokai HD Collection | `4E4D0856` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro Max | 2026-03-14 |
@@ -222,7 +223,7 @@
 | 🟡 | DOOM 3 BFG Edition | `425307F1` | 📱 iOS | Intro | 🚀 Great | iPhone 16 Pro | 2026-03-03 |
 | 🟡 | Halo 4 | `4D530919` | 📱 iOS | Intro | 🐢 Poor | iPad Pro 12.9-inch (M2) | 2026-03-10 |
 | 🟡 | Halo Wars | `4D530808` | 📱 iOS | Intro | 👌 OK | iPhone 17 | 2026-03-03 |
-| 🟡 | Lego Batman 2: DC Super Heroes | `57520817` | 📱 iOS | Intro | 🐢 Poor | iPhone 13 | 2026-03-14 |
+| 🟡 | Lego Batman 2: DC Super Heroes | `57520817` | 📱 iOS | Intro | 🐢 Poor | iPhone 13 | 2026-06-11 |
 | 🟡 | Madden NFL 17 | `454109F2` | 📱 iOS | Intro | 🐢 Poor | iPad Air 11-inch (M3) | 2026-04-04 |
 | 🟡 | Mortal Kombat vs. DC Universe | `4D5707E9` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Plus | 2026-03-12 |
 | 🟡 | Naruto Shippuden: UNS 3 Full Burst | `4E4D085C` | 📱 iOS | Intro | 🐢 Poor | iPhone 15 Pro Max | 2026-03-13 |
