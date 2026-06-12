@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-12T00:43:29.064Z",
+  "generatedAt": "2026-06-12T02:33:48.300Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -3018,6 +3018,152 @@
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
           "images": [],
           "meta": {}
+        }
+      ]
+    },
+    "545407F2": {
+      "titleId": "545407F2",
+      "issueNumber": 508,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/508",
+      "updatedAt": "2026-06-12",
+      "entries": [
+        {
+          "id": "issue-508",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/508",
+          "author": "xenios-jp",
+          "createdAt": "2026-06-12",
+          "createdAtMs": 1781231540000,
+          "issueNumber": 508,
+          "excerpt": "the lost and damned working whule the balleds of gay tony crash \nperformance soso like ps3 version",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPad Pro 11-inch (M4)",
+            "platform": "iOS",
+            "osVersion": "iOS 26.5",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
+          }
+        },
+        {
+          "id": "comment-4616880946",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/392#issuecomment-4616880946",
+          "author": "xenios-jp",
+          "createdAt": "2026-06-03",
+          "createdAtMs": 1780522212000,
+          "issueNumber": 392,
+          "excerpt": "Endless loading of the first mission after starting",
+          "images": [],
+          "meta": {
+            "status": "intro",
+            "perf": "poor",
+            "device": "iPhone 14 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 26.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
+        {
+          "id": "comment-4188766418",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/392#issuecomment-4188766418",
+          "author": "xenios-jp",
+          "createdAt": "2026-04-05",
+          "createdAtMs": 1775389763000,
+          "issueNumber": 392,
+          "excerpt": "Needed to add that the sound is okay when loading and breaks once in gameplay",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "ok",
+            "device": "iPhone 13 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 18.7.7",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
+        {
+          "id": "issue-392",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/392",
+          "author": "xenios-jp",
+          "createdAt": "2026-04-05",
+          "createdAtMs": 1775389686000,
+          "issueNumber": 392,
+          "excerpt": "Surprised it actually ran on the device, sometimes crashes ingame, around 15fps 20 fps at most, the device could do much better obviously",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "ok",
+            "device": "iPhone 13 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 18.7.7",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
+        {
+          "id": "comment-4148027867",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/266#issuecomment-4148027867",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-28",
+          "createdAtMs": 1774702357000,
+          "issueNumber": 266,
+          "excerpt": "No sound fps stuck at 7",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "poor",
+            "device": "iPhone 16",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
+        {
+          "id": "comment-4087974050",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/266#issuecomment-4087974050",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-19",
+          "createdAtMs": 1773899257000,
+          "issueNumber": 266,
+          "excerpt": "Loads first mission endlessly",
+          "images": [],
+          "meta": {
+            "status": "intro",
+            "perf": "poor",
+            "device": "iPhone 13",
+            "platform": "iOS",
+            "osVersion": "iOS 18.5",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
         }
       ]
     },
@@ -6642,152 +6788,6 @@
             "device": "iPad 10",
             "platform": "iOS",
             "osVersion": "iOS 26.3.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "`056d2f64d`"
-          }
-        }
-      ]
-    },
-    "545407F2": {
-      "titleId": "545407F2",
-      "issueNumber": 392,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/392",
-      "updatedAt": "2026-06-03",
-      "entries": [
-        {
-          "id": "comment-4616880946",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/392#issuecomment-4616880946",
-          "author": "xenios-jp",
-          "createdAt": "2026-06-03",
-          "createdAtMs": 1780522212000,
-          "issueNumber": 392,
-          "excerpt": "Endless loading of the first mission after starting",
-          "images": [],
-          "meta": {
-            "status": "intro",
-            "perf": "poor",
-            "device": "iPhone 14 Pro",
-            "platform": "iOS",
-            "osVersion": "iOS 26.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "`056d2f64d`"
-          }
-        },
-        {
-          "id": "comment-4188766418",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/392#issuecomment-4188766418",
-          "author": "xenios-jp",
-          "createdAt": "2026-04-05",
-          "createdAtMs": 1775389763000,
-          "issueNumber": 392,
-          "excerpt": "Needed to add that the sound is okay when loading and breaks once in gameplay",
-          "images": [],
-          "meta": {
-            "status": "ingame",
-            "perf": "ok",
-            "device": "iPhone 13 Pro",
-            "platform": "iOS",
-            "osVersion": "iOS 18.7.7",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "`056d2f64d`"
-          }
-        },
-        {
-          "id": "issue-392",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/392",
-          "author": "xenios-jp",
-          "createdAt": "2026-04-05",
-          "createdAtMs": 1775389686000,
-          "issueNumber": 392,
-          "excerpt": "Surprised it actually ran on the device, sometimes crashes ingame, around 15fps 20 fps at most, the device could do much better obviously",
-          "images": [],
-          "meta": {
-            "status": "ingame",
-            "perf": "ok",
-            "device": "iPhone 13 Pro",
-            "platform": "iOS",
-            "osVersion": "iOS 18.7.7",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "`056d2f64d`"
-          }
-        },
-        {
-          "id": "comment-4148027867",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/266#issuecomment-4148027867",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-28",
-          "createdAtMs": 1774702357000,
-          "issueNumber": 266,
-          "excerpt": "No sound fps stuck at 7",
-          "images": [],
-          "meta": {
-            "status": "ingame",
-            "perf": "poor",
-            "device": "iPhone 16",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "`056d2f64d`"
-          }
-        },
-        {
-          "id": "comment-4087974050",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/266#issuecomment-4087974050",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-19",
-          "createdAtMs": 1773899257000,
-          "issueNumber": 266,
-          "excerpt": "Loads first mission endlessly",
-          "images": [],
-          "meta": {
-            "status": "intro",
-            "perf": "poor",
-            "device": "iPhone 13",
-            "platform": "iOS",
-            "osVersion": "iOS 18.5",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "`056d2f64d`"
-          }
-        },
-        {
-          "id": "comment-4086146610",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/266#issuecomment-4086146610",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-18",
-          "createdAtMs": 1773875037000,
-          "issueNumber": 266,
-          "excerpt": "App crashiing",
-          "images": [],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPhone11,6",
-            "platform": "iOS",
-            "osVersion": "iOS 16.4",
             "gpuBackend": "MSL",
             "buildChannel": "self-built",
             "appVersion": "1.0.1",
