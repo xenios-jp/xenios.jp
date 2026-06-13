@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **321 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **322 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **128** · 🔵 In-Game: **65** · 🟡 Intro: **29** · 🟠 Loads: **44** · 🔴 Doesn't Boot: **55**
+> 🟢 Playable: **130** · 🔵 In-Game: **65** · 🟡 Intro: **29** · 🟠 Loads: **43** · 🔴 Doesn't Boot: **55**
 >
-> 📱 iOS: **293** · 🖥️ macOS: **49**
+> 📱 iOS: **294** · 🖥️ macOS: **49**
 
 ## Legend
 
@@ -85,6 +85,7 @@
 | 🟢 | Halo: Reach | `4D53085B` | 📱 iOS | Playable | 🚀 Great | iPad Pro 13-inch (M5) | 2026-06-05 |
 | 🟢 | Hitman: Absolution | `53510804` | 📱 iOS | Playable | 🚀 Great | iPad Pro 12.9-inch (M2) | 2026-03-18 |
 | 🟢 | Just Cause 2 | `534307E7` | 📱 iOS | Playable | 🐢 Poor | iPhone 17 Pro | 2026-03-09 |
+| 🟢 | Lego Batman | `575207D7` | 📱 iOS | Playable | 👌 OK | iPhone 15 Pro | 2026-06-13 |
 | 🟢 | Lego Harry Potter Years 1-4 | `575207E6` | 📱 iOS | Playable | 🐢 Poor | iPhone 13 | 2026-03-14 |
 | 🟢 | Lego Indiana Jones 2 | `4C4107ED` | 📱 iOS | Playable | 👌 OK | iPhone 14 | 2026-03-16 |
 | 🟢 | LEGO Star Wars: TCS | `4C4107D7` | 📱 iOS | Playable | 👌 OK | iPad (A16) | 2026-03-09 |
@@ -95,6 +96,7 @@
 | 🟢 | Metal Gear Rising: Revengeance | `4B4E080A` | 📱 iOS | Playable | 🚀 Great | iPad Pro 13-inch (M5) | 2026-06-13 |
 | 🟢 | METAL GEAR SOLID PEACE WALKER HD EDITION | `4B4E083C` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Plus | 2026-03-18 |
 | 🟢 | Metal Slug 3 | `584108CF` | 📱 iOS | Playable | 🚀 Great | iPhone 15 | 2026-06-07 |
+| 🟢 | Midnight Club: Los Angeles | `545407F8` | 📱 iOS | Playable | 👌 OK | iPad Pro 13-inch (M5) | 2026-06-13 |
 | 🟢 | Minecraft: Xbox 360 Edition | `4D530A81` | 📱 iOS | Playable | 👌 OK | iPhone 14 Pro Max | 2026-05-05 |
 | 🟢 | Mortal Kombat Komplete Edition | `575207FD` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro Max | 2026-03-14 |
 | 🟢 | N+ | `5841085C` | 📱 iOS | Playable | 🚀 Great | iPhone 14 Pro Max | 2026-03-25 |
@@ -264,7 +266,6 @@
 | 🟠 | Lego Dimensions | `5752084B` | 📱 iOS | Loads | 🐢 Poor | iPad (A16) | 2026-03-09 |
 | 🟠 | Lego Star Wars III: The Clone Wars | `4C4107F3` | 📱 iOS | Loads | 👌 OK | iPhone 15 Pro | 2026-03-10 |
 | 🟠 | Metal Gear Solid V: Ground Zeroes | `4B4E085C` | 📱 iOS | Loads | 🐢 Poor | iPhone 15 Pro Max | 2026-03-10 |
-| 🟠 | Midnight Club: Los Angeles | `545407F8` | 📱 iOS | Loads | 🐢 Poor | iPhone 16 Pro | 2026-05-12 |
 | 🟠 | NBA 2K10 | `54549852` | 🖥️ macOS | Loads | 🐢 Poor | MacBook Air (M4) | 2026-03-18 |
 | 🟠 | NCAA Basketball 10 | `454108C3` | 📱 iOS | Loads | 🐢 Poor | iPhone 16e | 2026-03-11 |
 | 🟠 | Project Gotham Racing 3 | `4D5307D1` | 🖥️ macOS | Loads | 🚀 Great | Macbook Pro M1 Pro | 2026-05-10 |

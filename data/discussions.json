@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-13T01:33:02.729Z",
+  "generatedAt": "2026-06-13T20:40:17.889Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -3067,6 +3067,37 @@
         }
       ]
     },
+    "575207D7": {
+      "titleId": "575207D7",
+      "issueNumber": 513,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/513",
+      "updatedAt": "2026-06-13",
+      "entries": [
+        {
+          "id": "issue-513",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/513",
+          "author": "xenios-jp",
+          "createdAt": "2026-06-13",
+          "createdAtMs": 1781383087000,
+          "issueNumber": 513,
+          "excerpt": "30-45 FPS maintained, some effects take some time to appear",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 15 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 26.5",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
+          }
+        }
+      ]
+    },
     "4B4E080A": {
       "titleId": "4B4E080A",
       "issueNumber": 512,
@@ -5611,8 +5642,34 @@
       "titleId": "545407F8",
       "issueNumber": 442,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/442",
-      "updatedAt": "2026-05-12",
+      "updatedAt": "2026-06-13",
       "entries": [
+        {
+          "id": "comment-4699657092",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/442#issuecomment-4699657092",
+          "author": "xenios-jp",
+          "createdAt": "2026-06-13",
+          "createdAtMs": 1781381468000,
+          "issueNumber": 442,
+          "excerpt": "Surprised it runs. Only did the tutorial race but it doesn’t run that bad.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407F8/1781381463088-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407F8/1781381463088-2.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPad Pro 13-inch (M5)",
+            "platform": "iOS",
+            "osVersion": "iOS 26.5",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
+          }
+        },
         {
           "id": "issue-442",
           "type": "issue",
