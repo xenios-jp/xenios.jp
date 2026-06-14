@@ -48046,24 +48046,45 @@
     "titleIds": [
       "41560817"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "playable",
+    "perf": "ok",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 13",
+      "device": "iPhone 16",
       "platform": "ios",
-      "osVersion": "18.5",
+      "osVersion": "26.4.2",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-06-14",
     "issueNumber": 29,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/29",
-    "notes": "it doesn’t launch",
+    "notes": "campaign and special ops works okay",
     "reports": [
+      {
+        "device": "iPhone 16",
+        "platform": "ios",
+        "osVersion": "26.4.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-06-14",
+        "notes": "campaign and special ops works okay",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "commitShort": "57c3ca140"
+        }
+      },
       {
         "device": "iPhone 13",
         "platform": "ios",
@@ -48082,50 +48103,7 @@
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
-          "stage": "stable",
           "commitShort": "57c3ca140"
-        }
-      },
-      {
-        "device": "iPad Pro 11-inch (M5)",
-        "platform": "ios",
-        "osVersion": "26.4.2",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-05-11",
-        "notes": "Cyan for a split second, then black screen, then crashes back to dashboard. Relaunch stays black. Have to restart app to get back to dashboard.",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
-        }
-      },
-      {
-        "device": "iPhone 14 Pro Max",
-        "platform": "ios",
-        "osVersion": "16.4.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-03-24",
-        "notes": "Doesn’t launch",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
         }
       },
       {
@@ -48168,7 +48146,10 @@
         "source": "app"
       }
     ],
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/41560817/1781468082414-1.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/41560817/1781468082414-2.jpg"
+    ],
     "summaries": {
       "release": {
         "channel": "release",
@@ -48211,22 +48192,22 @@
       },
       "all": {
         "channel": "all",
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "it doesn’t launch",
+        "status": "playable",
+        "perf": "ok",
+        "notes": "campaign and special ops works okay",
         "updatedAt": "2026-06-14",
         "date": "2026-06-14",
-        "reportCount": 5,
+        "reportCount": 4,
         "latestReport": {
-          "device": "iPhone 13",
+          "device": "iPhone 16",
           "platform": "ios",
-          "osVersion": "18.5",
+          "osVersion": "26.4.2",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
+          "status": "playable",
+          "perf": "ok",
           "date": "2026-06-14",
-          "notes": "it doesn’t launch",
+          "notes": "campaign and special ops works okay",
           "screenshots": [],
           "source": "app",
           "build": {
@@ -48235,20 +48216,19 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         },
         "bestReport": {
-          "device": "iPhone 13",
+          "device": "iPhone 16",
           "platform": "ios",
-          "osVersion": "18.5",
+          "osVersion": "26.4.2",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
+          "status": "playable",
+          "perf": "ok",
           "date": "2026-06-14",
-          "notes": "it doesn’t launch",
+          "notes": "campaign and special ops works okay",
           "screenshots": [],
           "source": "app",
           "build": {
@@ -48257,7 +48237,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         }
@@ -133000,7 +132979,6 @@
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
-          "stage": "stable",
           "commitShort": "57c3ca140"
         }
       }
@@ -133044,7 +133022,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         },
@@ -133066,7 +133043,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         }
@@ -218070,8 +218046,8 @@
     "perf": "n/a",
     "tags": [],
     "platforms": [
-      "ios",
-      "macos"
+      "macos",
+      "ios"
     ],
     "lastReport": {
       "device": "MacBook Pro (M4)",

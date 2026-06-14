@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T15:01:22.950Z",
+  "generatedAt": "2026-06-14T20:17:34.734Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -13,18 +13,6 @@
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/375",
       "updatedAt": "2026-06-14",
       "entries": [
-        {
-          "id": "issue-515",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/515",
-          "author": "WiLuX-Source",
-          "createdAt": "2026-06-14",
-          "createdAtMs": 1781449186000,
-          "issueNumber": 515,
-          "excerpt": "Just a black screen and nothing else.",
-          "images": [],
-          "meta": {}
-        },
         {
           "id": "issue-375",
           "type": "issue",
@@ -76,6 +64,32 @@
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/514",
       "updatedAt": "2026-06-14",
       "entries": [
+        {
+          "id": "comment-4702923908",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/514#issuecomment-4702923908",
+          "author": "xenios-jp",
+          "createdAt": "2026-06-14",
+          "createdAtMs": 1781468089000,
+          "issueNumber": 514,
+          "excerpt": "campaign and special ops works okay",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/41560817/1781468082414-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/41560817/1781468082414-2.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 16",
+            "platform": "iOS",
+            "osVersion": "iOS 26.4.2",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
+          }
+        },
         {
           "id": "issue-514",
           "type": "issue",
