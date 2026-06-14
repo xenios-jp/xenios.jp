@@ -4,7 +4,7 @@
 >
 > 🟢 Playable: **130** · 🔵 In-Game: **65** · 🟡 Intro: **29** · 🟠 Loads: **43** · 🔴 Doesn't Boot: **55**
 >
-> 📱 iOS: **294** · 🖥️ macOS: **49**
+> 📱 iOS: **294** · 🖥️ macOS: **50**
 
 ## Legend
 
@@ -325,7 +325,7 @@
 | 🔴 | Silent Hill: Downpour | `4B4E0823` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-22 |
 | 🔴 | SmackDown vs. RAW 2009 | `54510826` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad (A16) | 2026-03-16 |
 | 🔴 | Soulcalibur IV | `4E4D07E0` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-04-28 |
-| 🔴 | Spider-Man: Web of Shadows | `41560815` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 Pro Max | 2026-03-29 |
+| 🔴 | Spider-Man: Web of Shadows | `41560815` | 📱 iOS, 🖥️ macOS | Doesn't Boot | ➖ N/A | MacBook Pro (M4) | 2026-06-14 |
 | 🔴 | Split/Second | `425607E7` | 🖥️ macOS | Doesn't Boot | ➖ N/A | MacBook Pro (M1) | 2026-04-12 |
 | 🔴 | SpongeBob SquarePants: Underpants Slam | `5841089F` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Mini (A17 Pro) | 2026-03-15 |
 | 🔴 | Star Ocean: The Last Hope | `535107DD` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-03 |

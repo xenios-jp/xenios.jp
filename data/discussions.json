@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T11:47:52.861Z",
+  "generatedAt": "2026-06-14T15:01:22.950Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -11,8 +11,20 @@
       "titleId": "41560815",
       "issueNumber": 375,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/375",
-      "updatedAt": "2026-03-29",
+      "updatedAt": "2026-06-14",
       "entries": [
+        {
+          "id": "issue-515",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/515",
+          "author": "WiLuX-Source",
+          "createdAt": "2026-06-14",
+          "createdAtMs": 1781449186000,
+          "issueNumber": 515,
+          "excerpt": "Just a black screen and nothing else.",
+          "images": [],
+          "meta": {}
+        },
         {
           "id": "issue-375",
           "type": "issue",
