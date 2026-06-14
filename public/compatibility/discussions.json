@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-13T20:40:17.889Z",
+  "generatedAt": "2026-06-14T11:47:52.861Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -60,10 +60,33 @@
     },
     "41560817": {
       "titleId": "41560817",
-      "issueNumber": 351,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/351",
-      "updatedAt": "2026-05-11",
+      "issueNumber": 514,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/514",
+      "updatedAt": "2026-06-14",
       "entries": [
+        {
+          "id": "issue-514",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/514",
+          "author": "xenios-jp",
+          "createdAt": "2026-06-14",
+          "createdAtMs": 1781437586000,
+          "issueNumber": 514,
+          "excerpt": "it doesn’t launch",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 13",
+            "platform": "iOS",
+            "osVersion": "iOS 18.5",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
+          }
+        },
         {
           "id": "comment-4425767551",
           "type": "comment",

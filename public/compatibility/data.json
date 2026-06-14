@@ -48053,17 +48053,39 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPad Pro 11-inch (M5)",
+      "device": "iPhone 13",
       "platform": "ios",
-      "osVersion": "26.4.2",
+      "osVersion": "18.5",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-05-11",
+    "updatedAt": "2026-06-14",
     "issueNumber": 29,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/29",
-    "notes": "Cyan for a split second, then black screen, then crashes back to dashboard. Relaunch stays black. Have to restart app to get back to dashboard.",
+    "notes": "it doesn’t launch",
     "reports": [
+      {
+        "device": "iPhone 13",
+        "platform": "ios",
+        "osVersion": "18.5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-06-14",
+        "notes": "it doesn’t launch",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140"
+        }
+      },
       {
         "device": "iPad Pro 11-inch (M5)",
         "platform": "ios",
@@ -48191,50 +48213,52 @@
         "channel": "all",
         "status": "nothing",
         "perf": "n/a",
-        "notes": "Cyan for a split second, then black screen, then crashes back to dashboard. Relaunch stays black. Have to restart app to get back to dashboard.",
-        "updatedAt": "2026-05-11",
-        "date": "2026-05-11",
-        "reportCount": 4,
+        "notes": "it doesn’t launch",
+        "updatedAt": "2026-06-14",
+        "date": "2026-06-14",
+        "reportCount": 5,
         "latestReport": {
-          "device": "iPad Pro 11-inch (M5)",
+          "device": "iPhone 13",
           "platform": "ios",
-          "osVersion": "26.4.2",
+          "osVersion": "18.5",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "nothing",
           "perf": "n/a",
-          "date": "2026-05-11",
-          "notes": "Cyan for a split second, then black screen, then crashes back to dashboard. Relaunch stays black. Have to restart app to get back to dashboard.",
+          "date": "2026-06-14",
+          "notes": "it doesn’t launch",
           "screenshots": [],
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
           }
         },
         "bestReport": {
-          "device": "iPad Pro 11-inch (M5)",
+          "device": "iPhone 13",
           "platform": "ios",
-          "osVersion": "26.4.2",
+          "osVersion": "18.5",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "nothing",
           "perf": "n/a",
-          "date": "2026-05-11",
-          "notes": "Cyan for a split second, then black screen, then crashes back to dashboard. Relaunch stays black. Have to restart app to get back to dashboard.",
+          "date": "2026-06-14",
+          "notes": "it doesn’t launch",
           "screenshots": [],
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
           }
         }
       }
