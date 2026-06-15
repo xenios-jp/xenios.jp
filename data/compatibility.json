@@ -105387,14 +105387,14 @@
     "titleIds": [
       "545408A7"
     ],
-    "status": "playable",
+    "status": "intro",
     "perf": "poor",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 17 Pro Max",
+      "device": "iPhone 17",
       "platform": "ios",
       "osVersion": "26.3.1",
       "arch": "arm64",
@@ -105403,7 +105403,7 @@
     "updatedAt": "2026-06-15",
     "issueNumber": 62,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/62",
-    "notes": "Game runs, however very poorly with stutters and color flickering etc. with 10-15 FPS.\nEmulator is in early stages so I am keen to see major improvements :)",
+    "notes": "It shows the start then goes black the audio is a bit bugged too",
     "reports": [
       {
         "device": "iPhone 15 Pro",
@@ -105423,155 +105423,7 @@
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
-          "stage": "stable",
           "commitShort": "57c3ca140"
-        }
-      },
-      {
-        "device": "iPad Air 4",
-        "platform": "ios",
-        "osVersion": "18.0.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-05-24",
-        "notes": "Literally a black screen after the rockstar games and rockstar north logos",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
-        }
-      },
-      {
-        "device": "iPhone 17 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "poor",
-        "date": "2026-04-19",
-        "notes": "Game runs, however very poorly with stutters and color flickering etc. with 10-15 FPS.\nEmulator is in early stages so I am keen to see major improvements :)",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
-        }
-      },
-      {
-        "device": "iPad 10",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-04-17",
-        "notes": "When I open the game it’s just a black screen",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
-        }
-      },
-      {
-        "device": "iPhone 13 Pro",
-        "platform": "ios",
-        "osVersion": "18.7.7",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "loads",
-        "perf": "poor",
-        "date": "2026-04-04",
-        "notes": "Black screen after the R* & R* north logos",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
-        }
-      },
-      {
-        "device": "iPhone 17 Pro",
-        "platform": "ios",
-        "osVersion": "26.2",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "poor",
-        "date": "2026-03-28",
-        "notes": "The game runs poorly, graphical issues sometimes. Missions run alright but sometimes the npc freezes and you have to go back to the start and continue the mission. Sometimes because of the weather the game becomes nearly unplayable, but by changing the weather it fixes. \n\nOverall it’s really impressive that an iPhone 17 Pro can in fact run GTA V. Very cool!",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
-        }
-      },
-      {
-        "device": "iPhone 17 Pro",
-        "platform": "ios",
-        "osVersion": "26.2",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "poor",
-        "date": "2026-03-28",
-        "notes": "The game tuns mid, but here are some screenshots",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
-        }
-      },
-      {
-        "device": "iPhone 16",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "perf": "ok",
-        "date": "2026-03-28",
-        "notes": "No sound fps is good for a game like gta 5",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
         }
       },
       {
@@ -105657,12 +105509,12 @@
       },
       "all": {
         "channel": "all",
-        "status": "playable",
+        "status": "intro",
         "perf": "poor",
-        "notes": "Game runs, however very poorly with stutters and color flickering etc. with 10-15 FPS.\nEmulator is in early stages so I am keen to see major improvements :)",
+        "notes": "It shows the start then goes black the audio is a bit bugged too",
         "updatedAt": "2026-06-15",
         "date": "2026-06-15",
-        "reportCount": 10,
+        "reportCount": 3,
         "latestReport": {
           "device": "iPhone 15 Pro",
           "platform": "ios",
@@ -105681,29 +105533,31 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         },
         "bestReport": {
-          "device": "iPhone 17 Pro Max",
+          "device": "iPhone 17",
           "platform": "ios",
           "osVersion": "26.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "playable",
+          "status": "intro",
           "perf": "poor",
-          "date": "2026-04-19",
-          "notes": "Game runs, however very poorly with stutters and color flickering etc. with 10-15 FPS.\nEmulator is in early stages so I am keen to see major improvements :)",
+          "date": "2026-03-09",
+          "notes": "It shows the start then goes black the audio is a bit bugged too",
+          "reportedTitleId": "545408A7",
+          "reportedTitle": "Grand Theft Auto V",
           "screenshots": [],
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
+            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "stage": "stable",
+            "commitShort": "2633e8177"
           }
         }
       }
@@ -156066,7 +155920,6 @@
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
-          "stage": "stable",
           "commitShort": "57c3ca140"
         }
       }
@@ -156110,7 +155963,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         },
@@ -156132,7 +155984,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         }
@@ -192089,29 +191940,7 @@
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
-          "stage": "stable",
           "commitShort": "57c3ca140"
-        }
-      },
-      {
-        "device": "iPad Air 13-inch (M3)",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-03-29",
-        "notes": "Well, it is such a shame that RE5 isn’t booting up, well it is a good game and I hope you guys can make it more compatible I support you guys",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
         }
       },
       {
@@ -192184,7 +192013,7 @@
         "notes": "iPhone15pro running Resident Evil 5 black screen",
         "updatedAt": "2026-06-15",
         "date": "2026-06-15",
-        "reportCount": 3,
+        "reportCount": 2,
         "latestReport": {
           "device": "iPhone 15 Pro",
           "platform": "ios",
@@ -192203,7 +192032,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         },
@@ -192225,7 +192053,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         }
@@ -245212,32 +245039,11 @@
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-15",
+    "updatedAt": "2026-03-08",
     "issueNumber": 52,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/52",
     "notes": "Game doesn’t fully load at start graphical  issues.",
     "reports": [
-      {
-        "device": "iPhone 16 Pro",
-        "platform": "ios",
-        "osVersion": "18.6.2",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "intro",
-        "perf": "ok",
-        "date": "2026-03-15",
-        "notes": "Audio is a bit of an ear piercer, and I’m glad I wasn’t wearing headphones. Loads well-ish but freezes just past the first save point.",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
-        }
-      },
       {
         "device": "iPhone 15 Pro",
         "platform": "ios",
@@ -245307,28 +245113,31 @@
         "status": "playable",
         "perf": "ok",
         "notes": "Game doesn’t fully load at start graphical  issues.",
-        "updatedAt": "2026-03-15",
-        "date": "2026-03-15",
-        "reportCount": 3,
+        "updatedAt": "2026-03-08",
+        "date": "2026-03-08",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 16 Pro",
+          "device": "iPhone 15 Pro",
           "platform": "ios",
-          "osVersion": "18.6.2",
+          "osVersion": "26.3",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "intro",
+          "status": "playable",
           "perf": "ok",
-          "date": "2026-03-15",
-          "notes": "Audio is a bit of an ear piercer, and I’m glad I wasn’t wearing headphones. Loads well-ish but freezes just past the first save point.",
+          "date": "2026-03-08",
+          "notes": "Game doesn’t fully load at start graphical  issues.",
+          "reportedTitleId": "425607E5",
+          "reportedTitle": "Toy Story 3",
           "screenshots": [],
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
+            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "stage": "stable",
+            "commitShort": "2633e8177"
           }
         },
         "bestReport": {

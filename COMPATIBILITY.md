@@ -2,7 +2,7 @@
 
 > **323 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **131** · 🔵 In-Game: **65** · 🟡 Intro: **29** · 🟠 Loads: **43** · 🔴 Doesn't Boot: **55**
+> 🟢 Playable: **130** · 🔵 In-Game: **65** · 🟡 Intro: **30** · 🟠 Loads: **43** · 🔴 Doesn't Boot: **55**
 >
 > 📱 iOS: **295** · 🖥️ macOS: **50**
 
@@ -75,7 +75,6 @@
 | 🟢 | Geometry Wars Evolved | `584107ED` | 📱 iOS | Playable | 🚀 Great | iPhone 13 | 2026-03-10 |
 | 🟢 | GoldenEye: 007 Reloaded | `415608AF` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-05-09 |
 | 🟢 | Grand Theft Auto IV | `545407F2` | 📱 iOS, 🖥️ macOS | Playable | 👌 OK | iPad Pro 11-inch (M4) | 2026-06-12 |
-| 🟢 | Grand Theft Auto V | `545408A7` | 📱 iOS | Playable | 🐢 Poor | iPhone 17 Pro Max | 2026-06-15 |
 | 🟢 | GRID | `434D07FF` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro | 2026-05-31 |
 | 🟢 | Guacamelee Super Turbo Championship Edition | `58411446` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-03 |
 | 🟢 | Guitar Hero Aerosmith | `41560819` | 📱 iOS, 🖥️ macOS | Playable | 👌 OK | iPhone 13 mini | 2026-03-22 |
@@ -145,7 +144,7 @@
 | 🟢 | TimeShift | `565507DA` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro | 2026-03-13 |
 | 🟢 | TMNT | `555307F8` | 📱 iOS | Playable | 👌 OK | iPhone 13 Pro | 2026-04-10 |
 | 🟢 | Tony Hawk's American Wasteland | `415607D4` | 📱 iOS | Playable | 🐢 Poor | iPad Pro 13-inch (M4) | 2026-05-21 |
-| 🟢 | Toy Story 3 | `425607E5` | 📱 iOS | Playable | 👌 OK | iPhone 15 Pro | 2026-03-15 |
+| 🟢 | Toy Story 3 | `425607E5` | 📱 iOS | Playable | 👌 OK | iPhone 15 Pro | 2026-03-08 |
 | 🟢 | Ultra Street Fighter IV | `434307FC` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro Max | 2026-03-09 |
 | 🟢 | Virtua Fighter 5: Final Showdown | `534507EE` | 📱 iOS | Playable | 👌 OK | iPhone 17 Pro Max | 2026-03-03 |
 | 🟢 | WRC 5: FIA WORLD RALLY CHAMPIONSHIP | `573607E2` | 📱 iOS | Playable | 🐢 Poor | iPhone 17 Pro Max | 2026-03-17 |
@@ -226,6 +225,7 @@
 | 🟡 | Divinity II Dragon Knight Saga | `464507D6` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro Max | 2026-03-09 |
 | 🟡 | DOOM 3 BFG Edition | `425307F1` | 📱 iOS | Intro | 🚀 Great | iPhone 16 Pro | 2026-03-03 |
 | 🟡 | Far Cry 3 | `5553088C` | 📱 iOS | Intro | 👌 OK | iPhone 15 Pro | 2026-06-12 |
+| 🟡 | Grand Theft Auto V | `545408A7` | 📱 iOS | Intro | 🐢 Poor | iPhone 17 | 2026-06-15 |
 | 🟡 | Halo 4 | `4D530919` | 📱 iOS | Intro | 🐢 Poor | iPad Pro 12.9-inch (M2) | 2026-03-10 |
 | 🟡 | Halo Wars | `4D530808` | 📱 iOS | Intro | 👌 OK | iPhone 17 | 2026-03-03 |
 | 🟡 | Madden NFL 17 | `454109F2` | 📱 iOS | Intro | 🐢 Poor | iPad Air 11-inch (M3) | 2026-04-04 |
