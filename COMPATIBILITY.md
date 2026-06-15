@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **324 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **325 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **130** · 🔵 In-Game: **66** · 🟡 Intro: **30** · 🟠 Loads: **44** · 🔴 Doesn't Boot: **54**
+> 🟢 Playable: **130** · 🔵 In-Game: **66** · 🟡 Intro: **31** · 🟠 Loads: **44** · 🔴 Doesn't Boot: **54**
 >
-> 📱 iOS: **296** · 🖥️ macOS: **50**
+> 📱 iOS: **297** · 🖥️ macOS: **50**
 
 ## Legend
 
@@ -229,6 +229,7 @@
 | 🟡 | Grand Theft Auto V | `545408A7` | 📱 iOS | Intro | 🐢 Poor | iPhone 17 | 2026-06-15 |
 | 🟡 | Halo 4 | `4D530919` | 📱 iOS | Intro | 🐢 Poor | iPad Pro 12.9-inch (M2) | 2026-03-10 |
 | 🟡 | Halo Wars | `4D530808` | 📱 iOS | Intro | 👌 OK | iPhone 17 | 2026-03-03 |
+| 🟡 | Lego Lord of the Rings | `5752081D` | 📱 iOS | Intro | 🐢 Poor | iPhone 16e | 2026-06-15 |
 | 🟡 | Madden NFL 17 | `454109F2` | 📱 iOS | Intro | 🐢 Poor | iPad Air 11-inch (M3) | 2026-04-04 |
 | 🟡 | Mortal Kombat vs. DC Universe | `4D5707E9` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Plus | 2026-03-12 |
 | 🟡 | Naruto Shippuden: UNS 3 Full Burst | `4E4D085C` | 📱 iOS | Intro | 🐢 Poor | iPhone 15 Pro Max | 2026-03-13 |
