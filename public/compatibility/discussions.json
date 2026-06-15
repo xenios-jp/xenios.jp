@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-15T07:31:11.396Z",
+  "generatedAt": "2026-06-15T19:52:55.472Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -3244,6 +3244,31 @@
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/518",
       "updatedAt": "2026-06-15",
       "entries": [
+        {
+          "id": "comment-4711820815",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/518#issuecomment-4711820815",
+          "author": "xenios-jp",
+          "createdAt": "2026-06-15",
+          "createdAtMs": 1781552939000,
+          "issueNumber": 518,
+          "excerpt": "It’s pretty choppy but it works",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/434307D4/1781552933932-1.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "poor",
+            "device": "iPhone 15 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 26.5",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
+          }
+        },
         {
           "id": "issue-518",
           "type": "issue",
