@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-15T01:43:06.039Z",
+  "generatedAt": "2026-06-15T03:21:22.347Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2366,6 +2366,37 @@
             "appVersion": "1.0.1",
             "buildNumber": "9288",
             "commitShort": "`056d2f64d`"
+          }
+        }
+      ]
+    },
+    "54510829": {
+      "titleId": "54510829",
+      "issueNumber": 517,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/517",
+      "updatedAt": "2026-06-15",
+      "entries": [
+        {
+          "id": "issue-517",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/517",
+          "author": "xenios-jp",
+          "createdAt": "2026-06-15",
+          "createdAtMs": 1781493585000,
+          "issueNumber": 517,
+          "excerpt": "black screen",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPad Pro 11-inch (M2)",
+            "platform": "iOS",
+            "osVersion": "iOS 26.5",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
           }
         }
       ]
