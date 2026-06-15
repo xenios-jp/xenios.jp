@@ -2,7 +2,7 @@
 
 > **324 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **131** · 🔵 In-Game: **65** · 🟡 Intro: **30** · 🟠 Loads: **44** · 🔴 Doesn't Boot: **54**
+> 🟢 Playable: **130** · 🔵 In-Game: **66** · 🟡 Intro: **30** · 🟠 Loads: **44** · 🔴 Doesn't Boot: **54**
 >
 > 📱 iOS: **296** · 🖥️ macOS: **50**
 
@@ -121,7 +121,6 @@
 | 🟢 | Rayman Origins | `55530884` | 📱 iOS | Playable | 🚀 Great | iPhone 17 | 2026-05-23 |
 | 🟢 | Rayman Raving Rabbids | `555307F3` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro Max | 2026-04-30 |
 | 🟢 | Resident Evil 5 | `434307D4` | 📱 iOS | Playable | 🐢 Poor | iPhone 15 Pro | 2026-06-15 |
-| 🟢 | Resident Evil Revelations | `43430833` | 📱 iOS | Playable | 👌 OK | iPhone 16 | 2026-06-15 |
 | 🟢 | Ridge Racer 6 | `4E4D07D3` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-08 |
 | 🟢 | Rock Band | `45410829` | 🖥️ macOS, 📱 iOS | Playable | 🚀 Great | MacBook Pro (M4) | 2026-03-23 |
 | 🟢 | Rock Band 2 | `45410869` | 📱 iOS, 🖥️ macOS | Playable | 🚀 Great | MacBook Pro (M4) | 2026-03-23 |
@@ -204,6 +203,7 @@
 | 🔵 | Remember Me | `4343082F` | 📱 iOS | In-Game | 🐢 Poor | iPhone 15 Pro | 2026-06-11 |
 | 🔵 | Resident Evil 6 | `43430819` | 📱 iOS | In-Game | 🐢 Poor | iPhone 13 Pro Max | 2026-03-20 |
 | 🔵 | Resident Evil Code: Veronica X | `43430822` | 📱 iOS | In-Game | 🐢 Poor | iPad (A16) | 2026-04-05 |
+| 🔵 | Resident Evil Revelations | `43430833` | 📱 iOS | In-Game | 🐢 Poor | iPhone 14 Pro | 2026-06-15 |
 | 🔵 | Rockstar Games Presents Table Tennis | `545407DF` | 🖥️ macOS | In-Game | 🐢 Poor | Macbook Pro M1 | 2026-04-18 |
 | 🔵 | Saints Row | `545107D1` | 📱 iOS | In-Game | 👌 OK | iPhone 16 | 2026-03-10 |
 | 🔵 | Saints Row 2 | `545107FC` | 📱 iOS | In-Game | 🐢 Poor | iPhone 14 Pro Max | 2026-03-08 |

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-15T22:30:12.933Z",
+  "generatedAt": "2026-06-15T22:36:25.844Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -3257,6 +3257,18 @@
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/522",
       "updatedAt": "2026-06-15",
       "entries": [
+        {
+          "id": "comment-4713015760",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/522#issuecomment-4713015760",
+          "author": "chendovandertoorn",
+          "createdAt": "2026-06-15",
+          "createdAtMs": 1781562822000,
+          "issueNumber": 522,
+          "excerpt": "`iOS: Failed to launch game: C00000BB\nVulkan shared memory: Invalid upload range 00007C20 length 00000001\nMetal: geometry emulation requested without a pixel shader\nMetal: gamma_render_target_as_unorm16 disabled due to known issues`",
+          "images": [],
+          "meta": {}
+        },
         {
           "id": "issue-522",
           "type": "issue",
