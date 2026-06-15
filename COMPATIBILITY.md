@@ -321,7 +321,7 @@
 | 🔴 | Plants vs Zombies Garden Warfare | `454109C9` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone XS Max | 2026-04-18 |
 | 🔴 | PROTOTYPE | `4156084E` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 14 Pro | 2026-06-11 |
 | 🔴 | Resident Evil 4 | `4343081C` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16e | 2026-03-14 |
-| 🔴 | Resident Evil 5 | `434307D4` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Air 13-inch (M3) | 2026-03-29 |
+| 🔴 | Resident Evil 5 | `434307D4` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 15 Pro | 2026-06-15 |
 | 🔴 | SEGA Rally Online Arcade | `58410AC2` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Pro 13-inch (M5) | 2026-06-11 |
 | 🔴 | Silent Hill: Downpour | `4B4E0823` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-22 |
 | 🔴 | SmackDown vs. RAW 2009 | `54510826` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad (A16) | 2026-03-16 |
