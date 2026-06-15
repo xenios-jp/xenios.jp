@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-15T22:13:11.761Z",
+  "generatedAt": "2026-06-15T22:30:12.933Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -3167,6 +3167,87 @@
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
           "images": [],
           "meta": {}
+        }
+      ]
+    },
+    "575207FD": {
+      "titleId": "575207FD",
+      "issueNumber": 523,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/523",
+      "updatedAt": "2026-06-15",
+      "entries": [
+        {
+          "id": "issue-523",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/523",
+          "author": "xenios-jp",
+          "createdAt": "2026-06-15",
+          "createdAtMs": 1781562510000,
+          "issueNumber": 523,
+          "excerpt": "Game has slight green flashing when on loading screens, and there are slight graphical glitches here and there. Stutters until shaders are fully compiled. Runs well other than that. Will heat phone up VERY quickly.",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9729",
+            "commitShort": "`d1afdc63d`"
+          }
+        },
+        {
+          "id": "comment-4060709958",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/164#issuecomment-4060709958",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-14",
+          "createdAtMs": 1773501741000,
+          "issueNumber": 164,
+          "excerpt": "Black screen",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 15 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
+        {
+          "id": "issue-164",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/164",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-10",
+          "createdAtMs": 1773122294000,
+          "issueNumber": 164,
+          "excerpt": "Game starts with opening screen and graphical glitches during open screen and audio issues after game opening screen is done, stays on a black screen. Re-launching the game a few times fixes the black screen but audio is unbearably loud/with cracking, performance wise game runs good. Dips between full speed and 40 ish fps.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/575207FD/1773122291255-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/575207FD/1773122291255-2.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/575207FD/1773122291255-3.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 16 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.2",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
         }
       ]
     },
@@ -13471,64 +13552,6 @@
           "excerpt": "lights are missing text is bugged",
           "images": [],
           "meta": {}
-        }
-      ]
-    },
-    "575207FD": {
-      "titleId": "575207FD",
-      "issueNumber": 164,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/164",
-      "updatedAt": "2026-03-14",
-      "entries": [
-        {
-          "id": "comment-4060709958",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/164#issuecomment-4060709958",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-14",
-          "createdAtMs": 1773501741000,
-          "issueNumber": 164,
-          "excerpt": "Black screen",
-          "images": [],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPhone 15 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "`056d2f64d`"
-          }
-        },
-        {
-          "id": "issue-164",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/164",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-10",
-          "createdAtMs": 1773122294000,
-          "issueNumber": 164,
-          "excerpt": "Game starts with opening screen and graphical glitches during open screen and audio issues after game opening screen is done, stays on a black screen. Re-launching the game a few times fixes the black screen but audio is unbearably loud/with cracking, performance wise game runs good. Dips between full speed and 40 ish fps.",
-          "images": [
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/575207FD/1773122291255-1.jpg",
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/575207FD/1773122291255-2.jpg",
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/575207FD/1773122291255-3.jpg"
-          ],
-          "meta": {
-            "status": "playable",
-            "perf": "great",
-            "device": "iPhone 16 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 26.2",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "`2633e8177`"
-          }
         }
       ]
     },
