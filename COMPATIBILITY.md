@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **323 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **324 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **131** · 🔵 In-Game: **65** · 🟡 Intro: **30** · 🟠 Loads: **43** · 🔴 Doesn't Boot: **54**
+> 🟢 Playable: **131** · 🔵 In-Game: **65** · 🟡 Intro: **30** · 🟠 Loads: **44** · 🔴 Doesn't Boot: **54**
 >
-> 📱 iOS: **295** · 🖥️ macOS: **50**
+> 📱 iOS: **296** · 🖥️ macOS: **50**
 
 ## Legend
 
@@ -258,6 +258,7 @@
 | 🟠 | Deadpool | `415608EC` | 📱 iOS | Loads | 🚀 Great | iPhone 15 Pro | 2026-03-22 |
 | 🟠 | Enslaved: Odyssey to the West | `4E4D07F1` | 🖥️ macOS | Loads | ➖ N/A | MacBook Pro (M1) | 2026-04-12 |
 | 🟠 | Epic Mickey 2 The Power Of Two | `42560816` | 📱 iOS | Loads | 🐢 Poor | iPhone 15 Pro Max | 2026-03-08 |
+| 🟠 | Far Cry 4 | `555308CA` | 📱 iOS | Loads | 👌 OK | iPhone 16 Pro Max | 2026-06-15 |
 | 🟠 | FIFA Street 3 | `4541083B` | 📱 iOS | Loads | ➖ N/A | iPad Air 5 | 2026-03-09 |
 | 🟠 | Final Fantasy XIII-2 | `53510806` | 📱 iOS | Loads | 🐢 Poor | iPhone 16 Pro Max | 2026-04-05 |
 | 🟠 | Grand Theft Auto: San Andreas | `545408B8` | 📱 iOS | Loads | 🐢 Poor | iPhone 15 Pro Max | 2026-04-23 |
