@@ -1,6 +1,92 @@
 {
-  "generatedAt": "2026-06-16T02:31:14Z",
+  "generatedAt": "2026-06-16T04:05:25Z",
   "builds": [
+    {
+      "buildId": "ios-preview-2.0.1-9849",
+      "channel": "preview",
+      "official": true,
+      "appVersion": "2.0.1",
+      "buildNumber": "9849",
+      "stage": "stable",
+      "commitShort": "acfa2878a",
+      "publishedAt": "2026-06-16T02:55:46Z",
+      "label": "Preview 2.0.1-9849",
+      "notes": "Official CI preview build published from xenios-jp/XeniOS.",
+      "sourceLabel": "GitHub Prerelease",
+      "sourceUrl": "https://github.com/xenios-jp/XeniOS/releases/tag/preview-v2.0.1-build-9849",
+      "artifacts": [
+        {
+          "id": "ios-arm64-ipa-xenios-ios-iphone-ipad-ipa",
+          "name": "XeniOS for iPhone / iPad",
+          "label": "iPhone / iPad (IPA)",
+          "platform": "ios",
+          "arch": "arm64",
+          "kind": "ipa",
+          "downloadUrl": "https://github.com/xenios-jp/XeniOS/releases/download/preview-v2.0.1-build-9849/xenios_ios_iphone_ipad.ipa",
+          "sha256": "ec277f6effa363d2b311ce5bdb0510b0e4630ea0b31aed08ad8a31eb42656336",
+          "sizeBytes": 28177711,
+          "sizeLabel": "27 MB"
+        }
+      ],
+      "platform": "ios",
+      "id": "ios-preview-ios-preview-2.0.1-9849",
+      "submittedBy": "GitHub Actions"
+    },
+    {
+      "buildId": "macos-preview-2.0.1-9849",
+      "channel": "preview",
+      "official": true,
+      "appVersion": "2.0.1",
+      "buildNumber": "9849",
+      "stage": "stable",
+      "commitShort": "acfa2878a",
+      "publishedAt": "2026-06-16T02:55:46Z",
+      "label": "Preview 2.0.1-9849",
+      "notes": "Official CI preview build published from xenios-jp/XeniOS.",
+      "sourceLabel": "GitHub Prerelease",
+      "sourceUrl": "https://github.com/xenios-jp/XeniOS/releases/tag/preview-v2.0.1-build-9849",
+      "artifacts": [
+        {
+          "id": "macos-universal-dmg-xenios-macos-universal-dmg",
+          "name": "XeniOS for Mac",
+          "label": "Universal",
+          "platform": "macos",
+          "arch": "universal",
+          "kind": "dmg",
+          "downloadUrl": "https://github.com/xenios-jp/XeniOS/releases/download/preview-v2.0.1-build-9849/xenios_macos_universal.dmg",
+          "sha256": "f53069d621f15f9871f0b8b515081219c057b68a81c8db456117aff38fe9324b",
+          "sizeBytes": 71081317,
+          "sizeLabel": "68 MB"
+        },
+        {
+          "id": "macos-arm64-dmg-xenios-macos-apple-silicon-dmg",
+          "name": "XeniOS for Apple Silicon",
+          "label": "Apple Silicon",
+          "platform": "macos",
+          "arch": "arm64",
+          "kind": "dmg",
+          "downloadUrl": "https://github.com/xenios-jp/XeniOS/releases/download/preview-v2.0.1-build-9849/xenios_macos_apple_silicon.dmg",
+          "sha256": "656d65aa2fd947da487d74ab7ad32170c7b32d38a655569d7936e633ef0103cd",
+          "sizeBytes": 46824831,
+          "sizeLabel": "45 MB"
+        },
+        {
+          "id": "macos-x86_64-dmg-xenios-macos-intel-dmg",
+          "name": "XeniOS for Intel",
+          "label": "Intel",
+          "platform": "macos",
+          "arch": "x86_64",
+          "kind": "dmg",
+          "downloadUrl": "https://github.com/xenios-jp/XeniOS/releases/download/preview-v2.0.1-build-9849/xenios_macos_intel.dmg",
+          "sha256": "6b0762ebd3207d958d4b51948b9d96fa833f9cbfe44df3abe302b0b9da7af7f1",
+          "sizeBytes": 47587410,
+          "sizeLabel": "45 MB"
+        }
+      ],
+      "platform": "macos",
+      "id": "macos-preview-macos-preview-2.0.1-9849",
+      "submittedBy": "GitHub Actions"
+    },
     {
       "buildId": "ios-preview-2.0.1-9848",
       "channel": "preview",
