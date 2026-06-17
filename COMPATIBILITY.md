@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **326 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **327 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **130** · 🔵 In-Game: **66** · 🟡 Intro: **31** · 🟠 Loads: **44** · 🔴 Doesn't Boot: **55**
+> 🟢 Playable: **130** · 🔵 In-Game: **66** · 🟡 Intro: **33** · 🟠 Loads: **44** · 🔴 Doesn't Boot: **54**
 >
-> 📱 iOS: **298** · 🖥️ macOS: **50**
+> 📱 iOS: **299** · 🖥️ macOS: **50**
 
 ## Legend
 
@@ -220,6 +220,7 @@
 | 🟡 | Back to the Future | `443607D6` | 📱 iOS | Intro | 🚀 Great | iPhone 16 Pro | 2026-03-24 |
 | 🟡 | Beautiful Katamari | `4E4D07DC` | 📱 iOS | Intro | 👌 OK | iPhone 16 Pro | 2026-03-05 |
 | 🟡 | Blur | `41560845` | 📱 iOS | Intro | 🐢 Poor | iPhone 15 Pro | 2026-06-12 |
+| 🟡 | Call of Duty: Black Ops II | `415608C3` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro Max | 2026-06-17 |
 | 🟡 | Dark Souls 2 | `465307E4` | 📱 iOS | Intro | 👌 OK | iPhone 15 Pro | 2026-06-12 |
 | 🟡 | Dead or Alive Xtreme 2 | `544307D2` | 📱 iOS | Intro | 🐢 Poor | iPhone 13 Pro Max | 2026-03-27 |
 | 🟡 | Dead Rising | `434307D2` | 📱 iOS | Intro | 👌 OK | iPad (A16) | 2026-03-04 |
@@ -238,6 +239,7 @@
 | 🟡 | PopCap Collection | `504787D8` | 📱 iOS | Intro | 🚀 Great | iPhone 13 Pro | 2026-03-20 |
 | 🟡 | Portal: Still Alive | `58410960` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro Max | 2026-05-27 |
 | 🟡 | Rise of the Tomb Raider | `53510823` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro Max | 2026-03-12 |
+| 🟡 | Saints Row: The Third | `5451086D` | 📱 iOS | Intro | 🐢 Poor | iPhone 14 Pro | 2026-06-17 |
 | 🟡 | Silent Hill: HD Collection | `4B4E0845` | 📱 iOS | Intro | 🚀 Great | iPad Pro 11-inch (M5) | 2026-03-31 |
 | 🟡 | Tales of Vesperia | `4E4D07E9` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro | 2026-03-03 |
 | 🟡 | Test Drive Unlimited 2 | `49470804` | 📱 iOS | Intro | 🐢 Poor | iPhone 15 | 2026-03-28 |
@@ -296,7 +298,6 @@
 | 🔴 | Assassin's Creed II | `5553083B` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 14 Pro | 2026-06-03 |
 | 🔴 | Assassin's Creed III | `555308AE` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 Pro Max | 2026-04-10 |
 | 🔴 | Call of Duty 3 | `415607E1` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-09 |
-| 🔴 | Call of Duty: Black Ops II | `415608C3` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro Max | 2026-05-25 |
 | 🔴 | Call of Duty: Black Ops III | `4156091D` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 13 | 2026-03-14 |
 | 🔴 | Castlevania: Lords of Shadow 2 | `4B4E084D` | 🖥️ macOS | Doesn't Boot | ➖ N/A | MacBook Pro (M1) | 2026-04-12 |
 | 🔴 | Dead Rising 2 | `434307EC` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 Pro Max | 2026-03-14 |
