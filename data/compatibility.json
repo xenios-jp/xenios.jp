@@ -200481,10 +200481,14 @@
     "tags": [],
     "platforms": [],
     "lastReport": null,
-    "updatedAt": "",
+    "updatedAt": "2026-06-17",
+    "issueNumber": 526,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/526",
     "notes": "",
     "reports": [],
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/5451086D/1781724708373-1.jpg"
+    ],
     "summaries": {
       "release": {
         "channel": "release",
