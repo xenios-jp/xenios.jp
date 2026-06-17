@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **325 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **326 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **130** · 🔵 In-Game: **66** · 🟡 Intro: **31** · 🟠 Loads: **44** · 🔴 Doesn't Boot: **54**
+> 🟢 Playable: **130** · 🔵 In-Game: **66** · 🟡 Intro: **31** · 🟠 Loads: **44** · 🔴 Doesn't Boot: **55**
 >
-> 📱 iOS: **297** · 🖥️ macOS: **50**
+> 📱 iOS: **298** · 🖥️ macOS: **50**
 
 ## Legend
 
@@ -304,6 +304,7 @@
 | 🔴 | F1 2012 | `434D0847` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 Pro Max | 2026-06-09 |
 | 🔴 | Fable 2 | `4D5307F1` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 15 Pro Max | 2026-03-09 |
 | 🔴 | Far Cry: Instincts Predator | `555307DC` | 🖥️ macOS | Doesn't Boot | ➖ N/A | Mac Mini (M1) (Base Model) | 2026-03-16 |
+| 🔴 | FIFA 13 | `45410998` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 Pro | 2026-06-17 |
 | 🔴 | FIFA 14 | `454109C3` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 15 Pro Max | 2026-03-14 |
 | 🔴 | FIFA 15 | `454109DB` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Pro 13-inch (M4) | 2026-03-13 |
 | 🔴 | Fight Night Champion | `45410915` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Pro (M2) | 2026-03-03 |

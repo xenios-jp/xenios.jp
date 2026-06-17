@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-16T22:25:29.934Z",
+  "generatedAt": "2026-06-17T11:15:31.978Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1842,6 +1842,37 @@
             "appVersion": "1.0.0",
             "buildNumber": "9280",
             "commitShort": "`2633e8177`"
+          }
+        }
+      ]
+    },
+    "45410998": {
+      "titleId": "45410998",
+      "issueNumber": 525,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/525",
+      "updatedAt": "2026-06-17",
+      "entries": [
+        {
+          "id": "issue-525",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/525",
+          "author": "xenios-jp",
+          "createdAt": "2026-06-17",
+          "createdAtMs": 1781694832000,
+          "issueNumber": 525,
+          "excerpt": "Game always crashes when started",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 17 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 27.0",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
           }
         }
       ]
