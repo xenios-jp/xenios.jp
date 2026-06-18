@@ -254072,14 +254072,14 @@
     "titleIds": [
       "534507E1"
     ],
-    "status": "playable",
+    "status": "ingame",
     "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 17 Pro Max",
+      "device": "IPhone 17 Pro Max",
       "platform": "ios",
       "osVersion": "26.5.1",
       "arch": "arm64",
@@ -254091,16 +254091,19 @@
     "notes": "Game launches normally, but the player models do not load, seems to run at full speed.\nWhen changing the readback resolve to full, the models load but the game runs slower, not fully unplayable but kinda annoying.",
     "reports": [
       {
-        "device": "iPhone 17 Pro Max",
+        "device": "IPhone 17 Pro Max",
         "platform": "ios",
         "osVersion": "26.5.1",
         "arch": "arm64",
         "gpuBackend": "msl",
-        "status": "playable",
+        "status": "ingame",
         "perf": "great",
         "date": "2026-06-18",
         "notes": "Game launches normally, but the player models do not load, seems to run at full speed.\nWhen changing the readback resolve to full, the models load but the game runs slower, not fully unplayable but kinda annoying.",
+        "reportedTitleId": "534507E1",
+        "reportedTitle": "Virtua Tennis 3",
         "screenshots": [],
+        "submittedBy": "Sunne223",
         "source": "github",
         "build": {
           "buildId": "ios-preview-2.1-9857",
@@ -254126,23 +254129,26 @@
       },
       "all": {
         "channel": "all",
-        "status": "playable",
+        "status": "ingame",
         "perf": "great",
         "notes": "Game launches normally, but the player models do not load, seems to run at full speed.\nWhen changing the readback resolve to full, the models load but the game runs slower, not fully unplayable but kinda annoying.",
         "updatedAt": "2026-06-18",
         "date": "2026-06-18",
         "reportCount": 1,
         "latestReport": {
-          "device": "iPhone 17 Pro Max",
+          "device": "IPhone 17 Pro Max",
           "platform": "ios",
           "osVersion": "26.5.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "playable",
+          "status": "ingame",
           "perf": "great",
           "date": "2026-06-18",
           "notes": "Game launches normally, but the player models do not load, seems to run at full speed.\nWhen changing the readback resolve to full, the models load but the game runs slower, not fully unplayable but kinda annoying.",
+          "reportedTitleId": "534507E1",
+          "reportedTitle": "Virtua Tennis 3",
           "screenshots": [],
+          "submittedBy": "Sunne223",
           "source": "github",
           "build": {
             "buildId": "ios-preview-2.1-9857",
@@ -254153,16 +254159,19 @@
           }
         },
         "bestReport": {
-          "device": "iPhone 17 Pro Max",
+          "device": "IPhone 17 Pro Max",
           "platform": "ios",
           "osVersion": "26.5.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "playable",
+          "status": "ingame",
           "perf": "great",
           "date": "2026-06-18",
           "notes": "Game launches normally, but the player models do not load, seems to run at full speed.\nWhen changing the readback resolve to full, the models load but the game runs slower, not fully unplayable but kinda annoying.",
+          "reportedTitleId": "534507E1",
+          "reportedTitle": "Virtua Tennis 3",
           "screenshots": [],
+          "submittedBy": "Sunne223",
           "source": "github",
           "build": {
             "buildId": "ios-preview-2.1-9857",
