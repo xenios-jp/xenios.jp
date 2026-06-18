@@ -174421,37 +174421,144 @@
     "titleIds": [
       "453907D2"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "ingame",
+    "perf": "great",
     "tags": [],
-    "platforms": [],
-    "lastReport": null,
-    "updatedAt": "",
-    "notes": "",
-    "reports": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 17 Pro Max",
+      "platform": "ios",
+      "osVersion": "IOS 26.5.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-06-18",
+    "issueNumber": 528,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/528",
+    "notes": "Game opens, can get to any mode and play without significant drops, although the game has a huge chance of getting stuck on the title screen after pressing start, and can also get into an infinite autosave loop.",
+    "reports": [
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "IOS 26.5.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "great",
+        "date": "2026-06-18",
+        "notes": "Game opens, can get to any mode and play without significant drops, although the game has a huge chance of getting stuck on the title screen after pressing start, and can also get into an infinite autosave loop.",
+        "screenshots": [],
+        "source": "github",
+        "build": {
+          "buildId": "ios-release-2.01-9730",
+          "channel": "release",
+          "official": true,
+          "appVersion": "2.01",
+          "buildNumber": "9730"
+        }
+      }
+    ],
     "screenshots": [],
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "ingame",
+        "perf": "great",
+        "notes": "Game opens, can get to any mode and play without significant drops, although the game has a huge chance of getting stuck on the title screen after pressing start, and can also get into an infinite autosave loop.",
+        "updatedAt": "2026-06-18",
+        "date": "2026-06-18",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "IOS 26.5.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "great",
+          "date": "2026-06-18",
+          "notes": "Game opens, can get to any mode and play without significant drops, although the game has a huge chance of getting stuck on the title screen after pressing start, and can also get into an infinite autosave loop.",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-2.01-9730",
+            "channel": "release",
+            "official": true,
+            "appVersion": "2.01",
+            "buildNumber": "9730"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "IOS 26.5.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "great",
+          "date": "2026-06-18",
+          "notes": "Game opens, can get to any mode and play without significant drops, although the game has a huge chance of getting stuck on the title screen after pressing start, and can also get into an infinite autosave loop.",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-2.01-9730",
+            "channel": "release",
+            "official": true,
+            "appVersion": "2.01",
+            "buildNumber": "9730"
+          }
+        }
       },
       "all": {
         "channel": "all",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "ingame",
+        "perf": "great",
+        "notes": "Game opens, can get to any mode and play without significant drops, although the game has a huge chance of getting stuck on the title screen after pressing start, and can also get into an infinite autosave loop.",
+        "updatedAt": "2026-06-18",
+        "date": "2026-06-18",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "IOS 26.5.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "great",
+          "date": "2026-06-18",
+          "notes": "Game opens, can get to any mode and play without significant drops, although the game has a huge chance of getting stuck on the title screen after pressing start, and can also get into an infinite autosave loop.",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-2.01-9730",
+            "channel": "release",
+            "official": true,
+            "appVersion": "2.01",
+            "buildNumber": "9730"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "IOS 26.5.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "great",
+          "date": "2026-06-18",
+          "notes": "Game opens, can get to any mode and play without significant drops, although the game has a huge chance of getting stuck on the title screen after pressing start, and can also get into an infinite autosave loop.",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-2.01-9730",
+            "channel": "release",
+            "official": true,
+            "appVersion": "2.01",
+            "buildNumber": "9730"
+          }
+        }
       }
     }
   },
