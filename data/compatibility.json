@@ -80728,37 +80728,144 @@
       "494F87E2",
       "494F07D9"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "ingame",
+    "perf": "poor",
     "tags": [],
-    "platforms": [],
-    "lastReport": null,
-    "updatedAt": "",
-    "notes": "",
-    "reports": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 17 Pro Max",
+      "platform": "ios",
+      "osVersion": "26.5.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-06-18",
+    "issueNumber": 532,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/532",
+    "notes": "Game runs with very significant frame drops, has many slowdowns and some texture issues",
+    "reports": [
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.5.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "poor",
+        "date": "2026-06-18",
+        "notes": "Game runs with very significant frame drops, has many slowdowns and some texture issues",
+        "screenshots": [],
+        "source": "github",
+        "build": {
+          "buildId": "ios-release-2.1-9857",
+          "channel": "release",
+          "official": true,
+          "appVersion": "2.1",
+          "buildNumber": "9857"
+        }
+      }
+    ],
     "screenshots": [],
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "ingame",
+        "perf": "poor",
+        "notes": "Game runs with very significant frame drops, has many slowdowns and some texture issues",
+        "updatedAt": "2026-06-18",
+        "date": "2026-06-18",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.5.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-06-18",
+          "notes": "Game runs with very significant frame drops, has many slowdowns and some texture issues",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-2.1-9857",
+            "channel": "release",
+            "official": true,
+            "appVersion": "2.1",
+            "buildNumber": "9857"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.5.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-06-18",
+          "notes": "Game runs with very significant frame drops, has many slowdowns and some texture issues",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-2.1-9857",
+            "channel": "release",
+            "official": true,
+            "appVersion": "2.1",
+            "buildNumber": "9857"
+          }
+        }
       },
       "all": {
         "channel": "all",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "ingame",
+        "perf": "poor",
+        "notes": "Game runs with very significant frame drops, has many slowdowns and some texture issues",
+        "updatedAt": "2026-06-18",
+        "date": "2026-06-18",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.5.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-06-18",
+          "notes": "Game runs with very significant frame drops, has many slowdowns and some texture issues",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-2.1-9857",
+            "channel": "release",
+            "official": true,
+            "appVersion": "2.1",
+            "buildNumber": "9857"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.5.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-06-18",
+          "notes": "Game runs with very significant frame drops, has many slowdowns and some texture issues",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-2.1-9857",
+            "channel": "release",
+            "official": true,
+            "appVersion": "2.1",
+            "buildNumber": "9857"
+          }
+        }
       }
     }
   },

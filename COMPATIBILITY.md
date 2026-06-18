@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **329 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **330 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **130** · 🔵 In-Game: **68** · 🟡 Intro: **33** · 🟠 Loads: **44** · 🔴 Doesn't Boot: **54**
+> 🟢 Playable: **130** · 🔵 In-Game: **69** · 🟡 Intro: **33** · 🟠 Loads: **44** · 🔴 Doesn't Boot: **54**
 >
-> 📱 iOS: **301** · 🖥️ macOS: **50**
+> 📱 iOS: **302** · 🖥️ macOS: **50**
 
 ## Legend
 
@@ -164,6 +164,7 @@
 | 🔵 | Dead Island Riptide | `4B4D07F2` | 📱 iOS | In-Game | 🐢 Poor | iPhone 14 Pro | 2026-03-17 |
 | 🔵 | Def Jam Icon | `454107EE` | 📱 iOS | In-Game | 🐢 Poor | iPhone 16e | 2026-03-11 |
 | 🔵 | Diablo III | `394F07D1` | 📱 iOS, 🖥️ macOS | In-Game | 🐢 Poor | iPhone Air | 2026-03-09 |
+| 🔵 | El Shaddai | `494F07D1` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro Max | 2026-06-18 |
 | 🔵 | Fable 3 | `4D5308D6` | 📱 iOS | In-Game | 🐢 Poor | iPhone 15 Pro Max | 2026-03-09 |
 | 🔵 | Fable Anniversary | `4D530A87` | 📱 iOS | In-Game | 🐢 Poor | iPhone 16 Pro Max | 2026-03-09 |
 | 🔵 | Fallout 3 | `425307D5` | 📱 iOS | In-Game | 👌 OK | iPhone 13 | 2026-03-12 |
