@@ -48211,23 +48211,44 @@
       "415688E6"
     ],
     "status": "playable",
-    "perf": "great",
+    "perf": "ok",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 15 Pro",
+      "device": "iPhone 15 Pro Max",
       "platform": "ios",
-      "osVersion": "26.3",
+      "osVersion": "26.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-06-11",
+    "updatedAt": "2026-06-18",
     "issueNumber": 494,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/494",
-    "notes": "The game runs AMAZINGLY at first there’s graphical issues but just walk around the map and it gets better and better it runs 30-50 fps. it’s up there with sonic unleashed to run 50 fps on A chip devices.",
+    "notes": "Fps fluctuates quite a bit but I can see this could definitely be playable with more patches. Definitely a lot of graphical glitches but nothing that made it unplayable.",
     "reports": [
+      {
+        "device": "iPhone 15 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-06-18",
+        "notes": "Fps fluctuates quite a bit but I can see this could definitely be playable with more patches. Definitely a lot of graphical glitches but nothing that made it unplayable.",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "commitShort": "57c3ca140"
+        }
+      },
       {
         "device": "iPhone 15 Pro",
         "platform": "ios",
@@ -48250,7 +48271,9 @@
         }
       }
     ],
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/415608CB/1781801091761-1.jpg"
+    ],
     "summaries": {
       "release": {
         "channel": "release",
@@ -48266,21 +48289,21 @@
       "all": {
         "channel": "all",
         "status": "playable",
-        "perf": "great",
-        "notes": "The game runs AMAZINGLY at first there’s graphical issues but just walk around the map and it gets better and better it runs 30-50 fps. it’s up there with sonic unleashed to run 50 fps on A chip devices.",
-        "updatedAt": "2026-06-11",
-        "date": "2026-06-11",
-        "reportCount": 1,
+        "perf": "ok",
+        "notes": "Fps fluctuates quite a bit but I can see this could definitely be playable with more patches. Definitely a lot of graphical glitches but nothing that made it unplayable.",
+        "updatedAt": "2026-06-18",
+        "date": "2026-06-18",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 15 Pro",
+          "device": "iPhone 15 Pro Max",
           "platform": "ios",
-          "osVersion": "26.3",
+          "osVersion": "26.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
-          "perf": "great",
-          "date": "2026-06-11",
-          "notes": "The game runs AMAZINGLY at first there’s graphical issues but just walk around the map and it gets better and better it runs 30-50 fps. it’s up there with sonic unleashed to run 50 fps on A chip devices.",
+          "perf": "ok",
+          "date": "2026-06-18",
+          "notes": "Fps fluctuates quite a bit but I can see this could definitely be playable with more patches. Definitely a lot of graphical glitches but nothing that made it unplayable.",
           "screenshots": [],
           "source": "app",
           "build": {
@@ -48293,15 +48316,15 @@
           }
         },
         "bestReport": {
-          "device": "iPhone 15 Pro",
+          "device": "iPhone 15 Pro Max",
           "platform": "ios",
-          "osVersion": "26.3",
+          "osVersion": "26.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
-          "perf": "great",
-          "date": "2026-06-11",
-          "notes": "The game runs AMAZINGLY at first there’s graphical issues but just walk around the map and it gets better and better it runs 30-50 fps. it’s up there with sonic unleashed to run 50 fps on A chip devices.",
+          "perf": "ok",
+          "date": "2026-06-18",
+          "notes": "Fps fluctuates quite a bit but I can see this could definitely be playable with more patches. Definitely a lot of graphical glitches but nothing that made it unplayable.",
           "screenshots": [],
           "source": "app",
           "build": {
@@ -80735,7 +80758,7 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 17 Pro Max",
+      "device": "IPhone 17 Pro Max",
       "platform": "ios",
       "osVersion": "26.5.1",
       "arch": "arm64",
@@ -80747,7 +80770,7 @@
     "notes": "Game runs with very significant frame drops, has many slowdowns and some texture issues",
     "reports": [
       {
-        "device": "iPhone 17 Pro Max",
+        "device": "IPhone 17 Pro Max",
         "platform": "ios",
         "osVersion": "26.5.1",
         "arch": "arm64",
@@ -80756,7 +80779,14 @@
         "perf": "poor",
         "date": "2026-06-18",
         "notes": "Game runs with very significant frame drops, has many slowdowns and some texture issues",
-        "screenshots": [],
+        "reportedTitleId": "494F07D1",
+        "reportedTitle": "El Shaddai",
+        "screenshots": [
+          "https://github.com/user-attachments/assets/5edfefc1-be83-4eee-bc07-12e7548d8c36",
+          "https://github.com/user-attachments/assets/8e4c7cca-e012-48dc-8356-4ce90de8d7c7",
+          "https://github.com/user-attachments/assets/985c8cec-b1f6-4c6f-abea-a32aeef80e31"
+        ],
+        "submittedBy": "Sunne223",
         "source": "github",
         "build": {
           "buildId": "ios-release-2.1-9857",
@@ -80767,7 +80797,11 @@
         }
       }
     ],
-    "screenshots": [],
+    "screenshots": [
+      "https://github.com/user-attachments/assets/5edfefc1-be83-4eee-bc07-12e7548d8c36",
+      "https://github.com/user-attachments/assets/8e4c7cca-e012-48dc-8356-4ce90de8d7c7",
+      "https://github.com/user-attachments/assets/985c8cec-b1f6-4c6f-abea-a32aeef80e31"
+    ],
     "summaries": {
       "release": {
         "channel": "release",
@@ -80778,7 +80812,7 @@
         "date": "2026-06-18",
         "reportCount": 1,
         "latestReport": {
-          "device": "iPhone 17 Pro Max",
+          "device": "IPhone 17 Pro Max",
           "platform": "ios",
           "osVersion": "26.5.1",
           "arch": "arm64",
@@ -80787,7 +80821,14 @@
           "perf": "poor",
           "date": "2026-06-18",
           "notes": "Game runs with very significant frame drops, has many slowdowns and some texture issues",
-          "screenshots": [],
+          "reportedTitleId": "494F07D1",
+          "reportedTitle": "El Shaddai",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/5edfefc1-be83-4eee-bc07-12e7548d8c36",
+            "https://github.com/user-attachments/assets/8e4c7cca-e012-48dc-8356-4ce90de8d7c7",
+            "https://github.com/user-attachments/assets/985c8cec-b1f6-4c6f-abea-a32aeef80e31"
+          ],
+          "submittedBy": "Sunne223",
           "source": "github",
           "build": {
             "buildId": "ios-release-2.1-9857",
@@ -80798,7 +80839,7 @@
           }
         },
         "bestReport": {
-          "device": "iPhone 17 Pro Max",
+          "device": "IPhone 17 Pro Max",
           "platform": "ios",
           "osVersion": "26.5.1",
           "arch": "arm64",
@@ -80807,7 +80848,14 @@
           "perf": "poor",
           "date": "2026-06-18",
           "notes": "Game runs with very significant frame drops, has many slowdowns and some texture issues",
-          "screenshots": [],
+          "reportedTitleId": "494F07D1",
+          "reportedTitle": "El Shaddai",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/5edfefc1-be83-4eee-bc07-12e7548d8c36",
+            "https://github.com/user-attachments/assets/8e4c7cca-e012-48dc-8356-4ce90de8d7c7",
+            "https://github.com/user-attachments/assets/985c8cec-b1f6-4c6f-abea-a32aeef80e31"
+          ],
+          "submittedBy": "Sunne223",
           "source": "github",
           "build": {
             "buildId": "ios-release-2.1-9857",
@@ -80827,7 +80875,7 @@
         "date": "2026-06-18",
         "reportCount": 1,
         "latestReport": {
-          "device": "iPhone 17 Pro Max",
+          "device": "IPhone 17 Pro Max",
           "platform": "ios",
           "osVersion": "26.5.1",
           "arch": "arm64",
@@ -80836,7 +80884,14 @@
           "perf": "poor",
           "date": "2026-06-18",
           "notes": "Game runs with very significant frame drops, has many slowdowns and some texture issues",
-          "screenshots": [],
+          "reportedTitleId": "494F07D1",
+          "reportedTitle": "El Shaddai",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/5edfefc1-be83-4eee-bc07-12e7548d8c36",
+            "https://github.com/user-attachments/assets/8e4c7cca-e012-48dc-8356-4ce90de8d7c7",
+            "https://github.com/user-attachments/assets/985c8cec-b1f6-4c6f-abea-a32aeef80e31"
+          ],
+          "submittedBy": "Sunne223",
           "source": "github",
           "build": {
             "buildId": "ios-release-2.1-9857",
@@ -80847,7 +80902,7 @@
           }
         },
         "bestReport": {
-          "device": "iPhone 17 Pro Max",
+          "device": "IPhone 17 Pro Max",
           "platform": "ios",
           "osVersion": "26.5.1",
           "arch": "arm64",
@@ -80856,7 +80911,14 @@
           "perf": "poor",
           "date": "2026-06-18",
           "notes": "Game runs with very significant frame drops, has many slowdowns and some texture issues",
-          "screenshots": [],
+          "reportedTitleId": "494F07D1",
+          "reportedTitle": "El Shaddai",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/5edfefc1-be83-4eee-bc07-12e7548d8c36",
+            "https://github.com/user-attachments/assets/8e4c7cca-e012-48dc-8356-4ce90de8d7c7",
+            "https://github.com/user-attachments/assets/985c8cec-b1f6-4c6f-abea-a32aeef80e31"
+          ],
+          "submittedBy": "Sunne223",
           "source": "github",
           "build": {
             "buildId": "ios-release-2.1-9857",
@@ -174261,7 +174323,7 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 17 Pro Max",
+      "device": "IPhone 17 Pro Max",
       "platform": "ios",
       "osVersion": "26.5.1",
       "arch": "arm64",
@@ -174273,7 +174335,7 @@
     "notes": "Fully playable, sometimes a weird screen when transitioning into a cutscene, but doesn’t last more than a second.\nInsignificant frame drops when starting a mission, don’t last too long.",
     "reports": [
       {
-        "device": "iPhone 17 Pro Max",
+        "device": "IPhone 17 Pro Max",
         "platform": "ios",
         "osVersion": "26.5.1",
         "arch": "arm64",
@@ -174282,7 +174344,17 @@
         "perf": "great",
         "date": "2026-06-18",
         "notes": "Fully playable, sometimes a weird screen when transitioning into a cutscene, but doesn’t last more than a second.\nInsignificant frame drops when starting a mission, don’t last too long.",
-        "screenshots": [],
+        "reportedTitleId": "4D5307D3",
+        "reportedTitle": "Perfect Dark Zero",
+        "screenshots": [
+          "https://github.com/user-attachments/assets/3915e86f-a7a6-432a-b2f8-36c6b9f321e2",
+          "https://github.com/user-attachments/assets/e48d9f9c-0a0a-4451-8b38-3a5a278df771",
+          "https://github.com/user-attachments/assets/faad37a7-81ec-45c4-a177-0708f1afed0f",
+          "https://github.com/user-attachments/assets/86b16069-586c-4f50-a412-5c710f44d4a5",
+          "https://github.com/user-attachments/assets/81474933-cc10-4ec6-99d3-d1aff7cdcc84",
+          "https://github.com/user-attachments/assets/5e2c7792-54a2-4eae-afdb-c18a17bc1449"
+        ],
+        "submittedBy": "Sunne223",
         "source": "github",
         "build": {
           "buildId": "ios-preview-2.1-9857",
@@ -174293,7 +174365,14 @@
         }
       }
     ],
-    "screenshots": [],
+    "screenshots": [
+      "https://github.com/user-attachments/assets/3915e86f-a7a6-432a-b2f8-36c6b9f321e2",
+      "https://github.com/user-attachments/assets/e48d9f9c-0a0a-4451-8b38-3a5a278df771",
+      "https://github.com/user-attachments/assets/faad37a7-81ec-45c4-a177-0708f1afed0f",
+      "https://github.com/user-attachments/assets/86b16069-586c-4f50-a412-5c710f44d4a5",
+      "https://github.com/user-attachments/assets/81474933-cc10-4ec6-99d3-d1aff7cdcc84",
+      "https://github.com/user-attachments/assets/5e2c7792-54a2-4eae-afdb-c18a17bc1449"
+    ],
     "summaries": {
       "release": {
         "channel": "release",
@@ -174315,7 +174394,7 @@
         "date": "2026-06-18",
         "reportCount": 1,
         "latestReport": {
-          "device": "iPhone 17 Pro Max",
+          "device": "IPhone 17 Pro Max",
           "platform": "ios",
           "osVersion": "26.5.1",
           "arch": "arm64",
@@ -174324,7 +174403,17 @@
           "perf": "great",
           "date": "2026-06-18",
           "notes": "Fully playable, sometimes a weird screen when transitioning into a cutscene, but doesn’t last more than a second.\nInsignificant frame drops when starting a mission, don’t last too long.",
-          "screenshots": [],
+          "reportedTitleId": "4D5307D3",
+          "reportedTitle": "Perfect Dark Zero",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/3915e86f-a7a6-432a-b2f8-36c6b9f321e2",
+            "https://github.com/user-attachments/assets/e48d9f9c-0a0a-4451-8b38-3a5a278df771",
+            "https://github.com/user-attachments/assets/faad37a7-81ec-45c4-a177-0708f1afed0f",
+            "https://github.com/user-attachments/assets/86b16069-586c-4f50-a412-5c710f44d4a5",
+            "https://github.com/user-attachments/assets/81474933-cc10-4ec6-99d3-d1aff7cdcc84",
+            "https://github.com/user-attachments/assets/5e2c7792-54a2-4eae-afdb-c18a17bc1449"
+          ],
+          "submittedBy": "Sunne223",
           "source": "github",
           "build": {
             "buildId": "ios-preview-2.1-9857",
@@ -174335,7 +174424,7 @@
           }
         },
         "bestReport": {
-          "device": "iPhone 17 Pro Max",
+          "device": "IPhone 17 Pro Max",
           "platform": "ios",
           "osVersion": "26.5.1",
           "arch": "arm64",
@@ -174344,7 +174433,17 @@
           "perf": "great",
           "date": "2026-06-18",
           "notes": "Fully playable, sometimes a weird screen when transitioning into a cutscene, but doesn’t last more than a second.\nInsignificant frame drops when starting a mission, don’t last too long.",
-          "screenshots": [],
+          "reportedTitleId": "4D5307D3",
+          "reportedTitle": "Perfect Dark Zero",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/3915e86f-a7a6-432a-b2f8-36c6b9f321e2",
+            "https://github.com/user-attachments/assets/e48d9f9c-0a0a-4451-8b38-3a5a278df771",
+            "https://github.com/user-attachments/assets/faad37a7-81ec-45c4-a177-0708f1afed0f",
+            "https://github.com/user-attachments/assets/86b16069-586c-4f50-a412-5c710f44d4a5",
+            "https://github.com/user-attachments/assets/81474933-cc10-4ec6-99d3-d1aff7cdcc84",
+            "https://github.com/user-attachments/assets/5e2c7792-54a2-4eae-afdb-c18a17bc1449"
+          ],
+          "submittedBy": "Sunne223",
           "source": "github",
           "build": {
             "buildId": "ios-preview-2.1-9857",

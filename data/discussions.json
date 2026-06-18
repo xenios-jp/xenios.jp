@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-18T16:18:31.247Z",
+  "generatedAt": "2026-06-18T16:47:38.501Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -4926,8 +4926,33 @@
       "titleId": "415608CB",
       "issueNumber": 494,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/494",
-      "updatedAt": "2026-06-11",
+      "updatedAt": "2026-06-18",
       "entries": [
+        {
+          "id": "comment-4744183604",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/494#issuecomment-4744183604",
+          "author": "xenios-jp",
+          "createdAt": "2026-06-18",
+          "createdAtMs": 1781801095000,
+          "issueNumber": 494,
+          "excerpt": "Fps fluctuates quite a bit but I can see this could definitely be playable with more patches. Definitely a lot of graphical glitches but nothing that made it unplayable.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/415608CB/1781801091761-1.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 15 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
+          }
+        },
         {
           "id": "issue-494",
           "type": "issue",
