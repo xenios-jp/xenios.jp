@@ -1,6 +1,37 @@
 {
-  "generatedAt": "2026-06-16T12:40:53Z",
+  "generatedAt": "2026-06-18T03:01:51Z",
   "builds": [
+    {
+      "buildId": "ios-preview-2.1-9857",
+      "channel": "preview",
+      "official": true,
+      "appVersion": "2.1",
+      "buildNumber": "9857",
+      "stage": "stable",
+      "commitShort": "d26163264",
+      "publishedAt": "2026-06-18T02:26:07Z",
+      "label": "Preview 2.1-9857",
+      "notes": "Official CI preview build published from xenios-jp/XeniOS.",
+      "sourceLabel": "GitHub Prerelease",
+      "sourceUrl": "https://github.com/xenios-jp/XeniOS/releases/tag/preview-v2.1-build-9857",
+      "artifacts": [
+        {
+          "id": "ios-arm64-ipa-xenios-ios-iphone-ipad-ipa",
+          "name": "XeniOS for iPhone / iPad",
+          "label": "iPhone / iPad (IPA)",
+          "platform": "ios",
+          "arch": "arm64",
+          "kind": "ipa",
+          "downloadUrl": "https://github.com/xenios-jp/XeniOS/releases/download/preview-v2.1-build-9857/xenios_ios_iphone_ipad.ipa",
+          "sha256": "7d5a8d9a2a9ddca328a86564c8444010c44a14a4ce751eb0d292dce6a77974d7",
+          "sizeBytes": 41982432,
+          "sizeLabel": "40 MB"
+        }
+      ],
+      "platform": "ios",
+      "id": "ios-preview-ios-preview-2.1-9857",
+      "submittedBy": "GitHub Actions"
+    },
     {
       "buildId": "ios-preview-2.1-9852",
       "channel": "preview",
