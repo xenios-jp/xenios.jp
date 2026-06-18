@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-18T04:16:11.275Z",
+  "generatedAt": "2026-06-18T04:53:29.875Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -3196,6 +3196,26 @@
           "createdAtMs": 1773517964000,
           "issueNumber": 263,
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
+          "images": [],
+          "meta": {}
+        }
+      ]
+    },
+    "534507E1": {
+      "titleId": "534507E1",
+      "issueNumber": 529,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/529",
+      "updatedAt": "2026-06-18",
+      "entries": [
+        {
+          "id": "issue-529",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/529",
+          "author": "Sunne223",
+          "createdAt": "2026-06-18",
+          "createdAtMs": 1781758271000,
+          "issueNumber": 529,
+          "excerpt": "Game launches normally, but the player models do not load, seems to run at full speed.\nWhen changing the readback resolve to full, the models load but the game runs slower, not fully unplayable but kinda annoying.",
           "images": [],
           "meta": {}
         }

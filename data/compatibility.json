@@ -47745,71 +47745,7 @@
           "official": false,
           "appVersion": "2.0",
           "buildNumber": "9712",
-          "stage": "stable",
           "commitShort": "358deaee5"
-        }
-      },
-      {
-        "device": "iPhone 16 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.5",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-05-25",
-        "notes": "Just boot into cyan screen",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
-        }
-      },
-      {
-        "device": "iPhone 17 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-04-08",
-        "notes": "Just Cyan",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
-        }
-      },
-      {
-        "device": "iPhone 17 Pro",
-        "platform": "ios",
-        "osVersion": "26.5",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-04-03",
-        "notes": "Cyan",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.0-9296",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9296",
-          "commitShort": "ab2ca341a"
         }
       },
       {
@@ -47859,7 +47795,7 @@
         "notes": "Haven’t really got into any gameplay just the intro",
         "updatedAt": "2026-06-17",
         "date": "2026-06-17",
-        "reportCount": 5,
+        "reportCount": 2,
         "latestReport": {
           "device": "iPhone 16 Pro Max",
           "platform": "ios",
@@ -47878,7 +47814,6 @@
             "official": false,
             "appVersion": "2.0",
             "buildNumber": "9712",
-            "stage": "stable",
             "commitShort": "358deaee5"
           }
         },
@@ -47900,7 +47835,6 @@
             "official": false,
             "appVersion": "2.0",
             "buildNumber": "9712",
-            "stage": "stable",
             "commitShort": "358deaee5"
           }
         }
@@ -89971,7 +89905,6 @@
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
-          "stage": "stable",
           "commitShort": "57c3ca140"
         }
       }
@@ -90015,7 +89948,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         },
@@ -90037,7 +89969,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         }
@@ -174428,7 +174359,7 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 17 Pro Max",
+      "device": "IPhone 17 Pro Max",
       "platform": "ios",
       "osVersion": "IOS 26.5.1",
       "arch": "arm64",
@@ -174440,7 +174371,7 @@
     "notes": "Game opens, can get to any mode and play without significant drops, although the game has a huge chance of getting stuck on the title screen after pressing start, and can also get into an infinite autosave loop.",
     "reports": [
       {
-        "device": "iPhone 17 Pro Max",
+        "device": "IPhone 17 Pro Max",
         "platform": "ios",
         "osVersion": "IOS 26.5.1",
         "arch": "arm64",
@@ -174449,18 +174380,27 @@
         "perf": "great",
         "date": "2026-06-18",
         "notes": "Game opens, can get to any mode and play without significant drops, although the game has a huge chance of getting stuck on the title screen after pressing start, and can also get into an infinite autosave loop.",
-        "screenshots": [],
+        "reportedTitleId": "453907D2",
+        "reportedTitle": "Persona 4 Arena",
+        "screenshots": [
+          "https://github.com/user-attachments/assets/f360db0d-df63-4ec6-ae2c-e3de0be4a89e",
+          "https://github.com/user-attachments/assets/b022948c-337a-4102-aae0-f9344bf0b605"
+        ],
+        "submittedBy": "Sunne223",
         "source": "github",
         "build": {
-          "buildId": "ios-release-2.01-9730",
+          "buildId": "ios-release-2.1-9857",
           "channel": "release",
           "official": true,
-          "appVersion": "2.01",
-          "buildNumber": "9730"
+          "appVersion": "2.1",
+          "buildNumber": "9857"
         }
       }
     ],
-    "screenshots": [],
+    "screenshots": [
+      "https://github.com/user-attachments/assets/f360db0d-df63-4ec6-ae2c-e3de0be4a89e",
+      "https://github.com/user-attachments/assets/b022948c-337a-4102-aae0-f9344bf0b605"
+    ],
     "summaries": {
       "release": {
         "channel": "release",
@@ -174471,7 +174411,7 @@
         "date": "2026-06-18",
         "reportCount": 1,
         "latestReport": {
-          "device": "iPhone 17 Pro Max",
+          "device": "IPhone 17 Pro Max",
           "platform": "ios",
           "osVersion": "IOS 26.5.1",
           "arch": "arm64",
@@ -174480,18 +174420,24 @@
           "perf": "great",
           "date": "2026-06-18",
           "notes": "Game opens, can get to any mode and play without significant drops, although the game has a huge chance of getting stuck on the title screen after pressing start, and can also get into an infinite autosave loop.",
-          "screenshots": [],
+          "reportedTitleId": "453907D2",
+          "reportedTitle": "Persona 4 Arena",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/f360db0d-df63-4ec6-ae2c-e3de0be4a89e",
+            "https://github.com/user-attachments/assets/b022948c-337a-4102-aae0-f9344bf0b605"
+          ],
+          "submittedBy": "Sunne223",
           "source": "github",
           "build": {
-            "buildId": "ios-release-2.01-9730",
+            "buildId": "ios-release-2.1-9857",
             "channel": "release",
             "official": true,
-            "appVersion": "2.01",
-            "buildNumber": "9730"
+            "appVersion": "2.1",
+            "buildNumber": "9857"
           }
         },
         "bestReport": {
-          "device": "iPhone 17 Pro Max",
+          "device": "IPhone 17 Pro Max",
           "platform": "ios",
           "osVersion": "IOS 26.5.1",
           "arch": "arm64",
@@ -174500,14 +174446,20 @@
           "perf": "great",
           "date": "2026-06-18",
           "notes": "Game opens, can get to any mode and play without significant drops, although the game has a huge chance of getting stuck on the title screen after pressing start, and can also get into an infinite autosave loop.",
-          "screenshots": [],
+          "reportedTitleId": "453907D2",
+          "reportedTitle": "Persona 4 Arena",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/f360db0d-df63-4ec6-ae2c-e3de0be4a89e",
+            "https://github.com/user-attachments/assets/b022948c-337a-4102-aae0-f9344bf0b605"
+          ],
+          "submittedBy": "Sunne223",
           "source": "github",
           "build": {
-            "buildId": "ios-release-2.01-9730",
+            "buildId": "ios-release-2.1-9857",
             "channel": "release",
             "official": true,
-            "appVersion": "2.01",
-            "buildNumber": "9730"
+            "appVersion": "2.1",
+            "buildNumber": "9857"
           }
         }
       },
@@ -174520,7 +174472,7 @@
         "date": "2026-06-18",
         "reportCount": 1,
         "latestReport": {
-          "device": "iPhone 17 Pro Max",
+          "device": "IPhone 17 Pro Max",
           "platform": "ios",
           "osVersion": "IOS 26.5.1",
           "arch": "arm64",
@@ -174529,18 +174481,24 @@
           "perf": "great",
           "date": "2026-06-18",
           "notes": "Game opens, can get to any mode and play without significant drops, although the game has a huge chance of getting stuck on the title screen after pressing start, and can also get into an infinite autosave loop.",
-          "screenshots": [],
+          "reportedTitleId": "453907D2",
+          "reportedTitle": "Persona 4 Arena",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/f360db0d-df63-4ec6-ae2c-e3de0be4a89e",
+            "https://github.com/user-attachments/assets/b022948c-337a-4102-aae0-f9344bf0b605"
+          ],
+          "submittedBy": "Sunne223",
           "source": "github",
           "build": {
-            "buildId": "ios-release-2.01-9730",
+            "buildId": "ios-release-2.1-9857",
             "channel": "release",
             "official": true,
-            "appVersion": "2.01",
-            "buildNumber": "9730"
+            "appVersion": "2.1",
+            "buildNumber": "9857"
           }
         },
         "bestReport": {
-          "device": "iPhone 17 Pro Max",
+          "device": "IPhone 17 Pro Max",
           "platform": "ios",
           "osVersion": "IOS 26.5.1",
           "arch": "arm64",
@@ -174549,14 +174507,20 @@
           "perf": "great",
           "date": "2026-06-18",
           "notes": "Game opens, can get to any mode and play without significant drops, although the game has a huge chance of getting stuck on the title screen after pressing start, and can also get into an infinite autosave loop.",
-          "screenshots": [],
+          "reportedTitleId": "453907D2",
+          "reportedTitle": "Persona 4 Arena",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/f360db0d-df63-4ec6-ae2c-e3de0be4a89e",
+            "https://github.com/user-attachments/assets/b022948c-337a-4102-aae0-f9344bf0b605"
+          ],
+          "submittedBy": "Sunne223",
           "source": "github",
           "build": {
-            "buildId": "ios-release-2.01-9730",
+            "buildId": "ios-release-2.1-9857",
             "channel": "release",
             "official": true,
-            "appVersion": "2.01",
-            "buildNumber": "9730"
+            "appVersion": "2.1",
+            "buildNumber": "9857"
           }
         }
       }
@@ -200643,7 +200607,6 @@
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
-          "stage": "stable",
           "commitShort": "57c3ca140"
         }
       }
@@ -200689,7 +200652,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         },
@@ -200711,7 +200673,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         }
@@ -254111,14 +254072,45 @@
     "titleIds": [
       "534507E1"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
-    "platforms": [],
-    "lastReport": null,
-    "updatedAt": "",
-    "notes": "",
-    "reports": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 17 Pro Max",
+      "platform": "ios",
+      "osVersion": "26.5.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-06-18",
+    "issueNumber": 529,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/529",
+    "notes": "Game launches normally, but the player models do not load, seems to run at full speed.\nWhen changing the readback resolve to full, the models load but the game runs slower, not fully unplayable but kinda annoying.",
+    "reports": [
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.5.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-06-18",
+        "notes": "Game launches normally, but the player models do not load, seems to run at full speed.\nWhen changing the readback resolve to full, the models load but the game runs slower, not fully unplayable but kinda annoying.",
+        "screenshots": [],
+        "source": "github",
+        "build": {
+          "buildId": "ios-preview-2.1-9857",
+          "channel": "preview",
+          "official": true,
+          "appVersion": "2.1",
+          "buildNumber": "9857"
+        }
+      }
+    ],
     "screenshots": [],
     "summaries": {
       "release": {
@@ -254134,14 +254126,52 @@
       },
       "all": {
         "channel": "all",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "playable",
+        "perf": "great",
+        "notes": "Game launches normally, but the player models do not load, seems to run at full speed.\nWhen changing the readback resolve to full, the models load but the game runs slower, not fully unplayable but kinda annoying.",
+        "updatedAt": "2026-06-18",
+        "date": "2026-06-18",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.5.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-06-18",
+          "notes": "Game launches normally, but the player models do not load, seems to run at full speed.\nWhen changing the readback resolve to full, the models load but the game runs slower, not fully unplayable but kinda annoying.",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "buildId": "ios-preview-2.1-9857",
+            "channel": "preview",
+            "official": true,
+            "appVersion": "2.1",
+            "buildNumber": "9857"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.5.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-06-18",
+          "notes": "Game launches normally, but the player models do not load, seems to run at full speed.\nWhen changing the readback resolve to full, the models load but the game runs slower, not fully unplayable but kinda annoying.",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "buildId": "ios-preview-2.1-9857",
+            "channel": "preview",
+            "official": true,
+            "appVersion": "2.1",
+            "buildNumber": "9857"
+          }
+        }
       }
     }
   },
