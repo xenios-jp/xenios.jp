@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-18T16:47:38.501Z",
+  "generatedAt": "2026-06-18T18:25:53.151Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -3196,6 +3196,134 @@
           "createdAtMs": 1773517964000,
           "issueNumber": 263,
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
+          "images": [],
+          "meta": {}
+        }
+      ]
+    },
+    "425307E0": {
+      "titleId": "425307E0",
+      "issueNumber": 534,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/534",
+      "updatedAt": "2026-06-18",
+      "entries": [
+        {
+          "id": "issue-534",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/534",
+          "author": "xenios-jp",
+          "createdAt": "2026-06-18",
+          "createdAtMs": 1781807054000,
+          "issueNumber": 534,
+          "excerpt": "I was able to make a save and load into the game, after first boot graphics looked good with some graphical glitches. my game also crashes as I walk up to primm",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/425307E0/1781807050824-1.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 15 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
+          }
+        },
+        {
+          "id": "comment-4049050688",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/168#issuecomment-4049050688",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-12",
+          "createdAtMs": 1773340132000,
+          "issueNumber": 168,
+          "excerpt": "Was able to load save from my console you fall though map when you enter places but outside is playable some places on floor is buggy as well",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/425307E0/1773340129130-1.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 16e",
+            "platform": "iOS",
+            "osVersion": "iOS 26.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9299",
+            "commitShort": "`d8c101905`"
+          }
+        },
+        {
+          "id": "comment-4039240729",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/56#issuecomment-4039240729",
+          "author": "randomname2077",
+          "createdAt": "2026-03-11",
+          "createdAtMs": 1773235903000,
+          "issueNumber": 56,
+          "excerpt": "xenia.log",
+          "images": [],
+          "meta": {}
+        },
+        {
+          "id": "comment-4034948293",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/168#issuecomment-4034948293",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-10",
+          "createdAtMs": 1773182815000,
+          "issueNumber": 168,
+          "excerpt": "Performance is ok game loads with few texture issues but not playable due to glitch when falling trough ground",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "ok",
+            "device": "iPhone 13",
+            "platform": "iOS",
+            "osVersion": "iOS 26.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        },
+        {
+          "id": "issue-168",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/168",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-10",
+          "createdAtMs": 1773153337000,
+          "issueNumber": 168,
+          "excerpt": "Loads only to menu but froze when trying to create save",
+          "images": [],
+          "meta": {
+            "status": "intro",
+            "perf": "poor",
+            "device": "iPhone 13",
+            "platform": "iOS",
+            "osVersion": "iOS 26.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        },
+        {
+          "id": "comment-4019794445",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/56#issuecomment-4019794445",
+          "author": "daisuke1227",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1772996757000,
+          "issueNumber": 56,
+          "excerpt": "try relaunching a couple of times and see if that fixes it",
           "images": [],
           "meta": {}
         }
@@ -13591,121 +13719,6 @@
             "buildNumber": "9280",
             "commitShort": "`2633e8177`"
           }
-        }
-      ]
-    },
-    "425307E0": {
-      "titleId": "425307E0",
-      "issueNumber": 168,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/168",
-      "updatedAt": "2026-03-12",
-      "entries": [
-        {
-          "id": "comment-4049050688",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/168#issuecomment-4049050688",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-12",
-          "createdAtMs": 1773340132000,
-          "issueNumber": 168,
-          "excerpt": "Was able to load save from my console you fall though map when you enter places but outside is playable some places on floor is buggy as well",
-          "images": [
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/425307E0/1773340129130-1.jpg"
-          ],
-          "meta": {
-            "status": "playable",
-            "perf": "ok",
-            "device": "iPhone 16e",
-            "platform": "iOS",
-            "osVersion": "iOS 26.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9299",
-            "commitShort": "`d8c101905`"
-          }
-        },
-        {
-          "id": "comment-4039240729",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/56#issuecomment-4039240729",
-          "author": "randomname2077",
-          "createdAt": "2026-03-11",
-          "createdAtMs": 1773235903000,
-          "issueNumber": 56,
-          "excerpt": "xenia.log",
-          "images": [],
-          "meta": {}
-        },
-        {
-          "id": "comment-4034948293",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/168#issuecomment-4034948293",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-10",
-          "createdAtMs": 1773182815000,
-          "issueNumber": 168,
-          "excerpt": "Performance is ok game loads with few texture issues but not playable due to glitch when falling trough ground",
-          "images": [],
-          "meta": {
-            "status": "ingame",
-            "perf": "ok",
-            "device": "iPhone 13",
-            "platform": "iOS",
-            "osVersion": "iOS 26.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "`2633e8177`"
-          }
-        },
-        {
-          "id": "issue-168",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/168",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-10",
-          "createdAtMs": 1773153337000,
-          "issueNumber": 168,
-          "excerpt": "Loads only to menu but froze when trying to create save",
-          "images": [],
-          "meta": {
-            "status": "intro",
-            "perf": "poor",
-            "device": "iPhone 13",
-            "platform": "iOS",
-            "osVersion": "iOS 26.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "`2633e8177`"
-          }
-        },
-        {
-          "id": "comment-4019794445",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/56#issuecomment-4019794445",
-          "author": "daisuke1227",
-          "createdAt": "2026-03-08",
-          "createdAtMs": 1772996757000,
-          "issueNumber": 56,
-          "excerpt": "try relaunching a couple of times and see if that fixes it",
-          "images": [],
-          "meta": {}
-        },
-        {
-          "id": "issue-56",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/56",
-          "author": "randomname2077",
-          "createdAt": "2026-03-08",
-          "createdAtMs": 1772995869000,
-          "issueNumber": 56,
-          "excerpt": "the game just insta crashes no matter what you do. this appears to be an issue that extends to iOS/iPadOS 17 at large, not particularly tied to this specific game.",
-          "images": [],
-          "meta": {}
         }
       ]
     },

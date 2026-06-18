@@ -87008,17 +87008,39 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 16e",
+      "device": "iPhone 15 Pro Max",
       "platform": "ios",
       "osVersion": "26.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-12",
+    "updatedAt": "2026-06-18",
     "issueNumber": 56,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/56",
-    "notes": "Was able to load save from my console you fall though map when you enter places but outside is playable some places on floor is buggy as well",
+    "notes": "I was able to make a save and load into the game, after first boot graphics looked good with some graphical glitches. my game also crashes as I walk up to primm",
     "reports": [
+      {
+        "device": "iPhone 15 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-06-18",
+        "notes": "I was able to make a save and load into the game, after first boot graphics looked good with some graphical glitches. my game also crashes as I walk up to primm",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140"
+        }
+      },
       {
         "device": "iPhone 16e",
         "platform": "ios",
@@ -87106,6 +87128,7 @@
       }
     ],
     "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/425307E0/1781807050824-1.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/425307E0/1773340129130-1.jpg"
     ],
     "summaries": {
@@ -87124,50 +87147,52 @@
         "channel": "all",
         "status": "playable",
         "perf": "ok",
-        "notes": "Was able to load save from my console you fall though map when you enter places but outside is playable some places on floor is buggy as well",
-        "updatedAt": "2026-03-12",
-        "date": "2026-03-12",
-        "reportCount": 4,
+        "notes": "I was able to make a save and load into the game, after first boot graphics looked good with some graphical glitches. my game also crashes as I walk up to primm",
+        "updatedAt": "2026-06-18",
+        "date": "2026-06-18",
+        "reportCount": 5,
         "latestReport": {
-          "device": "iPhone 16e",
+          "device": "iPhone 15 Pro Max",
           "platform": "ios",
           "osVersion": "26.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "ok",
-          "date": "2026-03-12",
-          "notes": "Was able to load save from my console you fall though map when you enter places but outside is playable some places on floor is buggy as well",
+          "date": "2026-06-18",
+          "notes": "I was able to make a save and load into the game, after first boot graphics looked good with some graphical glitches. my game also crashes as I walk up to primm",
           "screenshots": [],
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9299",
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9299",
-            "commitShort": "d8c101905"
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
           }
         },
         "bestReport": {
-          "device": "iPhone 16e",
+          "device": "iPhone 15 Pro Max",
           "platform": "ios",
           "osVersion": "26.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "ok",
-          "date": "2026-03-12",
-          "notes": "Was able to load save from my console you fall though map when you enter places but outside is playable some places on floor is buggy as well",
+          "date": "2026-06-18",
+          "notes": "I was able to make a save and load into the game, after first boot graphics looked good with some graphical glitches. my game also crashes as I walk up to primm",
           "screenshots": [],
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9299",
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9299",
-            "commitShort": "d8c101905"
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
           }
         }
       }

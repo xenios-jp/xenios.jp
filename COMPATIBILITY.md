@@ -58,7 +58,7 @@
 | 🟢 | EA SPORTS FIFA Street | `4541097B` | 📱 iOS | Playable | 👌 OK | iPhone 16e | 2026-06-03 |
 | 🟢 | F.E.A.R: First Encounter Assault Recon | `565507D9` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro | 2026-03-13 |
 | 🟢 | F1 2010 | `434D082D` | 📱 iOS | Playable | 🐢 Poor | iPhone 16e | 2026-06-03 |
-| 🟢 | Fallout: New Vegas | `425307E0` | 📱 iOS | Playable | 👌 OK | iPhone 16e | 2026-03-12 |
+| 🟢 | Fallout: New Vegas | `425307E0` | 📱 iOS | Playable | 👌 OK | iPhone 15 Pro Max | 2026-06-18 |
 | 🟢 | Family Guy: Back To The Multiverse | `415608C5` | 📱 iOS | Playable | 👌 OK | iPad Mini (A17 Pro) | 2026-03-13 |
 | 🟢 | Far Cry 2 | `55530810` | 📱 iOS | Playable | 🐢 Poor | iPhone 16 | 2026-03-10 |
 | 🟢 | FIFA 09 | `4541085B` | 📱 iOS | Playable | 🚀 Great | iPhone 16e | 2026-06-05 |
