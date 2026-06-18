@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-18T16:08:06.416Z",
+  "generatedAt": "2026-06-18T16:18:31.247Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -3196,6 +3196,26 @@
           "createdAtMs": 1773517964000,
           "issueNumber": 263,
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
+          "images": [],
+          "meta": {}
+        }
+      ]
+    },
+    "4D5307D3": {
+      "titleId": "4D5307D3",
+      "issueNumber": 533,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/533",
+      "updatedAt": "2026-06-18",
+      "entries": [
+        {
+          "id": "issue-533",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/533",
+          "author": "Sunne223",
+          "createdAt": "2026-06-18",
+          "createdAtMs": 1781799346000,
+          "issueNumber": 533,
+          "excerpt": "Fully playable, sometimes a weird screen when transitioning into a cutscene, but doesn’t last more than a second.\nInsignificant frame drops when starting a mission, don’t last too long.",
           "images": [],
           "meta": {}
         }
