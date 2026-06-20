@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **333 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **334 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **131** · 🔵 In-Game: **70** · 🟡 Intro: **34** · 🟠 Loads: **44** · 🔴 Doesn't Boot: **54**
+> 🟢 Playable: **132** · 🔵 In-Game: **70** · 🟡 Intro: **34** · 🟠 Loads: **44** · 🔴 Doesn't Boot: **54**
 >
-> 📱 iOS: **305** · 🖥️ macOS: **50**
+> 📱 iOS: **306** · 🖥️ macOS: **50**
 
 ## Legend
 
@@ -43,6 +43,7 @@
 | 🟢 | Civilization Revolution | `545407E5` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro | 2026-03-14 |
 | 🟢 | Condemned: Criminal Origins | `534507D2` | 📱 iOS | Playable | 👌 OK | iPhone 17 | 2026-04-22 |
 | 🟢 | Contra | `58410818` | 📱 iOS | Playable | 🚀 Great | iPhone 15 | 2026-06-07 |
+| 🟢 | Counter-Strike: GO | `5841125A` | 📱 iOS | Playable | 🚀 Great | iPhone 15 | 2026-06-20 |
 | 🟢 | DAYTONA USA | `58410B1D` | 📱 iOS | Playable | 🚀 Great | iPad Pro 13-inch (M5) | 2026-06-11 |
 | 🟢 | DB: Raging Blast 2 | `4E4D0826` | 📱 iOS | Playable | 🐢 Poor | iPad Pro (M2) | 2026-03-03 |
 | 🟢 | Dead Island | `4B4D07DF` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-04-20 |

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T15:13:02.745Z",
+  "generatedAt": "2026-06-20T19:39:08.305Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -3250,6 +3250,26 @@
           "createdAtMs": 1773517964000,
           "issueNumber": 263,
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
+          "images": [],
+          "meta": {}
+        }
+      ]
+    },
+    "5841125A": {
+      "titleId": "5841125A",
+      "issueNumber": 538,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/538",
+      "updatedAt": "2026-06-20",
+      "entries": [
+        {
+          "id": "issue-538",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/538",
+          "author": "arieco57",
+          "createdAt": "2026-06-20",
+          "createdAtMs": 1781984229000,
+          "issueNumber": 538,
+          "excerpt": "The game works fine, I only have one issue, sometimes the game freezes when the enemy kills you, apart from that the game is playable on iPhone 15",
           "images": [],
           "meta": {}
         }
