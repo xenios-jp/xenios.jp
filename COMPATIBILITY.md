@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **331 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **332 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **131** · 🔵 In-Game: **69** · 🟡 Intro: **33** · 🟠 Loads: **44** · 🔴 Doesn't Boot: **54**
+> 🟢 Playable: **131** · 🔵 In-Game: **69** · 🟡 Intro: **34** · 🟠 Loads: **44** · 🔴 Doesn't Boot: **54**
 >
-> 📱 iOS: **303** · 🖥️ macOS: **50**
+> 📱 iOS: **304** · 🖥️ macOS: **50**
 
 ## Legend
 
@@ -106,7 +106,7 @@
 | 🟢 | NBA Live 06 | `454107D8` | 📱 iOS | Playable | 👌 OK | iPhone 16e | 2026-03-10 |
 | 🟢 | NBA Street Homecourt | `454107F7` | 📱 iOS | Playable | 🚀 Great | iPhone 16e | 2026-06-07 |
 | 🟢 | Need for Speed Carbon | `454107EC` | 📱 iOS | Playable | 👌 OK | iPhone 14 Pro | 2026-04-14 |
-| 🟢 | Need for Speed: ProStreet | `45410822` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro | 2026-03-18 |
+| 🟢 | Need for Speed: ProStreet | `45410822` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro | 2026-06-20 |
 | 🟢 | Need for Speed: Undercover | `45410876` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-09 |
 | 🟢 | OPERATION DARKNESS | `535507D1` | 📱 iOS | Playable | 🚀 Great | iPad Pro 11 inch 5th Gen | 2026-03-18 |
 | 🟢 | Peggle | `58410889` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro Max | 2026-05-27 |
@@ -245,6 +245,7 @@
 | 🟡 | Rise of the Tomb Raider | `53510823` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro Max | 2026-03-12 |
 | 🟡 | Saints Row: The Third | `5451086D` | 📱 iOS | Intro | 🐢 Poor | iPhone 14 Pro | 2026-06-17 |
 | 🟡 | Silent Hill: HD Collection | `4B4E0845` | 📱 iOS | Intro | 🚀 Great | iPad Pro 11-inch (M5) | 2026-03-31 |
+| 🟡 | Sleeping Dogs | `53510811` | 📱 iOS | Intro | 🐢 Poor | iPhone 17 Pro Max | 2026-06-20 |
 | 🟡 | Tales of Vesperia | `4E4D07E9` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro | 2026-03-03 |
 | 🟡 | Test Drive Unlimited 2 | `49470804` | 📱 iOS | Intro | 🐢 Poor | iPhone 15 | 2026-03-28 |
 | 🟡 | The Evil Within | `425307F4` | 📱 iOS | Intro | 🐢 Poor | iPhone 17 Pro Max | 2026-05-09 |

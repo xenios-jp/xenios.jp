@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-18T18:25:53.151Z",
+  "generatedAt": "2026-06-20T00:23:46.971Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1067,10 +1067,33 @@
     },
     "45410822": {
       "titleId": "45410822",
-      "issueNumber": 294,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/294",
-      "updatedAt": "2026-03-26",
+      "issueNumber": 535,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/535",
+      "updatedAt": "2026-06-20",
       "entries": [
+        {
+          "id": "issue-535",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/535",
+          "author": "xenios-jp",
+          "createdAt": "2026-06-20",
+          "createdAtMs": 1781914149000,
+          "issueNumber": 535,
+          "excerpt": "FMV glitches have been fixed compared to the old version. Runs slow and hot, may run above 30 fps with some future tuning and a cooler (will run around 20 now with a cooler)",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 16 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 26.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
+          }
+        },
         {
           "id": "comment-4130735315",
           "type": "comment",
@@ -2331,6 +2354,37 @@
             "appVersion": "1.0.1",
             "buildNumber": "9288",
             "commitShort": "`056d2f64d`"
+          }
+        }
+      ]
+    },
+    "53510811": {
+      "titleId": "53510811",
+      "issueNumber": 536,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/536",
+      "updatedAt": "2026-06-20",
+      "entries": [
+        {
+          "id": "issue-536",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/536",
+          "author": "xenios-jp",
+          "createdAt": "2026-06-20",
+          "createdAtMs": 1781914933000,
+          "issueNumber": 536,
+          "excerpt": "The Game will boot but after the intro will freeze",
+          "images": [],
+          "meta": {
+            "status": "intro",
+            "perf": "poor",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.5.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
           }
         }
       ]

@@ -161751,11 +161751,33 @@
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-18",
+    "updatedAt": "2026-06-20",
     "issueNumber": 102,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/102",
-    "notes": "Start screen and FMVs are covered in green graphical glitches, gameplay appears to work as expected, larger maps and more CPU cars reduce the framerate, resulting in excessive input delay.",
+    "notes": "FMV glitches have been fixed compared to the old version. Runs slow and hot, may run above 30 fps with some future tuning and a cooler (will run around 20 now with a cooler)",
     "reports": [
+      {
+        "device": "iPhone 16 Pro",
+        "platform": "ios",
+        "osVersion": "26.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-06-20",
+        "notes": "FMV glitches have been fixed compared to the old version. Runs slow and hot, may run above 30 fps with some future tuning and a cooler (will run around 20 now with a cooler)",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140"
+        }
+      },
       {
         "device": "iPhone 13 Pro Max",
         "platform": "ios",
@@ -161823,29 +161845,30 @@
         "channel": "all",
         "status": "playable",
         "perf": "ok",
-        "notes": "Start screen and FMVs are covered in green graphical glitches, gameplay appears to work as expected, larger maps and more CPU cars reduce the framerate, resulting in excessive input delay.",
-        "updatedAt": "2026-03-18",
-        "date": "2026-03-18",
-        "reportCount": 2,
+        "notes": "FMV glitches have been fixed compared to the old version. Runs slow and hot, may run above 30 fps with some future tuning and a cooler (will run around 20 now with a cooler)",
+        "updatedAt": "2026-06-20",
+        "date": "2026-06-20",
+        "reportCount": 3,
         "latestReport": {
-          "device": "iPhone 13 Pro Max",
+          "device": "iPhone 16 Pro",
           "platform": "ios",
-          "osVersion": "16.0",
+          "osVersion": "26.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-18",
-          "notes": "Doesn‘t start at all",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-06-20",
+          "notes": "FMV glitches have been fixed compared to the old version. Runs slow and hot, may run above 30 fps with some future tuning and a cooler (will run around 20 now with a cooler)",
           "screenshots": [],
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
           }
         },
         "bestReport": {
@@ -161856,19 +161879,18 @@
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "ok",
-          "date": "2026-03-08",
-          "notes": "Start screen and FMVs are covered in green graphical glitches, gameplay appears to work as expected, larger maps and more CPU cars reduce the framerate, resulting in excessive input delay.",
-          "reportedTitleId": "45410822",
-          "reportedTitle": "Need for Speed: ProStreet",
+          "date": "2026-06-20",
+          "notes": "FMV glitches have been fixed compared to the old version. Runs slow and hot, may run above 30 fps with some future tuning and a cooler (will run around 20 now with a cooler)",
           "screenshots": [],
-          "source": "github",
+          "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633E8177"
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
           }
         }
       }
@@ -210211,14 +210233,47 @@
       "53510819",
       "53518817"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "intro",
+    "perf": "poor",
     "tags": [],
-    "platforms": [],
-    "lastReport": null,
-    "updatedAt": "",
-    "notes": "",
-    "reports": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 17 Pro Max",
+      "platform": "ios",
+      "osVersion": "26.5.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-06-20",
+    "issueNumber": 536,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/536",
+    "notes": "The Game will boot but after the intro will freeze",
+    "reports": [
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.5.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "intro",
+        "perf": "poor",
+        "date": "2026-06-20",
+        "notes": "The Game will boot but after the intro will freeze",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140"
+        }
+      }
+    ],
     "screenshots": [],
     "summaries": {
       "release": {
@@ -210234,14 +210289,56 @@
       },
       "all": {
         "channel": "all",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "intro",
+        "perf": "poor",
+        "notes": "The Game will boot but after the intro will freeze",
+        "updatedAt": "2026-06-20",
+        "date": "2026-06-20",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.5.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "intro",
+          "perf": "poor",
+          "date": "2026-06-20",
+          "notes": "The Game will boot but after the intro will freeze",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.5.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "intro",
+          "perf": "poor",
+          "date": "2026-06-20",
+          "notes": "The Game will boot but after the intro will freeze",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
+          }
+        }
       }
     }
   },
