@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T00:23:46.971Z",
+  "generatedAt": "2026-06-20T00:28:55.748Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -3255,6 +3255,37 @@
         }
       ]
     },
+    "4B4E0805": {
+      "titleId": "4B4E0805",
+      "issueNumber": 537,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/537",
+      "updatedAt": "2026-06-20",
+      "entries": [
+        {
+          "id": "issue-537",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/537",
+          "author": "xenios-jp",
+          "createdAt": "2026-06-20",
+          "createdAtMs": 1781915125000,
+          "issueNumber": 537,
+          "excerpt": "Graphical issue all players are dark",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "ok",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.5.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
+          }
+        }
+      ]
+    },
     "425307E0": {
       "titleId": "425307E0",
       "issueNumber": 534,
@@ -4473,8 +4504,31 @@
       "titleId": "545407F2",
       "issueNumber": 508,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/508",
-      "updatedAt": "2026-06-12",
+      "updatedAt": "2026-06-20",
       "entries": [
+        {
+          "id": "comment-4755648995",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/508#issuecomment-4755648995",
+          "author": "xenios-jp",
+          "createdAt": "2026-06-20",
+          "createdAtMs": 1781915039000,
+          "issueNumber": 508,
+          "excerpt": "The Game Working Perfectly but around 10-20 FPS and sometimes Increases to 50 FPS",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.5.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
+          }
+        },
         {
           "id": "issue-508",
           "type": "issue",
@@ -4583,29 +4637,6 @@
             "device": "iPhone 16",
             "platform": "iOS",
             "osVersion": "iOS 26.3.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "`056d2f64d`"
-          }
-        },
-        {
-          "id": "comment-4087974050",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/266#issuecomment-4087974050",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-19",
-          "createdAtMs": 1773899257000,
-          "issueNumber": 266,
-          "excerpt": "Loads first mission endlessly",
-          "images": [],
-          "meta": {
-            "status": "intro",
-            "perf": "poor",
-            "device": "iPhone 13",
-            "platform": "iOS",
-            "osVersion": "iOS 18.5",
             "gpuBackend": "MSL",
             "buildChannel": "self-built",
             "appVersion": "1.0.1",

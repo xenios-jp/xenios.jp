@@ -105407,17 +105407,39 @@
       "macos"
     ],
     "lastReport": {
-      "device": "iPad Pro 11-inch (M4)",
+      "device": "iPhone 17 Pro Max",
       "platform": "ios",
-      "osVersion": "26.5",
+      "osVersion": "26.5.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-06-12",
+    "updatedAt": "2026-06-20",
     "issueNumber": 41,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/41",
-    "notes": "the lost and damned working whule the balleds of gay tony crash \nperformance soso like ps3 version",
+    "notes": "The Game Working Perfectly but around 10-20 FPS and sometimes Increases to 50 FPS",
     "reports": [
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.5.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-06-20",
+        "notes": "The Game Working Perfectly but around 10-20 FPS and sometimes Increases to 50 FPS",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140"
+        }
+      },
       {
         "device": "iPad Pro 11-inch (M4)",
         "platform": "ios",
@@ -105627,20 +105649,20 @@
         "channel": "all",
         "status": "playable",
         "perf": "ok",
-        "notes": "the lost and damned working whule the balleds of gay tony crash \nperformance soso like ps3 version",
-        "updatedAt": "2026-06-12",
-        "date": "2026-06-12",
-        "reportCount": 7,
+        "notes": "The Game Working Perfectly but around 10-20 FPS and sometimes Increases to 50 FPS",
+        "updatedAt": "2026-06-20",
+        "date": "2026-06-20",
+        "reportCount": 8,
         "latestReport": {
-          "device": "iPad Pro 11-inch (M4)",
+          "device": "iPhone 17 Pro Max",
           "platform": "ios",
-          "osVersion": "26.5",
+          "osVersion": "26.5.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "ok",
-          "date": "2026-06-12",
-          "notes": "the lost and damned working whule the balleds of gay tony crash \nperformance soso like ps3 version",
+          "date": "2026-06-20",
+          "notes": "The Game Working Perfectly but around 10-20 FPS and sometimes Increases to 50 FPS",
           "screenshots": [],
           "source": "app",
           "build": {
@@ -105649,19 +105671,20 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
+            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         },
         "bestReport": {
-          "device": "iPad Pro 11-inch (M4)",
+          "device": "iPhone 17 Pro Max",
           "platform": "ios",
-          "osVersion": "26.5",
+          "osVersion": "26.5.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "ok",
-          "date": "2026-06-12",
-          "notes": "the lost and damned working whule the balleds of gay tony crash \nperformance soso like ps3 version",
+          "date": "2026-06-20",
+          "notes": "The Game Working Perfectly but around 10-20 FPS and sometimes Increases to 50 FPS",
           "screenshots": [],
           "source": "app",
           "build": {
@@ -105670,6 +105693,7 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
+            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         }
@@ -182030,14 +182054,47 @@
       "4B4E0801",
       "4B4E0805"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "ingame",
+    "perf": "ok",
     "tags": [],
-    "platforms": [],
-    "lastReport": null,
-    "updatedAt": "",
-    "notes": "",
-    "reports": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 17 Pro Max",
+      "platform": "ios",
+      "osVersion": "26.5.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-06-20",
+    "issueNumber": 537,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/537",
+    "notes": "Graphical issue all players are dark",
+    "reports": [
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.5.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "ok",
+        "date": "2026-06-20",
+        "notes": "Graphical issue all players are dark",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140"
+        }
+      }
+    ],
     "screenshots": [],
     "summaries": {
       "release": {
@@ -182053,14 +182110,56 @@
       },
       "all": {
         "channel": "all",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "ingame",
+        "perf": "ok",
+        "notes": "Graphical issue all players are dark",
+        "updatedAt": "2026-06-20",
+        "date": "2026-06-20",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.5.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "ok",
+          "date": "2026-06-20",
+          "notes": "Graphical issue all players are dark",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.5.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "ok",
+          "date": "2026-06-20",
+          "notes": "Graphical issue all players are dark",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
+          }
+        }
       }
     }
   },
