@@ -95591,23 +95591,45 @@
       "4D538A68"
     ],
     "status": "playable",
-    "perf": "ok",
+    "perf": "great",
     "tags": [],
     "platforms": [
-      "ios"
+      "ios",
+      "macos"
     ],
     "lastReport": {
-      "device": "iPhone 16e",
-      "platform": "ios",
-      "osVersion": "26.5",
+      "device": "MacBook Air (M4)",
+      "platform": "macos",
+      "osVersion": "26.5.1",
       "arch": "arm64",
-      "gpuBackend": "msl"
+      "gpuBackend": "msc"
     },
-    "updatedAt": "2026-05-29",
+    "updatedAt": "2026-06-22",
     "issueNumber": 125,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/125",
-    "notes": "No Racing",
+    "notes": "Works at full speed (720p at 30fps) with graphical issues—flickering mainly in the GPS map with some significant flickering in main gameplay graphics from time to time. Seems to be worse at night.\n\nOccasionally I get a Xenia crashed prompt, but the game still works anyways. Only the audio seems to die when I get the 'Xenia has crashed' popup.\n\nNote: I have the base (binned) M4 MacBook Air with 16GB of RAM.",
     "reports": [
+      {
+        "device": "MacBook Air (M4)",
+        "platform": "macos",
+        "osVersion": "26.5.1",
+        "arch": "arm64",
+        "gpuBackend": "msc",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-06-22",
+        "notes": "Works at full speed (720p at 30fps) with graphical issues—flickering mainly in the GPS map with some significant flickering in main gameplay graphics from time to time. Seems to be worse at night.\n\nOccasionally I get a Xenia crashed prompt, but the game still works anyways. Only the audio seems to die when I get the 'Xenia has crashed' popup.\n\nNote: I have the base (binned) M4 MacBook Air with 16GB of RAM.",
+        "screenshots": [],
+        "source": "github",
+        "build": {
+          "buildId": "macos-preview-2.0.1-9849-2.0.1-9849",
+          "channel": "preview",
+          "official": true,
+          "appVersion": "2.0.1-9849",
+          "buildNumber": "2.0.1-9849",
+          "commitShort": "acfa2878a"
+        }
+      },
       {
         "device": "iPhone 14",
         "platform": "ios",
@@ -95733,51 +95755,51 @@
       "all": {
         "channel": "all",
         "status": "playable",
-        "perf": "ok",
-        "notes": "No Racing",
-        "updatedAt": "2026-05-29",
-        "date": "2026-05-29",
-        "reportCount": 5,
+        "perf": "great",
+        "notes": "Works at full speed (720p at 30fps) with graphical issues—flickering mainly in the GPS map with some significant flickering in main gameplay graphics from time to time. Seems to be worse at night.\n\nOccasionally I get a Xenia crashed prompt, but the game still works anyways. Only the audio seems to die when I get the 'Xenia has crashed' popup.\n\nNote: I have the base (binned) M4 MacBook Air with 16GB of RAM.",
+        "updatedAt": "2026-06-22",
+        "date": "2026-06-22",
+        "reportCount": 6,
         "latestReport": {
-          "device": "iPhone 14",
-          "platform": "ios",
-          "osVersion": "26.3.1",
+          "device": "MacBook Air (M4)",
+          "platform": "macos",
+          "osVersion": "26.5.1",
           "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-05-29",
-          "notes": "Game just shows black screen.",
+          "gpuBackend": "msc",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-06-22",
+          "notes": "Works at full speed (720p at 30fps) with graphical issues—flickering mainly in the GPS map with some significant flickering in main gameplay graphics from time to time. Seems to be worse at night.\n\nOccasionally I get a Xenia crashed prompt, but the game still works anyways. Only the audio seems to die when I get the 'Xenia has crashed' popup.\n\nNote: I have the base (binned) M4 MacBook Air with 16GB of RAM.",
           "screenshots": [],
-          "source": "app",
+          "source": "github",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "buildId": "macos-preview-2.0.1-9849-2.0.1-9849",
+            "channel": "preview",
+            "official": true,
+            "appVersion": "2.0.1-9849",
+            "buildNumber": "2.0.1-9849",
+            "commitShort": "acfa2878a"
           }
         },
         "bestReport": {
-          "device": "iPhone 16e",
-          "platform": "ios",
-          "osVersion": "26.5",
+          "device": "MacBook Air (M4)",
+          "platform": "macos",
+          "osVersion": "26.5.1",
           "arch": "arm64",
-          "gpuBackend": "msl",
+          "gpuBackend": "msc",
           "status": "playable",
-          "perf": "ok",
-          "date": "2026-05-04",
-          "notes": "No Racing",
+          "perf": "great",
+          "date": "2026-06-22",
+          "notes": "Works at full speed (720p at 30fps) with graphical issues—flickering mainly in the GPS map with some significant flickering in main gameplay graphics from time to time. Seems to be worse at night.\n\nOccasionally I get a Xenia crashed prompt, but the game still works anyways. Only the audio seems to die when I get the 'Xenia has crashed' popup.\n\nNote: I have the base (binned) M4 MacBook Air with 16GB of RAM.",
           "screenshots": [],
-          "source": "app",
+          "source": "github",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "buildId": "macos-preview-2.0.1-9849-2.0.1-9849",
+            "channel": "preview",
+            "official": true,
+            "appVersion": "2.0.1-9849",
+            "buildNumber": "2.0.1-9849",
+            "commitShort": "acfa2878a"
           }
         }
       }
@@ -109216,8 +109238,6 @@
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-03-22",
-    "issueNumber": 319,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/319",
     "notes": "Have trouble loading into songs some times\nPerformance is very poor on iPhone 13 Mini\nAudio is glitched",
     "reports": [
       {
