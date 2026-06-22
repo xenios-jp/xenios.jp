@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T19:39:08.305Z",
+  "generatedAt": "2026-06-22T04:50:37.620Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -3252,6 +3252,37 @@
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
           "images": [],
           "meta": {}
+        }
+      ]
+    },
+    "4C4107DF": {
+      "titleId": "4C4107DF",
+      "issueNumber": 542,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/542",
+      "updatedAt": "2026-06-22",
+      "entries": [
+        {
+          "id": "issue-542",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/542",
+          "author": "xenios-jp",
+          "createdAt": "2026-06-22",
+          "createdAtMs": 1782103687000,
+          "issueNumber": 542,
+          "excerpt": "Work really good for the most part. Building Lego structures the B button wont stay held. Its not amazing, the gameplay is not smooth, but doable",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 16e",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
+          }
         }
       ]
     },
