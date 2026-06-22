@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T05:43:50.071Z",
+  "generatedAt": "2026-06-22T12:48:57.335Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2558,6 +2558,37 @@
             "appVersion": "1.0.0",
             "buildNumber": "9296",
             "commitShort": "`ab2ca341a`"
+          }
+        }
+      ]
+    },
+    "54540822": {
+      "titleId": "54540822",
+      "issueNumber": 544,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/544",
+      "updatedAt": "2026-06-22",
+      "entries": [
+        {
+          "id": "issue-544",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/544",
+          "author": "xenios-jp",
+          "createdAt": "2026-06-22",
+          "createdAtMs": 1782132382000,
+          "issueNumber": 544,
+          "excerpt": "Game runs well on the initial accident but it doesnt get pass loading screen after you enter rapture",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "great",
+            "device": "iPhone 15 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.5",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
           }
         }
       ]
