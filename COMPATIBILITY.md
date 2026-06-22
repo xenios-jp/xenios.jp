@@ -4,7 +4,7 @@
 >
 > 🟢 Playable: **133** · 🔵 In-Game: **70** · 🟡 Intro: **35** · 🟠 Loads: **44** · 🔴 Doesn't Boot: **53**
 >
-> 📱 iOS: **307** · 🖥️ macOS: **51**
+> 📱 iOS: **307** · 🖥️ macOS: **50**
 
 ## Legend
 
@@ -38,7 +38,7 @@
 | 🟢 | Call of Duty 4: Modern Warfare | `415607E6` | 📱 iOS | Playable | 👌 OK | iPhone 17 Pro Max | 2026-04-08 |
 | 🟢 | Call of Duty: Black Ops | `41560855` | 📱 iOS | Playable | 👌 OK | iPhone 15 Pro | 2026-06-11 |
 | 🟢 | Call of Duty: Modern Warfare 2 | `41560817` | 📱 iOS | Playable | 👌 OK | iPhone 16 | 2026-06-14 |
-| 🟢 | Call Of Duty: Modern Warfare 3 | `415608CB` | 📱 iOS | Playable | 👌 OK | iPhone 15 Pro Max | 2026-06-18 |
+| 🟢 | Call Of Duty: Modern Warfare 3 | `415608CB` | 📱 iOS | Playable | 👌 OK | iPhone 16 | 2026-06-22 |
 | 🟢 | Castle Crashers | `584108B7` | 📱 iOS | Playable | 🚀 Great | iPhone 14 Pro | 2026-06-06 |
 | 🟢 | Civilization Revolution | `545407E5` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro | 2026-03-14 |
 | 🟢 | Condemned: Criminal Origins | `534507D2` | 📱 iOS | Playable | 👌 OK | iPhone 17 | 2026-04-22 |
@@ -65,7 +65,7 @@
 | 🟢 | FIFA 09 | `4541085B` | 📱 iOS | Playable | 🚀 Great | iPhone 16e | 2026-06-05 |
 | 🟢 | Final Fantasy XIII | `535107E4` | 📱 iOS | Playable | 👌 OK | iPhone 17 | 2026-03-18 |
 | 🟢 | FlatOut: Ultimate Carnage | `454D07D2` | 🖥️ macOS | Playable | 🚀 Great | Mac mini m4 16 256 | 2026-05-29 |
-| 🟢 | Forza Horizon | `4D5309C9` | 📱 iOS, 🖥️ macOS | Playable | 🚀 Great | MacBook Air (M4) | 2026-06-22 |
+| 🟢 | Forza Horizon | `4D5309C9` | 📱 iOS | Playable | 👌 OK | iPhone 16e | 2026-05-29 |
 | 🟢 | Forza Horizon 2 | `4D530AA4` | 📱 iOS | Playable | 👌 OK | iPad Pro 12.9-inch (M2) | 2026-05-15 |
 | 🟢 | Forza Motorsport 2 | `4D5307EA` | 📱 iOS | Playable | 🚀 Great | iPad Air 11-inch (M3) | 2026-03-20 |
 | 🟢 | Forza Motorsport 4 | `4D530910` | 📱 iOS | Playable | 👌 OK | iPhone 17 Pro Max | 2026-03-17 |

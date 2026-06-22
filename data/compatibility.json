@@ -35030,7 +35030,6 @@
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
-          "stage": "stable",
           "commitShort": "57c3ca140"
         }
       },
@@ -35184,7 +35183,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         },
@@ -48240,17 +48238,38 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 15 Pro Max",
+      "device": "iPhone 16",
       "platform": "ios",
-      "osVersion": "26.1",
+      "osVersion": "26.5",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-06-18",
+    "updatedAt": "2026-06-22",
     "issueNumber": 494,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/494",
-    "notes": "Fps fluctuates quite a bit but I can see this could definitely be playable with more patches. Definitely a lot of graphical glitches but nothing that made it unplayable.",
+    "notes": "Weird colorful graphical artifacts only tested special ops mode besides from that ran ok.",
     "reports": [
+      {
+        "device": "iPhone 16",
+        "platform": "ios",
+        "osVersion": "26.5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-06-22",
+        "notes": "Weird colorful graphical artifacts only tested special ops mode besides from that ran ok.",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "commitShort": "57c3ca140"
+        }
+      },
       {
         "device": "iPhone 15 Pro Max",
         "platform": "ios",
@@ -48313,20 +48332,20 @@
         "channel": "all",
         "status": "playable",
         "perf": "ok",
-        "notes": "Fps fluctuates quite a bit but I can see this could definitely be playable with more patches. Definitely a lot of graphical glitches but nothing that made it unplayable.",
-        "updatedAt": "2026-06-18",
-        "date": "2026-06-18",
-        "reportCount": 2,
+        "notes": "Weird colorful graphical artifacts only tested special ops mode besides from that ran ok.",
+        "updatedAt": "2026-06-22",
+        "date": "2026-06-22",
+        "reportCount": 3,
         "latestReport": {
-          "device": "iPhone 15 Pro Max",
+          "device": "iPhone 16",
           "platform": "ios",
-          "osVersion": "26.1",
+          "osVersion": "26.5",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "ok",
-          "date": "2026-06-18",
-          "notes": "Fps fluctuates quite a bit but I can see this could definitely be playable with more patches. Definitely a lot of graphical glitches but nothing that made it unplayable.",
+          "date": "2026-06-22",
+          "notes": "Weird colorful graphical artifacts only tested special ops mode besides from that ran ok.",
           "screenshots": [],
           "source": "app",
           "build": {
@@ -48339,15 +48358,15 @@
           }
         },
         "bestReport": {
-          "device": "iPhone 15 Pro Max",
+          "device": "iPhone 16",
           "platform": "ios",
-          "osVersion": "26.1",
+          "osVersion": "26.5",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "ok",
-          "date": "2026-06-18",
-          "notes": "Fps fluctuates quite a bit but I can see this could definitely be playable with more patches. Definitely a lot of graphical glitches but nothing that made it unplayable.",
+          "date": "2026-06-22",
+          "notes": "Weird colorful graphical artifacts only tested special ops mode besides from that ran ok.",
           "screenshots": [],
           "source": "app",
           "build": {
@@ -58915,7 +58934,12 @@
         "perf": "great",
         "date": "2026-06-20",
         "notes": "The game works fine, I only have one issue, sometimes the game freezes when the enemy kills you, apart from that the game is playable on iPhone 15",
-        "screenshots": [],
+        "reportedTitleId": "5841125A",
+        "reportedTitle": "Counter-Strike: GO",
+        "screenshots": [
+          "https://github.com/user-attachments/assets/87995ef2-dd2b-4c98-9ff9-9a7f02973c53"
+        ],
+        "submittedBy": "arieco57",
         "source": "github",
         "build": {
           "buildId": "ios-preview-2.1-9857",
@@ -58926,7 +58950,9 @@
         }
       }
     ],
-    "screenshots": [],
+    "screenshots": [
+      "https://github.com/user-attachments/assets/87995ef2-dd2b-4c98-9ff9-9a7f02973c53"
+    ],
     "summaries": {
       "release": {
         "channel": "release",
@@ -58957,7 +58983,12 @@
           "perf": "great",
           "date": "2026-06-20",
           "notes": "The game works fine, I only have one issue, sometimes the game freezes when the enemy kills you, apart from that the game is playable on iPhone 15",
-          "screenshots": [],
+          "reportedTitleId": "5841125A",
+          "reportedTitle": "Counter-Strike: GO",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/87995ef2-dd2b-4c98-9ff9-9a7f02973c53"
+          ],
+          "submittedBy": "arieco57",
           "source": "github",
           "build": {
             "buildId": "ios-preview-2.1-9857",
@@ -58977,7 +59008,12 @@
           "perf": "great",
           "date": "2026-06-20",
           "notes": "The game works fine, I only have one issue, sometimes the game freezes when the enemy kills you, apart from that the game is playable on iPhone 15",
-          "screenshots": [],
+          "reportedTitleId": "5841125A",
+          "reportedTitle": "Counter-Strike: GO",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/87995ef2-dd2b-4c98-9ff9-9a7f02973c53"
+          ],
+          "submittedBy": "arieco57",
           "source": "github",
           "build": {
             "buildId": "ios-preview-2.1-9857",
@@ -95591,45 +95627,23 @@
       "4D538A68"
     ],
     "status": "playable",
-    "perf": "great",
+    "perf": "ok",
     "tags": [],
     "platforms": [
-      "ios",
-      "macos"
+      "ios"
     ],
     "lastReport": {
-      "device": "MacBook Air (M4)",
-      "platform": "macos",
-      "osVersion": "26.5.1",
+      "device": "iPhone 16e",
+      "platform": "ios",
+      "osVersion": "26.5",
       "arch": "arm64",
-      "gpuBackend": "msc"
+      "gpuBackend": "msl"
     },
-    "updatedAt": "2026-06-22",
+    "updatedAt": "2026-05-29",
     "issueNumber": 125,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/125",
-    "notes": "Works at full speed (720p at 30fps) with graphical issues—flickering mainly in the GPS map with some significant flickering in main gameplay graphics from time to time. Seems to be worse at night.\n\nOccasionally I get a Xenia crashed prompt, but the game still works anyways. Only the audio seems to die when I get the 'Xenia has crashed' popup.\n\nNote: I have the base (binned) M4 MacBook Air with 16GB of RAM.",
+    "notes": "No Racing",
     "reports": [
-      {
-        "device": "MacBook Air (M4)",
-        "platform": "macos",
-        "osVersion": "26.5.1",
-        "arch": "arm64",
-        "gpuBackend": "msc",
-        "status": "playable",
-        "perf": "great",
-        "date": "2026-06-22",
-        "notes": "Works at full speed (720p at 30fps) with graphical issues—flickering mainly in the GPS map with some significant flickering in main gameplay graphics from time to time. Seems to be worse at night.\n\nOccasionally I get a Xenia crashed prompt, but the game still works anyways. Only the audio seems to die when I get the 'Xenia has crashed' popup.\n\nNote: I have the base (binned) M4 MacBook Air with 16GB of RAM.",
-        "screenshots": [],
-        "source": "github",
-        "build": {
-          "buildId": "macos-preview-2.0.1-9849-2.0.1-9849",
-          "channel": "preview",
-          "official": true,
-          "appVersion": "2.0.1-9849",
-          "buildNumber": "2.0.1-9849",
-          "commitShort": "acfa2878a"
-        }
-      },
       {
         "device": "iPhone 14",
         "platform": "ios",
@@ -95755,51 +95769,51 @@
       "all": {
         "channel": "all",
         "status": "playable",
-        "perf": "great",
-        "notes": "Works at full speed (720p at 30fps) with graphical issues—flickering mainly in the GPS map with some significant flickering in main gameplay graphics from time to time. Seems to be worse at night.\n\nOccasionally I get a Xenia crashed prompt, but the game still works anyways. Only the audio seems to die when I get the 'Xenia has crashed' popup.\n\nNote: I have the base (binned) M4 MacBook Air with 16GB of RAM.",
-        "updatedAt": "2026-06-22",
-        "date": "2026-06-22",
-        "reportCount": 6,
+        "perf": "ok",
+        "notes": "No Racing",
+        "updatedAt": "2026-05-29",
+        "date": "2026-05-29",
+        "reportCount": 5,
         "latestReport": {
-          "device": "MacBook Air (M4)",
-          "platform": "macos",
-          "osVersion": "26.5.1",
+          "device": "iPhone 14",
+          "platform": "ios",
+          "osVersion": "26.3.1",
           "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-06-22",
-          "notes": "Works at full speed (720p at 30fps) with graphical issues—flickering mainly in the GPS map with some significant flickering in main gameplay graphics from time to time. Seems to be worse at night.\n\nOccasionally I get a Xenia crashed prompt, but the game still works anyways. Only the audio seems to die when I get the 'Xenia has crashed' popup.\n\nNote: I have the base (binned) M4 MacBook Air with 16GB of RAM.",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-05-29",
+          "notes": "Game just shows black screen.",
           "screenshots": [],
-          "source": "github",
+          "source": "app",
           "build": {
-            "buildId": "macos-preview-2.0.1-9849-2.0.1-9849",
-            "channel": "preview",
-            "official": true,
-            "appVersion": "2.0.1-9849",
-            "buildNumber": "2.0.1-9849",
-            "commitShort": "acfa2878a"
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
-          "device": "MacBook Air (M4)",
-          "platform": "macos",
-          "osVersion": "26.5.1",
+          "device": "iPhone 16e",
+          "platform": "ios",
+          "osVersion": "26.5",
           "arch": "arm64",
-          "gpuBackend": "msc",
+          "gpuBackend": "msl",
           "status": "playable",
-          "perf": "great",
-          "date": "2026-06-22",
-          "notes": "Works at full speed (720p at 30fps) with graphical issues—flickering mainly in the GPS map with some significant flickering in main gameplay graphics from time to time. Seems to be worse at night.\n\nOccasionally I get a Xenia crashed prompt, but the game still works anyways. Only the audio seems to die when I get the 'Xenia has crashed' popup.\n\nNote: I have the base (binned) M4 MacBook Air with 16GB of RAM.",
+          "perf": "ok",
+          "date": "2026-05-04",
+          "notes": "No Racing",
           "screenshots": [],
-          "source": "github",
+          "source": "app",
           "build": {
-            "buildId": "macos-preview-2.0.1-9849-2.0.1-9849",
-            "channel": "preview",
-            "official": true,
-            "appVersion": "2.0.1-9849",
-            "buildNumber": "2.0.1-9849",
-            "commitShort": "acfa2878a"
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
           }
         }
       }
@@ -109238,6 +109252,8 @@
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-03-22",
+    "issueNumber": 319,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/319",
     "notes": "Have trouble loading into songs some times\nPerformance is very poor on iPhone 13 Mini\nAudio is glitched",
     "reports": [
       {
@@ -132900,29 +132916,7 @@
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
-          "stage": "stable",
           "commitShort": "57c3ca140"
-        }
-      },
-      {
-        "device": "iPad Air 4",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-03-13",
-        "notes": "Not playable yet on iPad Air 4th Gen",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.0-9299",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9299",
-          "commitShort": "d8c101905"
         }
       }
     ],
@@ -132946,7 +132940,7 @@
         "notes": "Game stucks on loading screen cinematic runs perfect",
         "updatedAt": "2026-06-22",
         "date": "2026-06-22",
-        "reportCount": 2,
+        "reportCount": 1,
         "latestReport": {
           "device": "iPhone 15 Pro Max",
           "platform": "ios",
@@ -132965,7 +132959,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         },
@@ -132987,7 +132980,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         }
@@ -133909,7 +133901,6 @@
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
-          "stage": "stable",
           "commitShort": "57c3ca140"
         }
       }
@@ -133953,7 +133944,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         },
@@ -133975,7 +133965,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         }
