@@ -2,7 +2,7 @@
 
 > **335 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **133** · 🔵 In-Game: **70** · 🟡 Intro: **34** · 🟠 Loads: **44** · 🔴 Doesn't Boot: **54**
+> 🟢 Playable: **133** · 🔵 In-Game: **70** · 🟡 Intro: **35** · 🟠 Loads: **44** · 🔴 Doesn't Boot: **53**
 >
 > 📱 iOS: **307** · 🖥️ macOS: **50**
 
@@ -237,6 +237,7 @@
 | 🟡 | Grand Theft Auto V | `545408A7` | 📱 iOS | Intro | 🐢 Poor | iPhone 17 | 2026-06-15 |
 | 🟡 | Halo 4 | `4D530919` | 📱 iOS | Intro | 🐢 Poor | iPad Pro 12.9-inch (M2) | 2026-03-10 |
 | 🟡 | Halo Wars | `4D530808` | 📱 iOS | Intro | 👌 OK | iPhone 17 | 2026-03-03 |
+| 🟡 | Left 4 Dead 2 | `454108D4` | 📱 iOS | Intro | 🚀 Great | iPhone 15 Pro Max | 2026-06-22 |
 | 🟡 | Lego Lord of the Rings | `5752081D` | 📱 iOS | Intro | 🐢 Poor | iPhone 16e | 2026-06-15 |
 | 🟡 | Madden NFL 17 | `454109F2` | 📱 iOS | Intro | 🐢 Poor | iPad Air 11-inch (M3) | 2026-04-04 |
 | 🟡 | Mortal Kombat vs. DC Universe | `4D5707E9` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Plus | 2026-03-12 |
@@ -321,7 +322,6 @@
 | 🔴 | GRID 2 | `434D0844` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16e | 2026-06-09 |
 | 🔴 | Harry Potter and the Deathly Hallows: Part 1 | `454108F9` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 | 2026-04-16 |
 | 🔴 | Harry Potter and the Half-Blood Prince | `454107FA` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 | 2026-04-16 |
-| 🔴 | Left 4 Dead 2 | `454108D4` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Air 4 | 2026-03-13 |
 | 🔴 | LEGO Star Wars: The Force Awakens | `57520851` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 14 | 2026-03-16 |
 | 🔴 | Mighty No. 9 | `584114A4` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 13 | 2026-03-09 |
 | 🔴 | MLB 2K12 | `5454089E` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 | 2026-05-27 |
