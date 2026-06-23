@@ -100566,7 +100566,7 @@
     "titleIds": [
       "4D5307D5"
     ],
-    "status": "ingame",
+    "status": "playable",
     "perf": "ok",
     "tags": [],
     "platforms": [
@@ -100574,17 +100574,39 @@
       "ios"
     ],
     "lastReport": {
-      "device": "MacBook Pro M4 Pro/Max",
-      "platform": "macos",
-      "osVersion": "26.3",
+      "device": "iPhone 16 Pro Max",
+      "platform": "ios",
+      "osVersion": "26.5",
       "arch": "arm64",
-      "gpuBackend": "msc"
+      "gpuBackend": "msl"
     },
-    "updatedAt": "2026-04-02",
+    "updatedAt": "2026-06-23",
     "issueNumber": 40,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/40",
-    "notes": "Runs well but with pretty severe intermittent graphical issues.",
+    "notes": "Seemingly works fine. Only issue is frames but I’m getting 20-30 with Jit and Memory Expansion",
     "reports": [
+      {
+        "device": "iPhone 16 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-06-23",
+        "notes": "Seemingly works fine. Only issue is frames but I’m getting 20-30 with Jit and Memory Expansion",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140"
+        }
+      },
       {
         "device": "iPhone 14 Pro",
         "platform": "ios",
@@ -100670,48 +100692,55 @@
       },
       "all": {
         "channel": "all",
-        "status": "ingame",
+        "status": "playable",
         "perf": "ok",
-        "notes": "Runs well but with pretty severe intermittent graphical issues.",
-        "updatedAt": "2026-04-02",
-        "date": "2026-04-02",
-        "reportCount": 2,
+        "notes": "Seemingly works fine. Only issue is frames but I’m getting 20-30 with Jit and Memory Expansion",
+        "updatedAt": "2026-06-23",
+        "date": "2026-06-23",
+        "reportCount": 3,
         "latestReport": {
-          "device": "iPhone 14 Pro",
+          "device": "iPhone 16 Pro Max",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "26.5",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "poor",
-          "date": "2026-04-02",
-          "notes": "I can't get past the loading screen to start the campaign, and there's no sound in the main menu either.",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-06-23",
+          "notes": "Seemingly works fine. Only issue is frames but I’m getting 20-30 with Jit and Memory Expansion",
           "screenshots": [],
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
           }
         },
         "bestReport": {
-          "device": "MacBook Pro M4 Pro/Max",
-          "platform": "macos",
-          "osVersion": "26.3",
+          "device": "iPhone 16 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.5",
           "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "ingame",
+          "gpuBackend": "msl",
+          "status": "playable",
           "perf": "ok",
-          "date": "2026-02-28",
-          "notes": "Runs well but with pretty severe intermittent graphical issues.",
-          "reportedTitleId": "4D5307D5",
-          "reportedTitle": "Gears of War",
+          "date": "2026-06-23",
+          "notes": "Seemingly works fine. Only issue is frames but I’m getting 20-30 with Jit and Memory Expansion",
           "screenshots": [],
-          "submittedBy": "reality111",
-          "source": "discord"
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
+          }
         }
       }
     }
