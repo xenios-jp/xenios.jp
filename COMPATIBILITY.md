@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **335 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **336 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **134** · 🔵 In-Game: **69** · 🟡 Intro: **35** · 🟠 Loads: **44** · 🔴 Doesn't Boot: **53**
+> 🟢 Playable: **135** · 🔵 In-Game: **69** · 🟡 Intro: **35** · 🟠 Loads: **44** · 🔴 Doesn't Boot: **53**
 >
-> 📱 iOS: **307** · 🖥️ macOS: **50**
+> 📱 iOS: **307** · 🖥️ macOS: **51**
 
 ## Legend
 
@@ -105,6 +105,7 @@
 | 🟢 | N+ | `5841085C` | 📱 iOS | Playable | 🚀 Great | iPhone 14 Pro Max | 2026-03-25 |
 | 🟢 | Naruto Shippuden: Ultimate Ninja Storm Generations | `4E4D0842` | 📱 iOS | Playable | 🐢 Poor | iPhone 16 Pro Max | 2026-03-19 |
 | 🟢 | Naruto: Rise Of A Ninja | `555307E5` | 🖥️ macOS, 📱 iOS | Playable | 🚀 Great | MacBook Air M5 | 2026-06-24 |
+| 🟢 | Naruto: The Broken Bond | `55530825` | 🖥️ macOS | Playable | 🚀 Great | MacBook Air M5 | 2026-06-24 |
 | 🟢 | NBA 2K10 Draft Combine | `584109D8` | 📱 iOS | Playable | 🐢 Poor | iPhone 16e | 2026-06-07 |
 | 🟢 | NBA Live 06 | `454107D8` | 📱 iOS | Playable | 👌 OK | iPhone 16e | 2026-03-10 |
 | 🟢 | NBA Street Homecourt | `454107F7` | 📱 iOS | Playable | 🚀 Great | iPhone 16e | 2026-06-07 |
