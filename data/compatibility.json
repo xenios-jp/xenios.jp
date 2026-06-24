@@ -153655,14 +153655,47 @@
     "titleIds": [
       "58410B62"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "playable",
+    "perf": "poor",
     "tags": [],
-    "platforms": [],
-    "lastReport": null,
-    "updatedAt": "",
-    "notes": "",
-    "reports": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 17 Pro Max",
+      "platform": "ios",
+      "osVersion": "26.5.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-06-24",
+    "issueNumber": 553,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/553",
+    "notes": "loads with no problems but the performance is shockingly slow, considering how fast the same game games played on main emulations or other more retro emulations",
+    "reports": [
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.5.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "poor",
+        "date": "2026-06-24",
+        "notes": "loads with no problems but the performance is shockingly slow, considering how fast the same game games played on main emulations or other more retro emulations",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140"
+        }
+      }
+    ],
     "screenshots": [],
     "summaries": {
       "release": {
@@ -153678,14 +153711,56 @@
       },
       "all": {
         "channel": "all",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "playable",
+        "perf": "poor",
+        "notes": "loads with no problems but the performance is shockingly slow, considering how fast the same game games played on main emulations or other more retro emulations",
+        "updatedAt": "2026-06-24",
+        "date": "2026-06-24",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.5.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "poor",
+          "date": "2026-06-24",
+          "notes": "loads with no problems but the performance is shockingly slow, considering how fast the same game games played on main emulations or other more retro emulations",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.5.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "poor",
+          "date": "2026-06-24",
+          "notes": "loads with no problems but the performance is shockingly slow, considering how fast the same game games played on main emulations or other more retro emulations",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
+          }
+        }
       }
     }
   },
@@ -251353,14 +251428,45 @@
     "titleIds": [
       "43430821"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "playable",
+    "perf": "poor",
     "tags": [],
-    "platforms": [],
-    "lastReport": null,
-    "updatedAt": "",
-    "notes": "",
-    "reports": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 17 Pro Max",
+      "platform": "ios",
+      "osVersion": "26.5.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-06-24",
+    "notes": "The fighters look like they’re in the moon and jumping with very low gravity of how the performance is I wouldn’t say is the most lowest you could see but it’s slow enough to where it feels like they’re in some kind of spacesuit in the moon when they jump and that it looks perfect and loads usually problem, free unless at the beginning where sometimes it doesn’t quite initiate the generating the first save part at the start of the game and you have to exit the game and restart until it does it, after that loads of pretty consistently, I would say about 90% of the time",
+    "reports": [
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.5.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "poor",
+        "date": "2026-06-24",
+        "notes": "The fighters look like they’re in the moon and jumping with very low gravity of how the performance is I wouldn’t say is the most lowest you could see but it’s slow enough to where it feels like they’re in some kind of spacesuit in the moon when they jump and that it looks perfect and loads usually problem, free unless at the beginning where sometimes it doesn’t quite initiate the generating the first save part at the start of the game and you have to exit the game and restart until it does it, after that loads of pretty consistently, I would say about 90% of the time",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140"
+        }
+      }
+    ],
     "screenshots": [],
     "summaries": {
       "release": {
@@ -251376,14 +251482,56 @@
       },
       "all": {
         "channel": "all",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "playable",
+        "perf": "poor",
+        "notes": "The fighters look like they’re in the moon and jumping with very low gravity of how the performance is I wouldn’t say is the most lowest you could see but it’s slow enough to where it feels like they’re in some kind of spacesuit in the moon when they jump and that it looks perfect and loads usually problem, free unless at the beginning where sometimes it doesn’t quite initiate the generating the first save part at the start of the game and you have to exit the game and restart until it does it, after that loads of pretty consistently, I would say about 90% of the time",
+        "updatedAt": "2026-06-24",
+        "date": "2026-06-24",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.5.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "poor",
+          "date": "2026-06-24",
+          "notes": "The fighters look like they’re in the moon and jumping with very low gravity of how the performance is I wouldn’t say is the most lowest you could see but it’s slow enough to where it feels like they’re in some kind of spacesuit in the moon when they jump and that it looks perfect and loads usually problem, free unless at the beginning where sometimes it doesn’t quite initiate the generating the first save part at the start of the game and you have to exit the game and restart until it does it, after that loads of pretty consistently, I would say about 90% of the time",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.5.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "poor",
+          "date": "2026-06-24",
+          "notes": "The fighters look like they’re in the moon and jumping with very low gravity of how the performance is I wouldn’t say is the most lowest you could see but it’s slow enough to where it feels like they’re in some kind of spacesuit in the moon when they jump and that it looks perfect and loads usually problem, free unless at the beginning where sometimes it doesn’t quite initiate the generating the first save part at the start of the game and you have to exit the game and restart until it does it, after that loads of pretty consistently, I would say about 90% of the time",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
+          }
+        }
       }
     }
   },

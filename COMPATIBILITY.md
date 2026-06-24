@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **338 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **340 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **137** · 🔵 In-Game: **69** · 🟡 Intro: **35** · 🟠 Loads: **44** · 🔴 Doesn't Boot: **53**
+> 🟢 Playable: **139** · 🔵 In-Game: **69** · 🟡 Intro: **35** · 🟠 Loads: **44** · 🔴 Doesn't Boot: **53**
 >
-> 📱 iOS: **310** · 🖥️ macOS: **50**
+> 📱 iOS: **312** · 🖥️ macOS: **50**
 
 ## Legend
 
@@ -101,6 +101,7 @@
 | 🟢 | Metal Slug 3 | `584108CF` | 📱 iOS | Playable | 🚀 Great | iPhone 15 | 2026-06-07 |
 | 🟢 | Midnight Club: Los Angeles | `545407F8` | 📱 iOS | Playable | 👌 OK | iPad Pro 13-inch (M5) | 2026-06-13 |
 | 🟢 | Minecraft: Xbox 360 Edition | `4D530A81` | 📱 iOS | Playable | 👌 OK | iPhone 14 Pro Max | 2026-05-05 |
+| 🟢 | Mortal Kombat Arcade Kollection | `58410B62` | 📱 iOS | Playable | 🐢 Poor | iPhone 17 Pro Max | 2026-06-24 |
 | 🟢 | Mortal Kombat Komplete Edition | `575207FD` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-06-15 |
 | 🟢 | N+ | `5841085C` | 📱 iOS | Playable | 🚀 Great | iPhone 14 Pro Max | 2026-03-25 |
 | 🟢 | Naruto Shippuden: Ultimate Ninja Storm Generations | `4E4D0842` | 📱 iOS | Playable | 🐢 Poor | iPhone 16 Pro Max | 2026-03-19 |
@@ -151,6 +152,7 @@
 | 🟢 | Tony Hawk's American Wasteland | `415607D4` | 📱 iOS | Playable | 🐢 Poor | iPad Pro 13-inch (M4) | 2026-05-21 |
 | 🟢 | Top Spin 3 | `545407FF` | 📱 iOS | Playable | 👌 OK | iPad Pro 12.9-inch (M2) | 2026-06-24 |
 | 🟢 | Toy Story 3 | `425607E5` | 📱 iOS | Playable | 👌 OK | iPhone 15 Pro | 2026-03-08 |
+| 🟢 | Ultimate Marvel vs. Capcom 3 | `43430821` | 📱 iOS | Playable | 🐢 Poor | iPhone 17 Pro Max | 2026-06-24 |
 | 🟢 | Ultra Street Fighter IV | `434307FC` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro Max | 2026-03-09 |
 | 🟢 | Virtua Fighter 5: Final Showdown | `534507EE` | 📱 iOS | Playable | 👌 OK | iPhone 17 Pro Max | 2026-03-03 |
 | 🟢 | WRC 5: FIA WORLD RALLY CHAMPIONSHIP | `573607E2` | 📱 iOS | Playable | 🐢 Poor | iPhone 17 Pro Max | 2026-03-17 |
