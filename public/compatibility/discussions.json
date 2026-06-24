@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T08:00:44.587Z",
+  "generatedAt": "2026-06-24T19:31:31.098Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -44,18 +44,6 @@
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/409",
       "updatedAt": "2026-06-24",
       "entries": [
-        {
-          "id": "issue-550",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/550",
-          "author": "pannawit8fe45s",
-          "createdAt": "2026-06-24",
-          "createdAtMs": 1782287908000,
-          "issueNumber": 550,
-          "excerpt": "Game run pretty good some time frame drop but still great",
-          "images": [],
-          "meta": {}
-        },
         {
           "id": "issue-409",
           "type": "issue",
@@ -2656,6 +2644,37 @@
         }
       ]
     },
+    "54540859": {
+      "titleId": "54540859",
+      "issueNumber": 552,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/552",
+      "updatedAt": "2026-06-24",
+      "entries": [
+        {
+          "id": "issue-552",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/552",
+          "author": "xenios-jp",
+          "createdAt": "2026-06-24",
+          "createdAtMs": 1782329337000,
+          "issueNumber": 552,
+          "excerpt": "Intro videos play before the game crashes trying to load the first menu, Top Spin 3 works fine.",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPad Pro 12.9-inch (M2)",
+            "platform": "iOS",
+            "osVersion": "iOS 26.5",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
+          }
+        }
+      ]
+    },
     "54540894": {
       "titleId": "54540894",
       "issueNumber": 242,
@@ -3315,6 +3334,37 @@
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
           "images": [],
           "meta": {}
+        }
+      ]
+    },
+    "545407FF": {
+      "titleId": "545407FF",
+      "issueNumber": 551,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/551",
+      "updatedAt": "2026-06-24",
+      "entries": [
+        {
+          "id": "issue-551",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/551",
+          "author": "xenios-jp",
+          "createdAt": "2026-06-24",
+          "createdAtMs": 1782329263000,
+          "issueNumber": 551,
+          "excerpt": "Works very well on iPad Pro 6 with StikDebug Jit",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPad Pro 12.9-inch (M2)",
+            "platform": "iOS",
+            "osVersion": "iOS 26.5",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
+          }
         }
       ]
     },

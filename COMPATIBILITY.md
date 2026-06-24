@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **336 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **338 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **136** · 🔵 In-Game: **69** · 🟡 Intro: **35** · 🟠 Loads: **44** · 🔴 Doesn't Boot: **52**
+> 🟢 Playable: **137** · 🔵 In-Game: **69** · 🟡 Intro: **35** · 🟠 Loads: **44** · 🔴 Doesn't Boot: **53**
 >
-> 📱 iOS: **308** · 🖥️ macOS: **50**
+> 📱 iOS: **310** · 🖥️ macOS: **50**
 
 ## Legend
 
@@ -149,6 +149,7 @@
 | 🟢 | TimeShift | `565507DA` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro | 2026-03-13 |
 | 🟢 | TMNT | `555307F8` | 📱 iOS | Playable | 👌 OK | iPhone 13 Pro | 2026-04-10 |
 | 🟢 | Tony Hawk's American Wasteland | `415607D4` | 📱 iOS | Playable | 🐢 Poor | iPad Pro 13-inch (M4) | 2026-05-21 |
+| 🟢 | Top Spin 3 | `545407FF` | 📱 iOS | Playable | 👌 OK | iPad Pro 12.9-inch (M2) | 2026-06-24 |
 | 🟢 | Toy Story 3 | `425607E5` | 📱 iOS | Playable | 👌 OK | iPhone 15 Pro | 2026-03-08 |
 | 🟢 | Ultra Street Fighter IV | `434307FC` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro Max | 2026-03-09 |
 | 🟢 | Virtua Fighter 5: Final Showdown | `534507EE` | 📱 iOS | Playable | 👌 OK | iPhone 17 Pro Max | 2026-03-03 |
@@ -350,6 +351,7 @@
 | 🔴 | The Path of Go | `5841099F` | 🖥️ macOS | Doesn't Boot | ➖ N/A | MacBook Pro (M1) | 2026-04-12 |
 | 🔴 | The Wolf Among Us | `443607D5` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-20 |
 | 🔴 | Tomb Raider | `53510802` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 15 Pro Max | 2026-03-12 |
+| 🔴 | Top Spin 4 | `54540859` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Pro 12.9-inch (M2) | 2026-06-24 |
 | 🔴 | Transformers: Fall of Cybertron | `4156089C` | 🖥️ macOS | Doesn't Boot | ➖ N/A | MacBook Pro (M1) | 2026-04-12 |
 | 🔴 | Transformers: War for Cybertron | `4156084C` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-26 |
 | 🔴 | WWE 2k14 | `545408B2` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 | 2026-03-25 |
