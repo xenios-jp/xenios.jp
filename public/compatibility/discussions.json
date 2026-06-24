@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T20:11:20.154Z",
+  "generatedAt": "2026-06-24T20:13:15.919Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -763,6 +763,37 @@
             "appVersion": "1.0.1",
             "buildNumber": "9288",
             "commitShort": "`056d2f64d`"
+          }
+        }
+      ]
+    },
+    "43430821": {
+      "titleId": "43430821",
+      "issueNumber": 554,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/554",
+      "updatedAt": "2026-06-24",
+      "entries": [
+        {
+          "id": "issue-554",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/554",
+          "author": "xenios-jp",
+          "createdAt": "2026-06-24",
+          "createdAtMs": 1782331891000,
+          "issueNumber": 554,
+          "excerpt": "The fighters look like they’re in the moon and jumping with very low gravity of how the performance is I wouldn’t say is the most lowest you could see but it’s slow enough to where it feels like they’re in some kind of spacesuit in the moon when they jump and that it looks perfect and loads usually problem, free unless at the beginning where sometimes it doesn’t quite initiate the generating the first save part at the start of the game and you have to exit the game and restart until it does it, after that loads of pretty consistently, I would say about 90% of the time",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "poor",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.5.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
           }
         }
       ]
