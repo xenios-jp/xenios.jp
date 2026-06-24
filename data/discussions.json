@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T06:44:00.990Z",
+  "generatedAt": "2026-06-24T08:00:44.587Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -42,8 +42,20 @@
       "titleId": "41560816",
       "issueNumber": 409,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/409",
-      "updatedAt": "2026-04-12",
+      "updatedAt": "2026-06-24",
       "entries": [
+        {
+          "id": "issue-550",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/550",
+          "author": "pannawit8fe45s",
+          "createdAt": "2026-06-24",
+          "createdAtMs": 1782287908000,
+          "issueNumber": 550,
+          "excerpt": "Game run pretty good some time frame drop but still great",
+          "images": [],
+          "meta": {}
+        },
         {
           "id": "issue-409",
           "type": "issue",
