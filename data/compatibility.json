@@ -105491,24 +105491,44 @@
       "545407F2"
     ],
     "status": "playable",
-    "perf": "ok",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "ios",
       "macos"
     ],
     "lastReport": {
-      "device": "iPhone 17 Pro Max",
+      "device": "IPad Pro M5",
       "platform": "ios",
-      "osVersion": "26.5.1",
+      "osVersion": "iPadOS 26.5",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-06-20",
+    "updatedAt": "2026-06-24",
     "issueNumber": 41,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/41",
-    "notes": "The Game Working Perfectly but around 10-20 FPS and sometimes Increases to 50 FPS",
+    "notes": "Device: iPad Pro 13-inch (M5, 16GB RAM, 1TB)\nPerformance: Smooth gameplay on default settings, locked 1280x720 at stable 30 FPS. Zero drops even during location loading, cutscenes, intense combat, or high-speed driving. No overheating during long sessions.\nBugs & Saves: Absolutely no audio or visual glitches. Cutscenes play perfectly without any loops, black screens, or rendering bugs. Saves work flawlessly.\nNotes: Fully playable so far, no progression crashes or game-breaking bugs encountered.",
     "reports": [
+      {
+        "device": "IPad Pro M5",
+        "platform": "ios",
+        "osVersion": "iPadOS 26.5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-06-24",
+        "notes": "Device: iPad Pro 13-inch (M5, 16GB RAM, 1TB)\nPerformance: Smooth gameplay on default settings, locked 1280x720 at stable 30 FPS. Zero drops even during location loading, cutscenes, intense combat, or high-speed driving. No overheating during long sessions.\nBugs & Saves: Absolutely no audio or visual glitches. Cutscenes play perfectly without any loops, black screens, or rendering bugs. Saves work flawlessly.\nNotes: Fully playable so far, no progression crashes or game-breaking bugs encountered.",
+        "screenshots": [],
+        "source": "github",
+        "build": {
+          "buildId": "ios-preview-2.1-9857",
+          "channel": "preview",
+          "official": true,
+          "appVersion": "2.1",
+          "buildNumber": "9857"
+        }
+      },
       {
         "device": "iPhone 17 Pro Max",
         "platform": "ios",
@@ -105738,51 +105758,49 @@
       "all": {
         "channel": "all",
         "status": "playable",
-        "perf": "ok",
-        "notes": "The Game Working Perfectly but around 10-20 FPS and sometimes Increases to 50 FPS",
-        "updatedAt": "2026-06-20",
-        "date": "2026-06-20",
-        "reportCount": 8,
+        "perf": "great",
+        "notes": "Device: iPad Pro 13-inch (M5, 16GB RAM, 1TB)\nPerformance: Smooth gameplay on default settings, locked 1280x720 at stable 30 FPS. Zero drops even during location loading, cutscenes, intense combat, or high-speed driving. No overheating during long sessions.\nBugs & Saves: Absolutely no audio or visual glitches. Cutscenes play perfectly without any loops, black screens, or rendering bugs. Saves work flawlessly.\nNotes: Fully playable so far, no progression crashes or game-breaking bugs encountered.",
+        "updatedAt": "2026-06-24",
+        "date": "2026-06-24",
+        "reportCount": 9,
         "latestReport": {
-          "device": "iPhone 17 Pro Max",
+          "device": "IPad Pro M5",
           "platform": "ios",
-          "osVersion": "26.5.1",
+          "osVersion": "iPadOS 26.5",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
-          "perf": "ok",
-          "date": "2026-06-20",
-          "notes": "The Game Working Perfectly but around 10-20 FPS and sometimes Increases to 50 FPS",
+          "perf": "great",
+          "date": "2026-06-24",
+          "notes": "Device: iPad Pro 13-inch (M5, 16GB RAM, 1TB)\nPerformance: Smooth gameplay on default settings, locked 1280x720 at stable 30 FPS. Zero drops even during location loading, cutscenes, intense combat, or high-speed driving. No overheating during long sessions.\nBugs & Saves: Absolutely no audio or visual glitches. Cutscenes play perfectly without any loops, black screens, or rendering bugs. Saves work flawlessly.\nNotes: Fully playable so far, no progression crashes or game-breaking bugs encountered.",
           "screenshots": [],
-          "source": "app",
+          "source": "github",
           "build": {
-            "buildId": "ios-self-built-2.0.1-9730",
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "buildId": "ios-preview-2.1-9857",
+            "channel": "preview",
+            "official": true,
+            "appVersion": "2.1",
+            "buildNumber": "9857"
           }
         },
         "bestReport": {
-          "device": "iPhone 17 Pro Max",
+          "device": "IPad Pro M5",
           "platform": "ios",
-          "osVersion": "26.5.1",
+          "osVersion": "iPadOS 26.5",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
-          "perf": "ok",
-          "date": "2026-06-20",
-          "notes": "The Game Working Perfectly but around 10-20 FPS and sometimes Increases to 50 FPS",
+          "perf": "great",
+          "date": "2026-06-24",
+          "notes": "Device: iPad Pro 13-inch (M5, 16GB RAM, 1TB)\nPerformance: Smooth gameplay on default settings, locked 1280x720 at stable 30 FPS. Zero drops even during location loading, cutscenes, intense combat, or high-speed driving. No overheating during long sessions.\nBugs & Saves: Absolutely no audio or visual glitches. Cutscenes play perfectly without any loops, black screens, or rendering bugs. Saves work flawlessly.\nNotes: Fully playable so far, no progression crashes or game-breaking bugs encountered.",
           "screenshots": [],
-          "source": "app",
+          "source": "github",
           "build": {
-            "buildId": "ios-self-built-2.0.1-9730",
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "buildId": "ios-preview-2.1-9857",
+            "channel": "preview",
+            "official": true,
+            "appVersion": "2.1",
+            "buildNumber": "9857"
           }
         }
       }
