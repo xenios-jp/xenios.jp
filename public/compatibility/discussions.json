@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T20:13:15.919Z",
+  "generatedAt": "2026-06-24T20:22:33.418Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -3365,6 +3365,85 @@
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
           "images": [],
           "meta": {}
+        }
+      ]
+    },
+    "4156084C": {
+      "titleId": "4156084C",
+      "issueNumber": 555,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/555",
+      "updatedAt": "2026-06-24",
+      "entries": [
+        {
+          "id": "issue-555",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/555",
+          "author": "xenios-jp",
+          "createdAt": "2026-06-24",
+          "createdAtMs": 1782332452000,
+          "issueNumber": 555,
+          "excerpt": "Make crash once in a while, but overall it’s very playable and very smooth considering the type of heaviness of the game definitely can be marked as working for the app",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4156084C/1782332448296-1.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.5.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
+          }
+        },
+        {
+          "id": "comment-4130865104",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/350#issuecomment-4130865104",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-26",
+          "createdAtMs": 1774487589000,
+          "issueNumber": 350,
+          "excerpt": "Crashes the app",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 16 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 26.0",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
+        {
+          "id": "issue-350",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/350",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-24",
+          "createdAtMs": 1774322666000,
+          "issueNumber": 350,
+          "excerpt": "Nothing but a black screen",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 16 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 26.0",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
         }
       ]
     },
@@ -10292,60 +10371,6 @@
             "device": "iPhone 16 Pro",
             "platform": "iOS",
             "osVersion": "iOS 18.5",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "`056d2f64d`"
-          }
-        }
-      ]
-    },
-    "4156084C": {
-      "titleId": "4156084C",
-      "issueNumber": 350,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/350",
-      "updatedAt": "2026-03-26",
-      "entries": [
-        {
-          "id": "comment-4130865104",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/350#issuecomment-4130865104",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-26",
-          "createdAtMs": 1774487589000,
-          "issueNumber": 350,
-          "excerpt": "Crashes the app",
-          "images": [],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPhone 16 Pro",
-            "platform": "iOS",
-            "osVersion": "iOS 26.0",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "`056d2f64d`"
-          }
-        },
-        {
-          "id": "issue-350",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/350",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-24",
-          "createdAtMs": 1774322666000,
-          "issueNumber": 350,
-          "excerpt": "Nothing but a black screen",
-          "images": [],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPhone 16 Pro",
-            "platform": "iOS",
-            "osVersion": "iOS 26.0",
             "gpuBackend": "MSL",
             "buildChannel": "self-built",
             "appVersion": "1.0.1",
