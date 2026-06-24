@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T02:02:40.329Z",
+  "generatedAt": "2026-06-24T05:28:55.877Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -3283,6 +3283,49 @@
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
           "images": [],
           "meta": {}
+        }
+      ]
+    },
+    "555307E5": {
+      "titleId": "555307E5",
+      "issueNumber": 155,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/155",
+      "updatedAt": "2026-06-24",
+      "entries": [
+        {
+          "id": "issue-548",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/548",
+          "author": "naku018",
+          "createdAt": "2026-06-24",
+          "createdAtMs": 1782278832000,
+          "issueNumber": 548,
+          "excerpt": "The game maintains a kinda stable **30 FPS in the open world** and smooth **60 FPS during battles**. Occasional frame drops and minor stuttering occur in Konoha, but they do not significantly affect gameplay on the MBA13 M5 _[10 core GPU]_\n\nTested for **6hrs**, completed 16 out of 24 story missions without encountering any game-breaking issues. It’s hard to believe this game is running on a Mac\n\n**Note**: the game performs noticeably better with **Game Mode disabled**. When Game Mode is enabled, the frame rate regularly drops to ~15 FPS in Konoha",
+          "images": [],
+          "meta": {}
+        },
+        {
+          "id": "issue-155",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/155",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-09",
+          "createdAtMs": 1773092241000,
+          "issueNumber": 155,
+          "excerpt": "Runs smooth getting like 20-30 fps super smooth also here’s a tip boot the game like 10 times it will make the shader cache run smoothly",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 15 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
         }
       ]
     },
@@ -14072,37 +14115,6 @@
         }
       ]
     },
-    "555307E5": {
-      "titleId": "555307E5",
-      "issueNumber": 155,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/155",
-      "updatedAt": "2026-03-24",
-      "entries": [
-        {
-          "id": "issue-155",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/155",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-09",
-          "createdAtMs": 1773092241000,
-          "issueNumber": 155,
-          "excerpt": "Runs smooth getting like 20-30 fps super smooth also here’s a tip boot the game like 10 times it will make the shader cache run smoothly",
-          "images": [],
-          "meta": {
-            "status": "playable",
-            "perf": "great",
-            "device": "iPhone 15 Pro",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "`2633e8177`"
-          }
-        }
-      ]
-    },
     "4541098E": {
       "titleId": "4541098E",
       "issueNumber": 150,
@@ -14700,26 +14712,6 @@
             "buildNumber": "9280",
             "commitShort": "`2633e8177`"
           }
-        }
-      ]
-    },
-    "555308C3": {
-      "titleId": "555308C3",
-      "issueNumber": 99,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/99",
-      "updatedAt": "2026-03-08",
-      "entries": [
-        {
-          "id": "issue-99",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/99",
-          "author": "QualityControled",
-          "createdAt": "2026-03-08",
-          "createdAtMs": 1773008045000,
-          "issueNumber": 99,
-          "excerpt": "Pre-rendered scenes for intro have graphical and audio issues.\nUpon clicking \"New Game\", opening screen only has graphical issues. \nWhen the game renders, assets take a second to load in. But, game speed is about half what it should be.",
-          "images": [],
-          "meta": {}
         }
       ]
     },

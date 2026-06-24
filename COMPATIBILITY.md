@@ -104,7 +104,7 @@
 | 🟢 | Mortal Kombat Komplete Edition | `575207FD` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-06-15 |
 | 🟢 | N+ | `5841085C` | 📱 iOS | Playable | 🚀 Great | iPhone 14 Pro Max | 2026-03-25 |
 | 🟢 | Naruto Shippuden: Ultimate Ninja Storm Generations | `4E4D0842` | 📱 iOS | Playable | 🐢 Poor | iPhone 16 Pro Max | 2026-03-19 |
-| 🟢 | Naruto: Rise Of A Ninja | `555307E5` | 🖥️ macOS, 📱 iOS | Playable | 🚀 Great | iPhone 15 Pro | 2026-03-24 |
+| 🟢 | Naruto: Rise Of A Ninja | `555307E5` | 🖥️ macOS, 📱 iOS | Playable | 🚀 Great | MacBook Air M5 | 2026-06-24 |
 | 🟢 | NBA 2K10 Draft Combine | `584109D8` | 📱 iOS | Playable | 🐢 Poor | iPhone 16e | 2026-06-07 |
 | 🟢 | NBA Live 06 | `454107D8` | 📱 iOS | Playable | 👌 OK | iPhone 16e | 2026-03-10 |
 | 🟢 | NBA Street Homecourt | `454107F7` | 📱 iOS | Playable | 🚀 Great | iPhone 16e | 2026-06-07 |
