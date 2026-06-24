@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T20:22:33.418Z",
+  "generatedAt": "2026-06-24T20:29:54.326Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -3363,6 +3363,74 @@
           "createdAtMs": 1773517964000,
           "issueNumber": 263,
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
+          "images": [],
+          "meta": {}
+        }
+      ]
+    },
+    "4156089C": {
+      "titleId": "4156089C",
+      "issueNumber": 556,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/556",
+      "updatedAt": "2026-06-24",
+      "entries": [
+        {
+          "id": "comment-4793330488",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/556#issuecomment-4793330488",
+          "author": "xenios-jp",
+          "createdAt": "2026-06-24",
+          "createdAtMs": 1782332773000,
+          "issueNumber": 556,
+          "excerpt": "Play it’s really good and works very consistently. Sometimes it crashes while loading the campaign after hitting continue from the start menu. It seems it happens when you press button buttons through the beginning of that part however it seems like after as long as you just wait a bit and if you make it past the loading screen",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4156089C/1782332768689-1.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.5.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
+          }
+        },
+        {
+          "id": "issue-556",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/556",
+          "author": "xenios-jp",
+          "createdAt": "2026-06-24",
+          "createdAtMs": 1782332703000,
+          "issueNumber": 556,
+          "excerpt": "Overall play super consistent and smooth for what it is once in a while it might crash after continuing your story campaign what it knows but if that’s if you’re pressing or spamming button",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.5.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
+          }
+        },
+        {
+          "id": "issue-407",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/407",
+          "author": "udance4ever",
+          "createdAt": "2026-04-12",
+          "createdAtMs": 1775994354000,
+          "issueNumber": 407,
+          "excerpt": "Hung repeatedly while attempting to load after copyright screen. After 3 or 4x, it gets past and then freezes again while rendering title screen.",
           "images": [],
           "meta": {}
         }
@@ -8344,26 +8412,6 @@
           "createdAtMs": 1775994617000,
           "issueNumber": 408,
           "excerpt": "Gets in-game and has huge black bar across the screen. You can still control Gromit with the gamepad.",
-          "images": [],
-          "meta": {}
-        }
-      ]
-    },
-    "4156089C": {
-      "titleId": "4156089C",
-      "issueNumber": 407,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/407",
-      "updatedAt": "2026-04-12",
-      "entries": [
-        {
-          "id": "issue-407",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/407",
-          "author": "udance4ever",
-          "createdAt": "2026-04-12",
-          "createdAtMs": 1775994354000,
-          "issueNumber": 407,
-          "excerpt": "Hung repeatedly while attempting to load after copyright screen. After 3 or 4x, it gets past and then freezes again while rendering title screen.",
           "images": [],
           "meta": {}
         }

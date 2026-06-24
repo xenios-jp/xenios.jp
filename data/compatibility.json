@@ -247254,180 +247254,134 @@
       "4156089C",
       "415688D9"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
     "platforms": [
-      "macos"
+      "ios"
     ],
     "lastReport": {
-      "device": "MacBook Pro (M1)",
-      "platform": "macos",
-      "osVersion": "26.4.1",
+      "device": "iPhone 17 Pro Max",
+      "platform": "ios",
+      "osVersion": "26.5.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-04-12",
-    "issueNumber": 407,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/407",
-    "notes": "Hung repeatedly while attempting to load after copyright screen.   After 3 or 4x, it gets past and then freezes again while rendering title screen.",
+    "updatedAt": "2026-06-24",
+    "issueNumber": 556,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/556",
+    "notes": "Play it’s really good and works very consistently. Sometimes it crashes while loading the campaign after hitting continue from the start menu. It seems it happens when you press button buttons through the beginning of that part however it seems like after as long as you just wait a bit and if you make it past the loading screen",
     "reports": [
       {
-        "device": "MacBook Pro (M1)",
-        "platform": "macos",
-        "osVersion": "26.4.1",
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.5.1",
         "arch": "arm64",
         "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-04-12",
-        "notes": "Hung repeatedly while attempting to load after copyright screen.   After 3 or 4x, it gets past and then freezes again while rendering title screen.",
-        "reportedTitleId": "4156089C",
-        "reportedTitle": "Transformers: Fall of Cybertron",
-        "screenshots": [
-          "https://github.com/user-attachments/assets/1f94a97e-7752-43ac-98b6-0e8bac91fb49",
-          "https://github.com/user-attachments/assets/a7a0f81f-08da-4958-a5f6-bebe4d3da8bc"
-        ],
-        "submittedBy": "udance4ever",
-        "source": "github",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-06-24",
+        "notes": "Play it’s really good and works very consistently. Sometimes it crashes while loading the campaign after hitting continue from the start menu. It seems it happens when you press button buttons through the beginning of that part however it seems like after as long as you just wait a bit and if you make it past the loading screen",
+        "screenshots": [],
+        "source": "app",
         "build": {
-          "buildId": "macos-release-1.0.1-9288",
-          "channel": "release",
-          "official": true,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140"
+        }
+      },
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.5.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-06-24",
+        "notes": "Overall play super consistent and smooth for what it is once in a while it might crash after continuing your story campaign what it knows but if that’s if you’re pressing or spamming button",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140"
         }
       }
     ],
     "screenshots": [
-      "https://github.com/user-attachments/assets/1f94a97e-7752-43ac-98b6-0e8bac91fb49",
-      "https://github.com/user-attachments/assets/a7a0f81f-08da-4958-a5f6-bebe4d3da8bc"
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4156089C/1782332768689-1.jpg"
     ],
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "Hung repeatedly while attempting to load after copyright screen.   After 3 or 4x, it gets past and then freezes again while rendering title screen.",
-        "updatedAt": "2026-04-12",
-        "date": "2026-04-12",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "MacBook Pro (M1)",
-          "platform": "macos",
-          "osVersion": "26.4.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-04-12",
-          "notes": "Hung repeatedly while attempting to load after copyright screen.   After 3 or 4x, it gets past and then freezes again while rendering title screen.",
-          "reportedTitleId": "4156089C",
-          "reportedTitle": "Transformers: Fall of Cybertron",
-          "screenshots": [
-            "https://github.com/user-attachments/assets/1f94a97e-7752-43ac-98b6-0e8bac91fb49",
-            "https://github.com/user-attachments/assets/a7a0f81f-08da-4958-a5f6-bebe4d3da8bc"
-          ],
-          "submittedBy": "udance4ever",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
-          }
-        },
-        "bestReport": {
-          "device": "MacBook Pro (M1)",
-          "platform": "macos",
-          "osVersion": "26.4.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-04-12",
-          "notes": "Hung repeatedly while attempting to load after copyright screen.   After 3 or 4x, it gets past and then freezes again while rendering title screen.",
-          "reportedTitleId": "4156089C",
-          "reportedTitle": "Transformers: Fall of Cybertron",
-          "screenshots": [
-            "https://github.com/user-attachments/assets/1f94a97e-7752-43ac-98b6-0e8bac91fb49",
-            "https://github.com/user-attachments/assets/a7a0f81f-08da-4958-a5f6-bebe4d3da8bc"
-          ],
-          "submittedBy": "udance4ever",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
-          }
-        }
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "date": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
       },
       "all": {
         "channel": "all",
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "Hung repeatedly while attempting to load after copyright screen.   After 3 or 4x, it gets past and then freezes again while rendering title screen.",
-        "updatedAt": "2026-04-12",
-        "date": "2026-04-12",
-        "reportCount": 1,
+        "status": "playable",
+        "perf": "great",
+        "notes": "Play it’s really good and works very consistently. Sometimes it crashes while loading the campaign after hitting continue from the start menu. It seems it happens when you press button buttons through the beginning of that part however it seems like after as long as you just wait a bit and if you make it past the loading screen",
+        "updatedAt": "2026-06-24",
+        "date": "2026-06-24",
+        "reportCount": 2,
         "latestReport": {
-          "device": "MacBook Pro (M1)",
-          "platform": "macos",
-          "osVersion": "26.4.1",
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.5.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-04-12",
-          "notes": "Hung repeatedly while attempting to load after copyright screen.   After 3 or 4x, it gets past and then freezes again while rendering title screen.",
-          "reportedTitleId": "4156089C",
-          "reportedTitle": "Transformers: Fall of Cybertron",
-          "screenshots": [
-            "https://github.com/user-attachments/assets/1f94a97e-7752-43ac-98b6-0e8bac91fb49",
-            "https://github.com/user-attachments/assets/a7a0f81f-08da-4958-a5f6-bebe4d3da8bc"
-          ],
-          "submittedBy": "udance4ever",
-          "source": "github",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-06-24",
+          "notes": "Play it’s really good and works very consistently. Sometimes it crashes while loading the campaign after hitting continue from the start menu. It seems it happens when you press button buttons through the beginning of that part however it seems like after as long as you just wait a bit and if you make it past the loading screen",
+          "screenshots": [],
+          "source": "app",
           "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "buildId": "ios-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
           }
         },
         "bestReport": {
-          "device": "MacBook Pro (M1)",
-          "platform": "macos",
-          "osVersion": "26.4.1",
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.5.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-04-12",
-          "notes": "Hung repeatedly while attempting to load after copyright screen.   After 3 or 4x, it gets past and then freezes again while rendering title screen.",
-          "reportedTitleId": "4156089C",
-          "reportedTitle": "Transformers: Fall of Cybertron",
-          "screenshots": [
-            "https://github.com/user-attachments/assets/1f94a97e-7752-43ac-98b6-0e8bac91fb49",
-            "https://github.com/user-attachments/assets/a7a0f81f-08da-4958-a5f6-bebe4d3da8bc"
-          ],
-          "submittedBy": "udance4ever",
-          "source": "github",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-06-24",
+          "notes": "Play it’s really good and works very consistently. Sometimes it crashes while loading the campaign after hitting continue from the start menu. It seems it happens when you press button buttons through the beginning of that part however it seems like after as long as you just wait a bit and if you make it past the loading screen",
+          "screenshots": [],
+          "source": "app",
           "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "buildId": "ios-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
           }
         }
       }
@@ -247522,24 +247476,46 @@
     "titleIds": [
       "4156084C"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 16 Pro",
+      "device": "iPhone 17 Pro Max",
       "platform": "ios",
-      "osVersion": "26.0",
+      "osVersion": "26.5.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-26",
-    "issueNumber": 350,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/350",
-    "notes": "Crashes the app",
+    "updatedAt": "2026-06-24",
+    "issueNumber": 555,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/555",
+    "notes": "Make crash once in a while, but overall it’s very playable and very smooth considering the type of heaviness of the game definitely can be marked as working for the app",
     "reports": [
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.5.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-06-24",
+        "notes": "Make crash once in a while, but overall it’s very playable and very smooth considering the type of heaviness of the game definitely can be marked as working for the app",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140"
+        }
+      },
       {
         "device": "iPhone 16 Pro",
         "platform": "ios",
@@ -247600,52 +247576,54 @@
       },
       "all": {
         "channel": "all",
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "Crashes the app",
-        "updatedAt": "2026-03-26",
-        "date": "2026-03-26",
-        "reportCount": 2,
+        "status": "playable",
+        "perf": "great",
+        "notes": "Make crash once in a while, but overall it’s very playable and very smooth considering the type of heaviness of the game definitely can be marked as working for the app",
+        "updatedAt": "2026-06-24",
+        "date": "2026-06-24",
+        "reportCount": 3,
         "latestReport": {
-          "device": "iPhone 16 Pro",
+          "device": "iPhone 17 Pro Max",
           "platform": "ios",
-          "osVersion": "26.0",
+          "osVersion": "26.5.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-26",
-          "notes": "Crashes the app",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-06-24",
+          "notes": "Make crash once in a while, but overall it’s very playable and very smooth considering the type of heaviness of the game definitely can be marked as working for the app",
           "screenshots": [],
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
           }
         },
         "bestReport": {
-          "device": "iPhone 16 Pro",
+          "device": "iPhone 17 Pro Max",
           "platform": "ios",
-          "osVersion": "26.0",
+          "osVersion": "26.5.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-26",
-          "notes": "Crashes the app",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-06-24",
+          "notes": "Make crash once in a while, but overall it’s very playable and very smooth considering the type of heaviness of the game definitely can be marked as working for the app",
           "screenshots": [],
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
           }
         }
       }
