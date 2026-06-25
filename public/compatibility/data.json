@@ -189984,24 +189984,44 @@
       "555308C3",
       "555388C8"
     ],
-    "status": "ingame",
-    "perf": "poor",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 17 Pro Max",
+      "device": "iPad Pro M4",
       "platform": "ios",
-      "osVersion": "26.3",
+      "osVersion": "26.5",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-08",
+    "updatedAt": "2026-06-25",
     "issueNumber": 99,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/99",
-    "notes": "Pre-rendered scenes for intro have graphical and audio issues.\nUpon clicking \"New Game\", opening screen only has graphical issues. \nWhen the game renders, assets take a second to load in. But, game speed is about half what it should be.",
+    "notes": "Game run so good run so smooth",
     "reports": [
+      {
+        "device": "iPad Pro M4",
+        "platform": "ios",
+        "osVersion": "26.5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-06-25",
+        "notes": "Game run so good run so smooth",
+        "screenshots": [],
+        "source": "github",
+        "build": {
+          "buildId": "ios-preview-2.1-9857-9857",
+          "channel": "preview",
+          "official": true,
+          "appVersion": "2.1-9857",
+          "buildNumber": "9857"
+        }
+      },
       {
         "device": "iPhone 17 Pro Max",
         "platform": "ios",
@@ -190041,56 +190061,50 @@
       },
       "all": {
         "channel": "all",
-        "status": "ingame",
-        "perf": "poor",
-        "notes": "Pre-rendered scenes for intro have graphical and audio issues.\nUpon clicking \"New Game\", opening screen only has graphical issues. \nWhen the game renders, assets take a second to load in. But, game speed is about half what it should be.",
-        "updatedAt": "2026-03-08",
-        "date": "2026-03-08",
-        "reportCount": 1,
+        "status": "playable",
+        "perf": "great",
+        "notes": "Game run so good run so smooth",
+        "updatedAt": "2026-06-25",
+        "date": "2026-06-25",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 17 Pro Max",
+          "device": "iPad Pro M4",
           "platform": "ios",
-          "osVersion": "26.3",
+          "osVersion": "26.5",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-03-08",
-          "notes": "Pre-rendered scenes for intro have graphical and audio issues.\nUpon clicking \"New Game\", opening screen only has graphical issues. \nWhen the game renders, assets take a second to load in. But, game speed is about half what it should be.",
-          "reportedTitleId": "555308C3",
-          "reportedTitle": "Rayman Legends",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-06-25",
+          "notes": "Game run so good run so smooth",
           "screenshots": [],
           "source": "github",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633E8177"
+            "buildId": "ios-preview-2.1-9857-9857",
+            "channel": "preview",
+            "official": true,
+            "appVersion": "2.1-9857",
+            "buildNumber": "9857"
           }
         },
         "bestReport": {
-          "device": "iPhone 17 Pro Max",
+          "device": "iPad Pro M4",
           "platform": "ios",
-          "osVersion": "26.3",
+          "osVersion": "26.5",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-03-08",
-          "notes": "Pre-rendered scenes for intro have graphical and audio issues.\nUpon clicking \"New Game\", opening screen only has graphical issues. \nWhen the game renders, assets take a second to load in. But, game speed is about half what it should be.",
-          "reportedTitleId": "555308C3",
-          "reportedTitle": "Rayman Legends",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-06-25",
+          "notes": "Game run so good run so smooth",
           "screenshots": [],
           "source": "github",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633E8177"
+            "buildId": "ios-preview-2.1-9857-9857",
+            "channel": "preview",
+            "official": true,
+            "appVersion": "2.1-9857",
+            "buildNumber": "9857"
           }
         }
       }
@@ -197318,171 +197332,37 @@
     "titleIds": [
       "454108CA"
     ],
-    "status": "loads",
-    "perf": "great",
+    "status": "nothing",
+    "perf": "n/a",
     "tags": [],
-    "platforms": [
-      "macos"
-    ],
-    "lastReport": {
-      "device": "MacBook Pro M4",
-      "platform": "macos",
-      "osVersion": "26.3.1",
-      "arch": "arm64",
-      "gpuBackend": "msc"
-    },
-    "updatedAt": "2026-03-23",
-    "issueNumber": 339,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/339",
-    "notes": "game boots\ncan't get past main menu because it needs a guitar or drum controller",
-    "reports": [
-      {
-        "device": "MacBook Pro M4",
-        "platform": "macos",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msc",
-        "status": "loads",
-        "perf": "great",
-        "date": "2026-03-23",
-        "notes": "game boots\ncan't get past main menu because it needs a guitar or drum controller",
-        "reportedTitleId": "454108CA",
-        "reportedTitle": "Rock Band Country Pack",
-        "screenshots": [
-          "https://github.com/user-attachments/assets/e2a16258-e228-4c21-ad82-3df78c728943"
-        ],
-        "submittedBy": "kControllerVocals",
-        "source": "github",
-        "build": {
-          "buildId": "macos-release-1.0.1-9288",
-          "channel": "release",
-          "official": true,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288"
-        }
-      }
-    ],
-    "screenshots": [
-      "https://github.com/user-attachments/assets/e2a16258-e228-4c21-ad82-3df78c728943"
-    ],
+    "platforms": [],
+    "lastReport": null,
+    "updatedAt": "",
+    "notes": "",
+    "reports": [],
+    "screenshots": [],
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "loads",
-        "perf": "great",
-        "notes": "game boots\ncan't get past main menu because it needs a guitar or drum controller",
-        "updatedAt": "2026-03-23",
-        "date": "2026-03-23",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "MacBook Pro M4",
-          "platform": "macos",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "loads",
-          "perf": "great",
-          "date": "2026-03-23",
-          "notes": "game boots\ncan't get past main menu because it needs a guitar or drum controller",
-          "reportedTitleId": "454108CA",
-          "reportedTitle": "Rock Band Country Pack",
-          "screenshots": [
-            "https://github.com/user-attachments/assets/e2a16258-e228-4c21-ad82-3df78c728943"
-          ],
-          "submittedBy": "kControllerVocals",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288"
-          }
-        },
-        "bestReport": {
-          "device": "MacBook Pro M4",
-          "platform": "macos",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "loads",
-          "perf": "great",
-          "date": "2026-03-23",
-          "notes": "game boots\ncan't get past main menu because it needs a guitar or drum controller",
-          "reportedTitleId": "454108CA",
-          "reportedTitle": "Rock Band Country Pack",
-          "screenshots": [
-            "https://github.com/user-attachments/assets/e2a16258-e228-4c21-ad82-3df78c728943"
-          ],
-          "submittedBy": "kControllerVocals",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288"
-          }
-        }
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "date": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
       },
       "all": {
         "channel": "all",
-        "status": "loads",
-        "perf": "great",
-        "notes": "game boots\ncan't get past main menu because it needs a guitar or drum controller",
-        "updatedAt": "2026-03-23",
-        "date": "2026-03-23",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "MacBook Pro M4",
-          "platform": "macos",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "loads",
-          "perf": "great",
-          "date": "2026-03-23",
-          "notes": "game boots\ncan't get past main menu because it needs a guitar or drum controller",
-          "reportedTitleId": "454108CA",
-          "reportedTitle": "Rock Band Country Pack",
-          "screenshots": [
-            "https://github.com/user-attachments/assets/e2a16258-e228-4c21-ad82-3df78c728943"
-          ],
-          "submittedBy": "kControllerVocals",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288"
-          }
-        },
-        "bestReport": {
-          "device": "MacBook Pro M4",
-          "platform": "macos",
-          "osVersion": "26.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "loads",
-          "perf": "great",
-          "date": "2026-03-23",
-          "notes": "game boots\ncan't get past main menu because it needs a guitar or drum controller",
-          "reportedTitleId": "454108CA",
-          "reportedTitle": "Rock Band Country Pack",
-          "screenshots": [
-            "https://github.com/user-attachments/assets/e2a16258-e228-4c21-ad82-3df78c728943"
-          ],
-          "submittedBy": "kControllerVocals",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.1-9288",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288"
-          }
-        }
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "date": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
       }
     }
   },
