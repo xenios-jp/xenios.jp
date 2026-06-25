@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T01:39:34.579Z",
+  "generatedAt": "2026-06-25T02:57:57.235Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -646,6 +646,37 @@
           "excerpt": "FMV sequences are loud, menu constantly interrupts asking for a save storage until you select New Game, and use the old XMA Decoder to get past the blue flash at launch.",
           "images": [],
           "meta": {}
+        }
+      ]
+    },
+    "41560923": {
+      "titleId": "41560923",
+      "issueNumber": 558,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/558",
+      "updatedAt": "2026-06-25",
+      "entries": [
+        {
+          "id": "issue-558",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/558",
+          "author": "xenios-jp",
+          "createdAt": "2026-06-25",
+          "createdAtMs": 1782356182000,
+          "issueNumber": 558,
+          "excerpt": "The game seems to load fine up until the moment that it asks you to sign in to your profile when you do it simply starts to pan into space and the Earth and goes in circles panning here and there, but there is no sounds of menus at that point moving or selecting there’s no menus at all visibly either abound basically the game does not let you go past there.",
+          "images": [],
+          "meta": {
+            "status": "loads",
+            "perf": "poor",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.5.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
+          }
         }
       ]
     },

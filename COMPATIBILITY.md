@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **341 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **342 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **142** · 🔵 In-Game: **69** · 🟡 Intro: **35** · 🟠 Loads: **44** · 🔴 Doesn't Boot: **51**
+> 🟢 Playable: **142** · 🔵 In-Game: **69** · 🟡 Intro: **35** · 🟠 Loads: **45** · 🔴 Doesn't Boot: **51**
 >
-> 📱 iOS: **314** · 🖥️ macOS: **49**
+> 📱 iOS: **315** · 🖥️ macOS: **49**
 
 ## Legend
 
@@ -307,6 +307,7 @@
 | 🟠 | The Darkness | `545407EE` | 📱 iOS | Loads | 👌 OK | iPhone 17 Pro Max | 2026-03-16 |
 | 🟠 | The Elder Scrolls V: Skyrim | `425307E6` | 📱 iOS | Loads | 🐢 Poor | iPhone 17 Pro Max | 2026-03-14 |
 | 🟠 | The Orange Box | `4541080F` | 📱 iOS | Loads | 🐢 Poor | iPhone Air | 2026-03-08 |
+| 🟠 | Transformers: Devastation | `41560923` | 📱 iOS | Loads | 🐢 Poor | iPhone 17 Pro Max | 2026-06-25 |
 | 🟠 | Tron: Evolution | `425607ED` | 📱 iOS | Loads | 👌 OK | iPhone 15 Pro Max | 2026-03-09 |
 | 🟠 | WWE 12 | `54510890` | 📱 iOS | Loads | 👌 OK | iPhone 15 Pro | 2026-03-11 |
 | 🟠 | WWE Smackdown vs. Raw 2011 | `5451085D` | 📱 iOS | Loads | 🐢 Poor | iPhone 17 | 2026-05-26 |
