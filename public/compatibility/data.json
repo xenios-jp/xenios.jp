@@ -153691,7 +153691,6 @@
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
-          "stage": "stable",
           "commitShort": "57c3ca140"
         }
       }
@@ -153735,7 +153734,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         },
@@ -153757,7 +153755,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         }
@@ -227344,15 +227341,50 @@
     "titleIds": [
       "584108A4"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
-    "platforms": [],
-    "lastReport": null,
-    "updatedAt": "",
-    "notes": "",
-    "reports": [],
-    "screenshots": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 17 Pro Max",
+      "platform": "ios",
+      "osVersion": "26.5.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-06-25",
+    "issueNumber": 557,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/557",
+    "notes": "Plays fantastic!",
+    "reports": [
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.5.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-06-25",
+        "notes": "Plays fantastic!",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140"
+        }
+      }
+    ],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584108A4/1782351462227-1.jpg"
+    ],
     "summaries": {
       "release": {
         "channel": "release",
@@ -227367,14 +227399,56 @@
       },
       "all": {
         "channel": "all",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "playable",
+        "perf": "great",
+        "notes": "Plays fantastic!",
+        "updatedAt": "2026-06-25",
+        "date": "2026-06-25",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.5.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-06-25",
+          "notes": "Plays fantastic!",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.5.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-06-25",
+          "notes": "Plays fantastic!",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
+          }
+        }
       }
     }
   },
@@ -245102,7 +245176,6 @@
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
-          "stage": "stable",
           "commitShort": "57c3ca140"
         }
       }
@@ -245146,7 +245219,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         },
@@ -245168,7 +245240,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         }
@@ -245219,7 +245290,6 @@
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
-          "stage": "stable",
           "commitShort": "57c3ca140"
         }
       }
@@ -245263,7 +245333,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         },
@@ -245285,7 +245354,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         }
@@ -247270,30 +247338,8 @@
     "updatedAt": "2026-06-24",
     "issueNumber": 556,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/556",
-    "notes": "Play it’s really good and works very consistently. Sometimes it crashes while loading the campaign after hitting continue from the start menu. It seems it happens when you press button buttons through the beginning of that part however it seems like after as long as you just wait a bit and if you make it past the loading screen",
+    "notes": "Overall play super consistent and smooth for what it is once in a while it might crash after continuing your story campaign what it knows but if that’s if you’re pressing or spamming button",
     "reports": [
-      {
-        "device": "iPhone 17 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.5.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "great",
-        "date": "2026-06-24",
-        "notes": "Play it’s really good and works very consistently. Sometimes it crashes while loading the campaign after hitting continue from the start menu. It seems it happens when you press button buttons through the beginning of that part however it seems like after as long as you just wait a bit and if you make it past the loading screen",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-2.0.1-9730",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "stage": "stable",
-          "commitShort": "57c3ca140"
-        }
-      },
       {
         "device": "iPhone 17 Pro Max",
         "platform": "ios",
@@ -247312,7 +247358,27 @@
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
-          "stage": "stable",
+          "commitShort": "57c3ca140"
+        }
+      },
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.5.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-06-24",
+        "notes": "Play it’s really good and works very consistently. Sometimes it crashes while loading the campaign after hitting continue from the start menu. It seems it happens when you press button buttons through the beginning of that part however it seems like after as long as you just wait a bit and if you make it past the loading screen",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
           "commitShort": "57c3ca140"
         }
       }
@@ -247336,7 +247402,7 @@
         "channel": "all",
         "status": "playable",
         "perf": "great",
-        "notes": "Play it’s really good and works very consistently. Sometimes it crashes while loading the campaign after hitting continue from the start menu. It seems it happens when you press button buttons through the beginning of that part however it seems like after as long as you just wait a bit and if you make it past the loading screen",
+        "notes": "Overall play super consistent and smooth for what it is once in a while it might crash after continuing your story campaign what it knows but if that’s if you’re pressing or spamming button",
         "updatedAt": "2026-06-24",
         "date": "2026-06-24",
         "reportCount": 2,
@@ -247349,7 +247415,7 @@
           "status": "playable",
           "perf": "great",
           "date": "2026-06-24",
-          "notes": "Play it’s really good and works very consistently. Sometimes it crashes while loading the campaign after hitting continue from the start menu. It seems it happens when you press button buttons through the beginning of that part however it seems like after as long as you just wait a bit and if you make it past the loading screen",
+          "notes": "Overall play super consistent and smooth for what it is once in a while it might crash after continuing your story campaign what it knows but if that’s if you’re pressing or spamming button",
           "screenshots": [],
           "source": "app",
           "build": {
@@ -247358,7 +247424,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         },
@@ -247371,7 +247436,7 @@
           "status": "playable",
           "perf": "great",
           "date": "2026-06-24",
-          "notes": "Play it’s really good and works very consistently. Sometimes it crashes while loading the campaign after hitting continue from the start menu. It seems it happens when you press button buttons through the beginning of that part however it seems like after as long as you just wait a bit and if you make it past the loading screen",
+          "notes": "Overall play super consistent and smooth for what it is once in a while it might crash after continuing your story campaign what it knows but if that’s if you’re pressing or spamming button",
           "screenshots": [],
           "source": "app",
           "build": {
@@ -247380,7 +247445,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         }
@@ -247512,50 +247576,7 @@
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
-          "stage": "stable",
           "commitShort": "57c3ca140"
-        }
-      },
-      {
-        "device": "iPhone 16 Pro",
-        "platform": "ios",
-        "osVersion": "26.0",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-03-26",
-        "notes": "Crashes the app",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
-        }
-      },
-      {
-        "device": "iPhone 16 Pro",
-        "platform": "ios",
-        "osVersion": "26.0",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-03-24",
-        "notes": "Nothing but a black screen",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
         }
       }
     ],
@@ -247581,7 +247602,7 @@
         "notes": "Make crash once in a while, but overall it’s very playable and very smooth considering the type of heaviness of the game definitely can be marked as working for the app",
         "updatedAt": "2026-06-24",
         "date": "2026-06-24",
-        "reportCount": 3,
+        "reportCount": 1,
         "latestReport": {
           "device": "iPhone 17 Pro Max",
           "platform": "ios",
@@ -247600,7 +247621,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         },
@@ -247622,7 +247642,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         }
@@ -251444,7 +251463,6 @@
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
-          "stage": "stable",
           "commitShort": "57c3ca140"
         }
       }
@@ -251488,7 +251506,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         },
@@ -251510,7 +251527,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         }
