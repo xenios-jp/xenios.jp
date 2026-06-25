@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **342 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **343 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **142** · 🔵 In-Game: **69** · 🟡 Intro: **35** · 🟠 Loads: **45** · 🔴 Doesn't Boot: **51**
+> 🟢 Playable: **142** · 🔵 In-Game: **70** · 🟡 Intro: **35** · 🟠 Loads: **45** · 🔴 Doesn't Boot: **51**
 >
-> 📱 iOS: **315** · 🖥️ macOS: **49**
+> 📱 iOS: **316** · 🖥️ macOS: **49**
 
 ## Legend
 
@@ -196,6 +196,7 @@
 | 🔵 | Lost Odyssey | `4D5307FA` | 📱 iOS, 🖥️ macOS | In-Game | 🚀 Great | Mac mini (M2) | 2026-03-11 |
 | 🔵 | Max Payne 3 | `5454086B` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro Max | 2026-05-10 |
 | 🔵 | Mercenaries 2: World in Flames | `45410828` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro | 2026-03-09 |
+| 🔵 | Metal Gear Solid V: The Phantom Pain | `4B4E085E` | 📱 iOS | In-Game | 🐢 Poor | iPad Pro M4 | 2026-06-25 |
 | 🔵 | Metro Last Light | `4B4D07F5` | 🖥️ macOS | In-Game | 👌 OK | MacBook Pro M4 Pro/Max | 2026-02-28 |
 | 🔵 | Middle Earth: Shadow of Mordor | `5752082C` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro Max | 2026-06-12 |
 | 🔵 | Mirror's Edge | `45410850` | 📱 iOS | In-Game | 🐢 Poor | iPhone Air | 2026-03-23 |

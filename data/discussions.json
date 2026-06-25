@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T02:57:57.235Z",
+  "generatedAt": "2026-06-25T16:05:55.630Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -3394,6 +3394,26 @@
           "createdAtMs": 1773517964000,
           "issueNumber": 263,
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
+          "images": [],
+          "meta": {}
+        }
+      ]
+    },
+    "4B4E085E": {
+      "titleId": "4B4E085E",
+      "issueNumber": 559,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/559",
+      "updatedAt": "2026-06-25",
+      "entries": [
+        {
+          "id": "issue-559",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/559",
+          "author": "pannawit8fe45s",
+          "createdAt": "2026-06-25",
+          "createdAtMs": 1782403445000,
+          "issueNumber": 559,
+          "excerpt": "Game performance is ok but graphic bug is terrible make game unplayable",
           "images": [],
           "meta": {}
         }

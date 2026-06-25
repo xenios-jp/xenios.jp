@@ -147933,14 +147933,45 @@
     "titleIds": [
       "4B4E085E"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "ingame",
+    "perf": "poor",
     "tags": [],
-    "platforms": [],
-    "lastReport": null,
-    "updatedAt": "",
-    "notes": "",
-    "reports": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPad Pro M4",
+      "platform": "ios",
+      "osVersion": "26.5",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-06-25",
+    "issueNumber": 559,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/559",
+    "notes": "Game performance is ok but graphic bug is terrible make game unplayable",
+    "reports": [
+      {
+        "device": "iPad Pro M4",
+        "platform": "ios",
+        "osVersion": "26.5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "poor",
+        "date": "2026-06-25",
+        "notes": "Game performance is ok but graphic bug is terrible make game unplayable",
+        "screenshots": [],
+        "source": "github",
+        "build": {
+          "buildId": "ios-preview-2.1-9857-9857",
+          "channel": "preview",
+          "official": true,
+          "appVersion": "2.1-9857",
+          "buildNumber": "9857"
+        }
+      }
+    ],
     "screenshots": [],
     "summaries": {
       "release": {
@@ -147956,14 +147987,52 @@
       },
       "all": {
         "channel": "all",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "ingame",
+        "perf": "poor",
+        "notes": "Game performance is ok but graphic bug is terrible make game unplayable",
+        "updatedAt": "2026-06-25",
+        "date": "2026-06-25",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPad Pro M4",
+          "platform": "ios",
+          "osVersion": "26.5",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-06-25",
+          "notes": "Game performance is ok but graphic bug is terrible make game unplayable",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "buildId": "ios-preview-2.1-9857-9857",
+            "channel": "preview",
+            "official": true,
+            "appVersion": "2.1-9857",
+            "buildNumber": "9857"
+          }
+        },
+        "bestReport": {
+          "device": "iPad Pro M4",
+          "platform": "ios",
+          "osVersion": "26.5",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-06-25",
+          "notes": "Game performance is ok but graphic bug is terrible make game unplayable",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "buildId": "ios-preview-2.1-9857-9857",
+            "channel": "preview",
+            "official": true,
+            "appVersion": "2.1-9857",
+            "buildNumber": "9857"
+          }
+        }
       }
     }
   },
