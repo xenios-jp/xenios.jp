@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **343 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **344 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **143** · 🔵 In-Game: **69** · 🟡 Intro: **35** · 🟠 Loads: **45** · 🔴 Doesn't Boot: **51**
+> 🟢 Playable: **144** · 🔵 In-Game: **69** · 🟡 Intro: **35** · 🟠 Loads: **45** · 🔴 Doesn't Boot: **51**
 >
-> 📱 iOS: **316** · 🖥️ macOS: **49**
+> 📱 iOS: **317** · 🖥️ macOS: **49**
 
 ## Legend
 
@@ -141,6 +141,7 @@
 | 🟢 | Sonic the Hedgehog 4: Episode II | `584111F2` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro Max | 2026-05-15 |
 | 🟢 | Sonic Unleashed | `53450812` | 📱 iOS | Playable | 👌 OK | iPad 9 | 2026-04-30 |
 | 🟢 | SpongeBob HeroPants | `41560919` | 📱 iOS | Playable | 👌 OK | iPad Mini (A17 Pro) | 2026-03-08 |
+| 🟢 | SpongeBob: Truth-Sq. | `54510850` | 📱 iOS | Playable | 🚀 Great | iPad Mini (A17 Pro) | 2026-06-27 |
 | 🟢 | Star Wars: The Force Unleashed | `4C4107D2` | 📱 iOS | Playable | 🚀 Great | iPhone 15 Pro | 2026-03-10 |
 | 🟢 | Steins;Gate Hiyoku Renri no Darling | `465607E8` | 📱 iOS | Playable | 🚀 Great | iPhone 17 | 2026-03-02 |
 | 🟢 | STREET FIGHTER X TEKKEN | `4343080F` | 📱 iOS | Playable | 🐢 Poor | iPhone 16 Pro Max | 2026-03-11 |

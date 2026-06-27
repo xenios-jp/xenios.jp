@@ -220493,37 +220493,144 @@
     "titleIds": [
       "54510850"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
-    "platforms": [],
-    "lastReport": null,
-    "updatedAt": "",
-    "notes": "",
-    "reports": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPad Mini (A17 Pro)",
+      "platform": "ios",
+      "osVersion": "26.3.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-06-27",
+    "issueNumber": 564,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/564",
+    "notes": "The game only has a little stutters when attacking enemies. The opening cutscene doesn't have audio.",
+    "reports": [
+      {
+        "device": "iPad Mini (A17 Pro)",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-06-27",
+        "notes": "The game only has a little stutters when attacking enemies. The opening cutscene doesn't have audio.",
+        "screenshots": [],
+        "source": "github",
+        "build": {
+          "buildId": "ios-release-2.0.1-9730",
+          "channel": "release",
+          "official": true,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730"
+        }
+      }
+    ],
     "screenshots": [],
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "playable",
+        "perf": "great",
+        "notes": "The game only has a little stutters when attacking enemies. The opening cutscene doesn't have audio.",
+        "updatedAt": "2026-06-27",
+        "date": "2026-06-27",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPad Mini (A17 Pro)",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-06-27",
+          "notes": "The game only has a little stutters when attacking enemies. The opening cutscene doesn't have audio.",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-2.0.1-9730",
+            "channel": "release",
+            "official": true,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730"
+          }
+        },
+        "bestReport": {
+          "device": "iPad Mini (A17 Pro)",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-06-27",
+          "notes": "The game only has a little stutters when attacking enemies. The opening cutscene doesn't have audio.",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-2.0.1-9730",
+            "channel": "release",
+            "official": true,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730"
+          }
+        }
       },
       "all": {
         "channel": "all",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "playable",
+        "perf": "great",
+        "notes": "The game only has a little stutters when attacking enemies. The opening cutscene doesn't have audio.",
+        "updatedAt": "2026-06-27",
+        "date": "2026-06-27",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPad Mini (A17 Pro)",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-06-27",
+          "notes": "The game only has a little stutters when attacking enemies. The opening cutscene doesn't have audio.",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-2.0.1-9730",
+            "channel": "release",
+            "official": true,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730"
+          }
+        },
+        "bestReport": {
+          "device": "iPad Mini (A17 Pro)",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-06-27",
+          "notes": "The game only has a little stutters when attacking enemies. The opening cutscene doesn't have audio.",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-2.0.1-9730",
+            "channel": "release",
+            "official": true,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730"
+          }
+        }
       }
     }
   },
