@@ -48026,23 +48026,44 @@
       "41560817"
     ],
     "status": "playable",
-    "perf": "ok",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 16",
+      "device": "iPhone 16 Pro",
       "platform": "ios",
-      "osVersion": "26.4.2",
+      "osVersion": "26.5",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-06-14",
+    "updatedAt": "2026-06-27",
     "issueNumber": 29,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/29",
-    "notes": "campaign and special ops works okay",
+    "notes": "Plays so fine 💯. Just some minor graphics glitches i.e scope all reddish. 9/10",
     "reports": [
+      {
+        "device": "iPhone 16 Pro",
+        "platform": "ios",
+        "osVersion": "26.5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-06-27",
+        "notes": "Plays so fine 💯. Just some minor graphics glitches i.e scope all reddish. 9/10",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "commitShort": "57c3ca140"
+        }
+      },
       {
         "device": "iPhone 16",
         "platform": "ios",
@@ -48172,21 +48193,21 @@
       "all": {
         "channel": "all",
         "status": "playable",
-        "perf": "ok",
-        "notes": "campaign and special ops works okay",
-        "updatedAt": "2026-06-14",
-        "date": "2026-06-14",
-        "reportCount": 4,
+        "perf": "great",
+        "notes": "Plays so fine 💯. Just some minor graphics glitches i.e scope all reddish. 9/10",
+        "updatedAt": "2026-06-27",
+        "date": "2026-06-27",
+        "reportCount": 5,
         "latestReport": {
-          "device": "iPhone 16",
+          "device": "iPhone 16 Pro",
           "platform": "ios",
-          "osVersion": "26.4.2",
+          "osVersion": "26.5",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
-          "perf": "ok",
-          "date": "2026-06-14",
-          "notes": "campaign and special ops works okay",
+          "perf": "great",
+          "date": "2026-06-27",
+          "notes": "Plays so fine 💯. Just some minor graphics glitches i.e scope all reddish. 9/10",
           "screenshots": [],
           "source": "app",
           "build": {
@@ -48199,15 +48220,15 @@
           }
         },
         "bestReport": {
-          "device": "iPhone 16",
+          "device": "iPhone 16 Pro",
           "platform": "ios",
-          "osVersion": "26.4.2",
+          "osVersion": "26.5",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
-          "perf": "ok",
-          "date": "2026-06-14",
-          "notes": "campaign and special ops works okay",
+          "perf": "great",
+          "date": "2026-06-27",
+          "notes": "Plays so fine 💯. Just some minor graphics glitches i.e scope all reddish. 9/10",
           "screenshots": [],
           "source": "app",
           "build": {
@@ -67983,44 +68004,24 @@
     "titleIds": [
       "415608EC"
     ],
-    "status": "playable",
-    "perf": "ok",
+    "status": "loads",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPad Pro M4",
+      "device": "iPhone 15 Pro",
       "platform": "ios",
-      "osVersion": "26.5",
+      "osVersion": "26.3",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-06-26",
+    "updatedAt": "2026-03-22",
     "issueNumber": 105,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/105",
-    "notes": "The performance is great, but it has a lens flare bug. You must enable/disable the lens flare in the patch settings",
+    "notes": "The game works but when you l\nStart the first mission it loads forever so game doesn’t work",
     "reports": [
-      {
-        "device": "iPad Pro M4",
-        "platform": "ios",
-        "osVersion": "26.5",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "ok",
-        "date": "2026-06-26",
-        "notes": "The performance is great, but it has a lens flare bug. You must enable/disable the lens flare in the patch settings",
-        "screenshots": [],
-        "source": "github",
-        "build": {
-          "buildId": "ios-preview-2.1-9857",
-          "channel": "preview",
-          "official": true,
-          "appVersion": "2.1",
-          "buildNumber": "9857"
-        }
-      },
       {
         "device": "iPhone 16 Pro",
         "platform": "ios",
@@ -68082,50 +68083,55 @@
       },
       "all": {
         "channel": "all",
-        "status": "playable",
-        "perf": "ok",
-        "notes": "The performance is great, but it has a lens flare bug. You must enable/disable the lens flare in the patch settings",
-        "updatedAt": "2026-06-26",
-        "date": "2026-06-26",
-        "reportCount": 3,
+        "status": "loads",
+        "perf": "great",
+        "notes": "The game works but when you l\nStart the first mission it loads forever so game doesn’t work",
+        "updatedAt": "2026-03-22",
+        "date": "2026-03-22",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPad Pro M4",
+          "device": "iPhone 16 Pro",
           "platform": "ios",
-          "osVersion": "26.5",
+          "osVersion": "18.5",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-06-26",
-          "notes": "The performance is great, but it has a lens flare bug. You must enable/disable the lens flare in the patch settings",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-03-22",
+          "notes": "Deadpool will not boot. Tried a variety of settings combos to no avail.",
           "screenshots": [],
-          "source": "github",
+          "source": "app",
           "build": {
-            "buildId": "ios-preview-2.1-9857",
-            "channel": "preview",
-            "official": true,
-            "appVersion": "2.1",
-            "buildNumber": "9857"
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
-          "device": "iPad Pro M4",
+          "device": "iPhone 15 Pro",
           "platform": "ios",
-          "osVersion": "26.5",
+          "osVersion": "26.3",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-06-26",
-          "notes": "The performance is great, but it has a lens flare bug. You must enable/disable the lens flare in the patch settings",
+          "status": "loads",
+          "perf": "great",
+          "date": "2026-03-09",
+          "notes": "The game works but when you l\nStart the first mission it loads forever so game doesn’t work",
+          "reportedTitleId": "415608EC",
+          "reportedTitle": "Deadpool",
           "screenshots": [],
-          "source": "github",
+          "source": "app",
           "build": {
-            "buildId": "ios-preview-2.1-9857",
-            "channel": "preview",
-            "official": true,
-            "appVersion": "2.1",
-            "buildNumber": "9857"
+            "buildId": "ios-self-built-1.0.0-9280",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "stage": "stable",
+            "commitShort": "2633e8177"
           }
         }
       }
@@ -147976,18 +147982,31 @@
         "perf": "poor",
         "date": "2026-06-25",
         "notes": "Game performance is ok but graphic bug is terrible make game unplayable",
-        "screenshots": [],
+        "reportedTitleId": "4B4E085E",
+        "reportedTitle": "Metal Gear Solid V: The Phantom Pa",
+        "screenshots": [
+          "https://github.com/user-attachments/assets/cc6cea53-e263-4fde-bd34-ed14e8e6b652",
+          "https://github.com/user-attachments/assets/f331fb8e-f960-4101-b6f0-895ef92f1939",
+          "https://github.com/user-attachments/assets/66778f88-cf0b-4bd3-b9c5-8ba04e605a85",
+          "https://github.com/user-attachments/assets/412d064d-ee3b-4816-a7da-d652052112d8"
+        ],
+        "submittedBy": "pannawit8fe45s",
         "source": "github",
         "build": {
-          "buildId": "ios-preview-2.1-9857-9857",
+          "buildId": "ios-preview-2.1-9857",
           "channel": "preview",
           "official": true,
-          "appVersion": "2.1-9857",
+          "appVersion": "2.1",
           "buildNumber": "9857"
         }
       }
     ],
-    "screenshots": [],
+    "screenshots": [
+      "https://github.com/user-attachments/assets/cc6cea53-e263-4fde-bd34-ed14e8e6b652",
+      "https://github.com/user-attachments/assets/f331fb8e-f960-4101-b6f0-895ef92f1939",
+      "https://github.com/user-attachments/assets/66778f88-cf0b-4bd3-b9c5-8ba04e605a85",
+      "https://github.com/user-attachments/assets/412d064d-ee3b-4816-a7da-d652052112d8"
+    ],
     "summaries": {
       "release": {
         "channel": "release",
@@ -148018,13 +148037,21 @@
           "perf": "poor",
           "date": "2026-06-25",
           "notes": "Game performance is ok but graphic bug is terrible make game unplayable",
-          "screenshots": [],
+          "reportedTitleId": "4B4E085E",
+          "reportedTitle": "Metal Gear Solid V: The Phantom Pa",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/cc6cea53-e263-4fde-bd34-ed14e8e6b652",
+            "https://github.com/user-attachments/assets/f331fb8e-f960-4101-b6f0-895ef92f1939",
+            "https://github.com/user-attachments/assets/66778f88-cf0b-4bd3-b9c5-8ba04e605a85",
+            "https://github.com/user-attachments/assets/412d064d-ee3b-4816-a7da-d652052112d8"
+          ],
+          "submittedBy": "pannawit8fe45s",
           "source": "github",
           "build": {
-            "buildId": "ios-preview-2.1-9857-9857",
+            "buildId": "ios-preview-2.1-9857",
             "channel": "preview",
             "official": true,
-            "appVersion": "2.1-9857",
+            "appVersion": "2.1",
             "buildNumber": "9857"
           }
         },
@@ -148038,13 +148065,21 @@
           "perf": "poor",
           "date": "2026-06-25",
           "notes": "Game performance is ok but graphic bug is terrible make game unplayable",
-          "screenshots": [],
+          "reportedTitleId": "4B4E085E",
+          "reportedTitle": "Metal Gear Solid V: The Phantom Pa",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/cc6cea53-e263-4fde-bd34-ed14e8e6b652",
+            "https://github.com/user-attachments/assets/f331fb8e-f960-4101-b6f0-895ef92f1939",
+            "https://github.com/user-attachments/assets/66778f88-cf0b-4bd3-b9c5-8ba04e605a85",
+            "https://github.com/user-attachments/assets/412d064d-ee3b-4816-a7da-d652052112d8"
+          ],
+          "submittedBy": "pannawit8fe45s",
           "source": "github",
           "build": {
-            "buildId": "ios-preview-2.1-9857-9857",
+            "buildId": "ios-preview-2.1-9857",
             "channel": "preview",
             "official": true,
-            "appVersion": "2.1-9857",
+            "appVersion": "2.1",
             "buildNumber": "9857"
           }
         }
@@ -227475,7 +227510,6 @@
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
-          "stage": "stable",
           "commitShort": "57c3ca140"
         }
       }
@@ -227521,7 +227555,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         },
@@ -227543,7 +227576,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         }
@@ -231403,29 +231435,7 @@
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
-          "stage": "stable",
           "commitShort": "57c3ca140"
-        }
-      },
-      {
-        "device": "iPhone 17 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.4",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "perf": "poor",
-        "date": "2026-04-10",
-        "notes": "Gets in game laggy audio lag outfits have issues on textures.",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
         }
       }
     ],
@@ -231453,7 +231463,7 @@
         "notes": "Reaches In game menu. Crashes abruptly",
         "updatedAt": "2026-06-27",
         "date": "2026-06-27",
-        "reportCount": 2,
+        "reportCount": 1,
         "latestReport": {
           "device": "iPhone 16 Pro",
           "platform": "ios",
@@ -231472,7 +231482,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         },
@@ -231494,7 +231503,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         }
@@ -247438,7 +247446,6 @@
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
-          "stage": "stable",
           "commitShort": "57c3ca140"
         }
       }
@@ -247482,7 +247489,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         },
@@ -247504,7 +247510,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         }

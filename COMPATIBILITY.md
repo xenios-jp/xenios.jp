@@ -2,7 +2,7 @@
 
 > **343 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **144** · 🔵 In-Game: **69** · 🟡 Intro: **35** · 🟠 Loads: **44** · 🔴 Doesn't Boot: **51**
+> 🟢 Playable: **143** · 🔵 In-Game: **69** · 🟡 Intro: **35** · 🟠 Loads: **45** · 🔴 Doesn't Boot: **51**
 >
 > 📱 iOS: **316** · 🖥️ macOS: **49**
 
@@ -37,7 +37,7 @@
 | 🟢 | Call of Duty 2 | `415607D1` | 📱 iOS | Playable | 🚀 Great | iPhone 14 Pro Max | 2026-03-09 |
 | 🟢 | Call of Duty 4: Modern Warfare | `415607E6` | 📱 iOS | Playable | 👌 OK | iPhone 17 Pro Max | 2026-04-08 |
 | 🟢 | Call of Duty: Black Ops | `41560855` | 📱 iOS | Playable | 👌 OK | iPhone 15 Pro | 2026-06-11 |
-| 🟢 | Call of Duty: Modern Warfare 2 | `41560817` | 📱 iOS | Playable | 👌 OK | iPhone 16 | 2026-06-14 |
+| 🟢 | Call of Duty: Modern Warfare 2 | `41560817` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro | 2026-06-27 |
 | 🟢 | Call Of Duty: Modern Warfare 3 | `415608CB` | 📱 iOS | Playable | 👌 OK | iPhone 16 | 2026-06-22 |
 | 🟢 | Castle Crashers | `584108B7` | 📱 iOS | Playable | 🚀 Great | iPhone 14 Pro | 2026-06-06 |
 | 🟢 | Civilization Revolution | `545407E5` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro | 2026-03-14 |
@@ -50,7 +50,6 @@
 | 🟢 | DEAD OR ALIVE 4 | `544307D1` | 📱 iOS, 🖥️ macOS | Playable | 🚀 Great | MacBook Pro M1 | 2026-05-30 |
 | 🟢 | Dead Space | `45410857` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro | 2026-03-03 |
 | 🟢 | Deadly Premonition | `4D5607D1` | 📱 iOS | Playable | 👌 OK | iPad (A16) | 2026-03-09 |
-| 🟢 | Deadpool | `415608EC` | 📱 iOS | Playable | 👌 OK | iPad Pro M4 | 2026-06-26 |
 | 🟢 | Devil May Cry 4 | `434307DF` | 📱 iOS | Playable | 🐢 Poor | iPhone 14 Pro | 2026-06-11 |
 | 🟢 | DOA5 Ultimate | `4B5607DA` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-17 |
 | 🟢 | Dragon Age: Origins - Ultimate Edition | `454108C0` | 🖥️ macOS | Playable | 🚀 Great | Mac mini (M4) | 2026-03-15 |
@@ -277,6 +276,7 @@
 | 🟠 | Crash Of The Titans | `565507E4` | 📱 iOS | Loads | 🚀 Great | iPad (A16) | 2026-03-08 |
 | 🟠 | Crysis 3 | `4541098E` | 📱 iOS | Loads | 🐢 Poor | iPad Pro M5 | 2026-03-09 |
 | 🟠 | Dark Souls | `4E4D083A` | 📱 iOS | Loads | 🐢 Poor | iPhone 16e | 2026-03-16 |
+| 🟠 | Deadpool | `415608EC` | 📱 iOS | Loads | 🚀 Great | iPhone 15 Pro | 2026-03-22 |
 | 🟠 | Enslaved: Odyssey to the West | `4E4D07F1` | 🖥️ macOS | Loads | ➖ N/A | MacBook Pro (M1) | 2026-04-12 |
 | 🟠 | Epic Mickey 2 The Power Of Two | `42560816` | 📱 iOS | Loads | 🐢 Poor | iPhone 15 Pro Max | 2026-03-08 |
 | 🟠 | Far Cry 4 | `555308CA` | 📱 iOS | Loads | 👌 OK | iPhone 16 Pro Max | 2026-06-15 |

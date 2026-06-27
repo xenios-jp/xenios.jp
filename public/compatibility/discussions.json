@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T08:49:40.187Z",
+  "generatedAt": "2026-06-27T13:16:51.920Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -62,8 +62,31 @@
       "titleId": "41560817",
       "issueNumber": 514,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/514",
-      "updatedAt": "2026-06-14",
+      "updatedAt": "2026-06-27",
       "entries": [
+        {
+          "id": "comment-4817752791",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/514#issuecomment-4817752791",
+          "author": "xenios-jp",
+          "createdAt": "2026-06-27",
+          "createdAtMs": 1782565995000,
+          "issueNumber": 514,
+          "excerpt": "Plays so fine 💯. Just some minor graphics glitches i.e scope all reddish. 9/10",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 16 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 26.5",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
+          }
+        },
         {
           "id": "comment-4702923908",
           "type": "comment",
@@ -180,25 +203,6 @@
             "appVersion": "1.0.0",
             "buildNumber": "9280",
             "commitShort": "`2633e8177`"
-          }
-        },
-        {
-          "id": "issue-29",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/29",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-02",
-          "createdAtMs": 1772488524000,
-          "issueNumber": 29,
-          "excerpt": "Games not launching for me",
-          "images": [],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPad Pro (M2)",
-            "platform": "iOS",
-            "osVersion": "iOS 18.3.1",
-            "gpuBackend": "MSL"
           }
         }
       ]
