@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T17:02:45.329Z",
+  "generatedAt": "2026-06-27T18:41:19.996Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1319,10 +1319,33 @@
     },
     "45410830": {
       "titleId": "45410830",
-      "issueNumber": 35,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/35",
-      "updatedAt": "2026-03-08",
+      "issueNumber": 565,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/565",
+      "updatedAt": "2026-06-27",
       "entries": [
+        {
+          "id": "issue-565",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/565",
+          "author": "xenios-jp",
+          "createdAt": "2026-06-27",
+          "createdAtMs": 1782585582000,
+          "issueNumber": 565,
+          "excerpt": "at first loads fine, after the cutscene the actual game starts to load and it just crashes",
+          "images": [],
+          "meta": {
+            "status": "intro",
+            "perf": "poor",
+            "device": "iPhone 14 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.5",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
+          }
+        },
         {
           "id": "issue-35",
           "type": "issue",

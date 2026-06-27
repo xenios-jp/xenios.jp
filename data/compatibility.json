@@ -132711,24 +132711,46 @@
     "titleIds": [
       "45410830"
     ],
-    "status": "loads",
+    "status": "intro",
     "perf": "poor",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 17 Pro Max",
+      "device": "iPhone 14 Pro Max",
       "platform": "ios",
-      "osVersion": "26.3",
+      "osVersion": "26.5",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-08",
+    "updatedAt": "2026-06-27",
     "issueNumber": 35,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/35",
-    "notes": "Severe graphical issues on pre-rendered cutscenes. The game will hang on opening \"Left 4 Dead\" loading screen.",
+    "notes": "at first loads fine, after the cutscene the actual game starts to load and it just crashes",
     "reports": [
+      {
+        "device": "iPhone 14 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "intro",
+        "perf": "poor",
+        "date": "2026-06-27",
+        "notes": "at first loads fine, after the cutscene the actual game starts to load and it just crashes",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140"
+        }
+      },
       {
         "device": "iPhone 17 Pro Max",
         "platform": "ios",
@@ -132844,56 +132866,54 @@
       },
       "all": {
         "channel": "all",
-        "status": "loads",
+        "status": "intro",
         "perf": "poor",
-        "notes": "Severe graphical issues on pre-rendered cutscenes. The game will hang on opening \"Left 4 Dead\" loading screen.",
-        "updatedAt": "2026-03-08",
-        "date": "2026-03-08",
-        "reportCount": 3,
+        "notes": "at first loads fine, after the cutscene the actual game starts to load and it just crashes",
+        "updatedAt": "2026-06-27",
+        "date": "2026-06-27",
+        "reportCount": 4,
         "latestReport": {
-          "device": "iPhone 17 Pro Max",
+          "device": "iPhone 14 Pro Max",
           "platform": "ios",
-          "osVersion": "26.3",
+          "osVersion": "26.5",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "loads",
+          "status": "intro",
           "perf": "poor",
-          "date": "2026-03-08",
-          "notes": "Severe graphical issues on pre-rendered cutscenes. The game will hang on opening \"Left 4 Dead\" loading screen.",
-          "reportedTitleId": "45410830",
-          "reportedTitle": "Left 4 Dead",
+          "date": "2026-06-27",
+          "notes": "at first loads fine, after the cutscene the actual game starts to load and it just crashes",
           "screenshots": [],
-          "source": "github",
+          "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9820",
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9820",
-            "commitShort": "2633E8177"
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
           }
         },
         "bestReport": {
-          "device": "iPhone 17 Pro Max",
+          "device": "iPhone 14 Pro Max",
           "platform": "ios",
-          "osVersion": "26.3",
+          "osVersion": "26.5",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "loads",
+          "status": "intro",
           "perf": "poor",
-          "date": "2026-03-08",
-          "notes": "Severe graphical issues on pre-rendered cutscenes. The game will hang on opening \"Left 4 Dead\" loading screen.",
-          "reportedTitleId": "45410830",
-          "reportedTitle": "Left 4 Dead",
+          "date": "2026-06-27",
+          "notes": "at first loads fine, after the cutscene the actual game starts to load and it just crashes",
           "screenshots": [],
-          "source": "github",
+          "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9820",
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9820",
-            "commitShort": "2633E8177"
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
           }
         }
       }

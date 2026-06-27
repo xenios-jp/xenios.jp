@@ -2,7 +2,7 @@
 
 > **344 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **144** · 🔵 In-Game: **69** · 🟡 Intro: **35** · 🟠 Loads: **45** · 🔴 Doesn't Boot: **51**
+> 🟢 Playable: **144** · 🔵 In-Game: **69** · 🟡 Intro: **36** · 🟠 Loads: **44** · 🔴 Doesn't Boot: **51**
 >
 > 📱 iOS: **317** · 🖥️ macOS: **49**
 
@@ -247,6 +247,7 @@
 | 🟡 | Grand Theft Auto V | `545408A7` | 📱 iOS | Intro | 🐢 Poor | iPhone 17 | 2026-06-15 |
 | 🟡 | Halo 4 | `4D530919` | 📱 iOS | Intro | 🐢 Poor | iPad Pro 12.9-inch (M2) | 2026-03-10 |
 | 🟡 | Halo Wars | `4D530808` | 📱 iOS | Intro | 👌 OK | iPhone 17 | 2026-03-03 |
+| 🟡 | Left 4 Dead | `45410830` | 📱 iOS | Intro | 🐢 Poor | iPhone 14 Pro Max | 2026-06-27 |
 | 🟡 | Left 4 Dead 2 | `454108D4` | 📱 iOS | Intro | 🚀 Great | iPhone 15 Pro Max | 2026-06-22 |
 | 🟡 | Lego Lord of the Rings | `5752081D` | 📱 iOS | Intro | 🐢 Poor | iPhone 16e | 2026-06-15 |
 | 🟡 | Madden NFL 17 | `454109F2` | 📱 iOS | Intro | 🐢 Poor | iPad Air 11-inch (M3) | 2026-04-04 |
@@ -286,7 +287,6 @@
 | 🟠 | Grand Theft Auto: San Andreas | `545408B8` | 📱 iOS | Loads | 🐢 Poor | iPhone 15 Pro Max | 2026-04-23 |
 | 🟠 | Jeopardy! | `545108AE` | 📱 iOS | Loads | 🐢 Poor | iPhone 16 Pro | 2026-03-05 |
 | 🟠 | Kung Fu Panda | `415607F2` | 📱 iOS | Loads | 🐢 Poor | iPhone 15 Pro Max | 2026-03-17 |
-| 🟠 | Left 4 Dead | `45410830` | 📱 iOS | Loads | 🐢 Poor | iPhone 17 Pro Max | 2026-03-08 |
 | 🟠 | Lego Batman 2: DC Super Heroes | `57520817` | 📱 iOS | Loads | 🐢 Poor | iPhone 17 Pro Max | 2026-06-11 |
 | 🟠 | Lego Dimensions | `5752084B` | 📱 iOS | Loads | 🐢 Poor | iPad (A16) | 2026-03-09 |
 | 🟠 | Lego Star Wars III: The Clone Wars | `4C4107F3` | 📱 iOS | Loads | 👌 OK | iPhone 15 Pro | 2026-03-10 |
