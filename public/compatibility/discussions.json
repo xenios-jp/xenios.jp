@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T22:09:26.698Z",
+  "generatedAt": "2026-06-28T01:27:52.025Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2602,8 +2602,20 @@
       "titleId": "54510850",
       "issueNumber": 564,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/564",
-      "updatedAt": "2026-06-27",
+      "updatedAt": "2026-06-28",
       "entries": [
+        {
+          "id": "comment-4823841328",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/564#issuecomment-4823841328",
+          "author": "gyh46c95s5-sketch",
+          "createdAt": "2026-06-28",
+          "createdAtMs": 1782609825000,
+          "issueNumber": 564,
+          "excerpt": "Soeo",
+          "images": [],
+          "meta": {}
+        },
         {
           "id": "issue-564",
           "type": "issue",

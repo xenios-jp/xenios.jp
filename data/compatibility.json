@@ -77243,7 +77243,6 @@
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
-          "stage": "stable",
           "commitShort": "57c3ca140"
         }
       }
@@ -77287,7 +77286,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         },
@@ -77309,7 +77307,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         }
@@ -132822,7 +132819,6 @@
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
-          "stage": "stable",
           "commitShort": "57c3ca140"
         }
       },
@@ -132856,27 +132852,6 @@
         "arch": "arm64",
         "gpuBackend": "msl",
         "status": "loads",
-        "perf": "poor",
-        "date": "2026-03-08",
-        "notes": "Severe graphical issues on pre-rendered cutscenes. The game will hang on opening \"Left 4 Dead\" loading screen.",
-        "screenshots": [],
-        "source": "github",
-        "build": {
-          "buildId": "ios-release-1.0.0-9820",
-          "channel": "release",
-          "official": true,
-          "appVersion": "1.0.0",
-          "buildNumber": "9820",
-          "commitShort": "2633E8177"
-        }
-      },
-      {
-        "device": "iPhone 17 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "loads",
         "perf": "ok",
         "date": "2026-03-02",
         "notes": "Get stuck on the left for dead screen before the menu.",
@@ -132891,11 +132866,11 @@
       "release": {
         "channel": "release",
         "status": "loads",
-        "perf": "poor",
-        "notes": "Severe graphical issues on pre-rendered cutscenes. The game will hang on opening \"Left 4 Dead\" loading screen.",
-        "updatedAt": "2026-03-08",
-        "date": "2026-03-08",
-        "reportCount": 2,
+        "perf": "ok",
+        "notes": "Get stuck on the left for dead screen before the menu.",
+        "updatedAt": "2026-03-02",
+        "date": "2026-03-02",
+        "reportCount": 1,
         "latestReport": {
           "device": "iPhone 17 Pro Max",
           "platform": "ios",
@@ -132903,19 +132878,13 @@
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "loads",
-          "perf": "poor",
-          "date": "2026-03-08",
-          "notes": "Severe graphical issues on pre-rendered cutscenes. The game will hang on opening \"Left 4 Dead\" loading screen.",
+          "perf": "ok",
+          "date": "2026-03-02",
+          "notes": "Get stuck on the left for dead screen before the menu.",
+          "reportedTitleId": "45410830",
+          "reportedTitle": "Left 4 Dead",
           "screenshots": [],
-          "source": "github",
-          "build": {
-            "buildId": "ios-release-1.0.0-9820",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.0",
-            "buildNumber": "9820",
-            "commitShort": "2633E8177"
-          }
+          "source": "app"
         },
         "bestReport": {
           "device": "iPhone 17 Pro Max",
@@ -132924,19 +132893,13 @@
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "loads",
-          "perf": "poor",
-          "date": "2026-03-08",
-          "notes": "Severe graphical issues on pre-rendered cutscenes. The game will hang on opening \"Left 4 Dead\" loading screen.",
+          "perf": "ok",
+          "date": "2026-03-02",
+          "notes": "Get stuck on the left for dead screen before the menu.",
+          "reportedTitleId": "45410830",
+          "reportedTitle": "Left 4 Dead",
           "screenshots": [],
-          "source": "github",
-          "build": {
-            "buildId": "ios-release-1.0.0-9820",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.0",
-            "buildNumber": "9820",
-            "commitShort": "2633E8177"
-          }
+          "source": "app"
         }
       },
       "all": {
@@ -132946,7 +132909,7 @@
         "notes": "at first loads fine, after the cutscene the actual game starts to load and it just crashes",
         "updatedAt": "2026-06-27",
         "date": "2026-06-27",
-        "reportCount": 4,
+        "reportCount": 3,
         "latestReport": {
           "device": "iPhone 14 Pro Max",
           "platform": "ios",
@@ -132965,7 +132928,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         },
@@ -132987,7 +132949,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         }
@@ -220616,7 +220577,15 @@
         "perf": "great",
         "date": "2026-06-27",
         "notes": "The game only has a little stutters when attacking enemies. The opening cutscene doesn't have audio.",
-        "screenshots": [],
+        "reportedTitleId": "54510850",
+        "reportedTitle": "SpongeBob: Truth-Sq.",
+        "screenshots": [
+          "https://github.com/user-attachments/assets/d71e7ec5-1688-419e-9934-c7a982ad53d6",
+          "https://github.com/user-attachments/assets/0e982376-c911-462f-b678-51110852fae5",
+          "https://github.com/user-attachments/assets/b6aa6e13-8cbd-4e88-83ec-e3912ff06ccc",
+          "https://github.com/user-attachments/assets/260105bb-9094-4c97-8af7-d0cdb44871c6"
+        ],
+        "submittedBy": "supermariofan3720",
         "source": "github",
         "build": {
           "buildId": "ios-release-2.0.1-9730",
@@ -220627,7 +220596,12 @@
         }
       }
     ],
-    "screenshots": [],
+    "screenshots": [
+      "https://github.com/user-attachments/assets/d71e7ec5-1688-419e-9934-c7a982ad53d6",
+      "https://github.com/user-attachments/assets/0e982376-c911-462f-b678-51110852fae5",
+      "https://github.com/user-attachments/assets/b6aa6e13-8cbd-4e88-83ec-e3912ff06ccc",
+      "https://github.com/user-attachments/assets/260105bb-9094-4c97-8af7-d0cdb44871c6"
+    ],
     "summaries": {
       "release": {
         "channel": "release",
@@ -220647,7 +220621,15 @@
           "perf": "great",
           "date": "2026-06-27",
           "notes": "The game only has a little stutters when attacking enemies. The opening cutscene doesn't have audio.",
-          "screenshots": [],
+          "reportedTitleId": "54510850",
+          "reportedTitle": "SpongeBob: Truth-Sq.",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/d71e7ec5-1688-419e-9934-c7a982ad53d6",
+            "https://github.com/user-attachments/assets/0e982376-c911-462f-b678-51110852fae5",
+            "https://github.com/user-attachments/assets/b6aa6e13-8cbd-4e88-83ec-e3912ff06ccc",
+            "https://github.com/user-attachments/assets/260105bb-9094-4c97-8af7-d0cdb44871c6"
+          ],
+          "submittedBy": "supermariofan3720",
           "source": "github",
           "build": {
             "buildId": "ios-release-2.0.1-9730",
@@ -220667,7 +220649,15 @@
           "perf": "great",
           "date": "2026-06-27",
           "notes": "The game only has a little stutters when attacking enemies. The opening cutscene doesn't have audio.",
-          "screenshots": [],
+          "reportedTitleId": "54510850",
+          "reportedTitle": "SpongeBob: Truth-Sq.",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/d71e7ec5-1688-419e-9934-c7a982ad53d6",
+            "https://github.com/user-attachments/assets/0e982376-c911-462f-b678-51110852fae5",
+            "https://github.com/user-attachments/assets/b6aa6e13-8cbd-4e88-83ec-e3912ff06ccc",
+            "https://github.com/user-attachments/assets/260105bb-9094-4c97-8af7-d0cdb44871c6"
+          ],
+          "submittedBy": "supermariofan3720",
           "source": "github",
           "build": {
             "buildId": "ios-release-2.0.1-9730",
@@ -220696,7 +220686,15 @@
           "perf": "great",
           "date": "2026-06-27",
           "notes": "The game only has a little stutters when attacking enemies. The opening cutscene doesn't have audio.",
-          "screenshots": [],
+          "reportedTitleId": "54510850",
+          "reportedTitle": "SpongeBob: Truth-Sq.",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/d71e7ec5-1688-419e-9934-c7a982ad53d6",
+            "https://github.com/user-attachments/assets/0e982376-c911-462f-b678-51110852fae5",
+            "https://github.com/user-attachments/assets/b6aa6e13-8cbd-4e88-83ec-e3912ff06ccc",
+            "https://github.com/user-attachments/assets/260105bb-9094-4c97-8af7-d0cdb44871c6"
+          ],
+          "submittedBy": "supermariofan3720",
           "source": "github",
           "build": {
             "buildId": "ios-release-2.0.1-9730",
@@ -220716,7 +220714,15 @@
           "perf": "great",
           "date": "2026-06-27",
           "notes": "The game only has a little stutters when attacking enemies. The opening cutscene doesn't have audio.",
-          "screenshots": [],
+          "reportedTitleId": "54510850",
+          "reportedTitle": "SpongeBob: Truth-Sq.",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/d71e7ec5-1688-419e-9934-c7a982ad53d6",
+            "https://github.com/user-attachments/assets/0e982376-c911-462f-b678-51110852fae5",
+            "https://github.com/user-attachments/assets/b6aa6e13-8cbd-4e88-83ec-e3912ff06ccc",
+            "https://github.com/user-attachments/assets/260105bb-9094-4c97-8af7-d0cdb44871c6"
+          ],
+          "submittedBy": "supermariofan3720",
           "source": "github",
           "build": {
             "buildId": "ios-release-2.0.1-9730",
