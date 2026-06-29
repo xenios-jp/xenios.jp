@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T16:29:45.928Z",
+  "generatedAt": "2026-06-29T20:21:25.957Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -4812,8 +4812,33 @@
       "titleId": "545408A7",
       "issueNumber": 516,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/516",
-      "updatedAt": "2026-06-15",
+      "updatedAt": "2026-06-29",
       "entries": [
+        {
+          "id": "comment-4836664664",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/516#issuecomment-4836664664",
+          "author": "xenios-jp",
+          "createdAt": "2026-06-29",
+          "createdAtMs": 1782764318000,
+          "issueNumber": 516,
+          "excerpt": "the game ran alright but would soon freeze or the entire app would crash",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408A7/1782764313005-1.jpg"
+          ],
+          "meta": {
+            "status": "ingame",
+            "perf": "ok",
+            "device": "iPhone 14 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.5",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
+          }
+        },
         {
           "id": "issue-516",
           "type": "issue",
@@ -4929,29 +4954,6 @@
             "device": "iPhone 13 Pro",
             "platform": "iOS",
             "osVersion": "iOS 18.7.7",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "`056d2f64d`"
-          }
-        },
-        {
-          "id": "comment-4148028891",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/369#issuecomment-4148028891",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-28",
-          "createdAtMs": 1774702403000,
-          "issueNumber": 369,
-          "excerpt": "No sound fps is good for a game like gta 5",
-          "images": [],
-          "meta": {
-            "status": "ingame",
-            "perf": "ok",
-            "device": "iPhone 16",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3.1",
             "gpuBackend": "MSL",
             "buildChannel": "self-built",
             "appVersion": "1.0.1",
