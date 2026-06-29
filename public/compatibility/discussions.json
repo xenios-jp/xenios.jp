@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T01:27:52.025Z",
+  "generatedAt": "2026-06-29T16:29:45.928Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -4996,8 +4996,31 @@
       "titleId": "4B4E080A",
       "issueNumber": 512,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/512",
-      "updatedAt": "2026-06-13",
+      "updatedAt": "2026-06-29",
       "entries": [
+        {
+          "id": "comment-4834763625",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/512#issuecomment-4834763625",
+          "author": "xenios-jp",
+          "createdAt": "2026-06-29",
+          "createdAtMs": 1782750417000,
+          "issueNumber": 512,
+          "excerpt": "Just black screen, or XeniOs just crashes completely",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPad Air 5",
+            "platform": "iOS",
+            "osVersion": "iOS 26.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
+          }
+        },
         {
           "id": "issue-512",
           "type": "issue",
