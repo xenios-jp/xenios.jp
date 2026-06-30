@@ -151135,9 +151135,7 @@
         }
       }
     ],
-    "screenshots": [
-      "https://github.com/user-attachments/assets/f1b79148-8650-4b25-ae57-b85d584e6943"
-    ],
+    "screenshots": [],
     "summaries": {
       "release": {
         "channel": "release",
@@ -182104,14 +182102,47 @@
     "titleIds": [
       "5553083E"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "loads",
+    "perf": "poor",
     "tags": [],
-    "platforms": [],
-    "lastReport": null,
-    "updatedAt": "",
-    "notes": "",
-    "reports": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPad Pro 13-inch (M4)",
+      "platform": "ios",
+      "osVersion": "26.5",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-06-30",
+    "issueNumber": 568,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/568",
+    "notes": "Thr games gets stuck after a short period of games play",
+    "reports": [
+      {
+        "device": "iPad Pro 13-inch (M4)",
+        "platform": "ios",
+        "osVersion": "26.5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "loads",
+        "perf": "poor",
+        "date": "2026-06-30",
+        "notes": "Thr games gets stuck after a short period of games play",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140"
+        }
+      }
+    ],
     "screenshots": [],
     "summaries": {
       "release": {
@@ -182127,14 +182158,56 @@
       },
       "all": {
         "channel": "all",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "loads",
+        "perf": "poor",
+        "notes": "Thr games gets stuck after a short period of games play",
+        "updatedAt": "2026-06-30",
+        "date": "2026-06-30",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPad Pro 13-inch (M4)",
+          "platform": "ios",
+          "osVersion": "26.5",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "loads",
+          "perf": "poor",
+          "date": "2026-06-30",
+          "notes": "Thr games gets stuck after a short period of games play",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
+          }
+        },
+        "bestReport": {
+          "device": "iPad Pro 13-inch (M4)",
+          "platform": "ios",
+          "osVersion": "26.5",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "loads",
+          "perf": "poor",
+          "date": "2026-06-30",
+          "notes": "Thr games gets stuck after a short period of games play",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
+          }
+        }
       }
     }
   },
@@ -238266,9 +238339,7 @@
         }
       }
     ],
-    "screenshots": [
-      "https://github.com/user-attachments/assets/4dddde36-451b-4c3c-9c42-b1a4df1493fd"
-    ],
+    "screenshots": [],
     "summaries": {
       "release": {
         "channel": "release",
@@ -239719,8 +239790,7 @@
       }
     ],
     "screenshots": [
-      "https://github.com/user-attachments/assets/21e43d82-9aff-459d-8d08-53920491d782",
-      "https://github.com/user-attachments/assets/c343c85a-cd60-4f7a-b17f-5545d3d83ab4"
+      "https://github.com/user-attachments/assets/21e43d82-9aff-459d-8d08-53920491d782"
     ],
     "summaries": {
       "release": {

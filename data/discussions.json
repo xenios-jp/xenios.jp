@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T20:21:25.957Z",
+  "generatedAt": "2026-06-30T14:09:33.438Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1012,9 +1012,9 @@
     },
     "45410809": {
       "titleId": "45410809",
-      "issueNumber": 98,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/98",
-      "updatedAt": "2026-06-02",
+      "issueNumber": 414,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/414",
+      "updatedAt": "2026-04-13",
       "entries": [
         {
           "id": "issue-414",
@@ -1087,20 +1087,6 @@
             "buildNumber": "9296",
             "commitShort": "`ab2ca341a`"
           }
-        },
-        {
-          "id": "issue-98",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/98",
-          "author": "daisuke1227",
-          "createdAt": "2026-03-08",
-          "createdAtMs": 1773007911000,
-          "issueNumber": 98,
-          "excerpt": "So when watching the cutscenes it's basically a mess there's way to much graphical errors and it's literally unwatchable the audio is super buggy when getting in game and i get 20-30 FPS but this is one of the phew games that aren't super bad all the shaders and assets load up relatively fast compared to other games and it's kinda playable just forget about the audio",
-          "images": [
-            "https://github.com/user-attachments/assets/c343c85a-cd60-4f7a-b17f-5545d3d83ab4"
-          ],
-          "meta": {}
         }
       ]
     },
@@ -1444,20 +1430,6 @@
             "buildNumber": "9288",
             "commitShort": "`056d2f64d`"
           }
-        },
-        {
-          "id": "issue-76",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/76",
-          "author": "daisuke1227",
-          "createdAt": "2026-03-08",
-          "createdAtMs": 1773001591000,
-          "issueNumber": 76,
-          "excerpt": "So when this took 3-4 boots to get into game the first boot gets in gale but doesn't get in the title screen the second boot gets in the title screen but when playing the video (chapter) it doesn't work and same for 3 but the 4th time it actually got past and it's playable but it loads all of the assets/shaders super slowly taking around 1-3 minutes to load almost all of it",
-          "images": [
-            "https://github.com/user-attachments/assets/f1b79148-8650-4b25-ae57-b85d584e6943"
-          ],
-          "meta": {}
         }
       ]
     },
@@ -3458,6 +3430,37 @@
         }
       ]
     },
+    "5553083E": {
+      "titleId": "5553083E",
+      "issueNumber": 568,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/568",
+      "updatedAt": "2026-06-30",
+      "entries": [
+        {
+          "id": "issue-568",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/568",
+          "author": "xenios-jp",
+          "createdAt": "2026-06-30",
+          "createdAtMs": 1782828465000,
+          "issueNumber": 568,
+          "excerpt": "Thr games gets stuck after a short period of games play",
+          "images": [],
+          "meta": {
+            "status": "loads",
+            "perf": "poor",
+            "device": "iPad Pro 13-inch (M4)",
+            "platform": "iOS",
+            "osVersion": "iOS 26.5",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
+          }
+        }
+      ]
+    },
     "5553087E": {
       "titleId": "5553087E",
       "issueNumber": 566,
@@ -4182,14 +4185,14 @@
           }
         },
         {
-          "id": "comment-4019794445",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/56#issuecomment-4019794445",
-          "author": "daisuke1227",
+          "id": "issue-56",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/56",
+          "author": "randomname2077",
           "createdAt": "2026-03-08",
-          "createdAtMs": 1772996757000,
+          "createdAtMs": 1772995869000,
           "issueNumber": 56,
-          "excerpt": "try relaunching a couple of times and see if that fixes it",
+          "excerpt": "the game just insta crashes no matter what you do. this appears to be an issue that extends to iOS/iPadOS 17 at large, not particularly tied to this specific game.",
           "images": [],
           "meta": {}
         }
@@ -10550,18 +10553,6 @@
             "buildNumber": "9320",
             "commitShort": "`3d70b7b41a`"
           }
-        },
-        {
-          "id": "issue-78",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/78",
-          "author": "daisuke1227",
-          "createdAt": "2026-03-08",
-          "createdAtMs": 1773002334000,
-          "issueNumber": 78,
-          "excerpt": "So this takes a couple of reboots to actually get the game to launch it loads textures and assets very slowly and it gets around 9-10 FPS it runs but its super slow and loads shaders and everything super slowly",
-          "images": [],
-          "meta": {}
         }
       ]
     },
@@ -15300,28 +15291,6 @@
             "buildNumber": "9280",
             "commitShort": "`2633e8177`"
           }
-        }
-      ]
-    },
-    "4541080F": {
-      "titleId": "4541080F",
-      "issueNumber": 83,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/83",
-      "updatedAt": "2026-03-08",
-      "entries": [
-        {
-          "id": "issue-83",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/83",
-          "author": "daisuke1227",
-          "createdAt": "2026-03-08",
-          "createdAtMs": 1773002978000,
-          "issueNumber": 83,
-          "excerpt": "So The Orange Box does load yes but even after several reboots it can't reach into gameplay so there's not much i can note about",
-          "images": [
-            "https://github.com/user-attachments/assets/4dddde36-451b-4c3c-9c42-b1a4df1493fd"
-          ],
-          "meta": {}
         }
       ]
     },
