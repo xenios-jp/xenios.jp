@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T14:09:33.438Z",
+  "generatedAt": "2026-06-30T14:14:57.109Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -3436,6 +3436,29 @@
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/568",
       "updatedAt": "2026-06-30",
       "entries": [
+        {
+          "id": "comment-4844404945",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/568#issuecomment-4844404945",
+          "author": "xenios-jp",
+          "createdAt": "2026-06-30",
+          "createdAtMs": 1782828701000,
+          "issueNumber": 568,
+          "excerpt": "No sound the games gets stuck it freezes not playable",
+          "images": [],
+          "meta": {
+            "status": "loads",
+            "perf": "poor",
+            "device": "iPad Pro 13-inch (M4)",
+            "platform": "iOS",
+            "osVersion": "iOS 26.5",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
+          }
+        },
         {
           "id": "issue-568",
           "type": "issue",
