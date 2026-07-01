@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T14:14:57.109Z",
+  "generatedAt": "2026-07-01T14:13:44.888Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -3427,6 +3427,97 @@
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
           "images": [],
           "meta": {}
+        }
+      ]
+    },
+    "4156081C": {
+      "titleId": "4156081C",
+      "issueNumber": 569,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/569",
+      "updatedAt": "2026-07-01",
+      "entries": [
+        {
+          "id": "issue-569",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/569",
+          "author": "xenios-jp",
+          "createdAt": "2026-07-01",
+          "createdAtMs": 1782915117000,
+          "issueNumber": 569,
+          "excerpt": "Game just freezes after a while",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "poor",
+            "device": "iPhone 17",
+            "platform": "iOS",
+            "osVersion": "iOS 26.5.2",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
+          }
+        },
+        {
+          "id": "comment-4085561984",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/239#issuecomment-4085561984",
+          "author": "xelahot",
+          "createdAt": "2026-03-18",
+          "createdAtMs": 1773867780000,
+          "issueNumber": 239,
+          "excerpt": "Oh that game would ve sick on iPhone! I tried an ISO but I on'y get a black screen",
+          "images": [],
+          "meta": {}
+        },
+        {
+          "id": "issue-239",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/239",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-13",
+          "createdAtMs": 1773396306000,
+          "issueNumber": 239,
+          "excerpt": "just a black screen",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4156081C/1773396303623-1.jpg"
+          ],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 15 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 18.7.2",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9299",
+            "commitShort": "`d8c101905`"
+          }
+        },
+        {
+          "id": "issue-117",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/117",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-09",
+          "createdAtMs": 1773027415000,
+          "issueNumber": 117,
+          "excerpt": "Crashes at boot, get the initial loading screen then nothing",
+          "images": [],
+          "meta": {
+            "status": "loads",
+            "perf": "poor",
+            "device": "iPhone 15 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
         }
       ]
     },
@@ -12822,74 +12913,6 @@
             "appVersion": "1.0.0",
             "buildNumber": "9299",
             "commitShort": "`d8c101905`"
-          }
-        }
-      ]
-    },
-    "4156081C": {
-      "titleId": "4156081C",
-      "issueNumber": 239,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/239",
-      "updatedAt": "2026-03-18",
-      "entries": [
-        {
-          "id": "comment-4085561984",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/239#issuecomment-4085561984",
-          "author": "xelahot",
-          "createdAt": "2026-03-18",
-          "createdAtMs": 1773867780000,
-          "issueNumber": 239,
-          "excerpt": "Oh that game would ve sick on iPhone! I tried an ISO but I on'y get a black screen",
-          "images": [],
-          "meta": {}
-        },
-        {
-          "id": "issue-239",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/239",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-13",
-          "createdAtMs": 1773396306000,
-          "issueNumber": 239,
-          "excerpt": "just a black screen",
-          "images": [
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4156081C/1773396303623-1.jpg"
-          ],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPhone 15 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 18.7.2",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9299",
-            "commitShort": "`d8c101905`"
-          }
-        },
-        {
-          "id": "issue-117",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/117",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-09",
-          "createdAtMs": 1773027415000,
-          "issueNumber": 117,
-          "excerpt": "Crashes at boot, get the initial loading screen then nothing",
-          "images": [],
-          "meta": {
-            "status": "loads",
-            "perf": "poor",
-            "device": "iPhone 15 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 26.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "`2633e8177`"
           }
         }
       ]
