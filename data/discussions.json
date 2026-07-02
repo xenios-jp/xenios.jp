@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T14:13:44.888Z",
+  "generatedAt": "2026-07-02T14:32:55.632Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -3427,6 +3427,152 @@
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
           "images": [],
           "meta": {}
+        }
+      ]
+    },
+    "4D5309C9": {
+      "titleId": "4D5309C9",
+      "issueNumber": 570,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/570",
+      "updatedAt": "2026-07-02",
+      "entries": [
+        {
+          "id": "issue-570",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/570",
+          "author": "xenios-jp",
+          "createdAt": "2026-07-02",
+          "createdAtMs": 1783002664000,
+          "issueNumber": 570,
+          "excerpt": "It just crashes every time I try",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPad Air 5",
+            "platform": "iOS",
+            "osVersion": "iOS 26.5",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
+          }
+        },
+        {
+          "id": "comment-4580180731",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/371#issuecomment-4580180731",
+          "author": "xenios-jp",
+          "createdAt": "2026-05-29",
+          "createdAtMs": 1780091702000,
+          "issueNumber": 371,
+          "excerpt": "Game just shows black screen.",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 14",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
+        {
+          "id": "comment-4527710674",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/371#issuecomment-4527710674",
+          "author": "xenios-jp",
+          "createdAt": "2026-05-24",
+          "createdAtMs": 1779607479000,
+          "issueNumber": 371,
+          "excerpt": "Bootd up fine but its all greenish pixels idk whats the issue but texts are fine but renders are just green",
+          "images": [],
+          "meta": {
+            "status": "loads",
+            "perf": "ok",
+            "device": "iPhone 13 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
+        {
+          "id": "comment-4373018874",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/371#issuecomment-4373018874",
+          "author": "xenios-jp",
+          "createdAt": "2026-05-04",
+          "createdAtMs": 1777915247000,
+          "issueNumber": 371,
+          "excerpt": "No Racing",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 16e",
+            "platform": "iOS",
+            "osVersion": "iOS 26.5",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
+        {
+          "id": "issue-371",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/371",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-28",
+          "createdAtMs": 1774676276000,
+          "issueNumber": 371,
+          "excerpt": "In-game but with severe graphical and audio issues, way too unstable to be at all playable but somehow didn’t crash.",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "poor",
+            "device": "iPad Air 11-inch (M3)",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
+        {
+          "id": "comment-4098484245",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/247#issuecomment-4098484245",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-20",
+          "createdAtMs": 1774017536000,
+          "issueNumber": 247,
+          "excerpt": "Please dev I know you did biggest thing yet but you need to a little more thanks if you see this",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPad Air 5",
+            "platform": "iOS",
+            "osVersion": "iOS 26.0.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
         }
       ]
     },
@@ -9901,152 +10047,6 @@
             "status": "ingame",
             "perf": "poor",
             "device": "iPhone 16e",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "`056d2f64d`"
-          }
-        }
-      ]
-    },
-    "4D5309C9": {
-      "titleId": "4D5309C9",
-      "issueNumber": 61,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/61",
-      "updatedAt": "2026-06-22",
-      "entries": [
-        {
-          "id": "comment-4580180731",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/371#issuecomment-4580180731",
-          "author": "xenios-jp",
-          "createdAt": "2026-05-29",
-          "createdAtMs": 1780091702000,
-          "issueNumber": 371,
-          "excerpt": "Game just shows black screen.",
-          "images": [],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPhone 14",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "`056d2f64d`"
-          }
-        },
-        {
-          "id": "comment-4527710674",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/371#issuecomment-4527710674",
-          "author": "xenios-jp",
-          "createdAt": "2026-05-24",
-          "createdAtMs": 1779607479000,
-          "issueNumber": 371,
-          "excerpt": "Bootd up fine but its all greenish pixels idk whats the issue but texts are fine but renders are just green",
-          "images": [],
-          "meta": {
-            "status": "loads",
-            "perf": "ok",
-            "device": "iPhone 13 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 26.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "`056d2f64d`"
-          }
-        },
-        {
-          "id": "comment-4373018874",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/371#issuecomment-4373018874",
-          "author": "xenios-jp",
-          "createdAt": "2026-05-04",
-          "createdAtMs": 1777915247000,
-          "issueNumber": 371,
-          "excerpt": "No Racing",
-          "images": [],
-          "meta": {
-            "status": "playable",
-            "perf": "ok",
-            "device": "iPhone 16e",
-            "platform": "iOS",
-            "osVersion": "iOS 26.5",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "`056d2f64d`"
-          }
-        },
-        {
-          "id": "issue-371",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/371",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-28",
-          "createdAtMs": 1774676276000,
-          "issueNumber": 371,
-          "excerpt": "In-game but with severe graphical and audio issues, way too unstable to be at all playable but somehow didn’t crash.",
-          "images": [],
-          "meta": {
-            "status": "ingame",
-            "perf": "poor",
-            "device": "iPad Air 11-inch (M3)",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "`056d2f64d`"
-          }
-        },
-        {
-          "id": "comment-4098484245",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/247#issuecomment-4098484245",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-20",
-          "createdAtMs": 1774017536000,
-          "issueNumber": 247,
-          "excerpt": "Please dev I know you did biggest thing yet but you need to a little more thanks if you see this",
-          "images": [],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPad Air 5",
-            "platform": "iOS",
-            "osVersion": "iOS 26.0.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "`056d2f64d`"
-          }
-        },
-        {
-          "id": "comment-4059208206",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/247#issuecomment-4059208206",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-14",
-          "createdAtMs": 1773454962000,
-          "issueNumber": 247,
-          "excerpt": "I'd consider it to be \"playable\" but it gives you a bad experience. hovers around 10-15 fps with missing foliage in the background and VERY loud audio.",
-          "images": [],
-          "meta": {
-            "status": "playable",
-            "perf": "poor",
-            "device": "iPhone 17 Pro Max",
             "platform": "iOS",
             "osVersion": "iOS 26.3.1",
             "gpuBackend": "MSL",
