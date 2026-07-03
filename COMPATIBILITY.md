@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **347 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **348 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **147** · 🔵 In-Game: **70** · 🟡 Intro: **35** · 🟠 Loads: **44** · 🔴 Doesn't Boot: **51**
+> 🟢 Playable: **147** · 🔵 In-Game: **70** · 🟡 Intro: **35** · 🟠 Loads: **44** · 🔴 Doesn't Boot: **52**
 >
-> 📱 iOS: **320** · 🖥️ macOS: **49**
+> 📱 iOS: **321** · 🖥️ macOS: **49**
 
 ## Legend
 
@@ -356,6 +356,7 @@
 | 🔴 | Split/Second | `425607E7` | 🖥️ macOS | Doesn't Boot | ➖ N/A | MacBook Pro (M1) | 2026-04-12 |
 | 🔴 | SpongeBob SquarePants: Underpants Slam | `5841089F` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Mini (A17 Pro) | 2026-03-15 |
 | 🔴 | Star Ocean: The Last Hope | `535107DD` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-03 |
+| 🔴 | Street Fighter III: Online Edition | `58410B16` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 Pro Max | 2026-07-03 |
 | 🔴 | Tekken 6 | `4E4D07FC` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad (A16) | 2026-04-28 |
 | 🔴 | The Amazing Spider-Man 2 | `41560905` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 | 2026-03-12 |
 | 🔴 | The Godfather | `454107E9` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-09 |
