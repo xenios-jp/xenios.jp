@@ -151095,24 +151095,46 @@
     "titleIds": [
       "45410850"
     ],
-    "status": "ingame",
-    "perf": "poor",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone Air",
+      "device": "iPhone 17 Pro",
       "platform": "ios",
-      "osVersion": "26.0",
+      "osVersion": "26.5.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-23",
+    "updatedAt": "2026-07-03",
     "issueNumber": 76,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/76",
-    "notes": "So when this took 3-4 boots to get into game the first boot gets in gale but doesn't get in the title screen the second boot gets in the title screen but when playing the video (chapter) it doesn't work and same for 3 but the 4th time it actually got past and it's playable but it loads all of the assets/shaders super slowly taking around 1-3 minutes to load almost all of it",
+    "notes": "Takes a sec for assets to load but very playable",
     "reports": [
+      {
+        "device": "iPhone 17 Pro",
+        "platform": "ios",
+        "osVersion": "26.5.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-07-03",
+        "notes": "Takes a sec for assets to load but very playable",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140"
+        }
+      },
       {
         "device": "iPhone 16 Pro",
         "platform": "ios",
@@ -151194,54 +151216,54 @@
       },
       "all": {
         "channel": "all",
-        "status": "ingame",
-        "perf": "poor",
-        "notes": "So when this took 3-4 boots to get into game the first boot gets in gale but doesn't get in the title screen the second boot gets in the title screen but when playing the video (chapter) it doesn't work and same for 3 but the 4th time it actually got past and it's playable but it loads all of the assets/shaders super slowly taking around 1-3 minutes to load almost all of it",
-        "updatedAt": "2026-03-23",
-        "date": "2026-03-23",
-        "reportCount": 3,
+        "status": "playable",
+        "perf": "great",
+        "notes": "Takes a sec for assets to load but very playable",
+        "updatedAt": "2026-07-03",
+        "date": "2026-07-03",
+        "reportCount": 4,
         "latestReport": {
-          "device": "iPhone 16 Pro",
+          "device": "iPhone 17 Pro",
           "platform": "ios",
-          "osVersion": "26.0",
+          "osVersion": "26.5.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-23",
-          "notes": "Boots to a black screen and I let it sit for a while and still nothing. Eventually the app freezes so I just turned off my phone but then my touch screen became unresponsive when I tried to reboot, the buttons didn’t do anything so I had to use Siri. I don’t recommend.",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-07-03",
+          "notes": "Takes a sec for assets to load but very playable",
           "screenshots": [],
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
           }
         },
         "bestReport": {
-          "device": "iPhone Air",
+          "device": "iPhone 17 Pro",
           "platform": "ios",
-          "osVersion": "26.0",
+          "osVersion": "26.5.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-03-08",
-          "notes": "So when this took 3-4 boots to get into game the first boot gets in gale but doesn't get in the title screen the second boot gets in the title screen but when playing the video (chapter) it doesn't work and same for 3 but the 4th time it actually got past and it's playable but it loads all of the assets/shaders super slowly taking around 1-3 minutes to load almost all of it",
-          "reportedTitleId": "45410850",
-          "reportedTitle": "Mirror's Edge™",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-07-03",
+          "notes": "Takes a sec for assets to load but very playable",
           "screenshots": [],
-          "source": "github",
+          "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633E8177"
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
           }
         }
       }
@@ -232104,14 +232126,47 @@
     "titleIds": [
       "465307D7"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
-    "platforms": [],
-    "lastReport": null,
-    "updatedAt": "",
-    "notes": "",
-    "reports": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 17 Pro",
+      "platform": "ios",
+      "osVersion": "26.5.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-07-03",
+    "issueNumber": 573,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/573",
+    "notes": "Buttery smooth",
+    "reports": [
+      {
+        "device": "iPhone 17 Pro",
+        "platform": "ios",
+        "osVersion": "26.5.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-07-03",
+        "notes": "Buttery smooth",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140"
+        }
+      }
+    ],
     "screenshots": [],
     "summaries": {
       "release": {
@@ -232127,14 +232182,56 @@
       },
       "all": {
         "channel": "all",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "playable",
+        "perf": "great",
+        "notes": "Buttery smooth",
+        "updatedAt": "2026-07-03",
+        "date": "2026-07-03",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 17 Pro",
+          "platform": "ios",
+          "osVersion": "26.5.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-07-03",
+          "notes": "Buttery smooth",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 17 Pro",
+          "platform": "ios",
+          "osVersion": "26.5.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-07-03",
+          "notes": "Buttery smooth",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
+          }
+        }
       }
     }
   },

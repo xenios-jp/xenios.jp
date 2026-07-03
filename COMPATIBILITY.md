@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **346 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **347 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **145** · 🔵 In-Game: **71** · 🟡 Intro: **35** · 🟠 Loads: **44** · 🔴 Doesn't Boot: **51**
+> 🟢 Playable: **147** · 🔵 In-Game: **70** · 🟡 Intro: **35** · 🟠 Loads: **44** · 🔴 Doesn't Boot: **51**
 >
-> 📱 iOS: **319** · 🖥️ macOS: **49**
+> 📱 iOS: **320** · 🖥️ macOS: **49**
 
 ## Legend
 
@@ -102,6 +102,7 @@
 | 🟢 | Metal Slug 3 | `584108CF` | 📱 iOS | Playable | 🚀 Great | iPhone 15 | 2026-06-07 |
 | 🟢 | Midnight Club: Los Angeles | `545407F8` | 📱 iOS | Playable | 👌 OK | iPad Pro 13-inch (M5) | 2026-06-13 |
 | 🟢 | Minecraft: Xbox 360 Edition | `4D530A81` | 📱 iOS | Playable | 👌 OK | iPhone 14 Pro Max | 2026-05-05 |
+| 🟢 | Mirror's Edge | `45410850` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro | 2026-07-03 |
 | 🟢 | Mortal Kombat Arcade Kollection | `58410B62` | 📱 iOS | Playable | 🐢 Poor | iPhone 17 Pro Max | 2026-06-24 |
 | 🟢 | Mortal Kombat Komplete Edition | `575207FD` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-06-15 |
 | 🟢 | N+ | `5841085C` | 📱 iOS | Playable | 🚀 Great | iPhone 14 Pro Max | 2026-03-25 |
@@ -147,6 +148,7 @@
 | 🟢 | Steins;Gate Hiyoku Renri no Darling | `465607E8` | 📱 iOS | Playable | 🚀 Great | iPhone 17 | 2026-03-02 |
 | 🟢 | STREET FIGHTER X TEKKEN | `4343080F` | 📱 iOS | Playable | 🐢 Poor | iPhone 16 Pro Max | 2026-03-11 |
 | 🟢 | Super Street Fighter 2 THD | `584108A4` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-06-25 |
+| 🟢 | Tenchu Z | `465307D7` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro | 2026-07-03 |
 | 🟢 | Test Drive Unlimited | `494707D4` | 📱 iOS | Playable | 👌 OK | iPhone 17 Pro Max | 2026-03-27 |
 | 🟢 | The Elder Scrolls 4: Oblivion - Game of the Year Edition | `425307D1` | 📱 iOS | Playable | 👌 OK | iPhone 14 Plus | 2026-03-22 |
 | 🟢 | The Outfit | `545107D2` | 📱 iOS | Playable | 🐢 Poor | iPhone 15 Pro Max | 2026-03-13 |
@@ -204,7 +206,6 @@
 | 🔵 | Metal Gear Solid V: The Phantom Pain | `4B4E085E` | 📱 iOS | In-Game | 🐢 Poor | iPad Pro M4 | 2026-06-25 |
 | 🔵 | Metro Last Light | `4B4D07F5` | 🖥️ macOS | In-Game | 👌 OK | MacBook Pro M4 Pro/Max | 2026-02-28 |
 | 🔵 | Middle Earth: Shadow of Mordor | `5752082C` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro Max | 2026-06-12 |
-| 🔵 | Mirror's Edge | `45410850` | 📱 iOS | In-Game | 🐢 Poor | iPhone Air | 2026-03-23 |
 | 🔵 | NBA 2K10 | `54540852` | 📱 iOS | In-Game | 👌 OK | iPhone 16e | 2026-03-10 |
 | 🔵 | NBA 2K11 | `5454087A` | 📱 iOS | In-Game | 👌 OK | iPhone 16e | 2026-03-10 |
 | 🔵 | NBA JAM | `4541094C` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro Max | 2026-03-08 |

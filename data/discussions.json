@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T14:32:55.632Z",
+  "generatedAt": "2026-07-03T07:44:15.791Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1381,10 +1381,33 @@
     },
     "45410850": {
       "titleId": "45410850",
-      "issueNumber": 303,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/303",
-      "updatedAt": "2026-03-23",
+      "issueNumber": 572,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/572",
+      "updatedAt": "2026-07-03",
       "entries": [
+        {
+          "id": "issue-572",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/572",
+          "author": "xenios-jp",
+          "createdAt": "2026-07-03",
+          "createdAtMs": 1783064445000,
+          "issueNumber": 572,
+          "excerpt": "Takes a sec for assets to load but very playable",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 17 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 26.5.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
+          }
+        },
         {
           "id": "comment-4107688169",
           "type": "comment",
@@ -3427,6 +3450,37 @@
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
           "images": [],
           "meta": {}
+        }
+      ]
+    },
+    "465307D7": {
+      "titleId": "465307D7",
+      "issueNumber": 573,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/573",
+      "updatedAt": "2026-07-03",
+      "entries": [
+        {
+          "id": "issue-573",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/573",
+          "author": "xenios-jp",
+          "createdAt": "2026-07-03",
+          "createdAtMs": 1783064497000,
+          "issueNumber": 573,
+          "excerpt": "Buttery smooth",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 17 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 26.5.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
+          }
         }
       ]
     },
