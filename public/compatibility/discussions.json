@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-03T22:24:45.558Z",
+  "generatedAt": "2026-07-04T05:43:53.898Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -3450,6 +3450,83 @@
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
           "images": [],
           "meta": {}
+        }
+      ]
+    },
+    "5454086B": {
+      "titleId": "5454086B",
+      "issueNumber": 575,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/575",
+      "updatedAt": "2026-07-04",
+      "entries": [
+        {
+          "id": "issue-575",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/575",
+          "author": "xenios-jp",
+          "createdAt": "2026-07-04",
+          "createdAtMs": 1783143729000,
+          "issueNumber": 575,
+          "excerpt": "The intro plays normally but the moment the pre rendered intro cutscenes are done the game is a black screen and you can’t progress from there",
+          "images": [],
+          "meta": {
+            "status": "intro",
+            "perf": "poor",
+            "device": "iPhone 16",
+            "platform": "iOS",
+            "osVersion": "iOS 26.4.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
+          }
+        },
+        {
+          "id": "comment-4414248294",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/437#issuecomment-4414248294",
+          "author": "xenios-jp",
+          "createdAt": "2026-05-10",
+          "createdAtMs": 1778380229000,
+          "issueNumber": 437,
+          "excerpt": "Load to de manu but every thing looks black. Menu work good",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.4.2",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
+        {
+          "id": "issue-437",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/437",
+          "author": "xenios-jp",
+          "createdAt": "2026-05-09",
+          "createdAtMs": 1778312492000,
+          "issueNumber": 437,
+          "excerpt": "The videos are good. But the game looks complete black also de sound is very bad. Intro work good.",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "poor",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.4.2",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
         }
       ]
     },
@@ -8175,60 +8252,6 @@
           "meta": {
             "status": "playable",
             "perf": "great",
-            "device": "iPhone 17 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 26.4.2",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "`056d2f64d`"
-          }
-        }
-      ]
-    },
-    "5454086B": {
-      "titleId": "5454086B",
-      "issueNumber": 437,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/437",
-      "updatedAt": "2026-05-10",
-      "entries": [
-        {
-          "id": "comment-4414248294",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/437#issuecomment-4414248294",
-          "author": "xenios-jp",
-          "createdAt": "2026-05-10",
-          "createdAtMs": 1778380229000,
-          "issueNumber": 437,
-          "excerpt": "Load to de manu but every thing looks black. Menu work good",
-          "images": [],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPhone 17 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 26.4.2",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "`056d2f64d`"
-          }
-        },
-        {
-          "id": "issue-437",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/437",
-          "author": "xenios-jp",
-          "createdAt": "2026-05-09",
-          "createdAtMs": 1778312492000,
-          "issueNumber": 437,
-          "excerpt": "The videos are good. But the game looks complete black also de sound is very bad. Intro work good.",
-          "images": [],
-          "meta": {
-            "status": "ingame",
-            "perf": "poor",
             "device": "iPhone 17 Pro Max",
             "platform": "iOS",
             "osVersion": "iOS 26.4.2",
