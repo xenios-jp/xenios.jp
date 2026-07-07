@@ -77265,11 +77265,33 @@
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-06-27",
+    "updatedAt": "2026-07-07",
     "issueNumber": 566,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/566",
     "notes": "ran really well unless a lot of cars and trucks are seen, also I had no sound at all",
     "reports": [
+      {
+        "device": "iPad Air 11-inch (M3)",
+        "platform": "ios",
+        "osVersion": "18.6.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-07-07",
+        "notes": "Crashes Xenios on launch",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140"
+        }
+      },
       {
         "device": "iPhone 14 Pro Max",
         "platform": "ios",
@@ -77310,19 +77332,19 @@
         "status": "playable",
         "perf": "ok",
         "notes": "ran really well unless a lot of cars and trucks are seen, also I had no sound at all",
-        "updatedAt": "2026-06-27",
-        "date": "2026-06-27",
-        "reportCount": 1,
+        "updatedAt": "2026-07-07",
+        "date": "2026-07-07",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 14 Pro Max",
+          "device": "iPad Air 11-inch (M3)",
           "platform": "ios",
-          "osVersion": "26.5",
+          "osVersion": "18.6.2",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-06-27",
-          "notes": "ran really well unless a lot of cars and trucks are seen, also I had no sound at all",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-07-07",
+          "notes": "Crashes Xenios on launch",
           "screenshots": [],
           "source": "app",
           "build": {
@@ -77331,6 +77353,7 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
+            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         },

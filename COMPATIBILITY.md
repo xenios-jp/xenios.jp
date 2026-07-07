@@ -55,7 +55,7 @@
 | 🟢 | Dragon Age: Origins - Ultimate Edition | `454108C0` | 🖥️ macOS | Playable | 🚀 Great | Mac mini (M4) | 2026-03-15 |
 | 🟢 | Dragon Ball Z Budokai HD Collection | `4E4D0856` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro Max | 2026-03-14 |
 | 🟢 | Dragon Ball Z Ultimate Tenkaichi | `4E4D0846` | 📱 iOS | Playable | 👌 OK | iPad16,9 | 2026-06-11 |
-| 🟢 | Driver: San Francisco | `5553087E` | 📱 iOS | Playable | 👌 OK | iPhone 14 Pro Max | 2026-06-27 |
+| 🟢 | Driver: San Francisco | `5553087E` | 📱 iOS | Playable | 👌 OK | iPhone 14 Pro Max | 2026-07-07 |
 | 🟢 | DuckTales Remastered | `584113C6` | 📱 iOS | Playable | 🐢 Poor | iPhone 14 Pro Max | 2026-03-25 |
 | 🟢 | EA SPORTS FIFA Street | `4541097B` | 📱 iOS | Playable | 👌 OK | iPhone 16e | 2026-06-03 |
 | 🟢 | F.E.A.R: First Encounter Assault Recon | `565507D9` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro | 2026-03-13 |

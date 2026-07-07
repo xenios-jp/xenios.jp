@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-06T18:27:46.718Z",
+  "generatedAt": "2026-07-07T18:05:33.074Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -3910,8 +3910,31 @@
       "titleId": "5553087E",
       "issueNumber": 566,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/566",
-      "updatedAt": "2026-06-27",
+      "updatedAt": "2026-07-07",
       "entries": [
+        {
+          "id": "comment-4906963621",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/566#issuecomment-4906963621",
+          "author": "xenios-jp",
+          "createdAt": "2026-07-07",
+          "createdAtMs": 1783447280000,
+          "issueNumber": 566,
+          "excerpt": "Crashes Xenios on launch",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPad Air 11-inch (M3)",
+            "platform": "iOS",
+            "osVersion": "iOS 18.6.2",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
+          }
+        },
         {
           "id": "issue-566",
           "type": "issue",
