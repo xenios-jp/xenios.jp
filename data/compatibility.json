@@ -47229,31 +47229,11 @@
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-07-06",
+    "updatedAt": "2026-04-08",
     "issueNumber": 37,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/37",
     "notes": "Prologue and first mission fully playable.\nPrologue has minor graphical and FPS issues as assets load, once loaded game plays and runs as normal.\nFirst mission ran OK, audio went \"staticky\" through out the remainder of the mission but once assets loaded the FPS and Graphical issues were minimal.",
     "reports": [
-      {
-        "device": "iPhone 16",
-        "platform": "ios",
-        "osVersion": "iOS 27.0 Developer Beta",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-07-06",
-        "notes": "Black screen, after letting it sit for a few minutes it ended up crashing",
-        "screenshots": [],
-        "source": "github",
-        "build": {
-          "buildId": "ios-release-2.0.1-9730-9730",
-          "channel": "release",
-          "official": true,
-          "appVersion": "2.0.1-9730",
-          "buildNumber": "9730"
-        }
-      },
       {
         "device": "iPhone 14 Pro",
         "platform": "ios",
@@ -47365,28 +47345,23 @@
         "status": "ingame",
         "perf": "ok",
         "notes": "Loads into game but experiences severe graphical issues.",
-        "updatedAt": "2026-07-06",
-        "date": "2026-07-06",
-        "reportCount": 2,
+        "updatedAt": "2026-03-01",
+        "date": "2026-03-01",
+        "reportCount": 1,
         "latestReport": {
-          "device": "iPhone 16",
+          "device": "iPhone 17",
           "platform": "ios",
-          "osVersion": "iOS 27.0 Developer Beta",
+          "osVersion": "26.3",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-07-06",
-          "notes": "Black screen, after letting it sit for a few minutes it ended up crashing",
+          "status": "ingame",
+          "perf": "ok",
+          "date": "2026-03-01",
+          "notes": "Loads into game but experiences severe graphical issues.",
+          "reportedTitleId": "415607E6",
+          "reportedTitle": "Call of Duty 4",
           "screenshots": [],
-          "source": "github",
-          "build": {
-            "buildId": "ios-release-2.0.1-9730-9730",
-            "channel": "release",
-            "official": true,
-            "appVersion": "2.0.1-9730",
-            "buildNumber": "9730"
-          }
+          "source": "app"
         },
         "bestReport": {
           "device": "iPhone 17",
@@ -47409,27 +47384,28 @@
         "status": "playable",
         "perf": "ok",
         "notes": "Prologue and first mission fully playable.\nPrologue has minor graphical and FPS issues as assets load, once loaded game plays and runs as normal.\nFirst mission ran OK, audio went \"staticky\" through out the remainder of the mission but once assets loaded the FPS and Graphical issues were minimal.",
-        "updatedAt": "2026-07-06",
-        "date": "2026-07-06",
-        "reportCount": 6,
+        "updatedAt": "2026-04-08",
+        "date": "2026-04-08",
+        "reportCount": 5,
         "latestReport": {
-          "device": "iPhone 16",
+          "device": "iPhone 14 Pro",
           "platform": "ios",
-          "osVersion": "iOS 27.0 Developer Beta",
+          "osVersion": "26.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-07-06",
-          "notes": "Black screen, after letting it sit for a few minutes it ended up crashing",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-04-08",
+          "notes": "freezes in menu if you can’t select new mission fast enough but in game runs like a potato",
           "screenshots": [],
-          "source": "github",
+          "source": "app",
           "build": {
-            "buildId": "ios-release-2.0.1-9730-9730",
-            "channel": "release",
-            "official": true,
-            "appVersion": "2.0.1-9730",
-            "buildNumber": "9730"
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
@@ -48289,11 +48265,33 @@
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-06-22",
+    "updatedAt": "2026-07-07",
     "issueNumber": 494,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/494",
     "notes": "Weird colorful graphical artifacts only tested special ops mode besides from that ran ok.",
     "reports": [
+      {
+        "device": "iPhone 14 Plus",
+        "platform": "ios",
+        "osVersion": "26.5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "poor",
+        "date": "2026-07-07",
+        "notes": "Played on an older hardware than recommended (A15 chip).Had to use vulkan to get ingame but poor performance (5-10 fps) decreasing resolution and other settings of the xenia config slightly helped but still unplayable.",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140"
+        }
+      },
       {
         "device": "iPhone 16",
         "platform": "ios",
@@ -48378,19 +48376,19 @@
         "status": "playable",
         "perf": "ok",
         "notes": "Weird colorful graphical artifacts only tested special ops mode besides from that ran ok.",
-        "updatedAt": "2026-06-22",
-        "date": "2026-06-22",
-        "reportCount": 3,
+        "updatedAt": "2026-07-07",
+        "date": "2026-07-07",
+        "reportCount": 4,
         "latestReport": {
-          "device": "iPhone 16",
+          "device": "iPhone 14 Plus",
           "platform": "ios",
           "osVersion": "26.5",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-06-22",
-          "notes": "Weird colorful graphical artifacts only tested special ops mode besides from that ran ok.",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-07-07",
+          "notes": "Played on an older hardware than recommended (A15 chip).Had to use vulkan to get ingame but poor performance (5-10 fps) decreasing resolution and other settings of the xenia config slightly helped but still unplayable.",
           "screenshots": [],
           "source": "app",
           "build": {
@@ -48399,6 +48397,7 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
+            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         },
@@ -48469,29 +48468,7 @@
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
-          "stage": "stable",
           "commitShort": "57c3ca140"
-        }
-      },
-      {
-        "device": "iPhone 15 Pro Max",
-        "platform": "ios",
-        "osVersion": "18.7.2",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-03-13",
-        "notes": "just a black screen",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.0-9299",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9299",
-          "commitShort": "d8c101905"
         }
       },
       {
@@ -48541,7 +48518,7 @@
         "notes": "Game just freezes after a while",
         "updatedAt": "2026-07-01",
         "date": "2026-07-01",
-        "reportCount": 3,
+        "reportCount": 2,
         "latestReport": {
           "device": "iPhone 17",
           "platform": "ios",
@@ -48560,7 +48537,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         },
@@ -48582,7 +48558,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         }
@@ -77288,7 +77263,6 @@
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
-          "stage": "stable",
           "commitShort": "57c3ca140"
         }
       },
@@ -77353,7 +77327,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         },
@@ -95787,23 +95760,23 @@
       "4D538A67",
       "4D538A68"
     ],
-    "status": "playable",
-    "perf": "ok",
+    "status": "ingame",
+    "perf": "poor",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 16e",
+      "device": "iPhone 15 Pro Max",
       "platform": "ios",
-      "osVersion": "26.5",
+      "osVersion": "26.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-07-02",
     "issueNumber": 125,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/125",
-    "notes": "No Racing",
+    "notes": "Distortions and is unplayable experience",
     "reports": [
       {
         "device": "iPad Air 5",
@@ -95823,92 +95796,7 @@
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
-          "stage": "stable",
           "commitShort": "57c3ca140"
-        }
-      },
-      {
-        "device": "iPhone 14",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-05-29",
-        "notes": "Game just shows black screen.",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
-        }
-      },
-      {
-        "device": "iPhone 13 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "loads",
-        "perf": "ok",
-        "date": "2026-05-24",
-        "notes": "Bootd up fine but its all greenish pixels idk whats the issue but texts are fine but renders are just green",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
-        }
-      },
-      {
-        "device": "iPhone 16e",
-        "platform": "ios",
-        "osVersion": "26.5",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "ok",
-        "date": "2026-05-04",
-        "notes": "No Racing",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
-        }
-      },
-      {
-        "device": "iPad Air 11-inch (M3)",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "perf": "poor",
-        "date": "2026-03-28",
-        "notes": "In-game but with severe graphical and audio issues, way too unstable to be at all playable but somehow didn’t crash.",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
         }
       },
       {
@@ -95951,12 +95839,12 @@
       },
       "all": {
         "channel": "all",
-        "status": "playable",
-        "perf": "ok",
-        "notes": "No Racing",
+        "status": "ingame",
+        "perf": "poor",
+        "notes": "Distortions and is unplayable experience",
         "updatedAt": "2026-07-02",
         "date": "2026-07-02",
-        "reportCount": 6,
+        "reportCount": 2,
         "latestReport": {
           "device": "iPad Air 5",
           "platform": "ios",
@@ -95975,29 +95863,31 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         },
         "bestReport": {
-          "device": "iPhone 16e",
+          "device": "iPhone 15 Pro Max",
           "platform": "ios",
-          "osVersion": "26.5",
+          "osVersion": "26.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-05-04",
-          "notes": "No Racing",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-03-09",
+          "notes": "Distortions and is unplayable experience",
+          "reportedTitleId": "4D5309C9",
+          "reportedTitle": "Forza Horizon",
           "screenshots": [],
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
+            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "stage": "stable",
+            "commitShort": "2633e8177"
           }
         }
       }
@@ -145164,23 +145054,23 @@
       "5454086B",
       "5454889D"
     ],
-    "status": "ingame",
+    "status": "intro",
     "perf": "poor",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 17 Pro Max",
+      "device": "iPhone 16",
       "platform": "ios",
-      "osVersion": "26.4.2",
+      "osVersion": "26.4.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-07-04",
     "issueNumber": 575,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/575",
-    "notes": "The videos are good. But the game looks complete black also de sound is very bad. Intro work good.",
+    "notes": "The intro plays normally but the moment the pre rendered intro cutscenes are done the game is a black screen and you can’t progress from there",
     "reports": [
       {
         "device": "iPhone 16",
@@ -145200,50 +145090,7 @@
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
-          "stage": "stable",
           "commitShort": "57c3ca140"
-        }
-      },
-      {
-        "device": "iPhone 17 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.4.2",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-05-10",
-        "notes": "Load to de manu but every thing looks black. Menu work good",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
-        }
-      },
-      {
-        "device": "iPhone 17 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.4.2",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "perf": "poor",
-        "date": "2026-05-09",
-        "notes": "The videos are good. But the game looks complete black also de sound is very bad. Intro work good.",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
         }
       }
     ],
@@ -145262,12 +145109,12 @@
       },
       "all": {
         "channel": "all",
-        "status": "ingame",
+        "status": "intro",
         "perf": "poor",
-        "notes": "The videos are good. But the game looks complete black also de sound is very bad. Intro work good.",
+        "notes": "The intro plays normally but the moment the pre rendered intro cutscenes are done the game is a black screen and you can’t progress from there",
         "updatedAt": "2026-07-04",
         "date": "2026-07-04",
-        "reportCount": 3,
+        "reportCount": 1,
         "latestReport": {
           "device": "iPhone 16",
           "platform": "ios",
@@ -145286,29 +145133,28 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         },
         "bestReport": {
-          "device": "iPhone 17 Pro Max",
+          "device": "iPhone 16",
           "platform": "ios",
-          "osVersion": "26.4.2",
+          "osVersion": "26.4.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "ingame",
+          "status": "intro",
           "perf": "poor",
-          "date": "2026-05-09",
-          "notes": "The videos are good. But the game looks complete black also de sound is very bad. Intro work good.",
+          "date": "2026-07-04",
+          "notes": "The intro plays normally but the moment the pre rendered intro cutscenes are done the game is a black screen and you can’t progress from there",
           "screenshots": [],
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "57c3ca140"
           }
         }
       }
@@ -151201,50 +151047,7 @@
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
-          "stage": "stable",
           "commitShort": "57c3ca140"
-        }
-      },
-      {
-        "device": "iPhone 16 Pro",
-        "platform": "ios",
-        "osVersion": "26.0",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-03-23",
-        "notes": "Boots to a black screen and I let it sit for a while and still nothing. Eventually the app freezes so I just turned off my phone but then my touch screen became unresponsive when I tried to reboot, the buttons didn’t do anything so I had to use Siri. I don’t recommend.",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
-        }
-      },
-      {
-        "device": "iPhone 12",
-        "platform": "ios",
-        "osVersion": "18.6",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-03-20",
-        "notes": "Blue screen upon launching game. Never loads",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
         }
       },
       {
@@ -151291,7 +151094,7 @@
         "notes": "Takes a sec for assets to load but very playable",
         "updatedAt": "2026-07-03",
         "date": "2026-07-03",
-        "reportCount": 4,
+        "reportCount": 2,
         "latestReport": {
           "device": "iPhone 17 Pro",
           "platform": "ios",
@@ -151310,7 +151113,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         },
@@ -151332,7 +151134,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         }
@@ -225900,7 +225701,6 @@
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
-          "stage": "stable",
           "commitShort": "57c3ca140"
         }
       }
@@ -225944,7 +225744,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         },
@@ -225966,7 +225765,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         }
@@ -232307,7 +232105,6 @@
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
-          "stage": "stable",
           "commitShort": "57c3ca140"
         }
       }
@@ -232351,7 +232148,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         },
@@ -232373,7 +232169,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         }
@@ -265116,28 +264911,7 @@
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
-          "stage": "stable",
           "commitShort": "57c3ca140"
-        }
-      },
-      {
-        "device": "iPad Pro M4",
-        "platform": "ios",
-        "osVersion": "26.5",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "ok",
-        "date": "2026-06-24",
-        "notes": "Game run pretty good some time frame drop but still great",
-        "screenshots": [],
-        "source": "github",
-        "build": {
-          "buildId": "ios-preview-2.1-9857",
-          "channel": "preview",
-          "official": true,
-          "appVersion": "2.1",
-          "buildNumber": "9857"
         }
       }
     ],
@@ -265161,7 +264935,7 @@
         "notes": "Choppy but alright",
         "updatedAt": "2026-07-06",
         "date": "2026-07-06",
-        "reportCount": 2,
+        "reportCount": 1,
         "latestReport": {
           "device": "iPhone 16 Pro Max",
           "platform": "ios",
@@ -265180,7 +264954,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         },
@@ -265202,7 +264975,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         }
