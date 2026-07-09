@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-07T18:05:33.074Z",
+  "generatedAt": "2026-07-09T20:27:44.566Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2913,10 +2913,33 @@
     },
     "55530825": {
       "titleId": "55530825",
-      "issueNumber": 549,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/549",
-      "updatedAt": "2026-06-24",
+      "issueNumber": 578,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/578",
+      "updatedAt": "2026-07-09",
       "entries": [
+        {
+          "id": "issue-578",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/578",
+          "author": "xenios-jp",
+          "createdAt": "2026-07-09",
+          "createdAtMs": 1783628707000,
+          "issueNumber": 578,
+          "excerpt": "It plays fine",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 16",
+            "platform": "iOS",
+            "osVersion": "iOS 26.5",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
+          }
+        },
         {
           "id": "issue-549",
           "type": "issue",
@@ -6405,8 +6428,31 @@
       "titleId": "415608CB",
       "issueNumber": 494,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/494",
-      "updatedAt": "2026-06-22",
+      "updatedAt": "2026-07-07",
       "entries": [
+        {
+          "id": "comment-4908372683",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/494#issuecomment-4908372683",
+          "author": "xenios-jp",
+          "createdAt": "2026-07-07",
+          "createdAtMs": 1783456169000,
+          "issueNumber": 494,
+          "excerpt": "Played on an older hardware than recommended (A15 chip).Had to use vulkan to get ingame but poor performance (5-10 fps) decreasing resolution and other settings of the xenia config slightly helped but still unplayable.",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "poor",
+            "device": "iPhone 14 Plus",
+            "platform": "iOS",
+            "osVersion": "iOS 26.5",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
+          }
+        },
         {
           "id": "comment-4772943152",
           "type": "comment",

@@ -4,7 +4,7 @@
 >
 > 🟢 Playable: **146** · 🔵 In-Game: **70** · 🟡 Intro: **36** · 🟠 Loads: **44** · 🔴 Doesn't Boot: **52**
 >
-> 📱 iOS: **321** · 🖥️ macOS: **49**
+> 📱 iOS: **322** · 🖥️ macOS: **48**
 
 ## Legend
 
@@ -107,7 +107,7 @@
 | 🟢 | N+ | `5841085C` | 📱 iOS | Playable | 🚀 Great | iPhone 14 Pro Max | 2026-03-25 |
 | 🟢 | Naruto Shippuden: Ultimate Ninja Storm Generations | `4E4D0842` | 📱 iOS | Playable | 🐢 Poor | iPhone 16 Pro Max | 2026-03-19 |
 | 🟢 | Naruto: Rise Of A Ninja | `555307E5` | 🖥️ macOS, 📱 iOS | Playable | 🚀 Great | MacBook Air M5 | 2026-06-24 |
-| 🟢 | Naruto: The Broken Bond | `55530825` | 🖥️ macOS | Playable | 🚀 Great | MacBook Air M5 | 2026-06-24 |
+| 🟢 | Naruto: The Broken Bond | `55530825` | 📱 iOS | Playable | 🚀 Great | iPhone 16 | 2026-07-09 |
 | 🟢 | NBA 2K10 Draft Combine | `584109D8` | 📱 iOS | Playable | 🐢 Poor | iPhone 16e | 2026-06-07 |
 | 🟢 | NBA Live 06 | `454107D8` | 📱 iOS | Playable | 👌 OK | iPhone 16e | 2026-03-10 |
 | 🟢 | NBA Street Homecourt | `454107F7` | 📱 iOS | Playable | 🚀 Great | iPhone 16e | 2026-06-07 |

@@ -158431,194 +158431,106 @@
     "perf": "great",
     "tags": [],
     "platforms": [
-      "macos"
+      "ios"
     ],
     "lastReport": {
-      "device": "MacBook Air M5",
-      "platform": "macos",
-      "osVersion": "26.5.1",
+      "device": "iPhone 16",
+      "platform": "ios",
+      "osVersion": "26.5",
       "arch": "arm64",
-      "gpuBackend": "msc"
+      "gpuBackend": "msl"
     },
-    "updatedAt": "2026-06-24",
-    "issueNumber": 549,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/549",
-    "notes": "### Dreams come true lol\n\nThe Broken Bond performs similarly to Rise Of A Ninja _[[report](https://github.com/xenios-jp/game-compatibility/issues/548)]_, but it has some issues\n\nThe game maintains a mostly stable **30 FPS** in the **open world** and smooth **60 FPS** during **battles**. Occasional frame drops and minor stuttering occur while exploring the open world, but they do not significantly affect gameplay on the MBA13 M5 _[10-core GPU]_\n\nTested for **4.5hrs**, completed 20% of the story\n\n**Note**: the game performs noticeably better with **Game Mode disabled**. When Game Mode is enabled, the frame rate regularly drops to ~15 FPS in areas with many NPC",
+    "updatedAt": "2026-07-09",
+    "issueNumber": 578,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/578",
+    "notes": "It plays fine",
     "reports": [
       {
-        "device": "MacBook Air M5",
-        "platform": "macos",
-        "osVersion": "26.5.1",
+        "device": "iPhone 16",
+        "platform": "ios",
+        "osVersion": "26.5",
         "arch": "arm64",
-        "gpuBackend": "msc",
+        "gpuBackend": "msl",
         "status": "playable",
         "perf": "great",
-        "date": "2026-06-24",
-        "notes": "### Dreams come true lol\n\nThe Broken Bond performs similarly to Rise Of A Ninja _[[report](https://github.com/xenios-jp/game-compatibility/issues/548)]_, but it has some issues\n\nThe game maintains a mostly stable **30 FPS** in the **open world** and smooth **60 FPS** during **battles**. Occasional frame drops and minor stuttering occur while exploring the open world, but they do not significantly affect gameplay on the MBA13 M5 _[10-core GPU]_\n\nTested for **4.5hrs**, completed 20% of the story\n\n**Note**: the game performs noticeably better with **Game Mode disabled**. When Game Mode is enabled, the frame rate regularly drops to ~15 FPS in areas with many NPC",
-        "reportedTitleId": "55530825",
-        "reportedTitle": "Naruto: The Broken Bond",
-        "screenshots": [
-          "https://github.com/user-attachments/assets/ed855e80-cc66-4374-9211-3ac9f618751c",
-          "https://github.com/user-attachments/assets/ffe669d7-1af3-4f1a-a91c-7606184979ea",
-          "https://github.com/user-attachments/assets/ff5d372c-47f1-497e-8fd3-0c4071d127b0",
-          "https://github.com/user-attachments/assets/398e4eb5-11bb-403a-9c93-f06b445d9de9",
-          "https://github.com/user-attachments/assets/13be1661-b836-43dd-9430-a58943b02999"
-        ],
-        "submittedBy": "naku018",
-        "source": "github",
+        "date": "2026-07-09",
+        "notes": "It plays fine",
+        "screenshots": [],
+        "source": "app",
         "build": {
-          "buildId": "macos-release-2.0.1-9730",
-          "channel": "release",
-          "official": true,
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
-          "commitShort": "57C3CA140"
+          "stage": "stable",
+          "commitShort": "57c3ca140"
         }
       }
     ],
-    "screenshots": [
-      "https://github.com/user-attachments/assets/ed855e80-cc66-4374-9211-3ac9f618751c",
-      "https://github.com/user-attachments/assets/ffe669d7-1af3-4f1a-a91c-7606184979ea",
-      "https://github.com/user-attachments/assets/ff5d372c-47f1-497e-8fd3-0c4071d127b0",
-      "https://github.com/user-attachments/assets/398e4eb5-11bb-403a-9c93-f06b445d9de9",
-      "https://github.com/user-attachments/assets/13be1661-b836-43dd-9430-a58943b02999"
-    ],
+    "screenshots": [],
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "playable",
-        "perf": "great",
-        "notes": "### Dreams come true lol\n\nThe Broken Bond performs similarly to Rise Of A Ninja _[[report](https://github.com/xenios-jp/game-compatibility/issues/548)]_, but it has some issues\n\nThe game maintains a mostly stable **30 FPS** in the **open world** and smooth **60 FPS** during **battles**. Occasional frame drops and minor stuttering occur while exploring the open world, but they do not significantly affect gameplay on the MBA13 M5 _[10-core GPU]_\n\nTested for **4.5hrs**, completed 20% of the story\n\n**Note**: the game performs noticeably better with **Game Mode disabled**. When Game Mode is enabled, the frame rate regularly drops to ~15 FPS in areas with many NPC",
-        "updatedAt": "2026-06-24",
-        "date": "2026-06-24",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "MacBook Air M5",
-          "platform": "macos",
-          "osVersion": "26.5.1",
-          "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-06-24",
-          "notes": "### Dreams come true lol\n\nThe Broken Bond performs similarly to Rise Of A Ninja _[[report](https://github.com/xenios-jp/game-compatibility/issues/548)]_, but it has some issues\n\nThe game maintains a mostly stable **30 FPS** in the **open world** and smooth **60 FPS** during **battles**. Occasional frame drops and minor stuttering occur while exploring the open world, but they do not significantly affect gameplay on the MBA13 M5 _[10-core GPU]_\n\nTested for **4.5hrs**, completed 20% of the story\n\n**Note**: the game performs noticeably better with **Game Mode disabled**. When Game Mode is enabled, the frame rate regularly drops to ~15 FPS in areas with many NPC",
-          "reportedTitleId": "55530825",
-          "reportedTitle": "Naruto: The Broken Bond",
-          "screenshots": [
-            "https://github.com/user-attachments/assets/ed855e80-cc66-4374-9211-3ac9f618751c",
-            "https://github.com/user-attachments/assets/ffe669d7-1af3-4f1a-a91c-7606184979ea",
-            "https://github.com/user-attachments/assets/ff5d372c-47f1-497e-8fd3-0c4071d127b0",
-            "https://github.com/user-attachments/assets/398e4eb5-11bb-403a-9c93-f06b445d9de9",
-            "https://github.com/user-attachments/assets/13be1661-b836-43dd-9430-a58943b02999"
-          ],
-          "submittedBy": "naku018",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-2.0.1-9730",
-            "channel": "release",
-            "official": true,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57C3CA140"
-          }
-        },
-        "bestReport": {
-          "device": "MacBook Air M5",
-          "platform": "macos",
-          "osVersion": "26.5.1",
-          "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-06-24",
-          "notes": "### Dreams come true lol\n\nThe Broken Bond performs similarly to Rise Of A Ninja _[[report](https://github.com/xenios-jp/game-compatibility/issues/548)]_, but it has some issues\n\nThe game maintains a mostly stable **30 FPS** in the **open world** and smooth **60 FPS** during **battles**. Occasional frame drops and minor stuttering occur while exploring the open world, but they do not significantly affect gameplay on the MBA13 M5 _[10-core GPU]_\n\nTested for **4.5hrs**, completed 20% of the story\n\n**Note**: the game performs noticeably better with **Game Mode disabled**. When Game Mode is enabled, the frame rate regularly drops to ~15 FPS in areas with many NPC",
-          "reportedTitleId": "55530825",
-          "reportedTitle": "Naruto: The Broken Bond",
-          "screenshots": [
-            "https://github.com/user-attachments/assets/ed855e80-cc66-4374-9211-3ac9f618751c",
-            "https://github.com/user-attachments/assets/ffe669d7-1af3-4f1a-a91c-7606184979ea",
-            "https://github.com/user-attachments/assets/ff5d372c-47f1-497e-8fd3-0c4071d127b0",
-            "https://github.com/user-attachments/assets/398e4eb5-11bb-403a-9c93-f06b445d9de9",
-            "https://github.com/user-attachments/assets/13be1661-b836-43dd-9430-a58943b02999"
-          ],
-          "submittedBy": "naku018",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-2.0.1-9730",
-            "channel": "release",
-            "official": true,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57C3CA140"
-          }
-        }
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "date": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
       },
       "all": {
         "channel": "all",
         "status": "playable",
         "perf": "great",
-        "notes": "### Dreams come true lol\n\nThe Broken Bond performs similarly to Rise Of A Ninja _[[report](https://github.com/xenios-jp/game-compatibility/issues/548)]_, but it has some issues\n\nThe game maintains a mostly stable **30 FPS** in the **open world** and smooth **60 FPS** during **battles**. Occasional frame drops and minor stuttering occur while exploring the open world, but they do not significantly affect gameplay on the MBA13 M5 _[10-core GPU]_\n\nTested for **4.5hrs**, completed 20% of the story\n\n**Note**: the game performs noticeably better with **Game Mode disabled**. When Game Mode is enabled, the frame rate regularly drops to ~15 FPS in areas with many NPC",
-        "updatedAt": "2026-06-24",
-        "date": "2026-06-24",
+        "notes": "It plays fine",
+        "updatedAt": "2026-07-09",
+        "date": "2026-07-09",
         "reportCount": 1,
         "latestReport": {
-          "device": "MacBook Air M5",
-          "platform": "macos",
-          "osVersion": "26.5.1",
+          "device": "iPhone 16",
+          "platform": "ios",
+          "osVersion": "26.5",
           "arch": "arm64",
-          "gpuBackend": "msc",
+          "gpuBackend": "msl",
           "status": "playable",
           "perf": "great",
-          "date": "2026-06-24",
-          "notes": "### Dreams come true lol\n\nThe Broken Bond performs similarly to Rise Of A Ninja _[[report](https://github.com/xenios-jp/game-compatibility/issues/548)]_, but it has some issues\n\nThe game maintains a mostly stable **30 FPS** in the **open world** and smooth **60 FPS** during **battles**. Occasional frame drops and minor stuttering occur while exploring the open world, but they do not significantly affect gameplay on the MBA13 M5 _[10-core GPU]_\n\nTested for **4.5hrs**, completed 20% of the story\n\n**Note**: the game performs noticeably better with **Game Mode disabled**. When Game Mode is enabled, the frame rate regularly drops to ~15 FPS in areas with many NPC",
-          "reportedTitleId": "55530825",
-          "reportedTitle": "Naruto: The Broken Bond",
-          "screenshots": [
-            "https://github.com/user-attachments/assets/ed855e80-cc66-4374-9211-3ac9f618751c",
-            "https://github.com/user-attachments/assets/ffe669d7-1af3-4f1a-a91c-7606184979ea",
-            "https://github.com/user-attachments/assets/ff5d372c-47f1-497e-8fd3-0c4071d127b0",
-            "https://github.com/user-attachments/assets/398e4eb5-11bb-403a-9c93-f06b445d9de9",
-            "https://github.com/user-attachments/assets/13be1661-b836-43dd-9430-a58943b02999"
-          ],
-          "submittedBy": "naku018",
-          "source": "github",
+          "date": "2026-07-09",
+          "notes": "It plays fine",
+          "screenshots": [],
+          "source": "app",
           "build": {
-            "buildId": "macos-release-2.0.1-9730",
-            "channel": "release",
-            "official": true,
+            "buildId": "ios-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "commitShort": "57C3CA140"
+            "stage": "stable",
+            "commitShort": "57c3ca140"
           }
         },
         "bestReport": {
-          "device": "MacBook Air M5",
-          "platform": "macos",
-          "osVersion": "26.5.1",
+          "device": "iPhone 16",
+          "platform": "ios",
+          "osVersion": "26.5",
           "arch": "arm64",
-          "gpuBackend": "msc",
+          "gpuBackend": "msl",
           "status": "playable",
           "perf": "great",
-          "date": "2026-06-24",
-          "notes": "### Dreams come true lol\n\nThe Broken Bond performs similarly to Rise Of A Ninja _[[report](https://github.com/xenios-jp/game-compatibility/issues/548)]_, but it has some issues\n\nThe game maintains a mostly stable **30 FPS** in the **open world** and smooth **60 FPS** during **battles**. Occasional frame drops and minor stuttering occur while exploring the open world, but they do not significantly affect gameplay on the MBA13 M5 _[10-core GPU]_\n\nTested for **4.5hrs**, completed 20% of the story\n\n**Note**: the game performs noticeably better with **Game Mode disabled**. When Game Mode is enabled, the frame rate regularly drops to ~15 FPS in areas with many NPC",
-          "reportedTitleId": "55530825",
-          "reportedTitle": "Naruto: The Broken Bond",
-          "screenshots": [
-            "https://github.com/user-attachments/assets/ed855e80-cc66-4374-9211-3ac9f618751c",
-            "https://github.com/user-attachments/assets/ffe669d7-1af3-4f1a-a91c-7606184979ea",
-            "https://github.com/user-attachments/assets/ff5d372c-47f1-497e-8fd3-0c4071d127b0",
-            "https://github.com/user-attachments/assets/398e4eb5-11bb-403a-9c93-f06b445d9de9",
-            "https://github.com/user-attachments/assets/13be1661-b836-43dd-9430-a58943b02999"
-          ],
-          "submittedBy": "naku018",
-          "source": "github",
+          "date": "2026-07-09",
+          "notes": "It plays fine",
+          "screenshots": [],
+          "source": "app",
           "build": {
-            "buildId": "macos-release-2.0.1-9730",
-            "channel": "release",
-            "official": true,
+            "buildId": "ios-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "commitShort": "57C3CA140"
+            "stage": "stable",
+            "commitShort": "57c3ca140"
           }
         }
       }
