@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T11:36:50.953Z",
+  "generatedAt": "2026-07-10T20:13:35.683Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -3499,6 +3499,143 @@
         }
       ]
     },
+    "415608C3": {
+      "titleId": "415608C3",
+      "issueNumber": 582,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/582",
+      "updatedAt": "2026-07-10",
+      "entries": [
+        {
+          "id": "issue-582",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/582",
+          "author": "324Coolguy",
+          "createdAt": "2026-07-10",
+          "createdAtMs": 1783714059000,
+          "issueNumber": 582,
+          "excerpt": "The game does work and run using Vulkan. It runs very bad and only campaign works. Multiplayer and Zombies does not work. You have to use the 2.1 build for it to work.",
+          "images": [],
+          "meta": {}
+        },
+        {
+          "id": "issue-527",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/527",
+          "author": "xenios-jp",
+          "createdAt": "2026-06-17",
+          "createdAtMs": 1781738690000,
+          "issueNumber": 527,
+          "excerpt": "Haven’t really got into any gameplay just the intro",
+          "images": [],
+          "meta": {
+            "status": "intro",
+            "perf": "poor",
+            "device": "iPhone 16 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.5",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0",
+            "buildNumber": "9712",
+            "commitShort": "`358deaee5`"
+          }
+        },
+        {
+          "id": "comment-4531700867",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/385#issuecomment-4531700867",
+          "author": "xenios-jp",
+          "createdAt": "2026-05-25",
+          "createdAtMs": 1779686043000,
+          "issueNumber": 385,
+          "excerpt": "Just boot into cyan screen",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 16 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.5",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
+        {
+          "id": "comment-4205852531",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/385#issuecomment-4205852531",
+          "author": "xenios-jp",
+          "createdAt": "2026-04-08",
+          "createdAtMs": 1775647098000,
+          "issueNumber": 385,
+          "excerpt": "Just Cyan",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
+        {
+          "id": "issue-385",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/385",
+          "author": "xenios-jp",
+          "createdAt": "2026-04-03",
+          "createdAtMs": 1775200870000,
+          "issueNumber": 385,
+          "excerpt": "Cyan",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 17 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 26.5",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9296",
+            "commitShort": "`ab2ca341a`"
+          }
+        },
+        {
+          "id": "issue-253",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/253",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-14",
+          "createdAtMs": 1773453855000,
+          "issueNumber": 253,
+          "excerpt": "cyan 👍",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/415608C3/1773453853718-1.jpg"
+          ],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        }
+      ]
+    },
     "415607E2": {
       "titleId": "415607E2",
       "issueNumber": 581,
@@ -4896,156 +5033,6 @@
           "excerpt": "Game opens, can get to any mode and play without significant drops, although the game has a huge chance of getting stuck on the title screen after pressing start, and can also get into an infinite autosave loop.",
           "images": [],
           "meta": {}
-        }
-      ]
-    },
-    "415608C3": {
-      "titleId": "415608C3",
-      "issueNumber": 527,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/527",
-      "updatedAt": "2026-06-17",
-      "entries": [
-        {
-          "id": "issue-527",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/527",
-          "author": "xenios-jp",
-          "createdAt": "2026-06-17",
-          "createdAtMs": 1781738690000,
-          "issueNumber": 527,
-          "excerpt": "Haven’t really got into any gameplay just the intro",
-          "images": [],
-          "meta": {
-            "status": "intro",
-            "perf": "poor",
-            "device": "iPhone 16 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 26.5",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "2.0",
-            "buildNumber": "9712",
-            "commitShort": "`358deaee5`"
-          }
-        },
-        {
-          "id": "comment-4531700867",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/385#issuecomment-4531700867",
-          "author": "xenios-jp",
-          "createdAt": "2026-05-25",
-          "createdAtMs": 1779686043000,
-          "issueNumber": 385,
-          "excerpt": "Just boot into cyan screen",
-          "images": [],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPhone 16 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 26.5",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "`056d2f64d`"
-          }
-        },
-        {
-          "id": "comment-4205852531",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/385#issuecomment-4205852531",
-          "author": "xenios-jp",
-          "createdAt": "2026-04-08",
-          "createdAtMs": 1775647098000,
-          "issueNumber": 385,
-          "excerpt": "Just Cyan",
-          "images": [],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPhone 17 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "`056d2f64d`"
-          }
-        },
-        {
-          "id": "issue-385",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/385",
-          "author": "xenios-jp",
-          "createdAt": "2026-04-03",
-          "createdAtMs": 1775200870000,
-          "issueNumber": 385,
-          "excerpt": "Cyan",
-          "images": [],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPhone 17 Pro",
-            "platform": "iOS",
-            "osVersion": "iOS 26.5",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9296",
-            "commitShort": "`ab2ca341a`"
-          }
-        },
-        {
-          "id": "issue-253",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/253",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-14",
-          "createdAtMs": 1773453855000,
-          "issueNumber": 253,
-          "excerpt": "cyan 👍",
-          "images": [
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/415608C3/1773453853718-1.jpg"
-          ],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPhone 17 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "`056d2f64d`"
-          }
-        },
-        {
-          "id": "comment-4025103892",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/92#issuecomment-4025103892",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-09",
-          "createdAtMs": 1773074334000,
-          "issueNumber": 92,
-          "excerpt": "Boots into a cyan screen after like 5 seconds. Tried changing settings and booted like over 10 times.",
-          "images": [
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/415608C3/1773074330525-1.jpg"
-          ],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPhone 13",
-            "platform": "iOS",
-            "osVersion": "iOS 26.0.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "`2633e8177`"
-          }
         }
       ]
     },
