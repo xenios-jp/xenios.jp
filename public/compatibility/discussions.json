@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T03:59:15.695Z",
+  "generatedAt": "2026-07-10T06:51:39.469Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -3495,6 +3495,80 @@
           "issueNumber": 263,
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
           "images": [],
+          "meta": {}
+        }
+      ]
+    },
+    "415607E2": {
+      "titleId": "415607E2",
+      "issueNumber": 581,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/581",
+      "updatedAt": "2026-07-10",
+      "entries": [
+        {
+          "id": "issue-581",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/581",
+          "author": "xenios-jp",
+          "createdAt": "2026-07-10",
+          "createdAtMs": 1783666188000,
+          "issueNumber": 581,
+          "excerpt": "Nothing loads",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/415607E2/1783666184918-1.jpg"
+          ],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 16",
+            "platform": "iOS",
+            "osVersion": "iOS 27.0",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
+          }
+        },
+        {
+          "id": "comment-4034302494",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/167#issuecomment-4034302494",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-10",
+          "createdAtMs": 1773174919000,
+          "issueNumber": 167,
+          "excerpt": "Game’s menu had some weird graphical issues but in game graphics are rendering perfectly fine",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/415607E2/1773174913349-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/415607E2/1773174913349-2.jpg"
+          ],
+          "meta": {
+            "status": "ingame",
+            "perf": "poor",
+            "device": "iPhone 16",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        },
+        {
+          "id": "issue-167",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/167",
+          "author": "heysehaven",
+          "createdAt": "2026-03-10",
+          "createdAtMs": 1773148379000,
+          "issueNumber": 167,
+          "excerpt": "Game’s menu had some weird graphical issues but in game graphics are rendering perfectly fine",
+          "images": [
+            "https://github.com/user-attachments/assets/8bf6f562-d7e4-43cc-b3e8-e6fb0bd2b9e1",
+            "https://github.com/user-attachments/assets/024c23e1-1094-483c-b834-bcc6fec98be7"
+          ],
           "meta": {}
         }
       ]
@@ -14643,55 +14717,6 @@
             "buildNumber": "9280",
             "commitShort": "`2633e8177`"
           }
-        }
-      ]
-    },
-    "415607E2": {
-      "titleId": "415607E2",
-      "issueNumber": 167,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/167",
-      "updatedAt": "2026-03-10",
-      "entries": [
-        {
-          "id": "comment-4034302494",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/167#issuecomment-4034302494",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-10",
-          "createdAtMs": 1773174919000,
-          "issueNumber": 167,
-          "excerpt": "Game’s menu had some weird graphical issues but in game graphics are rendering perfectly fine",
-          "images": [
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/415607E2/1773174913349-1.jpg",
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/415607E2/1773174913349-2.jpg"
-          ],
-          "meta": {
-            "status": "ingame",
-            "perf": "poor",
-            "device": "iPhone 16",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "`2633e8177`"
-          }
-        },
-        {
-          "id": "issue-167",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/167",
-          "author": "heysehaven",
-          "createdAt": "2026-03-10",
-          "createdAtMs": 1773148379000,
-          "issueNumber": 167,
-          "excerpt": "Game’s menu had some weird graphical issues but in game graphics are rendering perfectly fine",
-          "images": [
-            "https://github.com/user-attachments/assets/8bf6f562-d7e4-43cc-b3e8-e6fb0bd2b9e1",
-            "https://github.com/user-attachments/assets/024c23e1-1094-483c-b834-bcc6fec98be7"
-          ],
-          "meta": {}
         }
       ]
     },
