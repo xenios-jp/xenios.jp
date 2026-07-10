@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T06:51:39.469Z",
+  "generatedAt": "2026-07-10T11:36:50.953Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -5792,8 +5792,34 @@
       "titleId": "454109D4",
       "issueNumber": 510,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/510",
-      "updatedAt": "2026-06-12",
+      "updatedAt": "2026-07-10",
       "entries": [
+        {
+          "id": "comment-4934859300",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/510#issuecomment-4934859300",
+          "author": "xenios-jp",
+          "createdAt": "2026-07-10",
+          "createdAtMs": 1783683202000,
+          "issueNumber": 510,
+          "excerpt": "No lag just menus were perfect players kinda load a bit late in outfit section then in game… yeah it’s something in game and free play training",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454109D4/1783683193857-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454109D4/1783683193857-2.jpg"
+          ],
+          "meta": {
+            "status": "ingame",
+            "perf": "great",
+            "device": "iPad Pro 11-inch (M4)",
+            "platform": "iOS",
+            "osVersion": "iOS 26.0.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
+          }
+        },
         {
           "id": "issue-510",
           "type": "issue",

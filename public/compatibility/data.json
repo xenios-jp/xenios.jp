@@ -982,23 +982,44 @@
       "454189D6"
     ],
     "status": "ingame",
-    "perf": "poor",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 16",
+      "device": "iPad Pro 11-inch (M4)",
       "platform": "ios",
-      "osVersion": "26.4.2",
+      "osVersion": "26.0.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-06-12",
+    "updatedAt": "2026-07-10",
     "issueNumber": 510,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/510",
-    "notes": "some graphical issues",
+    "notes": "No lag just menus were perfect players kinda load a bit late in outfit section then in game… yeah it’s something in game and free play training",
     "reports": [
+      {
+        "device": "iPad Pro 11-inch (M4)",
+        "platform": "ios",
+        "osVersion": "26.0.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "great",
+        "date": "2026-07-10",
+        "notes": "No lag just menus were perfect players kinda load a bit late in outfit section then in game… yeah it’s something in game and free play training",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "commitShort": "57c3ca140"
+        }
+      },
       {
         "device": "iPhone 16",
         "platform": "ios",
@@ -1022,6 +1043,8 @@
       }
     ],
     "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454109D4/1783683193857-1.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454109D4/1783683193857-2.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454109D4/1781264237650-1.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454109D4/1781264237650-2.jpg"
     ],
@@ -1040,21 +1063,21 @@
       "all": {
         "channel": "all",
         "status": "ingame",
-        "perf": "poor",
-        "notes": "some graphical issues",
-        "updatedAt": "2026-06-12",
-        "date": "2026-06-12",
-        "reportCount": 1,
+        "perf": "great",
+        "notes": "No lag just menus were perfect players kinda load a bit late in outfit section then in game… yeah it’s something in game and free play training",
+        "updatedAt": "2026-07-10",
+        "date": "2026-07-10",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 16",
+          "device": "iPad Pro 11-inch (M4)",
           "platform": "ios",
-          "osVersion": "26.4.2",
+          "osVersion": "26.0.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "ingame",
-          "perf": "poor",
-          "date": "2026-06-12",
-          "notes": "some graphical issues",
+          "perf": "great",
+          "date": "2026-07-10",
+          "notes": "No lag just menus were perfect players kinda load a bit late in outfit section then in game… yeah it’s something in game and free play training",
           "screenshots": [],
           "source": "app",
           "build": {
@@ -1067,15 +1090,15 @@
           }
         },
         "bestReport": {
-          "device": "iPhone 16",
+          "device": "iPad Pro 11-inch (M4)",
           "platform": "ios",
-          "osVersion": "26.4.2",
+          "osVersion": "26.0.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "ingame",
-          "perf": "poor",
-          "date": "2026-06-12",
-          "notes": "some graphical issues",
+          "perf": "great",
+          "date": "2026-07-10",
+          "notes": "No lag just menus were perfect players kinda load a bit late in outfit section then in game… yeah it’s something in game and free play training",
           "screenshots": [],
           "source": "app",
           "build": {
@@ -48288,7 +48311,6 @@
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
-          "stage": "stable",
           "commitShort": "57c3ca140"
         }
       },
@@ -48397,7 +48419,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         },
@@ -90412,29 +90433,7 @@
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
-          "stage": "stable",
           "commitShort": "57c3ca140"
-        }
-      },
-      {
-        "device": "iPhone 15 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-03-14",
-        "notes": "The game doesnt load ( since im first person to report this game please do further tests with other devices)",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
         }
       }
     ],
@@ -90460,7 +90459,7 @@
         "notes": "Just blackscreeen textures in matches it’s too dark and doesn’t fully load stuff",
         "updatedAt": "2026-07-10",
         "date": "2026-07-10",
-        "reportCount": 2,
+        "reportCount": 1,
         "latestReport": {
           "device": "iPad Pro 11-inch (M4)",
           "platform": "ios",
@@ -90479,7 +90478,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         },
@@ -90501,7 +90499,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         }
@@ -158487,7 +158484,6 @@
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
-          "stage": "stable",
           "commitShort": "57c3ca140"
         }
       }
@@ -158531,7 +158527,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         },
@@ -158553,7 +158548,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         }
@@ -219141,8 +219135,8 @@
     "titleIds": [
       "415607E2"
     ],
-    "status": "ingame",
-    "perf": "poor",
+    "status": "nothing",
+    "perf": "n/a",
     "tags": [],
     "platforms": [
       "ios"
@@ -219150,14 +219144,14 @@
     "lastReport": {
       "device": "iPhone 16",
       "platform": "ios",
-      "osVersion": "26.3",
+      "osVersion": "27.0",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-07-10",
     "issueNumber": 581,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/581",
-    "notes": "Game’s menu had some weird graphical issues but in game graphics are rendering perfectly fine",
+    "notes": "Nothing loads",
     "reports": [
       {
         "device": "iPhone 16",
@@ -219177,29 +219171,7 @@
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
-          "stage": "stable",
           "commitShort": "57c3ca140"
-        }
-      },
-      {
-        "device": "iPhone 16",
-        "platform": "ios",
-        "osVersion": "26.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "perf": "poor",
-        "date": "2026-03-10",
-        "notes": "Game’s menu had some weird graphical issues but in game graphics are rendering perfectly fine",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.0-9280",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "commitShort": "2633e8177"
         }
       }
     ],
@@ -219224,12 +219196,12 @@
       },
       "all": {
         "channel": "all",
-        "status": "ingame",
-        "perf": "poor",
-        "notes": "Game’s menu had some weird graphical issues but in game graphics are rendering perfectly fine",
+        "status": "nothing",
+        "perf": "n/a",
+        "notes": "Nothing loads",
         "updatedAt": "2026-07-10",
         "date": "2026-07-10",
-        "reportCount": 2,
+        "reportCount": 1,
         "latestReport": {
           "device": "iPhone 16",
           "platform": "ios",
@@ -219248,29 +219220,28 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         },
         "bestReport": {
           "device": "iPhone 16",
           "platform": "ios",
-          "osVersion": "26.3",
+          "osVersion": "27.0",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-03-10",
-          "notes": "Game’s menu had some weird graphical issues but in game graphics are rendering perfectly fine",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-07-10",
+          "notes": "Nothing loads",
           "screenshots": [],
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633e8177"
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "57c3ca140"
           }
         }
       }

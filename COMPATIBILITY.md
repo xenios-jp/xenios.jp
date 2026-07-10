@@ -2,7 +2,7 @@
 
 > **348 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **146** · 🔵 In-Game: **71** · 🟡 Intro: **36** · 🟠 Loads: **44** · 🔴 Doesn't Boot: **51**
+> 🟢 Playable: **146** · 🔵 In-Game: **70** · 🟡 Intro: **36** · 🟠 Loads: **44** · 🔴 Doesn't Boot: **52**
 >
 > 📱 iOS: **322** · 🖥️ macOS: **48**
 
@@ -166,7 +166,7 @@
 | 🟢 | WWE Smackdown vs RAW 2008 | `5451080B` | 📱 iOS | Playable | 👌 OK | iPhone 16e | 2026-03-16 |
 | 🟢 | X-Men Origins: Wolverine | `41560816` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro Max | 2026-07-06 |
 | 🟢 | Yaris | `5841087F` | 📱 iOS | Playable | 🚀 Great | iPhone 14 Pro Max | 2026-03-23 |
-| 🔵 | 2014 FIFA World Cup Brazil | `454109D4` | 📱 iOS | In-Game | 🐢 Poor | iPhone 16 | 2026-06-12 |
+| 🔵 | 2014 FIFA World Cup Brazil | `454109D4` | 📱 iOS | In-Game | 🚀 Great | iPad Pro 11-inch (M4) | 2026-07-10 |
 | 🔵 | After Burner Climax | `58410A06` | 📱 iOS | In-Game | 🐢 Poor | iPad Pro 13-inch (M5) | 2026-06-11 |
 | 🔵 | Band Hero | `4156085C` | 📱 iOS, 🖥️ macOS | In-Game | 🐢 Poor | iPhone 13 mini | 2026-03-22 |
 | 🔵 | Batman: Arkham City | `57520802` | 📱 iOS | In-Game | 👌 OK | iPhone 15 Pro Max | 2026-03-09 |
@@ -229,7 +229,6 @@
 | 🔵 | Saints Row 2 | `545107FC` | 📱 iOS | In-Game | 🐢 Poor | iPhone 14 Pro Max | 2026-03-08 |
 | 🔵 | skate. | `45410813` | 📱 iOS | In-Game | 🐢 Poor | iPad Pro (M2) | 2026-03-03 |
 | 🔵 | Sonic the Hedgehog | `534507D6` | 📱 iOS | In-Game | 👌 OK | iPhone Air | 2026-04-03 |
-| 🔵 | Spider-Man 3 | `415607E2` | 📱 iOS | In-Game | 🐢 Poor | iPhone 16 | 2026-07-10 |
 | 🔵 | Stranglehold | `4D5707D2` | 🖥️ macOS | In-Game | 🚀 Great | MacBook Pro (M1) | 2026-04-12 |
 | 🔵 | Tekken Tag Tournament 2 | `4E4D0859` | 📱 iOS | In-Game | 🐢 Poor | iPhone 16 Pro | 2026-06-27 |
 | 🔵 | Tomb Raider Underworld | `534307EC` | 📱 iOS | In-Game | 👌 OK | iPhone 16 Pro Max | 2026-03-11 |
@@ -352,6 +351,7 @@
 | 🔴 | Silent Hill: Downpour | `4B4E0823` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-22 |
 | 🔴 | SmackDown vs. RAW 2009 | `54510826` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad (A16) | 2026-03-16 |
 | 🔴 | Soulcalibur IV | `4E4D07E0` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-04-28 |
+| 🔴 | Spider-Man 3 | `415607E2` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 | 2026-07-10 |
 | 🔴 | Spider-Man: Web of Shadows | `41560815` | 🖥️ macOS, 📱 iOS | Doesn't Boot | ➖ N/A | MacBook Pro (M4) | 2026-06-14 |
 | 🔴 | Split/Second | `425607E7` | 🖥️ macOS | Doesn't Boot | ➖ N/A | MacBook Pro (M1) | 2026-04-12 |
 | 🔴 | SpongeBob SquarePants: Underpants Slam | `5841089F` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Mini (A17 Pro) | 2026-03-15 |
