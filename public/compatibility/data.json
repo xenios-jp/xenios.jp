@@ -90376,24 +90376,46 @@
       "454109C4",
       "454109CF"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "ingame",
+    "perf": "ok",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 15 Pro Max",
+      "device": "iPad Pro 11-inch (M4)",
       "platform": "ios",
-      "osVersion": "26.3.1",
+      "osVersion": "26.0.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-14",
+    "updatedAt": "2026-07-10",
     "issueNumber": 264,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/264",
-    "notes": "The game doesnt load ( since im first person to report this game please do further tests with other devices)",
+    "notes": "Just blackscreeen textures in matches it’s too dark and doesn’t fully load stuff",
     "reports": [
+      {
+        "device": "iPad Pro 11-inch (M4)",
+        "platform": "ios",
+        "osVersion": "26.0.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "ok",
+        "date": "2026-07-10",
+        "notes": "Just blackscreeen textures in matches it’s too dark and doesn’t fully load stuff",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140"
+        }
+      },
       {
         "device": "iPhone 15 Pro Max",
         "platform": "ios",
@@ -90433,52 +90455,54 @@
       },
       "all": {
         "channel": "all",
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "The game doesnt load ( since im first person to report this game please do further tests with other devices)",
-        "updatedAt": "2026-03-14",
-        "date": "2026-03-14",
-        "reportCount": 1,
+        "status": "ingame",
+        "perf": "ok",
+        "notes": "Just blackscreeen textures in matches it’s too dark and doesn’t fully load stuff",
+        "updatedAt": "2026-07-10",
+        "date": "2026-07-10",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 15 Pro Max",
+          "device": "iPad Pro 11-inch (M4)",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "26.0.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-14",
-          "notes": "The game doesnt load ( since im first person to report this game please do further tests with other devices)",
+          "status": "ingame",
+          "perf": "ok",
+          "date": "2026-07-10",
+          "notes": "Just blackscreeen textures in matches it’s too dark and doesn’t fully load stuff",
           "screenshots": [],
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
           }
         },
         "bestReport": {
-          "device": "iPhone 15 Pro Max",
+          "device": "iPad Pro 11-inch (M4)",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "26.0.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-14",
-          "notes": "The game doesnt load ( since im first person to report this game please do further tests with other devices)",
+          "status": "ingame",
+          "perf": "ok",
+          "date": "2026-07-10",
+          "notes": "Just blackscreeen textures in matches it’s too dark and doesn’t fully load stuff",
           "screenshots": [],
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
           }
         }
       }
