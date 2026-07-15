@@ -17632,8 +17632,8 @@
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-07-15",
-    "issueNumber": 225,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/225",
+    "issueNumber": 594,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/594",
     "notes": "O jogo abre, mas rapidamente fecha sozinho 😭 estou achando que é meu IOS 18, preciso atualizar para o IOS 26",
     "reports": [
       {
@@ -50414,17 +50414,39 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 14 Pro",
+      "device": "iPhone 16",
       "platform": "ios",
-      "osVersion": "26.2.1",
+      "osVersion": "18.3.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-06-06",
-    "issueNumber": 472,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/472",
-    "notes": "Works very well on my iPhone 14 Pro very light game and you should try it if you want to test xenios. On version 2.0.0.",
+    "updatedAt": "2026-07-15",
+    "issueNumber": 595,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/595",
+    "notes": "Totalmente jogável, experiencia incrível 🤩",
     "reports": [
+      {
+        "device": "iPhone 16",
+        "platform": "ios",
+        "osVersion": "18.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-07-15",
+        "notes": "Totalmente jogável, experiencia incrível 🤩",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140"
+        }
+      },
       {
         "device": "iPhone 14 Pro",
         "platform": "ios",
@@ -50466,50 +50488,52 @@
         "channel": "all",
         "status": "playable",
         "perf": "great",
-        "notes": "Works very well on my iPhone 14 Pro very light game and you should try it if you want to test xenios. On version 2.0.0.",
-        "updatedAt": "2026-06-06",
-        "date": "2026-06-06",
-        "reportCount": 1,
+        "notes": "Totalmente jogável, experiencia incrível 🤩",
+        "updatedAt": "2026-07-15",
+        "date": "2026-07-15",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 14 Pro",
+          "device": "iPhone 16",
           "platform": "ios",
-          "osVersion": "26.2.1",
+          "osVersion": "18.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "great",
-          "date": "2026-06-06",
-          "notes": "Works very well on my iPhone 14 Pro very light game and you should try it if you want to test xenios. On version 2.0.0.",
+          "date": "2026-07-15",
+          "notes": "Totalmente jogável, experiencia incrível 🤩",
           "screenshots": [],
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-2.0-9712",
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
-            "appVersion": "2.0",
-            "buildNumber": "9712",
-            "commitShort": "358deaee5"
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
           }
         },
         "bestReport": {
-          "device": "iPhone 14 Pro",
+          "device": "iPhone 16",
           "platform": "ios",
-          "osVersion": "26.2.1",
+          "osVersion": "18.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "great",
-          "date": "2026-06-06",
-          "notes": "Works very well on my iPhone 14 Pro very light game and you should try it if you want to test xenios. On version 2.0.0.",
+          "date": "2026-07-15",
+          "notes": "Totalmente jogável, experiencia incrível 🤩",
           "screenshots": [],
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-2.0-9712",
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
-            "appVersion": "2.0",
-            "buildNumber": "9712",
-            "commitShort": "358deaee5"
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
           }
         }
       }
