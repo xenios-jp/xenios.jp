@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-11T16:10:14.681Z",
+  "generatedAt": "2026-07-15T04:29:10.035Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -3496,6 +3496,41 @@
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
           "images": [],
           "meta": {}
+        }
+      ]
+    },
+    "584111E8": {
+      "titleId": "584111E8",
+      "issueNumber": 586,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/586",
+      "updatedAt": "2026-07-15",
+      "entries": [
+        {
+          "id": "issue-586",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/586",
+          "author": "xenios-jp",
+          "createdAt": "2026-07-15",
+          "createdAtMs": 1784089658000,
+          "issueNumber": 586,
+          "excerpt": "O jogo apenas abre nas intro de boa, mas depois disso ele fecha, não chega nem no menu. E sim, eu usei a atualização do jogo, mas fica fechando do mesmo jeito.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584111E8/1784089652678-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584111E8/1784089652678-2.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584111E8/1784089652678-3.jpg"
+          ],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 16",
+            "platform": "iOS",
+            "osVersion": "iOS 18.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
+          }
         }
       ]
     },
