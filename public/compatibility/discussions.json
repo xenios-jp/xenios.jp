@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T05:05:30.745Z",
+  "generatedAt": "2026-07-15T05:11:30.382Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -3568,6 +3568,37 @@
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
           "images": [],
           "meta": {}
+        }
+      ]
+    },
+    "584113F3": {
+      "titleId": "584113F3",
+      "issueNumber": 591,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/591",
+      "updatedAt": "2026-07-15",
+      "entries": [
+        {
+          "id": "issue-591",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/591",
+          "author": "xenios-jp",
+          "createdAt": "2026-07-15",
+          "createdAtMs": 1784092154000,
+          "issueNumber": 591,
+          "excerpt": "Não abre, fecha sozinho. o mais engraçado que isso ta acontecendo só com jogos 3D no meu iphone 16(IOS 18) :(",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 16",
+            "platform": "iOS",
+            "osVersion": "iOS 18.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
+          }
         }
       ]
     },
