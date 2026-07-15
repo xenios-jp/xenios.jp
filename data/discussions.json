@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T04:49:50.303Z",
+  "generatedAt": "2026-07-15T04:58:26.214Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -3270,6 +3270,43 @@
             "appVersion": "2.0",
             "buildNumber": "9712",
             "commitShort": "`358deaee5`"
+          }
+        }
+      ]
+    },
+    "58410837": {
+      "titleId": "58410837",
+      "issueNumber": 589,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/589",
+      "updatedAt": "2026-07-15",
+      "entries": [
+        {
+          "id": "issue-589",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/589",
+          "author": "xenios-jp",
+          "createdAt": "2026-07-15",
+          "createdAtMs": 1784091421000,
+          "issueNumber": 589,
+          "excerpt": "O jogo abre tranquilo(jogo super simples), mas quando vai jogar ele fica com a tela de jogo parada, só que o jogo fica rodando",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/58410837/1784091414769-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/58410837/1784091414769-2.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/58410837/1784091414769-3.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/58410837/1784091414769-4.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/58410837/1784091414769-5.jpg"
+          ],
+          "meta": {
+            "status": "ingame",
+            "perf": "great",
+            "device": "iPhone 16",
+            "platform": "iOS",
+            "osVersion": "iOS 18.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
           }
         }
       ]

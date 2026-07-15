@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **351 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **352 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **147** · 🔵 In-Game: **70** · 🟡 Intro: **36** · 🟠 Loads: **44** · 🔴 Doesn't Boot: **54**
+> 🟢 Playable: **147** · 🔵 In-Game: **71** · 🟡 Intro: **36** · 🟠 Loads: **44** · 🔴 Doesn't Boot: **54**
 >
-> 📱 iOS: **325** · 🖥️ macOS: **48**
+> 📱 iOS: **326** · 🖥️ macOS: **48**
 
 ## Legend
 
@@ -207,6 +207,7 @@
 | 🔵 | Metal Gear Solid V: The Phantom Pain | `4B4E085E` | 📱 iOS | In-Game | 🐢 Poor | iPad Pro M4 | 2026-06-25 |
 | 🔵 | Metro Last Light | `4B4D07F5` | 🖥️ macOS | In-Game | 👌 OK | MacBook Pro M4 Pro/Max | 2026-02-28 |
 | 🔵 | Middle Earth: Shadow of Mordor | `5752082C` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro Max | 2026-06-12 |
+| 🔵 | MS.PAC-MAN | `58410837` | 📱 iOS | In-Game | 🚀 Great | iPhone 16 | 2026-07-15 |
 | 🔵 | NBA 2K10 | `54540852` | 📱 iOS | In-Game | 👌 OK | iPhone 16e | 2026-03-10 |
 | 🔵 | NBA 2K11 | `5454087A` | 📱 iOS | In-Game | 👌 OK | iPhone 16e | 2026-03-10 |
 | 🔵 | NBA JAM | `4541094C` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro Max | 2026-03-08 |
