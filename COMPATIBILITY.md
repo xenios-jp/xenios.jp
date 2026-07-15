@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **354 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **355 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **147** · 🔵 In-Game: **71** · 🟡 Intro: **36** · 🟠 Loads: **44** · 🔴 Doesn't Boot: **56**
+> 🟢 Playable: **147** · 🔵 In-Game: **71** · 🟡 Intro: **36** · 🟠 Loads: **44** · 🔴 Doesn't Boot: **57**
 >
-> 📱 iOS: **328** · 🖥️ macOS: **48**
+> 📱 iOS: **329** · 🖥️ macOS: **48**
 
 ## Legend
 
@@ -365,6 +365,7 @@
 | 🔴 | Street Fighter III: Online Edition | `58410B16` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 Pro Max | 2026-07-03 |
 | 🔴 | Tekken 6 | `4E4D07FC` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad (A16) | 2026-04-28 |
 | 🔴 | The Amazing Spider-Man 2 | `41560905` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 | 2026-03-12 |
+| 🔴 | The Dishwasher: Vampire Smile | `58410A21` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 | 2026-07-15 |
 | 🔴 | The Godfather | `454107E9` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-09 |
 | 🔴 | The Path of Go | `5841099F` | 🖥️ macOS | Doesn't Boot | ➖ N/A | MacBook Pro (M1) | 2026-04-12 |
 | 🔴 | The Wolf Among Us | `443607D5` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-20 |
