@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **355 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **356 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **147** · 🔵 In-Game: **71** · 🟡 Intro: **36** · 🟠 Loads: **44** · 🔴 Doesn't Boot: **57**
+> 🟢 Playable: **147** · 🔵 In-Game: **71** · 🟡 Intro: **36** · 🟠 Loads: **44** · 🔴 Doesn't Boot: **58**
 >
-> 📱 iOS: **329** · 🖥️ macOS: **48**
+> 📱 iOS: **330** · 🖥️ macOS: **48**
 
 ## Legend
 
@@ -238,7 +238,7 @@
 | 🔵 | Virtua Tennis 3 | `534507E1` | 📱 iOS | In-Game | 🚀 Great | iPhone 17 Pro Max | 2026-06-18 |
 | 🔵 | Wallace and Gromit Episode 1 | `5841093C` | 🖥️ macOS | In-Game | 🚀 Great | MacBook Pro (M1) | 2026-04-12 |
 | 🔵 | WWE SmackDown! Vs Raw 2007 | `545107E0` | 📱 iOS | In-Game | 👌 OK | iPhone 17 | 2026-05-26 |
-| 🟡 | Assassins Creed III - Liberation HD | `584113FC` | 📱 iOS | Intro | 👌 OK | iPhone 15 | 2026-03-12 |
+| 🟡 | Assassins Creed III - Liberation HD | `584113FC` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 | 2026-07-15 |
 | 🟡 | Back to the Future | `443607D6` | 📱 iOS | Intro | 🚀 Great | iPhone 16 Pro | 2026-03-24 |
 | 🟡 | Beautiful Katamari | `4E4D07DC` | 📱 iOS | Intro | 👌 OK | iPhone 16 Pro | 2026-03-05 |
 | 🟡 | Blur | `41560845` | 📱 iOS | Intro | 🐢 Poor | iPhone 15 Pro | 2026-06-12 |
@@ -365,6 +365,7 @@
 | 🔴 | Street Fighter III: Online Edition | `58410B16` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 Pro Max | 2026-07-03 |
 | 🔴 | Tekken 6 | `4E4D07FC` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad (A16) | 2026-04-28 |
 | 🔴 | The Amazing Spider-Man 2 | `41560905` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 | 2026-03-12 |
+| 🔴 | The Dishwasher: Dead Samurai | `58410902` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 | 2026-07-15 |
 | 🔴 | The Dishwasher: Vampire Smile | `58410A21` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 | 2026-07-15 |
 | 🔴 | The Godfather | `454107E9` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-09 |
 | 🔴 | The Path of Go | `5841099F` | 🖥️ macOS | Doesn't Boot | ➖ N/A | MacBook Pro (M1) | 2026-04-12 |

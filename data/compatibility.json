@@ -17619,23 +17619,45 @@
       "584113FC"
     ],
     "status": "intro",
-    "perf": "ok",
+    "perf": "poor",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 15",
+      "device": "iPhone 16",
       "platform": "ios",
-      "osVersion": "26.3.1",
+      "osVersion": "18.3.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-12",
+    "updatedAt": "2026-07-15",
     "issueNumber": 225,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/225",
-    "notes": "Stuck in Main menu because I don’t have joystick. 🤣",
+    "notes": "O jogo abre, mas rapidamente fecha sozinho 😭 estou achando que é meu IOS 18, preciso atualizar para o IOS 26",
     "reports": [
+      {
+        "device": "iPhone 16",
+        "platform": "ios",
+        "osVersion": "18.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "intro",
+        "perf": "poor",
+        "date": "2026-07-15",
+        "notes": "O jogo abre, mas rapidamente fecha sozinho 😭 estou achando que é meu IOS 18, preciso atualizar para o IOS 26",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140"
+        }
+      },
       {
         "device": "iPhone 15",
         "platform": "ios",
@@ -17676,51 +17698,53 @@
       "all": {
         "channel": "all",
         "status": "intro",
-        "perf": "ok",
-        "notes": "Stuck in Main menu because I don’t have joystick. 🤣",
-        "updatedAt": "2026-03-12",
-        "date": "2026-03-12",
-        "reportCount": 1,
+        "perf": "poor",
+        "notes": "O jogo abre, mas rapidamente fecha sozinho 😭 estou achando que é meu IOS 18, preciso atualizar para o IOS 26",
+        "updatedAt": "2026-07-15",
+        "date": "2026-07-15",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 15",
+          "device": "iPhone 16",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "18.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "intro",
-          "perf": "ok",
-          "date": "2026-03-12",
-          "notes": "Stuck in Main menu because I don’t have joystick. 🤣",
+          "perf": "poor",
+          "date": "2026-07-15",
+          "notes": "O jogo abre, mas rapidamente fecha sozinho 😭 estou achando que é meu IOS 18, preciso atualizar para o IOS 26",
           "screenshots": [],
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9299",
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9299",
-            "commitShort": "d8c101905"
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
           }
         },
         "bestReport": {
-          "device": "iPhone 15",
+          "device": "iPhone 16",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "18.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "intro",
-          "perf": "ok",
-          "date": "2026-03-12",
-          "notes": "Stuck in Main menu because I don’t have joystick. 🤣",
+          "perf": "poor",
+          "date": "2026-07-15",
+          "notes": "O jogo abre, mas rapidamente fecha sozinho 😭 estou achando que é meu IOS 18, preciso atualizar para o IOS 26",
           "screenshots": [],
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9299",
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9299",
-            "commitShort": "d8c101905"
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
           }
         }
       }
@@ -235325,13 +235349,44 @@
     "status": "nothing",
     "perf": "n/a",
     "tags": [],
-    "platforms": [],
-    "lastReport": null,
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 16",
+      "platform": "ios",
+      "osVersion": "18.3.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
     "updatedAt": "2026-07-15",
     "issueNumber": 593,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/593",
-    "notes": "",
-    "reports": [],
+    "notes": "Fica com tela preta.",
+    "reports": [
+      {
+        "device": "iPhone 16",
+        "platform": "ios",
+        "osVersion": "18.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-07-15",
+        "notes": "Fica com tela preta.",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140"
+        }
+      }
+    ],
     "screenshots": [
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/58410902/1784092702849-1.jpg"
     ],
@@ -235349,14 +235404,56 @@
       },
       "all": {
         "channel": "all",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "nothing",
+        "perf": "n/a",
+        "notes": "Fica com tela preta.",
+        "updatedAt": "2026-07-15",
+        "date": "2026-07-15",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 16",
+          "platform": "ios",
+          "osVersion": "18.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-07-15",
+          "notes": "Fica com tela preta.",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 16",
+          "platform": "ios",
+          "osVersion": "18.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-07-15",
+          "notes": "Fica com tela preta.",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
+          }
+        }
       }
     }
   },
