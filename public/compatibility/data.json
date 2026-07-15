@@ -17654,29 +17654,7 @@
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
-          "stage": "stable",
           "commitShort": "57c3ca140"
-        }
-      },
-      {
-        "device": "iPhone 15",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "intro",
-        "perf": "ok",
-        "date": "2026-03-12",
-        "notes": "Stuck in Main menu because I don’t have joystick. 🤣",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.0-9299",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9299",
-          "commitShort": "d8c101905"
         }
       }
     ],
@@ -17702,7 +17680,7 @@
         "notes": "O jogo abre, mas rapidamente fecha sozinho 😭 estou achando que é meu IOS 18, preciso atualizar para o IOS 26",
         "updatedAt": "2026-07-15",
         "date": "2026-07-15",
-        "reportCount": 2,
+        "reportCount": 1,
         "latestReport": {
           "device": "iPhone 16",
           "platform": "ios",
@@ -17721,7 +17699,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         },
@@ -17743,7 +17720,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         }
@@ -50443,29 +50419,7 @@
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
-          "stage": "stable",
           "commitShort": "57c3ca140"
-        }
-      },
-      {
-        "device": "iPhone 14 Pro",
-        "platform": "ios",
-        "osVersion": "26.2.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "great",
-        "date": "2026-06-06",
-        "notes": "Works very well on my iPhone 14 Pro very light game and you should try it if you want to test xenios. On version 2.0.0.",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-2.0-9712",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "2.0",
-          "buildNumber": "9712",
-          "commitShort": "358deaee5"
         }
       }
     ],
@@ -50491,7 +50445,7 @@
         "notes": "Totalmente jogável, experiencia incrível 🤩",
         "updatedAt": "2026-07-15",
         "date": "2026-07-15",
-        "reportCount": 2,
+        "reportCount": 1,
         "latestReport": {
           "device": "iPhone 16",
           "platform": "ios",
@@ -50510,7 +50464,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         },
@@ -50532,7 +50485,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         }
@@ -58998,53 +58950,47 @@
     "titleIds": [
       "5841125A"
     ],
-    "status": "playable",
-    "perf": "great",
+    "status": "nothing",
+    "perf": "n/a",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 15",
+      "device": "iPhone 16",
       "platform": "ios",
-      "osVersion": "26.3.1",
+      "osVersion": "18.3.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-06-20",
+    "updatedAt": "2026-07-15",
     "issueNumber": 538,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/538",
-    "notes": "The game works fine, I only have one issue, sometimes the game freezes when the enemy kills you, apart from that the game is playable on iPhone 15",
+    "notes": "o emulador fecha junto com o jogo",
     "reports": [
       {
-        "device": "iPhone 15",
+        "device": "iPhone 16",
         "platform": "ios",
-        "osVersion": "26.3.1",
+        "osVersion": "18.3.1",
         "arch": "arm64",
         "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "great",
-        "date": "2026-06-20",
-        "notes": "The game works fine, I only have one issue, sometimes the game freezes when the enemy kills you, apart from that the game is playable on iPhone 15",
-        "reportedTitleId": "5841125A",
-        "reportedTitle": "Counter-Strike: GO",
-        "screenshots": [
-          "https://github.com/user-attachments/assets/87995ef2-dd2b-4c98-9ff9-9a7f02973c53"
-        ],
-        "submittedBy": "arieco57",
-        "source": "github",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-07-15",
+        "notes": "o emulador fecha junto com o jogo",
+        "screenshots": [],
+        "source": "app",
         "build": {
-          "buildId": "ios-preview-2.1-9857",
-          "channel": "preview",
-          "official": true,
-          "appVersion": "2.1",
-          "buildNumber": "9857"
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "commitShort": "57c3ca140"
         }
       }
     ],
-    "screenshots": [
-      "https://github.com/user-attachments/assets/87995ef2-dd2b-4c98-9ff9-9a7f02973c53"
-    ],
+    "screenshots": [],
     "summaries": {
       "release": {
         "channel": "release",
@@ -59059,60 +59005,52 @@
       },
       "all": {
         "channel": "all",
-        "status": "playable",
-        "perf": "great",
-        "notes": "The game works fine, I only have one issue, sometimes the game freezes when the enemy kills you, apart from that the game is playable on iPhone 15",
-        "updatedAt": "2026-06-20",
-        "date": "2026-06-20",
+        "status": "nothing",
+        "perf": "n/a",
+        "notes": "o emulador fecha junto com o jogo",
+        "updatedAt": "2026-07-15",
+        "date": "2026-07-15",
         "reportCount": 1,
         "latestReport": {
-          "device": "iPhone 15",
+          "device": "iPhone 16",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "18.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-06-20",
-          "notes": "The game works fine, I only have one issue, sometimes the game freezes when the enemy kills you, apart from that the game is playable on iPhone 15",
-          "reportedTitleId": "5841125A",
-          "reportedTitle": "Counter-Strike: GO",
-          "screenshots": [
-            "https://github.com/user-attachments/assets/87995ef2-dd2b-4c98-9ff9-9a7f02973c53"
-          ],
-          "submittedBy": "arieco57",
-          "source": "github",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-07-15",
+          "notes": "o emulador fecha junto com o jogo",
+          "screenshots": [],
+          "source": "app",
           "build": {
-            "buildId": "ios-preview-2.1-9857",
-            "channel": "preview",
-            "official": true,
-            "appVersion": "2.1",
-            "buildNumber": "9857"
+            "buildId": "ios-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "57c3ca140"
           }
         },
         "bestReport": {
-          "device": "iPhone 15",
+          "device": "iPhone 16",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "18.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-06-20",
-          "notes": "The game works fine, I only have one issue, sometimes the game freezes when the enemy kills you, apart from that the game is playable on iPhone 15",
-          "reportedTitleId": "5841125A",
-          "reportedTitle": "Counter-Strike: GO",
-          "screenshots": [
-            "https://github.com/user-attachments/assets/87995ef2-dd2b-4c98-9ff9-9a7f02973c53"
-          ],
-          "submittedBy": "arieco57",
-          "source": "github",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-07-15",
+          "notes": "o emulador fecha junto com o jogo",
+          "screenshots": [],
+          "source": "app",
           "build": {
-            "buildId": "ios-preview-2.1-9857",
-            "channel": "preview",
-            "official": true,
-            "appVersion": "2.1",
-            "buildNumber": "9857"
+            "buildId": "ios-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "57c3ca140"
           }
         }
       }
@@ -91718,7 +91656,6 @@
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
-          "stage": "stable",
           "commitShort": "57c3ca140"
         }
       }
@@ -91762,7 +91699,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         },
@@ -91784,7 +91720,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         }
@@ -126453,7 +126388,6 @@
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
-          "stage": "stable",
           "commitShort": "57c3ca140"
         }
       }
@@ -126497,7 +126431,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         },
@@ -126519,7 +126452,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         }
@@ -133170,17 +133102,38 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 15 Pro Max",
+      "device": "iPhone 16",
       "platform": "ios",
-      "osVersion": "26.5",
+      "osVersion": "18.3.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-06-22",
+    "updatedAt": "2026-07-15",
     "issueNumber": 543,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/543",
-    "notes": "Game stucks on loading screen cinematic runs perfect",
+    "notes": "O JOGO ABRE, mas quando aparece a tela de carregamento o emulador fecha ou fica na tela de carregamento, carregando sem parar(LOADING INFINITO)😔",
     "reports": [
+      {
+        "device": "iPhone 16",
+        "platform": "ios",
+        "osVersion": "18.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "intro",
+        "perf": "great",
+        "date": "2026-07-15",
+        "notes": "O JOGO ABRE, mas quando aparece a tela de carregamento o emulador fecha ou fica na tela de carregamento, carregando sem parar(LOADING INFINITO)😔",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "commitShort": "57c3ca140"
+        }
+      },
       {
         "device": "iPhone 15 Pro Max",
         "platform": "ios",
@@ -133203,7 +133156,13 @@
         }
       }
     ],
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454108D4/1784101670474-1.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454108D4/1784101670474-2.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454108D4/1784101670474-3.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454108D4/1784101670474-4.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454108D4/1784101670474-5.jpg"
+    ],
     "summaries": {
       "release": {
         "channel": "release",
@@ -133220,20 +133179,20 @@
         "channel": "all",
         "status": "intro",
         "perf": "great",
-        "notes": "Game stucks on loading screen cinematic runs perfect",
-        "updatedAt": "2026-06-22",
-        "date": "2026-06-22",
-        "reportCount": 1,
+        "notes": "O JOGO ABRE, mas quando aparece a tela de carregamento o emulador fecha ou fica na tela de carregamento, carregando sem parar(LOADING INFINITO)😔",
+        "updatedAt": "2026-07-15",
+        "date": "2026-07-15",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 15 Pro Max",
+          "device": "iPhone 16",
           "platform": "ios",
-          "osVersion": "26.5",
+          "osVersion": "18.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "intro",
           "perf": "great",
-          "date": "2026-06-22",
-          "notes": "Game stucks on loading screen cinematic runs perfect",
+          "date": "2026-07-15",
+          "notes": "O JOGO ABRE, mas quando aparece a tela de carregamento o emulador fecha ou fica na tela de carregamento, carregando sem parar(LOADING INFINITO)😔",
           "screenshots": [],
           "source": "app",
           "build": {
@@ -133246,15 +133205,15 @@
           }
         },
         "bestReport": {
-          "device": "iPhone 15 Pro Max",
+          "device": "iPhone 16",
           "platform": "ios",
-          "osVersion": "26.5",
+          "osVersion": "18.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "intro",
           "perf": "great",
-          "date": "2026-06-22",
-          "notes": "Game stucks on loading screen cinematic runs perfect",
+          "date": "2026-07-15",
+          "notes": "O JOGO ABRE, mas quando aparece a tela de carregamento o emulador fecha ou fica na tela de carregamento, carregando sem parar(LOADING INFINITO)😔",
           "screenshots": [],
           "source": "app",
           "build": {
@@ -136762,7 +136721,6 @@
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
-          "stage": "stable",
           "commitShort": "57c3ca140"
         }
       }
@@ -136812,7 +136770,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         },
@@ -136834,7 +136791,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         }
@@ -155618,7 +155574,6 @@
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
-          "stage": "stable",
           "commitShort": "57c3ca140"
         }
       }
@@ -155668,7 +155623,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         },
@@ -155690,7 +155644,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         }
@@ -211419,7 +211372,6 @@
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
-          "stage": "stable",
           "commitShort": "57c3ca140"
         }
       }
@@ -211467,7 +211419,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         },
@@ -211489,7 +211440,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         }
@@ -223983,7 +223933,6 @@
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
-          "stage": "stable",
           "commitShort": "57c3ca140"
         }
       }
@@ -224031,7 +223980,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         },
@@ -224053,7 +224001,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         }
@@ -235406,7 +235353,6 @@
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
-          "stage": "stable",
           "commitShort": "57c3ca140"
         }
       }
@@ -235452,7 +235398,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         },
@@ -235474,7 +235419,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         }
@@ -235524,7 +235468,6 @@
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
-          "stage": "stable",
           "commitShort": "57c3ca140"
         }
       }
@@ -235570,7 +235513,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         },
@@ -235592,7 +235534,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         }

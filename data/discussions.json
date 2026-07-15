@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T06:06:43.575Z",
+  "generatedAt": "2026-07-15T10:04:06.980Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -5092,8 +5092,37 @@
       "titleId": "454108D4",
       "issueNumber": 543,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/543",
-      "updatedAt": "2026-06-22",
+      "updatedAt": "2026-07-15",
       "entries": [
+        {
+          "id": "comment-4978130402",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/543#issuecomment-4978130402",
+          "author": "xenios-jp",
+          "createdAt": "2026-07-15",
+          "createdAtMs": 1784101678000,
+          "issueNumber": 543,
+          "excerpt": "O JOGO ABRE, mas quando aparece a tela de carregamento o emulador fecha ou fica na tela de carregamento, carregando sem parar(LOADING INFINITO)😔",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454108D4/1784101670474-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454108D4/1784101670474-2.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454108D4/1784101670474-3.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454108D4/1784101670474-4.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454108D4/1784101670474-5.jpg"
+          ],
+          "meta": {
+            "status": "intro",
+            "perf": "great",
+            "device": "iPhone 16",
+            "platform": "iOS",
+            "osVersion": "iOS 18.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
+          }
+        },
         {
           "id": "issue-543",
           "type": "issue",
@@ -5177,8 +5206,31 @@
       "titleId": "5841125A",
       "issueNumber": 538,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/538",
-      "updatedAt": "2026-06-20",
+      "updatedAt": "2026-07-15",
       "entries": [
+        {
+          "id": "comment-4979321071",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/538#issuecomment-4979321071",
+          "author": "xenios-jp",
+          "createdAt": "2026-07-15",
+          "createdAtMs": 1784109685000,
+          "issueNumber": 538,
+          "excerpt": "o emulador fecha junto com o jogo",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 16",
+            "platform": "iOS",
+            "osVersion": "iOS 18.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
+          }
+        },
         {
           "id": "issue-538",
           "type": "issue",

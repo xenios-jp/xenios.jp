@@ -2,7 +2,7 @@
 
 > **356 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **147** · 🔵 In-Game: **71** · 🟡 Intro: **36** · 🟠 Loads: **44** · 🔴 Doesn't Boot: **58**
+> 🟢 Playable: **146** · 🔵 In-Game: **71** · 🟡 Intro: **36** · 🟠 Loads: **44** · 🔴 Doesn't Boot: **59**
 >
 > 📱 iOS: **330** · 🖥️ macOS: **48**
 
@@ -43,7 +43,6 @@
 | 🟢 | Civilization Revolution | `545407E5` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro | 2026-03-14 |
 | 🟢 | Condemned: Criminal Origins | `534507D2` | 📱 iOS | Playable | 👌 OK | iPhone 17 | 2026-04-22 |
 | 🟢 | Contra | `58410818` | 📱 iOS | Playable | 🚀 Great | iPhone 15 | 2026-06-07 |
-| 🟢 | Counter-Strike: GO | `5841125A` | 📱 iOS | Playable | 🚀 Great | iPhone 15 | 2026-06-20 |
 | 🟢 | DAYTONA USA | `58410B1D` | 📱 iOS | Playable | 🚀 Great | iPad Pro 13-inch (M5) | 2026-06-11 |
 | 🟢 | DB: Raging Blast 2 | `4E4D0826` | 📱 iOS | Playable | 🐢 Poor | iPad Pro (M2) | 2026-03-03 |
 | 🟢 | Dead Island | `4B4D07DF` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-04-20 |
@@ -251,7 +250,7 @@
 | 🟡 | Halo 4 | `4D530919` | 📱 iOS | Intro | 🐢 Poor | iPad Pro 12.9-inch (M2) | 2026-03-10 |
 | 🟡 | Halo Wars | `4D530808` | 📱 iOS | Intro | 👌 OK | iPhone 17 | 2026-03-03 |
 | 🟡 | Left 4 Dead | `45410830` | 📱 iOS | Intro | 🐢 Poor | iPhone 14 Pro Max | 2026-06-27 |
-| 🟡 | Left 4 Dead 2 | `454108D4` | 📱 iOS | Intro | 🚀 Great | iPhone 15 Pro Max | 2026-06-22 |
+| 🟡 | Left 4 Dead 2 | `454108D4` | 📱 iOS | Intro | 🚀 Great | iPhone 16 | 2026-07-15 |
 | 🟡 | Lego Lord of the Rings | `5752081D` | 📱 iOS | Intro | 🐢 Poor | iPhone 16e | 2026-06-15 |
 | 🟡 | Madden NFL 17 | `454109F2` | 📱 iOS | Intro | 🐢 Poor | iPad Air 11-inch (M3) | 2026-04-04 |
 | 🟡 | Max Payne 3 | `5454086B` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 | 2026-07-04 |
@@ -326,6 +325,7 @@
 | 🔴 | Call of Duty: Black Ops II | `415608C3` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 Pro Max | 2026-03-08 |
 | 🔴 | Call of Duty: Black Ops III | `4156091D` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 13 | 2026-03-14 |
 | 🔴 | Castlevania: Lords of Shadow 2 | `4B4E084D` | 🖥️ macOS | Doesn't Boot | ➖ N/A | MacBook Pro (M1) | 2026-04-12 |
+| 🔴 | Counter-Strike: GO | `5841125A` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 | 2026-07-15 |
 | 🔴 | Dead Rising 2 | `434307EC` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 Pro Max | 2026-03-14 |
 | 🔴 | Dragon Ball Z Burst Limit | `424107DC` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro Max | 2026-03-09 |
 | 🔴 | F1 2012 | `434D0847` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 Pro Max | 2026-06-09 |
