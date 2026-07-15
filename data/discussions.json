@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T04:29:10.035Z",
+  "generatedAt": "2026-07-15T04:40:25.849Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -3496,6 +3496,43 @@
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
           "images": [],
           "meta": {}
+        }
+      ]
+    },
+    "584109D1": {
+      "titleId": "584109D1",
+      "issueNumber": 587,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/587",
+      "updatedAt": "2026-07-15",
+      "entries": [
+        {
+          "id": "issue-587",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/587",
+          "author": "xenios-jp",
+          "createdAt": "2026-07-15",
+          "createdAtMs": 1784090315000,
+          "issueNumber": 587,
+          "excerpt": "O jogo está funcionando perfeitamente bem. Só não intendo por que ele só está funcionando no “vulkan” no IOS 18",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584109D1/1784090309575-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584109D1/1784090309575-2.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584109D1/1784090309575-3.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584109D1/1784090309575-4.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584109D1/1784090309575-5.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 16",
+            "platform": "iOS",
+            "osVersion": "iOS 18.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
+          }
         }
       ]
     },
