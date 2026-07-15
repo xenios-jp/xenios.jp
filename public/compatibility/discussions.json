@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T13:51:54.041Z",
+  "generatedAt": "2026-07-15T18:31:33.892Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2034,6 +2034,37 @@
             "appVersion": "1.0.1",
             "buildNumber": "9288",
             "commitShort": "`056d2f64d`"
+          }
+        }
+      ]
+    },
+    "53438806": {
+      "titleId": "53438806",
+      "issueNumber": 597,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/597",
+      "updatedAt": "2026-07-15",
+      "entries": [
+        {
+          "id": "issue-597",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/597",
+          "author": "xenios-jp",
+          "createdAt": "2026-07-15",
+          "createdAtMs": 1784140202000,
+          "issueNumber": 597,
+          "excerpt": "Jogável, mas pelo que vejo no IOS 18 vc só consegue abrir os jogos só ativando o “VULKAN”, só dar pra jogar jogos muitos simples, tem jogos pesados que até chega abrir no máximo até o “MENU DO JOGO”, mas depois disso fecha ou sai do emulador sozinho :/",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 16",
+            "platform": "iOS",
+            "osVersion": "iOS 18.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
           }
         }
       ]

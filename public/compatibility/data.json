@@ -276723,6 +276723,122 @@
     }
   },
   {
+    "slug": "mini-ninjas-demo",
+    "title": "MINI NINJAS™ (demo)",
+    "titleId": "53438806",
+    "titleIds": [
+      "53438806"
+    ],
+    "status": "playable",
+    "perf": "ok",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 16",
+      "platform": "ios",
+      "osVersion": "18.3.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-07-15",
+    "issueNumber": 597,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/597",
+    "notes": "Jogável, mas pelo que vejo no IOS 18 vc só consegue abrir os jogos só ativando o “VULKAN”, só dar pra jogar jogos muitos simples, tem jogos pesados que até chega abrir no máximo até o “MENU DO JOGO”, mas depois disso fecha ou sai do emulador sozinho :/",
+    "reports": [
+      {
+        "device": "iPhone 16",
+        "platform": "ios",
+        "osVersion": "18.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-07-15",
+        "notes": "Jogável, mas pelo que vejo no IOS 18 vc só consegue abrir os jogos só ativando o “VULKAN”, só dar pra jogar jogos muitos simples, tem jogos pesados que até chega abrir no máximo até o “MENU DO JOGO”, mas depois disso fecha ou sai do emulador sozinho :/",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140"
+        }
+      }
+    ],
+    "screenshots": [],
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "date": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "playable",
+        "perf": "ok",
+        "notes": "Jogável, mas pelo que vejo no IOS 18 vc só consegue abrir os jogos só ativando o “VULKAN”, só dar pra jogar jogos muitos simples, tem jogos pesados que até chega abrir no máximo até o “MENU DO JOGO”, mas depois disso fecha ou sai do emulador sozinho :/",
+        "updatedAt": "2026-07-15",
+        "date": "2026-07-15",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 16",
+          "platform": "ios",
+          "osVersion": "18.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-07-15",
+          "notes": "Jogável, mas pelo que vejo no IOS 18 vc só consegue abrir os jogos só ativando o “VULKAN”, só dar pra jogar jogos muitos simples, tem jogos pesados que até chega abrir no máximo até o “MENU DO JOGO”, mas depois disso fecha ou sai do emulador sozinho :/",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 16",
+          "platform": "ios",
+          "osVersion": "18.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-07-15",
+          "notes": "Jogável, mas pelo que vejo no IOS 18 vc só consegue abrir os jogos só ativando o “VULKAN”, só dar pra jogar jogos muitos simples, tem jogos pesados que até chega abrir no máximo até o “MENU DO JOGO”, mas depois disso fecha ou sai do emulador sozinho :/",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
+          }
+        }
+      }
+    }
+  },
+  {
     "slug": "nba-2k10-0",
     "title": "NBA 2K10",
     "titleId": "54549852",
