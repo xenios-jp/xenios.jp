@@ -2,7 +2,7 @@
 
 > **360 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **149** · 🔵 In-Game: **71** · 🟡 Intro: **36** · 🟠 Loads: **44** · 🔴 Doesn't Boot: **60**
+> 🟢 Playable: **149** · 🔵 In-Game: **71** · 🟡 Intro: **37** · 🟠 Loads: **43** · 🔴 Doesn't Boot: **60**
 >
 > 📱 iOS: **334** · 🖥️ macOS: **48**
 
@@ -271,6 +271,7 @@
 | 🟡 | Tales of Vesperia | `4E4D07E9` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro | 2026-03-03 |
 | 🟡 | Test Drive Unlimited 2 | `49470804` | 📱 iOS | Intro | 🐢 Poor | iPhone 15 | 2026-03-28 |
 | 🟡 | The Evil Within | `425307F4` | 📱 iOS | Intro | 🐢 Poor | iPhone 17 Pro Max | 2026-05-09 |
+| 🟡 | The Orange Box | `4541080F` | 📱 iOS | Intro | 🐢 Poor | iPad16,8 | 2026-07-16 |
 | 🟡 | Tom Clancy's Ghost Recon: Future Soldier | `55530833` | 📱 iOS | Intro | 🚀 Great | iPhone 15 Pro | 2026-06-11 |
 | 🟡 | Tom Clancy's Splinter Cell: Blacklist | `555308B6` | 📱 iOS | Intro | 🐢 Poor | iPhone 15 Pro Max | 2026-06-11 |
 | 🟡 | Tom Clancy's Splinter Cell: Conviction | `5553080B` | 📱 iOS | Intro | 🚀 Great | iPhone 15 Pro Max | 2026-06-11 |
@@ -315,7 +316,6 @@
 | 🟠 | The Amazing Spider-Man | `415608B5` | 📱 iOS | Loads | 🐢 Poor | iPad Pro 11-inch (M4) | 2026-06-09 |
 | 🟠 | The Darkness | `545407EE` | 📱 iOS | Loads | 👌 OK | iPhone 17 Pro Max | 2026-03-16 |
 | 🟠 | The Elder Scrolls V: Skyrim | `425307E6` | 📱 iOS | Loads | 🐢 Poor | iPhone 17 Pro Max | 2026-03-14 |
-| 🟠 | The Orange Box | `4541080F` | 📱 iOS | Loads | 🐢 Poor | iPhone Air | 2026-03-08 |
 | 🟠 | Transformers: Devastation | `41560923` | 📱 iOS | Loads | 🐢 Poor | iPhone 17 Pro Max | 2026-06-25 |
 | 🟠 | Tron: Evolution | `425607ED` | 📱 iOS | Loads | 👌 OK | iPhone 15 Pro Max | 2026-03-09 |
 | 🟠 | WWE 12 | `54510890` | 📱 iOS | Loads | 👌 OK | iPhone 15 Pro | 2026-03-11 |

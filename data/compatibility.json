@@ -239028,24 +239028,46 @@
     "titleIds": [
       "4541080F"
     ],
-    "status": "loads",
+    "status": "intro",
     "perf": "poor",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone Air",
+      "device": "iPad16,8",
       "platform": "ios",
-      "osVersion": "26.0",
+      "osVersion": "26.5.2",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-08",
+    "updatedAt": "2026-07-16",
     "issueNumber": 83,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/83",
-    "notes": "So The Orange Box does load yes but even after several reboots it can't reach into gameplay so there's not much i can note about",
+    "notes": "The game loads, but you can’t start the games",
     "reports": [
+      {
+        "device": "iPad16,8",
+        "platform": "ios",
+        "osVersion": "26.5.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "intro",
+        "perf": "poor",
+        "date": "2026-07-16",
+        "notes": "The game loads, but you can’t start the games",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140"
+        }
+      },
       {
         "device": "iPhone Air",
         "platform": "ios",
@@ -239093,7 +239115,10 @@
         }
       }
     ],
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4541080F/1784220325556-1.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4541080F/1784220325556-2.jpg"
+    ],
     "summaries": {
       "release": {
         "channel": "release",
@@ -239108,56 +239133,54 @@
       },
       "all": {
         "channel": "all",
-        "status": "loads",
+        "status": "intro",
         "perf": "poor",
-        "notes": "So The Orange Box does load yes but even after several reboots it can't reach into gameplay so there's not much i can note about",
-        "updatedAt": "2026-03-08",
-        "date": "2026-03-08",
-        "reportCount": 2,
+        "notes": "The game loads, but you can’t start the games",
+        "updatedAt": "2026-07-16",
+        "date": "2026-07-16",
+        "reportCount": 3,
         "latestReport": {
-          "device": "iPhone Air",
+          "device": "iPad16,8",
           "platform": "ios",
-          "osVersion": "26.0",
+          "osVersion": "26.5.2",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "loads",
+          "status": "intro",
           "perf": "poor",
-          "date": "2026-03-08",
-          "notes": "So The Orange Box does load yes but even after several reboots it can't reach into gameplay so there's not much i can note about",
-          "reportedTitleId": "4541080F",
-          "reportedTitle": "The Orange Box",
+          "date": "2026-07-16",
+          "notes": "The game loads, but you can’t start the games",
           "screenshots": [],
-          "source": "github",
+          "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633E8177"
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
           }
         },
         "bestReport": {
-          "device": "iPhone Air",
+          "device": "iPad16,8",
           "platform": "ios",
-          "osVersion": "26.0",
+          "osVersion": "26.5.2",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "loads",
+          "status": "intro",
           "perf": "poor",
-          "date": "2026-03-08",
-          "notes": "So The Orange Box does load yes but even after several reboots it can't reach into gameplay so there's not much i can note about",
-          "reportedTitleId": "4541080F",
-          "reportedTitle": "The Orange Box",
+          "date": "2026-07-16",
+          "notes": "The game loads, but you can’t start the games",
           "screenshots": [],
-          "source": "github",
+          "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633E8177"
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
           }
         }
       }
