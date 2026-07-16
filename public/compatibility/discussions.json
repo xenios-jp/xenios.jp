@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T19:11:47.311Z",
+  "generatedAt": "2026-07-16T00:08:43.699Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -3632,6 +3632,37 @@
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
           "images": [],
           "meta": {}
+        }
+      ]
+    },
+    "445007F7": {
+      "titleId": "445007F7",
+      "issueNumber": 599,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/599",
+      "updatedAt": "2026-07-16",
+      "entries": [
+        {
+          "id": "issue-599",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/599",
+          "author": "xenios-jp",
+          "createdAt": "2026-07-16",
+          "createdAtMs": 1784160432000,
+          "issueNumber": 599,
+          "excerpt": "Everything works but the text glitches often as in some letters might be missing or a line of a letter is missing",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 17",
+            "platform": "iOS",
+            "osVersion": "iOS 26.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
+          }
         }
       ]
     },

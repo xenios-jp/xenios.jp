@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **359 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **360 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **148** · 🔵 In-Game: **71** · 🟡 Intro: **36** · 🟠 Loads: **44** · 🔴 Doesn't Boot: **60**
+> 🟢 Playable: **149** · 🔵 In-Game: **71** · 🟡 Intro: **36** · 🟠 Loads: **44** · 🔴 Doesn't Boot: **60**
 >
-> 📱 iOS: **333** · 🖥️ macOS: **48**
+> 📱 iOS: **334** · 🖥️ macOS: **48**
 
 ## Legend
 
@@ -29,6 +29,7 @@
 | 🟢 | Banjo Kazooie: Nuts & Bolts | `4D5307ED` | 📱 iOS | Playable | 🐢 Poor | iPhone 15 Pro Max | 2026-03-08 |
 | 🟢 | Batman: Arkham Asylum GOTY | `5343080B` | 📱 iOS | Playable | 👌 OK | iPhone 15 Pro | 2026-03-08 |
 | 🟢 | BattleBlock Theater | `58410A30` | 📱 iOS | Playable | 🚀 Great | iPhone 13 | 2026-03-10 |
+| 🟢 | Ben 10 Ultimate Alien Cosmic Destruction | `445007F7` | 📱 iOS | Playable | 🚀 Great | iPhone 17 | 2026-07-16 |
 | 🟢 | Bioshock | `545407D8` | 📱 iOS | Playable | 🚀 Great | iPad Pro 13-inch (M4) | 2026-06-22 |
 | 🟢 | Bomberman Battlefest | `584109B2` | 📱 iOS | Playable | 🐢 Poor | iPhone 15 | 2026-03-25 |
 | 🟢 | Bomberman Live | `5841083F` | 📱 iOS | Playable | 🚀 Great | iPhone 15 | 2026-06-07 |
