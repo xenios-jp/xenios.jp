@@ -134258,23 +134258,45 @@
       "4C4107DF"
     ],
     "status": "playable",
-    "perf": "ok",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 16e",
+      "device": "iPad16,8",
       "platform": "ios",
-      "osVersion": "26.3.1",
+      "osVersion": "26.5.2",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-06-22",
+    "updatedAt": "2026-07-16",
     "issueNumber": 542,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/542",
-    "notes": "Work really good for the most part. Building Lego structures the B button wont stay held. Its not amazing, the gameplay is not smooth, but doable",
+    "notes": "The game runs normally. I haven’t had any texture problems yet.",
     "reports": [
+      {
+        "device": "iPad16,8",
+        "platform": "ios",
+        "osVersion": "26.5.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-07-16",
+        "notes": "The game runs normally. I haven’t had any texture problems yet.",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140"
+        }
+      },
       {
         "device": "iPhone 16e",
         "platform": "ios",
@@ -134313,21 +134335,21 @@
       "all": {
         "channel": "all",
         "status": "playable",
-        "perf": "ok",
-        "notes": "Work really good for the most part. Building Lego structures the B button wont stay held. Its not amazing, the gameplay is not smooth, but doable",
-        "updatedAt": "2026-06-22",
-        "date": "2026-06-22",
-        "reportCount": 1,
+        "perf": "great",
+        "notes": "The game runs normally. I haven’t had any texture problems yet.",
+        "updatedAt": "2026-07-16",
+        "date": "2026-07-16",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 16e",
+          "device": "iPad16,8",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "26.5.2",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
-          "perf": "ok",
-          "date": "2026-06-22",
-          "notes": "Work really good for the most part. Building Lego structures the B button wont stay held. Its not amazing, the gameplay is not smooth, but doable",
+          "perf": "great",
+          "date": "2026-07-16",
+          "notes": "The game runs normally. I haven’t had any texture problems yet.",
           "screenshots": [],
           "source": "app",
           "build": {
@@ -134336,19 +134358,20 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
+            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         },
         "bestReport": {
-          "device": "iPhone 16e",
+          "device": "iPad16,8",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "26.5.2",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
-          "perf": "ok",
-          "date": "2026-06-22",
-          "notes": "Work really good for the most part. Building Lego structures the B button wont stay held. Its not amazing, the gameplay is not smooth, but doable",
+          "perf": "great",
+          "date": "2026-07-16",
+          "notes": "The game runs normally. I haven’t had any texture problems yet.",
           "screenshots": [],
           "source": "app",
           "build": {
@@ -134357,6 +134380,7 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
+            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         }
@@ -245564,23 +245588,45 @@
       "534407FA"
     ],
     "status": "ingame",
-    "perf": "ok",
+    "perf": "poor",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 16 Pro Max",
+      "device": "iPad16,8",
       "platform": "ios",
-      "osVersion": "18.6",
+      "osVersion": "26.5.2",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-11",
+    "updatedAt": "2026-07-16",
     "issueNumber": 207,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/207",
-    "notes": "Video cutscenes show a glitched static. Menu works but the same static in background. Audio is buggy.\n\nThe game loads but no area or character textures load. Only the effects like dust, reflection of torches and such are visible when the camera is moved.",
+    "notes": "The game runs fine (around 60 FPS), but the textures are really bugged. Some text is unreadable, which makes the game very difficult to play.",
     "reports": [
+      {
+        "device": "iPad16,8",
+        "platform": "ios",
+        "osVersion": "26.5.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "poor",
+        "date": "2026-07-16",
+        "notes": "The game runs fine (around 60 FPS), but the textures are really bugged. Some text is unreadable, which makes the game very difficult to play.",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140"
+        }
+      },
       {
         "device": "iPhone 16 Pro Max",
         "platform": "ios",
@@ -245603,7 +245649,9 @@
         }
       }
     ],
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/534307EC/1784242678407-1.jpg"
+    ],
     "summaries": {
       "release": {
         "channel": "release",
@@ -245619,51 +245667,53 @@
       "all": {
         "channel": "all",
         "status": "ingame",
-        "perf": "ok",
-        "notes": "Video cutscenes show a glitched static. Menu works but the same static in background. Audio is buggy.\n\nThe game loads but no area or character textures load. Only the effects like dust, reflection of torches and such are visible when the camera is moved.",
-        "updatedAt": "2026-03-11",
-        "date": "2026-03-11",
-        "reportCount": 1,
+        "perf": "poor",
+        "notes": "The game runs fine (around 60 FPS), but the textures are really bugged. Some text is unreadable, which makes the game very difficult to play.",
+        "updatedAt": "2026-07-16",
+        "date": "2026-07-16",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 16 Pro Max",
+          "device": "iPad16,8",
           "platform": "ios",
-          "osVersion": "18.6",
+          "osVersion": "26.5.2",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "ingame",
-          "perf": "ok",
-          "date": "2026-03-11",
-          "notes": "Video cutscenes show a glitched static. Menu works but the same static in background. Audio is buggy.\n\nThe game loads but no area or character textures load. Only the effects like dust, reflection of torches and such are visible when the camera is moved.",
+          "perf": "poor",
+          "date": "2026-07-16",
+          "notes": "The game runs fine (around 60 FPS), but the textures are really bugged. Some text is unreadable, which makes the game very difficult to play.",
           "screenshots": [],
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9296",
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9296",
-            "commitShort": "ab2ca341a"
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
           }
         },
         "bestReport": {
-          "device": "iPhone 16 Pro Max",
+          "device": "iPad16,8",
           "platform": "ios",
-          "osVersion": "18.6",
+          "osVersion": "26.5.2",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "ingame",
-          "perf": "ok",
-          "date": "2026-03-11",
-          "notes": "Video cutscenes show a glitched static. Menu works but the same static in background. Audio is buggy.\n\nThe game loads but no area or character textures load. Only the effects like dust, reflection of torches and such are visible when the camera is moved.",
+          "perf": "poor",
+          "date": "2026-07-16",
+          "notes": "The game runs fine (around 60 FPS), but the textures are really bugged. Some text is unreadable, which makes the game very difficult to play.",
           "screenshots": [],
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9296",
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9296",
-            "commitShort": "ab2ca341a"
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
           }
         }
       }
