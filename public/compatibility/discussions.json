@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T16:47:10.432Z",
+  "generatedAt": "2026-07-18T11:45:43.976Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -3635,6 +3635,263 @@
         }
       ]
     },
+    "584109ED": {
+      "titleId": "584109ED",
+      "issueNumber": 606,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/606",
+      "updatedAt": "2026-07-18",
+      "entries": [
+        {
+          "id": "issue-606",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/606",
+          "author": "xenios-jp",
+          "createdAt": "2026-07-18",
+          "createdAtMs": 1784374951000,
+          "issueNumber": 606,
+          "excerpt": "Plays well, some audio and visual issues but nothing terrible",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.5.2",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
+          }
+        }
+      ]
+    },
+    "58410B39": {
+      "titleId": "58410B39",
+      "issueNumber": 605,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/605",
+      "updatedAt": "2026-07-18",
+      "entries": [
+        {
+          "id": "issue-605",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/605",
+          "author": "xenios-jp",
+          "createdAt": "2026-07-18",
+          "createdAtMs": 1784374906000,
+          "issueNumber": 605,
+          "excerpt": "Just a black screen",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.5.2",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
+          }
+        }
+      ]
+    },
+    "454107EE": {
+      "titleId": "454107EE",
+      "issueNumber": 604,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/604",
+      "updatedAt": "2026-07-18",
+      "entries": [
+        {
+          "id": "issue-604",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/604",
+          "author": "xenios-jp",
+          "createdAt": "2026-07-18",
+          "createdAtMs": 1784374870000,
+          "issueNumber": 604,
+          "excerpt": "The sound is very bad and the game runs maybe a quarter second slow. It can be played but it’s not enjoyable",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "poor",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.5.2",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
+          }
+        },
+        {
+          "id": "issue-188",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/188",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-11",
+          "createdAtMs": 1773195352000,
+          "issueNumber": 188,
+          "excerpt": "Everything but the player models load. The fps is a little slow & audio is bad",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "poor",
+            "device": "iPhone 16e",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
+        }
+      ]
+    },
+    "584111EC": {
+      "titleId": "584111EC",
+      "issueNumber": 603,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/603",
+      "updatedAt": "2026-07-18",
+      "entries": [
+        {
+          "id": "issue-603",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/603",
+          "author": "xenios-jp",
+          "createdAt": "2026-07-18",
+          "createdAtMs": 1784374803000,
+          "issueNumber": 603,
+          "excerpt": "Runs perfectly",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.5.2",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
+          }
+        }
+      ]
+    },
+    "4C4107DF": {
+      "titleId": "4C4107DF",
+      "issueNumber": 602,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/602",
+      "updatedAt": "2026-07-16",
+      "entries": [
+        {
+          "id": "issue-602",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/602",
+          "author": "xenios-jp",
+          "createdAt": "2026-07-16",
+          "createdAtMs": 1784242870000,
+          "issueNumber": 602,
+          "excerpt": "The game runs normally. I haven’t had any texture problems yet.",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPad16,8",
+            "platform": "iOS",
+            "osVersion": "iOS 26.5.2",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
+          }
+        },
+        {
+          "id": "issue-542",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/542",
+          "author": "xenios-jp",
+          "createdAt": "2026-06-22",
+          "createdAtMs": 1782103687000,
+          "issueNumber": 542,
+          "excerpt": "Work really good for the most part. Building Lego structures the B button wont stay held. Its not amazing, the gameplay is not smooth, but doable",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 16e",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
+          }
+        }
+      ]
+    },
+    "534307EC": {
+      "titleId": "534307EC",
+      "issueNumber": 601,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/601",
+      "updatedAt": "2026-07-16",
+      "entries": [
+        {
+          "id": "issue-601",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/601",
+          "author": "xenios-jp",
+          "createdAt": "2026-07-16",
+          "createdAtMs": 1784242684000,
+          "issueNumber": 601,
+          "excerpt": "The game runs fine (around 60 FPS), but the textures are really bugged. Some text is unreadable, which makes the game very difficult to play.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/534307EC/1784242678407-1.jpg"
+          ],
+          "meta": {
+            "status": "ingame",
+            "perf": "poor",
+            "device": "iPad16,8",
+            "platform": "iOS",
+            "osVersion": "iOS 26.5.2",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
+          }
+        },
+        {
+          "id": "issue-207",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/207",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-11",
+          "createdAtMs": 1773248121000,
+          "issueNumber": 207,
+          "excerpt": "Video cutscenes show a glitched static. Menu works but the same static in background. Audio is buggy.\n\nThe game loads but no area or character textures load. Only the effects like dust, reflection of torches and such are visible when the camera is moved.",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "ok",
+            "device": "iPhone 16 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 18.6",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9296",
+            "commitShort": "`ab2ca341a`"
+          }
+        }
+      ]
+    },
     "4541080F": {
       "titleId": "4541080F",
       "issueNumber": 600,
@@ -5325,37 +5582,6 @@
             "appVersion": "1.0.0",
             "buildNumber": "9299",
             "commitShort": "`d8c101905`"
-          }
-        }
-      ]
-    },
-    "4C4107DF": {
-      "titleId": "4C4107DF",
-      "issueNumber": 542,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/542",
-      "updatedAt": "2026-06-22",
-      "entries": [
-        {
-          "id": "issue-542",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/542",
-          "author": "xenios-jp",
-          "createdAt": "2026-06-22",
-          "createdAtMs": 1782103687000,
-          "issueNumber": 542,
-          "excerpt": "Work really good for the most part. Building Lego structures the B button wont stay held. Its not amazing, the gameplay is not smooth, but doable",
-          "images": [],
-          "meta": {
-            "status": "playable",
-            "perf": "ok",
-            "device": "iPhone 16e",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "`57c3ca140`"
           }
         }
       ]
@@ -14519,37 +14745,6 @@
         }
       ]
     },
-    "534307EC": {
-      "titleId": "534307EC",
-      "issueNumber": 207,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/207",
-      "updatedAt": "2026-03-11",
-      "entries": [
-        {
-          "id": "issue-207",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/207",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-11",
-          "createdAtMs": 1773248121000,
-          "issueNumber": 207,
-          "excerpt": "Video cutscenes show a glitched static. Menu works but the same static in background. Audio is buggy.\n\nThe game loads but no area or character textures load. Only the effects like dust, reflection of torches and such are visible when the camera is moved.",
-          "images": [],
-          "meta": {
-            "status": "ingame",
-            "perf": "ok",
-            "device": "iPhone 16 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 18.6",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9296",
-            "commitShort": "`ab2ca341a`"
-          }
-        }
-      ]
-    },
     "4D5307DF": {
       "titleId": "4D5307DF",
       "issueNumber": 206,
@@ -14718,37 +14913,6 @@
             "device": "iPhone 16 Pro Max",
             "platform": "iOS",
             "osVersion": "iOS 26.2",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "`2633e8177`"
-          }
-        }
-      ]
-    },
-    "454107EE": {
-      "titleId": "454107EE",
-      "issueNumber": 188,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/188",
-      "updatedAt": "2026-03-11",
-      "entries": [
-        {
-          "id": "issue-188",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/188",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-11",
-          "createdAtMs": 1773195352000,
-          "issueNumber": 188,
-          "excerpt": "Everything but the player models load. The fps is a little slow & audio is bad",
-          "images": [],
-          "meta": {
-            "status": "ingame",
-            "perf": "poor",
-            "device": "iPhone 16e",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3.1",
             "gpuBackend": "MSL",
             "buildChannel": "self-built",
             "appVersion": "1.0.0",
