@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-18T23:19:11.710Z",
+  "generatedAt": "2026-07-19T03:14:58.198Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2312,52 +2312,6 @@
           "meta": {}
         },
         {
-          "id": "comment-4148026721",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/271#issuecomment-4148026721",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-28",
-          "createdAtMs": 1774702311000,
-          "issueNumber": 271,
-          "excerpt": "Sound isn’t bad FPS is great",
-          "images": [],
-          "meta": {
-            "status": "playable",
-            "perf": "great",
-            "device": "iPhone 16",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "`056d2f64d`"
-          }
-        },
-        {
-          "id": "issue-271",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/271",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-15",
-          "createdAtMs": 1773587062000,
-          "issueNumber": 271,
-          "excerpt": "Performance drops, low fps, runs well certain areas.",
-          "images": [],
-          "meta": {
-            "status": "playable",
-            "perf": "poor",
-            "device": "iPhone 17 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "`056d2f64d`"
-          }
-        },
-        {
           "id": "comment-4019846453",
           "type": "comment",
           "url": "https://github.com/xenios-jp/game-compatibility/issues/12#issuecomment-4019846453",
@@ -3655,6 +3609,49 @@
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
           "images": [],
           "meta": {}
+        }
+      ]
+    },
+    "454109F9": {
+      "titleId": "454109F9",
+      "issueNumber": 450,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/450",
+      "updatedAt": "2026-07-19",
+      "entries": [
+        {
+          "id": "issue-608",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/608",
+          "author": "cezarieie",
+          "createdAt": "2026-07-19",
+          "createdAtMs": 1784430809000,
+          "issueNumber": 608,
+          "excerpt": ".",
+          "images": [],
+          "meta": {}
+        },
+        {
+          "id": "issue-450",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/450",
+          "author": "xenios-jp",
+          "createdAt": "2026-05-22",
+          "createdAtMs": 1779489732000,
+          "issueNumber": 450,
+          "excerpt": "Groahical issues",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "poor",
+            "device": "iPhone 16 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
         }
       ]
     },
@@ -8859,37 +8856,6 @@
             "device": "iPhone 17",
             "platform": "iOS",
             "osVersion": "iOS 26.4.2",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "`056d2f64d`"
-          }
-        }
-      ]
-    },
-    "454109F9": {
-      "titleId": "454109F9",
-      "issueNumber": 450,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/450",
-      "updatedAt": "2026-05-22",
-      "entries": [
-        {
-          "id": "issue-450",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/450",
-          "author": "xenios-jp",
-          "createdAt": "2026-05-22",
-          "createdAtMs": 1779489732000,
-          "issueNumber": 450,
-          "excerpt": "Groahical issues",
-          "images": [],
-          "meta": {
-            "status": "ingame",
-            "perf": "poor",
-            "device": "iPhone 16 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3.1",
             "gpuBackend": "MSL",
             "buildChannel": "self-built",
             "appVersion": "1.0.1",

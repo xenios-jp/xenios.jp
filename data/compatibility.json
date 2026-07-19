@@ -91047,17 +91047,37 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 16 Pro Max",
+      "device": "iPad Air gen 6 (M2)",
       "platform": "ios",
-      "osVersion": "26.3.1",
+      "osVersion": "iOS 27 beta 3",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-05-22",
+    "updatedAt": "2026-07-19",
     "issueNumber": 450,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/450",
-    "notes": "Groahical issues",
+    "notes": "https://github.com/user-attachments/assets/f8180a37-38b2-4bdd-87fe-e44905a889cb .",
     "reports": [
+      {
+        "device": "iPad Air gen 6 (M2)",
+        "platform": "ios",
+        "osVersion": "iOS 27 beta 3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "poor",
+        "date": "2026-07-19",
+        "notes": "https://github.com/user-attachments/assets/f8180a37-38b2-4bdd-87fe-e44905a889cb .",
+        "screenshots": [],
+        "source": "github",
+        "build": {
+          "buildId": "ios-release-2.1-9857",
+          "channel": "release",
+          "official": true,
+          "appVersion": "2.1",
+          "buildNumber": "9857"
+        }
+      },
       {
         "device": "iPhone 16 Pro Max",
         "platform": "ios",
@@ -91084,63 +91104,99 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "ingame",
+        "perf": "poor",
+        "notes": "https://github.com/user-attachments/assets/f8180a37-38b2-4bdd-87fe-e44905a889cb .",
+        "updatedAt": "2026-07-19",
+        "date": "2026-07-19",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPad Air gen 6 (M2)",
+          "platform": "ios",
+          "osVersion": "iOS 27 beta 3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-07-19",
+          "notes": "https://github.com/user-attachments/assets/f8180a37-38b2-4bdd-87fe-e44905a889cb .",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-2.1-9857",
+            "channel": "release",
+            "official": true,
+            "appVersion": "2.1",
+            "buildNumber": "9857"
+          }
+        },
+        "bestReport": {
+          "device": "iPad Air gen 6 (M2)",
+          "platform": "ios",
+          "osVersion": "iOS 27 beta 3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-07-19",
+          "notes": "https://github.com/user-attachments/assets/f8180a37-38b2-4bdd-87fe-e44905a889cb .",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-2.1-9857",
+            "channel": "release",
+            "official": true,
+            "appVersion": "2.1",
+            "buildNumber": "9857"
+          }
+        }
       },
       "all": {
         "channel": "all",
         "status": "ingame",
         "perf": "poor",
-        "notes": "Groahical issues",
-        "updatedAt": "2026-05-22",
-        "date": "2026-05-22",
-        "reportCount": 1,
+        "notes": "https://github.com/user-attachments/assets/f8180a37-38b2-4bdd-87fe-e44905a889cb .",
+        "updatedAt": "2026-07-19",
+        "date": "2026-07-19",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 16 Pro Max",
+          "device": "iPad Air gen 6 (M2)",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "iOS 27 beta 3",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "ingame",
           "perf": "poor",
-          "date": "2026-05-22",
-          "notes": "Groahical issues",
+          "date": "2026-07-19",
+          "notes": "https://github.com/user-attachments/assets/f8180a37-38b2-4bdd-87fe-e44905a889cb .",
           "screenshots": [],
-          "source": "app",
+          "source": "github",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "buildId": "ios-release-2.1-9857",
+            "channel": "release",
+            "official": true,
+            "appVersion": "2.1",
+            "buildNumber": "9857"
           }
         },
         "bestReport": {
-          "device": "iPhone 16 Pro Max",
+          "device": "iPad Air gen 6 (M2)",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "iOS 27 beta 3",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "ingame",
           "perf": "poor",
-          "date": "2026-05-22",
-          "notes": "Groahical issues",
+          "date": "2026-07-19",
+          "notes": "https://github.com/user-attachments/assets/f8180a37-38b2-4bdd-87fe-e44905a889cb .",
           "screenshots": [],
-          "source": "app",
+          "source": "github",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "buildId": "ios-release-2.1-9857",
+            "channel": "release",
+            "official": true,
+            "appVersion": "2.1",
+            "buildNumber": "9857"
           }
         }
       }
@@ -277088,122 +277144,6 @@
     }
   },
   {
-    "slug": "mini-ninjas-demo",
-    "title": "MINI NINJAS™ (demo)",
-    "titleId": "53438806",
-    "titleIds": [
-      "53438806"
-    ],
-    "status": "playable",
-    "perf": "ok",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 16",
-      "platform": "ios",
-      "osVersion": "18.3.1",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-07-15",
-    "issueNumber": 597,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/597",
-    "notes": "Jogável, mas pelo que vejo no IOS 18 vc só consegue abrir os jogos só ativando o “VULKAN”, só dar pra jogar jogos muitos simples, tem jogos pesados que até chega abrir no máximo até o “MENU DO JOGO”, mas depois disso fecha ou sai do emulador sozinho :/",
-    "reports": [
-      {
-        "device": "iPhone 16",
-        "platform": "ios",
-        "osVersion": "18.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "ok",
-        "date": "2026-07-15",
-        "notes": "Jogável, mas pelo que vejo no IOS 18 vc só consegue abrir os jogos só ativando o “VULKAN”, só dar pra jogar jogos muitos simples, tem jogos pesados que até chega abrir no máximo até o “MENU DO JOGO”, mas depois disso fecha ou sai do emulador sozinho :/",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-2.0.1-9730",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "stage": "stable",
-          "commitShort": "57c3ca140"
-        }
-      }
-    ],
-    "screenshots": [],
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "playable",
-        "perf": "ok",
-        "notes": "Jogável, mas pelo que vejo no IOS 18 vc só consegue abrir os jogos só ativando o “VULKAN”, só dar pra jogar jogos muitos simples, tem jogos pesados que até chega abrir no máximo até o “MENU DO JOGO”, mas depois disso fecha ou sai do emulador sozinho :/",
-        "updatedAt": "2026-07-15",
-        "date": "2026-07-15",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 16",
-          "platform": "ios",
-          "osVersion": "18.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-07-15",
-          "notes": "Jogável, mas pelo que vejo no IOS 18 vc só consegue abrir os jogos só ativando o “VULKAN”, só dar pra jogar jogos muitos simples, tem jogos pesados que até chega abrir no máximo até o “MENU DO JOGO”, mas depois disso fecha ou sai do emulador sozinho :/",
-          "screenshots": [],
-          "source": "app",
-          "build": {
-            "buildId": "ios-self-built-2.0.1-9730",
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 16",
-          "platform": "ios",
-          "osVersion": "18.3.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-07-15",
-          "notes": "Jogável, mas pelo que vejo no IOS 18 vc só consegue abrir os jogos só ativando o “VULKAN”, só dar pra jogar jogos muitos simples, tem jogos pesados que até chega abrir no máximo até o “MENU DO JOGO”, mas depois disso fecha ou sai do emulador sozinho :/",
-          "screenshots": [],
-          "source": "app",
-          "build": {
-            "buildId": "ios-self-built-2.0.1-9730",
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140"
-          }
-        }
-      }
-    }
-  },
-  {
     "slug": "devil-may-cry-4-demo",
     "title": "Devil May Cry 4 Demo",
     "titleId": "434387E3",
@@ -277304,6 +277244,122 @@
           "perf": "great",
           "date": "2026-07-15",
           "notes": "Jogável, nos 30 FPS mas está jogavel",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
+          }
+        }
+      }
+    }
+  },
+  {
+    "slug": "mini-ninjas-demo",
+    "title": "MINI NINJAS™ (demo)",
+    "titleId": "53438806",
+    "titleIds": [
+      "53438806"
+    ],
+    "status": "playable",
+    "perf": "ok",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 16",
+      "platform": "ios",
+      "osVersion": "18.3.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-07-15",
+    "issueNumber": 597,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/597",
+    "notes": "Jogável, mas pelo que vejo no IOS 18 vc só consegue abrir os jogos só ativando o “VULKAN”, só dar pra jogar jogos muitos simples, tem jogos pesados que até chega abrir no máximo até o “MENU DO JOGO”, mas depois disso fecha ou sai do emulador sozinho :/",
+    "reports": [
+      {
+        "device": "iPhone 16",
+        "platform": "ios",
+        "osVersion": "18.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-07-15",
+        "notes": "Jogável, mas pelo que vejo no IOS 18 vc só consegue abrir os jogos só ativando o “VULKAN”, só dar pra jogar jogos muitos simples, tem jogos pesados que até chega abrir no máximo até o “MENU DO JOGO”, mas depois disso fecha ou sai do emulador sozinho :/",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140"
+        }
+      }
+    ],
+    "screenshots": [],
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "date": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
+      },
+      "all": {
+        "channel": "all",
+        "status": "playable",
+        "perf": "ok",
+        "notes": "Jogável, mas pelo que vejo no IOS 18 vc só consegue abrir os jogos só ativando o “VULKAN”, só dar pra jogar jogos muitos simples, tem jogos pesados que até chega abrir no máximo até o “MENU DO JOGO”, mas depois disso fecha ou sai do emulador sozinho :/",
+        "updatedAt": "2026-07-15",
+        "date": "2026-07-15",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 16",
+          "platform": "ios",
+          "osVersion": "18.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-07-15",
+          "notes": "Jogável, mas pelo que vejo no IOS 18 vc só consegue abrir os jogos só ativando o “VULKAN”, só dar pra jogar jogos muitos simples, tem jogos pesados que até chega abrir no máximo até o “MENU DO JOGO”, mas depois disso fecha ou sai do emulador sozinho :/",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 16",
+          "platform": "ios",
+          "osVersion": "18.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-07-15",
+          "notes": "Jogável, mas pelo que vejo no IOS 18 vc só consegue abrir os jogos só ativando o “VULKAN”, só dar pra jogar jogos muitos simples, tem jogos pesados que até chega abrir no máximo até o “MENU DO JOGO”, mas depois disso fecha ou sai do emulador sozinho :/",
           "screenshots": [],
           "source": "app",
           "build": {
