@@ -106212,11 +106212,33 @@
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-06-29",
+    "updatedAt": "2026-07-20",
     "issueNumber": 62,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/62",
     "notes": "the game ran alright but would soon freeze or the entire app would crash",
     "reports": [
+      {
+        "device": "iPhone 16 Pro",
+        "platform": "ios",
+        "osVersion": "27.0",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-07-20",
+        "notes": "black screen, then freezes after 15 seconds, then crashes after 15-20 more seconds",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140"
+        }
+      },
       {
         "device": "iPhone 14 Pro Max",
         "platform": "ios",
@@ -106346,19 +106368,19 @@
         "status": "ingame",
         "perf": "ok",
         "notes": "the game ran alright but would soon freeze or the entire app would crash",
-        "updatedAt": "2026-06-29",
-        "date": "2026-06-29",
-        "reportCount": 4,
+        "updatedAt": "2026-07-20",
+        "date": "2026-07-20",
+        "reportCount": 5,
         "latestReport": {
-          "device": "iPhone 14 Pro Max",
+          "device": "iPhone 16 Pro",
           "platform": "ios",
-          "osVersion": "26.5",
+          "osVersion": "27.0",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "ok",
-          "date": "2026-06-29",
-          "notes": "the game ran alright but would soon freeze or the entire app would crash",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-07-20",
+          "notes": "black screen, then freezes after 15 seconds, then crashes after 15-20 more seconds",
           "screenshots": [],
           "source": "app",
           "build": {
@@ -106367,6 +106389,7 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
+            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         },

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-20T06:19:34.927Z",
+  "generatedAt": "2026-07-20T19:01:23.926Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -6299,10 +6299,33 @@
     },
     "545408A7": {
       "titleId": "545408A7",
-      "issueNumber": 369,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/369",
-      "updatedAt": "2026-07-19",
+      "issueNumber": 516,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/516",
+      "updatedAt": "2026-07-20",
       "entries": [
+        {
+          "id": "comment-5026040325",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/516#issuecomment-5026040325",
+          "author": "xenios-jp",
+          "createdAt": "2026-07-20",
+          "createdAtMs": 1784573931000,
+          "issueNumber": 516,
+          "excerpt": "black screen, then freezes after 15 seconds, then crashes after 15-20 more seconds",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 16 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 27.0",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
+          }
+        },
         {
           "id": "comment-5015426499",
           "type": "comment",
@@ -6405,29 +6428,6 @@
             "status": "playable",
             "perf": "poor",
             "device": "iPhone 17 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "`056d2f64d`"
-          }
-        },
-        {
-          "id": "comment-4266404943",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/369#issuecomment-4266404943",
-          "author": "xenios-jp",
-          "createdAt": "2026-04-17",
-          "createdAtMs": 1776413520000,
-          "issueNumber": 369,
-          "excerpt": "When I open the game it’s just a black screen",
-          "images": [],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPad 10",
             "platform": "iOS",
             "osVersion": "iOS 26.3.1",
             "gpuBackend": "MSL",
