@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-13T06:43:34.843Z",
+  "generatedAt": "2026-07-20T06:37:06.368Z",
   "totalProjects": 4,
   "contributors": [
     {
@@ -1296,6 +1296,16 @@
       "displayName": "rtissera",
       "profileUrl": "https://github.com/rtissera",
       "avatarUrl": "https://avatars.githubusercontent.com/u/3001093?v=4",
+      "projects": [
+        "xenia-canary",
+        "xenia-edge"
+      ]
+    },
+    {
+      "id": "user:saveeditors",
+      "displayName": "SaveEditors",
+      "profileUrl": "https://github.com/SaveEditors",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/119719171?v=4",
       "projects": [
         "xenia-canary",
         "xenia-edge"
