@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-19T10:53:03.231Z",
+  "generatedAt": "2026-07-20T06:19:34.927Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2808,10 +2808,33 @@
     },
     "54540852": {
       "titleId": "54540852",
-      "issueNumber": 178,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/178",
-      "updatedAt": "2026-03-10",
+      "issueNumber": 610,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/610",
+      "updatedAt": "2026-07-20",
       "entries": [
+        {
+          "id": "issue-610",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/610",
+          "author": "xenios-jp",
+          "createdAt": "2026-07-20",
+          "createdAtMs": 1784528091000,
+          "issueNumber": 610,
+          "excerpt": "Lags when in game",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "poor",
+            "device": "iPhone 16e",
+            "platform": "iOS",
+            "osVersion": "iOS 26.5.2",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
+          }
+        },
         {
           "id": "issue-178",
           "type": "issue",
@@ -6787,10 +6810,33 @@
     },
     "545407F2": {
       "titleId": "545407F2",
-      "issueNumber": 41,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/41",
-      "updatedAt": "2026-06-24",
+      "issueNumber": 508,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/508",
+      "updatedAt": "2026-07-20",
       "entries": [
+        {
+          "id": "comment-5019313795",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/508#issuecomment-5019313795",
+          "author": "xenios-jp",
+          "createdAt": "2026-07-20",
+          "createdAtMs": 1784528147000,
+          "issueNumber": 508,
+          "excerpt": "Low frame rates in game",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 16e",
+            "platform": "iOS",
+            "osVersion": "iOS 26.5.2",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
+          }
+        },
         {
           "id": "comment-4758672712",
           "type": "comment",
@@ -6881,29 +6927,6 @@
           "createdAtMs": 1775389763000,
           "issueNumber": 392,
           "excerpt": "Needed to add that the sound is okay when loading and breaks once in gameplay",
-          "images": [],
-          "meta": {
-            "status": "ingame",
-            "perf": "ok",
-            "device": "iPhone 13 Pro",
-            "platform": "iOS",
-            "osVersion": "iOS 18.7.7",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "`056d2f64d`"
-          }
-        },
-        {
-          "id": "issue-392",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/392",
-          "author": "xenios-jp",
-          "createdAt": "2026-04-05",
-          "createdAtMs": 1775389686000,
-          "issueNumber": 392,
-          "excerpt": "Surprised it actually ran on the device, sometimes crashes ingame, around 15fps 20 fps at most, the device could do much better obviously",
           "images": [],
           "meta": {
             "status": "ingame",

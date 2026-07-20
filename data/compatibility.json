@@ -105881,17 +105881,38 @@
       "macos"
     ],
     "lastReport": {
-      "device": "iPhone 17 Pro Max",
+      "device": "iPhone 16e",
       "platform": "ios",
-      "osVersion": "26.5.1",
+      "osVersion": "26.5.2",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-06-20",
+    "updatedAt": "2026-07-20",
     "issueNumber": 41,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/41",
-    "notes": "The Game Working Perfectly but around 10-20 FPS and sometimes Increases to 50 FPS",
+    "notes": "Low frame rates in game",
     "reports": [
+      {
+        "device": "iPhone 16e",
+        "platform": "ios",
+        "osVersion": "26.5.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-07-20",
+        "notes": "Low frame rates in game",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "commitShort": "57c3ca140"
+        }
+      },
       {
         "device": "iPhone 17 Pro Max",
         "platform": "ios",
@@ -106122,20 +106143,20 @@
         "channel": "all",
         "status": "playable",
         "perf": "ok",
-        "notes": "The Game Working Perfectly but around 10-20 FPS and sometimes Increases to 50 FPS",
-        "updatedAt": "2026-06-20",
-        "date": "2026-06-20",
-        "reportCount": 8,
+        "notes": "Low frame rates in game",
+        "updatedAt": "2026-07-20",
+        "date": "2026-07-20",
+        "reportCount": 9,
         "latestReport": {
-          "device": "iPhone 17 Pro Max",
+          "device": "iPhone 16e",
           "platform": "ios",
-          "osVersion": "26.5.1",
+          "osVersion": "26.5.2",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "ok",
-          "date": "2026-06-20",
-          "notes": "The Game Working Perfectly but around 10-20 FPS and sometimes Increases to 50 FPS",
+          "date": "2026-07-20",
+          "notes": "Low frame rates in game",
           "screenshots": [],
           "source": "app",
           "build": {
@@ -106148,15 +106169,15 @@
           }
         },
         "bestReport": {
-          "device": "iPhone 17 Pro Max",
+          "device": "iPhone 16e",
           "platform": "ios",
-          "osVersion": "26.5.1",
+          "osVersion": "26.5.2",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "ok",
-          "date": "2026-06-20",
-          "notes": "The Game Working Perfectly but around 10-20 FPS and sometimes Increases to 50 FPS",
+          "date": "2026-07-20",
+          "notes": "Low frame rates in game",
           "screenshots": [],
           "source": "app",
           "build": {
@@ -159818,8 +159839,8 @@
     "titleIds": [
       "54540852"
     ],
-    "status": "ingame",
-    "perf": "ok",
+    "status": "playable",
+    "perf": "poor",
     "tags": [],
     "platforms": [
       "ios"
@@ -159827,34 +159848,34 @@
     "lastReport": {
       "device": "iPhone 16e",
       "platform": "ios",
-      "osVersion": "26.3.1",
+      "osVersion": "26.5.2",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-10",
-    "issueNumber": 178,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/178",
-    "notes": "Crashes app when you load into a game",
+    "updatedAt": "2026-07-20",
+    "issueNumber": 610,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/610",
+    "notes": "Lags when in game",
     "reports": [
       {
         "device": "iPhone 16e",
         "platform": "ios",
-        "osVersion": "26.3.1",
+        "osVersion": "26.5.2",
         "arch": "arm64",
         "gpuBackend": "msl",
-        "status": "ingame",
-        "perf": "ok",
-        "date": "2026-03-10",
-        "notes": "Crashes app when you load into a game",
+        "status": "playable",
+        "perf": "poor",
+        "date": "2026-07-20",
+        "notes": "Lags when in game",
         "screenshots": [],
         "source": "app",
         "build": {
-          "buildId": "ios-self-built-1.0.0-9280",
+          "buildId": "ios-self-built-2.0.1-9730",
           "channel": "self-built",
           "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "commitShort": "2633e8177"
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "commitShort": "57c3ca140"
         }
       }
     ],
@@ -159873,52 +159894,52 @@
       },
       "all": {
         "channel": "all",
-        "status": "ingame",
-        "perf": "ok",
-        "notes": "Crashes app when you load into a game",
-        "updatedAt": "2026-03-10",
-        "date": "2026-03-10",
+        "status": "playable",
+        "perf": "poor",
+        "notes": "Lags when in game",
+        "updatedAt": "2026-07-20",
+        "date": "2026-07-20",
         "reportCount": 1,
         "latestReport": {
           "device": "iPhone 16e",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "26.5.2",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "ok",
-          "date": "2026-03-10",
-          "notes": "Crashes app when you load into a game",
+          "status": "playable",
+          "perf": "poor",
+          "date": "2026-07-20",
+          "notes": "Lags when in game",
           "screenshots": [],
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633e8177"
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "57c3ca140"
           }
         },
         "bestReport": {
           "device": "iPhone 16e",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "26.5.2",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "ok",
-          "date": "2026-03-10",
-          "notes": "Crashes app when you load into a game",
+          "status": "playable",
+          "perf": "poor",
+          "date": "2026-07-20",
+          "notes": "Lags when in game",
           "screenshots": [],
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633e8177"
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "57c3ca140"
           }
         }
       }
