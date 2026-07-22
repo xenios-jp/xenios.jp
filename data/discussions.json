@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-20T19:01:23.926Z",
+  "generatedAt": "2026-07-22T21:16:20.623Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -6947,8 +6947,31 @@
       "titleId": "465307E4",
       "issueNumber": 507,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/507",
-      "updatedAt": "2026-06-12",
+      "updatedAt": "2026-07-22",
       "entries": [
+        {
+          "id": "comment-5051630317",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/507#issuecomment-5051630317",
+          "author": "xenios-jp",
+          "createdAt": "2026-07-22",
+          "createdAtMs": 1784754809000,
+          "issueNumber": 507,
+          "excerpt": "Playable but crashes frequently (issue from Xenia itself, likely will not be fully playable for some time).",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "poor",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.5.2",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
+          }
+        },
         {
           "id": "issue-507",
           "type": "issue",

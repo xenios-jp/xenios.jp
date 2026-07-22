@@ -2,7 +2,7 @@
 
 > **362 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **152** · 🔵 In-Game: **68** · 🟡 Intro: **37** · 🟠 Loads: **43** · 🔴 Doesn't Boot: **62**
+> 🟢 Playable: **153** · 🔵 In-Game: **68** · 🟡 Intro: **36** · 🟠 Loads: **43** · 🔴 Doesn't Boot: **62**
 >
 > 📱 iOS: **336** · 🖥️ macOS: **48**
 
@@ -43,6 +43,7 @@
 | 🟢 | Civilization Revolution | `545407E5` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro | 2026-03-14 |
 | 🟢 | Condemned: Criminal Origins | `534507D2` | 📱 iOS | Playable | 👌 OK | iPhone 17 | 2026-04-22 |
 | 🟢 | Contra | `58410818` | 📱 iOS | Playable | 🚀 Great | iPhone 15 | 2026-06-07 |
+| 🟢 | Dark Souls 2 | `465307E4` | 📱 iOS | Playable | 🐢 Poor | iPhone 17 Pro Max | 2026-07-22 |
 | 🟢 | DAYTONA USA | `58410B1D` | 📱 iOS | Playable | 🚀 Great | iPad Pro 13-inch (M5) | 2026-06-11 |
 | 🟢 | DB: Raging Blast 2 | `4E4D0826` | 📱 iOS | Playable | 🐢 Poor | iPad Pro (M2) | 2026-03-03 |
 | 🟢 | Dead Island | `4B4D07DF` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-04-20 |
@@ -244,7 +245,6 @@
 | 🟡 | Back to the Future | `443607D6` | 📱 iOS | Intro | 🚀 Great | iPhone 16 Pro | 2026-03-24 |
 | 🟡 | Beautiful Katamari | `4E4D07DC` | 📱 iOS | Intro | 👌 OK | iPhone 16 Pro | 2026-03-05 |
 | 🟡 | Blur | `41560845` | 📱 iOS | Intro | 🐢 Poor | iPhone 15 Pro | 2026-06-12 |
-| 🟡 | Dark Souls 2 | `465307E4` | 📱 iOS | Intro | 👌 OK | iPhone 15 Pro | 2026-06-12 |
 | 🟡 | Dead or Alive Xtreme 2 | `544307D2` | 📱 iOS | Intro | 🐢 Poor | iPhone 13 Pro Max | 2026-03-27 |
 | 🟡 | Dead Rising | `434307D2` | 📱 iOS | Intro | 👌 OK | iPad (A16) | 2026-03-04 |
 | 🟡 | Divinity II Dragon Knight Saga | `464507D6` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro Max | 2026-03-09 |

@@ -64722,24 +64722,45 @@
     "titleIds": [
       "465307E4"
     ],
-    "status": "intro",
-    "perf": "ok",
+    "status": "playable",
+    "perf": "poor",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 15 Pro",
+      "device": "iPhone 17 Pro Max",
       "platform": "ios",
-      "osVersion": "26.2.1",
+      "osVersion": "26.5.2",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-06-12",
+    "updatedAt": "2026-07-22",
     "issueNumber": 110,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/110",
-    "notes": "Requires compatibility pack to go pass the start screen",
+    "notes": "Playable but crashes frequently (issue from Xenia itself, likely will not be fully playable for some time).",
     "reports": [
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.5.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "poor",
+        "date": "2026-07-22",
+        "notes": "Playable but crashes frequently (issue from Xenia itself, likely will not be fully playable for some time).",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "commitShort": "57c3ca140"
+        }
+      },
       {
         "device": "iPhone 15 Pro",
         "platform": "ios",
@@ -64801,22 +64822,22 @@
       },
       "all": {
         "channel": "all",
-        "status": "intro",
-        "perf": "ok",
-        "notes": "Requires compatibility pack to go pass the start screen",
-        "updatedAt": "2026-06-12",
-        "date": "2026-06-12",
-        "reportCount": 2,
+        "status": "playable",
+        "perf": "poor",
+        "notes": "Playable but crashes frequently (issue from Xenia itself, likely will not be fully playable for some time).",
+        "updatedAt": "2026-07-22",
+        "date": "2026-07-22",
+        "reportCount": 3,
         "latestReport": {
-          "device": "iPhone 15 Pro",
+          "device": "iPhone 17 Pro Max",
           "platform": "ios",
-          "osVersion": "26.2.1",
+          "osVersion": "26.5.2",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "ok",
-          "date": "2026-06-12",
-          "notes": "Requires compatibility pack to go pass the start screen",
+          "status": "playable",
+          "perf": "poor",
+          "date": "2026-07-22",
+          "notes": "Playable but crashes frequently (issue from Xenia itself, likely will not be fully playable for some time).",
           "screenshots": [],
           "source": "app",
           "build": {
@@ -64829,15 +64850,15 @@
           }
         },
         "bestReport": {
-          "device": "iPhone 15 Pro",
+          "device": "iPhone 17 Pro Max",
           "platform": "ios",
-          "osVersion": "26.2.1",
+          "osVersion": "26.5.2",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "ok",
-          "date": "2026-06-12",
-          "notes": "Requires compatibility pack to go pass the start screen",
+          "status": "playable",
+          "perf": "poor",
+          "date": "2026-07-22",
+          "notes": "Playable but crashes frequently (issue from Xenia itself, likely will not be fully playable for some time).",
           "screenshots": [],
           "source": "app",
           "build": {
