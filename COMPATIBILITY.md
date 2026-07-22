@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **362 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **363 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **153** · 🔵 In-Game: **68** · 🟡 Intro: **36** · 🟠 Loads: **43** · 🔴 Doesn't Boot: **62**
+> 🟢 Playable: **153** · 🔵 In-Game: **68** · 🟡 Intro: **36** · 🟠 Loads: **44** · 🔴 Doesn't Boot: **62**
 >
-> 📱 iOS: **336** · 🖥️ macOS: **48**
+> 📱 iOS: **337** · 🖥️ macOS: **48**
 
 ## Legend
 
@@ -313,6 +313,7 @@
 | 🟠 | Sonic & All-Stars Racing Transformed | `5345085D` | 📱 iOS | Loads | 🐢 Poor | iPhone 17 Pro Max | 2026-03-24 |
 | 🟠 | Spider Man: Edge Of Time | `415608B2` | 📱 iOS | Loads | 🐢 Poor | iPhone 15 Pro Max | 2026-03-09 |
 | 🟠 | Spider-Man: Shattered Dimensions | `41560881` | 📱 iOS | Loads | 🐢 Poor | iPhone 15 Pro | 2026-03-25 |
+| 🟠 | Teenage Mutant Ninja Turtles: Mutants in Manhattan | `4156091E` | 📱 iOS | Loads | 🐢 Poor | iPhone 17 | 2026-07-22 |
 | 🟠 | The Amazing Spider-Man | `415608B5` | 📱 iOS | Loads | 🐢 Poor | iPad Pro 11-inch (M4) | 2026-06-09 |
 | 🟠 | The Darkness | `545407EE` | 📱 iOS | Loads | 👌 OK | iPhone 17 Pro Max | 2026-03-16 |
 | 🟠 | The Elder Scrolls V: Skyrim | `425307E6` | 📱 iOS | Loads | 🐢 Poor | iPhone 17 Pro Max | 2026-03-14 |
