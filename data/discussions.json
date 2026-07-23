@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T03:01:58.170Z",
+  "generatedAt": "2026-07-23T14:14:47.991Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -6413,8 +6413,20 @@
       "titleId": "545408A7",
       "issueNumber": 516,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/516",
-      "updatedAt": "2026-07-20",
+      "updatedAt": "2026-07-23",
       "entries": [
+        {
+          "id": "comment-5059429960",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/516#issuecomment-5059429960",
+          "author": "brayandeluna299-stack",
+          "createdAt": "2026-07-23",
+          "createdAtMs": 1784815911000,
+          "issueNumber": 516,
+          "excerpt": "Fmfkdk",
+          "images": [],
+          "meta": {}
+        },
         {
           "id": "comment-5026040325",
           "type": "comment",
@@ -6514,34 +6526,6 @@
             "device": "iPad Air 4",
             "platform": "iOS",
             "osVersion": "iOS 18.0.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "`056d2f64d`"
-          }
-        },
-        {
-          "id": "comment-4275868561",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/369#issuecomment-4275868561",
-          "author": "xenios-jp",
-          "createdAt": "2026-04-19",
-          "createdAtMs": 1776600655000,
-          "issueNumber": 369,
-          "excerpt": "Game runs, however very poorly with stutters and color flickering etc. with 10-15 FPS.\nEmulator is in early stages so I am keen to see major improvements :)",
-          "images": [
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408A7/1776600642715-1.jpg",
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408A7/1776600642715-2.jpg",
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408A7/1776600642715-3.jpg",
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408A7/1776600642715-4.jpg"
-          ],
-          "meta": {
-            "status": "playable",
-            "perf": "poor",
-            "device": "iPhone 17 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3.1",
             "gpuBackend": "MSL",
             "buildChannel": "self-built",
             "appVersion": "1.0.1",
