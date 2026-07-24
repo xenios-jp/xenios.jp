@@ -2,7 +2,7 @@
 
 > **364 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **153** · 🔵 In-Game: **68** · 🟡 Intro: **36** · 🟠 Loads: **44** · 🔴 Doesn't Boot: **63**
+> 🟢 Playable: **153** · 🔵 In-Game: **68** · 🟡 Intro: **36** · 🟠 Loads: **45** · 🔴 Doesn't Boot: **62**
 >
 > 📱 iOS: **338** · 🖥️ macOS: **47**
 
@@ -303,6 +303,7 @@
 | 🟠 | Prince of Persia The Forgotten Sands | `5553083E` | 📱 iOS | Loads | 🐢 Poor | iPad Pro 13-inch (M4) | 2026-06-30 |
 | 🟠 | Project Gotham Racing 3 | `4D5307D1` | 🖥️ macOS | Loads | 🚀 Great | Macbook Pro M1 Pro | 2026-05-10 |
 | 🟠 | Project Gotham Racing 4 | `4D5307F9` | 🖥️ macOS | Loads | 🚀 Great | MacBook Pro (M4 Max) | 2026-03-14 |
+| 🟠 | Real Steel | `584111E0` | 📱 iOS | Loads | 👌 OK | iPhone 12 Pro | 2026-07-24 |
 | 🟠 | Red Dead Redemption GOTY Edition | `5454082B` | 📱 iOS | Loads | 🐢 Poor | iPad Pro 13-inch (M4) | 2026-04-24 |
 | 🟠 | Rock Band Classic Rock | `454108B0` | 🖥️ macOS | Loads | 🚀 Great | MacBook Pro (M4) | 2026-03-23 |
 | 🟠 | Rock Band Country Pack | `454108CA` | 🖥️ macOS | Loads | 🚀 Great | MacBook Pro (M4) | 2026-03-23 |
@@ -358,7 +359,6 @@
 | 🔴 | Ninja Gaiden II | `544307D5` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 14 | 2026-03-24 |
 | 🔴 | Plants vs Zombies Garden Warfare | `454109C9` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone XS Max | 2026-04-18 |
 | 🔴 | PROTOTYPE | `4156084E` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 14 Pro | 2026-06-11 |
-| 🔴 | Real Steel | `584111E0` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 12 Pro | 2026-07-24 |
 | 🔴 | Resident Evil 4 | `4343081C` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16e | 2026-03-14 |
 | 🔴 | SEGA Rally Online Arcade | `58410AC2` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Pro 13-inch (M5) | 2026-06-11 |
 | 🔴 | Silent Hill: Downpour | `4B4E0823` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-22 |

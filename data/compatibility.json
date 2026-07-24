@@ -191682,8 +191682,8 @@
     "titleIds": [
       "584111E0"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "loads",
+    "perf": "ok",
     "tags": [],
     "platforms": [
       "ios"
@@ -191698,8 +191698,29 @@
     "updatedAt": "2026-07-24",
     "issueNumber": 613,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/613",
-    "notes": "It crash 4seconds after clicking play",
+    "notes": "Black screen",
     "reports": [
+      {
+        "device": "iPhone 12 Pro",
+        "platform": "ios",
+        "osVersion": "18.0.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "loads",
+        "perf": "ok",
+        "date": "2026-07-24",
+        "notes": "Black screen",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "commitShort": "57c3ca140"
+        }
+      },
       {
         "device": "iPhone 12 Pro",
         "platform": "ios",
@@ -191718,7 +191739,6 @@
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
-          "stage": "stable",
           "commitShort": "57c3ca140"
         }
       }
@@ -191738,22 +191758,22 @@
       },
       "all": {
         "channel": "all",
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "It crash 4seconds after clicking play",
+        "status": "loads",
+        "perf": "ok",
+        "notes": "Black screen",
         "updatedAt": "2026-07-24",
         "date": "2026-07-24",
-        "reportCount": 1,
+        "reportCount": 2,
         "latestReport": {
           "device": "iPhone 12 Pro",
           "platform": "ios",
           "osVersion": "18.0.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
+          "status": "loads",
+          "perf": "ok",
           "date": "2026-07-24",
-          "notes": "It crash 4seconds after clicking play",
+          "notes": "Black screen",
           "screenshots": [],
           "source": "app",
           "build": {
@@ -191762,7 +191782,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         },
@@ -191772,10 +191791,10 @@
           "osVersion": "18.0.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
+          "status": "loads",
+          "perf": "ok",
           "date": "2026-07-24",
-          "notes": "It crash 4seconds after clicking play",
+          "notes": "Black screen",
           "screenshots": [],
           "source": "app",
           "build": {
@@ -191784,7 +191803,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         }

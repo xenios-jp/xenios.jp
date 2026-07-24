@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T12:28:08.343Z",
+  "generatedAt": "2026-07-24T12:46:03.616Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -3687,6 +3687,29 @@
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/613",
       "updatedAt": "2026-07-24",
       "entries": [
+        {
+          "id": "comment-5069967374",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/613#issuecomment-5069967374",
+          "author": "xenios-jp",
+          "createdAt": "2026-07-24",
+          "createdAtMs": 1784897007000,
+          "issueNumber": 613,
+          "excerpt": "Black screen",
+          "images": [],
+          "meta": {
+            "status": "loads",
+            "perf": "ok",
+            "device": "iPhone 12 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 18.0.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
+          }
+        },
         {
           "id": "issue-613",
           "type": "issue",
