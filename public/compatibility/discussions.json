@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T14:14:47.991Z",
+  "generatedAt": "2026-07-24T05:14:00.291Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -6908,8 +6908,31 @@
       "titleId": "545407F2",
       "issueNumber": 508,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/508",
-      "updatedAt": "2026-07-20",
+      "updatedAt": "2026-07-24",
       "entries": [
+        {
+          "id": "comment-5066368684",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/508#issuecomment-5066368684",
+          "author": "xenios-jp",
+          "createdAt": "2026-07-24",
+          "createdAtMs": 1784869813000,
+          "issueNumber": 508,
+          "excerpt": "Every time I play this game it just shows a black screen then after some time I just get kicked out the app and just crashes every time I don’t know how to fix it I watched tutorials but the game just keeps on crashing",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPad (A16)",
+            "platform": "iOS",
+            "osVersion": "iOS 27.0",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
+          }
+        },
         {
           "id": "comment-5019313795",
           "type": "comment",
@@ -7007,29 +7030,6 @@
             "device": "iPhone 14 Pro",
             "platform": "iOS",
             "osVersion": "iOS 26.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "`056d2f64d`"
-          }
-        },
-        {
-          "id": "comment-4188766418",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/392#issuecomment-4188766418",
-          "author": "xenios-jp",
-          "createdAt": "2026-04-05",
-          "createdAtMs": 1775389763000,
-          "issueNumber": 392,
-          "excerpt": "Needed to add that the sound is okay when loading and breaks once in gameplay",
-          "images": [],
-          "meta": {
-            "status": "ingame",
-            "perf": "ok",
-            "device": "iPhone 13 Pro",
-            "platform": "iOS",
-            "osVersion": "iOS 18.7.7",
             "gpuBackend": "MSL",
             "buildChannel": "self-built",
             "appVersion": "1.0.1",
