@@ -67581,11 +67581,44 @@
     "status": "nothing",
     "perf": "n/a",
     "tags": [],
-    "platforms": [],
-    "lastReport": null,
-    "updatedAt": "",
-    "notes": "",
-    "reports": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPad Pro 13-inch (M5)",
+      "platform": "ios",
+      "osVersion": "27.0",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-07-24",
+    "issueNumber": 615,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/615",
+    "notes": "Does nothing",
+    "reports": [
+      {
+        "device": "iPad Pro 13-inch (M5)",
+        "platform": "ios",
+        "osVersion": "27.0",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-07-24",
+        "notes": "Does nothing",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140"
+        }
+      }
+    ],
     "screenshots": [],
     "summaries": {
       "release": {
@@ -67601,14 +67634,56 @@
       },
       "all": {
         "channel": "all",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "nothing",
+        "perf": "n/a",
+        "notes": "Does nothing",
+        "updatedAt": "2026-07-24",
+        "date": "2026-07-24",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPad Pro 13-inch (M5)",
+          "platform": "ios",
+          "osVersion": "27.0",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-07-24",
+          "notes": "Does nothing",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
+          }
+        },
+        "bestReport": {
+          "device": "iPad Pro 13-inch (M5)",
+          "platform": "ios",
+          "osVersion": "27.0",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-07-24",
+          "notes": "Does nothing",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
+          }
+        }
       }
     }
   },
@@ -149700,11 +149775,33 @@
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-06-13",
-    "issueNumber": 442,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/442",
+    "updatedAt": "2026-07-24",
+    "issueNumber": 614,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/614",
     "notes": "Surprised it runs. Only did the tutorial race but it doesn’t run that bad.",
     "reports": [
+      {
+        "device": "iPad Pro 13-inch (M5)",
+        "platform": "ios",
+        "osVersion": "27.0",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-07-24",
+        "notes": "Literally does nothing",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140"
+        }
+      },
       {
         "device": "iPad Pro 13-inch (M5)",
         "platform": "ios",
@@ -149780,19 +149877,19 @@
         "status": "playable",
         "perf": "ok",
         "notes": "Surprised it runs. Only did the tutorial race but it doesn’t run that bad.",
-        "updatedAt": "2026-06-13",
-        "date": "2026-06-13",
-        "reportCount": 2,
+        "updatedAt": "2026-07-24",
+        "date": "2026-07-24",
+        "reportCount": 3,
         "latestReport": {
           "device": "iPad Pro 13-inch (M5)",
           "platform": "ios",
-          "osVersion": "26.5",
+          "osVersion": "27.0",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-06-13",
-          "notes": "Surprised it runs. Only did the tutorial race but it doesn’t run that bad.",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-07-24",
+          "notes": "Literally does nothing",
           "screenshots": [],
           "source": "app",
           "build": {
@@ -149801,6 +149898,7 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
+            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         },

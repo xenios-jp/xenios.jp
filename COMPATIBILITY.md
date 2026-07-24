@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **364 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **365 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **153** · 🔵 In-Game: **68** · 🟡 Intro: **36** · 🟠 Loads: **45** · 🔴 Doesn't Boot: **62**
+> 🟢 Playable: **153** · 🔵 In-Game: **68** · 🟡 Intro: **36** · 🟠 Loads: **45** · 🔴 Doesn't Boot: **63**
 >
-> 📱 iOS: **338** · 🖥️ macOS: **47**
+> 📱 iOS: **339** · 🖥️ macOS: **47**
 
 ## Legend
 
@@ -103,7 +103,7 @@
 | 🟢 | Metal Gear Rising: Revengeance | `4B4E080A` | 📱 iOS | Playable | 🚀 Great | iPad Pro 13-inch (M5) | 2026-06-29 |
 | 🟢 | METAL GEAR SOLID PEACE WALKER HD EDITION | `4B4E083C` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Plus | 2026-03-18 |
 | 🟢 | Metal Slug 3 | `584108CF` | 📱 iOS | Playable | 🚀 Great | iPhone 15 | 2026-06-07 |
-| 🟢 | Midnight Club: Los Angeles | `545407F8` | 📱 iOS | Playable | 👌 OK | iPad Pro 13-inch (M5) | 2026-06-13 |
+| 🟢 | Midnight Club: Los Angeles | `545407F8` | 📱 iOS | Playable | 👌 OK | iPad Pro 13-inch (M5) | 2026-07-24 |
 | 🟢 | Minecraft: Xbox 360 Edition | `4D530A81` | 📱 iOS | Playable | 👌 OK | iPhone 14 Pro Max | 2026-05-05 |
 | 🟢 | MINI NINJAS™ (demo) | `53438806` | 📱 iOS | Playable | 👌 OK | iPhone 16 | 2026-07-15 |
 | 🟢 | Mirror's Edge | `45410850` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro | 2026-07-03 |
@@ -335,6 +335,7 @@
 | 🔴 | Castlevania: Lords of Shadow 2 | `4B4E084D` | 🖥️ macOS | Doesn't Boot | ➖ N/A | MacBook Pro (M1) | 2026-04-12 |
 | 🔴 | Counter-Strike: GO | `5841125A` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 | 2026-07-15 |
 | 🔴 | Dead Rising 2 | `434307EC` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 Pro Max | 2026-03-14 |
+| 🔴 | Dead to Rights: Retribution | `4E4D07F5` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Pro 13-inch (M5) | 2026-07-24 |
 | 🔴 | Dragon Ball Z Burst Limit | `424107DC` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro Max | 2026-03-09 |
 | 🔴 | F1 2012 | `434D0847` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 Pro Max | 2026-06-09 |
 | 🔴 | Fable 2 | `4D5307F1` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 15 Pro Max | 2026-03-09 |
