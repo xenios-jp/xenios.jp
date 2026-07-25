@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T18:43:57.646Z",
+  "generatedAt": "2026-07-25T17:53:44.026Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -3678,6 +3678,64 @@
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
           "images": [],
           "meta": {}
+        }
+      ]
+    },
+    "4541085B": {
+      "titleId": "4541085B",
+      "issueNumber": 616,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/616",
+      "updatedAt": "2026-07-25",
+      "entries": [
+        {
+          "id": "issue-616",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/616",
+          "author": "xenios-jp",
+          "createdAt": "2026-07-25",
+          "createdAtMs": 1785001936000,
+          "issueNumber": 616,
+          "excerpt": "I’ve tried to switch some setting around according to the FaQ and sometimes the touchpad shows up but other times it crashes, maybe a new update broke it",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 16 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 27.0",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
+          }
+        },
+        {
+          "id": "issue-470",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/470",
+          "author": "xenios-jp",
+          "createdAt": "2026-06-05",
+          "createdAtMs": 1780696708000,
+          "issueNumber": 470,
+          "excerpt": "Works good didn’t face any crash or specific glitch.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4541085B/1780696700800-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4541085B/1780696700800-2.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4541085B/1780696700800-3.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 16e",
+            "platform": "iOS",
+            "osVersion": "iOS 26.4.2",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "0",
+            "commitShort": "`39be0d65a`"
+          }
         }
       ]
     },
@@ -8732,41 +8790,6 @@
             "appVersion": "1.0.0",
             "buildNumber": "9280",
             "commitShort": "`2633e8177`"
-          }
-        }
-      ]
-    },
-    "4541085B": {
-      "titleId": "4541085B",
-      "issueNumber": 470,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/470",
-      "updatedAt": "2026-06-05",
-      "entries": [
-        {
-          "id": "issue-470",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/470",
-          "author": "xenios-jp",
-          "createdAt": "2026-06-05",
-          "createdAtMs": 1780696708000,
-          "issueNumber": 470,
-          "excerpt": "Works good didn’t face any crash or specific glitch.",
-          "images": [
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4541085B/1780696700800-1.jpg",
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4541085B/1780696700800-2.jpg",
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4541085B/1780696700800-3.jpg"
-          ],
-          "meta": {
-            "status": "playable",
-            "perf": "great",
-            "device": "iPhone 16e",
-            "platform": "iOS",
-            "osVersion": "iOS 26.4.2",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "0",
-            "commitShort": "`39be0d65a`"
           }
         }
       ]
