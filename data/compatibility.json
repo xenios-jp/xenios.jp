@@ -706,11 +706,44 @@
     "status": "nothing",
     "perf": "n/a",
     "tags": [],
-    "platforms": [],
-    "lastReport": null,
-    "updatedAt": "",
-    "notes": "",
-    "reports": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 16 Pro",
+      "platform": "ios",
+      "osVersion": "27.0",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-07-26",
+    "issueNumber": 619,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/619",
+    "notes": "Game crashes and black screens after EA intros, Vulkan flashes, nothing to note",
+    "reports": [
+      {
+        "device": "iPhone 16 Pro",
+        "platform": "ios",
+        "osVersion": "27.0",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-07-26",
+        "notes": "Game crashes and black screens after EA intros, Vulkan flashes, nothing to note",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140"
+        }
+      }
+    ],
     "screenshots": [],
     "summaries": {
       "release": {
@@ -726,14 +759,56 @@
       },
       "all": {
         "channel": "all",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "nothing",
+        "perf": "n/a",
+        "notes": "Game crashes and black screens after EA intros, Vulkan flashes, nothing to note",
+        "updatedAt": "2026-07-26",
+        "date": "2026-07-26",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 16 Pro",
+          "platform": "ios",
+          "osVersion": "27.0",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-07-26",
+          "notes": "Game crashes and black screens after EA intros, Vulkan flashes, nothing to note",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 16 Pro",
+          "platform": "ios",
+          "osVersion": "27.0",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-07-26",
+          "notes": "Game crashes and black screens after EA intros, Vulkan flashes, nothing to note",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
+          }
+        }
       }
     }
   },
@@ -106466,17 +106541,16 @@
         "status": "nothing",
         "perf": "n/a",
         "date": "2026-07-26",
-        "notes": "Black screen from the start till it crashes",
+        "notes": "Black screen",
         "screenshots": [],
         "source": "app",
         "build": {
-          "buildId": "ios-self-built-2.0.1-9730",
+          "buildId": "ios-self-built-1.0.1-9288",
           "channel": "self-built",
           "official": false,
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "stage": "stable",
-          "commitShort": "57c3ca140"
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "commitShort": "056d2f64d"
         }
       },
       {
@@ -106488,16 +106562,16 @@
         "status": "nothing",
         "perf": "n/a",
         "date": "2026-07-26",
-        "notes": "Black screen",
+        "notes": "Black screen from the start till it crashes",
         "screenshots": [],
         "source": "app",
         "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
+          "buildId": "ios-self-built-2.0.1-9730",
           "channel": "self-built",
           "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "commitShort": "57c3ca140"
         }
       },
       {
@@ -106662,17 +106736,16 @@
           "status": "nothing",
           "perf": "n/a",
           "date": "2026-07-26",
-          "notes": "Black screen from the start till it crashes",
+          "notes": "Black screen",
           "screenshots": [],
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-2.0.1-9730",
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140"
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
@@ -191935,11 +192008,32 @@
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-07-24",
+    "updatedAt": "2026-07-26",
     "issueNumber": 613,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/613",
     "notes": "Black screen",
     "reports": [
+      {
+        "device": "iPhone 15 Pro Max",
+        "platform": "ios",
+        "osVersion": "27.0",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-07-26",
+        "notes": "Black screen after pressing play and crashes 20 seconds later",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "commitShort": "57c3ca140"
+        }
+      },
       {
         "device": "iPhone 12 Pro",
         "platform": "ios",
@@ -192001,19 +192095,19 @@
         "status": "loads",
         "perf": "ok",
         "notes": "Black screen",
-        "updatedAt": "2026-07-24",
-        "date": "2026-07-24",
-        "reportCount": 2,
+        "updatedAt": "2026-07-26",
+        "date": "2026-07-26",
+        "reportCount": 3,
         "latestReport": {
-          "device": "iPhone 12 Pro",
+          "device": "iPhone 15 Pro Max",
           "platform": "ios",
-          "osVersion": "18.0.1",
+          "osVersion": "27.0",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "ok",
-          "date": "2026-07-24",
-          "notes": "Black screen",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-07-26",
+          "notes": "Black screen after pressing play and crashes 20 seconds later",
           "screenshots": [],
           "source": "app",
           "build": {

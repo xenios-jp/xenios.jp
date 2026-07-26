@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **366 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **367 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **152** · 🔵 In-Game: **68** · 🟡 Intro: **36** · 🟠 Loads: **45** · 🔴 Doesn't Boot: **65**
+> 🟢 Playable: **152** · 🔵 In-Game: **68** · 🟡 Intro: **36** · 🟠 Loads: **45** · 🔴 Doesn't Boot: **66**
 >
-> 📱 iOS: **339** · 🖥️ macOS: **48**
+> 📱 iOS: **340** · 🖥️ macOS: **48**
 
 ## Legend
 
@@ -302,7 +302,7 @@
 | 🟠 | Prince of Persia The Forgotten Sands | `5553083E` | 📱 iOS | Loads | 🐢 Poor | iPad Pro 13-inch (M4) | 2026-06-30 |
 | 🟠 | Project Gotham Racing 3 | `4D5307D1` | 🖥️ macOS | Loads | 🚀 Great | Macbook Pro M1 Pro | 2026-05-10 |
 | 🟠 | Project Gotham Racing 4 | `4D5307F9` | 🖥️ macOS | Loads | 🚀 Great | MacBook Pro (M4 Max) | 2026-03-14 |
-| 🟠 | Real Steel | `584111E0` | 📱 iOS | Loads | 👌 OK | iPhone 12 Pro | 2026-07-24 |
+| 🟠 | Real Steel | `584111E0` | 📱 iOS | Loads | 👌 OK | iPhone 12 Pro | 2026-07-26 |
 | 🟠 | Red Dead Redemption GOTY Edition | `5454082B` | 📱 iOS | Loads | 🐢 Poor | iPad Pro 13-inch (M4) | 2026-04-24 |
 | 🟠 | Rock Band Classic Rock | `454108B0` | 🖥️ macOS | Loads | 🚀 Great | MacBook Pro (M4) | 2026-03-23 |
 | 🟠 | Rock Band Country Pack | `454108CA` | 🖥️ macOS | Loads | 🚀 Great | MacBook Pro (M4) | 2026-03-23 |
@@ -321,6 +321,7 @@
 | 🟠 | Tron: Evolution | `425607ED` | 📱 iOS | Loads | 👌 OK | iPhone 15 Pro Max | 2026-03-09 |
 | 🟠 | WWE 12 | `54510890` | 📱 iOS | Loads | 👌 OK | iPhone 15 Pro | 2026-03-11 |
 | 🟠 | WWE Smackdown vs. Raw 2011 | `5451085D` | 📱 iOS | Loads | 🐢 Poor | iPhone 17 | 2026-05-26 |
+| 🔴 | 2006 FIFA World Cup | `454107E6` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-07-26 |
 | 🔴 | ACE COMBAT 6 Fires of Liberation | `4E4D07D1` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Pro 11 inch 5th Gen | 2026-05-20 |
 | 🔴 | AMY | `58411220` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Pro 13-inch (M5) | 2026-06-11 |
 | 🔴 | Assassin's Creed II | `5553083B` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 14 Pro | 2026-06-03 |
