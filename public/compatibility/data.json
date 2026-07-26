@@ -75932,37 +75932,149 @@
       "53440804",
       "53448805"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
-    "platforms": [],
-    "lastReport": null,
-    "updatedAt": "",
-    "notes": "",
-    "reports": [],
+    "platforms": [
+      "macos"
+    ],
+    "lastReport": {
+      "device": "M1 iMac (2021)",
+      "platform": "macos",
+      "osVersion": "26.5.2",
+      "arch": "arm64",
+      "gpuBackend": "msc"
+    },
+    "updatedAt": "2026-07-26",
+    "issueNumber": 617,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/617",
+    "notes": "Game runs well with only a few drops in frame rate. Music runs smoothly and concurrently. Some environment and character textures do not load at all or inconsistently. Some environmental textures are bright red or pixelated green, pink, white, etc. Hair textures don't load in all the way, as if all the characters (besides Flemeth) started thinning. Otherwise, the game runs well.",
+    "reports": [
+      {
+        "device": "M1 iMac (2021)",
+        "platform": "macos",
+        "osVersion": "26.5.2",
+        "arch": "arm64",
+        "gpuBackend": "msc",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-07-26",
+        "notes": "Game runs well with only a few drops in frame rate. Music runs smoothly and concurrently. Some environment and character textures do not load at all or inconsistently. Some environmental textures are bright red or pixelated green, pink, white, etc. Hair textures don't load in all the way, as if all the characters (besides Flemeth) started thinning. Otherwise, the game runs well.",
+        "screenshots": [],
+        "source": "github",
+        "build": {
+          "buildId": "macos-release-2.0.1-9730",
+          "channel": "release",
+          "official": true,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "commitShort": "57C3CA140"
+        }
+      }
+    ],
     "screenshots": [],
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "playable",
+        "perf": "great",
+        "notes": "Game runs well with only a few drops in frame rate. Music runs smoothly and concurrently. Some environment and character textures do not load at all or inconsistently. Some environmental textures are bright red or pixelated green, pink, white, etc. Hair textures don't load in all the way, as if all the characters (besides Flemeth) started thinning. Otherwise, the game runs well.",
+        "updatedAt": "2026-07-26",
+        "date": "2026-07-26",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "M1 iMac (2021)",
+          "platform": "macos",
+          "osVersion": "26.5.2",
+          "arch": "arm64",
+          "gpuBackend": "msc",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-07-26",
+          "notes": "Game runs well with only a few drops in frame rate. Music runs smoothly and concurrently. Some environment and character textures do not load at all or inconsistently. Some environmental textures are bright red or pixelated green, pink, white, etc. Hair textures don't load in all the way, as if all the characters (besides Flemeth) started thinning. Otherwise, the game runs well.",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-2.0.1-9730",
+            "channel": "release",
+            "official": true,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "57C3CA140"
+          }
+        },
+        "bestReport": {
+          "device": "M1 iMac (2021)",
+          "platform": "macos",
+          "osVersion": "26.5.2",
+          "arch": "arm64",
+          "gpuBackend": "msc",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-07-26",
+          "notes": "Game runs well with only a few drops in frame rate. Music runs smoothly and concurrently. Some environment and character textures do not load at all or inconsistently. Some environmental textures are bright red or pixelated green, pink, white, etc. Hair textures don't load in all the way, as if all the characters (besides Flemeth) started thinning. Otherwise, the game runs well.",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-2.0.1-9730",
+            "channel": "release",
+            "official": true,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "57C3CA140"
+          }
+        }
       },
       "all": {
         "channel": "all",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "playable",
+        "perf": "great",
+        "notes": "Game runs well with only a few drops in frame rate. Music runs smoothly and concurrently. Some environment and character textures do not load at all or inconsistently. Some environmental textures are bright red or pixelated green, pink, white, etc. Hair textures don't load in all the way, as if all the characters (besides Flemeth) started thinning. Otherwise, the game runs well.",
+        "updatedAt": "2026-07-26",
+        "date": "2026-07-26",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "M1 iMac (2021)",
+          "platform": "macos",
+          "osVersion": "26.5.2",
+          "arch": "arm64",
+          "gpuBackend": "msc",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-07-26",
+          "notes": "Game runs well with only a few drops in frame rate. Music runs smoothly and concurrently. Some environment and character textures do not load at all or inconsistently. Some environmental textures are bright red or pixelated green, pink, white, etc. Hair textures don't load in all the way, as if all the characters (besides Flemeth) started thinning. Otherwise, the game runs well.",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-2.0.1-9730",
+            "channel": "release",
+            "official": true,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "57C3CA140"
+          }
+        },
+        "bestReport": {
+          "device": "M1 iMac (2021)",
+          "platform": "macos",
+          "osVersion": "26.5.2",
+          "arch": "arm64",
+          "gpuBackend": "msc",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-07-26",
+          "notes": "Game runs well with only a few drops in frame rate. Music runs smoothly and concurrently. Some environment and character textures do not load at all or inconsistently. Some environmental textures are bright red or pixelated green, pink, white, etc. Hair textures don't load in all the way, as if all the characters (besides Flemeth) started thinning. Otherwise, the game runs well.",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-2.0.1-9730",
+            "channel": "release",
+            "official": true,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "57C3CA140"
+          }
+        }
       }
     }
   },

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-26T00:41:56.115Z",
+  "generatedAt": "2026-07-26T16:29:07.113Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -3676,6 +3676,26 @@
           "createdAtMs": 1773517964000,
           "issueNumber": 263,
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
+          "images": [],
+          "meta": {}
+        }
+      ]
+    },
+    "4541090B": {
+      "titleId": "4541090B",
+      "issueNumber": 617,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/617",
+      "updatedAt": "2026-07-26",
+      "entries": [
+        {
+          "id": "issue-617",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/617",
+          "author": "nosyalien",
+          "createdAt": "2026-07-26",
+          "createdAtMs": 1785083236000,
+          "issueNumber": 617,
+          "excerpt": "Game runs well with only a few drops in frame rate. Music runs smoothly and concurrently. Some environment and character textures do not load at all or inconsistently. Some environmental textures are bright red or pixelated green, pink, white, etc. Hair textures don't load in all the way, as if all the characters (besides Flemeth) started thinning. Otherwise, the game runs well.",
           "images": [],
           "meta": {}
         }

@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **365 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **366 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **151** · 🔵 In-Game: **68** · 🟡 Intro: **36** · 🟠 Loads: **45** · 🔴 Doesn't Boot: **65**
+> 🟢 Playable: **152** · 🔵 In-Game: **68** · 🟡 Intro: **36** · 🟠 Loads: **45** · 🔴 Doesn't Boot: **65**
 >
-> 📱 iOS: **339** · 🖥️ macOS: **47**
+> 📱 iOS: **339** · 🖥️ macOS: **48**
 
 ## Legend
 
@@ -54,6 +54,7 @@
 | 🟢 | Devil May Cry 4 | `434307DF` | 📱 iOS | Playable | 🐢 Poor | iPhone 14 Pro | 2026-06-11 |
 | 🟢 | Devil May Cry 4 Demo | `434387E3` | 📱 iOS | Playable | 🚀 Great | iPhone 16 | 2026-07-15 |
 | 🟢 | DOA5 Ultimate | `4B5607DA` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-17 |
+| 🟢 | Dragon Age 2 | `4541090B` | 🖥️ macOS | Playable | 🚀 Great | M1 iMac (2021) | 2026-07-26 |
 | 🟢 | Dragon Age: Origins - Ultimate Edition | `454108C0` | 🖥️ macOS | Playable | 🚀 Great | Mac mini (M4) | 2026-03-15 |
 | 🟢 | Dragon Ball Z Budokai HD Collection | `4E4D0856` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro Max | 2026-03-14 |
 | 🟢 | Dragon Ball Z Ultimate Tenkaichi | `4E4D0846` | 📱 iOS | Playable | 👌 OK | iPad16,9 | 2026-06-11 |
