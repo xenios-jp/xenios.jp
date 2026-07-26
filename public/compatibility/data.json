@@ -106466,6 +106466,28 @@
         "status": "nothing",
         "perf": "n/a",
         "date": "2026-07-26",
+        "notes": "Black screen from the start till it crashes",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140"
+        }
+      },
+      {
+        "device": "iPhone 15 Pro Max",
+        "platform": "ios",
+        "osVersion": "27.0",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-07-26",
         "notes": "Black screen",
         "screenshots": [],
         "source": "app",
@@ -106630,7 +106652,7 @@
         "notes": "the game ran alright but would soon freeze or the entire app would crash",
         "updatedAt": "2026-07-26",
         "date": "2026-07-26",
-        "reportCount": 6,
+        "reportCount": 7,
         "latestReport": {
           "device": "iPhone 15 Pro Max",
           "platform": "ios",
@@ -106640,16 +106662,17 @@
           "status": "nothing",
           "perf": "n/a",
           "date": "2026-07-26",
-          "notes": "Black screen",
+          "notes": "Black screen from the start till it crashes",
           "screenshots": [],
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
           }
         },
         "bestReport": {

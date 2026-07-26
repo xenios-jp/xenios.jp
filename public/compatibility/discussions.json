@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-26T17:20:06.264Z",
+  "generatedAt": "2026-07-26T20:35:36.700Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -6742,6 +6742,29 @@
       "updatedAt": "2026-07-26",
       "entries": [
         {
+          "id": "comment-5085275931",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/516#issuecomment-5085275931",
+          "author": "xenios-jp",
+          "createdAt": "2026-07-26",
+          "createdAtMs": 1785097976000,
+          "issueNumber": 516,
+          "excerpt": "Black screen from the start till it crashes",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 15 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 27.0",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
+          }
+        },
+        {
           "id": "comment-5081241661",
           "type": "comment",
           "url": "https://github.com/xenios-jp/game-compatibility/issues/516#issuecomment-5081241661",
@@ -6829,29 +6852,6 @@
             "device": "iPhone 14 Pro Max",
             "platform": "iOS",
             "osVersion": "iOS 26.5",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "`57c3ca140`"
-          }
-        },
-        {
-          "id": "issue-516",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/516",
-          "author": "xenios-jp",
-          "createdAt": "2026-06-15",
-          "createdAtMs": 1781487688000,
-          "issueNumber": 516,
-          "excerpt": "Black screen after R* Logo Xenios 2.0.1",
-          "images": [],
-          "meta": {
-            "status": "loads",
-            "perf": "poor",
-            "device": "iPhone 15 Pro",
-            "platform": "iOS",
-            "osVersion": "iOS 26.2.1",
             "gpuBackend": "MSL",
             "buildChannel": "self-built",
             "appVersion": "2.0.1",
