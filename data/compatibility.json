@@ -67614,7 +67614,6 @@
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
-          "stage": "stable",
           "commitShort": "57c3ca140"
         }
       }
@@ -67658,7 +67657,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         },
@@ -67680,7 +67678,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         }
@@ -90296,23 +90293,23 @@
     "titleIds": [
       "4541085B"
     ],
-    "status": "playable",
-    "perf": "great",
+    "status": "nothing",
+    "perf": "n/a",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 16e",
+      "device": "iPhone 16 Pro",
       "platform": "ios",
-      "osVersion": "26.4.2",
+      "osVersion": "27.0",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-07-25",
     "issueNumber": 616,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/616",
-    "notes": "Works good didn’t face any crash or specific glitch.",
+    "notes": "I’ve tried to switch some setting around according  to the FaQ and sometimes the touchpad shows up but other times it crashes, maybe a new update broke it",
     "reports": [
       {
         "device": "iPhone 16 Pro",
@@ -90332,29 +90329,7 @@
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
-          "stage": "stable",
           "commitShort": "57c3ca140"
-        }
-      },
-      {
-        "device": "iPhone 16e",
-        "platform": "ios",
-        "osVersion": "26.4.2",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "great",
-        "date": "2026-06-05",
-        "notes": "Works good didn’t face any crash or specific glitch.",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.0-0",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "0",
-          "commitShort": "39be0d65a"
         }
       }
     ],
@@ -90377,12 +90352,12 @@
       },
       "all": {
         "channel": "all",
-        "status": "playable",
-        "perf": "great",
-        "notes": "Works good didn’t face any crash or specific glitch.",
+        "status": "nothing",
+        "perf": "n/a",
+        "notes": "I’ve tried to switch some setting around according  to the FaQ and sometimes the touchpad shows up but other times it crashes, maybe a new update broke it",
         "updatedAt": "2026-07-25",
         "date": "2026-07-25",
-        "reportCount": 2,
+        "reportCount": 1,
         "latestReport": {
           "device": "iPhone 16 Pro",
           "platform": "ios",
@@ -90401,29 +90376,28 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         },
         "bestReport": {
-          "device": "iPhone 16e",
+          "device": "iPhone 16 Pro",
           "platform": "ios",
-          "osVersion": "26.4.2",
+          "osVersion": "27.0",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-06-05",
-          "notes": "Works good didn’t face any crash or specific glitch.",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-07-25",
+          "notes": "I’ve tried to switch some setting around according  to the FaQ and sometimes the touchpad shows up but other times it crashes, maybe a new update broke it",
           "screenshots": [],
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-0",
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "0",
-            "commitShort": "39be0d65a"
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "57c3ca140"
           }
         }
       }
@@ -106333,11 +106307,32 @@
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-07-20",
+    "updatedAt": "2026-07-26",
     "issueNumber": 62,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/62",
     "notes": "the game ran alright but would soon freeze or the entire app would crash",
     "reports": [
+      {
+        "device": "iPhone 15 Pro Max",
+        "platform": "ios",
+        "osVersion": "27.0",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-07-26",
+        "notes": "Black screen",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "commitShort": "056d2f64d"
+        }
+      },
       {
         "device": "iPhone 16 Pro",
         "platform": "ios",
@@ -106488,28 +106483,28 @@
         "status": "ingame",
         "perf": "ok",
         "notes": "the game ran alright but would soon freeze or the entire app would crash",
-        "updatedAt": "2026-07-20",
-        "date": "2026-07-20",
-        "reportCount": 5,
+        "updatedAt": "2026-07-26",
+        "date": "2026-07-26",
+        "reportCount": 6,
         "latestReport": {
-          "device": "iPhone 16 Pro",
+          "device": "iPhone 15 Pro Max",
           "platform": "ios",
           "osVersion": "27.0",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "nothing",
           "perf": "n/a",
-          "date": "2026-07-20",
-          "notes": "black screen, then freezes after 15 seconds, then crashes after 15-20 more seconds",
+          "date": "2026-07-26",
+          "notes": "Black screen",
           "screenshots": [],
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-2.0.1-9730",
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
@@ -149785,8 +149780,8 @@
     "titleIds": [
       "545407F8"
     ],
-    "status": "playable",
-    "perf": "ok",
+    "status": "nothing",
+    "perf": "n/a",
     "tags": [],
     "platforms": [
       "ios"
@@ -149794,14 +149789,14 @@
     "lastReport": {
       "device": "iPad Pro 13-inch (M5)",
       "platform": "ios",
-      "osVersion": "26.5",
+      "osVersion": "27.0",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-07-24",
     "issueNumber": 614,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/614",
-    "notes": "Surprised it runs. Only did the tutorial race but it doesn’t run that bad.",
+    "notes": "Literally does nothing",
     "reports": [
       {
         "device": "iPad Pro 13-inch (M5)",
@@ -149821,50 +149816,7 @@
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
-          "stage": "stable",
           "commitShort": "57c3ca140"
-        }
-      },
-      {
-        "device": "iPad Pro 13-inch (M5)",
-        "platform": "ios",
-        "osVersion": "26.5",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "ok",
-        "date": "2026-06-13",
-        "notes": "Surprised it runs. Only did the tutorial race but it doesn’t run that bad.",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-2.0.1-9730",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "commitShort": "57c3ca140"
-        }
-      },
-      {
-        "device": "iPhone 16 Pro",
-        "platform": "ios",
-        "osVersion": "26.4.2",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "loads",
-        "perf": "poor",
-        "date": "2026-05-12",
-        "notes": "Try multiple Times for loading screen, massive lag and stutter",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
         }
       }
     ],
@@ -149897,12 +149849,12 @@
       },
       "all": {
         "channel": "all",
-        "status": "playable",
-        "perf": "ok",
-        "notes": "Surprised it runs. Only did the tutorial race but it doesn’t run that bad.",
+        "status": "nothing",
+        "perf": "n/a",
+        "notes": "Literally does nothing",
         "updatedAt": "2026-07-24",
         "date": "2026-07-24",
-        "reportCount": 3,
+        "reportCount": 1,
         "latestReport": {
           "device": "iPad Pro 13-inch (M5)",
           "platform": "ios",
@@ -149921,20 +149873,19 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         },
         "bestReport": {
           "device": "iPad Pro 13-inch (M5)",
           "platform": "ios",
-          "osVersion": "26.5",
+          "osVersion": "27.0",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-06-13",
-          "notes": "Surprised it runs. Only did the tutorial race but it doesn’t run that bad.",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-07-24",
+          "notes": "Literally does nothing",
           "screenshots": [],
           "source": "app",
           "build": {

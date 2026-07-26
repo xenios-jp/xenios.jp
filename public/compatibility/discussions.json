@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T17:53:44.026Z",
+  "generatedAt": "2026-07-26T00:41:56.115Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -6719,8 +6719,31 @@
       "titleId": "545408A7",
       "issueNumber": 516,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/516",
-      "updatedAt": "2026-07-23",
+      "updatedAt": "2026-07-26",
       "entries": [
+        {
+          "id": "comment-5081241661",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/516#issuecomment-5081241661",
+          "author": "xenios-jp",
+          "createdAt": "2026-07-26",
+          "createdAtMs": 1785026371000,
+          "issueNumber": 516,
+          "excerpt": "Black screen",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 15 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 27.0",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
         {
           "id": "comment-5059429960",
           "type": "comment",
@@ -6814,29 +6837,6 @@
             "appVersion": "2.0.1",
             "buildNumber": "9730",
             "commitShort": "`57c3ca140`"
-          }
-        },
-        {
-          "id": "comment-4529432325",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/369#issuecomment-4529432325",
-          "author": "xenios-jp",
-          "createdAt": "2026-05-24",
-          "createdAtMs": 1779642503000,
-          "issueNumber": 369,
-          "excerpt": "Literally a black screen after the rockstar games and rockstar north logos",
-          "images": [],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPad Air 4",
-            "platform": "iOS",
-            "osVersion": "iOS 18.0.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "`056d2f64d`"
           }
         }
       ]
