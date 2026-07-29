@@ -47878,24 +47878,44 @@
       "415688B3",
       "4156889D"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 13 Pro",
+      "device": "iPad Pro M4",
       "platform": "ios",
-      "osVersion": "27.0",
+      "osVersion": "iPadOS 27",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-07-18",
+    "updatedAt": "2026-07-29",
     "issueNumber": 45,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/45",
-    "notes": "Black screen",
+    "notes": "Game ran well 60fps but some textures were missing",
     "reports": [
+      {
+        "device": "iPad Pro M4",
+        "platform": "ios",
+        "osVersion": "iPadOS 27",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-07-29",
+        "notes": "Game ran well 60fps but some textures were missing",
+        "screenshots": [],
+        "source": "github",
+        "build": {
+          "buildId": "ios-preview-2.1-preview-9857",
+          "channel": "preview",
+          "official": true,
+          "appVersion": "2.1 Preview",
+          "buildNumber": "9857"
+        }
+      },
       {
         "device": "iPhone 13 Pro",
         "platform": "ios",
@@ -47981,52 +48001,50 @@
       },
       "all": {
         "channel": "all",
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "Black screen",
-        "updatedAt": "2026-07-18",
-        "date": "2026-07-18",
-        "reportCount": 3,
+        "status": "playable",
+        "perf": "great",
+        "notes": "Game ran well 60fps but some textures were missing",
+        "updatedAt": "2026-07-29",
+        "date": "2026-07-29",
+        "reportCount": 4,
         "latestReport": {
-          "device": "iPhone 13 Pro",
+          "device": "iPad Pro M4",
           "platform": "ios",
-          "osVersion": "27.0",
+          "osVersion": "iPadOS 27",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-07-18",
-          "notes": "Black screen",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-07-29",
+          "notes": "Game ran well 60fps but some textures were missing",
           "screenshots": [],
-          "source": "app",
+          "source": "github",
           "build": {
-            "buildId": "ios-self-built-2.0.1-9730",
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "buildId": "ios-preview-2.1-preview-9857",
+            "channel": "preview",
+            "official": true,
+            "appVersion": "2.1 Preview",
+            "buildNumber": "9857"
           }
         },
         "bestReport": {
-          "device": "iPhone 13 Pro",
+          "device": "iPad Pro M4",
           "platform": "ios",
-          "osVersion": "27.0",
+          "osVersion": "iPadOS 27",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-07-18",
-          "notes": "Black screen",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-07-29",
+          "notes": "Game ran well 60fps but some textures were missing",
           "screenshots": [],
-          "source": "app",
+          "source": "github",
           "build": {
-            "buildId": "ios-self-built-2.0.1-9730",
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "buildId": "ios-preview-2.1-preview-9857",
+            "channel": "preview",
+            "official": true,
+            "appVersion": "2.1 Preview",
+            "buildNumber": "9857"
           }
         }
       }
