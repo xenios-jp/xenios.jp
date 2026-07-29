@@ -197,7 +197,7 @@
 | 🔵 | Forza Horizon | `4D5309C9` | 📱 iOS | In-Game | 🐢 Poor | iPhone 15 Pro Max | 2026-07-02 |
 | 🔵 | Frontlines: Fuel of War | `545107D8` | 🖥️ macOS | In-Game | 🐢 Poor | Macbook Neo A18 Pro | 2026-03-19 |
 | 🔵 | Geometry Wars Evolved² | `584108FF` | 🖥️ macOS | In-Game | 🐢 Poor | MacBook Pro (M1) | 2026-04-12 |
-| 🔵 | Grand Theft Auto V | `545408A7` | 📱 iOS | In-Game | 👌 OK | iPhone 14 Pro Max | 2026-07-26 |
+| 🔵 | Grand Theft Auto V | `545408A7` | 📱 iOS | In-Game | 👌 OK | iPhone 14 Pro Max | 2026-07-29 |
 | 🔵 | Guitar Hero 5 | `41560840` | 📱 iOS | In-Game | 🐢 Poor | iPhone 13 mini | 2026-03-22 |
 | 🔵 | Guitar Hero Metallica | `41560830` | 📱 iOS, 🖥️ macOS | In-Game | 🐢 Poor | iPhone 13 mini | 2026-03-22 |
 | 🔵 | Guitar Hero Van Halen | `4156083D` | 📱 iOS, 🖥️ macOS | In-Game | 🐢 Poor | iPhone 13 mini | 2026-03-22 |

@@ -106524,11 +106524,32 @@
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-07-26",
+    "updatedAt": "2026-07-29",
     "issueNumber": 62,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/62",
     "notes": "the game ran alright but would soon freeze or the entire app would crash",
     "reports": [
+      {
+        "device": "iPhone 16 Pro",
+        "platform": "ios",
+        "osVersion": "27.0",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-07-29",
+        "notes": "Crash in Black Screen",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "commitShort": "57c3ca140"
+        }
+      },
       {
         "device": "iPhone 15 Pro Max",
         "platform": "ios",
@@ -106683,6 +106704,7 @@
       }
     ],
     "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408A7/1785316651021-1.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408A7/1782764313005-1.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408A7/1776600642715-1.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408A7/1776600642715-2.jpg",
@@ -106701,8 +106723,7 @@
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408A7/1773604061258-3.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408A7/1773275205163-1.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408A7/1773275205163-2.jpg",
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408A7/1773275205163-3.jpg",
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408A7/1773275205163-4.jpg"
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408A7/1773275205163-3.jpg"
     ],
     "summaries": {
       "release": {
@@ -106721,28 +106742,28 @@
         "status": "ingame",
         "perf": "ok",
         "notes": "the game ran alright but would soon freeze or the entire app would crash",
-        "updatedAt": "2026-07-26",
-        "date": "2026-07-26",
-        "reportCount": 7,
+        "updatedAt": "2026-07-29",
+        "date": "2026-07-29",
+        "reportCount": 8,
         "latestReport": {
-          "device": "iPhone 15 Pro Max",
+          "device": "iPhone 16 Pro",
           "platform": "ios",
           "osVersion": "27.0",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "nothing",
           "perf": "n/a",
-          "date": "2026-07-26",
-          "notes": "Black screen",
+          "date": "2026-07-29",
+          "notes": "Crash in Black Screen",
           "screenshots": [],
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "57c3ca140"
           }
         },
         "bestReport": {
@@ -232928,29 +232949,7 @@
           "official": false,
           "appVersion": "2.0.1",
           "buildNumber": "9730",
-          "stage": "stable",
           "commitShort": "57c3ca140"
-        }
-      },
-      {
-        "device": "iPad (A16)",
-        "platform": "ios",
-        "osVersion": "26.2.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-04-28",
-        "notes": "Doesn’t boot",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
         }
       },
       {
@@ -233017,7 +233016,7 @@
         "notes": "Doesn’t booth",
         "updatedAt": "2026-07-28",
         "date": "2026-07-28",
-        "reportCount": 3,
+        "reportCount": 2,
         "latestReport": {
           "device": "iPhone 16 Pro Max",
           "platform": "ios",
@@ -233036,7 +233035,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         },
@@ -233058,7 +233056,6 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
-            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         }

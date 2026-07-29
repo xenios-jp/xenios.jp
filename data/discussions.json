@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T21:46:54.950Z",
+  "generatedAt": "2026-07-29T09:20:25.533Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -7016,8 +7016,33 @@
       "titleId": "545408A7",
       "issueNumber": 516,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/516",
-      "updatedAt": "2026-07-28",
+      "updatedAt": "2026-07-29",
       "entries": [
+        {
+          "id": "comment-5115626513",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/516#issuecomment-5115626513",
+          "author": "xenios-jp",
+          "createdAt": "2026-07-29",
+          "createdAtMs": 1785316656000,
+          "issueNumber": 516,
+          "excerpt": "Crash in Black Screen",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408A7/1785316651021-1.jpg"
+          ],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 16 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 27.0",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
+          }
+        },
         {
           "id": "comment-5107002542",
           "type": "comment",
@@ -7110,18 +7135,6 @@
             "buildNumber": "9730",
             "commitShort": "`57c3ca140`"
           }
-        },
-        {
-          "id": "comment-5015426499",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/369#issuecomment-5015426499",
-          "author": "g57344655-svg",
-          "createdAt": "2026-07-19",
-          "createdAtMs": 1784458152000,
-          "issueNumber": 369,
-          "excerpt": "Link",
-          "images": [],
-          "meta": {}
         }
       ]
     },
