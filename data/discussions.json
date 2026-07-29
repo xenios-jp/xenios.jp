@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T16:41:24.197Z",
+  "generatedAt": "2026-07-28T21:46:54.950Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -3678,6 +3678,79 @@
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
           "images": [],
           "meta": {}
+        }
+      ]
+    },
+    "4E4D07FC": {
+      "titleId": "4E4D07FC",
+      "issueNumber": 622,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/622",
+      "updatedAt": "2026-07-28",
+      "entries": [
+        {
+          "id": "issue-622",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/622",
+          "author": "xenios-jp",
+          "createdAt": "2026-07-28",
+          "createdAtMs": 1785275085000,
+          "issueNumber": 622,
+          "excerpt": "Doesn’t booth",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 16 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 27.0",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
+          }
+        },
+        {
+          "id": "issue-427",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/427",
+          "author": "xenios-jp",
+          "createdAt": "2026-04-28",
+          "createdAtMs": 1777359921000,
+          "issueNumber": 427,
+          "excerpt": "Doesn’t boot",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPad (A16)",
+            "platform": "iOS",
+            "osVersion": "iOS 26.2.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
+        {
+          "id": "issue-21",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/21",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-03",
+          "createdAtMs": 1772523079000,
+          "issueNumber": 21,
+          "excerpt": "Game does not boot.",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 16 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 18.5",
+            "gpuBackend": "MSL"
+          }
         }
       ]
     },
@@ -9690,56 +9763,6 @@
             "appVersion": "1.0.0",
             "buildNumber": "9280",
             "commitShort": "`2633e8177`"
-          }
-        }
-      ]
-    },
-    "4E4D07FC": {
-      "titleId": "4E4D07FC",
-      "issueNumber": 427,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/427",
-      "updatedAt": "2026-04-28",
-      "entries": [
-        {
-          "id": "issue-427",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/427",
-          "author": "xenios-jp",
-          "createdAt": "2026-04-28",
-          "createdAtMs": 1777359921000,
-          "issueNumber": 427,
-          "excerpt": "Doesn’t boot",
-          "images": [],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPad (A16)",
-            "platform": "iOS",
-            "osVersion": "iOS 26.2.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "`056d2f64d`"
-          }
-        },
-        {
-          "id": "issue-21",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/21",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-03",
-          "createdAtMs": 1772523079000,
-          "issueNumber": 21,
-          "excerpt": "Game does not boot.",
-          "images": [],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPhone 16 Pro",
-            "platform": "iOS",
-            "osVersion": "iOS 18.5",
-            "gpuBackend": "MSL"
           }
         }
       ]
