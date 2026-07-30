@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T20:03:49.731Z",
+  "generatedAt": "2026-07-30T03:03:02.580Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1353,8 +1353,31 @@
       "titleId": "45410830",
       "issueNumber": 565,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/565",
-      "updatedAt": "2026-06-27",
+      "updatedAt": "2026-07-30",
       "entries": [
+        {
+          "id": "comment-5125859865",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/565#issuecomment-5125859865",
+          "author": "xenios-jp",
+          "createdAt": "2026-07-30",
+          "createdAtMs": 1785380356000,
+          "issueNumber": 565,
+          "excerpt": "Crashes",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 16 Plus",
+            "platform": "iOS",
+            "osVersion": "iOS 26.5.2",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
+          }
+        },
         {
           "id": "issue-565",
           "type": "issue",
