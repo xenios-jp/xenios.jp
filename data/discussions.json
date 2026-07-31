@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T03:03:02.580Z",
+  "generatedAt": "2026-07-31T01:31:43.212Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -13823,8 +13823,20 @@
       "titleId": "4156091D",
       "issueNumber": 261,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/261",
-      "updatedAt": "2026-03-14",
+      "updatedAt": "2026-07-31",
       "entries": [
+        {
+          "id": "comment-5138131424",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/261#issuecomment-5138131424",
+          "author": "raed-alzahrani",
+          "createdAt": "2026-07-31",
+          "createdAtMs": 1785461266000,
+          "issueNumber": 261,
+          "excerpt": "I tried it on my iPhone and it kinda works, nothing so bad i think it's playable, you just need to install all title updates + all dlc's, but for some reason xenios on iPhone does not extract dlc's correctly idk why maybe it's because of my phone, i moved the dlc's and title updates from the contents folder on my xenia emulator on pc, and it worked, also i used ( 1 ) license mask if that's important.\nWhen you open the game the graphics is kinda weird, it's fixed by putting Readback Resolve in the graphics menu on full, maybe there is room for improvement if you tinker with the graphics menu a little, but I didn't try yet.\nAlso I'm using Preview 2.1-9857 build.\n\n<img width=\"1434\" height=\"660\" alt=\"Image\" src=\" />\n<img width=\"1434\" height=\"660\" alt=\"Image\" src=\" />\n<img width=\"1434\" height=\"660\" alt=\"Image\" src=\" />\n<img width=\"1434\" height=\"660\" alt=\"Image\" src=\" />\n<img width=\"1434\" height=\"660\" alt=\"Image\" src=\" />",
+          "images": [],
+          "meta": {}
+        },
         {
           "id": "issue-261",
           "type": "issue",
