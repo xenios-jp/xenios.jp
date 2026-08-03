@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **367 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **368 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **152** · 🔵 In-Game: **68** · 🟡 Intro: **36** · 🟠 Loads: **45** · 🔴 Doesn't Boot: **66**
+> 🟢 Playable: **153** · 🔵 In-Game: **68** · 🟡 Intro: **36** · 🟠 Loads: **45** · 🔴 Doesn't Boot: **66**
 >
-> 📱 iOS: **340** · 🖥️ macOS: **48**
+> 📱 iOS: **341** · 🖥️ macOS: **48**
 
 ## Legend
 
@@ -88,6 +88,7 @@
 | 🟢 | Halo: CE Anniversary | `4D5309B1` | 📱 iOS | Playable | 🚀 Great | iPhone 15 Pro Max | 2026-06-11 |
 | 🟢 | Halo: Reach | `4D53085B` | 📱 iOS | Playable | 🚀 Great | iPad Pro 13-inch (M5) | 2026-06-05 |
 | 🟢 | Hitman: Absolution | `53510804` | 📱 iOS | Playable | 🚀 Great | iPad Pro 12.9-inch (M2) | 2026-03-18 |
+| 🟢 | Injustice: Gods Among Us | `57520829` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-08-03 |
 | 🟢 | Just Cause 2 | `534307E7` | 📱 iOS | Playable | 🐢 Poor | iPhone 17 Pro | 2026-03-09 |
 | 🟢 | Lego Batman | `575207D7` | 📱 iOS | Playable | 👌 OK | iPhone 15 Pro | 2026-06-13 |
 | 🟢 | Lego Harry Potter Years 1-4 | `575207E6` | 📱 iOS | Playable | 🐢 Poor | iPhone 13 | 2026-03-14 |

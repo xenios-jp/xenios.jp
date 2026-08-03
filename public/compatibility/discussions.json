@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T01:35:52.559Z",
+  "generatedAt": "2026-08-03T03:49:15.489Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -3283,6 +3283,39 @@
             "appVersion": "1.0.1",
             "buildNumber": "9288",
             "commitShort": "`056d2f64d`"
+          }
+        }
+      ]
+    },
+    "57520829": {
+      "titleId": "57520829",
+      "issueNumber": 626,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/626",
+      "updatedAt": "2026-08-03",
+      "entries": [
+        {
+          "id": "issue-626",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/626",
+          "author": "xenios-jp",
+          "createdAt": "2026-08-03",
+          "createdAtMs": 1785728839000,
+          "issueNumber": 626,
+          "excerpt": "Runs pretty good",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/57520829/1785728834102-1.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.5.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
           }
         }
       ]
