@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T03:49:15.489Z",
+  "generatedAt": "2026-08-04T04:23:54.840Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1058,10 +1058,33 @@
     },
     "45410809": {
       "titleId": "45410809",
-      "issueNumber": 414,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/414",
-      "updatedAt": "2026-04-13",
+      "issueNumber": 627,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/627",
+      "updatedAt": "2026-08-04",
       "entries": [
+        {
+          "id": "issue-627",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/627",
+          "author": "xenios-jp",
+          "createdAt": "2026-08-04",
+          "createdAtMs": 1785817329000,
+          "issueNumber": 627,
+          "excerpt": "Just blank black screen without no sign of ever loading",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 15",
+            "platform": "iOS",
+            "osVersion": "iOS 27.0",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
         {
           "id": "issue-414",
           "type": "issue",
