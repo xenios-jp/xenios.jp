@@ -128997,34 +128997,141 @@
     "status": "nothing",
     "perf": "n/a",
     "tags": [],
-    "platforms": [],
-    "lastReport": null,
-    "updatedAt": "",
-    "notes": "",
-    "reports": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 13 Pro Max",
+      "platform": "ios",
+      "osVersion": "iOS 26.4",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-08-04",
+    "issueNumber": 628,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/628",
+    "notes": "crashes on launch with both .iso and .zar, both metal and vulkan",
+    "reports": [
+      {
+        "device": "iPhone 13 Pro Max",
+        "platform": "ios",
+        "osVersion": "iOS 26.4",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-08-04",
+        "notes": "crashes on launch with both .iso and .zar, both metal and vulkan",
+        "screenshots": [],
+        "source": "github",
+        "build": {
+          "buildId": "ios-release-2.0.1-9730",
+          "channel": "release",
+          "official": true,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730"
+        }
+      }
+    ],
     "screenshots": [],
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "nothing",
+        "perf": "n/a",
+        "notes": "crashes on launch with both .iso and .zar, both metal and vulkan",
+        "updatedAt": "2026-08-04",
+        "date": "2026-08-04",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 13 Pro Max",
+          "platform": "ios",
+          "osVersion": "iOS 26.4",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-08-04",
+          "notes": "crashes on launch with both .iso and .zar, both metal and vulkan",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-2.0.1-9730",
+            "channel": "release",
+            "official": true,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 13 Pro Max",
+          "platform": "ios",
+          "osVersion": "iOS 26.4",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-08-04",
+          "notes": "crashes on launch with both .iso and .zar, both metal and vulkan",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-2.0.1-9730",
+            "channel": "release",
+            "official": true,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730"
+          }
+        }
       },
       "all": {
         "channel": "all",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "nothing",
+        "perf": "n/a",
+        "notes": "crashes on launch with both .iso and .zar, both metal and vulkan",
+        "updatedAt": "2026-08-04",
+        "date": "2026-08-04",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 13 Pro Max",
+          "platform": "ios",
+          "osVersion": "iOS 26.4",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-08-04",
+          "notes": "crashes on launch with both .iso and .zar, both metal and vulkan",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-2.0.1-9730",
+            "channel": "release",
+            "official": true,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 13 Pro Max",
+          "platform": "ios",
+          "osVersion": "iOS 26.4",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-08-04",
+          "notes": "crashes on launch with both .iso and .zar, both metal and vulkan",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-2.0.1-9730",
+            "channel": "release",
+            "official": true,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730"
+          }
+        }
       }
     }
   },

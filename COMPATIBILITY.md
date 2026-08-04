@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **368 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **369 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **153** · 🔵 In-Game: **68** · 🟡 Intro: **36** · 🟠 Loads: **45** · 🔴 Doesn't Boot: **66**
+> 🟢 Playable: **153** · 🔵 In-Game: **68** · 🟡 Intro: **36** · 🟠 Loads: **45** · 🔴 Doesn't Boot: **67**
 >
-> 📱 iOS: **341** · 🖥️ macOS: **48**
+> 📱 iOS: **342** · 🖥️ macOS: **48**
 
 ## Legend
 
@@ -351,6 +351,7 @@
 | 🔴 | Harry Potter and the Deathly Hallows: Part 1 | `454108F9` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 | 2026-04-16 |
 | 🔴 | Harry Potter and the Half-Blood Prince | `454107FA` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 | 2026-04-16 |
 | 🔴 | Joy Ride Turbo | `5841125E` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 | 2026-07-15 |
+| 🔴 | Kane & Lynch 2: Dog Days | `534307F8` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 13 Pro Max | 2026-08-04 |
 | 🔴 | LEGO Star Wars: The Force Awakens | `57520851` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 14 | 2026-03-16 |
 | 🔴 | Midnight Club: Los Angeles | `545407F8` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Pro 13-inch (M5) | 2026-07-24 |
 | 🔴 | Mighty No. 9 | `584114A4` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 13 | 2026-03-09 |

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T04:23:54.840Z",
+  "generatedAt": "2026-08-04T20:30:48.490Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -3755,6 +3755,26 @@
           "createdAtMs": 1773517964000,
           "issueNumber": 263,
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
+          "images": [],
+          "meta": {}
+        }
+      ]
+    },
+    "534307F8": {
+      "titleId": "534307F8",
+      "issueNumber": 628,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/628",
+      "updatedAt": "2026-08-04",
+      "entries": [
+        {
+          "id": "issue-628",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/628",
+          "author": "gorillaziscool",
+          "createdAt": "2026-08-04",
+          "createdAtMs": 1785875320000,
+          "issueNumber": 628,
+          "excerpt": "crashes on launch with both .iso and .zar, both metal and vulkan",
           "images": [],
           "meta": {}
         }
