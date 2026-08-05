@@ -48331,11 +48331,33 @@
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-06-27",
+    "updatedAt": "2026-08-05",
     "issueNumber": 29,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/29",
     "notes": "Plays so fine 💯. Just some minor graphics glitches i.e scope all reddish. 9/10",
     "reports": [
+      {
+        "device": "iPhone 15",
+        "platform": "ios",
+        "osVersion": "26.5.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-08-05",
+        "notes": "Almost finishes IW intro before audio looping and eventually freezing, requiring a force close from in the app",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140"
+        }
+      },
       {
         "device": "iPhone 16 Pro",
         "platform": "ios",
@@ -48488,19 +48510,19 @@
         "status": "playable",
         "perf": "great",
         "notes": "Plays so fine 💯. Just some minor graphics glitches i.e scope all reddish. 9/10",
-        "updatedAt": "2026-06-27",
-        "date": "2026-06-27",
-        "reportCount": 5,
+        "updatedAt": "2026-08-05",
+        "date": "2026-08-05",
+        "reportCount": 6,
         "latestReport": {
-          "device": "iPhone 16 Pro",
+          "device": "iPhone 15",
           "platform": "ios",
-          "osVersion": "26.5",
+          "osVersion": "26.5.2",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-06-27",
-          "notes": "Plays so fine 💯. Just some minor graphics glitches i.e scope all reddish. 9/10",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-08-05",
+          "notes": "Almost finishes IW intro before audio looping and eventually freezing, requiring a force close from in the app",
           "screenshots": [],
           "source": "app",
           "build": {
@@ -48509,6 +48531,7 @@
             "official": false,
             "appVersion": "2.0.1",
             "buildNumber": "9730",
+            "stage": "stable",
             "commitShort": "57c3ca140"
           }
         },
