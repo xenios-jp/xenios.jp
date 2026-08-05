@@ -177,7 +177,7 @@
 | 🔵 | After Burner Climax | `58410A06` | 📱 iOS | In-Game | 🐢 Poor | iPad Pro 13-inch (M5) | 2026-06-11 |
 | 🔵 | Band Hero | `4156085C` | 📱 iOS, 🖥️ macOS | In-Game | 🐢 Poor | iPhone 13 mini | 2026-03-22 |
 | 🔵 | Batman: Arkham City | `57520802` | 📱 iOS | In-Game | 👌 OK | iPhone 15 Pro Max | 2026-03-09 |
-| 🔵 | Battlefield: Bad Company | `454107F9` | 📱 iOS | In-Game | 🐢 Poor | iPhone 15 Pro | 2026-06-10 |
+| 🔵 | Battlefield: Bad Company | `454107F9` | 📱 iOS | In-Game | 🚀 Great | iPhone 15 | 2026-08-05 |
 | 🔵 | Bayonetta | `53450813` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 | 2026-03-08 |
 | 🔵 | BioShock Infinite | `5454085D` | 📱 iOS | In-Game | 👌 OK | iPhone 16 | 2026-06-10 |
 | 🔵 | Blue Dragon | `4D5307DF` | 🖥️ macOS | In-Game | 🚀 Great | Mac mini (M2) | 2026-03-11 |

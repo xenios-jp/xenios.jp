@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T05:20:23.573Z",
+  "generatedAt": "2026-08-05T05:29:40.965Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -3757,6 +3757,62 @@
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
           "images": [],
           "meta": {}
+        }
+      ]
+    },
+    "454107F9": {
+      "titleId": "454107F9",
+      "issueNumber": 631,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/631",
+      "updatedAt": "2026-08-05",
+      "entries": [
+        {
+          "id": "issue-631",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/631",
+          "author": "xenios-jp",
+          "createdAt": "2026-08-05",
+          "createdAtMs": 1785907627000,
+          "issueNumber": 631,
+          "excerpt": "Menu runs flawless minus a little audio clipping, could be fixed with a couple settings, but entering gameplay doesn’t play at all, locked up with the ground being pink and mountains being blue/static",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454107F9/1785907623192-1.jpg"
+          ],
+          "meta": {
+            "status": "ingame",
+            "perf": "great",
+            "device": "iPhone 15",
+            "platform": "iOS",
+            "osVersion": "iOS 26.5.2",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
+          }
+        },
+        {
+          "id": "issue-490",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/490",
+          "author": "xenios-jp",
+          "createdAt": "2026-06-10",
+          "createdAtMs": 1781102600000,
+          "issueNumber": 490,
+          "excerpt": "Severe graphic bugs during. Impossible to play",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "poor",
+            "device": "iPhone 15 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 26.4.2",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
+          }
         }
       ]
     },
@@ -8378,37 +8434,6 @@
             "status": "ingame",
             "perf": "ok",
             "device": "iPhone 16",
-            "platform": "iOS",
-            "osVersion": "iOS 26.4.2",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "`57c3ca140`"
-          }
-        }
-      ]
-    },
-    "454107F9": {
-      "titleId": "454107F9",
-      "issueNumber": 490,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/490",
-      "updatedAt": "2026-06-10",
-      "entries": [
-        {
-          "id": "issue-490",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/490",
-          "author": "xenios-jp",
-          "createdAt": "2026-06-10",
-          "createdAtMs": 1781102600000,
-          "issueNumber": 490,
-          "excerpt": "Severe graphic bugs during. Impossible to play",
-          "images": [],
-          "meta": {
-            "status": "ingame",
-            "perf": "poor",
-            "device": "iPhone 15 Pro",
             "platform": "iOS",
             "osVersion": "iOS 26.4.2",
             "gpuBackend": "MSL",
