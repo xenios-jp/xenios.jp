@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T05:43:27.704Z",
+  "generatedAt": "2026-08-05T05:45:10.316Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1750,10 +1750,33 @@
     },
     "45410912": {
       "titleId": "45410912",
-      "issueNumber": 252,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/252",
-      "updatedAt": "2026-03-24",
+      "issueNumber": 634,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/634",
+      "updatedAt": "2026-08-05",
       "entries": [
+        {
+          "id": "issue-634",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/634",
+          "author": "xenios-jp",
+          "createdAt": "2026-08-05",
+          "createdAtMs": 1785908614000,
+          "issueNumber": 634,
+          "excerpt": "Instantly crashes with “0x0000000” (idk a bunch of 0’s)",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 15",
+            "platform": "iOS",
+            "osVersion": "iOS 26.5.2",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
+          }
+        },
         {
           "id": "comment-4119466916",
           "type": "comment",
