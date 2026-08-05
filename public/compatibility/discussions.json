@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T20:30:48.490Z",
+  "generatedAt": "2026-08-05T00:11:07.683Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -66,18 +66,6 @@
             "buildNumber": "9730",
             "commitShort": "`57c3ca140`"
           }
-        },
-        {
-          "id": "issue-409",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/409",
-          "author": "udance4ever",
-          "createdAt": "2026-04-12",
-          "createdAtMs": 1775994762000,
-          "issueNumber": 409,
-          "excerpt": "Hangs while loading... never gets in-game",
-          "images": [],
-          "meta": {}
         }
       ]
     },
@@ -3757,6 +3745,148 @@
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
           "images": [],
           "meta": {}
+        }
+      ]
+    },
+    "454108E6": {
+      "titleId": "454108E6",
+      "issueNumber": 30,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/30",
+      "updatedAt": "2026-08-05",
+      "entries": [
+        {
+          "id": "issue-629",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/629",
+          "author": "rafaelSwi",
+          "createdAt": "2026-08-05",
+          "createdAtMs": 1785888534000,
+          "issueNumber": 629,
+          "excerpt": "The game works decently. It has some visual and sound glitches, but nothing major. To function properly, you need to use Vulkan, because using Metal causes the game to freeze on a permanent black screen.",
+          "images": [],
+          "meta": {}
+        },
+        {
+          "id": "comment-4691642445",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/486#issuecomment-4691642445",
+          "author": "xenios-jp",
+          "createdAt": "2026-06-12",
+          "createdAtMs": 1781270454000,
+          "issueNumber": 486,
+          "excerpt": "Works perfectly",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
+          }
+        },
+        {
+          "id": "comment-4673772798",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/486#issuecomment-4673772798",
+          "author": "xenios-jp",
+          "createdAt": "2026-06-10",
+          "createdAtMs": 1781120247000,
+          "issueNumber": 486,
+          "excerpt": "some hiccups and sometimes low fps, game is playable",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454108E6/1781120235192-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454108E6/1781120235192-2.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454108E6/1781120235192-3.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 16",
+            "platform": "iOS",
+            "osVersion": "iOS 26.4.2",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
+          }
+        },
+        {
+          "id": "issue-486",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/486",
+          "author": "xenios-jp",
+          "createdAt": "2026-06-09",
+          "createdAtMs": 1781020751000,
+          "issueNumber": 486,
+          "excerpt": "Works perfectly",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9729",
+            "commitShort": "`d1afdc63d`"
+          }
+        },
+        {
+          "id": "comment-4087428671",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/244#issuecomment-4087428671",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-19",
+          "createdAtMs": 1773890055000,
+          "issueNumber": 244,
+          "excerpt": "The game is essentially unplayable. Some assets on the character selection do not load. The game is full of visual glitches, and switching maps caused the game and whole app to crash.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454108E6/1773890051198-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454108E6/1773890051198-2.jpg"
+          ],
+          "meta": {
+            "status": "loads",
+            "perf": "poor",
+            "device": "iPhone 16",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "commitShort": "`056d2f64d`"
+          }
+        },
+        {
+          "id": "issue-244",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/244",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-13",
+          "createdAtMs": 1773412522000,
+          "issueNumber": 244,
+          "excerpt": "FPS hovers around 15-25fps… many stating teleporting causes crash. My game did not crash at all and in fact it seems to stabilize fps the more i play it but it doesnt exceed 24fps. It’s honestly good enough for me to feel confident playing. But i am on extremely expensive hardware. It’s a IPad Pro 13in M4 1TB 16GB Ram. This alone feels like it should be running at at 40+ fps but im going to assume new updates to the emulator will fix this over time.",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "poor",
+            "device": "iPad Pro 13-inch (M4)",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9296",
+            "commitShort": "`ab2ca341a`"
+          }
         }
       ]
     },
@@ -8534,161 +8664,6 @@
             "appVersion": "2.0.1",
             "buildNumber": "9729",
             "commitShort": "`d1afdc63d`"
-          }
-        }
-      ]
-    },
-    "454108E6": {
-      "titleId": "454108E6",
-      "issueNumber": 486,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/486",
-      "updatedAt": "2026-06-12",
-      "entries": [
-        {
-          "id": "comment-4691642445",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/486#issuecomment-4691642445",
-          "author": "xenios-jp",
-          "createdAt": "2026-06-12",
-          "createdAtMs": 1781270454000,
-          "issueNumber": 486,
-          "excerpt": "Works perfectly",
-          "images": [],
-          "meta": {
-            "status": "playable",
-            "perf": "great",
-            "device": "iPhone 17 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "`57c3ca140`"
-          }
-        },
-        {
-          "id": "comment-4673772798",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/486#issuecomment-4673772798",
-          "author": "xenios-jp",
-          "createdAt": "2026-06-10",
-          "createdAtMs": 1781120247000,
-          "issueNumber": 486,
-          "excerpt": "some hiccups and sometimes low fps, game is playable",
-          "images": [
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454108E6/1781120235192-1.jpg",
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454108E6/1781120235192-2.jpg",
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454108E6/1781120235192-3.jpg"
-          ],
-          "meta": {
-            "status": "playable",
-            "perf": "ok",
-            "device": "iPhone 16",
-            "platform": "iOS",
-            "osVersion": "iOS 26.4.2",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "`57c3ca140`"
-          }
-        },
-        {
-          "id": "issue-486",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/486",
-          "author": "xenios-jp",
-          "createdAt": "2026-06-09",
-          "createdAtMs": 1781020751000,
-          "issueNumber": 486,
-          "excerpt": "Works perfectly",
-          "images": [],
-          "meta": {
-            "status": "playable",
-            "perf": "great",
-            "device": "iPhone 17 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "2.0.1",
-            "buildNumber": "9729",
-            "commitShort": "`d1afdc63d`"
-          }
-        },
-        {
-          "id": "comment-4087428671",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/244#issuecomment-4087428671",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-19",
-          "createdAtMs": 1773890055000,
-          "issueNumber": 244,
-          "excerpt": "The game is essentially unplayable. Some assets on the character selection do not load. The game is full of visual glitches, and switching maps caused the game and whole app to crash.",
-          "images": [
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454108E6/1773890051198-1.jpg",
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454108E6/1773890051198-2.jpg"
-          ],
-          "meta": {
-            "status": "loads",
-            "perf": "poor",
-            "device": "iPhone 16",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "`056d2f64d`"
-          }
-        },
-        {
-          "id": "issue-244",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/244",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-13",
-          "createdAtMs": 1773412522000,
-          "issueNumber": 244,
-          "excerpt": "FPS hovers around 15-25fps… many stating teleporting causes crash. My game did not crash at all and in fact it seems to stabilize fps the more i play it but it doesnt exceed 24fps. It’s honestly good enough for me to feel confident playing. But i am on extremely expensive hardware. It’s a IPad Pro 13in M4 1TB 16GB Ram. This alone feels like it should be running at at 40+ fps but im going to assume new updates to the emulator will fix this over time.",
-          "images": [],
-          "meta": {
-            "status": "playable",
-            "perf": "poor",
-            "device": "iPad Pro 13-inch (M4)",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9296",
-            "commitShort": "`ab2ca341a`"
-          }
-        },
-        {
-          "id": "comment-4020431475",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/30#issuecomment-4020431475",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-09",
-          "createdAtMs": 1773017246000,
-          "issueNumber": 30,
-          "excerpt": "Runs pretty low fps and anytime I teleport to another location, the game crashes",
-          "images": [
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454108E6/1773017243906-1.jpg"
-          ],
-          "meta": {
-            "status": "loads",
-            "perf": "poor",
-            "device": "iPhone 13 Pro",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "`2633e8177`"
           }
         }
       ]
