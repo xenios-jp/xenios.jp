@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T05:29:40.965Z",
+  "generatedAt": "2026-08-05T05:37:14.320Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -3757,6 +3757,99 @@
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
           "images": [],
           "meta": {}
+        }
+      ]
+    },
+    "454107DC": {
+      "titleId": "454107DC",
+      "issueNumber": 632,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/632",
+      "updatedAt": "2026-08-05",
+      "entries": [
+        {
+          "id": "issue-632",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/632",
+          "author": "xenios-jp",
+          "createdAt": "2026-08-05",
+          "createdAtMs": 1785908125000,
+          "issueNumber": 632,
+          "excerpt": "Menu runs fantastic, the game itself gets maybe 7fps",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454107DC/1785908121016-1.jpg"
+          ],
+          "meta": {
+            "status": "ingame",
+            "perf": "poor",
+            "device": "iPhone 15",
+            "platform": "iOS",
+            "osVersion": "iOS 26.5.2",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "commitShort": "`57c3ca140`"
+          }
+        },
+        {
+          "id": "issue-482",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/482",
+          "author": "xenios-jp",
+          "createdAt": "2026-06-09",
+          "createdAtMs": 1780976674000,
+          "issueNumber": 482,
+          "excerpt": "Somewhat playable in game, although performance is poor on iPhone 17 on both GPU backends.",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "poor",
+            "device": "iPhone 17",
+            "platform": "iOS",
+            "osVersion": "iOS 27.0",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "0",
+            "commitShort": "`796751121`"
+          }
+        },
+        {
+          "id": "comment-4232889618",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/120#issuecomment-4232889618",
+          "author": "udance4ever",
+          "createdAt": "2026-04-12",
+          "createdAtMs": 1776033270000,
+          "issueNumber": 120,
+          "excerpt": "on MacBookPro (M1) (same build: 1.0.01-9288) - also get a crash during logos - in fact, what is unique about this game is if you let the game keep running it keeping looping back to the same logo over and over again in an infinite loop:\n\n<img width=\"1392\" height=\"860\" alt=\"Image\" src=\" />",
+          "images": [],
+          "meta": {}
+        },
+        {
+          "id": "issue-120",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/120",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-09",
+          "createdAtMs": 1773031861000,
+          "issueNumber": 120,
+          "excerpt": "So the game runs but you can not see anything in menus and have to go blind. Also exploding sound. Then in game it’s dead silent. This is very rough and I cannon consider this to be playable or in game even though I can go in game if I guess prompts in menu.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454107DC/1773031857872-1.jpg"
+          ],
+          "meta": {
+            "status": "intro",
+            "perf": "poor",
+            "device": "iPhone 15 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "`2633e8177`"
+          }
         }
       ]
     },
@@ -8747,74 +8840,6 @@
             "appVersion": "2.0.1",
             "buildNumber": "9730",
             "commitShort": "`57c3ca140`"
-          }
-        }
-      ]
-    },
-    "454107DC": {
-      "titleId": "454107DC",
-      "issueNumber": 482,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/482",
-      "updatedAt": "2026-06-09",
-      "entries": [
-        {
-          "id": "issue-482",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/482",
-          "author": "xenios-jp",
-          "createdAt": "2026-06-09",
-          "createdAtMs": 1780976674000,
-          "issueNumber": 482,
-          "excerpt": "Somewhat playable in game, although performance is poor on iPhone 17 on both GPU backends.",
-          "images": [],
-          "meta": {
-            "status": "ingame",
-            "perf": "poor",
-            "device": "iPhone 17",
-            "platform": "iOS",
-            "osVersion": "iOS 27.0",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "0",
-            "commitShort": "`796751121`"
-          }
-        },
-        {
-          "id": "comment-4232889618",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/120#issuecomment-4232889618",
-          "author": "udance4ever",
-          "createdAt": "2026-04-12",
-          "createdAtMs": 1776033270000,
-          "issueNumber": 120,
-          "excerpt": "on MacBookPro (M1) (same build: 1.0.01-9288) - also get a crash during logos - in fact, what is unique about this game is if you let the game keep running it keeping looping back to the same logo over and over again in an infinite loop:\n\n<img width=\"1392\" height=\"860\" alt=\"Image\" src=\" />",
-          "images": [],
-          "meta": {}
-        },
-        {
-          "id": "issue-120",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/120",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-09",
-          "createdAtMs": 1773031861000,
-          "issueNumber": 120,
-          "excerpt": "So the game runs but you can not see anything in menus and have to go blind. Also exploding sound. Then in game it’s dead silent. This is very rough and I cannon consider this to be playable or in game even though I can go in game if I guess prompts in menu.",
-          "images": [
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454107DC/1773031857872-1.jpg"
-          ],
-          "meta": {
-            "status": "intro",
-            "perf": "poor",
-            "device": "iPhone 15 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 26.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "`2633e8177`"
           }
         }
       ]

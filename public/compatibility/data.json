@@ -45881,17 +45881,39 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 17",
+      "device": "iPhone 15",
       "platform": "ios",
-      "osVersion": "27.0",
+      "osVersion": "26.5.2",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-06-09",
+    "updatedAt": "2026-08-05",
     "issueNumber": 120,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/120",
-    "notes": "Somewhat playable in game, although performance is poor on iPhone 17 on both GPU backends.",
+    "notes": "Menu runs fantastic, the game itself gets maybe 7fps",
     "reports": [
+      {
+        "device": "iPhone 15",
+        "platform": "ios",
+        "osVersion": "26.5.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "poor",
+        "date": "2026-08-05",
+        "notes": "Menu runs fantastic, the game itself gets maybe 7fps",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140"
+        }
+      },
       {
         "device": "iPhone 17",
         "platform": "ios",
@@ -45939,6 +45961,7 @@
       }
     ],
     "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454107DC/1785908121016-1.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454107DC/1773031857872-1.jpg"
     ],
     "summaries": {
@@ -45957,50 +45980,52 @@
         "channel": "all",
         "status": "ingame",
         "perf": "poor",
-        "notes": "Somewhat playable in game, although performance is poor on iPhone 17 on both GPU backends.",
-        "updatedAt": "2026-06-09",
-        "date": "2026-06-09",
-        "reportCount": 2,
+        "notes": "Menu runs fantastic, the game itself gets maybe 7fps",
+        "updatedAt": "2026-08-05",
+        "date": "2026-08-05",
+        "reportCount": 3,
         "latestReport": {
-          "device": "iPhone 17",
+          "device": "iPhone 15",
           "platform": "ios",
-          "osVersion": "27.0",
+          "osVersion": "26.5.2",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "ingame",
           "perf": "poor",
-          "date": "2026-06-09",
-          "notes": "Somewhat playable in game, although performance is poor on iPhone 17 on both GPU backends.",
+          "date": "2026-08-05",
+          "notes": "Menu runs fantastic, the game itself gets maybe 7fps",
           "screenshots": [],
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-0",
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "0",
-            "commitShort": "796751121"
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
           }
         },
         "bestReport": {
-          "device": "iPhone 17",
+          "device": "iPhone 15",
           "platform": "ios",
-          "osVersion": "27.0",
+          "osVersion": "26.5.2",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "ingame",
           "perf": "poor",
-          "date": "2026-06-09",
-          "notes": "Somewhat playable in game, although performance is poor on iPhone 17 on both GPU backends.",
+          "date": "2026-08-05",
+          "notes": "Menu runs fantastic, the game itself gets maybe 7fps",
           "screenshots": [],
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-0",
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "0",
-            "commitShort": "796751121"
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
           }
         }
       }
