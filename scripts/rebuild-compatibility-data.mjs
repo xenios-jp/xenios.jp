@@ -34,18 +34,72 @@ async function writeJson(relativePath, value) {
   await fs.writeFile(filePath, `${JSON.stringify(value, null, 2)}\n`, "utf8");
 }
 
-async function fetchJson(url, headers = {}) {
-  const response = await fetch(url, {
-    headers: {
-      Accept: "application/json",
-      "User-Agent": "xenios-website-compat-rebuild",
-      ...headers,
-    },
-  });
-  if (!response.ok) {
-    throw new Error(`Failed to fetch ${url}: ${response.status} ${await response.text()}`);
+function getAuthHeaders() {
+  const token = (process.env.GITHUB_TOKEN || "").trim();
+  return token ? { Authorization: `Bearer ${token}` } : {};
+}
+
+const MAX_FETCH_ATTEMPTS = 4;
+const RETRYABLE_FETCH_STATUSES = new Set([408, 429, 500, 502, 503, 504]);
+
+function fetchRetryDelayMs(response, attempt) {
+  const retryAfter = response?.headers.get("retry-after");
+  if (retryAfter) {
+    const seconds = Number(retryAfter);
+    if (Number.isFinite(seconds)) {
+      return Math.min(Math.max(seconds * 1000, 0), 30_000);
+    }
+
+    const timestamp = Date.parse(retryAfter);
+    if (!Number.isNaN(timestamp)) {
+      return Math.min(Math.max(timestamp - Date.now(), 0), 30_000);
+    }
   }
-  return response.json();
+
+  return 1000 * 2 ** (attempt - 1);
+}
+
+function wait(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+async function fetchJson(url, headers = {}) {
+  for (let attempt = 1; attempt <= MAX_FETCH_ATTEMPTS; attempt += 1) {
+    let response;
+    try {
+      response = await fetch(url, {
+        headers: {
+          Accept: "application/json",
+          "User-Agent": "xenios-website-compat-rebuild",
+          ...getAuthHeaders(),
+          ...headers,
+        },
+      });
+    } catch (error) {
+      if (attempt === MAX_FETCH_ATTEMPTS) {
+        const detail = error instanceof Error ? error.message : String(error);
+        throw new Error(`Failed to fetch ${url} after ${attempt} attempts: ${detail}`);
+      }
+      await wait(fetchRetryDelayMs(null, attempt));
+      continue;
+    }
+
+    if (response.ok) {
+      return response.json();
+    }
+
+    const body = await response.text();
+    const retryable =
+      RETRYABLE_FETCH_STATUSES.has(response.status) ||
+      (response.status === 403 && response.headers.has("retry-after"));
+    if (!retryable || attempt === MAX_FETCH_ATTEMPTS) {
+      throw new Error(`Failed to fetch ${url}: ${response.status} ${body}`);
+    }
+
+    await wait(fetchRetryDelayMs(response, attempt));
+  }
+
+  throw new Error(`Failed to fetch ${url} without a response`);
 }
 
 function cleanString(value) {
