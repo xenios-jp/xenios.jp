@@ -9,20 +9,20 @@ permissions:
   contents: write
 
 concurrency:
-  group: credits-snapshot
+  group: pages
   cancel-in-progress: false
 
 jobs:
   snapshot:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           ref: main
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v7
         with:
-          node-version: 20
+          node-version: 24
 
       - name: Build credits snapshot
         env:

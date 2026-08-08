@@ -30,9 +30,12 @@ npm run dev
 ## Scripts
 
 - `npm run dev` - start local development server
-- `npm run build` - build production output
+- `npm run build` - build the server output used by OpenNext/Cloudflare
+- `npm run build:pages` - build the static export used by GitHub Pages
 - `npm run start` - run production server
 - `npm run lint` - run ESLint
+- `npm run preview` - build and preview the Cloudflare Worker locally
+- `npm run deploy` - build and deploy the Cloudflare Worker
 
 ## Project Structure
 

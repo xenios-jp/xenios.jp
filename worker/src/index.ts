@@ -781,6 +781,20 @@ async function commitFileToGitHub(
   if (!res.ok) throw new Error(`GitHub file upload failed: ${res.status} ${await res.text()}`);
 }
 
+function decodeGitHubBase64Content(base64: unknown, source: string): string {
+  if (typeof base64 !== "string" || !base64.trim()) {
+    throw new Error(`${source} returned empty base64 content`);
+  }
+
+  try {
+    const bytes = Uint8Array.from(atob(base64.replace(/\s/g, "")), (c) => c.charCodeAt(0));
+    return new TextDecoder().decode(bytes);
+  } catch (error) {
+    const detail = error instanceof Error ? error.message : String(error);
+    throw new Error(`${source} returned invalid base64 content: ${detail}`);
+  }
+}
+
 async function getFileFromGitHub(env: Env, token: string): Promise<{ content: Game[]; sha: string }> {
   const res = await githubFetch(
     `/repos/${compatRepoOwner(env)}/${compatRepoName(env)}/contents/${COMPAT_PATH}?ref=${compatRepoBranch(env)}`,
@@ -789,9 +803,34 @@ async function getFileFromGitHub(env: Env, token: string): Promise<{ content: Ga
 
   if (!res.ok) throw new Error(`GitHub GET failed: ${res.status} ${await res.text()}`);
 
-  const json = (await res.json()) as { content: string; sha: string };
-  const bytes = Uint8Array.from(atob(json.content.replace(/\n/g, "")), (c) => c.charCodeAt(0));
-  const decoded = new TextDecoder().decode(bytes);
+  const json = (await res.json()) as { content?: unknown; sha?: unknown; encoding?: unknown };
+  if (typeof json.sha !== "string" || !json.sha) {
+    throw new Error("GitHub contents response did not include a blob sha");
+  }
+
+  // The Contents API only inlines files up to 1 MB. Larger files come back with
+  // encoding "none" and an empty content field, so fetch the blob by sha (which
+  // supports files up to 100 MB) instead of decoding the empty payload.
+  let decoded: string;
+  if (json.encoding === "base64" && json.content) {
+    decoded = decodeGitHubBase64Content(json.content, "GitHub contents response");
+  } else if (json.encoding === "none") {
+    const blobRes = await githubFetch(
+      `/repos/${compatRepoOwner(env)}/${compatRepoName(env)}/git/blobs/${json.sha}`,
+      token
+    );
+    if (!blobRes.ok) {
+      throw new Error(`GitHub blob GET failed: ${blobRes.status} ${await blobRes.text()}`);
+    }
+    const blob = (await blobRes.json()) as { content?: unknown; encoding?: unknown };
+    if (blob.encoding !== "base64") {
+      throw new Error(`GitHub blob response used unsupported encoding: ${String(blob.encoding)}`);
+    }
+    decoded = decodeGitHubBase64Content(blob.content, "GitHub blob response");
+  } else {
+    throw new Error(`GitHub contents response used unsupported encoding: ${String(json.encoding)}`);
+  }
+
   return { content: JSON.parse(decoded) as Game[], sha: json.sha };
 }
 

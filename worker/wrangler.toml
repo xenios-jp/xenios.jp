@@ -1,6 +1,6 @@
 name = "xenios-compat-api"
 main = "src/index.ts"
-compatibility_date = "2025-01-01"
+compatibility_date = "2026-08-08"
 
 # Set these via `wrangler secret put <KEY>`
 # GITHUB_TOKEN            – fine-grained PAT with Contents + Issues read/write on xenios-jp/game-compatibility

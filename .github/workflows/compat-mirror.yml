@@ -13,7 +13,7 @@ permissions:
   id-token: write
 
 concurrency:
-  group: compat-mirror
+  group: pages
   cancel-in-progress: false
 
 jobs:
@@ -22,20 +22,22 @@ jobs:
       changed: ${{ steps.stage.outputs.changed }}
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           ref: main
 
       - name: Set up Node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v7
         with:
-          node-version: 20
+          node-version: 24
           cache: npm
 
       - name: Mirror canonical compatibility discussions
         run: node scripts/mirror-compat-data.mjs
 
       - name: Rebuild canonical compatibility catalog
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
         run: node scripts/rebuild-compatibility-data.mjs
 
       - name: Generate COMPATIBILITY.md
@@ -55,6 +57,7 @@ jobs:
             data/discussions.json \
             public/compatibility/data.json \
             public/compatibility/discussions.json \
+            public/compatibility/search-index.json \
             public/builds/release-builds.json \
             public/builds/history.json
           if git diff --staged --quiet; then
@@ -70,11 +73,11 @@ jobs:
 
       - name: Build site
         if: steps.stage.outputs.changed == 'true'
-        run: npm run build
+        run: npm run build:pages
 
       - name: Upload Pages artifact
         if: steps.stage.outputs.changed == 'true'
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
         with:
           path: out
 
@@ -94,4 +97,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
