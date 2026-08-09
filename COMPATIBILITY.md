@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **369 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **370 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **153** · 🔵 In-Game: **69** · 🟡 Intro: **36** · 🟠 Loads: **44** · 🔴 Doesn't Boot: **67**
+> 🟢 Playable: **153** · 🔵 In-Game: **69** · 🟡 Intro: **36** · 🟠 Loads: **44** · 🔴 Doesn't Boot: **68**
 >
-> 📱 iOS: **343** · 🖥️ macOS: **48**
+> 📱 iOS: **344** · 🖥️ macOS: **48**
 
 ## Legend
 
@@ -388,6 +388,7 @@
 | 🔴 | WWE 2k14 | `545408B2` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 | 2026-03-25 |
 | 🔴 | WWE 2K15 | `545408B6` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro Max | 2026-03-11 |
 | 🔴 | WWE 2K17 | `545408BA` | 🖥️ macOS | Doesn't Boot | ➖ N/A | MacBook Pro M1 | 2026-05-31 |
+| 🔴 | XBLA Unplugged | `4D5387FC` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 Pro Max | 2026-08-09 |
 | 🔴 | お姉チャンバラZ ～カグラ～ | `445007F4` | 🖥️ macOS | Doesn't Boot | ➖ N/A | MacBook Pro (M1) | 2026-04-12 |
 
 ---
