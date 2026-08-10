@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **370 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **372 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **153** · 🔵 In-Game: **69** · 🟡 Intro: **36** · 🟠 Loads: **44** · 🔴 Doesn't Boot: **68**
+> 🟢 Playable: **154** · 🔵 In-Game: **69** · 🟡 Intro: **36** · 🟠 Loads: **44** · 🔴 Doesn't Boot: **69**
 >
-> 📱 iOS: **344** · 🖥️ macOS: **48**
+> 📱 iOS: **346** · 🖥️ macOS: **48**
 
 ## Legend
 
@@ -53,7 +53,7 @@
 | 🟢 | Def Jam Icon | `454107EE` | 📱 iOS | Playable | 🐢 Poor | iPhone 17 Pro Max | 2026-07-18 |
 | 🟢 | Devil May Cry 4 | `434307DF` | 📱 iOS | Playable | 🐢 Poor | iPhone 14 Pro | 2026-06-11 |
 | 🟢 | Devil May Cry 4 Demo | `434387E3` | 📱 iOS | Playable | 🚀 Great | iPhone 16 | 2026-07-15 |
-| 🟢 | DOA5 Ultimate | `4B5607DA` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-17 |
+| 🟢 | DOA5 Ultimate | `4B5607DA` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-08-09 |
 | 🟢 | Dragon Age 2 | `4541090B` | 🖥️ macOS | Playable | 🚀 Great | M1 iMac (2021) | 2026-07-26 |
 | 🟢 | Dragon Age: Origins - Ultimate Edition | `454108C0` | 🖥️ macOS | Playable | 🚀 Great | Mac mini (M4) | 2026-03-15 |
 | 🟢 | Dragon Ball Z Budokai HD Collection | `4E4D0856` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro Max | 2026-03-14 |
@@ -172,6 +172,7 @@
 | 🟢 | WRC 5: FIA WORLD RALLY CHAMPIONSHIP | `573607E2` | 📱 iOS | Playable | 🐢 Poor | iPhone 17 Pro Max | 2026-03-17 |
 | 🟢 | WWE Smackdown vs RAW 2008 | `5451080B` | 📱 iOS | Playable | 👌 OK | iPhone 16e | 2026-03-16 |
 | 🟢 | X-Men Origins: Wolverine | `41560816` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro Max | 2026-07-06 |
+| 🟢 | Xbox 360 Experience Disc 2.4 (USA) | `584B880F` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-08-10 |
 | 🟢 | Yaris | `5841087F` | 📱 iOS | Playable | 🚀 Great | iPhone 14 Pro Max | 2026-03-23 |
 | 🔵 | 2014 FIFA World Cup Brazil | `454109D4` | 📱 iOS | In-Game | 🚀 Great | iPad Pro 11-inch (M4) | 2026-07-10 |
 | 🔵 | After Burner Climax | `58410A06` | 📱 iOS | In-Game | 🐢 Poor | iPad Pro 13-inch (M5) | 2026-06-11 |
@@ -350,6 +351,7 @@
 | 🔴 | GRID 2 | `434D0844` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16e | 2026-06-09 |
 | 🔴 | Harry Potter and the Deathly Hallows: Part 1 | `454108F9` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 | 2026-04-16 |
 | 🔴 | Harry Potter and the Half-Blood Prince | `454107FA` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 | 2026-04-16 |
+| 🔴 | Jet Set Radio XBLA | `58411247` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 15 Pro | 2026-08-09 |
 | 🔴 | Joy Ride Turbo | `5841125E` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 | 2026-07-15 |
 | 🔴 | Kane & Lynch 2: Dog Days | `534307F8` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 13 Pro Max | 2026-08-04 |
 | 🔴 | LEGO Star Wars: The Force Awakens | `57520851` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 14 | 2026-03-16 |
