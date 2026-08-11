@@ -6016,14 +6016,46 @@
     "titleIds": [
       "58411427"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "playable",
+    "perf": "ok",
     "tags": [],
-    "platforms": [],
-    "lastReport": null,
-    "updatedAt": "",
-    "notes": "",
-    "reports": [],
+    "platforms": [
+      "macos"
+    ],
+    "lastReport": {
+      "device": "MacBook Pro (M1)",
+      "platform": "macos",
+      "osVersion": "26.6.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-08-11",
+    "issueNumber": 646,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/646",
+    "notes": "Animation is slightly choppy but the game is playable for the first few minutes.",
+    "reports": [
+      {
+        "device": "MacBook Pro (M1)",
+        "platform": "macos",
+        "osVersion": "26.6.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-08-11",
+        "notes": "Animation is slightly choppy but the game is playable for the first few minutes.",
+        "screenshots": [],
+        "source": "github",
+        "build": {
+          "buildId": "macos-self-built-2.0.1-9849",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9849",
+          "commitShort": "3418fc4"
+        }
+      }
+    ],
     "screenshots": [],
     "summaries": {
       "release": {
@@ -6039,14 +6071,54 @@
       },
       "all": {
         "channel": "all",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "playable",
+        "perf": "ok",
+        "notes": "Animation is slightly choppy but the game is playable for the first few minutes.",
+        "updatedAt": "2026-08-11",
+        "date": "2026-08-11",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "MacBook Pro (M1)",
+          "platform": "macos",
+          "osVersion": "26.6.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-08-11",
+          "notes": "Animation is slightly choppy but the game is playable for the first few minutes.",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "buildId": "macos-self-built-2.0.1-9849",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9849",
+            "commitShort": "3418fc4"
+          }
+        },
+        "bestReport": {
+          "device": "MacBook Pro (M1)",
+          "platform": "macos",
+          "osVersion": "26.6.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-08-11",
+          "notes": "Animation is slightly choppy but the game is playable for the first few minutes.",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "buildId": "macos-self-built-2.0.1-9849",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9849",
+            "commitShort": "3418fc4"
+          }
+        }
       }
     }
   },
