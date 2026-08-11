@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **373 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **374 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **151** · 🔵 In-Game: **70** · 🟡 Intro: **36** · 🟠 Loads: **44** · 🔴 Doesn't Boot: **72**
+> 🟢 Playable: **152** · 🔵 In-Game: **70** · 🟡 Intro: **36** · 🟠 Loads: **44** · 🔴 Doesn't Boot: **72**
 >
-> 📱 iOS: **347** · 🖥️ macOS: **47**
+> 📱 iOS: **348** · 🖥️ macOS: **47**
 
 ## Legend
 
@@ -40,6 +40,7 @@
 | 🟢 | Call Of Duty: Modern Warfare 3 | `415608CB` | 📱 iOS | Playable | 👌 OK | iPhone 16 | 2026-07-07 |
 | 🟢 | Castle Crashers | `584108B7` | 📱 iOS | Playable | 🚀 Great | iPhone 16 | 2026-07-15 |
 | 🟢 | Civilization Revolution | `545407E5` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro | 2026-03-14 |
+| 🟢 | College Hoops 2K8 | `54540818` | 📱 iOS | Playable | 🐢 Poor | iPhone 15 | 2026-08-11 |
 | 🟢 | Condemned: Criminal Origins | `534507D2` | 📱 iOS | Playable | 👌 OK | iPhone 17 | 2026-04-22 |
 | 🟢 | Contra | `58410818` | 📱 iOS | Playable | 🚀 Great | iPhone 15 | 2026-06-07 |
 | 🟢 | Dark Souls 2 | `465307E4` | 📱 iOS | Playable | 🐢 Poor | iPhone 17 Pro Max | 2026-07-22 |

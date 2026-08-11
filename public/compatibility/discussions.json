@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T15:42:42.728Z",
+  "generatedAt": "2026-08-11T18:56:44.177Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2901,6 +2901,26 @@
             "buildStage": "stable",
             "commitShort": "`ab2ca341a`"
           }
+        }
+      ]
+    },
+    "54540818": {
+      "titleId": "54540818",
+      "issueNumber": 645,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/645",
+      "updatedAt": "2026-08-11",
+      "entries": [
+        {
+          "id": "issue-645",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/645",
+          "author": "mjownsu1",
+          "createdAt": "2026-08-11",
+          "createdAtMs": 1786474428000,
+          "issueNumber": 645,
+          "excerpt": "Game works up at 30 fps up until you get into game as it moves 5 to 10 fps and is basically moving at 0.5 speed for the entirety of the game",
+          "images": [],
+          "meta": {}
         }
       ]
     },
