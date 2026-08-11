@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T22:28:40.202Z",
+  "generatedAt": "2026-08-11T22:31:31.845Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -13682,8 +13682,20 @@
       "titleId": "425307D1",
       "issueNumber": 314,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/314",
-      "updatedAt": "2026-03-22",
+      "updatedAt": "2026-08-11",
       "entries": [
+        {
+          "id": "comment-5259591029",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/314#issuecomment-5259591029",
+          "author": "udance4ever",
+          "createdAt": "2026-08-11",
+          "createdAtMs": 1786487341000,
+          "issueNumber": 314,
+          "excerpt": "Preview 2.0.1-9849 gets in-game on 2020 M1 MacBookPro (26.6.1) and rendering issue for HUD overlay (eg. buttons)\n\n<img width=\"1920\" height=\"1124\" alt=\"Image\" src=\" />",
+          "images": [],
+          "meta": {}
+        },
         {
           "id": "issue-314",
           "type": "issue",
