@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T22:39:26.259Z",
+  "generatedAt": "2026-08-11T23:30:58.146Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -3999,6 +3999,26 @@
           "createdAtMs": 1773517964000,
           "issueNumber": 263,
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
+          "images": [],
+          "meta": {}
+        }
+      ]
+    },
+    "535107FA": {
+      "titleId": "535107FA",
+      "issueNumber": 647,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/647",
+      "updatedAt": "2026-08-11",
+      "entries": [
+        {
+          "id": "issue-647",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/647",
+          "author": "udance4ever",
+          "createdAt": "2026-08-11",
+          "createdAtMs": 1786488708000,
+          "issueNumber": 647,
+          "excerpt": "Game boots. Title screen already has rendering issues. Can start game. Looks like shader compilation takes quite awhile (on an M1) to render initial scene with scientist waiting for Adam. Have full control of character but rendering is whacked (see screenshots)",
           "images": [],
           "meta": {}
         }
@@ -8251,10 +8271,22 @@
     },
     "5553088C": {
       "titleId": "5553088C",
-      "issueNumber": 509,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/509",
-      "updatedAt": "2026-06-12",
+      "issueNumber": 251,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/251",
+      "updatedAt": "2026-08-11",
       "entries": [
+        {
+          "id": "comment-5259829120",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/251#issuecomment-5259829120",
+          "author": "udance4ever",
+          "createdAt": "2026-08-11",
+          "createdAtMs": 1786489135000,
+          "issueNumber": 251,
+          "excerpt": "Preview 2.0.1-9849 has severe rendering issues in-game on MacBook Pro (M1):\n\n<img width=\"1920\" height=\"1080\" alt=\"Image\" src=\" />",
+          "images": [],
+          "meta": {}
+        },
         {
           "id": "issue-509",
           "type": "issue",
@@ -12252,10 +12284,22 @@
     },
     "545407E6": {
       "titleId": "545407E6",
-      "issueNumber": 379,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/379",
-      "updatedAt": "2026-03-30",
+      "issueNumber": 233,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/233",
+      "updatedAt": "2026-08-11",
       "entries": [
+        {
+          "id": "comment-5259961541",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/233#issuecomment-5259961541",
+          "author": "udance4ever",
+          "createdAt": "2026-08-11",
+          "createdAtMs": 1786490241000,
+          "issueNumber": 233,
+          "excerpt": "Preview 2.0.1-9849 gets in-game but has sever rendering issues on a 2020 MacBookPro (M1):\n\n<img width=\"1920\" height=\"1080\" alt=\"Image\" src=\" />",
+          "images": [],
+          "meta": {}
+        },
         {
           "id": "issue-379",
           "type": "issue",
@@ -14940,8 +14984,20 @@
       "titleId": "4C4107ED",
       "issueNumber": 258,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/258",
-      "updatedAt": "2026-03-16",
+      "updatedAt": "2026-08-11",
       "entries": [
+        {
+          "id": "comment-5259924081",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/258#issuecomment-5259924081",
+          "author": "udance4ever",
+          "createdAt": "2026-08-11",
+          "createdAtMs": 1786489915000,
+          "issueNumber": 258,
+          "excerpt": "Preview 2.0.1-9849 on a 2020 M1 MacBookPro\n\nMenu doesn't render correctly\n\n<img width=\"1920\" height=\"1080\" alt=\"Image\" src=\" />",
+          "images": [],
+          "meta": {}
+        },
         {
           "id": "comment-4066263335",
           "type": "comment",
@@ -16442,8 +16498,20 @@
       "titleId": "425307D5",
       "issueNumber": 184,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/184",
-      "updatedAt": "2026-03-12",
+      "updatedAt": "2026-08-11",
       "entries": [
+        {
+          "id": "comment-5259712403",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/184#issuecomment-5259712403",
+          "author": "udance4ever",
+          "createdAt": "2026-08-11",
+          "createdAtMs": 1786488222000,
+          "issueNumber": 184,
+          "excerpt": "Preview 2.0.1-9849 (2020 M1 MacBookPro) has same issues w faces:\n\n# Goal: Walk to Dad\n<img width=\"1920\" height=\"1080\" alt=\"Image\" src=\" />",
+          "images": [],
+          "meta": {}
+        },
         {
           "id": "comment-4047608851",
           "type": "comment",
@@ -16683,8 +16751,20 @@
       "titleId": "5454087A",
       "issueNumber": 173,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/173",
-      "updatedAt": "2026-03-10",
+      "updatedAt": "2026-08-11",
       "entries": [
+        {
+          "id": "comment-5260034508",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/173#issuecomment-5260034508",
+          "author": "udance4ever",
+          "createdAt": "2026-08-11",
+          "createdAtMs": 1786490849000,
+          "issueNumber": 173,
+          "excerpt": "(title should be renamed to NBA 2k11)\n\nPreview 2.0.1-9849 has severe rendering issues in the intro sequence after pressing Start (2020 M1 MacBookPro)\n\n<img width=\"1920\" height=\"1080\" alt=\"Image\" src=\" />",
+          "images": [],
+          "meta": {}
+        },
         {
           "id": "comment-4034128567",
           "type": "comment",
@@ -16901,8 +16981,20 @@
       "titleId": "4C4107D2",
       "issueNumber": 159,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/159",
-      "updatedAt": "2026-03-10",
+      "updatedAt": "2026-08-11",
       "entries": [
+        {
+          "id": "comment-5259904372",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/159#issuecomment-5259904372",
+          "author": "udance4ever",
+          "createdAt": "2026-08-11",
+          "createdAtMs": 1786489759000,
+          "issueNumber": 159,
+          "excerpt": "Preview 2.0.1-9849 now gets in-game on a 2020 M1 MacBookPro and plays good but there is severe what I assume is blooming every so often on the first stage\n\n<img width=\"1920\" height=\"1080\" alt=\"Image\" src=\" />",
+          "images": [],
+          "meta": {}
+        },
         {
           "id": "issue-159",
           "type": "issue",

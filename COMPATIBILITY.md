@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **374 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **375 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **152** · 🔵 In-Game: **70** · 🟡 Intro: **36** · 🟠 Loads: **44** · 🔴 Doesn't Boot: **72**
+> 🟢 Playable: **152** · 🔵 In-Game: **71** · 🟡 Intro: **36** · 🟠 Loads: **44** · 🔴 Doesn't Boot: **72**
 >
-> 📱 iOS: **347** · 🖥️ macOS: **48**
+> 📱 iOS: **347** · 🖥️ macOS: **49**
 
 ## Legend
 
@@ -185,6 +185,7 @@
 | 🔵 | Call Of Duty: World At War | `4156081C` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 | 2026-07-01 |
 | 🔵 | DB Raging Blast | `4E4D0803` | 📱 iOS | In-Game | 🐢 Poor | iPad Pro (M2) | 2026-03-09 |
 | 🔵 | Dead Island Riptide | `4B4D07F2` | 📱 iOS | In-Game | 🐢 Poor | iPhone 14 Pro | 2026-03-17 |
+| 🔵 | Deus Ex: Human Revolution - Director's Cut | `535107FA` | 🖥️ macOS | In-Game | 👌 OK | MacBook Pro (M1) | 2026-08-11 |
 | 🔵 | Diablo III | `394F07D1` | 📱 iOS, 🖥️ macOS | In-Game | 🐢 Poor | iPhone Air | 2026-03-09 |
 | 🔵 | El Shaddai | `494F07D1` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro Max | 2026-06-18 |
 | 🔵 | Fable 3 | `4D5308D6` | 📱 iOS | In-Game | 🐢 Poor | iPhone 15 Pro Max | 2026-03-09 |
