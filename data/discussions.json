@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T21:27:56.515Z",
+  "generatedAt": "2026-08-11T22:21:37.645Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -4006,10 +4006,22 @@
     },
     "575207FD": {
       "titleId": "575207FD",
-      "issueNumber": 644,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/644",
+      "issueNumber": 164,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/164",
       "updatedAt": "2026-08-11",
       "entries": [
+        {
+          "id": "comment-5259324021",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/164#issuecomment-5259324021",
+          "author": "udance4ever",
+          "createdAt": "2026-08-11",
+          "createdAtMs": 1786485500000,
+          "issueNumber": 164,
+          "excerpt": "Preview 2.0.1-9849 plays and runs great on a 2020 M1 MacBookPro (26.6.1). Got to Chapter 2 in **Story** mode with Sonja battling the tag team w Jade and Katana. Quite enjoyable :)\n\nI can confirm there is some glitching but it's primarily during cut scenes and rarely during battle (not enough to get in the way)\n\n# cut-scene (shader issue: Sonja)\n<img width=\"1920\" height=\"1080\" alt=\"Image\" src=\" />\n\n# pre-battle (shader issue: both opponents)\n<img width=\"1920\" height=\"1080\" alt=\"Image\" src=\" />\n\n# battle (shaders appear to work ok)\n<img width=\"1920\" height=\"1080\" alt=\"Image\" src=\" />",
+          "images": [],
+          "meta": {}
+        },
         {
           "id": "issue-644",
           "type": "issue",
@@ -4576,10 +4588,22 @@
     },
     "4D5307E6": {
       "titleId": "4D5307E6",
-      "issueNumber": 620,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/620",
-      "updatedAt": "2026-07-27",
+      "issueNumber": 42,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/42",
+      "updatedAt": "2026-08-11",
       "entries": [
+        {
+          "id": "comment-5259394662",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/42#issuecomment-5259394662",
+          "author": "udance4ever",
+          "createdAt": "2026-08-11",
+          "createdAtMs": 1786486003000,
+          "issueNumber": 42,
+          "excerpt": "Preview 2.0.1-9849 on 2020 M1 MacBookPro (26.6.1) now gets in-game but rendering is nearly black everywhere\n\n<img width=\"1920\" height=\"1080\" alt=\"Image\" src=\" />",
+          "images": [],
+          "meta": {}
+        },
         {
           "id": "issue-620",
           "type": "issue",
@@ -4696,30 +4720,6 @@
             "device": "iPhone 17 Pro Max",
             "platform": "iOS",
             "osVersion": "iOS 26.0",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9296",
-            "buildStage": "stable",
-            "commitShort": "`ab2ca341a`"
-          }
-        },
-        {
-          "id": "issue-197",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/197",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-11",
-          "createdAtMs": 1773217236000,
-          "issueNumber": 197,
-          "excerpt": "Boots fine and loads into game with the initial cutscene loop workaround.",
-          "images": [],
-          "meta": {
-            "status": "ingame",
-            "perf": "poor",
-            "device": "iPhone 17",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3",
             "gpuBackend": "MSL",
             "buildChannel": "self-built",
             "appVersion": "1.0.0",
@@ -11220,8 +11220,20 @@
       "titleId": "4B4E084D",
       "issueNumber": 412,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/412",
-      "updatedAt": "2026-04-12",
+      "updatedAt": "2026-08-11",
       "entries": [
+        {
+          "id": "comment-5259097072",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/412#issuecomment-5259097072",
+          "author": "udance4ever",
+          "createdAt": "2026-08-11",
+          "createdAtMs": 1786483916000,
+          "issueNumber": 412,
+          "excerpt": "UPDATE: Preview 2.0.1-9849 now gets in-app and guest crashes instead:\n\n<img width=\"1920\" height=\"1080\" alt=\"Image\" src=\" />",
+          "images": [],
+          "meta": {}
+        },
         {
           "id": "issue-412",
           "type": "issue",
@@ -11240,8 +11252,20 @@
       "titleId": "445007F4",
       "issueNumber": 410,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/410",
-      "updatedAt": "2026-04-12",
+      "updatedAt": "2026-08-11",
       "entries": [
+        {
+          "id": "comment-5259071479",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/410#issuecomment-5259071479",
+          "author": "udance4ever",
+          "createdAt": "2026-08-11",
+          "createdAtMs": 1786483745000,
+          "issueNumber": 410,
+          "excerpt": "UPDATE: Preview 2.0.1-9849 still gets black screen on boot.",
+          "images": [],
+          "meta": {}
+        },
         {
           "id": "issue-410",
           "type": "issue",
@@ -11312,8 +11336,20 @@
       "titleId": "425607E7",
       "issueNumber": 405,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/405",
-      "updatedAt": "2026-04-12",
+      "updatedAt": "2026-08-11",
       "entries": [
+        {
+          "id": "comment-5259159034",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/405#issuecomment-5259159034",
+          "author": "udance4ever",
+          "createdAt": "2026-08-11",
+          "createdAtMs": 1786484341000,
+          "issueNumber": 405,
+          "excerpt": "Preview 2.0.1-9849 now gets past logos and gets past menus. Graphics freeze right after starting race and in-game sound effects (eg. revving engines) continue to be heard:\n\n<img width=\"1920\" height=\"1080\" alt=\"Image\" src=\" />",
+          "images": [],
+          "meta": {}
+        },
         {
           "id": "issue-405",
           "type": "issue",
@@ -11352,8 +11388,20 @@
       "titleId": "584108FF",
       "issueNumber": 403,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/403",
-      "updatedAt": "2026-04-12",
+      "updatedAt": "2026-08-11",
       "entries": [
+        {
+          "id": "comment-5259228428",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/403#issuecomment-5259228428",
+          "author": "udance4ever",
+          "createdAt": "2026-08-11",
+          "createdAtMs": 1786484822000,
+          "issueNumber": 403,
+          "excerpt": "Preview 2.0.1-9849 still has performance issues for this title (2020 M1 MacBookPro (macOS 26.6.1))",
+          "images": [],
+          "meta": {}
+        },
         {
           "id": "issue-403",
           "type": "issue",
@@ -17006,8 +17054,20 @@
       "titleId": "4D530805",
       "issueNumber": 136,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/136",
-      "updatedAt": "2026-03-09",
+      "updatedAt": "2026-08-11",
       "entries": [
+        {
+          "id": "comment-5259498510",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/136#issuecomment-5259498510",
+          "author": "udance4ever",
+          "createdAt": "2026-08-11",
+          "createdAtMs": 1786486716000,
+          "issueNumber": 136,
+          "excerpt": "Both build 9288 and Preview 2.0.1-9849 on a 2020 M1 MacBookPro have a weird green area at the bottom and crash right after starting the game\n\n# green area\n<img width=\"1920\" height=\"1080\" alt=\"Image\" src=\" />\n\n# hangs after starting game from menu\n<img width=\"1392\" height=\"860\" alt=\"Image\" src=\" />",
+          "images": [],
+          "meta": {}
+        },
         {
           "id": "issue-136",
           "type": "issue",
