@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T21:14:08.104Z",
+  "generatedAt": "2026-08-11T21:19:15.819Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1104,10 +1104,22 @@
     },
     "45410809": {
       "titleId": "45410809",
-      "issueNumber": 627,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/627",
-      "updatedAt": "2026-08-04",
+      "issueNumber": 414,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/414",
+      "updatedAt": "2026-08-11",
       "entries": [
+        {
+          "id": "comment-5258938995",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/414#issuecomment-5258938995",
+          "author": "udance4ever",
+          "createdAt": "2026-08-11",
+          "createdAtMs": 1786482890000,
+          "issueNumber": 414,
+          "excerpt": "Preview 2.0.1-9849 resolves rendering issues and seems to play perfectly! (2020 M1 MacBookPro)\n\n<img width=\"1920\" height=\"1080\" alt=\"Image\" src=\" />\n\n<img width=\"1920\" height=\"1080\" alt=\"Image\" src=\" />",
+          "images": [],
+          "meta": {}
+        },
         {
           "id": "issue-627",
           "type": "issue",
