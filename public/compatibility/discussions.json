@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T20:59:23.797Z",
+  "generatedAt": "2026-08-11T21:14:08.104Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -6802,10 +6802,22 @@
     },
     "4156089C": {
       "titleId": "4156089C",
-      "issueNumber": 556,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/556",
-      "updatedAt": "2026-06-24",
+      "issueNumber": 407,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/407",
+      "updatedAt": "2026-08-11",
       "entries": [
+        {
+          "id": "comment-5258808018",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/407#issuecomment-5258808018",
+          "author": "udance4ever",
+          "createdAt": "2026-08-11",
+          "createdAtMs": 1786482075000,
+          "issueNumber": 407,
+          "excerpt": "UPDATE: Preview 2.0.1-9849 now gets in-game but has serious rendering issues on 2020 M1 MacBookPro\n\n<img width=\"1920\" height=\"1080\" alt=\"Image\" src=\" />\n\n<img width=\"1920\" height=\"1080\" alt=\"Image\" src=\" />",
+          "images": [],
+          "meta": {}
+        },
         {
           "id": "comment-4793330488",
           "type": "comment",
@@ -7991,10 +8003,22 @@
     },
     "4B4E080A": {
       "titleId": "4B4E080A",
-      "issueNumber": 512,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/512",
-      "updatedAt": "2026-06-29",
+      "issueNumber": 302,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/302",
+      "updatedAt": "2026-08-11",
       "entries": [
+        {
+          "id": "comment-5258861733",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/302#issuecomment-5258861733",
+          "author": "udance4ever",
+          "createdAt": "2026-08-11",
+          "createdAtMs": 1786482402000,
+          "issueNumber": 302,
+          "excerpt": "UPDATE: Preview 2.0.1-9849 now gets in-game on 2020 M1 MacBookPro. have control over character but serious rendering issues\n\n<img width=\"1920\" height=\"1080\" alt=\"Image\" src=\" />\n\n<img width=\"1920\" height=\"1080\" alt=\"Image\" src=\" />",
+          "images": [],
+          "meta": {}
+        },
         {
           "id": "comment-4834763625",
           "type": "comment",
@@ -8097,32 +8121,6 @@
             "device": "iPhone 17 Pro Max",
             "platform": "iOS",
             "osVersion": "iOS 26.0.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "buildStage": "stable",
-            "commitShort": "`2633e8177`"
-          }
-        },
-        {
-          "id": "issue-104",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/104",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-09",
-          "createdAtMs": 1773014679000,
-          "issueNumber": 104,
-          "excerpt": "Take three boot to get through the menu, but after that run, smooth",
-          "images": [
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4B4E080A/1773014677621-1.jpg"
-          ],
-          "meta": {
-            "status": "playable",
-            "perf": "ok",
-            "device": "iPhone 17 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3.1",
             "gpuBackend": "MSL",
             "buildChannel": "self-built",
             "appVersion": "1.0.0",
@@ -11818,8 +11816,20 @@
       "titleId": "5454082B",
       "issueNumber": 386,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/386",
-      "updatedAt": "2026-04-24",
+      "updatedAt": "2026-08-11",
       "entries": [
+        {
+          "id": "comment-5258901028",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/386#issuecomment-5258901028",
+          "author": "udance4ever",
+          "createdAt": "2026-08-11",
+          "createdAtMs": 1786482651000,
+          "issueNumber": 386,
+          "excerpt": "Preview 2.0.1-9849 now gets in-game (yeay!) on MacBookPro M1 - same rendering issues:\n\n<img width=\"1920\" height=\"1080\" alt=\"Image\" src=\" />",
+          "images": [],
+          "meta": {}
+        },
         {
           "id": "comment-4316280347",
           "type": "comment",
