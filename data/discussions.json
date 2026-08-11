@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T22:25:45.188Z",
+  "generatedAt": "2026-08-11T22:28:40.202Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -18183,8 +18183,20 @@
       "titleId": "494F07D4",
       "issueNumber": 5,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/5",
-      "updatedAt": "2026-03-09",
+      "updatedAt": "2026-08-11",
       "entries": [
+        {
+          "id": "comment-5259560808",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/5#issuecomment-5259560808",
+          "author": "udance4ever",
+          "createdAt": "2026-08-11",
+          "createdAtMs": 1786487138000,
+          "issueNumber": 5,
+          "excerpt": "Preview 2.0.1-9849 gets in-game and continues to have the \"psychedelic coloration\" effect (MacBookPro (M1) 26.6.1)\n\n<img width=\"1920\" height=\"1080\" alt=\"Image\" src=\" />",
+          "images": [],
+          "meta": {}
+        },
         {
           "id": "comment-4022730684",
           "type": "comment",
