@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T19:50:01.201Z",
+  "generatedAt": "2026-08-11T20:14:30.118Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -11294,8 +11294,20 @@
       "titleId": "4E4D07F1",
       "issueNumber": 402,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/402",
-      "updatedAt": "2026-04-12",
+      "updatedAt": "2026-08-11",
       "entries": [
+        {
+          "id": "comment-5258292285",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/402#issuecomment-5258292285",
+          "author": "udance4ever",
+          "createdAt": "2026-08-11",
+          "createdAtMs": 1786479053000,
+          "issueNumber": 402,
+          "excerpt": "2020 M1 MacBookPro (26.6.1)\n\nPreview 2.0.1-9849 now gets in-game but has the rendering glitch.\n\n<img width=\"1920\" height=\"1080\" alt=\"Image\" src=\" />\n\n<img width=\"1920\" height=\"1080\" alt=\"Image\" src=\" />",
+          "images": [],
+          "meta": {}
+        },
         {
           "id": "issue-402",
           "type": "issue",
