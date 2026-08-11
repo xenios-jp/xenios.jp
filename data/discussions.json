@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T20:38:43.901Z",
+  "generatedAt": "2026-08-11T20:51:11.879Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -4280,10 +4280,22 @@
     },
     "454107DC": {
       "titleId": "454107DC",
-      "issueNumber": 632,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/632",
-      "updatedAt": "2026-08-05",
+      "issueNumber": 120,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/120",
+      "updatedAt": "2026-08-11",
       "entries": [
+        {
+          "id": "comment-5258675450",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/120#issuecomment-5258675450",
+          "author": "udance4ever",
+          "createdAt": "2026-08-11",
+          "createdAtMs": 1786481263000,
+          "issueNumber": 120,
+          "excerpt": "Preview 2.0.1-9849 now gets in-game and first track is playable with excellent performance on a 2020 M1 MacBookPro (26.6.1)!\n\n<img width=\"1920\" height=\"1080\" alt=\"Image\" src=\" />",
+          "images": [],
+          "meta": {}
+        },
         {
           "id": "issue-632",
           "type": "issue",
