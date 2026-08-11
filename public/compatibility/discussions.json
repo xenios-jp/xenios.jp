@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T18:56:44.177Z",
+  "generatedAt": "2026-08-11T19:47:20.174Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2901,26 +2901,6 @@
             "buildStage": "stable",
             "commitShort": "`ab2ca341a`"
           }
-        }
-      ]
-    },
-    "54540818": {
-      "titleId": "54540818",
-      "issueNumber": 645,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/645",
-      "updatedAt": "2026-08-11",
-      "entries": [
-        {
-          "id": "issue-645",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/645",
-          "author": "mjownsu1",
-          "createdAt": "2026-08-11",
-          "createdAtMs": 1786474428000,
-          "issueNumber": 645,
-          "excerpt": "Game works up at 30 fps up until you get into game as it moves 5 to 10 fps and is basically moving at 0.5 speed for the entirety of the game",
-          "images": [],
-          "meta": {}
         }
       ]
     },
@@ -10386,8 +10366,20 @@
       "titleId": "4D5307D1",
       "issueNumber": 440,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/440",
-      "updatedAt": "2026-05-10",
+      "updatedAt": "2026-08-11",
       "entries": [
+        {
+          "id": "comment-5258014000",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/440#issuecomment-5258014000",
+          "author": "udance4ever",
+          "createdAt": "2026-08-11",
+          "createdAtMs": 1786477476000,
+          "issueNumber": 440,
+          "excerpt": "heads up Preview 2.0.1-9849 now gets past the menus and gets in-game and seems playable (only a minute in-game) on a 2020 MBP M1:\n\n<img width=\"1920\" height=\"1080\" alt=\"Image\" src=\" />",
+          "images": [],
+          "meta": {}
+        },
         {
           "id": "issue-440",
           "type": "issue",

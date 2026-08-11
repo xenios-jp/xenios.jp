@@ -56225,45 +56225,14 @@
     "titleIds": [
       "54540818"
     ],
-    "status": "playable",
-    "perf": "poor",
+    "status": "nothing",
+    "perf": "n/a",
     "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 15",
-      "platform": "ios",
-      "osVersion": "27.0",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-08-11",
-    "issueNumber": 645,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/645",
-    "notes": "Game works up at 30 fps up until you get into game as it moves 5 to 10 fps and is basically moving at 0.5 speed for the entirety of the game",
-    "reports": [
-      {
-        "device": "iPhone 15",
-        "platform": "ios",
-        "osVersion": "27.0",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "poor",
-        "date": "2026-08-11",
-        "notes": "Game works up at 30 fps up until you get into game as it moves 5 to 10 fps and is basically moving at 0.5 speed for the entirety of the game",
-        "screenshots": [],
-        "source": "github",
-        "build": {
-          "buildId": "ios-self-built-2.0.1-9730",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "2.0.1",
-          "buildNumber": "9730"
-        }
-      }
-    ],
+    "platforms": [],
+    "lastReport": null,
+    "updatedAt": "",
+    "notes": "",
+    "reports": [],
     "screenshots": [],
     "summaries": {
       "release": {
@@ -56279,52 +56248,14 @@
       },
       "all": {
         "channel": "all",
-        "status": "playable",
-        "perf": "poor",
-        "notes": "Game works up at 30 fps up until you get into game as it moves 5 to 10 fps and is basically moving at 0.5 speed for the entirety of the game",
-        "updatedAt": "2026-08-11",
-        "date": "2026-08-11",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 15",
-          "platform": "ios",
-          "osVersion": "27.0",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "poor",
-          "date": "2026-08-11",
-          "notes": "Game works up at 30 fps up until you get into game as it moves 5 to 10 fps and is basically moving at 0.5 speed for the entirety of the game",
-          "screenshots": [],
-          "source": "github",
-          "build": {
-            "buildId": "ios-self-built-2.0.1-9730",
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 15",
-          "platform": "ios",
-          "osVersion": "27.0",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "poor",
-          "date": "2026-08-11",
-          "notes": "Game works up at 30 fps up until you get into game as it moves 5 to 10 fps and is basically moving at 0.5 speed for the entirety of the game",
-          "screenshots": [],
-          "source": "github",
-          "build": {
-            "buildId": "ios-self-built-2.0.1-9730",
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730"
-          }
-        }
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "date": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
       }
     }
   },
