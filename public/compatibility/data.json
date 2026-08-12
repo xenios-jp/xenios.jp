@@ -207659,15 +207659,54 @@
     "titleIds": [
       "584108F6"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
-    "platforms": [],
-    "lastReport": null,
-    "updatedAt": "",
-    "notes": "",
-    "reports": [],
-    "screenshots": [],
+    "platforms": [
+      "macos"
+    ],
+    "lastReport": {
+      "device": "MacBook Pro (M1)",
+      "platform": "macos",
+      "osVersion": "26.6.1",
+      "arch": "arm64",
+      "gpuBackend": "msc"
+    },
+    "updatedAt": "2026-08-12",
+    "issueNumber": 649,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/649",
+    "notes": "gets in-game and playable after brief testing.",
+    "reports": [
+      {
+        "device": "MacBook Pro (M1)",
+        "platform": "macos",
+        "osVersion": "26.6.1",
+        "arch": "arm64",
+        "gpuBackend": "msc",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-08-12",
+        "notes": "gets in-game and playable after brief testing.",
+        "reportedTitleId": "584108F6",
+        "reportedTitle": "Shadow Complex",
+        "screenshots": [
+          "https://github.com/user-attachments/assets/13136a66-8c8e-4db1-ae55-eecee11d4887"
+        ],
+        "submittedBy": "udance4ever",
+        "source": "github",
+        "build": {
+          "buildId": "macos-self-built-2.0.1-9849",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9849",
+          "commitShort": "3418fc4"
+        }
+      }
+    ],
+    "screenshots": [
+      "https://github.com/user-attachments/assets/13136a66-8c8e-4db1-ae55-eecee11d4887"
+    ],
     "summaries": {
       "release": {
         "channel": "release",
@@ -207682,14 +207721,64 @@
       },
       "all": {
         "channel": "all",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "playable",
+        "perf": "great",
+        "notes": "gets in-game and playable after brief testing.",
+        "updatedAt": "2026-08-12",
+        "date": "2026-08-12",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "MacBook Pro (M1)",
+          "platform": "macos",
+          "osVersion": "26.6.1",
+          "arch": "arm64",
+          "gpuBackend": "msc",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-08-12",
+          "notes": "gets in-game and playable after brief testing.",
+          "reportedTitleId": "584108F6",
+          "reportedTitle": "Shadow Complex",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/13136a66-8c8e-4db1-ae55-eecee11d4887"
+          ],
+          "submittedBy": "udance4ever",
+          "source": "github",
+          "build": {
+            "buildId": "macos-self-built-2.0.1-9849",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9849",
+            "commitShort": "3418fc4"
+          }
+        },
+        "bestReport": {
+          "device": "MacBook Pro (M1)",
+          "platform": "macos",
+          "osVersion": "26.6.1",
+          "arch": "arm64",
+          "gpuBackend": "msc",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-08-12",
+          "notes": "gets in-game and playable after brief testing.",
+          "reportedTitleId": "584108F6",
+          "reportedTitle": "Shadow Complex",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/13136a66-8c8e-4db1-ae55-eecee11d4887"
+          ],
+          "submittedBy": "udance4ever",
+          "source": "github",
+          "build": {
+            "buildId": "macos-self-built-2.0.1-9849",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9849",
+            "commitShort": "3418fc4"
+          }
+        }
       }
     }
   },

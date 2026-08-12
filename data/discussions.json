@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T05:51:23.543Z",
+  "generatedAt": "2026-08-12T22:18:35.892Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -4011,6 +4011,26 @@
           "createdAtMs": 1773517964000,
           "issueNumber": 263,
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
+          "images": [],
+          "meta": {}
+        }
+      ]
+    },
+    "584108F6": {
+      "titleId": "584108F6",
+      "issueNumber": 649,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/649",
+      "updatedAt": "2026-08-12",
+      "entries": [
+        {
+          "id": "issue-649",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/649",
+          "author": "udance4ever",
+          "createdAt": "2026-08-12",
+          "createdAtMs": 1786514398000,
+          "issueNumber": 649,
+          "excerpt": "gets in-game and playable after brief testing.",
           "images": [],
           "meta": {}
         }
@@ -13815,7 +13835,7 @@
           "id": "issue-46",
           "type": "issue",
           "url": "https://github.com/xenios-jp/game-compatibility/issues/46",
-          "author": "AloneAgainstWorld",
+          "author": "TarbleFR",
           "createdAt": "2026-03-08",
           "createdAtMs": 1772990762000,
           "issueNumber": 46,
@@ -16771,7 +16791,7 @@
       "titleId": "5454087A",
       "issueNumber": 173,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/173",
-      "updatedAt": "2026-08-11",
+      "updatedAt": "2026-08-12",
       "entries": [
         {
           "id": "comment-5260034508",
@@ -16781,7 +16801,7 @@
           "createdAt": "2026-08-11",
           "createdAtMs": 1786490849000,
           "issueNumber": 173,
-          "excerpt": "(title should be renamed to NBA 2k11)\n\nPreview 2.0.1-9849 has severe rendering issues in the intro sequence after pressing Start (2020 M1 MacBookPro)\n\n<img width=\"1920\" height=\"1080\" alt=\"Image\" src=\" />",
+          "excerpt": "(title should be renamed to NBA 2k11)\n\nPreview 2.0.1-9849 has severe rendering issues in the intro sequence after pressing Start (2020 M1 MacBookPro)\n\n<img width=\"1920\" height=\"1080\" alt=\"Image\" src=\" />\n\n<img width=\"1920\" height=\"1080\" alt=\"Image\" src=\" />",
           "images": [],
           "meta": {}
         },
