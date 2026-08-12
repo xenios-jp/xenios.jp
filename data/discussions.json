@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T05:36:06.453Z",
+  "generatedAt": "2026-08-12T05:48:51.369Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1836,10 +1836,22 @@
     },
     "45410912": {
       "titleId": "45410912",
-      "issueNumber": 634,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/634",
-      "updatedAt": "2026-08-05",
+      "issueNumber": 252,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/252",
+      "updatedAt": "2026-08-12",
       "entries": [
+        {
+          "id": "comment-5262871005",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/252#issuecomment-5262871005",
+          "author": "udance4ever",
+          "createdAt": "2026-08-12",
+          "createdAtMs": 1786513582000,
+          "issueNumber": 252,
+          "excerpt": "Preview 2.0.1-9849 eliminates rendering issues (yeay!). Fonts are still an issue like other Valve titles.\n\n# missing lettering in title menu\n<img width=\"1920\" height=\"1080\" alt=\"Image\" src=\" />\n\n# bad font in pause menu\n<img width=\"1920\" height=\"1080\" alt=\"Image\" src=\" />\n\n# in-game rendering ok\n<img width=\"1920\" height=\"1080\" alt=\"Image\" src=\" />",
+          "images": [],
+          "meta": {}
+        },
         {
           "id": "issue-634",
           "type": "issue",
@@ -1971,18 +1983,6 @@
             "buildStage": "stable",
             "commitShort": "`056d2f64d`"
           }
-        },
-        {
-          "id": "issue-101",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/101",
-          "author": "QualityControled",
-          "createdAt": "2026-03-08",
-          "createdAtMs": 1773010221000,
-          "issueNumber": 101,
-          "excerpt": "Menus are missing text and game has no audio.\nWill load into first mission with artifacts on the textures and occasional graphical issues. frame rate is stable.\nBut without audio and text for tutorial hints, game is unplayable.",
-          "images": [],
-          "meta": {}
         }
       ]
     },
