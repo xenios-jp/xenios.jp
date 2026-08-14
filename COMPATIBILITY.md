@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **378 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **379 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **154** · 🔵 In-Game: **70** · 🟡 Intro: **36** · 🟠 Loads: **45** · 🔴 Doesn't Boot: **73**
+> 🟢 Playable: **154** · 🔵 In-Game: **70** · 🟡 Intro: **36** · 🟠 Loads: **46** · 🔴 Doesn't Boot: **73**
 >
-> 📱 iOS: **349** · 🖥️ macOS: **49**
+> 📱 iOS: **350** · 🖥️ macOS: **49**
 
 ## Legend
 
@@ -299,6 +299,7 @@
 | 🟠 | Kung Fu Panda | `415607F2` | 📱 iOS | Loads | 🐢 Poor | iPhone 15 Pro Max | 2026-03-17 |
 | 🟠 | Lego Batman 2: DC Super Heroes | `57520817` | 📱 iOS | Loads | 🐢 Poor | iPhone 17 Pro Max | 2026-06-11 |
 | 🟠 | Lego Dimensions | `5752084B` | 📱 iOS | Loads | 🐢 Poor | iPad (A16) | 2026-03-09 |
+| 🟠 | Lego Jurassic World | `5752084D` | 📱 iOS | Loads | 🚀 Great | iPhone 16 | 2026-08-14 |
 | 🟠 | Lego Star Wars III: The Clone Wars | `4C4107F3` | 📱 iOS | Loads | 👌 OK | iPhone 15 Pro | 2026-03-10 |
 | 🟠 | Lost: Via Domus | `5553080F` | 📱 iOS | Loads | 🐢 Poor | iPhone Air | 2026-08-13 |
 | 🟠 | Metal Gear Solid V: Ground Zeroes | `4B4E085C` | 📱 iOS | Loads | 🐢 Poor | iPhone 15 Pro Max | 2026-03-10 |

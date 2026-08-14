@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T09:52:04.284Z",
+  "generatedAt": "2026-08-14T09:55:08.815Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -4035,6 +4035,26 @@
           "createdAtMs": 1773517964000,
           "issueNumber": 263,
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
+          "images": [],
+          "meta": {}
+        }
+      ]
+    },
+    "5752084D": {
+      "titleId": "5752084D",
+      "issueNumber": 655,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/655",
+      "updatedAt": "2026-08-14",
+      "entries": [
+        {
+          "id": "issue-655",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/655",
+          "author": "iaplim",
+          "createdAt": "2026-08-14",
+          "createdAtMs": 1786701153000,
+          "issueNumber": 655,
+          "excerpt": "Stuck on intro, screen fills solid magenta after the Lego loading logo, no draw calls rendering. Log shows geometry emulation without pixel shader falling back to depth-only PS, then skipped (no depth attachment/memexport). Tried Metal and Vulkan (Apple A18 GPU), same result on both backends. Tried toggling half_pixel_offset and render_target_path (performance/accuracy), no change.",
           "images": [],
           "meta": {}
         }

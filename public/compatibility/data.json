@@ -135330,14 +135330,45 @@
       "5752084D",
       "5752884E"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "loads",
+    "perf": "great",
     "tags": [],
-    "platforms": [],
-    "lastReport": null,
-    "updatedAt": "",
-    "notes": "",
-    "reports": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 16",
+      "platform": "ios",
+      "osVersion": "26.6",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-08-14",
+    "issueNumber": 655,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/655",
+    "notes": "Stuck on intro, screen fills solid magenta after the Lego loading logo, no draw calls rendering. Log shows geometry emulation without pixel shader falling back to depth-only PS, then skipped (no depth attachment/memexport). Tried Metal and Vulkan (Apple A18 GPU), same result on both backends. Tried toggling half_pixel_offset and render_target_path (performance/accuracy), no change.",
+    "reports": [
+      {
+        "device": "iPhone 16",
+        "platform": "ios",
+        "osVersion": "26.6",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "loads",
+        "perf": "great",
+        "date": "2026-08-14",
+        "notes": "Stuck on intro, screen fills solid magenta after the Lego loading logo, no draw calls rendering. Log shows geometry emulation without pixel shader falling back to depth-only PS, then skipped (no depth attachment/memexport). Tried Metal and Vulkan (Apple A18 GPU), same result on both backends. Tried toggling half_pixel_offset and render_target_path (performance/accuracy), no change.",
+        "screenshots": [],
+        "source": "github",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9849",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9849"
+        }
+      }
+    ],
     "screenshots": [],
     "summaries": {
       "release": {
@@ -135353,14 +135384,52 @@
       },
       "all": {
         "channel": "all",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "loads",
+        "perf": "great",
+        "notes": "Stuck on intro, screen fills solid magenta after the Lego loading logo, no draw calls rendering. Log shows geometry emulation without pixel shader falling back to depth-only PS, then skipped (no depth attachment/memexport). Tried Metal and Vulkan (Apple A18 GPU), same result on both backends. Tried toggling half_pixel_offset and render_target_path (performance/accuracy), no change.",
+        "updatedAt": "2026-08-14",
+        "date": "2026-08-14",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 16",
+          "platform": "ios",
+          "osVersion": "26.6",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "loads",
+          "perf": "great",
+          "date": "2026-08-14",
+          "notes": "Stuck on intro, screen fills solid magenta after the Lego loading logo, no draw calls rendering. Log shows geometry emulation without pixel shader falling back to depth-only PS, then skipped (no depth attachment/memexport). Tried Metal and Vulkan (Apple A18 GPU), same result on both backends. Tried toggling half_pixel_offset and render_target_path (performance/accuracy), no change.",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "buildId": "ios-self-built-2.0.1-9849",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9849"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 16",
+          "platform": "ios",
+          "osVersion": "26.6",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "loads",
+          "perf": "great",
+          "date": "2026-08-14",
+          "notes": "Stuck on intro, screen fills solid magenta after the Lego loading logo, no draw calls rendering. Log shows geometry emulation without pixel shader falling back to depth-only PS, then skipped (no depth attachment/memexport). Tried Metal and Vulkan (Apple A18 GPU), same result on both backends. Tried toggling half_pixel_offset and render_target_path (performance/accuracy), no change.",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "buildId": "ios-self-built-2.0.1-9849",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9849"
+          }
+        }
       }
     }
   },
