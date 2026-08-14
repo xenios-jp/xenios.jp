@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T22:18:35.892Z",
+  "generatedAt": "2026-08-14T09:52:04.284Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -9,10 +9,34 @@
   "discussions": {
     "41560815": {
       "titleId": "41560815",
-      "issueNumber": 375,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/375",
-      "updatedAt": "2026-06-14",
+      "issueNumber": 652,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/652",
+      "updatedAt": "2026-08-13",
       "entries": [
+        {
+          "id": "issue-652",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/652",
+          "author": "xenios-jp",
+          "createdAt": "2026-08-13",
+          "createdAtMs": 1786660085000,
+          "issueNumber": 652,
+          "excerpt": "Black screen",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone Air",
+            "platform": "iOS",
+            "osVersion": "iOS 26.5.2",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "buildStage": "stable",
+            "commitShort": "`056d2f64d`"
+          }
+        },
         {
           "id": "issue-375",
           "type": "issue",
@@ -4011,6 +4035,82 @@
           "createdAtMs": 1773517964000,
           "issueNumber": 263,
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
+          "images": [],
+          "meta": {}
+        }
+      ]
+    },
+    "5553080F": {
+      "titleId": "5553080F",
+      "issueNumber": 653,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/653",
+      "updatedAt": "2026-08-13",
+      "entries": [
+        {
+          "id": "issue-653",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/653",
+          "author": "xenios-jp",
+          "createdAt": "2026-08-13",
+          "createdAtMs": 1786664091000,
+          "issueNumber": 653,
+          "excerpt": "Game loads into main intro cutscene but Is fully broken and unplayable",
+          "images": [],
+          "meta": {
+            "status": "loads",
+            "perf": "poor",
+            "device": "iPhone Air",
+            "platform": "iOS",
+            "osVersion": "iOS 26.5.2",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "buildStage": "stable",
+            "commitShort": "`056d2f64d`"
+          }
+        }
+      ]
+    },
+    "4D5307DF": {
+      "titleId": "4D5307DF",
+      "issueNumber": 651,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/651",
+      "updatedAt": "2026-08-13",
+      "entries": [
+        {
+          "id": "issue-651",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/651",
+          "author": "xenios-jp",
+          "createdAt": "2026-08-13",
+          "createdAtMs": 1786660040000,
+          "issueNumber": 651,
+          "excerpt": "Just a black screen",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone Air",
+            "platform": "iOS",
+            "osVersion": "iOS 26.5.2",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "buildStage": "stable",
+            "commitShort": "`056d2f64d`"
+          }
+        },
+        {
+          "id": "issue-206",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/206",
+          "author": "vivat-concordia",
+          "createdAt": "2026-03-11",
+          "createdAtMs": 1773247976000,
+          "issueNumber": 206,
+          "excerpt": "It runs smoothly, but occasionally stutters. During some cutscenes, the visuals look like The Matrix, and the frame rate drops noticeably. During gameplay, the colors sometimes (probably when the camera overlaps something) also skew to a greenish something. If you ignore these issues, the game is probably (more testing is needed) even playable from start to finish.",
           "images": [],
           "meta": {}
         }
@@ -16258,26 +16358,6 @@
             "buildStage": "stable",
             "commitShort": "`ab2ca341a`"
           }
-        }
-      ]
-    },
-    "4D5307DF": {
-      "titleId": "4D5307DF",
-      "issueNumber": 206,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/206",
-      "updatedAt": "2026-03-11",
-      "entries": [
-        {
-          "id": "issue-206",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/206",
-          "author": "vivat-concordia",
-          "createdAt": "2026-03-11",
-          "createdAtMs": 1773247976000,
-          "issueNumber": 206,
-          "excerpt": "It runs smoothly, but occasionally stutters. During some cutscenes, the visuals look like The Matrix, and the frame rate drops noticeably. During gameplay, the colors sometimes (probably when the camera overlaps something) also skew to a greenish something. If you ignore these issues, the game is probably (more testing is needed) even playable from start to finish.",
-          "images": [],
-          "meta": {}
         }
       ]
     },
