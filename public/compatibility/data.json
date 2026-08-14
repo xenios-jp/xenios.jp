@@ -39820,6 +39820,7 @@
     "perf": "great",
     "tags": [],
     "platforms": [
+      "ios",
       "macos"
     ],
     "lastReport": {
@@ -39829,11 +39830,33 @@
       "arch": "arm64",
       "gpuBackend": "msc"
     },
-    "updatedAt": "2026-03-11",
+    "updatedAt": "2026-08-13",
     "issueNumber": 206,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/206",
     "notes": "It runs smoothly, but occasionally stutters. During some cutscenes, the visuals look like The Matrix, and the frame rate drops noticeably. During gameplay, the colors sometimes (probably when the camera overlaps something) also skew to a greenish something. If you ignore these issues, the game is probably (more testing is needed) even playable from start to finish.",
     "reports": [
+      {
+        "device": "iPhone Air",
+        "platform": "ios",
+        "osVersion": "26.5.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-08-13",
+        "notes": "Just a black screen",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "stage": "stable",
+          "commitShort": "056d2f64d"
+        }
+      },
       {
         "device": "MacMini M2",
         "platform": "macos",
@@ -39920,30 +39943,29 @@
         "status": "ingame",
         "perf": "great",
         "notes": "It runs smoothly, but occasionally stutters. During some cutscenes, the visuals look like The Matrix, and the frame rate drops noticeably. During gameplay, the colors sometimes (probably when the camera overlaps something) also skew to a greenish something. If you ignore these issues, the game is probably (more testing is needed) even playable from start to finish.",
-        "updatedAt": "2026-03-11",
-        "date": "2026-03-11",
-        "reportCount": 1,
+        "updatedAt": "2026-08-13",
+        "date": "2026-08-13",
+        "reportCount": 2,
         "latestReport": {
-          "device": "MacMini M2",
-          "platform": "macos",
-          "osVersion": "15.7",
+          "device": "iPhone Air",
+          "platform": "ios",
+          "osVersion": "26.5.2",
           "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "ingame",
-          "perf": "great",
-          "date": "2026-03-11",
-          "notes": "It runs smoothly, but occasionally stutters. During some cutscenes, the visuals look like The Matrix, and the frame rate drops noticeably. During gameplay, the colors sometimes (probably when the camera overlaps something) also skew to a greenish something. If you ignore these issues, the game is probably (more testing is needed) even playable from start to finish.",
-          "reportedTitleId": "4D5307DF",
-          "reportedTitle": "Blue Dragon",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-08-13",
+          "notes": "Just a black screen",
           "screenshots": [],
-          "submittedBy": "vivat-concordia",
-          "source": "github",
+          "source": "app",
           "build": {
-            "buildId": "macos-release-1.0.0-9296",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.0",
-            "buildNumber": "9296"
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "stage": "stable",
+            "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
@@ -140112,14 +140134,45 @@
     "titleIds": [
       "5553080F"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "loads",
+    "perf": "poor",
     "tags": [],
-    "platforms": [],
-    "lastReport": null,
-    "updatedAt": "",
-    "notes": "",
-    "reports": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone Air",
+      "platform": "ios",
+      "osVersion": "26.5.2",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-08-13",
+    "notes": "Game loads into main intro cutscene but Is fully broken and unplayable",
+    "reports": [
+      {
+        "device": "iPhone Air",
+        "platform": "ios",
+        "osVersion": "26.5.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "loads",
+        "perf": "poor",
+        "date": "2026-08-13",
+        "notes": "Game loads into main intro cutscene but Is fully broken and unplayable",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "stage": "stable",
+          "commitShort": "056d2f64d"
+        }
+      }
+    ],
     "screenshots": [],
     "summaries": {
       "release": {
@@ -140135,14 +140188,56 @@
       },
       "all": {
         "channel": "all",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "loads",
+        "perf": "poor",
+        "notes": "Game loads into main intro cutscene but Is fully broken and unplayable",
+        "updatedAt": "2026-08-13",
+        "date": "2026-08-13",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone Air",
+          "platform": "ios",
+          "osVersion": "26.5.2",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "loads",
+          "perf": "poor",
+          "date": "2026-08-13",
+          "notes": "Game loads into main intro cutscene but Is fully broken and unplayable",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "stage": "stable",
+            "commitShort": "056d2f64d"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone Air",
+          "platform": "ios",
+          "osVersion": "26.5.2",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "loads",
+          "perf": "poor",
+          "date": "2026-08-13",
+          "notes": "Game loads into main intro cutscene but Is fully broken and unplayable",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.1-9288",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "stage": "stable",
+            "commitShort": "056d2f64d"
+          }
+        }
       }
     }
   },
@@ -221244,17 +221339,39 @@
       "ios"
     ],
     "lastReport": {
-      "device": "MacBook Pro (M4)",
-      "platform": "macos",
-      "osVersion": "26.5.1 Tahoe",
+      "device": "iPhone Air",
+      "platform": "ios",
+      "osVersion": "26.5.2",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-06-14",
+    "updatedAt": "2026-08-13",
     "issueNumber": 375,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/375",
-    "notes": "Just a black screen and nothing else.",
+    "notes": "Black screen",
     "reports": [
+      {
+        "device": "iPhone Air",
+        "platform": "ios",
+        "osVersion": "26.5.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-08-13",
+        "notes": "Black screen",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.1-9288",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.1",
+          "buildNumber": "9288",
+          "stage": "stable",
+          "commitShort": "056d2f64d"
+        }
+      },
       {
         "device": "MacBook Pro (M4)",
         "platform": "macos",
@@ -221316,50 +221433,52 @@
         "channel": "all",
         "status": "nothing",
         "perf": "n/a",
-        "notes": "Just a black screen and nothing else.",
-        "updatedAt": "2026-06-14",
-        "date": "2026-06-14",
-        "reportCount": 2,
+        "notes": "Black screen",
+        "updatedAt": "2026-08-13",
+        "date": "2026-08-13",
+        "reportCount": 3,
         "latestReport": {
-          "device": "MacBook Pro (M4)",
-          "platform": "macos",
-          "osVersion": "26.5.1 Tahoe",
+          "device": "iPhone Air",
+          "platform": "ios",
+          "osVersion": "26.5.2",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "nothing",
           "perf": "n/a",
-          "date": "2026-06-14",
-          "notes": "Just a black screen and nothing else.",
+          "date": "2026-08-13",
+          "notes": "Black screen",
           "screenshots": [],
-          "source": "github",
+          "source": "app",
           "build": {
-            "buildId": "macos-self-built-2.0.1-9730-2.0.1",
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
-            "appVersion": "2.0.1-9730",
-            "buildNumber": "2.0.1",
-            "commitShort": "57c3ca140"
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "stage": "stable",
+            "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
-          "device": "MacBook Pro (M4)",
-          "platform": "macos",
-          "osVersion": "26.5.1 Tahoe",
+          "device": "iPhone Air",
+          "platform": "ios",
+          "osVersion": "26.5.2",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "nothing",
           "perf": "n/a",
-          "date": "2026-06-14",
-          "notes": "Just a black screen and nothing else.",
+          "date": "2026-08-13",
+          "notes": "Black screen",
           "screenshots": [],
-          "source": "github",
+          "source": "app",
           "build": {
-            "buildId": "macos-self-built-2.0.1-9730-2.0.1",
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
-            "appVersion": "2.0.1-9730",
-            "buildNumber": "2.0.1",
-            "commitShort": "57c3ca140"
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "stage": "stable",
+            "commitShort": "056d2f64d"
           }
         }
       }

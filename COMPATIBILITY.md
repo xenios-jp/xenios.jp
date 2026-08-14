@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **377 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **378 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **154** · 🔵 In-Game: **71** · 🟡 Intro: **36** · 🟠 Loads: **44** · 🔴 Doesn't Boot: **72**
+> 🟢 Playable: **154** · 🔵 In-Game: **71** · 🟡 Intro: **36** · 🟠 Loads: **45** · 🔴 Doesn't Boot: **72**
 >
-> 📱 iOS: **347** · 🖥️ macOS: **51**
+> 📱 iOS: **349** · 🖥️ macOS: **51**
 
 ## Legend
 
@@ -181,7 +181,7 @@
 | 🔵 | Battlefield: Bad Company | `454107F9` | 📱 iOS | In-Game | 🚀 Great | iPhone 15 | 2026-08-05 |
 | 🔵 | Bayonetta | `53450813` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 | 2026-03-08 |
 | 🔵 | BioShock Infinite | `5454085D` | 📱 iOS | In-Game | 👌 OK | iPhone 16 | 2026-06-10 |
-| 🔵 | Blue Dragon | `4D5307DF` | 🖥️ macOS | In-Game | 🚀 Great | Mac mini (M2) | 2026-03-11 |
+| 🔵 | Blue Dragon | `4D5307DF` | 📱 iOS, 🖥️ macOS | In-Game | 🚀 Great | Mac mini (M2) | 2026-08-13 |
 | 🔵 | Burnout Paradise | `45410806` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro Max | 2026-03-12 |
 | 🔵 | Burnout Revenge | `454107DC` | 📱 iOS | In-Game | 🐢 Poor | iPhone 15 | 2026-08-05 |
 | 🔵 | Call Of Duty: World At War | `4156081C` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 | 2026-07-01 |
@@ -301,6 +301,7 @@
 | 🟠 | Lego Batman 2: DC Super Heroes | `57520817` | 📱 iOS | Loads | 🐢 Poor | iPhone 17 Pro Max | 2026-06-11 |
 | 🟠 | Lego Dimensions | `5752084B` | 📱 iOS | Loads | 🐢 Poor | iPad (A16) | 2026-03-09 |
 | 🟠 | Lego Star Wars III: The Clone Wars | `4C4107F3` | 📱 iOS | Loads | 👌 OK | iPhone 15 Pro | 2026-03-10 |
+| 🟠 | Lost: Via Domus | `5553080F` | 📱 iOS | Loads | 🐢 Poor | iPhone Air | 2026-08-13 |
 | 🟠 | Metal Gear Solid V: Ground Zeroes | `4B4E085C` | 📱 iOS | Loads | 🐢 Poor | iPhone 15 Pro Max | 2026-03-10 |
 | 🟠 | NBA 2K10 | `54549852` | 🖥️ macOS | Loads | 🐢 Poor | MacBook Air (M4) | 2026-03-18 |
 | 🟠 | NCAA Basketball 10 | `454108C3` | 📱 iOS | Loads | 🐢 Poor | iPhone 16e | 2026-03-11 |
@@ -377,7 +378,7 @@
 | 🔴 | SmackDown vs. RAW 2009 | `54510826` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad (A16) | 2026-03-16 |
 | 🔴 | Soulcalibur IV | `4E4D07E0` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-04-28 |
 | 🔴 | Spider-Man 3 | `415607E2` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 | 2026-07-10 |
-| 🔴 | Spider-Man: Web of Shadows | `41560815` | 🖥️ macOS, 📱 iOS | Doesn't Boot | ➖ N/A | MacBook Pro (M4) | 2026-06-14 |
+| 🔴 | Spider-Man: Web of Shadows | `41560815` | 🖥️ macOS, 📱 iOS | Doesn't Boot | ➖ N/A | iPhone Air | 2026-08-13 |
 | 🔴 | Split/Second | `425607E7` | 🖥️ macOS | Doesn't Boot | ➖ N/A | MacBook Pro (M1) | 2026-04-12 |
 | 🔴 | SpongeBob SquarePants: Underpants Slam | `5841089F` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Mini (A17 Pro) | 2026-03-15 |
 | 🔴 | Star Ocean: The Last Hope | `535107DD` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-03 |
