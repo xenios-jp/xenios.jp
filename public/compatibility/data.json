@@ -66091,14 +66091,46 @@
     "titleIds": [
       "54510865"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "loads",
+    "perf": "great",
     "tags": [],
-    "platforms": [],
-    "lastReport": null,
-    "updatedAt": "",
-    "notes": "",
-    "reports": [],
+    "platforms": [
+      "macos"
+    ],
+    "lastReport": {
+      "device": "MacBook Pro (M1)",
+      "platform": "macos",
+      "osVersion": "26.6.1",
+      "arch": "arm64",
+      "gpuBackend": "msc"
+    },
+    "updatedAt": "2026-08-15",
+    "issueNumber": 659,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/659",
+    "notes": "Game does **not** hang but does not seem to register controller input \"Start\" (despite receiving \"A\" presses to skip each developer logo on boot - which is interesting)\n\nAn [Oct 2025 build of Xenia Canary with no AVX check](https://github.com/fnschmidt/xenia-canary-noavxcheck/releases/tag/experimental) running through Whisky is able to get in-game and play.",
+    "reports": [
+      {
+        "device": "MacBook Pro (M1)",
+        "platform": "macos",
+        "osVersion": "26.6.1",
+        "arch": "arm64",
+        "gpuBackend": "msc",
+        "status": "loads",
+        "perf": "great",
+        "date": "2026-08-15",
+        "notes": "Game does **not** hang but does not seem to register controller input \"Start\" (despite receiving \"A\" presses to skip each developer logo on boot - which is interesting)\n\nAn [Oct 2025 build of Xenia Canary with no AVX check](https://github.com/fnschmidt/xenia-canary-noavxcheck/releases/tag/experimental) running through Whisky is able to get in-game and play.",
+        "screenshots": [],
+        "source": "github",
+        "build": {
+          "buildId": "macos-self-built-2.0.1-9849",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9849",
+          "commitShort": "3418fc4"
+        }
+      }
+    ],
     "screenshots": [],
     "summaries": {
       "release": {
@@ -66114,14 +66146,54 @@
       },
       "all": {
         "channel": "all",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "loads",
+        "perf": "great",
+        "notes": "Game does **not** hang but does not seem to register controller input \"Start\" (despite receiving \"A\" presses to skip each developer logo on boot - which is interesting)\n\nAn [Oct 2025 build of Xenia Canary with no AVX check](https://github.com/fnschmidt/xenia-canary-noavxcheck/releases/tag/experimental) running through Whisky is able to get in-game and play.",
+        "updatedAt": "2026-08-15",
+        "date": "2026-08-15",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "MacBook Pro (M1)",
+          "platform": "macos",
+          "osVersion": "26.6.1",
+          "arch": "arm64",
+          "gpuBackend": "msc",
+          "status": "loads",
+          "perf": "great",
+          "date": "2026-08-15",
+          "notes": "Game does **not** hang but does not seem to register controller input \"Start\" (despite receiving \"A\" presses to skip each developer logo on boot - which is interesting)\n\nAn [Oct 2025 build of Xenia Canary with no AVX check](https://github.com/fnschmidt/xenia-canary-noavxcheck/releases/tag/experimental) running through Whisky is able to get in-game and play.",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "buildId": "macos-self-built-2.0.1-9849",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9849",
+            "commitShort": "3418fc4"
+          }
+        },
+        "bestReport": {
+          "device": "MacBook Pro (M1)",
+          "platform": "macos",
+          "osVersion": "26.6.1",
+          "arch": "arm64",
+          "gpuBackend": "msc",
+          "status": "loads",
+          "perf": "great",
+          "date": "2026-08-15",
+          "notes": "Game does **not** hang but does not seem to register controller input \"Start\" (despite receiving \"A\" presses to skip each developer logo on boot - which is interesting)\n\nAn [Oct 2025 build of Xenia Canary with no AVX check](https://github.com/fnschmidt/xenia-canary-noavxcheck/releases/tag/experimental) running through Whisky is able to get in-game and play.",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "buildId": "macos-self-built-2.0.1-9849",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9849",
+            "commitShort": "3418fc4"
+          }
+        }
       }
     }
   },

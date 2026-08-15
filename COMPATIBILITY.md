@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **381 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **382 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **155** · 🔵 In-Game: **70** · 🟡 Intro: **36** · 🟠 Loads: **47** · 🔴 Doesn't Boot: **73**
+> 🟢 Playable: **155** · 🔵 In-Game: **70** · 🟡 Intro: **36** · 🟠 Loads: **48** · 🔴 Doesn't Boot: **73**
 >
-> 📱 iOS: **351** · 🖥️ macOS: **51**
+> 📱 iOS: **351** · 🖥️ macOS: **52**
 
 ## Legend
 
@@ -289,6 +289,7 @@
 | 🟠 | Crash Of The Titans | `565507E4` | 📱 iOS | Loads | 🚀 Great | iPad (A16) | 2026-03-08 |
 | 🟠 | Crysis 3 | `4541098E` | 📱 iOS | Loads | 🐢 Poor | iPad Pro M5 | 2026-03-09 |
 | 🟠 | Dark Souls | `4E4D083A` | 📱 iOS | Loads | 🐢 Poor | iPhone 16e | 2026-03-16 |
+| 🟠 | de Blob 2 | `54510865` | 🖥️ macOS | Loads | 🚀 Great | MacBook Pro (M1) | 2026-08-15 |
 | 🟠 | Deadpool | `415608EC` | 📱 iOS | Loads | 🚀 Great | iPhone 15 Pro | 2026-03-22 |
 | 🟠 | Enslaved: Odyssey to the West | `4E4D07F1` | 🖥️ macOS | Loads | ➖ N/A | MacBook Pro (M1) | 2026-04-12 |
 | 🟠 | Epic Mickey 2 The Power Of Two | `42560816` | 📱 iOS | Loads | 🐢 Poor | iPhone 15 Pro Max | 2026-03-08 |

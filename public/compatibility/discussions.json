@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T15:06:48.675Z",
+  "generatedAt": "2026-08-15T15:17:29.861Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2937,6 +2937,26 @@
           "createdAtMs": 1780637325000,
           "issueNumber": 468,
           "excerpt": "Menus run fine, gameplay stutters on fighter intros then has slow gameplay with low fps.",
+          "images": [],
+          "meta": {}
+        }
+      ]
+    },
+    "54510865": {
+      "titleId": "54510865",
+      "issueNumber": 659,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/659",
+      "updatedAt": "2026-08-15",
+      "entries": [
+        {
+          "id": "issue-659",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/659",
+          "author": "udance4ever",
+          "createdAt": "2026-08-15",
+          "createdAtMs": 1786806951000,
+          "issueNumber": 659,
+          "excerpt": "Game does **not** hang but does not seem to register controller input \"Start\" (despite receiving \"A\" presses to skip each developer logo on boot - which is interesting)\n\nAn Oct 2025 build of Xenia Canary with no AVX check running through Whisky is able to get in-game and play.",
           "images": [],
           "meta": {}
         }
