@@ -66119,7 +66119,12 @@
         "perf": "great",
         "date": "2026-08-15",
         "notes": "Game does **not** hang but does not seem to register controller input \"Start\" (despite receiving \"A\" presses to skip each developer logo on boot - which is interesting)\n\nAn [Oct 2025 build of Xenia Canary with no AVX check](https://github.com/fnschmidt/xenia-canary-noavxcheck/releases/tag/experimental) running through Whisky is able to get in-game and play.",
-        "screenshots": [],
+        "reportedTitleId": "54510865",
+        "reportedTitle": "De Blob 2",
+        "screenshots": [
+          "https://github.com/user-attachments/assets/f0af3dc1-fc51-4349-a256-b7a4e49e7f69"
+        ],
+        "submittedBy": "udance4ever",
         "source": "github",
         "build": {
           "buildId": "macos-self-built-2.0.1-9849",
@@ -66131,7 +66136,9 @@
         }
       }
     ],
-    "screenshots": [],
+    "screenshots": [
+      "https://github.com/user-attachments/assets/f0af3dc1-fc51-4349-a256-b7a4e49e7f69"
+    ],
     "summaries": {
       "release": {
         "channel": "release",
@@ -66162,7 +66169,12 @@
           "perf": "great",
           "date": "2026-08-15",
           "notes": "Game does **not** hang but does not seem to register controller input \"Start\" (despite receiving \"A\" presses to skip each developer logo on boot - which is interesting)\n\nAn [Oct 2025 build of Xenia Canary with no AVX check](https://github.com/fnschmidt/xenia-canary-noavxcheck/releases/tag/experimental) running through Whisky is able to get in-game and play.",
-          "screenshots": [],
+          "reportedTitleId": "54510865",
+          "reportedTitle": "De Blob 2",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/f0af3dc1-fc51-4349-a256-b7a4e49e7f69"
+          ],
+          "submittedBy": "udance4ever",
           "source": "github",
           "build": {
             "buildId": "macos-self-built-2.0.1-9849",
@@ -66183,7 +66195,12 @@
           "perf": "great",
           "date": "2026-08-15",
           "notes": "Game does **not** hang but does not seem to register controller input \"Start\" (despite receiving \"A\" presses to skip each developer logo on boot - which is interesting)\n\nAn [Oct 2025 build of Xenia Canary with no AVX check](https://github.com/fnschmidt/xenia-canary-noavxcheck/releases/tag/experimental) running through Whisky is able to get in-game and play.",
-          "screenshots": [],
+          "reportedTitleId": "54510865",
+          "reportedTitle": "De Blob 2",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/f0af3dc1-fc51-4349-a256-b7a4e49e7f69"
+          ],
+          "submittedBy": "udance4ever",
           "source": "github",
           "build": {
             "buildId": "macos-self-built-2.0.1-9849",
@@ -99143,7 +99160,12 @@
         "perf": "great",
         "date": "2026-08-15",
         "notes": "Game boots and able to navigate menus but hangs attempting to get in-game on LOADING screen.\n\nOn successive boots, \"LOADING\" isn't rendered...",
-        "screenshots": [],
+        "reportedTitleId": "5841098D",
+        "reportedTitle": "Full House Poker",
+        "screenshots": [
+          "https://github.com/user-attachments/assets/d79feb22-c386-41dd-9acc-99010229dd18"
+        ],
+        "submittedBy": "udance4ever",
         "source": "github",
         "build": {
           "buildId": "macos-self-built-2.0.1-9849",
@@ -99155,7 +99177,9 @@
         }
       }
     ],
-    "screenshots": [],
+    "screenshots": [
+      "https://github.com/user-attachments/assets/d79feb22-c386-41dd-9acc-99010229dd18"
+    ],
     "summaries": {
       "release": {
         "channel": "release",
@@ -99186,7 +99210,12 @@
           "perf": "great",
           "date": "2026-08-15",
           "notes": "Game boots and able to navigate menus but hangs attempting to get in-game on LOADING screen.\n\nOn successive boots, \"LOADING\" isn't rendered...",
-          "screenshots": [],
+          "reportedTitleId": "5841098D",
+          "reportedTitle": "Full House Poker",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/d79feb22-c386-41dd-9acc-99010229dd18"
+          ],
+          "submittedBy": "udance4ever",
           "source": "github",
           "build": {
             "buildId": "macos-self-built-2.0.1-9849",
@@ -99207,7 +99236,12 @@
           "perf": "great",
           "date": "2026-08-15",
           "notes": "Game boots and able to navigate menus but hangs attempting to get in-game on LOADING screen.\n\nOn successive boots, \"LOADING\" isn't rendered...",
-          "screenshots": [],
+          "reportedTitleId": "5841098D",
+          "reportedTitle": "Full House Poker",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/d79feb22-c386-41dd-9acc-99010229dd18"
+          ],
+          "submittedBy": "udance4ever",
           "source": "github",
           "build": {
             "buildId": "macos-self-built-2.0.1-9849",
