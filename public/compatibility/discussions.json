@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T15:31:46.173Z",
+  "generatedAt": "2026-08-15T15:35:01.853Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1188,10 +1188,8 @@
           "createdAt": "2026-04-13",
           "createdAtMs": 1776039191000,
           "issueNumber": 414,
-          "excerpt": "Made it to the 2nd segment (after chocolate dream) where you can switch to Bart in the house - didn't experience any glitches or slowdown so `Playable` until proven otherwise. Cutscenes are impacted by the known FMV \"green glitching\" issue in common with most games in this build (esp logos) - it doesn't freeze the game in anyway but does take away from the overall experience of the game watching cutscenes between action. Otherwise, the game does play well!",
-          "images": [
-            "https://github.com/user-attachments/assets/21e43d82-9aff-459d-8d08-53920491d782"
-          ],
+          "excerpt": "Made it to the 2nd segment (after chocolate dream) where you can switch to Bart in the house - didn't experience any glitches or slowdown so `Playable` until proven otherwise.\n\n2.0.1 Preview resolves \"green glitching\" issue in FMV and logos.",
+          "images": [],
           "meta": {}
         },
         {
