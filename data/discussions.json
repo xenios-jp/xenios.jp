@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T14:10:04.923Z",
+  "generatedAt": "2026-08-15T15:05:06.431Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -4037,50 +4037,6 @@
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
           "images": [],
           "meta": {}
-        }
-      ]
-    },
-    "58410AC2": {
-      "titleId": "58410AC2",
-      "issueNumber": 500,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/500",
-      "updatedAt": "2026-08-15",
-      "entries": [
-        {
-          "id": "issue-658",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/658",
-          "author": "udance4ever",
-          "createdAt": "2026-08-15",
-          "createdAtMs": 1786802884000,
-          "issueNumber": 658,
-          "excerpt": "Game boots to game logo and hangs.",
-          "images": [],
-          "meta": {}
-        },
-        {
-          "id": "issue-500",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/500",
-          "author": "xenios-jp",
-          "createdAt": "2026-06-11",
-          "createdAtMs": 1781184891000,
-          "issueNumber": 500,
-          "excerpt": "Loads to title screen then stops",
-          "images": [],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPad Pro 13-inch (M5)",
-            "platform": "iOS",
-            "osVersion": "iOS 26.5",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "buildStage": "stable",
-            "commitShort": "`57c3ca140`"
-          }
         }
       ]
     },
@@ -9024,6 +8980,62 @@
           "meta": {
             "status": "playable",
             "perf": "great",
+            "device": "iPad Pro 13-inch (M5)",
+            "platform": "iOS",
+            "osVersion": "iOS 26.5",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "buildStage": "stable",
+            "commitShort": "`57c3ca140`"
+          }
+        }
+      ]
+    },
+    "58410AC2": {
+      "titleId": "58410AC2",
+      "issueNumber": 500,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/500",
+      "updatedAt": "2026-08-15",
+      "entries": [
+        {
+          "id": "comment-5302811778",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/500#issuecomment-5302811778",
+          "author": "udance4ever",
+          "createdAt": "2026-08-15",
+          "createdAtMs": 1786806216000,
+          "issueNumber": 500,
+          "excerpt": "<img width=\"1920\" height=\"1080\" alt=\"Image\" src=\" />",
+          "images": [],
+          "meta": {}
+        },
+        {
+          "id": "comment-5302807456",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/500#issuecomment-5302807456",
+          "author": "udance4ever",
+          "createdAt": "2026-08-15",
+          "createdAtMs": 1786806154000,
+          "issueNumber": 500,
+          "excerpt": "Please rename title to \"SEGA Rally Online Arcade\" so searches on title match to this issue.",
+          "images": [],
+          "meta": {}
+        },
+        {
+          "id": "issue-500",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/500",
+          "author": "xenios-jp",
+          "createdAt": "2026-06-11",
+          "createdAtMs": 1781184891000,
+          "issueNumber": 500,
+          "excerpt": "Loads to title screen then stops",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
             "device": "iPad Pro 13-inch (M5)",
             "platform": "iOS",
             "osVersion": "iOS 26.5",

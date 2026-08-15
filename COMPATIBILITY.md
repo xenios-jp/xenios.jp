@@ -375,7 +375,7 @@
 | 🔴 | Pro Evolution Soccer 2015 / PES 2015 | `4B4E085F` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 12 Pro | 2026-08-11 |
 | 🔴 | PROTOTYPE | `4156084E` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 14 Pro | 2026-06-11 |
 | 🔴 | Resident Evil 4 | `4343081C` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16e | 2026-03-14 |
-| 🔴 | SEGA Rally Online Arcade | `58410AC2` | 📱 iOS, 🖥️ macOS | Doesn't Boot | ➖ N/A | MacBook Pro (M1) | 2026-08-15 |
+| 🔴 | SEGA Rally Online Arcade | `58410AC2` | 🖥️ macOS, 📱 iOS | Doesn't Boot | ➖ N/A | MacBook Pro (M1) | 2026-08-15 |
 | 🔴 | Silent Hill: Downpour | `4B4E0823` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-22 |
 | 🔴 | SmackDown vs. RAW 2009 | `54510826` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad (A16) | 2026-03-16 |
 | 🔴 | Soulcalibur IV | `4E4D07E0` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-04-28 |

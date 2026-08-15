@@ -135358,7 +135358,12 @@
         "perf": "great",
         "date": "2026-08-14",
         "notes": "Stuck on intro, screen fills solid magenta after the Lego loading logo, no draw calls rendering. Log shows geometry emulation without pixel shader falling back to depth-only PS, then skipped (no depth attachment/memexport). Tried Metal and Vulkan (Apple A18 GPU), same result on both backends. Tried toggling half_pixel_offset and render_target_path (performance/accuracy), no change.",
-        "screenshots": [],
+        "reportedTitleId": "5752084D",
+        "reportedTitle": "LEGO Jurassic World",
+        "screenshots": [
+          "https://github.com/user-attachments/assets/3e943e03-48d2-4514-aca4-f0210cfc43a9"
+        ],
+        "submittedBy": "iaplim",
         "source": "github",
         "build": {
           "buildId": "ios-self-built-2.0.1-9849",
@@ -135369,7 +135374,9 @@
         }
       }
     ],
-    "screenshots": [],
+    "screenshots": [
+      "https://github.com/user-attachments/assets/3e943e03-48d2-4514-aca4-f0210cfc43a9"
+    ],
     "summaries": {
       "release": {
         "channel": "release",
@@ -135400,7 +135407,12 @@
           "perf": "great",
           "date": "2026-08-14",
           "notes": "Stuck on intro, screen fills solid magenta after the Lego loading logo, no draw calls rendering. Log shows geometry emulation without pixel shader falling back to depth-only PS, then skipped (no depth attachment/memexport). Tried Metal and Vulkan (Apple A18 GPU), same result on both backends. Tried toggling half_pixel_offset and render_target_path (performance/accuracy), no change.",
-          "screenshots": [],
+          "reportedTitleId": "5752084D",
+          "reportedTitle": "LEGO Jurassic World",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/3e943e03-48d2-4514-aca4-f0210cfc43a9"
+          ],
+          "submittedBy": "iaplim",
           "source": "github",
           "build": {
             "buildId": "ios-self-built-2.0.1-9849",
@@ -135420,7 +135432,12 @@
           "perf": "great",
           "date": "2026-08-14",
           "notes": "Stuck on intro, screen fills solid magenta after the Lego loading logo, no draw calls rendering. Log shows geometry emulation without pixel shader falling back to depth-only PS, then skipped (no depth attachment/memexport). Tried Metal and Vulkan (Apple A18 GPU), same result on both backends. Tried toggling half_pixel_offset and render_target_path (performance/accuracy), no change.",
-          "screenshots": [],
+          "reportedTitleId": "5752084D",
+          "reportedTitle": "LEGO Jurassic World",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/3e943e03-48d2-4514-aca4-f0210cfc43a9"
+          ],
+          "submittedBy": "iaplim",
           "source": "github",
           "build": {
             "buildId": "ios-self-built-2.0.1-9849",
@@ -206231,8 +206248,8 @@
     "perf": "n/a",
     "tags": [],
     "platforms": [
-      "ios",
-      "macos"
+      "macos",
+      "ios"
     ],
     "lastReport": {
       "device": "MacBook Pro (M1)",
@@ -278418,116 +278435,6 @@
     }
   },
   {
-    "slug": "3",
-    "title": "3",
-    "titleId": "4D5307E7",
-    "titleIds": [
-      "4D5307E7"
-    ],
-    "status": "playable",
-    "perf": "great",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 11bro mix",
-      "platform": "ios",
-      "osVersion": "26 5",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-08-14",
-    "issueNumber": 656,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/656",
-    "notes": "<img width=\"1440\" height=\"1920\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/3c3e519d-b27f-4ff7-8a12-7cc2cc476a14\" />",
-    "reports": [
-      {
-        "device": "iPhone 11bro mix",
-        "platform": "ios",
-        "osVersion": "26 5",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "great",
-        "date": "2026-08-14",
-        "notes": "<img width=\"1440\" height=\"1920\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/3c3e519d-b27f-4ff7-8a12-7cc2cc476a14\" />",
-        "screenshots": [],
-        "source": "github",
-        "build": {
-          "buildId": "ios-self-built-e-45",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "e",
-          "buildNumber": "45"
-        }
-      }
-    ],
-    "screenshots": [],
-    "summaries": {
-      "release": {
-        "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
-      },
-      "all": {
-        "channel": "all",
-        "status": "playable",
-        "perf": "great",
-        "notes": "<img width=\"1440\" height=\"1920\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/3c3e519d-b27f-4ff7-8a12-7cc2cc476a14\" />",
-        "updatedAt": "2026-08-14",
-        "date": "2026-08-14",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 11bro mix",
-          "platform": "ios",
-          "osVersion": "26 5",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-08-14",
-          "notes": "<img width=\"1440\" height=\"1920\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/3c3e519d-b27f-4ff7-8a12-7cc2cc476a14\" />",
-          "screenshots": [],
-          "source": "github",
-          "build": {
-            "buildId": "ios-self-built-e-45",
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "e",
-            "buildNumber": "45"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 11bro mix",
-          "platform": "ios",
-          "osVersion": "26 5",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-08-14",
-          "notes": "<img width=\"1440\" height=\"1920\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/3c3e519d-b27f-4ff7-8a12-7cc2cc476a14\" />",
-          "screenshots": [],
-          "source": "github",
-          "build": {
-            "buildId": "ios-self-built-e-45",
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "e",
-            "buildNumber": "45"
-          }
-        }
-      }
-    }
-  },
-  {
     "slug": "devil-may-cry-4-demo",
     "title": "Devil May Cry 4 Demo",
     "titleId": "434387E3",
@@ -279160,6 +279067,181 @@
             "appVersion": "1.0.1",
             "buildNumber": "9288",
             "commitShort": "056D2F64D"
+          }
+        }
+      }
+    }
+  },
+  {
+    "slug": "3",
+    "title": "3",
+    "titleId": "4D5307E7",
+    "titleIds": [
+      "4D5307E7"
+    ],
+    "status": "playable",
+    "perf": "great",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 11bro mix",
+      "platform": "ios",
+      "osVersion": "26 5",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-08-14",
+    "issueNumber": 656,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/656",
+    "notes": "<img width=\"1440\" height=\"1920\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/3c3e519d-b27f-4ff7-8a12-7cc2cc476a14\" />",
+    "reports": [
+      {
+        "device": "iPhone 11bro mix",
+        "platform": "ios",
+        "osVersion": "26 5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-08-14",
+        "notes": "<img width=\"1440\" height=\"1920\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/3c3e519d-b27f-4ff7-8a12-7cc2cc476a14\" />",
+        "reportedTitleId": "4D5307E7",
+        "reportedTitle": "3",
+        "screenshots": [
+          "https://github.com/user-attachments/assets/3c3e519d-b27f-4ff7-8a12-7cc2cc476a14"
+        ],
+        "submittedBy": "tt3682546-cloud",
+        "source": "github",
+        "build": {
+          "buildId": "ios-release-e-45",
+          "channel": "release",
+          "official": true,
+          "appVersion": "e",
+          "buildNumber": "45"
+        }
+      }
+    ],
+    "screenshots": [
+      "https://github.com/user-attachments/assets/3c3e519d-b27f-4ff7-8a12-7cc2cc476a14"
+    ],
+    "summaries": {
+      "release": {
+        "channel": "release",
+        "status": "playable",
+        "perf": "great",
+        "notes": "<img width=\"1440\" height=\"1920\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/3c3e519d-b27f-4ff7-8a12-7cc2cc476a14\" />",
+        "updatedAt": "2026-08-14",
+        "date": "2026-08-14",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 11bro mix",
+          "platform": "ios",
+          "osVersion": "26 5",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-08-14",
+          "notes": "<img width=\"1440\" height=\"1920\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/3c3e519d-b27f-4ff7-8a12-7cc2cc476a14\" />",
+          "reportedTitleId": "4D5307E7",
+          "reportedTitle": "3",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/3c3e519d-b27f-4ff7-8a12-7cc2cc476a14"
+          ],
+          "submittedBy": "tt3682546-cloud",
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-e-45",
+            "channel": "release",
+            "official": true,
+            "appVersion": "e",
+            "buildNumber": "45"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 11bro mix",
+          "platform": "ios",
+          "osVersion": "26 5",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-08-14",
+          "notes": "<img width=\"1440\" height=\"1920\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/3c3e519d-b27f-4ff7-8a12-7cc2cc476a14\" />",
+          "reportedTitleId": "4D5307E7",
+          "reportedTitle": "3",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/3c3e519d-b27f-4ff7-8a12-7cc2cc476a14"
+          ],
+          "submittedBy": "tt3682546-cloud",
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-e-45",
+            "channel": "release",
+            "official": true,
+            "appVersion": "e",
+            "buildNumber": "45"
+          }
+        }
+      },
+      "all": {
+        "channel": "all",
+        "status": "playable",
+        "perf": "great",
+        "notes": "<img width=\"1440\" height=\"1920\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/3c3e519d-b27f-4ff7-8a12-7cc2cc476a14\" />",
+        "updatedAt": "2026-08-14",
+        "date": "2026-08-14",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 11bro mix",
+          "platform": "ios",
+          "osVersion": "26 5",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-08-14",
+          "notes": "<img width=\"1440\" height=\"1920\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/3c3e519d-b27f-4ff7-8a12-7cc2cc476a14\" />",
+          "reportedTitleId": "4D5307E7",
+          "reportedTitle": "3",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/3c3e519d-b27f-4ff7-8a12-7cc2cc476a14"
+          ],
+          "submittedBy": "tt3682546-cloud",
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-e-45",
+            "channel": "release",
+            "official": true,
+            "appVersion": "e",
+            "buildNumber": "45"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 11bro mix",
+          "platform": "ios",
+          "osVersion": "26 5",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-08-14",
+          "notes": "<img width=\"1440\" height=\"1920\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/3c3e519d-b27f-4ff7-8a12-7cc2cc476a14\" />",
+          "reportedTitleId": "4D5307E7",
+          "reportedTitle": "3",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/3c3e519d-b27f-4ff7-8a12-7cc2cc476a14"
+          ],
+          "submittedBy": "tt3682546-cloud",
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-e-45",
+            "channel": "release",
+            "official": true,
+            "appVersion": "e",
+            "buildNumber": "45"
           }
         }
       }
