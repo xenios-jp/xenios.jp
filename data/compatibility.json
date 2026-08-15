@@ -206231,20 +206231,42 @@
     "perf": "n/a",
     "tags": [],
     "platforms": [
-      "ios"
+      "ios",
+      "macos"
     ],
     "lastReport": {
-      "device": "iPad Pro 13-inch (M5)",
-      "platform": "ios",
-      "osVersion": "26.5",
+      "device": "MacBook Pro (M1)",
+      "platform": "macos",
+      "osVersion": "26.6.1",
       "arch": "arm64",
-      "gpuBackend": "msl"
+      "gpuBackend": "msc"
     },
-    "updatedAt": "2026-06-11",
+    "updatedAt": "2026-08-15",
     "issueNumber": 500,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/500",
-    "notes": "Loads to title screen then stops",
+    "notes": "Game boots to game logo and hangs.",
     "reports": [
+      {
+        "device": "MacBook Pro (M1)",
+        "platform": "macos",
+        "osVersion": "26.6.1",
+        "arch": "arm64",
+        "gpuBackend": "msc",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-08-15",
+        "notes": "Game boots to game logo and hangs.",
+        "screenshots": [],
+        "source": "github",
+        "build": {
+          "buildId": "macos-self-built-2.0.1-9849",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9849",
+          "commitShort": "3418fc4"
+        }
+      },
       {
         "device": "iPad Pro 13-inch (M5)",
         "platform": "ios",
@@ -206285,52 +206307,50 @@
         "channel": "all",
         "status": "nothing",
         "perf": "n/a",
-        "notes": "Loads to title screen then stops",
-        "updatedAt": "2026-06-11",
-        "date": "2026-06-11",
-        "reportCount": 1,
+        "notes": "Game boots to game logo and hangs.",
+        "updatedAt": "2026-08-15",
+        "date": "2026-08-15",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPad Pro 13-inch (M5)",
-          "platform": "ios",
-          "osVersion": "26.5",
+          "device": "MacBook Pro (M1)",
+          "platform": "macos",
+          "osVersion": "26.6.1",
           "arch": "arm64",
-          "gpuBackend": "msl",
+          "gpuBackend": "msc",
           "status": "nothing",
           "perf": "n/a",
-          "date": "2026-06-11",
-          "notes": "Loads to title screen then stops",
+          "date": "2026-08-15",
+          "notes": "Game boots to game logo and hangs.",
           "screenshots": [],
-          "source": "app",
+          "source": "github",
           "build": {
-            "buildId": "ios-self-built-2.0.1-9730",
+            "buildId": "macos-self-built-2.0.1-9849",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140"
+            "buildNumber": "9849",
+            "commitShort": "3418fc4"
           }
         },
         "bestReport": {
-          "device": "iPad Pro 13-inch (M5)",
-          "platform": "ios",
-          "osVersion": "26.5",
+          "device": "MacBook Pro (M1)",
+          "platform": "macos",
+          "osVersion": "26.6.1",
           "arch": "arm64",
-          "gpuBackend": "msl",
+          "gpuBackend": "msc",
           "status": "nothing",
           "perf": "n/a",
-          "date": "2026-06-11",
-          "notes": "Loads to title screen then stops",
+          "date": "2026-08-15",
+          "notes": "Game boots to game logo and hangs.",
           "screenshots": [],
-          "source": "app",
+          "source": "github",
           "build": {
-            "buildId": "ios-self-built-2.0.1-9730",
+            "buildId": "macos-self-built-2.0.1-9849",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140"
+            "buildNumber": "9849",
+            "commitShort": "3418fc4"
           }
         }
       }
