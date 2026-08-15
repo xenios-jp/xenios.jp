@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T15:05:06.431Z",
+  "generatedAt": "2026-08-15T15:06:48.675Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -4035,6 +4035,26 @@
           "createdAtMs": 1773517964000,
           "issueNumber": 263,
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
+          "images": [],
+          "meta": {}
+        }
+      ]
+    },
+    "5841098D": {
+      "titleId": "5841098D",
+      "issueNumber": 657,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/657",
+      "updatedAt": "2026-08-15",
+      "entries": [
+        {
+          "id": "issue-657",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/657",
+          "author": "udance4ever",
+          "createdAt": "2026-08-15",
+          "createdAtMs": 1786802709000,
+          "issueNumber": 657,
+          "excerpt": "Game boots and able to navigate menus but hangs attempting to get in-game on LOADING screen.\n\nOn successive boots, \"LOADING\" isn't rendered...",
           "images": [],
           "meta": {}
         }

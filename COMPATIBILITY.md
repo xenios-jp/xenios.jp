@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **380 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **381 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **155** · 🔵 In-Game: **70** · 🟡 Intro: **36** · 🟠 Loads: **46** · 🔴 Doesn't Boot: **73**
+> 🟢 Playable: **155** · 🔵 In-Game: **70** · 🟡 Intro: **36** · 🟠 Loads: **47** · 🔴 Doesn't Boot: **73**
 >
-> 📱 iOS: **351** · 🖥️ macOS: **50**
+> 📱 iOS: **351** · 🖥️ macOS: **51**
 
 ## Legend
 
@@ -295,6 +295,7 @@
 | 🟠 | Far Cry 4 | `555308CA` | 📱 iOS | Loads | 👌 OK | iPhone 16 Pro Max | 2026-06-15 |
 | 🟠 | FIFA Street 3 | `4541083B` | 📱 iOS | Loads | ➖ N/A | iPad Air 5 | 2026-03-09 |
 | 🟠 | Final Fantasy XIII-2 | `53510806` | 📱 iOS | Loads | 🐢 Poor | iPhone 16 Pro Max | 2026-04-05 |
+| 🟠 | Full House Poker | `5841098D` | 🖥️ macOS | Loads | 🚀 Great | MacBook Pro (M1) | 2026-08-15 |
 | 🟠 | Grand Theft Auto: San Andreas | `545408B8` | 📱 iOS | Loads | 🐢 Poor | iPhone 15 Pro Max | 2026-04-23 |
 | 🟠 | Jeopardy! | `545108AE` | 📱 iOS | Loads | 🐢 Poor | iPhone 16 Pro | 2026-03-05 |
 | 🟠 | Kung Fu Panda | `415607F2` | 📱 iOS | Loads | 🐢 Poor | iPhone 15 Pro Max | 2026-03-17 |
