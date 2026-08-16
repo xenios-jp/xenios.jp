@@ -112009,11 +112009,31 @@
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-07-27",
+    "updatedAt": "2026-08-16",
     "issueNumber": 42,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/42",
     "notes": "Low FPS, but can start and play campaign, important note, if you die you can get stuck in a cutscene loop.",
     "reports": [
+      {
+        "device": "m5 pro",
+        "platform": "macos",
+        "osVersion": "26.5.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-08-16",
+        "notes": "Opens black screen closes",
+        "screenshots": [],
+        "source": "github",
+        "build": {
+          "buildId": "macos-self-built-2.0.1-9730-9857",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1-9730",
+          "buildNumber": "9857"
+        }
+      },
       {
         "device": "iPhone 17 Pro Max",
         "platform": "ios",
@@ -112375,29 +112395,27 @@
         "status": "playable",
         "perf": "poor",
         "notes": "Low FPS, but can start and play campaign, important note, if you die you can get stuck in a cutscene loop.",
-        "updatedAt": "2026-07-27",
-        "date": "2026-07-27",
-        "reportCount": 16,
+        "updatedAt": "2026-08-16",
+        "date": "2026-08-16",
+        "reportCount": 17,
         "latestReport": {
-          "device": "iPhone 17 Pro Max",
-          "platform": "ios",
+          "device": "m5 pro",
+          "platform": "macos",
           "osVersion": "26.5.2",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "nothing",
           "perf": "n/a",
-          "date": "2026-07-27",
-          "notes": "Unable to load, could be bad file but I noticed others not being able to boot up either. So I’m assuming unimplemented file up calls",
+          "date": "2026-08-16",
+          "notes": "Opens black screen closes",
           "screenshots": [],
-          "source": "app",
+          "source": "github",
           "build": {
-            "buildId": "ios-self-built-2.0.1-9730",
+            "buildId": "macos-self-built-2.0.1-9730-9857",
             "channel": "self-built",
             "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.0.1-9730",
+            "buildNumber": "9857"
           }
         },
         "bestReport": {
@@ -163564,8 +163582,7 @@
     "perf": "ok",
     "tags": [],
     "platforms": [
-      "ios",
-      "macos"
+      "ios"
     ],
     "lastReport": {
       "device": "iPhone 14 Pro Max",
@@ -163624,36 +163641,6 @@
         }
       },
       {
-        "device": "MacBook Pro M3 Pro",
-        "platform": "macos",
-        "osVersion": "26.4 (25E5233c)",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "perf": "great",
-        "date": "2026-03-12",
-        "notes": "- The introductory videos (such as the EA intro or the Razón and Cross cinematics) have glitches and issues, but this does not affect gameplay.\n- The \"Campaign\" works up to a certain point, where the audio cuts out and the game subsequently freezes (see last attached image).\n- The \"Challenge Series\" mode works almost entirely (I haven't finished it completely).\n- Achievement unlocking and online play have not been verified.",
-        "reportedTitleId": "454107D9",
-        "reportedTitle": "Need for Speed Most Wanted (2005)",
-        "screenshots": [
-          "https://github.com/user-attachments/assets/a1335fe2-f6b5-4aec-90e8-e1ab2fa63a4e",
-          "https://github.com/user-attachments/assets/e0dba9a0-ba8b-4e52-ad3a-69e4e580c341",
-          "https://github.com/user-attachments/assets/9597014b-da9e-4937-aa38-624d38275635",
-          "https://github.com/user-attachments/assets/8794ab4c-99bd-4d44-8507-2b01001467aa",
-          "https://github.com/user-attachments/assets/05450bc5-5bbc-4efb-9a9b-aeacb835d38e"
-        ],
-        "submittedBy": "TheVaroX",
-        "source": "github",
-        "build": {
-          "buildId": "macos-release-1.0.0-9299",
-          "channel": "release",
-          "official": true,
-          "appVersion": "1.0.0",
-          "buildNumber": "9299",
-          "commitShort": "D8C101905"
-        }
-      },
-      {
         "device": "iPhone 17",
         "platform": "ios",
         "osVersion": "26.3",
@@ -163682,82 +163669,19 @@
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454107D9/1773887982298-2.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454107D9/1773887982298-3.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454107D9/1773887982298-4.jpg",
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454107D9/1773887982298-5.jpg",
-      "https://github.com/user-attachments/assets/a1335fe2-f6b5-4aec-90e8-e1ab2fa63a4e",
-      "https://github.com/user-attachments/assets/e0dba9a0-ba8b-4e52-ad3a-69e4e580c341",
-      "https://github.com/user-attachments/assets/9597014b-da9e-4937-aa38-624d38275635",
-      "https://github.com/user-attachments/assets/8794ab4c-99bd-4d44-8507-2b01001467aa",
-      "https://github.com/user-attachments/assets/05450bc5-5bbc-4efb-9a9b-aeacb835d38e"
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454107D9/1773887982298-5.jpg"
     ],
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "ingame",
-        "perf": "great",
-        "notes": "- The introductory videos (such as the EA intro or the Razón and Cross cinematics) have glitches and issues, but this does not affect gameplay.\n- The \"Campaign\" works up to a certain point, where the audio cuts out and the game subsequently freezes (see last attached image).\n- The \"Challenge Series\" mode works almost entirely (I haven't finished it completely).\n- Achievement unlocking and online play have not been verified.",
-        "updatedAt": "2026-03-12",
-        "date": "2026-03-12",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "MacBook Pro M3 Pro",
-          "platform": "macos",
-          "osVersion": "26.4 (25E5233c)",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "great",
-          "date": "2026-03-12",
-          "notes": "- The introductory videos (such as the EA intro or the Razón and Cross cinematics) have glitches and issues, but this does not affect gameplay.\n- The \"Campaign\" works up to a certain point, where the audio cuts out and the game subsequently freezes (see last attached image).\n- The \"Challenge Series\" mode works almost entirely (I haven't finished it completely).\n- Achievement unlocking and online play have not been verified.",
-          "reportedTitleId": "454107D9",
-          "reportedTitle": "Need for Speed Most Wanted (2005)",
-          "screenshots": [
-            "https://github.com/user-attachments/assets/a1335fe2-f6b5-4aec-90e8-e1ab2fa63a4e",
-            "https://github.com/user-attachments/assets/e0dba9a0-ba8b-4e52-ad3a-69e4e580c341",
-            "https://github.com/user-attachments/assets/9597014b-da9e-4937-aa38-624d38275635",
-            "https://github.com/user-attachments/assets/8794ab4c-99bd-4d44-8507-2b01001467aa",
-            "https://github.com/user-attachments/assets/05450bc5-5bbc-4efb-9a9b-aeacb835d38e"
-          ],
-          "submittedBy": "TheVaroX",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.0-9299",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.0",
-            "buildNumber": "9299",
-            "commitShort": "D8C101905"
-          }
-        },
-        "bestReport": {
-          "device": "MacBook Pro M3 Pro",
-          "platform": "macos",
-          "osVersion": "26.4 (25E5233c)",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "great",
-          "date": "2026-03-12",
-          "notes": "- The introductory videos (such as the EA intro or the Razón and Cross cinematics) have glitches and issues, but this does not affect gameplay.\n- The \"Campaign\" works up to a certain point, where the audio cuts out and the game subsequently freezes (see last attached image).\n- The \"Challenge Series\" mode works almost entirely (I haven't finished it completely).\n- Achievement unlocking and online play have not been verified.",
-          "reportedTitleId": "454107D9",
-          "reportedTitle": "Need for Speed Most Wanted (2005)",
-          "screenshots": [
-            "https://github.com/user-attachments/assets/a1335fe2-f6b5-4aec-90e8-e1ab2fa63a4e",
-            "https://github.com/user-attachments/assets/e0dba9a0-ba8b-4e52-ad3a-69e4e580c341",
-            "https://github.com/user-attachments/assets/9597014b-da9e-4937-aa38-624d38275635",
-            "https://github.com/user-attachments/assets/8794ab4c-99bd-4d44-8507-2b01001467aa",
-            "https://github.com/user-attachments/assets/05450bc5-5bbc-4efb-9a9b-aeacb835d38e"
-          ],
-          "submittedBy": "TheVaroX",
-          "source": "github",
-          "build": {
-            "buildId": "macos-release-1.0.0-9299",
-            "channel": "release",
-            "official": true,
-            "appVersion": "1.0.0",
-            "buildNumber": "9299",
-            "commitShort": "D8C101905"
-          }
-        }
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "date": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
       },
       "all": {
         "channel": "all",
@@ -163766,7 +163690,7 @@
         "notes": "the game seems to be insanely bright, with cutscenes having stable audio but all the other times the audio seems to be unstable and the game runs well",
         "updatedAt": "2026-08-15",
         "date": "2026-08-15",
-        "reportCount": 4,
+        "reportCount": 3,
         "latestReport": {
           "device": "iPhone 14 Pro Max",
           "platform": "ios",
@@ -230399,6 +230323,8 @@
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-08-15",
+    "issueNumber": 661,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/661",
     "notes": "Boots and plays fine, almost no stutter.",
     "reports": [
       {

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T16:25:14.219Z",
+  "generatedAt": "2026-08-16T05:13:30.741Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -4046,6 +4046,280 @@
         }
       ]
     },
+    "4D5307E6": {
+      "titleId": "4D5307E6",
+      "issueNumber": 42,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/42",
+      "updatedAt": "2026-08-16",
+      "entries": [
+        {
+          "id": "comment-5259394662",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/42#issuecomment-5259394662",
+          "author": "udance4ever",
+          "createdAt": "2026-08-11",
+          "createdAtMs": 1786486003000,
+          "issueNumber": 42,
+          "excerpt": "Preview 2.0.1-9849 on 2020 M1 MacBookPro (26.6.1) now gets in-game but rendering is nearly black everywhere\n\n<img width=\"1920\" height=\"1080\" alt=\"Image\" src=\" />",
+          "images": [],
+          "meta": {}
+        },
+        {
+          "id": "issue-620",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/620",
+          "author": "xenios-jp",
+          "createdAt": "2026-07-27",
+          "createdAtMs": 1785181469000,
+          "issueNumber": 620,
+          "excerpt": "Unable to load, could be bad file but I noticed others not being able to boot up either. So I’m assuming unimplemented file up calls",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4D5307E6/1785181464921-1.jpg"
+          ],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.5.2",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "buildStage": "stable",
+            "commitShort": "`57c3ca140`"
+          }
+        },
+        {
+          "id": "issue-471",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/471",
+          "author": "xenios-jp",
+          "createdAt": "2026-06-06",
+          "createdAtMs": 1780713867000,
+          "issueNumber": 471,
+          "excerpt": "Umm it black screens…",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPad 10",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "buildStage": "stable",
+            "commitShort": "`056d2f64d`"
+          }
+        },
+        {
+          "id": "comment-4108446130",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/315#issuecomment-4108446130",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-23",
+          "createdAtMs": 1774249343000,
+          "issueNumber": 315,
+          "excerpt": "The game works and I was able to start a custom game with the default settings and map. I was also able to move around and do stuff in the map like shoot, throw grenades, use vehicles, etc. However, there are lots of bugs:\n- A lot of text is bugged and replaced with rectangles\n- Audio is very choppy\n- FPS is very low but playable\n- When loading into the custom game map it took several minutes for all the assets/visuals to fully load. I was able to move around while everything was loading in though, it was just the visual stuff that took several minutes to load. Sometimes the game would just freeze for a couple of seconds while I was in the map. Also, it wasn’t just the map assets that took several minutes to fully load, it was also player-related stuff such as the assets on the gun I was holding and the GUI itself.\n\nI have also not tried the campaign yet.",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.0",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9299",
+            "buildStage": "stable",
+            "commitShort": "`d8c101905`"
+          }
+        },
+        {
+          "id": "issue-315",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/315",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-22",
+          "createdAtMs": 1774197365000,
+          "issueNumber": 315,
+          "excerpt": "To launch you do have to disable mount cache and you’ll need to know you way around because it doesn’t display words",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4D5307E6/1774197362457-1.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "poor",
+            "device": "iPhone 16 Plus",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "buildStage": "stable",
+            "commitShort": "`056d2f64d`"
+          }
+        },
+        {
+          "id": "comment-4043509556",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/197#issuecomment-4043509556",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-12",
+          "createdAtMs": 1773283251000,
+          "issueNumber": 197,
+          "excerpt": "Halo 3 crashes instantly when opened even with JIT enabled. The game closes but XeniOS remains open.",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.0",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9296",
+            "buildStage": "stable",
+            "commitShort": "`ab2ca341a`"
+          }
+        }
+      ]
+    },
+    "454107ED": {
+      "titleId": "454107ED",
+      "issueNumber": 661,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/661",
+      "updatedAt": "2026-08-15",
+      "entries": [
+        {
+          "id": "issue-661",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/661",
+          "author": "xenios-jp",
+          "createdAt": "2026-08-15",
+          "createdAtMs": 1786826006000,
+          "issueNumber": 661,
+          "excerpt": "Boots and plays fine, almost no stutter.",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.5.2",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "buildStage": "stable",
+            "commitShort": "`57c3ca140`"
+          }
+        }
+      ]
+    },
+    "454107D9": {
+      "titleId": "454107D9",
+      "issueNumber": 660,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/660",
+      "updatedAt": "2026-08-15",
+      "entries": [
+        {
+          "id": "issue-660",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/660",
+          "author": "xenios-jp",
+          "createdAt": "2026-08-15",
+          "createdAtMs": 1786822146000,
+          "issueNumber": 660,
+          "excerpt": "the game seems to be insanely bright, with cutscenes having stable audio but all the other times the audio seems to be unstable and the game runs well",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 14 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.5",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "buildStage": "stable",
+            "commitShort": "`57c3ca140`"
+          }
+        },
+        {
+          "id": "comment-4087246949",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/223#issuecomment-4087246949",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-19",
+          "createdAtMs": 1773887988000,
+          "issueNumber": 223,
+          "excerpt": "Game has graphical issues on all cut scenes. Low frame rates during racing but it’s playable. Some freezing here and there. Toggling and u toggling low power mode seems to help when the game freezes.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454107D9/1773887982298-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454107D9/1773887982298-2.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454107D9/1773887982298-3.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454107D9/1773887982298-4.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454107D9/1773887982298-5.jpg"
+          ],
+          "meta": {
+            "status": "ingame",
+            "perf": "ok",
+            "device": "iPhone 16 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "buildStage": "stable",
+            "commitShort": "`056d2f64d`"
+          }
+        },
+        {
+          "id": "issue-223",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/223",
+          "author": "TheVaroX",
+          "createdAt": "2026-03-12",
+          "createdAtMs": 1773329886000,
+          "issueNumber": 223,
+          "excerpt": "- The introductory videos (such as the EA intro or the Razón and Cross cinematics) have glitches and issues, but this does not affect gameplay.\n- The \"Campaign\" works up to a certain point, where the audio cuts out and the game subsequently freezes (see last attached image).\n- The \"Challenge Series\" mode works almost entirely (I haven't finished it completely).\n- Achievement unlocking and online play have not been verified.",
+          "images": [],
+          "meta": {}
+        },
+        {
+          "id": "issue-151",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/151",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-09",
+          "createdAtMs": 1773084382000,
+          "issueNumber": 151,
+          "excerpt": "Stuck sen tried to strt a quick race",
+          "images": [],
+          "meta": {
+            "status": "loads",
+            "perf": "ok",
+            "device": "iPad (A16)",
+            "platform": "iOS",
+            "osVersion": "iOS 26.2.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "buildStage": "stable",
+            "commitShort": "`2633e8177`"
+          }
+        }
+      ]
+    },
     "5841098D": {
       "titleId": "5841098D",
       "issueNumber": 657,
@@ -4832,150 +5106,6 @@
             "platform": "iOS",
             "osVersion": "iOS 18.5",
             "gpuBackend": "MSL"
-          }
-        }
-      ]
-    },
-    "4D5307E6": {
-      "titleId": "4D5307E6",
-      "issueNumber": 42,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/42",
-      "updatedAt": "2026-08-11",
-      "entries": [
-        {
-          "id": "comment-5259394662",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/42#issuecomment-5259394662",
-          "author": "udance4ever",
-          "createdAt": "2026-08-11",
-          "createdAtMs": 1786486003000,
-          "issueNumber": 42,
-          "excerpt": "Preview 2.0.1-9849 on 2020 M1 MacBookPro (26.6.1) now gets in-game but rendering is nearly black everywhere\n\n<img width=\"1920\" height=\"1080\" alt=\"Image\" src=\" />",
-          "images": [],
-          "meta": {}
-        },
-        {
-          "id": "issue-620",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/620",
-          "author": "xenios-jp",
-          "createdAt": "2026-07-27",
-          "createdAtMs": 1785181469000,
-          "issueNumber": 620,
-          "excerpt": "Unable to load, could be bad file but I noticed others not being able to boot up either. So I’m assuming unimplemented file up calls",
-          "images": [
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4D5307E6/1785181464921-1.jpg"
-          ],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPhone 17 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 26.5.2",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "buildStage": "stable",
-            "commitShort": "`57c3ca140`"
-          }
-        },
-        {
-          "id": "issue-471",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/471",
-          "author": "xenios-jp",
-          "createdAt": "2026-06-06",
-          "createdAtMs": 1780713867000,
-          "issueNumber": 471,
-          "excerpt": "Umm it black screens…",
-          "images": [],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPad 10",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "buildStage": "stable",
-            "commitShort": "`056d2f64d`"
-          }
-        },
-        {
-          "id": "comment-4108446130",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/315#issuecomment-4108446130",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-23",
-          "createdAtMs": 1774249343000,
-          "issueNumber": 315,
-          "excerpt": "The game works and I was able to start a custom game with the default settings and map. I was also able to move around and do stuff in the map like shoot, throw grenades, use vehicles, etc. However, there are lots of bugs:\n- A lot of text is bugged and replaced with rectangles\n- Audio is very choppy\n- FPS is very low but playable\n- When loading into the custom game map it took several minutes for all the assets/visuals to fully load. I was able to move around while everything was loading in though, it was just the visual stuff that took several minutes to load. Sometimes the game would just freeze for a couple of seconds while I was in the map. Also, it wasn’t just the map assets that took several minutes to fully load, it was also player-related stuff such as the assets on the gun I was holding and the GUI itself.\n\nI have also not tried the campaign yet.",
-          "images": [],
-          "meta": {
-            "status": "playable",
-            "perf": "ok",
-            "device": "iPhone 17 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 26.0",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9299",
-            "buildStage": "stable",
-            "commitShort": "`d8c101905`"
-          }
-        },
-        {
-          "id": "issue-315",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/315",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-22",
-          "createdAtMs": 1774197365000,
-          "issueNumber": 315,
-          "excerpt": "To launch you do have to disable mount cache and you’ll need to know you way around because it doesn’t display words",
-          "images": [
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4D5307E6/1774197362457-1.jpg"
-          ],
-          "meta": {
-            "status": "playable",
-            "perf": "poor",
-            "device": "iPhone 16 Plus",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "buildStage": "stable",
-            "commitShort": "`056d2f64d`"
-          }
-        },
-        {
-          "id": "comment-4043509556",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/197#issuecomment-4043509556",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-12",
-          "createdAtMs": 1773283251000,
-          "issueNumber": 197,
-          "excerpt": "Halo 3 crashes instantly when opened even with JIT enabled. The game closes but XeniOS remains open.",
-          "images": [],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPhone 17 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 26.0",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9296",
-            "buildStage": "stable",
-            "commitShort": "`ab2ca341a`"
           }
         }
       ]
@@ -16253,80 +16383,6 @@
             "buildNumber": "9299",
             "buildStage": "stable",
             "commitShort": "`d8c101905`"
-          }
-        }
-      ]
-    },
-    "454107D9": {
-      "titleId": "454107D9",
-      "issueNumber": 223,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/223",
-      "updatedAt": "2026-03-19",
-      "entries": [
-        {
-          "id": "comment-4087246949",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/223#issuecomment-4087246949",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-19",
-          "createdAtMs": 1773887988000,
-          "issueNumber": 223,
-          "excerpt": "Game has graphical issues on all cut scenes. Low frame rates during racing but it’s playable. Some freezing here and there. Toggling and u toggling low power mode seems to help when the game freezes.",
-          "images": [
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454107D9/1773887982298-1.jpg",
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454107D9/1773887982298-2.jpg",
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454107D9/1773887982298-3.jpg",
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454107D9/1773887982298-4.jpg",
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454107D9/1773887982298-5.jpg"
-          ],
-          "meta": {
-            "status": "ingame",
-            "perf": "ok",
-            "device": "iPhone 16 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "buildStage": "stable",
-            "commitShort": "`056d2f64d`"
-          }
-        },
-        {
-          "id": "issue-223",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/223",
-          "author": "TheVaroX",
-          "createdAt": "2026-03-12",
-          "createdAtMs": 1773329886000,
-          "issueNumber": 223,
-          "excerpt": "- The introductory videos (such as the EA intro or the Razón and Cross cinematics) have glitches and issues, but this does not affect gameplay.\n- The \"Campaign\" works up to a certain point, where the audio cuts out and the game subsequently freezes (see last attached image).\n- The \"Challenge Series\" mode works almost entirely (I haven't finished it completely).\n- Achievement unlocking and online play have not been verified.",
-          "images": [],
-          "meta": {}
-        },
-        {
-          "id": "issue-151",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/151",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-09",
-          "createdAtMs": 1773084382000,
-          "issueNumber": 151,
-          "excerpt": "Stuck sen tried to strt a quick race",
-          "images": [],
-          "meta": {
-            "status": "loads",
-            "perf": "ok",
-            "device": "iPad (A16)",
-            "platform": "iOS",
-            "osVersion": "iOS 26.2.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "buildStage": "stable",
-            "commitShort": "`2633e8177`"
           }
         }
       ]
