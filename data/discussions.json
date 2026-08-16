@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T05:13:30.741Z",
+  "generatedAt": "2026-08-16T17:24:18.911Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -4046,42 +4046,74 @@
         }
       ]
     },
-    "4D5307E6": {
-      "titleId": "4D5307E6",
-      "issueNumber": 42,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/42",
+    "4E4D0868": {
+      "titleId": "4E4D0868",
+      "issueNumber": 664,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/664",
       "updatedAt": "2026-08-16",
       "entries": [
         {
-          "id": "comment-5259394662",
+          "id": "comment-5308669891",
           "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/42#issuecomment-5259394662",
-          "author": "udance4ever",
-          "createdAt": "2026-08-11",
-          "createdAtMs": 1786486003000,
-          "issueNumber": 42,
-          "excerpt": "Preview 2.0.1-9849 on 2020 M1 MacBookPro (26.6.1) now gets in-game but rendering is nearly black everywhere\n\n<img width=\"1920\" height=\"1080\" alt=\"Image\" src=\" />",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/664#issuecomment-5308669891",
+          "author": "Matondodanieljones-gif",
+          "createdAt": "2026-08-16",
+          "createdAtMs": 1786900823000,
+          "issueNumber": 664,
+          "excerpt": "Donc qu’est-ce que je dois faire concrètement pour pouvoir jouer tranquillement et lancer le jeu parfaitement parce que quand je lance le jeu, ça ne lance pas du tout mon écran est tout noir y a pas de sang rien quel est le problème concrètement",
           "images": [],
           "meta": {}
         },
         {
-          "id": "issue-620",
+          "id": "issue-664",
           "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/620",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/664",
           "author": "xenios-jp",
-          "createdAt": "2026-07-27",
-          "createdAtMs": 1785181469000,
-          "issueNumber": 620,
-          "excerpt": "Unable to load, could be bad file but I noticed others not being able to boot up either. So I’m assuming unimplemented file up calls",
+          "createdAt": "2026-08-16",
+          "createdAtMs": 1786900338000,
+          "issueNumber": 664,
+          "excerpt": "Hi,\n\nI'm trying to launch Naruto Shippuden - Ultimate Ninja Storm Revolution (Europe) on XeniOS and I'm running into an issue: the screen stays completely frozen and black on launch, the game doesn't start.\n\nWhat I've already tried:\n- Confirmed JIT is active (StikDebug)\n- Tested several settings in Game Settings (Half-Pixel Offset, Allow Invalid Fetch Constants, Mount Cache)\n- Waited several minutes in case it was just shader compilation on first launch\n\nNone of this has fixed the issue so far.\n\nMy setup:\n- Device: [iphone Air]\n- iOS version: [ios 27]\n- XeniOS version: [e.g. 2.0.1-9730]\n\nI can provide the xenia.log file if needed. Thanks in advance for the help!",
           "images": [
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4D5307E6/1785181464921-1.jpg"
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4E4D0868/1786900331300-1.jpg"
           ],
+          "meta": {
+            "status": "loads",
+            "perf": "poor",
+            "device": "iPhone Air",
+            "platform": "iOS",
+            "osVersion": "iOS 27.0",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "buildStage": "stable",
+            "commitShort": "`57c3ca140`"
+          }
+        }
+      ]
+    },
+    "545408A7": {
+      "titleId": "545408A7",
+      "issueNumber": 663,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/663",
+      "updatedAt": "2026-08-16",
+      "entries": [
+        {
+          "id": "issue-663",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/663",
+          "author": "xenios-jp",
+          "createdAt": "2026-08-16",
+          "createdAtMs": 1786858842000,
+          "issueNumber": 663,
+          "excerpt": "Nothing do",
+          "images": [],
           "meta": {
             "status": "nothing",
             "perf": "n/a",
-            "device": "iPhone 17 Pro Max",
+            "device": "iPhone 16e",
             "platform": "iOS",
-            "osVersion": "iOS 26.5.2",
+            "osVersion": "iOS 26.6",
             "gpuBackend": "MSL",
             "buildChannel": "self-built",
             "appVersion": "2.0.1",
@@ -4091,71 +4123,83 @@
           }
         },
         {
-          "id": "issue-471",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/471",
-          "author": "xenios-jp",
-          "createdAt": "2026-06-06",
-          "createdAtMs": 1780713867000,
-          "issueNumber": 471,
-          "excerpt": "Umm it black screens…",
-          "images": [],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPad 10",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "buildStage": "stable",
-            "commitShort": "`056d2f64d`"
-          }
-        },
-        {
-          "id": "comment-4108446130",
+          "id": "comment-5115626513",
           "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/315#issuecomment-4108446130",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/516#issuecomment-5115626513",
           "author": "xenios-jp",
-          "createdAt": "2026-03-23",
-          "createdAtMs": 1774249343000,
-          "issueNumber": 315,
-          "excerpt": "The game works and I was able to start a custom game with the default settings and map. I was also able to move around and do stuff in the map like shoot, throw grenades, use vehicles, etc. However, there are lots of bugs:\n- A lot of text is bugged and replaced with rectangles\n- Audio is very choppy\n- FPS is very low but playable\n- When loading into the custom game map it took several minutes for all the assets/visuals to fully load. I was able to move around while everything was loading in though, it was just the visual stuff that took several minutes to load. Sometimes the game would just freeze for a couple of seconds while I was in the map. Also, it wasn’t just the map assets that took several minutes to fully load, it was also player-related stuff such as the assets on the gun I was holding and the GUI itself.\n\nI have also not tried the campaign yet.",
-          "images": [],
-          "meta": {
-            "status": "playable",
-            "perf": "ok",
-            "device": "iPhone 17 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 26.0",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9299",
-            "buildStage": "stable",
-            "commitShort": "`d8c101905`"
-          }
-        },
-        {
-          "id": "issue-315",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/315",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-22",
-          "createdAtMs": 1774197365000,
-          "issueNumber": 315,
-          "excerpt": "To launch you do have to disable mount cache and you’ll need to know you way around because it doesn’t display words",
+          "createdAt": "2026-07-29",
+          "createdAtMs": 1785316656000,
+          "issueNumber": 516,
+          "excerpt": "Crash in Black Screen",
           "images": [
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4D5307E6/1774197362457-1.jpg"
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408A7/1785316651021-1.jpg"
           ],
           "meta": {
-            "status": "playable",
-            "perf": "poor",
-            "device": "iPhone 16 Plus",
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 16 Pro",
             "platform": "iOS",
-            "osVersion": "iOS 26.3.1",
+            "osVersion": "iOS 27.0",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "buildStage": "stable",
+            "commitShort": "`57c3ca140`"
+          }
+        },
+        {
+          "id": "comment-5107002542",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/516#issuecomment-5107002542",
+          "author": "niangmortalla337-hub",
+          "createdAt": "2026-07-28",
+          "createdAtMs": 1785256725000,
+          "issueNumber": 516,
+          "excerpt": "Gta5",
+          "images": [],
+          "meta": {}
+        },
+        {
+          "id": "comment-5085275931",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/516#issuecomment-5085275931",
+          "author": "xenios-jp",
+          "createdAt": "2026-07-26",
+          "createdAtMs": 1785097976000,
+          "issueNumber": 516,
+          "excerpt": "Black screen from the start till it crashes",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 15 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 27.0",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "buildStage": "stable",
+            "commitShort": "`57c3ca140`"
+          }
+        },
+        {
+          "id": "comment-5081241661",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/516#issuecomment-5081241661",
+          "author": "xenios-jp",
+          "createdAt": "2026-07-26",
+          "createdAtMs": 1785026371000,
+          "issueNumber": 516,
+          "excerpt": "Black screen",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 15 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 27.0",
             "gpuBackend": "MSL",
             "buildChannel": "self-built",
             "appVersion": "1.0.1",
@@ -4165,28 +4209,16 @@
           }
         },
         {
-          "id": "comment-4043509556",
+          "id": "comment-5059429960",
           "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/197#issuecomment-4043509556",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-12",
-          "createdAtMs": 1773283251000,
-          "issueNumber": 197,
-          "excerpt": "Halo 3 crashes instantly when opened even with JIT enabled. The game closes but XeniOS remains open.",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/516#issuecomment-5059429960",
+          "author": "brayandeluna299-stack",
+          "createdAt": "2026-07-23",
+          "createdAtMs": 1784815911000,
+          "issueNumber": 516,
+          "excerpt": "Fmfkdk",
           "images": [],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPhone 17 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 26.0",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9296",
-            "buildStage": "stable",
-            "commitShort": "`ab2ca341a`"
-          }
+          "meta": {}
         }
       ]
     },
@@ -5106,6 +5138,150 @@
             "platform": "iOS",
             "osVersion": "iOS 18.5",
             "gpuBackend": "MSL"
+          }
+        }
+      ]
+    },
+    "4D5307E6": {
+      "titleId": "4D5307E6",
+      "issueNumber": 42,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/42",
+      "updatedAt": "2026-08-16",
+      "entries": [
+        {
+          "id": "comment-5259394662",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/42#issuecomment-5259394662",
+          "author": "udance4ever",
+          "createdAt": "2026-08-11",
+          "createdAtMs": 1786486003000,
+          "issueNumber": 42,
+          "excerpt": "Preview 2.0.1-9849 on 2020 M1 MacBookPro (26.6.1) now gets in-game but rendering is nearly black everywhere\n\n<img width=\"1920\" height=\"1080\" alt=\"Image\" src=\" />",
+          "images": [],
+          "meta": {}
+        },
+        {
+          "id": "issue-620",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/620",
+          "author": "xenios-jp",
+          "createdAt": "2026-07-27",
+          "createdAtMs": 1785181469000,
+          "issueNumber": 620,
+          "excerpt": "Unable to load, could be bad file but I noticed others not being able to boot up either. So I’m assuming unimplemented file up calls",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4D5307E6/1785181464921-1.jpg"
+          ],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.5.2",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "buildStage": "stable",
+            "commitShort": "`57c3ca140`"
+          }
+        },
+        {
+          "id": "issue-471",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/471",
+          "author": "xenios-jp",
+          "createdAt": "2026-06-06",
+          "createdAtMs": 1780713867000,
+          "issueNumber": 471,
+          "excerpt": "Umm it black screens…",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPad 10",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "buildStage": "stable",
+            "commitShort": "`056d2f64d`"
+          }
+        },
+        {
+          "id": "comment-4108446130",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/315#issuecomment-4108446130",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-23",
+          "createdAtMs": 1774249343000,
+          "issueNumber": 315,
+          "excerpt": "The game works and I was able to start a custom game with the default settings and map. I was also able to move around and do stuff in the map like shoot, throw grenades, use vehicles, etc. However, there are lots of bugs:\n- A lot of text is bugged and replaced with rectangles\n- Audio is very choppy\n- FPS is very low but playable\n- When loading into the custom game map it took several minutes for all the assets/visuals to fully load. I was able to move around while everything was loading in though, it was just the visual stuff that took several minutes to load. Sometimes the game would just freeze for a couple of seconds while I was in the map. Also, it wasn’t just the map assets that took several minutes to fully load, it was also player-related stuff such as the assets on the gun I was holding and the GUI itself.\n\nI have also not tried the campaign yet.",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.0",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9299",
+            "buildStage": "stable",
+            "commitShort": "`d8c101905`"
+          }
+        },
+        {
+          "id": "issue-315",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/315",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-22",
+          "createdAtMs": 1774197365000,
+          "issueNumber": 315,
+          "excerpt": "To launch you do have to disable mount cache and you’ll need to know you way around because it doesn’t display words",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4D5307E6/1774197362457-1.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "poor",
+            "device": "iPhone 16 Plus",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "buildStage": "stable",
+            "commitShort": "`056d2f64d`"
+          }
+        },
+        {
+          "id": "comment-4043509556",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/197#issuecomment-4043509556",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-12",
+          "createdAtMs": 1773283251000,
+          "issueNumber": 197,
+          "excerpt": "Halo 3 crashes instantly when opened even with JIT enabled. The game closes but XeniOS remains open.",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.0",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9296",
+            "buildStage": "stable",
+            "commitShort": "`ab2ca341a`"
           }
         }
       ]
@@ -8239,136 +8415,6 @@
             "platform": "iOS",
             "osVersion": "iOS 18.5",
             "gpuBackend": "MSL"
-          }
-        }
-      ]
-    },
-    "545408A7": {
-      "titleId": "545408A7",
-      "issueNumber": 516,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/516",
-      "updatedAt": "2026-07-29",
-      "entries": [
-        {
-          "id": "comment-5115626513",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/516#issuecomment-5115626513",
-          "author": "xenios-jp",
-          "createdAt": "2026-07-29",
-          "createdAtMs": 1785316656000,
-          "issueNumber": 516,
-          "excerpt": "Crash in Black Screen",
-          "images": [
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408A7/1785316651021-1.jpg"
-          ],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPhone 16 Pro",
-            "platform": "iOS",
-            "osVersion": "iOS 27.0",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "buildStage": "stable",
-            "commitShort": "`57c3ca140`"
-          }
-        },
-        {
-          "id": "comment-5107002542",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/516#issuecomment-5107002542",
-          "author": "niangmortalla337-hub",
-          "createdAt": "2026-07-28",
-          "createdAtMs": 1785256725000,
-          "issueNumber": 516,
-          "excerpt": "Gta5",
-          "images": [],
-          "meta": {}
-        },
-        {
-          "id": "comment-5085275931",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/516#issuecomment-5085275931",
-          "author": "xenios-jp",
-          "createdAt": "2026-07-26",
-          "createdAtMs": 1785097976000,
-          "issueNumber": 516,
-          "excerpt": "Black screen from the start till it crashes",
-          "images": [],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPhone 15 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 27.0",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "buildStage": "stable",
-            "commitShort": "`57c3ca140`"
-          }
-        },
-        {
-          "id": "comment-5081241661",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/516#issuecomment-5081241661",
-          "author": "xenios-jp",
-          "createdAt": "2026-07-26",
-          "createdAtMs": 1785026371000,
-          "issueNumber": 516,
-          "excerpt": "Black screen",
-          "images": [],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPhone 15 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 27.0",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "buildStage": "stable",
-            "commitShort": "`056d2f64d`"
-          }
-        },
-        {
-          "id": "comment-5059429960",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/516#issuecomment-5059429960",
-          "author": "brayandeluna299-stack",
-          "createdAt": "2026-07-23",
-          "createdAtMs": 1784815911000,
-          "issueNumber": 516,
-          "excerpt": "Fmfkdk",
-          "images": [],
-          "meta": {}
-        },
-        {
-          "id": "comment-5026040325",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/516#issuecomment-5026040325",
-          "author": "xenios-jp",
-          "createdAt": "2026-07-20",
-          "createdAtMs": 1784573931000,
-          "issueNumber": 516,
-          "excerpt": "black screen, then freezes after 15 seconds, then crashes after 15-20 more seconds",
-          "images": [],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPhone 16 Pro",
-            "platform": "iOS",
-            "osVersion": "iOS 27.0",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "buildStage": "stable",
-            "commitShort": "`57c3ca140`"
           }
         }
       ]

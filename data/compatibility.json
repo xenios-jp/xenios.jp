@@ -106790,144 +106790,34 @@
     "titleIds": [
       "545408A7"
     ],
-    "status": "ingame",
-    "perf": "ok",
+    "status": "intro",
+    "perf": "poor",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 14 Pro Max",
+      "device": "iPhone 17",
       "platform": "ios",
-      "osVersion": "26.5",
+      "osVersion": "26.3.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-07-29",
+    "updatedAt": "2026-08-16",
     "issueNumber": 62,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/62",
-    "notes": "the game ran alright but would soon freeze or the entire app would crash",
+    "notes": "It shows the start then goes black the audio is a bit bugged too",
     "reports": [
       {
-        "device": "iPhone 16 Pro",
+        "device": "iPhone 16e",
         "platform": "ios",
-        "osVersion": "27.0",
+        "osVersion": "26.6",
         "arch": "arm64",
         "gpuBackend": "msl",
         "status": "nothing",
         "perf": "n/a",
-        "date": "2026-07-29",
-        "notes": "Crash in Black Screen",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-2.0.1-9730",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "stage": "stable",
-          "commitShort": "57c3ca140"
-        }
-      },
-      {
-        "device": "iPhone 15 Pro Max",
-        "platform": "ios",
-        "osVersion": "27.0",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-07-26",
-        "notes": "Black screen",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d"
-        }
-      },
-      {
-        "device": "iPhone 15 Pro Max",
-        "platform": "ios",
-        "osVersion": "27.0",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-07-26",
-        "notes": "Black screen from the start till it crashes",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-2.0.1-9730",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "stage": "stable",
-          "commitShort": "57c3ca140"
-        }
-      },
-      {
-        "device": "iPhone 16 Pro",
-        "platform": "ios",
-        "osVersion": "27.0",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-07-20",
-        "notes": "black screen, then freezes after 15 seconds, then crashes after 15-20 more seconds",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-2.0.1-9730",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "stage": "stable",
-          "commitShort": "57c3ca140"
-        }
-      },
-      {
-        "device": "iPhone 14 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.5",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "perf": "ok",
-        "date": "2026-06-29",
-        "notes": "the game ran alright but would soon freeze or the entire app would crash",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-2.0.1-9730",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "stage": "stable",
-          "commitShort": "57c3ca140"
-        }
-      },
-      {
-        "device": "iPhone 15 Pro",
-        "platform": "ios",
-        "osVersion": "26.2.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "loads",
-        "perf": "poor",
-        "date": "2026-06-15",
-        "notes": "Black screen after R* Logo Xenios 2.0.1",
+        "date": "2026-08-16",
+        "notes": "Nothing do",
         "screenshots": [],
         "source": "app",
         "build": {
@@ -107024,22 +106914,22 @@
       },
       "all": {
         "channel": "all",
-        "status": "ingame",
-        "perf": "ok",
-        "notes": "the game ran alright but would soon freeze or the entire app would crash",
-        "updatedAt": "2026-07-29",
-        "date": "2026-07-29",
-        "reportCount": 8,
+        "status": "intro",
+        "perf": "poor",
+        "notes": "It shows the start then goes black the audio is a bit bugged too",
+        "updatedAt": "2026-08-16",
+        "date": "2026-08-16",
+        "reportCount": 3,
         "latestReport": {
-          "device": "iPhone 16 Pro",
+          "device": "iPhone 16e",
           "platform": "ios",
-          "osVersion": "27.0",
+          "osVersion": "26.6",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "nothing",
           "perf": "n/a",
-          "date": "2026-07-29",
-          "notes": "Crash in Black Screen",
+          "date": "2026-08-16",
+          "notes": "Nothing do",
           "screenshots": [],
           "source": "app",
           "build": {
@@ -107053,25 +106943,27 @@
           }
         },
         "bestReport": {
-          "device": "iPhone 14 Pro Max",
+          "device": "iPhone 17",
           "platform": "ios",
-          "osVersion": "26.5",
+          "osVersion": "26.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "ok",
-          "date": "2026-06-29",
-          "notes": "the game ran alright but would soon freeze or the entire app would crash",
+          "status": "intro",
+          "perf": "poor",
+          "date": "2026-03-09",
+          "notes": "It shows the start then goes black the audio is a bit bugged too",
+          "reportedTitleId": "545408A7",
+          "reportedTitle": "Grand Theft Auto V",
           "screenshots": [],
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-2.0.1-9730",
+            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
             "stage": "stable",
-            "commitShort": "57c3ca140"
+            "commitShort": "2633e8177"
           }
         }
       }
@@ -112009,31 +111901,11 @@
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-08-16",
+    "updatedAt": "2026-07-27",
     "issueNumber": 42,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/42",
     "notes": "Low FPS, but can start and play campaign, important note, if you die you can get stuck in a cutscene loop.",
     "reports": [
-      {
-        "device": "m5 pro",
-        "platform": "macos",
-        "osVersion": "26.5.2",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-08-16",
-        "notes": "Opens black screen closes",
-        "screenshots": [],
-        "source": "github",
-        "build": {
-          "buildId": "macos-self-built-2.0.1-9730-9857",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "2.0.1-9730",
-          "buildNumber": "9857"
-        }
-      },
       {
         "device": "iPhone 17 Pro Max",
         "platform": "ios",
@@ -112395,27 +112267,29 @@
         "status": "playable",
         "perf": "poor",
         "notes": "Low FPS, but can start and play campaign, important note, if you die you can get stuck in a cutscene loop.",
-        "updatedAt": "2026-08-16",
-        "date": "2026-08-16",
-        "reportCount": 17,
+        "updatedAt": "2026-07-27",
+        "date": "2026-07-27",
+        "reportCount": 16,
         "latestReport": {
-          "device": "m5 pro",
-          "platform": "macos",
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
           "osVersion": "26.5.2",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "nothing",
           "perf": "n/a",
-          "date": "2026-08-16",
-          "notes": "Opens black screen closes",
+          "date": "2026-07-27",
+          "notes": "Unable to load, could be bad file but I noticed others not being able to boot up either. So I’m assuming unimplemented file up calls",
           "screenshots": [],
-          "source": "github",
+          "source": "app",
           "build": {
-            "buildId": "macos-self-built-2.0.1-9730-9857",
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
-            "appVersion": "2.0.1-9730",
-            "buildNumber": "9857"
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
           }
         },
         "bestReport": {
@@ -159769,15 +159643,50 @@
       "4E4D0868",
       "4E4D886B"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "loads",
+    "perf": "poor",
     "tags": [],
-    "platforms": [],
-    "lastReport": null,
-    "updatedAt": "",
-    "notes": "",
-    "reports": [],
-    "screenshots": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone Air",
+      "platform": "ios",
+      "osVersion": "27.0",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-08-16",
+    "issueNumber": 664,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/664",
+    "notes": "Hi,\n\nI'm trying to launch Naruto Shippuden - Ultimate Ninja Storm Revolution (Europe) on XeniOS and I'm running into an issue: the screen stays completely frozen and black on launch, the game doesn't start.\n\nWhat I've already tried:\n- Confirmed JIT is active (StikDebug)\n- Tested several settings in Game Settings (Half-Pixel Offset, Allow Invalid Fetch Constants, Mount Cache)\n- Waited several minutes in case it was just shader compilation on first launch\n\nNone of this has fixed the issue so far.\n\nMy setup:\n- Device: [iphone Air]\n- iOS version: [ios 27]\n- XeniOS version: [e.g. 2.0.1-9730]\n\nI can provide the xenia.log file if needed. Thanks in advance for the help!",
+    "reports": [
+      {
+        "device": "iPhone Air",
+        "platform": "ios",
+        "osVersion": "27.0",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "loads",
+        "perf": "poor",
+        "date": "2026-08-16",
+        "notes": "Hi,\n\nI'm trying to launch Naruto Shippuden - Ultimate Ninja Storm Revolution (Europe) on XeniOS and I'm running into an issue: the screen stays completely frozen and black on launch, the game doesn't start.\n\nWhat I've already tried:\n- Confirmed JIT is active (StikDebug)\n- Tested several settings in Game Settings (Half-Pixel Offset, Allow Invalid Fetch Constants, Mount Cache)\n- Waited several minutes in case it was just shader compilation on first launch\n\nNone of this has fixed the issue so far.\n\nMy setup:\n- Device: [iphone Air]\n- iOS version: [ios 27]\n- XeniOS version: [e.g. 2.0.1-9730]\n\nI can provide the xenia.log file if needed. Thanks in advance for the help!",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140"
+        }
+      }
+    ],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4E4D0868/1786900331300-1.jpg"
+    ],
     "summaries": {
       "release": {
         "channel": "release",
@@ -159792,14 +159701,56 @@
       },
       "all": {
         "channel": "all",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "loads",
+        "perf": "poor",
+        "notes": "Hi,\n\nI'm trying to launch Naruto Shippuden - Ultimate Ninja Storm Revolution (Europe) on XeniOS and I'm running into an issue: the screen stays completely frozen and black on launch, the game doesn't start.\n\nWhat I've already tried:\n- Confirmed JIT is active (StikDebug)\n- Tested several settings in Game Settings (Half-Pixel Offset, Allow Invalid Fetch Constants, Mount Cache)\n- Waited several minutes in case it was just shader compilation on first launch\n\nNone of this has fixed the issue so far.\n\nMy setup:\n- Device: [iphone Air]\n- iOS version: [ios 27]\n- XeniOS version: [e.g. 2.0.1-9730]\n\nI can provide the xenia.log file if needed. Thanks in advance for the help!",
+        "updatedAt": "2026-08-16",
+        "date": "2026-08-16",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone Air",
+          "platform": "ios",
+          "osVersion": "27.0",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "loads",
+          "perf": "poor",
+          "date": "2026-08-16",
+          "notes": "Hi,\n\nI'm trying to launch Naruto Shippuden - Ultimate Ninja Storm Revolution (Europe) on XeniOS and I'm running into an issue: the screen stays completely frozen and black on launch, the game doesn't start.\n\nWhat I've already tried:\n- Confirmed JIT is active (StikDebug)\n- Tested several settings in Game Settings (Half-Pixel Offset, Allow Invalid Fetch Constants, Mount Cache)\n- Waited several minutes in case it was just shader compilation on first launch\n\nNone of this has fixed the issue so far.\n\nMy setup:\n- Device: [iphone Air]\n- iOS version: [ios 27]\n- XeniOS version: [e.g. 2.0.1-9730]\n\nI can provide the xenia.log file if needed. Thanks in advance for the help!",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone Air",
+          "platform": "ios",
+          "osVersion": "27.0",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "loads",
+          "perf": "poor",
+          "date": "2026-08-16",
+          "notes": "Hi,\n\nI'm trying to launch Naruto Shippuden - Ultimate Ninja Storm Revolution (Europe) on XeniOS and I'm running into an issue: the screen stays completely frozen and black on launch, the game doesn't start.\n\nWhat I've already tried:\n- Confirmed JIT is active (StikDebug)\n- Tested several settings in Game Settings (Half-Pixel Offset, Allow Invalid Fetch Constants, Mount Cache)\n- Waited several minutes in case it was just shader compilation on first launch\n\nNone of this has fixed the issue so far.\n\nMy setup:\n- Device: [iphone Air]\n- iOS version: [ios 27]\n- XeniOS version: [e.g. 2.0.1-9730]\n\nI can provide the xenia.log file if needed. Thanks in advance for the help!",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
+          }
+        }
       }
     }
   },
@@ -163619,28 +163570,6 @@
         }
       },
       {
-        "device": "iPhone 16 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "perf": "ok",
-        "date": "2026-03-19",
-        "notes": "Game has graphical issues on all cut scenes. Low frame rates during racing but it’s playable. Some freezing here and there. Toggling and u toggling low power mode seems to help when the game freezes.",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d"
-        }
-      },
-      {
         "device": "iPhone 17",
         "platform": "ios",
         "osVersion": "26.3",
@@ -163690,7 +163619,7 @@
         "notes": "the game seems to be insanely bright, with cutscenes having stable audio but all the other times the audio seems to be unstable and the game runs well",
         "updatedAt": "2026-08-15",
         "date": "2026-08-15",
-        "reportCount": 3,
+        "reportCount": 2,
         "latestReport": {
           "device": "iPhone 14 Pro Max",
           "platform": "ios",
