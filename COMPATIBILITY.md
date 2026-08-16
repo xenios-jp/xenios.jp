@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **381 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **382 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **155** · 🔵 In-Game: **69** · 🟡 Intro: **36** · 🟠 Loads: **48** · 🔴 Doesn't Boot: **73**
+> 🟢 Playable: **157** · 🔵 In-Game: **68** · 🟡 Intro: **36** · 🟠 Loads: **48** · 🔴 Doesn't Boot: **73**
 >
-> 📱 iOS: **351** · 🖥️ macOS: **51**
+> 📱 iOS: **352** · 🖥️ macOS: **51**
 
 ## Legend
 
@@ -119,6 +119,7 @@
 | 🟢 | NBA Live 06 | `454107D8` | 📱 iOS | Playable | 👌 OK | iPhone 16e | 2026-03-10 |
 | 🟢 | NBA Street Homecourt | `454107F7` | 📱 iOS | Playable | 🚀 Great | iPhone 16e | 2026-06-07 |
 | 🟢 | Need for Speed Carbon | `454107EC` | 📱 iOS | Playable | 👌 OK | iPhone 14 Pro | 2026-04-14 |
+| 🟢 | Need for Speed Most Wanted (2005) | `454107D9` | 📱 iOS, 🖥️ macOS | Playable | 👌 OK | iPhone 14 Pro Max | 2026-08-15 |
 | 🟢 | Need for Speed: ProStreet | `45410822` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro | 2026-06-20 |
 | 🟢 | Need for Speed: Undercover | `45410876` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-09 |
 | 🟢 | OPERATION DARKNESS | `535507D1` | 📱 iOS | Playable | 🚀 Great | iPad Pro 11 inch 5th Gen | 2026-03-18 |
@@ -155,6 +156,7 @@
 | 🟢 | Steins;Gate Hiyoku Renri no Darling | `465607E8` | 📱 iOS | Playable | 🚀 Great | iPhone 17 | 2026-03-02 |
 | 🟢 | STREET FIGHTER X TEKKEN | `4343080F` | 📱 iOS | Playable | 🐢 Poor | iPhone 16 Pro Max | 2026-03-11 |
 | 🟢 | Super Street Fighter 2 THD | `584108A4` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-06-25 |
+| 🟢 | Superman Returns | `454107ED` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-08-15 |
 | 🟢 | Tenchu Z | `465307D7` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro | 2026-07-03 |
 | 🟢 | Test Drive Unlimited | `494707D4` | 📱 iOS | Playable | 👌 OK | iPhone 17 Pro Max | 2026-03-27 |
 | 🟢 | The Elder Scrolls 4: Oblivion - Game of the Year Edition | `425307D1` | 📱 iOS | Playable | 👌 OK | iPhone 14 Plus | 2026-03-22 |
@@ -218,7 +220,6 @@
 | 🔵 | NBA 2K11 | `5454087A` | 📱 iOS | In-Game | 👌 OK | iPhone 16e | 2026-03-10 |
 | 🔵 | NBA Live 10 | `454108C1` | 📱 iOS | In-Game | 🐢 Poor | iPhone 16e | 2026-03-10 |
 | 🔵 | NBA Street Homecourt | `454107E3` | 📱 iOS | In-Game | 🚀 Great | iPhone 17 Pro Max | 2026-03-09 |
-| 🔵 | Need for Speed Most Wanted (2005) | `454107D9` | 📱 iOS, 🖥️ macOS | In-Game | 👌 OK | iPhone 16 Pro Max | 2026-03-19 |
 | 🔵 | Need for Speed: Rivals | `454109C6` | 📱 iOS | In-Game | 🐢 Poor | iPad Pro 12.9-inch (M2) | 2026-03-16 |
 | 🔵 | NFL Tour | `45410835` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro Max | 2026-03-11 |
 | 🔵 | OutRun Online Arcade | `58410968` | 📱 iOS | In-Game | 🐢 Poor | iPad Pro 13-inch (M5) | 2026-06-11 |
