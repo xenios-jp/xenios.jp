@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T17:24:18.911Z",
+  "generatedAt": "2026-08-17T19:24:29.166Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -7064,8 +7064,32 @@
       "titleId": "4156081C",
       "issueNumber": 569,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/569",
-      "updatedAt": "2026-07-01",
+      "updatedAt": "2026-08-17",
       "entries": [
+        {
+          "id": "comment-5319177572",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/569#issuecomment-5319177572",
+          "author": "xenios-jp",
+          "createdAt": "2026-08-17",
+          "createdAtMs": 1786994422000,
+          "issueNumber": 569,
+          "excerpt": "Crashes on startup",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone12,1",
+            "platform": "iOS",
+            "osVersion": "iOS 26.5.2",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "buildStage": "stable",
+            "commitShort": "`57c3ca140`"
+          }
+        },
         {
           "id": "issue-569",
           "type": "issue",
