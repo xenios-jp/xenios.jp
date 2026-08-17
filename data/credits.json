@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T05:14:08.277Z",
+  "generatedAt": "2026-08-17T04:30:10.732Z",
   "totalProjects": 4,
   "contributors": [
     {
@@ -1376,6 +1376,16 @@
       "displayName": "Vothm",
       "profileUrl": "https://github.com/Vothm",
       "avatarUrl": "https://avatars.githubusercontent.com/u/20999958?v=4",
+      "projects": [
+        "xenia-canary",
+        "xenia-edge"
+      ]
+    },
+    {
+      "id": "user:wawwefix",
+      "displayName": "WawWeFix",
+      "profileUrl": "https://github.com/WawWeFix",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/283806867?v=4",
       "projects": [
         "xenia-canary",
         "xenia-edge"
