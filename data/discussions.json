@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T19:24:29.166Z",
+  "generatedAt": "2026-08-17T23:10:49.645Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -4096,8 +4096,34 @@
       "titleId": "545408A7",
       "issueNumber": 663,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/663",
-      "updatedAt": "2026-08-16",
+      "updatedAt": "2026-08-17",
       "entries": [
+        {
+          "id": "comment-5321284171",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/663#issuecomment-5321284171",
+          "author": "xenios-jp",
+          "createdAt": "2026-08-17",
+          "createdAtMs": 1787008017000,
+          "issueNumber": 663,
+          "excerpt": "I don’t know what’s the problem",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408A7/1787008012244-1.jpg"
+          ],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone12,1",
+            "platform": "iOS",
+            "osVersion": "iOS 26.2.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "buildStage": "stable",
+            "commitShort": "`57c3ca140`"
+          }
+        },
         {
           "id": "issue-663",
           "type": "issue",
@@ -4207,18 +4233,6 @@
             "buildStage": "stable",
             "commitShort": "`056d2f64d`"
           }
-        },
-        {
-          "id": "comment-5059429960",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/516#issuecomment-5059429960",
-          "author": "brayandeluna299-stack",
-          "createdAt": "2026-07-23",
-          "createdAtMs": 1784815911000,
-          "issueNumber": 516,
-          "excerpt": "Fmfkdk",
-          "images": [],
-          "meta": {}
         }
       ]
     },
