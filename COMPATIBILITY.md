@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **383 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **384 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **157** · 🔵 In-Game: **67** · 🟡 Intro: **37** · 🟠 Loads: **49** · 🔴 Doesn't Boot: **73**
+> 🟢 Playable: **158** · 🔵 In-Game: **67** · 🟡 Intro: **37** · 🟠 Loads: **49** · 🔴 Doesn't Boot: **73**
 >
-> 📱 iOS: **353** · 🖥️ macOS: **50**
+> 📱 iOS: **353** · 🖥️ macOS: **51**
 
 ## Legend
 
@@ -103,6 +103,7 @@
 | 🟢 | Marble Blast Ultra | `584107D7` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro Max | 2026-05-27 |
 | 🟢 | Marvel Ultimate Alliance 2 | `4156082F` | 📱 iOS | Playable | 👌 OK | iPhone 13 Pro | 2026-03-09 |
 | 🟢 | Metal Gear Rising: Revengeance | `4B4E080A` | 📱 iOS | Playable | 🚀 Great | iPad Pro 13-inch (M5) | 2026-06-29 |
+| 🟢 | METAL GEAR SOLID HD EDITION 2 & 3 (Metal Gear Solid HD Collection) | `4B4E0840` | 🖥️ macOS | Playable | 👌 OK | MacBook Air (M2) | 2026-08-21 |
 | 🟢 | METAL GEAR SOLID PEACE WALKER HD EDITION | `4B4E083C` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Plus | 2026-03-18 |
 | 🟢 | Metal Slug 3 | `584108CF` | 📱 iOS | Playable | 🚀 Great | iPhone 15 | 2026-06-07 |
 | 🟢 | Minecraft: Xbox 360 Edition | `4D530A81` | 📱 iOS | Playable | 👌 OK | iPhone 14 Pro Max | 2026-05-05 |

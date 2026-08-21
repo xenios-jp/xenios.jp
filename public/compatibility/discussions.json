@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T23:10:49.645Z",
+  "generatedAt": "2026-08-21T10:37:10.965Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -4043,6 +4043,198 @@
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
           "images": [],
           "meta": {}
+        }
+      ]
+    },
+    "4B4E0840": {
+      "titleId": "4B4E0840",
+      "issueNumber": 669,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/669",
+      "updatedAt": "2026-08-21",
+      "entries": [
+        {
+          "id": "issue-669",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/669",
+          "author": "Nuriuo",
+          "createdAt": "2026-08-21",
+          "createdAtMs": 1787308489000,
+          "issueNumber": 669,
+          "excerpt": "MGS2: The game runs at 60 FPS with no significant drops. Any resolution above 720p breaks the game’s visuals. Random crashes occur, mostly due to heat or switching between areas too quickly. There are almost no visual issues, aside from some transparency problems, such as the glasses of one character and the surface of the water in a small part of the game. Some people recommend disabling GPU invalid fetch constants to fix transparency issues, but doing so causes even worse graphical glitches.\n\nMGS3: Unlike MGS2, this game has no resolution-related problems. However, frame drops are much more severe, even at 720p, and FPS below 40 causes slow motion. This happens frequently in vast, bright areas and during boss fights, accounting for roughly 30% of the game. Random crashes are also present.\n\nConclusion: While MGS2 is absolutely playable, MGS3’s slowdowns cannot be overlooked. The main advantages of this version are its modern controller layout and the lack of pressure-sensitive button requirements.",
+          "images": [],
+          "meta": {}
+        }
+      ]
+    },
+    "555308C3": {
+      "titleId": "555308C3",
+      "issueNumber": 668,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/668",
+      "updatedAt": "2026-08-21",
+      "entries": [
+        {
+          "id": "issue-668",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/668",
+          "author": "xenios-jp",
+          "createdAt": "2026-08-21",
+          "createdAtMs": 1787276147000,
+          "issueNumber": 668,
+          "excerpt": "No, it’s horrible black screen maybe loading but then insta crash. I’m sorry but maybe iPad A16 won’t do very much on this app.",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPad (A16)",
+            "platform": "iOS",
+            "osVersion": "iOS 27.0",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "buildStage": "stable",
+            "commitShort": "`57c3ca140`"
+          }
+        },
+        {
+          "id": "issue-99",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/99",
+          "author": "QualityControled",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1773008045000,
+          "issueNumber": 99,
+          "excerpt": "Pre-rendered scenes for intro have graphical and audio issues.\nUpon clicking \"New Game\", opening screen only has graphical issues. \nWhen the game renders, assets take a second to load in. But, game speed is about half what it should be.",
+          "images": [],
+          "meta": {}
+        }
+      ]
+    },
+    "545407F2": {
+      "titleId": "545407F2",
+      "issueNumber": 667,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/667",
+      "updatedAt": "2026-08-18",
+      "entries": [
+        {
+          "id": "issue-667",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/667",
+          "author": "xenios-jp",
+          "createdAt": "2026-08-18",
+          "createdAtMs": 1787051602000,
+          "issueNumber": 667,
+          "excerpt": "Black screen and down game",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 16 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 18.5",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "buildStage": "stable",
+            "commitShort": "`57c3ca140`"
+          }
+        },
+        {
+          "id": "comment-5262723865",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/41#issuecomment-5262723865",
+          "author": "udance4ever",
+          "createdAt": "2026-08-12",
+          "createdAtMs": 1786512231000,
+          "issueNumber": 41,
+          "excerpt": "Preview 2.0.1-9849 on 2020 M1 MacBookPro boots and gets in-game but with intermittent rendering issues\n\n<img width=\"1920\" height=\"1080\" alt=\"Image\" src=\" />\n\n<img width=\"1920\" height=\"1080\" alt=\"Image\" src=\" />",
+          "images": [],
+          "meta": {}
+        },
+        {
+          "id": "comment-5066368684",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/508#issuecomment-5066368684",
+          "author": "xenios-jp",
+          "createdAt": "2026-07-24",
+          "createdAtMs": 1784869813000,
+          "issueNumber": 508,
+          "excerpt": "Every time I play this game it just shows a black screen then after some time I just get kicked out the app and just crashes every time I don’t know how to fix it I watched tutorials but the game just keeps on crashing",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPad (A16)",
+            "platform": "iOS",
+            "osVersion": "iOS 27.0",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "buildStage": "stable",
+            "commitShort": "`57c3ca140`"
+          }
+        },
+        {
+          "id": "comment-5019313795",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/508#issuecomment-5019313795",
+          "author": "xenios-jp",
+          "createdAt": "2026-07-20",
+          "createdAtMs": 1784528147000,
+          "issueNumber": 508,
+          "excerpt": "Low frame rates in game",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 16e",
+            "platform": "iOS",
+            "osVersion": "iOS 26.5.2",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "buildStage": "stable",
+            "commitShort": "`57c3ca140`"
+          }
+        },
+        {
+          "id": "comment-4758672712",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/508#issuecomment-4758672712",
+          "author": "Lazurass",
+          "createdAt": "2026-06-20",
+          "createdAtMs": 1781968228000,
+          "issueNumber": 508,
+          "excerpt": "I just tried this on my iPhone 17 base model and it’s pretty stable but there are stutters and my phone overheated really fast also the audio is really bad",
+          "images": [],
+          "meta": {}
+        },
+        {
+          "id": "comment-4755648995",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/508#issuecomment-4755648995",
+          "author": "xenios-jp",
+          "createdAt": "2026-06-20",
+          "createdAtMs": 1781915039000,
+          "issueNumber": 508,
+          "excerpt": "The Game Working Perfectly but around 10-20 FPS and sometimes Increases to 50 FPS",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.5.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "buildStage": "stable",
+            "commitShort": "`57c3ca140`"
+          }
         }
       ]
     },
@@ -8833,134 +9025,6 @@
             "buildNumber": "9280",
             "buildStage": "stable",
             "commitShort": "`2633e8177`"
-          }
-        }
-      ]
-    },
-    "545407F2": {
-      "titleId": "545407F2",
-      "issueNumber": 41,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/41",
-      "updatedAt": "2026-08-12",
-      "entries": [
-        {
-          "id": "comment-5262723865",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/41#issuecomment-5262723865",
-          "author": "udance4ever",
-          "createdAt": "2026-08-12",
-          "createdAtMs": 1786512231000,
-          "issueNumber": 41,
-          "excerpt": "Preview 2.0.1-9849 on 2020 M1 MacBookPro boots and gets in-game but with intermittent rendering issues\n\n<img width=\"1920\" height=\"1080\" alt=\"Image\" src=\" />\n\n<img width=\"1920\" height=\"1080\" alt=\"Image\" src=\" />",
-          "images": [],
-          "meta": {}
-        },
-        {
-          "id": "comment-5066368684",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/508#issuecomment-5066368684",
-          "author": "xenios-jp",
-          "createdAt": "2026-07-24",
-          "createdAtMs": 1784869813000,
-          "issueNumber": 508,
-          "excerpt": "Every time I play this game it just shows a black screen then after some time I just get kicked out the app and just crashes every time I don’t know how to fix it I watched tutorials but the game just keeps on crashing",
-          "images": [],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPad (A16)",
-            "platform": "iOS",
-            "osVersion": "iOS 27.0",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "buildStage": "stable",
-            "commitShort": "`57c3ca140`"
-          }
-        },
-        {
-          "id": "comment-5019313795",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/508#issuecomment-5019313795",
-          "author": "xenios-jp",
-          "createdAt": "2026-07-20",
-          "createdAtMs": 1784528147000,
-          "issueNumber": 508,
-          "excerpt": "Low frame rates in game",
-          "images": [],
-          "meta": {
-            "status": "playable",
-            "perf": "ok",
-            "device": "iPhone 16e",
-            "platform": "iOS",
-            "osVersion": "iOS 26.5.2",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "buildStage": "stable",
-            "commitShort": "`57c3ca140`"
-          }
-        },
-        {
-          "id": "comment-4758672712",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/508#issuecomment-4758672712",
-          "author": "Lazurass",
-          "createdAt": "2026-06-20",
-          "createdAtMs": 1781968228000,
-          "issueNumber": 508,
-          "excerpt": "I just tried this on my iPhone 17 base model and it’s pretty stable but there are stutters and my phone overheated really fast also the audio is really bad",
-          "images": [],
-          "meta": {}
-        },
-        {
-          "id": "comment-4755648995",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/508#issuecomment-4755648995",
-          "author": "xenios-jp",
-          "createdAt": "2026-06-20",
-          "createdAtMs": 1781915039000,
-          "issueNumber": 508,
-          "excerpt": "The Game Working Perfectly but around 10-20 FPS and sometimes Increases to 50 FPS",
-          "images": [],
-          "meta": {
-            "status": "playable",
-            "perf": "ok",
-            "device": "iPhone 17 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 26.5.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "buildStage": "stable",
-            "commitShort": "`57c3ca140`"
-          }
-        },
-        {
-          "id": "issue-508",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/508",
-          "author": "xenios-jp",
-          "createdAt": "2026-06-12",
-          "createdAtMs": 1781231540000,
-          "issueNumber": 508,
-          "excerpt": "the lost and damned working whule the balleds of gay tony crash \nperformance soso like ps3 version",
-          "images": [],
-          "meta": {
-            "status": "playable",
-            "perf": "ok",
-            "device": "iPad Pro 11-inch (M4)",
-            "platform": "iOS",
-            "osVersion": "iOS 26.5",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "buildStage": "stable",
-            "commitShort": "`57c3ca140`"
           }
         }
       ]
@@ -18032,26 +18096,6 @@
             "buildStage": "stable",
             "commitShort": "`2633e8177`"
           }
-        }
-      ]
-    },
-    "555308C3": {
-      "titleId": "555308C3",
-      "issueNumber": 99,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/99",
-      "updatedAt": "2026-06-25",
-      "entries": [
-        {
-          "id": "issue-99",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/99",
-          "author": "QualityControled",
-          "createdAt": "2026-03-08",
-          "createdAtMs": 1773008045000,
-          "issueNumber": 99,
-          "excerpt": "Pre-rendered scenes for intro have graphical and audio issues.\nUpon clicking \"New Game\", opening screen only has graphical issues. \nWhen the game renders, assets take a second to load in. But, game speed is about half what it should be.",
-          "images": [],
-          "meta": {}
         }
       ]
     },
