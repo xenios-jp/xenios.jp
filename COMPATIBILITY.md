@@ -2,7 +2,7 @@
 
 > **384 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **158** · 🔵 In-Game: **67** · 🟡 Intro: **37** · 🟠 Loads: **49** · 🔴 Doesn't Boot: **73**
+> 🟢 Playable: **159** · 🔵 In-Game: **67** · 🟡 Intro: **37** · 🟠 Loads: **49** · 🔴 Doesn't Boot: **72**
 >
 > 📱 iOS: **353** · 🖥️ macOS: **51**
 
@@ -131,6 +131,7 @@
 | 🟢 | Pro Evolution Soccer 2011 / PES 2011 | `4B4E081D` | 📱 iOS | Playable | 🐢 Poor | iPhone 16e | 2026-05-20 |
 | 🟢 | Pro Evolution Soccer 2012 / PES 2012 | `4B4E0837` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro | 2026-04-25 |
 | 🟢 | Pro Evolution Soccer 2016 / PES 2016 | `4B4E0861` | 📱 iOS | Playable | 🐢 Poor | iPhone 16e | 2026-04-25 |
+| 🟢 | PROTOTYPE | `4156084E` | 📱 iOS | Playable | 🐢 Poor | iPhone 17 Pro Max | 2026-08-23 |
 | 🟢 | Pure | `425607D9` | 📱 iOS | Playable | 👌 OK | iPad Pro 11 inch 5th Gen | 2026-03-18 |
 | 🟢 | Quantum of Solace | `415607FF` | 📱 iOS | Playable | 👌 OK | iPad Pro 12.9-inch (M2) | 2026-03-11 |
 | 🟢 | Rayman Legends | `555308C3` | 📱 iOS | Playable | 🚀 Great | iPad Pro M4 | 2026-08-21 |
@@ -377,7 +378,6 @@
 | 🔴 | Ninja Gaiden II | `544307D5` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 14 | 2026-03-24 |
 | 🔴 | Plants vs Zombies Garden Warfare | `454109C9` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone XS Max | 2026-04-18 |
 | 🔴 | Pro Evolution Soccer 2015 / PES 2015 | `4B4E085F` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 12 Pro | 2026-08-11 |
-| 🔴 | PROTOTYPE | `4156084E` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 14 Pro | 2026-06-11 |
 | 🔴 | Resident Evil 4 | `4343081C` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16e | 2026-03-14 |
 | 🔴 | SEGA Rally Online Arcade | `58410AC2` | 🖥️ macOS, 📱 iOS | Doesn't Boot | ➖ N/A | MacBook Pro (M1) | 2026-08-15 |
 | 🔴 | Silent Hill: Downpour | `4B4E0823` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-22 |

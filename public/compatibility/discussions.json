@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T10:37:10.965Z",
+  "generatedAt": "2026-08-23T04:46:51.712Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -4043,6 +4043,122 @@
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
           "images": [],
           "meta": {}
+        }
+      ]
+    },
+    "4E4D0856": {
+      "titleId": "4E4D0856",
+      "issueNumber": 670,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/670",
+      "updatedAt": "2026-08-22",
+      "entries": [
+        {
+          "id": "issue-670",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/670",
+          "author": "xenios-jp",
+          "createdAt": "2026-08-22",
+          "createdAtMs": 1787396470000,
+          "issueNumber": 670,
+          "excerpt": "Launch it, crashes in selection!",
+          "images": [],
+          "meta": {
+            "status": "loads",
+            "perf": "poor",
+            "device": "iPhone 15 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.0.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "buildStage": "stable",
+            "commitShort": "`57c3ca140`"
+          }
+        },
+        {
+          "id": "comment-4059144056",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/186#issuecomment-4059144056",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-14",
+          "createdAtMs": 1773453372000,
+          "issueNumber": 186,
+          "excerpt": "As of the new update, Budokai 3’s Dragon Universe mode no longer shows a black screen. Enemy characters are now visible. Budokai 3 runs great. In Budokai 1, the character select screen still has texture glitches, but the game is no longer a black screen during battles.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4E4D0856/1773453367467-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4E4D0856/1773453367467-2.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4E4D0856/1773453367467-3.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4E4D0856/1773453367467-4.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4E4D0856/1773453367467-5.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 16 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.2",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "buildStage": "stable",
+            "commitShort": "`056d2f64d`"
+          }
+        },
+        {
+          "id": "comment-4036261342",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/186#issuecomment-4036261342",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-11",
+          "createdAtMs": 1773203084000,
+          "issueNumber": 186,
+          "excerpt": "In my case I had to convert the dumped game’s ISO file using extract-iso. The game itself is a launcher for each .xex file for the individual games. Each game must be manually booted by pressing the + button in XeniOS and selecting the respective folder for each title (DBZ1 for Budokai 1 and DBZ3 for Budokai 3). Both games have good performance. Budokai 1 has more graphical issues than Budokai 3. In the character select screen for Budokai 1, there are graphical glitches with the characters’ artwork. When entering a battle, a black screen appears. For Budokai 3, a black screen appears when entering Dragon Universe mode. During battles, the enemy character is invisible and only appears when using a blast attack (ex. Kamehameha), teleporting, activating Hyper Mode, or triggering Dragon Rush. Overall, both games run very well, with Budokai 3 having fewer issues.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4E4D0856/1773203079327-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4E4D0856/1773203079327-2.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4E4D0856/1773203079327-3.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4E4D0856/1773203079327-4.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4E4D0856/1773203079327-5.jpg"
+          ],
+          "meta": {
+            "status": "ingame",
+            "perf": "great",
+            "device": "iPhone 16 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.2",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "buildStage": "stable",
+            "commitShort": "`2633e8177`"
+          }
+        },
+        {
+          "id": "issue-186",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/186",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-11",
+          "createdAtMs": 1773189807000,
+          "issueNumber": 186,
+          "excerpt": "Loads into game selection and crashes.",
+          "images": [],
+          "meta": {
+            "status": "loads",
+            "perf": "poor",
+            "device": "iPad (A16)",
+            "platform": "iOS",
+            "osVersion": "iOS 18.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "buildStage": "stable",
+            "commitShort": "`2633e8177`"
+          }
         }
       ]
     },
@@ -9143,9 +9259,9 @@
     },
     "4156084E": {
       "titleId": "4156084E",
-      "issueNumber": 504,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/504",
-      "updatedAt": "2026-06-11",
+      "issueNumber": 44,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/44",
+      "updatedAt": "2026-08-23",
       "entries": [
         {
           "id": "issue-504",
@@ -16786,98 +16902,6 @@
             "device": "iPhone 16 Pro Max",
             "platform": "iOS",
             "osVersion": "iOS 26.2",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "buildStage": "stable",
-            "commitShort": "`2633e8177`"
-          }
-        }
-      ]
-    },
-    "4E4D0856": {
-      "titleId": "4E4D0856",
-      "issueNumber": 186,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/186",
-      "updatedAt": "2026-03-14",
-      "entries": [
-        {
-          "id": "comment-4059144056",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/186#issuecomment-4059144056",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-14",
-          "createdAtMs": 1773453372000,
-          "issueNumber": 186,
-          "excerpt": "As of the new update, Budokai 3’s Dragon Universe mode no longer shows a black screen. Enemy characters are now visible. Budokai 3 runs great. In Budokai 1, the character select screen still has texture glitches, but the game is no longer a black screen during battles.",
-          "images": [
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4E4D0856/1773453367467-1.jpg",
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4E4D0856/1773453367467-2.jpg",
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4E4D0856/1773453367467-3.jpg",
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4E4D0856/1773453367467-4.jpg",
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4E4D0856/1773453367467-5.jpg"
-          ],
-          "meta": {
-            "status": "playable",
-            "perf": "great",
-            "device": "iPhone 16 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 26.2",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "buildStage": "stable",
-            "commitShort": "`056d2f64d`"
-          }
-        },
-        {
-          "id": "comment-4036261342",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/186#issuecomment-4036261342",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-11",
-          "createdAtMs": 1773203084000,
-          "issueNumber": 186,
-          "excerpt": "In my case I had to convert the dumped game’s ISO file using extract-iso. The game itself is a launcher for each .xex file for the individual games. Each game must be manually booted by pressing the + button in XeniOS and selecting the respective folder for each title (DBZ1 for Budokai 1 and DBZ3 for Budokai 3). Both games have good performance. Budokai 1 has more graphical issues than Budokai 3. In the character select screen for Budokai 1, there are graphical glitches with the characters’ artwork. When entering a battle, a black screen appears. For Budokai 3, a black screen appears when entering Dragon Universe mode. During battles, the enemy character is invisible and only appears when using a blast attack (ex. Kamehameha), teleporting, activating Hyper Mode, or triggering Dragon Rush. Overall, both games run very well, with Budokai 3 having fewer issues.",
-          "images": [
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4E4D0856/1773203079327-1.jpg",
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4E4D0856/1773203079327-2.jpg",
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4E4D0856/1773203079327-3.jpg",
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4E4D0856/1773203079327-4.jpg",
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4E4D0856/1773203079327-5.jpg"
-          ],
-          "meta": {
-            "status": "ingame",
-            "perf": "great",
-            "device": "iPhone 16 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 26.2",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "buildStage": "stable",
-            "commitShort": "`2633e8177`"
-          }
-        },
-        {
-          "id": "issue-186",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/186",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-11",
-          "createdAtMs": 1773189807000,
-          "issueNumber": 186,
-          "excerpt": "Loads into game selection and crashes.",
-          "images": [],
-          "meta": {
-            "status": "loads",
-            "perf": "poor",
-            "device": "iPad (A16)",
-            "platform": "iOS",
-            "osVersion": "iOS 18.3",
             "gpuBackend": "MSL",
             "buildChannel": "self-built",
             "appVersion": "1.0.0",

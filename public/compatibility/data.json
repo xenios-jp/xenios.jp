@@ -76677,8 +76677,8 @@
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-08-22",
-    "issueNumber": 186,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/186",
+    "issueNumber": 670,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/670",
     "notes": "As of the new update, Budokai 3’s Dragon Universe mode no longer shows a black screen. Enemy characters are now visible. Budokai 3 runs great. In Budokai 1, the character select screen still has texture glitches, but the game is no longer a black screen during battles.",
     "reports": [
       {
@@ -186245,24 +186245,44 @@
       "4156084E",
       "565507EF"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "playable",
+    "perf": "poor",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 14 Pro",
+      "device": "iPhone 17 Pro Max",
       "platform": "ios",
-      "osVersion": "18.1.1",
+      "osVersion": "26.6",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-06-11",
+    "updatedAt": "2026-08-23",
     "issueNumber": 44,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/44",
-    "notes": "When the game boot Nothing just black screen and the app gets closed",
+    "notes": "Runs between 20-30 fps poorly/ok",
     "reports": [
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.6",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "poor",
+        "date": "2026-08-23",
+        "notes": "Runs between 20-30 fps poorly/ok",
+        "screenshots": [],
+        "source": "github",
+        "build": {
+          "buildId": "ios-self-built-2.1-26.6",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.1",
+          "buildNumber": "26.6"
+        }
+      },
       {
         "device": "iPhone 14 Pro",
         "platform": "ios",
@@ -186325,54 +186345,50 @@
       },
       "all": {
         "channel": "all",
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "When the game boot Nothing just black screen and the app gets closed",
-        "updatedAt": "2026-06-11",
-        "date": "2026-06-11",
-        "reportCount": 2,
+        "status": "playable",
+        "perf": "poor",
+        "notes": "Runs between 20-30 fps poorly/ok",
+        "updatedAt": "2026-08-23",
+        "date": "2026-08-23",
+        "reportCount": 3,
         "latestReport": {
-          "device": "iPhone 14 Pro",
+          "device": "iPhone 17 Pro Max",
           "platform": "ios",
-          "osVersion": "18.1.1",
+          "osVersion": "26.6",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-06-11",
-          "notes": "When the game boot Nothing just black screen and the app gets closed",
+          "status": "playable",
+          "perf": "poor",
+          "date": "2026-08-23",
+          "notes": "Runs between 20-30 fps poorly/ok",
           "screenshots": [],
-          "source": "app",
+          "source": "github",
           "build": {
-            "buildId": "ios-self-built-2.0.1-9730",
+            "buildId": "ios-self-built-2.1-26.6",
             "channel": "self-built",
             "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.1",
+            "buildNumber": "26.6"
           }
         },
         "bestReport": {
-          "device": "iPhone 14 Pro",
+          "device": "iPhone 17 Pro Max",
           "platform": "ios",
-          "osVersion": "18.1.1",
+          "osVersion": "26.6",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-06-11",
-          "notes": "When the game boot Nothing just black screen and the app gets closed",
+          "status": "playable",
+          "perf": "poor",
+          "date": "2026-08-23",
+          "notes": "Runs between 20-30 fps poorly/ok",
           "screenshots": [],
-          "source": "app",
+          "source": "github",
           "build": {
-            "buildId": "ios-self-built-2.0.1-9730",
+            "buildId": "ios-self-built-2.1-26.6",
             "channel": "self-built",
             "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.1",
+            "buildNumber": "26.6"
           }
         }
       }
