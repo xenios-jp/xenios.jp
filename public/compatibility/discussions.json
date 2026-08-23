@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T10:45:58.349Z",
+  "generatedAt": "2026-08-23T10:56:37.248Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -4041,6 +4041,26 @@
           "createdAtMs": 1773517964000,
           "issueNumber": 263,
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
+          "images": [],
+          "meta": {}
+        }
+      ]
+    },
+    "4D5308BC": {
+      "titleId": "4D5308BC",
+      "issueNumber": 673,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/673",
+      "updatedAt": "2026-08-23",
+      "entries": [
+        {
+          "id": "issue-673",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/673",
+          "author": "kineticvenergy",
+          "createdAt": "2026-08-23",
+          "createdAtMs": 1787482467000,
+          "issueNumber": 673,
+          "excerpt": "Needed to change audio config to SDL for audio to work. Crashes during explosions, ground pounds and areas with lots of enemies.",
           "images": [],
           "meta": {}
         }

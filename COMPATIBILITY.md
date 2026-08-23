@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **385 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **386 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **160** · 🔵 In-Game: **67** · 🟡 Intro: **37** · 🟠 Loads: **49** · 🔴 Doesn't Boot: **72**
+> 🟢 Playable: **160** · 🔵 In-Game: **68** · 🟡 Intro: **37** · 🟠 Loads: **49** · 🔴 Doesn't Boot: **72**
 >
-> 📱 iOS: **353** · 🖥️ macOS: **52**
+> 📱 iOS: **353** · 🖥️ macOS: **53**
 
 ## Legend
 
@@ -190,6 +190,7 @@
 | 🔵 | Burnout Paradise | `45410806` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro Max | 2026-03-12 |
 | 🔵 | Burnout Revenge | `454107DC` | 📱 iOS | In-Game | 🐢 Poor | iPhone 15 | 2026-08-05 |
 | 🔵 | Call Of Duty: World At War | `4156081C` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 | 2026-08-17 |
+| 🔵 | Crackdown 2 | `4D5308BC` | 🖥️ macOS | In-Game | 👌 OK | Mac mini (M4) | 2026-08-23 |
 | 🔵 | DB Raging Blast | `4E4D0803` | 📱 iOS | In-Game | 🐢 Poor | iPad Pro (M2) | 2026-03-09 |
 | 🔵 | Dead Island Riptide | `4B4D07F2` | 📱 iOS | In-Game | 🐢 Poor | iPhone 14 Pro | 2026-03-17 |
 | 🔵 | Deus Ex: Human Revolution - Director's Cut | `535107FA` | 🖥️ macOS | In-Game | 👌 OK | MacBook Pro (M1) | 2026-08-11 |

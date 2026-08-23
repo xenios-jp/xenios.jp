@@ -59624,14 +59624,45 @@
     "titleIds": [
       "4D5308BC"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "ingame",
+    "perf": "ok",
     "tags": [],
-    "platforms": [],
-    "lastReport": null,
-    "updatedAt": "",
-    "notes": "",
-    "reports": [],
+    "platforms": [
+      "macos"
+    ],
+    "lastReport": {
+      "device": "Mac mini (M4)",
+      "platform": "macos",
+      "osVersion": "26.5.2 (for macos)",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-08-23",
+    "issueNumber": 673,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/673",
+    "notes": "Needed to change audio config to SDL for audio to work. Crashes during explosions, ground pounds and areas with lots of enemies.",
+    "reports": [
+      {
+        "device": "Mac mini (M4)",
+        "platform": "macos",
+        "osVersion": "26.5.2 (for macos)",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "ok",
+        "date": "2026-08-23",
+        "notes": "Needed to change audio config to SDL for audio to work. Crashes during explosions, ground pounds and areas with lots of enemies.",
+        "screenshots": [],
+        "source": "github",
+        "build": {
+          "buildId": "macos-self-built-2.0.1-9730-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1-9730",
+          "buildNumber": "9730"
+        }
+      }
+    ],
     "screenshots": [],
     "summaries": {
       "release": {
@@ -59647,14 +59678,52 @@
       },
       "all": {
         "channel": "all",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "ingame",
+        "perf": "ok",
+        "notes": "Needed to change audio config to SDL for audio to work. Crashes during explosions, ground pounds and areas with lots of enemies.",
+        "updatedAt": "2026-08-23",
+        "date": "2026-08-23",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "Mac mini (M4)",
+          "platform": "macos",
+          "osVersion": "26.5.2 (for macos)",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "ok",
+          "date": "2026-08-23",
+          "notes": "Needed to change audio config to SDL for audio to work. Crashes during explosions, ground pounds and areas with lots of enemies.",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "buildId": "macos-self-built-2.0.1-9730-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1-9730",
+            "buildNumber": "9730"
+          }
+        },
+        "bestReport": {
+          "device": "Mac mini (M4)",
+          "platform": "macos",
+          "osVersion": "26.5.2 (for macos)",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "ok",
+          "date": "2026-08-23",
+          "notes": "Needed to change audio config to SDL for audio to work. Crashes during explosions, ground pounds and areas with lots of enemies.",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "buildId": "macos-self-built-2.0.1-9730-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1-9730",
+            "buildNumber": "9730"
+          }
+        }
       }
     }
   },
