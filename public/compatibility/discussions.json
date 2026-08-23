@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T04:46:51.712Z",
+  "generatedAt": "2026-08-23T10:45:58.349Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -4041,6 +4041,26 @@
           "createdAtMs": 1773517964000,
           "issueNumber": 263,
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
+          "images": [],
+          "meta": {}
+        }
+      ]
+    },
+    "4D5307DC": {
+      "titleId": "4D5307DC",
+      "issueNumber": 672,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/672",
+      "updatedAt": "2026-08-23",
+      "entries": [
+        {
+          "id": "issue-672",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/672",
+          "author": "kineticvenergy",
+          "createdAt": "2026-08-23",
+          "createdAtMs": 1787481862000,
+          "issueNumber": 672,
+          "excerpt": "Campaign playable from start to end. Occasional framerate drops. Occasional freezes.",
           "images": [],
           "meta": {}
         }
