@@ -57,7 +57,7 @@
 | 🟢 | DOA5 Ultimate | `4B5607DA` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-08-09 |
 | 🟢 | Dragon Age 2 | `4541090B` | 🖥️ macOS | Playable | 🚀 Great | M1 iMac (2021) | 2026-07-26 |
 | 🟢 | Dragon Age: Origins - Ultimate Edition | `454108C0` | 🖥️ macOS | Playable | 🚀 Great | Mac mini (M4) | 2026-03-15 |
-| 🟢 | Dragon Ball Z Budokai HD Collection | `4E4D0856` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro Max | 2026-03-14 |
+| 🟢 | Dragon Ball Z Budokai HD Collection | `4E4D0856` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro Max | 2026-08-22 |
 | 🟢 | Dragon Ball Z Ultimate Tenkaichi | `4E4D0846` | 📱 iOS | Playable | 👌 OK | iPad16,9 | 2026-06-11 |
 | 🟢 | Driver: San Francisco | `5553087E` | 📱 iOS | Playable | 👌 OK | iPhone 14 Pro Max | 2026-07-07 |
 | 🟢 | DuckTales Remastered | `584113C6` | 📱 iOS | Playable | 🐢 Poor | iPhone 14 Pro Max | 2026-03-25 |

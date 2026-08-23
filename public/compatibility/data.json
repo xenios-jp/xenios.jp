@@ -76676,11 +76676,33 @@
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-14",
+    "updatedAt": "2026-08-22",
     "issueNumber": 186,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/186",
     "notes": "As of the new update, Budokai 3’s Dragon Universe mode no longer shows a black screen. Enemy characters are now visible. Budokai 3 runs great. In Budokai 1, the character select screen still has texture glitches, but the game is no longer a black screen during battles.",
     "reports": [
+      {
+        "device": "iPhone 15 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.0.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "loads",
+        "perf": "poor",
+        "date": "2026-08-22",
+        "notes": "Launch it, crashes in selection!",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140"
+        }
+      },
       {
         "device": "iPhone 16 Pro Max",
         "platform": "ios",
@@ -76777,29 +76799,29 @@
         "status": "playable",
         "perf": "great",
         "notes": "As of the new update, Budokai 3’s Dragon Universe mode no longer shows a black screen. Enemy characters are now visible. Budokai 3 runs great. In Budokai 1, the character select screen still has texture glitches, but the game is no longer a black screen during battles.",
-        "updatedAt": "2026-03-14",
-        "date": "2026-03-14",
-        "reportCount": 3,
+        "updatedAt": "2026-08-22",
+        "date": "2026-08-22",
+        "reportCount": 4,
         "latestReport": {
-          "device": "iPhone 16 Pro Max",
+          "device": "iPhone 15 Pro Max",
           "platform": "ios",
-          "osVersion": "26.2",
+          "osVersion": "26.0.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-03-14",
-          "notes": "As of the new update, Budokai 3’s Dragon Universe mode no longer shows a black screen. Enemy characters are now visible. Budokai 3 runs great. In Budokai 1, the character select screen still has texture glitches, but the game is no longer a black screen during battles.",
+          "status": "loads",
+          "perf": "poor",
+          "date": "2026-08-22",
+          "notes": "Launch it, crashes in selection!",
           "screenshots": [],
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
             "stage": "stable",
-            "commitShort": "056d2f64d"
+            "commitShort": "57c3ca140"
           }
         },
         "bestReport": {
