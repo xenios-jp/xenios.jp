@@ -48156,41 +48156,20 @@
     "perf": "n/a",
     "tags": [],
     "platforms": [
-      "ios",
-      "macos"
+      "ios"
     ],
     "lastReport": {
-      "device": "MacBook Pro (M4)",
-      "platform": "macos",
-      "osVersion": "26.7 Beta 5",
+      "device": "iPhone 13",
+      "platform": "ios",
+      "osVersion": "26.3",
       "arch": "arm64",
-      "gpuBackend": "msc"
+      "gpuBackend": "msl"
     },
-    "updatedAt": "2026-08-25",
+    "updatedAt": "2026-03-14",
     "issueNumber": 143,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/143",
-    "notes": "Shows Black Ops III logo then black screen forever.",
+    "notes": "Black screen",
     "reports": [
-      {
-        "device": "MacBook Pro (M4)",
-        "platform": "macos",
-        "osVersion": "26.7 Beta 5",
-        "arch": "arm64",
-        "gpuBackend": "msc",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-08-25",
-        "notes": "Shows Black Ops III logo then black screen forever.",
-        "screenshots": [],
-        "source": "github",
-        "build": {
-          "buildId": "macos-self-built-0.5.6-n-a",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "0.5.6",
-          "buildNumber": "N/A"
-        }
-      },
       {
         "device": "iPhone 13",
         "platform": "ios",
@@ -48231,48 +48210,52 @@
         "channel": "all",
         "status": "nothing",
         "perf": "n/a",
-        "notes": "Shows Black Ops III logo then black screen forever.",
-        "updatedAt": "2026-08-25",
-        "date": "2026-08-25",
-        "reportCount": 2,
+        "notes": "Black screen",
+        "updatedAt": "2026-03-14",
+        "date": "2026-03-14",
+        "reportCount": 1,
         "latestReport": {
-          "device": "MacBook Pro (M4)",
-          "platform": "macos",
-          "osVersion": "26.7 Beta 5",
+          "device": "iPhone 13",
+          "platform": "ios",
+          "osVersion": "26.3",
           "arch": "arm64",
-          "gpuBackend": "msc",
+          "gpuBackend": "msl",
           "status": "nothing",
           "perf": "n/a",
-          "date": "2026-08-25",
-          "notes": "Shows Black Ops III logo then black screen forever.",
+          "date": "2026-03-14",
+          "notes": "Black screen",
           "screenshots": [],
-          "source": "github",
+          "source": "app",
           "build": {
-            "buildId": "macos-self-built-0.5.6-n-a",
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
-            "appVersion": "0.5.6",
-            "buildNumber": "N/A"
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "stage": "stable",
+            "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
-          "device": "MacBook Pro (M4)",
-          "platform": "macos",
-          "osVersion": "26.7 Beta 5",
+          "device": "iPhone 13",
+          "platform": "ios",
+          "osVersion": "26.3",
           "arch": "arm64",
-          "gpuBackend": "msc",
+          "gpuBackend": "msl",
           "status": "nothing",
           "perf": "n/a",
-          "date": "2026-08-25",
-          "notes": "Shows Black Ops III logo then black screen forever.",
+          "date": "2026-03-14",
+          "notes": "Black screen",
           "screenshots": [],
-          "source": "github",
+          "source": "app",
           "build": {
-            "buildId": "macos-self-built-0.5.6-n-a",
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
-            "appVersion": "0.5.6",
-            "buildNumber": "N/A"
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "stage": "stable",
+            "commitShort": "056d2f64d"
           }
         }
       }
@@ -59538,7 +59521,7 @@
       "macos"
     ],
     "lastReport": {
-      "device": "Mac mini (M4)",
+      "device": "Mac Mini M4",
       "platform": "macos",
       "osVersion": "26.5.2 (for mac OS)",
       "arch": "arm64",
@@ -59550,7 +59533,7 @@
     "notes": "Campaign playable from start to end. Occasional framerate drops. Occasional freezes.",
     "reports": [
       {
-        "device": "Mac mini (M4)",
+        "device": "Mac Mini M4",
         "platform": "macos",
         "osVersion": "26.5.2 (for mac OS)",
         "arch": "arm64",
@@ -59559,13 +59542,16 @@
         "perf": "great",
         "date": "2026-08-23",
         "notes": "Campaign playable from start to end. Occasional framerate drops. Occasional freezes.",
+        "reportedTitleId": "4D5307DC",
+        "reportedTitle": "Crackdown",
         "screenshots": [],
+        "submittedBy": "kineticvenergy",
         "source": "github",
         "build": {
-          "buildId": "macos-self-built-2.0.1-9730-9730",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "2.0.1-9730",
+          "buildId": "macos-release-2.0.1-9730",
+          "channel": "release",
+          "official": true,
+          "appVersion": "2.0.1",
           "buildNumber": "9730"
         }
       }
@@ -59574,14 +59560,58 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "playable",
+        "perf": "great",
+        "notes": "Campaign playable from start to end. Occasional framerate drops. Occasional freezes.",
+        "updatedAt": "2026-08-23",
+        "date": "2026-08-23",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "Mac Mini M4",
+          "platform": "macos",
+          "osVersion": "26.5.2 (for mac OS)",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-08-23",
+          "notes": "Campaign playable from start to end. Occasional framerate drops. Occasional freezes.",
+          "reportedTitleId": "4D5307DC",
+          "reportedTitle": "Crackdown",
+          "screenshots": [],
+          "submittedBy": "kineticvenergy",
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-2.0.1-9730",
+            "channel": "release",
+            "official": true,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730"
+          }
+        },
+        "bestReport": {
+          "device": "Mac Mini M4",
+          "platform": "macos",
+          "osVersion": "26.5.2 (for mac OS)",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-08-23",
+          "notes": "Campaign playable from start to end. Occasional framerate drops. Occasional freezes.",
+          "reportedTitleId": "4D5307DC",
+          "reportedTitle": "Crackdown",
+          "screenshots": [],
+          "submittedBy": "kineticvenergy",
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-2.0.1-9730",
+            "channel": "release",
+            "official": true,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730"
+          }
+        }
       },
       "all": {
         "channel": "all",
@@ -59592,7 +59622,7 @@
         "date": "2026-08-23",
         "reportCount": 1,
         "latestReport": {
-          "device": "Mac mini (M4)",
+          "device": "Mac Mini M4",
           "platform": "macos",
           "osVersion": "26.5.2 (for mac OS)",
           "arch": "arm64",
@@ -59601,18 +59631,21 @@
           "perf": "great",
           "date": "2026-08-23",
           "notes": "Campaign playable from start to end. Occasional framerate drops. Occasional freezes.",
+          "reportedTitleId": "4D5307DC",
+          "reportedTitle": "Crackdown",
           "screenshots": [],
+          "submittedBy": "kineticvenergy",
           "source": "github",
           "build": {
-            "buildId": "macos-self-built-2.0.1-9730-9730",
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "2.0.1-9730",
+            "buildId": "macos-release-2.0.1-9730",
+            "channel": "release",
+            "official": true,
+            "appVersion": "2.0.1",
             "buildNumber": "9730"
           }
         },
         "bestReport": {
-          "device": "Mac mini (M4)",
+          "device": "Mac Mini M4",
           "platform": "macos",
           "osVersion": "26.5.2 (for mac OS)",
           "arch": "arm64",
@@ -59621,13 +59654,16 @@
           "perf": "great",
           "date": "2026-08-23",
           "notes": "Campaign playable from start to end. Occasional framerate drops. Occasional freezes.",
+          "reportedTitleId": "4D5307DC",
+          "reportedTitle": "Crackdown",
           "screenshots": [],
+          "submittedBy": "kineticvenergy",
           "source": "github",
           "build": {
-            "buildId": "macos-self-built-2.0.1-9730-9730",
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "2.0.1-9730",
+            "buildId": "macos-release-2.0.1-9730",
+            "channel": "release",
+            "official": true,
+            "appVersion": "2.0.1",
             "buildNumber": "9730"
           }
         }
@@ -59648,7 +59684,7 @@
       "macos"
     ],
     "lastReport": {
-      "device": "Mac mini (M4)",
+      "device": "Mac Mini M4",
       "platform": "macos",
       "osVersion": "26.5.2 (for macos)",
       "arch": "arm64",
@@ -59660,7 +59696,7 @@
     "notes": "Needed to change audio config to SDL for audio to work. Crashes during explosions, ground pounds and areas with lots of enemies.",
     "reports": [
       {
-        "device": "Mac mini (M4)",
+        "device": "Mac Mini M4",
         "platform": "macos",
         "osVersion": "26.5.2 (for macos)",
         "arch": "arm64",
@@ -59669,13 +59705,16 @@
         "perf": "ok",
         "date": "2026-08-23",
         "notes": "Needed to change audio config to SDL for audio to work. Crashes during explosions, ground pounds and areas with lots of enemies.",
+        "reportedTitleId": "4D5308BC",
+        "reportedTitle": "Crackdown 2",
         "screenshots": [],
+        "submittedBy": "kineticvenergy",
         "source": "github",
         "build": {
-          "buildId": "macos-self-built-2.0.1-9730-9730",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "2.0.1-9730",
+          "buildId": "macos-release-2.0.1-9730",
+          "channel": "release",
+          "official": true,
+          "appVersion": "2.0.1",
           "buildNumber": "9730"
         }
       }
@@ -59684,14 +59723,58 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "ingame",
+        "perf": "ok",
+        "notes": "Needed to change audio config to SDL for audio to work. Crashes during explosions, ground pounds and areas with lots of enemies.",
+        "updatedAt": "2026-08-23",
+        "date": "2026-08-23",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "Mac Mini M4",
+          "platform": "macos",
+          "osVersion": "26.5.2 (for macos)",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "ok",
+          "date": "2026-08-23",
+          "notes": "Needed to change audio config to SDL for audio to work. Crashes during explosions, ground pounds and areas with lots of enemies.",
+          "reportedTitleId": "4D5308BC",
+          "reportedTitle": "Crackdown 2",
+          "screenshots": [],
+          "submittedBy": "kineticvenergy",
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-2.0.1-9730",
+            "channel": "release",
+            "official": true,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730"
+          }
+        },
+        "bestReport": {
+          "device": "Mac Mini M4",
+          "platform": "macos",
+          "osVersion": "26.5.2 (for macos)",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "ok",
+          "date": "2026-08-23",
+          "notes": "Needed to change audio config to SDL for audio to work. Crashes during explosions, ground pounds and areas with lots of enemies.",
+          "reportedTitleId": "4D5308BC",
+          "reportedTitle": "Crackdown 2",
+          "screenshots": [],
+          "submittedBy": "kineticvenergy",
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-2.0.1-9730",
+            "channel": "release",
+            "official": true,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730"
+          }
+        }
       },
       "all": {
         "channel": "all",
@@ -59702,7 +59785,7 @@
         "date": "2026-08-23",
         "reportCount": 1,
         "latestReport": {
-          "device": "Mac mini (M4)",
+          "device": "Mac Mini M4",
           "platform": "macos",
           "osVersion": "26.5.2 (for macos)",
           "arch": "arm64",
@@ -59711,18 +59794,21 @@
           "perf": "ok",
           "date": "2026-08-23",
           "notes": "Needed to change audio config to SDL for audio to work. Crashes during explosions, ground pounds and areas with lots of enemies.",
+          "reportedTitleId": "4D5308BC",
+          "reportedTitle": "Crackdown 2",
           "screenshots": [],
+          "submittedBy": "kineticvenergy",
           "source": "github",
           "build": {
-            "buildId": "macos-self-built-2.0.1-9730-9730",
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "2.0.1-9730",
+            "buildId": "macos-release-2.0.1-9730",
+            "channel": "release",
+            "official": true,
+            "appVersion": "2.0.1",
             "buildNumber": "9730"
           }
         },
         "bestReport": {
-          "device": "Mac mini (M4)",
+          "device": "Mac Mini M4",
           "platform": "macos",
           "osVersion": "26.5.2 (for macos)",
           "arch": "arm64",
@@ -59731,13 +59817,16 @@
           "perf": "ok",
           "date": "2026-08-23",
           "notes": "Needed to change audio config to SDL for audio to work. Crashes during explosions, ground pounds and areas with lots of enemies.",
+          "reportedTitleId": "4D5308BC",
+          "reportedTitle": "Crackdown 2",
           "screenshots": [],
+          "submittedBy": "kineticvenergy",
           "source": "github",
           "build": {
-            "buildId": "macos-self-built-2.0.1-9730-9730",
-            "channel": "self-built",
-            "official": false,
-            "appVersion": "2.0.1-9730",
+            "buildId": "macos-release-2.0.1-9730",
+            "channel": "release",
+            "official": true,
+            "appVersion": "2.0.1",
             "buildNumber": "9730"
           }
         }
@@ -76818,23 +76907,23 @@
     "titleIds": [
       "4E4D0856"
     ],
-    "status": "playable",
-    "perf": "great",
+    "status": "loads",
+    "perf": "poor",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 16 Pro Max",
+      "device": "iPhone 15 Pro Max",
       "platform": "ios",
-      "osVersion": "26.2",
+      "osVersion": "26.0.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-08-22",
     "issueNumber": 670,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/670",
-    "notes": "As of the new update, Budokai 3’s Dragon Universe mode no longer shows a black screen. Enemy characters are now visible. Budokai 3 runs great. In Budokai 1, the character select screen still has texture glitches, but the game is no longer a black screen during battles.",
+    "notes": "Launch it, crashes in selection!",
     "reports": [
       {
         "device": "iPhone 15 Pro Max",
@@ -76856,72 +76945,6 @@
           "buildNumber": "9730",
           "stage": "stable",
           "commitShort": "57c3ca140"
-        }
-      },
-      {
-        "device": "iPhone 16 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.2",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "great",
-        "date": "2026-03-14",
-        "notes": "As of the new update, Budokai 3’s Dragon Universe mode no longer shows a black screen. Enemy characters are now visible. Budokai 3 runs great. In Budokai 1, the character select screen still has texture glitches, but the game is no longer a black screen during battles.",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d"
-        }
-      },
-      {
-        "device": "iPhone 16 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.2",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "perf": "great",
-        "date": "2026-03-11",
-        "notes": "In my case I had to convert the dumped game’s ISO file using extract-iso. The game itself is a launcher for each .xex file for the individual games. Each game must be manually booted by pressing the + button in XeniOS and selecting the respective folder for each title (DBZ1 for Budokai 1 and DBZ3 for Budokai 3). Both games have good performance. Budokai 1 has more graphical issues than Budokai 3. In the character select screen for Budokai 1, there are graphical glitches with the characters’ artwork. When entering a battle, a black screen appears.  For Budokai 3, a black screen appears when entering Dragon Universe mode. During battles, the enemy character is invisible and only appears when using a blast attack (ex. Kamehameha), teleporting, activating Hyper Mode, or triggering Dragon Rush.  Overall, both games run very well, with Budokai 3 having fewer issues.",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.0-9280",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "stage": "stable",
-          "commitShort": "2633e8177"
-        }
-      },
-      {
-        "device": "iPad (A16)",
-        "platform": "ios",
-        "osVersion": "18.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "loads",
-        "perf": "poor",
-        "date": "2026-03-11",
-        "notes": "Loads into game selection and crashes.",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.0-9280",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "stage": "stable",
-          "commitShort": "2633e8177"
         }
       }
     ],
@@ -76951,12 +76974,12 @@
       },
       "all": {
         "channel": "all",
-        "status": "playable",
-        "perf": "great",
-        "notes": "As of the new update, Budokai 3’s Dragon Universe mode no longer shows a black screen. Enemy characters are now visible. Budokai 3 runs great. In Budokai 1, the character select screen still has texture glitches, but the game is no longer a black screen during battles.",
+        "status": "loads",
+        "perf": "poor",
+        "notes": "Launch it, crashes in selection!",
         "updatedAt": "2026-08-22",
         "date": "2026-08-22",
-        "reportCount": 4,
+        "reportCount": 1,
         "latestReport": {
           "device": "iPhone 15 Pro Max",
           "platform": "ios",
@@ -76980,25 +77003,25 @@
           }
         },
         "bestReport": {
-          "device": "iPhone 16 Pro Max",
+          "device": "iPhone 15 Pro Max",
           "platform": "ios",
-          "osVersion": "26.2",
+          "osVersion": "26.0.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-03-14",
-          "notes": "As of the new update, Budokai 3’s Dragon Universe mode no longer shows a black screen. Enemy characters are now visible. Budokai 3 runs great. In Budokai 1, the character select screen still has texture glitches, but the game is no longer a black screen during battles.",
+          "status": "loads",
+          "perf": "poor",
+          "date": "2026-08-22",
+          "notes": "Launch it, crashes in selection!",
           "screenshots": [],
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
             "stage": "stable",
-            "commitShort": "056d2f64d"
+            "commitShort": "57c3ca140"
           }
         }
       }
@@ -106636,24 +106659,24 @@
     "titleIds": [
       "545407F2"
     ],
-    "status": "playable",
-    "perf": "ok",
+    "status": "ingame",
+    "perf": "poor",
     "tags": [],
     "platforms": [
       "ios",
       "macos"
     ],
     "lastReport": {
-      "device": "iPhone 16e",
+      "device": "iPhone 17 Pro Max",
       "platform": "ios",
-      "osVersion": "26.5.2",
+      "osVersion": "26.3",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-08-18",
     "issueNumber": 41,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/41",
-    "notes": "Low frame rates in game",
+    "notes": "Game boots, menu navigation works. Infinite loading screen for first mission.",
     "reports": [
       {
         "device": "iPhone 16 Pro",
@@ -106665,94 +106688,6 @@
         "perf": "n/a",
         "date": "2026-08-18",
         "notes": "Black screen and down game",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-2.0.1-9730",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "stage": "stable",
-          "commitShort": "57c3ca140"
-        }
-      },
-      {
-        "device": "iPad (A16)",
-        "platform": "ios",
-        "osVersion": "27.0",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-07-24",
-        "notes": "Every time I play this game it just shows a black screen then after some time I just get kicked out the app and just crashes every time I don’t know how to fix it I watched tutorials but the game just keeps on crashing",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-2.0.1-9730",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "stage": "stable",
-          "commitShort": "57c3ca140"
-        }
-      },
-      {
-        "device": "iPhone 16e",
-        "platform": "ios",
-        "osVersion": "26.5.2",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "ok",
-        "date": "2026-07-20",
-        "notes": "Low frame rates in game",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-2.0.1-9730",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "stage": "stable",
-          "commitShort": "57c3ca140"
-        }
-      },
-      {
-        "device": "iPhone 17 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.5.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "ok",
-        "date": "2026-06-20",
-        "notes": "The Game Working Perfectly but around 10-20 FPS and sometimes Increases to 50 FPS",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-2.0.1-9730",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "stage": "stable",
-          "commitShort": "57c3ca140"
-        }
-      },
-      {
-        "device": "iPad Pro 11-inch (M4)",
-        "platform": "ios",
-        "osVersion": "26.5",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "ok",
-        "date": "2026-06-12",
-        "notes": "the lost and damned working whule the balleds of gay tony crash \nperformance soso like ps3 version",
         "screenshots": [],
         "source": "app",
         "build": {
@@ -106951,12 +106886,12 @@
       },
       "all": {
         "channel": "all",
-        "status": "playable",
-        "perf": "ok",
-        "notes": "Low frame rates in game",
+        "status": "ingame",
+        "perf": "poor",
+        "notes": "Game boots, menu navigation works. Infinite loading screen for first mission.",
         "updatedAt": "2026-08-18",
         "date": "2026-08-18",
-        "reportCount": 11,
+        "reportCount": 7,
         "latestReport": {
           "device": "iPhone 16 Pro",
           "platform": "ios",
@@ -106980,25 +106915,25 @@
           }
         },
         "bestReport": {
-          "device": "iPhone 16e",
+          "device": "iPhone 17 Pro Max",
           "platform": "ios",
-          "osVersion": "26.5.2",
+          "osVersion": "26.3",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-07-20",
-          "notes": "Low frame rates in game",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-03-08",
+          "notes": "Game boots, menu navigation works. Infinite loading screen for first mission.",
+          "reportedTitleId": "545407F2",
+          "reportedTitle": "GTA_IV",
           "screenshots": [],
-          "source": "app",
+          "source": "github",
           "build": {
-            "buildId": "ios-self-built-2.0.1-9730",
+            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140"
+            "appVersion": "1.0.0",
+            "buildNumber": "9280"
           }
         }
       }
@@ -149449,12 +149384,15 @@
         "perf": "ok",
         "date": "2026-08-21",
         "notes": "MGS2: The game runs at 60 FPS with no significant drops. Any resolution above 720p breaks the game’s visuals. Random crashes occur, mostly due to heat or switching between areas too quickly. There are almost no visual issues, aside from some transparency problems, such as the glasses of one character and the surface of the water in a small part of the game. Some people recommend disabling GPU invalid fetch constants to fix transparency issues, but doing so causes even worse graphical glitches.\n\nMGS3: Unlike MGS2, this game has no resolution-related problems. However, frame drops are much more severe, even at 720p, and FPS below 40 causes slow motion. This happens frequently in vast, bright areas and during boss fights, accounting for roughly 30% of the game. Random crashes are also present.\n\nConclusion: While MGS2 is absolutely playable, MGS3’s slowdowns cannot be overlooked. The main advantages of this version are its modern controller layout and the lack of pressure-sensitive button requirements.",
+        "reportedTitleId": "4B4E0840",
+        "reportedTitle": "Metal Gear Solid HD Collection",
         "screenshots": [],
+        "submittedBy": "Nuriuo",
         "source": "github",
         "build": {
-          "buildId": "macos-self-built-2.0.1-9730",
-          "channel": "self-built",
-          "official": false,
+          "buildId": "macos-release-2.0.1-9730",
+          "channel": "release",
+          "official": true,
           "appVersion": "2.0.1",
           "buildNumber": "9730"
         }
@@ -149464,14 +149402,58 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "playable",
+        "perf": "ok",
+        "notes": "MGS2: The game runs at 60 FPS with no significant drops. Any resolution above 720p breaks the game’s visuals. Random crashes occur, mostly due to heat or switching between areas too quickly. There are almost no visual issues, aside from some transparency problems, such as the glasses of one character and the surface of the water in a small part of the game. Some people recommend disabling GPU invalid fetch constants to fix transparency issues, but doing so causes even worse graphical glitches.\n\nMGS3: Unlike MGS2, this game has no resolution-related problems. However, frame drops are much more severe, even at 720p, and FPS below 40 causes slow motion. This happens frequently in vast, bright areas and during boss fights, accounting for roughly 30% of the game. Random crashes are also present.\n\nConclusion: While MGS2 is absolutely playable, MGS3’s slowdowns cannot be overlooked. The main advantages of this version are its modern controller layout and the lack of pressure-sensitive button requirements.",
+        "updatedAt": "2026-08-21",
+        "date": "2026-08-21",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "MacBook Air (M2)",
+          "platform": "macos",
+          "osVersion": "MacOS 26.6",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-08-21",
+          "notes": "MGS2: The game runs at 60 FPS with no significant drops. Any resolution above 720p breaks the game’s visuals. Random crashes occur, mostly due to heat or switching between areas too quickly. There are almost no visual issues, aside from some transparency problems, such as the glasses of one character and the surface of the water in a small part of the game. Some people recommend disabling GPU invalid fetch constants to fix transparency issues, but doing so causes even worse graphical glitches.\n\nMGS3: Unlike MGS2, this game has no resolution-related problems. However, frame drops are much more severe, even at 720p, and FPS below 40 causes slow motion. This happens frequently in vast, bright areas and during boss fights, accounting for roughly 30% of the game. Random crashes are also present.\n\nConclusion: While MGS2 is absolutely playable, MGS3’s slowdowns cannot be overlooked. The main advantages of this version are its modern controller layout and the lack of pressure-sensitive button requirements.",
+          "reportedTitleId": "4B4E0840",
+          "reportedTitle": "Metal Gear Solid HD Collection",
+          "screenshots": [],
+          "submittedBy": "Nuriuo",
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-2.0.1-9730",
+            "channel": "release",
+            "official": true,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730"
+          }
+        },
+        "bestReport": {
+          "device": "MacBook Air (M2)",
+          "platform": "macos",
+          "osVersion": "MacOS 26.6",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-08-21",
+          "notes": "MGS2: The game runs at 60 FPS with no significant drops. Any resolution above 720p breaks the game’s visuals. Random crashes occur, mostly due to heat or switching between areas too quickly. There are almost no visual issues, aside from some transparency problems, such as the glasses of one character and the surface of the water in a small part of the game. Some people recommend disabling GPU invalid fetch constants to fix transparency issues, but doing so causes even worse graphical glitches.\n\nMGS3: Unlike MGS2, this game has no resolution-related problems. However, frame drops are much more severe, even at 720p, and FPS below 40 causes slow motion. This happens frequently in vast, bright areas and during boss fights, accounting for roughly 30% of the game. Random crashes are also present.\n\nConclusion: While MGS2 is absolutely playable, MGS3’s slowdowns cannot be overlooked. The main advantages of this version are its modern controller layout and the lack of pressure-sensitive button requirements.",
+          "reportedTitleId": "4B4E0840",
+          "reportedTitle": "Metal Gear Solid HD Collection",
+          "screenshots": [],
+          "submittedBy": "Nuriuo",
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-2.0.1-9730",
+            "channel": "release",
+            "official": true,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730"
+          }
+        }
       },
       "all": {
         "channel": "all",
@@ -149491,12 +149473,15 @@
           "perf": "ok",
           "date": "2026-08-21",
           "notes": "MGS2: The game runs at 60 FPS with no significant drops. Any resolution above 720p breaks the game’s visuals. Random crashes occur, mostly due to heat or switching between areas too quickly. There are almost no visual issues, aside from some transparency problems, such as the glasses of one character and the surface of the water in a small part of the game. Some people recommend disabling GPU invalid fetch constants to fix transparency issues, but doing so causes even worse graphical glitches.\n\nMGS3: Unlike MGS2, this game has no resolution-related problems. However, frame drops are much more severe, even at 720p, and FPS below 40 causes slow motion. This happens frequently in vast, bright areas and during boss fights, accounting for roughly 30% of the game. Random crashes are also present.\n\nConclusion: While MGS2 is absolutely playable, MGS3’s slowdowns cannot be overlooked. The main advantages of this version are its modern controller layout and the lack of pressure-sensitive button requirements.",
+          "reportedTitleId": "4B4E0840",
+          "reportedTitle": "Metal Gear Solid HD Collection",
           "screenshots": [],
+          "submittedBy": "Nuriuo",
           "source": "github",
           "build": {
-            "buildId": "macos-self-built-2.0.1-9730",
-            "channel": "self-built",
-            "official": false,
+            "buildId": "macos-release-2.0.1-9730",
+            "channel": "release",
+            "official": true,
             "appVersion": "2.0.1",
             "buildNumber": "9730"
           }
@@ -149511,12 +149496,15 @@
           "perf": "ok",
           "date": "2026-08-21",
           "notes": "MGS2: The game runs at 60 FPS with no significant drops. Any resolution above 720p breaks the game’s visuals. Random crashes occur, mostly due to heat or switching between areas too quickly. There are almost no visual issues, aside from some transparency problems, such as the glasses of one character and the surface of the water in a small part of the game. Some people recommend disabling GPU invalid fetch constants to fix transparency issues, but doing so causes even worse graphical glitches.\n\nMGS3: Unlike MGS2, this game has no resolution-related problems. However, frame drops are much more severe, even at 720p, and FPS below 40 causes slow motion. This happens frequently in vast, bright areas and during boss fights, accounting for roughly 30% of the game. Random crashes are also present.\n\nConclusion: While MGS2 is absolutely playable, MGS3’s slowdowns cannot be overlooked. The main advantages of this version are its modern controller layout and the lack of pressure-sensitive button requirements.",
+          "reportedTitleId": "4B4E0840",
+          "reportedTitle": "Metal Gear Solid HD Collection",
           "screenshots": [],
+          "submittedBy": "Nuriuo",
           "source": "github",
           "build": {
-            "buildId": "macos-self-built-2.0.1-9730",
-            "channel": "self-built",
-            "official": false,
+            "buildId": "macos-release-2.0.1-9730",
+            "channel": "release",
+            "official": true,
             "appVersion": "2.0.1",
             "buildNumber": "9730"
           }
@@ -175761,8 +175749,8 @@
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-05-27",
-    "issueNumber": 269,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/269",
+    "issueNumber": 453,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/453",
     "notes": "It runs and plays great on Universal.js script. Intro is glitchy though.",
     "reports": [
       {
@@ -186051,8 +186039,8 @@
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-08-05",
-    "issueNumber": 633,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/633",
+    "issueNumber": 255,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/255",
     "notes": "Everything is playable, textures load slowly, sometimes glitch, and maybe a consistent 15 fps since you start the game",
     "reports": [
       {
@@ -186400,44 +186388,24 @@
       "4156084E",
       "565507EF"
     ],
-    "status": "playable",
-    "perf": "poor",
+    "status": "nothing",
+    "perf": "n/a",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 17 Pro Max",
+      "device": "iPhone 14 Pro",
       "platform": "ios",
-      "osVersion": "26.6",
+      "osVersion": "18.1.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-08-23",
+    "updatedAt": "2026-06-11",
     "issueNumber": 44,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/44",
-    "notes": "Runs between 20-30 fps poorly/ok",
+    "notes": "When the game boot Nothing just black screen and the app gets closed",
     "reports": [
-      {
-        "device": "iPhone 17 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.6",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "poor",
-        "date": "2026-08-23",
-        "notes": "Runs between 20-30 fps poorly/ok",
-        "screenshots": [],
-        "source": "github",
-        "build": {
-          "buildId": "ios-self-built-2.1-26.6",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "2.1",
-          "buildNumber": "26.6"
-        }
-      },
       {
         "device": "iPhone 14 Pro",
         "platform": "ios",
@@ -186500,50 +186468,54 @@
       },
       "all": {
         "channel": "all",
-        "status": "playable",
-        "perf": "poor",
-        "notes": "Runs between 20-30 fps poorly/ok",
-        "updatedAt": "2026-08-23",
-        "date": "2026-08-23",
-        "reportCount": 3,
+        "status": "nothing",
+        "perf": "n/a",
+        "notes": "When the game boot Nothing just black screen and the app gets closed",
+        "updatedAt": "2026-06-11",
+        "date": "2026-06-11",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 17 Pro Max",
+          "device": "iPhone 14 Pro",
           "platform": "ios",
-          "osVersion": "26.6",
+          "osVersion": "18.1.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "poor",
-          "date": "2026-08-23",
-          "notes": "Runs between 20-30 fps poorly/ok",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-06-11",
+          "notes": "When the game boot Nothing just black screen and the app gets closed",
           "screenshots": [],
-          "source": "github",
+          "source": "app",
           "build": {
-            "buildId": "ios-self-built-2.1-26.6",
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
-            "appVersion": "2.1",
-            "buildNumber": "26.6"
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
           }
         },
         "bestReport": {
-          "device": "iPhone 17 Pro Max",
+          "device": "iPhone 14 Pro",
           "platform": "ios",
-          "osVersion": "26.6",
+          "osVersion": "18.1.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "poor",
-          "date": "2026-08-23",
-          "notes": "Runs between 20-30 fps poorly/ok",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-06-11",
+          "notes": "When the game boot Nothing just black screen and the app gets closed",
           "screenshots": [],
-          "source": "github",
+          "source": "app",
           "build": {
-            "buildId": "ios-self-built-2.1-26.6",
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
-            "appVersion": "2.1",
-            "buildNumber": "26.6"
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
           }
         }
       }
@@ -192038,23 +192010,23 @@
       "555308C3",
       "555388C8"
     ],
-    "status": "playable",
-    "perf": "great",
+    "status": "ingame",
+    "perf": "poor",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPad Pro M4",
+      "device": "iPhone 17 Pro Max",
       "platform": "ios",
-      "osVersion": "26.5",
+      "osVersion": "26.3",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-08-21",
     "issueNumber": 99,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/99",
-    "notes": "Game run so good run so smooth",
+    "notes": "Pre-rendered scenes for intro have graphical and audio issues.\nUpon clicking \"New Game\", opening screen only has graphical issues. \nWhen the game renders, assets take a second to load in. But, game speed is about half what it should be.",
     "reports": [
       {
         "device": "iPad (A16)",
@@ -192076,26 +192048,6 @@
           "buildNumber": "9730",
           "stage": "stable",
           "commitShort": "57c3ca140"
-        }
-      },
-      {
-        "device": "iPad Pro M4",
-        "platform": "ios",
-        "osVersion": "26.5",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "great",
-        "date": "2026-06-25",
-        "notes": "Game run so good run so smooth",
-        "screenshots": [],
-        "source": "github",
-        "build": {
-          "buildId": "ios-self-built-2.1-9857-9857",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "2.1-9857",
-          "buildNumber": "9857"
         }
       },
       {
@@ -192137,12 +192089,12 @@
       },
       "all": {
         "channel": "all",
-        "status": "playable",
-        "perf": "great",
-        "notes": "Game run so good run so smooth",
+        "status": "ingame",
+        "perf": "poor",
+        "notes": "Pre-rendered scenes for intro have graphical and audio issues.\nUpon clicking \"New Game\", opening screen only has graphical issues. \nWhen the game renders, assets take a second to load in. But, game speed is about half what it should be.",
         "updatedAt": "2026-08-21",
         "date": "2026-08-21",
-        "reportCount": 3,
+        "reportCount": 2,
         "latestReport": {
           "device": "iPad (A16)",
           "platform": "ios",
@@ -192166,23 +192118,26 @@
           }
         },
         "bestReport": {
-          "device": "iPad Pro M4",
+          "device": "iPhone 17 Pro Max",
           "platform": "ios",
-          "osVersion": "26.5",
+          "osVersion": "26.3",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-06-25",
-          "notes": "Game run so good run so smooth",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-03-08",
+          "notes": "Pre-rendered scenes for intro have graphical and audio issues.\nUpon clicking \"New Game\", opening screen only has graphical issues. \nWhen the game renders, assets take a second to load in. But, game speed is about half what it should be.",
+          "reportedTitleId": "555308C3",
+          "reportedTitle": "Rayman Legends",
           "screenshots": [],
           "source": "github",
           "build": {
-            "buildId": "ios-self-built-2.1-9857-9857",
+            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
-            "appVersion": "2.1-9857",
-            "buildNumber": "9857"
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "commitShort": "2633E8177"
           }
         }
       }
