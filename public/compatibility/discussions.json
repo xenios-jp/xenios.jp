@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T10:56:37.248Z",
+  "generatedAt": "2026-08-25T00:45:08.863Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -3694,58 +3694,10 @@
     },
     "58410889": {
       "titleId": "58410889",
-      "issueNumber": 453,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/453",
-      "updatedAt": "2026-05-27",
+      "issueNumber": 269,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/269",
+      "updatedAt": "2026-03-25",
       "entries": [
-        {
-          "id": "comment-4552316900",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/453#issuecomment-4552316900",
-          "author": "xenios-jp",
-          "createdAt": "2026-05-27",
-          "createdAtMs": 1779866169000,
-          "issueNumber": 453,
-          "excerpt": "It runs and plays great on Universal.js script. Intro is glitchy though.",
-          "images": [],
-          "meta": {
-            "status": "playable",
-            "perf": "great",
-            "device": "iPhone 16 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "buildStage": "stable",
-            "commitShort": "`056d2f64d`"
-          }
-        },
-        {
-          "id": "issue-453",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/453",
-          "author": "xenios-jp",
-          "createdAt": "2026-05-27",
-          "createdAtMs": 1779865757000,
-          "issueNumber": 453,
-          "excerpt": "Intro loads, but freezes when I press any button to start/continue. It freezes only on button press.",
-          "images": [],
-          "meta": {
-            "status": "intro",
-            "perf": "ok",
-            "device": "iPhone 16 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "buildStage": "stable",
-            "commitShort": "`056d2f64d`"
-          }
-        },
         {
           "id": "comment-4122868905",
           "type": "comment",
@@ -4041,6 +3993,74 @@
           "createdAtMs": 1773517964000,
           "issueNumber": 263,
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
+          "images": [],
+          "meta": {}
+        }
+      ]
+    },
+    "4156091D": {
+      "titleId": "4156091D",
+      "issueNumber": 143,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/143",
+      "updatedAt": "2026-08-25",
+      "entries": [
+        {
+          "id": "issue-674",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/674",
+          "author": "metloub",
+          "createdAt": "2026-08-25",
+          "createdAtMs": 1787618542000,
+          "issueNumber": 674,
+          "excerpt": "Shows Black Ops III logo then black screen forever.",
+          "images": [],
+          "meta": {}
+        },
+        {
+          "id": "comment-5138131424",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/261#issuecomment-5138131424",
+          "author": "raed-alzahrani",
+          "createdAt": "2026-07-31",
+          "createdAtMs": 1785461266000,
+          "issueNumber": 261,
+          "excerpt": "I tried it on my iPhone and it kinda works, nothing so bad i think it's playable, you just need to install all title updates + all dlc's, but for some reason xenios on iPhone does not extract dlc's correctly idk why maybe it's because of my phone, i moved the dlc's and title updates from the contents folder on my xenia emulator on pc, and it worked, also i used ( 1 ) license mask if that's important.\nWhen you open the game the graphics is kinda weird, it's fixed by putting Readback Resolve in the graphics menu on full, maybe there is room for improvement if you tinker with the graphics menu a little, but I didn't try yet.\nAlso I'm using Preview 2.1-9857 build.\n\n<img width=\"1434\" height=\"660\" alt=\"Image\" src=\" />\n<img width=\"1434\" height=\"660\" alt=\"Image\" src=\" />\n<img width=\"1434\" height=\"660\" alt=\"Image\" src=\" />\n<img width=\"1434\" height=\"660\" alt=\"Image\" src=\" />\n<img width=\"1434\" height=\"660\" alt=\"Image\" src=\" />",
+          "images": [],
+          "meta": {}
+        },
+        {
+          "id": "issue-261",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/261",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-14",
+          "createdAtMs": 1773505506000,
+          "issueNumber": 261,
+          "excerpt": "Black screen",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 13",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "buildStage": "stable",
+            "commitShort": "`056d2f64d`"
+          }
+        },
+        {
+          "id": "issue-143",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/143",
+          "author": "fonsooooooo9",
+          "createdAt": "2026-03-09",
+          "createdAtMs": 1773076715000,
+          "issueNumber": 143,
+          "excerpt": "black ops logo shows for half a second then stuck on black screen,",
           "images": [],
           "meta": {}
         }
@@ -15509,62 +15529,6 @@
             "buildStage": "stable",
             "commitShort": "`056d2f64d`"
           }
-        }
-      ]
-    },
-    "4156091D": {
-      "titleId": "4156091D",
-      "issueNumber": 261,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/261",
-      "updatedAt": "2026-07-31",
-      "entries": [
-        {
-          "id": "comment-5138131424",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/261#issuecomment-5138131424",
-          "author": "raed-alzahrani",
-          "createdAt": "2026-07-31",
-          "createdAtMs": 1785461266000,
-          "issueNumber": 261,
-          "excerpt": "I tried it on my iPhone and it kinda works, nothing so bad i think it's playable, you just need to install all title updates + all dlc's, but for some reason xenios on iPhone does not extract dlc's correctly idk why maybe it's because of my phone, i moved the dlc's and title updates from the contents folder on my xenia emulator on pc, and it worked, also i used ( 1 ) license mask if that's important.\nWhen you open the game the graphics is kinda weird, it's fixed by putting Readback Resolve in the graphics menu on full, maybe there is room for improvement if you tinker with the graphics menu a little, but I didn't try yet.\nAlso I'm using Preview 2.1-9857 build.\n\n<img width=\"1434\" height=\"660\" alt=\"Image\" src=\" />\n<img width=\"1434\" height=\"660\" alt=\"Image\" src=\" />\n<img width=\"1434\" height=\"660\" alt=\"Image\" src=\" />\n<img width=\"1434\" height=\"660\" alt=\"Image\" src=\" />\n<img width=\"1434\" height=\"660\" alt=\"Image\" src=\" />",
-          "images": [],
-          "meta": {}
-        },
-        {
-          "id": "issue-261",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/261",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-14",
-          "createdAtMs": 1773505506000,
-          "issueNumber": 261,
-          "excerpt": "Black screen",
-          "images": [],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPhone 13",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "buildStage": "stable",
-            "commitShort": "`056d2f64d`"
-          }
-        },
-        {
-          "id": "issue-143",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/143",
-          "author": "fonsooooooo9",
-          "createdAt": "2026-03-09",
-          "createdAtMs": 1773076715000,
-          "issueNumber": 143,
-          "excerpt": "black ops logo shows for half a second then stuck on black screen,",
-          "images": [],
-          "meta": {}
         }
       ]
     },

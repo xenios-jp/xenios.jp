@@ -4,7 +4,7 @@
 >
 > 🟢 Playable: **160** · 🔵 In-Game: **68** · 🟡 Intro: **37** · 🟠 Loads: **49** · 🔴 Doesn't Boot: **72**
 >
-> 📱 iOS: **353** · 🖥️ macOS: **53**
+> 📱 iOS: **353** · 🖥️ macOS: **54**
 
 ## Legend
 
@@ -345,7 +345,7 @@
 | 🔴 | Call of Duty Classic | `58410957` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone12,1 | 2026-07-15 |
 | 🔴 | Call of Duty: Black Ops | `41560855` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 13 Pro | 2026-07-18 |
 | 🔴 | Call of Duty: Black Ops II | `415608C3` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 Pro Max | 2026-03-08 |
-| 🔴 | Call of Duty: Black Ops III | `4156091D` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 13 | 2026-03-14 |
+| 🔴 | Call of Duty: Black Ops III | `4156091D` | 📱 iOS, 🖥️ macOS | Doesn't Boot | ➖ N/A | MacBook Pro (M4) | 2026-08-25 |
 | 🔴 | Call of Duty: Modern Warfare 2 | `41560817` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 15 | 2026-08-05 |
 | 🔴 | Castlevania: Lords of Shadow 2 | `4B4E084D` | 🖥️ macOS | Doesn't Boot | ➖ N/A | MacBook Pro (M1) | 2026-04-12 |
 | 🔴 | Counter-Strike: GO | `5841125A` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 | 2026-07-15 |

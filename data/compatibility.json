@@ -48156,20 +48156,41 @@
     "perf": "n/a",
     "tags": [],
     "platforms": [
-      "ios"
+      "ios",
+      "macos"
     ],
     "lastReport": {
-      "device": "iPhone 13",
-      "platform": "ios",
-      "osVersion": "26.3",
+      "device": "MacBook Pro (M4)",
+      "platform": "macos",
+      "osVersion": "26.7 Beta 5",
       "arch": "arm64",
-      "gpuBackend": "msl"
+      "gpuBackend": "msc"
     },
-    "updatedAt": "2026-03-14",
-    "issueNumber": 261,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/261",
-    "notes": "Black screen",
+    "updatedAt": "2026-08-25",
+    "issueNumber": 143,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/143",
+    "notes": "Shows Black Ops III logo then black screen forever.",
     "reports": [
+      {
+        "device": "MacBook Pro (M4)",
+        "platform": "macos",
+        "osVersion": "26.7 Beta 5",
+        "arch": "arm64",
+        "gpuBackend": "msc",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-08-25",
+        "notes": "Shows Black Ops III logo then black screen forever.",
+        "screenshots": [],
+        "source": "github",
+        "build": {
+          "buildId": "macos-self-built-0.5.6-n-a",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "0.5.6",
+          "buildNumber": "N/A"
+        }
+      },
       {
         "device": "iPhone 13",
         "platform": "ios",
@@ -48210,52 +48231,48 @@
         "channel": "all",
         "status": "nothing",
         "perf": "n/a",
-        "notes": "Black screen",
-        "updatedAt": "2026-03-14",
-        "date": "2026-03-14",
-        "reportCount": 1,
+        "notes": "Shows Black Ops III logo then black screen forever.",
+        "updatedAt": "2026-08-25",
+        "date": "2026-08-25",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 13",
-          "platform": "ios",
-          "osVersion": "26.3",
+          "device": "MacBook Pro (M4)",
+          "platform": "macos",
+          "osVersion": "26.7 Beta 5",
           "arch": "arm64",
-          "gpuBackend": "msl",
+          "gpuBackend": "msc",
           "status": "nothing",
           "perf": "n/a",
-          "date": "2026-03-14",
-          "notes": "Black screen",
+          "date": "2026-08-25",
+          "notes": "Shows Black Ops III logo then black screen forever.",
           "screenshots": [],
-          "source": "app",
+          "source": "github",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
+            "buildId": "macos-self-built-0.5.6-n-a",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d"
+            "appVersion": "0.5.6",
+            "buildNumber": "N/A"
           }
         },
         "bestReport": {
-          "device": "iPhone 13",
-          "platform": "ios",
-          "osVersion": "26.3",
+          "device": "MacBook Pro (M4)",
+          "platform": "macos",
+          "osVersion": "26.7 Beta 5",
           "arch": "arm64",
-          "gpuBackend": "msl",
+          "gpuBackend": "msc",
           "status": "nothing",
           "perf": "n/a",
-          "date": "2026-03-14",
-          "notes": "Black screen",
+          "date": "2026-08-25",
+          "notes": "Shows Black Ops III logo then black screen forever.",
           "screenshots": [],
-          "source": "app",
+          "source": "github",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
+            "buildId": "macos-self-built-0.5.6-n-a",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d"
+            "appVersion": "0.5.6",
+            "buildNumber": "N/A"
           }
         }
       }
@@ -175744,8 +175761,8 @@
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-05-27",
-    "issueNumber": 453,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/453",
+    "issueNumber": 269,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/269",
     "notes": "It runs and plays great on Universal.js script. Intro is glitchy though.",
     "reports": [
       {
