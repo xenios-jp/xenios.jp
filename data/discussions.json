@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T18:55:13.555Z",
+  "generatedAt": "2026-08-26T12:49:20.406Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -5518,10 +5518,34 @@
     },
     "4D5307E6": {
       "titleId": "4D5307E6",
-      "issueNumber": 42,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/42",
-      "updatedAt": "2026-08-16",
+      "issueNumber": 620,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/620",
+      "updatedAt": "2026-08-26",
       "entries": [
+        {
+          "id": "comment-5425484709",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/620#issuecomment-5425484709",
+          "author": "xenios-jp",
+          "createdAt": "2026-08-26",
+          "createdAtMs": 1787748304000,
+          "issueNumber": 620,
+          "excerpt": "Textures sometime seem slow to load in but once they do plays fine.",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPad Pro 13-inch (M5)",
+            "platform": "iOS",
+            "osVersion": "iOS 26.5.2",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "buildStage": "stable",
+            "commitShort": "`57c3ca140`"
+          }
+        },
         {
           "id": "comment-5259394662",
           "type": "comment",
@@ -5632,30 +5656,6 @@
             "buildNumber": "9288",
             "buildStage": "stable",
             "commitShort": "`056d2f64d`"
-          }
-        },
-        {
-          "id": "comment-4043509556",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/197#issuecomment-4043509556",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-12",
-          "createdAtMs": 1773283251000,
-          "issueNumber": 197,
-          "excerpt": "Halo 3 crashes instantly when opened even with JIT enabled. The game closes but XeniOS remains open.",
-          "images": [],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPhone 17 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 26.0",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9296",
-            "buildStage": "stable",
-            "commitShort": "`ab2ca341a`"
           }
         }
       ]
