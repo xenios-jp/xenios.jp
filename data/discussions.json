@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T12:49:20.406Z",
+  "generatedAt": "2026-08-26T19:53:32.607Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -4444,8 +4444,32 @@
       "titleId": "545408A7",
       "issueNumber": 663,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/663",
-      "updatedAt": "2026-08-17",
+      "updatedAt": "2026-08-26",
       "entries": [
+        {
+          "id": "comment-5430300067",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/663#issuecomment-5430300067",
+          "author": "xenios-jp",
+          "createdAt": "2026-08-26",
+          "createdAtMs": 1787773691000,
+          "issueNumber": 663,
+          "excerpt": "Go into game and can walk around the map but very unstable and any sudden movement can crash it",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "poor",
+            "device": "iPhone 16",
+            "platform": "iOS",
+            "osVersion": "iOS 26.5",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "buildStage": "stable",
+            "commitShort": "`57c3ca140`"
+          }
+        },
         {
           "id": "comment-5321284171",
           "type": "comment",
@@ -4556,30 +4580,6 @@
             "buildNumber": "9730",
             "buildStage": "stable",
             "commitShort": "`57c3ca140`"
-          }
-        },
-        {
-          "id": "comment-5081241661",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/516#issuecomment-5081241661",
-          "author": "xenios-jp",
-          "createdAt": "2026-07-26",
-          "createdAtMs": 1785026371000,
-          "issueNumber": 516,
-          "excerpt": "Black screen",
-          "images": [],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPhone 15 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 27.0",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "buildStage": "stable",
-            "commitShort": "`056d2f64d`"
           }
         }
       ]

@@ -106946,24 +106946,46 @@
     "titleIds": [
       "545408A7"
     ],
-    "status": "intro",
+    "status": "ingame",
     "perf": "poor",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 17",
+      "device": "iPhone 16",
       "platform": "ios",
-      "osVersion": "26.3.1",
+      "osVersion": "26.5",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-08-17",
+    "updatedAt": "2026-08-26",
     "issueNumber": 62,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/62",
-    "notes": "It shows the start then goes black the audio is a bit bugged too",
+    "notes": "Go into game and can walk around the map but very unstable and any sudden movement can crash it",
     "reports": [
+      {
+        "device": "iPhone 16",
+        "platform": "ios",
+        "osVersion": "26.5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "poor",
+        "date": "2026-08-26",
+        "notes": "Go into game and can walk around the map but very unstable and any sudden movement can crash it",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140"
+        }
+      },
       {
         "device": "iPhone12,1",
         "platform": "ios",
@@ -107092,22 +107114,22 @@
       },
       "all": {
         "channel": "all",
-        "status": "intro",
+        "status": "ingame",
         "perf": "poor",
-        "notes": "It shows the start then goes black the audio is a bit bugged too",
-        "updatedAt": "2026-08-17",
-        "date": "2026-08-17",
-        "reportCount": 4,
+        "notes": "Go into game and can walk around the map but very unstable and any sudden movement can crash it",
+        "updatedAt": "2026-08-26",
+        "date": "2026-08-26",
+        "reportCount": 5,
         "latestReport": {
-          "device": "iPhone12,1",
+          "device": "iPhone 16",
           "platform": "ios",
-          "osVersion": "26.2.1",
+          "osVersion": "26.5",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-08-17",
-          "notes": "I don’t know what’s the problem",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-08-26",
+          "notes": "Go into game and can walk around the map but very unstable and any sudden movement can crash it",
           "screenshots": [],
           "source": "app",
           "build": {
@@ -107121,27 +107143,25 @@
           }
         },
         "bestReport": {
-          "device": "iPhone 17",
+          "device": "iPhone 16",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "26.5",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "intro",
+          "status": "ingame",
           "perf": "poor",
-          "date": "2026-03-09",
-          "notes": "It shows the start then goes black the audio is a bit bugged too",
-          "reportedTitleId": "545408A7",
-          "reportedTitle": "Grand Theft Auto V",
+          "date": "2026-08-26",
+          "notes": "Go into game and can walk around the map but very unstable and any sudden movement can crash it",
           "screenshots": [],
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
             "stage": "stable",
-            "commitShort": "2633e8177"
+            "commitShort": "57c3ca140"
           }
         }
       }
