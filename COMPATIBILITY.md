@@ -2,7 +2,7 @@
 
 > **386 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **156** · 🔵 In-Game: **71** · 🟡 Intro: **36** · 🟠 Loads: **50** · 🔴 Doesn't Boot: **73**
+> 🟢 Playable: **156** · 🔵 In-Game: **72** · 🟡 Intro: **36** · 🟠 Loads: **50** · 🔴 Doesn't Boot: **72**
 >
 > 📱 iOS: **353** · 🖥️ macOS: **53**
 
@@ -217,6 +217,7 @@
 | 🔵 | Metal Gear Solid V: The Phantom Pain | `4B4E085E` | 📱 iOS | In-Game | 🐢 Poor | iPad Pro M4 | 2026-06-25 |
 | 🔵 | Metro Last Light | `4B4D07F5` | 🖥️ macOS | In-Game | 👌 OK | MacBook Pro M4 Pro/Max | 2026-02-28 |
 | 🔵 | Middle Earth: Shadow of Mordor | `5752082C` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro Max | 2026-06-12 |
+| 🔵 | Midnight Club: Los Angeles | `545407F8` | 📱 iOS | In-Game | 🐢 Poor | iPhone 16e | 2026-08-27 |
 | 🔵 | MS.PAC-MAN | `58410837` | 📱 iOS | In-Game | 🚀 Great | iPhone 16 | 2026-07-15 |
 | 🔵 | NBA 2K11 | `5454087A` | 📱 iOS | In-Game | 👌 OK | iPhone 16e | 2026-03-10 |
 | 🔵 | NBA Live 10 | `454108C1` | 📱 iOS | In-Game | 🐢 Poor | iPhone 16e | 2026-03-10 |
@@ -367,7 +368,6 @@
 | 🔴 | Joy Ride Turbo | `5841125E` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 | 2026-07-15 |
 | 🔴 | Kane & Lynch 2: Dog Days | `534307F8` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 13 Pro Max | 2026-08-04 |
 | 🔴 | LEGO Star Wars: The Force Awakens | `57520851` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 14 | 2026-03-16 |
-| 🔴 | Midnight Club: Los Angeles | `545407F8` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Pro 13-inch (M5) | 2026-07-24 |
 | 🔴 | Mighty No. 9 | `584114A4` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 13 | 2026-03-09 |
 | 🔴 | MLB 2K12 | `5454089E` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 | 2026-05-27 |
 | 🔴 | Mortal Kombat Komplete Edition | `575207FD` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 12 Pro | 2026-08-11 |
