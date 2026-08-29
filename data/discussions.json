@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-29T09:02:49.833Z",
+  "generatedAt": "2026-08-29T18:31:17.231Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -4066,6 +4066,50 @@
         }
       ]
     },
+    "465307D7": {
+      "titleId": "465307D7",
+      "issueNumber": 573,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/573",
+      "updatedAt": "2026-08-29",
+      "entries": [
+        {
+          "id": "issue-679",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/679",
+          "author": "blake1blake1blake-gif",
+          "createdAt": "2026-08-29",
+          "createdAtMs": 1788028174000,
+          "issueNumber": 679,
+          "excerpt": "Games runs at full speed, with no graphical bugs or artifacts. 60 fps patched worked as well.\n\nMy configuration/settings used:\n\n# Game-specific config overrides\n# Title ID: 465307D7\n\n[APU]\napu = 'sdl'\napu_max_queued_frames = 16\napu_phase_head_tracking = false\nxma_decoder = 'new'\n\n[Console]\naudio_flag = 65537\ninternal_display_resolution = 0\n\n[GPU]\nreadback_resolve = 'full'\nuse_fuzzy_alpha_epsilon = true\n\n[Storage]\nmount_cache = true\n\n[TouchLayoutAssignment]\nlocal_layout_id = 'fps_compact'",
+          "images": [],
+          "meta": {}
+        },
+        {
+          "id": "issue-573",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/573",
+          "author": "xenios-jp",
+          "createdAt": "2026-07-03",
+          "createdAtMs": 1783064497000,
+          "issueNumber": 573,
+          "excerpt": "Buttery smooth",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 17 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 26.5.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "buildStage": "stable",
+            "commitShort": "`57c3ca140`"
+          }
+        }
+      ]
+    },
     "4D5308BC": {
       "titleId": "4D5308BC",
       "issueNumber": 673,
@@ -7258,38 +7302,6 @@
             "status": "nothing",
             "perf": "n/a",
             "device": "iPhone 17 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 26.5.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "buildStage": "stable",
-            "commitShort": "`57c3ca140`"
-          }
-        }
-      ]
-    },
-    "465307D7": {
-      "titleId": "465307D7",
-      "issueNumber": 573,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/573",
-      "updatedAt": "2026-07-03",
-      "entries": [
-        {
-          "id": "issue-573",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/573",
-          "author": "xenios-jp",
-          "createdAt": "2026-07-03",
-          "createdAtMs": 1783064497000,
-          "issueNumber": 573,
-          "excerpt": "Buttery smooth",
-          "images": [],
-          "meta": {
-            "status": "playable",
-            "perf": "great",
-            "device": "iPhone 17 Pro",
             "platform": "iOS",
             "osVersion": "iOS 26.5.1",
             "gpuBackend": "MSL",
@@ -10800,74 +10812,6 @@
             "status": "nothing",
             "perf": "n/a",
             "device": "iPhone 17",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "buildStage": "stable",
-            "commitShort": "`056d2f64d`"
-          }
-        }
-      ]
-    },
-    "584107D7": {
-      "titleId": "584107D7",
-      "issueNumber": 456,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/456",
-      "updatedAt": "2026-05-27",
-      "entries": [
-        {
-          "id": "issue-456",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/456",
-          "author": "xenios-jp",
-          "createdAt": "2026-05-27",
-          "createdAtMs": 1779866042000,
-          "issueNumber": 456,
-          "excerpt": "It runs okay. It took a couple boots, and I think it only works with Universal.js script (not Amethyst )",
-          "images": [],
-          "meta": {
-            "status": "playable",
-            "perf": "ok",
-            "device": "iPhone 16 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "buildStage": "stable",
-            "commitShort": "`056d2f64d`"
-          }
-        },
-        {
-          "id": "comment-4232881219",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/283#issuecomment-4232881219",
-          "author": "udance4ever",
-          "createdAt": "2026-04-12",
-          "createdAtMs": 1776033038000,
-          "issueNumber": 283,
-          "excerpt": "adding photo of marble when it starts to fall through floor. Please change state to \"In-game\"\n\n<img width=\"1392\" height=\"860\" alt=\"Image\" src=\" />",
-          "images": [],
-          "meta": {}
-        },
-        {
-          "id": "issue-283",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/283",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-16",
-          "createdAtMs": 1773697224000,
-          "issueNumber": 283,
-          "excerpt": "Marble sometimes freezes in place and falls through floor",
-          "images": [],
-          "meta": {
-            "status": "playable",
-            "perf": "ok",
-            "device": "iPhone 15 Pro Max",
             "platform": "iOS",
             "osVersion": "iOS 26.3",
             "gpuBackend": "MSL",
@@ -15355,6 +15299,50 @@
             "device": "iPhone 17 Pro Max",
             "platform": "iOS",
             "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "buildStage": "stable",
+            "commitShort": "`056d2f64d`"
+          }
+        }
+      ]
+    },
+    "584107D7": {
+      "titleId": "584107D7",
+      "issueNumber": 283,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/283",
+      "updatedAt": "2026-04-12",
+      "entries": [
+        {
+          "id": "comment-4232881219",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/283#issuecomment-4232881219",
+          "author": "udance4ever",
+          "createdAt": "2026-04-12",
+          "createdAtMs": 1776033038000,
+          "issueNumber": 283,
+          "excerpt": "adding photo of marble when it starts to fall through floor. Please change state to \"In-game\"\n\n<img width=\"1392\" height=\"860\" alt=\"Image\" src=\" />",
+          "images": [],
+          "meta": {}
+        },
+        {
+          "id": "issue-283",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/283",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-16",
+          "createdAtMs": 1773697224000,
+          "issueNumber": 283,
+          "excerpt": "Marble sometimes freezes in place and falls through floor",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 15 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
             "gpuBackend": "MSL",
             "buildChannel": "self-built",
             "appVersion": "1.0.1",

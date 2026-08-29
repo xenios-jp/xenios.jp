@@ -144554,8 +144554,8 @@
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-05-27",
-    "issueNumber": 456,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/456",
+    "issueNumber": 283,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/283",
     "notes": "It runs okay. It took a couple boots, and I think it only works with Universal.js script (not Amethyst )",
     "reports": [
       {
@@ -234645,17 +234645,37 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 17 Pro",
+      "device": "17 Pro",
       "platform": "ios",
-      "osVersion": "26.5.1",
+      "osVersion": "iOS 27 public beta 5",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-07-03",
+    "updatedAt": "2026-08-29",
     "issueNumber": 573,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/573",
-    "notes": "Buttery smooth",
+    "notes": "Games runs at full speed, with no graphical bugs or artifacts. 60 fps patched worked as well.\n\nMy configuration/settings used:\n\n# Game-specific config overrides\n# Title ID: 465307D7\n\n[APU]\napu = 'sdl'\napu_max_queued_frames = 16\napu_phase_head_tracking = false\nxma_decoder = 'new'\n\n[Console]\naudio_flag = 65537\ninternal_display_resolution = 0\n\n[GPU]\nreadback_resolve = 'full'\nuse_fuzzy_alpha_epsilon = true\n\n[Storage]\nmount_cache = true\n\n[TouchLayoutAssignment]\nlocal_layout_id = 'fps_compact'",
     "reports": [
+      {
+        "device": "17 Pro",
+        "platform": "ios",
+        "osVersion": "iOS 27 public beta 5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-08-29",
+        "notes": "Games runs at full speed, with no graphical bugs or artifacts. 60 fps patched worked as well.\n\nMy configuration/settings used:\n\n# Game-specific config overrides\n# Title ID: 465307D7\n\n[APU]\napu = 'sdl'\napu_max_queued_frames = 16\napu_phase_head_tracking = false\nxma_decoder = 'new'\n\n[Console]\naudio_flag = 65537\ninternal_display_resolution = 0\n\n[GPU]\nreadback_resolve = 'full'\nuse_fuzzy_alpha_epsilon = true\n\n[Storage]\nmount_cache = true\n\n[TouchLayoutAssignment]\nlocal_layout_id = 'fps_compact'",
+        "screenshots": [],
+        "source": "github",
+        "build": {
+          "buildId": "ios-self-built-2.1-preview-9857",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.1  preview",
+          "buildNumber": "9857"
+        }
+      },
       {
         "device": "iPhone 17 Pro",
         "platform": "ios",
@@ -234696,52 +234716,48 @@
         "channel": "all",
         "status": "playable",
         "perf": "great",
-        "notes": "Buttery smooth",
-        "updatedAt": "2026-07-03",
-        "date": "2026-07-03",
-        "reportCount": 1,
+        "notes": "Games runs at full speed, with no graphical bugs or artifacts. 60 fps patched worked as well.\n\nMy configuration/settings used:\n\n# Game-specific config overrides\n# Title ID: 465307D7\n\n[APU]\napu = 'sdl'\napu_max_queued_frames = 16\napu_phase_head_tracking = false\nxma_decoder = 'new'\n\n[Console]\naudio_flag = 65537\ninternal_display_resolution = 0\n\n[GPU]\nreadback_resolve = 'full'\nuse_fuzzy_alpha_epsilon = true\n\n[Storage]\nmount_cache = true\n\n[TouchLayoutAssignment]\nlocal_layout_id = 'fps_compact'",
+        "updatedAt": "2026-08-29",
+        "date": "2026-08-29",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 17 Pro",
+          "device": "17 Pro",
           "platform": "ios",
-          "osVersion": "26.5.1",
+          "osVersion": "iOS 27 public beta 5",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "great",
-          "date": "2026-07-03",
-          "notes": "Buttery smooth",
+          "date": "2026-08-29",
+          "notes": "Games runs at full speed, with no graphical bugs or artifacts. 60 fps patched worked as well.\n\nMy configuration/settings used:\n\n# Game-specific config overrides\n# Title ID: 465307D7\n\n[APU]\napu = 'sdl'\napu_max_queued_frames = 16\napu_phase_head_tracking = false\nxma_decoder = 'new'\n\n[Console]\naudio_flag = 65537\ninternal_display_resolution = 0\n\n[GPU]\nreadback_resolve = 'full'\nuse_fuzzy_alpha_epsilon = true\n\n[Storage]\nmount_cache = true\n\n[TouchLayoutAssignment]\nlocal_layout_id = 'fps_compact'",
           "screenshots": [],
-          "source": "app",
+          "source": "github",
           "build": {
-            "buildId": "ios-self-built-2.0.1-9730",
+            "buildId": "ios-self-built-2.1-preview-9857",
             "channel": "self-built",
             "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.1  preview",
+            "buildNumber": "9857"
           }
         },
         "bestReport": {
-          "device": "iPhone 17 Pro",
+          "device": "17 Pro",
           "platform": "ios",
-          "osVersion": "26.5.1",
+          "osVersion": "iOS 27 public beta 5",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "great",
-          "date": "2026-07-03",
-          "notes": "Buttery smooth",
+          "date": "2026-08-29",
+          "notes": "Games runs at full speed, with no graphical bugs or artifacts. 60 fps patched worked as well.\n\nMy configuration/settings used:\n\n# Game-specific config overrides\n# Title ID: 465307D7\n\n[APU]\napu = 'sdl'\napu_max_queued_frames = 16\napu_phase_head_tracking = false\nxma_decoder = 'new'\n\n[Console]\naudio_flag = 65537\ninternal_display_resolution = 0\n\n[GPU]\nreadback_resolve = 'full'\nuse_fuzzy_alpha_epsilon = true\n\n[Storage]\nmount_cache = true\n\n[TouchLayoutAssignment]\nlocal_layout_id = 'fps_compact'",
           "screenshots": [],
-          "source": "app",
+          "source": "github",
           "build": {
-            "buildId": "ios-self-built-2.0.1-9730",
+            "buildId": "ios-self-built-2.1-preview-9857",
             "channel": "self-built",
             "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.1  preview",
+            "buildNumber": "9857"
           }
         }
       }

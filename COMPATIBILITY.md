@@ -156,7 +156,7 @@
 | 🟢 | STREET FIGHTER X TEKKEN | `4343080F` | 📱 iOS | Playable | 🐢 Poor | iPhone 16 Pro Max | 2026-03-11 |
 | 🟢 | Super Street Fighter 2 THD | `584108A4` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-06-25 |
 | 🟢 | Superman Returns | `454107ED` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-08-15 |
-| 🟢 | Tenchu Z | `465307D7` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro | 2026-07-03 |
+| 🟢 | Tenchu Z | `465307D7` | 📱 iOS | Playable | 🚀 Great | 17 Pro | 2026-08-29 |
 | 🟢 | Test Drive Unlimited | `494707D4` | 📱 iOS | Playable | 👌 OK | iPhone 17 Pro Max | 2026-03-27 |
 | 🟢 | The Elder Scrolls 4: Oblivion - Game of the Year Edition | `425307D1` | 📱 iOS | Playable | 👌 OK | iPhone 14 Plus | 2026-03-22 |
 | 🟢 | The Outfit | `545107D2` | 📱 iOS | Playable | 🐢 Poor | iPhone 15 Pro Max | 2026-03-13 |
