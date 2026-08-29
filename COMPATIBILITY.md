@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **386 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **387 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **156** · 🔵 In-Game: **72** · 🟡 Intro: **36** · 🟠 Loads: **50** · 🔴 Doesn't Boot: **72**
+> 🟢 Playable: **156** · 🔵 In-Game: **72** · 🟡 Intro: **36** · 🟠 Loads: **51** · 🔴 Doesn't Boot: **72**
 >
-> 📱 iOS: **353** · 🖥️ macOS: **53**
+> 📱 iOS: **353** · 🖥️ macOS: **54**
 
 ## Legend
 
@@ -311,6 +311,7 @@
 | 🟠 | Lost: Via Domus | `5553080F` | 📱 iOS | Loads | 🐢 Poor | iPhone Air | 2026-08-13 |
 | 🟠 | Metal Gear Solid V: Ground Zeroes | `4B4E085C` | 📱 iOS | Loads | 🐢 Poor | iPhone 15 Pro Max | 2026-03-10 |
 | 🟠 | Naruto Shippuden: Ultimate Ninja Storm Revolution | `4E4D0868` | 📱 iOS | Loads | 🐢 Poor | iPhone Air | 2026-08-16 |
+| 🟠 | NASCAR 08 | `45410814` | 🖥️ macOS | Loads | 🐢 Poor | Macbook Air M2 2022 | 2026-08-29 |
 | 🟠 | NBA 2K10 | `54549852` | 🖥️ macOS | Loads | 🐢 Poor | MacBook Air (M4) | 2026-03-18 |
 | 🟠 | NCAA Basketball 10 | `454108C3` | 📱 iOS | Loads | 🐢 Poor | iPhone 16e | 2026-03-11 |
 | 🟠 | Prince of Persia The Forgotten Sands | `5553083E` | 📱 iOS | Loads | 🐢 Poor | iPad Pro 13-inch (M4) | 2026-06-30 |
