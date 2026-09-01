@@ -2,7 +2,7 @@
 
 > **387 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **156** · 🔵 In-Game: **72** · 🟡 Intro: **36** · 🟠 Loads: **51** · 🔴 Doesn't Boot: **72**
+> 🟢 Playable: **157** · 🔵 In-Game: **72** · 🟡 Intro: **36** · 🟠 Loads: **50** · 🔴 Doesn't Boot: **72**
 >
 > 📱 iOS: **353** · 🖥️ macOS: **54**
 
@@ -104,6 +104,7 @@
 | 🟢 | Metal Gear Rising: Revengeance | `4B4E080A` | 📱 iOS | Playable | 🚀 Great | iPad Pro 13-inch (M5) | 2026-06-29 |
 | 🟢 | METAL GEAR SOLID HD EDITION 2 & 3 (Metal Gear Solid HD Collection) | `4B4E0840` | 🖥️ macOS | Playable | 👌 OK | MacBook Air (M2) | 2026-08-21 |
 | 🟢 | METAL GEAR SOLID PEACE WALKER HD EDITION | `4B4E083C` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Plus | 2026-03-18 |
+| 🟢 | Metal Gear Solid V: Ground Zeroes | `4B4E085C` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-09-01 |
 | 🟢 | Metal Slug 3 | `584108CF` | 📱 iOS | Playable | 🚀 Great | iPhone 15 | 2026-06-07 |
 | 🟢 | Minecraft: Xbox 360 Edition | `4D530A81` | 📱 iOS | Playable | 👌 OK | iPhone 14 Pro Max | 2026-05-05 |
 | 🟢 | MINI NINJAS™ (demo) | `53438806` | 📱 iOS | Playable | 👌 OK | iPhone 16 | 2026-07-15 |
@@ -309,7 +310,6 @@
 | 🟠 | Lego Jurassic World | `5752084D` | 📱 iOS | Loads | 🚀 Great | iPhone 16 | 2026-08-14 |
 | 🟠 | Lego Star Wars III: The Clone Wars | `4C4107F3` | 📱 iOS | Loads | 👌 OK | iPhone 15 Pro | 2026-03-10 |
 | 🟠 | Lost: Via Domus | `5553080F` | 📱 iOS | Loads | 🐢 Poor | iPhone Air | 2026-08-13 |
-| 🟠 | Metal Gear Solid V: Ground Zeroes | `4B4E085C` | 📱 iOS | Loads | 🐢 Poor | iPhone 15 Pro Max | 2026-03-10 |
 | 🟠 | Naruto Shippuden: Ultimate Ninja Storm Revolution | `4E4D0868` | 📱 iOS | Loads | 🐢 Poor | iPhone Air | 2026-08-16 |
 | 🟠 | NASCAR 08 | `45410814` | 🖥️ macOS | Loads | 🐢 Poor | Macbook Air M2 2022 | 2026-08-29 |
 | 🟠 | NBA 2K10 | `54549852` | 🖥️ macOS | Loads | 🐢 Poor | MacBook Air (M4) | 2026-03-18 |
