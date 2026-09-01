@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T02:39:26.005Z",
+  "generatedAt": "2026-09-01T03:46:50.503Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -4066,33 +4066,21 @@
         }
       ]
     },
-    "4B4E085C": {
-      "titleId": "4B4E085C",
-      "issueNumber": 166,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/166",
+    "555308C2": {
+      "titleId": "555308C2",
+      "issueNumber": 682,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/682",
       "updatedAt": "2026-09-01",
       "entries": [
         {
-          "id": "issue-681",
+          "id": "issue-682",
           "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/681",
-          "author": "MasterPDiddy",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/682",
+          "author": "Boralmalgor",
           "createdAt": "2026-09-01",
-          "createdAtMs": 1788230254000,
-          "issueNumber": 681,
-          "excerpt": "Haven’t tested Full game but all the menus work, the opening cutscene works, and gameplay works with fps around 15-25. The only 2 negatives about it right now is that some text is bugged like in the credits and when selecting guns and also some textures are bugged out",
-          "images": [],
-          "meta": {}
-        },
-        {
-          "id": "issue-166",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/166",
-          "author": "vorosvskoyaylem",
-          "createdAt": "2026-03-10",
-          "createdAtMs": 1773147802000,
-          "issueNumber": 166,
-          "excerpt": "lights are missing text is bugged",
+          "createdAtMs": 1788234282000,
+          "issueNumber": 682,
+          "excerpt": "Game crashes",
           "images": [],
           "meta": {}
         }
@@ -17476,6 +17464,26 @@
             "buildStage": "stable",
             "commitShort": "`2633e8177`"
           }
+        }
+      ]
+    },
+    "4B4E085C": {
+      "titleId": "4B4E085C",
+      "issueNumber": 166,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/166",
+      "updatedAt": "2026-09-01",
+      "entries": [
+        {
+          "id": "issue-166",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/166",
+          "author": "vorosvskoyaylem",
+          "createdAt": "2026-03-10",
+          "createdAtMs": 1773147802000,
+          "issueNumber": 166,
+          "excerpt": "lights are missing text is bugged",
+          "images": [],
+          "meta": {}
         }
       ]
     },

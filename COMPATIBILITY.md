@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **387 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **388 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **157** · 🔵 In-Game: **72** · 🟡 Intro: **36** · 🟠 Loads: **50** · 🔴 Doesn't Boot: **72**
+> 🟢 Playable: **157** · 🔵 In-Game: **72** · 🟡 Intro: **36** · 🟠 Loads: **50** · 🔴 Doesn't Boot: **73**
 >
-> 📱 iOS: **353** · 🖥️ macOS: **54**
+> 📱 iOS: **354** · 🖥️ macOS: **54**
 
 ## Legend
 
@@ -340,6 +340,7 @@
 | 🔴 | AMY | `58411220` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Pro 13-inch (M5) | 2026-06-11 |
 | 🔴 | Assassin's Creed II | `5553083B` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 14 Pro | 2026-06-03 |
 | 🔴 | Assassin's Creed III | `555308AE` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 Pro Max | 2026-04-10 |
+| 🔴 | Assassin's Creed IV: Black Flag | `555308C2` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro Max | 2026-09-01 |
 | 🔴 | Backbreaker Vengeance | `58410B39` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 Pro Max | 2026-07-18 |
 | 🔴 | Blue Dragon | `4D5307DF` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone Air | 2026-08-13 |
 | 🔴 | Call of Duty 3 | `415607E1` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-09 |
