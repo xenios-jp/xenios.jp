@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **388 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **389 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **157** · 🔵 In-Game: **72** · 🟡 Intro: **36** · 🟠 Loads: **50** · 🔴 Doesn't Boot: **73**
+> 🟢 Playable: **158** · 🔵 In-Game: **72** · 🟡 Intro: **36** · 🟠 Loads: **50** · 🔴 Doesn't Boot: **73**
 >
-> 📱 iOS: **354** · 🖥️ macOS: **54**
+> 📱 iOS: **355** · 🖥️ macOS: **54**
 
 ## Legend
 
@@ -160,6 +160,7 @@
 | 🟢 | Tenchu Z | `465307D7` | 📱 iOS | Playable | 🚀 Great | 17 Pro | 2026-08-29 |
 | 🟢 | Test Drive Unlimited | `494707D4` | 📱 iOS | Playable | 👌 OK | iPhone 17 Pro Max | 2026-03-27 |
 | 🟢 | The Elder Scrolls 4: Oblivion - Game of the Year Edition | `425307D1` | 📱 iOS | Playable | 👌 OK | iPhone 14 Plus | 2026-03-22 |
+| 🟢 | The Lord of the Rings: War in the North | `575207EF` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro Max | 2026-09-01 |
 | 🟢 | The Outfit | `545107D2` | 📱 iOS | Playable | 🐢 Poor | iPhone 15 Pro Max | 2026-03-13 |
 | 🟢 | The Simpsons Game | `45410809` | 📱 iOS | Playable | 👌 OK | iPhone Air | 2026-08-04 |
 | 🟢 | TimeShift | `565507DA` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro | 2026-03-13 |

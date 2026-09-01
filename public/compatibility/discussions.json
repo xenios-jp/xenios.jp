@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T03:46:50.503Z",
+  "generatedAt": "2026-09-01T03:52:39.852Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -4061,6 +4061,26 @@
           "createdAtMs": 1773517964000,
           "issueNumber": 263,
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
+          "images": [],
+          "meta": {}
+        }
+      ]
+    },
+    "575207EF": {
+      "titleId": "575207EF",
+      "issueNumber": 683,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/683",
+      "updatedAt": "2026-09-01",
+      "entries": [
+        {
+          "id": "issue-683",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/683",
+          "author": "Boralmalgor",
+          "createdAt": "2026-09-01",
+          "createdAtMs": 1788234647000,
+          "issueNumber": 683,
+          "excerpt": "Game seems to run at stable 30 fps however missing textures",
           "images": [],
           "meta": {}
         }
