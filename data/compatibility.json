@@ -175638,14 +175638,45 @@
       "464F0800",
       "464F8801"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
-    "platforms": [],
-    "lastReport": null,
-    "updatedAt": "",
-    "notes": "",
-    "reports": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 17 Pro Max",
+      "platform": "ios",
+      "osVersion": "26.3",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-09-02",
+    "issueNumber": 684,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/684",
+    "notes": "Game runs good around 15-25 fps and can go into high 40s when nothing is going on. Only problem is after the intro there's no audio\n\n<img width=\"1434\" height=\"660\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/64b32baf-4c41-4e8b-be6b-6ba675e5005c\" />",
+    "reports": [
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-09-02",
+        "notes": "Game runs good around 15-25 fps and can go into high 40s when nothing is going on. Only problem is after the intro there's no audio\n\n<img width=\"1434\" height=\"660\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/64b32baf-4c41-4e8b-be6b-6ba675e5005c\" />",
+        "screenshots": [],
+        "source": "github",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730"
+        }
+      }
+    ],
     "screenshots": [],
     "summaries": {
       "release": {
@@ -175661,14 +175692,52 @@
       },
       "all": {
         "channel": "all",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "playable",
+        "perf": "great",
+        "notes": "Game runs good around 15-25 fps and can go into high 40s when nothing is going on. Only problem is after the intro there's no audio\n\n<img width=\"1434\" height=\"660\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/64b32baf-4c41-4e8b-be6b-6ba675e5005c\" />",
+        "updatedAt": "2026-09-02",
+        "date": "2026-09-02",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-09-02",
+          "notes": "Game runs good around 15-25 fps and can go into high 40s when nothing is going on. Only problem is after the intro there's no audio\n\n<img width=\"1434\" height=\"660\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/64b32baf-4c41-4e8b-be6b-6ba675e5005c\" />",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-09-02",
+          "notes": "Game runs good around 15-25 fps and can go into high 40s when nothing is going on. Only problem is after the intro there's no audio\n\n<img width=\"1434\" height=\"660\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/64b32baf-4c41-4e8b-be6b-6ba675e5005c\" />",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730"
+          }
+        }
       }
     }
   },

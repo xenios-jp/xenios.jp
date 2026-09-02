@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **389 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **390 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **158** · 🔵 In-Game: **72** · 🟡 Intro: **36** · 🟠 Loads: **50** · 🔴 Doesn't Boot: **73**
+> 🟢 Playable: **159** · 🔵 In-Game: **72** · 🟡 Intro: **36** · 🟠 Loads: **50** · 🔴 Doesn't Boot: **73**
 >
-> 📱 iOS: **355** · 🖥️ macOS: **54**
+> 📱 iOS: **356** · 🖥️ macOS: **54**
 
 ## Legend
 
@@ -124,6 +124,7 @@
 | 🟢 | Need for Speed: ProStreet | `45410822` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro | 2026-06-20 |
 | 🟢 | Need for Speed: Undercover | `45410876` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-09 |
 | 🟢 | OPERATION DARKNESS | `535507D1` | 📱 iOS | Playable | 🚀 Great | iPad Pro 11 inch 5th Gen | 2026-03-18 |
+| 🟢 | PAYDAY 2 | `464F0800` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-09-02 |
 | 🟢 | Peggle | `58410889` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro Max | 2026-05-27 |
 | 🟢 | Peggle 2 | `58411436` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro Max | 2026-05-27 |
 | 🟢 | Perfect Dark Zero | `4D5307D3` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-06-18 |

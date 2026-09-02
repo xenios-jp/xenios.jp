@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T03:52:39.852Z",
+  "generatedAt": "2026-09-02T00:08:28.963Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -4061,6 +4061,26 @@
           "createdAtMs": 1773517964000,
           "issueNumber": 263,
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
+          "images": [],
+          "meta": {}
+        }
+      ]
+    },
+    "464F0800": {
+      "titleId": "464F0800",
+      "issueNumber": 684,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/684",
+      "updatedAt": "2026-09-02",
+      "entries": [
+        {
+          "id": "issue-684",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/684",
+          "author": "MasterPDiddy9",
+          "createdAt": "2026-09-02",
+          "createdAtMs": 1788307557000,
+          "issueNumber": 684,
+          "excerpt": "Game runs good around 15-25 fps and can go into high 40s when nothing is going on. Only problem is after the intro there's no audio\n\n<img width=\"1434\" height=\"660\" alt=\"Image\" src=\" />",
           "images": [],
           "meta": {}
         }
