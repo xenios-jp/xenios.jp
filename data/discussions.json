@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T00:08:28.963Z",
+  "generatedAt": "2026-09-03T07:50:45.325Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -4350,8 +4350,32 @@
       "titleId": "545407F2",
       "issueNumber": 667,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/667",
-      "updatedAt": "2026-08-18",
+      "updatedAt": "2026-09-03",
       "entries": [
+        {
+          "id": "comment-5522385384",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/667#issuecomment-5522385384",
+          "author": "xenios-jp",
+          "createdAt": "2026-09-03",
+          "createdAtMs": 1788421616000,
+          "issueNumber": 667,
+          "excerpt": "black screen :(",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPad (A16)",
+            "platform": "iOS",
+            "osVersion": "iOS 27.0",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "buildStage": "stable",
+            "commitShort": "`57c3ca140`"
+          }
+        },
         {
           "id": "issue-667",
           "type": "issue",
@@ -4447,30 +4471,6 @@
           "excerpt": "I just tried this on my iPhone 17 base model and it’s pretty stable but there are stutters and my phone overheated really fast also the audio is really bad",
           "images": [],
           "meta": {}
-        },
-        {
-          "id": "comment-4755648995",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/508#issuecomment-4755648995",
-          "author": "xenios-jp",
-          "createdAt": "2026-06-20",
-          "createdAtMs": 1781915039000,
-          "issueNumber": 508,
-          "excerpt": "The Game Working Perfectly but around 10-20 FPS and sometimes Increases to 50 FPS",
-          "images": [],
-          "meta": {
-            "status": "playable",
-            "perf": "ok",
-            "device": "iPhone 17 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 26.5.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "buildStage": "stable",
-            "commitShort": "`57c3ca140`"
-          }
         }
       ]
     },

@@ -17479,7 +17479,7 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 16 Pro Max",
+      "device": "Iphone 16 pro max",
       "platform": "ios",
       "osVersion": "27.0",
       "arch": "arm64",
@@ -17491,7 +17491,7 @@
     "notes": "Game crashes",
     "reports": [
       {
-        "device": "iPhone 16 Pro Max",
+        "device": "Iphone 16 pro max",
         "platform": "ios",
         "osVersion": "27.0",
         "arch": "arm64",
@@ -17500,12 +17500,15 @@
         "perf": "n/a",
         "date": "2026-09-01",
         "notes": "Game crashes",
+        "reportedTitleId": "555308C2",
+        "reportedTitle": "Assassin's Creed IV: Black Flag",
         "screenshots": [],
+        "submittedBy": "Boralmalgor",
         "source": "github",
         "build": {
-          "buildId": "ios-self-built-preview-2.1-9857-2-1",
-          "channel": "self-built",
-          "official": false,
+          "buildId": "ios-release-Preview 2.1-9857-2,1",
+          "channel": "release",
+          "official": true,
           "appVersion": "Preview 2.1-9857",
           "buildNumber": "2,1"
         }
@@ -17515,14 +17518,58 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "nothing",
+        "perf": "n/a",
+        "notes": "Game crashes",
+        "updatedAt": "2026-09-01",
+        "date": "2026-09-01",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "Iphone 16 pro max",
+          "platform": "ios",
+          "osVersion": "27.0",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-09-01",
+          "notes": "Game crashes",
+          "reportedTitleId": "555308C2",
+          "reportedTitle": "Assassin's Creed IV: Black Flag",
+          "screenshots": [],
+          "submittedBy": "Boralmalgor",
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-Preview 2.1-9857-2,1",
+            "channel": "release",
+            "official": true,
+            "appVersion": "Preview 2.1-9857",
+            "buildNumber": "2,1"
+          }
+        },
+        "bestReport": {
+          "device": "Iphone 16 pro max",
+          "platform": "ios",
+          "osVersion": "27.0",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-09-01",
+          "notes": "Game crashes",
+          "reportedTitleId": "555308C2",
+          "reportedTitle": "Assassin's Creed IV: Black Flag",
+          "screenshots": [],
+          "submittedBy": "Boralmalgor",
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-Preview 2.1-9857-2,1",
+            "channel": "release",
+            "official": true,
+            "appVersion": "Preview 2.1-9857",
+            "buildNumber": "2,1"
+          }
+        }
       },
       "all": {
         "channel": "all",
@@ -17533,7 +17580,7 @@
         "date": "2026-09-01",
         "reportCount": 1,
         "latestReport": {
-          "device": "iPhone 16 Pro Max",
+          "device": "Iphone 16 pro max",
           "platform": "ios",
           "osVersion": "27.0",
           "arch": "arm64",
@@ -17542,18 +17589,21 @@
           "perf": "n/a",
           "date": "2026-09-01",
           "notes": "Game crashes",
+          "reportedTitleId": "555308C2",
+          "reportedTitle": "Assassin's Creed IV: Black Flag",
           "screenshots": [],
+          "submittedBy": "Boralmalgor",
           "source": "github",
           "build": {
-            "buildId": "ios-self-built-preview-2.1-9857-2-1",
-            "channel": "self-built",
-            "official": false,
+            "buildId": "ios-release-Preview 2.1-9857-2,1",
+            "channel": "release",
+            "official": true,
             "appVersion": "Preview 2.1-9857",
             "buildNumber": "2,1"
           }
         },
         "bestReport": {
-          "device": "iPhone 16 Pro Max",
+          "device": "Iphone 16 pro max",
           "platform": "ios",
           "osVersion": "27.0",
           "arch": "arm64",
@@ -17562,12 +17612,15 @@
           "perf": "n/a",
           "date": "2026-09-01",
           "notes": "Game crashes",
+          "reportedTitleId": "555308C2",
+          "reportedTitle": "Assassin's Creed IV: Black Flag",
           "screenshots": [],
+          "submittedBy": "Boralmalgor",
           "source": "github",
           "build": {
-            "buildId": "ios-self-built-preview-2.1-9857-2-1",
-            "channel": "self-built",
-            "official": false,
+            "buildId": "ios-release-Preview 2.1-9857-2,1",
+            "channel": "release",
+            "official": true,
             "appVersion": "Preview 2.1-9857",
             "buildNumber": "2,1"
           }
@@ -106742,11 +106795,33 @@
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-08-18",
+    "updatedAt": "2026-09-03",
     "issueNumber": 41,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/41",
     "notes": "Game boots, menu navigation works. Infinite loading screen for first mission.",
     "reports": [
+      {
+        "device": "iPad (A16)",
+        "platform": "ios",
+        "osVersion": "27.0",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-09-03",
+        "notes": "black screen :(",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140"
+        }
+      },
       {
         "device": "iPhone 16 Pro",
         "platform": "ios",
@@ -106958,19 +107033,19 @@
         "status": "ingame",
         "perf": "poor",
         "notes": "Game boots, menu navigation works. Infinite loading screen for first mission.",
-        "updatedAt": "2026-08-18",
-        "date": "2026-08-18",
-        "reportCount": 7,
+        "updatedAt": "2026-09-03",
+        "date": "2026-09-03",
+        "reportCount": 8,
         "latestReport": {
-          "device": "iPhone 16 Pro",
+          "device": "iPad (A16)",
           "platform": "ios",
-          "osVersion": "18.5",
+          "osVersion": "27.0",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "nothing",
           "perf": "n/a",
-          "date": "2026-08-18",
-          "notes": "Black screen and down game",
+          "date": "2026-09-03",
+          "notes": "black screen :(",
           "screenshots": [],
           "source": "app",
           "build": {
@@ -150921,44 +150996,24 @@
     "titleIds": [
       "545407F8"
     ],
-    "status": "ingame",
-    "perf": "poor",
+    "status": "nothing",
+    "perf": "n/a",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 16e",
+      "device": "iPad Pro 13-inch (M5)",
       "platform": "ios",
-      "osVersion": "26.6",
+      "osVersion": "27.0",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-08-27",
+    "updatedAt": "2026-07-24",
     "issueNumber": 160,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/160",
-    "notes": "work with some graphical glitches and lower fps (10-17).\nLoading screen can stay on loop some times.",
+    "notes": "Literally does nothing",
     "reports": [
-      {
-        "device": "iPhone 16e",
-        "platform": "ios",
-        "osVersion": "26.6",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "perf": "poor",
-        "date": "2026-08-27",
-        "notes": "work with some graphical glitches and lower fps (10-17).\nLoading screen can stay on loop some times.",
-        "screenshots": [],
-        "source": "github",
-        "build": {
-          "buildId": "ios-self-built-2.1-9857-9857",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "2.1-9857",
-          "buildNumber": "9857"
-        }
-      },
       {
         "device": "iPad Pro 13-inch (M5)",
         "platform": "ios",
@@ -151011,50 +151066,54 @@
       },
       "all": {
         "channel": "all",
-        "status": "ingame",
-        "perf": "poor",
-        "notes": "work with some graphical glitches and lower fps (10-17).\nLoading screen can stay on loop some times.",
-        "updatedAt": "2026-08-27",
-        "date": "2026-08-27",
-        "reportCount": 2,
+        "status": "nothing",
+        "perf": "n/a",
+        "notes": "Literally does nothing",
+        "updatedAt": "2026-07-24",
+        "date": "2026-07-24",
+        "reportCount": 1,
         "latestReport": {
-          "device": "iPhone 16e",
+          "device": "iPad Pro 13-inch (M5)",
           "platform": "ios",
-          "osVersion": "26.6",
+          "osVersion": "27.0",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-08-27",
-          "notes": "work with some graphical glitches and lower fps (10-17).\nLoading screen can stay on loop some times.",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-07-24",
+          "notes": "Literally does nothing",
           "screenshots": [],
-          "source": "github",
+          "source": "app",
           "build": {
-            "buildId": "ios-self-built-2.1-9857-9857",
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
-            "appVersion": "2.1-9857",
-            "buildNumber": "9857"
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
           }
         },
         "bestReport": {
-          "device": "iPhone 16e",
+          "device": "iPad Pro 13-inch (M5)",
           "platform": "ios",
-          "osVersion": "26.6",
+          "osVersion": "27.0",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-08-27",
-          "notes": "work with some graphical glitches and lower fps (10-17).\nLoading screen can stay on loop some times.",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-07-24",
+          "notes": "Literally does nothing",
           "screenshots": [],
-          "source": "github",
+          "source": "app",
           "build": {
-            "buildId": "ios-self-built-2.1-9857-9857",
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
-            "appVersion": "2.1-9857",
-            "buildNumber": "9857"
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
           }
         }
       }
@@ -160608,29 +160667,84 @@
         "perf": "poor",
         "date": "2026-08-29",
         "notes": "The game does open but when you get to the title screen that says start when you press start it doesn't do anything.",
-        "screenshots": [],
+        "reportedTitleId": "45410814",
+        "reportedTitle": "NASCAR 08",
+        "screenshots": [
+          "https://github.com/user-attachments/assets/5694164d-56ea-4787-bdb9-d61a5e1ee41b"
+        ],
+        "submittedBy": "BananaMaster123",
         "source": "github",
         "build": {
-          "buildId": "macos-self-built-2.0.1-9730-silicon-9730",
-          "channel": "self-built",
-          "official": false,
+          "buildId": "macos-release-2.0.1-9730 Silicon-9730",
+          "channel": "release",
+          "official": true,
           "appVersion": "2.0.1-9730 Silicon",
           "buildNumber": "9730"
         }
       }
     ],
-    "screenshots": [],
+    "screenshots": [
+      "https://github.com/user-attachments/assets/5694164d-56ea-4787-bdb9-d61a5e1ee41b"
+    ],
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "loads",
+        "perf": "poor",
+        "notes": "The game does open but when you get to the title screen that says start when you press start it doesn't do anything.",
+        "updatedAt": "2026-08-29",
+        "date": "2026-08-29",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "Macbook Air M2 2022",
+          "platform": "macos",
+          "osVersion": "macOS Tahoe 26.6.2",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "loads",
+          "perf": "poor",
+          "date": "2026-08-29",
+          "notes": "The game does open but when you get to the title screen that says start when you press start it doesn't do anything.",
+          "reportedTitleId": "45410814",
+          "reportedTitle": "NASCAR 08",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/5694164d-56ea-4787-bdb9-d61a5e1ee41b"
+          ],
+          "submittedBy": "BananaMaster123",
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-2.0.1-9730 Silicon-9730",
+            "channel": "release",
+            "official": true,
+            "appVersion": "2.0.1-9730 Silicon",
+            "buildNumber": "9730"
+          }
+        },
+        "bestReport": {
+          "device": "Macbook Air M2 2022",
+          "platform": "macos",
+          "osVersion": "macOS Tahoe 26.6.2",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "loads",
+          "perf": "poor",
+          "date": "2026-08-29",
+          "notes": "The game does open but when you get to the title screen that says start when you press start it doesn't do anything.",
+          "reportedTitleId": "45410814",
+          "reportedTitle": "NASCAR 08",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/5694164d-56ea-4787-bdb9-d61a5e1ee41b"
+          ],
+          "submittedBy": "BananaMaster123",
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-2.0.1-9730 Silicon-9730",
+            "channel": "release",
+            "official": true,
+            "appVersion": "2.0.1-9730 Silicon",
+            "buildNumber": "9730"
+          }
+        }
       },
       "all": {
         "channel": "all",
@@ -160650,12 +160764,17 @@
           "perf": "poor",
           "date": "2026-08-29",
           "notes": "The game does open but when you get to the title screen that says start when you press start it doesn't do anything.",
-          "screenshots": [],
+          "reportedTitleId": "45410814",
+          "reportedTitle": "NASCAR 08",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/5694164d-56ea-4787-bdb9-d61a5e1ee41b"
+          ],
+          "submittedBy": "BananaMaster123",
           "source": "github",
           "build": {
-            "buildId": "macos-self-built-2.0.1-9730-silicon-9730",
-            "channel": "self-built",
-            "official": false,
+            "buildId": "macos-release-2.0.1-9730 Silicon-9730",
+            "channel": "release",
+            "official": true,
             "appVersion": "2.0.1-9730 Silicon",
             "buildNumber": "9730"
           }
@@ -160670,12 +160789,17 @@
           "perf": "poor",
           "date": "2026-08-29",
           "notes": "The game does open but when you get to the title screen that says start when you press start it doesn't do anything.",
-          "screenshots": [],
+          "reportedTitleId": "45410814",
+          "reportedTitle": "NASCAR 08",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/5694164d-56ea-4787-bdb9-d61a5e1ee41b"
+          ],
+          "submittedBy": "BananaMaster123",
           "source": "github",
           "build": {
-            "buildId": "macos-self-built-2.0.1-9730-silicon-9730",
-            "channel": "self-built",
-            "official": false,
+            "buildId": "macos-release-2.0.1-9730 Silicon-9730",
+            "channel": "release",
+            "official": true,
             "appVersion": "2.0.1-9730 Silicon",
             "buildNumber": "9730"
           }
@@ -175645,7 +175769,7 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 17 Pro Max",
+      "device": "Iphone 17 Pro Max",
       "platform": "ios",
       "osVersion": "26.3",
       "arch": "arm64",
@@ -175657,7 +175781,7 @@
     "notes": "Game runs good around 15-25 fps and can go into high 40s when nothing is going on. Only problem is after the intro there's no audio\n\n<img width=\"1434\" height=\"660\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/64b32baf-4c41-4e8b-be6b-6ba675e5005c\" />",
     "reports": [
       {
-        "device": "iPhone 17 Pro Max",
+        "device": "Iphone 17 Pro Max",
         "platform": "ios",
         "osVersion": "26.3",
         "arch": "arm64",
@@ -175666,29 +175790,84 @@
         "perf": "great",
         "date": "2026-09-02",
         "notes": "Game runs good around 15-25 fps and can go into high 40s when nothing is going on. Only problem is after the intro there's no audio\n\n<img width=\"1434\" height=\"660\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/64b32baf-4c41-4e8b-be6b-6ba675e5005c\" />",
-        "screenshots": [],
+        "reportedTitleId": "464F0800",
+        "reportedTitle": "Payday 2",
+        "screenshots": [
+          "https://github.com/user-attachments/assets/64b32baf-4c41-4e8b-be6b-6ba675e5005c"
+        ],
+        "submittedBy": "MasterPDiddy9",
         "source": "github",
         "build": {
-          "buildId": "ios-self-built-2.0.1-9730",
-          "channel": "self-built",
-          "official": false,
+          "buildId": "ios-release-2.0.1-9730",
+          "channel": "release",
+          "official": true,
           "appVersion": "2.0.1",
           "buildNumber": "9730"
         }
       }
     ],
-    "screenshots": [],
+    "screenshots": [
+      "https://github.com/user-attachments/assets/64b32baf-4c41-4e8b-be6b-6ba675e5005c"
+    ],
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "playable",
+        "perf": "great",
+        "notes": "Game runs good around 15-25 fps and can go into high 40s when nothing is going on. Only problem is after the intro there's no audio\n\n<img width=\"1434\" height=\"660\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/64b32baf-4c41-4e8b-be6b-6ba675e5005c\" />",
+        "updatedAt": "2026-09-02",
+        "date": "2026-09-02",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "Iphone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-09-02",
+          "notes": "Game runs good around 15-25 fps and can go into high 40s when nothing is going on. Only problem is after the intro there's no audio\n\n<img width=\"1434\" height=\"660\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/64b32baf-4c41-4e8b-be6b-6ba675e5005c\" />",
+          "reportedTitleId": "464F0800",
+          "reportedTitle": "Payday 2",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/64b32baf-4c41-4e8b-be6b-6ba675e5005c"
+          ],
+          "submittedBy": "MasterPDiddy9",
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-2.0.1-9730",
+            "channel": "release",
+            "official": true,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730"
+          }
+        },
+        "bestReport": {
+          "device": "Iphone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-09-02",
+          "notes": "Game runs good around 15-25 fps and can go into high 40s when nothing is going on. Only problem is after the intro there's no audio\n\n<img width=\"1434\" height=\"660\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/64b32baf-4c41-4e8b-be6b-6ba675e5005c\" />",
+          "reportedTitleId": "464F0800",
+          "reportedTitle": "Payday 2",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/64b32baf-4c41-4e8b-be6b-6ba675e5005c"
+          ],
+          "submittedBy": "MasterPDiddy9",
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-2.0.1-9730",
+            "channel": "release",
+            "official": true,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730"
+          }
+        }
       },
       "all": {
         "channel": "all",
@@ -175699,7 +175878,7 @@
         "date": "2026-09-02",
         "reportCount": 1,
         "latestReport": {
-          "device": "iPhone 17 Pro Max",
+          "device": "Iphone 17 Pro Max",
           "platform": "ios",
           "osVersion": "26.3",
           "arch": "arm64",
@@ -175708,18 +175887,23 @@
           "perf": "great",
           "date": "2026-09-02",
           "notes": "Game runs good around 15-25 fps and can go into high 40s when nothing is going on. Only problem is after the intro there's no audio\n\n<img width=\"1434\" height=\"660\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/64b32baf-4c41-4e8b-be6b-6ba675e5005c\" />",
-          "screenshots": [],
+          "reportedTitleId": "464F0800",
+          "reportedTitle": "Payday 2",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/64b32baf-4c41-4e8b-be6b-6ba675e5005c"
+          ],
+          "submittedBy": "MasterPDiddy9",
           "source": "github",
           "build": {
-            "buildId": "ios-self-built-2.0.1-9730",
-            "channel": "self-built",
-            "official": false,
+            "buildId": "ios-release-2.0.1-9730",
+            "channel": "release",
+            "official": true,
             "appVersion": "2.0.1",
             "buildNumber": "9730"
           }
         },
         "bestReport": {
-          "device": "iPhone 17 Pro Max",
+          "device": "Iphone 17 Pro Max",
           "platform": "ios",
           "osVersion": "26.3",
           "arch": "arm64",
@@ -175728,12 +175912,17 @@
           "perf": "great",
           "date": "2026-09-02",
           "notes": "Game runs good around 15-25 fps and can go into high 40s when nothing is going on. Only problem is after the intro there's no audio\n\n<img width=\"1434\" height=\"660\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/64b32baf-4c41-4e8b-be6b-6ba675e5005c\" />",
-          "screenshots": [],
+          "reportedTitleId": "464F0800",
+          "reportedTitle": "Payday 2",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/64b32baf-4c41-4e8b-be6b-6ba675e5005c"
+          ],
+          "submittedBy": "MasterPDiddy9",
           "source": "github",
           "build": {
-            "buildId": "ios-self-built-2.0.1-9730",
-            "channel": "self-built",
-            "official": false,
+            "buildId": "ios-release-2.0.1-9730",
+            "channel": "release",
+            "official": true,
             "appVersion": "2.0.1",
             "buildNumber": "9730"
           }
@@ -240554,7 +240743,7 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 16 Pro Max",
+      "device": "Iphone 16 pro max",
       "platform": "ios",
       "osVersion": "27",
       "arch": "arm64",
@@ -240566,7 +240755,7 @@
     "notes": "Game seems to run at stable 30 fps however missing textures",
     "reports": [
       {
-        "device": "iPhone 16 Pro Max",
+        "device": "Iphone 16 pro max",
         "platform": "ios",
         "osVersion": "27",
         "arch": "arm64",
@@ -240575,12 +240764,15 @@
         "perf": "great",
         "date": "2026-09-01",
         "notes": "Game seems to run at stable 30 fps however missing textures",
+        "reportedTitleId": "575207EF",
+        "reportedTitle": "Lord of the Rings War in the North",
         "screenshots": [],
+        "submittedBy": "Boralmalgor",
         "source": "github",
         "build": {
-          "buildId": "ios-self-built-2.1-9857",
-          "channel": "self-built",
-          "official": false,
+          "buildId": "ios-release-2.1-9857",
+          "channel": "release",
+          "official": true,
           "appVersion": "2.1",
           "buildNumber": "9857"
         }
@@ -240590,14 +240782,58 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "playable",
+        "perf": "great",
+        "notes": "Game seems to run at stable 30 fps however missing textures",
+        "updatedAt": "2026-09-01",
+        "date": "2026-09-01",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "Iphone 16 pro max",
+          "platform": "ios",
+          "osVersion": "27",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-09-01",
+          "notes": "Game seems to run at stable 30 fps however missing textures",
+          "reportedTitleId": "575207EF",
+          "reportedTitle": "Lord of the Rings War in the North",
+          "screenshots": [],
+          "submittedBy": "Boralmalgor",
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-2.1-9857",
+            "channel": "release",
+            "official": true,
+            "appVersion": "2.1",
+            "buildNumber": "9857"
+          }
+        },
+        "bestReport": {
+          "device": "Iphone 16 pro max",
+          "platform": "ios",
+          "osVersion": "27",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-09-01",
+          "notes": "Game seems to run at stable 30 fps however missing textures",
+          "reportedTitleId": "575207EF",
+          "reportedTitle": "Lord of the Rings War in the North",
+          "screenshots": [],
+          "submittedBy": "Boralmalgor",
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-2.1-9857",
+            "channel": "release",
+            "official": true,
+            "appVersion": "2.1",
+            "buildNumber": "9857"
+          }
+        }
       },
       "all": {
         "channel": "all",
@@ -240608,7 +240844,7 @@
         "date": "2026-09-01",
         "reportCount": 1,
         "latestReport": {
-          "device": "iPhone 16 Pro Max",
+          "device": "Iphone 16 pro max",
           "platform": "ios",
           "osVersion": "27",
           "arch": "arm64",
@@ -240617,18 +240853,21 @@
           "perf": "great",
           "date": "2026-09-01",
           "notes": "Game seems to run at stable 30 fps however missing textures",
+          "reportedTitleId": "575207EF",
+          "reportedTitle": "Lord of the Rings War in the North",
           "screenshots": [],
+          "submittedBy": "Boralmalgor",
           "source": "github",
           "build": {
-            "buildId": "ios-self-built-2.1-9857",
-            "channel": "self-built",
-            "official": false,
+            "buildId": "ios-release-2.1-9857",
+            "channel": "release",
+            "official": true,
             "appVersion": "2.1",
             "buildNumber": "9857"
           }
         },
         "bestReport": {
-          "device": "iPhone 16 Pro Max",
+          "device": "Iphone 16 pro max",
           "platform": "ios",
           "osVersion": "27",
           "arch": "arm64",
@@ -240637,12 +240876,15 @@
           "perf": "great",
           "date": "2026-09-01",
           "notes": "Game seems to run at stable 30 fps however missing textures",
+          "reportedTitleId": "575207EF",
+          "reportedTitle": "Lord of the Rings War in the North",
           "screenshots": [],
+          "submittedBy": "Boralmalgor",
           "source": "github",
           "build": {
-            "buildId": "ios-self-built-2.1-9857",
-            "channel": "self-built",
-            "official": false,
+            "buildId": "ios-release-2.1-9857",
+            "channel": "release",
+            "official": true,
             "appVersion": "2.1",
             "buildNumber": "9857"
           }
