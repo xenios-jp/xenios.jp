@@ -106781,8 +106781,8 @@
     "titleIds": [
       "545407F2"
     ],
-    "status": "ingame",
-    "perf": "poor",
+    "status": "playable",
+    "perf": "ok",
     "tags": [],
     "platforms": [
       "ios",
@@ -106791,15 +106791,35 @@
     "lastReport": {
       "device": "iPhone 17 Pro Max",
       "platform": "ios",
-      "osVersion": "26.3",
+      "osVersion": "iOS27",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-09-03",
+    "updatedAt": "2026-09-04",
     "issueNumber": 41,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/41",
-    "notes": "Game boots, menu navigation works. Infinite loading screen for first mission.",
+    "notes": "Game runs great, 30fps, sometimes dips to 25fps, but after 30mins with a cooler, it dips down to 18 and doesn’t get up, tho it’s still playable imo",
     "reports": [
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "iOS27",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-09-04",
+        "notes": "Game runs great, 30fps, sometimes dips to 25fps, but after 30mins with a cooler, it dips down to 18 and doesn’t get up, tho it’s still playable imo",
+        "screenshots": [],
+        "source": "github",
+        "build": {
+          "buildId": "ios-self-built-2.1-preview-9857",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.1 Preview",
+          "buildNumber": "9857"
+        }
+      },
       {
         "device": "iPad (A16)",
         "platform": "ios",
@@ -107030,54 +107050,50 @@
       },
       "all": {
         "channel": "all",
-        "status": "ingame",
-        "perf": "poor",
-        "notes": "Game boots, menu navigation works. Infinite loading screen for first mission.",
-        "updatedAt": "2026-09-03",
-        "date": "2026-09-03",
-        "reportCount": 8,
+        "status": "playable",
+        "perf": "ok",
+        "notes": "Game runs great, 30fps, sometimes dips to 25fps, but after 30mins with a cooler, it dips down to 18 and doesn’t get up, tho it’s still playable imo",
+        "updatedAt": "2026-09-04",
+        "date": "2026-09-04",
+        "reportCount": 9,
         "latestReport": {
-          "device": "iPad (A16)",
+          "device": "iPhone 17 Pro Max",
           "platform": "ios",
-          "osVersion": "27.0",
+          "osVersion": "iOS27",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-09-03",
-          "notes": "black screen :(",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-09-04",
+          "notes": "Game runs great, 30fps, sometimes dips to 25fps, but after 30mins with a cooler, it dips down to 18 and doesn’t get up, tho it’s still playable imo",
           "screenshots": [],
-          "source": "app",
+          "source": "github",
           "build": {
-            "buildId": "ios-self-built-2.0.1-9730",
+            "buildId": "ios-self-built-2.1-preview-9857",
             "channel": "self-built",
             "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.1 Preview",
+            "buildNumber": "9857"
           }
         },
         "bestReport": {
           "device": "iPhone 17 Pro Max",
           "platform": "ios",
-          "osVersion": "26.3",
+          "osVersion": "iOS27",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-03-08",
-          "notes": "Game boots, menu navigation works. Infinite loading screen for first mission.",
-          "reportedTitleId": "545407F2",
-          "reportedTitle": "GTA_IV",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-09-04",
+          "notes": "Game runs great, 30fps, sometimes dips to 25fps, but after 30mins with a cooler, it dips down to 18 and doesn’t get up, tho it’s still playable imo",
           "screenshots": [],
           "source": "github",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
+            "buildId": "ios-self-built-2.1-preview-9857",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280"
+            "appVersion": "2.1 Preview",
+            "buildNumber": "9857"
           }
         }
       }
