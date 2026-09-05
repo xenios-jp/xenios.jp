@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-05T00:41:19.692Z",
+  "generatedAt": "2026-09-05T10:36:45.676Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -4527,6 +4527,30 @@
       "updatedAt": "2026-09-05",
       "entries": [
         {
+          "id": "comment-5551195889",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/663#issuecomment-5551195889",
+          "author": "xenios-jp",
+          "createdAt": "2026-09-05",
+          "createdAtMs": 1788604400000,
+          "issueNumber": 663,
+          "excerpt": "It doesnt load at all",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 16 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 27.0",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "buildStage": "stable",
+            "commitShort": "`57c3ca140`"
+          }
+        },
+        {
           "id": "comment-5548112894",
           "type": "comment",
           "url": "https://github.com/xenios-jp/game-compatibility/issues/663#issuecomment-5548112894",
@@ -4651,18 +4675,6 @@
             "buildStage": "stable",
             "commitShort": "`57c3ca140`"
           }
-        },
-        {
-          "id": "comment-5107002542",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/516#issuecomment-5107002542",
-          "author": "niangmortalla337-hub",
-          "createdAt": "2026-07-28",
-          "createdAtMs": 1785256725000,
-          "issueNumber": 516,
-          "excerpt": "Gta5",
-          "images": [],
-          "meta": {}
         }
       ]
     },
