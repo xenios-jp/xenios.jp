@@ -106781,8 +106781,8 @@
     "titleIds": [
       "545407F2"
     ],
-    "status": "playable",
-    "perf": "ok",
+    "status": "ingame",
+    "perf": "poor",
     "tags": [],
     "platforms": [
       "ios",
@@ -106791,35 +106791,15 @@
     "lastReport": {
       "device": "iPhone 17 Pro Max",
       "platform": "ios",
-      "osVersion": "iOS27",
+      "osVersion": "26.3",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-09-04",
+    "updatedAt": "2026-09-03",
     "issueNumber": 41,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/41",
-    "notes": "Game runs great, 30fps, sometimes dips to 25fps, but after 30mins with a cooler, it dips down to 18 and doesn’t get up, tho it’s still playable imo",
+    "notes": "Game boots, menu navigation works. Infinite loading screen for first mission.",
     "reports": [
-      {
-        "device": "iPhone 17 Pro Max",
-        "platform": "ios",
-        "osVersion": "iOS27",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "ok",
-        "date": "2026-09-04",
-        "notes": "Game runs great, 30fps, sometimes dips to 25fps, but after 30mins with a cooler, it dips down to 18 and doesn’t get up, tho it’s still playable imo",
-        "screenshots": [],
-        "source": "github",
-        "build": {
-          "buildId": "ios-self-built-2.1-preview-9857",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "2.1 Preview",
-          "buildNumber": "9857"
-        }
-      },
       {
         "device": "iPad (A16)",
         "platform": "ios",
@@ -107050,50 +107030,54 @@
       },
       "all": {
         "channel": "all",
-        "status": "playable",
-        "perf": "ok",
-        "notes": "Game runs great, 30fps, sometimes dips to 25fps, but after 30mins with a cooler, it dips down to 18 and doesn’t get up, tho it’s still playable imo",
-        "updatedAt": "2026-09-04",
-        "date": "2026-09-04",
-        "reportCount": 9,
+        "status": "ingame",
+        "perf": "poor",
+        "notes": "Game boots, menu navigation works. Infinite loading screen for first mission.",
+        "updatedAt": "2026-09-03",
+        "date": "2026-09-03",
+        "reportCount": 8,
         "latestReport": {
-          "device": "iPhone 17 Pro Max",
+          "device": "iPad (A16)",
           "platform": "ios",
-          "osVersion": "iOS27",
+          "osVersion": "27.0",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-09-04",
-          "notes": "Game runs great, 30fps, sometimes dips to 25fps, but after 30mins with a cooler, it dips down to 18 and doesn’t get up, tho it’s still playable imo",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-09-03",
+          "notes": "black screen :(",
           "screenshots": [],
-          "source": "github",
+          "source": "app",
           "build": {
-            "buildId": "ios-self-built-2.1-preview-9857",
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
-            "appVersion": "2.1 Preview",
-            "buildNumber": "9857"
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
           }
         },
         "bestReport": {
           "device": "iPhone 17 Pro Max",
           "platform": "ios",
-          "osVersion": "iOS27",
+          "osVersion": "26.3",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-09-04",
-          "notes": "Game runs great, 30fps, sometimes dips to 25fps, but after 30mins with a cooler, it dips down to 18 and doesn’t get up, tho it’s still playable imo",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-03-08",
+          "notes": "Game boots, menu navigation works. Infinite loading screen for first mission.",
+          "reportedTitleId": "545407F2",
+          "reportedTitle": "GTA_IV",
           "screenshots": [],
           "source": "github",
           "build": {
-            "buildId": "ios-self-built-2.1-preview-9857",
+            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
-            "appVersion": "2.1 Preview",
-            "buildNumber": "9857"
+            "appVersion": "1.0.0",
+            "buildNumber": "9280"
           }
         }
       }
@@ -107119,11 +107103,33 @@
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-08-26",
+    "updatedAt": "2026-09-05",
     "issueNumber": 62,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/62",
     "notes": "Go into game and can walk around the map but very unstable and any sudden movement can crash it",
     "reports": [
+      {
+        "device": "iPhone 16e",
+        "platform": "ios",
+        "osVersion": "26.6",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-09-05",
+        "notes": "It kinda loads,but it’s just a black screen,I can tell it’s trying because the whole app lags like crazy (I’m in LiveContainer)",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140"
+        }
+      },
       {
         "device": "iPhone 16",
         "platform": "ios",
@@ -107239,6 +107245,7 @@
       }
     ],
     "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408A7/1788568648762-1.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408A7/1787008012244-1.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408A7/1785316651021-1.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408A7/1782764313005-1.jpg",
@@ -107257,8 +107264,7 @@
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408A7/1773604061258-1.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408A7/1773604061258-2.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408A7/1773604061258-3.jpg",
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408A7/1773275205163-1.jpg",
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408A7/1773275205163-2.jpg"
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408A7/1773275205163-1.jpg"
     ],
     "summaries": {
       "release": {
@@ -107277,19 +107283,19 @@
         "status": "ingame",
         "perf": "poor",
         "notes": "Go into game and can walk around the map but very unstable and any sudden movement can crash it",
-        "updatedAt": "2026-08-26",
-        "date": "2026-08-26",
-        "reportCount": 5,
+        "updatedAt": "2026-09-05",
+        "date": "2026-09-05",
+        "reportCount": 6,
         "latestReport": {
-          "device": "iPhone 16",
+          "device": "iPhone 16e",
           "platform": "ios",
-          "osVersion": "26.5",
+          "osVersion": "26.6",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-08-26",
-          "notes": "Go into game and can walk around the map but very unstable and any sudden movement can crash it",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-09-05",
+          "notes": "It kinda loads,but it’s just a black screen,I can tell it’s trying because the whole app lags like crazy (I’m in LiveContainer)",
           "screenshots": [],
           "source": "app",
           "build": {

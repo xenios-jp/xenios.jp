@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T20:50:33.578Z",
+  "generatedAt": "2026-09-05T00:41:19.692Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -4524,8 +4524,34 @@
       "titleId": "545408A7",
       "issueNumber": 663,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/663",
-      "updatedAt": "2026-08-26",
+      "updatedAt": "2026-09-05",
       "entries": [
+        {
+          "id": "comment-5548112894",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/663#issuecomment-5548112894",
+          "author": "xenios-jp",
+          "createdAt": "2026-09-05",
+          "createdAtMs": 1788568656000,
+          "issueNumber": 663,
+          "excerpt": "It kinda loads,but it’s just a black screen,I can tell it’s trying because the whole app lags like crazy (I’m in LiveContainer)",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408A7/1788568648762-1.jpg"
+          ],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 16e",
+            "platform": "iOS",
+            "osVersion": "iOS 26.6",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "buildStage": "stable",
+            "commitShort": "`57c3ca140`"
+          }
+        },
         {
           "id": "comment-5430300067",
           "type": "comment",
@@ -4637,30 +4663,6 @@
           "excerpt": "Gta5",
           "images": [],
           "meta": {}
-        },
-        {
-          "id": "comment-5085275931",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/516#issuecomment-5085275931",
-          "author": "xenios-jp",
-          "createdAt": "2026-07-26",
-          "createdAtMs": 1785097976000,
-          "issueNumber": 516,
-          "excerpt": "Black screen from the start till it crashes",
-          "images": [],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPhone 15 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 27.0",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "buildStage": "stable",
-            "commitShort": "`57c3ca140`"
-          }
         }
       ]
     },
