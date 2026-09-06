@@ -211762,20 +211762,41 @@
     "perf": "great",
     "tags": [],
     "platforms": [
-      "ios"
+      "ios",
+      "macos"
     ],
     "lastReport": {
-      "device": "iPhone 17 Pro Max",
-      "platform": "ios",
-      "osVersion": "26.3",
+      "device": "MacBook Pro (M4)",
+      "platform": "macos",
+      "osVersion": "macOS 27",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-06-12",
+    "updatedAt": "2026-09-06",
     "issueNumber": 30,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/30",
-    "notes": "Works perfectly",
+    "notes": "Performmance is great. I didnt came across any issues.",
     "reports": [
+      {
+        "device": "MacBook Pro (M4)",
+        "platform": "macos",
+        "osVersion": "macOS 27",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-09-06",
+        "notes": "Performmance is great. I didnt came across any issues.",
+        "screenshots": [],
+        "source": "github",
+        "build": {
+          "buildId": "macos-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730"
+        }
+      },
       {
         "device": "iPhone 17 Pro Max",
         "platform": "ios",
@@ -212003,52 +212024,48 @@
         "channel": "all",
         "status": "playable",
         "perf": "great",
-        "notes": "Works perfectly",
-        "updatedAt": "2026-06-12",
-        "date": "2026-06-12",
-        "reportCount": 8,
+        "notes": "Performmance is great. I didnt came across any issues.",
+        "updatedAt": "2026-09-06",
+        "date": "2026-09-06",
+        "reportCount": 9,
         "latestReport": {
-          "device": "iPhone 17 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.3",
+          "device": "MacBook Pro (M4)",
+          "platform": "macos",
+          "osVersion": "macOS 27",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "great",
-          "date": "2026-06-12",
-          "notes": "Works perfectly",
+          "date": "2026-09-06",
+          "notes": "Performmance is great. I didnt came across any issues.",
           "screenshots": [],
-          "source": "app",
+          "source": "github",
           "build": {
-            "buildId": "ios-self-built-2.0.1-9730",
+            "buildId": "macos-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140"
+            "buildNumber": "9730"
           }
         },
         "bestReport": {
-          "device": "iPhone 17 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.3",
+          "device": "MacBook Pro (M4)",
+          "platform": "macos",
+          "osVersion": "macOS 27",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "great",
-          "date": "2026-06-12",
-          "notes": "Works perfectly",
+          "date": "2026-09-06",
+          "notes": "Performmance is great. I didnt came across any issues.",
           "screenshots": [],
-          "source": "app",
+          "source": "github",
           "build": {
-            "buildId": "ios-self-built-2.0.1-9730",
+            "buildId": "macos-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140"
+            "buildNumber": "9730"
           }
         }
       }
