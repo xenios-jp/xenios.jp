@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T10:12:48.230Z",
+  "generatedAt": "2026-09-07T08:42:44.003Z",
   "totalProjects": 4,
   "contributors": [
     {
@@ -1266,6 +1266,16 @@
       "displayName": "oreyg",
       "profileUrl": "https://github.com/oreyg",
       "avatarUrl": "https://avatars.githubusercontent.com/u/13616895?v=4",
+      "projects": [
+        "xenia-canary",
+        "xenia-edge"
+      ]
+    },
+    {
+      "id": "user:peerloomllc",
+      "displayName": "peerloomllc",
+      "profileUrl": "https://github.com/peerloomllc",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/262162871?v=4",
       "projects": [
         "xenia-canary",
         "xenia-edge"
