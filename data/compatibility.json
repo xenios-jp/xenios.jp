@@ -191804,14 +191804,45 @@
     "titleIds": [
       "4541093A"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "loads",
+    "perf": "poor",
     "tags": [],
-    "platforms": [],
-    "lastReport": null,
-    "updatedAt": "",
-    "notes": "",
-    "reports": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPad Air 5",
+      "platform": "ios",
+      "osVersion": "26.6.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-09-07",
+    "notes": "Black screen after launch, controller/UI buttons remain responsive. Never reaches visible gameplay. Tested with 2-disc ISO version, GPU backend: MSL.”",
+    "reports": [
+      {
+        "device": "iPad Air 5",
+        "platform": "ios",
+        "osVersion": "26.6.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "loads",
+        "perf": "poor",
+        "date": "2026-09-07",
+        "notes": "Black screen after launch, controller/UI buttons remain responsive. Never reaches visible gameplay. Tested with 2-disc ISO version, GPU backend: MSL.”",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140"
+        }
+      }
+    ],
     "screenshots": [],
     "summaries": {
       "release": {
@@ -191827,14 +191858,56 @@
       },
       "all": {
         "channel": "all",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "loads",
+        "perf": "poor",
+        "notes": "Black screen after launch, controller/UI buttons remain responsive. Never reaches visible gameplay. Tested with 2-disc ISO version, GPU backend: MSL.”",
+        "updatedAt": "2026-09-07",
+        "date": "2026-09-07",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPad Air 5",
+          "platform": "ios",
+          "osVersion": "26.6.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "loads",
+          "perf": "poor",
+          "date": "2026-09-07",
+          "notes": "Black screen after launch, controller/UI buttons remain responsive. Never reaches visible gameplay. Tested with 2-disc ISO version, GPU backend: MSL.”",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
+          }
+        },
+        "bestReport": {
+          "device": "iPad Air 5",
+          "platform": "ios",
+          "osVersion": "26.6.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "loads",
+          "perf": "poor",
+          "date": "2026-09-07",
+          "notes": "Black screen after launch, controller/UI buttons remain responsive. Never reaches visible gameplay. Tested with 2-disc ISO version, GPU backend: MSL.”",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
+          }
+        }
       }
     }
   },

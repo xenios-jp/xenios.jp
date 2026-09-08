@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **390 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **391 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **159** · 🔵 In-Game: **71** · 🟡 Intro: **36** · 🟠 Loads: **50** · 🔴 Doesn't Boot: **74**
+> 🟢 Playable: **159** · 🔵 In-Game: **71** · 🟡 Intro: **36** · 🟠 Loads: **51** · 🔴 Doesn't Boot: **74**
 >
-> 📱 iOS: **356** · 🖥️ macOS: **55**
+> 📱 iOS: **357** · 🖥️ macOS: **55**
 
 ## Legend
 
@@ -317,6 +317,7 @@
 | 🟠 | NCAA Basketball 10 | `454108C3` | 📱 iOS | Loads | 🐢 Poor | iPhone 16e | 2026-03-11 |
 | 🟠 | Prince of Persia The Forgotten Sands | `5553083E` | 📱 iOS | Loads | 🐢 Poor | iPad Pro 13-inch (M4) | 2026-06-30 |
 | 🟠 | Project Gotham Racing 3 | `4D5307D1` | 🖥️ macOS | Loads | 🚀 Great | Macbook Pro M1 Pro | 2026-05-10 |
+| 🟠 | Rango | `4541093A` | 📱 iOS | Loads | 🐢 Poor | iPad Air 5 | 2026-09-07 |
 | 🟠 | Real Steel | `584111E0` | 📱 iOS | Loads | 👌 OK | iPhone 12 Pro | 2026-07-26 |
 | 🟠 | Red Dead Redemption GOTY Edition | `5454082B` | 📱 iOS | Loads | 🐢 Poor | iPad Pro 13-inch (M4) | 2026-04-24 |
 | 🟠 | Rock Band Classic Rock | `454108B0` | 🖥️ macOS | Loads | 🚀 Great | MacBook Pro (M4) | 2026-03-23 |
