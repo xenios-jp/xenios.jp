@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **391 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **392 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **159** · 🔵 In-Game: **71** · 🟡 Intro: **36** · 🟠 Loads: **51** · 🔴 Doesn't Boot: **74**
+> 🟢 Playable: **160** · 🔵 In-Game: **71** · 🟡 Intro: **36** · 🟠 Loads: **51** · 🔴 Doesn't Boot: **74**
 >
-> 📱 iOS: **357** · 🖥️ macOS: **55**
+> 📱 iOS: **358** · 🖥️ macOS: **55**
 
 ## Legend
 
@@ -22,6 +22,7 @@
 |-|-------|----------|----------|--------|------|-------------|---------|
 | 🟢 | 3 | `4D5307E7` | 📱 iOS | Playable | 🚀 Great | iPhone 11bro mix | 2026-08-14 |
 | 🟢 | 50 Cent: Blood on the Sand | `5451083B` | 🖥️ macOS, 📱 iOS | Playable | 👌 OK | iPhone 16e | 2026-04-11 |
+| 🟢 | A Kingdom for Keflings | `584108DB` | 📱 iOS | Playable | 👌 OK | iPhone 14 Pro | 2026-09-10 |
 | 🟢 | Abyss Odyssey | `58411427` | 🖥️ macOS | Playable | 👌 OK | MacBook Pro (M1) | 2026-08-11 |
 | 🟢 | AFL Live 2 | `484507D6` | 📱 iOS | Playable | 🚀 Great | iPhone 17 | 2026-04-03 |
 | 🟢 | Alan Wake | `4D530805` | 📱 iOS | Playable | 🐢 Poor | iPad (A16) | 2026-03-09 |
