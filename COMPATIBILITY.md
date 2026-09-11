@@ -2,9 +2,9 @@
 
 > **394 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **162** · 🔵 In-Game: **71** · 🟡 Intro: **36** · 🟠 Loads: **51** · 🔴 Doesn't Boot: **74**
+> 🟢 Playable: **161** · 🔵 In-Game: **71** · 🟡 Intro: **37** · 🟠 Loads: **51** · 🔴 Doesn't Boot: **74**
 >
-> 📱 iOS: **360** · 🖥️ macOS: **57**
+> 📱 iOS: **360** · 🖥️ macOS: **55**
 
 ## Legend
 
@@ -34,7 +34,6 @@
 | 🟢 | BattleBlock Theater | `58410A30` | 📱 iOS | Playable | 🚀 Great | iPhone 13 | 2026-03-10 |
 | 🟢 | Ben 10 Ultimate Alien Cosmic Destruction | `445007F7` | 📱 iOS | Playable | 🚀 Great | iPhone 17 | 2026-07-16 |
 | 🟢 | Bioshock | `545407D8` | 📱 iOS | Playable | 🚀 Great | iPad Pro 13-inch (M4) | 2026-06-22 |
-| 🟢 | Blur | `41560845` | 📱 iOS, 🖥️ macOS | Playable | 🚀 Great | MacBook Pro M5 | 2026-09-11 |
 | 🟢 | Bomberman Battlefest | `584109B2` | 📱 iOS | Playable | 🐢 Poor | iPhone 15 | 2026-03-25 |
 | 🟢 | Bomberman Live | `5841083F` | 📱 iOS | Playable | 🚀 Great | iPhone 15 | 2026-06-07 |
 | 🟢 | Borderlands | `545407E7` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro | 2026-03-13 |
@@ -61,7 +60,7 @@
 | 🟢 | Dragon Age 2 | `4541090B` | 🖥️ macOS | Playable | 🚀 Great | M1 iMac (2021) | 2026-07-26 |
 | 🟢 | Dragon Age: Origins - Ultimate Edition | `454108C0` | 🖥️ macOS | Playable | 🚀 Great | Mac mini (M4) | 2026-03-15 |
 | 🟢 | Dragon Ball Z Ultimate Tenkaichi | `4E4D0846` | 📱 iOS | Playable | 👌 OK | iPad16,9 | 2026-06-11 |
-| 🟢 | Driver: San Francisco | `5553087E` | 📱 iOS, 🖥️ macOS | Playable | 🚀 Great | MacBook Pro M5 | 2026-09-11 |
+| 🟢 | Driver: San Francisco | `5553087E` | 🖥️ macOS, 📱 iOS | Playable | 🚀 Great | MacBook Pro M5 | 2026-09-11 |
 | 🟢 | DuckTales Remastered | `584113C6` | 📱 iOS | Playable | 🐢 Poor | iPhone 14 Pro Max | 2026-03-25 |
 | 🟢 | EA SPORTS FIFA Street | `4541097B` | 📱 iOS | Playable | 👌 OK | iPhone 16e | 2026-06-03 |
 | 🟢 | F.E.A.R: First Encounter Assault Recon | `565507D9` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro | 2026-03-13 |
@@ -148,7 +147,7 @@
 | 🟢 | Serious Sam HD: The First Encounter | `584109DA` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro | 2026-03-24 |
 | 🟢 | Shadow Complex | `584108F6` | 🖥️ macOS | Playable | 🚀 Great | MacBook Pro (M1) | 2026-08-12 |
 | 🟢 | Skate 2 | `4541087F` | 📱 iOS | Playable | 👌 OK | iPhone 16e | 2026-03-17 |
-| 🟢 | Skate 3 | `454108E6` | 📱 iOS, 🖥️ macOS | Playable | 🚀 Great | MacBook Pro (M4) | 2026-09-06 |
+| 🟢 | Skate 3 | `454108E6` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-06-12 |
 | 🟢 | Sonic Generations | `53450848` | 📱 iOS | Playable | 🚀 Great | iPhone 16 | 2026-03-28 |
 | 🟢 | Sonic The Hedgehog 3 | `584109A3` | 📱 iOS | Playable | 🚀 Great | iPhone 15 | 2026-06-07 |
 | 🟢 | Sonic the Hedgehog 4: Episode II | `584111F2` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro Max | 2026-05-15 |
@@ -257,6 +256,7 @@
 | 🟡 | Assassins Creed III - Liberation HD | `584113FC` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 | 2026-07-15 |
 | 🟡 | Back to the Future | `443607D6` | 📱 iOS | Intro | 🚀 Great | iPhone 16 Pro | 2026-03-24 |
 | 🟡 | Beautiful Katamari | `4E4D07DC` | 📱 iOS | Intro | 👌 OK | iPhone 16 Pro | 2026-03-05 |
+| 🟡 | Blur | `41560845` | 📱 iOS | Intro | 🐢 Poor | iPhone 15 Pro | 2026-06-12 |
 | 🟡 | Dead or Alive Xtreme 2 | `544307D2` | 📱 iOS | Intro | 🐢 Poor | iPhone 13 Pro Max | 2026-03-27 |
 | 🟡 | Dead Rising | `434307D2` | 📱 iOS | Intro | 👌 OK | iPad (A16) | 2026-03-04 |
 | 🟡 | Divinity II Dragon Knight Saga | `464507D6` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro Max | 2026-03-09 |

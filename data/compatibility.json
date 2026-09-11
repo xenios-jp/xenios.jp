@@ -40286,45 +40286,24 @@
     "titleIds": [
       "41560845"
     ],
-    "status": "playable",
-    "perf": "great",
+    "status": "intro",
+    "perf": "poor",
     "tags": [],
     "platforms": [
-      "ios",
-      "macos"
+      "ios"
     ],
     "lastReport": {
-      "device": "MacBook Pro M5",
-      "platform": "macos",
-      "osVersion": "26.6.2",
+      "device": "iPhone 15 Pro",
+      "platform": "ios",
+      "osVersion": "18.7.2",
       "arch": "arm64",
-      "gpuBackend": "msc"
+      "gpuBackend": "msl"
     },
-    "updatedAt": "2026-09-11",
+    "updatedAt": "2026-06-12",
     "issueNumber": 298,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/298",
-    "notes": "The frame rate sits between 40 and 60 fps with the HDR patch disabled. Although texture and prop flickering occurs, the experience remains playable.",
+    "notes": "Tried virtually everything, I couldn’t make it the race loading screen.\nAveragely: random crashes, bugged menu, looping screens, and never made it to the actual race",
     "reports": [
-      {
-        "device": "MacBook Pro M5",
-        "platform": "macos",
-        "osVersion": "26.6.2",
-        "arch": "arm64",
-        "gpuBackend": "msc",
-        "status": "playable",
-        "perf": "great",
-        "date": "2026-09-11",
-        "notes": "The frame rate sits between 40 and 60 fps with the HDR patch disabled. Although texture and prop flickering occurs, the experience remains playable.",
-        "screenshots": [],
-        "source": "github",
-        "build": {
-          "buildId": "macos-self-built-2.0.1-9730-57c3a140",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "2.0.1-9730",
-          "buildNumber": "57c3a140"
-        }
-      },
       {
         "device": "iPhone 15 Pro",
         "platform": "ios",
@@ -40409,50 +40388,54 @@
       },
       "all": {
         "channel": "all",
-        "status": "playable",
-        "perf": "great",
-        "notes": "The frame rate sits between 40 and 60 fps with the HDR patch disabled. Although texture and prop flickering occurs, the experience remains playable.",
-        "updatedAt": "2026-09-11",
-        "date": "2026-09-11",
-        "reportCount": 4,
+        "status": "intro",
+        "perf": "poor",
+        "notes": "Tried virtually everything, I couldn’t make it the race loading screen.\nAveragely: random crashes, bugged menu, looping screens, and never made it to the actual race",
+        "updatedAt": "2026-06-12",
+        "date": "2026-06-12",
+        "reportCount": 3,
         "latestReport": {
-          "device": "MacBook Pro M5",
-          "platform": "macos",
-          "osVersion": "26.6.2",
+          "device": "iPhone 15 Pro",
+          "platform": "ios",
+          "osVersion": "18.7.2",
           "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-09-11",
-          "notes": "The frame rate sits between 40 and 60 fps with the HDR patch disabled. Although texture and prop flickering occurs, the experience remains playable.",
+          "gpuBackend": "msl",
+          "status": "intro",
+          "perf": "poor",
+          "date": "2026-06-12",
+          "notes": "Tried virtually everything, I couldn’t make it the race loading screen.\nAveragely: random crashes, bugged menu, looping screens, and never made it to the actual race",
           "screenshots": [],
-          "source": "github",
+          "source": "app",
           "build": {
-            "buildId": "macos-self-built-2.0.1-9730-57c3a140",
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
-            "appVersion": "2.0.1-9730",
-            "buildNumber": "57c3a140"
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
           }
         },
         "bestReport": {
-          "device": "MacBook Pro M5",
-          "platform": "macos",
-          "osVersion": "26.6.2",
+          "device": "iPhone 15 Pro",
+          "platform": "ios",
+          "osVersion": "18.7.2",
           "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-09-11",
-          "notes": "The frame rate sits between 40 and 60 fps with the HDR patch disabled. Although texture and prop flickering occurs, the experience remains playable.",
+          "gpuBackend": "msl",
+          "status": "intro",
+          "perf": "poor",
+          "date": "2026-06-12",
+          "notes": "Tried virtually everything, I couldn’t make it the race loading screen.\nAveragely: random crashes, bugged menu, looping screens, and never made it to the actual race",
           "screenshots": [],
-          "source": "github",
+          "source": "app",
           "build": {
-            "buildId": "macos-self-built-2.0.1-9730-57c3a140",
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
-            "appVersion": "2.0.1-9730",
-            "buildNumber": "57c3a140"
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
           }
         }
       }
@@ -78410,8 +78393,8 @@
     "perf": "great",
     "tags": [],
     "platforms": [
-      "ios",
-      "macos"
+      "macos",
+      "ios"
     ],
     "lastReport": {
       "device": "MacBook Pro M5",
@@ -183178,28 +183161,6 @@
         }
       },
       {
-        "device": "iPhone 14 Pro",
-        "platform": "ios",
-        "osVersion": "26.2.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-03-20",
-        "notes": "Nothing at all just crashes .",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d"
-        }
-      },
-      {
         "device": "iPhone 13 Pro",
         "platform": "ios",
         "osVersion": "18.6",
@@ -183244,7 +183205,7 @@
         "notes": "I load into the game and can move in the title select screen but the A button won’t start a game",
         "updatedAt": "2026-09-10",
         "date": "2026-09-10",
-        "reportCount": 3,
+        "reportCount": 2,
         "latestReport": {
           "device": "iPhone 14 Pro",
           "platform": "ios",
@@ -212043,41 +212004,20 @@
     "perf": "great",
     "tags": [],
     "platforms": [
-      "ios",
-      "macos"
+      "ios"
     ],
     "lastReport": {
-      "device": "MacBook Pro (M4)",
-      "platform": "macos",
-      "osVersion": "macOS 27",
+      "device": "iPhone 17 Pro Max",
+      "platform": "ios",
+      "osVersion": "26.3",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-09-06",
+    "updatedAt": "2026-06-12",
     "issueNumber": 30,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/30",
-    "notes": "Performmance is great. I didnt came across any issues.",
+    "notes": "Works perfectly",
     "reports": [
-      {
-        "device": "MacBook Pro (M4)",
-        "platform": "macos",
-        "osVersion": "macOS 27",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "great",
-        "date": "2026-09-06",
-        "notes": "Performmance is great. I didnt came across any issues.",
-        "screenshots": [],
-        "source": "github",
-        "build": {
-          "buildId": "macos-self-built-2.0.1-9730",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "2.0.1",
-          "buildNumber": "9730"
-        }
-      },
       {
         "device": "iPhone 17 Pro Max",
         "platform": "ios",
@@ -212305,48 +212245,52 @@
         "channel": "all",
         "status": "playable",
         "perf": "great",
-        "notes": "Performmance is great. I didnt came across any issues.",
-        "updatedAt": "2026-09-06",
-        "date": "2026-09-06",
-        "reportCount": 9,
+        "notes": "Works perfectly",
+        "updatedAt": "2026-06-12",
+        "date": "2026-06-12",
+        "reportCount": 8,
         "latestReport": {
-          "device": "MacBook Pro (M4)",
-          "platform": "macos",
-          "osVersion": "macOS 27",
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.3",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "great",
-          "date": "2026-09-06",
-          "notes": "Performmance is great. I didnt came across any issues.",
+          "date": "2026-06-12",
+          "notes": "Works perfectly",
           "screenshots": [],
-          "source": "github",
+          "source": "app",
           "build": {
-            "buildId": "macos-self-built-2.0.1-9730",
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
-            "buildNumber": "9730"
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
           }
         },
         "bestReport": {
-          "device": "MacBook Pro (M4)",
-          "platform": "macos",
-          "osVersion": "macOS 27",
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.3",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "great",
-          "date": "2026-09-06",
-          "notes": "Performmance is great. I didnt came across any issues.",
+          "date": "2026-06-12",
+          "notes": "Works perfectly",
           "screenshots": [],
-          "source": "github",
+          "source": "app",
           "build": {
-            "buildId": "macos-self-built-2.0.1-9730",
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
             "appVersion": "2.0.1",
-            "buildNumber": "9730"
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
           }
         }
       }
