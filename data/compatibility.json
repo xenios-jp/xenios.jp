@@ -4185,6 +4185,8 @@
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-09-10",
+    "issueNumber": 691,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/691",
     "notes": "Loads great, pressing start seems to make it load faster",
     "reports": [
       {
@@ -4900,14 +4902,47 @@
     "titleIds": [
       "584109DB"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "intro",
+    "perf": "ok",
     "tags": [],
-    "platforms": [],
-    "lastReport": null,
-    "updatedAt": "",
-    "notes": "",
-    "reports": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 14 Pro",
+      "platform": "ios",
+      "osVersion": "26.3.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-09-10",
+    "issueNumber": 693,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/693",
+    "notes": "Shows logo sequence, crashes, I turned on avatar initialization, it will now boot to black screen with menu music.",
+    "reports": [
+      {
+        "device": "iPhone 14 Pro",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "intro",
+        "perf": "ok",
+        "date": "2026-09-10",
+        "notes": "Shows logo sequence, crashes, I turned on avatar initialization, it will now boot to black screen with menu music.",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140"
+        }
+      }
+    ],
     "screenshots": [],
     "summaries": {
       "release": {
@@ -4923,14 +4958,56 @@
       },
       "all": {
         "channel": "all",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "intro",
+        "perf": "ok",
+        "notes": "Shows logo sequence, crashes, I turned on avatar initialization, it will now boot to black screen with menu music.",
+        "updatedAt": "2026-09-10",
+        "date": "2026-09-10",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 14 Pro",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "intro",
+          "perf": "ok",
+          "date": "2026-09-10",
+          "notes": "Shows logo sequence, crashes, I turned on avatar initialization, it will now boot to black screen with menu music.",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 14 Pro",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "intro",
+          "perf": "ok",
+          "date": "2026-09-10",
+          "notes": "Shows logo sequence, crashes, I turned on avatar initialization, it will now boot to black screen with menu music.",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
+          }
+        }
       }
     }
   },
@@ -40209,24 +40286,45 @@
     "titleIds": [
       "41560845"
     ],
-    "status": "intro",
-    "perf": "poor",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
     "platforms": [
-      "ios"
+      "ios",
+      "macos"
     ],
     "lastReport": {
-      "device": "iPhone 15 Pro",
-      "platform": "ios",
-      "osVersion": "18.7.2",
+      "device": "MacBook Pro M5",
+      "platform": "macos",
+      "osVersion": "26.6.2",
       "arch": "arm64",
-      "gpuBackend": "msl"
+      "gpuBackend": "msc"
     },
-    "updatedAt": "2026-06-12",
-    "issueNumber": 441,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/441",
-    "notes": "Tried virtually everything, I couldn’t make it the race loading screen.\nAveragely: random crashes, bugged menu, looping screens, and never made it to the actual race",
+    "updatedAt": "2026-09-11",
+    "issueNumber": 298,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/298",
+    "notes": "The frame rate sits between 40 and 60 fps with the HDR patch disabled. Although texture and prop flickering occurs, the experience remains playable.",
     "reports": [
+      {
+        "device": "MacBook Pro M5",
+        "platform": "macos",
+        "osVersion": "26.6.2",
+        "arch": "arm64",
+        "gpuBackend": "msc",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-09-11",
+        "notes": "The frame rate sits between 40 and 60 fps with the HDR patch disabled. Although texture and prop flickering occurs, the experience remains playable.",
+        "screenshots": [],
+        "source": "github",
+        "build": {
+          "buildId": "macos-self-built-2.0.1-9730-57c3a140",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1-9730",
+          "buildNumber": "57c3a140"
+        }
+      },
       {
         "device": "iPhone 15 Pro",
         "platform": "ios",
@@ -40311,54 +40409,50 @@
       },
       "all": {
         "channel": "all",
-        "status": "intro",
-        "perf": "poor",
-        "notes": "Tried virtually everything, I couldn’t make it the race loading screen.\nAveragely: random crashes, bugged menu, looping screens, and never made it to the actual race",
-        "updatedAt": "2026-06-12",
-        "date": "2026-06-12",
-        "reportCount": 3,
+        "status": "playable",
+        "perf": "great",
+        "notes": "The frame rate sits between 40 and 60 fps with the HDR patch disabled. Although texture and prop flickering occurs, the experience remains playable.",
+        "updatedAt": "2026-09-11",
+        "date": "2026-09-11",
+        "reportCount": 4,
         "latestReport": {
-          "device": "iPhone 15 Pro",
-          "platform": "ios",
-          "osVersion": "18.7.2",
+          "device": "MacBook Pro M5",
+          "platform": "macos",
+          "osVersion": "26.6.2",
           "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "poor",
-          "date": "2026-06-12",
-          "notes": "Tried virtually everything, I couldn’t make it the race loading screen.\nAveragely: random crashes, bugged menu, looping screens, and never made it to the actual race",
+          "gpuBackend": "msc",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-09-11",
+          "notes": "The frame rate sits between 40 and 60 fps with the HDR patch disabled. Although texture and prop flickering occurs, the experience remains playable.",
           "screenshots": [],
-          "source": "app",
+          "source": "github",
           "build": {
-            "buildId": "ios-self-built-2.0.1-9730",
+            "buildId": "macos-self-built-2.0.1-9730-57c3a140",
             "channel": "self-built",
             "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.0.1-9730",
+            "buildNumber": "57c3a140"
           }
         },
         "bestReport": {
-          "device": "iPhone 15 Pro",
-          "platform": "ios",
-          "osVersion": "18.7.2",
+          "device": "MacBook Pro M5",
+          "platform": "macos",
+          "osVersion": "26.6.2",
           "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "poor",
-          "date": "2026-06-12",
-          "notes": "Tried virtually everything, I couldn’t make it the race loading screen.\nAveragely: random crashes, bugged menu, looping screens, and never made it to the actual race",
+          "gpuBackend": "msc",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-09-11",
+          "notes": "The frame rate sits between 40 and 60 fps with the HDR patch disabled. Although texture and prop flickering occurs, the experience remains playable.",
           "screenshots": [],
-          "source": "app",
+          "source": "github",
           "build": {
-            "buildId": "ios-self-built-2.0.1-9730",
+            "buildId": "macos-self-built-2.0.1-9730-57c3a140",
             "channel": "self-built",
             "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.0.1-9730",
+            "buildNumber": "57c3a140"
           }
         }
       }
@@ -183039,11 +183133,33 @@
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-20",
+    "updatedAt": "2026-09-10",
     "issueNumber": 109,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/109",
     "notes": "I load into the game and can move in the title select screen but the A button won’t start a game",
     "reports": [
+      {
+        "device": "iPhone 14 Pro",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "loads",
+        "perf": "ok",
+        "date": "2026-09-10",
+        "notes": "Loads into game selector, but A button doesn’t register game select.",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140"
+        }
+      },
       {
         "device": "iPhone 14 Pro",
         "platform": "ios",
@@ -183109,29 +183225,29 @@
         "status": "intro",
         "perf": "great",
         "notes": "I load into the game and can move in the title select screen but the A button won’t start a game",
-        "updatedAt": "2026-03-20",
-        "date": "2026-03-20",
-        "reportCount": 2,
+        "updatedAt": "2026-09-10",
+        "date": "2026-09-10",
+        "reportCount": 3,
         "latestReport": {
           "device": "iPhone 14 Pro",
           "platform": "ios",
-          "osVersion": "26.2.1",
+          "osVersion": "26.3.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-20",
-          "notes": "Nothing at all just crashes .",
+          "status": "loads",
+          "perf": "ok",
+          "date": "2026-09-10",
+          "notes": "Loads into game selector, but A button doesn’t register game select.",
           "screenshots": [],
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
             "stage": "stable",
-            "commitShort": "056d2f64d"
+            "commitShort": "57c3ca140"
           }
         },
         "bestReport": {
@@ -191891,6 +192007,8 @@
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-09-07",
+    "issueNumber": 689,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/689",
     "notes": "Black screen after launch, controller/UI buttons remain responsive. Never reaches visible gameplay. Tested with 2-disc ISO version, GPU backend: MSL.”",
     "reports": [
       {
@@ -274373,14 +274491,47 @@
     "titleIds": [
       "584107EF"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
-    "platforms": [],
-    "lastReport": null,
-    "updatedAt": "",
-    "notes": "",
-    "reports": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 14 Pro",
+      "platform": "ios",
+      "osVersion": "26.3.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-09-10",
+    "issueNumber": 694,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/694",
+    "notes": "Loads, may need to press start and/or LT+RT, Seems fine so far.",
+    "reports": [
+      {
+        "device": "iPhone 14 Pro",
+        "platform": "ios",
+        "osVersion": "26.3.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-09-10",
+        "notes": "Loads, may need to press start and/or LT+RT, Seems fine so far.",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140"
+        }
+      }
+    ],
     "screenshots": [],
     "summaries": {
       "release": {
@@ -274396,14 +274547,56 @@
       },
       "all": {
         "channel": "all",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "playable",
+        "perf": "great",
+        "notes": "Loads, may need to press start and/or LT+RT, Seems fine so far.",
+        "updatedAt": "2026-09-10",
+        "date": "2026-09-10",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 14 Pro",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-09-10",
+          "notes": "Loads, may need to press start and/or LT+RT, Seems fine so far.",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 14 Pro",
+          "platform": "ios",
+          "osVersion": "26.3.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-09-10",
+          "notes": "Loads, may need to press start and/or LT+RT, Seems fine so far.",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
+          }
+        }
       }
     }
   },

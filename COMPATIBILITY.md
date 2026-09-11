@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **392 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **394 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **160** · 🔵 In-Game: **71** · 🟡 Intro: **36** · 🟠 Loads: **51** · 🔴 Doesn't Boot: **74**
+> 🟢 Playable: **162** · 🔵 In-Game: **71** · 🟡 Intro: **36** · 🟠 Loads: **51** · 🔴 Doesn't Boot: **74**
 >
-> 📱 iOS: **358** · 🖥️ macOS: **55**
+> 📱 iOS: **360** · 🖥️ macOS: **56**
 
 ## Legend
 
@@ -34,6 +34,7 @@
 | 🟢 | BattleBlock Theater | `58410A30` | 📱 iOS | Playable | 🚀 Great | iPhone 13 | 2026-03-10 |
 | 🟢 | Ben 10 Ultimate Alien Cosmic Destruction | `445007F7` | 📱 iOS | Playable | 🚀 Great | iPhone 17 | 2026-07-16 |
 | 🟢 | Bioshock | `545407D8` | 📱 iOS | Playable | 🚀 Great | iPad Pro 13-inch (M4) | 2026-06-22 |
+| 🟢 | Blur | `41560845` | 📱 iOS, 🖥️ macOS | Playable | 🚀 Great | MacBook Pro M5 | 2026-09-11 |
 | 🟢 | Bomberman Battlefest | `584109B2` | 📱 iOS | Playable | 🐢 Poor | iPhone 15 | 2026-03-25 |
 | 🟢 | Bomberman Live | `5841083F` | 📱 iOS | Playable | 🚀 Great | iPhone 15 | 2026-06-07 |
 | 🟢 | Borderlands | `545407E7` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro | 2026-03-13 |
@@ -180,6 +181,7 @@
 | 🟢 | X-Men Origins: Wolverine | `41560816` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro Max | 2026-07-06 |
 | 🟢 | Xbox 360 Experience Disc 2.4 (USA) | `584B880F` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-08-10 |
 | 🟢 | Yaris | `5841087F` | 📱 iOS | Playable | 🚀 Great | iPhone 14 Pro Max | 2026-03-23 |
+| 🟢 | Zuma | `584107EF` | 📱 iOS | Playable | 🚀 Great | iPhone 14 Pro | 2026-09-10 |
 | 🔵 | 2014 FIFA World Cup Brazil | `454109D4` | 📱 iOS | In-Game | 🚀 Great | iPad Pro 11-inch (M4) | 2026-07-10 |
 | 🔵 | After Burner Climax | `58410A06` | 📱 iOS | In-Game | 🐢 Poor | iPad Pro 13-inch (M5) | 2026-06-11 |
 | 🔵 | Band Hero | `4156085C` | 📱 iOS, 🖥️ macOS | In-Game | 🐢 Poor | iPhone 13 mini | 2026-03-22 |
@@ -251,10 +253,10 @@
 | 🔵 | UFC Undisputed 2010 | `54510851` | 📱 iOS | In-Game | 🐢 Poor | iPhone 16 | 2026-06-05 |
 | 🔵 | Virtua Tennis 3 | `534507E1` | 📱 iOS | In-Game | 🚀 Great | iPhone 17 Pro Max | 2026-06-18 |
 | 🔵 | WWE SmackDown! Vs Raw 2007 | `545107E0` | 📱 iOS | In-Game | 👌 OK | iPhone 17 | 2026-05-26 |
+| 🟡 | A World of Keflings | `584109DB` | 📱 iOS | Intro | 👌 OK | iPhone 14 Pro | 2026-09-10 |
 | 🟡 | Assassins Creed III - Liberation HD | `584113FC` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 | 2026-07-15 |
 | 🟡 | Back to the Future | `443607D6` | 📱 iOS | Intro | 🚀 Great | iPhone 16 Pro | 2026-03-24 |
 | 🟡 | Beautiful Katamari | `4E4D07DC` | 📱 iOS | Intro | 👌 OK | iPhone 16 Pro | 2026-03-05 |
-| 🟡 | Blur | `41560845` | 📱 iOS | Intro | 🐢 Poor | iPhone 15 Pro | 2026-06-12 |
 | 🟡 | Dead or Alive Xtreme 2 | `544307D2` | 📱 iOS | Intro | 🐢 Poor | iPhone 13 Pro Max | 2026-03-27 |
 | 🟡 | Dead Rising | `434307D2` | 📱 iOS | Intro | 👌 OK | iPad (A16) | 2026-03-04 |
 | 🟡 | Divinity II Dragon Knight Saga | `464507D6` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro Max | 2026-03-09 |
@@ -271,7 +273,7 @@
 | 🟡 | Naruto Shippuden: UNS 3 Full Burst | `4E4D085C` | 📱 iOS | Intro | 🐢 Poor | iPhone 15 Pro Max | 2026-03-13 |
 | 🟡 | Need for Speed Most Wanted (2012) | `45410961` | 📱 iOS | Intro | 🐢 Poor | iPhone 15 Pro Max | 2026-03-08 |
 | 🟡 | Need for Speed: The Run | `4541094A` | 📱 iOS | Intro | 👌 OK | iPhone 17 Pro | 2026-06-07 |
-| 🟡 | PopCap Collection | `504787D8` | 📱 iOS | Intro | 🚀 Great | iPhone 13 Pro | 2026-03-20 |
+| 🟡 | PopCap Collection | `504787D8` | 📱 iOS | Intro | 🚀 Great | iPhone 13 Pro | 2026-09-10 |
 | 🟡 | Portal: Still Alive | `58410960` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro Max | 2026-05-27 |
 | 🟡 | Rise of the Tomb Raider | `53510823` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro Max | 2026-03-12 |
 | 🟡 | Saints Row: The Third | `5451086D` | 📱 iOS | Intro | 🐢 Poor | iPhone 14 Pro | 2026-06-17 |
