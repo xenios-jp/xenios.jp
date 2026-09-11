@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T09:44:09.273Z",
+  "generatedAt": "2026-09-11T21:45:02.166Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -4061,6 +4061,74 @@
           "createdAtMs": 1773517964000,
           "issueNumber": 263,
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
+          "images": [],
+          "meta": {}
+        }
+      ]
+    },
+    "4156091D": {
+      "titleId": "4156091D",
+      "issueNumber": 143,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/143",
+      "updatedAt": "2026-09-11",
+      "entries": [
+        {
+          "id": "issue-697",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/697",
+          "author": "arieco57",
+          "createdAt": "2026-09-11",
+          "createdAtMs": 1789162943000,
+          "issueNumber": 697,
+          "excerpt": "With my iPhone 15 I get around 15-20 fps on free run, 12 on multiplayers maps (playing without bots, just me), and some times I could launch zombies and play it\nThe Giant: 10 fps\nDer eisendrache: 9 fps\n\nTo play the game you have to open it on PC cnd then transfer the “content” folder from Xenia to XeniOS\n\nIf your game freezes your have to clean the game cache and switch to Vulkan, Metal doesn’t work for me",
+          "images": [],
+          "meta": {}
+        },
+        {
+          "id": "comment-5138131424",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/261#issuecomment-5138131424",
+          "author": "raed-alzahrani",
+          "createdAt": "2026-07-31",
+          "createdAtMs": 1785461266000,
+          "issueNumber": 261,
+          "excerpt": "I tried it on my iPhone and it kinda works, nothing so bad i think it's playable, you just need to install all title updates + all dlc's, but for some reason xenios on iPhone does not extract dlc's correctly idk why maybe it's because of my phone, i moved the dlc's and title updates from the contents folder on my xenia emulator on pc, and it worked, also i used ( 1 ) license mask if that's important.\nWhen you open the game the graphics is kinda weird, it's fixed by putting Readback Resolve in the graphics menu on full, maybe there is room for improvement if you tinker with the graphics menu a little, but I didn't try yet.\nAlso I'm using Preview 2.1-9857 build.\n\n<img width=\"1434\" height=\"660\" alt=\"Image\" src=\" />\n<img width=\"1434\" height=\"660\" alt=\"Image\" src=\" />\n<img width=\"1434\" height=\"660\" alt=\"Image\" src=\" />\n<img width=\"1434\" height=\"660\" alt=\"Image\" src=\" />\n<img width=\"1434\" height=\"660\" alt=\"Image\" src=\" />",
+          "images": [],
+          "meta": {}
+        },
+        {
+          "id": "issue-261",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/261",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-14",
+          "createdAtMs": 1773505506000,
+          "issueNumber": 261,
+          "excerpt": "Black screen",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 13",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "buildStage": "stable",
+            "commitShort": "`056d2f64d`"
+          }
+        },
+        {
+          "id": "issue-143",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/143",
+          "author": "fonsooooooo9",
+          "createdAt": "2026-03-09",
+          "createdAtMs": 1773076715000,
+          "issueNumber": 143,
+          "excerpt": "black ops logo shows for half a second then stuck on black screen,",
           "images": [],
           "meta": {}
         }
@@ -15770,62 +15838,6 @@
         }
       ]
     },
-    "4156091D": {
-      "titleId": "4156091D",
-      "issueNumber": 143,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/143",
-      "updatedAt": "2026-08-25",
-      "entries": [
-        {
-          "id": "comment-5138131424",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/261#issuecomment-5138131424",
-          "author": "raed-alzahrani",
-          "createdAt": "2026-07-31",
-          "createdAtMs": 1785461266000,
-          "issueNumber": 261,
-          "excerpt": "I tried it on my iPhone and it kinda works, nothing so bad i think it's playable, you just need to install all title updates + all dlc's, but for some reason xenios on iPhone does not extract dlc's correctly idk why maybe it's because of my phone, i moved the dlc's and title updates from the contents folder on my xenia emulator on pc, and it worked, also i used ( 1 ) license mask if that's important.\nWhen you open the game the graphics is kinda weird, it's fixed by putting Readback Resolve in the graphics menu on full, maybe there is room for improvement if you tinker with the graphics menu a little, but I didn't try yet.\nAlso I'm using Preview 2.1-9857 build.\n\n<img width=\"1434\" height=\"660\" alt=\"Image\" src=\" />\n<img width=\"1434\" height=\"660\" alt=\"Image\" src=\" />\n<img width=\"1434\" height=\"660\" alt=\"Image\" src=\" />\n<img width=\"1434\" height=\"660\" alt=\"Image\" src=\" />\n<img width=\"1434\" height=\"660\" alt=\"Image\" src=\" />",
-          "images": [],
-          "meta": {}
-        },
-        {
-          "id": "issue-261",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/261",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-14",
-          "createdAtMs": 1773505506000,
-          "issueNumber": 261,
-          "excerpt": "Black screen",
-          "images": [],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPhone 13",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "buildStage": "stable",
-            "commitShort": "`056d2f64d`"
-          }
-        },
-        {
-          "id": "issue-143",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/143",
-          "author": "fonsooooooo9",
-          "createdAt": "2026-03-09",
-          "createdAtMs": 1773076715000,
-          "issueNumber": 143,
-          "excerpt": "black ops logo shows for half a second then stuck on black screen,",
-          "images": [],
-          "meta": {}
-        }
-      ]
-    },
     "575207E6": {
       "titleId": "575207E6",
       "issueNumber": 259,
@@ -16283,40 +16295,6 @@
           "excerpt": "[Visuals]:\n - Vertical line in the middle of the screen sometimes appears for a split second.\n - Lighting bugs on either side of the screen divided by vertical line mentioned above, usually random, not specific to any spot or looking angle.\n - Buggy textures on FPS hands\n[Audio/Performance]:\n - Explosions, blood splatter, particles and/or volume/smoke may cause slight audio stuttering.\n - Performance drops depending on the environment, amount of enemies and presence of smoke/fog.\n\n[FPS Range After Loading Save]: 10-28\nNo crashes, managed to complete few missions.\n\nAudio for Cutscenes, Loading Screens, Intro, Logos on boot works fine.",
           "images": [
             "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/565507D9/1773415475070-1.jpg"
-          ],
-          "meta": {
-            "status": "playable",
-            "perf": "ok",
-            "device": "iPhone 16 Pro",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9299",
-            "buildStage": "stable",
-            "commitShort": "`d8c101905`"
-          }
-        }
-      ]
-    },
-    "545407E7": {
-      "titleId": "545407E7",
-      "issueNumber": 241,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/241",
-      "updatedAt": "2026-03-13",
-      "entries": [
-        {
-          "id": "issue-241",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/241",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-13",
-          "createdAtMs": 1773398212000,
-          "issueNumber": 241,
-          "excerpt": "Game boot Intros and cinematics have audio issues.\nGameplay:\nAfter loading a save, FPS is around 14-15 and 10-12 when assets finished loading. \nCharacter color editing menu has minor UI glitches.\nNo crashes so far.",
-          "images": [
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545407E7/1773398208451-1.jpg"
           ],
           "meta": {
             "status": "playable",
