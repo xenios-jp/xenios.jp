@@ -4,7 +4,7 @@
 >
 > 🟢 Playable: **162** · 🔵 In-Game: **71** · 🟡 Intro: **36** · 🟠 Loads: **51** · 🔴 Doesn't Boot: **74**
 >
-> 📱 iOS: **360** · 🖥️ macOS: **56**
+> 📱 iOS: **360** · 🖥️ macOS: **57**
 
 ## Legend
 
@@ -61,7 +61,7 @@
 | 🟢 | Dragon Age 2 | `4541090B` | 🖥️ macOS | Playable | 🚀 Great | M1 iMac (2021) | 2026-07-26 |
 | 🟢 | Dragon Age: Origins - Ultimate Edition | `454108C0` | 🖥️ macOS | Playable | 🚀 Great | Mac mini (M4) | 2026-03-15 |
 | 🟢 | Dragon Ball Z Ultimate Tenkaichi | `4E4D0846` | 📱 iOS | Playable | 👌 OK | iPad16,9 | 2026-06-11 |
-| 🟢 | Driver: San Francisco | `5553087E` | 📱 iOS | Playable | 👌 OK | iPhone 14 Pro Max | 2026-07-07 |
+| 🟢 | Driver: San Francisco | `5553087E` | 📱 iOS, 🖥️ macOS | Playable | 🚀 Great | MacBook Pro M5 | 2026-09-11 |
 | 🟢 | DuckTales Remastered | `584113C6` | 📱 iOS | Playable | 🐢 Poor | iPhone 14 Pro Max | 2026-03-25 |
 | 🟢 | EA SPORTS FIFA Street | `4541097B` | 📱 iOS | Playable | 👌 OK | iPhone 16e | 2026-06-03 |
 | 🟢 | F.E.A.R: First Encounter Assault Recon | `565507D9` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro | 2026-03-13 |

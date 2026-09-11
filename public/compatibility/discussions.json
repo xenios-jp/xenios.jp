@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T05:43:50.747Z",
+  "generatedAt": "2026-09-11T09:41:03.363Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -405,18 +405,6 @@
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/298",
       "updatedAt": "2026-09-11",
       "entries": [
-        {
-          "id": "issue-695",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/695",
-          "author": "tenebris330",
-          "createdAt": "2026-09-11",
-          "createdAtMs": 1789105280000,
-          "issueNumber": 695,
-          "excerpt": "The frame rate sits between 40 and 60 fps with the HDR patch disabled. Although texture and prop flickering occurs, the experience remains playable.",
-          "images": [],
-          "meta": {}
-        },
         {
           "id": "comment-4692313918",
           "type": "comment",
@@ -6055,6 +6043,33 @@
             "buildStage": "stable",
             "commitShort": "`57c3ca140`"
           }
+        },
+        {
+          "id": "issue-470",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/470",
+          "author": "xenios-jp",
+          "createdAt": "2026-06-05",
+          "createdAtMs": 1780696708000,
+          "issueNumber": 470,
+          "excerpt": "Works good didn’t face any crash or specific glitch.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4541085B/1780696700800-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4541085B/1780696700800-2.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4541085B/1780696700800-3.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 16e",
+            "platform": "iOS",
+            "osVersion": "iOS 26.4.2",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "0",
+            "commitShort": "`39be0d65a`"
+          }
         }
       ]
     },
@@ -7899,7 +7914,7 @@
       "titleId": "5553087E",
       "issueNumber": 566,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/566",
-      "updatedAt": "2026-07-07",
+      "updatedAt": "2026-09-11",
       "entries": [
         {
           "id": "comment-4906963621",
