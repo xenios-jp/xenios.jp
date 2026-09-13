@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-13T00:02:57.897Z",
+  "generatedAt": "2026-09-13T10:32:42.636Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -3845,18 +3845,6 @@
       "updatedAt": "2026-09-13",
       "entries": [
         {
-          "id": "issue-698",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/698",
-          "author": "arieco57",
-          "createdAt": "2026-09-13",
-          "createdAtMs": 1789257628000,
-          "issueNumber": 698,
-          "excerpt": "The game it’s totally playable, I had no issues, I just wanna say that when I look into a portal my fps drops to 20 fps, but then my game runs at 30 fps",
-          "images": [],
-          "meta": {}
-        },
-        {
           "id": "issue-455",
           "type": "issue",
           "url": "https://github.com/xenios-jp/game-compatibility/issues/455",
@@ -4744,8 +4732,32 @@
       "titleId": "545408A7",
       "issueNumber": 663,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/663",
-      "updatedAt": "2026-09-05",
+      "updatedAt": "2026-09-13",
       "entries": [
+        {
+          "id": "comment-5652715325",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/663#issuecomment-5652715325",
+          "author": "xenios-jp",
+          "createdAt": "2026-09-13",
+          "createdAtMs": 1789295347000,
+          "issueNumber": 663,
+          "excerpt": "Only play the rockstar animation",
+          "images": [],
+          "meta": {
+            "status": "intro",
+            "perf": "poor",
+            "device": "iPhone18,5",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "buildStage": "stable",
+            "commitShort": "`57c3ca140`"
+          }
+        },
         {
           "id": "comment-5551195889",
           "type": "comment",
@@ -4862,32 +4874,6 @@
             "device": "iPhone 16e",
             "platform": "iOS",
             "osVersion": "iOS 26.6",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "buildStage": "stable",
-            "commitShort": "`57c3ca140`"
-          }
-        },
-        {
-          "id": "comment-5115626513",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/516#issuecomment-5115626513",
-          "author": "xenios-jp",
-          "createdAt": "2026-07-29",
-          "createdAtMs": 1785316656000,
-          "issueNumber": 516,
-          "excerpt": "Crash in Black Screen",
-          "images": [
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408A7/1785316651021-1.jpg"
-          ],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPhone 16 Pro",
-            "platform": "iOS",
-            "osVersion": "iOS 27.0",
             "gpuBackend": "MSL",
             "buildChannel": "self-built",
             "appVersion": "2.0.1",
@@ -6054,6 +6040,33 @@
             "buildNumber": "9730",
             "buildStage": "stable",
             "commitShort": "`57c3ca140`"
+          }
+        },
+        {
+          "id": "issue-470",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/470",
+          "author": "xenios-jp",
+          "createdAt": "2026-06-05",
+          "createdAtMs": 1780696708000,
+          "issueNumber": 470,
+          "excerpt": "Works good didn’t face any crash or specific glitch.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4541085B/1780696700800-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4541085B/1780696700800-2.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4541085B/1780696700800-3.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 16e",
+            "platform": "iOS",
+            "osVersion": "iOS 26.4.2",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "0",
+            "commitShort": "`39be0d65a`"
           }
         }
       ]
