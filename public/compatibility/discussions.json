@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-13T10:32:42.636Z",
+  "generatedAt": "2026-09-13T13:05:32.543Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1866,10 +1866,36 @@
     },
     "45410912": {
       "titleId": "45410912",
-      "issueNumber": 252,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/252",
-      "updatedAt": "2026-08-12",
+      "issueNumber": 634,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/634",
+      "updatedAt": "2026-09-13",
       "entries": [
+        {
+          "id": "comment-5653444538",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/634#issuecomment-5653444538",
+          "author": "xenios-jp",
+          "createdAt": "2026-09-13",
+          "createdAtMs": 1789304575000,
+          "issueNumber": 634,
+          "excerpt": "No text and audio at all, but if you remember how to navigate to start a new game, in game performance is very good ( fps above 45",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/45410912/1789304568351-1.jpg"
+          ],
+          "meta": {
+            "status": "ingame",
+            "perf": "great",
+            "device": "iPhone18,5",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "buildStage": "stable",
+            "commitShort": "`57c3ca140`"
+          }
+        },
         {
           "id": "comment-5262871005",
           "type": "comment",
@@ -1973,32 +1999,6 @@
             "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/45410912/1773500928011-1.jpg",
             "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/45410912/1773500928011-2.jpg",
             "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/45410912/1773500928011-3.jpg"
-          ],
-          "meta": {
-            "status": "playable",
-            "perf": "poor",
-            "device": "iPhone 17 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "buildStage": "stable",
-            "commitShort": "`056d2f64d`"
-          }
-        },
-        {
-          "id": "issue-252",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/252",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-14",
-          "createdAtMs": 1773453275000,
-          "issueNumber": 252,
-          "excerpt": "Game \"can\" be played if you know how to operate menus without text. Textures are funky, and depending on where you stand the walls go invisible.",
-          "images": [
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/45410912/1773453273574-1.jpg"
           ],
           "meta": {
             "status": "playable",

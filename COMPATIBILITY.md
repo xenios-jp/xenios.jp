@@ -233,7 +233,7 @@
 | 🔵 | PAC-MAN and the Ghostly Adventures | `4E4D0865` | 📱 iOS | In-Game | 🐢 Poor | iPhone 15 Pro Max | 2026-03-08 |
 | 🔵 | Persona 4 Arena | `453907D2` | 📱 iOS | In-Game | 🚀 Great | iPhone 17 Pro Max | 2026-06-18 |
 | 🔵 | Pinball Arcade | `5841121D` | 📱 iOS | In-Game | 🐢 Poor | iPhone 13 | 2026-03-10 |
-| 🔵 | Portal 2 | `45410912` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro Max | 2026-08-05 |
+| 🔵 | Portal 2 | `45410912` | 📱 iOS | In-Game | 🚀 Great | iPhone18,5 | 2026-09-13 |
 | 🔵 | Pro Evolution Soccer 2010 / PES 2010 | `4B4E0801` | 📱 iOS | In-Game | 👌 OK | iPhone 17 Pro Max | 2026-06-20 |
 | 🔵 | Pro Evolution Soccer 2013 / PES 2013 | `4B4E084C` | 📱 iOS | In-Game | 🐢 Poor | iPhone 16 | 2026-04-06 |
 | 🔵 | Project Gotham Racing 4 | `4D5307F9` | 📱 iOS | In-Game | 🐢 Poor | iPhone 15 | 2026-08-05 |
