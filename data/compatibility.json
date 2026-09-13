@@ -42055,6 +42055,8 @@
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-03-13",
+    "issueNumber": 241,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/241",
     "notes": "Game boot Intros and cinematics have audio issues.\nGameplay:\nAfter loading a save, FPS is around 14-15 and 10-12 when assets finished loading. \nCharacter color editing menu has minor UI glitches.\nNo crashes so far.",
     "reports": [
       {
@@ -183552,24 +183554,45 @@
     "titleIds": [
       "58410960"
     ],
-    "status": "intro",
-    "perf": "poor",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 16 Pro Max",
+      "device": "iPhone 15",
       "platform": "ios",
-      "osVersion": "26.3",
+      "osVersion": "27.0",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-05-27",
+    "updatedAt": "2026-09-13",
     "issueNumber": 455,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/455",
-    "notes": "Glitchy intro then freezes",
+    "notes": "The game it’s totally playable, I had no issues, I just wanna say that when I look into a portal my fps drops to 20 fps, but then my game runs at 30 fps",
     "reports": [
+      {
+        "device": "iPhone 15",
+        "platform": "ios",
+        "osVersion": "27.0",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-09-13",
+        "notes": "The game it’s totally playable, I had no issues, I just wanna say that when I look into a portal my fps drops to 20 fps, but then my game runs at 30 fps",
+        "screenshots": [],
+        "source": "github",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9849",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9849",
+          "commitShort": "acfa287"
+        }
+      },
       {
         "device": "iPhone 16 Pro Max",
         "platform": "ios",
@@ -183608,54 +183631,52 @@
       },
       "all": {
         "channel": "all",
-        "status": "intro",
-        "perf": "poor",
-        "notes": "Glitchy intro then freezes",
-        "updatedAt": "2026-05-27",
-        "date": "2026-05-27",
-        "reportCount": 1,
+        "status": "playable",
+        "perf": "great",
+        "notes": "The game it’s totally playable, I had no issues, I just wanna say that when I look into a portal my fps drops to 20 fps, but then my game runs at 30 fps",
+        "updatedAt": "2026-09-13",
+        "date": "2026-09-13",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 16 Pro Max",
+          "device": "iPhone 15",
           "platform": "ios",
-          "osVersion": "26.3",
+          "osVersion": "27.0",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "poor",
-          "date": "2026-05-27",
-          "notes": "Glitchy intro then freezes",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-09-13",
+          "notes": "The game it’s totally playable, I had no issues, I just wanna say that when I look into a portal my fps drops to 20 fps, but then my game runs at 30 fps",
           "screenshots": [],
-          "source": "app",
+          "source": "github",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
+            "buildId": "ios-self-built-2.0.1-9849",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d"
+            "appVersion": "2.0.1",
+            "buildNumber": "9849",
+            "commitShort": "acfa287"
           }
         },
         "bestReport": {
-          "device": "iPhone 16 Pro Max",
+          "device": "iPhone 15",
           "platform": "ios",
-          "osVersion": "26.3",
+          "osVersion": "27.0",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "poor",
-          "date": "2026-05-27",
-          "notes": "Glitchy intro then freezes",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-09-13",
+          "notes": "The game it’s totally playable, I had no issues, I just wanna say that when I look into a portal my fps drops to 20 fps, but then my game runs at 30 fps",
           "screenshots": [],
-          "source": "app",
+          "source": "github",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
+            "buildId": "ios-self-built-2.0.1-9849",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d"
+            "appVersion": "2.0.1",
+            "buildNumber": "9849",
+            "commitShort": "acfa287"
           }
         }
       }

@@ -2,7 +2,7 @@
 
 > **394 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **161** · 🔵 In-Game: **72** · 🟡 Intro: **37** · 🟠 Loads: **51** · 🔴 Doesn't Boot: **73**
+> 🟢 Playable: **162** · 🔵 In-Game: **72** · 🟡 Intro: **36** · 🟠 Loads: **51** · 🔴 Doesn't Boot: **73**
 >
 > 📱 iOS: **360** · 🖥️ macOS: **55**
 
@@ -130,6 +130,7 @@
 | 🟢 | Peggle 2 | `58411436` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro Max | 2026-05-27 |
 | 🟢 | Perfect Dark Zero | `4D5307D3` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-06-18 |
 | 🟢 | Plants vs. Zombies | `584109FF` | 📱 iOS | Playable | 👌 OK | iPhone 14 Pro Max | 2026-03-25 |
+| 🟢 | Portal: Still Alive | `58410960` | 📱 iOS | Playable | 🚀 Great | iPhone 15 | 2026-09-13 |
 | 🟢 | Pro Evolution Soccer 2011 / PES 2011 | `4B4E081D` | 📱 iOS | Playable | 🐢 Poor | iPhone 16e | 2026-05-20 |
 | 🟢 | Pro Evolution Soccer 2012 / PES 2012 | `4B4E0837` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro | 2026-04-25 |
 | 🟢 | Pro Evolution Soccer 2016 / PES 2016 | `4B4E0861` | 📱 iOS | Playable | 🐢 Poor | iPhone 16e | 2026-04-25 |
@@ -275,7 +276,6 @@
 | 🟡 | Need for Speed Most Wanted (2012) | `45410961` | 📱 iOS | Intro | 🐢 Poor | iPhone 15 Pro Max | 2026-03-08 |
 | 🟡 | Need for Speed: The Run | `4541094A` | 📱 iOS | Intro | 👌 OK | iPhone 17 Pro | 2026-06-07 |
 | 🟡 | PopCap Collection | `504787D8` | 📱 iOS | Intro | 🚀 Great | iPhone 13 Pro | 2026-09-10 |
-| 🟡 | Portal: Still Alive | `58410960` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro Max | 2026-05-27 |
 | 🟡 | Rise of the Tomb Raider | `53510823` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro Max | 2026-03-12 |
 | 🟡 | Saints Row: The Third | `5451086D` | 📱 iOS | Intro | 🐢 Poor | iPhone 14 Pro | 2026-06-17 |
 | 🟡 | Silent Hill: HD Collection | `4B4E0845` | 📱 iOS | Intro | 🚀 Great | iPad Pro 11-inch (M5) | 2026-03-31 |
