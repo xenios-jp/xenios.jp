@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-13T13:05:32.543Z",
+  "generatedAt": "2026-09-13T22:23:47.789Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -4556,10 +4556,34 @@
     },
     "545407F2": {
       "titleId": "545407F2",
-      "issueNumber": 41,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/41",
-      "updatedAt": "2026-09-04",
+      "issueNumber": 667,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/667",
+      "updatedAt": "2026-09-13",
       "entries": [
+        {
+          "id": "comment-5656560837",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/667#issuecomment-5656560837",
+          "author": "xenios-jp",
+          "createdAt": "2026-09-13",
+          "createdAtMs": 1789338073000,
+          "issueNumber": 667,
+          "excerpt": "Loading intro on Vulkan with low performance, Metal crashes immediately",
+          "images": [],
+          "meta": {
+            "status": "intro",
+            "perf": "poor",
+            "device": "iPad Air 5",
+            "platform": "iOS",
+            "osVersion": "iOS 18.7.8",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "buildStage": "stable",
+            "commitShort": "`57c3ca140`"
+          }
+        },
         {
           "id": "comment-5522385384",
           "type": "comment",
@@ -4667,18 +4691,6 @@
             "buildStage": "stable",
             "commitShort": "`57c3ca140`"
           }
-        },
-        {
-          "id": "comment-4758672712",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/508#issuecomment-4758672712",
-          "author": "Lazurass",
-          "createdAt": "2026-06-20",
-          "createdAtMs": 1781968228000,
-          "issueNumber": 508,
-          "excerpt": "I just tried this on my iPhone 17 base model and it’s pretty stable but there are stutters and my phone overheated really fast also the audio is really bad",
-          "images": [],
-          "meta": {}
         }
       ]
     },
