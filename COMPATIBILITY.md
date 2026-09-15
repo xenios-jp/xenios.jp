@@ -91,7 +91,7 @@
 | 🟢 | Hitman: Absolution | `53510804` | 📱 iOS | Playable | 🚀 Great | iPad Pro 12.9-inch (M2) | 2026-03-18 |
 | 🟢 | Injustice: Gods Among Us | `57520829` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-08-11 |
 | 🟢 | Just Cause 2 | `534307E7` | 📱 iOS | Playable | 🐢 Poor | iPhone 17 Pro | 2026-03-09 |
-| 🟢 | Lego Batman | `575207D7` | 📱 iOS | Playable | 👌 OK | iPhone 15 Pro | 2026-06-13 |
+| 🟢 | Lego Batman | `575207D7` | 📱 iOS | Playable | 👌 OK | iPhone 15 Pro | 2026-09-14 |
 | 🟢 | Lego Harry Potter Years 1-4 | `575207E6` | 📱 iOS | Playable | 🐢 Poor | iPhone 13 | 2026-03-14 |
 | 🟢 | LEGO Indiana Jones | `4C4107DF` | 📱 iOS | Playable | 🚀 Great | iPad16,8 | 2026-07-16 |
 | 🟢 | Lego Indiana Jones 2 | `4C4107ED` | 📱 iOS | Playable | 👌 OK | iPhone 14 | 2026-03-16 |
