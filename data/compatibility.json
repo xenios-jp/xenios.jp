@@ -135095,23 +135095,23 @@
       "575207D7",
       "575207DE"
     ],
-    "status": "playable",
-    "perf": "ok",
+    "status": "nothing",
+    "perf": "n/a",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 15 Pro",
+      "device": "iPhone Air",
       "platform": "ios",
-      "osVersion": "26.5",
+      "osVersion": "27.0",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-09-14",
-    "issueNumber": 513,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/513",
-    "notes": "30-45 FPS maintained, some effects take some time to appear",
+    "issueNumber": 699,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/699",
+    "notes": "Black screen",
     "reports": [
       {
         "device": "iPhone Air",
@@ -135123,28 +135123,6 @@
         "perf": "n/a",
         "date": "2026-09-14",
         "notes": "Black screen",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-2.0.1-9730",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "stage": "stable",
-          "commitShort": "57c3ca140"
-        }
-      },
-      {
-        "device": "iPhone 15 Pro",
-        "platform": "ios",
-        "osVersion": "26.5",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "ok",
-        "date": "2026-06-13",
-        "notes": "30-45 FPS maintained, some effects take some time to appear",
         "screenshots": [],
         "source": "app",
         "build": {
@@ -135173,12 +135151,12 @@
       },
       "all": {
         "channel": "all",
-        "status": "playable",
-        "perf": "ok",
-        "notes": "30-45 FPS maintained, some effects take some time to appear",
+        "status": "nothing",
+        "perf": "n/a",
+        "notes": "Black screen",
         "updatedAt": "2026-09-14",
         "date": "2026-09-14",
-        "reportCount": 2,
+        "reportCount": 1,
         "latestReport": {
           "device": "iPhone Air",
           "platform": "ios",
@@ -135202,15 +135180,15 @@
           }
         },
         "bestReport": {
-          "device": "iPhone 15 Pro",
+          "device": "iPhone Air",
           "platform": "ios",
-          "osVersion": "26.5",
+          "osVersion": "27.0",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-06-13",
-          "notes": "30-45 FPS maintained, some effects take some time to appear",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-09-14",
+          "notes": "Black screen",
           "screenshots": [],
           "source": "app",
           "build": {
@@ -193788,23 +193766,45 @@
       "584111E0"
     ],
     "status": "loads",
-    "perf": "ok",
+    "perf": "poor",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 12 Pro",
+      "device": "iPhone 14 Pro",
       "platform": "ios",
-      "osVersion": "18.0.1",
+      "osVersion": "27.0",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-07-26",
+    "updatedAt": "2026-09-17",
     "issueNumber": 613,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/613",
-    "notes": "Black screen",
+    "notes": "Prolonged black screen with visible button icons, followed by a crash (without reaching the intro/menu).",
     "reports": [
+      {
+        "device": "iPhone 14 Pro",
+        "platform": "ios",
+        "osVersion": "27.0",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "loads",
+        "perf": "poor",
+        "date": "2026-09-17",
+        "notes": "Prolonged black screen with visible button icons, followed by a crash (without reaching the intro/menu).",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140"
+        }
+      },
       {
         "device": "iPhone 15 Pro Max",
         "platform": "ios",
@@ -193872,7 +193872,9 @@
         }
       }
     ],
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584111E0/1789615854044-1.jpg"
+    ],
     "summaries": {
       "release": {
         "channel": "release",
@@ -193888,21 +193890,21 @@
       "all": {
         "channel": "all",
         "status": "loads",
-        "perf": "ok",
-        "notes": "Black screen",
-        "updatedAt": "2026-07-26",
-        "date": "2026-07-26",
-        "reportCount": 3,
+        "perf": "poor",
+        "notes": "Prolonged black screen with visible button icons, followed by a crash (without reaching the intro/menu).",
+        "updatedAt": "2026-09-17",
+        "date": "2026-09-17",
+        "reportCount": 4,
         "latestReport": {
-          "device": "iPhone 15 Pro Max",
+          "device": "iPhone 14 Pro",
           "platform": "ios",
           "osVersion": "27.0",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-07-26",
-          "notes": "Black screen after pressing play and crashes 20 seconds later",
+          "status": "loads",
+          "perf": "poor",
+          "date": "2026-09-17",
+          "notes": "Prolonged black screen with visible button icons, followed by a crash (without reaching the intro/menu).",
           "screenshots": [],
           "source": "app",
           "build": {
@@ -193916,15 +193918,15 @@
           }
         },
         "bestReport": {
-          "device": "iPhone 12 Pro",
+          "device": "iPhone 14 Pro",
           "platform": "ios",
-          "osVersion": "18.0.1",
+          "osVersion": "27.0",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "loads",
-          "perf": "ok",
-          "date": "2026-07-24",
-          "notes": "Black screen",
+          "perf": "poor",
+          "date": "2026-09-17",
+          "notes": "Prolonged black screen with visible button icons, followed by a crash (without reaching the intro/menu).",
           "screenshots": [],
           "source": "app",
           "build": {

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-13T22:23:47.789Z",
+  "generatedAt": "2026-09-17T03:34:09.703Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -4066,6 +4066,62 @@
         }
       ]
     },
+    "575207D7": {
+      "titleId": "575207D7",
+      "issueNumber": 699,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/699",
+      "updatedAt": "2026-09-14",
+      "entries": [
+        {
+          "id": "issue-699",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/699",
+          "author": "xenios-jp",
+          "createdAt": "2026-09-14",
+          "createdAtMs": 1789375217000,
+          "issueNumber": 699,
+          "excerpt": "Black screen",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone Air",
+            "platform": "iOS",
+            "osVersion": "iOS 27.0",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "buildStage": "stable",
+            "commitShort": "`57c3ca140`"
+          }
+        },
+        {
+          "id": "issue-513",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/513",
+          "author": "xenios-jp",
+          "createdAt": "2026-06-13",
+          "createdAtMs": 1781383087000,
+          "issueNumber": 513,
+          "excerpt": "30-45 FPS maintained, some effects take some time to appear",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 15 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 26.5",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "buildStage": "stable",
+            "commitShort": "`57c3ca140`"
+          }
+        }
+      ]
+    },
     "584107EF": {
       "titleId": "584107EF",
       "issueNumber": 694,
@@ -6287,8 +6343,34 @@
       "titleId": "584111E0",
       "issueNumber": 613,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/613",
-      "updatedAt": "2026-07-26",
+      "updatedAt": "2026-09-17",
       "entries": [
+        {
+          "id": "comment-5708040603",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/613#issuecomment-5708040603",
+          "author": "xenios-jp",
+          "createdAt": "2026-09-17",
+          "createdAtMs": 1789615860000,
+          "issueNumber": 613,
+          "excerpt": "Prolonged black screen with visible button icons, followed by a crash (without reaching the intro/menu).",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584111E0/1789615854044-1.jpg"
+          ],
+          "meta": {
+            "status": "loads",
+            "perf": "poor",
+            "device": "iPhone 14 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 27.0",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "buildStage": "stable",
+            "commitShort": "`57c3ca140`"
+          }
+        },
         {
           "id": "comment-5085286904",
           "type": "comment",
@@ -9125,38 +9207,6 @@
             "platform": "iOS",
             "osVersion": "iOS 18.5",
             "gpuBackend": "MSL"
-          }
-        }
-      ]
-    },
-    "575207D7": {
-      "titleId": "575207D7",
-      "issueNumber": 513,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/513",
-      "updatedAt": "2026-06-13",
-      "entries": [
-        {
-          "id": "issue-513",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/513",
-          "author": "xenios-jp",
-          "createdAt": "2026-06-13",
-          "createdAtMs": 1781383087000,
-          "issueNumber": 513,
-          "excerpt": "30-45 FPS maintained, some effects take some time to appear",
-          "images": [],
-          "meta": {
-            "status": "playable",
-            "perf": "ok",
-            "device": "iPhone 15 Pro",
-            "platform": "iOS",
-            "osVersion": "iOS 26.5",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "buildStage": "stable",
-            "commitShort": "`57c3ca140`"
           }
         }
       ]
