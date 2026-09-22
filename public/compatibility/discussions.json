@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T22:56:43.201Z",
+  "generatedAt": "2026-09-22T23:01:30.763Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -4570,8 +4570,20 @@
       "titleId": "555308C3",
       "issueNumber": 668,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/668",
-      "updatedAt": "2026-08-21",
+      "updatedAt": "2026-09-22",
       "entries": [
+        {
+          "id": "comment-5785657640",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/668#issuecomment-5785657640",
+          "author": "hosainnnn",
+          "createdAt": "2026-09-22",
+          "createdAtMs": 1790117894000,
+          "issueNumber": 668,
+          "excerpt": "> \n> No, it’s horrible black screen maybe loading but then insta crash. I’m sorry but maybe iPad A16 won’t do very much on this app.\n> \n> _Submitted via XeniOS in-app reporter_",
+          "images": [],
+          "meta": {}
+        },
         {
           "id": "issue-668",
           "type": "issue",
