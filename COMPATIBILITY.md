@@ -104,7 +104,7 @@
 | 🟢 | Metal Gear Rising: Revengeance | `4B4E080A` | 📱 iOS | Playable | 🚀 Great | iPad Pro 13-inch (M5) | 2026-06-29 |
 | 🟢 | METAL GEAR SOLID HD EDITION 2 & 3 (Metal Gear Solid HD Collection) | `4B4E0840` | 🖥️ macOS | Playable | 👌 OK | MacBook Air (M2) | 2026-08-21 |
 | 🟢 | METAL GEAR SOLID PEACE WALKER HD EDITION | `4B4E083C` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Plus | 2026-03-18 |
-| 🟢 | Metal Gear Solid V: Ground Zeroes | `4B4E085C` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-09-01 |
+| 🟢 | Metal Gear Solid V: Ground Zeroes | `4B4E085C` | 📱 iOS | Playable | 🚀 Great | iPhone 17 | 2026-09-22 |
 | 🟢 | Metal Slug 3 | `584108CF` | 📱 iOS | Playable | 🚀 Great | iPhone 15 | 2026-06-07 |
 | 🟢 | Minecraft: Xbox 360 Edition | `4D530A81` | 📱 iOS | Playable | 👌 OK | iPhone 14 Pro Max | 2026-05-05 |
 | 🟢 | MINI NINJAS™ (demo) | `53438806` | 📱 iOS | Playable | 👌 OK | iPhone 16 | 2026-07-15 |

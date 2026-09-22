@@ -86644,8 +86644,6 @@
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-03-13",
-    "issueNumber": 245,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/245",
     "notes": "[Visuals]:\n - Vertical line in the middle of the screen sometimes appears for a split second.\n - Lighting bugs on either side of the screen divided by vertical line mentioned above, usually random, not specific to any spot or looking angle.\n - Buggy textures on FPS hands\n[Audio/Performance]:\n - Explosions, blood splatter, particles and/or volume/smoke may cause slight audio stuttering.\n - Performance drops depending on the environment, amount of enemies and presence of smoke/fog.\n\n[FPS Range After Loading Save]: 10-28\nNo crashes, managed to complete few missions.\n\nAudio for Cutscenes, Loading Screens, Intro, Logos on boot works fine.",
     "reports": [
       {
@@ -150112,17 +150110,37 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 17 Pro Max",
+      "device": "iPhone 17",
       "platform": "ios",
-      "osVersion": "26.3",
+      "osVersion": "27.0",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-09-01",
+    "updatedAt": "2026-09-22",
     "issueNumber": 166,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/166",
-    "notes": "Haven’t tested Full game but all the menus work, the opening cutscene works, and gameplay works with fps around 15-25. The only 2 negatives about it right now is that some text is bugged like in the credits and when selecting guns and also some textures are bugged out",
+    "notes": "Their is flickering in menus and in game and lights goes out alot",
     "reports": [
+      {
+        "device": "iPhone 17",
+        "platform": "ios",
+        "osVersion": "27.0",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-09-22",
+        "notes": "Their is flickering in menus and in game and lights goes out alot",
+        "screenshots": [],
+        "source": "github",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9849",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9849"
+        }
+      },
       {
         "device": "iPhone 17 Pro Max",
         "platform": "ios",
@@ -150161,48 +150179,48 @@
         "channel": "all",
         "status": "playable",
         "perf": "great",
-        "notes": "Haven’t tested Full game but all the menus work, the opening cutscene works, and gameplay works with fps around 15-25. The only 2 negatives about it right now is that some text is bugged like in the credits and when selecting guns and also some textures are bugged out",
-        "updatedAt": "2026-09-01",
-        "date": "2026-09-01",
-        "reportCount": 1,
+        "notes": "Their is flickering in menus and in game and lights goes out alot",
+        "updatedAt": "2026-09-22",
+        "date": "2026-09-22",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 17 Pro Max",
+          "device": "iPhone 17",
           "platform": "ios",
-          "osVersion": "26.3",
+          "osVersion": "27.0",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "great",
-          "date": "2026-09-01",
-          "notes": "Haven’t tested Full game but all the menus work, the opening cutscene works, and gameplay works with fps around 15-25. The only 2 negatives about it right now is that some text is bugged like in the credits and when selecting guns and also some textures are bugged out",
+          "date": "2026-09-22",
+          "notes": "Their is flickering in menus and in game and lights goes out alot",
           "screenshots": [],
           "source": "github",
           "build": {
-            "buildId": "ios-self-built-2.0.1-9730-9730",
+            "buildId": "ios-self-built-2.0.1-9849",
             "channel": "self-built",
             "official": false,
-            "appVersion": "2.0.1-9730",
-            "buildNumber": "9730"
+            "appVersion": "2.0.1",
+            "buildNumber": "9849"
           }
         },
         "bestReport": {
-          "device": "iPhone 17 Pro Max",
+          "device": "iPhone 17",
           "platform": "ios",
-          "osVersion": "26.3",
+          "osVersion": "27.0",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "great",
-          "date": "2026-09-01",
-          "notes": "Haven’t tested Full game but all the menus work, the opening cutscene works, and gameplay works with fps around 15-25. The only 2 negatives about it right now is that some text is bugged like in the credits and when selecting guns and also some textures are bugged out",
+          "date": "2026-09-22",
+          "notes": "Their is flickering in menus and in game and lights goes out alot",
           "screenshots": [],
           "source": "github",
           "build": {
-            "buildId": "ios-self-built-2.0.1-9730-9730",
+            "buildId": "ios-self-built-2.0.1-9849",
             "channel": "self-built",
             "official": false,
-            "appVersion": "2.0.1-9730",
-            "buildNumber": "9730"
+            "appVersion": "2.0.1",
+            "buildNumber": "9849"
           }
         }
       }
