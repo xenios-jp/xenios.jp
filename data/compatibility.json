@@ -86644,6 +86644,8 @@
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-03-13",
+    "issueNumber": 245,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/245",
     "notes": "[Visuals]:\n - Vertical line in the middle of the screen sometimes appears for a split second.\n - Lighting bugs on either side of the screen divided by vertical line mentioned above, usually random, not specific to any spot or looking angle.\n - Buggy textures on FPS hands\n[Audio/Performance]:\n - Explosions, blood splatter, particles and/or volume/smoke may cause slight audio stuttering.\n - Performance drops depending on the environment, amount of enemies and presence of smoke/fog.\n\n[FPS Range After Loading Save]: 10-28\nNo crashes, managed to complete few missions.\n\nAudio for Cutscenes, Loading Screens, Intro, Logos on boot works fine.",
     "reports": [
       {

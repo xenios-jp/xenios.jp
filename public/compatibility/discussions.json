@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T09:15:37.091Z",
+  "generatedAt": "2026-09-22T22:56:43.201Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -4061,38 +4061,6 @@
           "createdAtMs": 1773517964000,
           "issueNumber": 263,
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
-          "images": [],
-          "meta": {}
-        }
-      ]
-    },
-    "4B4E085C": {
-      "titleId": "4B4E085C",
-      "issueNumber": 166,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/166",
-      "updatedAt": "2026-09-22",
-      "entries": [
-        {
-          "id": "issue-702",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/702",
-          "author": "musaib-ch",
-          "createdAt": "2026-09-22",
-          "createdAtMs": 1790068400000,
-          "issueNumber": 702,
-          "excerpt": "Their is flickering in menus and in game and lights goes out alot",
-          "images": [],
-          "meta": {}
-        },
-        {
-          "id": "issue-166",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/166",
-          "author": "vorosvskoyaylem",
-          "createdAt": "2026-03-10",
-          "createdAtMs": 1773147802000,
-          "issueNumber": 166,
-          "excerpt": "lights are missing text is bugged",
           "images": [],
           "meta": {}
         }
@@ -16358,6 +16326,40 @@
         }
       ]
     },
+    "565507D9": {
+      "titleId": "565507D9",
+      "issueNumber": 245,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/245",
+      "updatedAt": "2026-03-13",
+      "entries": [
+        {
+          "id": "issue-245",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/245",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-13",
+          "createdAtMs": 1773415479000,
+          "issueNumber": 245,
+          "excerpt": "[Visuals]:\n - Vertical line in the middle of the screen sometimes appears for a split second.\n - Lighting bugs on either side of the screen divided by vertical line mentioned above, usually random, not specific to any spot or looking angle.\n - Buggy textures on FPS hands\n[Audio/Performance]:\n - Explosions, blood splatter, particles and/or volume/smoke may cause slight audio stuttering.\n - Performance drops depending on the environment, amount of enemies and presence of smoke/fog.\n\n[FPS Range After Loading Save]: 10-28\nNo crashes, managed to complete few missions.\n\nAudio for Cutscenes, Loading Screens, Intro, Logos on boot works fine.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/565507D9/1773415475070-1.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 16 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9299",
+            "buildStage": "stable",
+            "commitShort": "`d8c101905`"
+          }
+        }
+      ]
+    },
     "545407E7": {
       "titleId": "545407E7",
       "issueNumber": 241,
@@ -17728,6 +17730,26 @@
             "buildStage": "stable",
             "commitShort": "`2633e8177`"
           }
+        }
+      ]
+    },
+    "4B4E085C": {
+      "titleId": "4B4E085C",
+      "issueNumber": 166,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/166",
+      "updatedAt": "2026-09-22",
+      "entries": [
+        {
+          "id": "issue-166",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/166",
+          "author": "vorosvskoyaylem",
+          "createdAt": "2026-03-10",
+          "createdAtMs": 1773147802000,
+          "issueNumber": 166,
+          "excerpt": "lights are missing text is bugged",
+          "images": [],
+          "meta": {}
         }
       ]
     },
