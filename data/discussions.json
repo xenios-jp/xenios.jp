@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T15:27:39.351Z",
+  "generatedAt": "2026-09-24T06:49:22.682Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -4626,8 +4626,32 @@
       "titleId": "545407F2",
       "issueNumber": 667,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/667",
-      "updatedAt": "2026-09-13",
+      "updatedAt": "2026-09-24",
       "entries": [
+        {
+          "id": "comment-5809189775",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/667#issuecomment-5809189775",
+          "author": "xenios-jp",
+          "createdAt": "2026-09-24",
+          "createdAtMs": 1790232372000,
+          "issueNumber": 667,
+          "excerpt": "App crashes immediately",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 16 Plus",
+            "platform": "iOS",
+            "osVersion": "iOS 26.6.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "buildStage": "stable",
+            "commitShort": "`57c3ca140`"
+          }
+        },
         {
           "id": "comment-5656560837",
           "type": "comment",
@@ -4728,30 +4752,6 @@
             "device": "iPad (A16)",
             "platform": "iOS",
             "osVersion": "iOS 27.0",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "buildStage": "stable",
-            "commitShort": "`57c3ca140`"
-          }
-        },
-        {
-          "id": "comment-5019313795",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/508#issuecomment-5019313795",
-          "author": "xenios-jp",
-          "createdAt": "2026-07-20",
-          "createdAtMs": 1784528147000,
-          "issueNumber": 508,
-          "excerpt": "Low frame rates in game",
-          "images": [],
-          "meta": {
-            "status": "playable",
-            "perf": "ok",
-            "device": "iPhone 16e",
-            "platform": "iOS",
-            "osVersion": "iOS 26.5.2",
             "gpuBackend": "MSL",
             "buildChannel": "self-built",
             "appVersion": "2.0.1",
