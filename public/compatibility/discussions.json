@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T06:49:22.682Z",
+  "generatedAt": "2026-09-28T14:38:54.935Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2497,7 +2497,7 @@
       "titleId": "53450848",
       "issueNumber": 12,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/12",
-      "updatedAt": "2026-04-12",
+      "updatedAt": "2026-09-28",
       "entries": [
         {
           "id": "comment-4233006277",
@@ -3828,6 +3828,38 @@
             "device": "iPhone 16",
             "platform": "iOS",
             "osVersion": "iOS 18.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "buildStage": "stable",
+            "commitShort": "`57c3ca140`"
+          }
+        }
+      ]
+    },
+    "58410957": {
+      "titleId": "58410957",
+      "issueNumber": 705,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/705",
+      "updatedAt": "2026-09-27",
+      "entries": [
+        {
+          "id": "issue-705",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/705",
+          "author": "xenios-jp",
+          "createdAt": "2026-09-27",
+          "createdAtMs": 1790512059000,
+          "issueNumber": 705,
+          "excerpt": "Good old game. Play with gamepad",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.6.2",
             "gpuBackend": "MSL",
             "buildChannel": "self-built",
             "appVersion": "2.0.1",

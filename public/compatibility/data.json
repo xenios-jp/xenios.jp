@@ -217797,23 +217797,43 @@
       "53458861"
     ],
     "status": "playable",
-    "perf": "great",
+    "perf": "ok",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 16",
+      "device": "iPhone 13 Pro Max",
       "platform": "ios",
-      "osVersion": "26.3.1",
+      "osVersion": "IOS 27",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-28",
+    "updatedAt": "2026-09-28",
     "issueNumber": 12,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/12",
-    "notes": "Sound isn’t bad FPS is great",
+    "notes": "Great fps, and great game!\n\n<img width=\"1389\" height=\"642\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/d65d7f23-9fbe-4da0-8d92-13e86dd86064\" />",
     "reports": [
+      {
+        "device": "iPhone 13 Pro Max",
+        "platform": "ios",
+        "osVersion": "IOS 27",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-09-28",
+        "notes": "Great fps, and great game!\n\n<img width=\"1389\" height=\"642\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/d65d7f23-9fbe-4da0-8d92-13e86dd86064\" />",
+        "screenshots": [],
+        "source": "github",
+        "build": {
+          "buildId": "ios-self-built-0.4.1-45",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "0.4.1",
+          "buildNumber": "45"
+        }
+      },
       {
         "device": "iPhone 16",
         "platform": "ios",
@@ -217966,53 +217986,49 @@
       "all": {
         "channel": "all",
         "status": "playable",
-        "perf": "great",
-        "notes": "Sound isn’t bad FPS is great",
-        "updatedAt": "2026-03-28",
-        "date": "2026-03-28",
-        "reportCount": 5,
+        "perf": "ok",
+        "notes": "Great fps, and great game!\n\n<img width=\"1389\" height=\"642\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/d65d7f23-9fbe-4da0-8d92-13e86dd86064\" />",
+        "updatedAt": "2026-09-28",
+        "date": "2026-09-28",
+        "reportCount": 6,
         "latestReport": {
-          "device": "iPhone 16",
+          "device": "iPhone 13 Pro Max",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "IOS 27",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
-          "perf": "great",
-          "date": "2026-03-28",
-          "notes": "Sound isn’t bad FPS is great",
+          "perf": "ok",
+          "date": "2026-09-28",
+          "notes": "Great fps, and great game!\n\n<img width=\"1389\" height=\"642\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/d65d7f23-9fbe-4da0-8d92-13e86dd86064\" />",
           "screenshots": [],
-          "source": "app",
+          "source": "github",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
+            "buildId": "ios-self-built-0.4.1-45",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d"
+            "appVersion": "0.4.1",
+            "buildNumber": "45"
           }
         },
         "bestReport": {
-          "device": "iPhone 16",
+          "device": "iPhone 13 Pro Max",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "IOS 27",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
-          "perf": "great",
-          "date": "2026-03-28",
-          "notes": "Sound isn’t bad FPS is great",
+          "perf": "ok",
+          "date": "2026-09-28",
+          "notes": "Great fps, and great game!\n\n<img width=\"1389\" height=\"642\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/d65d7f23-9fbe-4da0-8d92-13e86dd86064\" />",
           "screenshots": [],
-          "source": "app",
+          "source": "github",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
+            "buildId": "ios-self-built-0.4.1-45",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "stage": "stable",
-            "commitShort": "056d2f64d"
+            "appVersion": "0.4.1",
+            "buildNumber": "45"
           }
         }
       }
