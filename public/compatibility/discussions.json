@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T14:43:37.767Z",
+  "generatedAt": "2026-09-29T21:56:14.754Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -4098,6 +4098,146 @@
         }
       ]
     },
+    "545407F2": {
+      "titleId": "545407F2",
+      "issueNumber": 41,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/41",
+      "updatedAt": "2026-09-29",
+      "entries": [
+        {
+          "id": "comment-5809189775",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/667#issuecomment-5809189775",
+          "author": "xenios-jp",
+          "createdAt": "2026-09-24",
+          "createdAtMs": 1790232372000,
+          "issueNumber": 667,
+          "excerpt": "App crashes immediately",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 16 Plus",
+            "platform": "iOS",
+            "osVersion": "iOS 26.6.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "buildStage": "stable",
+            "commitShort": "`57c3ca140`"
+          }
+        },
+        {
+          "id": "comment-5656560837",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/667#issuecomment-5656560837",
+          "author": "xenios-jp",
+          "createdAt": "2026-09-13",
+          "createdAtMs": 1789338073000,
+          "issueNumber": 667,
+          "excerpt": "Loading intro on Vulkan with low performance, Metal crashes immediately",
+          "images": [],
+          "meta": {
+            "status": "intro",
+            "perf": "poor",
+            "device": "iPad Air 5",
+            "platform": "iOS",
+            "osVersion": "iOS 18.7.8",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "buildStage": "stable",
+            "commitShort": "`57c3ca140`"
+          }
+        },
+        {
+          "id": "comment-5522385384",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/667#issuecomment-5522385384",
+          "author": "xenios-jp",
+          "createdAt": "2026-09-03",
+          "createdAtMs": 1788421616000,
+          "issueNumber": 667,
+          "excerpt": "black screen :(",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPad (A16)",
+            "platform": "iOS",
+            "osVersion": "iOS 27.0",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "buildStage": "stable",
+            "commitShort": "`57c3ca140`"
+          }
+        },
+        {
+          "id": "issue-667",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/667",
+          "author": "xenios-jp",
+          "createdAt": "2026-08-18",
+          "createdAtMs": 1787051602000,
+          "issueNumber": 667,
+          "excerpt": "Black screen and down game",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 16 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 18.5",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "buildStage": "stable",
+            "commitShort": "`57c3ca140`"
+          }
+        },
+        {
+          "id": "comment-5262723865",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/41#issuecomment-5262723865",
+          "author": "udance4ever",
+          "createdAt": "2026-08-12",
+          "createdAtMs": 1786512231000,
+          "issueNumber": 41,
+          "excerpt": "Preview 2.0.1-9849 on 2020 M1 MacBookPro boots and gets in-game but with intermittent rendering issues\n\n<img width=\"1920\" height=\"1080\" alt=\"Image\" src=\" />\n\n<img width=\"1920\" height=\"1080\" alt=\"Image\" src=\" />",
+          "images": [],
+          "meta": {}
+        },
+        {
+          "id": "comment-5066368684",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/508#issuecomment-5066368684",
+          "author": "xenios-jp",
+          "createdAt": "2026-07-24",
+          "createdAtMs": 1784869813000,
+          "issueNumber": 508,
+          "excerpt": "Every time I play this game it just shows a black screen then after some time I just get kicked out the app and just crashes every time I don’t know how to fix it I watched tutorials but the game just keeps on crashing",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPad (A16)",
+            "platform": "iOS",
+            "osVersion": "iOS 27.0",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "buildStage": "stable",
+            "commitShort": "`57c3ca140`"
+          }
+        }
+      ]
+    },
     "575207D7": {
       "titleId": "575207D7",
       "issueNumber": 699,
@@ -4651,146 +4791,6 @@
           "excerpt": "Pre-rendered scenes for intro have graphical and audio issues.\nUpon clicking \"New Game\", opening screen only has graphical issues. \nWhen the game renders, assets take a second to load in. But, game speed is about half what it should be.",
           "images": [],
           "meta": {}
-        }
-      ]
-    },
-    "545407F2": {
-      "titleId": "545407F2",
-      "issueNumber": 667,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/667",
-      "updatedAt": "2026-09-24",
-      "entries": [
-        {
-          "id": "comment-5809189775",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/667#issuecomment-5809189775",
-          "author": "xenios-jp",
-          "createdAt": "2026-09-24",
-          "createdAtMs": 1790232372000,
-          "issueNumber": 667,
-          "excerpt": "App crashes immediately",
-          "images": [],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPhone 16 Plus",
-            "platform": "iOS",
-            "osVersion": "iOS 26.6.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "buildStage": "stable",
-            "commitShort": "`57c3ca140`"
-          }
-        },
-        {
-          "id": "comment-5656560837",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/667#issuecomment-5656560837",
-          "author": "xenios-jp",
-          "createdAt": "2026-09-13",
-          "createdAtMs": 1789338073000,
-          "issueNumber": 667,
-          "excerpt": "Loading intro on Vulkan with low performance, Metal crashes immediately",
-          "images": [],
-          "meta": {
-            "status": "intro",
-            "perf": "poor",
-            "device": "iPad Air 5",
-            "platform": "iOS",
-            "osVersion": "iOS 18.7.8",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "buildStage": "stable",
-            "commitShort": "`57c3ca140`"
-          }
-        },
-        {
-          "id": "comment-5522385384",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/667#issuecomment-5522385384",
-          "author": "xenios-jp",
-          "createdAt": "2026-09-03",
-          "createdAtMs": 1788421616000,
-          "issueNumber": 667,
-          "excerpt": "black screen :(",
-          "images": [],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPad (A16)",
-            "platform": "iOS",
-            "osVersion": "iOS 27.0",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "buildStage": "stable",
-            "commitShort": "`57c3ca140`"
-          }
-        },
-        {
-          "id": "issue-667",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/667",
-          "author": "xenios-jp",
-          "createdAt": "2026-08-18",
-          "createdAtMs": 1787051602000,
-          "issueNumber": 667,
-          "excerpt": "Black screen and down game",
-          "images": [],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPhone 16 Pro",
-            "platform": "iOS",
-            "osVersion": "iOS 18.5",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "buildStage": "stable",
-            "commitShort": "`57c3ca140`"
-          }
-        },
-        {
-          "id": "comment-5262723865",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/41#issuecomment-5262723865",
-          "author": "udance4ever",
-          "createdAt": "2026-08-12",
-          "createdAtMs": 1786512231000,
-          "issueNumber": 41,
-          "excerpt": "Preview 2.0.1-9849 on 2020 M1 MacBookPro boots and gets in-game but with intermittent rendering issues\n\n<img width=\"1920\" height=\"1080\" alt=\"Image\" src=\" />\n\n<img width=\"1920\" height=\"1080\" alt=\"Image\" src=\" />",
-          "images": [],
-          "meta": {}
-        },
-        {
-          "id": "comment-5066368684",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/508#issuecomment-5066368684",
-          "author": "xenios-jp",
-          "createdAt": "2026-07-24",
-          "createdAtMs": 1784869813000,
-          "issueNumber": 508,
-          "excerpt": "Every time I play this game it just shows a black screen then after some time I just get kicked out the app and just crashes every time I don’t know how to fix it I watched tutorials but the game just keeps on crashing",
-          "images": [],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPad (A16)",
-            "platform": "iOS",
-            "osVersion": "iOS 27.0",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "buildStage": "stable",
-            "commitShort": "`57c3ca140`"
-          }
         }
       ]
     },
@@ -13848,38 +13848,6 @@
             "device": "iPhone 13 Pro Max",
             "platform": "iOS",
             "osVersion": "iOS 18.6.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "buildStage": "stable",
-            "commitShort": "`056d2f64d`"
-          }
-        }
-      ]
-    },
-    "545408B2": {
-      "titleId": "545408B2",
-      "issueNumber": 363,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/363",
-      "updatedAt": "2026-03-25",
-      "entries": [
-        {
-          "id": "issue-363",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/363",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-25",
-          "createdAtMs": 1774456708000,
-          "issueNumber": 363,
-          "excerpt": "The game doesn’t show anything just a black screen",
-          "images": [],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPhone 16",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3.1",
             "gpuBackend": "MSL",
             "buildChannel": "self-built",
             "appVersion": "1.0.1",
