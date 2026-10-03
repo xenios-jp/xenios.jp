@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T08:12:01.372Z",
+  "generatedAt": "2026-10-03T13:32:53.914Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -4098,6 +4098,86 @@
         }
       ]
     },
+    "4D5308AB": {
+      "titleId": "4D5308AB",
+      "issueNumber": 87,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/87",
+      "updatedAt": "2026-10-03",
+      "entries": [
+        {
+          "id": "issue-708",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/708",
+          "author": "wpwwrtrpb7-coder",
+          "createdAt": "2026-10-03",
+          "createdAtMs": 1791034260000,
+          "issueNumber": 708,
+          "excerpt": "Merci",
+          "images": [],
+          "meta": {}
+        },
+        {
+          "id": "comment-4584704999",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/383#issuecomment-4584704999",
+          "author": "xenios-jp",
+          "createdAt": "2026-05-30",
+          "createdAtMs": 1780174298000,
+          "issueNumber": 383,
+          "excerpt": "Shaders looked wrong Marcus has a blue shade around him and emulation is really slow and audio is laggy",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "poor",
+            "device": "iPhone 17 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 26.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "buildStage": "stable",
+            "commitShort": "`056d2f64d`"
+          }
+        },
+        {
+          "id": "issue-383",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/383",
+          "author": "xenios-jp",
+          "createdAt": "2026-04-02",
+          "createdAtMs": 1775166065000,
+          "issueNumber": 383,
+          "excerpt": "crash",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 15",
+            "platform": "iOS",
+            "osVersion": "iOS 26.2",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "buildStage": "stable",
+            "commitShort": "`056d2f64d`"
+          }
+        },
+        {
+          "id": "issue-87",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/87",
+          "author": "sinceohsix",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1773003653000,
+          "issueNumber": 87,
+          "excerpt": "Audio in the intro sequence is heavily distorted and ear-piercingly loud, please be careful when opening the game.\n\nLike some other games, there are heavy graphical errors during intro sequences as well as during loading screens. The game froze quite a few times on the main menu before I was able to get into actual gameplay. During gameplay, performance is a *bit* sluggish with noticeable stutters here and there. The game performs much better in smaller areas and in HORDE mode from my testing. There are graphical glitches with the lighting and shadows, especially when paused.",
+          "images": [],
+          "meta": {}
+        }
+      ]
+    },
     "575207D7": {
       "titleId": "575207D7",
       "issueNumber": 699,
@@ -7251,42 +7331,6 @@
           "meta": {
             "status": "playable",
             "perf": "great",
-            "device": "iPhone 16",
-            "platform": "iOS",
-            "osVersion": "iOS 18.3.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "buildStage": "stable",
-            "commitShort": "`57c3ca140`"
-          }
-        }
-      ]
-    },
-    "584111E8": {
-      "titleId": "584111E8",
-      "issueNumber": 586,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/586",
-      "updatedAt": "2026-07-15",
-      "entries": [
-        {
-          "id": "issue-586",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/586",
-          "author": "xenios-jp",
-          "createdAt": "2026-07-15",
-          "createdAtMs": 1784089658000,
-          "issueNumber": 586,
-          "excerpt": "O jogo apenas abre nas intro de boa, mas depois disso ele fecha, não chega nem no menu. E sim, eu usei a atualização do jogo, mas fica fechando do mesmo jeito.",
-          "images": [
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584111E8/1784089652678-1.jpg",
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584111E8/1784089652678-2.jpg",
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584111E8/1784089652678-3.jpg"
-          ],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
             "device": "iPhone 16",
             "platform": "iOS",
             "osVersion": "iOS 18.3.1",
@@ -13253,74 +13297,6 @@
             "buildStage": "stable",
             "commitShort": "`ab2ca341a`"
           }
-        }
-      ]
-    },
-    "4D5308AB": {
-      "titleId": "4D5308AB",
-      "issueNumber": 383,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/383",
-      "updatedAt": "2026-05-30",
-      "entries": [
-        {
-          "id": "comment-4584704999",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/383#issuecomment-4584704999",
-          "author": "xenios-jp",
-          "createdAt": "2026-05-30",
-          "createdAtMs": 1780174298000,
-          "issueNumber": 383,
-          "excerpt": "Shaders looked wrong Marcus has a blue shade around him and emulation is really slow and audio is laggy",
-          "images": [],
-          "meta": {
-            "status": "playable",
-            "perf": "poor",
-            "device": "iPhone 17 Pro",
-            "platform": "iOS",
-            "osVersion": "iOS 26.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "buildStage": "stable",
-            "commitShort": "`056d2f64d`"
-          }
-        },
-        {
-          "id": "issue-383",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/383",
-          "author": "xenios-jp",
-          "createdAt": "2026-04-02",
-          "createdAtMs": 1775166065000,
-          "issueNumber": 383,
-          "excerpt": "crash",
-          "images": [],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPhone 15",
-            "platform": "iOS",
-            "osVersion": "iOS 26.2",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "buildStage": "stable",
-            "commitShort": "`056d2f64d`"
-          }
-        },
-        {
-          "id": "issue-87",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/87",
-          "author": "sinceohsix",
-          "createdAt": "2026-03-08",
-          "createdAtMs": 1773003653000,
-          "issueNumber": 87,
-          "excerpt": "Audio in the intro sequence is heavily distorted and ear-piercingly loud, please be careful when opening the game.\n\nLike some other games, there are heavy graphical errors during intro sequences as well as during loading screens. The game froze quite a few times on the main menu before I was able to get into actual gameplay. During gameplay, performance is a *bit* sluggish with noticeable stutters here and there. The game performs much better in smaller areas and in HORDE mode from my testing. There are graphical glitches with the lighting and shadows, especially when paused.",
-          "images": [],
-          "meta": {}
         }
       ]
     },
