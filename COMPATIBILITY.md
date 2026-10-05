@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **394 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **395 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **162** · 🔵 In-Game: **71** · 🟡 Intro: **36** · 🟠 Loads: **51** · 🔴 Doesn't Boot: **74**
+> 🟢 Playable: **162** · 🔵 In-Game: **71** · 🟡 Intro: **36** · 🟠 Loads: **51** · 🔴 Doesn't Boot: **75**
 >
-> 📱 iOS: **360** · 🖥️ macOS: **55**
+> 📱 iOS: **361** · 🖥️ macOS: **55**
 
 ## Legend
 
@@ -348,6 +348,7 @@
 | 🔴 | Assassin's Creed IV: Black Flag | `555308C2` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro Max | 2026-09-01 |
 | 🔴 | Backbreaker Vengeance | `58410B39` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 Pro Max | 2026-07-18 |
 | 🔴 | Blue Dragon | `4D5307DF` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone Air | 2026-08-13 |
+| 🔴 | Borderlands 2 | `5454087C` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 Pro Max | 2026-10-04 |
 | 🔴 | Call of Duty 3 | `415607E1` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-09 |
 | 🔴 | Call of Duty: Black Ops | `41560855` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 13 Pro | 2026-07-18 |
 | 🔴 | Call of Duty: Black Ops II | `415608C3` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 Pro Max | 2026-03-08 |
