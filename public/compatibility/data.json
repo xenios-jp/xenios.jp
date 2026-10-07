@@ -164283,17 +164283,39 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 14 Pro",
+      "device": "iPhone 14",
       "platform": "ios",
-      "osVersion": "26.1",
+      "osVersion": "27.0",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-04-14",
+    "updatedAt": "2026-10-06",
     "issueNumber": 416,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/416",
-    "notes": "Performance drops, audio issues, graphical glitches",
+    "notes": ".",
     "reports": [
+      {
+        "device": "iPhone 14",
+        "platform": "ios",
+        "osVersion": "27.0",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-10-06",
+        "notes": ".",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140"
+        }
+      },
       {
         "device": "iPhone 14 Pro",
         "platform": "ios",
@@ -164337,52 +164359,52 @@
         "channel": "all",
         "status": "playable",
         "perf": "ok",
-        "notes": "Performance drops, audio issues, graphical glitches",
-        "updatedAt": "2026-04-14",
-        "date": "2026-04-14",
-        "reportCount": 1,
+        "notes": ".",
+        "updatedAt": "2026-10-06",
+        "date": "2026-10-06",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 14 Pro",
+          "device": "iPhone 14",
           "platform": "ios",
-          "osVersion": "26.1",
+          "osVersion": "27.0",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "ok",
-          "date": "2026-04-14",
-          "notes": "Performance drops, audio issues, graphical glitches",
+          "date": "2026-10-06",
+          "notes": ".",
           "screenshots": [],
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
             "stage": "stable",
-            "commitShort": "056d2f64d"
+            "commitShort": "57c3ca140"
           }
         },
         "bestReport": {
-          "device": "iPhone 14 Pro",
+          "device": "iPhone 14",
           "platform": "ios",
-          "osVersion": "26.1",
+          "osVersion": "27.0",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "ok",
-          "date": "2026-04-14",
-          "notes": "Performance drops, audio issues, graphical glitches",
+          "date": "2026-10-06",
+          "notes": ".",
           "screenshots": [],
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.1-9288",
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
             "stage": "stable",
-            "commitShort": "056d2f64d"
+            "commitShort": "57c3ca140"
           }
         }
       }
