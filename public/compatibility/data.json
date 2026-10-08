@@ -142755,29 +142755,104 @@
         "perf": "ok",
         "date": "2026-10-08",
         "notes": "Game loads up well, has some minor fps drops 25-45 fps, sounds + music work great. Issues include: missing jersey numbers, black and whites, stutter drops, and rainbow field textures. \n\nIn gameplay: passing, running, kicking - smooth but little demanding when ball is snapped.\nCutscene: fps drops, no sudden changes\nPlayer models: Excellent\nSounds: No changes, excellent\nEverything else works great.",
-        "screenshots": [],
+        "reportedTitleId": "454109EB",
+        "reportedTitle": "Madden NFL 16",
+        "screenshots": [
+          "https://github.com/user-attachments/assets/9fc6abc5-2ac9-4977-b94d-4ae5469fbda3",
+          "https://github.com/user-attachments/assets/ce54afea-7ce6-456e-bb55-d2f6a5442304",
+          "https://github.com/user-attachments/assets/35dee5d6-af1c-4f0a-84aa-56f38b498aea",
+          "https://github.com/user-attachments/assets/7ddc33de-0a55-439a-b991-f59f9d54881b",
+          "https://github.com/user-attachments/assets/61544585-2cda-44b9-ae5e-5ea0f88c50bd",
+          "https://github.com/user-attachments/assets/5fba4b20-df1b-4a1e-afd0-68ff78e6d2b5"
+        ],
+        "submittedBy": "jayden-lgtm0826",
         "source": "github",
         "build": {
-          "buildId": "macos-self-built-2.0.1-9730",
-          "channel": "self-built",
-          "official": false,
+          "buildId": "macos-release-2.0.1-9730",
+          "channel": "release",
+          "official": true,
           "appVersion": "2.0.1",
           "buildNumber": "9730"
         }
       }
     ],
-    "screenshots": [],
+    "screenshots": [
+      "https://github.com/user-attachments/assets/9fc6abc5-2ac9-4977-b94d-4ae5469fbda3",
+      "https://github.com/user-attachments/assets/ce54afea-7ce6-456e-bb55-d2f6a5442304",
+      "https://github.com/user-attachments/assets/35dee5d6-af1c-4f0a-84aa-56f38b498aea",
+      "https://github.com/user-attachments/assets/7ddc33de-0a55-439a-b991-f59f9d54881b",
+      "https://github.com/user-attachments/assets/61544585-2cda-44b9-ae5e-5ea0f88c50bd",
+      "https://github.com/user-attachments/assets/5fba4b20-df1b-4a1e-afd0-68ff78e6d2b5"
+    ],
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "ingame",
+        "perf": "ok",
+        "notes": "Game loads up well, has some minor fps drops 25-45 fps, sounds + music work great. Issues include: missing jersey numbers, black and whites, stutter drops, and rainbow field textures. \n\nIn gameplay: passing, running, kicking - smooth but little demanding when ball is snapped.\nCutscene: fps drops, no sudden changes\nPlayer models: Excellent\nSounds: No changes, excellent\nEverything else works great.",
+        "updatedAt": "2026-10-08",
+        "date": "2026-10-08",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "Macbook Neo A18 Pro",
+          "platform": "macos",
+          "osVersion": "MAC OS 27.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "ok",
+          "date": "2026-10-08",
+          "notes": "Game loads up well, has some minor fps drops 25-45 fps, sounds + music work great. Issues include: missing jersey numbers, black and whites, stutter drops, and rainbow field textures. \n\nIn gameplay: passing, running, kicking - smooth but little demanding when ball is snapped.\nCutscene: fps drops, no sudden changes\nPlayer models: Excellent\nSounds: No changes, excellent\nEverything else works great.",
+          "reportedTitleId": "454109EB",
+          "reportedTitle": "Madden NFL 16",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/9fc6abc5-2ac9-4977-b94d-4ae5469fbda3",
+            "https://github.com/user-attachments/assets/ce54afea-7ce6-456e-bb55-d2f6a5442304",
+            "https://github.com/user-attachments/assets/35dee5d6-af1c-4f0a-84aa-56f38b498aea",
+            "https://github.com/user-attachments/assets/7ddc33de-0a55-439a-b991-f59f9d54881b",
+            "https://github.com/user-attachments/assets/61544585-2cda-44b9-ae5e-5ea0f88c50bd",
+            "https://github.com/user-attachments/assets/5fba4b20-df1b-4a1e-afd0-68ff78e6d2b5"
+          ],
+          "submittedBy": "jayden-lgtm0826",
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-2.0.1-9730",
+            "channel": "release",
+            "official": true,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730"
+          }
+        },
+        "bestReport": {
+          "device": "Macbook Neo A18 Pro",
+          "platform": "macos",
+          "osVersion": "MAC OS 27.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "ok",
+          "date": "2026-10-08",
+          "notes": "Game loads up well, has some minor fps drops 25-45 fps, sounds + music work great. Issues include: missing jersey numbers, black and whites, stutter drops, and rainbow field textures. \n\nIn gameplay: passing, running, kicking - smooth but little demanding when ball is snapped.\nCutscene: fps drops, no sudden changes\nPlayer models: Excellent\nSounds: No changes, excellent\nEverything else works great.",
+          "reportedTitleId": "454109EB",
+          "reportedTitle": "Madden NFL 16",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/9fc6abc5-2ac9-4977-b94d-4ae5469fbda3",
+            "https://github.com/user-attachments/assets/ce54afea-7ce6-456e-bb55-d2f6a5442304",
+            "https://github.com/user-attachments/assets/35dee5d6-af1c-4f0a-84aa-56f38b498aea",
+            "https://github.com/user-attachments/assets/7ddc33de-0a55-439a-b991-f59f9d54881b",
+            "https://github.com/user-attachments/assets/61544585-2cda-44b9-ae5e-5ea0f88c50bd",
+            "https://github.com/user-attachments/assets/5fba4b20-df1b-4a1e-afd0-68ff78e6d2b5"
+          ],
+          "submittedBy": "jayden-lgtm0826",
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-2.0.1-9730",
+            "channel": "release",
+            "official": true,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730"
+          }
+        }
       },
       "all": {
         "channel": "all",
@@ -142797,12 +142872,22 @@
           "perf": "ok",
           "date": "2026-10-08",
           "notes": "Game loads up well, has some minor fps drops 25-45 fps, sounds + music work great. Issues include: missing jersey numbers, black and whites, stutter drops, and rainbow field textures. \n\nIn gameplay: passing, running, kicking - smooth but little demanding when ball is snapped.\nCutscene: fps drops, no sudden changes\nPlayer models: Excellent\nSounds: No changes, excellent\nEverything else works great.",
-          "screenshots": [],
+          "reportedTitleId": "454109EB",
+          "reportedTitle": "Madden NFL 16",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/9fc6abc5-2ac9-4977-b94d-4ae5469fbda3",
+            "https://github.com/user-attachments/assets/ce54afea-7ce6-456e-bb55-d2f6a5442304",
+            "https://github.com/user-attachments/assets/35dee5d6-af1c-4f0a-84aa-56f38b498aea",
+            "https://github.com/user-attachments/assets/7ddc33de-0a55-439a-b991-f59f9d54881b",
+            "https://github.com/user-attachments/assets/61544585-2cda-44b9-ae5e-5ea0f88c50bd",
+            "https://github.com/user-attachments/assets/5fba4b20-df1b-4a1e-afd0-68ff78e6d2b5"
+          ],
+          "submittedBy": "jayden-lgtm0826",
           "source": "github",
           "build": {
-            "buildId": "macos-self-built-2.0.1-9730",
-            "channel": "self-built",
-            "official": false,
+            "buildId": "macos-release-2.0.1-9730",
+            "channel": "release",
+            "official": true,
             "appVersion": "2.0.1",
             "buildNumber": "9730"
           }
@@ -142817,12 +142902,22 @@
           "perf": "ok",
           "date": "2026-10-08",
           "notes": "Game loads up well, has some minor fps drops 25-45 fps, sounds + music work great. Issues include: missing jersey numbers, black and whites, stutter drops, and rainbow field textures. \n\nIn gameplay: passing, running, kicking - smooth but little demanding when ball is snapped.\nCutscene: fps drops, no sudden changes\nPlayer models: Excellent\nSounds: No changes, excellent\nEverything else works great.",
-          "screenshots": [],
+          "reportedTitleId": "454109EB",
+          "reportedTitle": "Madden NFL 16",
+          "screenshots": [
+            "https://github.com/user-attachments/assets/9fc6abc5-2ac9-4977-b94d-4ae5469fbda3",
+            "https://github.com/user-attachments/assets/ce54afea-7ce6-456e-bb55-d2f6a5442304",
+            "https://github.com/user-attachments/assets/35dee5d6-af1c-4f0a-84aa-56f38b498aea",
+            "https://github.com/user-attachments/assets/7ddc33de-0a55-439a-b991-f59f9d54881b",
+            "https://github.com/user-attachments/assets/61544585-2cda-44b9-ae5e-5ea0f88c50bd",
+            "https://github.com/user-attachments/assets/5fba4b20-df1b-4a1e-afd0-68ff78e6d2b5"
+          ],
+          "submittedBy": "jayden-lgtm0826",
           "source": "github",
           "build": {
-            "buildId": "macos-self-built-2.0.1-9730",
-            "channel": "self-built",
-            "official": false,
+            "buildId": "macos-release-2.0.1-9730",
+            "channel": "release",
+            "official": true,
             "appVersion": "2.0.1",
             "buildNumber": "9730"
           }
