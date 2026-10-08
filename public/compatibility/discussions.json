@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T17:07:13.911Z",
+  "generatedAt": "2026-10-08T17:20:49.921Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -135,8 +135,32 @@
       "titleId": "41560817",
       "issueNumber": 630,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/630",
-      "updatedAt": "2026-08-05",
+      "updatedAt": "2026-10-08",
       "entries": [
+        {
+          "id": "comment-6065221308",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/630#issuecomment-6065221308",
+          "author": "xenios-jp",
+          "createdAt": "2026-10-08",
+          "createdAtMs": 1791479793000,
+          "issueNumber": 630,
+          "excerpt": "Black screen",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone19,2",
+            "platform": "iOS",
+            "osVersion": "iOS 27.0.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "buildStage": "stable",
+            "commitShort": "`57c3ca140`"
+          }
+        },
         {
           "id": "issue-630",
           "type": "issue",
@@ -252,30 +276,6 @@
             "device": "iPad Pro 11-inch (M5)",
             "platform": "iOS",
             "osVersion": "iOS 26.4.2",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "buildStage": "stable",
-            "commitShort": "`056d2f64d`"
-          }
-        },
-        {
-          "id": "issue-351",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/351",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-24",
-          "createdAtMs": 1774323741000,
-          "issueNumber": 351,
-          "excerpt": "Doesn’t launch",
-          "images": [],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPhone 14 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 16.4.1",
             "gpuBackend": "MSL",
             "buildChannel": "self-built",
             "appVersion": "1.0.1",
