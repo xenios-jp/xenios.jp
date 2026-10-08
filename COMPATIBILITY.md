@@ -4,7 +4,7 @@
 >
 > 🟢 Playable: **162** · 🔵 In-Game: **72** · 🟡 Intro: **36** · 🟠 Loads: **51** · 🔴 Doesn't Boot: **75**
 >
-> 📱 iOS: **361** · 🖥️ macOS: **56**
+> 📱 iOS: **361** · 🖥️ macOS: **57**
 
 ## Legend
 
@@ -412,7 +412,7 @@
 | 🔴 | Tomb Raider | `53510802` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 15 Pro Max | 2026-03-12 |
 | 🔴 | Top Spin 4 | `54540859` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Pro 12.9-inch (M2) | 2026-06-24 |
 | 🔴 | WWE 2k14 | `545408B2` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 | 2026-03-25 |
-| 🔴 | WWE 2K15 | `545408B6` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro Max | 2026-03-11 |
+| 🔴 | WWE 2K15 | `545408B6` | 📱 iOS, 🖥️ macOS | Doesn't Boot | ➖ N/A | Macbook Neo A18 Pro | 2026-10-08 |
 | 🔴 | WWE 2K17 | `545408BA` | 🖥️ macOS | Doesn't Boot | ➖ N/A | MacBook Pro M1 | 2026-05-31 |
 | 🔴 | XBLA Unplugged | `4D5387FC` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 Pro Max | 2026-08-09 |
 | 🔴 | お姉チャンバラZ ～カグラ～ | `445007F4` | 🖥️ macOS | Doesn't Boot | ➖ N/A | MacBook Pro (M1) | 2026-04-12 |
