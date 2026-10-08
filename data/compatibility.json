@@ -112639,11 +112639,33 @@
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-08-26",
+    "updatedAt": "2026-10-08",
     "issueNumber": 42,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/42",
     "notes": "Textures sometime seem slow to load in but once they do plays fine.",
     "reports": [
+      {
+        "device": "iPhone19,2",
+        "platform": "ios",
+        "osVersion": "27.0.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-10-08",
+        "notes": "Doesn’t load, just black screen no audio or anything",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140"
+        }
+      },
       {
         "device": "iPad Pro 13-inch (M5)",
         "platform": "ios",
@@ -113027,19 +113049,19 @@
         "status": "playable",
         "perf": "ok",
         "notes": "Textures sometime seem slow to load in but once they do plays fine.",
-        "updatedAt": "2026-08-26",
-        "date": "2026-08-26",
-        "reportCount": 17,
+        "updatedAt": "2026-10-08",
+        "date": "2026-10-08",
+        "reportCount": 18,
         "latestReport": {
-          "device": "iPad Pro 13-inch (M5)",
+          "device": "iPhone19,2",
           "platform": "ios",
-          "osVersion": "26.5.2",
+          "osVersion": "27.0.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-08-26",
-          "notes": "Textures sometime seem slow to load in but once they do plays fine.",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-10-08",
+          "notes": "Doesn’t load, just black screen no audio or anything",
           "screenshots": [],
           "source": "app",
           "build": {
@@ -267708,8 +267730,8 @@
     "perf": "n/a",
     "tags": [],
     "platforms": [
-      "ios",
-      "macos"
+      "macos",
+      "ios"
     ],
     "lastReport": {
       "device": "Macbook Neo A18 Pro",

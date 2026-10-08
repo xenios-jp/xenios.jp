@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T17:36:28.007Z",
+  "generatedAt": "2026-10-08T18:35:07.829Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -4098,50 +4098,6 @@
         }
       ]
     },
-    "545408B6": {
-      "titleId": "545408B6",
-      "issueNumber": 189,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/189",
-      "updatedAt": "2026-10-08",
-      "entries": [
-        {
-          "id": "issue-715",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/715",
-          "author": "jayden-lgtm0826",
-          "createdAt": "2026-10-08",
-          "createdAtMs": 1791480830000,
-          "issueNumber": 715,
-          "excerpt": "Game shows black screen, and faint WWE logo on the bottom right.\n\nDoesn't load into any menus, nor have any visual/audio inputs.",
-          "images": [],
-          "meta": {}
-        },
-        {
-          "id": "issue-189",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/189",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-11",
-          "createdAtMs": 1773196816000,
-          "issueNumber": 189,
-          "excerpt": "Game won’t boot.",
-          "images": [],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPhone 16 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 26.2",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "buildStage": "stable",
-            "commitShort": "`2633e8177`"
-          }
-        }
-      ]
-    },
     "454109EB": {
       "titleId": "454109EB",
       "issueNumber": 714,
@@ -6135,8 +6091,32 @@
       "titleId": "4D5307E6",
       "issueNumber": 620,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/620",
-      "updatedAt": "2026-08-26",
+      "updatedAt": "2026-10-08",
       "entries": [
+        {
+          "id": "comment-6066486290",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/620#issuecomment-6066486290",
+          "author": "xenios-jp",
+          "createdAt": "2026-10-08",
+          "createdAtMs": 1791484278000,
+          "issueNumber": 620,
+          "excerpt": "Doesn’t load, just black screen no audio or anything",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone19,2",
+            "platform": "iOS",
+            "osVersion": "iOS 27.0.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "buildStage": "stable",
+            "commitShort": "`57c3ca140`"
+          }
+        },
         {
           "id": "comment-5425484709",
           "type": "comment",
@@ -6245,32 +6225,6 @@
             "buildNumber": "9299",
             "buildStage": "stable",
             "commitShort": "`d8c101905`"
-          }
-        },
-        {
-          "id": "issue-315",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/315",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-22",
-          "createdAtMs": 1774197365000,
-          "issueNumber": 315,
-          "excerpt": "To launch you do have to disable mount cache and you’ll need to know you way around because it doesn’t display words",
-          "images": [
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4D5307E6/1774197362457-1.jpg"
-          ],
-          "meta": {
-            "status": "playable",
-            "perf": "poor",
-            "device": "iPhone 16 Plus",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "buildStage": "stable",
-            "commitShort": "`056d2f64d`"
           }
         }
       ]
@@ -16387,6 +16341,54 @@
             "buildStage": "stable",
             "commitShort": "`056d2f64d`"
           }
+        },
+        {
+          "id": "comment-4058686120",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/142#issuecomment-4058686120",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-13",
+          "createdAtMs": 1773444579000,
+          "issueNumber": 142,
+          "excerpt": "Instant crash on boot after Metal shaders rendering",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 16 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 18.6.2",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "buildStage": "stable",
+            "commitShort": "`056d2f64d`"
+          }
+        },
+        {
+          "id": "issue-142",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/142",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-09",
+          "createdAtMs": 1773076405000,
+          "issueNumber": 142,
+          "excerpt": "Nothing",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 16 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 18.6.2",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "buildStage": "stable",
+            "commitShort": "`2633e8177`"
+          }
         }
       ]
     },
@@ -17353,6 +17355,38 @@
           "meta": {
             "status": "playable",
             "perf": "poor",
+            "device": "iPhone 16 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.2",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "buildStage": "stable",
+            "commitShort": "`2633e8177`"
+          }
+        }
+      ]
+    },
+    "545408B6": {
+      "titleId": "545408B6",
+      "issueNumber": 189,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/189",
+      "updatedAt": "2026-10-08",
+      "entries": [
+        {
+          "id": "issue-189",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/189",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-11",
+          "createdAtMs": 1773196816000,
+          "issueNumber": 189,
+          "excerpt": "Game won’t boot.",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
             "device": "iPhone 16 Pro Max",
             "platform": "iOS",
             "osVersion": "iOS 26.2",
