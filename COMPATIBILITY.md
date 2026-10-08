@@ -77,7 +77,7 @@
 | 🟢 | Fruit Ninja Kinect | `58410B79` | 📱 iOS | Playable | 🚀 Great | iPhone 15 | 2026-06-07 |
 | 🟢 | Gears of War | `4D5307D5` | 🖥️ macOS, 📱 iOS | Playable | 👌 OK | iPhone 16 Pro Max | 2026-06-23 |
 | 🟢 | Gears of War 2 | `4D53082D` | 📱 iOS | Playable | 👌 OK | iPhone 17 | 2026-05-21 |
-| 🟢 | Gears of War 3 | `4D5308AB` | 🖥️ macOS, 📱 iOS | Playable | 🚀 Great | iPhone 12 | 2026-10-03 |
+| 🟢 | Gears of War 3 | `4D5308AB` | 🖥️ macOS, 📱 iOS | Playable | 🐢 Poor | iPhone 17 Pro | 2026-05-30 |
 | 🟢 | Gears of War: Judgment | `4D530A26` | 📱 iOS | Playable | 🐢 Poor | iPhone 17 Pro Max | 2026-03-17 |
 | 🟢 | Geometry Wars Evolved | `584107ED` | 📱 iOS | Playable | 🚀 Great | iPhone 13 | 2026-03-10 |
 | 🟢 | GoldenEye: 007 Reloaded | `415608AF` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-05-09 |

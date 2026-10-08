@@ -42173,6 +42173,8 @@
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-10-04",
+    "issueNumber": 709,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/709",
     "notes": "Launches on black screen",
     "reports": [
       {
@@ -102492,45 +102494,24 @@
       "4D538A01"
     ],
     "status": "playable",
-    "perf": "great",
+    "perf": "poor",
     "tags": [],
     "platforms": [
       "macos",
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 12",
+      "device": "iPhone 17 Pro",
       "platform": "ios",
-      "osVersion": "26.6",
+      "osVersion": "26.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-10-03",
+    "updatedAt": "2026-05-30",
     "issueNumber": 87,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/87",
-    "notes": "Merci",
+    "notes": "Shaders looked wrong Marcus has a blue shade around him and emulation is really slow and audio is laggy",
     "reports": [
-      {
-        "device": "iPhone 12",
-        "platform": "ios",
-        "osVersion": "26.6",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "great",
-        "date": "2026-10-03",
-        "notes": "Merci",
-        "screenshots": [],
-        "source": "github",
-        "build": {
-          "buildId": "ios-self-built-2.0.a-10",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "2.0.a",
-          "buildNumber": "10",
-          "commitShort": "9730"
-        }
-      },
       {
         "device": "iPhone 17 Pro",
         "platform": "ios",
@@ -102615,51 +102596,53 @@
       "all": {
         "channel": "all",
         "status": "playable",
-        "perf": "great",
-        "notes": "Merci",
-        "updatedAt": "2026-10-03",
-        "date": "2026-10-03",
-        "reportCount": 4,
+        "perf": "poor",
+        "notes": "Shaders looked wrong Marcus has a blue shade around him and emulation is really slow and audio is laggy",
+        "updatedAt": "2026-05-30",
+        "date": "2026-05-30",
+        "reportCount": 3,
         "latestReport": {
-          "device": "iPhone 12",
+          "device": "iPhone 17 Pro",
           "platform": "ios",
-          "osVersion": "26.6",
+          "osVersion": "26.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
-          "perf": "great",
-          "date": "2026-10-03",
-          "notes": "Merci",
+          "perf": "poor",
+          "date": "2026-05-30",
+          "notes": "Shaders looked wrong Marcus has a blue shade around him and emulation is really slow and audio is laggy",
           "screenshots": [],
-          "source": "github",
+          "source": "app",
           "build": {
-            "buildId": "ios-self-built-2.0.a-10",
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
-            "appVersion": "2.0.a",
-            "buildNumber": "10",
-            "commitShort": "9730"
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "stage": "stable",
+            "commitShort": "056d2f64d"
           }
         },
         "bestReport": {
-          "device": "iPhone 12",
+          "device": "iPhone 17 Pro",
           "platform": "ios",
-          "osVersion": "26.6",
+          "osVersion": "26.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
-          "perf": "great",
-          "date": "2026-10-03",
-          "notes": "Merci",
+          "perf": "poor",
+          "date": "2026-05-30",
+          "notes": "Shaders looked wrong Marcus has a blue shade around him and emulation is really slow and audio is laggy",
           "screenshots": [],
-          "source": "github",
+          "source": "app",
           "build": {
-            "buildId": "ios-self-built-2.0.a-10",
+            "buildId": "ios-self-built-1.0.1-9288",
             "channel": "self-built",
             "official": false,
-            "appVersion": "2.0.a",
-            "buildNumber": "10",
-            "commitShort": "9730"
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "stage": "stable",
+            "commitShort": "056d2f64d"
           }
         }
       }
@@ -164290,8 +164273,8 @@
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-10-06",
-    "issueNumber": 416,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/416",
+    "issueNumber": 712,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/712",
     "notes": ".",
     "reports": [
       {
@@ -164314,28 +164297,6 @@
           "buildNumber": "9730",
           "stage": "stable",
           "commitShort": "57c3ca140"
-        }
-      },
-      {
-        "device": "iPhone 14 Pro",
-        "platform": "ios",
-        "osVersion": "26.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "ok",
-        "date": "2026-04-14",
-        "notes": "Performance drops, audio issues, graphical glitches",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d"
         }
       }
     ],
@@ -164362,7 +164323,7 @@
         "notes": ".",
         "updatedAt": "2026-10-06",
         "date": "2026-10-06",
-        "reportCount": 2,
+        "reportCount": 1,
         "latestReport": {
           "device": "iPhone 14",
           "platform": "ios",
@@ -226781,6 +226742,8 @@
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-07-15",
+    "issueNumber": 586,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/586",
     "notes": "O jogo apenas abre nas intro de boa, mas depois disso ele fecha, não chega nem no menu. E sim, eu usei a atualização do jogo, mas fica fechando do mesmo jeito.",
     "reports": [
       {
