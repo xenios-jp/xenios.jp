@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T15:31:24.943Z",
+  "generatedAt": "2026-10-08T17:02:53.071Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -4093,6 +4093,26 @@
           "createdAtMs": 1773517964000,
           "issueNumber": 263,
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
+          "images": [],
+          "meta": {}
+        }
+      ]
+    },
+    "454109EB": {
+      "titleId": "454109EB",
+      "issueNumber": 714,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/714",
+      "updatedAt": "2026-10-08",
+      "entries": [
+        {
+          "id": "issue-714",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/714",
+          "author": "jayden-lgtm0826",
+          "createdAt": "2026-10-08",
+          "createdAtMs": 1791478815000,
+          "issueNumber": 714,
+          "excerpt": "Game loads up well, has some minor fps drops 25-45 fps, sounds + music work great. Issues include: missing jersey numbers, black and whites, stutter drops, and rainbow field textures. \n\nIn gameplay: passing, running, kicking - smooth but little demanding when ball is snapped.\nCutscene: fps drops, no sudden changes\nPlayer models: Excellent\nSounds: No changes, excellent\nEverything else works great.",
           "images": [],
           "meta": {}
         }

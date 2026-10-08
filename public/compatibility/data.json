@@ -142727,14 +142727,45 @@
     "titleIds": [
       "454109EB"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "ingame",
+    "perf": "ok",
     "tags": [],
-    "platforms": [],
-    "lastReport": null,
-    "updatedAt": "",
-    "notes": "",
-    "reports": [],
+    "platforms": [
+      "macos"
+    ],
+    "lastReport": {
+      "device": "Macbook Neo A18 Pro",
+      "platform": "macos",
+      "osVersion": "MAC OS 27.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-10-08",
+    "issueNumber": 714,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/714",
+    "notes": "Game loads up well, has some minor fps drops 25-45 fps, sounds + music work great. Issues include: missing jersey numbers, black and whites, stutter drops, and rainbow field textures. \n\nIn gameplay: passing, running, kicking - smooth but little demanding when ball is snapped.\nCutscene: fps drops, no sudden changes\nPlayer models: Excellent\nSounds: No changes, excellent\nEverything else works great.",
+    "reports": [
+      {
+        "device": "Macbook Neo A18 Pro",
+        "platform": "macos",
+        "osVersion": "MAC OS 27.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "ok",
+        "date": "2026-10-08",
+        "notes": "Game loads up well, has some minor fps drops 25-45 fps, sounds + music work great. Issues include: missing jersey numbers, black and whites, stutter drops, and rainbow field textures. \n\nIn gameplay: passing, running, kicking - smooth but little demanding when ball is snapped.\nCutscene: fps drops, no sudden changes\nPlayer models: Excellent\nSounds: No changes, excellent\nEverything else works great.",
+        "screenshots": [],
+        "source": "github",
+        "build": {
+          "buildId": "macos-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730"
+        }
+      }
+    ],
     "screenshots": [],
     "summaries": {
       "release": {
@@ -142750,14 +142781,52 @@
       },
       "all": {
         "channel": "all",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "ingame",
+        "perf": "ok",
+        "notes": "Game loads up well, has some minor fps drops 25-45 fps, sounds + music work great. Issues include: missing jersey numbers, black and whites, stutter drops, and rainbow field textures. \n\nIn gameplay: passing, running, kicking - smooth but little demanding when ball is snapped.\nCutscene: fps drops, no sudden changes\nPlayer models: Excellent\nSounds: No changes, excellent\nEverything else works great.",
+        "updatedAt": "2026-10-08",
+        "date": "2026-10-08",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "Macbook Neo A18 Pro",
+          "platform": "macos",
+          "osVersion": "MAC OS 27.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "ok",
+          "date": "2026-10-08",
+          "notes": "Game loads up well, has some minor fps drops 25-45 fps, sounds + music work great. Issues include: missing jersey numbers, black and whites, stutter drops, and rainbow field textures. \n\nIn gameplay: passing, running, kicking - smooth but little demanding when ball is snapped.\nCutscene: fps drops, no sudden changes\nPlayer models: Excellent\nSounds: No changes, excellent\nEverything else works great.",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "buildId": "macos-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730"
+          }
+        },
+        "bestReport": {
+          "device": "Macbook Neo A18 Pro",
+          "platform": "macos",
+          "osVersion": "MAC OS 27.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "ok",
+          "date": "2026-10-08",
+          "notes": "Game loads up well, has some minor fps drops 25-45 fps, sounds + music work great. Issues include: missing jersey numbers, black and whites, stutter drops, and rainbow field textures. \n\nIn gameplay: passing, running, kicking - smooth but little demanding when ball is snapped.\nCutscene: fps drops, no sudden changes\nPlayer models: Excellent\nSounds: No changes, excellent\nEverything else works great.",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "buildId": "macos-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730"
+          }
+        }
       }
     }
   },
