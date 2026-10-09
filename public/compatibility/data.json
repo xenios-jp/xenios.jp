@@ -274932,17 +274932,39 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 14 Pro",
+      "device": "iPhone 16e",
       "platform": "ios",
-      "osVersion": "26.3.1",
+      "osVersion": "26.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-09-10",
+    "updatedAt": "2026-10-09",
     "issueNumber": 694,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/694",
-    "notes": "Loads, may need to press start and/or LT+RT, Seems fine so far.",
+    "notes": "Good work",
     "reports": [
+      {
+        "device": "iPhone 16e",
+        "platform": "ios",
+        "osVersion": "26.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-10-09",
+        "notes": "Good work",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140"
+        }
+      },
       {
         "device": "iPhone 14 Pro",
         "platform": "ios",
@@ -274966,7 +274988,9 @@
         }
       }
     ],
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584107EF/1791548879395-1.jpg"
+    ],
     "summaries": {
       "release": {
         "channel": "release",
@@ -274983,20 +275007,20 @@
         "channel": "all",
         "status": "playable",
         "perf": "great",
-        "notes": "Loads, may need to press start and/or LT+RT, Seems fine so far.",
-        "updatedAt": "2026-09-10",
-        "date": "2026-09-10",
-        "reportCount": 1,
+        "notes": "Good work",
+        "updatedAt": "2026-10-09",
+        "date": "2026-10-09",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 14 Pro",
+          "device": "iPhone 16e",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "26.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "great",
-          "date": "2026-09-10",
-          "notes": "Loads, may need to press start and/or LT+RT, Seems fine so far.",
+          "date": "2026-10-09",
+          "notes": "Good work",
           "screenshots": [],
           "source": "app",
           "build": {
@@ -275010,15 +275034,15 @@
           }
         },
         "bestReport": {
-          "device": "iPhone 14 Pro",
+          "device": "iPhone 16e",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "26.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "great",
-          "date": "2026-09-10",
-          "notes": "Loads, may need to press start and/or LT+RT, Seems fine so far.",
+          "date": "2026-10-09",
+          "notes": "Good work",
           "screenshots": [],
           "source": "app",
           "build": {

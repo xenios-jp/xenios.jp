@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T18:35:07.829Z",
+  "generatedAt": "2026-10-09T12:31:23.538Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -4317,8 +4317,34 @@
       "titleId": "584107EF",
       "issueNumber": 694,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/694",
-      "updatedAt": "2026-09-10",
+      "updatedAt": "2026-10-09",
       "entries": [
+        {
+          "id": "comment-6080880719",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/694#issuecomment-6080880719",
+          "author": "xenios-jp",
+          "createdAt": "2026-10-09",
+          "createdAtMs": 1791548886000,
+          "issueNumber": 694,
+          "excerpt": "Good work",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584107EF/1791548879395-1.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 16e",
+            "platform": "iOS",
+            "osVersion": "iOS 26.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "buildStage": "stable",
+            "commitShort": "`57c3ca140`"
+          }
+        },
         {
           "id": "issue-694",
           "type": "issue",
