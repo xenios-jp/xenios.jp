@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T02:56:39.496Z",
+  "generatedAt": "2026-10-10T03:50:01.314Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -11,8 +11,32 @@
       "titleId": "41560815",
       "issueNumber": 652,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/652",
-      "updatedAt": "2026-08-15",
+      "updatedAt": "2026-10-10",
       "entries": [
+        {
+          "id": "comment-6093445122",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/652#issuecomment-6093445122",
+          "author": "xenios-jp",
+          "createdAt": "2026-10-10",
+          "createdAtMs": 1791604009000,
+          "issueNumber": 652,
+          "excerpt": "Does not boot.",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 13 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.6.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "buildStage": "stable",
+            "commitShort": "`57c3ca140`"
+          }
+        },
         {
           "id": "comment-5302889494",
           "type": "comment",

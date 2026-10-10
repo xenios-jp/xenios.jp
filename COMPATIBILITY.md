@@ -397,7 +397,7 @@
 | 🔴 | SmackDown vs. RAW 2009 | `54510826` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad (A16) | 2026-03-16 |
 | 🔴 | Soulcalibur IV | `4E4D07E0` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-04-28 |
 | 🔴 | Spider-Man 3 | `415607E2` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 | 2026-07-10 |
-| 🔴 | Spider-Man: Web of Shadows | `41560815` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone Air | 2026-08-13 |
+| 🔴 | Spider-Man: Web of Shadows | `41560815` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 13 Pro Max | 2026-10-10 |
 | 🔴 | Split/Second | `425607E7` | 🖥️ macOS | Doesn't Boot | ➖ N/A | MacBook Pro (M1) | 2026-04-12 |
 | 🔴 | SpongeBob SquarePants: Underpants Slam | `5841089F` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Mini (A17 Pro) | 2026-03-15 |
 | 🔴 | Star Ocean: The Last Hope | `535107DD` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-03 |
