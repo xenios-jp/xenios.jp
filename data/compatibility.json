@@ -89914,15 +89914,52 @@
     "titleIds": [
       "464507E1"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "playable",
+    "perf": "ok",
     "tags": [],
-    "platforms": [],
-    "lastReport": null,
-    "updatedAt": "",
-    "notes": "",
-    "reports": [],
-    "screenshots": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 16e",
+      "platform": "ios",
+      "osVersion": "26.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-10-09",
+    "issueNumber": 717,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/717",
+    "notes": "The game is going well, but the textures start to flicker and microfreezes when playing. Over time, if you do nothing, everything returns to normal.",
+    "reports": [
+      {
+        "device": "iPhone 16e",
+        "platform": "ios",
+        "osVersion": "26.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-10-09",
+        "notes": "The game is going well, but the textures start to flicker and microfreezes when playing. Over time, if you do nothing, everything returns to normal.",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140"
+        }
+      }
+    ],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/464507E1/1791553027888-1.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/464507E1/1791553027888-2.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/464507E1/1791553027888-3.jpg"
+    ],
     "summaries": {
       "release": {
         "channel": "release",
@@ -89937,14 +89974,56 @@
       },
       "all": {
         "channel": "all",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "playable",
+        "perf": "ok",
+        "notes": "The game is going well, but the textures start to flicker and microfreezes when playing. Over time, if you do nothing, everything returns to normal.",
+        "updatedAt": "2026-10-09",
+        "date": "2026-10-09",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 16e",
+          "platform": "ios",
+          "osVersion": "26.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-10-09",
+          "notes": "The game is going well, but the textures start to flicker and microfreezes when playing. Over time, if you do nothing, everything returns to normal.",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 16e",
+          "platform": "ios",
+          "osVersion": "26.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-10-09",
+          "notes": "The game is going well, but the textures start to flicker and microfreezes when playing. Over time, if you do nothing, everything returns to normal.",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
+          }
+        }
       }
     }
   },

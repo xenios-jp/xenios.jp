@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T12:31:23.538Z",
+  "generatedAt": "2026-10-10T02:56:39.496Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -4098,6 +4098,42 @@
         }
       ]
     },
+    "464507E1": {
+      "titleId": "464507E1",
+      "issueNumber": 717,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/717",
+      "updatedAt": "2026-10-09",
+      "entries": [
+        {
+          "id": "issue-717",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/717",
+          "author": "xenios-jp",
+          "createdAt": "2026-10-09",
+          "createdAtMs": 1791553037000,
+          "issueNumber": 717,
+          "excerpt": "The game is going well, but the textures start to flicker and microfreezes when playing. Over time, if you do nothing, everything returns to normal.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/464507E1/1791553027888-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/464507E1/1791553027888-2.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/464507E1/1791553027888-3.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 16e",
+            "platform": "iOS",
+            "osVersion": "iOS 26.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "buildStage": "stable",
+            "commitShort": "`57c3ca140`"
+          }
+        }
+      ]
+    },
     "454109EB": {
       "titleId": "454109EB",
       "issueNumber": 714,
@@ -5029,8 +5065,20 @@
       "titleId": "545408A7",
       "issueNumber": 663,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/663",
-      "updatedAt": "2026-09-13",
+      "updatedAt": "2026-10-10",
       "entries": [
+        {
+          "id": "comment-6093020347",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/663#issuecomment-6093020347",
+          "author": "parrajoserey4-cell",
+          "createdAt": "2026-10-10",
+          "createdAtMs": 1791600830000,
+          "issueNumber": 663,
+          "excerpt": "Mmm",
+          "images": [],
+          "meta": {}
+        },
         {
           "id": "comment-5652715325",
           "type": "comment",
@@ -5147,30 +5195,6 @@
             "device": "iPhone12,1",
             "platform": "iOS",
             "osVersion": "iOS 26.2.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "buildStage": "stable",
-            "commitShort": "`57c3ca140`"
-          }
-        },
-        {
-          "id": "issue-663",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/663",
-          "author": "xenios-jp",
-          "createdAt": "2026-08-16",
-          "createdAtMs": 1786858842000,
-          "issueNumber": 663,
-          "excerpt": "Nothing do",
-          "images": [],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPhone 16e",
-            "platform": "iOS",
-            "osVersion": "iOS 26.6",
             "gpuBackend": "MSL",
             "buildChannel": "self-built",
             "appVersion": "2.0.1",
