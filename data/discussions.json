@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T03:50:01.314Z",
+  "generatedAt": "2026-10-11T01:07:40.697Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -5087,10 +5087,22 @@
     },
     "545408A7": {
       "titleId": "545408A7",
-      "issueNumber": 663,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/663",
-      "updatedAt": "2026-10-10",
+      "issueNumber": 369,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/369",
+      "updatedAt": "2026-10-11",
       "entries": [
+        {
+          "id": "comment-6104025731",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/369#issuecomment-6104025731",
+          "author": "parrajoserey4-cell",
+          "createdAt": "2026-10-11",
+          "createdAtMs": 1791680678000,
+          "issueNumber": 369,
+          "excerpt": "Bbhy",
+          "images": [],
+          "meta": {}
+        },
         {
           "id": "comment-6093020347",
           "type": "comment",
@@ -5193,32 +5205,6 @@
             "device": "iPhone 16",
             "platform": "iOS",
             "osVersion": "iOS 26.5",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "buildStage": "stable",
-            "commitShort": "`57c3ca140`"
-          }
-        },
-        {
-          "id": "comment-5321284171",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/663#issuecomment-5321284171",
-          "author": "xenios-jp",
-          "createdAt": "2026-08-17",
-          "createdAtMs": 1787008017000,
-          "issueNumber": 663,
-          "excerpt": "I don’t know what’s the problem",
-          "images": [
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/545408A7/1787008012244-1.jpg"
-          ],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPhone12,1",
-            "platform": "iOS",
-            "osVersion": "iOS 26.2.1",
             "gpuBackend": "MSL",
             "buildChannel": "self-built",
             "appVersion": "2.0.1",
