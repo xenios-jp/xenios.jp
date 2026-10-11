@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T01:07:40.697Z",
+  "generatedAt": "2026-10-11T23:00:01.388Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -4122,6 +4122,124 @@
         }
       ]
     },
+    "534307E2": {
+      "titleId": "534307E2",
+      "issueNumber": 720,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/720",
+      "updatedAt": "2026-10-11",
+      "entries": [
+        {
+          "id": "issue-720",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/720",
+          "author": "xenios-jp",
+          "createdAt": "2026-10-11",
+          "createdAtMs": 1791719558000,
+          "issueNumber": 720,
+          "excerpt": "Crashes upon starting up. Even with increased ram and StikDebug enabled, there is nothing but a black screen.",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 12 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.2",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "buildStage": "stable",
+            "commitShort": "`57c3ca140`"
+          }
+        }
+      ]
+    },
+    "434307DD": {
+      "titleId": "434307DD",
+      "issueNumber": 719,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/719",
+      "updatedAt": "2026-10-11",
+      "entries": [
+        {
+          "id": "issue-719",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/719",
+          "author": "xenios-jp",
+          "createdAt": "2026-10-11",
+          "createdAtMs": 1791697599000,
+          "issueNumber": 719,
+          "excerpt": "- Some “minor” graphical glitches.\n- unlocking FPS messes up with the frame pacing.\n- Audio cuts out in some cutscenes.\n- Lock FPS to 30 for a consistent frame pacing.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/434307DD/1791697591244-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/434307DD/1791697591244-2.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/434307DD/1791697591244-3.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPad Pro 12.9-inch (M2)",
+            "platform": "iOS",
+            "osVersion": "iOS 26.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "0",
+            "commitShort": "`2f888db75`"
+          }
+        }
+      ]
+    },
+    "4B4D07F5": {
+      "titleId": "4B4D07F5",
+      "issueNumber": 718,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/718",
+      "updatedAt": "2026-10-11",
+      "entries": [
+        {
+          "id": "issue-718",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/718",
+          "author": "xenios-jp",
+          "createdAt": "2026-10-11",
+          "createdAtMs": 1791696225000,
+          "issueNumber": 718,
+          "excerpt": "10-30FPS",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPad Pro 12.9-inch (M2)",
+            "platform": "iOS",
+            "osVersion": "iOS 26.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "0",
+            "commitShort": "`2f888db75`"
+          }
+        },
+        {
+          "id": "issue-39",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/39",
+          "author": "xenios-jp",
+          "createdAt": "2026-02-28",
+          "createdAtMs": 1772289253000,
+          "issueNumber": 39,
+          "excerpt": "Playable in game with ok-ish framerate on M4 Pro, significant occlusion issues",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "ok",
+            "device": "MacBook Pro M4 Pro/Max",
+            "platform": "macOS",
+            "osVersion": "macOS 26.3",
+            "gpuBackend": "MSC",
+            "submittedBy": "reality111"
+          }
+        }
+      ]
+    },
     "464507E1": {
       "titleId": "464507E1",
       "issueNumber": 717,
@@ -4901,10 +5019,34 @@
     },
     "545407F2": {
       "titleId": "545407F2",
-      "issueNumber": 41,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/41",
-      "updatedAt": "2026-09-29",
+      "issueNumber": 667,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/667",
+      "updatedAt": "2026-10-11",
       "entries": [
+        {
+          "id": "comment-6114832051",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/667#issuecomment-6114832051",
+          "author": "xenios-jp",
+          "createdAt": "2026-10-11",
+          "createdAtMs": 1791759381000,
+          "issueNumber": 667,
+          "excerpt": "Black screen, app crashes after about a minute",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 27.0",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "buildStage": "stable",
+            "commitShort": "`57c3ca140`"
+          }
+        },
         {
           "id": "comment-5809189775",
           "type": "comment",
@@ -5012,30 +5154,6 @@
           "excerpt": "Preview 2.0.1-9849 on 2020 M1 MacBookPro boots and gets in-game but with intermittent rendering issues\n\n<img width=\"1920\" height=\"1080\" alt=\"Image\" src=\" />\n\n<img width=\"1920\" height=\"1080\" alt=\"Image\" src=\" />",
           "images": [],
           "meta": {}
-        },
-        {
-          "id": "comment-5066368684",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/508#issuecomment-5066368684",
-          "author": "xenios-jp",
-          "createdAt": "2026-07-24",
-          "createdAtMs": 1784869813000,
-          "issueNumber": 508,
-          "excerpt": "Every time I play this game it just shows a black screen then after some time I just get kicked out the app and just crashes every time I don’t know how to fix it I watched tutorials but the game just keeps on crashing",
-          "images": [],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPad (A16)",
-            "platform": "iOS",
-            "osVersion": "iOS 27.0",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "buildStage": "stable",
-            "commitShort": "`57c3ca140`"
-          }
         }
       ]
     },
@@ -19888,34 +20006,6 @@
             "platform": "iOS",
             "osVersion": "iOS 26.3",
             "gpuBackend": "MSL"
-          }
-        }
-      ]
-    },
-    "4B4D07F5": {
-      "titleId": "4B4D07F5",
-      "issueNumber": 39,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/39",
-      "updatedAt": "2026-03-07",
-      "entries": [
-        {
-          "id": "issue-39",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/39",
-          "author": "xenios-jp",
-          "createdAt": "2026-02-28",
-          "createdAtMs": 1772289253000,
-          "issueNumber": 39,
-          "excerpt": "Playable in game with ok-ish framerate on M4 Pro, significant occlusion issues",
-          "images": [],
-          "meta": {
-            "status": "ingame",
-            "perf": "ok",
-            "device": "MacBook Pro M4 Pro/Max",
-            "platform": "macOS",
-            "osVersion": "macOS 26.3",
-            "gpuBackend": "MSC",
-            "submittedBy": "reality111"
           }
         }
       ]

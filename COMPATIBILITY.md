@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **398 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **399 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **165** · 🔵 In-Game: **71** · 🟡 Intro: **36** · 🟠 Loads: **51** · 🔴 Doesn't Boot: **75**
+> 🟢 Playable: **165** · 🔵 In-Game: **71** · 🟡 Intro: **36** · 🟠 Loads: **51** · 🔴 Doesn't Boot: **76**
 >
-> 📱 iOS: **364** · 🖥️ macOS: **57**
+> 📱 iOS: **365** · 🖥️ macOS: **57**
 
 ## Legend
 
@@ -211,7 +211,7 @@
 | 🔵 | Forza Horizon | `4D5309C9` | 📱 iOS | In-Game | 🐢 Poor | iPhone 15 Pro Max | 2026-07-02 |
 | 🔵 | Frontlines: Fuel of War | `545107D8` | 🖥️ macOS | In-Game | 🐢 Poor | Macbook Neo A18 Pro | 2026-03-19 |
 | 🔵 | Geometry Wars Evolved² | `584108FF` | 🖥️ macOS | In-Game | 🐢 Poor | MacBook Pro (M1) | 2026-04-12 |
-| 🔵 | Grand Theft Auto IV | `545407F2` | 📱 iOS, 🖥️ macOS | In-Game | 🐢 Poor | iPhone 17 Pro Max | 2026-09-24 |
+| 🔵 | Grand Theft Auto IV | `545407F2` | 📱 iOS, 🖥️ macOS | In-Game | 🐢 Poor | iPhone 17 Pro Max | 2026-10-11 |
 | 🔵 | Grand Theft Auto V | `545408A7` | 📱 iOS | In-Game | 🐢 Poor | iPhone 16 | 2026-09-13 |
 | 🔵 | Guitar Hero 5 | `41560840` | 📱 iOS | In-Game | 🐢 Poor | iPhone 13 mini | 2026-03-22 |
 | 🔵 | Guitar Hero Metallica | `41560830` | 📱 iOS, 🖥️ macOS | In-Game | 🐢 Poor | iPhone 13 mini | 2026-03-22 |
@@ -350,6 +350,7 @@
 | 🔴 | Assassin's Creed III | `555308AE` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 Pro Max | 2026-04-10 |
 | 🔴 | Assassin's Creed IV: Black Flag | `555308C2` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro Max | 2026-09-01 |
 | 🔴 | Backbreaker Vengeance | `58410B39` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 Pro Max | 2026-07-18 |
+| 🔴 | Bionicle Heroes | `534307E2` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 12 Pro Max | 2026-10-11 |
 | 🔴 | Blue Dragon | `4D5307DF` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone Air | 2026-08-13 |
 | 🔴 | Borderlands 2 | `5454087C` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 Pro Max | 2026-10-04 |
 | 🔴 | Call of Duty 3 | `415607E1` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-09 |

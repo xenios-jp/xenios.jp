@@ -35399,6 +35399,8 @@
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-10-11",
+    "issueNumber": 719,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/719",
     "notes": "- Some “minor” graphical glitches.\n- unlocking FPS messes up with the frame pacing.\n- Audio cuts out in some cutscenes.\n- Lock FPS to 30 for a consistent frame pacing.",
     "reports": [
       {
@@ -35586,11 +35588,44 @@
     "status": "nothing",
     "perf": "n/a",
     "tags": [],
-    "platforms": [],
-    "lastReport": null,
-    "updatedAt": "",
-    "notes": "",
-    "reports": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 12 Pro Max",
+      "platform": "ios",
+      "osVersion": "26.2",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-10-11",
+    "issueNumber": 720,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/720",
+    "notes": "Crashes upon starting up.  Even with increased ram and StikDebug enabled, there is nothing but a black screen.",
+    "reports": [
+      {
+        "device": "iPhone 12 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-10-11",
+        "notes": "Crashes upon starting up.  Even with increased ram and StikDebug enabled, there is nothing but a black screen.",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140"
+        }
+      }
+    ],
     "screenshots": [],
     "summaries": {
       "release": {
@@ -35606,14 +35641,56 @@
       },
       "all": {
         "channel": "all",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "nothing",
+        "perf": "n/a",
+        "notes": "Crashes upon starting up.  Even with increased ram and StikDebug enabled, there is nothing but a black screen.",
+        "updatedAt": "2026-10-11",
+        "date": "2026-10-11",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 12 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.2",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-10-11",
+          "notes": "Crashes upon starting up.  Even with increased ram and StikDebug enabled, there is nothing but a black screen.",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 12 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.2",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-10-11",
+          "notes": "Crashes upon starting up.  Even with increased ram and StikDebug enabled, there is nothing but a black screen.",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
+          }
+        }
       }
     }
   },
@@ -107234,11 +107311,33 @@
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-09-24",
+    "updatedAt": "2026-10-11",
     "issueNumber": 41,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/41",
     "notes": "Game boots, menu navigation works. Infinite loading screen for first mission.",
     "reports": [
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "27.0",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-10-11",
+        "notes": "Black screen, app crashes after about a minute",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140"
+        }
+      },
       {
         "device": "iPhone 16 Plus",
         "platform": "ios",
@@ -107516,19 +107615,19 @@
         "status": "ingame",
         "perf": "poor",
         "notes": "Game boots, menu navigation works. Infinite loading screen for first mission.",
-        "updatedAt": "2026-09-24",
-        "date": "2026-09-24",
-        "reportCount": 10,
+        "updatedAt": "2026-10-11",
+        "date": "2026-10-11",
+        "reportCount": 11,
         "latestReport": {
-          "device": "iPhone 16 Plus",
+          "device": "iPhone 17 Pro Max",
           "platform": "ios",
-          "osVersion": "26.6.1",
+          "osVersion": "27.0",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "nothing",
           "perf": "n/a",
-          "date": "2026-09-24",
-          "notes": "App crashes immediately",
+          "date": "2026-10-11",
+          "notes": "Black screen, app crashes after about a minute",
           "screenshots": [],
           "source": "app",
           "build": {
