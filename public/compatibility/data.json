@@ -35385,15 +35385,49 @@
     "titleIds": [
       "434307DD"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
-    "platforms": [],
-    "lastReport": null,
-    "updatedAt": "",
-    "notes": "",
-    "reports": [],
-    "screenshots": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPad Pro 12.9-inch (M2)",
+      "platform": "ios",
+      "osVersion": "26.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-10-11",
+    "notes": "- Some “minor” graphical glitches.\n- unlocking FPS messes up with the frame pacing.\n- Audio cuts out in some cutscenes.\n- Lock FPS to 30 for a consistent frame pacing.",
+    "reports": [
+      {
+        "device": "iPad Pro 12.9-inch (M2)",
+        "platform": "ios",
+        "osVersion": "26.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-10-11",
+        "notes": "- Some “minor” graphical glitches.\n- unlocking FPS messes up with the frame pacing.\n- Audio cuts out in some cutscenes.\n- Lock FPS to 30 for a consistent frame pacing.",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.0-0",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "0",
+          "commitShort": "2f888db75"
+        }
+      }
+    ],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/434307DD/1791697591244-1.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/434307DD/1791697591244-2.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/434307DD/1791697591244-3.jpg"
+    ],
     "summaries": {
       "release": {
         "channel": "release",
@@ -35408,14 +35442,54 @@
       },
       "all": {
         "channel": "all",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "playable",
+        "perf": "great",
+        "notes": "- Some “minor” graphical glitches.\n- unlocking FPS messes up with the frame pacing.\n- Audio cuts out in some cutscenes.\n- Lock FPS to 30 for a consistent frame pacing.",
+        "updatedAt": "2026-10-11",
+        "date": "2026-10-11",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPad Pro 12.9-inch (M2)",
+          "platform": "ios",
+          "osVersion": "26.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-10-11",
+          "notes": "- Some “minor” graphical glitches.\n- unlocking FPS messes up with the frame pacing.\n- Audio cuts out in some cutscenes.\n- Lock FPS to 30 for a consistent frame pacing.",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.0-0",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "0",
+            "commitShort": "2f888db75"
+          }
+        },
+        "bestReport": {
+          "device": "iPad Pro 12.9-inch (M2)",
+          "platform": "ios",
+          "osVersion": "26.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-10-11",
+          "notes": "- Some “minor” graphical glitches.\n- unlocking FPS messes up with the frame pacing.\n- Audio cuts out in some cutscenes.\n- Lock FPS to 30 for a consistent frame pacing.",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.0-0",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "0",
+            "commitShort": "2f888db75"
+          }
+        }
       }
     }
   },
@@ -151022,24 +151096,46 @@
       "5451089E",
       "574607D6"
     ],
-    "status": "ingame",
+    "status": "playable",
     "perf": "ok",
     "tags": [],
     "platforms": [
-      "macos"
+      "macos",
+      "ios"
     ],
     "lastReport": {
-      "device": "MacBook Pro M4 Pro/Max",
-      "platform": "macos",
-      "osVersion": "26.3",
+      "device": "iPad Pro 12.9-inch (M2)",
+      "platform": "ios",
+      "osVersion": "26.1",
       "arch": "arm64",
-      "gpuBackend": "msc"
+      "gpuBackend": "msl"
     },
-    "updatedAt": "2026-02-28",
+    "updatedAt": "2026-10-11",
     "issueNumber": 39,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/39",
-    "notes": "Playable in game with ok-ish framerate on M4 Pro, significant occlusion issues",
+    "notes": "10-30FPS",
     "reports": [
+      {
+        "device": "iPad Pro 12.9-inch (M2)",
+        "platform": "ios",
+        "osVersion": "26.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-10-11",
+        "notes": "10-30FPS",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.0-0",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "0",
+          "commitShort": "2f888db75"
+        }
+      },
       {
         "device": "MacBook Pro M4 Pro/Max",
         "platform": "macos",
@@ -151102,43 +151198,53 @@
       },
       "all": {
         "channel": "all",
-        "status": "ingame",
+        "status": "playable",
         "perf": "ok",
-        "notes": "Playable in game with ok-ish framerate on M4 Pro, significant occlusion issues",
-        "updatedAt": "2026-02-28",
-        "date": "2026-02-28",
-        "reportCount": 1,
+        "notes": "10-30FPS",
+        "updatedAt": "2026-10-11",
+        "date": "2026-10-11",
+        "reportCount": 2,
         "latestReport": {
-          "device": "MacBook Pro M4 Pro/Max",
-          "platform": "macos",
-          "osVersion": "26.3",
+          "device": "iPad Pro 12.9-inch (M2)",
+          "platform": "ios",
+          "osVersion": "26.1",
           "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "ingame",
+          "gpuBackend": "msl",
+          "status": "playable",
           "perf": "ok",
-          "date": "2026-02-28",
-          "notes": "Playable in game with ok-ish framerate on M4 Pro, significant occlusion issues",
-          "reportedTitleId": "4B4D07F5",
-          "reportedTitle": "Metro: Last Light",
+          "date": "2026-10-11",
+          "notes": "10-30FPS",
           "screenshots": [],
-          "submittedBy": "reality111",
-          "source": "discord"
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.0-0",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "0",
+            "commitShort": "2f888db75"
+          }
         },
         "bestReport": {
-          "device": "MacBook Pro M4 Pro/Max",
-          "platform": "macos",
-          "osVersion": "26.3",
+          "device": "iPad Pro 12.9-inch (M2)",
+          "platform": "ios",
+          "osVersion": "26.1",
           "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "ingame",
+          "gpuBackend": "msl",
+          "status": "playable",
           "perf": "ok",
-          "date": "2026-02-28",
-          "notes": "Playable in game with ok-ish framerate on M4 Pro, significant occlusion issues",
-          "reportedTitleId": "4B4D07F5",
-          "reportedTitle": "Metro: Last Light",
+          "date": "2026-10-11",
+          "notes": "10-30FPS",
           "screenshots": [],
-          "submittedBy": "reality111",
-          "source": "discord"
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-1.0.0-0",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "1.0.0",
+            "buildNumber": "0",
+            "commitShort": "2f888db75"
+          }
         }
       }
     }

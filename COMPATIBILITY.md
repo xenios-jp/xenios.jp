@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **397 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **398 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **163** · 🔵 In-Game: **72** · 🟡 Intro: **36** · 🟠 Loads: **51** · 🔴 Doesn't Boot: **75**
+> 🟢 Playable: **165** · 🔵 In-Game: **71** · 🟡 Intro: **36** · 🟠 Loads: **51** · 🔴 Doesn't Boot: **75**
 >
-> 📱 iOS: **362** · 🖥️ macOS: **57**
+> 📱 iOS: **364** · 🖥️ macOS: **57**
 
 ## Legend
 
@@ -33,6 +33,7 @@
 | 🟢 | Batman: Arkham Asylum GOTY | `5343080B` | 📱 iOS | Playable | 👌 OK | iPhone 15 Pro | 2026-03-08 |
 | 🟢 | BattleBlock Theater | `58410A30` | 📱 iOS | Playable | 🚀 Great | iPhone 13 | 2026-03-10 |
 | 🟢 | Ben 10 Ultimate Alien Cosmic Destruction | `445007F7` | 📱 iOS | Playable | 🚀 Great | iPhone 17 | 2026-07-16 |
+| 🟢 | Bionic Commando | `434307DD` | 📱 iOS | Playable | 🚀 Great | iPad Pro 12.9-inch (M2) | 2026-10-11 |
 | 🟢 | Bioshock | `545407D8` | 📱 iOS | Playable | 🚀 Great | iPad Pro 13-inch (M4) | 2026-06-22 |
 | 🟢 | Bomberman Battlefest | `584109B2` | 📱 iOS | Playable | 🐢 Poor | iPhone 15 | 2026-03-25 |
 | 🟢 | Bomberman Live | `5841083F` | 📱 iOS | Playable | 🚀 Great | iPhone 15 | 2026-06-07 |
@@ -108,6 +109,7 @@
 | 🟢 | METAL GEAR SOLID PEACE WALKER HD EDITION | `4B4E083C` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Plus | 2026-03-18 |
 | 🟢 | Metal Gear Solid V: Ground Zeroes | `4B4E085C` | 📱 iOS | Playable | 🚀 Great | iPhone 17 | 2026-09-22 |
 | 🟢 | Metal Slug 3 | `584108CF` | 📱 iOS | Playable | 🚀 Great | iPhone 15 | 2026-06-07 |
+| 🟢 | Metro Last Light | `4B4D07F5` | 🖥️ macOS, 📱 iOS | Playable | 👌 OK | iPad Pro 12.9-inch (M2) | 2026-10-11 |
 | 🟢 | Minecraft: Xbox 360 Edition | `4D530A81` | 📱 iOS | Playable | 👌 OK | iPhone 14 Pro Max | 2026-05-05 |
 | 🟢 | MINI NINJAS™ (demo) | `53438806` | 📱 iOS | Playable | 👌 OK | iPhone 16 | 2026-07-15 |
 | 🟢 | Mirror's Edge | `45410850` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro | 2026-07-03 |
@@ -223,7 +225,6 @@
 | 🔵 | Madden NFL 16 | `454109EB` | 🖥️ macOS | In-Game | 👌 OK | Macbook Neo A18 Pro | 2026-10-08 |
 | 🔵 | Mercenaries 2: World in Flames | `45410828` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro | 2026-03-09 |
 | 🔵 | Metal Gear Solid V: The Phantom Pain | `4B4E085E` | 📱 iOS | In-Game | 🐢 Poor | iPad Pro M4 | 2026-06-25 |
-| 🔵 | Metro Last Light | `4B4D07F5` | 🖥️ macOS | In-Game | 👌 OK | MacBook Pro M4 Pro/Max | 2026-02-28 |
 | 🔵 | Middle Earth: Shadow of Mordor | `5752082C` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro Max | 2026-06-12 |
 | 🔵 | MS.PAC-MAN | `58410837` | 📱 iOS | In-Game | 🚀 Great | iPhone 16 | 2026-07-15 |
 | 🔵 | NBA 2K11 | `5454087A` | 📱 iOS | In-Game | 👌 OK | iPhone 16e | 2026-03-10 |
