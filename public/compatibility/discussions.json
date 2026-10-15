@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T23:00:01.388Z",
+  "generatedAt": "2026-10-15T14:49:49.524Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -4117,6 +4117,26 @@
           "createdAtMs": 1773517964000,
           "issueNumber": 263,
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
+          "images": [],
+          "meta": {}
+        }
+      ]
+    },
+    "4156090C": {
+      "titleId": "4156090C",
+      "issueNumber": 721,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/721",
+      "updatedAt": "2026-10-15",
+      "entries": [
+        {
+          "id": "issue-721",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/721",
+          "author": "omarcosaraujodeoliveira-dot",
+          "createdAt": "2026-10-15",
+          "createdAtMs": 1792075624000,
+          "issueNumber": 721,
+          "excerpt": "Rodou cravado a 60 fps",
           "images": [],
           "meta": {}
         }

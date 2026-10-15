@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **399 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **400 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **165** · 🔵 In-Game: **71** · 🟡 Intro: **36** · 🟠 Loads: **51** · 🔴 Doesn't Boot: **76**
+> 🟢 Playable: **166** · 🔵 In-Game: **71** · 🟡 Intro: **36** · 🟠 Loads: **51** · 🔴 Doesn't Boot: **76**
 >
-> 📱 iOS: **365** · 🖥️ macOS: **57**
+> 📱 iOS: **366** · 🖥️ macOS: **57**
 
 ## Legend
 
@@ -163,6 +163,7 @@
 | 🟢 | STREET FIGHTER X TEKKEN | `4343080F` | 📱 iOS | Playable | 🐢 Poor | iPhone 16 Pro Max | 2026-03-11 |
 | 🟢 | Super Street Fighter 2 THD | `584108A4` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-06-25 |
 | 🟢 | Superman Returns | `454107ED` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-08-15 |
+| 🟢 | Teenage Mutant Ninja Turtles Danger of the Ooze | `4156090C` | 📱 iOS | Playable | 🚀 Great | iPhone 15 Pro Max | 2026-10-15 |
 | 🟢 | Tenchu Z | `465307D7` | 📱 iOS | Playable | 🚀 Great | 17 Pro | 2026-08-29 |
 | 🟢 | Test Drive Unlimited | `494707D4` | 📱 iOS | Playable | 👌 OK | iPhone 17 Pro Max | 2026-03-27 |
 | 🟢 | The Elder Scrolls 4: Oblivion - Game of the Year Edition | `425307D1` | 📱 iOS | Playable | 👌 OK | iPhone 14 Plus | 2026-03-22 |
