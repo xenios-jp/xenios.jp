@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T11:25:19.332Z",
+  "generatedAt": "2026-10-19T09:23:18.247Z",
   "totalProjects": 4,
   "contributors": [
     {
@@ -1531,6 +1531,24 @@
       ]
     },
     {
+      "id": "user:ecredes",
+      "displayName": "Ecredes",
+      "profileUrl": "https://github.com/Ecredes",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/38989481?v=4",
+      "projects": [
+        "xenia-canary"
+      ]
+    },
+    {
+      "id": "user:jtm-rootstorm",
+      "displayName": "JTM-rootstorm",
+      "profileUrl": "https://github.com/JTM-rootstorm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4054751?v=4",
+      "projects": [
+        "xenia-canary"
+      ]
+    },
+    {
       "id": "user:luismasp89",
       "displayName": "LuismaSP89",
       "profileUrl": "https://github.com/LuismaSP89",
@@ -1546,6 +1564,15 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/263785354?v=4",
       "projects": [
         "xenia-edge"
+      ]
+    },
+    {
+      "id": "user:ryantimjohn",
+      "displayName": "ryantimjohn",
+      "profileUrl": "https://github.com/ryantimjohn",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/16624855?v=4",
+      "projects": [
+        "xenia-canary"
       ]
     }
   ],
