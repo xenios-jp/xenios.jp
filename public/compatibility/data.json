@@ -107311,11 +107311,33 @@
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-10-11",
+    "updatedAt": "2026-10-25",
     "issueNumber": 41,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/41",
     "notes": "Game boots, menu navigation works. Infinite loading screen for first mission.",
     "reports": [
+      {
+        "device": "iPhone11,2",
+        "platform": "ios",
+        "osVersion": "18.7.10",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-10-25",
+        "notes": "My game doesn’t load but I have an iPhone XS",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-1.0.0-9280",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "1.0.0",
+          "buildNumber": "9280",
+          "stage": "stable",
+          "commitShort": "2633e8177"
+        }
+      },
       {
         "device": "iPhone 17 Pro Max",
         "platform": "ios",
@@ -107615,29 +107637,29 @@
         "status": "ingame",
         "perf": "poor",
         "notes": "Game boots, menu navigation works. Infinite loading screen for first mission.",
-        "updatedAt": "2026-10-11",
-        "date": "2026-10-11",
-        "reportCount": 11,
+        "updatedAt": "2026-10-25",
+        "date": "2026-10-25",
+        "reportCount": 12,
         "latestReport": {
-          "device": "iPhone 17 Pro Max",
+          "device": "iPhone11,2",
           "platform": "ios",
-          "osVersion": "27.0",
+          "osVersion": "18.7.10",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "nothing",
           "perf": "n/a",
-          "date": "2026-10-11",
-          "notes": "Black screen, app crashes after about a minute",
+          "date": "2026-10-25",
+          "notes": "My game doesn’t load but I have an iPhone XS",
           "screenshots": [],
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-2.0.1-9730",
+            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
             "stage": "stable",
-            "commitShort": "57c3ca140"
+            "commitShort": "2633e8177"
           }
         },
         "bestReport": {
@@ -135174,8 +135196,8 @@
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-10-25",
-    "issueNumber": 543,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/543",
+    "issueNumber": 722,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/722",
     "notes": "It seems the in game texts like selecting a mode or slelecting ANYTHING is super blurry and cant read at all. Also i still have no sound after alot of troubleshooting still cant figure out why but game runs perfectly other than that",
     "reports": [
       {
@@ -135188,50 +135210,6 @@
         "perf": "great",
         "date": "2026-10-25",
         "notes": "It seems the in game texts like selecting a mode or slelecting ANYTHING is super blurry and cant read at all. Also i still have no sound after alot of troubleshooting still cant figure out why but game runs perfectly other than that",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-2.0.1-9730",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "stage": "stable",
-          "commitShort": "57c3ca140"
-        }
-      },
-      {
-        "device": "iPhone 16",
-        "platform": "ios",
-        "osVersion": "18.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "intro",
-        "perf": "great",
-        "date": "2026-07-15",
-        "notes": "O JOGO ABRE, mas quando aparece a tela de carregamento o emulador fecha ou fica na tela de carregamento, carregando sem parar(LOADING INFINITO)😔",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-2.0.1-9730",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "stage": "stable",
-          "commitShort": "57c3ca140"
-        }
-      },
-      {
-        "device": "iPhone 15 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.5",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "intro",
-        "perf": "great",
-        "date": "2026-06-22",
-        "notes": "Game stucks on loading screen cinematic runs perfect",
         "screenshots": [],
         "source": "app",
         "build": {
@@ -135271,7 +135249,7 @@
         "notes": "It seems the in game texts like selecting a mode or slelecting ANYTHING is super blurry and cant read at all. Also i still have no sound after alot of troubleshooting still cant figure out why but game runs perfectly other than that",
         "updatedAt": "2026-10-25",
         "date": "2026-10-25",
-        "reportCount": 3,
+        "reportCount": 1,
         "latestReport": {
           "device": "iPhone 15",
           "platform": "ios",
@@ -235307,7 +235285,7 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 15 Pro Max",
+      "device": "iPhone 15 pro max",
       "platform": "ios",
       "osVersion": "iOS 27.0",
       "arch": "arm64",
@@ -235319,7 +235297,7 @@
     "notes": "Rodou cravado a 60 fps",
     "reports": [
       {
-        "device": "iPhone 15 Pro Max",
+        "device": "iPhone 15 pro max",
         "platform": "ios",
         "osVersion": "iOS 27.0",
         "arch": "arm64",
@@ -235328,12 +235306,15 @@
         "perf": "great",
         "date": "2026-10-15",
         "notes": "Rodou cravado a 60 fps",
+        "reportedTitleId": "4156090C",
+        "reportedTitle": "Teenage Mutant Ninja Turtles: Danger of the Ooze",
         "screenshots": [],
+        "submittedBy": "omarcosaraujodeoliveira-dot",
         "source": "github",
         "build": {
-          "buildId": "ios-self-built-2.0.1-9730-45",
-          "channel": "self-built",
-          "official": false,
+          "buildId": "ios-release-2.0.1-9730-45",
+          "channel": "release",
+          "official": true,
           "appVersion": "2.0.1-9730",
           "buildNumber": "45"
         }
@@ -235343,14 +235324,58 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "playable",
+        "perf": "great",
+        "notes": "Rodou cravado a 60 fps",
+        "updatedAt": "2026-10-15",
+        "date": "2026-10-15",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 15 pro max",
+          "platform": "ios",
+          "osVersion": "iOS 27.0",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-10-15",
+          "notes": "Rodou cravado a 60 fps",
+          "reportedTitleId": "4156090C",
+          "reportedTitle": "Teenage Mutant Ninja Turtles: Danger of the Ooze",
+          "screenshots": [],
+          "submittedBy": "omarcosaraujodeoliveira-dot",
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-2.0.1-9730-45",
+            "channel": "release",
+            "official": true,
+            "appVersion": "2.0.1-9730",
+            "buildNumber": "45"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 15 pro max",
+          "platform": "ios",
+          "osVersion": "iOS 27.0",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-10-15",
+          "notes": "Rodou cravado a 60 fps",
+          "reportedTitleId": "4156090C",
+          "reportedTitle": "Teenage Mutant Ninja Turtles: Danger of the Ooze",
+          "screenshots": [],
+          "submittedBy": "omarcosaraujodeoliveira-dot",
+          "source": "github",
+          "build": {
+            "buildId": "ios-release-2.0.1-9730-45",
+            "channel": "release",
+            "official": true,
+            "appVersion": "2.0.1-9730",
+            "buildNumber": "45"
+          }
+        }
       },
       "all": {
         "channel": "all",
@@ -235361,7 +235386,7 @@
         "date": "2026-10-15",
         "reportCount": 1,
         "latestReport": {
-          "device": "iPhone 15 Pro Max",
+          "device": "iPhone 15 pro max",
           "platform": "ios",
           "osVersion": "iOS 27.0",
           "arch": "arm64",
@@ -235370,18 +235395,21 @@
           "perf": "great",
           "date": "2026-10-15",
           "notes": "Rodou cravado a 60 fps",
+          "reportedTitleId": "4156090C",
+          "reportedTitle": "Teenage Mutant Ninja Turtles: Danger of the Ooze",
           "screenshots": [],
+          "submittedBy": "omarcosaraujodeoliveira-dot",
           "source": "github",
           "build": {
-            "buildId": "ios-self-built-2.0.1-9730-45",
-            "channel": "self-built",
-            "official": false,
+            "buildId": "ios-release-2.0.1-9730-45",
+            "channel": "release",
+            "official": true,
             "appVersion": "2.0.1-9730",
             "buildNumber": "45"
           }
         },
         "bestReport": {
-          "device": "iPhone 15 Pro Max",
+          "device": "iPhone 15 pro max",
           "platform": "ios",
           "osVersion": "iOS 27.0",
           "arch": "arm64",
@@ -235390,12 +235418,15 @@
           "perf": "great",
           "date": "2026-10-15",
           "notes": "Rodou cravado a 60 fps",
+          "reportedTitleId": "4156090C",
+          "reportedTitle": "Teenage Mutant Ninja Turtles: Danger of the Ooze",
           "screenshots": [],
+          "submittedBy": "omarcosaraujodeoliveira-dot",
           "source": "github",
           "build": {
-            "buildId": "ios-self-built-2.0.1-9730-45",
-            "channel": "self-built",
-            "official": false,
+            "buildId": "ios-release-2.0.1-9730-45",
+            "channel": "release",
+            "official": true,
             "appVersion": "2.0.1-9730",
             "buildNumber": "45"
           }

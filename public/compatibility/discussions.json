@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T14:49:49.524Z",
+  "generatedAt": "2026-10-25T10:03:40.302Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -4122,6 +4122,116 @@
         }
       ]
     },
+    "454108D4": {
+      "titleId": "454108D4",
+      "issueNumber": 722,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/722",
+      "updatedAt": "2026-10-25",
+      "entries": [
+        {
+          "id": "issue-722",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/722",
+          "author": "xenios-jp",
+          "createdAt": "2026-10-25",
+          "createdAtMs": 1792893089000,
+          "issueNumber": 722,
+          "excerpt": "It seems the in game texts like selecting a mode or slelecting ANYTHING is super blurry and cant read at all. Also i still have no sound after alot of troubleshooting still cant figure out why but game runs perfectly other than that",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 15",
+            "platform": "iOS",
+            "osVersion": "iOS 26.5",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "buildStage": "stable",
+            "commitShort": "`57c3ca140`"
+          }
+        },
+        {
+          "id": "comment-4978130402",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/543#issuecomment-4978130402",
+          "author": "xenios-jp",
+          "createdAt": "2026-07-15",
+          "createdAtMs": 1784101678000,
+          "issueNumber": 543,
+          "excerpt": "O JOGO ABRE, mas quando aparece a tela de carregamento o emulador fecha ou fica na tela de carregamento, carregando sem parar(LOADING INFINITO)😔",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454108D4/1784101670474-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454108D4/1784101670474-2.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454108D4/1784101670474-3.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454108D4/1784101670474-4.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454108D4/1784101670474-5.jpg"
+          ],
+          "meta": {
+            "status": "intro",
+            "perf": "great",
+            "device": "iPhone 16",
+            "platform": "iOS",
+            "osVersion": "iOS 18.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "buildStage": "stable",
+            "commitShort": "`57c3ca140`"
+          }
+        },
+        {
+          "id": "issue-543",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/543",
+          "author": "xenios-jp",
+          "createdAt": "2026-06-22",
+          "createdAtMs": 1782106925000,
+          "issueNumber": 543,
+          "excerpt": "Game stucks on loading screen cinematic runs perfect",
+          "images": [],
+          "meta": {
+            "status": "intro",
+            "perf": "great",
+            "device": "iPhone 15 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.5",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "buildStage": "stable",
+            "commitShort": "`57c3ca140`"
+          }
+        },
+        {
+          "id": "issue-246",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/246",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-13",
+          "createdAtMs": 1773417204000,
+          "issueNumber": 246,
+          "excerpt": "Not playable yet on iPad Air 4th Gen",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPad Air 4",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9299",
+            "buildStage": "stable",
+            "commitShort": "`d8c101905`"
+          }
+        }
+      ]
+    },
     "4156090C": {
       "titleId": "4156090C",
       "issueNumber": 721,
@@ -5041,8 +5151,32 @@
       "titleId": "545407F2",
       "issueNumber": 667,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/667",
-      "updatedAt": "2026-10-11",
+      "updatedAt": "2026-10-25",
       "entries": [
+        {
+          "id": "comment-6396245285",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/667#issuecomment-6396245285",
+          "author": "xenios-jp",
+          "createdAt": "2026-10-25",
+          "createdAtMs": 1792922440000,
+          "issueNumber": 667,
+          "excerpt": "My game doesn’t load but I have an iPhone XS",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone11,2",
+            "platform": "iOS",
+            "osVersion": "iOS 18.7.10",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "buildStage": "stable",
+            "commitShort": "`2633e8177`"
+          }
+        },
         {
           "id": "comment-6114832051",
           "type": "comment",
@@ -5162,18 +5296,6 @@
             "buildStage": "stable",
             "commitShort": "`57c3ca140`"
           }
-        },
-        {
-          "id": "comment-5262723865",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/41#issuecomment-5262723865",
-          "author": "udance4ever",
-          "createdAt": "2026-08-12",
-          "createdAtMs": 1786512231000,
-          "issueNumber": 41,
-          "excerpt": "Preview 2.0.1-9849 on 2020 M1 MacBookPro boots and gets in-game but with intermittent rendering issues\n\n<img width=\"1920\" height=\"1080\" alt=\"Image\" src=\" />\n\n<img width=\"1920\" height=\"1080\" alt=\"Image\" src=\" />",
-          "images": [],
-          "meta": {}
         }
       ]
     },
@@ -8921,92 +9043,6 @@
             "osVersion": "macOS 26.3",
             "gpuBackend": "MSC",
             "submittedBy": "reality111"
-          }
-        }
-      ]
-    },
-    "454108D4": {
-      "titleId": "454108D4",
-      "issueNumber": 543,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/543",
-      "updatedAt": "2026-07-15",
-      "entries": [
-        {
-          "id": "comment-4978130402",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/543#issuecomment-4978130402",
-          "author": "xenios-jp",
-          "createdAt": "2026-07-15",
-          "createdAtMs": 1784101678000,
-          "issueNumber": 543,
-          "excerpt": "O JOGO ABRE, mas quando aparece a tela de carregamento o emulador fecha ou fica na tela de carregamento, carregando sem parar(LOADING INFINITO)😔",
-          "images": [
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454108D4/1784101670474-1.jpg",
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454108D4/1784101670474-2.jpg",
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454108D4/1784101670474-3.jpg",
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454108D4/1784101670474-4.jpg",
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454108D4/1784101670474-5.jpg"
-          ],
-          "meta": {
-            "status": "intro",
-            "perf": "great",
-            "device": "iPhone 16",
-            "platform": "iOS",
-            "osVersion": "iOS 18.3.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "buildStage": "stable",
-            "commitShort": "`57c3ca140`"
-          }
-        },
-        {
-          "id": "issue-543",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/543",
-          "author": "xenios-jp",
-          "createdAt": "2026-06-22",
-          "createdAtMs": 1782106925000,
-          "issueNumber": 543,
-          "excerpt": "Game stucks on loading screen cinematic runs perfect",
-          "images": [],
-          "meta": {
-            "status": "intro",
-            "perf": "great",
-            "device": "iPhone 15 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 26.5",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "buildStage": "stable",
-            "commitShort": "`57c3ca140`"
-          }
-        },
-        {
-          "id": "issue-246",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/246",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-13",
-          "createdAtMs": 1773417204000,
-          "issueNumber": 246,
-          "excerpt": "Not playable yet on iPad Air 4th Gen",
-          "images": [],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPad Air 4",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9299",
-            "buildStage": "stable",
-            "commitShort": "`d8c101905`"
           }
         }
       ]
