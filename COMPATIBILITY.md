@@ -2,7 +2,7 @@
 
 > **400 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **166** · 🔵 In-Game: **71** · 🟡 Intro: **36** · 🟠 Loads: **51** · 🔴 Doesn't Boot: **76**
+> 🟢 Playable: **167** · 🔵 In-Game: **71** · 🟡 Intro: **35** · 🟠 Loads: **51** · 🔴 Doesn't Boot: **76**
 >
 > 📱 iOS: **366** · 🖥️ macOS: **57**
 
@@ -94,6 +94,7 @@
 | 🟢 | Hitman: Absolution | `53510804` | 📱 iOS | Playable | 🚀 Great | iPad Pro 12.9-inch (M2) | 2026-03-18 |
 | 🟢 | Injustice: Gods Among Us | `57520829` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-08-11 |
 | 🟢 | Just Cause 2 | `534307E7` | 📱 iOS | Playable | 🐢 Poor | iPhone 17 Pro | 2026-03-09 |
+| 🟢 | Left 4 Dead 2 | `454108D4` | 📱 iOS | Playable | 🚀 Great | iPhone 15 | 2026-10-25 |
 | 🟢 | Lego Harry Potter Years 1-4 | `575207E6` | 📱 iOS | Playable | 🐢 Poor | iPhone 13 | 2026-03-14 |
 | 🟢 | LEGO Indiana Jones | `4C4107DF` | 📱 iOS | Playable | 🚀 Great | iPad16,8 | 2026-07-16 |
 | 🟢 | Lego Indiana Jones 2 | `4C4107ED` | 📱 iOS | Playable | 👌 OK | iPhone 14 | 2026-03-16 |
@@ -270,7 +271,6 @@
 | 🟡 | Halo 4 | `4D530919` | 📱 iOS | Intro | 🐢 Poor | iPad Pro 12.9-inch (M2) | 2026-03-10 |
 | 🟡 | Halo Wars | `4D530808` | 📱 iOS | Intro | 👌 OK | iPhone 17 | 2026-03-03 |
 | 🟡 | Left 4 Dead | `45410830` | 📱 iOS | Intro | 🐢 Poor | iPhone 14 Pro Max | 2026-07-30 |
-| 🟡 | Left 4 Dead 2 | `454108D4` | 📱 iOS | Intro | 🚀 Great | iPhone 16 | 2026-07-15 |
 | 🟡 | Lego Lord of the Rings | `5752081D` | 📱 iOS | Intro | 🐢 Poor | iPhone 16e | 2026-06-15 |
 | 🟡 | Madden NFL 17 | `454109F2` | 📱 iOS | Intro | 🐢 Poor | iPad Air 11-inch (M3) | 2026-04-04 |
 | 🟡 | Max Payne 3 | `5454086B` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 | 2026-07-04 |

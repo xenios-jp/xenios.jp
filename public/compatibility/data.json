@@ -135160,24 +135160,46 @@
     "titleIds": [
       "454108D4"
     ],
-    "status": "intro",
+    "status": "playable",
     "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 16",
+      "device": "iPhone 15",
       "platform": "ios",
-      "osVersion": "18.3.1",
+      "osVersion": "26.5",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-07-15",
+    "updatedAt": "2026-10-25",
     "issueNumber": 543,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/543",
-    "notes": "O JOGO ABRE, mas quando aparece a tela de carregamento o emulador fecha ou fica na tela de carregamento, carregando sem parar(LOADING INFINITO)😔",
+    "notes": "It seems the in game texts like selecting a mode or slelecting ANYTHING is super blurry and cant read at all. Also i still have no sound after alot of troubleshooting still cant figure out why but game runs perfectly other than that",
     "reports": [
+      {
+        "device": "iPhone 15",
+        "platform": "ios",
+        "osVersion": "26.5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-10-25",
+        "notes": "It seems the in game texts like selecting a mode or slelecting ANYTHING is super blurry and cant read at all. Also i still have no sound after alot of troubleshooting still cant figure out why but game runs perfectly other than that",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140"
+        }
+      },
       {
         "device": "iPhone 16",
         "platform": "ios",
@@ -135244,22 +135266,22 @@
       },
       "all": {
         "channel": "all",
-        "status": "intro",
+        "status": "playable",
         "perf": "great",
-        "notes": "O JOGO ABRE, mas quando aparece a tela de carregamento o emulador fecha ou fica na tela de carregamento, carregando sem parar(LOADING INFINITO)😔",
-        "updatedAt": "2026-07-15",
-        "date": "2026-07-15",
-        "reportCount": 2,
+        "notes": "It seems the in game texts like selecting a mode or slelecting ANYTHING is super blurry and cant read at all. Also i still have no sound after alot of troubleshooting still cant figure out why but game runs perfectly other than that",
+        "updatedAt": "2026-10-25",
+        "date": "2026-10-25",
+        "reportCount": 3,
         "latestReport": {
-          "device": "iPhone 16",
+          "device": "iPhone 15",
           "platform": "ios",
-          "osVersion": "18.3.1",
+          "osVersion": "26.5",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "intro",
+          "status": "playable",
           "perf": "great",
-          "date": "2026-07-15",
-          "notes": "O JOGO ABRE, mas quando aparece a tela de carregamento o emulador fecha ou fica na tela de carregamento, carregando sem parar(LOADING INFINITO)😔",
+          "date": "2026-10-25",
+          "notes": "It seems the in game texts like selecting a mode or slelecting ANYTHING is super blurry and cant read at all. Also i still have no sound after alot of troubleshooting still cant figure out why but game runs perfectly other than that",
           "screenshots": [],
           "source": "app",
           "build": {
@@ -135273,15 +135295,15 @@
           }
         },
         "bestReport": {
-          "device": "iPhone 16",
+          "device": "iPhone 15",
           "platform": "ios",
-          "osVersion": "18.3.1",
+          "osVersion": "26.5",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "intro",
+          "status": "playable",
           "perf": "great",
-          "date": "2026-07-15",
-          "notes": "O JOGO ABRE, mas quando aparece a tela de carregamento o emulador fecha ou fica na tela de carregamento, carregando sem parar(LOADING INFINITO)😔",
+          "date": "2026-10-25",
+          "notes": "It seems the in game texts like selecting a mode or slelecting ANYTHING is super blurry and cant read at all. Also i still have no sound after alot of troubleshooting still cant figure out why but game runs perfectly other than that",
           "screenshots": [],
           "source": "app",
           "build": {
