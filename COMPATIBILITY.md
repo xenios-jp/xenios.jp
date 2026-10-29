@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **400 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **401 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **167** · 🔵 In-Game: **71** · 🟡 Intro: **35** · 🟠 Loads: **51** · 🔴 Doesn't Boot: **76**
+> 🟢 Playable: **167** · 🔵 In-Game: **71** · 🟡 Intro: **35** · 🟠 Loads: **51** · 🔴 Doesn't Boot: **77**
 >
-> 📱 iOS: **366** · 🖥️ macOS: **57**
+> 📱 iOS: **367** · 🖥️ macOS: **57**
 
 ## Legend
 
@@ -412,6 +412,7 @@
 | 🔴 | The Dishwasher: Vampire Smile | `58410A21` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 | 2026-07-15 |
 | 🔴 | The Godfather | `454107E9` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-09 |
 | 🔴 | The Path of Go | `5841099F` | 🖥️ macOS | Doesn't Boot | ➖ N/A | MacBook Pro (M1) | 2026-04-12 |
+| 🔴 | The Witcher 2: Assassins of Kings - Enhanced Edition | `57520824` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Pro 12.9-inch 5 | 2026-10-28 |
 | 🔴 | The Wolf Among Us | `443607D5` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-20 |
 | 🔴 | Tomb Raider | `53510802` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 15 Pro Max | 2026-03-12 |
 | 🔴 | Top Spin 4 | `54540859` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Pro 12.9-inch (M2) | 2026-06-24 |
