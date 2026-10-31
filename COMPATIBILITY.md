@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **401 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **402 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **167** · 🔵 In-Game: **71** · 🟡 Intro: **35** · 🟠 Loads: **51** · 🔴 Doesn't Boot: **77**
+> 🟢 Playable: **167** · 🔵 In-Game: **71** · 🟡 Intro: **36** · 🟠 Loads: **51** · 🔴 Doesn't Boot: **77**
 >
-> 📱 iOS: **367** · 🖥️ macOS: **57**
+> 📱 iOS: **368** · 🖥️ macOS: **58**
 
 ## Legend
 
@@ -201,7 +201,7 @@
 | 🔵 | DB Raging Blast | `4E4D0803` | 📱 iOS | In-Game | 🐢 Poor | iPad Pro (M2) | 2026-03-09 |
 | 🔵 | Dead Island Riptide | `4B4D07F2` | 📱 iOS | In-Game | 🐢 Poor | iPhone 14 Pro | 2026-03-17 |
 | 🔵 | Deus Ex: Human Revolution - Director's Cut | `535107FA` | 🖥️ macOS | In-Game | 👌 OK | MacBook Pro (M1) | 2026-08-11 |
-| 🔵 | Diablo III | `394F07D1` | 📱 iOS, 🖥️ macOS | In-Game | 🐢 Poor | iPhone Air | 2026-03-09 |
+| 🔵 | Diablo III | `394F07D1` | 📱 iOS, 🖥️ macOS | In-Game | 🐢 Poor | iPhone Air | 2026-10-30 |
 | 🔵 | El Shaddai | `494F07D1` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro Max | 2026-06-18 |
 | 🔵 | Fable 3 | `4D5308D6` | 📱 iOS | In-Game | 🐢 Poor | iPhone 15 Pro Max | 2026-03-09 |
 | 🔵 | Fable Anniversary | `4D530A87` | 📱 iOS | In-Game | 🐢 Poor | iPhone 16 Pro Max | 2026-03-09 |
@@ -210,7 +210,7 @@
 | 🔵 | FIFA 16 | `454109EE` | 📱 iOS | In-Game | 👌 OK | iPhone 14 Pro Max | 2026-03-08 |
 | 🔵 | FIFA 19 | `454109F9` | 📱 iOS | In-Game | 🐢 Poor | iPad Air gen 6 (M2) | 2026-07-19 |
 | 🔵 | Fight Night Round 3 | `454107DE` | 📱 iOS | In-Game | 🐢 Poor | iPhone 16e | 2026-03-10 |
-| 🔵 | Forza Horizon | `4D5309C9` | 📱 iOS | In-Game | 🐢 Poor | iPhone 15 Pro Max | 2026-07-02 |
+| 🔵 | Forza Horizon | `4D5309C9` | 📱 iOS, 🖥️ macOS | In-Game | 👌 OK | MacBook Air (M4) | 2026-10-31 |
 | 🔵 | Frontlines: Fuel of War | `545107D8` | 🖥️ macOS | In-Game | 🐢 Poor | Macbook Neo A18 Pro | 2026-03-19 |
 | 🔵 | Geometry Wars Evolved² | `584108FF` | 🖥️ macOS | In-Game | 🐢 Poor | MacBook Pro (M1) | 2026-04-12 |
 | 🔵 | Grand Theft Auto IV | `545407F2` | 📱 iOS, 🖥️ macOS | In-Game | 🐢 Poor | iPhone 17 Pro Max | 2026-10-25 |
@@ -259,6 +259,7 @@
 | 🔵 | Virtua Tennis 3 | `534507E1` | 📱 iOS | In-Game | 🚀 Great | iPhone 17 Pro Max | 2026-06-18 |
 | 🔵 | WWE SmackDown! Vs Raw 2007 | `545107E0` | 📱 iOS | In-Game | 👌 OK | iPhone 17 | 2026-05-26 |
 | 🟡 | A World of Keflings | `584109DB` | 📱 iOS | Intro | 👌 OK | iPhone 14 Pro | 2026-09-10 |
+| 🟡 | Armored Core: For Answer | `465307DA` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro Max | 2026-10-30 |
 | 🟡 | Assassins Creed III - Liberation HD | `584113FC` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 | 2026-07-15 |
 | 🟡 | Back to the Future | `443607D6` | 📱 iOS | Intro | 🚀 Great | iPhone 16 Pro | 2026-03-24 |
 | 🟡 | Beautiful Katamari | `4E4D07DC` | 📱 iOS | Intro | 👌 OK | iPhone 16 Pro | 2026-03-05 |

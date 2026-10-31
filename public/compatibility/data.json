@@ -16194,14 +16194,47 @@
     "titleIds": [
       "465307DA"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "intro",
+    "perf": "poor",
     "tags": [],
-    "platforms": [],
-    "lastReport": null,
-    "updatedAt": "",
-    "notes": "",
-    "reports": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 16 Pro Max",
+      "platform": "ios",
+      "osVersion": "18.5",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-10-30",
+    "issueNumber": 727,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/727",
+    "notes": "not able to start game",
+    "reports": [
+      {
+        "device": "iPhone 16 Pro Max",
+        "platform": "ios",
+        "osVersion": "18.5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "intro",
+        "perf": "poor",
+        "date": "2026-10-30",
+        "notes": "not able to start game",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140"
+        }
+      }
+    ],
     "screenshots": [],
     "summaries": {
       "release": {
@@ -16217,14 +16250,56 @@
       },
       "all": {
         "channel": "all",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "intro",
+        "perf": "poor",
+        "notes": "not able to start game",
+        "updatedAt": "2026-10-30",
+        "date": "2026-10-30",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 16 Pro Max",
+          "platform": "ios",
+          "osVersion": "18.5",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "intro",
+          "perf": "poor",
+          "date": "2026-10-30",
+          "notes": "not able to start game",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 16 Pro Max",
+          "platform": "ios",
+          "osVersion": "18.5",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "intro",
+          "perf": "poor",
+          "date": "2026-10-30",
+          "notes": "not able to start game",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-2.0.1-9730",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
+          }
+        }
       }
     }
   },
@@ -72301,11 +72376,33 @@
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-09",
+    "updatedAt": "2026-10-30",
     "issueNumber": 2,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/2",
     "notes": "Runs slow.",
     "reports": [
+      {
+        "device": "iPhone 16 Pro",
+        "platform": "ios",
+        "osVersion": "27.0.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-10-30",
+        "notes": "Crashing on launch",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.0.1-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.0.1",
+          "buildNumber": "9730",
+          "stage": "stable",
+          "commitShort": "57c3ca140"
+        }
+      },
       {
         "device": "iPhone Air",
         "platform": "ios",
@@ -72409,31 +72506,29 @@
         "status": "ingame",
         "perf": "poor",
         "notes": "Runs slow.",
-        "updatedAt": "2026-03-09",
-        "date": "2026-03-09",
-        "reportCount": 3,
+        "updatedAt": "2026-10-30",
+        "date": "2026-10-30",
+        "reportCount": 4,
         "latestReport": {
-          "device": "iPhone Air",
+          "device": "iPhone 16 Pro",
           "platform": "ios",
-          "osVersion": "26.1",
+          "osVersion": "27.0.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-03-09",
-          "notes": "Runs slow.",
-          "reportedTitleId": "394F07D1",
-          "reportedTitle": "Diablo III",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-10-30",
+          "notes": "Crashing on launch",
           "screenshots": [],
           "source": "app",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
             "stage": "stable",
-            "commitShort": "2633e8177"
+            "commitShort": "57c3ca140"
           }
         },
         "bestReport": {
@@ -97436,23 +97531,44 @@
       "4D538A68"
     ],
     "status": "ingame",
-    "perf": "poor",
+    "perf": "ok",
     "tags": [],
     "platforms": [
-      "ios"
+      "ios",
+      "macos"
     ],
     "lastReport": {
-      "device": "iPhone 15 Pro Max",
-      "platform": "ios",
-      "osVersion": "26.1",
+      "device": "MacBook Air (M4)",
+      "platform": "macos",
+      "osVersion": "15.8.2",
       "arch": "arm64",
-      "gpuBackend": "msl"
+      "gpuBackend": "msc"
     },
-    "updatedAt": "2026-07-02",
+    "updatedAt": "2026-10-31",
     "issueNumber": 125,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/125",
-    "notes": "Distortions and is unplayable experience",
+    "notes": "The game only showed the boot up screen with the Metal graphic backend. Upon switching it to Vulkan, it started working. Resolution was set to 1280x 720. The gameplay works smoothly for the opening race with only a couple of stutters. In the middle of the second race, there are noticeable frame rate drops and stutters that occur, before the game eventually freezes (3rd image) and ultimately reaches a breaking point resulting in it stopping (4th image). It was noted that this happens as the device heats up, ultimately reaching a breaking point. Maybe keeping the device could ensure smooth, uninterrupted gameplay.",
     "reports": [
+      {
+        "device": "MacBook Air (M4)",
+        "platform": "macos",
+        "osVersion": "15.8.2",
+        "arch": "arm64",
+        "gpuBackend": "msc",
+        "status": "ingame",
+        "perf": "ok",
+        "date": "2026-10-31",
+        "notes": "The game only showed the boot up screen with the Metal graphic backend. Upon switching it to Vulkan, it started working. Resolution was set to 1280x 720. The gameplay works smoothly for the opening race with only a couple of stutters. In the middle of the second race, there are noticeable frame rate drops and stutters that occur, before the game eventually freezes (3rd image) and ultimately reaches a breaking point resulting in it stopping (4th image). It was noted that this happens as the device heats up, ultimately reaching a breaking point. Maybe keeping the device could ensure smooth, uninterrupted gameplay.",
+        "screenshots": [],
+        "source": "github",
+        "build": {
+          "buildId": "macos-self-built-0.0.0.10-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "0.0.0.10",
+          "buildNumber": "9730"
+        }
+      },
       {
         "device": "iPad Air 5",
         "platform": "ios",
@@ -97516,55 +97632,49 @@
       "all": {
         "channel": "all",
         "status": "ingame",
-        "perf": "poor",
-        "notes": "Distortions and is unplayable experience",
-        "updatedAt": "2026-07-02",
-        "date": "2026-07-02",
-        "reportCount": 2,
+        "perf": "ok",
+        "notes": "The game only showed the boot up screen with the Metal graphic backend. Upon switching it to Vulkan, it started working. Resolution was set to 1280x 720. The gameplay works smoothly for the opening race with only a couple of stutters. In the middle of the second race, there are noticeable frame rate drops and stutters that occur, before the game eventually freezes (3rd image) and ultimately reaches a breaking point resulting in it stopping (4th image). It was noted that this happens as the device heats up, ultimately reaching a breaking point. Maybe keeping the device could ensure smooth, uninterrupted gameplay.",
+        "updatedAt": "2026-10-31",
+        "date": "2026-10-31",
+        "reportCount": 3,
         "latestReport": {
-          "device": "iPad Air 5",
-          "platform": "ios",
-          "osVersion": "26.5",
+          "device": "MacBook Air (M4)",
+          "platform": "macos",
+          "osVersion": "15.8.2",
           "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-07-02",
-          "notes": "It just crashes every time I try",
+          "gpuBackend": "msc",
+          "status": "ingame",
+          "perf": "ok",
+          "date": "2026-10-31",
+          "notes": "The game only showed the boot up screen with the Metal graphic backend. Upon switching it to Vulkan, it started working. Resolution was set to 1280x 720. The gameplay works smoothly for the opening race with only a couple of stutters. In the middle of the second race, there are noticeable frame rate drops and stutters that occur, before the game eventually freezes (3rd image) and ultimately reaches a breaking point resulting in it stopping (4th image). It was noted that this happens as the device heats up, ultimately reaching a breaking point. Maybe keeping the device could ensure smooth, uninterrupted gameplay.",
           "screenshots": [],
-          "source": "app",
+          "source": "github",
           "build": {
-            "buildId": "ios-self-built-2.0.1-9730",
+            "buildId": "macos-self-built-0.0.0.10-9730",
             "channel": "self-built",
             "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140"
+            "appVersion": "0.0.0.10",
+            "buildNumber": "9730"
           }
         },
         "bestReport": {
-          "device": "iPhone 15 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.1",
+          "device": "MacBook Air (M4)",
+          "platform": "macos",
+          "osVersion": "15.8.2",
           "arch": "arm64",
-          "gpuBackend": "msl",
+          "gpuBackend": "msc",
           "status": "ingame",
-          "perf": "poor",
-          "date": "2026-03-09",
-          "notes": "Distortions and is unplayable experience",
-          "reportedTitleId": "4D5309C9",
-          "reportedTitle": "Forza Horizon",
+          "perf": "ok",
+          "date": "2026-10-31",
+          "notes": "The game only showed the boot up screen with the Metal graphic backend. Upon switching it to Vulkan, it started working. Resolution was set to 1280x 720. The gameplay works smoothly for the opening race with only a couple of stutters. In the middle of the second race, there are noticeable frame rate drops and stutters that occur, before the game eventually freezes (3rd image) and ultimately reaches a breaking point resulting in it stopping (4th image). It was noted that this happens as the device heats up, ultimately reaching a breaking point. Maybe keeping the device could ensure smooth, uninterrupted gameplay.",
           "screenshots": [],
-          "source": "app",
+          "source": "github",
           "build": {
-            "buildId": "ios-self-built-1.0.0-9280",
+            "buildId": "macos-self-built-0.0.0.10-9730",
             "channel": "self-built",
             "official": false,
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "stage": "stable",
-            "commitShort": "2633e8177"
+            "appVersion": "0.0.0.10",
+            "buildNumber": "9730"
           }
         }
       }
@@ -245407,6 +245517,8 @@
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-10-28",
+    "issueNumber": 726,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/726",
     "notes": "Вылетает",
     "reports": [
       {
