@@ -152030,24 +152030,45 @@
     "titleIds": [
       "545407F8"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "ingame",
+    "perf": "ok",
     "tags": [],
     "platforms": [
-      "ios"
+      "ios",
+      "macos"
     ],
     "lastReport": {
-      "device": "iPad Pro 13-inch (M5)",
-      "platform": "ios",
-      "osVersion": "27.0",
+      "device": "MacBook Air (M4)",
+      "platform": "macos",
+      "osVersion": "15.8.2",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-07-24",
+    "updatedAt": "2026-10-31",
     "issueNumber": 160,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/160",
-    "notes": "Literally does nothing",
+    "notes": "The game shows a black screen with the graphic backend set to Metal. Switching to Vulkan gets the game to work. Resolution set to 1280X720. The cutscenes are smooth and high def but the game itself runs at 10-15 fps. The device also heats up significantly, resulting in the performance drop. Could vary depending on hardware.\nTested on base model with 16GB ram.",
     "reports": [
+      {
+        "device": "MacBook Air (M4)",
+        "platform": "macos",
+        "osVersion": "15.8.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "ok",
+        "date": "2026-10-31",
+        "notes": "The game shows a black screen with the graphic backend set to Metal. Switching to Vulkan gets the game to work. Resolution set to 1280X720. The cutscenes are smooth and high def but the game itself runs at 10-15 fps. The device also heats up significantly, resulting in the performance drop. Could vary depending on hardware.\nTested on base model with 16GB ram.",
+        "screenshots": [],
+        "source": "github",
+        "build": {
+          "buildId": "macos-self-built-0.0.0.8-9730",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "0.0.0.8",
+          "buildNumber": "9730"
+        }
+      },
       {
         "device": "iPad Pro 13-inch (M5)",
         "platform": "ios",
@@ -152100,54 +152121,50 @@
       },
       "all": {
         "channel": "all",
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "Literally does nothing",
-        "updatedAt": "2026-07-24",
-        "date": "2026-07-24",
-        "reportCount": 1,
+        "status": "ingame",
+        "perf": "ok",
+        "notes": "The game shows a black screen with the graphic backend set to Metal. Switching to Vulkan gets the game to work. Resolution set to 1280X720. The cutscenes are smooth and high def but the game itself runs at 10-15 fps. The device also heats up significantly, resulting in the performance drop. Could vary depending on hardware.\nTested on base model with 16GB ram.",
+        "updatedAt": "2026-10-31",
+        "date": "2026-10-31",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPad Pro 13-inch (M5)",
-          "platform": "ios",
-          "osVersion": "27.0",
+          "device": "MacBook Air (M4)",
+          "platform": "macos",
+          "osVersion": "15.8.2",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-07-24",
-          "notes": "Literally does nothing",
+          "status": "ingame",
+          "perf": "ok",
+          "date": "2026-10-31",
+          "notes": "The game shows a black screen with the graphic backend set to Metal. Switching to Vulkan gets the game to work. Resolution set to 1280X720. The cutscenes are smooth and high def but the game itself runs at 10-15 fps. The device also heats up significantly, resulting in the performance drop. Could vary depending on hardware.\nTested on base model with 16GB ram.",
           "screenshots": [],
-          "source": "app",
+          "source": "github",
           "build": {
-            "buildId": "ios-self-built-2.0.1-9730",
+            "buildId": "macos-self-built-0.0.0.8-9730",
             "channel": "self-built",
             "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140"
+            "appVersion": "0.0.0.8",
+            "buildNumber": "9730"
           }
         },
         "bestReport": {
-          "device": "iPad Pro 13-inch (M5)",
-          "platform": "ios",
-          "osVersion": "27.0",
+          "device": "MacBook Air (M4)",
+          "platform": "macos",
+          "osVersion": "15.8.2",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-07-24",
-          "notes": "Literally does nothing",
+          "status": "ingame",
+          "perf": "ok",
+          "date": "2026-10-31",
+          "notes": "The game shows a black screen with the graphic backend set to Metal. Switching to Vulkan gets the game to work. Resolution set to 1280X720. The cutscenes are smooth and high def but the game itself runs at 10-15 fps. The device also heats up significantly, resulting in the performance drop. Could vary depending on hardware.\nTested on base model with 16GB ram.",
           "screenshots": [],
-          "source": "app",
+          "source": "github",
           "build": {
-            "buildId": "ios-self-built-2.0.1-9730",
+            "buildId": "macos-self-built-0.0.0.8-9730",
             "channel": "self-built",
             "official": false,
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "stage": "stable",
-            "commitShort": "57c3ca140"
+            "appVersion": "0.0.0.8",
+            "buildNumber": "9730"
           }
         }
       }
