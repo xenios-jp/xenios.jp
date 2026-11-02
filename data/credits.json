@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T09:27:16.250Z",
+  "generatedAt": "2026-11-02T11:46:22.528Z",
   "totalProjects": 4,
   "contributors": [
     {
@@ -1252,6 +1252,16 @@
       ]
     },
     {
+      "id": "user:mcmilnick",
+      "displayName": "mcmilnick",
+      "profileUrl": "https://github.com/mcmilnick",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/10985456?v=4",
+      "projects": [
+        "xenia-canary",
+        "xenia-edge"
+      ]
+    },
+    {
       "id": "user:mdukat",
       "displayName": "mdukat",
       "profileUrl": "https://github.com/mdukat",
@@ -1570,21 +1580,21 @@
       ]
     },
     {
+      "id": "user:jessenic",
+      "displayName": "jessenic",
+      "profileUrl": "https://github.com/jessenic",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/862628?v=4",
+      "projects": [
+        "xenia-edge"
+      ]
+    },
+    {
       "id": "user:luismasp89",
       "displayName": "LuismaSP89",
       "profileUrl": "https://github.com/LuismaSP89",
       "avatarUrl": "https://avatars.githubusercontent.com/u/12205048?v=4",
       "projects": [
         "xenia-edge"
-      ]
-    },
-    {
-      "id": "user:mcmilnick",
-      "displayName": "mcmilnick",
-      "profileUrl": "https://github.com/mcmilnick",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/10985456?v=4",
-      "projects": [
-        "xenia-canary"
       ]
     },
     {
