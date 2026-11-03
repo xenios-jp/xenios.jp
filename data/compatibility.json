@@ -32265,15 +32265,48 @@
       "454189C8",
       "454189C7"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "ingame",
+    "perf": "poor",
     "tags": [],
-    "platforms": [],
-    "lastReport": null,
-    "updatedAt": "",
-    "notes": "",
-    "reports": [],
-    "screenshots": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 17",
+      "platform": "ios",
+      "osVersion": "27.0",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-11-03",
+    "notes": "Holds 30fps for all of 30 seconds 😂",
+    "reports": [
+      {
+        "device": "iPhone 17",
+        "platform": "ios",
+        "osVersion": "27.0",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "poor",
+        "date": "2026-11-03",
+        "notes": "Holds 30fps for all of 30 seconds 😂",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "buildId": "ios-self-built-2.1-11215",
+          "channel": "self-built",
+          "official": false,
+          "appVersion": "2.1",
+          "buildNumber": "11215",
+          "stage": "stable",
+          "commitShort": "ff50b1e07"
+        }
+      }
+    ],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/454109BA/1793692491073-1.jpg"
+    ],
     "summaries": {
       "release": {
         "channel": "release",
@@ -32288,14 +32321,56 @@
       },
       "all": {
         "channel": "all",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "ingame",
+        "perf": "poor",
+        "notes": "Holds 30fps for all of 30 seconds 😂",
+        "updatedAt": "2026-11-03",
+        "date": "2026-11-03",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 17",
+          "platform": "ios",
+          "osVersion": "27.0",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-11-03",
+          "notes": "Holds 30fps for all of 30 seconds 😂",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-2.1-11215",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.1",
+            "buildNumber": "11215",
+            "stage": "stable",
+            "commitShort": "ff50b1e07"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 17",
+          "platform": "ios",
+          "osVersion": "27.0",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-11-03",
+          "notes": "Holds 30fps for all of 30 seconds 😂",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "buildId": "ios-self-built-2.1-11215",
+            "channel": "self-built",
+            "official": false,
+            "appVersion": "2.1",
+            "buildNumber": "11215",
+            "stage": "stable",
+            "commitShort": "ff50b1e07"
+          }
+        }
       }
     }
   },
