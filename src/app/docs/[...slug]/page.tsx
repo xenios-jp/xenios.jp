@@ -55,9 +55,9 @@ const iosDocs: Record<string, DocEntry> = {
         <h2>Prerequisites</h2>
         <p className="mt-3 text-[15px] text-text-secondary leading-relaxed">
           You will need an ARM64 iPhone or iPad with Metal support. XeniOS runs
-          best on the latest iPhone and iPad hardware. The lowest tested setup
-          right now is <strong className="text-text-primary">iOS / iPadOS 18.0</strong> on{" "}
-          <strong className="text-text-primary">A16-class hardware</strong>.
+          best on the latest iPhone and iPad hardware. It requires{" "}
+          <strong className="text-text-primary">iOS / iPadOS 26</strong>, and the lowest tested
+          hardware right now is <strong className="text-text-primary">A16-class</strong>.
           Xbox 360 emulation is very demanding on iOS; older devices may launch
           but are unlikely to perform well and are not validated. Mac builds are
           a separate, more optimized target. You will also need game files
@@ -88,8 +88,8 @@ const iosDocs: Record<string, DocEntry> = {
         <div className="mb-6 mt-4">
           <Callout type="note">
             LiveContainer is not part of the documented public baseline.
-            It is currently untested on iOS 26, though users have reported it
-            working on iOS 18. Use it at your own risk, and expect to need the{" "}
+            It is currently untested on iOS 26. Use it at your own risk, and
+            expect to need the{" "}
             <C>com.apple.developer.kernel.increased-memory-limit</C>{" "}
             entitlement when signing it.
           </Callout>
@@ -327,8 +327,8 @@ const iosDocs: Record<string, DocEntry> = {
         </p>
         <ol className="mt-3 space-y-1.5 text-[15px] text-text-secondary leading-relaxed list-decimal pl-5">
           <li>
-            Confirm you are on a tested setup. The lowest tested combination
-            right now is iOS / iPadOS 18.0 on A16-class hardware, and newer
+            Confirm you are on a supported setup: iOS / iPadOS 26 or later.
+            The lowest tested hardware right now is A16-class, and newer
             iPhone or iPad hardware is strongly recommended for performance.
           </li>
           <li>Re-sign the IPA — expired signing profiles are the most common cause.</li>

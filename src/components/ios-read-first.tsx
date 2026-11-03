@@ -57,10 +57,8 @@ export function IosReadFirst({ tone = "primary" }: IosReadFirstProps) {
           >
             LocalDevVPN
           </a>
-          . Current public guidance covers normal StikDebug flows on 17.4-18.x,
-          older 17.0-17.3 setups that may need alternatives such as
-          SideJITServer, and iOS 26 setups that are more version- and
-          device-sensitive. Check the{" "}
+          . XeniOS needs iOS / iPadOS 26, where StikDebug setups are more
+          version- and device-sensitive. Check the{" "}
           <a
             href={SIDESTORE_JIT_GUIDE_URL}
             target="_blank"

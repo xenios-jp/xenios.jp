@@ -161,8 +161,8 @@ const ios = [
           </li>
         </ul>
         <p>
-          LiveContainer is currently untested on iOS 26, though users have
-          reported it working on iOS 18. Use it at your own risk. If you try
+          LiveContainer is currently untested on iOS 26. Use it at your own
+          risk. If you try
           it, expect to need the{" "}
           <code className="text-text-primary bg-bg-surface-2 px-1 rounded">
             com.apple.developer.kernel.increased-memory-limit
@@ -189,8 +189,8 @@ const ios = [
     title: "iPhone / iPad: What OS and hardware do I need?",
     content: (
       <p>
-        XeniOS runs best on the latest iPhone and iPad hardware. The lowest
-        tested baseline right now is iOS / iPadOS 18.0 on A16-class hardware.
+        XeniOS runs best on the latest iPhone and iPad hardware. It requires
+        iOS / iPadOS 26, and the lowest tested hardware right now is A16-class.
         Xbox 360 emulation is very demanding on iOS; older chips may launch,
         but they are unlikely to perform well and should not be treated as
         validated.

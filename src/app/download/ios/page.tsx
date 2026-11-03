@@ -279,13 +279,13 @@ export default function DownloadPage() {
           <div className="mt-4 grid grid-cols-1 gap-4 md:grid-cols-3">
             <div className="rounded-xl border border-border bg-bg-surface p-5">
               <p className="text-xs font-semibold uppercase tracking-wide text-accent">
-                Lowest Tested OS
+                Required OS
               </p>
               <p className="mt-2 text-lg font-semibold text-text-primary">
-                iOS / iPadOS 18.0
+                iOS / iPadOS 26
               </p>
               <p className="mt-2 text-sm leading-relaxed text-text-secondary">
-                Older versions may work, but they are currently untested.
+                XeniOS 2.2 and later won&apos;t install on older versions.
               </p>
             </div>
             <div className="rounded-xl border border-border bg-bg-surface p-5">
@@ -425,12 +425,12 @@ export default function DownloadPage() {
                 Allow extra free space beyond the app itself for game files, caches, and updates.
               </li>
               <li>
-                Older iOS versions and older chips may work, but they are currently untested and
-                should not be treated as validated yet.
+                XeniOS needs iOS / iPadOS 26. Older chips may work, but they are currently untested
+                and should not be treated as validated yet.
               </li>
               <li>
-                LiveContainer is currently untested on iOS 26, though users
-                have reported it working on iOS 18. Use it at your own risk.
+                LiveContainer is currently untested on iOS 26. Use it at your
+                own risk.
                 If you try it, expect to need the{" "}
                 <code className="rounded bg-bg-surface-2 px-1.5 py-0.5 font-mono text-xs">
                   com.apple.developer.kernel.increased-memory-limit
