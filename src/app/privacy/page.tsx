@@ -9,7 +9,7 @@ export const metadata: Metadata = withCanonical(
   {
     title: "Privacy",
     description:
-      "Privacy policy for the XeniOS website and related community resources.",
+      "Privacy policy for the XeniOS website, the XeniOS app's crash reports and performance statistics, and related community resources.",
   },
   "/privacy"
 );
@@ -56,6 +56,89 @@ export default function PrivacyPage() {
             theme utility so your preferred dark/light mode is remembered on this
             device. This preference is not used to identify you.
           </p>
+        </section>
+
+        <section
+          id="app-diagnostics"
+          className="scroll-mt-24 rounded-xl border border-border bg-bg-surface p-6 md:p-8"
+        >
+          <h2 className="text-lg font-semibold text-text-primary">
+            Crash reports and performance statistics in the XeniOS app
+          </h2>
+          <p className="mt-3 text-[15px] leading-relaxed text-text-secondary">
+            The XeniOS app can send anonymous crash reports and performance
+            statistics to help fix problems. It tells you before it sends
+            anything, and sends them only while both Online Features and Share
+            Diagnostics are on (Settings &gt; About &gt; Privacy). You can turn
+            off Share Diagnostics on its own, or choose Don&apos;t Send
+            Diagnostics when the app first asks: update checks, compatibility
+            data and the other online features keep working.
+          </p>
+
+          <h3 className="mt-6 text-[15px] font-semibold text-text-primary">
+            What is sent
+          </h3>
+          <ul className="mt-3 space-y-2 text-[15px] leading-relaxed text-text-secondary">
+            <li>• Your device model, iOS version and XeniOS version.</li>
+            <li>
+              • For each game session: the game&apos;s title ID, frame rate,
+              load time, shader compiles, GPU errors, time at each temperature
+              state and in Low Power Mode, memory use, display settings, and
+              how the session ended.
+            </li>
+            <li>
+              • For a crash: the call stack (code locations in XeniOS and in
+              system libraries), the faulting address, the game&apos;s title
+              ID, and the error message or the reason iOS gave for ending the
+              app, with file paths, file names and quoted text removed.
+            </li>
+          </ul>
+
+          <h3 className="mt-6 text-[15px] font-semibold text-text-primary">
+            What is never sent
+          </h3>
+          <ul className="mt-3 space-y-2 text-[15px] leading-relaxed text-text-secondary">
+            <li>• Your files, file names or game files.</li>
+            <li>
+              • Your name, Apple Account, email address, contacts or location.
+            </li>
+            <li>• A device, install or advertising identifier.</li>
+            <li>• Logs, unless you share one yourself.</li>
+          </ul>
+
+          <h3 className="mt-6 text-[15px] font-semibold text-text-primary">
+            How reports are handled
+          </h3>
+          <ul className="mt-3 space-y-2 text-[15px] leading-relaxed text-text-secondary">
+            <li>
+              • Reports wait on your device until they are sent. Settings &gt;
+              About &gt; Pending Reports shows them as they will be sent, and
+              turning either switch off deletes them.
+            </li>
+            <li>
+              • They go to the XeniOS diagnostics server, which runs on{" "}
+              <a
+                href="https://www.cloudflare.com/privacypolicy/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-accent underline underline-offset-2 hover:text-accent-hover"
+              >
+                Cloudflare
+              </a>
+              . The server doesn&apos;t store your IP address; it uses it only
+              to limit how often reports can be sent.
+            </li>
+            <li>
+              • Individual reports are deleted after 90 days. Daily totals per
+              game, device type and XeniOS version, and groups of similar
+              crashes, are kept longer; they hold nothing about any one person.
+            </li>
+            <li>
+              • Only XeniOS maintainers can see reports. Crash groups may be
+              tracked as issues in a private GitHub repository, with their
+              counts, XeniOS versions, title IDs and device models.
+            </li>
+          </ul>
         </section>
 
         <section className="rounded-xl border border-border bg-bg-surface p-6 md:p-8">
