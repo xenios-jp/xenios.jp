@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **403 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **404 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **167** · 🔵 In-Game: **74** · 🟡 Intro: **36** · 🟠 Loads: **51** · 🔴 Doesn't Boot: **75**
+> 🟢 Playable: **168** · 🔵 In-Game: **73** · 🟡 Intro: **36** · 🟠 Loads: **51** · 🔴 Doesn't Boot: **76**
 >
-> 📱 iOS: **369** · 🖥️ macOS: **59**
+> 📱 iOS: **369** · 🖥️ macOS: **57**
 
 ## Legend
 
@@ -128,6 +128,7 @@
 | 🟢 | Need for Speed Most Wanted (2005) | `454107D9` | 📱 iOS | Playable | 👌 OK | iPhone 14 Pro Max | 2026-08-15 |
 | 🟢 | Need for Speed: ProStreet | `45410822` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro | 2026-06-20 |
 | 🟢 | Need for Speed: Undercover | `45410876` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-09 |
+| 🟢 | NHL 16: Legacy Edition | `454109EC` | 🖥️ macOS | Playable | 🚀 Great | MacBook Neo 8/512 | 2026-11-04 |
 | 🟢 | OPERATION DARKNESS | `535507D1` | 📱 iOS | Playable | 🚀 Great | iPad Pro 11 inch 5th Gen | 2026-03-18 |
 | 🟢 | PAYDAY 2 | `464F0800` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-09-02 |
 | 🟢 | Peggle | `58410889` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro Max | 2026-05-27 |
@@ -203,7 +204,7 @@
 | 🔵 | DB Raging Blast | `4E4D0803` | 📱 iOS | In-Game | 🐢 Poor | iPad Pro (M2) | 2026-03-09 |
 | 🔵 | Dead Island Riptide | `4B4D07F2` | 📱 iOS | In-Game | 🐢 Poor | iPhone 14 Pro | 2026-03-17 |
 | 🔵 | Deus Ex: Human Revolution - Director's Cut | `535107FA` | 🖥️ macOS | In-Game | 👌 OK | MacBook Pro (M1) | 2026-08-11 |
-| 🔵 | Diablo III | `394F07D1` | 📱 iOS, 🖥️ macOS | In-Game | 🐢 Poor | iPhone Air | 2026-10-30 |
+| 🔵 | Diablo III | `394F07D1` | 📱 iOS | In-Game | 🐢 Poor | iPhone Air | 2026-10-30 |
 | 🔵 | El Shaddai | `494F07D1` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro Max | 2026-06-18 |
 | 🔵 | Fable 3 | `4D5308D6` | 📱 iOS | In-Game | 🐢 Poor | iPhone 15 Pro Max | 2026-03-09 |
 | 🔵 | Fable Anniversary | `4D530A87` | 📱 iOS | In-Game | 🐢 Poor | iPhone 16 Pro Max | 2026-03-09 |
@@ -212,7 +213,7 @@
 | 🔵 | FIFA 16 | `454109EE` | 📱 iOS | In-Game | 👌 OK | iPhone 14 Pro Max | 2026-03-08 |
 | 🔵 | FIFA 19 | `454109F9` | 📱 iOS | In-Game | 🐢 Poor | iPad Air gen 6 (M2) | 2026-07-19 |
 | 🔵 | Fight Night Round 3 | `454107DE` | 📱 iOS | In-Game | 🐢 Poor | iPhone 16e | 2026-03-10 |
-| 🔵 | Forza Horizon | `4D5309C9` | 📱 iOS, 🖥️ macOS | In-Game | 👌 OK | MacBook Air (M4) | 2026-10-31 |
+| 🔵 | Forza Horizon | `4D5309C9` | 📱 iOS | In-Game | 🐢 Poor | iPhone 15 Pro Max | 2026-07-02 |
 | 🔵 | Frontlines: Fuel of War | `545107D8` | 🖥️ macOS | In-Game | 🐢 Poor | Macbook Neo A18 Pro | 2026-03-19 |
 | 🔵 | Geometry Wars Evolved² | `584108FF` | 🖥️ macOS | In-Game | 🐢 Poor | MacBook Pro (M1) | 2026-04-12 |
 | 🔵 | Grand Theft Auto IV | `545407F2` | 📱 iOS, 🖥️ macOS | In-Game | 🐢 Poor | iPhone 17 Pro Max | 2026-10-25 |
@@ -230,7 +231,6 @@
 | 🔵 | Mercenaries 2: World in Flames | `45410828` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro | 2026-03-09 |
 | 🔵 | Metal Gear Solid V: The Phantom Pain | `4B4E085E` | 📱 iOS | In-Game | 🐢 Poor | iPad Pro M4 | 2026-06-25 |
 | 🔵 | Middle Earth: Shadow of Mordor | `5752082C` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro Max | 2026-06-12 |
-| 🔵 | Midnight Club: Los Angeles | `545407F8` | 📱 iOS, 🖥️ macOS | In-Game | 👌 OK | MacBook Air (M4) | 2026-10-31 |
 | 🔵 | MS.PAC-MAN | `58410837` | 📱 iOS | In-Game | 🚀 Great | iPhone 16 | 2026-07-15 |
 | 🔵 | NBA 2K11 | `5454087A` | 📱 iOS | In-Game | 👌 OK | iPhone 16e | 2026-03-10 |
 | 🔵 | NBA Live 10 | `454108C1` | 📱 iOS | In-Game | 🐢 Poor | iPhone 16e | 2026-03-10 |
@@ -384,6 +384,7 @@
 | 🔴 | Kane & Lynch 2: Dog Days | `534307F8` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 13 Pro Max | 2026-08-04 |
 | 🔴 | Lego Batman | `575207D7` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone Air | 2026-09-14 |
 | 🔴 | LEGO Star Wars: The Force Awakens | `57520851` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 14 | 2026-03-16 |
+| 🔴 | Midnight Club: Los Angeles | `545407F8` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Pro 13-inch (M5) | 2026-07-24 |
 | 🔴 | Mighty No. 9 | `584114A4` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 13 | 2026-03-09 |
 | 🔴 | MLB 2K12 | `5454089E` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 | 2026-05-27 |
 | 🔴 | Mortal Kombat Komplete Edition | `575207FD` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 12 Pro | 2026-08-11 |

@@ -32279,6 +32279,8 @@
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-11-03",
+    "issueNumber": 733,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/733",
     "notes": "Holds 30fps for all of 30 seconds 😂",
     "reports": [
       {
@@ -48784,9 +48786,7 @@
         }
       }
     ],
-    "screenshots": [
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/415608C3/1773453853718-1.jpg"
-    ],
+    "screenshots": [],
     "summaries": {
       "release": {
         "channel": "release",
@@ -72461,8 +72461,7 @@
     "perf": "poor",
     "tags": [],
     "platforms": [
-      "ios",
-      "macos"
+      "ios"
     ],
     "lastReport": {
       "device": "iPhone Air",
@@ -72521,40 +72520,6 @@
           "stage": "stable",
           "commitShort": "2633e8177"
         }
-      },
-      {
-        "device": "MacBook Pro (M4)",
-        "platform": "macos",
-        "osVersion": "26.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "loads",
-        "perf": "poor",
-        "date": "2026-03-09",
-        "notes": "Corruption on video FMV. Loads menus, allowed to start game but hangs on loading screen.",
-        "screenshots": [],
-        "source": "github",
-        "build": {
-          "buildId": "macos-self-built-1.0.0-9280",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "commitShort": "2633E8177"
-        }
-      },
-      {
-        "device": "iPhone 17",
-        "platform": "ios",
-        "osVersion": "26.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "perf": "poor",
-        "date": "2026-03-06",
-        "notes": "Game runs at 15-20fps on iPhone 17. No noticeable graphical issues. Runs in slow motion due to engine expecting 60fps.",
-        "screenshots": [],
-        "source": "app"
       }
     ],
     "screenshots": [
@@ -72563,38 +72528,14 @@
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "ingame",
-        "perf": "poor",
-        "notes": "Game runs at 15-20fps on iPhone 17. No noticeable graphical issues. Runs in slow motion due to engine expecting 60fps.",
-        "updatedAt": "2026-03-06",
-        "date": "2026-03-06",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 17",
-          "platform": "ios",
-          "osVersion": "26.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-03-06",
-          "notes": "Game runs at 15-20fps on iPhone 17. No noticeable graphical issues. Runs in slow motion due to engine expecting 60fps.",
-          "screenshots": [],
-          "source": "app"
-        },
-        "bestReport": {
-          "device": "iPhone 17",
-          "platform": "ios",
-          "osVersion": "26.3",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-03-06",
-          "notes": "Game runs at 15-20fps on iPhone 17. No noticeable graphical issues. Runs in slow motion due to engine expecting 60fps.",
-          "screenshots": [],
-          "source": "app"
-        }
+        "status": "untested",
+        "perf": null,
+        "notes": "",
+        "updatedAt": null,
+        "date": null,
+        "reportCount": 0,
+        "latestReport": null,
+        "bestReport": null
       },
       "all": {
         "channel": "all",
@@ -72603,7 +72544,7 @@
         "notes": "Runs slow.",
         "updatedAt": "2026-10-30",
         "date": "2026-10-30",
-        "reportCount": 4,
+        "reportCount": 2,
         "latestReport": {
           "device": "iPhone 16 Pro",
           "platform": "ios",
@@ -97626,44 +97567,23 @@
       "4D538A68"
     ],
     "status": "ingame",
-    "perf": "ok",
+    "perf": "poor",
     "tags": [],
     "platforms": [
-      "ios",
-      "macos"
+      "ios"
     ],
     "lastReport": {
-      "device": "MacBook Air (M4)",
-      "platform": "macos",
-      "osVersion": "15.8.2",
+      "device": "iPhone 15 Pro Max",
+      "platform": "ios",
+      "osVersion": "26.1",
       "arch": "arm64",
-      "gpuBackend": "msc"
+      "gpuBackend": "msl"
     },
-    "updatedAt": "2026-10-31",
+    "updatedAt": "2026-07-02",
     "issueNumber": 125,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/125",
-    "notes": "The game only showed the boot up screen with the Metal graphic backend. Upon switching it to Vulkan, it started working. Resolution was set to 1280x 720. The gameplay works smoothly for the opening race with only a couple of stutters. In the middle of the second race, there are noticeable frame rate drops and stutters that occur, before the game eventually freezes (3rd image) and ultimately reaches a breaking point resulting in it stopping (4th image). It was noted that this happens as the device heats up, ultimately reaching a breaking point. Maybe keeping the device could ensure smooth, uninterrupted gameplay.",
+    "notes": "Distortions and is unplayable experience",
     "reports": [
-      {
-        "device": "MacBook Air (M4)",
-        "platform": "macos",
-        "osVersion": "15.8.2",
-        "arch": "arm64",
-        "gpuBackend": "msc",
-        "status": "ingame",
-        "perf": "ok",
-        "date": "2026-10-31",
-        "notes": "The game only showed the boot up screen with the Metal graphic backend. Upon switching it to Vulkan, it started working. Resolution was set to 1280x 720. The gameplay works smoothly for the opening race with only a couple of stutters. In the middle of the second race, there are noticeable frame rate drops and stutters that occur, before the game eventually freezes (3rd image) and ultimately reaches a breaking point resulting in it stopping (4th image). It was noted that this happens as the device heats up, ultimately reaching a breaking point. Maybe keeping the device could ensure smooth, uninterrupted gameplay.",
-        "screenshots": [],
-        "source": "github",
-        "build": {
-          "buildId": "macos-self-built-0.0.0.10-9730",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "0.0.0.10",
-          "buildNumber": "9730"
-        }
-      },
       {
         "device": "iPad Air 5",
         "platform": "ios",
@@ -97727,49 +97647,55 @@
       "all": {
         "channel": "all",
         "status": "ingame",
-        "perf": "ok",
-        "notes": "The game only showed the boot up screen with the Metal graphic backend. Upon switching it to Vulkan, it started working. Resolution was set to 1280x 720. The gameplay works smoothly for the opening race with only a couple of stutters. In the middle of the second race, there are noticeable frame rate drops and stutters that occur, before the game eventually freezes (3rd image) and ultimately reaches a breaking point resulting in it stopping (4th image). It was noted that this happens as the device heats up, ultimately reaching a breaking point. Maybe keeping the device could ensure smooth, uninterrupted gameplay.",
-        "updatedAt": "2026-10-31",
-        "date": "2026-10-31",
-        "reportCount": 3,
+        "perf": "poor",
+        "notes": "Distortions and is unplayable experience",
+        "updatedAt": "2026-07-02",
+        "date": "2026-07-02",
+        "reportCount": 2,
         "latestReport": {
-          "device": "MacBook Air (M4)",
-          "platform": "macos",
-          "osVersion": "15.8.2",
+          "device": "iPad Air 5",
+          "platform": "ios",
+          "osVersion": "26.5",
           "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "ingame",
-          "perf": "ok",
-          "date": "2026-10-31",
-          "notes": "The game only showed the boot up screen with the Metal graphic backend. Upon switching it to Vulkan, it started working. Resolution was set to 1280x 720. The gameplay works smoothly for the opening race with only a couple of stutters. In the middle of the second race, there are noticeable frame rate drops and stutters that occur, before the game eventually freezes (3rd image) and ultimately reaches a breaking point resulting in it stopping (4th image). It was noted that this happens as the device heats up, ultimately reaching a breaking point. Maybe keeping the device could ensure smooth, uninterrupted gameplay.",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-07-02",
+          "notes": "It just crashes every time I try",
           "screenshots": [],
-          "source": "github",
+          "source": "app",
           "build": {
-            "buildId": "macos-self-built-0.0.0.10-9730",
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
-            "appVersion": "0.0.0.10",
-            "buildNumber": "9730"
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
           }
         },
         "bestReport": {
-          "device": "MacBook Air (M4)",
-          "platform": "macos",
-          "osVersion": "15.8.2",
+          "device": "iPhone 15 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.1",
           "arch": "arm64",
-          "gpuBackend": "msc",
+          "gpuBackend": "msl",
           "status": "ingame",
-          "perf": "ok",
-          "date": "2026-10-31",
-          "notes": "The game only showed the boot up screen with the Metal graphic backend. Upon switching it to Vulkan, it started working. Resolution was set to 1280x 720. The gameplay works smoothly for the opening race with only a couple of stutters. In the middle of the second race, there are noticeable frame rate drops and stutters that occur, before the game eventually freezes (3rd image) and ultimately reaches a breaking point resulting in it stopping (4th image). It was noted that this happens as the device heats up, ultimately reaching a breaking point. Maybe keeping the device could ensure smooth, uninterrupted gameplay.",
+          "perf": "poor",
+          "date": "2026-03-09",
+          "notes": "Distortions and is unplayable experience",
+          "reportedTitleId": "4D5309C9",
+          "reportedTitle": "Forza Horizon",
           "screenshots": [],
-          "source": "github",
+          "source": "app",
           "build": {
-            "buildId": "macos-self-built-0.0.0.10-9730",
+            "buildId": "ios-self-built-1.0.0-9280",
             "channel": "self-built",
             "official": false,
-            "appVersion": "0.0.0.10",
-            "buildNumber": "9730"
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "stage": "stable",
+            "commitShort": "2633e8177"
           }
         }
       }
@@ -152125,45 +152051,24 @@
     "titleIds": [
       "545407F8"
     ],
-    "status": "ingame",
-    "perf": "ok",
+    "status": "nothing",
+    "perf": "n/a",
     "tags": [],
     "platforms": [
-      "ios",
-      "macos"
+      "ios"
     ],
     "lastReport": {
-      "device": "MacBook Air (M4)",
-      "platform": "macos",
-      "osVersion": "15.8.2",
+      "device": "iPad Pro 13-inch (M5)",
+      "platform": "ios",
+      "osVersion": "27.0",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-10-31",
+    "updatedAt": "2026-07-24",
     "issueNumber": 160,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/160",
-    "notes": "The game shows a black screen with the graphic backend set to Metal. Switching to Vulkan gets the game to work. Resolution set to 1280X720. The cutscenes are smooth and high def but the game itself runs at 10-15 fps. The device also heats up significantly, resulting in the performance drop. Could vary depending on hardware.\nTested on base model with 16GB ram.",
+    "notes": "Literally does nothing",
     "reports": [
-      {
-        "device": "MacBook Air (M4)",
-        "platform": "macos",
-        "osVersion": "15.8.2",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "perf": "ok",
-        "date": "2026-10-31",
-        "notes": "The game shows a black screen with the graphic backend set to Metal. Switching to Vulkan gets the game to work. Resolution set to 1280X720. The cutscenes are smooth and high def but the game itself runs at 10-15 fps. The device also heats up significantly, resulting in the performance drop. Could vary depending on hardware.\nTested on base model with 16GB ram.",
-        "screenshots": [],
-        "source": "github",
-        "build": {
-          "buildId": "macos-self-built-0.0.0.8-9730",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "0.0.0.8",
-          "buildNumber": "9730"
-        }
-      },
       {
         "device": "iPad Pro 13-inch (M5)",
         "platform": "ios",
@@ -152216,50 +152121,54 @@
       },
       "all": {
         "channel": "all",
-        "status": "ingame",
-        "perf": "ok",
-        "notes": "The game shows a black screen with the graphic backend set to Metal. Switching to Vulkan gets the game to work. Resolution set to 1280X720. The cutscenes are smooth and high def but the game itself runs at 10-15 fps. The device also heats up significantly, resulting in the performance drop. Could vary depending on hardware.\nTested on base model with 16GB ram.",
-        "updatedAt": "2026-10-31",
-        "date": "2026-10-31",
-        "reportCount": 2,
+        "status": "nothing",
+        "perf": "n/a",
+        "notes": "Literally does nothing",
+        "updatedAt": "2026-07-24",
+        "date": "2026-07-24",
+        "reportCount": 1,
         "latestReport": {
-          "device": "MacBook Air (M4)",
-          "platform": "macos",
-          "osVersion": "15.8.2",
+          "device": "iPad Pro 13-inch (M5)",
+          "platform": "ios",
+          "osVersion": "27.0",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "ok",
-          "date": "2026-10-31",
-          "notes": "The game shows a black screen with the graphic backend set to Metal. Switching to Vulkan gets the game to work. Resolution set to 1280X720. The cutscenes are smooth and high def but the game itself runs at 10-15 fps. The device also heats up significantly, resulting in the performance drop. Could vary depending on hardware.\nTested on base model with 16GB ram.",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-07-24",
+          "notes": "Literally does nothing",
           "screenshots": [],
-          "source": "github",
+          "source": "app",
           "build": {
-            "buildId": "macos-self-built-0.0.0.8-9730",
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
-            "appVersion": "0.0.0.8",
-            "buildNumber": "9730"
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
           }
         },
         "bestReport": {
-          "device": "MacBook Air (M4)",
-          "platform": "macos",
-          "osVersion": "15.8.2",
+          "device": "iPad Pro 13-inch (M5)",
+          "platform": "ios",
+          "osVersion": "27.0",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "ok",
-          "date": "2026-10-31",
-          "notes": "The game shows a black screen with the graphic backend set to Metal. Switching to Vulkan gets the game to work. Resolution set to 1280X720. The cutscenes are smooth and high def but the game itself runs at 10-15 fps. The device also heats up significantly, resulting in the performance drop. Could vary depending on hardware.\nTested on base model with 16GB ram.",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-07-24",
+          "notes": "Literally does nothing",
           "screenshots": [],
-          "source": "github",
+          "source": "app",
           "build": {
-            "buildId": "macos-self-built-0.0.0.8-9730",
+            "buildId": "ios-self-built-2.0.1-9730",
             "channel": "self-built",
             "official": false,
-            "appVersion": "0.0.0.8",
-            "buildNumber": "9730"
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "stage": "stable",
+            "commitShort": "57c3ca140"
           }
         }
       }
@@ -167775,37 +167684,159 @@
     "titleIds": [
       "454109EC"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
-    "platforms": [],
-    "lastReport": null,
-    "updatedAt": "",
-    "notes": "",
-    "reports": [],
+    "platforms": [
+      "macos"
+    ],
+    "lastReport": {
+      "device": "MacBook Neo 8/512",
+      "platform": "macos",
+      "osVersion": "26.7.2",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-11-04",
+    "issueNumber": 734,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/734",
+    "notes": "Game is fully playable now but missing metal shining (shaders?) on helmets and some textures on pads/pants",
+    "reports": [
+      {
+        "device": "MacBook Neo 8/512",
+        "platform": "macos",
+        "osVersion": "26.7.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-04",
+        "notes": "Game is fully playable now but missing metal shining (shaders?) on helmets and some textures on pads/pants",
+        "reportedTitleId": "454109EC",
+        "reportedTitle": "NHL Legacy Edition",
+        "screenshots": [],
+        "submittedBy": "saojoao",
+        "source": "github",
+        "build": {
+          "buildId": "macos-release-2.2-11145",
+          "channel": "release",
+          "official": true,
+          "appVersion": "2.2",
+          "buildNumber": "11145"
+        }
+      }
+    ],
     "screenshots": [],
     "summaries": {
       "release": {
         "channel": "release",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "playable",
+        "perf": "great",
+        "notes": "Game is fully playable now but missing metal shining (shaders?) on helmets and some textures on pads/pants",
+        "updatedAt": "2026-11-04",
+        "date": "2026-11-04",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "MacBook Neo 8/512",
+          "platform": "macos",
+          "osVersion": "26.7.2",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-04",
+          "notes": "Game is fully playable now but missing metal shining (shaders?) on helmets and some textures on pads/pants",
+          "reportedTitleId": "454109EC",
+          "reportedTitle": "NHL Legacy Edition",
+          "screenshots": [],
+          "submittedBy": "saojoao",
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-2.2-11145",
+            "channel": "release",
+            "official": true,
+            "appVersion": "2.2",
+            "buildNumber": "11145"
+          }
+        },
+        "bestReport": {
+          "device": "MacBook Neo 8/512",
+          "platform": "macos",
+          "osVersion": "26.7.2",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-04",
+          "notes": "Game is fully playable now but missing metal shining (shaders?) on helmets and some textures on pads/pants",
+          "reportedTitleId": "454109EC",
+          "reportedTitle": "NHL Legacy Edition",
+          "screenshots": [],
+          "submittedBy": "saojoao",
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-2.2-11145",
+            "channel": "release",
+            "official": true,
+            "appVersion": "2.2",
+            "buildNumber": "11145"
+          }
+        }
       },
       "all": {
         "channel": "all",
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "date": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "playable",
+        "perf": "great",
+        "notes": "Game is fully playable now but missing metal shining (shaders?) on helmets and some textures on pads/pants",
+        "updatedAt": "2026-11-04",
+        "date": "2026-11-04",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "MacBook Neo 8/512",
+          "platform": "macos",
+          "osVersion": "26.7.2",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-04",
+          "notes": "Game is fully playable now but missing metal shining (shaders?) on helmets and some textures on pads/pants",
+          "reportedTitleId": "454109EC",
+          "reportedTitle": "NHL Legacy Edition",
+          "screenshots": [],
+          "submittedBy": "saojoao",
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-2.2-11145",
+            "channel": "release",
+            "official": true,
+            "appVersion": "2.2",
+            "buildNumber": "11145"
+          }
+        },
+        "bestReport": {
+          "device": "MacBook Neo 8/512",
+          "platform": "macos",
+          "osVersion": "26.7.2",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-04",
+          "notes": "Game is fully playable now but missing metal shining (shaders?) on helmets and some textures on pads/pants",
+          "reportedTitleId": "454109EC",
+          "reportedTitle": "NHL Legacy Edition",
+          "screenshots": [],
+          "submittedBy": "saojoao",
+          "source": "github",
+          "build": {
+            "buildId": "macos-release-2.2-11145",
+            "channel": "release",
+            "official": true,
+            "appVersion": "2.2",
+            "buildNumber": "11145"
+          }
+        }
       }
     }
   },
@@ -196919,8 +196950,8 @@
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-11-02",
-    "issueNumber": 249,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/249",
+    "issueNumber": 732,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/732",
     "notes": "Não abre o jogo",
     "reports": [
       {
@@ -196944,28 +196975,6 @@
           "stage": "stable",
           "commitShort": "57c3ca140"
         }
-      },
-      {
-        "device": "iPhone 16e",
-        "platform": "ios",
-        "osVersion": "26.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-03-14",
-        "notes": "Just black screen on boot up",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "buildId": "ios-self-built-1.0.1-9288",
-          "channel": "self-built",
-          "official": false,
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "stage": "stable",
-          "commitShort": "056d2f64d"
-        }
       }
     ],
     "screenshots": [],
@@ -196988,7 +196997,7 @@
         "notes": "Não abre o jogo",
         "updatedAt": "2026-11-02",
         "date": "2026-11-02",
-        "reportCount": 2,
+        "reportCount": 1,
         "latestReport": {
           "device": "iPhone 13",
           "platform": "ios",
