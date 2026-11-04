@@ -9,16 +9,10 @@ import {
   type GameReport,
   type PerfTier,
   type Platform,
-  type ReportBuild,
   type ReportSource,
   type SummaryStatus,
   normalizeGames,
 } from "@/lib/compatibility";
-import {
-  getBuildDisplayLabel,
-  getLatestBuild,
-  isRenderableBuild,
-} from "@/lib/builds";
 import {
   ALPHA_BUCKETS,
   CATALOG_BUCKETS,
@@ -35,7 +29,6 @@ import {
   type DiscussionData,
   type DiscussionEntry,
 } from "@/lib/discussions";
-import { matchesPublishedReleaseBuild } from "@/lib/release-build-match";
 
 const STATUS_RANK: Record<GameReport["status"], number> = {
   nothing: 0,
@@ -54,8 +47,6 @@ const SUMMARY_STATUS_RANK: Record<SummaryStatus, number> = {
   playable: 4,
 };
 
-type ActivityTrack = "release" | "preview" | "self-built" | "legacy" | "discussion";
-
 interface LiveGameDetailResponse {
   issueNumber?: number | null;
   issueUrl?: string | null;
@@ -64,27 +55,18 @@ interface LiveGameDetailResponse {
 
 type LiveGamesResponse = Array<unknown>;
 
-interface ReleaseEvidenceSelection {
-  reports: GameReport[];
-  buildLabel: string | null;
-  basis: string;
-  currentBuildKnown: boolean;
-}
-
-export interface ReleaseStatusCard {
+export interface PlatformStatusCard {
   platform: Platform;
   status: SummaryStatus;
   perf: PerfTier;
-  verified: boolean;
+  hasReports: boolean;
   latestReportDate: string | null;
-  buildLabel: string | null;
+  latestBuildLabel: string | null;
   reportCount: number;
-  basis: string;
   variesByDevice: boolean;
   note: string;
   bestObserved: GameReport | null;
   worstObserved: GameReport | null;
-  evidenceKeys: string[];
 }
 
 interface BaseActivityItem {
@@ -99,19 +81,14 @@ export interface ReportActivityItem extends BaseActivityItem {
   kind: "report";
   report: GameReport;
   discussionEntry?: DiscussionEntry;
-  track: Exclude<ActivityTrack, "discussion">;
-  trackLabel: string;
   buildLabel: string | null;
-  isCurrentReleaseEvidence: boolean;
 }
 
 export interface DiscussionActivityItem extends BaseActivityItem {
   kind: "discussion";
   entry: DiscussionEntry;
-  track: "discussion";
-  trackLabel: string;
+  typeLabel: string;
   buildLabel: null;
-  isCurrentReleaseEvidence: false;
 }
 
 export type ActivityItem = ReportActivityItem | DiscussionActivityItem;
@@ -122,7 +99,7 @@ export interface GameDetailViewModel {
   latestActivityDate: string | null;
   totalReportCount: number;
   hiddenReportCount: number;
-  releaseCards: ReleaseStatusCard[];
+  statusCards: PlatformStatusCard[];
   activity: ActivityItem[];
 }
 
@@ -157,7 +134,7 @@ export interface CompatibilityPlatformEntry {
   updatedAt: string;
   observedDevices: string[];
   variesByDevice: boolean;
-  verified: boolean;
+  hasReports: boolean;
 }
 
 export interface CompatibilityDeviceGroup {
@@ -228,7 +205,7 @@ function reportIdentity(report: GameReport): string {
     report.device,
     report.status,
     report.perf ?? "unknown",
-    report.build?.buildId ?? "",
+    report.build?.appVersion ?? "",
     report.build?.buildNumber ?? "",
     report.build?.commitShort ?? "",
     report.notes,
@@ -341,66 +318,6 @@ function partitionReportsByMetadata(reports: GameReport[]): {
   }
 
   return { valid, hidden };
-}
-
-function getBuildFingerprint(build?: ReportBuild | null): string | null {
-  if (!build) return null;
-
-  const parts = [
-    build.buildId,
-    build.appVersion,
-    build.buildNumber,
-    build.stage,
-    build.commitShort,
-  ].filter((entry): entry is string => Boolean(entry));
-
-  return parts.length > 0 ? parts.join("|").toLowerCase() : null;
-}
-
-function reportMatchesCurrentBuild(
-  report: GameReport,
-  platform: Platform,
-): { matches: boolean; buildLabel: string | null } {
-  const currentBuild = getLatestBuild(platform, "release");
-  if (!isRenderableBuild(currentBuild)) {
-    return { matches: false, buildLabel: null };
-  }
-
-  const reportBuild = report.build;
-  if (!reportBuild) {
-    return {
-      matches: false,
-      buildLabel: getBuildDisplayLabel(currentBuild),
-    };
-  }
-
-  return {
-    matches: matchesPublishedReleaseBuild(reportBuild, currentBuild),
-    buildLabel: getBuildDisplayLabel(currentBuild),
-  };
-}
-
-function getActivityTrack(report: GameReport): {
-  track: Exclude<ActivityTrack, "discussion">;
-  trackLabel: string;
-  affectsRelease: boolean;
-} {
-  if (report.build?.channel === "preview") {
-    return { track: "preview", trackLabel: "Preview", affectsRelease: false };
-  }
-  if (
-    (report.build?.channel === "self-built" || report.build?.official === false) &&
-    reportMatchesCurrentBuild(report, report.platform).matches
-  ) {
-    return { track: "release", trackLabel: "Release Match", affectsRelease: true };
-  }
-  if (report.build?.channel === "self-built" || report.build?.official === false) {
-    return { track: "self-built", trackLabel: "Self-built", affectsRelease: false };
-  }
-  if (report.build?.channel === "release") {
-    return { track: "release", trackLabel: "Release", affectsRelease: true };
-  }
-  return { track: "legacy", trackLabel: "Legacy Release", affectsRelease: true };
 }
 
 function compareActivityByDate(left: ActivityItem, right: ActivityItem): number {
@@ -611,7 +528,7 @@ function buildHistoryPlatformEntry(
     updatedAt,
     observedDevices,
     variesByDevice,
-    verified: platformReports.length > 0,
+    hasReports: platformReports.length > 0,
   };
 }
 
@@ -644,77 +561,6 @@ function discussionMatchesReport(entry: DiscussionEntry, report: GameReport): bo
     reportNotes.startsWith(entryExcerpt) ||
     entryExcerpt.startsWith(reportNotes)
   );
-}
-
-function selectNewestExplicitReleaseGroup(reports: GameReport[]): GameReport[] {
-  const groups = new Map<string, GameReport[]>();
-
-  for (const report of reports) {
-    const fingerprint = getBuildFingerprint(report.build);
-    if (!fingerprint) continue;
-    const existing = groups.get(fingerprint) ?? [];
-    existing.push(report);
-    groups.set(fingerprint, existing);
-  }
-
-  let newestGroup: GameReport[] = [];
-  let newestTime = 0;
-  for (const group of groups.values()) {
-    const groupNewestTime = Math.max(...group.map((report) => parseDateValue(report.date)));
-    if (groupNewestTime > newestTime) {
-      newestTime = groupNewestTime;
-      newestGroup = group;
-    }
-  }
-
-  return [...newestGroup].sort(compareReportsByDate);
-}
-
-function selectReleaseEvidence(
-  platform: Platform,
-  reports: GameReport[],
-): ReleaseEvidenceSelection {
-  const platformReports = reports.filter((report) => report.platform === platform);
-  const releaseLikeReports = platformReports.filter(
-    (report) => getActivityTrack(report).affectsRelease,
-  );
-
-  const currentBuild = getLatestBuild(platform, "release");
-  if (isRenderableBuild(currentBuild)) {
-    const matchedReports = releaseLikeReports.filter(
-      (report) => reportMatchesCurrentBuild(report, platform).matches,
-    );
-    return {
-      reports: matchedReports,
-      buildLabel: getBuildDisplayLabel(currentBuild),
-      basis: "Current official release",
-      currentBuildKnown: true,
-    };
-  }
-
-  const explicitReleaseReports = releaseLikeReports.filter(
-    (report) =>
-      report.build?.channel === "release" &&
-      report.build?.official !== false &&
-      Boolean(getBuildFingerprint(report.build)),
-  );
-  if (explicitReleaseReports.length > 0) {
-    const latestGroup = selectNewestExplicitReleaseGroup(explicitReleaseReports);
-    return {
-      reports: latestGroup,
-      buildLabel: formatReportBuildLabel(latestGroup[0]?.build ?? null),
-      basis: "Latest official release reports",
-      currentBuildKnown: false,
-    };
-  }
-
-  const legacyReleaseReports = releaseLikeReports.filter((report) => !report.build);
-  return {
-    reports: legacyReleaseReports,
-    buildLabel: null,
-    basis: "Legacy release-track reports",
-    currentBuildKnown: false,
-  };
 }
 
 function selectPlatformsForListEntry(
@@ -753,7 +599,7 @@ function selectPrimaryListPlatformEntry(
   const priority = (entry: CompatibilityPlatformEntry): number => {
     let score = 0;
     if (entry.platform === "ios") score += 100;
-    if (entry.verified) score += 10;
+    if (entry.hasReports) score += 10;
     if (entry.variesByDevice) score -= 1;
     return score;
   };
@@ -775,40 +621,33 @@ function derivePublicStatus(reports: GameReport[]): SummaryStatus {
   return bestStatus;
 }
 
-function buildReleaseNote(
-  selection: ReleaseEvidenceSelection,
+function buildStatusNote(
   publicStatus: SummaryStatus,
   variesByDevice: boolean,
-  platformReports: GameReport[],
+  reportCount: number,
 ): string {
-  if (selection.reports.length === 0) {
-    if (selection.currentBuildKnown) {
-      return "No reports yet for the current official release. Preview, self-built, and non-matching local reports below do not affect the public verdict.";
-    }
-    if (platformReports.length > 0) {
-      return "Only preview, non-matching local, or older legacy reports are available right now. There is not enough matched evidence for the published release yet.";
-    }
+  if (reportCount === 0) {
     return "No reports have been submitted for this platform yet.";
   }
 
   if (variesByDevice) {
-    return "Device results vary on the release track. Playable is reserved for consistent playthrough-quality reports, so mixed outcomes stay conservative.";
+    return "Results vary by device. Playable is reserved for consistent playthrough-quality reports, so mixed outcomes stay conservative.";
   }
 
   if (publicStatus === "playable") {
-    return "Current release reports consistently indicate playthrough-quality results on the reported devices.";
+    return "Reports consistently indicate playthrough-quality results on the reported devices.";
   }
 
-  return "Current release verdict is based on the current published release. Preview, self-built, and non-matching local activity appears below for context.";
+  return "Status reflects every report submitted for this platform.";
 }
 
-function buildReleaseCard(
+function buildPlatformStatusCard(
   platform: Platform,
   reports: GameReport[],
-): ReleaseStatusCard {
-  const selection = selectReleaseEvidence(platform, reports);
-  const platformReports = reports.filter((report) => report.platform === platform);
-  const sortedEvidence = [...selection.reports].sort(compareReportsByDate);
+): PlatformStatusCard {
+  const sortedEvidence = reports
+    .filter((report) => report.platform === platform)
+    .sort(compareReportsByDate);
   const publicStatus = derivePublicStatus(sortedEvidence);
   const bestObserved =
     sortedEvidence.length > 0
@@ -822,21 +661,23 @@ function buildReleaseCard(
   const variesByDevice = statusSet.size > 1;
   const latestReportDate = sortedEvidence[0]?.date ?? null;
   const perf = derivePublicPerf(sortedEvidence, publicStatus);
+  const latestBuildLabel =
+    sortedEvidence
+      .map((report) => formatReportBuildLabel(report.build ?? null))
+      .find((label): label is string => Boolean(label)) ?? null;
 
   return {
     platform,
     status: publicStatus,
     perf,
-    verified: sortedEvidence.length > 0,
+    hasReports: sortedEvidence.length > 0,
     latestReportDate,
-    buildLabel: selection.buildLabel,
+    latestBuildLabel,
     reportCount: sortedEvidence.length,
-    basis: selection.basis,
     variesByDevice,
-    note: buildReleaseNote(selection, publicStatus, variesByDevice, platformReports),
+    note: buildStatusNote(publicStatus, variesByDevice, sortedEvidence.length),
     bestObserved,
     worstObserved,
-    evidenceKeys: sortedEvidence.map((report) => reportIdentity(report)),
   };
 }
 
@@ -873,15 +714,15 @@ function selectPlatformsForCards(game: Game, reports: GameReport[]): Platform[] 
   return fallback.length > 0 ? fallback : ["ios"];
 }
 
-export function selectPrimaryReleaseCard(
-  cards: ReleaseStatusCard[],
-): ReleaseStatusCard | null {
+export function selectPrimaryStatusCard(
+  cards: PlatformStatusCard[],
+): PlatformStatusCard | null {
   if (cards.length === 0) return null;
 
-  const priority = (card: ReleaseStatusCard): number => {
+  const priority = (card: PlatformStatusCard): number => {
     let score = 0;
     if (card.platform === "ios") score += 100;
-    if (card.verified) score += 10;
+    if (card.hasReports) score += 10;
     if (card.variesByDevice) score -= 1;
     return score;
   };
@@ -923,7 +764,7 @@ function buildCompatibilityListEntry(
     historyPlatforms,
     deviceLabel: primaryPlatformEntry?.variesByDevice
       ? "Varies by device"
-      : observedDevices[0] ?? "Unverified",
+      : observedDevices[0] ?? "No reports",
     observedDevices,
     variesByDevice: primaryPlatformEntry?.variesByDevice ?? false,
     hiddenReportCount,
@@ -1238,7 +1079,6 @@ function mergeCompatibilityGames(existing: Game, incoming: Game): Game {
     mergedRecord.updatedAt = metadataSource.updatedAt;
     mergedRecord.notes = metadataSource.notes;
     mergedRecord.lastReport = metadataSource.lastReport;
-    mergedRecord.summaries = metadataSource.summaries;
   }
 
   return normalizeGames([mergedRecord])[0] ?? canonical;
@@ -1403,14 +1243,10 @@ export async function getGameDetailViewModel(
 
   const platforms = selectPlatformsForCards(game, reports);
 
-  const releaseCards = platforms.map((platform) => buildReleaseCard(platform, reports));
-  const currentReleaseEvidenceKeys = new Set(
-    releaseCards.flatMap((card) => card.evidenceKeys),
-  );
+  const statusCards = platforms.map((platform) => buildPlatformStatusCard(platform, reports));
   const matchedDiscussionIds = new Set<string>();
 
   const reportActivity = reports.map((report) => {
-    const track = getActivityTrack(report);
     const id = reportIdentity(report);
     const matchedDiscussionEntry = (discussion?.entries ?? []).find((entry) => {
       if (matchedDiscussionIds.has(entry.id)) return false;
@@ -1425,11 +1261,8 @@ export async function getGameDetailViewModel(
       kind: "report",
       report,
       discussionEntry: matchedDiscussionEntry,
-      track: track.track,
-      trackLabel: track.trackLabel,
       sourceLabel: getSourceLabel(report.source),
       buildLabel: formatReportBuildLabel(report.build ?? null),
-      isCurrentReleaseEvidence: currentReleaseEvidenceKeys.has(id),
     } satisfies ReportActivityItem;
   });
 
@@ -1442,11 +1275,9 @@ export async function getGameDetailViewModel(
       dateMs: entry.createdAtMs || parseDateValue(entry.createdAt),
       kind: "discussion",
       entry,
-      track: "discussion",
-      trackLabel: entry.type === "issue" ? "GitHub Issue" : "GitHub Comment",
+      typeLabel: entry.type === "issue" ? "GitHub Issue" : "GitHub Comment",
       sourceLabel: "GitHub",
       buildLabel: null,
-      isCurrentReleaseEvidence: false,
     } satisfies DiscussionActivityItem;
   });
 
@@ -1464,7 +1295,7 @@ export async function getGameDetailViewModel(
     latestActivityDate: activity[0]?.date ?? null,
     totalReportCount: reports.length + hidden.length,
     hiddenReportCount: hidden.length,
-    releaseCards,
+    statusCards,
     activity,
   };
 }

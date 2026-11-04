@@ -118,7 +118,7 @@ function parseDateValue(value?: string | null): number {
 }
 
 function formatDateLabel(value?: string | null): string {
-  if (!value) return "Unverified";
+  if (!value) return "No reports";
 
   const parsed = new Date(value);
   if (Number.isNaN(parsed.getTime())) {
@@ -246,7 +246,7 @@ function hasPlatformVariance(entry: DisplayEntry): boolean {
 
 function observedDevicesLabel(observedDevices: string[], variesByDevice: boolean): string {
   if (observedDevices.length === 0) {
-    return "Unverified";
+    return "No reports";
   }
 
   if (!variesByDevice) {
@@ -478,7 +478,7 @@ function buildCatalogSearchPlatformEntry(
     updatedAt: reports[0]?.date ?? "",
     observedDevices,
     variesByDevice: new Set(reports.map((report) => report.status)).size > 1,
-    verified: true,
+    hasReports: true,
   };
 }
 
@@ -490,7 +490,7 @@ function selectPrimaryCatalogSearchPlatformEntry(
   const priority = (entry: CompatibilityPlatformEntry): number => {
     let score = 0;
     if (entry.platform === "ios") score += 100;
-    if (entry.verified) score += 10;
+    if (entry.hasReports) score += 10;
     if (entry.variesByDevice) score -= 1;
     return score;
   };
@@ -557,7 +557,7 @@ function GameRow({
               </Pill>
             ))
           ) : (
-            <Pill variant="untested">Unverified</Pill>
+            <Pill variant="untested">Untested</Pill>
           )}
         </div>
       </td>
@@ -615,7 +615,7 @@ function GameCard({
             </Pill>
           ))
         ) : (
-          <Pill variant="untested">Unverified</Pill>
+          <Pill variant="untested">Untested</Pill>
         )}
         <Pill variant={projection.perf}>{getPerfLabel(projection.perf)}</Pill>
         {projection.variesByDevice ? <Pill variant="tag">Varies by device</Pill> : null}
@@ -903,7 +903,7 @@ export function CompatibilityList({
           </div>
 
           <p className="mt-4 max-w-3xl text-sm leading-relaxed text-text-muted">
-            Detail pages still highlight the latest official release when that evidence exists.
+            Status reflects every report for a title, whatever XeniOS version it was tested on.
             The tested view includes any title with reports or GitHub discussion history, while
             the catalog keeps untested placeholders in A-Z buckets so browsing does not flood a
             single page.

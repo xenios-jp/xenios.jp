@@ -234,43 +234,26 @@ function normalizeGpuBackend(value) {
   return null;
 }
 
-function normalizeBuildChannel(value) {
-  const cleaned = cleanString(value).toLowerCase();
-  if (cleaned === "release") return "release";
-  if (cleaned === "preview") return "preview";
-  if (cleaned === "self-built" || cleaned === "self built") return "self-built";
-  return null;
-}
-
 function cleanCommitShort(value) {
   const cleaned = cleanString(value).replace(/`/g, "");
   if (!cleaned || cleaned.toLowerCase() === "_no response_") return undefined;
   return cleaned;
 }
 
+// A build is { appVersion, buildNumber, commitShort? }, shown as "2.2 (11357)".
+// Anything else a stored report carries (channel, official, buildId, stage,
+// ...) is dropped, and a build without both version fields is dropped.
 function normalizeReportBuild(value) {
   if (!value || typeof value !== "object" || Array.isArray(value)) {
     return undefined;
   }
 
-  const channel = normalizeBuildChannel(value.channel);
-  const build = {
-    buildId: cleanString(value.buildId) || undefined,
-    channel: channel ?? undefined,
-    official:
-      typeof value.official === "boolean"
-        ? value.official
-        : channel
-          ? channel !== "self-built"
-          : undefined,
-    appVersion: cleanString(value.appVersion) || undefined,
-    buildNumber: cleanString(value.buildNumber) || undefined,
-    stage: cleanString(value.stage) || undefined,
-    commitShort: cleanCommitShort(value.commitShort),
-    publishedAt: cleanString(value.publishedAt) || undefined,
-  };
+  const appVersion = cleanString(value.appVersion);
+  const buildNumber = cleanString(value.buildNumber);
+  if (!appVersion || !buildNumber) return undefined;
 
-  return Object.values(build).some((entry) => entry !== undefined) ? build : undefined;
+  const commitShort = cleanCommitShort(value.commitShort);
+  return commitShort ? { appVersion, buildNumber, commitShort } : { appVersion, buildNumber };
 }
 
 function normalizeReport(value) {
@@ -320,7 +303,7 @@ function reportIdentity(report) {
     report.device,
     report.status,
     report.perf ?? "unknown",
-    report.build?.buildId ?? "",
+    report.build?.appVersion ?? "",
     report.build?.buildNumber ?? "",
     report.build?.commitShort ?? "",
     report.notes,
@@ -352,55 +335,53 @@ function snapshotFromReport(report) {
   };
 }
 
-function summarizeReports(reports, channel) {
+// Same shape as the compat worker's summaries.all: one summary over every
+// report, with the best report's device / platform / osVersion / arch /
+// gpuBackend / build repeated at the top level.
+function summarizeReports(reports) {
   if (reports.length === 0) {
     return {
-      channel,
       status: "untested",
       perf: null,
       notes: "",
       updatedAt: null,
-      date: null,
       reportCount: 0,
       latestReport: null,
       bestReport: null,
     };
   }
 
-  const sortedByQuality = [...reports].sort(compareReports);
-  const bestReport = sortedByQuality[0] ?? null;
-  const newestReport =
+  const bestReport = [...reports].sort(compareReports)[0] ?? null;
+  const latestReport =
     [...reports].sort((left, right) => right.date.localeCompare(left.date))[0] ?? null;
   const perf =
     bestReport?.perf ??
     (bestReport?.status === "nothing" ? "n/a" : null);
 
   return {
-    channel,
     status: bestReport?.status ?? "untested",
     perf,
     notes: bestReport?.notes ?? "",
-    updatedAt: newestReport?.date ?? null,
-    date: newestReport?.date ?? null,
+    updatedAt: latestReport?.date ?? null,
     reportCount: reports.length,
-    latestReport: newestReport,
+    latestReport,
     bestReport,
+    ...(bestReport
+      ? {
+          device: bestReport.device,
+          platform: bestReport.platform,
+          osVersion: bestReport.osVersion,
+          arch: bestReport.arch,
+          gpuBackend: bestReport.gpuBackend,
+          ...(bestReport.build ? { build: bestReport.build } : {}),
+        }
+      : {}),
   };
 }
 
 function buildSummaries(reports) {
   const normalizedReports = dedupeReports(reports.map((report) => normalizeReport(report)).filter(Boolean));
-  const hasChannelMetadata = normalizedReports.some((report) => Boolean(report.build?.channel));
-  const releaseReports = hasChannelMetadata
-    ? normalizedReports.filter(
-        (report) => report.build?.channel === "release" || !report.build?.channel,
-      )
-    : normalizedReports;
-
-  return {
-    release: summarizeReports(releaseReports, "release"),
-    all: summarizeReports(normalizedReports, "all"),
-  };
+  return { all: summarizeReports(normalizedReports) };
 }
 
 function isGenericGameTitle(title) {
@@ -556,7 +537,6 @@ function parseIssueLabels(issue) {
     perf: normalizePerf(labelValue("perf:")),
     platform: normalizePlatform(labelValue("platform:")),
     gpuBackend: normalizeGpuBackend(labelValue("gpu:")),
-    buildChannel: normalizeBuildChannel(labelValue("channel:")),
   };
 }
 
@@ -592,10 +572,6 @@ function parseIssueReport(issue, titleId) {
     normalizePerf(getSection(body, "Performance")) ??
     labels.perf ??
     undefined;
-  const buildChannel =
-    normalizeBuildChannel(getSection(body, "Build Channel")) ??
-    labels.buildChannel ??
-    undefined;
   const buildNumber = cleanString(getSection(body, "Build Number")) || undefined;
   const issueVersion = cleanString(getSection(body, "XeniOS Version"));
   let appVersion = issueVersion || undefined;
@@ -611,21 +587,7 @@ function parseIssueReport(issue, titleId) {
   }
 
   const build =
-    buildChannel || appVersion || buildNumber || commitShort
-      ? {
-          buildId:
-            appVersion || buildNumber || buildChannel
-              ? [platform, buildChannel ?? "release", appVersion, buildNumber]
-                  .filter(Boolean)
-                  .join("-")
-              : undefined,
-          channel: buildChannel,
-          official: buildChannel ? buildChannel !== "self-built" : undefined,
-          appVersion,
-          buildNumber,
-          commitShort,
-        }
-      : undefined;
+    appVersion && buildNumber ? { appVersion, buildNumber, commitShort } : undefined;
 
   return normalizeReport({
     device,

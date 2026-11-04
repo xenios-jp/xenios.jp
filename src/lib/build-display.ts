@@ -1,6 +1,5 @@
 export type DisplayBuildPlatform = "ios" | "macos";
 export type DisplayBuildArchitecture = "arm64" | "x86_64" | "universal";
-export type DisplayBuildChannel = "release" | "preview" | "self-built";
 export type DisplayBuildStage = "alpha" | "beta" | "rc" | "stable";
 
 export interface DisplayBuildLike {
@@ -8,8 +7,6 @@ export interface DisplayBuildLike {
   appVersion?: string;
   buildNumber?: string;
   buildId?: string;
-  channel?: string;
-  stage?: string;
 }
 
 export interface DisplayArtifactLike {
@@ -29,15 +26,6 @@ export function normalizeBuildArchitecture(
   return undefined;
 }
 
-export function normalizeBuildChannel(
-  value: unknown,
-): DisplayBuildChannel | undefined {
-  if (value === "release" || value === "preview" || value === "self-built") {
-    return value;
-  }
-  return undefined;
-}
-
 export function normalizeBuildStage(
   value: unknown,
 ): DisplayBuildStage | undefined {
@@ -45,19 +33,6 @@ export function normalizeBuildStage(
     return value;
   }
   return undefined;
-}
-
-export function getBuildStageDisplayLabel(stage?: string): string | null {
-  switch (normalizeBuildStage(stage)) {
-    case "alpha":
-      return "Alpha";
-    case "beta":
-      return "Beta";
-    case "rc":
-      return "RC";
-    default:
-      return null;
-  }
 }
 
 export function getArchitectureDisplayLabel(
@@ -78,25 +53,14 @@ export function getArchitectureDisplayLabel(
   return "Universal";
 }
 
+// Builds are shown by version alone, e.g. "2.2 (11357)".
 export function getBuildDisplayLabel(build: DisplayBuildLike): string {
   if (build.label) return build.label;
 
-  const versionLabel = build.appVersion
-    ? build.buildNumber
+  if (build.appVersion) {
+    return build.buildNumber
       ? `${build.appVersion} (${build.buildNumber})`
-      : build.appVersion
-    : null;
-  const stageLabel = getBuildStageDisplayLabel(build.stage);
-  const channel = normalizeBuildChannel(build.channel);
-
-  if (versionLabel) {
-    if (channel === "preview") {
-      return stageLabel ? `${stageLabel} Preview ${versionLabel}` : `Preview ${versionLabel}`;
-    }
-    if (stageLabel) {
-      return `${stageLabel} ${versionLabel}`;
-    }
-    return versionLabel;
+      : build.appVersion;
   }
 
   if (build.buildId) return build.buildId;

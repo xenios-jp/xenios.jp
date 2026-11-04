@@ -119,7 +119,7 @@ function buildPlatformEntry(game, platform) {
     updatedAt: cleanString(reports[0]?.date),
     observedDevices,
     variesByDevice: new Set(reports.map((report) => normalizeStatus(report?.status))).size > 1,
-    verified: true,
+    hasReports: true,
   };
 }
 
@@ -129,7 +129,7 @@ function selectPrimaryPlatformEntry(entries) {
   const priority = (entry) => {
     let score = 0;
     if (entry.platform === "ios") score += 100;
-    if (entry.verified) score += 10;
+    if (entry.hasReports) score += 10;
     if (entry.variesByDevice) score -= 1;
     return score;
   };

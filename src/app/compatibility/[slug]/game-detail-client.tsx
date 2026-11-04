@@ -2,7 +2,6 @@ import Link from "next/link";
 import { Pill } from "@/components/pill";
 import {
   deviceName,
-  formatReportBuildLabel,
   getGpuLabel,
   getPerfLabel,
   getPlatformLabel,
@@ -12,12 +11,12 @@ import {
 import type {
   ActivityItem,
   GameDetailViewModel,
-  ReleaseStatusCard,
+  PlatformStatusCard,
 } from "@/lib/game-detail";
 import { COMPATIBILITY_TRACKER_REPORT_URL } from "@/lib/constants";
 
 function formatDateLabel(value?: string | null): string {
-  if (!value) return "Not yet verified";
+  if (!value) return "No reports yet";
 
   const parsed = new Date(value);
   if (Number.isNaN(parsed.getTime())) {
@@ -32,27 +31,15 @@ function formatDateLabel(value?: string | null): string {
   });
 }
 
-function releaseCardHeadline(card: ReleaseStatusCard): string {
-  if (!card.verified) {
-    return card.buildLabel
-      ? `${getPlatformLabel(card.platform)} release has no matched reports yet`
-      : `${getPlatformLabel(card.platform)} release reports have no matched evidence yet`;
+function statusCardHeadline(card: PlatformStatusCard): string {
+  if (!card.hasReports) {
+    return `No ${getPlatformLabel(card.platform)} reports yet`;
   }
 
-  return `${getStatusLabel(card.status)} on the release track`;
+  return `${getStatusLabel(card.status)} on ${getPlatformLabel(card.platform)}`;
 }
 
-function activityRoleLabel(item: ActivityItem): string {
-  if (item.isCurrentReleaseEvidence) {
-    return "Included in the current release verdict.";
-  }
-  if (item.track === "preview" || item.track === "self-built") {
-    return "Context only. Preview, self-built, and non-matching local reports do not change the public release verdict.";
-  }
-  return "Historical release-track report retained for context.";
-}
-
-function observedRange(card: ReleaseStatusCard): string | null {
+function observedRange(card: PlatformStatusCard): string | null {
   if (!card.bestObserved || !card.worstObserved) {
     return null;
   }
@@ -148,22 +135,22 @@ function discussionMetaSummary(item: Extract<ActivityItem, { kind: "discussion" 
   return parts.join(" · ");
 }
 
-function ReleaseStatusSection({
+function StatusSection({
   cards,
   latestActivityDate,
 }: {
-  cards: ReleaseStatusCard[];
+  cards: PlatformStatusCard[];
   latestActivityDate: string | null;
 }) {
   return (
     <section className="rounded-xl border border-border bg-bg-surface p-8">
       <div className="flex flex-wrap items-center justify-between gap-3">
         <div>
-          <h2 className="text-xl font-semibold text-text-primary">Current Release Status</h2>
+          <h2 className="text-xl font-semibold text-text-primary">Compatibility Status</h2>
           <p className="mt-1 text-[15px] leading-relaxed text-text-muted">
-            Public status stays conservative and only uses evidence that matches the current
-            published release. Preview, self-built, and non-matching local activity appears
-            below for context.
+            Status is based on every report for each platform and stays conservative when
+            results differ between devices. Each report lists the XeniOS version it was tested
+            on.
           </p>
         </div>
         <div className="text-sm text-text-muted">
@@ -179,32 +166,33 @@ function ReleaseStatusSection({
           >
             <div className="flex flex-wrap items-center gap-2">
               <Pill variant={card.platform}>{getPlatformLabel(card.platform)}</Pill>
-              <Pill variant={card.verified ? card.status : "untested"}>
-                {card.verified ? getStatusLabel(card.status) : "Unverified"}
+              <Pill variant={card.hasReports ? card.status : "untested"}>
+                {getStatusLabel(card.hasReports ? card.status : "untested")}
               </Pill>
               {card.variesByDevice ? <Pill variant="tag">Varies by device</Pill> : null}
             </div>
 
             <h3 className="mt-4 text-lg font-semibold text-text-primary">
-              {releaseCardHeadline(card)}
+              {statusCardHeadline(card)}
             </h3>
-            <p className="mt-1 text-sm text-text-muted">{card.basis}</p>
 
             <dl className="mt-5 grid gap-4 text-sm md:grid-cols-2">
               <div>
-                <dt className="text-text-muted">Latest verified</dt>
+                <dt className="text-text-muted">Latest report</dt>
                 <dd className="mt-1 text-text-primary">
                   {formatDateLabel(card.latestReportDate)}
                 </dd>
               </div>
               <div>
-                <dt className="text-text-muted">Evidence count</dt>
+                <dt className="text-text-muted">Reports</dt>
                 <dd className="mt-1 text-text-primary">{card.reportCount}</dd>
               </div>
-              <div className="md:col-span-2">
-                <dt className="text-text-muted">Build basis</dt>
-                <dd className="mt-1 text-text-primary">{card.buildLabel ?? card.basis}</dd>
-              </div>
+              {card.latestBuildLabel ? (
+                <div className="md:col-span-2">
+                  <dt className="text-text-muted">Latest build reported</dt>
+                  <dd className="mt-1 text-text-primary">{card.latestBuildLabel}</dd>
+                </div>
+              ) : null}
               {card.bestObserved ? (
                 <div>
                   <dt className="text-text-muted">Best observed</dt>
@@ -255,7 +243,7 @@ function ActivityFeed({
         <div>
           <h2 className="text-xl font-semibold text-text-primary">Recent Activity</h2>
           <p className="mt-1 text-[15px] leading-relaxed text-text-muted">
-            One unified report stream across release, preview, and self-built testing.
+            Every report and GitHub thread entry for this title, newest first.
           </p>
           {hiddenReportCount > 0 ? (
             <p className="mt-2 text-sm text-text-muted">
@@ -314,7 +302,7 @@ function ActivityFeed({
                           {getPlatformLabel(discussionPlatform)}
                         </Pill>
                       ) : null}
-                      <Pill variant="tag">{item.trackLabel}</Pill>
+                      <Pill variant="tag">{item.typeLabel}</Pill>
                       <Pill variant="tag">{item.sourceLabel}</Pill>
                     </div>
                     <span className="text-sm text-text-muted">
@@ -365,17 +353,12 @@ function ActivityFeed({
                     <Pill variant={item.report.platform}>
                       {getPlatformLabel(item.report.platform)}
                     </Pill>
-                    <Pill variant={item.track === "legacy" ? "tag" : item.track}>
-                      {item.trackLabel}
-                    </Pill>
                     <Pill variant="tag">{item.sourceLabel}</Pill>
                   </div>
                   <span className="text-sm text-text-muted">
                     {formatDateLabel(item.date)}
                   </span>
                 </div>
-
-                <p className="mt-3 text-sm text-text-muted">{activityRoleLabel(item)}</p>
 
                 <dl className="mt-4 grid gap-4 text-sm md:grid-cols-2">
                   <div>
@@ -395,7 +378,7 @@ function ActivityFeed({
                   <div>
                     <dt className="text-text-muted">Build</dt>
                     <dd className="mt-1 text-text-primary">
-                      {item.buildLabel ?? formatReportBuildLabel(item.report.build) ?? "Unlabeled"}
+                      {item.buildLabel ?? "Unknown"}
                     </dd>
                   </div>
                 </dl>
@@ -478,18 +461,13 @@ export function GameDetailClient({
             </div>
           </div>
 
-          <p className="mt-5 max-w-3xl text-[15px] leading-relaxed text-text-muted">
-            Public compatibility status tracks the latest official release only. Preview,
-            self-built, and local builds that do not match that release stay in the activity feed
-            so they do not overwrite the release verdict.
-          </p>
         </div>
       </section>
 
       <div className="mx-auto max-w-5xl px-4 py-6 sm:px-6 md:py-8 lg:px-8">
         <div className="flex flex-col gap-8">
-          <ReleaseStatusSection
-            cards={detail.releaseCards}
+          <StatusSection
+            cards={detail.statusCards}
             latestActivityDate={detail.latestActivityDate}
           />
 

@@ -416,8 +416,9 @@ const games = [
     content: (
       <div className="space-y-2">
         <p>
-          Compatibility status is derived from reports on the current release or
-          tracked activity. Results can vary by platform and device.
+          Compatibility status is derived from every submitted report. Each
+          report lists the XeniOS version it was tested on, such as 2.2 (11357).
+          Results can vary by version, platform, and device.
         </p>
         <ul className="list-disc pl-5 space-y-1">
           <li>

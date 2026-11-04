@@ -94,7 +94,7 @@ function buildMarkdown(games, deviceNames) {
         .join(", ");
       const lastDevice = game.lastReport?.device
         ? deviceNameFor(game.lastReport.device)
-        : "Unverified";
+        : "—";
       const updatedAt = game.updatedAt || "—";
       return `| ${statusEmoji[game.status]} | ${game.title} | \`${game.titleId}\` | ${platforms || "—"} | ${statusLabel[game.status]} | ${perfLabel[game.perf] || game.perf} | ${lastDevice} | ${updatedAt} |`;
     })

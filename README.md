@@ -42,7 +42,7 @@ npm run dev
 - `src/app` - routes and page layouts
 - `src/components` - shared UI components
 - `src/lib` - constants and data logic
-- `data/compatibility.json` - compatibility dataset
+- `data/compatibility.json` - compatibility dataset; each report records the XeniOS version and build number it was tested on, shown as e.g. `2.2 (11357)`
 - `data/discussions.json` - cached discussion snapshot for compatibility pages
 - `data/credits.json` - scheduled credits snapshot
 - `data/xenia-upstream-license.txt` - vendored upstream license text

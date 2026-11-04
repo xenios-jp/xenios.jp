@@ -3,16 +3,16 @@ import "server-only";
 import { cache } from "react";
 import { existsSync, readFileSync } from "node:fs";
 import path from "node:path";
-import type { Architecture, Platform, ReportBuildChannel } from "@/lib/compatibility";
+import type { Architecture, Platform } from "@/lib/compatibility";
 import {
   getArtifactLabel,
   getBuildDisplayLabel,
-  normalizeBuildChannel,
   normalizeBuildArchitecture,
   normalizeBuildStage,
 } from "@/lib/build-display";
 
-export type BuildChannel = Extract<ReportBuildChannel, "release" | "preview">;
+// Published download tracks in release-builds.json, not a property of reports.
+export type BuildChannel = "release" | "preview";
 export type BuildHistoryFilter = BuildChannel | "all";
 
 export interface PublicBuildArtifact {
@@ -31,7 +31,6 @@ export interface PublicBuildArtifact {
 export interface PublicBuildEntry {
   buildId?: string;
   channel?: BuildChannel;
-  official?: boolean;
   appVersion?: string;
   buildNumber?: string;
   stage?: "alpha" | "beta" | "rc" | "stable";
@@ -89,13 +88,8 @@ function cleanNumber(value: unknown): number | undefined {
   return undefined;
 }
 
-function cleanBoolean(value: unknown): boolean | undefined {
-  return typeof value === "boolean" ? value : undefined;
-}
-
 function normalizeChannel(value: unknown): BuildChannel | undefined {
-  const channel = normalizeBuildChannel(value);
-  return channel === "release" || channel === "preview" ? channel : undefined;
+  return value === "release" || value === "preview" ? value : undefined;
 }
 
 function normalizePlatform(value: unknown): Platform | undefined {
@@ -156,7 +150,6 @@ function normalizeBuildEntry(
   const build: PublicBuildEntry = {
     buildId: cleanString(record.buildId),
     channel: normalizeChannel(record.channel) ?? fallbackChannel,
-    official: cleanBoolean(record.official),
     appVersion: cleanString(record.appVersion),
     buildNumber: cleanString(record.buildNumber),
     stage: normalizeBuildStage(record.stage),
