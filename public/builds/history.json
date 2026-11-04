@@ -1,6 +1,68 @@
 {
-  "generatedAt": "2026-06-19T01:56:15Z",
+  "generatedAt": "2026-11-04T16:21:40Z",
   "builds": [
+    {
+      "buildId": "ios-release-2.2-11445",
+      "channel": "release",
+      "official": true,
+      "appVersion": "2.2",
+      "buildNumber": "11445",
+      "stage": "stable",
+      "commitShort": "b0efa167c",
+      "publishedAt": "2026-11-04T15:34:43Z",
+      "label": "2.2-11445",
+      "notes": "Official CI release build published from xenios-jp/XeniOS.",
+      "sourceLabel": "GitHub Release",
+      "sourceUrl": "https://github.com/xenios-jp/XeniOS/releases/tag/release-v2.2-build-11445",
+      "artifacts": [
+        {
+          "id": "ios-arm64-ipa-xenios-ios-iphone-ipad-ipa",
+          "name": "XeniOS for iPhone / iPad",
+          "label": "iPhone / iPad (IPA)",
+          "platform": "ios",
+          "arch": "arm64",
+          "kind": "ipa",
+          "downloadUrl": "https://github.com/xenios-jp/XeniOS/releases/download/release-v2.2-build-11445/xenios_ios_iphone_ipad.ipa",
+          "sha256": "544e591c01da4077aefbefa75aca82d7a1033ff5728be5ccfc682d4b4dc17508",
+          "sizeBytes": 48315034,
+          "sizeLabel": "46 MB"
+        }
+      ],
+      "platform": "ios",
+      "id": "ios-release-ios-release-2.2-11445",
+      "submittedBy": "GitHub Actions"
+    },
+    {
+      "buildId": "macos-release-2.2-11445",
+      "channel": "release",
+      "official": true,
+      "appVersion": "2.2",
+      "buildNumber": "11445",
+      "stage": "stable",
+      "commitShort": "b0efa167c",
+      "publishedAt": "2026-11-04T15:34:43Z",
+      "label": "2.2-11445",
+      "notes": "Official CI release build published from xenios-jp/XeniOS.",
+      "sourceLabel": "GitHub Release",
+      "sourceUrl": "https://github.com/xenios-jp/XeniOS/releases/tag/release-v2.2-build-11445",
+      "artifacts": [
+        {
+          "id": "macos-arm64-dmg-xenios-macos-apple-silicon-dmg",
+          "name": "XeniOS for Apple Silicon",
+          "label": "Apple Silicon",
+          "platform": "macos",
+          "arch": "arm64",
+          "kind": "dmg",
+          "downloadUrl": "https://github.com/xenios-jp/XeniOS/releases/download/release-v2.2-build-11445/xenios_macos_apple_silicon.dmg",
+          "sha256": "3055bded7f5969bc79651efc3d39458529cc18a19991c51f1abad5ce243a87a4",
+          "sizeBytes": 44146284,
+          "sizeLabel": "42 MB"
+        }
+      ],
+      "platform": "macos",
+      "id": "macos-release-macos-release-2.2-11445",
+      "submittedBy": "GitHub Actions"
+    },
     {
       "buildId": "ios-preview-2.1-9857",
       "channel": "preview",
