@@ -13,5 +13,4 @@ compatibility_date = "2026-08-08"
 # COMPAT_REPO_OWNER       – optional override; defaults to xenios-jp
 # COMPAT_REPO_NAME        – optional override; defaults to game-compatibility
 # COMPAT_REPO_BRANCH      – optional override; defaults to main
-# COMPAT_RELEASE_MANIFEST_URL – optional override for the public release-build manifest URL
 # COMPAT_WEBSITE_BASE     – optional override for xenios.jp links in embeds

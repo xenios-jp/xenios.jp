@@ -52,16 +52,6 @@ PAYLOAD=$(cat <<'EOF'
       ]
     },
     {
-      "name": "channel",
-      "description": "Which build channel did you test?",
-      "type": 3,
-      "required": true,
-      "choices": [
-        { "name": "Release", "value": "release" },
-        { "name": "Self-built / custom", "value": "self-built" }
-      ]
-    },
-    {
       "name": "app_version",
       "description": "App version string",
       "type": 3,
