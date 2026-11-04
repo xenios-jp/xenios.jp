@@ -200,8 +200,7 @@ export default function DownloadMacPage() {
             Download
           </h1>
           <p className="mt-2 text-lg text-text-secondary">
-            XeniOS for Mac. Use the universal build by default, or choose an
-            architecture-specific build when you need one.
+            XeniOS for Macs with Apple Silicon.
           </p>
         </div>
       </section>
@@ -224,7 +223,7 @@ export default function DownloadMacPage() {
               </Link>
             </div>
             <p className="text-sm text-text-secondary">
-              Universal Mac builds are published alongside Apple Silicon and Intel fallbacks.
+              Mac builds are for Apple Silicon. There is no Intel build of 2.2.
             </p>
           </div>
         </div>
@@ -270,8 +269,7 @@ export default function DownloadMacPage() {
             <div>
               <h2 className="text-2xl font-bold text-text-primary">Latest Mac Build</h2>
               <p className="mt-2 max-w-3xl text-[15px] leading-relaxed text-text-secondary">
-                Current public release with a universal Mac download first, plus Apple Silicon
-                and Intel fallbacks for troubleshooting.
+                Current public release for Apple Silicon Macs.
               </p>
             </div>
             <p className="text-sm text-text-muted">
@@ -283,7 +281,7 @@ export default function DownloadMacPage() {
             <BuildCard
               title="Current Release"
               build={latestRelease}
-              emptyMessage="Publish data/release-builds.json to surface the current public Mac release with universal, Apple Silicon, and Intel downloads."
+              emptyMessage="Publish data/release-builds.json to surface the current public Mac release."
             />
             {latestPreview ? (
               <div className="mt-6">
@@ -306,7 +304,6 @@ export default function DownloadMacPage() {
             </h2>
             <ol className="mt-4 list-decimal space-y-2 pl-5 text-[15px] leading-relaxed text-text-primary">
               <li>Open the latest release card above or the build history page.</li>
-              <li>Use the universal Mac download unless you specifically need an architecture-only fallback.</li>
               <li>
                 If a{" "}
                 <code className="rounded bg-bg-surface-2 px-1.5 py-0.5 font-mono text-xs">
@@ -364,7 +361,7 @@ export default function DownloadMacPage() {
             Mac notes
           </h2>
           <ul className="list-disc space-y-3 pl-6 text-[15px] leading-relaxed text-text-primary marker:text-accent">
-            <li>The universal Mac download is the default; Apple Silicon and Intel DMGs remain available as fallbacks.</li>
+            <li>XeniOS 2.2 for Mac needs an Apple Silicon Mac. There is no Intel build.</li>
             <li>
               Performance and compatibility are still in progress and not fully validated yet.
             </li>
