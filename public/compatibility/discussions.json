@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T19:27:18.691Z",
+  "generatedAt": "2026-11-05T17:55:48.971Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -13596,8 +13596,20 @@
       "titleId": "4E4D0846",
       "issueNumber": 389,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/389",
-      "updatedAt": "2026-06-11",
+      "updatedAt": "2026-11-05",
       "entries": [
+        {
+          "id": "comment-6665177421",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/389#issuecomment-6665177421",
+          "author": "conyersmarcus96-boop",
+          "createdAt": "2026-11-05",
+          "createdAtMs": 1793901115000,
+          "issueNumber": 389,
+          "excerpt": "This loads & loads on iPhone 12 Pro Max",
+          "images": [],
+          "meta": {}
+        },
         {
           "id": "comment-4677446007",
           "type": "comment",
