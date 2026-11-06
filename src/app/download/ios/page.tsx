@@ -255,8 +255,17 @@ export default function DownloadPage() {
                   >
                     SideStore
                   </a>{" "}
-                  on your device. Its setup covers trusting the developer
-                  certificate and turning on Developer Mode.
+                  on your device with its{" "}
+                  <a
+                    href="https://docs.sidestore.io/docs/installation/prerequisites"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-accent underline decoration-accent/30 underline-offset-2 hover:decoration-accent"
+                  >
+                    install guide
+                  </a>
+                  , which covers trusting the developer certificate and turning
+                  on Developer Mode.
                 </span>
               </li>
               <li className="flex gap-3">
