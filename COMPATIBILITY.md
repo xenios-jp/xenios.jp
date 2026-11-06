@@ -2,7 +2,7 @@
 
 > **404 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **168** · 🔵 In-Game: **73** · 🟡 Intro: **36** · 🟠 Loads: **51** · 🔴 Doesn't Boot: **76**
+> 🟢 Playable: **169** · 🔵 In-Game: **73** · 🟡 Intro: **36** · 🟠 Loads: **51** · 🔴 Doesn't Boot: **75**
 >
 > 📱 iOS: **369** · 🖥️ macOS: **57**
 
@@ -152,6 +152,7 @@
 | 🟢 | Rumble Roses XX | `4B4E07D1` | 🖥️ macOS | Playable | 🚀 Great | Mac mini (M2) | 2026-03-11 |
 | 🟢 | Serious Sam HD: The First Encounter | `584109DA` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro | 2026-03-24 |
 | 🟢 | Shadow Complex | `584108F6` | 🖥️ macOS | Playable | 🚀 Great | MacBook Pro (M1) | 2026-08-12 |
+| 🟢 | Silent Hill: Downpour | `4B4E0823` | 📱 iOS | Playable | 👌 OK | iPhone 14 Pro | 2026-11-06 |
 | 🟢 | Skate 2 | `4541087F` | 📱 iOS | Playable | 👌 OK | iPhone 16e | 2026-03-17 |
 | 🟢 | Skate 3 | `454108E6` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-06-12 |
 | 🟢 | Sonic Generations | `53450848` | 📱 iOS | Playable | 🚀 Great | iPhone 16 | 2026-03-28 |
@@ -399,7 +400,6 @@
 | 🔴 | PROTOTYPE | `4156084E` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 14 Pro | 2026-06-11 |
 | 🔴 | Resident Evil 4 | `4343081C` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 13 | 2026-11-02 |
 | 🔴 | SEGA Rally Online Arcade | `58410AC2` | 🖥️ macOS, 📱 iOS | Doesn't Boot | ➖ N/A | MacBook Pro (M1) | 2026-08-15 |
-| 🔴 | Silent Hill: Downpour | `4B4E0823` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-22 |
 | 🔴 | SmackDown vs. RAW 2009 | `54510826` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad (A16) | 2026-03-16 |
 | 🔴 | Soulcalibur IV | `4E4D07E0` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-04-28 |
 | 🔴 | Spider-Man 3 | `415607E2` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 | 2026-07-10 |
