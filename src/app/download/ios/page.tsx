@@ -224,6 +224,101 @@ export default function DownloadPage() {
         </div>
       </section>
 
+      <section className="border-b border-border py-12 md:py-16">
+        <div className="mx-auto max-w-6xl px-6">
+          <div className="rounded-xl border border-accent/20 bg-bg-surface p-8">
+            <div className="mb-4 flex flex-wrap items-center gap-3">
+              <span className="inline-flex items-center rounded-full bg-accent-muted px-2.5 py-0.5 text-sm font-medium text-accent">
+                Recommended
+              </span>
+            </div>
+            <h2 className="text-3xl font-bold text-text-primary md:text-4xl">
+              SideStore
+            </h2>
+            <p className="mt-3 max-w-2xl text-[15px] leading-relaxed text-text-secondary">
+              SideStore is the current documented public install path for
+              XeniOS on iPhone and iPad. On free Apple IDs, the app still needs
+              to be refreshed every 7 days.
+            </p>
+            <ol className="mt-8 space-y-3 text-[15px] leading-relaxed text-text-primary">
+              <li className="flex gap-3">
+                <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-accent text-xs font-bold text-accent-fg">
+                  1
+                </span>
+                <span>
+                  Install{" "}
+                  <a
+                    href="https://sidestore.io"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-accent underline decoration-accent/30 underline-offset-2 hover:decoration-accent"
+                  >
+                    SideStore
+                  </a>{" "}
+                  on your device.
+                </span>
+              </li>
+              <li className="flex gap-3">
+                <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-accent text-xs font-bold text-accent-fg">
+                  2
+                </span>
+                <span>
+                  On your iPhone or iPad, tap{" "}
+                  <strong className="font-semibold">Add to SideStore</strong>{" "}
+                  below, then install XeniOS from the XeniOS source. New
+                  versions then show up as updates in SideStore.
+                </span>
+              </li>
+              <li className="flex gap-3">
+                <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-accent text-xs font-bold text-accent-fg">
+                  3
+                </span>
+                <span>
+                  Trust the developer certificate in Settings &rarr; General
+                  &rarr; VPN &amp; Device Management.
+                </span>
+              </li>
+              <li className="flex gap-3">
+                <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-accent text-xs font-bold text-accent-fg">
+                  4
+                </span>
+                <span>
+                  Complete JIT setup (see the &ldquo;Read first&rdquo; box
+                  above), pair a controller, then launch a game.
+                </span>
+              </li>
+            </ol>
+            <div className="mt-10 flex flex-wrap items-center gap-3">
+              <a
+                href={SIDESTORE_ADD_SOURCE_URL}
+                className="inline-flex items-center rounded-lg bg-accent px-8 py-3.5 text-[15px] font-medium text-accent-fg transition hover:bg-accent-hover"
+              >
+                Add to SideStore
+              </a>
+              {releaseArtifact?.downloadUrl ? (
+                <a
+                  href={releaseArtifact.downloadUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center rounded-lg border border-border px-6 py-3.5 text-[15px] font-medium text-text-primary transition hover:border-accent/50"
+                >
+                  Download .ipa
+                </a>
+              ) : null}
+            </div>
+            <p className="mt-4 max-w-2xl text-sm leading-relaxed text-text-muted">
+              The button opens SideStore on the device it&rsquo;s installed on.
+              To add the source by hand, paste{" "}
+              <code className="rounded bg-bg-surface-2 px-1.5 py-0.5 font-mono text-xs break-all select-all">
+                {SIDESTORE_SOURCE_URL}
+              </code>{" "}
+              in SideStore&rsquo;s Sources tab. You can also download the .ipa and
+              open it with SideStore, as before.
+            </p>
+          </div>
+        </div>
+      </section>
+
       <section className="border-b border-border bg-bg-surface/20 py-8">
         <div className="mx-auto max-w-6xl px-6">
           <div className="flex flex-wrap items-end justify-between gap-4">
@@ -315,101 +410,6 @@ export default function DownloadPage() {
                 StikDebug, and some setups also need LocalDevVPN.
               </p>
             </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="py-12 md:py-16">
-        <div className="mx-auto max-w-6xl px-6">
-          <div className="rounded-xl border border-accent/20 bg-bg-surface p-8">
-            <div className="mb-4 flex flex-wrap items-center gap-3">
-              <span className="inline-flex items-center rounded-full bg-accent-muted px-2.5 py-0.5 text-sm font-medium text-accent">
-                Recommended
-              </span>
-            </div>
-            <h2 className="text-3xl font-bold text-text-primary md:text-4xl">
-              SideStore
-            </h2>
-            <p className="mt-3 max-w-2xl text-[15px] leading-relaxed text-text-secondary">
-              SideStore is the current documented public install path for
-              XeniOS on iPhone and iPad. On free Apple IDs, the app still needs
-              to be refreshed every 7 days.
-            </p>
-            <ol className="mt-8 space-y-3 text-[15px] leading-relaxed text-text-primary">
-              <li className="flex gap-3">
-                <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-accent text-xs font-bold text-accent-fg">
-                  1
-                </span>
-                <span>
-                  Install{" "}
-                  <a
-                    href="https://sidestore.io"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-accent underline decoration-accent/30 underline-offset-2 hover:decoration-accent"
-                  >
-                    SideStore
-                  </a>{" "}
-                  on your device.
-                </span>
-              </li>
-              <li className="flex gap-3">
-                <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-accent text-xs font-bold text-accent-fg">
-                  2
-                </span>
-                <span>
-                  On your iPhone or iPad, tap{" "}
-                  <strong className="font-semibold">Add to SideStore</strong>{" "}
-                  below, then install XeniOS from the XeniOS source. New
-                  versions then show up as updates in SideStore.
-                </span>
-              </li>
-              <li className="flex gap-3">
-                <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-accent text-xs font-bold text-accent-fg">
-                  3
-                </span>
-                <span>
-                  Trust the developer certificate in Settings &rarr; General
-                  &rarr; VPN &amp; Device Management.
-                </span>
-              </li>
-              <li className="flex gap-3">
-                <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-accent text-xs font-bold text-accent-fg">
-                  4
-                </span>
-                <span>
-                  Complete JIT setup (see the &ldquo;Read first&rdquo; box
-                  above), pair a controller, then launch a game.
-                </span>
-              </li>
-            </ol>
-            <div className="mt-10 flex flex-wrap items-center gap-3">
-              <a
-                href={SIDESTORE_ADD_SOURCE_URL}
-                className="inline-flex items-center rounded-lg bg-accent px-8 py-3.5 text-[15px] font-medium text-accent-fg transition hover:bg-accent-hover"
-              >
-                Add to SideStore
-              </a>
-              {releaseArtifact?.downloadUrl ? (
-                <a
-                  href={releaseArtifact.downloadUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center rounded-lg border border-border px-6 py-3.5 text-[15px] font-medium text-text-primary transition hover:border-accent/50"
-                >
-                  Download .ipa
-                </a>
-              ) : null}
-            </div>
-            <p className="mt-4 max-w-2xl text-sm leading-relaxed text-text-muted">
-              The button opens SideStore on the device it&rsquo;s installed on.
-              To add the source by hand, paste{" "}
-              <code className="rounded bg-bg-surface-2 px-1.5 py-0.5 font-mono text-xs break-all select-all">
-                {SIDESTORE_SOURCE_URL}
-              </code>{" "}
-              in SideStore&rsquo;s Sources tab. You can also download the .ipa and
-              open it with SideStore, as before.
-            </p>
           </div>
         </div>
       </section>
