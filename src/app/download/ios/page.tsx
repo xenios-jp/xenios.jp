@@ -255,7 +255,8 @@ export default function DownloadPage() {
                   >
                     SideStore
                   </a>{" "}
-                  on your device.
+                  on your device. Its setup covers trusting the developer
+                  certificate and turning on Developer Mode.
                 </span>
               </li>
               <li className="flex gap-3">
@@ -272,15 +273,6 @@ export default function DownloadPage() {
               <li className="flex gap-3">
                 <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-accent text-xs font-bold text-accent-fg">
                   3
-                </span>
-                <span>
-                  Trust the developer certificate in Settings &rarr; General
-                  &rarr; VPN &amp; Device Management.
-                </span>
-              </li>
-              <li className="flex gap-3">
-                <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-accent text-xs font-bold text-accent-fg">
-                  4
                 </span>
                 <span>
                   Complete JIT setup (see the &ldquo;Read first&rdquo; box
