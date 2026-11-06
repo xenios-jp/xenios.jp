@@ -396,6 +396,20 @@ export default function DownloadPage() {
                 </span>
               </li>
             </ol>
+            <p className="mt-8 max-w-2xl text-[15px] leading-relaxed text-text-secondary">
+              To install and update XeniOS from inside SideStore instead,{" "}
+              <a
+                href="sidestore://source?url=https://xenios.jp/sidestore.json"
+                className="text-accent underline decoration-accent/30 underline-offset-2 hover:decoration-accent"
+              >
+                add the XeniOS source to SideStore
+              </a>{" "}
+              on your device, or add this URL in SideStore&rsquo;s Sources tab:{" "}
+              <code className="rounded bg-bg-surface-2 px-1.5 py-0.5 font-mono text-xs break-all">
+                https://xenios.jp/sidestore.json
+              </code>
+              . New releases then show up as updates in SideStore.
+            </p>
             <div className="mt-10">
               {releaseArtifact?.downloadUrl ? (
                 <a

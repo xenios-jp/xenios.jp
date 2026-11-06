@@ -1,0 +1,82 @@
+{
+  "name": "XeniOS",
+  "identifier": "jp.xenios.source",
+  "sourceURL": "https://xenios.jp/sidestore.json",
+  "subtitle": "Official XeniOS releases.",
+  "description": "Official XeniOS builds for iPhone and iPad, from the GitHub releases of xenios-jp/XeniOS.",
+  "iconURL": "https://xenios.jp/sidestore/icon.png",
+  "website": "https://xenios.jp/download/ios",
+  "tintColor": "#10B981",
+  "featuredApps": [
+    "com.xenios.jp"
+  ],
+  "apps": [
+    {
+      "name": "XeniOS",
+      "bundleIdentifier": "com.xenios.jp",
+      "developerName": "XeniOS",
+      "subtitle": "Xbox 360 emulator for iPhone and iPad.",
+      "localizedDescription": "XeniOS is an Xbox 360 emulator for iPhone and iPad, based on Xenia.\n\nRequires iOS / iPadOS 26 or later and JIT, enabled through StikDebug. See https://xenios.jp/download/ios for setup.\n\nNo games are included. Use only games you dumped from discs or digital purchases you own.",
+      "iconURL": "https://xenios.jp/sidestore/icon.png",
+      "tintColor": "#10B981",
+      "category": "games",
+      "versions": [
+        {
+          "version": "2.2.4",
+          "buildVersion": "11500",
+          "date": "2026-11-06T02:39:25Z",
+          "localizedDescription": "Fixes on top of 2.2.3.\n\nRequires iOS / iPadOS 26 or later. A Mac build for Apple Silicon (macOS 15 or later) is attached as well.\n\n## Emulation\n\n- Fixed a crash at game start or while saving shaders when memory is low: saved pipelines are skipped when there isn't room to load them, and compile as usual instead.\n- Quitting or closing a game no longer waits for a pipeline save in progress or for a stalled GPU, which could make iOS end the app.\n\n## App\n\n- In games with local multiplayer, a second player's profile is signed in for that player instead of replacing the first player's.\n- When the app runs out of memory, it now says so and names the likely cause instead of closing without a message.\n- Compatibility data is checked for changes at most every 6 hours instead of downloaded in full at every launch.\n- Game covers are no longer deleted after an app update for games the library hadn't finished loading yet.\n- Long button titles on the System Software page wrap instead of being cut off.\n- The Head Tracking switch is hidden on installs that can't use it.\n- The first time a game looks for a network while System Link is off, XeniOS offers to turn System Link on in one tap, and the running game is told the network is now up. Some games, such as Black Ops 2, stop with an error without it.\n\n## Known issues\n\n- Online System Link and the Xbox 360 Dashboard are still experimental.",
+          "downloadURL": "https://github.com/xenios-jp/XeniOS/releases/download/release-v2.2.4-build-11500/xenios_ios_iphone_ipad.ipa",
+          "size": 48372344,
+          "minOSVersion": "26.0"
+        },
+        {
+          "version": "2.2.3",
+          "buildVersion": "11499",
+          "date": "2026-11-06T00:36:58Z",
+          "localizedDescription": "A fix on top of 2.2.2.\n\nRequires iOS / iPadOS 26 or later. A Mac build for Apple Silicon (macOS 15 or later) is attached as well.\n\n## Emulation\n\n- Fixed a GPU hang on the second and later launches of a game in 2.2.2, when its shaders were loaded from the new on-disk shader cache. Halo 3 hung on every launch after the first. Shaders already stored by 2.2.2 are kept and work again.\n\n## Known issues\n\n- Online System Link and the Xbox 360 Dashboard are still experimental.",
+          "downloadURL": "https://github.com/xenios-jp/XeniOS/releases/download/release-v2.2.3-build-11499/xenios_ios_iphone_ipad.ipa",
+          "size": 48360567,
+          "minOSVersion": "26.0"
+        },
+        {
+          "version": "2.2.2",
+          "buildVersion": "11498",
+          "date": "2026-11-05T16:29:54Z",
+          "localizedDescription": "Fixes and improvements on top of 2.2.\n\nRequires iOS / iPadOS 26 or later. A Mac build for Apple Silicon (macOS 15 or later) is attached as well.\n\n## Emulation\n\n- Translated shaders and compiled pipelines are now kept on disk between launches, so a game's stored shaders come back faster after a restart or an app update, when iOS has cleared its own shader cache. The first launch after updating to 2.2.1 builds the new cache.\n- Draws that write to memory no longer stall the game while their shaders compile, as in upstream Xenia. What they write may show up a few frames late instead.\n- GPU and CPU fixes: the GPU command thread sleeps instead of spinning a CPU core through long waits, does less work between command buffers, and some hot CPU loops run in fewer instructions. Texture uploads go through a staging buffer again, and depth state is fixed in passes without a depth buffer.\n- Fixed \"JIT code cache is full\" right after launch on devices without TXM, such as M1 iPads.\n- Quieter logs: per-draw GPU lines and disc file walks are logged only at debug level.\n\n## App\n\n- External displays: with a USB-C, HDMI or AirPlay display connected, the game fills that display at the right aspect ratio. The device keeps the touch controls and the in-game menu.\n- The Library background is drawn from the art of the game it shows.\n- While shaders are prepared before the first frame, the game is held and a note offers Play Now or Cancel after 8 seconds.\n- If JIT is off when a game starts, XeniOS says how to turn it back on instead of failing with a fatal error.\n- Online: the Online button counts the devices online, and the Online sheet is simpler. System Link says when your network blocks direct connections to another player.\n- Fixed crashes: a title update mismatch warning, an unanswered JIT request, running out of address space for thread stacks, and shutdowns that hung past iOS's time limit.\n- System Link messages no longer show wrong player counts, such as \"Can't connect to 17,170,505 players\".\n- Cover art retries a dropped connection after 30 seconds instead of five minutes.\n\n## Known issues\n\n- Online System Link and the Xbox 360 Dashboard are still experimental.",
+          "downloadURL": "https://github.com/xenios-jp/XeniOS/releases/download/release-v2.2.2-build-11498/xenios_ios_iphone_ipad.ipa",
+          "size": 48360698,
+          "minOSVersion": "26.0"
+        },
+        {
+          "version": "2.2",
+          "buildVersion": "11445",
+          "date": "2026-11-04T15:34:43Z",
+          "localizedDescription": "First release since 2.0.1. It pulls in five months of [Xenia Edge](https://github.com/has207/xenia-edge) changes and reworks most of the app.\n\nMany more games now render correctly and are playable than in 2.0.1. If a game didn't work for you before, try it again.\n\nRequires iOS / iPadOS 26 or later. A Mac build for Apple Silicon (macOS 15 or later) is attached as well.\n\n## Emulation\n\n- Reworked Metal backend and faster ARM64 CPU emulation, with a long list of graphics, audio and kernel fixes from Xenia Edge.\n- General performance and rendering improvements.\n- Fixed a cause of crackling audio on iPhone.\n- Audio comes back after calls, Siri, alarms and headphone changes.\n- Shaders compile in the background and are cached for the next launch. The ones a game needs first are built first. A small indicator shows when shaders are compiling (Settings › Display to hide it).\n- Games that launch another game, or another part of themselves, stay inside XeniOS.\n- Multi-disc games: when a game asks for another disc, you pick it from that game's discs in your library.\n\n## App\n\n- New Library, game page, Settings, Profiles, Online screen, pause menu, touch layout editor and JIT setup sheet.\n- Controller navigation everywhere: the Library, game pages, Settings, sheets and alerts.\n- A launch screen replaces the black screen while a game starts. If a step hangs, a Cancel button appears.\n- The in-game menu has a Pause Emulator button. Otherwise the game keeps running behind the menu, so System Link sessions don't stall. XeniOS still pauses when you leave the app, lock the device or take a call.\n- Imports, add-ons and title updates copy in the background, with progress and a free-space check.\n- The library shows instantly on launch and refreshes in the background.\n- Linked folders survive renames, moves and remounts. Add-ons can be installed from them.\n- Settings are searchable, save as you change them, and keep only what you changed. Reset All Settings keeps your signed-in profiles.\n- A bigger default move stick. Saved touch layouts keep their old size.\n- After a crash, XeniOS offers to share the log with your folder names stripped out.\n- 120 Hz menus on ProMotion iPhones, Game Mode in games, and a warning when the device gets hot.\n- VoiceOver works with the touch controls and most screens.\n- Links from other apps that launch a game or read your library ask first.\n\n## Experimental\n\nBoth of these are early. Expect bugs and please report them.\n\n- Online System Link: play System Link games with other XeniOS players over the internet, in a game's public lobby or a private room you invite friends to. Tap Online in the library, or System Link in a game's menu. Everyone needs 2.2 and Online Features turned on. Players in a room can see each other's IP address and a profile ID.\n- Xbox 360 Dashboard: tap its tile in the library and follow the one-page setup to download Microsoft's system update (about 116 MB). It installs on its own. You can start games in your library from the dashboard's disc tray.\n\n## Privacy\n\n- XeniOS can send anonymous crash reports and performance stats (frame rate, load times). No files, names or Apple Account. Turn it off in Settings › Privacy › Share Diagnostics. Details: [xenios.jp/privacy](https://xenios.jp/privacy#app-diagnostics).\n- Turning off Online Features stops all of XeniOS's network requests: update checks, compatibility data, cover art, System Link and diagnostics.\n\n## Known issues\n\n- Online System Link and the Xbox 360 Dashboard are experimental.",
+          "downloadURL": "https://github.com/xenios-jp/XeniOS/releases/download/release-v2.2-build-11445/xenios_ios_iphone_ipad.ipa",
+          "size": 48315034,
+          "minOSVersion": "26.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "com.apple.developer.coremotion.head-pose",
+          "com.apple.developer.kernel.extended-virtual-addressing",
+          "com.apple.developer.kernel.increased-debugging-memory-limit",
+          "com.apple.developer.kernel.increased-memory-limit",
+          "get-task-allow"
+        ],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "System Link uses your local network to play with other devices running XeniOS or Xenia, and with an XLink Kai engine on your network.",
+          "NSMotionUsageDescription": "Head tracking adjusts spatial audio to your head movement when using the PHASE audio backend with supported headphones."
+        }
+      },
+      "version": "2.2.4",
+      "versionDate": "2026-11-06T02:39:25Z",
+      "versionDescription": "Fixes on top of 2.2.3.\n\nRequires iOS / iPadOS 26 or later. A Mac build for Apple Silicon (macOS 15 or later) is attached as well.\n\n## Emulation\n\n- Fixed a crash at game start or while saving shaders when memory is low: saved pipelines are skipped when there isn't room to load them, and compile as usual instead.\n- Quitting or closing a game no longer waits for a pipeline save in progress or for a stalled GPU, which could make iOS end the app.\n\n## App\n\n- In games with local multiplayer, a second player's profile is signed in for that player instead of replacing the first player's.\n- When the app runs out of memory, it now says so and names the likely cause instead of closing without a message.\n- Compatibility data is checked for changes at most every 6 hours instead of downloaded in full at every launch.\n- Game covers are no longer deleted after an app update for games the library hadn't finished loading yet.\n- Long button titles on the System Software page wrap instead of being cut off.\n- The Head Tracking switch is hidden on installs that can't use it.\n- The first time a game looks for a network while System Link is off, XeniOS offers to turn System Link on in one tap, and the running game is told the network is now up. Some games, such as Black Ops 2, stop with an error without it.\n\n## Known issues\n\n- Online System Link and the Xbox 360 Dashboard are still experimental.",
+      "downloadURL": "https://github.com/xenios-jp/XeniOS/releases/download/release-v2.2.4-build-11500/xenios_ios_iphone_ipad.ipa",
+      "size": 48372344
+    }
+  ],
+  "news": []
+}
