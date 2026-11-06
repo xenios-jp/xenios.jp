@@ -14,6 +14,9 @@ import {
 import { DISCORD_URL } from "@/lib/constants";
 import { withCanonical } from "@/lib/metadata";
 
+const SIDESTORE_SOURCE_URL = "https://xenios.jp/sidestore.json";
+const SIDESTORE_ADD_SOURCE_URL = `sidestore://source?url=${SIDESTORE_SOURCE_URL}`;
+
 export const metadata: Metadata = withCanonical(
   {
     title: "Download for iPhone / iPad",
@@ -355,26 +358,10 @@ export default function DownloadPage() {
                   2
                 </span>
                 <span>
-                  Download the{" "}
-                  <code className="rounded bg-bg-surface-2 px-1.5 py-0.5 font-mono text-xs">
-                    .ipa
-                  </code>{" "}
-                  from the latest release card above
-                  {releaseArtifact?.downloadUrl ? (
-                    <>
-                      {" "}
-                      or{" "}
-                      <a
-                        href={releaseArtifact.downloadUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-accent underline decoration-accent/30 underline-offset-2 hover:decoration-accent"
-                      >
-                        open the current direct download
-                      </a>
-                    </>
-                  ) : null}
-                  , then open it with SideStore to install.
+                  On your iPhone or iPad, tap{" "}
+                  <strong className="font-semibold">Add to SideStore</strong>{" "}
+                  below, then install XeniOS from the XeniOS source. New
+                  versions then show up as updates in SideStore.
                 </span>
               </li>
               <li className="flex gap-3">
@@ -396,36 +383,33 @@ export default function DownloadPage() {
                 </span>
               </li>
             </ol>
-            <p className="mt-8 max-w-2xl text-[15px] leading-relaxed text-text-secondary">
-              To install and update XeniOS from inside SideStore instead,{" "}
+            <div className="mt-10 flex flex-wrap items-center gap-3">
               <a
-                href="sidestore://source?url=https://xenios.jp/sidestore.json"
-                className="text-accent underline decoration-accent/30 underline-offset-2 hover:decoration-accent"
+                href={SIDESTORE_ADD_SOURCE_URL}
+                className="inline-flex items-center rounded-lg bg-accent px-8 py-3.5 text-[15px] font-medium text-accent-fg transition hover:bg-accent-hover"
               >
-                add the XeniOS source to SideStore
-              </a>{" "}
-              on your device, or add this URL in SideStore&rsquo;s Sources tab:{" "}
-              <code className="rounded bg-bg-surface-2 px-1.5 py-0.5 font-mono text-xs break-all">
-                https://xenios.jp/sidestore.json
-              </code>
-              . New releases then show up as updates in SideStore.
-            </p>
-            <div className="mt-10">
+                Add to SideStore
+              </a>
               {releaseArtifact?.downloadUrl ? (
                 <a
                   href={releaseArtifact.downloadUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center rounded-lg bg-accent px-8 py-3.5 text-[15px] font-medium text-accent-fg transition hover:bg-accent-hover"
+                  className="inline-flex items-center rounded-lg border border-border px-6 py-3.5 text-[15px] font-medium text-text-primary transition hover:border-accent/50"
                 >
                   Download .ipa
                 </a>
-              ) : (
-                <span className="inline-flex items-center rounded-lg bg-accent px-8 py-3.5 text-[15px] font-medium text-accent-fg opacity-70">
-                  Coming Soon
-                </span>
-              )}
+              ) : null}
             </div>
+            <p className="mt-4 max-w-2xl text-sm leading-relaxed text-text-muted">
+              The button opens SideStore on the device it&rsquo;s installed on.
+              To add the source by hand, paste{" "}
+              <code className="rounded bg-bg-surface-2 px-1.5 py-0.5 font-mono text-xs break-all select-all">
+                {SIDESTORE_SOURCE_URL}
+              </code>{" "}
+              in SideStore&rsquo;s Sources tab. You can also download the .ipa and
+              open it with SideStore, as before.
+            </p>
           </div>
         </div>
       </section>
