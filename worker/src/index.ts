@@ -156,7 +156,13 @@ const DEFAULT_COMPAT_REPO_NAME = "game-compatibility";
 const DEFAULT_COMPAT_REPO_BRANCH = "main";
 const DEFAULT_WEBSITE_BASE = "https://xenios.jp";
 const PUBLIC_GAMES_CACHE_KEY = "https://xenios-compat-api.internal/public/games";
-const PUBLIC_GAMES_CACHE_TTL_SECONDS = 60;
+// The edge copy of /games is refreshed from GitHub after this long. raw.githubusercontent.com
+// itself serves max-age=300, so a shorter interval only re-reads the same bytes.
+const PUBLIC_GAMES_FRESH_SECONDS = 300;
+// How long the Cache API keeps its copy. Past PUBLIC_GAMES_FRESH_SECONDS a copy is still served
+// while one background refresh runs, so readers never wait on GitHub after the first fill.
+const PUBLIC_GAMES_KEEP_SECONDS = 86400;
+const PUBLIC_CACHE_CONTROL = "public, max-age=300, stale-while-revalidate=600";
 
 // ── Schema (single source of truth for valid values) ─────────────────
 // When adding new platforms, GPU backends, etc., update these arrays.
@@ -267,21 +273,74 @@ function buildReportMetadataComment(source: ReportSource, build: BuildInfo): str
   return `<!-- ${REPORT_METADATA_PREFIX}${encodeReportMetadata(source, build)} -->`;
 }
 
-function cors(response: Response): Response {
-  const headers = new Headers(response.headers);
+function setCorsHeaders(headers: Headers): void {
   headers.set("Access-Control-Allow-Origin", "*");
   headers.set("Access-Control-Allow-Methods", "POST, GET, OPTIONS");
-  headers.set("Access-Control-Allow-Headers", "Content-Type, Authorization");
+  headers.set("Access-Control-Allow-Headers", "Content-Type, Authorization, If-None-Match");
+  headers.set("Access-Control-Expose-Headers", "ETag");
+}
+
+function cors(response: Response): Response {
+  const headers = new Headers(response.headers);
+  setCorsHeaders(headers);
   return new Response(response.body, { status: response.status, headers });
 }
 
 function jsonResponse(data: unknown, status = 200): Response {
-  return cors(
-    new Response(JSON.stringify(data), {
-      status,
-      headers: { "Content-Type": "application/json" },
-    })
-  );
+  const headers = new Headers({ "Content-Type": "application/json" });
+  setCorsHeaders(headers);
+  if (status >= 400) headers.set("Cache-Control", "no-store");
+  return new Response(JSON.stringify(data), { status, headers });
+}
+
+// A public, cacheable JSON body with its validator. `cacheState` says where the body came from
+// (hit, stale, miss) so a deploy can be checked from the outside.
+function publicJsonResponse(
+  body: BodyInit | null,
+  etag: string,
+  cacheState: string,
+  maxAge = PUBLIC_CACHE_CONTROL
+): Response {
+  const headers = new Headers({
+    "Content-Type": "application/json",
+    "Cache-Control": maxAge,
+    ETag: etag,
+    Vary: "Accept-Encoding",
+    "X-Compat-Cache": cacheState,
+  });
+  setCorsHeaders(headers);
+  return new Response(body, { status: 200, headers });
+}
+
+function notModifiedResponse(etag: string, cacheState: string, maxAge = PUBLIC_CACHE_CONTROL): Response {
+  const headers = new Headers({
+    "Cache-Control": maxAge,
+    ETag: etag,
+    Vary: "Accept-Encoding",
+    "X-Compat-Cache": cacheState,
+  });
+  setCorsHeaders(headers);
+  return new Response(null, { status: 304, headers });
+}
+
+function opaqueTag(etag: string): string {
+  return etag.trim().replace(/^W\//, "").replace(/^"|"$/g, "");
+}
+
+// If-None-Match uses weak comparison (RFC 9110 13.1.2). Cloudflare weakens our strong ETag
+// when it compresses the body, so clients may send it back as W/"...".
+function etagMatches(ifNoneMatch: string | null, etag: string): boolean {
+  if (!ifNoneMatch) return false;
+  const want = opaqueTag(etag);
+  return ifNoneMatch.split(",").some((candidate) => {
+    const value = candidate.trim();
+    return value === "*" || opaqueTag(value) === want;
+  });
+}
+
+async function sha256Hex(text: string): Promise<string> {
+  const digest = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(text));
+  return Array.from(new Uint8Array(digest), (byte) => byte.toString(16).padStart(2, "0")).join("");
 }
 
 function errorResponse(message: string, status = 400): Response {
@@ -290,29 +349,6 @@ function errorResponse(message: string, status = 400): Response {
 
 function cacheStorage(): Cache {
   return (caches as CacheStorage & { default: Cache }).default;
-}
-
-async function readCachedJson<T>(key: string): Promise<T | null> {
-  const response = await cacheStorage().match(key);
-  if (!response) return null;
-
-  try {
-    return (await response.json()) as T;
-  } catch {
-    return null;
-  }
-}
-
-async function writeCachedJson(key: string, data: unknown, ttlSeconds: number): Promise<void> {
-  await cacheStorage().put(
-    key,
-    new Response(JSON.stringify(data), {
-      headers: {
-        "Content-Type": "application/json",
-        "Cache-Control": `public, s-maxage=${ttlSeconds}`,
-      },
-    })
-  );
 }
 
 function hexToUint8Array(hex: string): Uint8Array {
@@ -514,25 +550,132 @@ async function getFileFromGitHub(env: Env, token: string): Promise<{ content: Ga
   return { content: JSON.parse(decoded) as Game[], sha: json.sha };
 }
 
-async function getPublicGames(env: Env): Promise<Game[]> {
-  const cached = await readCachedJson<Game[]>(PUBLIC_GAMES_CACHE_KEY);
-  if (cached) {
-    return cached;
-  }
+// ── Public games snapshot ────────────────────────────────────────────
+// The compact JSON body of /games, its ETag and the parsed games are kept in the isolate's
+// memory, so a request is served without parsing or re-serialising ~1 MB of JSON. The Cache API
+// keeps a copy per data center for isolates that start cold. The body is the same bytes in every
+// isolate for the same data (JSON.stringify of the committed file), so the ETag is too.
 
-  const response = await fetch(githubRawUrl(env, COMPAT_PATH), {
-    headers: {
-      "User-Agent": "xenios-compat-api-public",
-      Accept: "application/json",
-    },
+interface PublicGamesSnapshot {
+  body: string;
+  etag: string;
+  freshUntil: number;
+  originEtag: string | null;
+  games?: Game[]; // parsed on first use
+}
+
+// Per source URL (one in production; tests use several).
+const publicGamesMemory = new Map<string, PublicGamesSnapshot>();
+const publicGamesRefresh = new Map<string, Promise<PublicGamesSnapshot>>();
+
+async function makeSnapshot(
+  body: string,
+  originEtag: string | null,
+  freshSeconds = PUBLIC_GAMES_FRESH_SECONDS
+): Promise<PublicGamesSnapshot> {
+  const etag = `"${(await sha256Hex(body)).slice(0, 32)}"`;
+  return { body, etag, originEtag, freshUntil: Date.now() + freshSeconds * 1000 };
+}
+
+async function saveSnapshot(env: Env, snapshot: PublicGamesSnapshot): Promise<void> {
+  publicGamesMemory.set(githubRawUrl(env, COMPAT_PATH), snapshot);
+  const headers = new Headers({
+    "Content-Type": "application/json",
+    "Cache-Control": `public, s-maxage=${PUBLIC_GAMES_KEEP_SECONDS}`,
+    ETag: snapshot.etag,
+    "X-Fresh-Until": String(snapshot.freshUntil),
   });
-  if (!response.ok) {
-    throw new Error(`Public compatibility fetch failed: ${response.status} ${await response.text()}`);
+  if (snapshot.originEtag) headers.set("X-Origin-ETag", snapshot.originEtag);
+  try {
+    await cacheStorage().put(PUBLIC_GAMES_CACHE_KEY, new Response(snapshot.body, { headers }));
+  } catch (e) {
+    console.error("Public games cache put failed:", e);
   }
+}
 
-  const games = ((await response.json()) as Game[]).map(normalizeStoredGame);
-  await writeCachedJson(PUBLIC_GAMES_CACHE_KEY, games, PUBLIC_GAMES_CACHE_TTL_SECONDS);
-  return games;
+async function sharedSnapshot(): Promise<PublicGamesSnapshot | null> {
+  try {
+    const hit = await cacheStorage().match(PUBLIC_GAMES_CACHE_KEY);
+    const etag = hit?.headers.get("ETag");
+    if (!hit || !etag) return null;
+    return {
+      body: await hit.text(),
+      etag,
+      originEtag: hit.headers.get("X-Origin-ETag"),
+      freshUntil: Number(hit.headers.get("X-Fresh-Until") ?? "0"),
+    };
+  } catch {
+    return null;
+  }
+}
+
+async function fetchPublicGames(env: Env, current: PublicGamesSnapshot | null): Promise<PublicGamesSnapshot> {
+  const headers: Record<string, string> = {
+    "User-Agent": "xenios-compat-api-public",
+    Accept: "application/json",
+  };
+  if (current?.originEtag) headers["If-None-Match"] = current.originEtag;
+
+  const response = await fetch(githubRawUrl(env, COMPAT_PATH), { headers });
+  let snapshot: PublicGamesSnapshot;
+  if (response.status === 304 && current) {
+    // Same file on GitHub: keep the bytes and ETag, push the next look out.
+    snapshot = { ...current, freshUntil: Date.now() + PUBLIC_GAMES_FRESH_SECONDS * 1000 };
+  } else if (!response.ok) {
+    throw new Error(`Public compatibility fetch failed: ${response.status} ${await response.text()}`);
+  } else {
+    // GitHub stores the file pretty-printed; serve it compact and in the current shape, as before.
+    const games = ((await response.json()) as Game[]).map(normalizeStoredGame);
+    snapshot = await makeSnapshot(JSON.stringify(games), response.headers.get("ETag"));
+    snapshot.games = games;
+  }
+  await saveSnapshot(env, snapshot);
+  return snapshot;
+}
+
+// One fetch at a time per isolate and source.
+function refreshPublicGames(env: Env, current: PublicGamesSnapshot | null): Promise<PublicGamesSnapshot> {
+  const key = githubRawUrl(env, COMPAT_PATH);
+  let running = publicGamesRefresh.get(key);
+  if (!running) {
+    running = fetchPublicGames(env, current).finally(() => publicGamesRefresh.delete(key));
+    publicGamesRefresh.set(key, running);
+  }
+  return running;
+}
+
+async function publicGamesEntry(
+  env: Env,
+  ctx?: ExecutionContext
+): Promise<{ snapshot: PublicGamesSnapshot; state: string }> {
+  let snapshot = publicGamesMemory.get(githubRawUrl(env, COMPAT_PATH)) ?? null;
+  let state = "hit";
+  if (!snapshot) {
+    snapshot = await sharedSnapshot();
+    if (snapshot) {
+      publicGamesMemory.set(githubRawUrl(env, COMPAT_PATH), snapshot);
+      state = "shared";
+    }
+  }
+  if (snapshot) {
+    if (snapshot.freshUntil <= Date.now() && ctx) {
+      // Serve the copy now and look at GitHub after the response.
+      ctx.waitUntil(refreshPublicGames(env, snapshot).catch((e) => console.error("Public games refresh failed:", e)));
+      state = "stale";
+    }
+    return { snapshot, state };
+  }
+  return { snapshot: await refreshPublicGames(env, null), state: "miss" };
+}
+
+function snapshotGames(snapshot: PublicGamesSnapshot): Game[] {
+  snapshot.games ??= JSON.parse(snapshot.body) as Game[];
+  return snapshot.games;
+}
+
+// Shared, read-only: callers must not modify the games.
+async function getPublicGames(env: Env, ctx?: ExecutionContext): Promise<Game[]> {
+  return snapshotGames((await publicGamesEntry(env, ctx)).snapshot);
 }
 
 async function commitToGitHub(env: Env, token: string, games: Game[], sha: string, message: string): Promise<void> {
@@ -1186,7 +1329,11 @@ async function processReport(
   }
 
   try {
-    await writeCachedJson(PUBLIC_GAMES_CACHE_KEY, updated, PUBLIC_GAMES_CACHE_TTL_SECONDS);
+    // raw.githubusercontent.com can serve the previous file for up to 5 minutes after the
+    // commit, so this copy stays fresh for two refresh intervals before it re-reads GitHub.
+    const snapshot = await makeSnapshot(JSON.stringify(updated), null, PUBLIC_GAMES_FRESH_SECONDS * 2);
+    snapshot.games = updated;
+    await saveSnapshot(env, snapshot);
   } catch (e) {
     console.error("Public games cache update failed:", e);
   }
@@ -1468,7 +1615,7 @@ async function handleDiscordInteraction(request: Request, env: Env, ctx: Executi
         const query = getOption("game").toLowerCase().trim();
 
         try {
-          const games = await getPublicGames(env);
+          const games = await getPublicGames(env, ctx);
           const websiteBase = compatWebsiteBase(env);
 
           if (!query) {
@@ -1724,7 +1871,9 @@ const worker = {
   async fetch(request: Request, env: Env, ctx: ExecutionContext): Promise<Response> {
     // Handle CORS preflight
     if (request.method === "OPTIONS") {
-      return cors(new Response(null, { status: 204 }));
+      const preflight = cors(new Response(null, { status: 204 }));
+      preflight.headers.set("Access-Control-Max-Age", "86400");
+      return preflight;
     }
 
     const url = new URL(request.url);
@@ -1736,7 +1885,9 @@ const worker = {
 
     // GET /schema — valid field values (public, for app UI + self-documenting API)
     if (url.pathname === "/schema" && request.method === "GET") {
-      return jsonResponse(SCHEMA);
+      const response = jsonResponse(SCHEMA);
+      response.headers.set("Cache-Control", "public, max-age=3600");
+      return response;
     }
 
     // POST /report — app submissions (Bearer token auth)
@@ -1781,8 +1932,11 @@ const worker = {
     // GET /games — public read-only endpoint for the app
     if (url.pathname === "/games" && request.method === "GET") {
       try {
-        const games = await getPublicGames(env);
-        return jsonResponse(games);
+        const { snapshot, state } = await publicGamesEntry(env, ctx);
+        if (etagMatches(request.headers.get("If-None-Match"), snapshot.etag)) {
+          return notModifiedResponse(snapshot.etag, state);
+        }
+        return publicJsonResponse(snapshot.body, snapshot.etag, state);
       } catch (e) {
         return errorResponse(`Failed to fetch games: ${(e as Error).message}`, 500);
       }
@@ -1793,29 +1947,43 @@ const worker = {
     if (discussionMatch && request.method === "GET") {
       const titleId = discussionMatch[1].toUpperCase();
       try {
+        const { snapshot, state } = await publicGamesEntry(env, ctx);
+        // The discussion body is a pure function of the games snapshot, so its tag is too.
+        const etag = `"${opaqueTag(snapshot.etag)}-${titleId}"`;
+        if (etagMatches(request.headers.get("If-None-Match"), etag)) {
+          return notModifiedResponse(etag, state);
+        }
+
         // Get structured game data from the public compatibility snapshot.
-        const games = await getPublicGames(env);
-        const game = games.find((g) => g.titleId.toUpperCase() === titleId);
+        const game = snapshotGames(snapshot).find((g) => g.titleId.toUpperCase() === titleId);
         const issueNumber = game?.issueNumber ?? null;
         const issueUrl = game?.issueUrl ?? null;
 
         if (!game) {
-          return jsonResponse({ found: false, titleId, reports: [], issueNumber, issueUrl });
+          return publicJsonResponse(
+            JSON.stringify({ found: false, titleId, reports: [], issueNumber, issueUrl }),
+            etag,
+            state
+          );
         }
 
-        return jsonResponse({
-          found: true,
-          titleId,
-          title: game.title,
-          status: game.status,
-          perf: game.perf,
-          notes: game.notes,
-          updatedAt: game.updatedAt,
-          issueNumber,
-          issueUrl,
-          reports: game.reports,
-          summaries: game.summaries,
-        });
+        return publicJsonResponse(
+          JSON.stringify({
+            found: true,
+            titleId,
+            title: game.title,
+            status: game.status,
+            perf: game.perf,
+            notes: game.notes,
+            updatedAt: game.updatedAt,
+            issueNumber,
+            issueUrl,
+            reports: game.reports,
+            summaries: game.summaries,
+          }),
+          etag,
+          state
+        );
       } catch (e) {
         return errorResponse(`Failed to fetch discussion: ${(e as Error).message}`, 500);
       }
