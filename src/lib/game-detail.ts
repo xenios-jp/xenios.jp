@@ -892,29 +892,55 @@ function sortCompatibilityEntries(
   return sorted;
 }
 
-async function fetchLiveGameDetail(titleId: string): Promise<LiveGameDetailResponse | null> {
-  try {
-    const response = await fetch(
-      `https://xenios-compat-api.xenios.workers.dev/games/${titleId}/discussion`,
-      { next: { revalidate: 60 } },
-    );
-    if (!response.ok) return null;
-    return (await response.json()) as LiveGameDetailResponse;
-  } catch {
-    return null;
+const LIVE_GAMES_URL = "https://xenios-compat-api.xenios.workers.dev/games";
+// A static export renders every page from one copy of the list; a server
+// keeps it as long as the API's own cache does.
+const LIVE_GAMES_KEEP_MS = process.env.XENIOS_STATIC_EXPORT === "1" ? Infinity : 60_000;
+let liveGames: { request: Promise<LiveGamesResponse | null>; at: number } | undefined;
+
+function fetchLiveGamesPayload(): Promise<LiveGamesResponse | null> {
+  if (!liveGames || Date.now() - liveGames.at > LIVE_GAMES_KEEP_MS) {
+    const request = (async () => {
+      try {
+        const response = await fetch(LIVE_GAMES_URL, { next: { revalidate: 60 } });
+        if (!response.ok) return null;
+        const payload: unknown = await response.json();
+        return Array.isArray(payload) ? payload : null;
+      } catch {
+        return null;
+      }
+    })();
+    liveGames = { request, at: Date.now() };
+    // A failed fetch is tried again by the next page.
+    request.then((payload) => {
+      if (!payload && liveGames?.request === request) liveGames = undefined;
+    });
   }
+  return liveGames.request;
+}
+
+// The API's /games/<id>/discussion is this game's entry of the list.
+async function fetchLiveGameDetail(titleId: string): Promise<LiveGameDetailResponse | null> {
+  const payload = await fetchLiveGamesPayload();
+  if (!payload) return null;
+  const id = titleId.toUpperCase();
+  const entry = payload.find(
+    (game): game is Record<string, unknown> =>
+      typeof game === "object" && game !== null &&
+      typeof (game as { titleId?: unknown }).titleId === "string" &&
+      (game as { titleId: string }).titleId.toUpperCase() === id,
+  );
+  if (!entry) return { issueNumber: null, issueUrl: null, reports: [] };
+  return {
+    issueNumber: typeof entry.issueNumber === "number" ? entry.issueNumber : null,
+    issueUrl: typeof entry.issueUrl === "string" ? entry.issueUrl : null,
+    reports: Array.isArray(entry.reports) ? entry.reports : [],
+  };
 }
 
 async function fetchLiveGames(): Promise<Game[] | null> {
-  try {
-    const response = await fetch("https://xenios-compat-api.xenios.workers.dev/games", {
-      next: { revalidate: 60 },
-    });
-    if (!response.ok) return null;
-    return normalizeGames((await response.json()) as LiveGamesResponse);
-  } catch {
-    return null;
-  }
+  const payload = await fetchLiveGamesPayload();
+  return payload ? normalizeGames(payload) : null;
 }
 
 async function fetchGitHubIssueTitle(issueNumber: number): Promise<string | null> {
