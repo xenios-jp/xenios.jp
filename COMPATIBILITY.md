@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **408 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **410 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **177** · 🔵 In-Game: **72** · 🟡 Intro: **34** · 🟠 Loads: **51** · 🔴 Doesn't Boot: **74**
+> 🟢 Playable: **180** · 🔵 In-Game: **71** · 🟡 Intro: **34** · 🟠 Loads: **51** · 🔴 Doesn't Boot: **74**
 >
-> 📱 iOS: **373** · 🖥️ macOS: **57**
+> 📱 iOS: **375** · 🖥️ macOS: **57**
 
 ## Legend
 
@@ -174,12 +174,14 @@
 | 🟢 | Superman Returns | `454107ED` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-08-15 |
 | 🟢 | Syndicate | `45410923` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro | 2026-11-06 |
 | 🟢 | Teenage Mutant Ninja Turtles Danger of the Ooze | `4156090C` | 📱 iOS | Playable | 🚀 Great | iPhone 15 Pro Max | 2026-10-15 |
+| 🟢 | Tekken Tag Tournament 2 | `4E4D0859` | 📱 iOS | Playable | 🐢 Poor | iPhone 15 Pro Max | 2026-11-07 |
 | 🟢 | Tenchu Z | `465307D7` | 📱 iOS | Playable | 🚀 Great | 17 Pro | 2026-08-29 |
 | 🟢 | Test Drive Unlimited | `494707D4` | 📱 iOS | Playable | 👌 OK | iPhone 17 Pro Max | 2026-03-27 |
 | 🟢 | The Elder Scrolls 4: Oblivion - Game of the Year Edition | `425307D1` | 📱 iOS | Playable | 👌 OK | iPhone 14 Plus | 2026-03-22 |
 | 🟢 | The Lord of the Rings: War in the North | `575207EF` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro Max | 2026-09-01 |
 | 🟢 | The Outfit | `545107D2` | 📱 iOS | Playable | 🐢 Poor | iPhone 15 Pro Max | 2026-03-13 |
 | 🟢 | The Simpsons Game | `45410809` | 📱 iOS | Playable | 👌 OK | iPhone Air | 2026-08-04 |
+| 🟢 | The Sims 3 | `454108E2` | 📱 iOS | Playable | 👌 OK | iPhone 15 Pro Max | 2026-11-07 |
 | 🟢 | TimeShift | `565507DA` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro | 2026-03-13 |
 | 🟢 | TMNT | `555307F8` | 📱 iOS | Playable | 👌 OK | iPhone 13 Pro | 2026-04-10 |
 | 🟢 | Tony Hawk's American Wasteland | `415607D4` | 📱 iOS | Playable | 🐢 Poor | iPad Pro 13-inch (M4) | 2026-05-21 |
@@ -191,6 +193,7 @@
 | 🟢 | Ultra Street Fighter IV | `434307FC` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro Max | 2026-03-09 |
 | 🟢 | Virtua Fighter 5: Final Showdown | `534507EE` | 📱 iOS | Playable | 👌 OK | iPhone 17 Pro Max | 2026-03-03 |
 | 🟢 | WRC 5: FIA WORLD RALLY CHAMPIONSHIP | `573607E2` | 📱 iOS | Playable | 🐢 Poor | iPhone 17 Pro Max | 2026-03-17 |
+| 🟢 | WWE All Stars | `60CEF505` | 📱 iOS | Playable | 🚀 Great | iPad Pro M2 | 2026-11-07 |
 | 🟢 | WWE Smackdown vs RAW 2008 | `5451080B` | 📱 iOS | Playable | 👌 OK | iPhone 16e | 2026-03-16 |
 | 🟢 | X-Men Origins: Wolverine | `41560816` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro Max | 2026-07-06 |
 | 🟢 | Xbox 360 Experience Disc 2.4 (USA) | `584B880F` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-08-10 |
@@ -263,7 +266,6 @@
 | 🔵 | skate. | `45410813` | 📱 iOS | In-Game | 🐢 Poor | iPad Pro (M2) | 2026-03-03 |
 | 🔵 | Sonic the Hedgehog | `534507D6` | 📱 iOS | In-Game | 👌 OK | iPhone Air | 2026-04-03 |
 | 🔵 | Stranglehold | `4D5707D2` | 🖥️ macOS | In-Game | 🚀 Great | MacBook Pro (M1) | 2026-04-12 |
-| 🔵 | Tekken Tag Tournament 2 | `4E4D0859` | 📱 iOS | In-Game | 🐢 Poor | iPhone 16 Pro | 2026-06-27 |
 | 🔵 | Tom Clancy's Rainbow Six Vegas 2 | `55530807` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro Max | 2026-11-06 |
 | 🔵 | Tomb Raider Underworld | `534307EC` | 📱 iOS | In-Game | 🐢 Poor | iPad16,8 | 2026-07-16 |
 | 🔵 | UFC Undisputed 2010 | `54510851` | 📱 iOS | In-Game | 🐢 Poor | iPhone 16 | 2026-06-05 |
