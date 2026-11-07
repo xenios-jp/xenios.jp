@@ -16,6 +16,7 @@ import { withCanonical } from "@/lib/metadata";
 
 const SIDESTORE_SOURCE_URL = "https://xenios.jp/sidestore.json";
 const SIDESTORE_ADD_SOURCE_URL = `sidestore://source?url=${SIDESTORE_SOURCE_URL}`;
+const ALTSTORE_ADD_SOURCE_URL = `altstore-classic://source?url=${encodeURIComponent(SIDESTORE_SOURCE_URL)}`;
 
 export const metadata: Metadata = withCanonical(
   {
@@ -296,6 +297,12 @@ export default function DownloadPage() {
               >
                 Add to SideStore
               </a>
+              <a
+                href={ALTSTORE_ADD_SOURCE_URL}
+                className="inline-flex items-center rounded-lg border border-border px-6 py-3.5 text-[15px] font-medium text-text-primary transition hover:border-accent/50"
+              >
+                Add to AltStore
+              </a>
               {releaseArtifact?.downloadUrl ? (
                 <a
                   href={releaseArtifact.downloadUrl}
@@ -315,6 +322,13 @@ export default function DownloadPage() {
               </code>{" "}
               in SideStore&rsquo;s Sources tab. You can also download the .ipa and
               open it with SideStore, as before.
+            </p>
+            <p className="mt-2 max-w-2xl text-sm leading-relaxed text-text-muted">
+              Using AltStore Classic instead? Tap{" "}
+              <strong className="font-semibold">Add to AltStore</strong>, or
+              add the same source URL in its Sources tab. AltStore PAL
+              can&rsquo;t install XeniOS, because it only installs apps
+              notarized by Apple.
             </p>
           </div>
         </div>
