@@ -1,6 +1,68 @@
 {
-  "generatedAt": "2026-11-07T06:42:55Z",
+  "generatedAt": "2026-11-07T18:46:24Z",
   "builds": [
+    {
+      "buildId": "ios-release-2.3.0-11659",
+      "channel": "release",
+      "official": true,
+      "appVersion": "2.3.0",
+      "buildNumber": "11659",
+      "stage": "stable",
+      "commitShort": "cef52a33f",
+      "publishedAt": "2026-11-07T18:12:24Z",
+      "label": "2.3.0-11659",
+      "notes": "Official CI release build published from xenios-jp/XeniOS.",
+      "sourceLabel": "GitHub Release",
+      "sourceUrl": "https://github.com/xenios-jp/XeniOS/releases/tag/release-v2.3.0-build-11659",
+      "artifacts": [
+        {
+          "id": "ios-arm64-ipa-xenios-ios-iphone-ipad-ipa",
+          "name": "XeniOS for iPhone / iPad",
+          "label": "iPhone / iPad (IPA)",
+          "platform": "ios",
+          "arch": "arm64",
+          "kind": "ipa",
+          "downloadUrl": "https://github.com/xenios-jp/XeniOS/releases/download/release-v2.3.0-build-11659/xenios_ios_iphone_ipad.ipa",
+          "sha256": "0507e0cdd0e380f1e75a47ddb486b76f3bf9a66e4efc2273256f09684676e06b",
+          "sizeBytes": 49157678,
+          "sizeLabel": "47 MB"
+        }
+      ],
+      "platform": "ios",
+      "id": "ios-release-ios-release-2.3.0-11659",
+      "submittedBy": "GitHub Actions"
+    },
+    {
+      "buildId": "macos-release-2.3.0-11659",
+      "channel": "release",
+      "official": true,
+      "appVersion": "2.3.0",
+      "buildNumber": "11659",
+      "stage": "stable",
+      "commitShort": "cef52a33f",
+      "publishedAt": "2026-11-07T18:12:24Z",
+      "label": "2.3.0-11659",
+      "notes": "Official CI release build published from xenios-jp/XeniOS.",
+      "sourceLabel": "GitHub Release",
+      "sourceUrl": "https://github.com/xenios-jp/XeniOS/releases/tag/release-v2.3.0-build-11659",
+      "artifacts": [
+        {
+          "id": "macos-arm64-dmg-xenios-macos-apple-silicon-dmg",
+          "name": "XeniOS for Apple Silicon",
+          "label": "Apple Silicon",
+          "platform": "macos",
+          "arch": "arm64",
+          "kind": "dmg",
+          "downloadUrl": "https://github.com/xenios-jp/XeniOS/releases/download/release-v2.3.0-build-11659/xenios_macos_apple_silicon.dmg",
+          "sha256": "7977bb9e9f8e7a4390f5236e0b263900af5795a3af7ef0652d165a3be265f0cb",
+          "sizeBytes": 44449299,
+          "sizeLabel": "42 MB"
+        }
+      ],
+      "platform": "macos",
+      "id": "macos-release-macos-release-2.3.0-11659",
+      "submittedBy": "GitHub Actions"
+    },
     {
       "buildId": "ios-release-2.2.5-11501",
       "channel": "release",
