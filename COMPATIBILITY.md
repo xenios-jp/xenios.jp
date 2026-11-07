@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **404 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **408 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **169** · 🔵 In-Game: **73** · 🟡 Intro: **36** · 🟠 Loads: **51** · 🔴 Doesn't Boot: **75**
+> 🟢 Playable: **177** · 🔵 In-Game: **72** · 🟡 Intro: **34** · 🟠 Loads: **51** · 🔴 Doesn't Boot: **74**
 >
-> 📱 iOS: **369** · 🖥️ macOS: **57**
+> 📱 iOS: **373** · 🖥️ macOS: **57**
 
 ## Legend
 
@@ -25,12 +25,13 @@
 | 🟢 | A Kingdom for Keflings | `584108DB` | 📱 iOS | Playable | 👌 OK | iPhone 14 Pro | 2026-09-10 |
 | 🟢 | Abyss Odyssey | `58411427` | 🖥️ macOS | Playable | 👌 OK | MacBook Pro (M1) | 2026-08-11 |
 | 🟢 | AFL Live 2 | `484507D6` | 📱 iOS | Playable | 🚀 Great | iPhone 17 | 2026-04-03 |
+| 🟢 | After Burner Climax | `58410A06` | 📱 iOS | Playable | 🚀 Great | iPad Pro 13-inch (M5) | 2026-11-06 |
 | 🟢 | Alan Wake | `4D530805` | 📱 iOS | Playable | 🐢 Poor | iPad (A16) | 2026-03-09 |
 | 🟢 | Alice: Madness Returns | `45410916` | 📱 iOS | Playable | 👌 OK | iPhone 16 Plus | 2026-03-17 |
 | 🟢 | Angry Birds Trilogy | `415608E4` | 📱 iOS | Playable | 🚀 Great | iPad (A16) | 2026-03-09 |
 | 🟢 | Assassin's Creed: Revelations | `55530879` | 📱 iOS | Playable | 👌 OK | iPhone 16 | 2026-03-15 |
 | 🟢 | Banjo Kazooie: Nuts & Bolts | `4D5307ED` | 📱 iOS | Playable | 🐢 Poor | iPhone 15 Pro Max | 2026-03-08 |
-| 🟢 | Batman: Arkham Asylum GOTY | `5343080B` | 📱 iOS | Playable | 👌 OK | iPhone 15 Pro | 2026-03-08 |
+| 🟢 | Batman: Arkham Asylum GOTY | `5343080B` | 📱 iOS | Playable | 👌 OK | iPhone 15 Pro | 2026-11-06 |
 | 🟢 | BattleBlock Theater | `58410A30` | 📱 iOS | Playable | 🚀 Great | iPhone 13 | 2026-03-10 |
 | 🟢 | Ben 10 Ultimate Alien Cosmic Destruction | `445007F7` | 📱 iOS | Playable | 🚀 Great | iPhone 17 | 2026-07-16 |
 | 🟢 | Bionic Commando | `434307DD` | 📱 iOS | Playable | 🚀 Great | iPad Pro 12.9-inch (M2) | 2026-10-11 |
@@ -53,6 +54,7 @@
 | 🟢 | DB: Raging Blast 2 | `4E4D0826` | 📱 iOS | Playable | 🐢 Poor | iPad Pro (M2) | 2026-03-03 |
 | 🟢 | Dead Island | `4B4D07DF` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-04-20 |
 | 🟢 | DEAD OR ALIVE 4 | `544307D1` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro | 2026-07-23 |
+| 🟢 | Dead or Alive Xtreme 2 | `544307D2` | 📱 iOS | Playable | 🚀 Great | iPad Pro 12.9-inch (M2) | 2026-11-06 |
 | 🟢 | Dead Space | `45410857` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro | 2026-03-03 |
 | 🟢 | Deadly Premonition | `4D5607D1` | 📱 iOS | Playable | 👌 OK | iPad (A16) | 2026-03-09 |
 | 🟢 | Def Jam Icon | `454107EE` | 📱 iOS | Playable | 🐢 Poor | iPhone 17 Pro Max | 2026-07-18 |
@@ -88,7 +90,8 @@
 | 🟢 | Guitar Hero Aerosmith | `41560819` | 📱 iOS, 🖥️ macOS | Playable | 👌 OK | iPhone 13 mini | 2026-03-22 |
 | 🟢 | Guitar Hero II | `415607E7` | 📱 iOS, 🖥️ macOS | Playable | 👌 OK | iPhone 13 mini | 2026-03-22 |
 | 🟢 | Guitar Hero III Legends of Rock | `415607F7` | 📱 iOS | Playable | 👌 OK | iPhone 13 mini | 2026-03-22 |
-| 🟢 | Halo 3 | `4D5307E6` | 🖥️ macOS, 📱 iOS | Playable | 👌 OK | iPad Pro 13-inch (M5) | 2026-10-08 |
+| 🟢 | Halo 3 | `4D5307E6` | 🖥️ macOS, 📱 iOS | Playable | 👌 OK | iPad Air 11-inch (M2) | 2026-11-07 |
+| 🟢 | Halo 4 | `4D530919` | 📱 iOS | Playable | 🚀 Great | iPad19,1 | 2026-11-07 |
 | 🟢 | Halo: CE Anniversary | `4D5309B1` | 📱 iOS | Playable | 🚀 Great | iPhone 15 Pro Max | 2026-06-11 |
 | 🟢 | Halo: Reach | `4D53085B` | 📱 iOS | Playable | 🚀 Great | iPad Pro 13-inch (M5) | 2026-06-05 |
 | 🟢 | Hitman: Absolution | `53510804` | 📱 iOS | Playable | 🚀 Great | iPad Pro 12.9-inch (M2) | 2026-03-18 |
@@ -130,11 +133,12 @@
 | 🟢 | Need for Speed: Undercover | `45410876` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-09 |
 | 🟢 | NHL 16: Legacy Edition | `454109EC` | 🖥️ macOS | Playable | 🚀 Great | MacBook Neo 8/512 | 2026-11-04 |
 | 🟢 | OPERATION DARKNESS | `535507D1` | 📱 iOS | Playable | 🚀 Great | iPad Pro 11 inch 5th Gen | 2026-03-18 |
+| 🟢 | OutRun Online Arcade | `58410968` | 📱 iOS | Playable | 🚀 Great | iPad Pro 13-inch (M5) | 2026-11-06 |
 | 🟢 | PAYDAY 2 | `464F0800` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-09-02 |
 | 🟢 | Peggle | `58410889` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro Max | 2026-05-27 |
 | 🟢 | Peggle 2 | `58411436` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro Max | 2026-05-27 |
 | 🟢 | Perfect Dark Zero | `4D5307D3` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-06-18 |
-| 🟢 | Plants vs. Zombies | `584109FF` | 📱 iOS | Playable | 👌 OK | iPhone 14 Pro Max | 2026-03-25 |
+| 🟢 | Plants vs. Zombies | `584109FF` | 📱 iOS | Playable | 🚀 Great | Iphone 18 Pro | 2026-11-07 |
 | 🟢 | Portal: Still Alive | `58410960` | 📱 iOS | Playable | 🚀 Great | iPhone 15 | 2026-09-13 |
 | 🟢 | Pro Evolution Soccer 2011 / PES 2011 | `4B4E081D` | 📱 iOS | Playable | 🐢 Poor | iPhone 16e | 2026-05-20 |
 | 🟢 | Pro Evolution Soccer 2012 / PES 2012 | `4B4E0837` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro | 2026-04-25 |
@@ -150,6 +154,7 @@
 | 🟢 | Rock Band 2 | `45410869` | 📱 iOS, 🖥️ macOS | Playable | 🚀 Great | MacBook Pro (M4) | 2026-03-23 |
 | 🟢 | Rock Band 3 | `45410914` | 📱 iOS, 🖥️ macOS | Playable | 🐢 Poor | iPhone 13 mini | 2026-03-23 |
 | 🟢 | Rumble Roses XX | `4B4E07D1` | 🖥️ macOS | Playable | 🚀 Great | Mac mini (M2) | 2026-03-11 |
+| 🟢 | SEGA Rally Online Arcade | `58410AC2` | 🖥️ macOS, 📱 iOS | Playable | 🚀 Great | iPad Pro 13-inch (M5) | 2026-11-06 |
 | 🟢 | Serious Sam HD: The First Encounter | `584109DA` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro | 2026-03-24 |
 | 🟢 | Shadow Complex | `584108F6` | 🖥️ macOS | Playable | 🚀 Great | MacBook Pro (M1) | 2026-08-12 |
 | 🟢 | Silent Hill: Downpour | `4B4E0823` | 📱 iOS | Playable | 👌 OK | iPhone 14 Pro | 2026-11-06 |
@@ -162,10 +167,12 @@
 | 🟢 | SpongeBob HeroPants | `41560919` | 📱 iOS | Playable | 👌 OK | iPad Mini (A17 Pro) | 2026-03-08 |
 | 🟢 | SpongeBob: Truth-Sq. | `54510850` | 📱 iOS | Playable | 🚀 Great | iPad Mini (A17 Pro) | 2026-06-27 |
 | 🟢 | Star Wars: The Force Unleashed | `4C4107D2` | 📱 iOS | Playable | 🚀 Great | iPhone 15 Pro | 2026-03-10 |
+| 🟢 | Star Wars: The Force Unleashed II | `4C4107F2` | 📱 iOS | Playable | 🚀 Great | iPad Pro 12.9-inch (M2) | 2026-11-06 |
 | 🟢 | Steins;Gate Hiyoku Renri no Darling | `465607E8` | 📱 iOS | Playable | 🚀 Great | iPhone 17 | 2026-03-02 |
 | 🟢 | STREET FIGHTER X TEKKEN | `4343080F` | 📱 iOS | Playable | 🐢 Poor | iPhone 16 Pro Max | 2026-03-11 |
 | 🟢 | Super Street Fighter 2 THD | `584108A4` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-06-25 |
 | 🟢 | Superman Returns | `454107ED` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-08-15 |
+| 🟢 | Syndicate | `45410923` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro | 2026-11-06 |
 | 🟢 | Teenage Mutant Ninja Turtles Danger of the Ooze | `4156090C` | 📱 iOS | Playable | 🚀 Great | iPhone 15 Pro Max | 2026-10-15 |
 | 🟢 | Tenchu Z | `465307D7` | 📱 iOS | Playable | 🚀 Great | 17 Pro | 2026-08-29 |
 | 🟢 | Test Drive Unlimited | `494707D4` | 📱 iOS | Playable | 👌 OK | iPhone 17 Pro Max | 2026-03-27 |
@@ -187,10 +194,10 @@
 | 🟢 | WWE Smackdown vs RAW 2008 | `5451080B` | 📱 iOS | Playable | 👌 OK | iPhone 16e | 2026-03-16 |
 | 🟢 | X-Men Origins: Wolverine | `41560816` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro Max | 2026-07-06 |
 | 🟢 | Xbox 360 Experience Disc 2.4 (USA) | `584B880F` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-08-10 |
+| 🟢 | Yaiba Ninja Gaiden Z | `4B5607E2` | 📱 iOS | Playable | 🚀 Great | iPad Pro 12.9-inch (M2) | 2026-11-06 |
 | 🟢 | Yaris | `5841087F` | 📱 iOS | Playable | 🚀 Great | iPhone 14 Pro Max | 2026-03-23 |
 | 🟢 | Zuma | `584107EF` | 📱 iOS | Playable | 🚀 Great | iPhone 16e | 2026-10-09 |
 | 🔵 | 2014 FIFA World Cup Brazil | `454109D4` | 📱 iOS | In-Game | 🚀 Great | iPad Pro 11-inch (M4) | 2026-07-10 |
-| 🔵 | After Burner Climax | `58410A06` | 📱 iOS | In-Game | 🐢 Poor | iPad Pro 13-inch (M5) | 2026-06-11 |
 | 🔵 | Band Hero | `4156085C` | 📱 iOS, 🖥️ macOS | In-Game | 🐢 Poor | iPhone 13 mini | 2026-03-22 |
 | 🔵 | Batman: Arkham City | `57520802` | 📱 iOS | In-Game | 👌 OK | iPhone 15 Pro Max | 2026-03-09 |
 | 🔵 | Battlefield 4 | `454109BA` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 | 2026-11-03 |
@@ -238,7 +245,6 @@
 | 🔵 | NBA Street Homecourt | `454107E3` | 📱 iOS | In-Game | 🚀 Great | iPhone 17 Pro Max | 2026-03-09 |
 | 🔵 | Need for Speed: Rivals | `454109C6` | 📱 iOS | In-Game | 🐢 Poor | iPad Pro 12.9-inch (M2) | 2026-03-16 |
 | 🔵 | NFL Tour | `45410835` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro Max | 2026-03-11 |
-| 🔵 | OutRun Online Arcade | `58410968` | 📱 iOS | In-Game | 🐢 Poor | iPad Pro 13-inch (M5) | 2026-06-11 |
 | 🔵 | PAC-MAN and the Ghostly Adventures | `4E4D0865` | 📱 iOS | In-Game | 🐢 Poor | iPhone 15 Pro Max | 2026-03-08 |
 | 🔵 | Persona 4 Arena | `453907D2` | 📱 iOS | In-Game | 🚀 Great | iPhone 17 Pro Max | 2026-06-18 |
 | 🔵 | Pinball Arcade | `5841121D` | 📱 iOS | In-Game | 🐢 Poor | iPhone 13 | 2026-03-10 |
@@ -258,6 +264,7 @@
 | 🔵 | Sonic the Hedgehog | `534507D6` | 📱 iOS | In-Game | 👌 OK | iPhone Air | 2026-04-03 |
 | 🔵 | Stranglehold | `4D5707D2` | 🖥️ macOS | In-Game | 🚀 Great | MacBook Pro (M1) | 2026-04-12 |
 | 🔵 | Tekken Tag Tournament 2 | `4E4D0859` | 📱 iOS | In-Game | 🐢 Poor | iPhone 16 Pro | 2026-06-27 |
+| 🔵 | Tom Clancy's Rainbow Six Vegas 2 | `55530807` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro Max | 2026-11-06 |
 | 🔵 | Tomb Raider Underworld | `534307EC` | 📱 iOS | In-Game | 🐢 Poor | iPad16,8 | 2026-07-16 |
 | 🔵 | UFC Undisputed 2010 | `54510851` | 📱 iOS | In-Game | 🐢 Poor | iPhone 16 | 2026-06-05 |
 | 🔵 | Virtua Tennis 3 | `534507E1` | 📱 iOS | In-Game | 🚀 Great | iPhone 17 Pro Max | 2026-06-18 |
@@ -268,13 +275,11 @@
 | 🟡 | Back to the Future | `443607D6` | 📱 iOS | Intro | 🚀 Great | iPhone 16 Pro | 2026-03-24 |
 | 🟡 | Beautiful Katamari | `4E4D07DC` | 📱 iOS | Intro | 👌 OK | iPhone 16 Pro | 2026-03-05 |
 | 🟡 | Blur | `41560845` | 📱 iOS | Intro | 🐢 Poor | iPhone 15 Pro | 2026-06-12 |
-| 🟡 | Dead or Alive Xtreme 2 | `544307D2` | 📱 iOS | Intro | 🐢 Poor | iPhone 13 Pro Max | 2026-03-27 |
 | 🟡 | Dead Rising | `434307D2` | 📱 iOS | Intro | 👌 OK | iPad (A16) | 2026-03-04 |
 | 🟡 | Divinity II Dragon Knight Saga | `464507D6` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro Max | 2026-03-09 |
 | 🟡 | DOOM 3 BFG Edition | `425307F1` | 📱 iOS | Intro | 🚀 Great | iPhone 16 Pro | 2026-03-03 |
 | 🟡 | Far Cry 3 | `5553088C` | 📱 iOS | Intro | 👌 OK | iPhone 15 Pro | 2026-06-12 |
-| 🟡 | Halo 4 | `4D530919` | 📱 iOS | Intro | 🐢 Poor | iPad Pro 12.9-inch (M2) | 2026-03-10 |
-| 🟡 | Halo Wars | `4D530808` | 📱 iOS | Intro | 👌 OK | iPhone 17 | 2026-03-03 |
+| 🟡 | Halo Wars | `4D530808` | 📱 iOS | Intro | 🐢 Poor | iPad19,1 | 2026-11-07 |
 | 🟡 | Left 4 Dead | `45410830` | 📱 iOS | Intro | 🐢 Poor | iPhone 14 Pro Max | 2026-07-30 |
 | 🟡 | Lego Lord of the Rings | `5752081D` | 📱 iOS | Intro | 🐢 Poor | iPhone 16e | 2026-06-15 |
 | 🟡 | Madden NFL 17 | `454109F2` | 📱 iOS | Intro | 🐢 Poor | iPad Air 11-inch (M3) | 2026-04-04 |
@@ -291,7 +296,7 @@
 | 🟡 | Slender: The Arrival | `58411430` | 📱 iOS | Intro | 👌 OK | iPhone 16 | 2026-07-15 |
 | 🟡 | Tales of Vesperia | `4E4D07E9` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro | 2026-03-03 |
 | 🟡 | Test Drive Unlimited 2 | `49470804` | 📱 iOS | Intro | 🐢 Poor | iPhone 15 | 2026-03-28 |
-| 🟡 | The Evil Within | `425307F4` | 📱 iOS | Intro | 🐢 Poor | iPhone 17 Pro Max | 2026-05-09 |
+| 🟡 | The Evil Within | `425307F4` | 📱 iOS | Intro | 🐢 Poor | iPhone 17 Pro Max | 2026-11-06 |
 | 🟡 | The Orange Box | `4541080F` | 📱 iOS | Intro | 🐢 Poor | iPad16,8 | 2026-07-16 |
 | 🟡 | Tom Clancy's Ghost Recon: Future Soldier | `55530833` | 📱 iOS | Intro | 🚀 Great | iPhone 15 Pro | 2026-06-11 |
 | 🟡 | Tom Clancy's Splinter Cell: Blacklist | `555308B6` | 📱 iOS | Intro | 🐢 Poor | iPhone 15 Pro Max | 2026-06-11 |
@@ -399,7 +404,6 @@
 | 🔴 | Pro Evolution Soccer 2015 / PES 2015 | `4B4E085F` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 12 Pro | 2026-08-11 |
 | 🔴 | PROTOTYPE | `4156084E` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 14 Pro | 2026-06-11 |
 | 🔴 | Resident Evil 4 | `4343081C` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 13 | 2026-11-02 |
-| 🔴 | SEGA Rally Online Arcade | `58410AC2` | 🖥️ macOS, 📱 iOS | Doesn't Boot | ➖ N/A | MacBook Pro (M1) | 2026-08-15 |
 | 🔴 | SmackDown vs. RAW 2009 | `54510826` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad (A16) | 2026-03-16 |
 | 🔴 | Soulcalibur IV | `4E4D07E0` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-04-28 |
 | 🔴 | Spider-Man 3 | `415607E2` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 | 2026-07-10 |

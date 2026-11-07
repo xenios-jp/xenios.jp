@@ -5938,8 +5938,8 @@
     "titleIds": [
       "58410A06"
     ],
-    "status": "ingame",
-    "perf": "poor",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
@@ -5947,15 +5947,33 @@
     "lastReport": {
       "device": "iPad Pro 13-inch (M5)",
       "platform": "ios",
-      "osVersion": "26.5",
+      "osVersion": "27.0",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-06-11",
-    "issueNumber": 502,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/502",
-    "notes": "Fails to load 3D graphics",
+    "updatedAt": "2026-11-06",
+    "issueNumber": 738,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/738",
+    "notes": "All seems good. Solid frame rate.",
     "reports": [
+      {
+        "device": "iPad Pro 13-inch (M5)",
+        "platform": "ios",
+        "osVersion": "27.0",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-06",
+        "notes": "All seems good. Solid frame rate.",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "appVersion": "2.2.4",
+          "buildNumber": "11500",
+          "commitShort": "bef950648"
+        }
+      },
       {
         "device": "iPad Pro 13-inch (M5)",
         "platform": "ios",
@@ -5978,56 +5996,56 @@
     "screenshots": [],
     "summaries": {
       "all": {
-        "status": "ingame",
-        "perf": "poor",
-        "notes": "Fails to load 3D graphics",
-        "updatedAt": "2026-06-11",
-        "reportCount": 1,
+        "status": "playable",
+        "perf": "great",
+        "notes": "All seems good. Solid frame rate.",
+        "updatedAt": "2026-11-06",
+        "reportCount": 2,
         "latestReport": {
           "device": "iPad Pro 13-inch (M5)",
           "platform": "ios",
-          "osVersion": "26.5",
+          "osVersion": "27.0",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-06-11",
-          "notes": "Fails to load 3D graphics",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-06",
+          "notes": "All seems good. Solid frame rate.",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.2.4",
+            "buildNumber": "11500",
+            "commitShort": "bef950648"
           }
         },
         "bestReport": {
           "device": "iPad Pro 13-inch (M5)",
           "platform": "ios",
-          "osVersion": "26.5",
+          "osVersion": "27.0",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-06-11",
-          "notes": "Fails to load 3D graphics",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-06",
+          "notes": "All seems good. Solid frame rate.",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.2.4",
+            "buildNumber": "11500",
+            "commitShort": "bef950648"
           }
         },
         "device": "iPad Pro 13-inch (M5)",
         "platform": "ios",
-        "osVersion": "26.5",
+        "osVersion": "27.0",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "commitShort": "57c3ca140"
+          "appVersion": "2.2.4",
+          "buildNumber": "11500",
+          "commitShort": "bef950648"
         }
       }
     }
@@ -21629,11 +21647,29 @@
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-08",
+    "updatedAt": "2026-11-06",
     "issueNumber": 65,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/65",
     "notes": "It runs good you just have to skip the cut scenes to play",
     "reports": [
+      {
+        "device": "iPhone 14 Pro",
+        "platform": "ios",
+        "osVersion": "27.0",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "ok",
+        "date": "2026-11-06",
+        "notes": "When you go outside then will lag a little bit but overall is playable",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "appVersion": "2.2.4",
+          "buildNumber": "11500",
+          "commitShort": "bef950648"
+        }
+      },
       {
         "device": "iPhone 15 Pro",
         "platform": "ios",
@@ -21681,26 +21717,24 @@
         "status": "playable",
         "perf": "ok",
         "notes": "It runs good you just have to skip the cut scenes to play",
-        "updatedAt": "2026-03-08",
-        "reportCount": 2,
+        "updatedAt": "2026-11-06",
+        "reportCount": 3,
         "latestReport": {
-          "device": "iPhone 15 Pro",
+          "device": "iPhone 14 Pro",
           "platform": "ios",
-          "osVersion": "26.3",
+          "osVersion": "27.0",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "playable",
+          "status": "ingame",
           "perf": "ok",
-          "date": "2026-03-08",
-          "notes": "It runs good you just have to skip the cut scenes to play",
-          "reportedTitleId": "534307F6",
-          "reportedTitle": "Batman: Arkham Asylum",
+          "date": "2026-11-06",
+          "notes": "When you go outside then will lag a little bit but overall is playable",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633e8177"
+            "appVersion": "2.2.4",
+            "buildNumber": "11500",
+            "commitShort": "bef950648"
           }
         },
         "bestReport": {
@@ -47924,24 +47958,42 @@
     "titleIds": [
       "544307D2"
     ],
-    "status": "intro",
-    "perf": "poor",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 13 Pro Max",
+      "device": "iPad Pro 12.9-inch (M2)",
       "platform": "ios",
-      "osVersion": "18.6.1",
+      "osVersion": "26.7.2",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-27",
-    "issueNumber": 365,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/365",
-    "notes": "Plays the opening cinematic with super glitched videos, a little slowed down - you can get to the menu after the cinematic if you don’t press anything. But then if you try to start playing after the menu screen it crashes.",
+    "updatedAt": "2026-11-06",
+    "issueNumber": 737,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/737",
+    "notes": "Works very well, no slowdown, no more giant black shadow square. Excellent work!!!!! Only minor black flashing when jet ski-ing and some other times, but a setting might fix that. Volleyball is smooth and playable-lag is fixed there.",
     "reports": [
+      {
+        "device": "iPad Pro 12.9-inch (M2)",
+        "platform": "ios",
+        "osVersion": "26.7.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-06",
+        "notes": "Works very well, no slowdown, no more giant black shadow square. Excellent work!!!!! Only minor black flashing when jet ski-ing and some other times, but a setting might fix that. Volleyball is smooth and playable-lag is fixed there.",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "appVersion": "2.2.4",
+          "buildNumber": "11500",
+          "commitShort": "bef950648"
+        }
+      },
       {
         "device": "iPhone 13 Pro Max",
         "platform": "ios",
@@ -47979,6 +48031,7 @@
       }
     ],
     "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/544307D2/1793963533232-1.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/544307D2/1774597460577-1.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/544307D2/1774597460577-2.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/544307D2/1774597460577-3.jpg",
@@ -47986,56 +48039,56 @@
     ],
     "summaries": {
       "all": {
-        "status": "intro",
-        "perf": "poor",
-        "notes": "Plays the opening cinematic with super glitched videos, a little slowed down - you can get to the menu after the cinematic if you don’t press anything. But then if you try to start playing after the menu screen it crashes.",
-        "updatedAt": "2026-03-27",
-        "reportCount": 2,
+        "status": "playable",
+        "perf": "great",
+        "notes": "Works very well, no slowdown, no more giant black shadow square. Excellent work!!!!! Only minor black flashing when jet ski-ing and some other times, but a setting might fix that. Volleyball is smooth and playable-lag is fixed there.",
+        "updatedAt": "2026-11-06",
+        "reportCount": 3,
         "latestReport": {
-          "device": "iPhone 13 Pro Max",
+          "device": "iPad Pro 12.9-inch (M2)",
           "platform": "ios",
-          "osVersion": "18.6.1",
+          "osVersion": "26.7.2",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "poor",
-          "date": "2026-03-27",
-          "notes": "Plays the opening cinematic with super glitched videos, a little slowed down - you can get to the menu after the cinematic if you don’t press anything. But then if you try to start playing after the menu screen it crashes.",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-06",
+          "notes": "Works very well, no slowdown, no more giant black shadow square. Excellent work!!!!! Only minor black flashing when jet ski-ing and some other times, but a setting might fix that. Volleyball is smooth and playable-lag is fixed there.",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "appVersion": "2.2.4",
+            "buildNumber": "11500",
+            "commitShort": "bef950648"
           }
         },
         "bestReport": {
-          "device": "iPhone 13 Pro Max",
+          "device": "iPad Pro 12.9-inch (M2)",
           "platform": "ios",
-          "osVersion": "18.6.1",
+          "osVersion": "26.7.2",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "poor",
-          "date": "2026-03-27",
-          "notes": "Plays the opening cinematic with super glitched videos, a little slowed down - you can get to the menu after the cinematic if you don’t press anything. But then if you try to start playing after the menu screen it crashes.",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-06",
+          "notes": "Works very well, no slowdown, no more giant black shadow square. Excellent work!!!!! Only minor black flashing when jet ski-ing and some other times, but a setting might fix that. Volleyball is smooth and playable-lag is fixed there.",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "appVersion": "2.2.4",
+            "buildNumber": "11500",
+            "commitShort": "bef950648"
           }
         },
-        "device": "iPhone 13 Pro Max",
+        "device": "iPad Pro 12.9-inch (M2)",
         "platform": "ios",
-        "osVersion": "18.6.1",
+        "osVersion": "26.7.2",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
+          "appVersion": "2.2.4",
+          "buildNumber": "11500",
+          "commitShort": "bef950648"
         }
       }
     }
@@ -80587,17 +80640,35 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPad Pro 13-inch (M5)",
+      "device": "iPad Air 11-inch (M2)",
       "platform": "ios",
-      "osVersion": "26.5.2",
+      "osVersion": "27.2",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-10-08",
+    "updatedAt": "2026-11-07",
     "issueNumber": 42,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/42",
-    "notes": "Textures sometime seem slow to load in but once they do plays fine.",
+    "notes": "Runs at about 30 FPS, shader caching makes it stutter sometimes",
     "reports": [
+      {
+        "device": "iPad Air 11-inch (M2)",
+        "platform": "ios",
+        "osVersion": "27.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-11-07",
+        "notes": "Runs at about 30 FPS, shader caching makes it stutter sometimes",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "appVersion": "2.2.4",
+          "buildNumber": "11500",
+          "commitShort": "bef950648"
+        }
+      },
       {
         "device": "iPhone19,2",
         "platform": "ios",
@@ -80925,54 +80996,54 @@
       "all": {
         "status": "playable",
         "perf": "ok",
-        "notes": "Textures sometime seem slow to load in but once they do plays fine.",
-        "updatedAt": "2026-10-08",
-        "reportCount": 18,
+        "notes": "Runs at about 30 FPS, shader caching makes it stutter sometimes",
+        "updatedAt": "2026-11-07",
+        "reportCount": 19,
         "latestReport": {
-          "device": "iPhone19,2",
+          "device": "iPad Air 11-inch (M2)",
           "platform": "ios",
-          "osVersion": "27.0.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-10-08",
-          "notes": "Doesn’t load, just black screen no audio or anything",
-          "screenshots": [],
-          "source": "app",
-          "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
-          }
-        },
-        "bestReport": {
-          "device": "iPad Pro 13-inch (M5)",
-          "platform": "ios",
-          "osVersion": "26.5.2",
+          "osVersion": "27.2",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "ok",
-          "date": "2026-08-26",
-          "notes": "Textures sometime seem slow to load in but once they do plays fine.",
+          "date": "2026-11-07",
+          "notes": "Runs at about 30 FPS, shader caching makes it stutter sometimes",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.2.4",
+            "buildNumber": "11500",
+            "commitShort": "bef950648"
           }
         },
-        "device": "iPad Pro 13-inch (M5)",
+        "bestReport": {
+          "device": "iPad Air 11-inch (M2)",
+          "platform": "ios",
+          "osVersion": "27.2",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-11-07",
+          "notes": "Runs at about 30 FPS, shader caching makes it stutter sometimes",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "appVersion": "2.2.4",
+            "buildNumber": "11500",
+            "commitShort": "bef950648"
+          }
+        },
+        "device": "iPad Air 11-inch (M2)",
         "platform": "ios",
-        "osVersion": "26.5.2",
+        "osVersion": "27.2",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "commitShort": "57c3ca140"
+          "appVersion": "2.2.4",
+          "buildNumber": "11500",
+          "commitShort": "bef950648"
         }
       }
     }
@@ -81087,24 +81158,42 @@
     "titleIds": [
       "4D530919"
     ],
-    "status": "intro",
-    "perf": "poor",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPad Pro 12.9-inch (M2)",
+      "device": "iPad19,1",
       "platform": "ios",
-      "osVersion": "18.7.2",
+      "osVersion": "27.2",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-10",
+    "updatedAt": "2026-11-07",
     "issueNumber": 57,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/57",
-    "notes": "After those images just black screen, sadly",
+    "notes": "Play solid, sometimes shader loadi g",
     "reports": [
+      {
+        "device": "iPad19,1",
+        "platform": "ios",
+        "osVersion": "27.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-07",
+        "notes": "Play solid, sometimes shader loadi g",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "appVersion": "2.2.4",
+          "buildNumber": "11500",
+          "commitShort": "bef950648"
+        }
+      },
       {
         "device": "iPad Pro 12.9-inch (M2)",
         "platform": "ios",
@@ -81150,56 +81239,56 @@
     ],
     "summaries": {
       "all": {
-        "status": "intro",
-        "perf": "poor",
-        "notes": "After those images just black screen, sadly",
-        "updatedAt": "2026-03-10",
-        "reportCount": 2,
+        "status": "playable",
+        "perf": "great",
+        "notes": "Play solid, sometimes shader loadi g",
+        "updatedAt": "2026-11-07",
+        "reportCount": 3,
         "latestReport": {
-          "device": "iPad Pro 12.9-inch (M2)",
+          "device": "iPad19,1",
           "platform": "ios",
-          "osVersion": "18.7.2",
+          "osVersion": "27.2",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "poor",
-          "date": "2026-03-10",
-          "notes": "After those images just black screen, sadly",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-07",
+          "notes": "Play solid, sometimes shader loadi g",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633e8177"
+            "appVersion": "2.2.4",
+            "buildNumber": "11500",
+            "commitShort": "bef950648"
           }
         },
         "bestReport": {
-          "device": "iPad Pro 12.9-inch (M2)",
+          "device": "iPad19,1",
           "platform": "ios",
-          "osVersion": "18.7.2",
+          "osVersion": "27.2",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "poor",
-          "date": "2026-03-10",
-          "notes": "After those images just black screen, sadly",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-07",
+          "notes": "Play solid, sometimes shader loadi g",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633e8177"
+            "appVersion": "2.2.4",
+            "buildNumber": "11500",
+            "commitShort": "bef950648"
           }
         },
-        "device": "iPad Pro 12.9-inch (M2)",
+        "device": "iPad19,1",
         "platform": "ios",
-        "osVersion": "18.7.2",
+        "osVersion": "27.2",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "commitShort": "2633e8177"
+          "appVersion": "2.2.4",
+          "buildNumber": "11500",
+          "commitShort": "bef950648"
         }
       }
     }
@@ -81296,23 +81385,41 @@
       "4D530808"
     ],
     "status": "intro",
-    "perf": "ok",
+    "perf": "poor",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 17",
+      "device": "iPad19,1",
       "platform": "ios",
-      "osVersion": "26.3",
+      "osVersion": "27.2",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-03",
+    "updatedAt": "2026-11-07",
     "issueNumber": 27,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/27",
-    "notes": "Gets into the main menu but hangs when starting game.",
+    "notes": "After intro stuck and does nothing",
     "reports": [
+      {
+        "device": "iPad19,1",
+        "platform": "ios",
+        "osVersion": "27.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "intro",
+        "perf": "poor",
+        "date": "2026-11-07",
+        "notes": "After intro stuck and does nothing",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "appVersion": "2.2.4",
+          "buildNumber": "11500",
+          "commitShort": "bef950648"
+        }
+      },
       {
         "device": "iPhone 17",
         "platform": "ios",
@@ -81333,45 +81440,56 @@
     "summaries": {
       "all": {
         "status": "intro",
-        "perf": "ok",
-        "notes": "Gets into the main menu but hangs when starting game.",
-        "updatedAt": "2026-03-03",
-        "reportCount": 1,
+        "perf": "poor",
+        "notes": "After intro stuck and does nothing",
+        "updatedAt": "2026-11-07",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 17",
+          "device": "iPad19,1",
           "platform": "ios",
-          "osVersion": "26.3",
+          "osVersion": "27.2",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "intro",
-          "perf": "ok",
-          "date": "2026-03-03",
-          "notes": "Gets into the main menu but hangs when starting game.",
-          "reportedTitleId": "4D530808",
-          "reportedTitle": "Halo Wars",
+          "perf": "poor",
+          "date": "2026-11-07",
+          "notes": "After intro stuck and does nothing",
           "screenshots": [],
-          "source": "app"
+          "source": "app",
+          "build": {
+            "appVersion": "2.2.4",
+            "buildNumber": "11500",
+            "commitShort": "bef950648"
+          }
         },
         "bestReport": {
-          "device": "iPhone 17",
+          "device": "iPad19,1",
           "platform": "ios",
-          "osVersion": "26.3",
+          "osVersion": "27.2",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "intro",
-          "perf": "ok",
-          "date": "2026-03-03",
-          "notes": "Gets into the main menu but hangs when starting game.",
-          "reportedTitleId": "4D530808",
-          "reportedTitle": "Halo Wars",
+          "perf": "poor",
+          "date": "2026-11-07",
+          "notes": "After intro stuck and does nothing",
           "screenshots": [],
-          "source": "app"
+          "source": "app",
+          "build": {
+            "appVersion": "2.2.4",
+            "buildNumber": "11500",
+            "commitShort": "bef950648"
+          }
         },
-        "device": "iPhone 17",
+        "device": "iPad19,1",
         "platform": "ios",
-        "osVersion": "26.3",
+        "osVersion": "27.2",
         "arch": "arm64",
-        "gpuBackend": "msl"
+        "gpuBackend": "msl",
+        "build": {
+          "appVersion": "2.2.4",
+          "buildNumber": "11500",
+          "commitShort": "bef950648"
+        }
       }
     }
   },
@@ -124405,8 +124523,8 @@
     "titleIds": [
       "58410968"
     ],
-    "status": "ingame",
-    "perf": "poor",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
@@ -124414,15 +124532,33 @@
     "lastReport": {
       "device": "iPad Pro 13-inch (M5)",
       "platform": "ios",
-      "osVersion": "26.5",
+      "osVersion": "27.0",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-06-11",
-    "issueNumber": 503,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/503",
-    "notes": "Plays to the point of having to drive your car off the starting line, then crashes.",
+    "updatedAt": "2026-11-06",
+    "issueNumber": 739,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/739",
+    "notes": "Slight sound issues with the car; mainly when the car back fires / changes gears",
     "reports": [
+      {
+        "device": "iPad Pro 13-inch (M5)",
+        "platform": "ios",
+        "osVersion": "27.0",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-06",
+        "notes": "Slight sound issues with the car; mainly when the car back fires / changes gears",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "appVersion": "2.2.4",
+          "buildNumber": "11500",
+          "commitShort": "bef950648"
+        }
+      },
       {
         "device": "iPad Pro 13-inch (M5)",
         "platform": "ios",
@@ -124445,56 +124581,56 @@
     "screenshots": [],
     "summaries": {
       "all": {
-        "status": "ingame",
-        "perf": "poor",
-        "notes": "Plays to the point of having to drive your car off the starting line, then crashes.",
-        "updatedAt": "2026-06-11",
-        "reportCount": 1,
+        "status": "playable",
+        "perf": "great",
+        "notes": "Slight sound issues with the car; mainly when the car back fires / changes gears",
+        "updatedAt": "2026-11-06",
+        "reportCount": 2,
         "latestReport": {
           "device": "iPad Pro 13-inch (M5)",
           "platform": "ios",
-          "osVersion": "26.5",
+          "osVersion": "27.0",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-06-11",
-          "notes": "Plays to the point of having to drive your car off the starting line, then crashes.",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-06",
+          "notes": "Slight sound issues with the car; mainly when the car back fires / changes gears",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.2.4",
+            "buildNumber": "11500",
+            "commitShort": "bef950648"
           }
         },
         "bestReport": {
           "device": "iPad Pro 13-inch (M5)",
           "platform": "ios",
-          "osVersion": "26.5",
+          "osVersion": "27.0",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-06-11",
-          "notes": "Plays to the point of having to drive your car off the starting line, then crashes.",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-06",
+          "notes": "Slight sound issues with the car; mainly when the car back fires / changes gears",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.2.4",
+            "buildNumber": "11500",
+            "commitShort": "bef950648"
           }
         },
         "device": "iPad Pro 13-inch (M5)",
         "platform": "ios",
-        "osVersion": "26.5",
+        "osVersion": "27.0",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "commitShort": "57c3ca140"
+          "appVersion": "2.2.4",
+          "buildNumber": "11500",
+          "commitShort": "bef950648"
         }
       }
     }
@@ -129931,23 +130067,40 @@
       "584109FF"
     ],
     "status": "playable",
-    "perf": "ok",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 14 Pro Max",
+      "device": "Iphone 18 Pro",
       "platform": "ios",
-      "osVersion": "16.5",
+      "osVersion": "iOS 27.0.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-25",
-    "issueNumber": 359,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/359",
-    "notes": "Takes a couple of launches to actually boot, the intro popcap logo is really loud and glitchy, and the first row of plants have a glitchy box overtop.",
+    "updatedAt": "2026-11-07",
+    "issueNumber": 215,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/215",
+    "notes": "The first 2 plants, peashooter and sunflower, seed packets are glitched. They have what seems to be a texture bug where there sun cost has a blue line through it and the right side has a piece overlayed by some other texture. This is also in the popcap bundle version that has 2 other games. This (so far) is the only bug and its only with these 2 plants (I havent gotten that far into the game sorry)",
     "reports": [
+      {
+        "device": "Iphone 18 Pro",
+        "platform": "ios",
+        "osVersion": "iOS 27.0.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-07",
+        "notes": "The first 2 plants, peashooter and sunflower, seed packets are glitched. They have what seems to be a texture bug where there sun cost has a blue line through it and the right side has a piece overlayed by some other texture. This is also in the popcap bundle version that has 2 other games. This (so far) is the only bug and its only with these 2 plants (I havent gotten that far into the game sorry)",
+        "screenshots": [],
+        "source": "github",
+        "build": {
+          "appVersion": "2.2.4",
+          "buildNumber": "11500"
+        }
+      },
       {
         "device": "iPhone 14 Pro Max",
         "platform": "ios",
@@ -129971,55 +130124,52 @@
     "summaries": {
       "all": {
         "status": "playable",
-        "perf": "ok",
-        "notes": "Takes a couple of launches to actually boot, the intro popcap logo is really loud and glitchy, and the first row of plants have a glitchy box overtop.",
-        "updatedAt": "2026-03-25",
-        "reportCount": 1,
+        "perf": "great",
+        "notes": "The first 2 plants, peashooter and sunflower, seed packets are glitched. They have what seems to be a texture bug where there sun cost has a blue line through it and the right side has a piece overlayed by some other texture. This is also in the popcap bundle version that has 2 other games. This (so far) is the only bug and its only with these 2 plants (I havent gotten that far into the game sorry)",
+        "updatedAt": "2026-11-07",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 14 Pro Max",
+          "device": "Iphone 18 Pro",
           "platform": "ios",
-          "osVersion": "16.5",
+          "osVersion": "iOS 27.0.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
-          "perf": "ok",
-          "date": "2026-03-25",
-          "notes": "Takes a couple of launches to actually boot, the intro popcap logo is really loud and glitchy, and the first row of plants have a glitchy box overtop.",
+          "perf": "great",
+          "date": "2026-11-07",
+          "notes": "The first 2 plants, peashooter and sunflower, seed packets are glitched. They have what seems to be a texture bug where there sun cost has a blue line through it and the right side has a piece overlayed by some other texture. This is also in the popcap bundle version that has 2 other games. This (so far) is the only bug and its only with these 2 plants (I havent gotten that far into the game sorry)",
           "screenshots": [],
-          "source": "app",
+          "source": "github",
           "build": {
-            "appVersion": "0.9.2",
-            "buildNumber": "9321",
-            "commitShort": "6228dab43"
+            "appVersion": "2.2.4",
+            "buildNumber": "11500"
           }
         },
         "bestReport": {
-          "device": "iPhone 14 Pro Max",
+          "device": "Iphone 18 Pro",
           "platform": "ios",
-          "osVersion": "16.5",
+          "osVersion": "iOS 27.0.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
-          "perf": "ok",
-          "date": "2026-03-25",
-          "notes": "Takes a couple of launches to actually boot, the intro popcap logo is really loud and glitchy, and the first row of plants have a glitchy box overtop.",
+          "perf": "great",
+          "date": "2026-11-07",
+          "notes": "The first 2 plants, peashooter and sunflower, seed packets are glitched. They have what seems to be a texture bug where there sun cost has a blue line through it and the right side has a piece overlayed by some other texture. This is also in the popcap bundle version that has 2 other games. This (so far) is the only bug and its only with these 2 plants (I havent gotten that far into the game sorry)",
           "screenshots": [],
-          "source": "app",
+          "source": "github",
           "build": {
-            "appVersion": "0.9.2",
-            "buildNumber": "9321",
-            "commitShort": "6228dab43"
+            "appVersion": "2.2.4",
+            "buildNumber": "11500"
           }
         },
-        "device": "iPhone 14 Pro Max",
+        "device": "Iphone 18 Pro",
         "platform": "ios",
-        "osVersion": "16.5",
+        "osVersion": "iOS 27.0.1",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "0.9.2",
-          "buildNumber": "9321",
-          "commitShort": "6228dab43"
+          "appVersion": "2.2.4",
+          "buildNumber": "11500"
         }
       }
     }
@@ -148567,25 +148717,43 @@
     "titleIds": [
       "58410AC2"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "macos",
       "ios"
     ],
     "lastReport": {
-      "device": "MacBook Pro (M1)",
-      "platform": "macos",
-      "osVersion": "26.6.1",
+      "device": "iPad Pro 13-inch (M5)",
+      "platform": "ios",
+      "osVersion": "27.0",
       "arch": "arm64",
-      "gpuBackend": "msc"
+      "gpuBackend": "msl"
     },
-    "updatedAt": "2026-08-15",
-    "issueNumber": 500,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/500",
-    "notes": "Game boots to game logo and hangs.",
+    "updatedAt": "2026-11-06",
+    "issueNumber": 740,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/740",
+    "notes": "All seems to work great.",
     "reports": [
+      {
+        "device": "iPad Pro 13-inch (M5)",
+        "platform": "ios",
+        "osVersion": "27.0",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-06",
+        "notes": "All seems to work great.",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "appVersion": "2.2.4",
+          "buildNumber": "11500",
+          "commitShort": "bef950648"
+        }
+      },
       {
         "device": "MacBook Pro (M1)",
         "platform": "macos",
@@ -148626,56 +148794,56 @@
     "screenshots": [],
     "summaries": {
       "all": {
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "Game boots to game logo and hangs.",
-        "updatedAt": "2026-08-15",
-        "reportCount": 2,
+        "status": "playable",
+        "perf": "great",
+        "notes": "All seems to work great.",
+        "updatedAt": "2026-11-06",
+        "reportCount": 3,
         "latestReport": {
-          "device": "MacBook Pro (M1)",
-          "platform": "macos",
-          "osVersion": "26.6.1",
+          "device": "iPad Pro 13-inch (M5)",
+          "platform": "ios",
+          "osVersion": "27.0",
           "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-08-15",
-          "notes": "Game boots to game logo and hangs.",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-06",
+          "notes": "All seems to work great.",
           "screenshots": [],
-          "source": "github",
+          "source": "app",
           "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9849",
-            "commitShort": "3418fc4"
+            "appVersion": "2.2.4",
+            "buildNumber": "11500",
+            "commitShort": "bef950648"
           }
         },
         "bestReport": {
-          "device": "MacBook Pro (M1)",
-          "platform": "macos",
-          "osVersion": "26.6.1",
+          "device": "iPad Pro 13-inch (M5)",
+          "platform": "ios",
+          "osVersion": "27.0",
           "arch": "arm64",
-          "gpuBackend": "msc",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-08-15",
-          "notes": "Game boots to game logo and hangs.",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-06",
+          "notes": "All seems to work great.",
           "screenshots": [],
-          "source": "github",
+          "source": "app",
           "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9849",
-            "commitShort": "3418fc4"
+            "appVersion": "2.2.4",
+            "buildNumber": "11500",
+            "commitShort": "bef950648"
           }
         },
-        "device": "MacBook Pro (M1)",
-        "platform": "macos",
-        "osVersion": "26.6.1",
+        "device": "iPad Pro 13-inch (M5)",
+        "platform": "ios",
+        "osVersion": "27.0",
         "arch": "arm64",
-        "gpuBackend": "msc",
+        "gpuBackend": "msl",
         "build": {
-          "appVersion": "2.0.1",
-          "buildNumber": "9849",
-          "commitShort": "3418fc4"
+          "appVersion": "2.2.4",
+          "buildNumber": "11500",
+          "commitShort": "bef950648"
         }
       }
     }
@@ -151381,8 +151549,8 @@
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-11-06",
-    "issueNumber": 313,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/313",
+    "issueNumber": 736,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/736",
     "notes": "It runs good but if the phone heats up ur done fr keep it cool to run better",
     "reports": [
       {
@@ -161669,24 +161837,99 @@
       "4C4107F2",
       "4C4187F5"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
-    "platforms": [],
-    "lastReport": null,
-    "updatedAt": "",
-    "notes": "",
-    "reports": [],
-    "screenshots": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPad Pro 12.9-inch (M2)",
+      "platform": "ios",
+      "osVersion": "26.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-11-06",
+    "issueNumber": 746,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/746",
+    "notes": "The first run is full of stutters due to shader compilation, but the second run should be completely smooth. For context, the game wasn't even working in previous versions",
+    "reports": [
+      {
+        "device": "iPad Pro 12.9-inch (M2)",
+        "platform": "ios",
+        "osVersion": "26.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-06",
+        "notes": "The first run is full of stutters due to shader compilation, but the second run should be completely smooth. For context, the game wasn't even working in previous versions",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "appVersion": "2.2.1",
+          "buildNumber": "11458",
+          "commitShort": "ef65d1718"
+        }
+      }
+    ],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4C4107F2/1794008437026-1.jpg"
+    ],
     "summaries": {
       "all": {
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "playable",
+        "perf": "great",
+        "notes": "The first run is full of stutters due to shader compilation, but the second run should be completely smooth. For context, the game wasn't even working in previous versions",
+        "updatedAt": "2026-11-06",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPad Pro 12.9-inch (M2)",
+          "platform": "ios",
+          "osVersion": "26.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-06",
+          "notes": "The first run is full of stutters due to shader compilation, but the second run should be completely smooth. For context, the game wasn't even working in previous versions",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "appVersion": "2.2.1",
+            "buildNumber": "11458",
+            "commitShort": "ef65d1718"
+          }
+        },
+        "bestReport": {
+          "device": "iPad Pro 12.9-inch (M2)",
+          "platform": "ios",
+          "osVersion": "26.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-06",
+          "notes": "The first run is full of stutters due to shader compilation, but the second run should be completely smooth. For context, the game wasn't even working in previous versions",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "appVersion": "2.2.1",
+            "buildNumber": "11458",
+            "commitShort": "ef65d1718"
+          }
+        },
+        "device": "iPad Pro 12.9-inch (M2)",
+        "platform": "ios",
+        "osVersion": "26.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "build": {
+          "appVersion": "2.2.1",
+          "buildNumber": "11458",
+          "commitShort": "ef65d1718"
+        }
       }
     }
   },
@@ -166568,24 +166811,97 @@
       "45410923",
       "45418984"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
-    "platforms": [],
-    "lastReport": null,
-    "updatedAt": "",
-    "notes": "",
-    "reports": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 17 Pro",
+      "platform": "ios",
+      "osVersion": "27.0.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-11-06",
+    "issueNumber": 742,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/742",
+    "notes": "Runs without any issues",
+    "reports": [
+      {
+        "device": "iPhone 17 Pro",
+        "platform": "ios",
+        "osVersion": "27.0.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-06",
+        "notes": "Runs without any issues",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "appVersion": "2.2.4",
+          "buildNumber": "11500",
+          "commitShort": "bef950648"
+        }
+      }
+    ],
     "screenshots": [],
     "summaries": {
       "all": {
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "playable",
+        "perf": "great",
+        "notes": "Runs without any issues",
+        "updatedAt": "2026-11-06",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 17 Pro",
+          "platform": "ios",
+          "osVersion": "27.0.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-06",
+          "notes": "Runs without any issues",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "appVersion": "2.2.4",
+            "buildNumber": "11500",
+            "commitShort": "bef950648"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 17 Pro",
+          "platform": "ios",
+          "osVersion": "27.0.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-06",
+          "notes": "Runs without any issues",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "appVersion": "2.2.4",
+            "buildNumber": "11500",
+            "commitShort": "bef950648"
+          }
+        },
+        "device": "iPhone 17 Pro",
+        "platform": "ios",
+        "osVersion": "27.0.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "build": {
+          "appVersion": "2.2.4",
+          "buildNumber": "11500",
+          "commitShort": "bef950648"
+        }
       }
     }
   },
@@ -171172,11 +171488,29 @@
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-05-09",
-    "issueNumber": 439,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/439",
+    "updatedAt": "2026-11-06",
+    "issueNumber": 741,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/741",
     "notes": "The game load perfect but the grafics looks like crashed.",
     "reports": [
+      {
+        "device": "iPhone 16 Pro Max",
+        "platform": "ios",
+        "osVersion": "27.0.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "loads",
+        "perf": "poor",
+        "date": "2026-11-06",
+        "notes": "The game graphic is too glitchy and cant load contents properly, even the game loads completely",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "appVersion": "2.2.4",
+          "buildNumber": "11500",
+          "commitShort": "bef950648"
+        }
+      },
       {
         "device": "iPhone 17 Pro Max",
         "platform": "ios",
@@ -171202,24 +171536,24 @@
         "status": "intro",
         "perf": "poor",
         "notes": "The game load perfect but the grafics looks like crashed.",
-        "updatedAt": "2026-05-09",
-        "reportCount": 1,
+        "updatedAt": "2026-11-06",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 17 Pro Max",
+          "device": "iPhone 16 Pro Max",
           "platform": "ios",
-          "osVersion": "26.4.2",
+          "osVersion": "27.0.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "intro",
+          "status": "loads",
           "perf": "poor",
-          "date": "2026-05-09",
-          "notes": "The game load perfect but the grafics looks like crashed.",
+          "date": "2026-11-06",
+          "notes": "The game graphic is too glitchy and cant load contents properly, even the game loads completely",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "appVersion": "2.2.4",
+            "buildNumber": "11500",
+            "commitShort": "bef950648"
           }
         },
         "bestReport": {
@@ -177467,24 +177801,97 @@
       "55530807",
       "5553081F"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "ingame",
+    "perf": "poor",
     "tags": [],
-    "platforms": [],
-    "lastReport": null,
-    "updatedAt": "",
-    "notes": "",
-    "reports": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 17 Pro Max",
+      "platform": "ios",
+      "osVersion": "27.2",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-11-06",
+    "issueNumber": 744,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/744",
+    "notes": "First time booting it took more than a minute. Cancelled loading. Second time worked. Within seconds the menu. Stutters. In game very stuttery. Not really working.",
+    "reports": [
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "27.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "poor",
+        "date": "2026-11-06",
+        "notes": "First time booting it took more than a minute. Cancelled loading. Second time worked. Within seconds the menu. Stutters. In game very stuttery. Not really working.",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "appVersion": "2.2.4",
+          "buildNumber": "11500",
+          "commitShort": "bef950648"
+        }
+      }
+    ],
     "screenshots": [],
     "summaries": {
       "all": {
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "ingame",
+        "perf": "poor",
+        "notes": "First time booting it took more than a minute. Cancelled loading. Second time worked. Within seconds the menu. Stutters. In game very stuttery. Not really working.",
+        "updatedAt": "2026-11-06",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "27.2",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-11-06",
+          "notes": "First time booting it took more than a minute. Cancelled loading. Second time worked. Within seconds the menu. Stutters. In game very stuttery. Not really working.",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "appVersion": "2.2.4",
+            "buildNumber": "11500",
+            "commitShort": "bef950648"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "27.2",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-11-06",
+          "notes": "First time booting it took more than a minute. Cancelled loading. Second time worked. Within seconds the menu. Stutters. In game very stuttery. Not really working.",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "appVersion": "2.2.4",
+            "buildNumber": "11500",
+            "commitShort": "bef950648"
+          }
+        },
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "27.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "build": {
+          "appVersion": "2.2.4",
+          "buildNumber": "11500",
+          "commitShort": "bef950648"
+        }
       }
     }
   },
@@ -192908,24 +193315,99 @@
     "titleIds": [
       "4B5607E2"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
-    "platforms": [],
-    "lastReport": null,
-    "updatedAt": "",
-    "notes": "",
-    "reports": [],
-    "screenshots": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPad Pro 12.9-inch (M2)",
+      "platform": "ios",
+      "osVersion": "26.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-11-06",
+    "issueNumber": 745,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/745",
+    "notes": "60 FPS",
+    "reports": [
+      {
+        "device": "iPad Pro 12.9-inch (M2)",
+        "platform": "ios",
+        "osVersion": "26.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-06",
+        "notes": "60 FPS",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "appVersion": "2.2.1",
+          "buildNumber": "11458",
+          "commitShort": "ef65d1718"
+        }
+      }
+    ],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4B5607E2/1794007921921-1.jpg"
+    ],
     "summaries": {
       "all": {
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "playable",
+        "perf": "great",
+        "notes": "60 FPS",
+        "updatedAt": "2026-11-06",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPad Pro 12.9-inch (M2)",
+          "platform": "ios",
+          "osVersion": "26.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-06",
+          "notes": "60 FPS",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "appVersion": "2.2.1",
+            "buildNumber": "11458",
+            "commitShort": "ef65d1718"
+          }
+        },
+        "bestReport": {
+          "device": "iPad Pro 12.9-inch (M2)",
+          "platform": "ios",
+          "osVersion": "26.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-06",
+          "notes": "60 FPS",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "appVersion": "2.2.1",
+            "buildNumber": "11458",
+            "commitShort": "ef65d1718"
+          }
+        },
+        "device": "iPad Pro 12.9-inch (M2)",
+        "platform": "ios",
+        "osVersion": "26.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "build": {
+          "appVersion": "2.2.1",
+          "buildNumber": "11458",
+          "commitShort": "ef65d1718"
+        }
       }
     }
   },
