@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **413 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **414 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **187** · 🔵 In-Game: **71** · 🟡 Intro: **33** · 🟠 Loads: **52** · 🔴 Doesn't Boot: **70**
+> 🟢 Playable: **188** · 🔵 In-Game: **71** · 🟡 Intro: **33** · 🟠 Loads: **52** · 🔴 Doesn't Boot: **70**
 >
-> 📱 iOS: **378** · 🖥️ macOS: **56**
+> 📱 iOS: **379** · 🖥️ macOS: **56**
 
 ## Legend
 
@@ -87,6 +87,7 @@
 | 🟢 | Gears of War: Judgment | `4D530A26` | 📱 iOS | Playable | 🐢 Poor | iPhone 17 Pro Max | 2026-03-17 |
 | 🟢 | Geometry Wars Evolved | `584107ED` | 📱 iOS | Playable | 🚀 Great | iPhone 13 | 2026-03-10 |
 | 🟢 | GoldenEye: 007 Reloaded | `415608AF` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-05-09 |
+| 🟢 | Grand Theft Auto IV | `545407F2` | 📱 iOS, 🖥️ macOS | Playable | 👌 OK | iPhone 17 Pro Max | 2026-11-08 |
 | 🟢 | GRID | `434D07FF` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro | 2026-05-31 |
 | 🟢 | Guacamelee Super Turbo Championship Edition | `58411446` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-03 |
 | 🟢 | Guitar Hero Aerosmith | `41560819` | 📱 iOS, 🖥️ macOS | Playable | 👌 OK | iPhone 13 mini | 2026-03-22 |
@@ -223,6 +224,7 @@
 | 🔵 | Dead Island Riptide | `4B4D07F2` | 📱 iOS | In-Game | 🐢 Poor | iPhone 14 Pro | 2026-03-17 |
 | 🔵 | Deus Ex: Human Revolution - Director's Cut | `535107FA` | 🖥️ macOS | In-Game | 👌 OK | MacBook Pro (M1) | 2026-08-11 |
 | 🔵 | Diablo III | `394F07D1` | 📱 iOS | In-Game | 🐢 Poor | iPhone Air | 2026-10-30 |
+| 🔵 | Dishonored | `425307E3` | 📱 iOS | In-Game | 👌 OK | iPhone 15 | 2026-11-08 |
 | 🔵 | El Shaddai | `494F07D1` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro Max | 2026-06-18 |
 | 🔵 | Fable 3 | `4D5308D6` | 📱 iOS | In-Game | 🐢 Poor | iPhone 15 Pro Max | 2026-03-09 |
 | 🔵 | Fable Anniversary | `4D530A87` | 📱 iOS | In-Game | 🐢 Poor | iPhone 16 Pro Max | 2026-03-09 |
@@ -234,7 +236,6 @@
 | 🔵 | Forza Horizon | `4D5309C9` | 📱 iOS | In-Game | 👌 OK | iPad Pro 11-inch (M2) | 2026-11-08 |
 | 🔵 | Frontlines: Fuel of War | `545107D8` | 🖥️ macOS | In-Game | 🐢 Poor | Macbook Neo A18 Pro | 2026-03-19 |
 | 🔵 | Geometry Wars Evolved² | `584108FF` | 🖥️ macOS | In-Game | 🐢 Poor | MacBook Pro (M1) | 2026-04-12 |
-| 🔵 | Grand Theft Auto IV | `545407F2` | 📱 iOS, 🖥️ macOS | In-Game | 🐢 Poor | iPhone 17 Pro Max | 2026-10-25 |
 | 🔵 | Grand Theft Auto V | `545408A7` | 📱 iOS | In-Game | 🐢 Poor | iPhone 16 | 2026-09-13 |
 | 🔵 | Guitar Hero 5 | `41560840` | 📱 iOS | In-Game | 🐢 Poor | iPhone 13 mini | 2026-03-22 |
 | 🔵 | Guitar Hero Metallica | `41560830` | 📱 iOS, 🖥️ macOS | In-Game | 🐢 Poor | iPhone 13 mini | 2026-03-22 |
