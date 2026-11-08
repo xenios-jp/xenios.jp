@@ -168224,24 +168224,42 @@
     "titleIds": [
       "4E4D07FC"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 16 Pro Max",
+      "device": "iPhone19,2",
       "platform": "ios",
-      "osVersion": "27.0",
+      "osVersion": "27.2",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-07-28",
+    "updatedAt": "2026-11-08",
     "issueNumber": 21,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/21",
-    "notes": "Doesn’t booth",
+    "notes": "Works well on IPhone 18 pro nothing to add.",
     "reports": [
+      {
+        "device": "iPhone19,2",
+        "platform": "ios",
+        "osVersion": "27.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-08",
+        "notes": "Works well on IPhone 18 pro nothing to add.",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.0",
+          "buildNumber": "11659",
+          "commitShort": "cef52a33f"
+        }
+      },
       {
         "device": "iPhone 16 Pro Max",
         "platform": "ios",
@@ -168279,56 +168297,56 @@
     "screenshots": [],
     "summaries": {
       "all": {
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "Doesn’t booth",
-        "updatedAt": "2026-07-28",
-        "reportCount": 2,
+        "status": "playable",
+        "perf": "great",
+        "notes": "Works well on IPhone 18 pro nothing to add.",
+        "updatedAt": "2026-11-08",
+        "reportCount": 3,
         "latestReport": {
-          "device": "iPhone 16 Pro Max",
+          "device": "iPhone19,2",
           "platform": "ios",
-          "osVersion": "27.0",
+          "osVersion": "27.2",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-07-28",
-          "notes": "Doesn’t booth",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-08",
+          "notes": "Works well on IPhone 18 pro nothing to add.",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.3.0",
+            "buildNumber": "11659",
+            "commitShort": "cef52a33f"
           }
         },
         "bestReport": {
-          "device": "iPhone 16 Pro Max",
+          "device": "iPhone19,2",
           "platform": "ios",
-          "osVersion": "27.0",
+          "osVersion": "27.2",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-07-28",
-          "notes": "Doesn’t booth",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-08",
+          "notes": "Works well on IPhone 18 pro nothing to add.",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.3.0",
+            "buildNumber": "11659",
+            "commitShort": "cef52a33f"
           }
         },
-        "device": "iPhone 16 Pro Max",
+        "device": "iPhone19,2",
         "platform": "ios",
-        "osVersion": "27.0",
+        "osVersion": "27.2",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "commitShort": "57c3ca140"
+          "appVersion": "2.3.0",
+          "buildNumber": "11659",
+          "commitShort": "cef52a33f"
         }
       }
     }

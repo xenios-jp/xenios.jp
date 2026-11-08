@@ -2,7 +2,7 @@
 
 > **413 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **186** · 🔵 In-Game: **71** · 🟡 Intro: **33** · 🟠 Loads: **52** · 🔴 Doesn't Boot: **71**
+> 🟢 Playable: **187** · 🔵 In-Game: **71** · 🟡 Intro: **33** · 🟠 Loads: **52** · 🔴 Doesn't Boot: **70**
 >
 > 📱 iOS: **378** · 🖥️ macOS: **56**
 
@@ -178,6 +178,7 @@
 | 🟢 | Superman Returns | `454107ED` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-08-15 |
 | 🟢 | Syndicate | `45410923` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro | 2026-11-06 |
 | 🟢 | Teenage Mutant Ninja Turtles Danger of the Ooze | `4156090C` | 📱 iOS | Playable | 🚀 Great | iPhone 15 Pro Max | 2026-10-15 |
+| 🟢 | Tekken 6 | `4E4D07FC` | 📱 iOS | Playable | 🚀 Great | iPhone19,2 | 2026-11-08 |
 | 🟢 | Tekken Tag Tournament 2 | `4E4D0859` | 📱 iOS | Playable | 🐢 Poor | iPhone 15 Pro Max | 2026-11-07 |
 | 🟢 | Tenchu Z | `465307D7` | 📱 iOS | Playable | 🚀 Great | 17 Pro | 2026-08-29 |
 | 🟢 | Test Drive Unlimited | `494707D4` | 📱 iOS | Playable | 👌 OK | iPhone 17 Pro Max | 2026-03-27 |
@@ -419,7 +420,6 @@
 | 🔴 | Star Ocean: The Last Hope | `535107DD` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-03 |
 | 🔴 | State of Decay | `584111E8` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 | 2026-07-15 |
 | 🔴 | Street Fighter III: Online Edition | `58410B16` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 Pro Max | 2026-07-03 |
-| 🔴 | Tekken 6 | `4E4D07FC` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro Max | 2026-07-28 |
 | 🔴 | The Amazing Spider-Man 2 | `41560905` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 | 2026-03-12 |
 | 🔴 | The Dishwasher: Dead Samurai | `58410902` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 | 2026-07-15 |
 | 🔴 | The Dishwasher: Vampire Smile | `58410A21` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 | 2026-07-15 |
