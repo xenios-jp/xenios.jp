@@ -34697,58 +34697,40 @@
     "titleIds": [
       "41560817"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "ingame",
+    "perf": "ok",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone19,2",
+      "device": "iPad19,1",
       "platform": "ios",
-      "osVersion": "27.0.1",
+      "osVersion": "27.2",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-10-08",
+    "updatedAt": "2026-11-08",
     "issueNumber": 29,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/29",
-    "notes": "Black screen",
+    "notes": "I can start the game, level loads crashed during playing",
     "reports": [
       {
-        "device": "iPhone19,2",
+        "device": "iPad19,1",
         "platform": "ios",
-        "osVersion": "27.0.1",
+        "osVersion": "27.2",
         "arch": "arm64",
         "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-10-08",
-        "notes": "Black screen",
+        "status": "ingame",
+        "perf": "ok",
+        "date": "2026-11-08",
+        "notes": "I can start the game, level loads crashed during playing",
         "screenshots": [],
         "source": "app",
         "build": {
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "commitShort": "57c3ca140"
-        }
-      },
-      {
-        "device": "iPhone 15",
-        "platform": "ios",
-        "osVersion": "26.5.2",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-08-05",
-        "notes": "Almost finishes IW intro before audio looping and eventually freezing, requiring a force close from in the app",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "commitShort": "57c3ca140"
+          "appVersion": "2.3.1",
+          "buildNumber": "11662",
+          "commitShort": "cf7c7ee45"
         }
       },
       {
@@ -34788,61 +34770,62 @@
       }
     ],
     "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/41560817/1794160446877-1.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/41560817/1781468082414-1.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/41560817/1781468082414-2.jpg"
     ],
     "summaries": {
       "all": {
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "Black screen",
-        "updatedAt": "2026-10-08",
-        "reportCount": 4,
+        "status": "ingame",
+        "perf": "ok",
+        "notes": "I can start the game, level loads crashed during playing",
+        "updatedAt": "2026-11-08",
+        "reportCount": 3,
         "latestReport": {
-          "device": "iPhone19,2",
+          "device": "iPad19,1",
           "platform": "ios",
-          "osVersion": "27.0.1",
+          "osVersion": "27.2",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-10-08",
-          "notes": "Black screen",
+          "status": "ingame",
+          "perf": "ok",
+          "date": "2026-11-08",
+          "notes": "I can start the game, level loads crashed during playing",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.3.1",
+            "buildNumber": "11662",
+            "commitShort": "cf7c7ee45"
           }
         },
         "bestReport": {
-          "device": "iPhone19,2",
+          "device": "iPad19,1",
           "platform": "ios",
-          "osVersion": "27.0.1",
+          "osVersion": "27.2",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-10-08",
-          "notes": "Black screen",
+          "status": "ingame",
+          "perf": "ok",
+          "date": "2026-11-08",
+          "notes": "I can start the game, level loads crashed during playing",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.3.1",
+            "buildNumber": "11662",
+            "commitShort": "cf7c7ee45"
           }
         },
-        "device": "iPhone19,2",
+        "device": "iPad19,1",
         "platform": "ios",
-        "osVersion": "27.0.1",
+        "osVersion": "27.2",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "commitShort": "57c3ca140"
+          "appVersion": "2.3.1",
+          "buildNumber": "11662",
+          "commitShort": "cf7c7ee45"
         }
       }
     }
@@ -63569,40 +63552,40 @@
     "titleIds": [
       "5553088C"
     ],
-    "status": "intro",
-    "perf": "ok",
+    "status": "ingame",
+    "perf": "poor",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 15 Pro",
+      "device": "iPhone 14 Pro",
       "platform": "ios",
-      "osVersion": "26.4.2",
+      "osVersion": "27.0",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-06-12",
-    "issueNumber": 251,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/251",
-    "notes": "Infinite loading when try to play",
+    "updatedAt": "2026-11-08",
+    "issueNumber": 768,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/768",
+    "notes": ".",
     "reports": [
       {
-        "device": "iPhone 15 Pro",
+        "device": "iPhone 14 Pro",
         "platform": "ios",
-        "osVersion": "26.4.2",
+        "osVersion": "27.0",
         "arch": "arm64",
         "gpuBackend": "msl",
-        "status": "intro",
-        "perf": "ok",
-        "date": "2026-06-12",
-        "notes": "Infinite loading when try to play",
+        "status": "ingame",
+        "perf": "poor",
+        "date": "2026-11-08",
+        "notes": ".",
         "screenshots": [],
         "source": "app",
         "build": {
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "commitShort": "57c3ca140"
+          "appVersion": "2.3.1",
+          "buildNumber": "11662",
+          "commitShort": "cf7c7ee45"
         }
       }
     ],
@@ -63616,56 +63599,56 @@
     ],
     "summaries": {
       "all": {
-        "status": "intro",
-        "perf": "ok",
-        "notes": "Infinite loading when try to play",
-        "updatedAt": "2026-06-12",
+        "status": "ingame",
+        "perf": "poor",
+        "notes": ".",
+        "updatedAt": "2026-11-08",
         "reportCount": 1,
         "latestReport": {
-          "device": "iPhone 15 Pro",
+          "device": "iPhone 14 Pro",
           "platform": "ios",
-          "osVersion": "26.4.2",
+          "osVersion": "27.0",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "ok",
-          "date": "2026-06-12",
-          "notes": "Infinite loading when try to play",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-11-08",
+          "notes": ".",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.3.1",
+            "buildNumber": "11662",
+            "commitShort": "cf7c7ee45"
           }
         },
         "bestReport": {
-          "device": "iPhone 15 Pro",
+          "device": "iPhone 14 Pro",
           "platform": "ios",
-          "osVersion": "26.4.2",
+          "osVersion": "27.0",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "ok",
-          "date": "2026-06-12",
-          "notes": "Infinite loading when try to play",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-11-08",
+          "notes": ".",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.3.1",
+            "buildNumber": "11662",
+            "commitShort": "cf7c7ee45"
           }
         },
-        "device": "iPhone 15 Pro",
+        "device": "iPhone 14 Pro",
         "platform": "ios",
-        "osVersion": "26.4.2",
+        "osVersion": "27.0",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "commitShort": "57c3ca140"
+          "appVersion": "2.3.1",
+          "buildNumber": "11662",
+          "commitShort": "cf7c7ee45"
         }
       }
     }
@@ -76744,24 +76727,42 @@
     "titleIds": [
       "545408A7"
     ],
-    "status": "ingame",
-    "perf": "poor",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 16",
+      "device": "iPhone 17 Pro Max",
       "platform": "ios",
-      "osVersion": "26.5",
+      "osVersion": "27.0.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-09-13",
+    "updatedAt": "2026-11-08",
     "issueNumber": 62,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/62",
-    "notes": "Go into game and can walk around the map but very unstable and any sudden movement can crash it",
+    "notes": "It runs and very playable but after a while fps drops because of heat. If you use cooler it works perfect",
     "reports": [
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "27.0.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-08",
+        "notes": "It runs and very playable but after a while fps drops because of heat. If you use cooler it works perfect",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.1",
+          "buildNumber": "11662",
+          "commitShort": "cf7c7ee45"
+        }
+      },
       {
         "device": "iPhone18,5",
         "platform": "ios",
@@ -76935,56 +76936,56 @@
     ],
     "summaries": {
       "all": {
-        "status": "ingame",
-        "perf": "poor",
-        "notes": "Go into game and can walk around the map but very unstable and any sudden movement can crash it",
-        "updatedAt": "2026-09-13",
-        "reportCount": 8,
+        "status": "playable",
+        "perf": "great",
+        "notes": "It runs and very playable but after a while fps drops because of heat. If you use cooler it works perfect",
+        "updatedAt": "2026-11-08",
+        "reportCount": 9,
         "latestReport": {
-          "device": "iPhone18,5",
+          "device": "iPhone 17 Pro Max",
           "platform": "ios",
-          "osVersion": "26.3",
+          "osVersion": "27.0.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "poor",
-          "date": "2026-09-13",
-          "notes": "Only play the rockstar animation",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-08",
+          "notes": "It runs and very playable but after a while fps drops because of heat. If you use cooler it works perfect",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.3.1",
+            "buildNumber": "11662",
+            "commitShort": "cf7c7ee45"
           }
         },
         "bestReport": {
-          "device": "iPhone 16",
+          "device": "iPhone 17 Pro Max",
           "platform": "ios",
-          "osVersion": "26.5",
+          "osVersion": "27.0.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-08-26",
-          "notes": "Go into game and can walk around the map but very unstable and any sudden movement can crash it",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-08",
+          "notes": "It runs and very playable but after a while fps drops because of heat. If you use cooler it works perfect",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.3.1",
+            "buildNumber": "11662",
+            "commitShort": "cf7c7ee45"
           }
         },
-        "device": "iPhone 16",
+        "device": "iPhone 17 Pro Max",
         "platform": "ios",
-        "osVersion": "26.5",
+        "osVersion": "27.0.1",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "commitShort": "57c3ca140"
+          "appVersion": "2.3.1",
+          "buildNumber": "11662",
+          "commitShort": "cf7c7ee45"
         }
       }
     }
@@ -104337,24 +104338,99 @@
     "titleIds": [
       "415607DA"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
-    "platforms": [],
-    "lastReport": null,
-    "updatedAt": "",
-    "notes": "",
-    "reports": [],
-    "screenshots": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 16 Pro",
+      "platform": "ios",
+      "osVersion": "26.4.2",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-11-08",
+    "issueNumber": 766,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/766",
+    "notes": "Playable, stable fps with minimal FPS drops.",
+    "reports": [
+      {
+        "device": "iPhone 16 Pro",
+        "platform": "ios",
+        "osVersion": "26.4.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-08",
+        "notes": "Playable, stable fps with minimal FPS drops.",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.0",
+          "buildNumber": "11659",
+          "commitShort": "cef52a33f"
+        }
+      }
+    ],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/415607DA/1794159177718-1.jpg"
+    ],
     "summaries": {
       "all": {
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "playable",
+        "perf": "great",
+        "notes": "Playable, stable fps with minimal FPS drops.",
+        "updatedAt": "2026-11-08",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 16 Pro",
+          "platform": "ios",
+          "osVersion": "26.4.2",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-08",
+          "notes": "Playable, stable fps with minimal FPS drops.",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "appVersion": "2.3.0",
+            "buildNumber": "11659",
+            "commitShort": "cef52a33f"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 16 Pro",
+          "platform": "ios",
+          "osVersion": "26.4.2",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-08",
+          "notes": "Playable, stable fps with minimal FPS drops.",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "appVersion": "2.3.0",
+            "buildNumber": "11659",
+            "commitShort": "cef52a33f"
+          }
+        },
+        "device": "iPhone 16 Pro",
+        "platform": "ios",
+        "osVersion": "26.4.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "build": {
+          "appVersion": "2.3.0",
+          "buildNumber": "11659",
+          "commitShort": "cef52a33f"
+        }
       }
     }
   },
@@ -159502,24 +159578,42 @@
     "titleIds": [
       "41560815"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "playable",
+    "perf": "ok",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 13 Pro Max",
+      "device": "iPhone 16 Pro",
       "platform": "ios",
-      "osVersion": "26.6.1",
+      "osVersion": "26.4.2",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-10-10",
+    "updatedAt": "2026-11-08",
     "issueNumber": 652,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/652",
-    "notes": "Does not boot.",
+    "notes": "Sometimes frame rate is stable, sometimes it dips.",
     "reports": [
+      {
+        "device": "iPhone 16 Pro",
+        "platform": "ios",
+        "osVersion": "26.4.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-11-08",
+        "notes": "Sometimes frame rate is stable, sometimes it dips.",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.0",
+          "buildNumber": "11659",
+          "commitShort": "cef52a33f"
+        }
+      },
       {
         "device": "iPhone 13 Pro Max",
         "platform": "ios",
@@ -159560,56 +159654,56 @@
     "screenshots": [],
     "summaries": {
       "all": {
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "Does not boot.",
-        "updatedAt": "2026-10-10",
-        "reportCount": 2,
+        "status": "playable",
+        "perf": "ok",
+        "notes": "Sometimes frame rate is stable, sometimes it dips.",
+        "updatedAt": "2026-11-08",
+        "reportCount": 3,
         "latestReport": {
-          "device": "iPhone 13 Pro Max",
+          "device": "iPhone 16 Pro",
           "platform": "ios",
-          "osVersion": "26.6.1",
+          "osVersion": "26.4.2",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-10-10",
-          "notes": "Does not boot.",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-11-08",
+          "notes": "Sometimes frame rate is stable, sometimes it dips.",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.3.0",
+            "buildNumber": "11659",
+            "commitShort": "cef52a33f"
           }
         },
         "bestReport": {
-          "device": "iPhone 13 Pro Max",
+          "device": "iPhone 16 Pro",
           "platform": "ios",
-          "osVersion": "26.6.1",
+          "osVersion": "26.4.2",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-10-10",
-          "notes": "Does not boot.",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-11-08",
+          "notes": "Sometimes frame rate is stable, sometimes it dips.",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.3.0",
+            "buildNumber": "11659",
+            "commitShort": "cef52a33f"
           }
         },
-        "device": "iPhone 13 Pro Max",
+        "device": "iPhone 16 Pro",
         "platform": "ios",
-        "osVersion": "26.6.1",
+        "osVersion": "26.4.2",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "commitShort": "57c3ca140"
+          "appVersion": "2.3.0",
+          "buildNumber": "11659",
+          "commitShort": "cef52a33f"
         }
       }
     }
