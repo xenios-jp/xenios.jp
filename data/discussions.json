@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T12:17:29.118Z",
+  "generatedAt": "2026-11-08T13:39:18.012Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -4311,6 +4311,60 @@
         }
       ]
     },
+    "415607E1": {
+      "titleId": "415607E1",
+      "issueNumber": 765,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/765",
+      "updatedAt": "2026-11-08",
+      "entries": [
+        {
+          "id": "issue-765",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/765",
+          "author": "xenios-jp",
+          "createdAt": "2026-11-08",
+          "createdAtMs": 1794140723000,
+          "issueNumber": 765,
+          "excerpt": "Fluently right from the start",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 27.2",
+            "gpuBackend": "MSL",
+            "appVersion": "2.3.1",
+            "buildNumber": "11662",
+            "commitShort": "`cf7c7ee45`"
+          }
+        },
+        {
+          "id": "issue-130",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/130",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-09",
+          "createdAtMs": 1773056073000,
+          "issueNumber": 130,
+          "excerpt": "crashes",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 16 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 26.2",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "buildStage": "stable",
+            "commitShort": "`2633e8177`"
+          }
+        }
+      ]
+    },
     "425307E3": {
       "titleId": "425307E3",
       "issueNumber": 764,
@@ -5156,8 +5210,30 @@
       "titleId": "4D530808",
       "issueNumber": 748,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/748",
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-08",
       "entries": [
+        {
+          "id": "comment-6722149594",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/748#issuecomment-6722149594",
+          "author": "xenios-jp",
+          "createdAt": "2026-11-08",
+          "createdAtMs": 1794144863000,
+          "issueNumber": 748,
+          "excerpt": "The startup blackscreen takes 30/40 seconds and from there its performing solid. Sometimed black texture boxes while playing",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPad19,1",
+            "platform": "iOS",
+            "osVersion": "iOS 27.2",
+            "gpuBackend": "MSL",
+            "appVersion": "2.3.0",
+            "buildNumber": "11659",
+            "commitShort": "`cef52a33f`"
+          }
+        },
         {
           "id": "issue-748",
           "type": "issue",
@@ -19517,38 +19593,6 @@
             "device": "iPhone 16 Pro Max",
             "platform": "iOS",
             "osVersion": "iOS 26.3.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "buildStage": "stable",
-            "commitShort": "`2633e8177`"
-          }
-        }
-      ]
-    },
-    "415607E1": {
-      "titleId": "415607E1",
-      "issueNumber": 130,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/130",
-      "updatedAt": "2026-03-09",
-      "entries": [
-        {
-          "id": "issue-130",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/130",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-09",
-          "createdAtMs": 1773056073000,
-          "issueNumber": 130,
-          "excerpt": "crashes",
-          "images": [],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPhone 16 Pro",
-            "platform": "iOS",
-            "osVersion": "iOS 26.2",
             "gpuBackend": "MSL",
             "buildChannel": "self-built",
             "appVersion": "1.0.0",
