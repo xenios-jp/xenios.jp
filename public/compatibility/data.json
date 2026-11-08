@@ -69272,39 +69272,39 @@
       "4D538A68"
     ],
     "status": "ingame",
-    "perf": "poor",
+    "perf": "ok",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 15 Pro Max",
+      "device": "iPad Pro 11-inch (M2)",
       "platform": "ios",
-      "osVersion": "26.1",
+      "osVersion": "27.2",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-07-02",
+    "updatedAt": "2026-11-08",
     "issueNumber": 125,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/125",
-    "notes": "Distortions and is unplayable experience",
+    "notes": "play with 15fps - 30fps\nperformance drop when device get heat",
     "reports": [
       {
-        "device": "iPad Air 5",
+        "device": "iPad Pro 11-inch (M2)",
         "platform": "ios",
-        "osVersion": "26.5",
+        "osVersion": "27.2",
         "arch": "arm64",
         "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-07-02",
-        "notes": "It just crashes every time I try",
+        "status": "ingame",
+        "perf": "ok",
+        "date": "2026-11-08",
+        "notes": "play with 15fps - 30fps\nperformance drop when device get heat",
         "screenshots": [],
         "source": "app",
         "build": {
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "commitShort": "57c3ca140"
+          "appVersion": "2.3.0",
+          "buildNumber": "11659",
+          "commitShort": "cef52a33f"
         }
       },
       {
@@ -69332,57 +69332,55 @@
     "summaries": {
       "all": {
         "status": "ingame",
-        "perf": "poor",
-        "notes": "Distortions and is unplayable experience",
-        "updatedAt": "2026-07-02",
+        "perf": "ok",
+        "notes": "play with 15fps - 30fps\nperformance drop when device get heat",
+        "updatedAt": "2026-11-08",
         "reportCount": 2,
         "latestReport": {
-          "device": "iPad Air 5",
+          "device": "iPad Pro 11-inch (M2)",
           "platform": "ios",
-          "osVersion": "26.5",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-07-02",
-          "notes": "It just crashes every time I try",
-          "screenshots": [],
-          "source": "app",
-          "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 15 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.1",
+          "osVersion": "27.2",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "ingame",
-          "perf": "poor",
-          "date": "2026-03-09",
-          "notes": "Distortions and is unplayable experience",
-          "reportedTitleId": "4D5309C9",
-          "reportedTitle": "Forza Horizon",
+          "perf": "ok",
+          "date": "2026-11-08",
+          "notes": "play with 15fps - 30fps\nperformance drop when device get heat",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633e8177"
+            "appVersion": "2.3.0",
+            "buildNumber": "11659",
+            "commitShort": "cef52a33f"
           }
         },
-        "device": "iPhone 15 Pro Max",
+        "bestReport": {
+          "device": "iPad Pro 11-inch (M2)",
+          "platform": "ios",
+          "osVersion": "27.2",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "ok",
+          "date": "2026-11-08",
+          "notes": "play with 15fps - 30fps\nperformance drop when device get heat",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "appVersion": "2.3.0",
+            "buildNumber": "11659",
+            "commitShort": "cef52a33f"
+          }
+        },
+        "device": "iPad Pro 11-inch (M2)",
         "platform": "ios",
-        "osVersion": "26.1",
+        "osVersion": "27.2",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "commitShort": "2633e8177"
+          "appVersion": "2.3.0",
+          "buildNumber": "11659",
+          "commitShort": "cef52a33f"
         }
       }
     }
@@ -191962,8 +191960,7 @@
     "titleId": "54510866",
     "titleIds": [
       "54510866",
-      "54518887",
-      "60CEF505"
+      "54518887"
     ],
     "status": "playable",
     "perf": "great",
@@ -191972,94 +191969,92 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPad Pro M2",
+      "device": "iPad Pro 11-inch (M2)",
       "platform": "ios",
       "osVersion": "27.2",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-11-07",
-    "issueNumber": 753,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/753",
-    "notes": "Work on 60fps",
+    "updatedAt": "2026-11-08",
+    "issueNumber": 762,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/762",
+    "notes": "The game runs smoothly at nearly 60 FPS",
     "reports": [
       {
-        "device": "iPad Pro M2",
+        "device": "iPad Pro 11-inch (M2)",
         "platform": "ios",
         "osVersion": "27.2",
         "arch": "arm64",
         "gpuBackend": "msl",
         "status": "playable",
         "perf": "great",
-        "date": "2026-11-07",
-        "notes": "Work on 60fps",
-        "reportedTitleId": "60CEF505",
-        "reportedTitle": "WWE All Stars",
+        "date": "2026-11-08",
+        "notes": "The game runs smoothly at nearly 60 FPS",
         "screenshots": [],
-        "submittedBy": "vhtuan288",
-        "source": "github",
+        "source": "app",
         "build": {
-          "appVersion": "2.2.4",
-          "buildNumber": "11500"
+          "appVersion": "2.3.0",
+          "buildNumber": "11659",
+          "commitShort": "cef52a33f"
         }
       }
     ],
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/54510866/1794105910687-1.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/54510866/1794105910687-2.jpg"
+    ],
     "summaries": {
       "all": {
         "status": "playable",
         "perf": "great",
-        "notes": "Work on 60fps",
-        "updatedAt": "2026-11-07",
+        "notes": "The game runs smoothly at nearly 60 FPS",
+        "updatedAt": "2026-11-08",
         "reportCount": 1,
         "latestReport": {
-          "device": "iPad Pro M2",
+          "device": "iPad Pro 11-inch (M2)",
           "platform": "ios",
           "osVersion": "27.2",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "great",
-          "date": "2026-11-07",
-          "notes": "Work on 60fps",
-          "reportedTitleId": "60CEF505",
-          "reportedTitle": "WWE All Stars",
+          "date": "2026-11-08",
+          "notes": "The game runs smoothly at nearly 60 FPS",
           "screenshots": [],
-          "submittedBy": "vhtuan288",
-          "source": "github",
+          "source": "app",
           "build": {
-            "appVersion": "2.2.4",
-            "buildNumber": "11500"
+            "appVersion": "2.3.0",
+            "buildNumber": "11659",
+            "commitShort": "cef52a33f"
           }
         },
         "bestReport": {
-          "device": "iPad Pro M2",
+          "device": "iPad Pro 11-inch (M2)",
           "platform": "ios",
           "osVersion": "27.2",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "great",
-          "date": "2026-11-07",
-          "notes": "Work on 60fps",
-          "reportedTitleId": "60CEF505",
-          "reportedTitle": "WWE All Stars",
+          "date": "2026-11-08",
+          "notes": "The game runs smoothly at nearly 60 FPS",
           "screenshots": [],
-          "submittedBy": "vhtuan288",
-          "source": "github",
+          "source": "app",
           "build": {
-            "appVersion": "2.2.4",
-            "buildNumber": "11500"
+            "appVersion": "2.3.0",
+            "buildNumber": "11659",
+            "commitShort": "cef52a33f"
           }
         },
-        "device": "iPad Pro M2",
+        "device": "iPad Pro 11-inch (M2)",
         "platform": "ios",
         "osVersion": "27.2",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "2.2.4",
-          "buildNumber": "11500"
+          "appVersion": "2.3.0",
+          "buildNumber": "11659",
+          "commitShort": "cef52a33f"
         }
       }
     }

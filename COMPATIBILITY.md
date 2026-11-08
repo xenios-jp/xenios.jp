@@ -199,7 +199,7 @@
 | 🟢 | Ultra Street Fighter IV | `434307FC` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro Max | 2026-03-09 |
 | 🟢 | Virtua Fighter 5: Final Showdown | `534507EE` | 📱 iOS | Playable | 👌 OK | iPhone 17 Pro Max | 2026-03-03 |
 | 🟢 | WRC 5: FIA WORLD RALLY CHAMPIONSHIP | `573607E2` | 📱 iOS | Playable | 🐢 Poor | iPhone 17 Pro Max | 2026-03-17 |
-| 🟢 | WWE All Stars | `54510866` | 📱 iOS | Playable | 🚀 Great | iPad Pro M2 | 2026-11-07 |
+| 🟢 | WWE All Stars | `54510866` | 📱 iOS | Playable | 🚀 Great | iPad Pro 11-inch (M2) | 2026-11-08 |
 | 🟢 | WWE Smackdown vs RAW 2008 | `5451080B` | 📱 iOS | Playable | 👌 OK | iPhone 16e | 2026-03-16 |
 | 🟢 | X-Men Origins: Wolverine | `41560816` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro Max | 2026-07-06 |
 | 🟢 | Xbox 360 Experience Disc 2.4 (USA) | `584B880F` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-08-10 |
@@ -230,7 +230,7 @@
 | 🔵 | FIFA 16 | `454109EE` | 📱 iOS | In-Game | 👌 OK | iPhone 14 Pro Max | 2026-03-08 |
 | 🔵 | FIFA 19 | `454109F9` | 📱 iOS | In-Game | 🐢 Poor | iPad Air gen 6 (M2) | 2026-07-19 |
 | 🔵 | Fight Night Round 3 | `454107DE` | 📱 iOS | In-Game | 🐢 Poor | iPhone 16e | 2026-03-10 |
-| 🔵 | Forza Horizon | `4D5309C9` | 📱 iOS | In-Game | 🐢 Poor | iPhone 15 Pro Max | 2026-07-02 |
+| 🔵 | Forza Horizon | `4D5309C9` | 📱 iOS | In-Game | 👌 OK | iPad Pro 11-inch (M2) | 2026-11-08 |
 | 🔵 | Frontlines: Fuel of War | `545107D8` | 🖥️ macOS | In-Game | 🐢 Poor | Macbook Neo A18 Pro | 2026-03-19 |
 | 🔵 | Geometry Wars Evolved² | `584108FF` | 🖥️ macOS | In-Game | 🐢 Poor | MacBook Pro (M1) | 2026-04-12 |
 | 🔵 | Grand Theft Auto IV | `545407F2` | 📱 iOS, 🖥️ macOS | In-Game | 🐢 Poor | iPhone 17 Pro Max | 2026-10-25 |
