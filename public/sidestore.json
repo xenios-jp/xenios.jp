@@ -22,6 +22,15 @@
       "category": "games",
       "versions": [
         {
+          "version": "2.3.1",
+          "buildVersion": "11662",
+          "date": "2026-11-08T02:09:12Z",
+          "localizedDescription": "Fixes on top of 2.3.0.\n\nRequires iOS / iPadOS 26 or later. A Mac build for Apple Silicon (macOS 15 or later) is attached as well.\n\n## Fixes\n\n- When the app runs out of memory while compiling game code, it now says so instead of crashing without a message.\n- Fixed the Achievements screen freezing the app on some devices.",
+          "downloadURL": "https://github.com/xenios-jp/XeniOS/releases/download/release-v2.3.1-build-11662/xenios_ios_iphone_ipad.ipa",
+          "size": 49156698,
+          "minOSVersion": "26.0"
+        },
+        {
           "version": "2.3.0",
           "buildVersion": "11659",
           "date": "2026-11-07T18:12:24Z",
@@ -89,11 +98,11 @@
           "NSMotionUsageDescription": "Head tracking adjusts spatial audio to your head movement when using the PHASE audio backend with supported headphones."
         }
       },
-      "version": "2.3.0",
-      "versionDate": "2026-11-07T18:12:24Z",
-      "versionDescription": "XeniOS Live: an online account, friends, game invites, parties and party voice, through the XeniOS lobby at live.xenios.jp.\n\nRequires iOS / iPadOS 26 or later. A Mac build for Apple Silicon (macOS 15 or later) is attached as well.\n\n## Live\n\n- A profile can sign in to XeniOS Live with an online account kept by the XeniOS lobby. Your gamertag is checked for availability; another device joins the same account with a link code from a signed-in device, or with a recovery code, and a device that's already signed in approves new ones.\n- Friends: add a friend with their friend code, a QR code, a shared link, or by searching their gamertag. Accept, decline and remove friends; see who's online, what they're playing, and your offline friends.\n- Sharing your friend code sends a link to live.xenios.jp with your code and its QR code, which shows as a card in chats.\n- Game invites: invite a friend from the in-game Online panel or from the game, and join from the invite banner. An invite accepted outside the game starts the game and joins the session; an invite to another game starts that game.\n- Parties: start a party, invite anyone, and follow the party leader into their game. Parties have their own voice chat, separate from game chat.\n- Matchmaking: games that search for Live sessions find the sessions other XeniOS players host, through the lobby.\n- Stats and leaderboards are kept by the lobby.\n- Voice chat is on by default, with a Microphone choice (Off, this device or a headset) in Settings > Online and the in-game menu.\n- Block and report players, Appear Offline, and Recent Players. Blocked players are muted in games, and their sessions are hidden.\n- Public Games lists the games other XeniOS players are in, without your own.\n- Xbox 360 Dashboard: Friends and Party open the Online panel, and My Games lists your games.\n\n## Settings\n\n- Settings > Online: Private Rooms by Default for System Link, and the Microphone. A game's page shows its Online Room.\n\n## Profiles\n\n- Gamer pictures: choose one of the Xbox 360 gamer pictures for the signed-in profile (Profile page > Edit). They come from the Xbox 360 system software, so it has to be installed.\n- A profile, with its account and saves, travels as one `.xeniosprofile` file; the Mac imports one from the Finder or AirDrop.\n\n## In-game menu\n\n- Quit Game: in a game started from the dashboard, choose Quit to Library or Quit to Dashboard.\n\n## Tested\n\n- Halo 3: game invites and parties between Mac instances; an iPhone joined a Mac Halo 3 lobby from an invite through the lobby.\n- Halo 3 Mythic (4 players), Gears of War and Virtua Fighter 5 matchmade and played over System Link through the lobby.\n- Party voice between a Mac and an iPhone, both ways.\n- Friends, offline friends, Remove Friend, gamertag search and friend-code sharing on an iPhone.\n\n## Known issues\n\n- Live, online System Link and the Xbox 360 Dashboard are experimental.\n- Players who take friend requests by code only can't be found by gamertag.",
-      "downloadURL": "https://github.com/xenios-jp/XeniOS/releases/download/release-v2.3.0-build-11659/xenios_ios_iphone_ipad.ipa",
-      "size": 49157678
+      "version": "2.3.1",
+      "versionDate": "2026-11-08T02:09:12Z",
+      "versionDescription": "Fixes on top of 2.3.0.\n\nRequires iOS / iPadOS 26 or later. A Mac build for Apple Silicon (macOS 15 or later) is attached as well.\n\n## Fixes\n\n- When the app runs out of memory while compiling game code, it now says so instead of crashing without a message.\n- Fixed the Achievements screen freezing the app on some devices.",
+      "downloadURL": "https://github.com/xenios-jp/XeniOS/releases/download/release-v2.3.1-build-11662/xenios_ios_iphone_ipad.ipa",
+      "size": 49156698
     }
   ],
   "news": []
