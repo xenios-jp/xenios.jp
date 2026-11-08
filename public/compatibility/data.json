@@ -108367,40 +108367,58 @@
     "titleIds": [
       "545407F8"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPad Pro 13-inch (M5)",
+      "device": "iPhone 17 Pro Max",
       "platform": "ios",
-      "osVersion": "27.0",
+      "osVersion": "27.0.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-07-24",
-    "issueNumber": 160,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/160",
-    "notes": "Literally does nothing",
+    "updatedAt": "2026-11-08",
+    "issueNumber": 769,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/769",
+    "notes": "Works great",
     "reports": [
       {
-        "device": "iPad Pro 13-inch (M5)",
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "27.0.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-08",
+        "notes": "Works great",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.1",
+          "buildNumber": "11662",
+          "commitShort": "cf7c7ee45"
+        }
+      },
+      {
+        "device": "iPhone 16 Pro Max",
         "platform": "ios",
         "osVersion": "27.0",
         "arch": "arm64",
         "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-07-24",
-        "notes": "Literally does nothing",
+        "status": "playable",
+        "perf": "poor",
+        "date": "2026-11-08",
+        "notes": "Game loads all textures and Geometry but runs around 15 to 20 fps",
         "screenshots": [],
         "source": "app",
         "build": {
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "commitShort": "57c3ca140"
+          "appVersion": "2.3.1",
+          "buildNumber": "11662",
+          "commitShort": "cf7c7ee45"
         }
       }
     ],
@@ -108421,56 +108439,56 @@
     ],
     "summaries": {
       "all": {
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "Literally does nothing",
-        "updatedAt": "2026-07-24",
-        "reportCount": 1,
+        "status": "playable",
+        "perf": "great",
+        "notes": "Works great",
+        "updatedAt": "2026-11-08",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPad Pro 13-inch (M5)",
+          "device": "iPhone 17 Pro Max",
           "platform": "ios",
-          "osVersion": "27.0",
+          "osVersion": "27.0.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-07-24",
-          "notes": "Literally does nothing",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-08",
+          "notes": "Works great",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.3.1",
+            "buildNumber": "11662",
+            "commitShort": "cf7c7ee45"
           }
         },
         "bestReport": {
-          "device": "iPad Pro 13-inch (M5)",
+          "device": "iPhone 17 Pro Max",
           "platform": "ios",
-          "osVersion": "27.0",
+          "osVersion": "27.0.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-07-24",
-          "notes": "Literally does nothing",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-08",
+          "notes": "Works great",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.3.1",
+            "buildNumber": "11662",
+            "commitShort": "cf7c7ee45"
           }
         },
-        "device": "iPad Pro 13-inch (M5)",
+        "device": "iPhone 17 Pro Max",
         "platform": "ios",
-        "osVersion": "27.0",
+        "osVersion": "27.0.1",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "commitShort": "57c3ca140"
+          "appVersion": "2.3.1",
+          "buildNumber": "11662",
+          "commitShort": "cf7c7ee45"
         }
       }
     }

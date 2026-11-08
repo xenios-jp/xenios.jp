@@ -2,7 +2,7 @@
 
 > **415 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **193** · 🔵 In-Game: **72** · 🟡 Intro: **31** · 🟠 Loads: **52** · 🔴 Doesn't Boot: **67**
+> 🟢 Playable: **194** · 🔵 In-Game: **72** · 🟡 Intro: **31** · 🟠 Loads: **52** · 🔴 Doesn't Boot: **66**
 >
 > 📱 iOS: **380** · 🖥️ macOS: **56**
 
@@ -121,6 +121,7 @@
 | 🟢 | Metal Gear Solid V: Ground Zeroes | `4B4E085C` | 📱 iOS | Playable | 🚀 Great | iPhone 17 | 2026-09-22 |
 | 🟢 | Metal Slug 3 | `584108CF` | 📱 iOS | Playable | 🚀 Great | iPhone 15 | 2026-06-07 |
 | 🟢 | Metro Last Light | `4B4D07F5` | 🖥️ macOS, 📱 iOS | Playable | 👌 OK | iPad Pro 12.9-inch (M2) | 2026-10-11 |
+| 🟢 | Midnight Club: Los Angeles | `545407F8` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-11-08 |
 | 🟢 | Minecraft: Xbox 360 Edition | `4D530A81` | 📱 iOS | Playable | 👌 OK | iPhone 14 Pro Max | 2026-05-05 |
 | 🟢 | MINI NINJAS™ (demo) | `53438806` | 📱 iOS | Playable | 👌 OK | iPhone 16 | 2026-07-15 |
 | 🟢 | Mirror's Edge | `45410850` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro | 2026-07-03 |
@@ -400,7 +401,6 @@
 | 🔴 | Kane & Lynch 2: Dog Days | `534307F8` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 13 Pro Max | 2026-08-04 |
 | 🔴 | Lego Batman | `575207D7` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone Air | 2026-09-14 |
 | 🔴 | LEGO Star Wars: The Force Awakens | `57520851` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 14 | 2026-03-16 |
-| 🔴 | Midnight Club: Los Angeles | `545407F8` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Pro 13-inch (M5) | 2026-07-24 |
 | 🔴 | Mighty No. 9 | `584114A4` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 13 | 2026-03-09 |
 | 🔴 | MLB 2K12 | `5454089E` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 | 2026-05-27 |
 | 🔴 | Mortal Kombat Komplete Edition | `575207FD` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 12 Pro | 2026-08-11 |
