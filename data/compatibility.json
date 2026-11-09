@@ -111891,24 +111891,42 @@
     "titleIds": [
       "575207FD"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 12 Pro",
+      "device": "iPhone 17 Pro Max",
       "platform": "ios",
-      "osVersion": "26.6",
+      "osVersion": "27.0.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-08-11",
-    "issueNumber": 164,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/164",
-    "notes": "Black screen",
+    "updatedAt": "2026-11-09",
+    "issueNumber": 644,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/644",
+    "notes": "Runs super smooth looks amazing at 1080P",
     "reports": [
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "27.0.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-09",
+        "notes": "Runs super smooth looks amazing at 1080P",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.1",
+          "buildNumber": "11662",
+          "commitShort": "cf7c7ee45"
+        }
+      },
       {
         "device": "iPhone 12 Pro",
         "platform": "ios",
@@ -111935,56 +111953,56 @@
     ],
     "summaries": {
       "all": {
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "Black screen",
-        "updatedAt": "2026-08-11",
-        "reportCount": 1,
+        "status": "playable",
+        "perf": "great",
+        "notes": "Runs super smooth looks amazing at 1080P",
+        "updatedAt": "2026-11-09",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 12 Pro",
+          "device": "iPhone 17 Pro Max",
           "platform": "ios",
-          "osVersion": "26.6",
+          "osVersion": "27.0.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-08-11",
-          "notes": "Black screen",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-09",
+          "notes": "Runs super smooth looks amazing at 1080P",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.3.1",
+            "buildNumber": "11662",
+            "commitShort": "cf7c7ee45"
           }
         },
         "bestReport": {
-          "device": "iPhone 12 Pro",
+          "device": "iPhone 17 Pro Max",
           "platform": "ios",
-          "osVersion": "26.6",
+          "osVersion": "27.0.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-08-11",
-          "notes": "Black screen",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-09",
+          "notes": "Runs super smooth looks amazing at 1080P",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.3.1",
+            "buildNumber": "11662",
+            "commitShort": "cf7c7ee45"
           }
         },
-        "device": "iPhone 12 Pro",
+        "device": "iPhone 17 Pro Max",
         "platform": "ios",
-        "osVersion": "26.6",
+        "osVersion": "27.0.1",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "commitShort": "57c3ca140"
+          "appVersion": "2.3.1",
+          "buildNumber": "11662",
+          "commitShort": "cf7c7ee45"
         }
       }
     }

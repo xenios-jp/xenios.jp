@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T23:06:18.957Z",
+  "generatedAt": "2026-11-09T08:54:40.596Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -8390,10 +8390,32 @@
     },
     "575207FD": {
       "titleId": "575207FD",
-      "issueNumber": 164,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/164",
-      "updatedAt": "2026-08-11",
+      "issueNumber": 644,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/644",
+      "updatedAt": "2026-11-09",
       "entries": [
+        {
+          "id": "comment-6735965605",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/644#issuecomment-6735965605",
+          "author": "xenios-jp",
+          "createdAt": "2026-11-09",
+          "createdAtMs": 1794214234000,
+          "issueNumber": 644,
+          "excerpt": "Runs super smooth looks amazing at 1080P",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 27.0.1",
+            "gpuBackend": "MSL",
+            "appVersion": "2.3.1",
+            "buildNumber": "11662",
+            "commitShort": "`cf7c7ee45`"
+          }
+        },
         {
           "id": "comment-5259324021",
           "type": "comment",
