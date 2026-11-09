@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T11:46:22.528Z",
+  "generatedAt": "2026-11-09T12:16:37.498Z",
   "totalProjects": 4,
   "contributors": [
     {
@@ -992,6 +992,16 @@
       ]
     },
     {
+      "id": "user:0dind",
+      "displayName": "0dinD",
+      "profileUrl": "https://github.com/0dinD",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/52179873?v=4",
+      "projects": [
+        "xenia-canary",
+        "xenia-edge"
+      ]
+    },
+    {
       "id": "user:antoniodesousa",
       "displayName": "antoniodesousa",
       "profileUrl": "https://github.com/antoniodesousa",
@@ -1272,6 +1282,16 @@
       ]
     },
     {
+      "id": "user:mellery",
+      "displayName": "mellery",
+      "profileUrl": "https://github.com/mellery",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/71388?v=4",
+      "projects": [
+        "xenia-canary",
+        "xenia-edge"
+      ]
+    },
+    {
       "id": "user:michaeloliverx",
       "displayName": "michaeloliverx",
       "profileUrl": "https://github.com/michaeloliverx",
@@ -1352,6 +1372,16 @@
       ]
     },
     {
+      "id": "user:randycabbages",
+      "displayName": "RandyCabbages",
+      "profileUrl": "https://github.com/RandyCabbages",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/285827645?v=4",
+      "projects": [
+        "xenia-canary",
+        "xenia-edge"
+      ]
+    },
+    {
       "id": "user:rc0ld",
       "displayName": "RC0ld",
       "profileUrl": "https://github.com/RC0ld",
@@ -1386,16 +1416,6 @@
       "displayName": "ryantimjohn",
       "profileUrl": "https://github.com/ryantimjohn",
       "avatarUrl": "https://avatars.githubusercontent.com/u/16624855?v=4",
-      "projects": [
-        "xenia-canary",
-        "xenia-edge"
-      ]
-    },
-    {
-      "id": "user:saveeditors",
-      "displayName": "SaveEditors",
-      "profileUrl": "https://github.com/SaveEditors",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/119719171?v=4",
       "projects": [
         "xenia-canary",
         "xenia-edge"
@@ -1512,6 +1532,16 @@
       ]
     },
     {
+      "id": "user:xecli",
+      "displayName": "xecli",
+      "profileUrl": "https://github.com/xecli",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/119719171?v=4",
+      "projects": [
+        "xenia-canary",
+        "xenia-edge"
+      ]
+    },
+    {
       "id": "user:xenios-jp",
       "displayName": "xenios-jp",
       "profileUrl": "https://github.com/xenios-jp",
@@ -1562,15 +1592,6 @@
       ]
     },
     {
-      "id": "user:0dind",
-      "displayName": "0dinD",
-      "profileUrl": "https://github.com/0dinD",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/52179873?v=4",
-      "projects": [
-        "xenia-edge"
-      ]
-    },
-    {
       "id": "user:imprashast",
       "displayName": "imprashast",
       "profileUrl": "https://github.com/imprashast",
@@ -1604,6 +1625,15 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/263785354?v=4",
       "projects": [
         "xenia-edge"
+      ]
+    },
+    {
+      "id": "user:vincentbelmont",
+      "displayName": "VincentBelmont",
+      "profileUrl": "https://github.com/VincentBelmont",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/111478931?v=4",
+      "projects": [
+        "xenia-canary"
       ]
     }
   ],
