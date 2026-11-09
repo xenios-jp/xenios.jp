@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T08:54:40.596Z",
+  "generatedAt": "2026-11-09T19:35:36.129Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -7730,8 +7730,30 @@
       "titleId": "545407F2",
       "issueNumber": 667,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/667",
-      "updatedAt": "2026-11-08",
+      "updatedAt": "2026-11-09",
       "entries": [
+        {
+          "id": "comment-6749408865",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/667#issuecomment-6749408865",
+          "author": "xenios-jp",
+          "createdAt": "2026-11-09",
+          "createdAtMs": 1794252677000,
+          "issueNumber": 667,
+          "excerpt": "Expected stuttering, but was fluent.",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 27.2",
+            "gpuBackend": "MSL",
+            "appVersion": "2.3.1",
+            "buildNumber": "11662",
+            "commitShort": "`cf7c7ee45`"
+          }
+        },
         {
           "id": "comment-6721336309",
           "type": "comment",
@@ -7842,30 +7864,6 @@
             "device": "iPad Air 5",
             "platform": "iOS",
             "osVersion": "iOS 18.7.8",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "buildStage": "stable",
-            "commitShort": "`57c3ca140`"
-          }
-        },
-        {
-          "id": "comment-5522385384",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/667#issuecomment-5522385384",
-          "author": "xenios-jp",
-          "createdAt": "2026-09-03",
-          "createdAtMs": 1788421616000,
-          "issueNumber": 667,
-          "excerpt": "black screen :(",
-          "images": [],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPad (A16)",
-            "platform": "iOS",
-            "osVersion": "iOS 27.0",
             "gpuBackend": "MSL",
             "buildChannel": "self-built",
             "appVersion": "2.0.1",

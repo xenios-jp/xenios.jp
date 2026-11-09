@@ -76394,7 +76394,7 @@
       "545407F2"
     ],
     "status": "playable",
-    "perf": "ok",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "ios",
@@ -76403,15 +76403,33 @@
     "lastReport": {
       "device": "iPhone 17 Pro Max",
       "platform": "ios",
-      "osVersion": "27.0.1",
+      "osVersion": "27.2",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-11-08",
+    "updatedAt": "2026-11-09",
     "issueNumber": 41,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/41",
-    "notes": "It works great",
+    "notes": "Expected stuttering, but was fluent.",
     "reports": [
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "27.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-09",
+        "notes": "Expected stuttering, but was fluent.",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.1",
+          "buildNumber": "11662",
+          "commitShort": "cf7c7ee45"
+        }
+      },
       {
         "device": "iPhone 17 Pro Max",
         "platform": "ios",
@@ -76667,20 +76685,20 @@
     "summaries": {
       "all": {
         "status": "playable",
-        "perf": "ok",
-        "notes": "It works great",
-        "updatedAt": "2026-11-08",
-        "reportCount": 13,
+        "perf": "great",
+        "notes": "Expected stuttering, but was fluent.",
+        "updatedAt": "2026-11-09",
+        "reportCount": 14,
         "latestReport": {
           "device": "iPhone 17 Pro Max",
           "platform": "ios",
-          "osVersion": "27.0.1",
+          "osVersion": "27.2",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
-          "perf": "ok",
-          "date": "2026-11-08",
-          "notes": "It works great",
+          "perf": "great",
+          "date": "2026-11-09",
+          "notes": "Expected stuttering, but was fluent.",
           "screenshots": [],
           "source": "app",
           "build": {
@@ -76692,13 +76710,13 @@
         "bestReport": {
           "device": "iPhone 17 Pro Max",
           "platform": "ios",
-          "osVersion": "27.0.1",
+          "osVersion": "27.2",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
-          "perf": "ok",
-          "date": "2026-11-08",
-          "notes": "It works great",
+          "perf": "great",
+          "date": "2026-11-09",
+          "notes": "Expected stuttering, but was fluent.",
           "screenshots": [],
           "source": "app",
           "build": {
@@ -76709,7 +76727,7 @@
         },
         "device": "iPhone 17 Pro Max",
         "platform": "ios",
-        "osVersion": "27.0.1",
+        "osVersion": "27.2",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
