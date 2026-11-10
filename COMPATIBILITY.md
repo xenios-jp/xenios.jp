@@ -2,7 +2,7 @@
 
 > **415 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **195** · 🔵 In-Game: **72** · 🟡 Intro: **31** · 🟠 Loads: **52** · 🔴 Doesn't Boot: **65**
+> 🟢 Playable: **195** · 🔵 In-Game: **73** · 🟡 Intro: **31** · 🟠 Loads: **52** · 🔴 Doesn't Boot: **64**
 >
 > 📱 iOS: **380** · 🖥️ macOS: **56**
 
@@ -193,7 +193,7 @@
 | 🟢 | The Elder Scrolls 4: Oblivion - Game of the Year Edition | `425307D1` | 📱 iOS | Playable | 👌 OK | iPhone 14 Plus | 2026-03-22 |
 | 🟢 | The Lord of the Rings: War in the North | `575207EF` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro Max | 2026-09-01 |
 | 🟢 | The Outfit | `545107D2` | 📱 iOS | Playable | 🐢 Poor | iPhone 15 Pro Max | 2026-03-13 |
-| 🟢 | The Simpsons Game | `45410809` | 📱 iOS | Playable | 👌 OK | iPhone Air | 2026-08-04 |
+| 🟢 | The Simpsons Game | `45410809` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-11-09 |
 | 🟢 | The Sims 3 | `454108E2` | 📱 iOS | Playable | 👌 OK | iPhone 15 Pro Max | 2026-11-07 |
 | 🟢 | TimeShift | `565507DA` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro | 2026-03-13 |
 | 🟢 | TMNT | `555307F8` | 📱 iOS | Playable | 👌 OK | iPhone 13 Pro | 2026-04-10 |
@@ -271,6 +271,7 @@
 | 🔵 | Pro Evolution Soccer 2010 / PES 2010 | `4B4E0801` | 📱 iOS | In-Game | 👌 OK | iPhone 17 Pro Max | 2026-06-20 |
 | 🔵 | Pro Evolution Soccer 2013 / PES 2013 | `4B4E084C` | 📱 iOS | In-Game | 🐢 Poor | iPhone 16 | 2026-04-06 |
 | 🔵 | Project Gotham Racing 4 | `4D5307F9` | 📱 iOS | In-Game | 🐢 Poor | iPhone 15 | 2026-08-05 |
+| 🔵 | PROTOTYPE | `4156084E` | 📱 iOS | In-Game | 🐢 Poor | iPad19,1 | 2026-11-09 |
 | 🔵 | Rayman Legends | `555308C3` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro Max | 2026-08-21 |
 | 🔵 | Remember Me | `4343082F` | 📱 iOS | In-Game | 🐢 Poor | iPhone 15 Pro | 2026-06-11 |
 | 🔵 | Resident Evil 6 | `43430819` | 📱 iOS | In-Game | 🐢 Poor | iPhone 13 Pro Max | 2026-03-20 |
@@ -412,7 +413,6 @@
 | 🔴 | Ninja Gaiden II | `544307D5` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 14 | 2026-03-24 |
 | 🔴 | Plants vs Zombies Garden Warfare | `454109C9` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone XS Max | 2026-04-18 |
 | 🔴 | Pro Evolution Soccer 2015 / PES 2015 | `4B4E085F` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 12 Pro | 2026-08-11 |
-| 🔴 | PROTOTYPE | `4156084E` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 14 Pro | 2026-06-11 |
 | 🔴 | Resident Evil 4 | `4343081C` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 13 | 2026-11-02 |
 | 🔴 | SmackDown vs. RAW 2009 | `54510826` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad (A16) | 2026-03-16 |
 | 🔴 | Soulcalibur IV | `4E4D07E0` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-04-28 |

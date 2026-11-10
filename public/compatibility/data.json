@@ -134396,40 +134396,40 @@
       "4156084E",
       "565507EF"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "ingame",
+    "perf": "poor",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 14 Pro",
+      "device": "iPad19,1",
       "platform": "ios",
-      "osVersion": "18.1.1",
+      "osVersion": "27.2",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-06-11",
+    "updatedAt": "2026-11-09",
     "issueNumber": 44,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/44",
-    "notes": "When the game boot Nothing just black screen and the app gets closed",
+    "notes": "I can run the game but audio and gameplay laggs",
     "reports": [
       {
-        "device": "iPhone 14 Pro",
+        "device": "iPad19,1",
         "platform": "ios",
-        "osVersion": "18.1.1",
+        "osVersion": "27.2",
         "arch": "arm64",
         "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-06-11",
-        "notes": "When the game boot Nothing just black screen and the app gets closed",
+        "status": "ingame",
+        "perf": "poor",
+        "date": "2026-11-09",
+        "notes": "I can run the game but audio and gameplay laggs",
         "screenshots": [],
         "source": "app",
         "build": {
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "commitShort": "57c3ca140"
+          "appVersion": "2.3.1",
+          "buildNumber": "11662",
+          "commitShort": "cf7c7ee45"
         }
       },
       {
@@ -134456,56 +134456,56 @@
     "screenshots": [],
     "summaries": {
       "all": {
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "When the game boot Nothing just black screen and the app gets closed",
-        "updatedAt": "2026-06-11",
+        "status": "ingame",
+        "perf": "poor",
+        "notes": "I can run the game but audio and gameplay laggs",
+        "updatedAt": "2026-11-09",
         "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 14 Pro",
+          "device": "iPad19,1",
           "platform": "ios",
-          "osVersion": "18.1.1",
+          "osVersion": "27.2",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-06-11",
-          "notes": "When the game boot Nothing just black screen and the app gets closed",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-11-09",
+          "notes": "I can run the game but audio and gameplay laggs",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.3.1",
+            "buildNumber": "11662",
+            "commitShort": "cf7c7ee45"
           }
         },
         "bestReport": {
-          "device": "iPhone 14 Pro",
+          "device": "iPad19,1",
           "platform": "ios",
-          "osVersion": "18.1.1",
+          "osVersion": "27.2",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-06-11",
-          "notes": "When the game boot Nothing just black screen and the app gets closed",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-11-09",
+          "notes": "I can run the game but audio and gameplay laggs",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.3.1",
+            "buildNumber": "11662",
+            "commitShort": "cf7c7ee45"
           }
         },
-        "device": "iPhone 14 Pro",
+        "device": "iPad19,1",
         "platform": "ios",
-        "osVersion": "18.1.1",
+        "osVersion": "27.2",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "commitShort": "57c3ca140"
+          "appVersion": "2.3.1",
+          "buildNumber": "11662",
+          "commitShort": "cf7c7ee45"
         }
       }
     }
@@ -174668,39 +174668,39 @@
       "45410809"
     ],
     "status": "playable",
-    "perf": "ok",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone Air",
+      "device": "iPhone 17 Pro Max",
       "platform": "ios",
-      "osVersion": "26.0",
+      "osVersion": "27.2",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-08-04",
+    "updatedAt": "2026-11-09",
     "issueNumber": 98,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/98",
-    "notes": "So when watching the cutscenes it's basically a mess there's way to much graphical errors and it's literally unwatchable the audio is super buggy when getting in game and i get 20-30 FPS but this is one of the phew games that aren't super bad all the shaders and assets load up relatively fast compared to other games and it's kinda playable just forget about the audio",
+    "notes": "Played it on two players with HDMI to TV, made it to the 5th level without any issue.",
     "reports": [
       {
-        "device": "iPhone 15",
+        "device": "iPhone 17 Pro Max",
         "platform": "ios",
-        "osVersion": "27.0",
+        "osVersion": "27.2",
         "arch": "arm64",
         "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-08-04",
-        "notes": "Just blank black screen without no sign of ever loading",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-09",
+        "notes": "Played it on two players with HDMI to TV, made it to the 5th level without any issue.",
         "screenshots": [],
         "source": "app",
         "build": {
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
+          "appVersion": "2.3.1",
+          "buildNumber": "11662",
+          "commitShort": "cf7c7ee45"
         }
       },
       {
@@ -174728,57 +174728,55 @@
     "summaries": {
       "all": {
         "status": "playable",
-        "perf": "ok",
-        "notes": "So when watching the cutscenes it's basically a mess there's way to much graphical errors and it's literally unwatchable the audio is super buggy when getting in game and i get 20-30 FPS but this is one of the phew games that aren't super bad all the shaders and assets load up relatively fast compared to other games and it's kinda playable just forget about the audio",
-        "updatedAt": "2026-08-04",
+        "perf": "great",
+        "notes": "Played it on two players with HDMI to TV, made it to the 5th level without any issue.",
+        "updatedAt": "2026-11-09",
         "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 15",
+          "device": "iPhone 17 Pro Max",
           "platform": "ios",
-          "osVersion": "27.0",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-08-04",
-          "notes": "Just blank black screen without no sign of ever loading",
-          "screenshots": [],
-          "source": "app",
-          "build": {
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone Air",
-          "platform": "ios",
-          "osVersion": "26.0",
+          "osVersion": "27.2",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
-          "perf": "ok",
-          "date": "2026-03-08",
-          "notes": "So when watching the cutscenes it's basically a mess there's way to much graphical errors and it's literally unwatchable the audio is super buggy when getting in game and i get 20-30 FPS but this is one of the phew games that aren't super bad all the shaders and assets load up relatively fast compared to other games and it's kinda playable just forget about the audio",
-          "reportedTitleId": "45410809",
-          "reportedTitle": "The Simpsons™ Game",
+          "perf": "great",
+          "date": "2026-11-09",
+          "notes": "Played it on two players with HDMI to TV, made it to the 5th level without any issue.",
           "screenshots": [],
-          "source": "github",
+          "source": "app",
           "build": {
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633E8177"
+            "appVersion": "2.3.1",
+            "buildNumber": "11662",
+            "commitShort": "cf7c7ee45"
           }
         },
-        "device": "iPhone Air",
+        "bestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "27.2",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-09",
+          "notes": "Played it on two players with HDMI to TV, made it to the 5th level without any issue.",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "appVersion": "2.3.1",
+            "buildNumber": "11662",
+            "commitShort": "cf7c7ee45"
+          }
+        },
+        "device": "iPhone 17 Pro Max",
         "platform": "ios",
-        "osVersion": "26.0",
+        "osVersion": "27.2",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "commitShort": "2633E8177"
+          "appVersion": "2.3.1",
+          "buildNumber": "11662",
+          "commitShort": "cf7c7ee45"
         }
       }
     }
