@@ -2,7 +2,7 @@
 
 > **415 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **195** · 🔵 In-Game: **73** · 🟡 Intro: **31** · 🟠 Loads: **52** · 🔴 Doesn't Boot: **64**
+> 🟢 Playable: **196** · 🔵 In-Game: **72** · 🟡 Intro: **31** · 🟠 Loads: **52** · 🔴 Doesn't Boot: **64**
 >
 > 📱 iOS: **380** · 🖥️ macOS: **56**
 
@@ -165,6 +165,7 @@
 | 🟢 | Rock Band 2 | `45410869` | 📱 iOS, 🖥️ macOS | Playable | 🚀 Great | MacBook Pro (M4) | 2026-03-23 |
 | 🟢 | Rock Band 3 | `45410914` | 📱 iOS, 🖥️ macOS | Playable | 🐢 Poor | iPhone 13 mini | 2026-03-23 |
 | 🟢 | Rumble Roses XX | `4B4E07D1` | 🖥️ macOS | Playable | 🚀 Great | Mac mini (M2) | 2026-03-11 |
+| 🟢 | Saints Row 2 | `545107FC` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro | 2026-11-10 |
 | 🟢 | SEGA Rally Online Arcade | `58410AC2` | 📱 iOS | Playable | 🚀 Great | iPad Pro 13-inch (M5) | 2026-11-06 |
 | 🟢 | Serious Sam HD: The First Encounter | `584109DA` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro | 2026-03-24 |
 | 🟢 | Shadow Complex | `584108F6` | 🖥️ macOS | Playable | 🚀 Great | MacBook Pro (M1) | 2026-08-12 |
@@ -279,7 +280,6 @@
 | 🔵 | Resident Evil Revelations | `43430833` | 📱 iOS | In-Game | 🐢 Poor | iPhone 14 Pro | 2026-06-15 |
 | 🔵 | Rockstar Games Presents Table Tennis | `545407DF` | 🖥️ macOS | In-Game | 🐢 Poor | Macbook Pro M1 | 2026-04-18 |
 | 🔵 | Saints Row | `545107D1` | 📱 iOS | In-Game | 👌 OK | iPhone 16 | 2026-03-10 |
-| 🔵 | Saints Row 2 | `545107FC` | 📱 iOS | In-Game | 🐢 Poor | iPhone 14 Pro Max | 2026-03-08 |
 | 🔵 | skate. | `45410813` | 📱 iOS | In-Game | 🐢 Poor | iPad Pro (M2) | 2026-03-03 |
 | 🔵 | Sonic the Hedgehog | `534507D6` | 📱 iOS | In-Game | 👌 OK | iPhone Air | 2026-04-03 |
 | 🔵 | Stranglehold | `4D5707D2` | 🖥️ macOS | In-Game | 🚀 Great | MacBook Pro (M1) | 2026-04-12 |
