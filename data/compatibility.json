@@ -28618,24 +28618,42 @@
     "titleIds": [
       "41560845"
     ],
-    "status": "intro",
-    "perf": "poor",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 15 Pro",
+      "device": "iPhone 17",
       "platform": "ios",
-      "osVersion": "18.7.2",
+      "osVersion": "27.0.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-06-12",
+    "updatedAt": "2026-11-11",
     "issueNumber": 298,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/298",
-    "notes": "Tried virtually everything, I couldn’t make it the race loading screen.\nAveragely: random crashes, bugged menu, looping screens, and never made it to the actual race",
+    "notes": "Works okay",
     "reports": [
+      {
+        "device": "iPhone 17",
+        "platform": "ios",
+        "osVersion": "27.0.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-11",
+        "notes": "Works okay",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.1",
+          "buildNumber": "11662",
+          "commitShort": "cf7c7ee45"
+        }
+      },
       {
         "device": "iPhone 15 Pro",
         "platform": "ios",
@@ -28696,56 +28714,56 @@
     ],
     "summaries": {
       "all": {
-        "status": "intro",
-        "perf": "poor",
-        "notes": "Tried virtually everything, I couldn’t make it the race loading screen.\nAveragely: random crashes, bugged menu, looping screens, and never made it to the actual race",
-        "updatedAt": "2026-06-12",
-        "reportCount": 3,
+        "status": "playable",
+        "perf": "great",
+        "notes": "Works okay",
+        "updatedAt": "2026-11-11",
+        "reportCount": 4,
         "latestReport": {
-          "device": "iPhone 15 Pro",
+          "device": "iPhone 17",
           "platform": "ios",
-          "osVersion": "18.7.2",
+          "osVersion": "27.0.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "poor",
-          "date": "2026-06-12",
-          "notes": "Tried virtually everything, I couldn’t make it the race loading screen.\nAveragely: random crashes, bugged menu, looping screens, and never made it to the actual race",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-11",
+          "notes": "Works okay",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.3.1",
+            "buildNumber": "11662",
+            "commitShort": "cf7c7ee45"
           }
         },
         "bestReport": {
-          "device": "iPhone 15 Pro",
+          "device": "iPhone 17",
           "platform": "ios",
-          "osVersion": "18.7.2",
+          "osVersion": "27.0.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "poor",
-          "date": "2026-06-12",
-          "notes": "Tried virtually everything, I couldn’t make it the race loading screen.\nAveragely: random crashes, bugged menu, looping screens, and never made it to the actual race",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-11",
+          "notes": "Works okay",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.3.1",
+            "buildNumber": "11662",
+            "commitShort": "cf7c7ee45"
           }
         },
-        "device": "iPhone 15 Pro",
+        "device": "iPhone 17",
         "platform": "ios",
-        "osVersion": "18.7.2",
+        "osVersion": "27.0.1",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "commitShort": "57c3ca140"
+          "appVersion": "2.3.1",
+          "buildNumber": "11662",
+          "commitShort": "cf7c7ee45"
         }
       }
     }
@@ -104627,24 +104645,95 @@
     "titleIds": [
       "4D5307E8"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "loads",
+    "perf": "poor",
     "tags": [],
-    "platforms": [],
-    "lastReport": null,
-    "updatedAt": "",
-    "notes": "",
-    "reports": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 16 Pro",
+      "platform": "ios",
+      "osVersion": "26.2.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-11-10",
+    "notes": "Loads but not playable.",
+    "reports": [
+      {
+        "device": "iPhone 16 Pro",
+        "platform": "ios",
+        "osVersion": "26.2.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "loads",
+        "perf": "poor",
+        "date": "2026-11-10",
+        "notes": "Loads but not playable.",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.1",
+          "buildNumber": "11662",
+          "commitShort": "cf7c7ee45"
+        }
+      }
+    ],
     "screenshots": [],
     "summaries": {
       "all": {
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "loads",
+        "perf": "poor",
+        "notes": "Loads but not playable.",
+        "updatedAt": "2026-11-10",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 16 Pro",
+          "platform": "ios",
+          "osVersion": "26.2.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "loads",
+          "perf": "poor",
+          "date": "2026-11-10",
+          "notes": "Loads but not playable.",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "appVersion": "2.3.1",
+            "buildNumber": "11662",
+            "commitShort": "cf7c7ee45"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 16 Pro",
+          "platform": "ios",
+          "osVersion": "26.2.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "loads",
+          "perf": "poor",
+          "date": "2026-11-10",
+          "notes": "Loads but not playable.",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "appVersion": "2.3.1",
+            "buildNumber": "11662",
+            "commitShort": "cf7c7ee45"
+          }
+        },
+        "device": "iPhone 16 Pro",
+        "platform": "ios",
+        "osVersion": "26.2.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "build": {
+          "appVersion": "2.3.1",
+          "buildNumber": "11662",
+          "commitShort": "cf7c7ee45"
+        }
       }
     }
   },
@@ -107571,24 +107660,42 @@
     "titleIds": [
       "4B4E085E"
     ],
-    "status": "ingame",
-    "perf": "poor",
+    "status": "playable",
+    "perf": "ok",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPad Pro M4",
+      "device": "iPhone 14",
       "platform": "ios",
-      "osVersion": "26.5",
+      "osVersion": "27.0.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-06-25",
+    "updatedAt": "2026-11-10",
     "issueNumber": 559,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/559",
-    "notes": "Game performance is ok but graphic bug is terrible make game unplayable",
+    "notes": "Some glitches so far but running pretty good",
     "reports": [
+      {
+        "device": "iPhone 14",
+        "platform": "ios",
+        "osVersion": "27.0.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-11-10",
+        "notes": "Some glitches so far but running pretty good",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.1",
+          "buildNumber": "11662",
+          "commitShort": "cf7c7ee45"
+        }
+      },
       {
         "device": "iPad Pro M4",
         "platform": "ios",
@@ -107616,6 +107723,11 @@
       }
     ],
     "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4B4E085E/1794334218992-1.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4B4E085E/1794334218992-2.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4B4E085E/1794334218992-3.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4B4E085E/1794334218992-4.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4B4E085E/1794334218992-5.jpg",
       "https://github.com/user-attachments/assets/cc6cea53-e263-4fde-bd34-ed14e8e6b652",
       "https://github.com/user-attachments/assets/f331fb8e-f960-4101-b6f0-895ef92f1939",
       "https://github.com/user-attachments/assets/66778f88-cf0b-4bd3-b9c5-8ba04e605a85",
@@ -107623,69 +107735,56 @@
     ],
     "summaries": {
       "all": {
-        "status": "ingame",
-        "perf": "poor",
-        "notes": "Game performance is ok but graphic bug is terrible make game unplayable",
-        "updatedAt": "2026-06-25",
-        "reportCount": 1,
+        "status": "playable",
+        "perf": "ok",
+        "notes": "Some glitches so far but running pretty good",
+        "updatedAt": "2026-11-10",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPad Pro M4",
+          "device": "iPhone 14",
           "platform": "ios",
-          "osVersion": "26.5",
+          "osVersion": "27.0.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-06-25",
-          "notes": "Game performance is ok but graphic bug is terrible make game unplayable",
-          "reportedTitleId": "4B4E085E",
-          "reportedTitle": "Metal Gear Solid V: The Phantom Pa",
-          "screenshots": [
-            "https://github.com/user-attachments/assets/cc6cea53-e263-4fde-bd34-ed14e8e6b652",
-            "https://github.com/user-attachments/assets/f331fb8e-f960-4101-b6f0-895ef92f1939",
-            "https://github.com/user-attachments/assets/66778f88-cf0b-4bd3-b9c5-8ba04e605a85",
-            "https://github.com/user-attachments/assets/412d064d-ee3b-4816-a7da-d652052112d8"
-          ],
-          "submittedBy": "pannawit8fe45s",
-          "source": "github",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-11-10",
+          "notes": "Some glitches so far but running pretty good",
+          "screenshots": [],
+          "source": "app",
           "build": {
-            "appVersion": "2.1",
-            "buildNumber": "9857"
+            "appVersion": "2.3.1",
+            "buildNumber": "11662",
+            "commitShort": "cf7c7ee45"
           }
         },
         "bestReport": {
-          "device": "iPad Pro M4",
+          "device": "iPhone 14",
           "platform": "ios",
-          "osVersion": "26.5",
+          "osVersion": "27.0.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-06-25",
-          "notes": "Game performance is ok but graphic bug is terrible make game unplayable",
-          "reportedTitleId": "4B4E085E",
-          "reportedTitle": "Metal Gear Solid V: The Phantom Pa",
-          "screenshots": [
-            "https://github.com/user-attachments/assets/cc6cea53-e263-4fde-bd34-ed14e8e6b652",
-            "https://github.com/user-attachments/assets/f331fb8e-f960-4101-b6f0-895ef92f1939",
-            "https://github.com/user-attachments/assets/66778f88-cf0b-4bd3-b9c5-8ba04e605a85",
-            "https://github.com/user-attachments/assets/412d064d-ee3b-4816-a7da-d652052112d8"
-          ],
-          "submittedBy": "pannawit8fe45s",
-          "source": "github",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-11-10",
+          "notes": "Some glitches so far but running pretty good",
+          "screenshots": [],
+          "source": "app",
           "build": {
-            "appVersion": "2.1",
-            "buildNumber": "9857"
+            "appVersion": "2.3.1",
+            "buildNumber": "11662",
+            "commitShort": "cf7c7ee45"
           }
         },
-        "device": "iPad Pro M4",
+        "device": "iPhone 14",
         "platform": "ios",
-        "osVersion": "26.5",
+        "osVersion": "27.0.1",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "2.1",
-          "buildNumber": "9857"
+          "appVersion": "2.3.1",
+          "buildNumber": "11662",
+          "commitShort": "cf7c7ee45"
         }
       }
     }
@@ -109074,23 +109173,41 @@
       "58411437"
     ],
     "status": "playable",
-    "perf": "ok",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 14 Pro Max",
+      "device": "iPhone 14 Pro",
       "platform": "ios",
-      "osVersion": "16.5",
+      "osVersion": "27.0",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-05-05",
+    "updatedAt": "2026-11-10",
     "issueNumber": 49,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/49",
-    "notes": "Menus are a bit of a struggle being slow and sometimes just not taking button inputs.",
+    "notes": "Playable",
     "reports": [
+      {
+        "device": "iPhone 14 Pro",
+        "platform": "ios",
+        "osVersion": "27.0",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-10",
+        "notes": "Playable",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.1",
+          "buildNumber": "11662",
+          "commitShort": "cf7c7ee45"
+        }
+      },
       {
         "device": "iPhone11,6",
         "platform": "ios",
@@ -109283,55 +109400,55 @@
     "summaries": {
       "all": {
         "status": "playable",
-        "perf": "ok",
-        "notes": "Menus are a bit of a struggle being slow and sometimes just not taking button inputs.",
-        "updatedAt": "2026-05-05",
-        "reportCount": 10,
+        "perf": "great",
+        "notes": "Playable",
+        "updatedAt": "2026-11-10",
+        "reportCount": 11,
         "latestReport": {
-          "device": "iPhone11,6",
+          "device": "iPhone 14 Pro",
           "platform": "ios",
-          "osVersion": "18.4.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-05-05",
-          "notes": "Black screen",
-          "screenshots": [],
-          "source": "app",
-          "build": {
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 14 Pro Max",
-          "platform": "ios",
-          "osVersion": "16.5",
+          "osVersion": "27.0",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
-          "perf": "ok",
-          "date": "2026-03-25",
-          "notes": "Menus are a bit of a struggle being slow and sometimes just not taking button inputs.",
+          "perf": "great",
+          "date": "2026-11-10",
+          "notes": "Playable",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "0.9.2",
-            "buildNumber": "9321",
-            "commitShort": "6228dab43"
+            "appVersion": "2.3.1",
+            "buildNumber": "11662",
+            "commitShort": "cf7c7ee45"
           }
         },
-        "device": "iPhone 14 Pro Max",
+        "bestReport": {
+          "device": "iPhone 14 Pro",
+          "platform": "ios",
+          "osVersion": "27.0",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-10",
+          "notes": "Playable",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "appVersion": "2.3.1",
+            "buildNumber": "11662",
+            "commitShort": "cf7c7ee45"
+          }
+        },
+        "device": "iPhone 14 Pro",
         "platform": "ios",
-        "osVersion": "16.5",
+        "osVersion": "27.0",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "0.9.2",
-          "buildNumber": "9321",
-          "commitShort": "6228dab43"
+          "appVersion": "2.3.1",
+          "buildNumber": "11662",
+          "commitShort": "cf7c7ee45"
         }
       }
     }
@@ -192861,17 +192978,35 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 16 Pro Max",
+      "device": "iPhone 13 Pro Max",
       "platform": "ios",
-      "osVersion": "26.5",
+      "osVersion": "26.6.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-07-06",
+    "updatedAt": "2026-11-11",
     "issueNumber": 409,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/409",
-    "notes": "Choppy but alright",
+    "notes": "Works fine with fewer enemies and gets faster with loads all the assets.",
     "reports": [
+      {
+        "device": "iPhone 13 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.6.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-11-11",
+        "notes": "Works fine with fewer enemies and gets faster with loads all the assets.",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "appVersion": "2.2.2",
+          "buildNumber": "11498",
+          "commitShort": "69fd00155"
+        }
+      },
       {
         "device": "iPhone 16 Pro Max",
         "platform": "ios",
@@ -192896,54 +193031,54 @@
       "all": {
         "status": "playable",
         "perf": "ok",
-        "notes": "Choppy but alright",
-        "updatedAt": "2026-07-06",
-        "reportCount": 1,
+        "notes": "Works fine with fewer enemies and gets faster with loads all the assets.",
+        "updatedAt": "2026-11-11",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 16 Pro Max",
+          "device": "iPhone 13 Pro Max",
           "platform": "ios",
-          "osVersion": "26.5",
+          "osVersion": "26.6.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "ok",
-          "date": "2026-07-06",
-          "notes": "Choppy but alright",
+          "date": "2026-11-11",
+          "notes": "Works fine with fewer enemies and gets faster with loads all the assets.",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.2.2",
+            "buildNumber": "11498",
+            "commitShort": "69fd00155"
           }
         },
         "bestReport": {
-          "device": "iPhone 16 Pro Max",
+          "device": "iPhone 13 Pro Max",
           "platform": "ios",
-          "osVersion": "26.5",
+          "osVersion": "26.6.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "ok",
-          "date": "2026-07-06",
-          "notes": "Choppy but alright",
+          "date": "2026-11-11",
+          "notes": "Works fine with fewer enemies and gets faster with loads all the assets.",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.2.2",
+            "buildNumber": "11498",
+            "commitShort": "69fd00155"
           }
         },
-        "device": "iPhone 16 Pro Max",
+        "device": "iPhone 13 Pro Max",
         "platform": "ios",
-        "osVersion": "26.5",
+        "osVersion": "26.6.1",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "commitShort": "57c3ca140"
+          "appVersion": "2.2.2",
+          "buildNumber": "11498",
+          "commitShort": "69fd00155"
         }
       }
     }

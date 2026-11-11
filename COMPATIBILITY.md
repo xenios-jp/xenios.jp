@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **415 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **416 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **196** · 🔵 In-Game: **72** · 🟡 Intro: **31** · 🟠 Loads: **52** · 🔴 Doesn't Boot: **64**
+> 🟢 Playable: **198** · 🔵 In-Game: **71** · 🟡 Intro: **30** · 🟠 Loads: **53** · 🔴 Doesn't Boot: **64**
 >
-> 📱 iOS: **380** · 🖥️ macOS: **56**
+> 📱 iOS: **381** · 🖥️ macOS: **56**
 
 ## Legend
 
@@ -38,6 +38,7 @@
 | 🟢 | Ben 10 Ultimate Alien Cosmic Destruction | `445007F7` | 📱 iOS | Playable | 🚀 Great | iPhone 17 | 2026-07-16 |
 | 🟢 | Bionic Commando | `434307DD` | 📱 iOS | Playable | 🚀 Great | iPad Pro 12.9-inch (M2) | 2026-10-11 |
 | 🟢 | Bioshock | `545407D8` | 📱 iOS | Playable | 🚀 Great | iPad Pro 13-inch (M4) | 2026-06-22 |
+| 🟢 | Blur | `41560845` | 📱 iOS | Playable | 🚀 Great | iPhone 17 | 2026-11-11 |
 | 🟢 | Bomberman Battlefest | `584109B2` | 📱 iOS | Playable | 🐢 Poor | iPhone 15 | 2026-03-25 |
 | 🟢 | Bomberman Live | `5841083F` | 📱 iOS | Playable | 🚀 Great | iPhone 15 | 2026-06-07 |
 | 🟢 | Borderlands | `545407E7` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro | 2026-03-13 |
@@ -119,10 +120,11 @@
 | 🟢 | METAL GEAR SOLID HD EDITION 2 & 3 (Metal Gear Solid HD Collection) | `4B4E0840` | 🖥️ macOS | Playable | 👌 OK | MacBook Air (M2) | 2026-08-21 |
 | 🟢 | METAL GEAR SOLID PEACE WALKER HD EDITION | `4B4E083C` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Plus | 2026-03-18 |
 | 🟢 | Metal Gear Solid V: Ground Zeroes | `4B4E085C` | 📱 iOS | Playable | 🚀 Great | iPhone 17 | 2026-09-22 |
+| 🟢 | Metal Gear Solid V: The Phantom Pain | `4B4E085E` | 📱 iOS | Playable | 👌 OK | iPhone 14 | 2026-11-10 |
 | 🟢 | Metal Slug 3 | `584108CF` | 📱 iOS | Playable | 🚀 Great | iPhone 15 | 2026-06-07 |
 | 🟢 | Metro Last Light | `4B4D07F5` | 🖥️ macOS, 📱 iOS | Playable | 👌 OK | iPad Pro 12.9-inch (M2) | 2026-10-11 |
 | 🟢 | Midnight Club: Los Angeles | `545407F8` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-11-08 |
-| 🟢 | Minecraft: Xbox 360 Edition | `4D530A81` | 📱 iOS | Playable | 👌 OK | iPhone 14 Pro Max | 2026-05-05 |
+| 🟢 | Minecraft: Xbox 360 Edition | `4D530A81` | 📱 iOS | Playable | 🚀 Great | iPhone 14 Pro | 2026-11-10 |
 | 🟢 | MINI NINJAS™ (demo) | `53438806` | 📱 iOS | Playable | 👌 OK | iPhone 16 | 2026-07-15 |
 | 🟢 | Mirror's Edge | `45410850` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro | 2026-07-03 |
 | 🟢 | Mortal Kombat Arcade Kollection | `58410B62` | 📱 iOS | Playable | 🐢 Poor | iPhone 17 Pro Max | 2026-06-24 |
@@ -211,7 +213,7 @@
 | 🟢 | WRC 5: FIA WORLD RALLY CHAMPIONSHIP | `573607E2` | 📱 iOS | Playable | 🐢 Poor | iPhone 17 Pro Max | 2026-03-17 |
 | 🟢 | WWE All Stars | `54510866` | 📱 iOS | Playable | 🚀 Great | iPad Pro 11-inch (M2) | 2026-11-08 |
 | 🟢 | WWE Smackdown vs RAW 2008 | `5451080B` | 📱 iOS | Playable | 👌 OK | iPhone 16e | 2026-03-16 |
-| 🟢 | X-Men Origins: Wolverine | `41560816` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro Max | 2026-07-06 |
+| 🟢 | X-Men Origins: Wolverine | `41560816` | 📱 iOS | Playable | 👌 OK | iPhone 13 Pro Max | 2026-11-11 |
 | 🟢 | Xbox 360 Experience Disc 2.4 (USA) | `584B880F` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-08-10 |
 | 🟢 | Yaiba Ninja Gaiden Z | `4B5607E2` | 📱 iOS | Playable | 🚀 Great | iPad Pro 12.9-inch (M2) | 2026-11-06 |
 | 🟢 | Yaris | `5841087F` | 📱 iOS | Playable | 🚀 Great | iPhone 14 Pro Max | 2026-03-23 |
@@ -257,7 +259,6 @@
 | 🔵 | Lost Odyssey | `4D5307FA` | 📱 iOS, 🖥️ macOS | In-Game | 🚀 Great | Mac mini (M2) | 2026-03-11 |
 | 🔵 | Madden NFL 16 | `454109EB` | 🖥️ macOS | In-Game | 👌 OK | Macbook Neo A18 Pro | 2026-10-08 |
 | 🔵 | Mercenaries 2: World in Flames | `45410828` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro | 2026-03-09 |
-| 🔵 | Metal Gear Solid V: The Phantom Pain | `4B4E085E` | 📱 iOS | In-Game | 🐢 Poor | iPad Pro M4 | 2026-06-25 |
 | 🔵 | Middle Earth: Shadow of Mordor | `5752082C` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro Max | 2026-06-12 |
 | 🔵 | MS.PAC-MAN | `58410837` | 📱 iOS | In-Game | 🚀 Great | iPhone 16 | 2026-07-15 |
 | 🔵 | NBA 2K11 | `5454087A` | 📱 iOS | In-Game | 👌 OK | iPhone 16e | 2026-03-10 |
@@ -293,7 +294,6 @@
 | 🟡 | Assassins Creed III - Liberation HD | `584113FC` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 | 2026-07-15 |
 | 🟡 | Back to the Future | `443607D6` | 📱 iOS | Intro | 🚀 Great | iPhone 16 Pro | 2026-03-24 |
 | 🟡 | Beautiful Katamari | `4E4D07DC` | 📱 iOS | Intro | 👌 OK | iPhone 16 Pro | 2026-03-05 |
-| 🟡 | Blur | `41560845` | 📱 iOS | Intro | 🐢 Poor | iPhone 15 Pro | 2026-06-12 |
 | 🟡 | Dead Rising | `434307D2` | 📱 iOS | Intro | 👌 OK | iPad (A16) | 2026-03-04 |
 | 🟡 | Divinity II Dragon Knight Saga | `464507D6` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro Max | 2026-03-09 |
 | 🟡 | DOOM 3 BFG Edition | `425307F1` | 📱 iOS | Intro | 🚀 Great | iPhone 16 Pro | 2026-03-03 |
@@ -344,6 +344,7 @@
 | 🟠 | Lego Jurassic World | `5752084D` | 📱 iOS | Loads | 🚀 Great | iPhone 16 | 2026-08-14 |
 | 🟠 | Lego Star Wars III: The Clone Wars | `4C4107F3` | 📱 iOS | Loads | 👌 OK | iPhone 15 Pro | 2026-03-10 |
 | 🟠 | Lost: Via Domus | `5553080F` | 📱 iOS | Loads | 🐢 Poor | iPhone Air | 2026-08-13 |
+| 🟠 | Mass Effect | `4D5307E8` | 📱 iOS | Loads | 🐢 Poor | iPhone 16 Pro | 2026-11-10 |
 | 🟠 | Naruto Shippuden: Ultimate Ninja Storm Revolution | `4E4D0868` | 📱 iOS | Loads | 🐢 Poor | iPhone Air | 2026-08-16 |
 | 🟠 | NASCAR 08 | `45410814` | 🖥️ macOS | Loads | 🐢 Poor | Macbook Air M2 2022 | 2026-08-29 |
 | 🟠 | NBA 2K10 | `54549852` | 🖥️ macOS | Loads | 🐢 Poor | MacBook Air (M4) | 2026-03-18 |
