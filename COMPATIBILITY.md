@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **416 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **418 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **198** · 🔵 In-Game: **71** · 🟡 Intro: **30** · 🟠 Loads: **53** · 🔴 Doesn't Boot: **64**
+> 🟢 Playable: **200** · 🔵 In-Game: **71** · 🟡 Intro: **30** · 🟠 Loads: **53** · 🔴 Doesn't Boot: **64**
 >
-> 📱 iOS: **381** · 🖥️ macOS: **56**
+> 📱 iOS: **383** · 🖥️ macOS: **56**
 
 ## Legend
 
@@ -41,8 +41,10 @@
 | 🟢 | Blur | `41560845` | 📱 iOS | Playable | 🚀 Great | iPhone 17 | 2026-11-11 |
 | 🟢 | Bomberman Battlefest | `584109B2` | 📱 iOS | Playable | 🐢 Poor | iPhone 15 | 2026-03-25 |
 | 🟢 | Bomberman Live | `5841083F` | 📱 iOS | Playable | 🚀 Great | iPhone 15 | 2026-06-07 |
+| 🟢 | Boom Boom Rocket | `5841086A` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro Max | 2026-11-12 |
 | 🟢 | Borderlands | `545407E7` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro | 2026-03-13 |
 | 🟢 | Bully: Scholarship Edition | `5454081A` | 📱 iOS, 🖥️ macOS | Playable | 🐢 Poor | iPhone 15 Pro Max | 2026-04-22 |
+| 🟢 | Burnout Paradise | `45410806` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-11-12 |
 | 🟢 | Call of Duty 2 | `415607D1` | 📱 iOS | Playable | 🚀 Great | iPhone 15 Pro Max | 2026-10-28 |
 | 🟢 | Call of Duty 3 | `415607E1` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-11-08 |
 | 🟢 | Call of Duty 4: Modern Warfare | `415607E6` | 📱 iOS | Playable | 🚀 Great | iPad Air 11-inch (M2) | 2026-11-07 |
@@ -73,7 +75,7 @@
 | 🟢 | EA SPORTS FIFA Street | `4541097B` | 📱 iOS | Playable | 👌 OK | iPhone 16e | 2026-06-03 |
 | 🟢 | F.E.A.R: First Encounter Assault Recon | `565507D9` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro | 2026-03-13 |
 | 🟢 | F1 2010 | `434D082D` | 📱 iOS | Playable | 🐢 Poor | iPhone 16e | 2026-06-03 |
-| 🟢 | Fallout: New Vegas | `425307E0` | 📱 iOS | Playable | 👌 OK | iPhone 15 Pro Max | 2026-06-18 |
+| 🟢 | Fallout: New Vegas | `425307E0` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-11-11 |
 | 🟢 | Family Guy: Back To The Multiverse | `415608C5` | 📱 iOS | Playable | 👌 OK | iPad Mini (A17 Pro) | 2026-03-13 |
 | 🟢 | Far Cry 2 | `55530810` | 📱 iOS | Playable | 🐢 Poor | iPhone 16 | 2026-03-10 |
 | 🟢 | Farming Simulator 15 | `464507E1` | 📱 iOS | Playable | 👌 OK | iPhone 16e | 2026-10-09 |
@@ -225,7 +227,6 @@
 | 🔵 | Battlefield: Bad Company | `454107F9` | 📱 iOS | In-Game | 🚀 Great | iPhone 15 | 2026-08-05 |
 | 🔵 | Bayonetta | `53450813` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 | 2026-03-08 |
 | 🔵 | BioShock Infinite | `5454085D` | 📱 iOS | In-Game | 👌 OK | iPhone 16 | 2026-06-10 |
-| 🔵 | Burnout Paradise | `45410806` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro Max | 2026-03-12 |
 | 🔵 | Burnout Revenge | `454107DC` | 📱 iOS | In-Game | 🐢 Poor | iPhone 15 | 2026-08-05 |
 | 🔵 | Call of Duty: Black Ops II | `415608C3` | 📱 iOS | In-Game | 🐢 Poor | iPhone 14 Pro | 2026-11-01 |
 | 🔵 | Call of Duty: Modern Warfare 2 | `41560817` | 📱 iOS | In-Game | 👌 OK | iPad19,1 | 2026-11-08 |
@@ -256,6 +257,7 @@
 | 🔵 | Guitar Hero: Warriors of Rock | `41560883` | 📱 iOS | In-Game | 🐢 Poor | iPhone 13 mini | 2026-03-22 |
 | 🔵 | Halo 3: ODST | `4D530877` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 | 2026-03-03 |
 | 🔵 | Iron Man | `534507F2` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro Max | 2026-03-28 |
+| 🔵 | L.A. Noire | `5454086C` | 📱 iOS | In-Game | 👌 OK | iPhone 14 Pro | 2026-11-11 |
 | 🔵 | Lost Odyssey | `4D5307FA` | 📱 iOS, 🖥️ macOS | In-Game | 🚀 Great | Mac mini (M2) | 2026-03-11 |
 | 🔵 | Madden NFL 16 | `454109EB` | 🖥️ macOS | In-Game | 👌 OK | Macbook Neo A18 Pro | 2026-10-08 |
 | 🔵 | Mercenaries 2: World in Flames | `45410828` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro | 2026-03-09 |
