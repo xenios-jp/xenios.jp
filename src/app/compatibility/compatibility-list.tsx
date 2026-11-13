@@ -1,7 +1,7 @@
 "use client";
 
 import type { ChangeEvent } from "react";
-import { useDeferredValue, useEffect, useState } from "react";
+import { memo, useDeferredValue, useEffect, useState, useSyncExternalStore } from "react";
 import Link from "next/link";
 import { Pill } from "@/components/pill";
 import {
@@ -525,7 +525,26 @@ function buildCatalogSearchEntry(game: Game): CatalogSearchEntry {
   });
 }
 
-function GameRow({
+// Matches Tailwind's `md` breakpoint, which switches the table and card lists.
+const TABLE_LAYOUT_QUERY = "(min-width: 48rem)";
+
+function subscribeToListLayout(onChange: () => void) {
+  const query = window.matchMedia(TABLE_LAYOUT_QUERY);
+  query.addEventListener("change", onChange);
+  return () => query.removeEventListener("change", onChange);
+}
+
+// The static HTML carries both lists and CSS shows one. After hydration only the
+// visible list is rendered, so a filter change rebuilds half as many components.
+function useListLayout(): "both" | "table" | "cards" {
+  return useSyncExternalStore(
+    subscribeToListLayout,
+    () => (window.matchMedia(TABLE_LAYOUT_QUERY).matches ? "table" : "cards"),
+    () => "both",
+  );
+}
+
+const GameRow = memo(function GameRow({
   entry,
   platform,
 }: {
@@ -580,9 +599,9 @@ function GameRow({
       </td>
     </tr>
   );
-}
+});
 
-function GameCard({
+const GameCard = memo(function GameCard({
   entry,
   platform,
 }: {
@@ -630,7 +649,7 @@ function GameCard({
       </div>
     </Link>
   );
-}
+});
 
 export function CompatibilityList({
   mode,
@@ -660,6 +679,7 @@ export function CompatibilityList({
   >("idle");
 
   const isCatalogMode = mode === "catalog";
+  const listLayout = useListLayout();
   const currentPlatform = platform;
   const trimmedQuery = query.trim();
   const deferredQuery = useDeferredValue(trimmedQuery);
@@ -730,7 +750,10 @@ export function CompatibilityList({
         ? allEntries.filter((entry) => entry.historyPlatforms.includes(currentPlatform))
         : allEntries;
   const platformScopedEntries = sourceEntries;
-  const normalizedDeferredQuery = deferredQuery.toLowerCase();
+  // The tested list filters in the same commit as the keystroke: a deferred
+  // commit on a slow phone lands after the browser's 500 ms input window and
+  // the shrinking table counts as an unexpected layout shift (CLS ~0.44).
+  const normalizedDeferredQuery = (isCatalogMode ? deferredQuery : trimmedQuery).toLowerCase();
   const searchedEntries = normalizedDeferredQuery
     ? platformScopedEntries.filter((entry) => {
         if (isCatalogSearchEntry(entry)) {
@@ -1175,7 +1198,7 @@ export function CompatibilityList({
               </tr>
             </thead>
             <tbody>
-              {visibleEntries.map((entry) => (
+              {(listLayout === "cards" ? [] : visibleEntries).map((entry) => (
                 <GameRow key={entryListKey(entry)} entry={entry} platform={currentPlatform} />
               ))}
             </tbody>
@@ -1189,7 +1212,7 @@ export function CompatibilityList({
         </div>
 
         <div className="flex flex-col gap-2 md:hidden">
-          {visibleEntries.map((entry) => (
+          {(listLayout === "table" ? [] : visibleEntries).map((entry) => (
             <GameCard key={entryListKey(entry)} entry={entry} platform={currentPlatform} />
           ))}
 
