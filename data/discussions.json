@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T17:30:38.722Z",
+  "generatedAt": "2026-11-13T23:16:52.772Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -613,18 +613,6 @@
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/45",
       "updatedAt": "2026-11-13",
       "entries": [
-        {
-          "id": "issue-790",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/790",
-          "author": "yewsiff",
-          "createdAt": "2026-11-13",
-          "createdAtMs": 1794590823000,
-          "issueNumber": 790,
-          "excerpt": "60 FPS",
-          "images": [],
-          "meta": {}
-        },
         {
           "id": "issue-607",
           "type": "issue",
@@ -2198,10 +2186,32 @@
     },
     "45410915": {
       "titleId": "45410915",
-      "issueNumber": 14,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/14",
-      "updatedAt": "2026-03-11",
+      "issueNumber": 793,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/793",
+      "updatedAt": "2026-11-13",
       "entries": [
+        {
+          "id": "issue-793",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/793",
+          "author": "xenios-jp",
+          "createdAt": "2026-11-13",
+          "createdAtMs": 1794606901000,
+          "issueNumber": 793,
+          "excerpt": "I loaded up no problems look smooth just gotta keep up with your phone being hot I’m using frozen meat lol",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 15",
+            "platform": "iOS",
+            "osVersion": "iOS 27.0",
+            "gpuBackend": "MSL",
+            "appVersion": "2.3.2",
+            "buildNumber": "11934",
+            "commitShort": "`5533fbfd1`"
+          }
+        },
         {
           "id": "comment-4039820234",
           "type": "comment",
@@ -4428,6 +4438,302 @@
           "createdAtMs": 1773517964000,
           "issueNumber": 263,
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
+          "images": [],
+          "meta": {}
+        }
+      ]
+    },
+    "545407F2": {
+      "titleId": "545407F2",
+      "issueNumber": 794,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/794",
+      "updatedAt": "2026-11-13",
+      "entries": [
+        {
+          "id": "issue-794",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/794",
+          "author": "xenios-jp",
+          "createdAt": "2026-11-13",
+          "createdAtMs": 1794607490000,
+          "issueNumber": 794,
+          "excerpt": "it works really REALLY well",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 27.0",
+            "gpuBackend": "MSL",
+            "appVersion": "2.3.2",
+            "buildNumber": "11934",
+            "commitShort": "`5533fbfd1`"
+          }
+        },
+        {
+          "id": "comment-6749408865",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/667#issuecomment-6749408865",
+          "author": "xenios-jp",
+          "createdAt": "2026-11-09",
+          "createdAtMs": 1794252677000,
+          "issueNumber": 667,
+          "excerpt": "Expected stuttering, but was fluent.",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 27.2",
+            "gpuBackend": "MSL",
+            "appVersion": "2.3.1",
+            "buildNumber": "11662",
+            "commitShort": "`cf7c7ee45`"
+          }
+        },
+        {
+          "id": "comment-6721336309",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/667#issuecomment-6721336309",
+          "author": "xenios-jp",
+          "createdAt": "2026-11-08",
+          "createdAtMs": 1794139972000,
+          "issueNumber": 667,
+          "excerpt": "It works great",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 27.0.1",
+            "gpuBackend": "MSL",
+            "appVersion": "2.3.1",
+            "buildNumber": "11662",
+            "commitShort": "`cf7c7ee45`"
+          }
+        },
+        {
+          "id": "comment-6396245285",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/667#issuecomment-6396245285",
+          "author": "xenios-jp",
+          "createdAt": "2026-10-25",
+          "createdAtMs": 1792922440000,
+          "issueNumber": 667,
+          "excerpt": "My game doesn’t load but I have an iPhone XS",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone11,2",
+            "platform": "iOS",
+            "osVersion": "iOS 18.7.10",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "buildStage": "stable",
+            "commitShort": "`2633e8177`"
+          }
+        },
+        {
+          "id": "comment-6114832051",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/667#issuecomment-6114832051",
+          "author": "xenios-jp",
+          "createdAt": "2026-10-11",
+          "createdAtMs": 1791759381000,
+          "issueNumber": 667,
+          "excerpt": "Black screen, app crashes after about a minute",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 27.0",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "buildStage": "stable",
+            "commitShort": "`57c3ca140`"
+          }
+        },
+        {
+          "id": "comment-5809189775",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/667#issuecomment-5809189775",
+          "author": "xenios-jp",
+          "createdAt": "2026-09-24",
+          "createdAtMs": 1790232372000,
+          "issueNumber": 667,
+          "excerpt": "App crashes immediately",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 16 Plus",
+            "platform": "iOS",
+            "osVersion": "iOS 26.6.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "buildStage": "stable",
+            "commitShort": "`57c3ca140`"
+          }
+        }
+      ]
+    },
+    "454109B6": {
+      "titleId": "454109B6",
+      "issueNumber": 792,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/792",
+      "updatedAt": "2026-11-13",
+      "entries": [
+        {
+          "id": "issue-792",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/792",
+          "author": "xenios-jp",
+          "createdAt": "2026-11-13",
+          "createdAtMs": 1794603685000,
+          "issueNumber": 792,
+          "excerpt": "Plays smooth no trouble",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 15",
+            "platform": "iOS",
+            "osVersion": "iOS 27.0",
+            "gpuBackend": "MSL",
+            "appVersion": "2.3.2",
+            "buildNumber": "11934",
+            "commitShort": "`5533fbfd1`"
+          }
+        }
+      ]
+    },
+    "5454082B": {
+      "titleId": "5454082B",
+      "issueNumber": 791,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/791",
+      "updatedAt": "2026-11-13",
+      "entries": [
+        {
+          "id": "issue-791",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/791",
+          "author": "xenios-jp",
+          "createdAt": "2026-11-13",
+          "createdAtMs": 1794599816000,
+          "issueNumber": 791,
+          "excerpt": "Average 18fps but no major graphical issues",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 27.0",
+            "gpuBackend": "MSL",
+            "appVersion": "2.3.2",
+            "buildNumber": "11934",
+            "commitShort": "`5533fbfd1`"
+          }
+        },
+        {
+          "id": "comment-5258901028",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/386#issuecomment-5258901028",
+          "author": "udance4ever",
+          "createdAt": "2026-08-11",
+          "createdAtMs": 1786482651000,
+          "issueNumber": 386,
+          "excerpt": "Preview 2.0.1-9849 now gets in-game (yeay!) on MacBookPro M1 - same rendering issues:\n\n<img width=\"1920\" height=\"1080\" alt=\"Image\" src=\" />",
+          "images": [],
+          "meta": {}
+        },
+        {
+          "id": "comment-4316280347",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/386#issuecomment-4316280347",
+          "author": "xenios-jp",
+          "createdAt": "2026-04-24",
+          "createdAtMs": 1777063703000,
+          "issueNumber": 386,
+          "excerpt": "Horrível",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/5454082B/1777063694524-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/5454082B/1777063694524-2.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/5454082B/1777063694524-3.jpg"
+          ],
+          "meta": {
+            "status": "loads",
+            "perf": "poor",
+            "device": "iPad Pro 13-inch (M4)",
+            "platform": "iOS",
+            "osVersion": "iOS 26.4",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "buildStage": "stable",
+            "commitShort": "`056d2f64d`"
+          }
+        },
+        {
+          "id": "comment-4304465165",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/386#issuecomment-4304465165",
+          "author": "xenios-jp",
+          "createdAt": "2026-04-23",
+          "createdAtMs": 1776948405000,
+          "issueNumber": 386,
+          "excerpt": "After choosing the difficulty and clicking on start it would always be stuck on this screen, and loading screen is slightly long, around4-6 minutes or so.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/5454082B/1776948400530-1.jpg"
+          ],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 15 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "buildStage": "stable",
+            "commitShort": "`056d2f64d`"
+          }
+        },
+        {
+          "id": "comment-4231467894",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/386#issuecomment-4231467894",
+          "author": "udance4ever",
+          "createdAt": "2026-04-12",
+          "createdAtMs": 1775995543000,
+          "issueNumber": 386,
+          "excerpt": "Same result on a MacBook Pro (M1) (same build: 1.0.1-9288)\n\n<img width=\"1392\" height=\"860\" alt=\"Image\" src=\" />",
+          "images": [],
+          "meta": {}
+        },
+        {
+          "id": "issue-386",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/386",
+          "author": "AresgettaGamer",
+          "createdAt": "2026-04-03",
+          "createdAtMs": 1775241177000,
+          "issueNumber": 386,
+          "excerpt": "Game boots successfully from an external ExFAT SSD. It reaches the initial loading screen (\"Éxodo en EE. UU.\" / \"Exodus in America\") with the spinning revolver cylinder, but gets stuck in an infinite loading loop and never reaches in-game. Additionally, the audio during the intro and loading screen is heavily distorted/stuttering.\nTested with ffmpeg_disable_neon_on_arm64 enabled and disabled, audio distortion persists.",
           "images": [],
           "meta": {}
         }
@@ -6676,8 +6982,30 @@
       "titleId": "4E4D0859",
       "issueNumber": 751,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/751",
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-13",
       "entries": [
+        {
+          "id": "comment-6867266626",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/751#issuecomment-6867266626",
+          "author": "xenios-jp",
+          "createdAt": "2026-11-13",
+          "createdAtMs": 1794611538000,
+          "issueNumber": 751,
+          "excerpt": "My iphone does heat up and performance does drop after playing a while although I suspect because my phone is now old",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 16 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 27.0",
+            "gpuBackend": "MSL",
+            "appVersion": "2.3.2",
+            "buildNumber": "11934",
+            "commitShort": "`5533fbfd1`"
+          }
+        },
         {
           "id": "issue-751",
           "type": "issue",
@@ -9055,154 +9383,6 @@
           "excerpt": "Pre-rendered scenes for intro have graphical and audio issues.\nUpon clicking \"New Game\", opening screen only has graphical issues. \nWhen the game renders, assets take a second to load in. But, game speed is about half what it should be.",
           "images": [],
           "meta": {}
-        }
-      ]
-    },
-    "545407F2": {
-      "titleId": "545407F2",
-      "issueNumber": 667,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/667",
-      "updatedAt": "2026-11-09",
-      "entries": [
-        {
-          "id": "comment-6749408865",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/667#issuecomment-6749408865",
-          "author": "xenios-jp",
-          "createdAt": "2026-11-09",
-          "createdAtMs": 1794252677000,
-          "issueNumber": 667,
-          "excerpt": "Expected stuttering, but was fluent.",
-          "images": [],
-          "meta": {
-            "status": "playable",
-            "perf": "great",
-            "device": "iPhone 17 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 27.2",
-            "gpuBackend": "MSL",
-            "appVersion": "2.3.1",
-            "buildNumber": "11662",
-            "commitShort": "`cf7c7ee45`"
-          }
-        },
-        {
-          "id": "comment-6721336309",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/667#issuecomment-6721336309",
-          "author": "xenios-jp",
-          "createdAt": "2026-11-08",
-          "createdAtMs": 1794139972000,
-          "issueNumber": 667,
-          "excerpt": "It works great",
-          "images": [],
-          "meta": {
-            "status": "playable",
-            "perf": "ok",
-            "device": "iPhone 17 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 27.0.1",
-            "gpuBackend": "MSL",
-            "appVersion": "2.3.1",
-            "buildNumber": "11662",
-            "commitShort": "`cf7c7ee45`"
-          }
-        },
-        {
-          "id": "comment-6396245285",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/667#issuecomment-6396245285",
-          "author": "xenios-jp",
-          "createdAt": "2026-10-25",
-          "createdAtMs": 1792922440000,
-          "issueNumber": 667,
-          "excerpt": "My game doesn’t load but I have an iPhone XS",
-          "images": [],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPhone11,2",
-            "platform": "iOS",
-            "osVersion": "iOS 18.7.10",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "buildStage": "stable",
-            "commitShort": "`2633e8177`"
-          }
-        },
-        {
-          "id": "comment-6114832051",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/667#issuecomment-6114832051",
-          "author": "xenios-jp",
-          "createdAt": "2026-10-11",
-          "createdAtMs": 1791759381000,
-          "issueNumber": 667,
-          "excerpt": "Black screen, app crashes after about a minute",
-          "images": [],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPhone 17 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 27.0",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "buildStage": "stable",
-            "commitShort": "`57c3ca140`"
-          }
-        },
-        {
-          "id": "comment-5809189775",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/667#issuecomment-5809189775",
-          "author": "xenios-jp",
-          "createdAt": "2026-09-24",
-          "createdAtMs": 1790232372000,
-          "issueNumber": 667,
-          "excerpt": "App crashes immediately",
-          "images": [],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPhone 16 Plus",
-            "platform": "iOS",
-            "osVersion": "iOS 26.6.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "buildStage": "stable",
-            "commitShort": "`57c3ca140`"
-          }
-        },
-        {
-          "id": "comment-5656560837",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/667#issuecomment-5656560837",
-          "author": "xenios-jp",
-          "createdAt": "2026-09-13",
-          "createdAtMs": 1789338073000,
-          "issueNumber": 667,
-          "excerpt": "Loading intro on Vulkan with low performance, Metal crashes immediately",
-          "images": [],
-          "meta": {
-            "status": "intro",
-            "perf": "poor",
-            "device": "iPad Air 5",
-            "platform": "iOS",
-            "osVersion": "iOS 18.7.8",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "buildStage": "stable",
-            "commitShort": "`57c3ca140`"
-          }
         }
       ]
     },
@@ -15519,104 +15699,6 @@
             "buildStage": "stable",
             "commitShort": "`bfc99274d`"
           }
-        }
-      ]
-    },
-    "5454082B": {
-      "titleId": "5454082B",
-      "issueNumber": 386,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/386",
-      "updatedAt": "2026-11-13",
-      "entries": [
-        {
-          "id": "comment-5258901028",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/386#issuecomment-5258901028",
-          "author": "udance4ever",
-          "createdAt": "2026-08-11",
-          "createdAtMs": 1786482651000,
-          "issueNumber": 386,
-          "excerpt": "Preview 2.0.1-9849 now gets in-game (yeay!) on MacBookPro M1 - same rendering issues:\n\n<img width=\"1920\" height=\"1080\" alt=\"Image\" src=\" />",
-          "images": [],
-          "meta": {}
-        },
-        {
-          "id": "comment-4316280347",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/386#issuecomment-4316280347",
-          "author": "xenios-jp",
-          "createdAt": "2026-04-24",
-          "createdAtMs": 1777063703000,
-          "issueNumber": 386,
-          "excerpt": "Horrível",
-          "images": [
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/5454082B/1777063694524-1.jpg",
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/5454082B/1777063694524-2.jpg",
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/5454082B/1777063694524-3.jpg"
-          ],
-          "meta": {
-            "status": "loads",
-            "perf": "poor",
-            "device": "iPad Pro 13-inch (M4)",
-            "platform": "iOS",
-            "osVersion": "iOS 26.4",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "buildStage": "stable",
-            "commitShort": "`056d2f64d`"
-          }
-        },
-        {
-          "id": "comment-4304465165",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/386#issuecomment-4304465165",
-          "author": "xenios-jp",
-          "createdAt": "2026-04-23",
-          "createdAtMs": 1776948405000,
-          "issueNumber": 386,
-          "excerpt": "After choosing the difficulty and clicking on start it would always be stuck on this screen, and loading screen is slightly long, around4-6 minutes or so.",
-          "images": [
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/5454082B/1776948400530-1.jpg"
-          ],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPhone 15 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "buildStage": "stable",
-            "commitShort": "`056d2f64d`"
-          }
-        },
-        {
-          "id": "comment-4231467894",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/386#issuecomment-4231467894",
-          "author": "udance4ever",
-          "createdAt": "2026-04-12",
-          "createdAtMs": 1775995543000,
-          "issueNumber": 386,
-          "excerpt": "Same result on a MacBook Pro (M1) (same build: 1.0.1-9288)\n\n<img width=\"1392\" height=\"860\" alt=\"Image\" src=\" />",
-          "images": [],
-          "meta": {}
-        },
-        {
-          "id": "issue-386",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/386",
-          "author": "AresgettaGamer",
-          "createdAt": "2026-04-03",
-          "createdAtMs": 1775241177000,
-          "issueNumber": 386,
-          "excerpt": "Game boots successfully from an external ExFAT SSD. It reaches the initial loading screen (\"Éxodo en EE. UU.\" / \"Exodus in America\") with the spinning revolver cylinder, but gets stuck in an infinite loading loop and never reaches in-game. Additionally, the audio during the intro and loading screen is heavily distorted/stuttering.\nTested with ffmpeg_disable_neon_on_arm64 enabled and disabled, audio distortion persists.",
-          "images": [],
-          "meta": {}
         }
       ]
     },

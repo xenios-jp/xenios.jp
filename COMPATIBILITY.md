@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **418 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **419 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **207** · 🔵 In-Game: **67** · 🟡 Intro: **30** · 🟠 Loads: **51** · 🔴 Doesn't Boot: **63**
+> 🟢 Playable: **207** · 🔵 In-Game: **67** · 🟡 Intro: **30** · 🟠 Loads: **52** · 🔴 Doesn't Boot: **63**
 >
-> 📱 iOS: **383** · 🖥️ macOS: **56**
+> 📱 iOS: **384** · 🖥️ macOS: **56**
 
 ## Legend
 
@@ -49,7 +49,6 @@
 | 🟢 | Call of Duty 3 | `415607E1` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-11-08 |
 | 🟢 | Call of Duty 4: Modern Warfare | `415607E6` | 📱 iOS | Playable | 🚀 Great | iPad Air 11-inch (M2) | 2026-11-07 |
 | 🟢 | Call of Duty Classic | `58410957` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-09-27 |
-| 🟢 | Call of Duty: Black Ops | `41560855` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-11-13 |
 | 🟢 | Call Of Duty: Modern Warfare 3 | `415608CB` | 📱 iOS | Playable | 👌 OK | iPhone 16 | 2026-07-07 |
 | 🟢 | Castle Crashers | `584108B7` | 📱 iOS | Playable | 🚀 Great | iPhone 16 | 2026-07-15 |
 | 🟢 | Civilization Revolution | `545407E5` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro | 2026-03-14 |
@@ -80,6 +79,7 @@
 | 🟢 | Family Guy: Back To The Multiverse | `415608C5` | 📱 iOS | Playable | 👌 OK | iPad Mini (A17 Pro) | 2026-03-13 |
 | 🟢 | Far Cry 2 | `55530810` | 📱 iOS | Playable | 🐢 Poor | iPhone 16 | 2026-03-10 |
 | 🟢 | Farming Simulator 15 | `464507E1` | 📱 iOS | Playable | 👌 OK | iPhone 16e | 2026-10-09 |
+| 🟢 | Fight Night Champion | `45410915` | 📱 iOS | Playable | 🚀 Great | iPhone 15 | 2026-11-13 |
 | 🟢 | Final Fantasy XIII | `535107E4` | 📱 iOS | Playable | 👌 OK | iPhone 17 | 2026-03-18 |
 | 🟢 | FlatOut: Ultimate Carnage | `454D07D2` | 🖥️ macOS | Playable | 🚀 Great | Mac mini m4 16 256 | 2026-05-29 |
 | 🟢 | Forza Horizon | `4D5309C9` | 📱 iOS | Playable | 🚀 Great | iPad (A16) | 2026-11-13 |
@@ -93,7 +93,7 @@
 | 🟢 | Gears of War: Judgment | `4D530A26` | 📱 iOS | Playable | 🐢 Poor | iPhone 17 Pro Max | 2026-03-17 |
 | 🟢 | Geometry Wars Evolved | `584107ED` | 📱 iOS | Playable | 🚀 Great | iPhone 13 | 2026-03-10 |
 | 🟢 | GoldenEye: 007 Reloaded | `415608AF` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-05-09 |
-| 🟢 | Grand Theft Auto IV | `545407F2` | 📱 iOS, 🖥️ macOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-11-09 |
+| 🟢 | Grand Theft Auto IV | `545407F2` | 📱 iOS, 🖥️ macOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-11-13 |
 | 🟢 | Grand Theft Auto V | `545408A7` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-11-08 |
 | 🟢 | GRID | `434D07FF` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro | 2026-05-31 |
 | 🟢 | Guacamelee Super Turbo Championship Edition | `58411446` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-03 |
@@ -120,7 +120,6 @@
 | 🟢 | Marble Blast Ultra | `584107D7` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro Max | 2026-05-27 |
 | 🟢 | Marvel Ultimate Alliance 2 | `4156082F` | 📱 iOS | Playable | 👌 OK | iPhone 13 Pro | 2026-03-09 |
 | 🟢 | Marvel Ultimate Alliance Gold Edition | `415607DA` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro | 2026-11-08 |
-| 🟢 | Mass Effect | `4D5307E8` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro | 2026-11-13 |
 | 🟢 | Metal Gear Rising: Revengeance | `4B4E080A` | 📱 iOS | Playable | 🚀 Great | iPad Pro 13-inch (M5) | 2026-06-29 |
 | 🟢 | METAL GEAR SOLID HD EDITION 2 & 3 (Metal Gear Solid HD Collection) | `4B4E0840` | 🖥️ macOS | Playable | 👌 OK | MacBook Air (M2) | 2026-08-21 |
 | 🟢 | METAL GEAR SOLID PEACE WALKER HD EDITION | `4B4E083C` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Plus | 2026-03-18 |
@@ -144,6 +143,7 @@
 | 🟢 | NBA JAM | `4541094C` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-07-18 |
 | 🟢 | NBA Live 06 | `454107D8` | 📱 iOS | Playable | 👌 OK | iPhone 16e | 2026-03-10 |
 | 🟢 | NBA Street Homecourt | `454107F7` | 📱 iOS | Playable | 🚀 Great | iPhone 16e | 2026-06-07 |
+| 🟢 | NCAA Football 14 | `454109B6` | 📱 iOS | Playable | 🚀 Great | iPhone 15 | 2026-11-13 |
 | 🟢 | Need for Speed Carbon | `454107EC` | 📱 iOS | Playable | 👌 OK | iPhone 14 | 2026-10-06 |
 | 🟢 | Need for Speed Most Wanted (2005) | `454107D9` | 📱 iOS | Playable | 👌 OK | iPhone 14 Pro Max | 2026-08-15 |
 | 🟢 | Need for Speed: ProStreet | `45410822` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro | 2026-06-20 |
@@ -167,7 +167,7 @@
 | 🟢 | Rayman Origins | `55530884` | 📱 iOS | Playable | 🚀 Great | iPhone 17 | 2026-05-23 |
 | 🟢 | Rayman Raving Rabbids | `555307F3` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro Max | 2026-04-30 |
 | 🟢 | RAYSTORM HD | `584109BC` | 🖥️ macOS | Playable | 🚀 Great | MacBook Pro (M1) | 2026-08-11 |
-| 🟢 | Red Dead Redemption GOTY Edition | `5454082B` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro | 2026-11-13 |
+| 🟢 | Red Dead Redemption GOTY Edition | `5454082B` | 📱 iOS | Playable | 👌 OK | iPhone 17 Pro Max | 2026-11-13 |
 | 🟢 | Resident Evil 5 | `434307D4` | 📱 iOS | Playable | 🐢 Poor | iPhone 15 Pro | 2026-06-15 |
 | 🟢 | Ridge Racer 6 | `4E4D07D3` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-08 |
 | 🟢 | Rock Band | `45410829` | 🖥️ macOS, 📱 iOS | Playable | 🚀 Great | MacBook Pro (M4) | 2026-03-23 |
@@ -199,7 +199,7 @@
 | 🟢 | Syndicate | `45410923` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro | 2026-11-06 |
 | 🟢 | Teenage Mutant Ninja Turtles Danger of the Ooze | `4156090C` | 📱 iOS | Playable | 🚀 Great | iPhone 15 Pro Max | 2026-10-15 |
 | 🟢 | Tekken 6 | `4E4D07FC` | 📱 iOS | Playable | 🚀 Great | iPhone19,2 | 2026-11-08 |
-| 🟢 | Tekken Tag Tournament 2 | `4E4D0859` | 📱 iOS | Playable | 🐢 Poor | iPhone 15 Pro Max | 2026-11-07 |
+| 🟢 | Tekken Tag Tournament 2 | `4E4D0859` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro Max | 2026-11-13 |
 | 🟢 | Tenchu Z | `465307D7` | 📱 iOS | Playable | 🚀 Great | 17 Pro | 2026-08-29 |
 | 🟢 | Test Drive Unlimited | `494707D4` | 📱 iOS | Playable | 👌 OK | iPhone 17 Pro Max | 2026-03-27 |
 | 🟢 | The Elder Scrolls 4: Oblivion - Game of the Year Edition | `425307D1` | 📱 iOS | Playable | 👌 OK | iPhone 14 Plus | 2026-03-22 |
@@ -349,6 +349,7 @@
 | 🟠 | Lego Jurassic World | `5752084D` | 📱 iOS | Loads | 🚀 Great | iPhone 16 | 2026-08-14 |
 | 🟠 | Lego Star Wars III: The Clone Wars | `4C4107F3` | 📱 iOS | Loads | 👌 OK | iPhone 15 Pro | 2026-03-10 |
 | 🟠 | Lost: Via Domus | `5553080F` | 📱 iOS | Loads | 🐢 Poor | iPhone Air | 2026-08-13 |
+| 🟠 | Mass Effect | `4D5307E8` | 📱 iOS | Loads | 🐢 Poor | iPhone 16 Pro | 2026-11-10 |
 | 🟠 | Naruto Shippuden: Ultimate Ninja Storm Revolution | `4E4D0868` | 📱 iOS | Loads | 🐢 Poor | iPhone Air | 2026-08-16 |
 | 🟠 | NASCAR 08 | `45410814` | 🖥️ macOS | Loads | 🐢 Poor | Macbook Air M2 2022 | 2026-08-29 |
 | 🟠 | NBA 2K10 | `54549852` | 🖥️ macOS | Loads | 🐢 Poor | MacBook Air (M4) | 2026-03-18 |
@@ -383,6 +384,7 @@
 | 🔴 | Bionicle Heroes | `534307E2` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 12 Pro Max | 2026-10-11 |
 | 🔴 | Blue Dragon | `4D5307DF` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone Air | 2026-08-13 |
 | 🔴 | Borderlands 2 | `5454087C` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 Pro Max | 2026-10-04 |
+| 🔴 | Call of Duty: Black Ops | `41560855` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 13 Pro | 2026-07-18 |
 | 🔴 | Call of Duty: Black Ops III | `4156091D` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 13 | 2026-03-14 |
 | 🔴 | Castlevania: Lords of Shadow 2 | `4B4E084D` | 🖥️ macOS | Doesn't Boot | ➖ N/A | MacBook Pro (M1) | 2026-04-12 |
 | 🔴 | Counter-Strike: GO | `5841125A` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 | 2026-07-15 |
@@ -395,7 +397,6 @@
 | 🔴 | FIFA 09 | `4541085B` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-07-25 |
 | 🔴 | FIFA 13 | `45410998` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 Pro | 2026-06-17 |
 | 🔴 | FIFA 15 | `454109DB` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Pro 13-inch (M4) | 2026-03-13 |
-| 🔴 | Fight Night Champion | `45410915` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Pro (M2) | 2026-03-03 |
 | 🔴 | Final Exam | `584113F3` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 | 2026-07-15 |
 | 🔴 | Forza Horizon 2 Presents Fast & Furious | `4D530AB5` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad 10 | 2026-03-08 |
 | 🔴 | GRID 2 | `434D0844` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16e | 2026-06-09 |
