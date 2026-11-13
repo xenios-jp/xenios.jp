@@ -29615,6 +29615,8 @@
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-11-12",
+    "issueNumber": 781,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/781",
     "notes": "great",
     "reports": [
       {
@@ -47845,11 +47847,29 @@
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-07-23",
+    "updatedAt": "2026-11-12",
     "issueNumber": 19,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/19",
     "notes": "Game loads with no glitches I could tell. The game runs smoothly but with slightly reduced speed. Very playable and very enjoyable!",
     "reports": [
+      {
+        "device": "iPhone19,2",
+        "platform": "ios",
+        "osVersion": "27.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "poor",
+        "date": "2026-11-12",
+        "notes": "The game launches but menu only",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.2",
+          "buildNumber": "11934",
+          "commitShort": "5533fbfd1"
+        }
+      },
       {
         "device": "iPhone 16 Pro",
         "platform": "ios",
@@ -47905,24 +47925,24 @@
         "status": "playable",
         "perf": "great",
         "notes": "Game loads with no glitches I could tell. The game runs smoothly but with slightly reduced speed. Very playable and very enjoyable!",
-        "updatedAt": "2026-07-23",
-        "reportCount": 3,
+        "updatedAt": "2026-11-12",
+        "reportCount": 4,
         "latestReport": {
-          "device": "iPhone 16 Pro",
+          "device": "iPhone19,2",
           "platform": "ios",
-          "osVersion": "18.6.2",
+          "osVersion": "27.2",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-07-23",
-          "notes": "crashes instantly or infinitely loads",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-11-12",
+          "notes": "The game launches but menu only",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.3.2",
+            "buildNumber": "11934",
+            "commitShort": "5533fbfd1"
           }
         },
         "bestReport": {
@@ -81586,17 +81606,35 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 15 Pro Max",
+      "device": "iPhone 17 Pro Max",
       "platform": "ios",
-      "osVersion": "26.4",
+      "osVersion": "27.2.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-06-11",
+    "updatedAt": "2026-11-12",
     "issueNumber": 1,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/1",
-    "notes": "Works great as long as graphics are switched to classic.",
+    "notes": "Sometimes needs a short time of stutter/shader loading, but overall great experience",
     "reports": [
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "27.2.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-12",
+        "notes": "Sometimes needs a short time of stutter/shader loading, but overall great experience",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.1",
+          "buildNumber": "11662",
+          "commitShort": "cf7c7ee45"
+        }
+      },
       {
         "device": "iPhone 17 Pro Max",
         "platform": "ios",
@@ -81660,56 +81698,54 @@
       "all": {
         "status": "playable",
         "perf": "great",
-        "notes": "Works great as long as graphics are switched to classic.",
-        "updatedAt": "2026-06-11",
-        "reportCount": 3,
+        "notes": "Sometimes needs a short time of stutter/shader loading, but overall great experience",
+        "updatedAt": "2026-11-12",
+        "reportCount": 4,
         "latestReport": {
           "device": "iPhone 17 Pro Max",
           "platform": "ios",
-          "osVersion": "26.0",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "poor",
-          "date": "2026-06-11",
-          "notes": "The game gets stuck at the end of the initial loading screen most of the time, and on the off chance that I can actually get to the main menu:\n- Audio does not exist (this is extremely rare though)\n- Selecting the multiplayer crashes the game back to the XeniOS emulator every time.\n- Sometimes the Extras menu from the main menu gets stuck on “Wait…” forever",
-          "screenshots": [],
-          "source": "app",
-          "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 15 Pro Max",
-          "platform": "ios",
-          "osVersion": "26.4",
+          "osVersion": "27.2.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "great",
-          "date": "2026-03-08",
-          "notes": "Works great as long as graphics are switched to classic.",
-          "reportedTitleId": "4D5309B1",
-          "reportedTitle": "Halo: CE Anniversary",
+          "date": "2026-11-12",
+          "notes": "Sometimes needs a short time of stutter/shader loading, but overall great experience",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633e8177"
+            "appVersion": "2.3.1",
+            "buildNumber": "11662",
+            "commitShort": "cf7c7ee45"
           }
         },
-        "device": "iPhone 15 Pro Max",
+        "bestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "27.2.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-12",
+          "notes": "Sometimes needs a short time of stutter/shader loading, but overall great experience",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "appVersion": "2.3.1",
+            "buildNumber": "11662",
+            "commitShort": "cf7c7ee45"
+          }
+        },
+        "device": "iPhone 17 Pro Max",
         "platform": "ios",
-        "osVersion": "26.4",
+        "osVersion": "27.2.1",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "commitShort": "2633e8177"
+          "appVersion": "2.3.1",
+          "buildNumber": "11662",
+          "commitShort": "cf7c7ee45"
         }
       }
     }
@@ -95094,6 +95130,8 @@
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-11-11",
+    "issueNumber": 779,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/779",
     "notes": "Low fps",
     "reports": [
       {
@@ -134212,24 +134250,42 @@
     "titleIds": [
       "4D5307F9"
     ],
-    "status": "ingame",
-    "perf": "poor",
+    "status": "playable",
+    "perf": "ok",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 15",
+      "device": "iPhone 17 Pro Max",
       "platform": "ios",
-      "osVersion": "26.5.2",
+      "osVersion": "27.2.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-08-05",
-    "issueNumber": 255,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/255",
-    "notes": "Everything is playable, textures load slowly, sometimes glitch, and maybe a consistent 15 fps since you start the game",
+    "updatedAt": "2026-11-12",
+    "issueNumber": 785,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/785",
+    "notes": "Lowish framerate",
     "reports": [
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "27.2.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-11-12",
+        "notes": "Lowish framerate",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.1",
+          "buildNumber": "11662",
+          "commitShort": "cf7c7ee45"
+        }
+      },
       {
         "device": "iPhone 15",
         "platform": "ios",
@@ -134252,56 +134308,56 @@
     "screenshots": [],
     "summaries": {
       "all": {
-        "status": "ingame",
-        "perf": "poor",
-        "notes": "Everything is playable, textures load slowly, sometimes glitch, and maybe a consistent 15 fps since you start the game",
-        "updatedAt": "2026-08-05",
-        "reportCount": 1,
+        "status": "playable",
+        "perf": "ok",
+        "notes": "Lowish framerate",
+        "updatedAt": "2026-11-12",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 15",
+          "device": "iPhone 17 Pro Max",
           "platform": "ios",
-          "osVersion": "26.5.2",
+          "osVersion": "27.2.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-08-05",
-          "notes": "Everything is playable, textures load slowly, sometimes glitch, and maybe a consistent 15 fps since you start the game",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-11-12",
+          "notes": "Lowish framerate",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.3.1",
+            "buildNumber": "11662",
+            "commitShort": "cf7c7ee45"
           }
         },
         "bestReport": {
-          "device": "iPhone 15",
+          "device": "iPhone 17 Pro Max",
           "platform": "ios",
-          "osVersion": "26.5.2",
+          "osVersion": "27.2.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-08-05",
-          "notes": "Everything is playable, textures load slowly, sometimes glitch, and maybe a consistent 15 fps since you start the game",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-11-12",
+          "notes": "Lowish framerate",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.3.1",
+            "buildNumber": "11662",
+            "commitShort": "cf7c7ee45"
           }
         },
-        "device": "iPhone 15",
+        "device": "iPhone 17 Pro Max",
         "platform": "ios",
-        "osVersion": "26.5.2",
+        "osVersion": "27.2.1",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "commitShort": "57c3ca140"
+          "appVersion": "2.3.1",
+          "buildNumber": "11662",
+          "commitShort": "cf7c7ee45"
         }
       }
     }
@@ -139764,24 +139820,41 @@
     "titleIds": [
       "5454082B"
     ],
-    "status": "loads",
-    "perf": "poor",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPad Pro 13-inch (M4)",
+      "device": "iPhone 17 Pro",
       "platform": "ios",
-      "osVersion": "26.4",
+      "osVersion": "iOS 27",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-04-24",
+    "updatedAt": "2026-11-13",
     "issueNumber": 386,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/386",
-    "notes": "Horrível",
+    "notes": "Great",
     "reports": [
+      {
+        "device": "iPhone 17 Pro",
+        "platform": "ios",
+        "osVersion": "iOS 27",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-13",
+        "notes": "Great",
+        "screenshots": [],
+        "source": "github",
+        "build": {
+          "appVersion": "2.3.2",
+          "buildNumber": "11934"
+        }
+      },
       {
         "device": "iPad Pro 13-inch (M4)",
         "platform": "ios",
@@ -139827,56 +139900,53 @@
     ],
     "summaries": {
       "all": {
-        "status": "loads",
-        "perf": "poor",
-        "notes": "Horrível",
-        "updatedAt": "2026-04-24",
-        "reportCount": 2,
+        "status": "playable",
+        "perf": "great",
+        "notes": "Great",
+        "updatedAt": "2026-11-13",
+        "reportCount": 3,
         "latestReport": {
-          "device": "iPad Pro 13-inch (M4)",
+          "device": "iPhone 17 Pro",
           "platform": "ios",
-          "osVersion": "26.4",
+          "osVersion": "iOS 27",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "poor",
-          "date": "2026-04-24",
-          "notes": "Horrível",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-13",
+          "notes": "Great",
           "screenshots": [],
-          "source": "app",
+          "source": "github",
           "build": {
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "appVersion": "2.3.2",
+            "buildNumber": "11934"
           }
         },
         "bestReport": {
-          "device": "iPad Pro 13-inch (M4)",
+          "device": "iPhone 17 Pro",
           "platform": "ios",
-          "osVersion": "26.4",
+          "osVersion": "iOS 27",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "poor",
-          "date": "2026-04-24",
-          "notes": "Horrível",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-13",
+          "notes": "Great",
           "screenshots": [],
-          "source": "app",
+          "source": "github",
           "build": {
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "appVersion": "2.3.2",
+            "buildNumber": "11934"
           }
         },
-        "device": "iPad Pro 13-inch (M4)",
+        "device": "iPhone 17 Pro",
         "platform": "ios",
-        "osVersion": "26.4",
+        "osVersion": "iOS 27",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
+          "appVersion": "2.3.2",
+          "buildNumber": "11934"
         }
       }
     }
@@ -146541,24 +146611,42 @@
       "545107F8",
       "545107ED"
     ],
-    "status": "ingame",
+    "status": "playable",
     "perf": "ok",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 16",
+      "device": "iPhone 17 Pro",
       "platform": "ios",
-      "osVersion": "26.3",
+      "osVersion": "27.2",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-10",
-    "issueNumber": 174,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/174",
-    "notes": "Managed to get into the game in the fifth attempt; first tries were stuck at an infinite loading screen.",
+    "updatedAt": "2026-11-12",
+    "issueNumber": 784,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/784",
+    "notes": "Runs great i just put the ugly mode for higher framerate. I have played for like 30 min no crashes until now.",
     "reports": [
+      {
+        "device": "iPhone 17 Pro",
+        "platform": "ios",
+        "osVersion": "27.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-11-12",
+        "notes": "Runs great i just put the ugly mode for higher framerate. I have played for like 30 min no crashes until now.",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.1",
+          "buildNumber": "11662",
+          "commitShort": "cf7c7ee45"
+        }
+      },
       {
         "device": "iPhone 16",
         "platform": "ios",
@@ -146586,56 +146674,56 @@
     ],
     "summaries": {
       "all": {
-        "status": "ingame",
+        "status": "playable",
         "perf": "ok",
-        "notes": "Managed to get into the game in the fifth attempt; first tries were stuck at an infinite loading screen.",
-        "updatedAt": "2026-03-10",
-        "reportCount": 1,
+        "notes": "Runs great i just put the ugly mode for higher framerate. I have played for like 30 min no crashes until now.",
+        "updatedAt": "2026-11-12",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 16",
+          "device": "iPhone 17 Pro",
           "platform": "ios",
-          "osVersion": "26.3",
+          "osVersion": "27.2",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "ingame",
+          "status": "playable",
           "perf": "ok",
-          "date": "2026-03-10",
-          "notes": "Managed to get into the game in the fifth attempt; first tries were stuck at an infinite loading screen.",
+          "date": "2026-11-12",
+          "notes": "Runs great i just put the ugly mode for higher framerate. I have played for like 30 min no crashes until now.",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633e8177"
+            "appVersion": "2.3.1",
+            "buildNumber": "11662",
+            "commitShort": "cf7c7ee45"
           }
         },
         "bestReport": {
-          "device": "iPhone 16",
+          "device": "iPhone 17 Pro",
           "platform": "ios",
-          "osVersion": "26.3",
+          "osVersion": "27.2",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "ingame",
+          "status": "playable",
           "perf": "ok",
-          "date": "2026-03-10",
-          "notes": "Managed to get into the game in the fifth attempt; first tries were stuck at an infinite loading screen.",
+          "date": "2026-11-12",
+          "notes": "Runs great i just put the ugly mode for higher framerate. I have played for like 30 min no crashes until now.",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633e8177"
+            "appVersion": "2.3.1",
+            "buildNumber": "11662",
+            "commitShort": "cf7c7ee45"
           }
         },
-        "device": "iPhone 16",
+        "device": "iPhone 17 Pro",
         "platform": "ios",
-        "osVersion": "26.3",
+        "osVersion": "27.2",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "commitShort": "2633e8177"
+          "appVersion": "2.3.1",
+          "buildNumber": "11662",
+          "commitShort": "cf7c7ee45"
         }
       }
     }
@@ -156456,24 +156544,42 @@
     "titleIds": [
       "534507D6"
     ],
-    "status": "ingame",
+    "status": "playable",
     "perf": "ok",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone Air",
+      "device": "iPhone 15 Pro Max",
       "platform": "ios",
-      "osVersion": "26.0",
+      "osVersion": "27.0",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-04-03",
+    "updatedAt": "2026-11-12",
     "issueNumber": 53,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/53",
-    "notes": "So basically this took a couple of launches for it to even get past the title screen and it's at 30FPS when launching the game it doesn't render it correctly and it's just a green mess of whatever and sometimes even in game it just doesn't render things correctly (shown in the video) and performance doesn't change even when not recording",
+    "notes": "Roda liso",
     "reports": [
+      {
+        "device": "iPhone 15 Pro Max",
+        "platform": "ios",
+        "osVersion": "27.0",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-11-12",
+        "notes": "Roda liso",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.1",
+          "buildNumber": "11662",
+          "commitShort": "cf7c7ee45"
+        }
+      },
       {
         "device": "iPhone 13",
         "platform": "ios",
@@ -156514,64 +156620,63 @@
       }
     ],
     "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/534507D6/1794478764541-1.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/534507D6/1773854897913-1.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/534507D6/1773854897913-2.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/534507D6/1773854897913-3.jpg"
     ],
     "summaries": {
       "all": {
-        "status": "ingame",
+        "status": "playable",
         "perf": "ok",
-        "notes": "So basically this took a couple of launches for it to even get past the title screen and it's at 30FPS when launching the game it doesn't render it correctly and it's just a green mess of whatever and sometimes even in game it just doesn't render things correctly (shown in the video) and performance doesn't change even when not recording",
-        "updatedAt": "2026-04-03",
-        "reportCount": 2,
+        "notes": "Roda liso",
+        "updatedAt": "2026-11-12",
+        "reportCount": 3,
         "latestReport": {
-          "device": "iPhone 13",
+          "device": "iPhone 15 Pro Max",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "27.0",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-04-03",
-          "notes": "just crashes immediately when I press play",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-11-12",
+          "notes": "Roda liso",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "appVersion": "2.3.1",
+            "buildNumber": "11662",
+            "commitShort": "cf7c7ee45"
           }
         },
         "bestReport": {
-          "device": "iPhone Air",
+          "device": "iPhone 15 Pro Max",
           "platform": "ios",
-          "osVersion": "26.0",
+          "osVersion": "27.0",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "ingame",
+          "status": "playable",
           "perf": "ok",
-          "date": "2026-03-08",
-          "notes": "So basically this took a couple of launches for it to even get past the title screen and it's at 30FPS when launching the game it doesn't render it correctly and it's just a green mess of whatever and sometimes even in game it just doesn't render things correctly (shown in the video) and performance doesn't change even when not recording",
-          "reportedTitleId": "534507D6",
-          "reportedTitle": "Sonic the Hedgehog",
+          "date": "2026-11-12",
+          "notes": "Roda liso",
           "screenshots": [],
-          "source": "github",
+          "source": "app",
           "build": {
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633E8177"
+            "appVersion": "2.3.1",
+            "buildNumber": "11662",
+            "commitShort": "cf7c7ee45"
           }
         },
-        "device": "iPhone Air",
+        "device": "iPhone 15 Pro Max",
         "platform": "ios",
-        "osVersion": "26.0",
+        "osVersion": "27.0",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "commitShort": "2633E8177"
+          "appVersion": "2.3.1",
+          "buildNumber": "11662",
+          "commitShort": "cf7c7ee45"
         }
       }
     }
@@ -164289,23 +164394,41 @@
       "4343080F"
     ],
     "status": "playable",
-    "perf": "poor",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 16 Pro Max",
+      "device": "iPad Pro 11-inch (M2)",
       "platform": "ios",
-      "osVersion": "26.2",
+      "osVersion": "27.2.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-11",
-    "issueNumber": 191,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/191",
-    "notes": "Game loads and boots fine, cutscenes have graphical glitches, game play is below full speed.",
+    "updatedAt": "2026-11-12",
+    "issueNumber": 786,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/786",
+    "notes": "Compared to the previous version (screenshot #3), performance has improved significantly. The game can now run at nearly 60 FPS.",
     "reports": [
+      {
+        "device": "iPad Pro 11-inch (M2)",
+        "platform": "ios",
+        "osVersion": "27.2.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-12",
+        "notes": "Compared to the previous version (screenshot #3), performance has improved significantly. The game can now run at nearly 60 FPS.",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.2",
+          "buildNumber": "11934",
+          "commitShort": "5533fbfd1"
+        }
+      },
       {
         "device": "iPhone 16 Pro Max",
         "platform": "ios",
@@ -164326,60 +164449,63 @@
       }
     ],
     "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4343080F/1794505595052-1.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4343080F/1794505595052-2.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4343080F/1794505595052-3.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4343080F/1773198412364-1.jpg"
     ],
     "summaries": {
       "all": {
         "status": "playable",
-        "perf": "poor",
-        "notes": "Game loads and boots fine, cutscenes have graphical glitches, game play is below full speed.",
-        "updatedAt": "2026-03-11",
-        "reportCount": 1,
+        "perf": "great",
+        "notes": "Compared to the previous version (screenshot #3), performance has improved significantly. The game can now run at nearly 60 FPS.",
+        "updatedAt": "2026-11-12",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 16 Pro Max",
+          "device": "iPad Pro 11-inch (M2)",
           "platform": "ios",
-          "osVersion": "26.2",
+          "osVersion": "27.2.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
-          "perf": "poor",
-          "date": "2026-03-11",
-          "notes": "Game loads and boots fine, cutscenes have graphical glitches, game play is below full speed.",
+          "perf": "great",
+          "date": "2026-11-12",
+          "notes": "Compared to the previous version (screenshot #3), performance has improved significantly. The game can now run at nearly 60 FPS.",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633e8177"
+            "appVersion": "2.3.2",
+            "buildNumber": "11934",
+            "commitShort": "5533fbfd1"
           }
         },
         "bestReport": {
-          "device": "iPhone 16 Pro Max",
+          "device": "iPad Pro 11-inch (M2)",
           "platform": "ios",
-          "osVersion": "26.2",
+          "osVersion": "27.2.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
-          "perf": "poor",
-          "date": "2026-03-11",
-          "notes": "Game loads and boots fine, cutscenes have graphical glitches, game play is below full speed.",
+          "perf": "great",
+          "date": "2026-11-12",
+          "notes": "Compared to the previous version (screenshot #3), performance has improved significantly. The game can now run at nearly 60 FPS.",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633e8177"
+            "appVersion": "2.3.2",
+            "buildNumber": "11934",
+            "commitShort": "5533fbfd1"
           }
         },
-        "device": "iPhone 16 Pro Max",
+        "device": "iPad Pro 11-inch (M2)",
         "platform": "ios",
-        "osVersion": "26.2",
+        "osVersion": "27.2.1",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "commitShort": "2633e8177"
+          "appVersion": "2.3.2",
+          "buildNumber": "11934",
+          "commitShort": "5533fbfd1"
         }
       }
     }
@@ -181150,8 +181276,8 @@
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-06-24",
-    "issueNumber": 555,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/555",
+    "issueNumber": 350,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/350",
     "notes": "Make crash once in a while, but overall it’s very playable and very smooth considering the type of heaviness of the game definitely can be marked as working for the app",
     "reports": [
       {
