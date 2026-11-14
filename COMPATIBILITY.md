@@ -2,7 +2,7 @@
 
 > **419 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **207** · 🔵 In-Game: **67** · 🟡 Intro: **30** · 🟠 Loads: **52** · 🔴 Doesn't Boot: **63**
+> 🟢 Playable: **208** · 🔵 In-Game: **67** · 🟡 Intro: **29** · 🟠 Loads: **52** · 🔴 Doesn't Boot: **63**
 >
 > 📱 iOS: **384** · 🖥️ macOS: **56**
 
@@ -198,7 +198,7 @@
 | 🟢 | Superman Returns | `454107ED` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-08-15 |
 | 🟢 | Syndicate | `45410923` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro | 2026-11-06 |
 | 🟢 | Teenage Mutant Ninja Turtles Danger of the Ooze | `4156090C` | 📱 iOS | Playable | 🚀 Great | iPhone 15 Pro Max | 2026-10-15 |
-| 🟢 | Tekken 6 | `4E4D07FC` | 📱 iOS | Playable | 🚀 Great | iPhone19,2 | 2026-11-08 |
+| 🟢 | Tekken 6 | `4E4D07FC` | 📱 iOS | Playable | 🚀 Great | iPhone 13 Pro Max | 2026-11-14 |
 | 🟢 | Tekken Tag Tournament 2 | `4E4D0859` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro Max | 2026-11-13 |
 | 🟢 | Tenchu Z | `465307D7` | 📱 iOS | Playable | 🚀 Great | 17 Pro | 2026-08-29 |
 | 🟢 | Test Drive Unlimited | `494707D4` | 📱 iOS | Playable | 👌 OK | iPhone 17 Pro Max | 2026-03-27 |
@@ -209,6 +209,7 @@
 | 🟢 | The Sims 3 | `454108E2` | 📱 iOS | Playable | 👌 OK | iPhone 15 Pro Max | 2026-11-07 |
 | 🟢 | TimeShift | `565507DA` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro | 2026-03-13 |
 | 🟢 | TMNT | `555307F8` | 📱 iOS | Playable | 👌 OK | iPhone 13 Pro | 2026-04-10 |
+| 🟢 | Tom Clancy's Ghost Recon: Future Soldier | `55530833` | 📱 iOS | Playable | 🚀 Great | iPhone 13 Pro Max | 2026-11-14 |
 | 🟢 | Tom Clancy's Rainbow Six Vegas | `555307D6` | 📱 iOS | Playable | 👌 OK | iPhone 17 Pro Max | 2026-11-07 |
 | 🟢 | Tomb Raider | `53510802` | 📱 iOS | Playable | 👌 OK | iPad (A16) | 2026-11-07 |
 | 🟢 | Tony Hawk's American Wasteland | `415607D4` | 📱 iOS | Playable | 🐢 Poor | iPad Pro 13-inch (M4) | 2026-05-21 |
@@ -319,7 +320,6 @@
 | 🟡 | Tales of Vesperia | `4E4D07E9` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro | 2026-03-03 |
 | 🟡 | Test Drive Unlimited 2 | `49470804` | 📱 iOS | Intro | 🐢 Poor | iPhone 15 | 2026-03-28 |
 | 🟡 | The Orange Box | `4541080F` | 📱 iOS | Intro | 🐢 Poor | iPad16,8 | 2026-07-16 |
-| 🟡 | Tom Clancy's Ghost Recon: Future Soldier | `55530833` | 📱 iOS | Intro | 🚀 Great | iPhone 15 Pro | 2026-06-11 |
 | 🟡 | Tom Clancy's Splinter Cell: Blacklist | `555308B6` | 📱 iOS | Intro | 🐢 Poor | iPhone 15 Pro Max | 2026-06-11 |
 | 🟡 | Tom Clancy's Splinter Cell: Conviction | `5553080B` | 📱 iOS | Intro | 🚀 Great | iPhone 15 Pro Max | 2026-06-11 |
 | 🟡 | Two Worlds | `535007D4` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro Max | 2026-03-09 |

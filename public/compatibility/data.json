@@ -168532,17 +168532,35 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone19,2",
+      "device": "iPhone 13 Pro Max",
       "platform": "ios",
-      "osVersion": "27.2",
+      "osVersion": "26.6.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-11-08",
+    "updatedAt": "2026-11-14",
     "issueNumber": 21,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/21",
-    "notes": "Works well on IPhone 18 pro nothing to add.",
+    "notes": "Works with minimal glitches.",
     "reports": [
+      {
+        "device": "iPhone 13 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.6.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-14",
+        "notes": "Works with minimal glitches.",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.2",
+          "buildNumber": "11934",
+          "commitShort": "5533fbfd1"
+        }
+      },
       {
         "device": "iPhone19,2",
         "platform": "ios",
@@ -168582,54 +168600,54 @@
       "all": {
         "status": "playable",
         "perf": "great",
-        "notes": "Works well on IPhone 18 pro nothing to add.",
-        "updatedAt": "2026-11-08",
-        "reportCount": 2,
+        "notes": "Works with minimal glitches.",
+        "updatedAt": "2026-11-14",
+        "reportCount": 3,
         "latestReport": {
-          "device": "iPhone19,2",
+          "device": "iPhone 13 Pro Max",
           "platform": "ios",
-          "osVersion": "27.2",
+          "osVersion": "26.6.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "great",
-          "date": "2026-11-08",
-          "notes": "Works well on IPhone 18 pro nothing to add.",
+          "date": "2026-11-14",
+          "notes": "Works with minimal glitches.",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "2.3.0",
-            "buildNumber": "11659",
-            "commitShort": "cef52a33f"
+            "appVersion": "2.3.2",
+            "buildNumber": "11934",
+            "commitShort": "5533fbfd1"
           }
         },
         "bestReport": {
-          "device": "iPhone19,2",
+          "device": "iPhone 13 Pro Max",
           "platform": "ios",
-          "osVersion": "27.2",
+          "osVersion": "26.6.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "great",
-          "date": "2026-11-08",
-          "notes": "Works well on IPhone 18 pro nothing to add.",
+          "date": "2026-11-14",
+          "notes": "Works with minimal glitches.",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "2.3.0",
-            "buildNumber": "11659",
-            "commitShort": "cef52a33f"
+            "appVersion": "2.3.2",
+            "buildNumber": "11934",
+            "commitShort": "5533fbfd1"
           }
         },
-        "device": "iPhone19,2",
+        "device": "iPhone 13 Pro Max",
         "platform": "ios",
-        "osVersion": "27.2",
+        "osVersion": "26.6.1",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "2.3.0",
-          "buildNumber": "11659",
-          "commitShort": "cef52a33f"
+          "appVersion": "2.3.2",
+          "buildNumber": "11934",
+          "commitShort": "5533fbfd1"
         }
       }
     }
@@ -177826,96 +177844,96 @@
       "55530833",
       "555388A9"
     ],
-    "status": "intro",
+    "status": "playable",
     "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 15 Pro",
+      "device": "iPhone 13 Pro Max",
       "platform": "ios",
-      "osVersion": "26.4.2",
+      "osVersion": "26.6.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-06-11",
-    "issueNumber": 498,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/498",
-    "notes": "Infinite loading when tried to start a campaign",
+    "updatedAt": "2026-11-14",
+    "issueNumber": 795,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/795",
+    "notes": "Works pretty well on 13 Pro Max.",
     "reports": [
       {
-        "device": "iPhone 15 Pro",
+        "device": "iPhone 13 Pro Max",
         "platform": "ios",
-        "osVersion": "26.4.2",
+        "osVersion": "26.6.1",
         "arch": "arm64",
         "gpuBackend": "msl",
-        "status": "intro",
+        "status": "playable",
         "perf": "great",
-        "date": "2026-06-11",
-        "notes": "Infinite loading when tried to start a campaign",
+        "date": "2026-11-14",
+        "notes": "Works pretty well on 13 Pro Max.",
         "screenshots": [],
         "source": "app",
         "build": {
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "commitShort": "57c3ca140"
+          "appVersion": "2.3.2",
+          "buildNumber": "11934",
+          "commitShort": "5533fbfd1"
         }
       }
     ],
     "screenshots": [],
     "summaries": {
       "all": {
-        "status": "intro",
+        "status": "playable",
         "perf": "great",
-        "notes": "Infinite loading when tried to start a campaign",
-        "updatedAt": "2026-06-11",
+        "notes": "Works pretty well on 13 Pro Max.",
+        "updatedAt": "2026-11-14",
         "reportCount": 1,
         "latestReport": {
-          "device": "iPhone 15 Pro",
+          "device": "iPhone 13 Pro Max",
           "platform": "ios",
-          "osVersion": "26.4.2",
+          "osVersion": "26.6.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "intro",
+          "status": "playable",
           "perf": "great",
-          "date": "2026-06-11",
-          "notes": "Infinite loading when tried to start a campaign",
+          "date": "2026-11-14",
+          "notes": "Works pretty well on 13 Pro Max.",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.3.2",
+            "buildNumber": "11934",
+            "commitShort": "5533fbfd1"
           }
         },
         "bestReport": {
-          "device": "iPhone 15 Pro",
+          "device": "iPhone 13 Pro Max",
           "platform": "ios",
-          "osVersion": "26.4.2",
+          "osVersion": "26.6.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "intro",
+          "status": "playable",
           "perf": "great",
-          "date": "2026-06-11",
-          "notes": "Infinite loading when tried to start a campaign",
+          "date": "2026-11-14",
+          "notes": "Works pretty well on 13 Pro Max.",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.3.2",
+            "buildNumber": "11934",
+            "commitShort": "5533fbfd1"
           }
         },
-        "device": "iPhone 15 Pro",
+        "device": "iPhone 13 Pro Max",
         "platform": "ios",
-        "osVersion": "26.4.2",
+        "osVersion": "26.6.1",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "commitShort": "57c3ca140"
+          "appVersion": "2.3.2",
+          "buildNumber": "11934",
+          "commitShort": "5533fbfd1"
         }
       }
     }

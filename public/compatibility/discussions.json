@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T23:16:52.772Z",
+  "generatedAt": "2026-11-14T00:39:08.021Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -3558,10 +3558,32 @@
     },
     "55530833": {
       "titleId": "55530833",
-      "issueNumber": 498,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/498",
-      "updatedAt": "2026-06-11",
+      "issueNumber": 795,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/795",
+      "updatedAt": "2026-11-14",
       "entries": [
+        {
+          "id": "issue-795",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/795",
+          "author": "xenios-jp",
+          "createdAt": "2026-11-14",
+          "createdAtMs": 1794616309000,
+          "issueNumber": 795,
+          "excerpt": "Works pretty well on 13 Pro Max.",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 13 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.6.1",
+            "gpuBackend": "MSL",
+            "appVersion": "2.3.2",
+            "buildNumber": "11934",
+            "commitShort": "`5533fbfd1`"
+          }
+        },
         {
           "id": "issue-498",
           "type": "issue",
@@ -6395,8 +6417,30 @@
       "titleId": "4E4D07FC",
       "issueNumber": 763,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/763",
-      "updatedAt": "2026-11-08",
+      "updatedAt": "2026-11-14",
       "entries": [
+        {
+          "id": "comment-6868592647",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/763#issuecomment-6868592647",
+          "author": "xenios-jp",
+          "createdAt": "2026-11-14",
+          "createdAtMs": 1794616544000,
+          "issueNumber": 763,
+          "excerpt": "Works with minimal glitches.",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 13 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.6.1",
+            "gpuBackend": "MSL",
+            "appVersion": "2.3.2",
+            "buildNumber": "11934",
+            "commitShort": "`5533fbfd1`"
+          }
+        },
         {
           "id": "issue-763",
           "type": "issue",
