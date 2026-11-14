@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T00:39:08.021Z",
+  "generatedAt": "2026-11-14T10:58:27.626Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -4465,6 +4465,282 @@
         }
       ]
     },
+    "4D530064": {
+      "titleId": "4D530064",
+      "issueNumber": 800,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/800",
+      "updatedAt": "2026-11-14",
+      "entries": [
+        {
+          "id": "issue-800",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/800",
+          "author": "xenios-jp",
+          "createdAt": "2026-11-14",
+          "createdAtMs": 1794631478000,
+          "issueNumber": 800,
+          "excerpt": "Freezes in game.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4D530064/1794631471762-1.jpg"
+          ],
+          "meta": {
+            "status": "loads",
+            "perf": "poor",
+            "device": "iPhone 17 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 27.0",
+            "gpuBackend": "MSL",
+            "appVersion": "2.3.2",
+            "buildNumber": "11934",
+            "commitShort": "`5533fbfd1`"
+          }
+        }
+      ]
+    },
+    "5553080B": {
+      "titleId": "5553080B",
+      "issueNumber": 799,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/799",
+      "updatedAt": "2026-11-14",
+      "entries": [
+        {
+          "id": "issue-799",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/799",
+          "author": "xenios-jp",
+          "createdAt": "2026-11-14",
+          "createdAtMs": 1794628740000,
+          "issueNumber": 799,
+          "excerpt": "The graphics load too slow.",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "poor",
+            "device": "iPhone 13 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.6.1",
+            "gpuBackend": "MSL",
+            "appVersion": "2.3.2",
+            "buildNumber": "11934",
+            "commitShort": "`5533fbfd1`"
+          }
+        },
+        {
+          "id": "comment-4677382826",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/489#issuecomment-4677382826",
+          "author": "xenios-jp",
+          "createdAt": "2026-06-11",
+          "createdAtMs": 1781154686000,
+          "issueNumber": 489,
+          "excerpt": "Intro, Menu, HUD and options load but everything in 3D is not rendered",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/5553080B/1781154681142-1.jpg"
+          ],
+          "meta": {
+            "status": "intro",
+            "perf": "great",
+            "device": "iPhone 15 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.4",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "buildStage": "stable",
+            "commitShort": "`57c3ca140`"
+          }
+        },
+        {
+          "id": "issue-489",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/489",
+          "author": "xenios-jp",
+          "createdAt": "2026-06-10",
+          "createdAtMs": 1781053941000,
+          "issueNumber": 489,
+          "excerpt": "Blackscreen after the intros and save notification",
+          "images": [],
+          "meta": {
+            "status": "intro",
+            "perf": "poor",
+            "device": "iPhone 15 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.4",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "buildStage": "stable",
+            "commitShort": "`57c3ca140`"
+          }
+        }
+      ]
+    },
+    "555307D7": {
+      "titleId": "555307D7",
+      "issueNumber": 798,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/798",
+      "updatedAt": "2026-11-14",
+      "entries": [
+        {
+          "id": "issue-798",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/798",
+          "author": "xenios-jp",
+          "createdAt": "2026-11-14",
+          "createdAtMs": 1794628003000,
+          "issueNumber": 798,
+          "excerpt": "So far, works very well.",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 13 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.6.1",
+            "gpuBackend": "MSL",
+            "appVersion": "2.3.2",
+            "buildNumber": "11934",
+            "commitShort": "`5533fbfd1`"
+          }
+        }
+      ]
+    },
+    "415608EC": {
+      "titleId": "415608EC",
+      "issueNumber": 797,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/797",
+      "updatedAt": "2026-11-14",
+      "entries": [
+        {
+          "id": "issue-797",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/797",
+          "author": "xenios-jp",
+          "createdAt": "2026-11-14",
+          "createdAtMs": 1794618621000,
+          "issueNumber": 797,
+          "excerpt": "Good",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 14 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 27.0",
+            "gpuBackend": "MSL",
+            "appVersion": "2.3.2",
+            "buildNumber": "11934",
+            "commitShort": "`5533fbfd1`"
+          }
+        },
+        {
+          "id": "issue-312",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/312",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-22",
+          "createdAtMs": 1774148239000,
+          "issueNumber": 312,
+          "excerpt": "Deadpool will not boot. Tried a variety of settings combos to no avail.",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 16 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 18.5",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "buildStage": "stable",
+            "commitShort": "`056d2f64d`"
+          }
+        },
+        {
+          "id": "issue-105",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/105",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-09",
+          "createdAtMs": 1773016449000,
+          "issueNumber": 105,
+          "excerpt": "The game works but when you l\nStart the first mission it loads forever so game doesn’t work",
+          "images": [],
+          "meta": {
+            "status": "loads",
+            "perf": "great",
+            "device": "iPhone 15 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "buildStage": "stable",
+            "commitShort": "`2633e8177`"
+          }
+        }
+      ]
+    },
+    "555308B6": {
+      "titleId": "555308B6",
+      "issueNumber": 796,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/796",
+      "updatedAt": "2026-11-14",
+      "entries": [
+        {
+          "id": "issue-796",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/796",
+          "author": "xenios-jp",
+          "createdAt": "2026-11-14",
+          "createdAtMs": 1794617880000,
+          "issueNumber": 796,
+          "excerpt": "Some frame drops but is good.",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 13 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.6.1",
+            "gpuBackend": "MSL",
+            "appVersion": "2.3.2",
+            "buildNumber": "11934",
+            "commitShort": "`5533fbfd1`"
+          }
+        },
+        {
+          "id": "issue-496",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/496",
+          "author": "xenios-jp",
+          "createdAt": "2026-06-11",
+          "createdAtMs": 1781156297000,
+          "issueNumber": 496,
+          "excerpt": "Game loads. HUD is visible. Everything 3D is not rendered",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/555308B6/1781156293096-1.jpg"
+          ],
+          "meta": {
+            "status": "intro",
+            "perf": "poor",
+            "device": "iPhone 15 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.4",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "buildStage": "stable",
+            "commitShort": "`57c3ca140`"
+          }
+        }
+      ]
+    },
     "545407F2": {
       "titleId": "545407F2",
       "issueNumber": 794,
@@ -6854,8 +7130,30 @@
       "titleId": "5553083B",
       "issueNumber": 756,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/756",
-      "updatedAt": "2026-11-10",
+      "updatedAt": "2026-11-14",
       "entries": [
+        {
+          "id": "comment-6876216148",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/756#issuecomment-6876216148",
+          "author": "xenios-jp",
+          "createdAt": "2026-11-14",
+          "createdAtMs": 1794653716000,
+          "issueNumber": 756,
+          "excerpt": "In the new updated version it’s very smooth it sometime has glitches like going black for a second then back to normal \n\nOcclusion query (strict) \n\nBut overall the gameplay in the new updated version is amazing",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 16 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.2",
+            "gpuBackend": "MSL",
+            "appVersion": "2.3.2",
+            "buildNumber": "11934",
+            "commitShort": "`5533fbfd1`"
+          }
+        },
         {
           "id": "comment-6754896933",
           "type": "comment",
@@ -13192,40 +13490,6 @@
         }
       ]
     },
-    "555308B6": {
-      "titleId": "555308B6",
-      "issueNumber": 496,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/496",
-      "updatedAt": "2026-06-11",
-      "entries": [
-        {
-          "id": "issue-496",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/496",
-          "author": "xenios-jp",
-          "createdAt": "2026-06-11",
-          "createdAtMs": 1781156297000,
-          "issueNumber": 496,
-          "excerpt": "Game loads. HUD is visible. Everything 3D is not rendered",
-          "images": [
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/555308B6/1781156293096-1.jpg"
-          ],
-          "meta": {
-            "status": "intro",
-            "perf": "poor",
-            "device": "iPhone 15 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 26.4",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "buildStage": "stable",
-            "commitShort": "`57c3ca140`"
-          }
-        }
-      ]
-    },
     "415608CB": {
       "titleId": "415608CB",
       "issueNumber": 494,
@@ -13357,64 +13621,6 @@
             "device": "iPhone 16",
             "platform": "iOS",
             "osVersion": "iOS 26.4.2",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "buildStage": "stable",
-            "commitShort": "`57c3ca140`"
-          }
-        }
-      ]
-    },
-    "5553080B": {
-      "titleId": "5553080B",
-      "issueNumber": 489,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/489",
-      "updatedAt": "2026-06-11",
-      "entries": [
-        {
-          "id": "comment-4677382826",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/489#issuecomment-4677382826",
-          "author": "xenios-jp",
-          "createdAt": "2026-06-11",
-          "createdAtMs": 1781154686000,
-          "issueNumber": 489,
-          "excerpt": "Intro, Menu, HUD and options load but everything in 3D is not rendered",
-          "images": [
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/5553080B/1781154681142-1.jpg"
-          ],
-          "meta": {
-            "status": "intro",
-            "perf": "great",
-            "device": "iPhone 15 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 26.4",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "buildStage": "stable",
-            "commitShort": "`57c3ca140`"
-          }
-        },
-        {
-          "id": "issue-489",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/489",
-          "author": "xenios-jp",
-          "createdAt": "2026-06-10",
-          "createdAtMs": 1781053941000,
-          "issueNumber": 489,
-          "excerpt": "Blackscreen after the intros and save notification",
-          "images": [],
-          "meta": {
-            "status": "intro",
-            "perf": "poor",
-            "device": "iPhone 15 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 26.4",
             "gpuBackend": "MSL",
             "buildChannel": "self-built",
             "appVersion": "2.0.1",
@@ -17329,62 +17535,6 @@
           "excerpt": "The game launches but crashes when you start a game.",
           "images": [],
           "meta": {}
-        }
-      ]
-    },
-    "415608EC": {
-      "titleId": "415608EC",
-      "issueNumber": 105,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/105",
-      "updatedAt": "2026-06-26",
-      "entries": [
-        {
-          "id": "issue-312",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/312",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-22",
-          "createdAtMs": 1774148239000,
-          "issueNumber": 312,
-          "excerpt": "Deadpool will not boot. Tried a variety of settings combos to no avail.",
-          "images": [],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPhone 16 Pro",
-            "platform": "iOS",
-            "osVersion": "iOS 18.5",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "buildStage": "stable",
-            "commitShort": "`056d2f64d`"
-          }
-        },
-        {
-          "id": "issue-105",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/105",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-09",
-          "createdAtMs": 1773016449000,
-          "issueNumber": 105,
-          "excerpt": "The game works but when you l\nStart the first mission it loads forever so game doesn’t work",
-          "images": [],
-          "meta": {
-            "status": "loads",
-            "perf": "great",
-            "device": "iPhone 15 Pro",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "buildStage": "stable",
-            "commitShort": "`2633e8177`"
-          }
         }
       ]
     },

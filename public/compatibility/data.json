@@ -12296,11 +12296,29 @@
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-11-07",
+    "updatedAt": "2026-11-14",
     "issueNumber": 756,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/756",
-    "notes": "They were graphical glitches at first then I changed occlusion query from fast to strict\n\nThe cutscenes are smooth and the gameplay little bit of stuttering here and there \n\nAlso the phone starts overheating then it throttles so I used a cooling fan \n\nOverall gameplay Fantastic",
+    "notes": "In the new updated version it’s very smooth it sometime has glitches like going black for a second then back to normal \n\nOcclusion query (strict) \n\nBut overall the gameplay in the new updated version is amazing",
     "reports": [
+      {
+        "device": "iPhone 16 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-14",
+        "notes": "In the new updated version it’s very smooth it sometime has glitches like going black for a second then back to normal \n\nOcclusion query (strict) \n\nBut overall the gameplay in the new updated version is amazing",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.2",
+          "buildNumber": "11934",
+          "commitShort": "5533fbfd1"
+        }
+      },
       {
         "device": "iPhone 16 Pro Max",
         "platform": "ios",
@@ -12343,9 +12361,9 @@
       "all": {
         "status": "playable",
         "perf": "great",
-        "notes": "They were graphical glitches at first then I changed occlusion query from fast to strict\n\nThe cutscenes are smooth and the gameplay little bit of stuttering here and there \n\nAlso the phone starts overheating then it throttles so I used a cooling fan \n\nOverall gameplay Fantastic",
-        "updatedAt": "2026-11-07",
-        "reportCount": 2,
+        "notes": "In the new updated version it’s very smooth it sometime has glitches like going black for a second then back to normal \n\nOcclusion query (strict) \n\nBut overall the gameplay in the new updated version is amazing",
+        "updatedAt": "2026-11-14",
+        "reportCount": 3,
         "latestReport": {
           "device": "iPhone 16 Pro Max",
           "platform": "ios",
@@ -12354,14 +12372,14 @@
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "great",
-          "date": "2026-11-07",
-          "notes": "They were graphical glitches at first then I changed occlusion query from fast to strict\n\nThe cutscenes are smooth and the gameplay little bit of stuttering here and there \n\nAlso the phone starts overheating then it throttles so I used a cooling fan \n\nOverall gameplay Fantastic",
+          "date": "2026-11-14",
+          "notes": "In the new updated version it’s very smooth it sometime has glitches like going black for a second then back to normal \n\nOcclusion query (strict) \n\nBut overall the gameplay in the new updated version is amazing",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "2.2.5",
-            "buildNumber": "11501",
-            "commitShort": "9b3820832"
+            "appVersion": "2.3.2",
+            "buildNumber": "11934",
+            "commitShort": "5533fbfd1"
           }
         },
         "bestReport": {
@@ -12372,14 +12390,14 @@
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "great",
-          "date": "2026-11-07",
-          "notes": "They were graphical glitches at first then I changed occlusion query from fast to strict\n\nThe cutscenes are smooth and the gameplay little bit of stuttering here and there \n\nAlso the phone starts overheating then it throttles so I used a cooling fan \n\nOverall gameplay Fantastic",
+          "date": "2026-11-14",
+          "notes": "In the new updated version it’s very smooth it sometime has glitches like going black for a second then back to normal \n\nOcclusion query (strict) \n\nBut overall the gameplay in the new updated version is amazing",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "2.2.5",
-            "buildNumber": "11501",
-            "commitShort": "9b3820832"
+            "appVersion": "2.3.2",
+            "buildNumber": "11934",
+            "commitShort": "5533fbfd1"
           }
         },
         "device": "iPhone 16 Pro Max",
@@ -12388,9 +12406,9 @@
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "2.2.5",
-          "buildNumber": "11501",
-          "commitShort": "9b3820832"
+          "appVersion": "2.3.2",
+          "buildNumber": "11934",
+          "commitShort": "5533fbfd1"
         }
       }
     }
@@ -49151,24 +49169,6 @@
         }
       },
       {
-        "device": "iPhone 16 Pro",
-        "platform": "ios",
-        "osVersion": "18.5",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-03-22",
-        "notes": "Deadpool will not boot. Tried a variety of settings combos to no avail.",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
-        }
-      },
-      {
         "device": "iPhone 15 Pro",
         "platform": "ios",
         "osVersion": "26.3",
@@ -49196,7 +49196,7 @@
         "perf": "great",
         "notes": "Good",
         "updatedAt": "2026-11-14",
-        "reportCount": 3,
+        "reportCount": 2,
         "latestReport": {
           "device": "iPhone 14 Pro",
           "platform": "ios",
@@ -178235,8 +178235,8 @@
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-11-14",
-    "issueNumber": 496,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/496",
+    "issueNumber": 796,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/796",
     "notes": "Some frame drops but is good.",
     "reports": [
       {
@@ -178256,24 +178256,6 @@
           "buildNumber": "11934",
           "commitShort": "5533fbfd1"
         }
-      },
-      {
-        "device": "iPhone 15 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.4",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "intro",
-        "perf": "poor",
-        "date": "2026-06-11",
-        "notes": "Game loads. HUD is visible. Everything 3D is not rendered",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "commitShort": "57c3ca140"
-        }
       }
     ],
     "screenshots": [
@@ -178285,7 +178267,7 @@
         "perf": "ok",
         "notes": "Some frame drops but is good.",
         "updatedAt": "2026-11-14",
-        "reportCount": 2,
+        "reportCount": 1,
         "latestReport": {
           "device": "iPhone 13 Pro Max",
           "platform": "ios",
@@ -178356,8 +178338,8 @@
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-11-14",
-    "issueNumber": 489,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/489",
+    "issueNumber": 799,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/799",
     "notes": "The graphics load too slow.",
     "reports": [
       {
@@ -178377,42 +178359,6 @@
           "buildNumber": "11934",
           "commitShort": "5533fbfd1"
         }
-      },
-      {
-        "device": "iPhone 15 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.4",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "intro",
-        "perf": "great",
-        "date": "2026-06-11",
-        "notes": "Intro, Menu, HUD and options load but everything in 3D is not rendered",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "commitShort": "57c3ca140"
-        }
-      },
-      {
-        "device": "iPhone 15 Pro Max",
-        "platform": "ios",
-        "osVersion": "26.4",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "intro",
-        "perf": "poor",
-        "date": "2026-06-10",
-        "notes": "Blackscreen after the intros and save notification",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "commitShort": "57c3ca140"
-        }
       }
     ],
     "screenshots": [
@@ -178424,7 +178370,7 @@
         "perf": "poor",
         "notes": "The graphics load too slow.",
         "updatedAt": "2026-11-14",
-        "reportCount": 3,
+        "reportCount": 1,
         "latestReport": {
           "device": "iPhone 13 Pro Max",
           "platform": "ios",
@@ -178495,6 +178441,8 @@
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-11-14",
+    "issueNumber": 798,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/798",
     "notes": "So far, works very well.",
     "reports": [
       {
@@ -201041,6 +200989,109 @@
     }
   },
   {
+    "slug": "halo-2",
+    "title": "Halo 2",
+    "titleId": "4D530064",
+    "titleIds": [
+      "4D530064"
+    ],
+    "status": "loads",
+    "perf": "poor",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 17 Pro",
+      "platform": "ios",
+      "osVersion": "27.0",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-11-14",
+    "issueNumber": 800,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/800",
+    "notes": "Freezes in game.",
+    "reports": [
+      {
+        "device": "iPhone 17 Pro",
+        "platform": "ios",
+        "osVersion": "27.0",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "loads",
+        "perf": "poor",
+        "date": "2026-11-14",
+        "notes": "Freezes in game.",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.2",
+          "buildNumber": "11934",
+          "commitShort": "5533fbfd1"
+        }
+      }
+    ],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4D530064/1794631471762-1.jpg"
+    ],
+    "summaries": {
+      "all": {
+        "status": "loads",
+        "perf": "poor",
+        "notes": "Freezes in game.",
+        "updatedAt": "2026-11-14",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 17 Pro",
+          "platform": "ios",
+          "osVersion": "27.0",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "loads",
+          "perf": "poor",
+          "date": "2026-11-14",
+          "notes": "Freezes in game.",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "appVersion": "2.3.2",
+            "buildNumber": "11934",
+            "commitShort": "5533fbfd1"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 17 Pro",
+          "platform": "ios",
+          "osVersion": "27.0",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "loads",
+          "perf": "poor",
+          "date": "2026-11-14",
+          "notes": "Freezes in game.",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "appVersion": "2.3.2",
+            "buildNumber": "11934",
+            "commitShort": "5533fbfd1"
+          }
+        },
+        "device": "iPhone 17 Pro",
+        "platform": "ios",
+        "osVersion": "27.0",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "build": {
+          "appVersion": "2.3.2",
+          "buildNumber": "11934",
+          "commitShort": "5533fbfd1"
+        }
+      }
+    }
+  },
+  {
     "slug": "mini-ninjas-demo",
     "title": "MINI NINJAS™ (demo)",
     "titleId": "53438806",
@@ -201446,107 +201497,6 @@
           "appVersion": "2.0.1",
           "buildNumber": "9730",
           "commitShort": "57c3ca140"
-        }
-      }
-    }
-  },
-  {
-    "slug": "halo-2",
-    "title": "Halo 2",
-    "titleId": "4D530064",
-    "titleIds": [
-      "4D530064"
-    ],
-    "status": "loads",
-    "perf": "poor",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 17 Pro",
-      "platform": "ios",
-      "osVersion": "27.0",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-11-14",
-    "notes": "Freezes in game.",
-    "reports": [
-      {
-        "device": "iPhone 17 Pro",
-        "platform": "ios",
-        "osVersion": "27.0",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "loads",
-        "perf": "poor",
-        "date": "2026-11-14",
-        "notes": "Freezes in game.",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "appVersion": "2.3.2",
-          "buildNumber": "11934",
-          "commitShort": "5533fbfd1"
-        }
-      }
-    ],
-    "screenshots": [
-      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4D530064/1794631471762-1.jpg"
-    ],
-    "summaries": {
-      "all": {
-        "status": "loads",
-        "perf": "poor",
-        "notes": "Freezes in game.",
-        "updatedAt": "2026-11-14",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 17 Pro",
-          "platform": "ios",
-          "osVersion": "27.0",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "poor",
-          "date": "2026-11-14",
-          "notes": "Freezes in game.",
-          "screenshots": [],
-          "source": "app",
-          "build": {
-            "appVersion": "2.3.2",
-            "buildNumber": "11934",
-            "commitShort": "5533fbfd1"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 17 Pro",
-          "platform": "ios",
-          "osVersion": "27.0",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "poor",
-          "date": "2026-11-14",
-          "notes": "Freezes in game.",
-          "screenshots": [],
-          "source": "app",
-          "build": {
-            "appVersion": "2.3.2",
-            "buildNumber": "11934",
-            "commitShort": "5533fbfd1"
-          }
-        },
-        "device": "iPhone 17 Pro",
-        "platform": "ios",
-        "osVersion": "27.0",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "build": {
-          "appVersion": "2.3.2",
-          "buildNumber": "11934",
-          "commitShort": "5533fbfd1"
         }
       }
     }
