@@ -49114,24 +49114,42 @@
     "titleIds": [
       "415608EC"
     ],
-    "status": "loads",
+    "status": "playable",
     "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 15 Pro",
+      "device": "iPhone 14 Pro",
       "platform": "ios",
-      "osVersion": "26.3",
+      "osVersion": "27.0",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-22",
+    "updatedAt": "2026-11-14",
     "issueNumber": 105,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/105",
-    "notes": "The game works but when you l\nStart the first mission it loads forever so game doesn’t work",
+    "notes": "Good",
     "reports": [
+      {
+        "device": "iPhone 14 Pro",
+        "platform": "ios",
+        "osVersion": "27.0",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-14",
+        "notes": "Good",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.2",
+          "buildNumber": "11934",
+          "commitShort": "5533fbfd1"
+        }
+      },
       {
         "device": "iPhone 16 Pro",
         "platform": "ios",
@@ -49174,58 +49192,56 @@
     "screenshots": [],
     "summaries": {
       "all": {
-        "status": "loads",
+        "status": "playable",
         "perf": "great",
-        "notes": "The game works but when you l\nStart the first mission it loads forever so game doesn’t work",
-        "updatedAt": "2026-03-22",
-        "reportCount": 2,
+        "notes": "Good",
+        "updatedAt": "2026-11-14",
+        "reportCount": 3,
         "latestReport": {
-          "device": "iPhone 16 Pro",
+          "device": "iPhone 14 Pro",
           "platform": "ios",
-          "osVersion": "18.5",
+          "osVersion": "27.0",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-22",
-          "notes": "Deadpool will not boot. Tried a variety of settings combos to no avail.",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-14",
+          "notes": "Good",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "appVersion": "2.3.2",
+            "buildNumber": "11934",
+            "commitShort": "5533fbfd1"
           }
         },
         "bestReport": {
-          "device": "iPhone 15 Pro",
+          "device": "iPhone 14 Pro",
           "platform": "ios",
-          "osVersion": "26.3",
+          "osVersion": "27.0",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "loads",
+          "status": "playable",
           "perf": "great",
-          "date": "2026-03-09",
-          "notes": "The game works but when you l\nStart the first mission it loads forever so game doesn’t work",
-          "reportedTitleId": "415608EC",
-          "reportedTitle": "Deadpool",
+          "date": "2026-11-14",
+          "notes": "Good",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633e8177"
+            "appVersion": "2.3.2",
+            "buildNumber": "11934",
+            "commitShort": "5533fbfd1"
           }
         },
-        "device": "iPhone 15 Pro",
+        "device": "iPhone 14 Pro",
         "platform": "ios",
-        "osVersion": "26.3",
+        "osVersion": "27.0",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "commitShort": "2633e8177"
+          "appVersion": "2.3.2",
+          "buildNumber": "11934",
+          "commitShort": "5533fbfd1"
         }
       }
     }
@@ -178205,24 +178221,42 @@
     "titleIds": [
       "555308B6"
     ],
-    "status": "intro",
-    "perf": "poor",
+    "status": "playable",
+    "perf": "ok",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 15 Pro Max",
+      "device": "iPhone 13 Pro Max",
       "platform": "ios",
-      "osVersion": "26.4",
+      "osVersion": "26.6.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-06-11",
+    "updatedAt": "2026-11-14",
     "issueNumber": 496,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/496",
-    "notes": "Game loads. HUD is visible. Everything 3D is not rendered",
+    "notes": "Some frame drops but is good.",
     "reports": [
+      {
+        "device": "iPhone 13 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.6.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-11-14",
+        "notes": "Some frame drops but is good.",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.2",
+          "buildNumber": "11934",
+          "commitShort": "5533fbfd1"
+        }
+      },
       {
         "device": "iPhone 15 Pro Max",
         "platform": "ios",
@@ -178247,56 +178281,56 @@
     ],
     "summaries": {
       "all": {
-        "status": "intro",
-        "perf": "poor",
-        "notes": "Game loads. HUD is visible. Everything 3D is not rendered",
-        "updatedAt": "2026-06-11",
-        "reportCount": 1,
+        "status": "playable",
+        "perf": "ok",
+        "notes": "Some frame drops but is good.",
+        "updatedAt": "2026-11-14",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 15 Pro Max",
+          "device": "iPhone 13 Pro Max",
           "platform": "ios",
-          "osVersion": "26.4",
+          "osVersion": "26.6.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "poor",
-          "date": "2026-06-11",
-          "notes": "Game loads. HUD is visible. Everything 3D is not rendered",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-11-14",
+          "notes": "Some frame drops but is good.",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.3.2",
+            "buildNumber": "11934",
+            "commitShort": "5533fbfd1"
           }
         },
         "bestReport": {
-          "device": "iPhone 15 Pro Max",
+          "device": "iPhone 13 Pro Max",
           "platform": "ios",
-          "osVersion": "26.4",
+          "osVersion": "26.6.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "poor",
-          "date": "2026-06-11",
-          "notes": "Game loads. HUD is visible. Everything 3D is not rendered",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-11-14",
+          "notes": "Some frame drops but is good.",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.3.2",
+            "buildNumber": "11934",
+            "commitShort": "5533fbfd1"
           }
         },
-        "device": "iPhone 15 Pro Max",
+        "device": "iPhone 13 Pro Max",
         "platform": "ios",
-        "osVersion": "26.4",
+        "osVersion": "26.6.1",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "commitShort": "57c3ca140"
+          "appVersion": "2.3.2",
+          "buildNumber": "11934",
+          "commitShort": "5533fbfd1"
         }
       }
     }
@@ -178308,24 +178342,42 @@
     "titleIds": [
       "5553080B"
     ],
-    "status": "intro",
-    "perf": "great",
+    "status": "playable",
+    "perf": "poor",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 15 Pro Max",
+      "device": "iPhone 13 Pro Max",
       "platform": "ios",
-      "osVersion": "26.4",
+      "osVersion": "26.6.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-06-11",
+    "updatedAt": "2026-11-14",
     "issueNumber": 489,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/489",
-    "notes": "Intro, Menu, HUD and options load but everything in 3D is not rendered",
+    "notes": "The graphics load too slow.",
     "reports": [
+      {
+        "device": "iPhone 13 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.6.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "poor",
+        "date": "2026-11-14",
+        "notes": "The graphics load too slow.",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.2",
+          "buildNumber": "11934",
+          "commitShort": "5533fbfd1"
+        }
+      },
       {
         "device": "iPhone 15 Pro Max",
         "platform": "ios",
@@ -178368,56 +178420,56 @@
     ],
     "summaries": {
       "all": {
-        "status": "intro",
-        "perf": "great",
-        "notes": "Intro, Menu, HUD and options load but everything in 3D is not rendered",
-        "updatedAt": "2026-06-11",
-        "reportCount": 2,
+        "status": "playable",
+        "perf": "poor",
+        "notes": "The graphics load too slow.",
+        "updatedAt": "2026-11-14",
+        "reportCount": 3,
         "latestReport": {
-          "device": "iPhone 15 Pro Max",
+          "device": "iPhone 13 Pro Max",
           "platform": "ios",
-          "osVersion": "26.4",
+          "osVersion": "26.6.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "great",
-          "date": "2026-06-11",
-          "notes": "Intro, Menu, HUD and options load but everything in 3D is not rendered",
+          "status": "playable",
+          "perf": "poor",
+          "date": "2026-11-14",
+          "notes": "The graphics load too slow.",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.3.2",
+            "buildNumber": "11934",
+            "commitShort": "5533fbfd1"
           }
         },
         "bestReport": {
-          "device": "iPhone 15 Pro Max",
+          "device": "iPhone 13 Pro Max",
           "platform": "ios",
-          "osVersion": "26.4",
+          "osVersion": "26.6.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "great",
-          "date": "2026-06-11",
-          "notes": "Intro, Menu, HUD and options load but everything in 3D is not rendered",
+          "status": "playable",
+          "perf": "poor",
+          "date": "2026-11-14",
+          "notes": "The graphics load too slow.",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.3.2",
+            "buildNumber": "11934",
+            "commitShort": "5533fbfd1"
           }
         },
-        "device": "iPhone 15 Pro Max",
+        "device": "iPhone 13 Pro Max",
         "platform": "ios",
-        "osVersion": "26.4",
+        "osVersion": "26.6.1",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "commitShort": "57c3ca140"
+          "appVersion": "2.3.2",
+          "buildNumber": "11934",
+          "commitShort": "5533fbfd1"
         }
       }
     }
@@ -178429,24 +178481,95 @@
     "titleIds": [
       "555307D7"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
-    "platforms": [],
-    "lastReport": null,
-    "updatedAt": "",
-    "notes": "",
-    "reports": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 13 Pro Max",
+      "platform": "ios",
+      "osVersion": "26.6.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-11-14",
+    "notes": "So far, works very well.",
+    "reports": [
+      {
+        "device": "iPhone 13 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.6.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-14",
+        "notes": "So far, works very well.",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.2",
+          "buildNumber": "11934",
+          "commitShort": "5533fbfd1"
+        }
+      }
+    ],
     "screenshots": [],
     "summaries": {
       "all": {
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "playable",
+        "perf": "great",
+        "notes": "So far, works very well.",
+        "updatedAt": "2026-11-14",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 13 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.6.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-14",
+          "notes": "So far, works very well.",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "appVersion": "2.3.2",
+            "buildNumber": "11934",
+            "commitShort": "5533fbfd1"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 13 Pro Max",
+          "platform": "ios",
+          "osVersion": "26.6.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-14",
+          "notes": "So far, works very well.",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "appVersion": "2.3.2",
+            "buildNumber": "11934",
+            "commitShort": "5533fbfd1"
+          }
+        },
+        "device": "iPhone 13 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.6.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "build": {
+          "appVersion": "2.3.2",
+          "buildNumber": "11934",
+          "commitShort": "5533fbfd1"
+        }
       }
     }
   },
@@ -201323,6 +201446,107 @@
           "appVersion": "2.0.1",
           "buildNumber": "9730",
           "commitShort": "57c3ca140"
+        }
+      }
+    }
+  },
+  {
+    "slug": "halo-2",
+    "title": "Halo 2",
+    "titleId": "4D530064",
+    "titleIds": [
+      "4D530064"
+    ],
+    "status": "loads",
+    "perf": "poor",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 17 Pro",
+      "platform": "ios",
+      "osVersion": "27.0",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-11-14",
+    "notes": "Freezes in game.",
+    "reports": [
+      {
+        "device": "iPhone 17 Pro",
+        "platform": "ios",
+        "osVersion": "27.0",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "loads",
+        "perf": "poor",
+        "date": "2026-11-14",
+        "notes": "Freezes in game.",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.2",
+          "buildNumber": "11934",
+          "commitShort": "5533fbfd1"
+        }
+      }
+    ],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4D530064/1794631471762-1.jpg"
+    ],
+    "summaries": {
+      "all": {
+        "status": "loads",
+        "perf": "poor",
+        "notes": "Freezes in game.",
+        "updatedAt": "2026-11-14",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 17 Pro",
+          "platform": "ios",
+          "osVersion": "27.0",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "loads",
+          "perf": "poor",
+          "date": "2026-11-14",
+          "notes": "Freezes in game.",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "appVersion": "2.3.2",
+            "buildNumber": "11934",
+            "commitShort": "5533fbfd1"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 17 Pro",
+          "platform": "ios",
+          "osVersion": "27.0",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "loads",
+          "perf": "poor",
+          "date": "2026-11-14",
+          "notes": "Freezes in game.",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "appVersion": "2.3.2",
+            "buildNumber": "11934",
+            "commitShort": "5533fbfd1"
+          }
+        },
+        "device": "iPhone 17 Pro",
+        "platform": "ios",
+        "osVersion": "27.0",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "build": {
+          "appVersion": "2.3.2",
+          "buildNumber": "11934",
+          "commitShort": "5533fbfd1"
         }
       }
     }

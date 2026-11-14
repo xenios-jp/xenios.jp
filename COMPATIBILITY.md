@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **419 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **421 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **208** · 🔵 In-Game: **67** · 🟡 Intro: **29** · 🟠 Loads: **52** · 🔴 Doesn't Boot: **63**
+> 🟢 Playable: **212** · 🔵 In-Game: **67** · 🟡 Intro: **27** · 🟠 Loads: **52** · 🔴 Doesn't Boot: **63**
 >
-> 📱 iOS: **384** · 🖥️ macOS: **56**
+> 📱 iOS: **386** · 🖥️ macOS: **56**
 
 ## Legend
 
@@ -63,6 +63,7 @@
 | 🟢 | Dead or Alive Xtreme 2 | `544307D2` | 📱 iOS | Playable | 🚀 Great | iPad Pro 12.9-inch (M2) | 2026-11-06 |
 | 🟢 | Dead Space | `45410857` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro | 2026-03-03 |
 | 🟢 | Deadly Premonition | `4D5607D1` | 📱 iOS | Playable | 👌 OK | iPad (A16) | 2026-03-09 |
+| 🟢 | Deadpool | `415608EC` | 📱 iOS | Playable | 🚀 Great | iPhone 14 Pro | 2026-11-14 |
 | 🟢 | Def Jam Icon | `454107EE` | 📱 iOS | Playable | 🐢 Poor | iPhone 17 Pro Max | 2026-07-18 |
 | 🟢 | Devil May Cry 4 | `434307DF` | 📱 iOS | Playable | 🐢 Poor | iPhone 14 Pro | 2026-06-11 |
 | 🟢 | Devil May Cry 4 Demo | `434387E3` | 📱 iOS | Playable | 🚀 Great | iPhone 16 | 2026-07-15 |
@@ -211,6 +212,9 @@
 | 🟢 | TMNT | `555307F8` | 📱 iOS | Playable | 👌 OK | iPhone 13 Pro | 2026-04-10 |
 | 🟢 | Tom Clancy's Ghost Recon: Future Soldier | `55530833` | 📱 iOS | Playable | 🚀 Great | iPhone 13 Pro Max | 2026-11-14 |
 | 🟢 | Tom Clancy's Rainbow Six Vegas | `555307D6` | 📱 iOS | Playable | 👌 OK | iPhone 17 Pro Max | 2026-11-07 |
+| 🟢 | Tom Clancy's Splinter Cell: Blacklist | `555308B6` | 📱 iOS | Playable | 👌 OK | iPhone 13 Pro Max | 2026-11-14 |
+| 🟢 | Tom Clancy's Splinter Cell: Conviction | `5553080B` | 📱 iOS | Playable | 🐢 Poor | iPhone 13 Pro Max | 2026-11-14 |
+| 🟢 | Tom Clancy's Splinter Cell: Double Agent | `555307D7` | 📱 iOS | Playable | 🚀 Great | iPhone 13 Pro Max | 2026-11-14 |
 | 🟢 | Tomb Raider | `53510802` | 📱 iOS | Playable | 👌 OK | iPad (A16) | 2026-11-07 |
 | 🟢 | Tony Hawk's American Wasteland | `415607D4` | 📱 iOS | Playable | 🐢 Poor | iPad Pro 13-inch (M4) | 2026-05-21 |
 | 🟢 | Top Spin 3 | `545407FF` | 📱 iOS | Playable | 👌 OK | iPad Pro 12.9-inch (M2) | 2026-06-24 |
@@ -320,8 +324,6 @@
 | 🟡 | Tales of Vesperia | `4E4D07E9` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro | 2026-03-03 |
 | 🟡 | Test Drive Unlimited 2 | `49470804` | 📱 iOS | Intro | 🐢 Poor | iPhone 15 | 2026-03-28 |
 | 🟡 | The Orange Box | `4541080F` | 📱 iOS | Intro | 🐢 Poor | iPad16,8 | 2026-07-16 |
-| 🟡 | Tom Clancy's Splinter Cell: Blacklist | `555308B6` | 📱 iOS | Intro | 🐢 Poor | iPhone 15 Pro Max | 2026-06-11 |
-| 🟡 | Tom Clancy's Splinter Cell: Conviction | `5553080B` | 📱 iOS | Intro | 🚀 Great | iPhone 15 Pro Max | 2026-06-11 |
 | 🟡 | Two Worlds | `535007D4` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro Max | 2026-03-09 |
 | 🟡 | WWE 13 | `545108B4` | 📱 iOS | Intro | 🐢 Poor | iPhone 15 Pro | 2026-03-29 |
 | 🟠 | 2010 FIFA World Cup South Africa | `454108E4` | 📱 iOS | Loads | 🐢 Poor | iPhone 17 | 2026-05-27 |
@@ -333,7 +335,6 @@
 | 🟠 | Crysis 3 | `4541098E` | 📱 iOS | Loads | 🐢 Poor | iPad Pro M5 | 2026-03-09 |
 | 🟠 | Dark Souls | `4E4D083A` | 📱 iOS | Loads | 🐢 Poor | iPhone 16e | 2026-03-16 |
 | 🟠 | de Blob 2 | `54510865` | 🖥️ macOS | Loads | 🚀 Great | MacBook Pro (M1) | 2026-08-15 |
-| 🟠 | Deadpool | `415608EC` | 📱 iOS | Loads | 🚀 Great | iPhone 15 Pro | 2026-03-22 |
 | 🟠 | Dragon Ball Z Budokai HD Collection | `4E4D0856` | 📱 iOS | Loads | 🐢 Poor | iPhone 15 Pro Max | 2026-08-22 |
 | 🟠 | Enslaved: Odyssey to the West | `4E4D07F1` | 🖥️ macOS | Loads | ➖ N/A | MacBook Pro (M1) | 2026-04-12 |
 | 🟠 | Epic Mickey 2 The Power Of Two | `42560816` | 📱 iOS | Loads | 🐢 Poor | iPhone 15 Pro Max | 2026-03-08 |
@@ -342,6 +343,7 @@
 | 🟠 | Final Fantasy XIII-2 | `53510806` | 📱 iOS | Loads | 🐢 Poor | iPhone 16 Pro Max | 2026-04-05 |
 | 🟠 | Full House Poker | `5841098D` | 🖥️ macOS | Loads | 🚀 Great | MacBook Pro (M1) | 2026-08-15 |
 | 🟠 | Grand Theft Auto: San Andreas | `545408B8` | 📱 iOS | Loads | 🐢 Poor | iPhone 15 Pro Max | 2026-04-23 |
+| 🟠 | Halo 2 | `4D530064` | 📱 iOS | Loads | 🐢 Poor | iPhone 17 Pro | 2026-11-14 |
 | 🟠 | Jeopardy! | `545108AE` | 📱 iOS | Loads | 🐢 Poor | iPhone 16 Pro | 2026-03-05 |
 | 🟠 | Kung Fu Panda | `415607F2` | 📱 iOS | Loads | 🐢 Poor | iPhone 15 Pro Max | 2026-03-17 |
 | 🟠 | Lego Batman 2: DC Super Heroes | `57520817` | 📱 iOS | Loads | 🐢 Poor | iPhone 17 Pro Max | 2026-06-11 |
