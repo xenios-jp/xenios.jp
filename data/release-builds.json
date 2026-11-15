@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-11-12T15:29:08Z",
+  "generatedAt": "2026-11-15T10:21:59Z",
   "platforms": {
     "ios": {
       "release": {
-        "buildId": "ios-release-2.3.2-11934",
+        "buildId": "ios-release-2.3.3-11940",
         "channel": "release",
         "official": true,
-        "appVersion": "2.3.2",
-        "buildNumber": "11934",
+        "appVersion": "2.3.3",
+        "buildNumber": "11940",
         "stage": "stable",
-        "commitShort": "5533fbfd1",
-        "publishedAt": "2026-11-12T14:47:00Z",
-        "label": "2.3.2-11934",
+        "commitShort": "77cc1358b",
+        "publishedAt": "2026-11-15T09:27:31Z",
+        "label": "2.3.3-11940",
         "notes": "Official CI release build published from xenios-jp/XeniOS.",
         "sourceLabel": "GitHub Release",
-        "sourceUrl": "https://github.com/xenios-jp/XeniOS/releases/tag/release-v2.3.2-build-11934",
+        "sourceUrl": "https://github.com/xenios-jp/XeniOS/releases/tag/release-v2.3.3-build-11940",
         "artifacts": [
           {
             "id": "ios-arm64-ipa-xenios-ios-iphone-ipad-ipa",
@@ -23,9 +23,9 @@
             "platform": "ios",
             "arch": "arm64",
             "kind": "ipa",
-            "downloadUrl": "https://github.com/xenios-jp/XeniOS/releases/download/release-v2.3.2-build-11934/xenios_ios_iphone_ipad.ipa",
-            "sha256": "3f80bb1506cb1876d85cf714bd24080325821a3b8c279a9e87d47e98c9fa415a",
-            "sizeBytes": 49641629,
+            "downloadUrl": "https://github.com/xenios-jp/XeniOS/releases/download/release-v2.3.3-build-11940/xenios_ios_iphone_ipad.ipa",
+            "sha256": "de943a84026d0d93ebd059843e1496080dde0b2761a285c76ff5a6f0474cf158",
+            "sizeBytes": 49667563,
             "sizeLabel": "47 MB"
           }
         ],
@@ -63,18 +63,18 @@
     },
     "macos": {
       "release": {
-        "buildId": "macos-release-2.3.2-11934",
+        "buildId": "macos-release-2.3.3-11940",
         "channel": "release",
         "official": true,
-        "appVersion": "2.3.2",
-        "buildNumber": "11934",
+        "appVersion": "2.3.3",
+        "buildNumber": "11940",
         "stage": "stable",
-        "commitShort": "5533fbfd1",
-        "publishedAt": "2026-11-12T14:47:00Z",
-        "label": "2.3.2-11934",
+        "commitShort": "77cc1358b",
+        "publishedAt": "2026-11-15T09:27:31Z",
+        "label": "2.3.3-11940",
         "notes": "Official CI release build published from xenios-jp/XeniOS.",
         "sourceLabel": "GitHub Release",
-        "sourceUrl": "https://github.com/xenios-jp/XeniOS/releases/tag/release-v2.3.2-build-11934",
+        "sourceUrl": "https://github.com/xenios-jp/XeniOS/releases/tag/release-v2.3.3-build-11940",
         "artifacts": [
           {
             "id": "macos-arm64-dmg-xenios-macos-apple-silicon-dmg",
@@ -83,9 +83,9 @@
             "platform": "macos",
             "arch": "arm64",
             "kind": "dmg",
-            "downloadUrl": "https://github.com/xenios-jp/XeniOS/releases/download/release-v2.3.2-build-11934/xenios_macos_apple_silicon.dmg",
-            "sha256": "5bc2cf6971ea4bd0b83bd4e7b58f12bf268ab2bd3d5d9dd5091784a2c9e0f6e2",
-            "sizeBytes": 44846856,
+            "downloadUrl": "https://github.com/xenios-jp/XeniOS/releases/download/release-v2.3.3-build-11940/xenios_macos_apple_silicon.dmg",
+            "sha256": "1b7ce25778480bad0bc9829b84cbd9847f7e6310b0007b7815db72a6234e7214",
+            "sizeBytes": 44887216,
             "sizeLabel": "43 MB"
           }
         ],
