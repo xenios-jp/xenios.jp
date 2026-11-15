@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T10:58:27.626Z",
+  "generatedAt": "2026-11-15T02:42:06.786Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -1963,6 +1963,36 @@
           "excerpt": "The game can reach the main menu\ncan't go in game because it require a guitar or drum controller",
           "images": [],
           "meta": {}
+        }
+      ]
+    },
+    "45410894": {
+      "titleId": "45410894",
+      "issueNumber": 804,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/804",
+      "updatedAt": "2026-11-14",
+      "entries": [
+        {
+          "id": "issue-804",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/804",
+          "author": "xenios-jp",
+          "createdAt": "2026-11-14",
+          "createdAtMs": 1794697941000,
+          "issueNumber": 804,
+          "excerpt": "Everything is good",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 15",
+            "platform": "iOS",
+            "osVersion": "iOS 27.0",
+            "gpuBackend": "MSL",
+            "appVersion": "2.3.2",
+            "buildNumber": "11934",
+            "commitShort": "`5533fbfd1`"
+          }
         }
       ]
     },
@@ -4462,6 +4492,150 @@
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
           "images": [],
           "meta": {}
+        }
+      ]
+    },
+    "454108CF": {
+      "titleId": "454108CF",
+      "issueNumber": 805,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/805",
+      "updatedAt": "2026-11-15",
+      "entries": [
+        {
+          "id": "issue-805",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/805",
+          "author": "xenios-jp",
+          "createdAt": "2026-11-15",
+          "createdAtMs": 1794710067000,
+          "issueNumber": 805,
+          "excerpt": "Outstanding Performance, extremely stable FPS with almost no drop. The image is also really great",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 16 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 27.0.1",
+            "gpuBackend": "MSL",
+            "appVersion": "2.3.2",
+            "buildNumber": "11934",
+            "commitShort": "`5533fbfd1`"
+          }
+        }
+      ]
+    },
+    "454108E4": {
+      "titleId": "454108E4",
+      "issueNumber": 803,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/803",
+      "updatedAt": "2026-11-14",
+      "entries": [
+        {
+          "id": "issue-803",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/803",
+          "author": "xenios-jp",
+          "createdAt": "2026-11-14",
+          "createdAtMs": 1794695843000,
+          "issueNumber": 803,
+          "excerpt": "It lags a little bit, I have my phone on full battery and with a cooling fan attached to the back. I played for a good 2 hours with 2 controllers and the game actually saved.",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 16 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 27.2",
+            "gpuBackend": "MSL",
+            "appVersion": "2.3.2",
+            "buildNumber": "11934",
+            "commitShort": "`5533fbfd1`"
+          }
+        },
+        {
+          "id": "issue-458",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/458",
+          "author": "xenios-jp",
+          "createdAt": "2026-05-27",
+          "createdAtMs": 1779915724000,
+          "issueNumber": 458,
+          "excerpt": "Can load into the game but is really slow and audio stutters. Also major graphical glitches.",
+          "images": [],
+          "meta": {
+            "status": "loads",
+            "perf": "poor",
+            "device": "iPhone 17",
+            "platform": "iOS",
+            "osVersion": "iOS 26.5",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "buildStage": "stable",
+            "commitShort": "`056d2f64d`"
+          }
+        }
+      ]
+    },
+    "4A3007D1": {
+      "titleId": "4A3007D1",
+      "issueNumber": 802,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/802",
+      "updatedAt": "2026-11-14",
+      "entries": [
+        {
+          "id": "issue-802",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/802",
+          "author": "xenios-jp",
+          "createdAt": "2026-11-14",
+          "createdAtMs": 1794664818000,
+          "issueNumber": 802,
+          "excerpt": "Não está entrando em nenhum jogo",
+          "images": [],
+          "meta": {
+            "status": "loads",
+            "perf": "poor",
+            "device": "iPhone 12",
+            "platform": "iOS",
+            "osVersion": "iOS 27.0.1",
+            "gpuBackend": "MSL",
+            "appVersion": "2.3.2",
+            "buildNumber": "11934",
+            "commitShort": "`5533fbfd1`"
+          }
+        }
+      ]
+    },
+    "4343081D": {
+      "titleId": "4343081D",
+      "issueNumber": 801,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/801",
+      "updatedAt": "2026-11-14",
+      "entries": [
+        {
+          "id": "issue-801",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/801",
+          "author": "xenios-jp",
+          "createdAt": "2026-11-14",
+          "createdAtMs": 1794663936000,
+          "issueNumber": 801,
+          "excerpt": "The game plays great overall",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 16 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 27.0.1",
+            "gpuBackend": "MSL",
+            "appVersion": "2.3.2",
+            "buildNumber": "11934",
+            "commitShort": "`5533fbfd1`"
+          }
         }
       ]
     },
@@ -8217,8 +8391,30 @@
       "titleId": "4343081C",
       "issueNumber": 732,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/732",
-      "updatedAt": "2026-11-02",
+      "updatedAt": "2026-11-15",
       "entries": [
+        {
+          "id": "comment-6888043761",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/732#issuecomment-6888043761",
+          "author": "xenios-jp",
+          "createdAt": "2026-11-15",
+          "createdAtMs": 1794710276000,
+          "issueNumber": 732,
+          "excerpt": "Playing with stable 30 FPS",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPad Pro 11-inch (M2)",
+            "platform": "iOS",
+            "osVersion": "iOS 27.2.1",
+            "gpuBackend": "MSL",
+            "appVersion": "2.3.2",
+            "buildNumber": "11934",
+            "commitShort": "`5533fbfd1`"
+          }
+        },
         {
           "id": "issue-732",
           "type": "issue",
@@ -14350,38 +14546,6 @@
           "excerpt": "The intro video doesn't work (artifacts, subpixels, interference).\nThe menu, sound, and gamepad connection work perfectly. In dirt racing, it is very rare for there to be a short frame drop.",
           "images": [],
           "meta": {}
-        }
-      ]
-    },
-    "454108E4": {
-      "titleId": "454108E4",
-      "issueNumber": 458,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/458",
-      "updatedAt": "2026-05-27",
-      "entries": [
-        {
-          "id": "issue-458",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/458",
-          "author": "xenios-jp",
-          "createdAt": "2026-05-27",
-          "createdAtMs": 1779915724000,
-          "issueNumber": 458,
-          "excerpt": "Can load into the game but is really slow and audio stutters. Also major graphical glitches.",
-          "images": [],
-          "meta": {
-            "status": "loads",
-            "perf": "poor",
-            "device": "iPhone 17",
-            "platform": "iOS",
-            "osVersion": "iOS 26.5",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "buildStage": "stable",
-            "commitShort": "`056d2f64d`"
-          }
         }
       ]
     },

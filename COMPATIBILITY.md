@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **421 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **425 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **212** · 🔵 In-Game: **67** · 🟡 Intro: **27** · 🟠 Loads: **52** · 🔴 Doesn't Boot: **63**
+> 🟢 Playable: **217** · 🔵 In-Game: **67** · 🟡 Intro: **27** · 🟠 Loads: **52** · 🔴 Doesn't Boot: **62**
 >
-> 📱 iOS: **386** · 🖥️ macOS: **56**
+> 📱 iOS: **390** · 🖥️ macOS: **56**
 
 ## Legend
 
@@ -20,6 +20,7 @@
 
 | | Title | Title ID | Platform | Status | Perf | Last Device | Updated |
 |-|-------|----------|----------|--------|------|-------------|---------|
+| 🟢 | 2010 FIFA World Cup South Africa | `454108E4` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro Max | 2026-11-14 |
 | 🟢 | 3 | `4D5307E7` | 📱 iOS | Playable | 🚀 Great | iPhone 11bro mix | 2026-08-14 |
 | 🟢 | 50 Cent: Blood on the Sand | `5451083B` | 🖥️ macOS, 📱 iOS | Playable | 👌 OK | iPhone 16e | 2026-04-11 |
 | 🟢 | A Kingdom for Keflings | `584108DB` | 📱 iOS | Playable | 👌 OK | iPhone 14 Pro | 2026-09-10 |
@@ -55,6 +56,7 @@
 | 🟢 | Condemned: Criminal Origins | `534507D2` | 📱 iOS | Playable | 👌 OK | iPhone 17 | 2026-04-22 |
 | 🟢 | Contra | `58410818` | 📱 iOS | Playable | 🚀 Great | iPhone 15 | 2026-06-07 |
 | 🟢 | Crackdown | `4D5307DC` | 🖥️ macOS | Playable | 🚀 Great | Mac mini (M4) | 2026-08-23 |
+| 🟢 | Dante's Inferno | `454108CF` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro Max | 2026-11-15 |
 | 🟢 | Dark Souls 2 | `465307E4` | 📱 iOS | Playable | 🐢 Poor | iPhone 17 Pro Max | 2026-07-22 |
 | 🟢 | DAYTONA USA | `58410B1D` | 📱 iOS | Playable | 🚀 Great | iPad Pro 13-inch (M5) | 2026-06-11 |
 | 🟢 | DB: Raging Blast 2 | `4E4D0826` | 📱 iOS | Playable | 🐢 Poor | iPad Pro (M2) | 2026-03-03 |
@@ -81,6 +83,7 @@
 | 🟢 | Far Cry 2 | `55530810` | 📱 iOS | Playable | 🐢 Poor | iPhone 16 | 2026-03-10 |
 | 🟢 | Farming Simulator 15 | `464507E1` | 📱 iOS | Playable | 👌 OK | iPhone 16e | 2026-10-09 |
 | 🟢 | Fight Night Champion | `45410915` | 📱 iOS | Playable | 🚀 Great | iPhone 15 | 2026-11-13 |
+| 🟢 | Fight Night Round 4 | `45410894` | 📱 iOS | Playable | 🚀 Great | iPhone 15 | 2026-11-14 |
 | 🟢 | Final Fantasy XIII | `535107E4` | 📱 iOS | Playable | 👌 OK | iPhone 17 | 2026-03-18 |
 | 🟢 | FlatOut: Ultimate Carnage | `454D07D2` | 🖥️ macOS | Playable | 🚀 Great | Mac mini m4 16 256 | 2026-05-29 |
 | 🟢 | Forza Horizon | `4D5309C9` | 📱 iOS | Playable | 🚀 Great | iPad (A16) | 2026-11-13 |
@@ -169,7 +172,9 @@
 | 🟢 | Rayman Raving Rabbids | `555307F3` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro Max | 2026-04-30 |
 | 🟢 | RAYSTORM HD | `584109BC` | 🖥️ macOS | Playable | 🚀 Great | MacBook Pro (M1) | 2026-08-11 |
 | 🟢 | Red Dead Redemption GOTY Edition | `5454082B` | 📱 iOS | Playable | 👌 OK | iPhone 17 Pro Max | 2026-11-13 |
+| 🟢 | Resident Evil 4 | `4343081C` | 📱 iOS | Playable | 🚀 Great | iPad Pro 11-inch (M2) | 2026-11-15 |
 | 🟢 | Resident Evil 5 | `434307D4` | 📱 iOS | Playable | 🐢 Poor | iPhone 15 Pro | 2026-06-15 |
+| 🟢 | Resident Evil: Operation Raccoon City | `4343081D` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro Max | 2026-11-14 |
 | 🟢 | Ridge Racer 6 | `4E4D07D3` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-08 |
 | 🟢 | Rock Band | `45410829` | 🖥️ macOS, 📱 iOS | Playable | 🚀 Great | MacBook Pro (M4) | 2026-03-23 |
 | 🟢 | Rock Band 2 | `45410869` | 📱 iOS, 🖥️ macOS | Playable | 🚀 Great | MacBook Pro (M4) | 2026-03-23 |
@@ -326,7 +331,6 @@
 | 🟡 | The Orange Box | `4541080F` | 📱 iOS | Intro | 🐢 Poor | iPad16,8 | 2026-07-16 |
 | 🟡 | Two Worlds | `535007D4` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro Max | 2026-03-09 |
 | 🟡 | WWE 13 | `545108B4` | 📱 iOS | Intro | 🐢 Poor | iPhone 15 Pro | 2026-03-29 |
-| 🟠 | 2010 FIFA World Cup South Africa | `454108E4` | 📱 iOS | Loads | 🐢 Poor | iPhone 17 | 2026-05-27 |
 | 🟠 | AC/DC LIVE: Rock Band | `45410889` | 🖥️ macOS | Loads | 🚀 Great | MacBook Pro (M4) | 2026-03-23 |
 | 🟠 | Asura's Wrath | `43430817` | 📱 iOS | Loads | 🐢 Poor | iPhone 16 Pro Max | 2026-03-09 |
 | 🟠 | Avatar: The Last Airbender - The Burning Earth | `545107E1` | 📱 iOS | Loads | 🐢 Poor | iPhone 16 Pro Max | 2026-03-19 |
@@ -357,6 +361,7 @@
 | 🟠 | NBA 2K10 | `54549852` | 🖥️ macOS | Loads | 🐢 Poor | MacBook Air (M4) | 2026-03-18 |
 | 🟠 | NCAA Basketball 10 | `454108C3` | 📱 iOS | Loads | 🐢 Poor | iPhone 16e | 2026-03-11 |
 | 🟠 | Prince of Persia The Forgotten Sands | `5553083E` | 📱 iOS | Loads | 🐢 Poor | iPad Pro 13-inch (M4) | 2026-06-30 |
+| 🟠 | Pro Evolution Soccer 2017 | `4A3007D1` | 📱 iOS | Loads | 🐢 Poor | iPhone 12 | 2026-11-14 |
 | 🟠 | Project Gotham Racing 3 | `4D5307D1` | 🖥️ macOS | Loads | 🚀 Great | Macbook Pro M1 Pro | 2026-05-10 |
 | 🟠 | Rango | `4541093A` | 📱 iOS | Loads | 🐢 Poor | iPad Air 5 | 2026-09-07 |
 | 🟠 | Real Steel | `584111E0` | 📱 iOS | Loads | 🐢 Poor | iPhone 14 Pro | 2026-09-17 |
@@ -419,7 +424,6 @@
 | 🔴 | Ninja Gaiden II | `544307D5` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 14 | 2026-03-24 |
 | 🔴 | Plants vs Zombies Garden Warfare | `454109C9` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone XS Max | 2026-04-18 |
 | 🔴 | Pro Evolution Soccer 2015 / PES 2015 | `4B4E085F` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 12 Pro | 2026-08-11 |
-| 🔴 | Resident Evil 4 | `4343081C` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 13 | 2026-11-02 |
 | 🔴 | SmackDown vs. RAW 2009 | `54510826` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad (A16) | 2026-03-16 |
 | 🔴 | Soulcalibur IV | `4E4D07E0` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-04-28 |
 | 🔴 | Spider-Man 3 | `415607E2` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 | 2026-07-10 |
