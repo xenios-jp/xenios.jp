@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T16:12:26.771Z",
+  "generatedAt": "2026-11-16T18:00:53.304Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -7802,8 +7802,30 @@
       "titleId": "4D5307E6",
       "issueNumber": 749,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/749",
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-16",
       "entries": [
+        {
+          "id": "comment-6924572386",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/749#issuecomment-6924572386",
+          "author": "xenios-jp",
+          "createdAt": "2026-11-16",
+          "createdAtMs": 1794851818000,
+          "issueNumber": 749,
+          "excerpt": "Only issue is the beginning cutscene loops over and over. it plays up until right before arbiter and just restarts",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "great",
+            "device": "iPhone 17 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 27.2.1",
+            "gpuBackend": "MSL",
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "`77cc1358b`"
+          }
+        },
         {
           "id": "issue-749",
           "type": "issue",
@@ -7910,30 +7932,6 @@
             "buildNumber": "9730",
             "buildStage": "stable",
             "commitShort": "`57c3ca140`"
-          }
-        },
-        {
-          "id": "issue-471",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/471",
-          "author": "xenios-jp",
-          "createdAt": "2026-06-06",
-          "createdAtMs": 1780713867000,
-          "issueNumber": 471,
-          "excerpt": "Umm it black screens…",
-          "images": [],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPad 10",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "buildStage": "stable",
-            "commitShort": "`056d2f64d`"
           }
         }
       ]

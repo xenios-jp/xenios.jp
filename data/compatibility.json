@@ -80855,11 +80855,47 @@
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "issueNumber": 42,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/42",
     "notes": "Runs at about 30 FPS, shader caching makes it stutter sometimes",
     "reports": [
+      {
+        "device": "iPhone 17 Pro",
+        "platform": "ios",
+        "osVersion": "27.2.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "great",
+        "date": "2026-11-16",
+        "notes": "To add onto the first cutscene looping when i try to go to the campaign and select Sierra 117 so i could skip it the game gives me \"player cannot load data\"",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
+        }
+      },
+      {
+        "device": "iPhone 17 Pro",
+        "platform": "ios",
+        "osVersion": "27.2.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "great",
+        "date": "2026-11-16",
+        "notes": "Only issue is the beginning cutscene loops over and over. it plays up until right before arbiter and just restarts",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
+        }
+      },
       {
         "device": "iPad Air 11-inch (M2)",
         "platform": "ios",
@@ -81152,24 +81188,24 @@
         "status": "playable",
         "perf": "ok",
         "notes": "Runs at about 30 FPS, shader caching makes it stutter sometimes",
-        "updatedAt": "2026-11-07",
-        "reportCount": 16,
+        "updatedAt": "2026-11-16",
+        "reportCount": 18,
         "latestReport": {
-          "device": "iPad Air 11-inch (M2)",
+          "device": "iPhone 17 Pro",
           "platform": "ios",
-          "osVersion": "27.2",
+          "osVersion": "27.2.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "ok",
-          "date": "2026-11-07",
-          "notes": "Runs at about 30 FPS, shader caching makes it stutter sometimes",
+          "status": "ingame",
+          "perf": "great",
+          "date": "2026-11-16",
+          "notes": "To add onto the first cutscene looping when i try to go to the campaign and select Sierra 117 so i could skip it the game gives me \"player cannot load data\"",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "2.2.4",
-            "buildNumber": "11500",
-            "commitShort": "bef950648"
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
           }
         },
         "bestReport": {

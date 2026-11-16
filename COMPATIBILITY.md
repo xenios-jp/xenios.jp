@@ -106,7 +106,7 @@
 | 🟢 | Guitar Hero Aerosmith | `41560819` | 📱 iOS, 🖥️ macOS | Playable | 👌 OK | iPhone 13 mini | 2026-03-22 |
 | 🟢 | Guitar Hero II | `415607E7` | 📱 iOS, 🖥️ macOS | Playable | 👌 OK | iPhone 13 mini | 2026-03-22 |
 | 🟢 | Guitar Hero III Legends of Rock | `415607F7` | 📱 iOS | Playable | 👌 OK | iPhone 13 mini | 2026-03-22 |
-| 🟢 | Halo 3 | `4D5307E6` | 🖥️ macOS, 📱 iOS | Playable | 👌 OK | iPad Air 11-inch (M2) | 2026-11-07 |
+| 🟢 | Halo 3 | `4D5307E6` | 🖥️ macOS, 📱 iOS | Playable | 👌 OK | iPad Air 11-inch (M2) | 2026-11-16 |
 | 🟢 | Halo 4 | `4D530919` | 📱 iOS | Playable | 🚀 Great | iPad19,1 | 2026-11-07 |
 | 🟢 | Halo Wars | `4D530808` | 📱 iOS | Playable | 👌 OK | iPad19,1 | 2026-11-08 |
 | 🟢 | Halo: CE Anniversary | `4D5309B1` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-11-12 |
