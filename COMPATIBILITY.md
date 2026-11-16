@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **425 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **426 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **219** · 🔵 In-Game: **67** · 🟡 Intro: **26** · 🟠 Loads: **51** · 🔴 Doesn't Boot: **62**
+> 🟢 Playable: **220** · 🔵 In-Game: **67** · 🟡 Intro: **26** · 🟠 Loads: **51** · 🔴 Doesn't Boot: **62**
 >
-> 📱 iOS: **390** · 🖥️ macOS: **56**
+> 📱 iOS: **391** · 🖥️ macOS: **56**
 
 ## Legend
 
@@ -76,6 +76,7 @@
 | 🟢 | Dragon Ball Z Ultimate Tenkaichi | `4E4D0846` | 📱 iOS | Playable | 👌 OK | iPad16,9 | 2026-06-11 |
 | 🟢 | Driver: San Francisco | `5553087E` | 🖥️ macOS, 📱 iOS | Playable | 🚀 Great | MacBook Pro M5 | 2026-09-11 |
 | 🟢 | DuckTales Remastered | `584113C6` | 📱 iOS | Playable | 🐢 Poor | iPhone 14 Pro Max | 2026-03-25 |
+| 🟢 | EA SPORTS FIFA 17 | `454109F4` | 📱 iOS | Playable | 👌 OK | iPhone 14 | 2026-11-16 |
 | 🟢 | EA SPORTS FIFA Street | `4541097B` | 📱 iOS | Playable | 👌 OK | iPhone 16e | 2026-06-03 |
 | 🟢 | F.E.A.R: First Encounter Assault Recon | `565507D9` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro | 2026-03-13 |
 | 🟢 | F1 2010 | `434D082D` | 📱 iOS | Playable | 🐢 Poor | iPhone 16e | 2026-06-03 |
@@ -292,7 +293,7 @@
 | 🔵 | Portal 2 | `45410912` | 📱 iOS | In-Game | 🚀 Great | iPhone18,5 | 2026-09-13 |
 | 🔵 | Pro Evolution Soccer 2010 / PES 2010 | `4B4E0801` | 📱 iOS | In-Game | 👌 OK | iPhone 17 Pro Max | 2026-06-20 |
 | 🔵 | Pro Evolution Soccer 2013 / PES 2013 | `4B4E084C` | 📱 iOS | In-Game | 🐢 Poor | iPhone 16 | 2026-04-06 |
-| 🔵 | PROTOTYPE | `4156084E` | 📱 iOS | In-Game | 🐢 Poor | iPad19,1 | 2026-11-09 |
+| 🔵 | PROTOTYPE | `4156084E` | 📱 iOS | In-Game | 👌 OK | iPhone 16 Pro Max | 2026-11-16 |
 | 🔵 | Rayman Legends | `555308C3` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro Max | 2026-08-21 |
 | 🔵 | Remember Me | `4343082F` | 📱 iOS | In-Game | 🐢 Poor | iPhone 15 Pro | 2026-06-11 |
 | 🔵 | Resident Evil 6 | `43430819` | 📱 iOS | In-Game | 🐢 Poor | iPhone 13 Pro Max | 2026-03-20 |

@@ -57847,24 +57847,97 @@
       "454109F4",
       "454189F7"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "playable",
+    "perf": "ok",
     "tags": [],
-    "platforms": [],
-    "lastReport": null,
-    "updatedAt": "",
-    "notes": "",
-    "reports": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 14",
+      "platform": "ios",
+      "osVersion": "27.2.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-11-16",
+    "issueNumber": 809,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/809",
+    "notes": "Solo aparecen bajos de FPS pero nada que no permita jugarlo",
+    "reports": [
+      {
+        "device": "iPhone 14",
+        "platform": "ios",
+        "osVersion": "27.2.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-11-16",
+        "notes": "Solo aparecen bajos de FPS pero nada que no permita jugarlo",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
+        }
+      }
+    ],
     "screenshots": [],
     "summaries": {
       "all": {
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "playable",
+        "perf": "ok",
+        "notes": "Solo aparecen bajos de FPS pero nada que no permita jugarlo",
+        "updatedAt": "2026-11-16",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 14",
+          "platform": "ios",
+          "osVersion": "27.2.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-11-16",
+          "notes": "Solo aparecen bajos de FPS pero nada que no permita jugarlo",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 14",
+          "platform": "ios",
+          "osVersion": "27.2.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-11-16",
+          "notes": "Solo aparecen bajos de FPS pero nada que no permita jugarlo",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
+          }
+        },
+        "device": "iPhone 14",
+        "platform": "ios",
+        "osVersion": "27.2.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "build": {
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
+        }
       }
     }
   },
@@ -134660,23 +134733,41 @@
       "565507EF"
     ],
     "status": "ingame",
-    "perf": "poor",
+    "perf": "ok",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPad19,1",
+      "device": "iPhone 16 Pro Max",
       "platform": "ios",
-      "osVersion": "27.2",
+      "osVersion": "26.2",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-11-09",
+    "updatedAt": "2026-11-16",
     "issueNumber": 44,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/44",
-    "notes": "I can run the game but audio and gameplay laggs",
+    "notes": "The game is running it glitches when there’s massive amounts of destruction \n\nThen after sometime it just freezes on a random frame",
     "reports": [
+      {
+        "device": "iPhone 16 Pro Max",
+        "platform": "ios",
+        "osVersion": "26.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "ok",
+        "date": "2026-11-16",
+        "notes": "The game is running it glitches when there’s massive amounts of destruction \n\nThen after sometime it just freezes on a random frame",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
+        }
+      },
       {
         "device": "iPad19,1",
         "platform": "ios",
@@ -134720,55 +134811,55 @@
     "summaries": {
       "all": {
         "status": "ingame",
-        "perf": "poor",
-        "notes": "I can run the game but audio and gameplay laggs",
-        "updatedAt": "2026-11-09",
-        "reportCount": 2,
+        "perf": "ok",
+        "notes": "The game is running it glitches when there’s massive amounts of destruction \n\nThen after sometime it just freezes on a random frame",
+        "updatedAt": "2026-11-16",
+        "reportCount": 3,
         "latestReport": {
-          "device": "iPad19,1",
+          "device": "iPhone 16 Pro Max",
           "platform": "ios",
-          "osVersion": "27.2",
+          "osVersion": "26.2",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "ingame",
-          "perf": "poor",
-          "date": "2026-11-09",
-          "notes": "I can run the game but audio and gameplay laggs",
+          "perf": "ok",
+          "date": "2026-11-16",
+          "notes": "The game is running it glitches when there’s massive amounts of destruction \n\nThen after sometime it just freezes on a random frame",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "2.3.1",
-            "buildNumber": "11662",
-            "commitShort": "cf7c7ee45"
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
           }
         },
         "bestReport": {
-          "device": "iPad19,1",
+          "device": "iPhone 16 Pro Max",
           "platform": "ios",
-          "osVersion": "27.2",
+          "osVersion": "26.2",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "ingame",
-          "perf": "poor",
-          "date": "2026-11-09",
-          "notes": "I can run the game but audio and gameplay laggs",
+          "perf": "ok",
+          "date": "2026-11-16",
+          "notes": "The game is running it glitches when there’s massive amounts of destruction \n\nThen after sometime it just freezes on a random frame",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "2.3.1",
-            "buildNumber": "11662",
-            "commitShort": "cf7c7ee45"
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
           }
         },
-        "device": "iPad19,1",
+        "device": "iPhone 16 Pro Max",
         "platform": "ios",
-        "osVersion": "27.2",
+        "osVersion": "26.2",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "2.3.1",
-          "buildNumber": "11662",
-          "commitShort": "cf7c7ee45"
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
         }
       }
     }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T15:05:02.497Z",
+  "generatedAt": "2026-11-16T16:12:26.771Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -4505,6 +4505,36 @@
         }
       ]
     },
+    "454109F4": {
+      "titleId": "454109F4",
+      "issueNumber": 809,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/809",
+      "updatedAt": "2026-11-16",
+      "entries": [
+        {
+          "id": "issue-809",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/809",
+          "author": "xenios-jp",
+          "createdAt": "2026-11-16",
+          "createdAtMs": 1794844220000,
+          "issueNumber": 809,
+          "excerpt": "Solo aparecen bajos de FPS pero nada que no permita jugarlo",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 14",
+            "platform": "iOS",
+            "osVersion": "iOS 27.2.1",
+            "gpuBackend": "MSL",
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "`77cc1358b`"
+          }
+        }
+      ]
+    },
     "4E4D083A": {
       "titleId": "4E4D083A",
       "issueNumber": 807,
@@ -6471,8 +6501,30 @@
       "titleId": "4156084E",
       "issueNumber": 771,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/771",
-      "updatedAt": "2026-11-09",
+      "updatedAt": "2026-11-16",
       "entries": [
+        {
+          "id": "comment-6921806208",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/771#issuecomment-6921806208",
+          "author": "xenios-jp",
+          "createdAt": "2026-11-16",
+          "createdAtMs": 1794845265000,
+          "issueNumber": 771,
+          "excerpt": "The game is running it glitches when there’s massive amounts of destruction \n\nThen after sometime it just freezes on a random frame",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "ok",
+            "device": "iPhone 16 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.2",
+            "gpuBackend": "MSL",
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "`77cc1358b`"
+          }
+        },
         {
           "id": "issue-771",
           "type": "issue",
