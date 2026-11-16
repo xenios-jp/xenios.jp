@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T18:00:53.304Z",
+  "generatedAt": "2026-11-16T18:05:56.548Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -7805,6 +7805,28 @@
       "updatedAt": "2026-11-16",
       "entries": [
         {
+          "id": "comment-6924667988",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/749#issuecomment-6924667988",
+          "author": "xenios-jp",
+          "createdAt": "2026-11-16",
+          "createdAtMs": 1794852061000,
+          "issueNumber": 749,
+          "excerpt": "To add onto the first cutscene looping when i try to go to the campaign and select Sierra 117 so i could skip it the game gives me \"player cannot load data\"",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "great",
+            "device": "iPhone 17 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 27.2.1",
+            "gpuBackend": "MSL",
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "`77cc1358b`"
+          }
+        },
+        {
           "id": "comment-6924572386",
           "type": "comment",
           "url": "https://github.com/xenios-jp/game-compatibility/issues/749#issuecomment-6924572386",
@@ -7907,32 +7929,6 @@
           "excerpt": "Preview 2.0.1-9849 on 2020 M1 MacBookPro (26.6.1) now gets in-game but rendering is nearly black everywhere\n\n<img width=\"1920\" height=\"1080\" alt=\"Image\" src=\" />",
           "images": [],
           "meta": {}
-        },
-        {
-          "id": "issue-620",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/620",
-          "author": "xenios-jp",
-          "createdAt": "2026-07-27",
-          "createdAtMs": 1785181469000,
-          "issueNumber": 620,
-          "excerpt": "Unable to load, could be bad file but I noticed others not being able to boot up either. So I’m assuming unimplemented file up calls",
-          "images": [
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4D5307E6/1785181464921-1.jpg"
-          ],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPhone 17 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 26.5.2",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "buildStage": "stable",
-            "commitShort": "`57c3ca140`"
-          }
         }
       ]
     },
