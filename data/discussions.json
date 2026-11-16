@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T08:09:39.006Z",
+  "generatedAt": "2026-11-16T15:05:02.497Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -10120,10 +10120,22 @@
     },
     "545408A7": {
       "titleId": "545408A7",
-      "issueNumber": 663,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/663",
+      "issueNumber": 369,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/369",
       "updatedAt": "2026-11-16",
       "entries": [
+        {
+          "id": "comment-6920053547",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/369#issuecomment-6920053547",
+          "author": "iyed30981-cmyk",
+          "createdAt": "2026-11-16",
+          "createdAtMs": 1794841221000,
+          "issueNumber": 369,
+          "excerpt": "Gta",
+          "images": [],
+          "meta": {}
+        },
         {
           "id": "comment-6910859735",
           "type": "comment",
@@ -10198,30 +10210,6 @@
             "device": "iPhone18,5",
             "platform": "iOS",
             "osVersion": "iOS 26.3",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "buildStage": "stable",
-            "commitShort": "`57c3ca140`"
-          }
-        },
-        {
-          "id": "comment-5551195889",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/663#issuecomment-5551195889",
-          "author": "xenios-jp",
-          "createdAt": "2026-09-05",
-          "createdAtMs": 1788604400000,
-          "issueNumber": 663,
-          "excerpt": "It doesnt load at all",
-          "images": [],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPhone 16 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 27.0",
             "gpuBackend": "MSL",
             "buildChannel": "self-built",
             "appVersion": "2.0.1",
