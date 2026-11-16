@@ -2,7 +2,7 @@
 
 > **425 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **217** · 🔵 In-Game: **67** · 🟡 Intro: **27** · 🟠 Loads: **52** · 🔴 Doesn't Boot: **62**
+> 🟢 Playable: **219** · 🔵 In-Game: **67** · 🟡 Intro: **26** · 🟠 Loads: **51** · 🔴 Doesn't Boot: **62**
 >
 > 📱 iOS: **390** · 🖥️ macOS: **56**
 
@@ -57,6 +57,7 @@
 | 🟢 | Contra | `58410818` | 📱 iOS | Playable | 🚀 Great | iPhone 15 | 2026-06-07 |
 | 🟢 | Crackdown | `4D5307DC` | 🖥️ macOS | Playable | 🚀 Great | Mac mini (M4) | 2026-08-23 |
 | 🟢 | Dante's Inferno | `454108CF` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro Max | 2026-11-15 |
+| 🟢 | Dark Souls | `4E4D083A` | 📱 iOS | Playable | 👌 OK | iPhone 15 Pro Max | 2026-11-15 |
 | 🟢 | Dark Souls 2 | `465307E4` | 📱 iOS | Playable | 🐢 Poor | iPhone 17 Pro Max | 2026-07-22 |
 | 🟢 | DAYTONA USA | `58410B1D` | 📱 iOS | Playable | 🚀 Great | iPad Pro 13-inch (M5) | 2026-06-11 |
 | 🟢 | DB: Raging Blast 2 | `4E4D0826` | 📱 iOS | Playable | 🐢 Poor | iPad Pro (M2) | 2026-03-03 |
@@ -150,7 +151,8 @@
 | 🟢 | NCAA Football 14 | `454109B6` | 📱 iOS | Playable | 🚀 Great | iPhone 15 | 2026-11-13 |
 | 🟢 | Need for Speed Carbon | `454107EC` | 📱 iOS | Playable | 👌 OK | iPhone 14 | 2026-10-06 |
 | 🟢 | Need for Speed Most Wanted (2005) | `454107D9` | 📱 iOS | Playable | 👌 OK | iPhone 14 Pro Max | 2026-08-15 |
-| 🟢 | Need for Speed: ProStreet | `45410822` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro | 2026-06-20 |
+| 🟢 | Need for Speed: ProStreet | `45410822` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro | 2026-11-15 |
+| 🟢 | Need for Speed: The Run | `4541094A` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro | 2026-11-15 |
 | 🟢 | Need for Speed: Undercover | `45410876` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-09 |
 | 🟢 | NHL 16: Legacy Edition | `454109EC` | 🖥️ macOS | Playable | 🚀 Great | MacBook Neo 8/512 | 2026-11-04 |
 | 🟢 | NiGHTS into dreams... | `58411268` | 📱 iOS | Playable | 🚀 Great | iPad Pro 13-inch (M5) | 2026-11-07 |
@@ -319,7 +321,6 @@
 | 🟡 | Mortal Kombat vs. DC Universe | `4D5707E9` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Plus | 2026-03-12 |
 | 🟡 | Naruto Shippuden: UNS 3 Full Burst | `4E4D085C` | 📱 iOS | Intro | 🐢 Poor | iPhone 15 Pro Max | 2026-03-13 |
 | 🟡 | Need for Speed Most Wanted (2012) | `45410961` | 📱 iOS | Intro | 🐢 Poor | iPhone 15 Pro Max | 2026-03-08 |
-| 🟡 | Need for Speed: The Run | `4541094A` | 📱 iOS | Intro | 👌 OK | iPhone 17 Pro | 2026-06-07 |
 | 🟡 | PopCap Collection | `504787D8` | 📱 iOS | Intro | 🚀 Great | iPhone 13 Pro | 2026-09-10 |
 | 🟡 | Rise of the Tomb Raider | `53510823` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro Max | 2026-03-12 |
 | 🟡 | Saints Row: The Third | `5451086D` | 📱 iOS | Intro | 🐢 Poor | iPhone 14 Pro | 2026-06-17 |
@@ -337,7 +338,6 @@
 | 🟠 | Battlefield 3 | `45410950` | 📱 iOS | Loads | 🐢 Poor | iPhone 16 | 2026-03-11 |
 | 🟠 | Crash Of The Titans | `565507E4` | 📱 iOS | Loads | 🚀 Great | iPad (A16) | 2026-03-08 |
 | 🟠 | Crysis 3 | `4541098E` | 📱 iOS | Loads | 🐢 Poor | iPad Pro M5 | 2026-03-09 |
-| 🟠 | Dark Souls | `4E4D083A` | 📱 iOS | Loads | 🐢 Poor | iPhone 16e | 2026-03-16 |
 | 🟠 | de Blob 2 | `54510865` | 🖥️ macOS | Loads | 🚀 Great | MacBook Pro (M1) | 2026-08-15 |
 | 🟠 | Dragon Ball Z Budokai HD Collection | `4E4D0856` | 📱 iOS | Loads | 🐢 Poor | iPhone 15 Pro Max | 2026-08-22 |
 | 🟠 | Enslaved: Odyssey to the West | `4E4D07F1` | 🖥️ macOS | Loads | ➖ N/A | MacBook Pro (M1) | 2026-04-12 |

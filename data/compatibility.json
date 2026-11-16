@@ -46353,58 +46353,40 @@
     "titleIds": [
       "4E4D083A"
     ],
-    "status": "loads",
-    "perf": "poor",
+    "status": "playable",
+    "perf": "ok",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 16e",
+      "device": "iPhone 15 Pro Max",
       "platform": "ios",
-      "osVersion": "26.3.1",
+      "osVersion": "27.2.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-16",
-    "issueNumber": 229,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/229",
-    "notes": "Can’t get past loading page",
+    "updatedAt": "2026-11-15",
+    "issueNumber": 807,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/807",
+    "notes": "Играть можно,но текстуры подгружаются в новой локации.до боссов еще не дошло",
     "reports": [
       {
-        "device": "iPhone 16e",
+        "device": "iPhone 15 Pro Max",
         "platform": "ios",
-        "osVersion": "26.3.1",
+        "osVersion": "27.2.1",
         "arch": "arm64",
         "gpuBackend": "msl",
-        "status": "loads",
-        "perf": "poor",
-        "date": "2026-03-16",
-        "notes": "Can’t get past loading page",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-11-15",
+        "notes": "Играть можно,но текстуры подгружаются в новой локации.до боссов еще не дошло",
         "screenshots": [],
         "source": "app",
         "build": {
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
-        }
-      },
-      {
-        "device": "iPhone 17",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "loads",
-        "perf": "poor",
-        "date": "2026-03-12",
-        "notes": "Cant get past this page",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "appVersion": "1.0.0",
-          "buildNumber": "9296",
-          "commitShort": "ab2ca341a"
+          "appVersion": "2.3.2",
+          "buildNumber": "11934",
+          "commitShort": "5533fbfd1"
         }
       }
     ],
@@ -46414,56 +46396,56 @@
     ],
     "summaries": {
       "all": {
-        "status": "loads",
-        "perf": "poor",
-        "notes": "Can’t get past loading page",
-        "updatedAt": "2026-03-16",
-        "reportCount": 2,
+        "status": "playable",
+        "perf": "ok",
+        "notes": "Играть можно,но текстуры подгружаются в новой локации.до боссов еще не дошло",
+        "updatedAt": "2026-11-15",
+        "reportCount": 1,
         "latestReport": {
-          "device": "iPhone 16e",
+          "device": "iPhone 15 Pro Max",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "27.2.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "poor",
-          "date": "2026-03-16",
-          "notes": "Can’t get past loading page",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-11-15",
+          "notes": "Играть можно,но текстуры подгружаются в новой локации.до боссов еще не дошло",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "appVersion": "2.3.2",
+            "buildNumber": "11934",
+            "commitShort": "5533fbfd1"
           }
         },
         "bestReport": {
-          "device": "iPhone 16e",
+          "device": "iPhone 15 Pro Max",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "27.2.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "poor",
-          "date": "2026-03-16",
-          "notes": "Can’t get past loading page",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-11-15",
+          "notes": "Играть можно,но текстуры подгружаются в новой локации.до боссов еще не дошло",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "appVersion": "2.3.2",
+            "buildNumber": "11934",
+            "commitShort": "5533fbfd1"
           }
         },
-        "device": "iPhone 16e",
+        "device": "iPhone 15 Pro Max",
         "platform": "ios",
-        "osVersion": "26.3.1",
+        "osVersion": "27.2.1",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
+          "appVersion": "2.3.2",
+          "buildNumber": "11934",
+          "commitShort": "5533fbfd1"
         }
       }
     }
@@ -118535,39 +118517,39 @@
       "45410822"
     ],
     "status": "playable",
-    "perf": "ok",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 16 Pro",
+      "device": "iPhone 17 Pro",
       "platform": "ios",
-      "osVersion": "26.1",
+      "osVersion": "27.2.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-06-20",
+    "updatedAt": "2026-11-15",
     "issueNumber": 102,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/102",
-    "notes": "FMV glitches have been fixed compared to the old version. Runs slow and hot, may run above 30 fps with some future tuning and a cooler (will run around 20 now with a cooler)",
+    "notes": "Averages 60 fps both when phone is cool and warm during race and in most menus. Only menu where fps dips are the scoreboard after races.",
     "reports": [
       {
-        "device": "iPhone 16 Pro",
+        "device": "iPhone 17 Pro",
         "platform": "ios",
-        "osVersion": "26.1",
+        "osVersion": "27.2.1",
         "arch": "arm64",
         "gpuBackend": "msl",
         "status": "playable",
-        "perf": "ok",
-        "date": "2026-06-20",
-        "notes": "FMV glitches have been fixed compared to the old version. Runs slow and hot, may run above 30 fps with some future tuning and a cooler (will run around 20 now with a cooler)",
+        "perf": "great",
+        "date": "2026-11-15",
+        "notes": "Averages 60 fps both when phone is cool and warm during race and in most menus. Only menu where fps dips are the scoreboard after races.",
         "screenshots": [],
         "source": "app",
         "build": {
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "commitShort": "57c3ca140"
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
         }
       },
       {
@@ -118600,55 +118582,55 @@
     "summaries": {
       "all": {
         "status": "playable",
-        "perf": "ok",
-        "notes": "FMV glitches have been fixed compared to the old version. Runs slow and hot, may run above 30 fps with some future tuning and a cooler (will run around 20 now with a cooler)",
-        "updatedAt": "2026-06-20",
+        "perf": "great",
+        "notes": "Averages 60 fps both when phone is cool and warm during race and in most menus. Only menu where fps dips are the scoreboard after races.",
+        "updatedAt": "2026-11-15",
         "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 16 Pro",
+          "device": "iPhone 17 Pro",
           "platform": "ios",
-          "osVersion": "26.1",
+          "osVersion": "27.2.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
-          "perf": "ok",
-          "date": "2026-06-20",
-          "notes": "FMV glitches have been fixed compared to the old version. Runs slow and hot, may run above 30 fps with some future tuning and a cooler (will run around 20 now with a cooler)",
+          "perf": "great",
+          "date": "2026-11-15",
+          "notes": "Averages 60 fps both when phone is cool and warm during race and in most menus. Only menu where fps dips are the scoreboard after races.",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
           }
         },
         "bestReport": {
-          "device": "iPhone 16 Pro",
+          "device": "iPhone 17 Pro",
           "platform": "ios",
-          "osVersion": "26.1",
+          "osVersion": "27.2.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
-          "perf": "ok",
-          "date": "2026-06-20",
-          "notes": "FMV glitches have been fixed compared to the old version. Runs slow and hot, may run above 30 fps with some future tuning and a cooler (will run around 20 now with a cooler)",
+          "perf": "great",
+          "date": "2026-11-15",
+          "notes": "Averages 60 fps both when phone is cool and warm during race and in most menus. Only menu where fps dips are the scoreboard after races.",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
           }
         },
-        "device": "iPhone 16 Pro",
+        "device": "iPhone 17 Pro",
         "platform": "ios",
-        "osVersion": "26.1",
+        "osVersion": "27.2.1",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "commitShort": "57c3ca140"
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
         }
       }
     }
@@ -118764,8 +118746,8 @@
       "4541094A",
       "45418979"
     ],
-    "status": "intro",
-    "perf": "ok",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
@@ -118773,31 +118755,31 @@
     "lastReport": {
       "device": "iPhone 17 Pro",
       "platform": "ios",
-      "osVersion": "26.1",
+      "osVersion": "27.0.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-06-07",
-    "issueNumber": 474,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/474",
-    "notes": "stuck in intro",
+    "updatedAt": "2026-11-15",
+    "issueNumber": 806,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/806",
+    "notes": "Now runs great",
     "reports": [
       {
         "device": "iPhone 17 Pro",
         "platform": "ios",
-        "osVersion": "26.1",
+        "osVersion": "27.0.1",
         "arch": "arm64",
         "gpuBackend": "msl",
-        "status": "intro",
-        "perf": "ok",
-        "date": "2026-06-07",
-        "notes": "stuck in intro",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-15",
+        "notes": "Now runs great",
         "screenshots": [],
         "source": "app",
         "build": {
-          "appVersion": "2.0",
-          "buildNumber": "9712",
-          "commitShort": "358deaee5"
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
         }
       }
     ],
@@ -118806,56 +118788,56 @@
     ],
     "summaries": {
       "all": {
-        "status": "intro",
-        "perf": "ok",
-        "notes": "stuck in intro",
-        "updatedAt": "2026-06-07",
+        "status": "playable",
+        "perf": "great",
+        "notes": "Now runs great",
+        "updatedAt": "2026-11-15",
         "reportCount": 1,
         "latestReport": {
           "device": "iPhone 17 Pro",
           "platform": "ios",
-          "osVersion": "26.1",
+          "osVersion": "27.0.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "ok",
-          "date": "2026-06-07",
-          "notes": "stuck in intro",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-15",
+          "notes": "Now runs great",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "2.0",
-            "buildNumber": "9712",
-            "commitShort": "358deaee5"
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
           }
         },
         "bestReport": {
           "device": "iPhone 17 Pro",
           "platform": "ios",
-          "osVersion": "26.1",
+          "osVersion": "27.0.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "ok",
-          "date": "2026-06-07",
-          "notes": "stuck in intro",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-15",
+          "notes": "Now runs great",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "2.0",
-            "buildNumber": "9712",
-            "commitShort": "358deaee5"
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
           }
         },
         "device": "iPhone 17 Pro",
         "platform": "ios",
-        "osVersion": "26.1",
+        "osVersion": "27.0.1",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "2.0",
-          "buildNumber": "9712",
-          "commitShort": "358deaee5"
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
         }
       }
     }
