@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **426 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **427 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **220** · 🔵 In-Game: **67** · 🟡 Intro: **26** · 🟠 Loads: **51** · 🔴 Doesn't Boot: **62**
+> 🟢 Playable: **222** · 🔵 In-Game: **68** · 🟡 Intro: **25** · 🟠 Loads: **51** · 🔴 Doesn't Boot: **61**
 >
-> 📱 iOS: **391** · 🖥️ macOS: **56**
+> 📱 iOS: **392** · 🖥️ macOS: **56**
 
 ## Legend
 
@@ -50,6 +50,7 @@
 | 🟢 | Call of Duty 3 | `415607E1` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-11-08 |
 | 🟢 | Call of Duty 4: Modern Warfare | `415607E6` | 📱 iOS | Playable | 🚀 Great | iPad Air 11-inch (M2) | 2026-11-07 |
 | 🟢 | Call of Duty Classic | `58410957` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-09-27 |
+| 🟢 | Call of Duty: Black Ops | `41560855` | 📱 iOS | Playable | 👌 OK | iPhone 17 Pro Max | 2026-11-16 |
 | 🟢 | Call Of Duty: Modern Warfare 3 | `415608CB` | 📱 iOS | Playable | 👌 OK | iPhone 16 | 2026-07-07 |
 | 🟢 | Castle Crashers | `584108B7` | 📱 iOS | Playable | 🚀 Great | iPhone 16 | 2026-07-15 |
 | 🟢 | Civilization Revolution | `545407E5` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro | 2026-03-14 |
@@ -106,6 +107,7 @@
 | 🟢 | Guitar Hero Aerosmith | `41560819` | 📱 iOS, 🖥️ macOS | Playable | 👌 OK | iPhone 13 mini | 2026-03-22 |
 | 🟢 | Guitar Hero II | `415607E7` | 📱 iOS, 🖥️ macOS | Playable | 👌 OK | iPhone 13 mini | 2026-03-22 |
 | 🟢 | Guitar Hero III Legends of Rock | `415607F7` | 📱 iOS | Playable | 👌 OK | iPhone 13 mini | 2026-03-22 |
+| 🟢 | Halo - Combat Evolved (USA).xiso | `4D530004` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro | 2026-11-16 |
 | 🟢 | Halo 3 | `4D5307E6` | 🖥️ macOS, 📱 iOS | Playable | 👌 OK | iPad Air 11-inch (M2) | 2026-11-16 |
 | 🟢 | Halo 4 | `4D530919` | 📱 iOS | Playable | 🚀 Great | iPad19,1 | 2026-11-07 |
 | 🟢 | Halo Wars | `4D530808` | 📱 iOS | Playable | 👌 OK | iPad19,1 | 2026-11-08 |
@@ -254,6 +256,7 @@
 | 🔵 | Crackdown 2 | `4D5308BC` | 🖥️ macOS | In-Game | 👌 OK | Mac mini (M4) | 2026-08-23 |
 | 🔵 | DB Raging Blast | `4E4D0803` | 📱 iOS | In-Game | 🐢 Poor | iPad Pro (M2) | 2026-03-09 |
 | 🔵 | Dead Island Riptide | `4B4D07F2` | 📱 iOS | In-Game | 🐢 Poor | iPhone 14 Pro | 2026-03-17 |
+| 🔵 | Dead Rising | `434307D2` | 📱 iOS | In-Game | 👌 OK | iPhone 16 Pro | 2026-11-17 |
 | 🔵 | Deus Ex: Human Revolution - Director's Cut | `535107FA` | 🖥️ macOS | In-Game | 👌 OK | MacBook Pro (M1) | 2026-08-11 |
 | 🔵 | Diablo III | `394F07D1` | 📱 iOS | In-Game | 🐢 Poor | iPhone Air | 2026-10-30 |
 | 🔵 | Dishonored | `425307E3` | 📱 iOS | In-Game | 👌 OK | iPhone 15 | 2026-11-08 |
@@ -312,7 +315,6 @@
 | 🟡 | Assassins Creed III - Liberation HD | `584113FC` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 | 2026-07-15 |
 | 🟡 | Back to the Future | `443607D6` | 📱 iOS | Intro | 🚀 Great | iPhone 16 Pro | 2026-03-24 |
 | 🟡 | Beautiful Katamari | `4E4D07DC` | 📱 iOS | Intro | 👌 OK | iPhone 16 Pro | 2026-03-05 |
-| 🟡 | Dead Rising | `434307D2` | 📱 iOS | Intro | 👌 OK | iPad (A16) | 2026-03-04 |
 | 🟡 | Divinity II Dragon Knight Saga | `464507D6` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro Max | 2026-03-09 |
 | 🟡 | DOOM 3 BFG Edition | `425307F1` | 📱 iOS | Intro | 🚀 Great | iPhone 16 Pro | 2026-03-03 |
 | 🟡 | Left 4 Dead | `45410830` | 📱 iOS | Intro | 🐢 Poor | iPhone 14 Pro Max | 2026-07-30 |
@@ -392,7 +394,6 @@
 | 🔴 | Bionicle Heroes | `534307E2` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 12 Pro Max | 2026-10-11 |
 | 🔴 | Blue Dragon | `4D5307DF` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone Air | 2026-08-13 |
 | 🔴 | Borderlands 2 | `5454087C` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 Pro Max | 2026-10-04 |
-| 🔴 | Call of Duty: Black Ops | `41560855` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 13 Pro | 2026-07-18 |
 | 🔴 | Call of Duty: Black Ops III | `4156091D` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 13 | 2026-03-14 |
 | 🔴 | Castlevania: Lords of Shadow 2 | `4B4E084D` | 🖥️ macOS | Doesn't Boot | ➖ N/A | MacBook Pro (M1) | 2026-04-12 |
 | 🔴 | Counter-Strike: GO | `5841125A` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 | 2026-07-15 |

@@ -34355,24 +34355,42 @@
       "415688B3",
       "4156889D"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "playable",
+    "perf": "ok",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 13 Pro",
+      "device": "iPhone 17 Pro Max",
       "platform": "ios",
-      "osVersion": "27.0",
+      "osVersion": "27.3",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-07-18",
+    "updatedAt": "2026-11-16",
     "issueNumber": 45,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/45",
-    "notes": "Black screen",
+    "notes": "It’s playable just some graphical glitches here and there.",
     "reports": [
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "27.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-11-16",
+        "notes": "It’s playable just some graphical glitches here and there.",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
+        }
+      },
       {
         "device": "iPhone 13 Pro",
         "platform": "ios",
@@ -34435,56 +34453,56 @@
     "screenshots": [],
     "summaries": {
       "all": {
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "Black screen",
-        "updatedAt": "2026-07-18",
-        "reportCount": 3,
+        "status": "playable",
+        "perf": "ok",
+        "notes": "It’s playable just some graphical glitches here and there.",
+        "updatedAt": "2026-11-16",
+        "reportCount": 4,
         "latestReport": {
-          "device": "iPhone 13 Pro",
+          "device": "iPhone 17 Pro Max",
           "platform": "ios",
-          "osVersion": "27.0",
+          "osVersion": "27.3",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-07-18",
-          "notes": "Black screen",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-11-16",
+          "notes": "It’s playable just some graphical glitches here and there.",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
           }
         },
         "bestReport": {
-          "device": "iPhone 13 Pro",
+          "device": "iPhone 17 Pro Max",
           "platform": "ios",
-          "osVersion": "27.0",
+          "osVersion": "27.3",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-07-18",
-          "notes": "Black screen",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-11-16",
+          "notes": "It’s playable just some graphical glitches here and there.",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
           }
         },
-        "device": "iPhone 13 Pro",
+        "device": "iPhone 17 Pro Max",
         "platform": "ios",
-        "osVersion": "27.0",
+        "osVersion": "27.3",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "commitShort": "57c3ca140"
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
         }
       }
     }
@@ -48147,24 +48165,42 @@
     "titleIds": [
       "434307D2"
     ],
-    "status": "intro",
+    "status": "ingame",
     "perf": "ok",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPad (A16)",
+      "device": "iPhone 16 Pro",
       "platform": "ios",
-      "osVersion": "26.3",
+      "osVersion": "26.5",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-04",
+    "updatedAt": "2026-11-17",
     "issueNumber": 13,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/13",
-    "notes": "Starts up, publisher logos display gets to Start menu. But when press Start does not proceed further",
+    "notes": "Just needs to have a patch to help with black shaders but it’s playable",
     "reports": [
+      {
+        "device": "iPhone 16 Pro",
+        "platform": "ios",
+        "osVersion": "26.5",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "ok",
+        "date": "2026-11-17",
+        "notes": "Just needs to have a patch to help with black shaders but it’s playable",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
+        }
+      },
       {
         "device": "iPad (A16)",
         "platform": "ios",
@@ -48184,46 +48220,57 @@
     "screenshots": [],
     "summaries": {
       "all": {
-        "status": "intro",
+        "status": "ingame",
         "perf": "ok",
-        "notes": "Starts up, publisher logos display gets to Start menu. But when press Start does not proceed further",
-        "updatedAt": "2026-03-04",
-        "reportCount": 1,
+        "notes": "Just needs to have a patch to help with black shaders but it’s playable",
+        "updatedAt": "2026-11-17",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPad (A16)",
+          "device": "iPhone 16 Pro",
           "platform": "ios",
-          "osVersion": "26.3",
+          "osVersion": "26.5",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "intro",
+          "status": "ingame",
           "perf": "ok",
-          "date": "2026-03-04",
-          "notes": "Starts up, publisher logos display gets to Start menu. But when press Start does not proceed further",
-          "reportedTitleId": "434307D2",
-          "reportedTitle": "DEAD RISING",
+          "date": "2026-11-17",
+          "notes": "Just needs to have a patch to help with black shaders but it’s playable",
           "screenshots": [],
-          "source": "app"
+          "source": "app",
+          "build": {
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
+          }
         },
         "bestReport": {
-          "device": "iPad (A16)",
+          "device": "iPhone 16 Pro",
           "platform": "ios",
-          "osVersion": "26.3",
+          "osVersion": "26.5",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "intro",
+          "status": "ingame",
           "perf": "ok",
-          "date": "2026-03-04",
-          "notes": "Starts up, publisher logos display gets to Start menu. But when press Start does not proceed further",
-          "reportedTitleId": "434307D2",
-          "reportedTitle": "DEAD RISING",
+          "date": "2026-11-17",
+          "notes": "Just needs to have a patch to help with black shaders but it’s playable",
           "screenshots": [],
-          "source": "app"
+          "source": "app",
+          "build": {
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
+          }
         },
-        "device": "iPad (A16)",
+        "device": "iPhone 16 Pro",
         "platform": "ios",
-        "osVersion": "26.3",
+        "osVersion": "26.5",
         "arch": "arm64",
-        "gpuBackend": "msl"
+        "gpuBackend": "msl",
+        "build": {
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
+        }
       }
     }
   },
@@ -201916,6 +201963,105 @@
           "appVersion": "2.0.1",
           "buildNumber": "9730",
           "commitShort": "57c3ca140"
+        }
+      }
+    }
+  },
+  {
+    "slug": "halo-combat-evolved-usa-xiso",
+    "title": "Halo - Combat Evolved (USA).xiso",
+    "titleId": "4D530004",
+    "titleIds": [
+      "4D530004"
+    ],
+    "status": "playable",
+    "perf": "great",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 17 Pro",
+      "platform": "ios",
+      "osVersion": "27.2.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-11-16",
+    "notes": "Works fine",
+    "reports": [
+      {
+        "device": "iPhone 17 Pro",
+        "platform": "ios",
+        "osVersion": "27.2.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-16",
+        "notes": "Works fine",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
+        }
+      }
+    ],
+    "screenshots": [],
+    "summaries": {
+      "all": {
+        "status": "playable",
+        "perf": "great",
+        "notes": "Works fine",
+        "updatedAt": "2026-11-16",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 17 Pro",
+          "platform": "ios",
+          "osVersion": "27.2.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-16",
+          "notes": "Works fine",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 17 Pro",
+          "platform": "ios",
+          "osVersion": "27.2.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-16",
+          "notes": "Works fine",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
+          }
+        },
+        "device": "iPhone 17 Pro",
+        "platform": "ios",
+        "osVersion": "27.2.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "build": {
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
         }
       }
     }
