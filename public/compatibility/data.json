@@ -11554,24 +11554,95 @@
       "454108D8",
       "454108F1"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
-    "platforms": [],
-    "lastReport": null,
-    "updatedAt": "",
-    "notes": "",
-    "reports": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 17 Pro Max",
+      "platform": "ios",
+      "osVersion": "27.2.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-11-17",
+    "notes": "Se puede jugar muy bien",
+    "reports": [
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "27.2.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-17",
+        "notes": "Se puede jugar muy bien",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
+        }
+      }
+    ],
     "screenshots": [],
     "summaries": {
       "all": {
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "playable",
+        "perf": "great",
+        "notes": "Se puede jugar muy bien",
+        "updatedAt": "2026-11-17",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "27.2.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-17",
+          "notes": "Se puede jugar muy bien",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "27.2.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-17",
+          "notes": "Se puede jugar muy bien",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
+          }
+        },
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "27.2.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "build": {
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
+        }
       }
     }
   },
@@ -48287,8 +48358,8 @@
       "58410ABD",
       "58410B20"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
@@ -48296,15 +48367,33 @@
     "lastReport": {
       "device": "iPhone 17 Pro Max",
       "platform": "ios",
-      "osVersion": "26.3.1",
+      "osVersion": "27.2.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-14",
+    "updatedAt": "2026-11-17",
     "issueNumber": 250,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/250",
-    "notes": "Black screen, no loading, no nothing.",
+    "notes": "Solo con control\nPlaying with Controller",
     "reports": [
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "27.2.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-17",
+        "notes": "Solo con control\nPlaying with Controller",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
+        }
+      },
       {
         "device": "iPhone 17 Pro Max",
         "platform": "ios",
@@ -48327,56 +48416,56 @@
     "screenshots": [],
     "summaries": {
       "all": {
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "Black screen, no loading, no nothing.",
-        "updatedAt": "2026-03-14",
-        "reportCount": 1,
+        "status": "playable",
+        "perf": "great",
+        "notes": "Solo con control\nPlaying with Controller",
+        "updatedAt": "2026-11-17",
+        "reportCount": 2,
         "latestReport": {
           "device": "iPhone 17 Pro Max",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "27.2.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-14",
-          "notes": "Black screen, no loading, no nothing.",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-17",
+          "notes": "Solo con control\nPlaying with Controller",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
           }
         },
         "bestReport": {
           "device": "iPhone 17 Pro Max",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "27.2.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-14",
-          "notes": "Black screen, no loading, no nothing.",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-17",
+          "notes": "Solo con control\nPlaying with Controller",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
           }
         },
         "device": "iPhone 17 Pro Max",
         "platform": "ios",
-        "osVersion": "26.3.1",
+        "osVersion": "27.2.1",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
         }
       }
     }
@@ -118537,24 +118626,42 @@
       "45410961",
       "454189B4"
     ],
-    "status": "intro",
-    "perf": "poor",
+    "status": "playable",
+    "perf": "ok",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 15 Pro Max",
+      "device": "iPhone19,2",
       "platform": "ios",
-      "osVersion": "26.3",
+      "osVersion": "27.0.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-08",
+    "updatedAt": "2026-11-18",
     "issueNumber": 90,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/90",
-    "notes": "There are visual glitches in the introduction videos, in the first cutscene the video and audio get out of sync, and when the game starts rendering it gets stuck indefinitely.",
+    "notes": "Runs well besides some artifacts",
     "reports": [
+      {
+        "device": "iPhone19,2",
+        "platform": "ios",
+        "osVersion": "27.0.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-11-18",
+        "notes": "Runs well besides some artifacts",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
+        }
+      },
       {
         "device": "iPhone 15 Pro Max",
         "platform": "ios",
@@ -118576,63 +118683,61 @@
         }
       }
     ],
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/45410961/1794992774854-1.jpg"
+    ],
     "summaries": {
       "all": {
-        "status": "intro",
-        "perf": "poor",
-        "notes": "There are visual glitches in the introduction videos, in the first cutscene the video and audio get out of sync, and when the game starts rendering it gets stuck indefinitely.",
-        "updatedAt": "2026-03-08",
-        "reportCount": 1,
+        "status": "playable",
+        "perf": "ok",
+        "notes": "Runs well besides some artifacts",
+        "updatedAt": "2026-11-18",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 15 Pro Max",
+          "device": "iPhone19,2",
           "platform": "ios",
-          "osVersion": "26.3",
+          "osVersion": "27.0.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "poor",
-          "date": "2026-03-08",
-          "notes": "There are visual glitches in the introduction videos, in the first cutscene the video and audio get out of sync, and when the game starts rendering it gets stuck indefinitely.",
-          "reportedTitleId": "45410961",
-          "reportedTitle": "NFS: Most Wanted",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-11-18",
+          "notes": "Runs well besides some artifacts",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633e8177"
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
           }
         },
         "bestReport": {
-          "device": "iPhone 15 Pro Max",
+          "device": "iPhone19,2",
           "platform": "ios",
-          "osVersion": "26.3",
+          "osVersion": "27.0.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "poor",
-          "date": "2026-03-08",
-          "notes": "There are visual glitches in the introduction videos, in the first cutscene the video and audio get out of sync, and when the game starts rendering it gets stuck indefinitely.",
-          "reportedTitleId": "45410961",
-          "reportedTitle": "NFS: Most Wanted",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-11-18",
+          "notes": "Runs well besides some artifacts",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633e8177"
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
           }
         },
-        "device": "iPhone 15 Pro Max",
+        "device": "iPhone19,2",
         "platform": "ios",
-        "osVersion": "26.3",
+        "osVersion": "27.0.1",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "commitShort": "2633e8177"
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
         }
       }
     }

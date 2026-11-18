@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **427 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **428 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **222** · 🔵 In-Game: **68** · 🟡 Intro: **25** · 🟠 Loads: **51** · 🔴 Doesn't Boot: **61**
+> 🟢 Playable: **225** · 🔵 In-Game: **68** · 🟡 Intro: **24** · 🟠 Loads: **51** · 🔴 Doesn't Boot: **60**
 >
-> 📱 iOS: **392** · 🖥️ macOS: **56**
+> 📱 iOS: **393** · 🖥️ macOS: **56**
 
 ## Legend
 
@@ -31,6 +31,7 @@
 | 🟢 | Alice: Madness Returns | `45410916` | 📱 iOS | Playable | 👌 OK | iPhone 16 Plus | 2026-03-17 |
 | 🟢 | AMY | `58411220` | 📱 iOS | Playable | 🚀 Great | iPad Pro 13-inch (M5) | 2026-11-07 |
 | 🟢 | Angry Birds Trilogy | `415608E4` | 📱 iOS | Playable | 🚀 Great | iPad (A16) | 2026-03-09 |
+| 🟢 | Army of Two: The 40th Day | `454108D8` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-11-17 |
 | 🟢 | Assassin's Creed II | `5553083B` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro Max | 2026-11-14 |
 | 🟢 | Assassin's Creed: Revelations | `55530879` | 📱 iOS | Playable | 👌 OK | iPhone 16 | 2026-03-15 |
 | 🟢 | Banjo Kazooie: Nuts & Bolts | `4D5307ED` | 📱 iOS | Playable | 🐢 Poor | iPhone 15 Pro Max | 2026-03-08 |
@@ -65,6 +66,7 @@
 | 🟢 | Dead Island | `4B4D07DF` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-04-20 |
 | 🟢 | DEAD OR ALIVE 4 | `544307D1` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro | 2026-11-12 |
 | 🟢 | Dead or Alive Xtreme 2 | `544307D2` | 📱 iOS | Playable | 🚀 Great | iPad Pro 12.9-inch (M2) | 2026-11-06 |
+| 🟢 | Dead Rising 2 | `434307EC` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-11-17 |
 | 🟢 | Dead Space | `45410857` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro | 2026-03-03 |
 | 🟢 | Deadly Premonition | `4D5607D1` | 📱 iOS | Playable | 👌 OK | iPad (A16) | 2026-03-09 |
 | 🟢 | Deadpool | `415608EC` | 📱 iOS | Playable | 🚀 Great | iPhone 14 Pro | 2026-11-14 |
@@ -154,6 +156,7 @@
 | 🟢 | NCAA Football 14 | `454109B6` | 📱 iOS | Playable | 🚀 Great | iPhone 15 | 2026-11-13 |
 | 🟢 | Need for Speed Carbon | `454107EC` | 📱 iOS | Playable | 👌 OK | iPhone 14 | 2026-10-06 |
 | 🟢 | Need for Speed Most Wanted (2005) | `454107D9` | 📱 iOS | Playable | 👌 OK | iPhone 14 Pro Max | 2026-08-15 |
+| 🟢 | Need for Speed Most Wanted (2012) | `45410961` | 📱 iOS | Playable | 👌 OK | iPhone19,2 | 2026-11-18 |
 | 🟢 | Need for Speed: ProStreet | `45410822` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro | 2026-11-15 |
 | 🟢 | Need for Speed: The Run | `4541094A` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro | 2026-11-15 |
 | 🟢 | Need for Speed: Undercover | `45410876` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-09 |
@@ -323,7 +326,6 @@
 | 🟡 | Max Payne 3 | `5454086B` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 | 2026-07-04 |
 | 🟡 | Mortal Kombat vs. DC Universe | `4D5707E9` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Plus | 2026-03-12 |
 | 🟡 | Naruto Shippuden: UNS 3 Full Burst | `4E4D085C` | 📱 iOS | Intro | 🐢 Poor | iPhone 15 Pro Max | 2026-03-13 |
-| 🟡 | Need for Speed Most Wanted (2012) | `45410961` | 📱 iOS | Intro | 🐢 Poor | iPhone 15 Pro Max | 2026-03-08 |
 | 🟡 | PopCap Collection | `504787D8` | 📱 iOS | Intro | 🚀 Great | iPhone 13 Pro | 2026-09-10 |
 | 🟡 | Rise of the Tomb Raider | `53510823` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro Max | 2026-03-12 |
 | 🟡 | Saints Row: The Third | `5451086D` | 📱 iOS | Intro | 🐢 Poor | iPhone 14 Pro | 2026-06-17 |
@@ -397,7 +399,6 @@
 | 🔴 | Call of Duty: Black Ops III | `4156091D` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 13 | 2026-03-14 |
 | 🔴 | Castlevania: Lords of Shadow 2 | `4B4E084D` | 🖥️ macOS | Doesn't Boot | ➖ N/A | MacBook Pro (M1) | 2026-04-12 |
 | 🔴 | Counter-Strike: GO | `5841125A` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 | 2026-07-15 |
-| 🔴 | Dead Rising 2 | `434307EC` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 Pro Max | 2026-03-14 |
 | 🔴 | Dead to Rights: Retribution | `4E4D07F5` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Pro 13-inch (M5) | 2026-07-24 |
 | 🔴 | Dragon Ball Z Burst Limit | `424107DC` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro Max | 2026-03-09 |
 | 🔴 | F1 2012 | `434D0847` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 Pro Max | 2026-06-09 |
