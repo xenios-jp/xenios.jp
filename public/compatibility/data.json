@@ -34728,24 +34728,6 @@
           "buildNumber": "11940",
           "commitShort": "77cc1358b"
         }
-      },
-      {
-        "device": "iPhone 13",
-        "platform": "ios",
-        "osVersion": "26.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-03-14",
-        "notes": "Black screen",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
-        }
       }
     ],
     "screenshots": [],
@@ -34755,7 +34737,7 @@
         "perf": "great",
         "notes": "Some slight shader issues but other than that it works perfectly",
         "updatedAt": "2026-11-19",
-        "reportCount": 2,
+        "reportCount": 1,
         "latestReport": {
           "device": "iPhone 16 Pro Max",
           "platform": "ios",
@@ -133863,12 +133845,15 @@
         "perf": "great",
         "date": "2026-11-19",
         "notes": "Exhibition matches are smooth, player textures might disappear but will load later",
+        "reportedTitleId": "4B4E0856",
+        "reportedTitle": "PES 2014",
         "screenshots": [],
+        "submittedBy": "kaloyankgn-ctrl",
         "source": "github",
         "build": {
           "appVersion": "2.3.3",
-          "buildNumber": "No number",
-          "commitShort": "Don’t know"
+          "buildNumber": "11940",
+          "commitShort": "77CC1358B"
         }
       }
     ],
@@ -133890,12 +133875,15 @@
           "perf": "great",
           "date": "2026-11-19",
           "notes": "Exhibition matches are smooth, player textures might disappear but will load later",
+          "reportedTitleId": "4B4E0856",
+          "reportedTitle": "PES 2014",
           "screenshots": [],
+          "submittedBy": "kaloyankgn-ctrl",
           "source": "github",
           "build": {
             "appVersion": "2.3.3",
-            "buildNumber": "No number",
-            "commitShort": "Don’t know"
+            "buildNumber": "11940",
+            "commitShort": "77CC1358B"
           }
         },
         "bestReport": {
@@ -133908,12 +133896,15 @@
           "perf": "great",
           "date": "2026-11-19",
           "notes": "Exhibition matches are smooth, player textures might disappear but will load later",
+          "reportedTitleId": "4B4E0856",
+          "reportedTitle": "PES 2014",
           "screenshots": [],
+          "submittedBy": "kaloyankgn-ctrl",
           "source": "github",
           "build": {
             "appVersion": "2.3.3",
-            "buildNumber": "No number",
-            "commitShort": "Don’t know"
+            "buildNumber": "11940",
+            "commitShort": "77CC1358B"
           }
         },
         "device": "iPad Air(13 inch)",
@@ -133923,8 +133914,8 @@
         "gpuBackend": "msl",
         "build": {
           "appVersion": "2.3.3",
-          "buildNumber": "No number",
-          "commitShort": "Don’t know"
+          "buildNumber": "11940",
+          "commitShort": "77CC1358B"
         }
       }
     }
