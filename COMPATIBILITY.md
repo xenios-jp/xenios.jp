@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **428 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **430 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **225** · 🔵 In-Game: **68** · 🟡 Intro: **24** · 🟠 Loads: **51** · 🔴 Doesn't Boot: **60**
+> 🟢 Playable: **226** · 🔵 In-Game: **68** · 🟡 Intro: **24** · 🟠 Loads: **51** · 🔴 Doesn't Boot: **61**
 >
-> 📱 iOS: **393** · 🖥️ macOS: **56**
+> 📱 iOS: **395** · 🖥️ macOS: **56**
 
 ## Legend
 
@@ -71,6 +71,7 @@
 | 🟢 | Deadly Premonition | `4D5607D1` | 📱 iOS | Playable | 👌 OK | iPad (A16) | 2026-03-09 |
 | 🟢 | Deadpool | `415608EC` | 📱 iOS | Playable | 🚀 Great | iPhone 14 Pro | 2026-11-14 |
 | 🟢 | Def Jam Icon | `454107EE` | 📱 iOS | Playable | 🐢 Poor | iPhone 17 Pro Max | 2026-07-18 |
+| 🟢 | Devil May Cry | `43430824` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-11-18 |
 | 🟢 | Devil May Cry 4 | `434307DF` | 📱 iOS | Playable | 🐢 Poor | iPhone 14 Pro | 2026-06-11 |
 | 🟢 | Devil May Cry 4 Demo | `434387E3` | 📱 iOS | Playable | 🚀 Great | iPhone 16 | 2026-07-15 |
 | 🟢 | DOA5 Ultimate | `4B5607DA` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-08-09 |
@@ -103,7 +104,7 @@
 | 🟢 | Geometry Wars Evolved | `584107ED` | 📱 iOS | Playable | 🚀 Great | iPhone 13 | 2026-03-10 |
 | 🟢 | GoldenEye: 007 Reloaded | `415608AF` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-05-09 |
 | 🟢 | Grand Theft Auto IV | `545407F2` | 📱 iOS, 🖥️ macOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-11-13 |
-| 🟢 | Grand Theft Auto V | `545408A7` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-11-08 |
+| 🟢 | Grand Theft Auto V | `545408A7` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-11-18 |
 | 🟢 | GRID | `434D07FF` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro | 2026-05-31 |
 | 🟢 | Guacamelee Super Turbo Championship Edition | `58411446` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-03 |
 | 🟢 | Guitar Hero Aerosmith | `41560819` | 📱 iOS, 🖥️ macOS | Playable | 👌 OK | iPhone 13 mini | 2026-03-22 |
@@ -424,6 +425,7 @@
 | 🔴 | NBA 2K7 | `545407EF` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16e | 2026-03-11 |
 | 🔴 | Need for Speed Hot Pursuit | `45410903` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 15 | 2026-03-29 |
 | 🔴 | NHL 15 | `454109DC` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 Pro Max | 2026-03-21 |
+| 🔴 | Ninja Gaiden Black (Europe) (En,Fr,De,Es,It) | `5443000D` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 Pro Max | 2026-11-18 |
 | 🔴 | Ninja Gaiden II | `544307D5` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 14 | 2026-03-24 |
 | 🔴 | Plants vs Zombies Garden Warfare | `454109C9` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone XS Max | 2026-04-18 |
 | 🔴 | Pro Evolution Soccer 2015 / PES 2015 | `4B4E085F` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 12 Pro | 2026-08-11 |

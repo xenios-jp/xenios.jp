@@ -11568,6 +11568,8 @@
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-11-17",
+    "issueNumber": 813,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/813",
     "notes": "Se puede jugar muy bien",
     "reports": [
       {
@@ -34463,24 +34465,6 @@
         }
       },
       {
-        "device": "iPhone 13 Pro",
-        "platform": "ios",
-        "osVersion": "27.0",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-07-18",
-        "notes": "Black screen",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "commitShort": "57c3ca140"
-        }
-      },
-      {
         "device": "iPhone 17 Pro Max",
         "platform": "ios",
         "osVersion": "26.3",
@@ -34528,7 +34512,7 @@
         "perf": "ok",
         "notes": "It’s playable just some graphical glitches here and there.",
         "updatedAt": "2026-11-16",
-        "reportCount": 4,
+        "reportCount": 3,
         "latestReport": {
           "device": "iPhone 17 Pro Max",
           "platform": "ios",
@@ -51305,24 +51289,97 @@
       "43438837",
       "43438838"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
-    "platforms": [],
-    "lastReport": null,
-    "updatedAt": "",
-    "notes": "",
-    "reports": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 17 Pro Max",
+      "platform": "ios",
+      "osVersion": "27.2.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-11-18",
+    "issueNumber": 816,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/816",
+    "notes": "Sin fallas, todo bien",
+    "reports": [
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "27.2.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-18",
+        "notes": "Sin fallas, todo bien",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
+        }
+      }
+    ],
     "screenshots": [],
     "summaries": {
       "all": {
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "playable",
+        "perf": "great",
+        "notes": "Sin fallas, todo bien",
+        "updatedAt": "2026-11-18",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "27.2.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-18",
+          "notes": "Sin fallas, todo bien",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "27.2.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-18",
+          "notes": "Sin fallas, todo bien",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
+          }
+        },
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "27.2.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "build": {
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
+        }
       }
     }
   },
@@ -77063,139 +77120,31 @@
     "lastReport": {
       "device": "iPhone 17 Pro Max",
       "platform": "ios",
-      "osVersion": "27.0.1",
+      "osVersion": "27.2.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-11-08",
+    "updatedAt": "2026-11-18",
     "issueNumber": 62,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/62",
-    "notes": "It runs and very playable but after a while fps drops because of heat. If you use cooler it works perfect",
+    "notes": "Now and then a small graphic glitch. Mostly in sky. Runs smooth",
     "reports": [
       {
         "device": "iPhone 17 Pro Max",
         "platform": "ios",
-        "osVersion": "27.0.1",
+        "osVersion": "27.2.1",
         "arch": "arm64",
         "gpuBackend": "msl",
         "status": "playable",
         "perf": "great",
-        "date": "2026-11-08",
-        "notes": "It runs and very playable but after a while fps drops because of heat. If you use cooler it works perfect",
+        "date": "2026-11-18",
+        "notes": "Now and then a small graphic glitch. Mostly in sky. Runs smooth",
         "screenshots": [],
         "source": "app",
         "build": {
-          "appVersion": "2.3.1",
-          "buildNumber": "11662",
-          "commitShort": "cf7c7ee45"
-        }
-      },
-      {
-        "device": "iPhone18,5",
-        "platform": "ios",
-        "osVersion": "26.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "intro",
-        "perf": "poor",
-        "date": "2026-09-13",
-        "notes": "Only play the rockstar animation",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "commitShort": "57c3ca140"
-        }
-      },
-      {
-        "device": "iPhone 16e",
-        "platform": "ios",
-        "osVersion": "26.6",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-09-05",
-        "notes": "It kinda loads,but it’s just a black screen,I can tell it’s trying because the whole app lags like crazy (I’m in LiveContainer)",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "commitShort": "57c3ca140"
-        }
-      },
-      {
-        "device": "iPhone 16 Pro Max",
-        "platform": "ios",
-        "osVersion": "27.0",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-09-05",
-        "notes": "It doesnt load at all",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "commitShort": "57c3ca140"
-        }
-      },
-      {
-        "device": "iPhone 16",
-        "platform": "ios",
-        "osVersion": "26.5",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "perf": "poor",
-        "date": "2026-08-26",
-        "notes": "Go into game and can walk around the map but very unstable and any sudden movement can crash it",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "commitShort": "57c3ca140"
-        }
-      },
-      {
-        "device": "iPhone12,1",
-        "platform": "ios",
-        "osVersion": "26.2.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-08-17",
-        "notes": "I don’t know what’s the problem",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "commitShort": "57c3ca140"
-        }
-      },
-      {
-        "device": "iPhone 16e",
-        "platform": "ios",
-        "osVersion": "26.6",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-08-16",
-        "notes": "Nothing do",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "commitShort": "57c3ca140"
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
         }
       },
       {
@@ -77265,54 +77214,54 @@
       "all": {
         "status": "playable",
         "perf": "great",
-        "notes": "It runs and very playable but after a while fps drops because of heat. If you use cooler it works perfect",
-        "updatedAt": "2026-11-08",
-        "reportCount": 9,
+        "notes": "Now and then a small graphic glitch. Mostly in sky. Runs smooth",
+        "updatedAt": "2026-11-18",
+        "reportCount": 3,
         "latestReport": {
           "device": "iPhone 17 Pro Max",
           "platform": "ios",
-          "osVersion": "27.0.1",
+          "osVersion": "27.2.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "great",
-          "date": "2026-11-08",
-          "notes": "It runs and very playable but after a while fps drops because of heat. If you use cooler it works perfect",
+          "date": "2026-11-18",
+          "notes": "Now and then a small graphic glitch. Mostly in sky. Runs smooth",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "2.3.1",
-            "buildNumber": "11662",
-            "commitShort": "cf7c7ee45"
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
           }
         },
         "bestReport": {
           "device": "iPhone 17 Pro Max",
           "platform": "ios",
-          "osVersion": "27.0.1",
+          "osVersion": "27.2.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "great",
-          "date": "2026-11-08",
-          "notes": "It runs and very playable but after a while fps drops because of heat. If you use cooler it works perfect",
+          "date": "2026-11-18",
+          "notes": "Now and then a small graphic glitch. Mostly in sky. Runs smooth",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "2.3.1",
-            "buildNumber": "11662",
-            "commitShort": "cf7c7ee45"
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
           }
         },
         "device": "iPhone 17 Pro Max",
         "platform": "ios",
-        "osVersion": "27.0.1",
+        "osVersion": "27.2.1",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "2.3.1",
-          "buildNumber": "11662",
-          "commitShort": "cf7c7ee45"
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
         }
       }
     }
@@ -96688,8 +96637,8 @@
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-10-25",
-    "issueNumber": 722,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/722",
+    "issueNumber": 543,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/543",
     "notes": "It seems the in game texts like selecting a mode or slelecting ANYTHING is super blurry and cant read at all. Also i still have no sound after alot of troubleshooting still cant figure out why but game runs perfectly other than that",
     "reports": [
       {
@@ -201560,6 +201509,107 @@
     }
   },
   {
+    "slug": "halo-combat-evolved-usa-xiso",
+    "title": "Halo - Combat Evolved (USA).xiso",
+    "titleId": "4D530004",
+    "titleIds": [
+      "4D530004"
+    ],
+    "status": "playable",
+    "perf": "great",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 17 Pro",
+      "platform": "ios",
+      "osVersion": "27.2.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-11-16",
+    "issueNumber": 810,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/810",
+    "notes": "Works fine",
+    "reports": [
+      {
+        "device": "iPhone 17 Pro",
+        "platform": "ios",
+        "osVersion": "27.2.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-16",
+        "notes": "Works fine",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
+        }
+      }
+    ],
+    "screenshots": [],
+    "summaries": {
+      "all": {
+        "status": "playable",
+        "perf": "great",
+        "notes": "Works fine",
+        "updatedAt": "2026-11-16",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 17 Pro",
+          "platform": "ios",
+          "osVersion": "27.2.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-16",
+          "notes": "Works fine",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 17 Pro",
+          "platform": "ios",
+          "osVersion": "27.2.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-16",
+          "notes": "Works fine",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
+          }
+        },
+        "device": "iPhone 17 Pro",
+        "platform": "ios",
+        "osVersion": "27.2.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "build": {
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
+        }
+      }
+    }
+  },
+  {
     "slug": "halo-2",
     "title": "Halo 2",
     "titleId": "4D530064",
@@ -201865,6 +201915,107 @@
     }
   },
   {
+    "slug": "ninja-gaiden-black-europe-en-fr-de-es-it",
+    "title": "Ninja Gaiden Black (Europe) (En,Fr,De,Es,It)",
+    "titleId": "5443000D",
+    "titleIds": [
+      "5443000D"
+    ],
+    "status": "nothing",
+    "perf": "n/a",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 17 Pro Max",
+      "platform": "ios",
+      "osVersion": "27.2.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-11-18",
+    "issueNumber": 817,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/817",
+    "notes": "No sirve, solo en DukeX",
+    "reports": [
+      {
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "27.2.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-11-18",
+        "notes": "No sirve, solo en DukeX",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
+        }
+      }
+    ],
+    "screenshots": [],
+    "summaries": {
+      "all": {
+        "status": "nothing",
+        "perf": "n/a",
+        "notes": "No sirve, solo en DukeX",
+        "updatedAt": "2026-11-18",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "27.2.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-11-18",
+          "notes": "No sirve, solo en DukeX",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "27.2.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-11-18",
+          "notes": "No sirve, solo en DukeX",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
+          }
+        },
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "27.2.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "build": {
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
+        }
+      }
+    }
+  },
+  {
     "slug": "xbla-unplugged",
     "title": "XBLA Unplugged",
     "titleId": "4D5387FC",
@@ -202068,105 +202219,6 @@
           "appVersion": "2.0.1",
           "buildNumber": "9730",
           "commitShort": "57c3ca140"
-        }
-      }
-    }
-  },
-  {
-    "slug": "halo-combat-evolved-usa-xiso",
-    "title": "Halo - Combat Evolved (USA).xiso",
-    "titleId": "4D530004",
-    "titleIds": [
-      "4D530004"
-    ],
-    "status": "playable",
-    "perf": "great",
-    "tags": [],
-    "platforms": [
-      "ios"
-    ],
-    "lastReport": {
-      "device": "iPhone 17 Pro",
-      "platform": "ios",
-      "osVersion": "27.2.1",
-      "arch": "arm64",
-      "gpuBackend": "msl"
-    },
-    "updatedAt": "2026-11-16",
-    "notes": "Works fine",
-    "reports": [
-      {
-        "device": "iPhone 17 Pro",
-        "platform": "ios",
-        "osVersion": "27.2.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "great",
-        "date": "2026-11-16",
-        "notes": "Works fine",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "appVersion": "2.3.3",
-          "buildNumber": "11940",
-          "commitShort": "77cc1358b"
-        }
-      }
-    ],
-    "screenshots": [],
-    "summaries": {
-      "all": {
-        "status": "playable",
-        "perf": "great",
-        "notes": "Works fine",
-        "updatedAt": "2026-11-16",
-        "reportCount": 1,
-        "latestReport": {
-          "device": "iPhone 17 Pro",
-          "platform": "ios",
-          "osVersion": "27.2.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-11-16",
-          "notes": "Works fine",
-          "screenshots": [],
-          "source": "app",
-          "build": {
-            "appVersion": "2.3.3",
-            "buildNumber": "11940",
-            "commitShort": "77cc1358b"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 17 Pro",
-          "platform": "ios",
-          "osVersion": "27.2.1",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-11-16",
-          "notes": "Works fine",
-          "screenshots": [],
-          "source": "app",
-          "build": {
-            "appVersion": "2.3.3",
-            "buildNumber": "11940",
-            "commitShort": "77cc1358b"
-          }
-        },
-        "device": "iPhone 17 Pro",
-        "platform": "ios",
-        "osVersion": "27.2.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "build": {
-          "appVersion": "2.3.3",
-          "buildNumber": "11940",
-          "commitShort": "77cc1358b"
         }
       }
     }
