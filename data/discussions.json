@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T04:14:29.601Z",
+  "generatedAt": "2026-11-19T21:14:34.714Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -4578,6 +4578,172 @@
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
           "images": [],
           "meta": {}
+        }
+      ]
+    },
+    "4B4E0856": {
+      "titleId": "4B4E0856",
+      "issueNumber": 821,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/821",
+      "updatedAt": "2026-11-19",
+      "entries": [
+        {
+          "id": "issue-821",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/821",
+          "author": "kaloyankgn-ctrl",
+          "createdAt": "2026-11-19",
+          "createdAtMs": 1795122696000,
+          "issueNumber": 821,
+          "excerpt": "Exhibition matches are smooth, player textures might disappear but will load later",
+          "images": [],
+          "meta": {}
+        }
+      ]
+    },
+    "4156091D": {
+      "titleId": "4156091D",
+      "issueNumber": 820,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/820",
+      "updatedAt": "2026-11-19",
+      "entries": [
+        {
+          "id": "issue-820",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/820",
+          "author": "xenios-jp",
+          "createdAt": "2026-11-19",
+          "createdAtMs": 1795120532000,
+          "issueNumber": 820,
+          "excerpt": "Some slight shader issues but other than that it works perfectly",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 16 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 27.3",
+            "gpuBackend": "MSL",
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "`77cc1358b`"
+          }
+        },
+        {
+          "id": "comment-5138131424",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/261#issuecomment-5138131424",
+          "author": "raed-alzahrani",
+          "createdAt": "2026-07-31",
+          "createdAtMs": 1785461266000,
+          "issueNumber": 261,
+          "excerpt": "I tried it on my iPhone and it kinda works, nothing so bad i think it's playable, you just need to install all title updates + all dlc's, but for some reason xenios on iPhone does not extract dlc's correctly idk why maybe it's because of my phone, i moved the dlc's and title updates from the contents folder on my xenia emulator on pc, and it worked, also i used ( 1 ) license mask if that's important.\nWhen you open the game the graphics is kinda weird, it's fixed by putting Readback Resolve in the graphics menu on full, maybe there is room for improvement if you tinker with the graphics menu a little, but I didn't try yet.\nAlso I'm using Preview 2.1-9857 build.\n\n<img width=\"1434\" height=\"660\" alt=\"Image\" src=\" />\n<img width=\"1434\" height=\"660\" alt=\"Image\" src=\" />\n<img width=\"1434\" height=\"660\" alt=\"Image\" src=\" />\n<img width=\"1434\" height=\"660\" alt=\"Image\" src=\" />\n<img width=\"1434\" height=\"660\" alt=\"Image\" src=\" />",
+          "images": [],
+          "meta": {}
+        },
+        {
+          "id": "issue-261",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/261",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-14",
+          "createdAtMs": 1773505506000,
+          "issueNumber": 261,
+          "excerpt": "Black screen",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 13",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "buildStage": "stable",
+            "commitShort": "`056d2f64d`"
+          }
+        },
+        {
+          "id": "issue-143",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/143",
+          "author": "fonsooooooo9",
+          "createdAt": "2026-03-09",
+          "createdAtMs": 1773076715000,
+          "issueNumber": 143,
+          "excerpt": "black ops logo shows for half a second then stuck on black screen,",
+          "images": [],
+          "meta": {}
+        }
+      ]
+    },
+    "4D530877": {
+      "titleId": "4D530877",
+      "issueNumber": 819,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/819",
+      "updatedAt": "2026-11-19",
+      "entries": [
+        {
+          "id": "issue-819",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/819",
+          "author": "xenios-jp",
+          "createdAt": "2026-11-19",
+          "createdAtMs": 1795095663000,
+          "issueNumber": 819,
+          "excerpt": "works perfectly",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 17 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 27.2.1",
+            "gpuBackend": "MSL",
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "`77cc1358b`"
+          }
+        },
+        {
+          "id": "comment-4015745957",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/32#issuecomment-4015745957",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-03",
+          "createdAtMs": 1772513950000,
+          "issueNumber": 32,
+          "excerpt": "Game boots however menu loads very distorted with heavy graphic bugs. Campaign loads intro scene but gets stuck in a loop. Could not navigate menu successfully to bypass loop.",
+          "images": [],
+          "meta": {
+            "status": "intro",
+            "perf": "poor",
+            "device": "iPhone 16 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 18.5",
+            "gpuBackend": "MSL"
+          }
+        },
+        {
+          "id": "issue-32",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/32",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-02",
+          "createdAtMs": 1772459408000,
+          "issueNumber": 32,
+          "excerpt": "Gets into firefight, campaign does not load the first cutscene. Can expect the same cutscene loop as Halo 3 if it does manage to load.",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "poor",
+            "device": "iPhone 17",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3",
+            "gpuBackend": "MSL"
+          }
         }
       ]
     },
@@ -18868,62 +19034,6 @@
         }
       ]
     },
-    "4156091D": {
-      "titleId": "4156091D",
-      "issueNumber": 143,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/143",
-      "updatedAt": "2026-09-11",
-      "entries": [
-        {
-          "id": "comment-5138131424",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/261#issuecomment-5138131424",
-          "author": "raed-alzahrani",
-          "createdAt": "2026-07-31",
-          "createdAtMs": 1785461266000,
-          "issueNumber": 261,
-          "excerpt": "I tried it on my iPhone and it kinda works, nothing so bad i think it's playable, you just need to install all title updates + all dlc's, but for some reason xenios on iPhone does not extract dlc's correctly idk why maybe it's because of my phone, i moved the dlc's and title updates from the contents folder on my xenia emulator on pc, and it worked, also i used ( 1 ) license mask if that's important.\nWhen you open the game the graphics is kinda weird, it's fixed by putting Readback Resolve in the graphics menu on full, maybe there is room for improvement if you tinker with the graphics menu a little, but I didn't try yet.\nAlso I'm using Preview 2.1-9857 build.\n\n<img width=\"1434\" height=\"660\" alt=\"Image\" src=\" />\n<img width=\"1434\" height=\"660\" alt=\"Image\" src=\" />\n<img width=\"1434\" height=\"660\" alt=\"Image\" src=\" />\n<img width=\"1434\" height=\"660\" alt=\"Image\" src=\" />\n<img width=\"1434\" height=\"660\" alt=\"Image\" src=\" />",
-          "images": [],
-          "meta": {}
-        },
-        {
-          "id": "issue-261",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/261",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-14",
-          "createdAtMs": 1773505506000,
-          "issueNumber": 261,
-          "excerpt": "Black screen",
-          "images": [],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPhone 13",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "buildStage": "stable",
-            "commitShort": "`056d2f64d`"
-          }
-        },
-        {
-          "id": "issue-143",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/143",
-          "author": "fonsooooooo9",
-          "createdAt": "2026-03-09",
-          "createdAtMs": 1773076715000,
-          "issueNumber": 143,
-          "excerpt": "black ops logo shows for half a second then stuck on black screen,",
-          "images": [],
-          "meta": {}
-        }
-      ]
-    },
     "575207E6": {
       "titleId": "575207E6",
       "issueNumber": 259,
@@ -22074,52 +22184,6 @@
             "device": "iPad Pro (M2)",
             "platform": "iOS",
             "osVersion": "iOS 18.3.1",
-            "gpuBackend": "MSL"
-          }
-        }
-      ]
-    },
-    "4D530877": {
-      "titleId": "4D530877",
-      "issueNumber": 32,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/32",
-      "updatedAt": "2026-03-07",
-      "entries": [
-        {
-          "id": "comment-4015745957",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/32#issuecomment-4015745957",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-03",
-          "createdAtMs": 1772513950000,
-          "issueNumber": 32,
-          "excerpt": "Game boots however menu loads very distorted with heavy graphic bugs. Campaign loads intro scene but gets stuck in a loop. Could not navigate menu successfully to bypass loop.",
-          "images": [],
-          "meta": {
-            "status": "intro",
-            "perf": "poor",
-            "device": "iPhone 16 Pro",
-            "platform": "iOS",
-            "osVersion": "iOS 18.5",
-            "gpuBackend": "MSL"
-          }
-        },
-        {
-          "id": "issue-32",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/32",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-02",
-          "createdAtMs": 1772459408000,
-          "issueNumber": 32,
-          "excerpt": "Gets into firefight, campaign does not load the first cutscene. Can expect the same cutscene loop as Halo 3 if it does manage to load.",
-          "images": [],
-          "meta": {
-            "status": "ingame",
-            "perf": "poor",
-            "device": "iPhone 17",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3",
             "gpuBackend": "MSL"
           }
         }

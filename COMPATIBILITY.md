@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **430 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **431 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **226** · 🔵 In-Game: **68** · 🟡 Intro: **24** · 🟠 Loads: **51** · 🔴 Doesn't Boot: **61**
+> 🟢 Playable: **229** · 🔵 In-Game: **67** · 🟡 Intro: **24** · 🟠 Loads: **51** · 🔴 Doesn't Boot: **60**
 >
-> 📱 iOS: **395** · 🖥️ macOS: **56**
+> 📱 iOS: **396** · 🖥️ macOS: **56**
 
 ## Legend
 
@@ -52,6 +52,7 @@
 | 🟢 | Call of Duty 4: Modern Warfare | `415607E6` | 📱 iOS | Playable | 🚀 Great | iPad Air 11-inch (M2) | 2026-11-07 |
 | 🟢 | Call of Duty Classic | `58410957` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-09-27 |
 | 🟢 | Call of Duty: Black Ops | `41560855` | 📱 iOS | Playable | 👌 OK | iPhone 17 Pro Max | 2026-11-16 |
+| 🟢 | Call of Duty: Black Ops III | `4156091D` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro Max | 2026-11-19 |
 | 🟢 | Call Of Duty: Modern Warfare 3 | `415608CB` | 📱 iOS | Playable | 👌 OK | iPhone 16 | 2026-07-07 |
 | 🟢 | Castle Crashers | `584108B7` | 📱 iOS | Playable | 🚀 Great | iPhone 16 | 2026-07-15 |
 | 🟢 | Civilization Revolution | `545407E5` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro | 2026-03-14 |
@@ -112,6 +113,7 @@
 | 🟢 | Guitar Hero III Legends of Rock | `415607F7` | 📱 iOS | Playable | 👌 OK | iPhone 13 mini | 2026-03-22 |
 | 🟢 | Halo - Combat Evolved (USA).xiso | `4D530004` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro | 2026-11-16 |
 | 🟢 | Halo 3 | `4D5307E6` | 🖥️ macOS, 📱 iOS | Playable | 👌 OK | iPad Air 11-inch (M2) | 2026-11-16 |
+| 🟢 | Halo 3: ODST | `4D530877` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro | 2026-11-19 |
 | 🟢 | Halo 4 | `4D530919` | 📱 iOS | Playable | 🚀 Great | iPad19,1 | 2026-11-07 |
 | 🟢 | Halo Wars | `4D530808` | 📱 iOS | Playable | 👌 OK | iPad19,1 | 2026-11-08 |
 | 🟢 | Halo: CE Anniversary | `4D5309B1` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-11-12 |
@@ -173,6 +175,7 @@
 | 🟢 | Portal: Still Alive | `58410960` | 📱 iOS | Playable | 🚀 Great | iPhone 15 | 2026-09-13 |
 | 🟢 | Pro Evolution Soccer 2011 / PES 2011 | `4B4E081D` | 📱 iOS | Playable | 🐢 Poor | iPhone 16e | 2026-05-20 |
 | 🟢 | Pro Evolution Soccer 2012 / PES 2012 | `4B4E0837` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro | 2026-04-25 |
+| 🟢 | Pro Evolution Soccer 2014 / PES 2014 | `4B4E0856` | 📱 iOS | Playable | 🚀 Great | iPad Air(13 inch) | 2026-11-19 |
 | 🟢 | Pro Evolution Soccer 2016 / PES 2016 | `4B4E0861` | 📱 iOS | Playable | 🐢 Poor | iPhone 16e | 2026-04-25 |
 | 🟢 | Project Gotham Racing 4 | `4D5307F9` | 📱 iOS | Playable | 👌 OK | iPhone 17 Pro Max | 2026-11-12 |
 | 🟢 | Pure | `425607D9` | 📱 iOS | Playable | 👌 OK | iPad Pro 11 inch 5th Gen | 2026-03-18 |
@@ -281,7 +284,6 @@
 | 🔵 | Guitar Hero World Tour | `4156081A` | 📱 iOS, 🖥️ macOS | In-Game | 🐢 Poor | iPhone 13 mini | 2026-03-22 |
 | 🔵 | Guitar Hero: Greatest Hits | `4156083E` | 📱 iOS, 🖥️ macOS | In-Game | 🐢 Poor | iPhone 13 mini | 2026-03-22 |
 | 🔵 | Guitar Hero: Warriors of Rock | `41560883` | 📱 iOS | In-Game | 🐢 Poor | iPhone 13 mini | 2026-03-22 |
-| 🔵 | Halo 3: ODST | `4D530877` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 | 2026-03-03 |
 | 🔵 | Iron Man | `534507F2` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro Max | 2026-03-28 |
 | 🔵 | L.A. Noire | `5454086C` | 📱 iOS | In-Game | 👌 OK | iPhone 14 Pro | 2026-11-11 |
 | 🔵 | Lost Odyssey | `4D5307FA` | 📱 iOS, 🖥️ macOS | In-Game | 🚀 Great | Mac mini (M2) | 2026-03-11 |
@@ -397,7 +399,6 @@
 | 🔴 | Bionicle Heroes | `534307E2` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 12 Pro Max | 2026-10-11 |
 | 🔴 | Blue Dragon | `4D5307DF` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone Air | 2026-08-13 |
 | 🔴 | Borderlands 2 | `5454087C` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 Pro Max | 2026-10-04 |
-| 🔴 | Call of Duty: Black Ops III | `4156091D` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 13 | 2026-03-14 |
 | 🔴 | Castlevania: Lords of Shadow 2 | `4B4E084D` | 🖥️ macOS | Doesn't Boot | ➖ N/A | MacBook Pro (M1) | 2026-04-12 |
 | 🔴 | Counter-Strike: GO | `5841125A` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 | 2026-07-15 |
 | 🔴 | Dead to Rights: Retribution | `4E4D07F5` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Pro 13-inch (M5) | 2026-07-24 |

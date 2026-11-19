@@ -34693,24 +34693,42 @@
       "4156091D",
       "41560929"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 13",
+      "device": "iPhone 16 Pro Max",
       "platform": "ios",
-      "osVersion": "26.3",
+      "osVersion": "27.3",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-14",
-    "issueNumber": 143,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/143",
-    "notes": "Black screen",
+    "updatedAt": "2026-11-19",
+    "issueNumber": 820,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/820",
+    "notes": "Some slight shader issues but other than that it works perfectly",
     "reports": [
+      {
+        "device": "iPhone 16 Pro Max",
+        "platform": "ios",
+        "osVersion": "27.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-19",
+        "notes": "Some slight shader issues but other than that it works perfectly",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
+        }
+      },
       {
         "device": "iPhone 13",
         "platform": "ios",
@@ -34733,56 +34751,56 @@
     "screenshots": [],
     "summaries": {
       "all": {
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "Black screen",
-        "updatedAt": "2026-03-14",
-        "reportCount": 1,
+        "status": "playable",
+        "perf": "great",
+        "notes": "Some slight shader issues but other than that it works perfectly",
+        "updatedAt": "2026-11-19",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 13",
+          "device": "iPhone 16 Pro Max",
           "platform": "ios",
-          "osVersion": "26.3",
+          "osVersion": "27.3",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-14",
-          "notes": "Black screen",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-19",
+          "notes": "Some slight shader issues but other than that it works perfectly",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
           }
         },
         "bestReport": {
-          "device": "iPhone 13",
+          "device": "iPhone 16 Pro Max",
           "platform": "ios",
-          "osVersion": "26.3",
+          "osVersion": "27.3",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-14",
-          "notes": "Black screen",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-19",
+          "notes": "Some slight shader issues but other than that it works perfectly",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
           }
         },
-        "device": "iPhone 13",
+        "device": "iPhone 16 Pro Max",
         "platform": "ios",
-        "osVersion": "26.3",
+        "osVersion": "27.3",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
         }
       }
     }
@@ -81332,24 +81350,42 @@
       "4D530877",
       "4D5308B1"
     ],
-    "status": "ingame",
-    "perf": "poor",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 17",
+      "device": "iPhone 17 Pro",
       "platform": "ios",
-      "osVersion": "26.3",
+      "osVersion": "27.2.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-03",
+    "updatedAt": "2026-11-19",
     "issueNumber": 32,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/32",
-    "notes": "Gets into firefight, campaign does not load the first cutscene. Can expect the same cutscene loop as Halo 3 if it does manage to load.",
+    "notes": "works perfectly",
     "reports": [
+      {
+        "device": "iPhone 17 Pro",
+        "platform": "ios",
+        "osVersion": "27.2.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-19",
+        "notes": "works perfectly",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
+        }
+      },
       {
         "device": "iPhone 16 Pro",
         "platform": "ios",
@@ -81384,46 +81420,57 @@
     "screenshots": [],
     "summaries": {
       "all": {
-        "status": "ingame",
-        "perf": "poor",
-        "notes": "Gets into firefight, campaign does not load the first cutscene. Can expect the same cutscene loop as Halo 3 if it does manage to load.",
-        "updatedAt": "2026-03-03",
-        "reportCount": 2,
+        "status": "playable",
+        "perf": "great",
+        "notes": "works perfectly",
+        "updatedAt": "2026-11-19",
+        "reportCount": 3,
         "latestReport": {
-          "device": "iPhone 16 Pro",
+          "device": "iPhone 17 Pro",
           "platform": "ios",
-          "osVersion": "18.5",
+          "osVersion": "27.2.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "poor",
-          "date": "2026-03-03",
-          "notes": "Game boots however menu loads very distorted with heavy graphic bugs. Campaign loads intro scene but gets stuck in a loop. Could not navigate menu successfully to bypass loop.",
-          "reportedTitleId": "4D530877",
-          "reportedTitle": "Halo 3: ODST",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-19",
+          "notes": "works perfectly",
           "screenshots": [],
-          "source": "app"
+          "source": "app",
+          "build": {
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
+          }
         },
         "bestReport": {
-          "device": "iPhone 17",
+          "device": "iPhone 17 Pro",
           "platform": "ios",
-          "osVersion": "26.3",
+          "osVersion": "27.2.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-03-02",
-          "notes": "Gets into firefight, campaign does not load the first cutscene. Can expect the same cutscene loop as Halo 3 if it does manage to load.",
-          "reportedTitleId": "4D530877",
-          "reportedTitle": "Halo 3: ODST",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-19",
+          "notes": "works perfectly",
           "screenshots": [],
-          "source": "app"
+          "source": "app",
+          "build": {
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
+          }
         },
-        "device": "iPhone 17",
+        "device": "iPhone 17 Pro",
         "platform": "ios",
-        "osVersion": "26.3",
+        "osVersion": "27.2.1",
         "arch": "arm64",
-        "gpuBackend": "msl"
+        "gpuBackend": "msl",
+        "build": {
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
+        }
       }
     }
   },
@@ -133788,24 +133835,97 @@
       "4B4E885B",
       "4B4E8859"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
-    "platforms": [],
-    "lastReport": null,
-    "updatedAt": "",
-    "notes": "",
-    "reports": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPad Air(13 inch)",
+      "platform": "ios",
+      "osVersion": "27.2.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-11-19",
+    "issueNumber": 821,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/821",
+    "notes": "Exhibition matches are smooth, player textures might disappear but will load later",
+    "reports": [
+      {
+        "device": "iPad Air(13 inch)",
+        "platform": "ios",
+        "osVersion": "27.2.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-19",
+        "notes": "Exhibition matches are smooth, player textures might disappear but will load later",
+        "screenshots": [],
+        "source": "github",
+        "build": {
+          "appVersion": "2.3.3",
+          "buildNumber": "No number",
+          "commitShort": "Don’t know"
+        }
+      }
+    ],
     "screenshots": [],
     "summaries": {
       "all": {
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "playable",
+        "perf": "great",
+        "notes": "Exhibition matches are smooth, player textures might disappear but will load later",
+        "updatedAt": "2026-11-19",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPad Air(13 inch)",
+          "platform": "ios",
+          "osVersion": "27.2.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-19",
+          "notes": "Exhibition matches are smooth, player textures might disappear but will load later",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "appVersion": "2.3.3",
+            "buildNumber": "No number",
+            "commitShort": "Don’t know"
+          }
+        },
+        "bestReport": {
+          "device": "iPad Air(13 inch)",
+          "platform": "ios",
+          "osVersion": "27.2.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-19",
+          "notes": "Exhibition matches are smooth, player textures might disappear but will load later",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "appVersion": "2.3.3",
+            "buildNumber": "No number",
+            "commitShort": "Don’t know"
+          }
+        },
+        "device": "iPad Air(13 inch)",
+        "platform": "ios",
+        "osVersion": "27.2.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "build": {
+          "appVersion": "2.3.3",
+          "buildNumber": "No number",
+          "commitShort": "Don’t know"
+        }
       }
     }
   },
