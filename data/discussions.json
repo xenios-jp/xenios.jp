@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T07:24:51.979Z",
+  "generatedAt": "2026-11-20T21:35:54.806Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -4603,6 +4603,36 @@
         }
       ]
     },
+    "4D53005F": {
+      "titleId": "4D53005F",
+      "issueNumber": 824,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/824",
+      "updatedAt": "2026-11-20",
+      "entries": [
+        {
+          "id": "issue-824",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/824",
+          "author": "xenios-jp",
+          "createdAt": "2026-11-20",
+          "createdAtMs": 1795191565000,
+          "issueNumber": 824,
+          "excerpt": "Stucks at loading",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 16 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 27.0.1",
+            "gpuBackend": "MSL",
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "`77cc1358b`"
+          }
+        }
+      ]
+    },
     "4D5307DC": {
       "titleId": "4D5307DC",
       "issueNumber": 823,
@@ -5358,8 +5388,30 @@
       "titleId": "4A3007D1",
       "issueNumber": 802,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/802",
-      "updatedAt": "2026-11-14",
+      "updatedAt": "2026-11-20",
       "entries": [
+        {
+          "id": "comment-7051106141",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/802#issuecomment-7051106141",
+          "author": "xenios-jp",
+          "createdAt": "2026-11-20",
+          "createdAtMs": 1795210280000,
+          "issueNumber": 802,
+          "excerpt": "tbh it works so good",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 14 Plus",
+            "platform": "iOS",
+            "osVersion": "iOS 27.0",
+            "gpuBackend": "MSL",
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "`77cc1358b`"
+          }
+        },
         {
           "id": "issue-802",
           "type": "issue",

@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **431 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **432 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **229** · 🔵 In-Game: **67** · 🟡 Intro: **24** · 🟠 Loads: **51** · 🔴 Doesn't Boot: **60**
+> 🟢 Playable: **230** · 🔵 In-Game: **67** · 🟡 Intro: **24** · 🟠 Loads: **50** · 🔴 Doesn't Boot: **61**
 >
-> 📱 iOS: **397** · 🖥️ macOS: **55**
+> 📱 iOS: **398** · 🖥️ macOS: **55**
 
 ## Legend
 
@@ -177,6 +177,7 @@
 | 🟢 | Pro Evolution Soccer 2012 / PES 2012 | `4B4E0837` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro | 2026-04-25 |
 | 🟢 | Pro Evolution Soccer 2014 / PES 2014 | `4B4E0856` | 📱 iOS | Playable | 🚀 Great | iPad Air(13 inch) | 2026-11-19 |
 | 🟢 | Pro Evolution Soccer 2016 / PES 2016 | `4B4E0861` | 📱 iOS | Playable | 🐢 Poor | iPhone 16e | 2026-04-25 |
+| 🟢 | Pro Evolution Soccer 2017 | `4A3007D1` | 📱 iOS | Playable | 🚀 Great | iPhone 14 Plus | 2026-11-20 |
 | 🟢 | Project Gotham Racing 4 | `4D5307F9` | 📱 iOS | Playable | 👌 OK | iPhone 17 Pro Max | 2026-11-12 |
 | 🟢 | Pure | `425607D9` | 📱 iOS | Playable | 👌 OK | iPad Pro 11 inch 5th Gen | 2026-03-18 |
 | 🟢 | Quantum of Solace | `415607FF` | 📱 iOS | Playable | 👌 OK | iPad Pro 12.9-inch (M2) | 2026-03-11 |
@@ -369,7 +370,6 @@
 | 🟠 | NBA 2K10 | `54549852` | 🖥️ macOS | Loads | 🐢 Poor | MacBook Air (M4) | 2026-03-18 |
 | 🟠 | NCAA Basketball 10 | `454108C3` | 📱 iOS | Loads | 🐢 Poor | iPhone 16e | 2026-03-11 |
 | 🟠 | Prince of Persia The Forgotten Sands | `5553083E` | 📱 iOS | Loads | 🐢 Poor | iPad Pro 13-inch (M4) | 2026-06-30 |
-| 🟠 | Pro Evolution Soccer 2017 | `4A3007D1` | 📱 iOS | Loads | 🐢 Poor | iPhone 12 | 2026-11-14 |
 | 🟠 | Project Gotham Racing 3 | `4D5307D1` | 🖥️ macOS | Loads | 🚀 Great | Macbook Pro M1 Pro | 2026-05-10 |
 | 🟠 | Rango | `4541093A` | 📱 iOS | Loads | 🐢 Poor | iPad Air 5 | 2026-09-07 |
 | 🟠 | Real Steel | `584111E0` | 📱 iOS | Loads | 🐢 Poor | iPhone 14 Pro | 2026-09-17 |
@@ -446,6 +446,7 @@
 | 🔴 | The Witcher 2: Assassins of Kings - Enhanced Edition | `57520824` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Pro 12.9-inch 5 | 2026-10-28 |
 | 🔴 | The Wolf Among Us | `443607D5` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-20 |
 | 🔴 | Top Spin 4 | `54540859` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Pro 12.9-inch (M2) | 2026-06-24 |
+| 🔴 | Voodoo Vince (USA).xiso | `4D53005F` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro Max | 2026-11-20 |
 | 🔴 | WWE 2k14 | `545408B2` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 | 2026-03-25 |
 | 🔴 | WWE 2K15 | `545408B6` | 🖥️ macOS, 📱 iOS | Doesn't Boot | ➖ N/A | Macbook Neo A18 Pro | 2026-10-08 |
 | 🔴 | WWE 2K17 | `545408BA` | 🖥️ macOS | Doesn't Boot | ➖ N/A | MacBook Pro M1 | 2026-05-31 |

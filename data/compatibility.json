@@ -134167,24 +134167,42 @@
       "4A3007D1",
       "4A3087D2"
     ],
-    "status": "loads",
-    "perf": "poor",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 12",
+      "device": "iPhone 14 Plus",
       "platform": "ios",
-      "osVersion": "27.0.1",
+      "osVersion": "27.0",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-11-14",
+    "updatedAt": "2026-11-20",
     "issueNumber": 802,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/802",
-    "notes": "Não está entrando em nenhum jogo",
+    "notes": "tbh it works so good",
     "reports": [
+      {
+        "device": "iPhone 14 Plus",
+        "platform": "ios",
+        "osVersion": "27.0",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-20",
+        "notes": "tbh it works so good",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
+        }
+      },
       {
         "device": "iPhone 12",
         "platform": "ios",
@@ -134207,56 +134225,56 @@
     "screenshots": [],
     "summaries": {
       "all": {
-        "status": "loads",
-        "perf": "poor",
-        "notes": "Não está entrando em nenhum jogo",
-        "updatedAt": "2026-11-14",
-        "reportCount": 1,
+        "status": "playable",
+        "perf": "great",
+        "notes": "tbh it works so good",
+        "updatedAt": "2026-11-20",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 12",
+          "device": "iPhone 14 Plus",
           "platform": "ios",
-          "osVersion": "27.0.1",
+          "osVersion": "27.0",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "poor",
-          "date": "2026-11-14",
-          "notes": "Não está entrando em nenhum jogo",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-20",
+          "notes": "tbh it works so good",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "2.3.2",
-            "buildNumber": "11934",
-            "commitShort": "5533fbfd1"
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
           }
         },
         "bestReport": {
-          "device": "iPhone 12",
+          "device": "iPhone 14 Plus",
           "platform": "ios",
-          "osVersion": "27.0.1",
+          "osVersion": "27.0",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "poor",
-          "date": "2026-11-14",
-          "notes": "Não está entrando em nenhum jogo",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-20",
+          "notes": "tbh it works so good",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "2.3.2",
-            "buildNumber": "11934",
-            "commitShort": "5533fbfd1"
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
           }
         },
-        "device": "iPhone 12",
+        "device": "iPhone 14 Plus",
         "platform": "ios",
-        "osVersion": "27.0.1",
+        "osVersion": "27.0",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "2.3.2",
-          "buildNumber": "11934",
-          "commitShort": "5533fbfd1"
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
         }
       }
     }
@@ -202147,6 +202165,107 @@
         "device": "iPhone 17 Pro Max",
         "platform": "ios",
         "osVersion": "27.2.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "build": {
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
+        }
+      }
+    }
+  },
+  {
+    "slug": "voodoo-vince-usa-xiso",
+    "title": "Voodoo Vince (USA).xiso",
+    "titleId": "4D53005F",
+    "titleIds": [
+      "4D53005F"
+    ],
+    "status": "nothing",
+    "perf": "n/a",
+    "tags": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 16 Pro Max",
+      "platform": "ios",
+      "osVersion": "27.0.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-11-20",
+    "issueNumber": 824,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/824",
+    "notes": "Stucks at loading",
+    "reports": [
+      {
+        "device": "iPhone 16 Pro Max",
+        "platform": "ios",
+        "osVersion": "27.0.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "nothing",
+        "perf": "n/a",
+        "date": "2026-11-20",
+        "notes": "Stucks at loading",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
+        }
+      }
+    ],
+    "screenshots": [],
+    "summaries": {
+      "all": {
+        "status": "nothing",
+        "perf": "n/a",
+        "notes": "Stucks at loading",
+        "updatedAt": "2026-11-20",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 16 Pro Max",
+          "platform": "ios",
+          "osVersion": "27.0.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-11-20",
+          "notes": "Stucks at loading",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 16 Pro Max",
+          "platform": "ios",
+          "osVersion": "27.0.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "nothing",
+          "perf": "n/a",
+          "date": "2026-11-20",
+          "notes": "Stucks at loading",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
+          }
+        },
+        "device": "iPhone 16 Pro Max",
+        "platform": "ios",
+        "osVersion": "27.0.1",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
