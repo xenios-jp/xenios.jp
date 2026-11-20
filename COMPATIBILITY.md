@@ -4,7 +4,7 @@
 >
 > 🟢 Playable: **229** · 🔵 In-Game: **67** · 🟡 Intro: **24** · 🟠 Loads: **51** · 🔴 Doesn't Boot: **60**
 >
-> 📱 iOS: **396** · 🖥️ macOS: **56**
+> 📱 iOS: **397** · 🖥️ macOS: **55**
 
 ## Legend
 
@@ -58,7 +58,7 @@
 | 🟢 | Civilization Revolution | `545407E5` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro | 2026-03-14 |
 | 🟢 | Condemned: Criminal Origins | `534507D2` | 📱 iOS | Playable | 👌 OK | iPhone 17 | 2026-04-22 |
 | 🟢 | Contra | `58410818` | 📱 iOS | Playable | 🚀 Great | iPhone 15 | 2026-06-07 |
-| 🟢 | Crackdown | `4D5307DC` | 🖥️ macOS | Playable | 🚀 Great | Mac mini (M4) | 2026-08-23 |
+| 🟢 | Crackdown | `4D5307DC` | 📱 iOS | Playable | 🚀 Great | iPhone19,7 | 2026-11-20 |
 | 🟢 | Dante's Inferno | `454108CF` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro Max | 2026-11-15 |
 | 🟢 | Dark Souls | `4E4D083A` | 📱 iOS | Playable | 👌 OK | iPhone 15 Pro Max | 2026-11-15 |
 | 🟢 | Dark Souls 2 | `465307E4` | 📱 iOS | Playable | 🐢 Poor | iPhone 17 Pro Max | 2026-07-22 |
@@ -192,7 +192,7 @@
 | 🟢 | Rock Band 2 | `45410869` | 📱 iOS, 🖥️ macOS | Playable | 🚀 Great | MacBook Pro (M4) | 2026-03-23 |
 | 🟢 | Rock Band 3 | `45410914` | 📱 iOS, 🖥️ macOS | Playable | 🐢 Poor | iPhone 13 mini | 2026-03-23 |
 | 🟢 | Rumble Roses XX | `4B4E07D1` | 🖥️ macOS | Playable | 🚀 Great | Mac mini (M2) | 2026-03-11 |
-| 🟢 | Saints Row | `545107D1` | 📱 iOS | Playable | 👌 OK | iPhone 17 Pro | 2026-11-12 |
+| 🟢 | Saints Row | `545107D1` | 📱 iOS | Playable | 🚀 Great | iPhone19,3 | 2026-11-20 |
 | 🟢 | Saints Row 2 | `545107FC` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro | 2026-11-10 |
 | 🟢 | SEGA Rally Online Arcade | `58410AC2` | 📱 iOS | Playable | 🚀 Great | iPad Pro 13-inch (M5) | 2026-11-06 |
 | 🟢 | Serious Sam HD: The First Encounter | `584109DA` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro | 2026-03-24 |
@@ -341,7 +341,7 @@
 | 🟡 | Two Worlds | `535007D4` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro Max | 2026-03-09 |
 | 🟡 | WWE 13 | `545108B4` | 📱 iOS | Intro | 🐢 Poor | iPhone 15 Pro | 2026-03-29 |
 | 🟠 | AC/DC LIVE: Rock Band | `45410889` | 🖥️ macOS | Loads | 🚀 Great | MacBook Pro (M4) | 2026-03-23 |
-| 🟠 | Asura's Wrath | `43430817` | 📱 iOS | Loads | 🐢 Poor | iPhone 16 Pro Max | 2026-03-09 |
+| 🟠 | Asura's Wrath | `43430817` | 📱 iOS | Loads | 🐢 Poor | iPhone 14 Pro Max | 2026-11-19 |
 | 🟠 | Avatar: The Last Airbender - The Burning Earth | `545107E1` | 📱 iOS | Loads | 🐢 Poor | iPhone 16 Pro Max | 2026-03-19 |
 | 🟠 | Battlefield 3 | `45410950` | 📱 iOS | Loads | 🐢 Poor | iPhone 16 | 2026-03-11 |
 | 🟠 | Crash Of The Titans | `565507E4` | 📱 iOS | Loads | 🚀 Great | iPad (A16) | 2026-03-08 |

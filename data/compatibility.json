@@ -13694,33 +13694,33 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 16 Pro Max",
+      "device": "iPhone 14 Pro Max",
       "platform": "ios",
-      "osVersion": "18.7.2",
+      "osVersion": "27.0",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-09",
-    "issueNumber": 153,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/153",
-    "notes": "Makes it to initial loading then blank screen",
+    "updatedAt": "2026-11-19",
+    "issueNumber": 822,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/822",
+    "notes": "Se queda la\nPantalla frezada no funciona no pasa del menú de inicio y el sonido sigue sonando",
     "reports": [
       {
-        "device": "iPhone 16 Pro Max",
+        "device": "iPhone 14 Pro Max",
         "platform": "ios",
-        "osVersion": "18.7.2",
+        "osVersion": "27.0",
         "arch": "arm64",
         "gpuBackend": "msl",
         "status": "loads",
         "perf": "poor",
-        "date": "2026-03-09",
-        "notes": "Makes it to initial loading then blank screen",
+        "date": "2026-11-19",
+        "notes": "Se queda la\nPantalla frezada no funciona no pasa del menú de inicio y el sonido sigue sonando",
         "screenshots": [],
         "source": "app",
         "build": {
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "commitShort": "2633e8177"
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
         }
       }
     ],
@@ -13729,54 +13729,54 @@
       "all": {
         "status": "loads",
         "perf": "poor",
-        "notes": "Makes it to initial loading then blank screen",
-        "updatedAt": "2026-03-09",
+        "notes": "Se queda la\nPantalla frezada no funciona no pasa del menú de inicio y el sonido sigue sonando",
+        "updatedAt": "2026-11-19",
         "reportCount": 1,
         "latestReport": {
-          "device": "iPhone 16 Pro Max",
+          "device": "iPhone 14 Pro Max",
           "platform": "ios",
-          "osVersion": "18.7.2",
+          "osVersion": "27.0",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "loads",
           "perf": "poor",
-          "date": "2026-03-09",
-          "notes": "Makes it to initial loading then blank screen",
+          "date": "2026-11-19",
+          "notes": "Se queda la\nPantalla frezada no funciona no pasa del menú de inicio y el sonido sigue sonando",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633e8177"
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
           }
         },
         "bestReport": {
-          "device": "iPhone 16 Pro Max",
+          "device": "iPhone 14 Pro Max",
           "platform": "ios",
-          "osVersion": "18.7.2",
+          "osVersion": "27.0",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "loads",
           "perf": "poor",
-          "date": "2026-03-09",
-          "notes": "Makes it to initial loading then blank screen",
+          "date": "2026-11-19",
+          "notes": "Se queda la\nPantalla frezada no funciona no pasa del menú de inicio y el sonido sigue sonando",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633e8177"
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
           }
         },
-        "device": "iPhone 16 Pro Max",
+        "device": "iPhone 14 Pro Max",
         "platform": "ios",
-        "osVersion": "18.7.2",
+        "osVersion": "27.0",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "commitShort": "2633e8177"
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
         }
       }
     }
@@ -42665,38 +42665,54 @@
     "perf": "great",
     "tags": [],
     "platforms": [
-      "macos"
+      "ios"
     ],
     "lastReport": {
-      "device": "Mac Mini M4",
-      "platform": "macos",
-      "osVersion": "26.5.2 (for mac OS)",
+      "device": "iPhone19,7",
+      "platform": "ios",
+      "osVersion": "27.2.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-08-23",
-    "issueNumber": 672,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/672",
-    "notes": "Campaign playable from start to end. Occasional framerate drops. Occasional freezes.",
+    "updatedAt": "2026-11-20",
+    "issueNumber": 823,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/823",
+    "notes": "Needed title update 6 to fix audio",
     "reports": [
       {
-        "device": "Mac Mini M4",
-        "platform": "macos",
-        "osVersion": "26.5.2 (for mac OS)",
+        "device": "iPhone19,7",
+        "platform": "ios",
+        "osVersion": "27.2.1",
         "arch": "arm64",
         "gpuBackend": "msl",
         "status": "playable",
         "perf": "great",
-        "date": "2026-08-23",
-        "notes": "Campaign playable from start to end. Occasional framerate drops. Occasional freezes.",
-        "reportedTitleId": "4D5307DC",
-        "reportedTitle": "Crackdown",
+        "date": "2026-11-20",
+        "notes": "Needed title update 6 to fix audio",
         "screenshots": [],
-        "submittedBy": "kineticvenergy",
-        "source": "github",
+        "source": "app",
         "build": {
-          "appVersion": "2.0.1",
-          "buildNumber": "9730"
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
+        }
+      },
+      {
+        "device": "iPhone19,7",
+        "platform": "ios",
+        "osVersion": "27.2.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-20",
+        "notes": "Runs great needed tiitoe update to fix an audio glitch but besides that flawless",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
         }
       }
     ],
@@ -42705,57 +42721,54 @@
       "all": {
         "status": "playable",
         "perf": "great",
-        "notes": "Campaign playable from start to end. Occasional framerate drops. Occasional freezes.",
-        "updatedAt": "2026-08-23",
-        "reportCount": 1,
+        "notes": "Needed title update 6 to fix audio",
+        "updatedAt": "2026-11-20",
+        "reportCount": 2,
         "latestReport": {
-          "device": "Mac Mini M4",
-          "platform": "macos",
-          "osVersion": "26.5.2 (for mac OS)",
+          "device": "iPhone19,7",
+          "platform": "ios",
+          "osVersion": "27.2.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "great",
-          "date": "2026-08-23",
-          "notes": "Campaign playable from start to end. Occasional framerate drops. Occasional freezes.",
-          "reportedTitleId": "4D5307DC",
-          "reportedTitle": "Crackdown",
+          "date": "2026-11-20",
+          "notes": "Needed title update 6 to fix audio",
           "screenshots": [],
-          "submittedBy": "kineticvenergy",
-          "source": "github",
+          "source": "app",
           "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9730"
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
           }
         },
         "bestReport": {
-          "device": "Mac Mini M4",
-          "platform": "macos",
-          "osVersion": "26.5.2 (for mac OS)",
+          "device": "iPhone19,7",
+          "platform": "ios",
+          "osVersion": "27.2.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "great",
-          "date": "2026-08-23",
-          "notes": "Campaign playable from start to end. Occasional framerate drops. Occasional freezes.",
-          "reportedTitleId": "4D5307DC",
-          "reportedTitle": "Crackdown",
+          "date": "2026-11-20",
+          "notes": "Needed title update 6 to fix audio",
           "screenshots": [],
-          "submittedBy": "kineticvenergy",
-          "source": "github",
+          "source": "app",
           "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9730"
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
           }
         },
-        "device": "Mac Mini M4",
-        "platform": "macos",
-        "osVersion": "26.5.2 (for mac OS)",
+        "device": "iPhone19,7",
+        "platform": "ios",
+        "osVersion": "27.2.1",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "2.0.1",
-          "buildNumber": "9730"
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
         }
       }
     }
@@ -147131,23 +147144,41 @@
       "545107ED"
     ],
     "status": "playable",
-    "perf": "ok",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 17 Pro",
+      "device": "iPhone19,3",
       "platform": "ios",
-      "osVersion": "27.2",
+      "osVersion": "27.0.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-11-12",
+    "updatedAt": "2026-11-20",
     "issueNumber": 784,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/784",
-    "notes": "Runs great i just put the ugly mode for higher framerate. I have played for like 30 min no crashes until now.",
+    "notes": "Smoove",
     "reports": [
+      {
+        "device": "iPhone19,3",
+        "platform": "ios",
+        "osVersion": "27.0.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-20",
+        "notes": "Smoove",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
+        }
+      },
       {
         "device": "iPhone 17 Pro",
         "platform": "ios",
@@ -147176,55 +147207,55 @@
     "summaries": {
       "all": {
         "status": "playable",
-        "perf": "ok",
-        "notes": "Runs great i just put the ugly mode for higher framerate. I have played for like 30 min no crashes until now.",
-        "updatedAt": "2026-11-12",
-        "reportCount": 1,
+        "perf": "great",
+        "notes": "Smoove",
+        "updatedAt": "2026-11-20",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 17 Pro",
+          "device": "iPhone19,3",
           "platform": "ios",
-          "osVersion": "27.2",
+          "osVersion": "27.0.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
-          "perf": "ok",
-          "date": "2026-11-12",
-          "notes": "Runs great i just put the ugly mode for higher framerate. I have played for like 30 min no crashes until now.",
+          "perf": "great",
+          "date": "2026-11-20",
+          "notes": "Smoove",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "2.3.1",
-            "buildNumber": "11662",
-            "commitShort": "cf7c7ee45"
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
           }
         },
         "bestReport": {
-          "device": "iPhone 17 Pro",
+          "device": "iPhone19,3",
           "platform": "ios",
-          "osVersion": "27.2",
+          "osVersion": "27.0.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
-          "perf": "ok",
-          "date": "2026-11-12",
-          "notes": "Runs great i just put the ugly mode for higher framerate. I have played for like 30 min no crashes until now.",
+          "perf": "great",
+          "date": "2026-11-20",
+          "notes": "Smoove",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "2.3.1",
-            "buildNumber": "11662",
-            "commitShort": "cf7c7ee45"
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
           }
         },
-        "device": "iPhone 17 Pro",
+        "device": "iPhone19,3",
         "platform": "ios",
-        "osVersion": "27.2",
+        "osVersion": "27.0.1",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "2.3.1",
-          "buildNumber": "11662",
-          "commitShort": "cf7c7ee45"
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
         }
       }
     }

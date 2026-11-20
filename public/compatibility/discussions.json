@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T21:23:38.068Z",
+  "generatedAt": "2026-11-20T07:24:51.979Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -959,10 +959,32 @@
     },
     "43430817": {
       "titleId": "43430817",
-      "issueNumber": 153,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/153",
-      "updatedAt": "2026-03-09",
+      "issueNumber": 822,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/822",
+      "updatedAt": "2026-11-19",
       "entries": [
+        {
+          "id": "issue-822",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/822",
+          "author": "xenios-jp",
+          "createdAt": "2026-11-19",
+          "createdAtMs": 1795124388000,
+          "issueNumber": 822,
+          "excerpt": "Se queda la\nPantalla frezada no funciona no pasa del menú de inicio y el sonido sigue sonando",
+          "images": [],
+          "meta": {
+            "status": "loads",
+            "perf": "poor",
+            "device": "iPhone 14 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 27.0",
+            "gpuBackend": "MSL",
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "`77cc1358b`"
+          }
+        },
         {
           "id": "issue-153",
           "type": "issue",
@@ -4581,6 +4603,70 @@
         }
       ]
     },
+    "4D5307DC": {
+      "titleId": "4D5307DC",
+      "issueNumber": 823,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/823",
+      "updatedAt": "2026-11-20",
+      "entries": [
+        {
+          "id": "comment-7033175744",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/823#issuecomment-7033175744",
+          "author": "xenios-jp",
+          "createdAt": "2026-11-20",
+          "createdAtMs": 1795159269000,
+          "issueNumber": 823,
+          "excerpt": "Runs great needed tiitoe update to fix an audio glitch but besides that flawless",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone19,7",
+            "platform": "iOS",
+            "osVersion": "iOS 27.2.1",
+            "gpuBackend": "MSL",
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "`77cc1358b`"
+          }
+        },
+        {
+          "id": "issue-823",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/823",
+          "author": "xenios-jp",
+          "createdAt": "2026-11-20",
+          "createdAtMs": 1795159201000,
+          "issueNumber": 823,
+          "excerpt": "Needed title update 6 to fix audio",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone19,7",
+            "platform": "iOS",
+            "osVersion": "iOS 27.2.1",
+            "gpuBackend": "MSL",
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "`77cc1358b`"
+          }
+        },
+        {
+          "id": "issue-672",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/672",
+          "author": "kineticvenergy",
+          "createdAt": "2026-08-23",
+          "createdAtMs": 1787481862000,
+          "issueNumber": 672,
+          "excerpt": "Campaign playable from start to end. Occasional framerate drops. Occasional freezes.",
+          "images": [],
+          "meta": {}
+        }
+      ]
+    },
     "4B4E0856": {
       "titleId": "4B4E0856",
       "issueNumber": 821,
@@ -6296,8 +6382,30 @@
       "titleId": "545107D1",
       "issueNumber": 784,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/784",
-      "updatedAt": "2026-11-12",
+      "updatedAt": "2026-11-20",
       "entries": [
+        {
+          "id": "comment-7031685976",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/784#issuecomment-7031685976",
+          "author": "xenios-jp",
+          "createdAt": "2026-11-20",
+          "createdAtMs": 1795153850000,
+          "issueNumber": 784,
+          "excerpt": "Smoove",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone19,3",
+            "platform": "iOS",
+            "osVersion": "iOS 27.0.1",
+            "gpuBackend": "MSL",
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "`77cc1358b`"
+          }
+        },
         {
           "id": "issue-784",
           "type": "issue",
@@ -10436,26 +10544,6 @@
           "createdAtMs": 1787482467000,
           "issueNumber": 673,
           "excerpt": "Needed to change audio config to SDL for audio to work. Crashes during explosions, ground pounds and areas with lots of enemies.",
-          "images": [],
-          "meta": {}
-        }
-      ]
-    },
-    "4D5307DC": {
-      "titleId": "4D5307DC",
-      "issueNumber": 672,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/672",
-      "updatedAt": "2026-08-23",
-      "entries": [
-        {
-          "id": "issue-672",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/672",
-          "author": "kineticvenergy",
-          "createdAt": "2026-08-23",
-          "createdAtMs": 1787481862000,
-          "issueNumber": 672,
-          "excerpt": "Campaign playable from start to end. Occasional framerate drops. Occasional freezes.",
           "images": [],
           "meta": {}
         }
