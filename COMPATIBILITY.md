@@ -2,7 +2,7 @@
 
 > **432 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **230** · 🔵 In-Game: **67** · 🟡 Intro: **24** · 🟠 Loads: **50** · 🔴 Doesn't Boot: **61**
+> 🟢 Playable: **233** · 🔵 In-Game: **67** · 🟡 Intro: **23** · 🟠 Loads: **49** · 🔴 Doesn't Boot: **60**
 >
 > 📱 iOS: **398** · 🖥️ macOS: **55**
 
@@ -59,6 +59,7 @@
 | 🟢 | Condemned: Criminal Origins | `534507D2` | 📱 iOS | Playable | 👌 OK | iPhone 17 | 2026-04-22 |
 | 🟢 | Contra | `58410818` | 📱 iOS | Playable | 🚀 Great | iPhone 15 | 2026-06-07 |
 | 🟢 | Crackdown | `4D5307DC` | 📱 iOS | Playable | 🚀 Great | iPhone19,7 | 2026-11-20 |
+| 🟢 | Crash Of The Titans | `565507E4` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro | 2026-11-21 |
 | 🟢 | Dante's Inferno | `454108CF` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro Max | 2026-11-15 |
 | 🟢 | Dark Souls | `4E4D083A` | 📱 iOS | Playable | 👌 OK | iPhone 15 Pro Max | 2026-11-15 |
 | 🟢 | Dark Souls 2 | `465307E4` | 📱 iOS | Playable | 🐢 Poor | iPhone 17 Pro Max | 2026-07-22 |
@@ -133,6 +134,7 @@
 | 🟢 | Marble Blast Ultra | `584107D7` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro Max | 2026-05-27 |
 | 🟢 | Marvel Ultimate Alliance 2 | `4156082F` | 📱 iOS | Playable | 👌 OK | iPhone 13 Pro | 2026-03-09 |
 | 🟢 | Marvel Ultimate Alliance Gold Edition | `415607DA` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro | 2026-11-08 |
+| 🟢 | Max Payne 3 | `5454086B` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro Max | 2026-11-20 |
 | 🟢 | Metal Gear Rising: Revengeance | `4B4E080A` | 📱 iOS | Playable | 🚀 Great | iPad Pro 13-inch (M5) | 2026-06-29 |
 | 🟢 | METAL GEAR SOLID HD EDITION 2 & 3 (Metal Gear Solid HD Collection) | `4B4E0840` | 🖥️ macOS | Playable | 👌 OK | MacBook Air (M2) | 2026-08-21 |
 | 🟢 | METAL GEAR SOLID PEACE WALKER HD EDITION | `4B4E083C` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Plus | 2026-03-18 |
@@ -243,6 +245,7 @@
 | 🟢 | Ultra Street Fighter IV | `434307FC` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro Max | 2026-03-09 |
 | 🟢 | Virtua Fighter 5: Final Showdown | `534507EE` | 📱 iOS | Playable | 👌 OK | iPhone 17 Pro Max | 2026-03-03 |
 | 🟢 | WRC 5: FIA WORLD RALLY CHAMPIONSHIP | `573607E2` | 📱 iOS | Playable | 🐢 Poor | iPhone 17 Pro Max | 2026-03-17 |
+| 🟢 | WWE 2k14 | `545408B2` | 📱 iOS | Playable | 🚀 Great | iPhone 14 Plus | 2026-11-21 |
 | 🟢 | WWE All Stars | `54510866` | 📱 iOS | Playable | 🚀 Great | iPad Pro 11-inch (M2) | 2026-11-08 |
 | 🟢 | WWE Smackdown vs RAW 2008 | `5451080B` | 📱 iOS | Playable | 👌 OK | iPhone 16e | 2026-03-16 |
 | 🟢 | X-Men Origins: Wolverine | `41560816` | 📱 iOS | Playable | 👌 OK | iPhone 13 Pro Max | 2026-11-11 |
@@ -327,7 +330,6 @@
 | 🟡 | Left 4 Dead | `45410830` | 📱 iOS | Intro | 🐢 Poor | iPhone 14 Pro Max | 2026-07-30 |
 | 🟡 | Lego Lord of the Rings | `5752081D` | 📱 iOS | Intro | 🐢 Poor | iPhone 16e | 2026-06-15 |
 | 🟡 | Madden NFL 17 | `454109F2` | 📱 iOS | Intro | 🐢 Poor | iPad Air 11-inch (M3) | 2026-04-04 |
-| 🟡 | Max Payne 3 | `5454086B` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 | 2026-07-04 |
 | 🟡 | Mortal Kombat vs. DC Universe | `4D5707E9` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Plus | 2026-03-12 |
 | 🟡 | Naruto Shippuden: UNS 3 Full Burst | `4E4D085C` | 📱 iOS | Intro | 🐢 Poor | iPhone 15 Pro Max | 2026-03-13 |
 | 🟡 | PopCap Collection | `504787D8` | 📱 iOS | Intro | 🚀 Great | iPhone 13 Pro | 2026-09-10 |
@@ -345,7 +347,6 @@
 | 🟠 | Asura's Wrath | `43430817` | 📱 iOS | Loads | 🐢 Poor | iPhone 14 Pro Max | 2026-11-19 |
 | 🟠 | Avatar: The Last Airbender - The Burning Earth | `545107E1` | 📱 iOS | Loads | 🐢 Poor | iPhone 16 Pro Max | 2026-03-19 |
 | 🟠 | Battlefield 3 | `45410950` | 📱 iOS | Loads | 🐢 Poor | iPhone 16 | 2026-03-11 |
-| 🟠 | Crash Of The Titans | `565507E4` | 📱 iOS | Loads | 🚀 Great | iPad (A16) | 2026-03-08 |
 | 🟠 | Crysis 3 | `4541098E` | 📱 iOS | Loads | 🐢 Poor | iPad Pro M5 | 2026-03-09 |
 | 🟠 | de Blob 2 | `54510865` | 🖥️ macOS | Loads | 🚀 Great | MacBook Pro (M1) | 2026-08-15 |
 | 🟠 | Dragon Ball Z Budokai HD Collection | `4E4D0856` | 📱 iOS | Loads | 🐢 Poor | iPhone 15 Pro Max | 2026-08-22 |
@@ -447,7 +448,6 @@
 | 🔴 | The Wolf Among Us | `443607D5` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-20 |
 | 🔴 | Top Spin 4 | `54540859` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Pro 12.9-inch (M2) | 2026-06-24 |
 | 🔴 | Voodoo Vince (USA).xiso | `4D53005F` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro Max | 2026-11-20 |
-| 🔴 | WWE 2k14 | `545408B2` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 | 2026-03-25 |
 | 🔴 | WWE 2K15 | `545408B6` | 🖥️ macOS, 📱 iOS | Doesn't Boot | ➖ N/A | Macbook Neo A18 Pro | 2026-10-08 |
 | 🔴 | WWE 2K17 | `545408BA` | 🖥️ macOS | Doesn't Boot | ➖ N/A | MacBook Pro M1 | 2026-05-31 |
 | 🔴 | XBLA Unplugged | `4D5387FC` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 Pro Max | 2026-08-09 |

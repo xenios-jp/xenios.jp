@@ -42942,24 +42942,42 @@
     "titleIds": [
       "565507E4"
     ],
-    "status": "loads",
+    "status": "playable",
     "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPad (A16)",
+      "device": "iPhone 17 Pro",
       "platform": "ios",
-      "osVersion": "18.3",
+      "osVersion": "27.0.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-08",
+    "updatedAt": "2026-11-21",
     "issueNumber": 72,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/72",
-    "notes": "Only boots the game on Loading Screen.",
+    "notes": "Everything ok",
     "reports": [
+      {
+        "device": "iPhone 17 Pro",
+        "platform": "ios",
+        "osVersion": "27.0.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-21",
+        "notes": "Everything ok",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
+        }
+      },
       {
         "device": "iPad (A16)",
         "platform": "ios",
@@ -42986,60 +43004,56 @@
     ],
     "summaries": {
       "all": {
-        "status": "loads",
+        "status": "playable",
         "perf": "great",
-        "notes": "Only boots the game on Loading Screen.",
-        "updatedAt": "2026-03-08",
-        "reportCount": 1,
+        "notes": "Everything ok",
+        "updatedAt": "2026-11-21",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPad (A16)",
+          "device": "iPhone 17 Pro",
           "platform": "ios",
-          "osVersion": "18.3",
+          "osVersion": "27.0.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "loads",
+          "status": "playable",
           "perf": "great",
-          "date": "2026-03-08",
-          "notes": "Only boots the game on Loading Screen.",
-          "reportedTitleId": "565507E4",
-          "reportedTitle": "Crash Of The Titans",
+          "date": "2026-11-21",
+          "notes": "Everything ok",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633e8177"
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
           }
         },
         "bestReport": {
-          "device": "iPad (A16)",
+          "device": "iPhone 17 Pro",
           "platform": "ios",
-          "osVersion": "18.3",
+          "osVersion": "27.0.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "loads",
+          "status": "playable",
           "perf": "great",
-          "date": "2026-03-08",
-          "notes": "Only boots the game on Loading Screen.",
-          "reportedTitleId": "565507E4",
-          "reportedTitle": "Crash Of The Titans",
+          "date": "2026-11-21",
+          "notes": "Everything ok",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633e8177"
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
           }
         },
-        "device": "iPad (A16)",
+        "device": "iPhone 17 Pro",
         "platform": "ios",
-        "osVersion": "18.3",
+        "osVersion": "27.0.1",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "commitShort": "2633e8177"
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
         }
       }
     }
@@ -105842,24 +105856,42 @@
       "5454086B",
       "5454889D"
     ],
-    "status": "intro",
-    "perf": "poor",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 16",
+      "device": "iPhone 16 Pro Max",
       "platform": "ios",
-      "osVersion": "26.4.1",
+      "osVersion": "27.0.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-07-04",
+    "updatedAt": "2026-11-20",
     "issueNumber": 575,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/575",
-    "notes": "The intro plays normally but the moment the pre rendered intro cutscenes are done the game is a black screen and you can’t progress from there",
+    "notes": "Plays very smoothly on my iPhone\nBetter to play with an controller❤️",
     "reports": [
+      {
+        "device": "iPhone 16 Pro Max",
+        "platform": "ios",
+        "osVersion": "27.0.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-20",
+        "notes": "Plays very smoothly on my iPhone\nBetter to play with an controller❤️",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
+        }
+      },
       {
         "device": "iPhone 16",
         "platform": "ios",
@@ -105882,56 +105914,56 @@
     "screenshots": [],
     "summaries": {
       "all": {
-        "status": "intro",
-        "perf": "poor",
-        "notes": "The intro plays normally but the moment the pre rendered intro cutscenes are done the game is a black screen and you can’t progress from there",
-        "updatedAt": "2026-07-04",
-        "reportCount": 1,
+        "status": "playable",
+        "perf": "great",
+        "notes": "Plays very smoothly on my iPhone\nBetter to play with an controller❤️",
+        "updatedAt": "2026-11-20",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 16",
+          "device": "iPhone 16 Pro Max",
           "platform": "ios",
-          "osVersion": "26.4.1",
+          "osVersion": "27.0.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "poor",
-          "date": "2026-07-04",
-          "notes": "The intro plays normally but the moment the pre rendered intro cutscenes are done the game is a black screen and you can’t progress from there",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-20",
+          "notes": "Plays very smoothly on my iPhone\nBetter to play with an controller❤️",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
           }
         },
         "bestReport": {
-          "device": "iPhone 16",
+          "device": "iPhone 16 Pro Max",
           "platform": "ios",
-          "osVersion": "26.4.1",
+          "osVersion": "27.0.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "poor",
-          "date": "2026-07-04",
-          "notes": "The intro plays normally but the moment the pre rendered intro cutscenes are done the game is a black screen and you can’t progress from there",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-20",
+          "notes": "Plays very smoothly on my iPhone\nBetter to play with an controller❤️",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
           }
         },
-        "device": "iPhone 16",
+        "device": "iPhone 16 Pro Max",
         "platform": "ios",
-        "osVersion": "26.4.1",
+        "osVersion": "27.0.1",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "commitShort": "57c3ca140"
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
         }
       }
     }
@@ -192684,24 +192716,42 @@
     "titleIds": [
       "545408B2"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 16",
+      "device": "iPhone 14 Plus",
       "platform": "ios",
-      "osVersion": "26.3.1",
+      "osVersion": "27.0",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-25",
+    "updatedAt": "2026-11-21",
     "issueNumber": 363,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/363",
-    "notes": "The game doesn’t show anything just a black screen",
+    "notes": "it works",
     "reports": [
+      {
+        "device": "iPhone 14 Plus",
+        "platform": "ios",
+        "osVersion": "27.0",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-21",
+        "notes": "it works",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
+        }
+      },
       {
         "device": "iPhone 16",
         "platform": "ios",
@@ -192724,56 +192774,56 @@
     "screenshots": [],
     "summaries": {
       "all": {
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "The game doesn’t show anything just a black screen",
-        "updatedAt": "2026-03-25",
-        "reportCount": 1,
+        "status": "playable",
+        "perf": "great",
+        "notes": "it works",
+        "updatedAt": "2026-11-21",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 16",
+          "device": "iPhone 14 Plus",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "27.0",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-25",
-          "notes": "The game doesn’t show anything just a black screen",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-21",
+          "notes": "it works",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
           }
         },
         "bestReport": {
-          "device": "iPhone 16",
+          "device": "iPhone 14 Plus",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "27.0",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-25",
-          "notes": "The game doesn’t show anything just a black screen",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-21",
+          "notes": "it works",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
           }
         },
-        "device": "iPhone 16",
+        "device": "iPhone 14 Plus",
         "platform": "ios",
-        "osVersion": "26.3.1",
+        "osVersion": "27.0",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
         }
       }
     }
