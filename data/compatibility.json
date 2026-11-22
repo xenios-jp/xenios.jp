@@ -47993,39 +47993,20 @@
     "perf": "great",
     "tags": [],
     "platforms": [
-      "ios",
-      "macos"
+      "ios"
     ],
     "lastReport": {
-      "device": "Mac Studio M4 Max",
-      "platform": "macos",
-      "osVersion": "26.7.3",
+      "device": "iPhone 16 Pro",
+      "platform": "ios",
+      "osVersion": "18.5",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-11-22",
+    "updatedAt": "2026-11-12",
     "issueNumber": 19,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/19",
-    "notes": "Plays great at 60fps. Occasionally (<10% of launches) game menu text appears but no graphics (black) but returning to XeniOS menu and relaunching game fixes it.",
+    "notes": "Game loads with no glitches I could tell. The game runs smoothly but with slightly reduced speed. Very playable and very enjoyable!",
     "reports": [
-      {
-        "device": "Mac Studio M4 Max",
-        "platform": "macos",
-        "osVersion": "26.7.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "great",
-        "date": "2026-11-22",
-        "notes": "Plays great at 60fps. Occasionally (<10% of launches) game menu text appears but no graphics (black) but returning to XeniOS menu and relaunching game fixes it.",
-        "screenshots": [],
-        "source": "github",
-        "build": {
-          "appVersion": "2.3.3",
-          "buildNumber": "11940",
-          "commitShort": "77cc1358b"
-        }
-      },
       {
         "device": "iPhone19,2",
         "platform": "ios",
@@ -48080,55 +48061,47 @@
       "all": {
         "status": "playable",
         "perf": "great",
-        "notes": "Plays great at 60fps. Occasionally (<10% of launches) game menu text appears but no graphics (black) but returning to XeniOS menu and relaunching game fixes it.",
-        "updatedAt": "2026-11-22",
-        "reportCount": 4,
+        "notes": "Game loads with no glitches I could tell. The game runs smoothly but with slightly reduced speed. Very playable and very enjoyable!",
+        "updatedAt": "2026-11-12",
+        "reportCount": 3,
         "latestReport": {
-          "device": "Mac Studio M4 Max",
-          "platform": "macos",
-          "osVersion": "26.7.3",
+          "device": "iPhone19,2",
+          "platform": "ios",
+          "osVersion": "27.2",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "playable",
-          "perf": "great",
-          "date": "2026-11-22",
-          "notes": "Plays great at 60fps. Occasionally (<10% of launches) game menu text appears but no graphics (black) but returning to XeniOS menu and relaunching game fixes it.",
+          "status": "ingame",
+          "perf": "poor",
+          "date": "2026-11-12",
+          "notes": "The game launches but menu only",
           "screenshots": [],
-          "source": "github",
+          "source": "app",
           "build": {
-            "appVersion": "2.3.3",
-            "buildNumber": "11940",
-            "commitShort": "77cc1358b"
+            "appVersion": "2.3.2",
+            "buildNumber": "11934",
+            "commitShort": "5533fbfd1"
           }
         },
         "bestReport": {
-          "device": "Mac Studio M4 Max",
-          "platform": "macos",
-          "osVersion": "26.7.3",
+          "device": "iPhone 16 Pro",
+          "platform": "ios",
+          "osVersion": "18.5",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "great",
-          "date": "2026-11-22",
-          "notes": "Plays great at 60fps. Occasionally (<10% of launches) game menu text appears but no graphics (black) but returning to XeniOS menu and relaunching game fixes it.",
+          "date": "2026-03-05",
+          "notes": "Game loads with no glitches I could tell. The game runs smoothly but with slightly reduced speed. Very playable and very enjoyable!",
+          "reportedTitleId": "544307D1",
+          "reportedTitle": "DEAD OR ALIVE 4",
           "screenshots": [],
-          "source": "github",
-          "build": {
-            "appVersion": "2.3.3",
-            "buildNumber": "11940",
-            "commitShort": "77cc1358b"
-          }
+          "source": "app"
         },
-        "device": "Mac Studio M4 Max",
-        "platform": "macos",
-        "osVersion": "26.7.3",
+        "device": "iPhone 16 Pro",
+        "platform": "ios",
+        "osVersion": "18.5",
         "arch": "arm64",
-        "gpuBackend": "msl",
-        "build": {
-          "appVersion": "2.3.3",
-          "buildNumber": "11940",
-          "commitShort": "77cc1358b"
-        }
+        "gpuBackend": "msl"
       }
     }
   },
@@ -128036,122 +128009,89 @@
       "ios"
     ],
     "lastReport": {
-      "device": "IPhone 17 Pro Max",
+      "device": "iPhone19,7",
       "platform": "ios",
-      "osVersion": "26.5.1",
+      "osVersion": "27.2.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-06-18",
-    "issueNumber": 533,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/533",
-    "notes": "Fully playable, sometimes a weird screen when transitioning into a cutscene, but doesn’t last more than a second.\nInsignificant frame drops when starting a mission, don’t last too long.",
+    "updatedAt": "2026-11-22",
+    "issueNumber": 833,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/833",
+    "notes": "Plays very well but if you're using the 60fps patch i suggest capping the fps to 45 because it makes my phone into a volcano at 60",
     "reports": [
       {
-        "device": "IPhone 17 Pro Max",
+        "device": "iPhone19,7",
         "platform": "ios",
-        "osVersion": "26.5.1",
+        "osVersion": "27.2.1",
         "arch": "arm64",
         "gpuBackend": "msl",
         "status": "playable",
         "perf": "great",
-        "date": "2026-06-18",
-        "notes": "Fully playable, sometimes a weird screen when transitioning into a cutscene, but doesn’t last more than a second.\nInsignificant frame drops when starting a mission, don’t last too long.",
-        "reportedTitleId": "4D5307D3",
-        "reportedTitle": "Perfect Dark Zero",
-        "screenshots": [
-          "https://github.com/user-attachments/assets/3915e86f-a7a6-432a-b2f8-36c6b9f321e2",
-          "https://github.com/user-attachments/assets/e48d9f9c-0a0a-4451-8b38-3a5a278df771",
-          "https://github.com/user-attachments/assets/faad37a7-81ec-45c4-a177-0708f1afed0f",
-          "https://github.com/user-attachments/assets/86b16069-586c-4f50-a412-5c710f44d4a5",
-          "https://github.com/user-attachments/assets/81474933-cc10-4ec6-99d3-d1aff7cdcc84",
-          "https://github.com/user-attachments/assets/5e2c7792-54a2-4eae-afdb-c18a17bc1449"
-        ],
-        "submittedBy": "Sunne223",
-        "source": "github",
+        "date": "2026-11-22",
+        "notes": "Plays very well but if you're using the 60fps patch i suggest capping the fps to 45 because it makes my phone into a volcano at 60",
+        "screenshots": [],
+        "source": "app",
         "build": {
-          "appVersion": "2.1",
-          "buildNumber": "9857"
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
         }
       }
     ],
-    "screenshots": [
-      "https://github.com/user-attachments/assets/3915e86f-a7a6-432a-b2f8-36c6b9f321e2",
-      "https://github.com/user-attachments/assets/e48d9f9c-0a0a-4451-8b38-3a5a278df771",
-      "https://github.com/user-attachments/assets/faad37a7-81ec-45c4-a177-0708f1afed0f",
-      "https://github.com/user-attachments/assets/86b16069-586c-4f50-a412-5c710f44d4a5",
-      "https://github.com/user-attachments/assets/81474933-cc10-4ec6-99d3-d1aff7cdcc84",
-      "https://github.com/user-attachments/assets/5e2c7792-54a2-4eae-afdb-c18a17bc1449"
-    ],
+    "screenshots": [],
     "summaries": {
       "all": {
         "status": "playable",
         "perf": "great",
-        "notes": "Fully playable, sometimes a weird screen when transitioning into a cutscene, but doesn’t last more than a second.\nInsignificant frame drops when starting a mission, don’t last too long.",
-        "updatedAt": "2026-06-18",
+        "notes": "Plays very well but if you're using the 60fps patch i suggest capping the fps to 45 because it makes my phone into a volcano at 60",
+        "updatedAt": "2026-11-22",
         "reportCount": 1,
         "latestReport": {
-          "device": "IPhone 17 Pro Max",
+          "device": "iPhone19,7",
           "platform": "ios",
-          "osVersion": "26.5.1",
+          "osVersion": "27.2.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "great",
-          "date": "2026-06-18",
-          "notes": "Fully playable, sometimes a weird screen when transitioning into a cutscene, but doesn’t last more than a second.\nInsignificant frame drops when starting a mission, don’t last too long.",
-          "reportedTitleId": "4D5307D3",
-          "reportedTitle": "Perfect Dark Zero",
-          "screenshots": [
-            "https://github.com/user-attachments/assets/3915e86f-a7a6-432a-b2f8-36c6b9f321e2",
-            "https://github.com/user-attachments/assets/e48d9f9c-0a0a-4451-8b38-3a5a278df771",
-            "https://github.com/user-attachments/assets/faad37a7-81ec-45c4-a177-0708f1afed0f",
-            "https://github.com/user-attachments/assets/86b16069-586c-4f50-a412-5c710f44d4a5",
-            "https://github.com/user-attachments/assets/81474933-cc10-4ec6-99d3-d1aff7cdcc84",
-            "https://github.com/user-attachments/assets/5e2c7792-54a2-4eae-afdb-c18a17bc1449"
-          ],
-          "submittedBy": "Sunne223",
-          "source": "github",
+          "date": "2026-11-22",
+          "notes": "Plays very well but if you're using the 60fps patch i suggest capping the fps to 45 because it makes my phone into a volcano at 60",
+          "screenshots": [],
+          "source": "app",
           "build": {
-            "appVersion": "2.1",
-            "buildNumber": "9857"
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
           }
         },
         "bestReport": {
-          "device": "IPhone 17 Pro Max",
+          "device": "iPhone19,7",
           "platform": "ios",
-          "osVersion": "26.5.1",
+          "osVersion": "27.2.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "great",
-          "date": "2026-06-18",
-          "notes": "Fully playable, sometimes a weird screen when transitioning into a cutscene, but doesn’t last more than a second.\nInsignificant frame drops when starting a mission, don’t last too long.",
-          "reportedTitleId": "4D5307D3",
-          "reportedTitle": "Perfect Dark Zero",
-          "screenshots": [
-            "https://github.com/user-attachments/assets/3915e86f-a7a6-432a-b2f8-36c6b9f321e2",
-            "https://github.com/user-attachments/assets/e48d9f9c-0a0a-4451-8b38-3a5a278df771",
-            "https://github.com/user-attachments/assets/faad37a7-81ec-45c4-a177-0708f1afed0f",
-            "https://github.com/user-attachments/assets/86b16069-586c-4f50-a412-5c710f44d4a5",
-            "https://github.com/user-attachments/assets/81474933-cc10-4ec6-99d3-d1aff7cdcc84",
-            "https://github.com/user-attachments/assets/5e2c7792-54a2-4eae-afdb-c18a17bc1449"
-          ],
-          "submittedBy": "Sunne223",
-          "source": "github",
+          "date": "2026-11-22",
+          "notes": "Plays very well but if you're using the 60fps patch i suggest capping the fps to 45 because it makes my phone into a volcano at 60",
+          "screenshots": [],
+          "source": "app",
           "build": {
-            "appVersion": "2.1",
-            "buildNumber": "9857"
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
           }
         },
-        "device": "IPhone 17 Pro Max",
+        "device": "iPhone19,7",
         "platform": "ios",
-        "osVersion": "26.5.1",
+        "osVersion": "27.2.1",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "2.1",
-          "buildNumber": "9857"
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
         }
       }
     }
@@ -201965,24 +201905,42 @@
     "titleIds": [
       "4D530064"
     ],
-    "status": "loads",
-    "perf": "poor",
+    "status": "playable",
+    "perf": "ok",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 17 Pro",
+      "device": "iPad19,1",
       "platform": "ios",
-      "osVersion": "27.0",
+      "osVersion": "27.2",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-11-14",
+    "updatedAt": "2026-11-22",
     "issueNumber": 800,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/800",
-    "notes": "Freezes in game.",
+    "notes": "Laggs sometimes in new zones but in general playable on the ipad mini 8. Someqtimes while booting the game can crash but after its launched you can play",
     "reports": [
+      {
+        "device": "iPad19,1",
+        "platform": "ios",
+        "osVersion": "27.2",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-11-22",
+        "notes": "Laggs sometimes in new zones but in general playable on the ipad mini 8. Someqtimes while booting the game can crash but after its launched you can play",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
+        }
+      },
       {
         "device": "iPhone 17 Pro",
         "platform": "ios",
@@ -202003,60 +201961,61 @@
       }
     ],
     "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4D530064/1795373350987-1.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4D530064/1794631471762-1.jpg"
     ],
     "summaries": {
       "all": {
-        "status": "loads",
-        "perf": "poor",
-        "notes": "Freezes in game.",
-        "updatedAt": "2026-11-14",
-        "reportCount": 1,
+        "status": "playable",
+        "perf": "ok",
+        "notes": "Laggs sometimes in new zones but in general playable on the ipad mini 8. Someqtimes while booting the game can crash but after its launched you can play",
+        "updatedAt": "2026-11-22",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 17 Pro",
+          "device": "iPad19,1",
           "platform": "ios",
-          "osVersion": "27.0",
+          "osVersion": "27.2",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "poor",
-          "date": "2026-11-14",
-          "notes": "Freezes in game.",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-11-22",
+          "notes": "Laggs sometimes in new zones but in general playable on the ipad mini 8. Someqtimes while booting the game can crash but after its launched you can play",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "2.3.2",
-            "buildNumber": "11934",
-            "commitShort": "5533fbfd1"
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
           }
         },
         "bestReport": {
-          "device": "iPhone 17 Pro",
+          "device": "iPad19,1",
           "platform": "ios",
-          "osVersion": "27.0",
+          "osVersion": "27.2",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "loads",
-          "perf": "poor",
-          "date": "2026-11-14",
-          "notes": "Freezes in game.",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-11-22",
+          "notes": "Laggs sometimes in new zones but in general playable on the ipad mini 8. Someqtimes while booting the game can crash but after its launched you can play",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "2.3.2",
-            "buildNumber": "11934",
-            "commitShort": "5533fbfd1"
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
           }
         },
-        "device": "iPhone 17 Pro",
+        "device": "iPad19,1",
         "platform": "ios",
-        "osVersion": "27.0",
+        "osVersion": "27.2",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "2.3.2",
-          "buildNumber": "11934",
-          "commitShort": "5533fbfd1"
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
         }
       }
     }

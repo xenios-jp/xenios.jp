@@ -2,9 +2,9 @@
 
 > **434 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **235** · 🔵 In-Game: **68** · 🟡 Intro: **23** · 🟠 Loads: **49** · 🔴 Doesn't Boot: **59**
+> 🟢 Playable: **236** · 🔵 In-Game: **68** · 🟡 Intro: **23** · 🟠 Loads: **48** · 🔴 Doesn't Boot: **59**
 >
-> 📱 iOS: **400** · 🖥️ macOS: **56**
+> 📱 iOS: **400** · 🖥️ macOS: **55**
 
 ## Legend
 
@@ -66,7 +66,7 @@
 | 🟢 | DAYTONA USA | `58410B1D` | 📱 iOS | Playable | 🚀 Great | iPad Pro 13-inch (M5) | 2026-06-11 |
 | 🟢 | DB: Raging Blast 2 | `4E4D0826` | 📱 iOS | Playable | 🐢 Poor | iPad Pro (M2) | 2026-03-03 |
 | 🟢 | Dead Island | `4B4D07DF` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-04-20 |
-| 🟢 | DEAD OR ALIVE 4 | `544307D1` | 📱 iOS, 🖥️ macOS | Playable | 🚀 Great | Mac Studio M4 Max | 2026-11-22 |
+| 🟢 | DEAD OR ALIVE 4 | `544307D1` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro | 2026-11-12 |
 | 🟢 | Dead or Alive Xtreme 2 | `544307D2` | 📱 iOS | Playable | 🚀 Great | iPad Pro 12.9-inch (M2) | 2026-11-06 |
 | 🟢 | Dead Rising 2 | `434307EC` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-11-17 |
 | 🟢 | Dead Space | `45410857` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro | 2026-03-03 |
@@ -114,6 +114,7 @@
 | 🟢 | Guitar Hero II | `415607E7` | 📱 iOS, 🖥️ macOS | Playable | 👌 OK | iPhone 13 mini | 2026-03-22 |
 | 🟢 | Guitar Hero III Legends of Rock | `415607F7` | 📱 iOS | Playable | 👌 OK | iPhone 13 mini | 2026-03-22 |
 | 🟢 | Halo - Combat Evolved (USA).xiso | `4D530004` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro | 2026-11-16 |
+| 🟢 | Halo 2 | `4D530064` | 📱 iOS | Playable | 👌 OK | iPad19,1 | 2026-11-22 |
 | 🟢 | Halo 3 | `4D5307E6` | 🖥️ macOS, 📱 iOS | Playable | 👌 OK | iPad Air 11-inch (M2) | 2026-11-16 |
 | 🟢 | Halo 3: ODST | `4D530877` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro | 2026-11-19 |
 | 🟢 | Halo 4 | `4D530919` | 📱 iOS | Playable | 🚀 Great | iPad19,1 | 2026-11-07 |
@@ -173,7 +174,7 @@
 | 🟢 | PAYDAY 2 | `464F0800` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-09-02 |
 | 🟢 | Peggle | `58410889` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro Max | 2026-05-27 |
 | 🟢 | Peggle 2 | `58411436` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro Max | 2026-05-27 |
-| 🟢 | Perfect Dark Zero | `4D5307D3` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-06-18 |
+| 🟢 | Perfect Dark Zero | `4D5307D3` | 📱 iOS | Playable | 🚀 Great | iPhone19,7 | 2026-11-22 |
 | 🟢 | Plants vs. Zombies | `584109FF` | 📱 iOS | Playable | 👌 OK | iPhone 14 Pro Max | 2026-03-25 |
 | 🟢 | Portal: Still Alive | `58410960` | 📱 iOS | Playable | 🚀 Great | iPhone 15 | 2026-09-13 |
 | 🟢 | Pro Evolution Soccer 2011 / PES 2011 | `4B4E081D` | 📱 iOS | Playable | 🐢 Poor | iPhone 16e | 2026-05-20 |
@@ -360,7 +361,6 @@
 | 🟠 | Final Fantasy XIII-2 | `53510806` | 📱 iOS | Loads | 🐢 Poor | iPhone 16 Pro Max | 2026-04-05 |
 | 🟠 | Full House Poker | `5841098D` | 🖥️ macOS | Loads | 🚀 Great | MacBook Pro (M1) | 2026-08-15 |
 | 🟠 | Grand Theft Auto: San Andreas | `545408B8` | 📱 iOS | Loads | 🐢 Poor | iPhone 15 Pro Max | 2026-04-23 |
-| 🟠 | Halo 2 | `4D530064` | 📱 iOS | Loads | 🐢 Poor | iPhone 17 Pro | 2026-11-14 |
 | 🟠 | Jeopardy! | `545108AE` | 📱 iOS | Loads | 🐢 Poor | iPhone 16 Pro | 2026-03-05 |
 | 🟠 | Kung Fu Panda | `415607F2` | 📱 iOS | Loads | 🐢 Poor | iPhone 15 Pro Max | 2026-03-17 |
 | 🟠 | Lego Batman 2: DC Super Heroes | `57520817` | 📱 iOS | Loads | 🐢 Poor | iPhone 17 Pro Max | 2026-06-11 |

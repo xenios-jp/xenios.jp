@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T12:29:10.815Z",
+  "generatedAt": "2026-11-22T18:53:28.446Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -4655,119 +4655,45 @@
         }
       ]
     },
-    "544307D1": {
-      "titleId": "544307D1",
-      "issueNumber": 19,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/19",
+    "4D5307D3": {
+      "titleId": "4D5307D3",
+      "issueNumber": 833,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/833",
       "updatedAt": "2026-11-22",
       "entries": [
         {
-          "id": "issue-832",
+          "id": "issue-833",
           "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/832",
-          "author": "inasir1971",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/833",
+          "author": "xenios-jp",
           "createdAt": "2026-11-22",
-          "createdAtMs": 1795350373000,
-          "issueNumber": 832,
-          "excerpt": "Plays great at 60fps. Occasionally (<10% of launches) game menu text appears but no graphics (black) but returning to XeniOS menu and relaunching game fixes it.",
-          "images": [],
-          "meta": {}
-        },
-        {
-          "id": "issue-787",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/787",
-          "author": "xenios-jp",
-          "createdAt": "2026-11-12",
-          "createdAtMs": 1794510259000,
-          "issueNumber": 787,
-          "excerpt": "The game launches but menu only",
-          "images": [],
-          "meta": {
-            "status": "ingame",
-            "perf": "poor",
-            "device": "iPhone19,2",
-            "platform": "iOS",
-            "osVersion": "iOS 27.2",
-            "gpuBackend": "MSL",
-            "appVersion": "2.3.2",
-            "buildNumber": "11934",
-            "commitShort": "`5533fbfd1`"
-          }
-        },
-        {
-          "id": "issue-612",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/612",
-          "author": "xenios-jp",
-          "createdAt": "2026-07-23",
-          "createdAtMs": 1784775621000,
-          "issueNumber": 612,
-          "excerpt": "crashes instantly or infinitely loads",
-          "images": [],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPhone 16 Pro",
-            "platform": "iOS",
-            "osVersion": "iOS 18.6.2",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "buildStage": "stable",
-            "commitShort": "`57c3ca140`"
-          }
-        },
-        {
-          "id": "comment-4232873149",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/19#issuecomment-4232873149",
-          "author": "udance4ever",
-          "createdAt": "2026-04-12",
-          "createdAtMs": 1776032722000,
-          "issueNumber": 19,
-          "excerpt": "This game booted beautifully on MacBook Pro (M1) (build 1.0.1-9288 #056d2f64d) yesterday, today it throws the error pasted below without the call stack.\n\nSame issue with [Remember Me](#176) and [Blur](#298] (all 3 worked prior but crashes the same way today when other titles work)\n\n```\n*** Terminating app due to uncaught exception 'NSInternalInconsistencyException', reason: 'Invalid parameter not satisfying: CGRectContainsRect(CGRectMake((CGFloat)INT_MIN, (CGFloat)INT_MIN, (CGFloat)INT_MAX - (CGFloat)INT_MIN, (CGFloat)INT_MAX - (CGFloat)INT_MIN), frame). self=<QNSWindow: 0xa99255b80; contentView=NSObject(0x0)> frame={{0, 2147483633}, {1920, 1080}}'\n```",
-          "images": [],
-          "meta": {}
-        },
-        {
-          "id": "comment-4015745484",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/19#issuecomment-4015745484",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-05",
-          "createdAtMs": 1772729182000,
-          "issueNumber": 19,
-          "excerpt": "Game loads with no glitches I could tell. The game runs smoothly but with slightly reduced speed. Very playable and very enjoyable!",
+          "createdAtMs": 1795366783000,
+          "issueNumber": 833,
+          "excerpt": "Plays very well but if you're using the 60fps patch i suggest capping the fps to 45 because it makes my phone into a volcano at 60",
           "images": [],
           "meta": {
             "status": "playable",
             "perf": "great",
-            "device": "iPhone 16 Pro",
+            "device": "iPhone19,7",
             "platform": "iOS",
-            "osVersion": "iOS 18.5",
-            "gpuBackend": "MSL"
+            "osVersion": "iOS 27.2.1",
+            "gpuBackend": "MSL",
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "`77cc1358b`"
           }
         },
         {
-          "id": "issue-19",
+          "id": "issue-533",
           "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/19",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-03",
-          "createdAtMs": 1772553802000,
-          "issueNumber": 19,
-          "excerpt": "Visuals are perfect with no apparent glitches. Performance is half speed but stutter free. Menus are perfect and sound is perfect.",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/533",
+          "author": "Sunne223",
+          "createdAt": "2026-06-18",
+          "createdAtMs": 1781799346000,
+          "issueNumber": 533,
+          "excerpt": "Fully playable, sometimes a weird screen when transitioning into a cutscene, but doesn’t last more than a second.\nInsignificant frame drops when starting a mission, don’t last too long.",
           "images": [],
-          "meta": {
-            "status": "playable",
-            "perf": "ok",
-            "device": "iPhone 17 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 26.1",
-            "gpuBackend": "MSL"
-          }
+          "meta": {}
         }
       ]
     },
@@ -5936,8 +5862,32 @@
       "titleId": "4D530064",
       "issueNumber": 800,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/800",
-      "updatedAt": "2026-11-14",
+      "updatedAt": "2026-11-22",
       "entries": [
+        {
+          "id": "comment-7083894322",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/800#issuecomment-7083894322",
+          "author": "xenios-jp",
+          "createdAt": "2026-11-22",
+          "createdAtMs": 1795373356000,
+          "issueNumber": 800,
+          "excerpt": "Laggs sometimes in new zones but in general playable on the ipad mini 8. Someqtimes while booting the game can crash but after its launched you can play",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/4D530064/1795373350987-1.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPad19,1",
+            "platform": "iOS",
+            "osVersion": "iOS 27.2",
+            "gpuBackend": "MSL",
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "`77cc1358b`"
+          }
+        },
         {
           "id": "issue-800",
           "type": "issue",
@@ -6648,6 +6598,110 @@
             "buildNumber": "9280",
             "buildStage": "stable",
             "commitShort": "`2633e8177`"
+          }
+        }
+      ]
+    },
+    "544307D1": {
+      "titleId": "544307D1",
+      "issueNumber": 19,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/19",
+      "updatedAt": "2026-11-22",
+      "entries": [
+        {
+          "id": "issue-787",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/787",
+          "author": "xenios-jp",
+          "createdAt": "2026-11-12",
+          "createdAtMs": 1794510259000,
+          "issueNumber": 787,
+          "excerpt": "The game launches but menu only",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "poor",
+            "device": "iPhone19,2",
+            "platform": "iOS",
+            "osVersion": "iOS 27.2",
+            "gpuBackend": "MSL",
+            "appVersion": "2.3.2",
+            "buildNumber": "11934",
+            "commitShort": "`5533fbfd1`"
+          }
+        },
+        {
+          "id": "issue-612",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/612",
+          "author": "xenios-jp",
+          "createdAt": "2026-07-23",
+          "createdAtMs": 1784775621000,
+          "issueNumber": 612,
+          "excerpt": "crashes instantly or infinitely loads",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 16 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 18.6.2",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "buildStage": "stable",
+            "commitShort": "`57c3ca140`"
+          }
+        },
+        {
+          "id": "comment-4232873149",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/19#issuecomment-4232873149",
+          "author": "udance4ever",
+          "createdAt": "2026-04-12",
+          "createdAtMs": 1776032722000,
+          "issueNumber": 19,
+          "excerpt": "This game booted beautifully on MacBook Pro (M1) (build 1.0.1-9288 #056d2f64d) yesterday, today it throws the error pasted below without the call stack.\n\nSame issue with [Remember Me](#176) and [Blur](#298] (all 3 worked prior but crashes the same way today when other titles work)\n\n```\n*** Terminating app due to uncaught exception 'NSInternalInconsistencyException', reason: 'Invalid parameter not satisfying: CGRectContainsRect(CGRectMake((CGFloat)INT_MIN, (CGFloat)INT_MIN, (CGFloat)INT_MAX - (CGFloat)INT_MIN, (CGFloat)INT_MAX - (CGFloat)INT_MIN), frame). self=<QNSWindow: 0xa99255b80; contentView=NSObject(0x0)> frame={{0, 2147483633}, {1920, 1080}}'\n```",
+          "images": [],
+          "meta": {}
+        },
+        {
+          "id": "comment-4015745484",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/19#issuecomment-4015745484",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-05",
+          "createdAtMs": 1772729182000,
+          "issueNumber": 19,
+          "excerpt": "Game loads with no glitches I could tell. The game runs smoothly but with slightly reduced speed. Very playable and very enjoyable!",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 16 Pro",
+            "platform": "iOS",
+            "osVersion": "iOS 18.5",
+            "gpuBackend": "MSL"
+          }
+        },
+        {
+          "id": "issue-19",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/19",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-03",
+          "createdAtMs": 1772553802000,
+          "issueNumber": 19,
+          "excerpt": "Visuals are perfect with no apparent glitches. Performance is half speed but stutter free. Menus are perfect and sound is perfect.",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.1",
+            "gpuBackend": "MSL"
           }
         }
       ]
@@ -13889,26 +13943,6 @@
             "buildStage": "stable",
             "commitShort": "`57c3ca140`"
           }
-        }
-      ]
-    },
-    "4D5307D3": {
-      "titleId": "4D5307D3",
-      "issueNumber": 533,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/533",
-      "updatedAt": "2026-06-18",
-      "entries": [
-        {
-          "id": "issue-533",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/533",
-          "author": "Sunne223",
-          "createdAt": "2026-06-18",
-          "createdAtMs": 1781799346000,
-          "issueNumber": 533,
-          "excerpt": "Fully playable, sometimes a weird screen when transitioning into a cutscene, but doesn’t last more than a second.\nInsignificant frame drops when starting a mission, don’t last too long.",
-          "images": [],
-          "meta": {}
         }
       ]
     },
