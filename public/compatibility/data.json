@@ -65841,96 +65841,96 @@
       "454189E3",
       "454189E8"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPad Pro 13-inch (M4)",
+      "device": "iPhone 16 Pro Max",
       "platform": "ios",
-      "osVersion": "26.3.1",
+      "osVersion": "27.0.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-13",
-    "issueNumber": 235,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/235",
-    "notes": "Crashes on IpadOS 26.3.1 IPad Pro 13in 5G M4 1TB 16gb ram could be the iOS version im on is too new at the moment.",
+    "updatedAt": "2026-11-21",
+    "issueNumber": 830,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/830",
+    "notes": "Plays well on my phone everything good",
     "reports": [
       {
-        "device": "iPad Pro 13-inch (M4)",
+        "device": "iPhone 16 Pro Max",
         "platform": "ios",
-        "osVersion": "26.3.1",
+        "osVersion": "27.0.1",
         "arch": "arm64",
         "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-03-13",
-        "notes": "Crashes on IpadOS 26.3.1 IPad Pro 13in 5G M4 1TB 16gb ram could be the iOS version im on is too new at the moment.",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-21",
+        "notes": "Plays well on my phone everything good",
         "screenshots": [],
         "source": "app",
         "build": {
-          "appVersion": "1.0.0",
-          "buildNumber": "9296",
-          "commitShort": "ab2ca341a"
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
         }
       }
     ],
     "screenshots": [],
     "summaries": {
       "all": {
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "Crashes on IpadOS 26.3.1 IPad Pro 13in 5G M4 1TB 16gb ram could be the iOS version im on is too new at the moment.",
-        "updatedAt": "2026-03-13",
+        "status": "playable",
+        "perf": "great",
+        "notes": "Plays well on my phone everything good",
+        "updatedAt": "2026-11-21",
         "reportCount": 1,
         "latestReport": {
-          "device": "iPad Pro 13-inch (M4)",
+          "device": "iPhone 16 Pro Max",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "27.0.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-13",
-          "notes": "Crashes on IpadOS 26.3.1 IPad Pro 13in 5G M4 1TB 16gb ram could be the iOS version im on is too new at the moment.",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-21",
+          "notes": "Plays well on my phone everything good",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "1.0.0",
-            "buildNumber": "9296",
-            "commitShort": "ab2ca341a"
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
           }
         },
         "bestReport": {
-          "device": "iPad Pro 13-inch (M4)",
+          "device": "iPhone 16 Pro Max",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "27.0.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-13",
-          "notes": "Crashes on IpadOS 26.3.1 IPad Pro 13in 5G M4 1TB 16gb ram could be the iOS version im on is too new at the moment.",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-21",
+          "notes": "Plays well on my phone everything good",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "1.0.0",
-            "buildNumber": "9296",
-            "commitShort": "ab2ca341a"
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
           }
         },
-        "device": "iPad Pro 13-inch (M4)",
+        "device": "iPhone 16 Pro Max",
         "platform": "ios",
-        "osVersion": "26.3.1",
+        "osVersion": "27.0.1",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "1.0.0",
-          "buildNumber": "9296",
-          "commitShort": "ab2ca341a"
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
         }
       }
     }
@@ -76920,17 +76920,35 @@
       "macos"
     ],
     "lastReport": {
-      "device": "iPhone 17 Pro Max",
+      "device": "iPhone19,2",
       "platform": "ios",
-      "osVersion": "27.0",
+      "osVersion": "27.2.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-11-13",
+    "updatedAt": "2026-11-22",
     "issueNumber": 41,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/41",
-    "notes": "it works really REALLY well",
+    "notes": "It works AMAZING and runs smoothly",
     "reports": [
+      {
+        "device": "iPhone19,2",
+        "platform": "ios",
+        "osVersion": "27.2.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-22",
+        "notes": "It works AMAZING and runs smoothly",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
+        }
+      },
       {
         "device": "iPhone 17 Pro Max",
         "platform": "ios",
@@ -77079,54 +77097,54 @@
       "all": {
         "status": "playable",
         "perf": "great",
-        "notes": "it works really REALLY well",
-        "updatedAt": "2026-11-13",
-        "reportCount": 7,
+        "notes": "It works AMAZING and runs smoothly",
+        "updatedAt": "2026-11-22",
+        "reportCount": 8,
         "latestReport": {
-          "device": "iPhone 17 Pro Max",
+          "device": "iPhone19,2",
           "platform": "ios",
-          "osVersion": "27.0",
+          "osVersion": "27.2.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "great",
-          "date": "2026-11-13",
-          "notes": "it works really REALLY well",
+          "date": "2026-11-22",
+          "notes": "It works AMAZING and runs smoothly",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "2.3.2",
-            "buildNumber": "11934",
-            "commitShort": "5533fbfd1"
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
           }
         },
         "bestReport": {
-          "device": "iPhone 17 Pro Max",
+          "device": "iPhone19,2",
           "platform": "ios",
-          "osVersion": "27.0",
+          "osVersion": "27.2.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "great",
-          "date": "2026-11-13",
-          "notes": "it works really REALLY well",
+          "date": "2026-11-22",
+          "notes": "It works AMAZING and runs smoothly",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "2.3.2",
-            "buildNumber": "11934",
-            "commitShort": "5533fbfd1"
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
           }
         },
-        "device": "iPhone 17 Pro Max",
+        "device": "iPhone19,2",
         "platform": "ios",
-        "osVersion": "27.0",
+        "osVersion": "27.2.1",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "2.3.2",
-          "buildNumber": "11934",
-          "commitShort": "5533fbfd1"
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
         }
       }
     }
@@ -105870,8 +105888,8 @@
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-11-20",
-    "issueNumber": 575,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/575",
+    "issueNumber": 825,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/825",
     "notes": "Plays very smoothly on my iPhone\nBetter to play with an controller❤️",
     "reports": [
       {
@@ -105891,24 +105909,6 @@
           "buildNumber": "11940",
           "commitShort": "77cc1358b"
         }
-      },
-      {
-        "device": "iPhone 16",
-        "platform": "ios",
-        "osVersion": "26.4.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "intro",
-        "perf": "poor",
-        "date": "2026-07-04",
-        "notes": "The intro plays normally but the moment the pre rendered intro cutscenes are done the game is a black screen and you can’t progress from there",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "commitShort": "57c3ca140"
-        }
       }
     ],
     "screenshots": [],
@@ -105918,7 +105918,7 @@
         "perf": "great",
         "notes": "Plays very smoothly on my iPhone\nBetter to play with an controller❤️",
         "updatedAt": "2026-11-20",
-        "reportCount": 2,
+        "reportCount": 1,
         "latestReport": {
           "device": "iPhone 16 Pro Max",
           "platform": "ios",
@@ -141683,57 +141683,39 @@
       "4343882D"
     ],
     "status": "ingame",
-    "perf": "poor",
+    "perf": "ok",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 13 Pro Max",
+      "device": "iPhone 15",
       "platform": "ios",
-      "osVersion": "26.3",
+      "osVersion": "27.2.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-20",
-    "issueNumber": 262,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/262",
-    "notes": "It’s slow. And buggy. After changing FPS it could be playable little bit. But still needs little optimisation",
+    "updatedAt": "2026-11-21",
+    "issueNumber": 829,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/829",
+    "notes": "Muito carregamento de sha …",
     "reports": [
       {
-        "device": "iPhone 13 Pro Max",
+        "device": "iPhone 15",
         "platform": "ios",
-        "osVersion": "26.3",
+        "osVersion": "27.2.1",
         "arch": "arm64",
         "gpuBackend": "msl",
         "status": "ingame",
-        "perf": "poor",
-        "date": "2026-03-20",
-        "notes": "It’s slow. And buggy. After changing FPS it could be playable little bit. But still needs little optimisation",
+        "perf": "ok",
+        "date": "2026-11-21",
+        "notes": "Muito carregamento de sha …",
         "screenshots": [],
         "source": "app",
         "build": {
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
-        }
-      },
-      {
-        "device": "iPhone 13",
-        "platform": "ios",
-        "osVersion": "26.3",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "loads",
-        "perf": "poor",
-        "date": "2026-03-14",
-        "notes": "Performance drop",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
         }
       }
     ],
@@ -141743,55 +141725,55 @@
     "summaries": {
       "all": {
         "status": "ingame",
-        "perf": "poor",
-        "notes": "It’s slow. And buggy. After changing FPS it could be playable little bit. But still needs little optimisation",
-        "updatedAt": "2026-03-20",
-        "reportCount": 2,
+        "perf": "ok",
+        "notes": "Muito carregamento de sha …",
+        "updatedAt": "2026-11-21",
+        "reportCount": 1,
         "latestReport": {
-          "device": "iPhone 13 Pro Max",
+          "device": "iPhone 15",
           "platform": "ios",
-          "osVersion": "26.3",
+          "osVersion": "27.2.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "ingame",
-          "perf": "poor",
-          "date": "2026-03-20",
-          "notes": "It’s slow. And buggy. After changing FPS it could be playable little bit. But still needs little optimisation",
+          "perf": "ok",
+          "date": "2026-11-21",
+          "notes": "Muito carregamento de sha …",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
           }
         },
         "bestReport": {
-          "device": "iPhone 13 Pro Max",
+          "device": "iPhone 15",
           "platform": "ios",
-          "osVersion": "26.3",
+          "osVersion": "27.2.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "ingame",
-          "perf": "poor",
-          "date": "2026-03-20",
-          "notes": "It’s slow. And buggy. After changing FPS it could be playable little bit. But still needs little optimisation",
+          "perf": "ok",
+          "date": "2026-11-21",
+          "notes": "Muito carregamento de sha …",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
           }
         },
-        "device": "iPhone 13 Pro Max",
+        "device": "iPhone 15",
         "platform": "ios",
-        "osVersion": "26.3",
+        "osVersion": "27.2.1",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
         }
       }
     }
@@ -141904,24 +141886,97 @@
     "titleIds": [
       "43430841"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
-    "platforms": [],
-    "lastReport": null,
-    "updatedAt": "",
-    "notes": "",
-    "reports": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 15",
+      "platform": "ios",
+      "osVersion": "27.2.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-11-21",
+    "issueNumber": 828,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/828",
+    "notes": "0 travamentos",
+    "reports": [
+      {
+        "device": "iPhone 15",
+        "platform": "ios",
+        "osVersion": "27.2.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-21",
+        "notes": "0 travamentos",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
+        }
+      }
+    ],
     "screenshots": [],
     "summaries": {
       "all": {
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "playable",
+        "perf": "great",
+        "notes": "0 travamentos",
+        "updatedAt": "2026-11-21",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 15",
+          "platform": "ios",
+          "osVersion": "27.2.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-21",
+          "notes": "0 travamentos",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 15",
+          "platform": "ios",
+          "osVersion": "27.2.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-21",
+          "notes": "0 travamentos",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
+          }
+        },
+        "device": "iPhone 15",
+        "platform": "ios",
+        "osVersion": "27.2.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "build": {
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
+        }
       }
     }
   },
@@ -192730,8 +192785,8 @@
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-11-21",
-    "issueNumber": 363,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/363",
+    "issueNumber": 827,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/827",
     "notes": "it works",
     "reports": [
       {
@@ -192751,24 +192806,6 @@
           "buildNumber": "11940",
           "commitShort": "77cc1358b"
         }
-      },
-      {
-        "device": "iPhone 16",
-        "platform": "ios",
-        "osVersion": "26.3.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-03-25",
-        "notes": "The game doesn’t show anything just a black screen",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
-        }
       }
     ],
     "screenshots": [],
@@ -192778,7 +192815,7 @@
         "perf": "great",
         "notes": "it works",
         "updatedAt": "2026-11-21",
-        "reportCount": 2,
+        "reportCount": 1,
         "latestReport": {
           "device": "iPhone 14 Plus",
           "platform": "ios",

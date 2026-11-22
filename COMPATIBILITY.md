@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **432 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **433 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **233** · 🔵 In-Game: **67** · 🟡 Intro: **23** · 🟠 Loads: **49** · 🔴 Doesn't Boot: **60**
+> 🟢 Playable: **235** · 🔵 In-Game: **67** · 🟡 Intro: **23** · 🟠 Loads: **49** · 🔴 Doesn't Boot: **59**
 >
-> 📱 iOS: **398** · 🖥️ macOS: **55**
+> 📱 iOS: **399** · 🖥️ macOS: **55**
 
 ## Legend
 
@@ -90,6 +90,7 @@
 | 🟢 | Family Guy: Back To The Multiverse | `415608C5` | 📱 iOS | Playable | 👌 OK | iPad Mini (A17 Pro) | 2026-03-13 |
 | 🟢 | Far Cry 2 | `55530810` | 📱 iOS | Playable | 🐢 Poor | iPhone 16 | 2026-03-10 |
 | 🟢 | Farming Simulator 15 | `464507E1` | 📱 iOS | Playable | 👌 OK | iPhone 16e | 2026-10-09 |
+| 🟢 | FIFA 15 | `454109DB` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro Max | 2026-11-21 |
 | 🟢 | Fight Night Champion | `45410915` | 📱 iOS | Playable | 🚀 Great | iPhone 15 | 2026-11-13 |
 | 🟢 | Fight Night Round 4 | `45410894` | 📱 iOS | Playable | 🚀 Great | iPhone 15 | 2026-11-14 |
 | 🟢 | Final Fantasy XIII | `535107E4` | 📱 iOS | Playable | 👌 OK | iPhone 17 | 2026-03-18 |
@@ -105,7 +106,7 @@
 | 🟢 | Gears of War: Judgment | `4D530A26` | 📱 iOS | Playable | 🐢 Poor | iPhone 17 Pro Max | 2026-03-17 |
 | 🟢 | Geometry Wars Evolved | `584107ED` | 📱 iOS | Playable | 🚀 Great | iPhone 13 | 2026-03-10 |
 | 🟢 | GoldenEye: 007 Reloaded | `415608AF` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-05-09 |
-| 🟢 | Grand Theft Auto IV | `545407F2` | 📱 iOS, 🖥️ macOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-11-13 |
+| 🟢 | Grand Theft Auto IV | `545407F2` | 📱 iOS, 🖥️ macOS | Playable | 🚀 Great | iPhone19,2 | 2026-11-22 |
 | 🟢 | Grand Theft Auto V | `545408A7` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-11-18 |
 | 🟢 | GRID | `434D07FF` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro | 2026-05-31 |
 | 🟢 | Guacamelee Super Turbo Championship Edition | `58411446` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-03 |
@@ -189,6 +190,7 @@
 | 🟢 | Red Dead Redemption GOTY Edition | `5454082B` | 📱 iOS | Playable | 👌 OK | iPhone 17 Pro Max | 2026-11-13 |
 | 🟢 | Resident Evil 4 | `4343081C` | 📱 iOS | Playable | 🚀 Great | iPad Pro 11-inch (M2) | 2026-11-15 |
 | 🟢 | Resident Evil 5 | `434307D4` | 📱 iOS | Playable | 🐢 Poor | iPhone 15 Pro | 2026-06-15 |
+| 🟢 | Resident Evil HD Remastered | `43430841` | 📱 iOS | Playable | 🚀 Great | iPhone 15 | 2026-11-21 |
 | 🟢 | Resident Evil: Operation Raccoon City | `4343081D` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro Max | 2026-11-14 |
 | 🟢 | Ridge Racer 6 | `4E4D07D3` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-08 |
 | 🟢 | Rock Band | `45410829` | 🖥️ macOS, 📱 iOS | Playable | 🚀 Great | MacBook Pro (M4) | 2026-03-23 |
@@ -309,7 +311,7 @@
 | 🔵 | PROTOTYPE | `4156084E` | 📱 iOS | In-Game | 👌 OK | iPhone 16 Pro Max | 2026-11-16 |
 | 🔵 | Rayman Legends | `555308C3` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro Max | 2026-08-21 |
 | 🔵 | Remember Me | `4343082F` | 📱 iOS | In-Game | 🐢 Poor | iPhone 15 Pro | 2026-06-11 |
-| 🔵 | Resident Evil 6 | `43430819` | 📱 iOS | In-Game | 🐢 Poor | iPhone 13 Pro Max | 2026-03-20 |
+| 🔵 | Resident Evil 6 | `43430819` | 📱 iOS | In-Game | 👌 OK | iPhone 15 | 2026-11-21 |
 | 🔵 | Resident Evil Code: Veronica X | `43430822` | 📱 iOS | In-Game | 🐢 Poor | iPad (A16) | 2026-04-05 |
 | 🔵 | Resident Evil Revelations | `43430833` | 📱 iOS | In-Game | 🐢 Poor | iPhone 14 Pro | 2026-06-15 |
 | 🔵 | Rockstar Games Presents Table Tennis | `545407DF` | 🖥️ macOS | In-Game | 🐢 Poor | Macbook Pro M1 | 2026-04-18 |
@@ -409,7 +411,6 @@
 | 🔴 | Far Cry: Instincts Predator | `555307DC` | 🖥️ macOS | Doesn't Boot | ➖ N/A | Mac Mini (M1) (Base Model) | 2026-03-16 |
 | 🔴 | FIFA 09 | `4541085B` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-07-25 |
 | 🔴 | FIFA 13 | `45410998` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 Pro | 2026-06-17 |
-| 🔴 | FIFA 15 | `454109DB` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Pro 13-inch (M4) | 2026-03-13 |
 | 🔴 | Final Exam | `584113F3` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 | 2026-07-15 |
 | 🔴 | Forza Horizon 2 Presents Fast & Furious | `4D530AB5` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad 10 | 2026-03-08 |
 | 🔴 | GRID 2 | `434D0844` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16e | 2026-06-09 |
