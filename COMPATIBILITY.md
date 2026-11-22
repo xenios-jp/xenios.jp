@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **433 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **434 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **235** · 🔵 In-Game: **67** · 🟡 Intro: **23** · 🟠 Loads: **49** · 🔴 Doesn't Boot: **59**
+> 🟢 Playable: **235** · 🔵 In-Game: **68** · 🟡 Intro: **23** · 🟠 Loads: **49** · 🔴 Doesn't Boot: **59**
 >
-> 📱 iOS: **399** · 🖥️ macOS: **55**
+> 📱 iOS: **400** · 🖥️ macOS: **55**
 
 ## Legend
 
@@ -290,6 +290,7 @@
 | 🔵 | Guitar Hero World Tour | `4156081A` | 📱 iOS, 🖥️ macOS | In-Game | 🐢 Poor | iPhone 13 mini | 2026-03-22 |
 | 🔵 | Guitar Hero: Greatest Hits | `4156083E` | 📱 iOS, 🖥️ macOS | In-Game | 🐢 Poor | iPhone 13 mini | 2026-03-22 |
 | 🔵 | Guitar Hero: Warriors of Rock | `41560883` | 📱 iOS | In-Game | 🐢 Poor | iPhone 13 mini | 2026-03-22 |
+| 🔵 | Inversion | `4E4D0801` | 📱 iOS | In-Game | 👌 OK | iPhone 13 Pro Max | 2026-11-22 |
 | 🔵 | Iron Man | `534507F2` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro Max | 2026-03-28 |
 | 🔵 | L.A. Noire | `5454086C` | 📱 iOS | In-Game | 👌 OK | iPhone 14 Pro | 2026-11-11 |
 | 🔵 | Lost Odyssey | `4D5307FA` | 📱 iOS, 🖥️ macOS | In-Game | 🚀 Great | Mac mini (M2) | 2026-03-11 |
