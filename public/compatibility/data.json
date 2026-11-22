@@ -47993,20 +47993,39 @@
     "perf": "great",
     "tags": [],
     "platforms": [
-      "ios"
+      "ios",
+      "macos"
     ],
     "lastReport": {
-      "device": "iPhone 16 Pro",
-      "platform": "ios",
-      "osVersion": "18.5",
+      "device": "Mac Studio M4 Max",
+      "platform": "macos",
+      "osVersion": "26.7.3",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-11-12",
+    "updatedAt": "2026-11-22",
     "issueNumber": 19,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/19",
-    "notes": "Game loads with no glitches I could tell. The game runs smoothly but with slightly reduced speed. Very playable and very enjoyable!",
+    "notes": "Plays great at 60fps. Occasionally (<10% of launches) game menu text appears but no graphics (black) but returning to XeniOS menu and relaunching game fixes it.",
     "reports": [
+      {
+        "device": "Mac Studio M4 Max",
+        "platform": "macos",
+        "osVersion": "26.7.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-22",
+        "notes": "Plays great at 60fps. Occasionally (<10% of launches) game menu text appears but no graphics (black) but returning to XeniOS menu and relaunching game fixes it.",
+        "screenshots": [],
+        "source": "github",
+        "build": {
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
+        }
+      },
       {
         "device": "iPhone19,2",
         "platform": "ios",
@@ -48061,47 +48080,55 @@
       "all": {
         "status": "playable",
         "perf": "great",
-        "notes": "Game loads with no glitches I could tell. The game runs smoothly but with slightly reduced speed. Very playable and very enjoyable!",
-        "updatedAt": "2026-11-12",
-        "reportCount": 3,
+        "notes": "Plays great at 60fps. Occasionally (<10% of launches) game menu text appears but no graphics (black) but returning to XeniOS menu and relaunching game fixes it.",
+        "updatedAt": "2026-11-22",
+        "reportCount": 4,
         "latestReport": {
-          "device": "iPhone19,2",
-          "platform": "ios",
-          "osVersion": "27.2",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-11-12",
-          "notes": "The game launches but menu only",
-          "screenshots": [],
-          "source": "app",
-          "build": {
-            "appVersion": "2.3.2",
-            "buildNumber": "11934",
-            "commitShort": "5533fbfd1"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 16 Pro",
-          "platform": "ios",
-          "osVersion": "18.5",
+          "device": "Mac Studio M4 Max",
+          "platform": "macos",
+          "osVersion": "26.7.3",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "great",
-          "date": "2026-03-05",
-          "notes": "Game loads with no glitches I could tell. The game runs smoothly but with slightly reduced speed. Very playable and very enjoyable!",
-          "reportedTitleId": "544307D1",
-          "reportedTitle": "DEAD OR ALIVE 4",
+          "date": "2026-11-22",
+          "notes": "Plays great at 60fps. Occasionally (<10% of launches) game menu text appears but no graphics (black) but returning to XeniOS menu and relaunching game fixes it.",
           "screenshots": [],
-          "source": "app"
+          "source": "github",
+          "build": {
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
+          }
         },
-        "device": "iPhone 16 Pro",
-        "platform": "ios",
-        "osVersion": "18.5",
+        "bestReport": {
+          "device": "Mac Studio M4 Max",
+          "platform": "macos",
+          "osVersion": "26.7.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-22",
+          "notes": "Plays great at 60fps. Occasionally (<10% of launches) game menu text appears but no graphics (black) but returning to XeniOS menu and relaunching game fixes it.",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
+          }
+        },
+        "device": "Mac Studio M4 Max",
+        "platform": "macos",
+        "osVersion": "26.7.3",
         "arch": "arm64",
-        "gpuBackend": "msl"
+        "gpuBackend": "msl",
+        "build": {
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
+        }
       }
     }
   },
@@ -89179,6 +89206,8 @@
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-11-22",
+    "issueNumber": 831,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/831",
     "notes": "Gets stuck after the second encounter with the aliens, in the street (just the first 10 mins of the game)",
     "reports": [
       {

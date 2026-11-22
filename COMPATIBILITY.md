@@ -4,7 +4,7 @@
 >
 > 🟢 Playable: **235** · 🔵 In-Game: **68** · 🟡 Intro: **23** · 🟠 Loads: **49** · 🔴 Doesn't Boot: **59**
 >
-> 📱 iOS: **400** · 🖥️ macOS: **55**
+> 📱 iOS: **400** · 🖥️ macOS: **56**
 
 ## Legend
 
@@ -66,7 +66,7 @@
 | 🟢 | DAYTONA USA | `58410B1D` | 📱 iOS | Playable | 🚀 Great | iPad Pro 13-inch (M5) | 2026-06-11 |
 | 🟢 | DB: Raging Blast 2 | `4E4D0826` | 📱 iOS | Playable | 🐢 Poor | iPad Pro (M2) | 2026-03-03 |
 | 🟢 | Dead Island | `4B4D07DF` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-04-20 |
-| 🟢 | DEAD OR ALIVE 4 | `544307D1` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro | 2026-11-12 |
+| 🟢 | DEAD OR ALIVE 4 | `544307D1` | 📱 iOS, 🖥️ macOS | Playable | 🚀 Great | Mac Studio M4 Max | 2026-11-22 |
 | 🟢 | Dead or Alive Xtreme 2 | `544307D2` | 📱 iOS | Playable | 🚀 Great | iPad Pro 12.9-inch (M2) | 2026-11-06 |
 | 🟢 | Dead Rising 2 | `434307EC` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-11-17 |
 | 🟢 | Dead Space | `45410857` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro | 2026-03-03 |
