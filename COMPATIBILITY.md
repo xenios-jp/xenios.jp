@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **434 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **435 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **236** · 🔵 In-Game: **68** · 🟡 Intro: **23** · 🟠 Loads: **48** · 🔴 Doesn't Boot: **59**
+> 🟢 Playable: **237** · 🔵 In-Game: **68** · 🟡 Intro: **23** · 🟠 Loads: **48** · 🔴 Doesn't Boot: **59**
 >
-> 📱 iOS: **400** · 🖥️ macOS: **55**
+> 📱 iOS: **401** · 🖥️ macOS: **55**
 
 ## Legend
 
@@ -45,6 +45,7 @@
 | 🟢 | Bomberman Live | `5841083F` | 📱 iOS | Playable | 🚀 Great | iPhone 15 | 2026-06-07 |
 | 🟢 | Boom Boom Rocket | `5841086A` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro Max | 2026-11-12 |
 | 🟢 | Borderlands | `545407E7` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro | 2026-03-13 |
+| 🟢 | Brütal Legend | `454108C5` | 📱 iOS | Playable | 👌 OK | iPhone19,3 | 2026-11-22 |
 | 🟢 | Bully: Scholarship Edition | `5454081A` | 📱 iOS, 🖥️ macOS | Playable | 🐢 Poor | iPhone 15 Pro Max | 2026-04-22 |
 | 🟢 | Burnout Paradise | `45410806` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-11-12 |
 | 🟢 | Call of Duty 2 | `415607D1` | 📱 iOS | Playable | 🚀 Great | iPhone 15 Pro Max | 2026-10-28 |
@@ -106,7 +107,7 @@
 | 🟢 | Gears of War: Judgment | `4D530A26` | 📱 iOS | Playable | 🐢 Poor | iPhone 17 Pro Max | 2026-03-17 |
 | 🟢 | Geometry Wars Evolved | `584107ED` | 📱 iOS | Playable | 🚀 Great | iPhone 13 | 2026-03-10 |
 | 🟢 | GoldenEye: 007 Reloaded | `415608AF` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-05-09 |
-| 🟢 | Grand Theft Auto IV | `545407F2` | 📱 iOS, 🖥️ macOS | Playable | 🚀 Great | iPhone19,2 | 2026-11-22 |
+| 🟢 | Grand Theft Auto IV | `545407F2` | 📱 iOS, 🖥️ macOS | Playable | 👌 OK | iPhone 16e | 2026-11-23 |
 | 🟢 | Grand Theft Auto V | `545408A7` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-11-18 |
 | 🟢 | GRID | `434D07FF` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro | 2026-05-31 |
 | 🟢 | Guacamelee Super Turbo Championship Edition | `58411446` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-03 |

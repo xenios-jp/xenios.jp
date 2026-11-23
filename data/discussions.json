@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T18:53:28.446Z",
+  "generatedAt": "2026-11-23T05:36:56.016Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -4655,6 +4655,36 @@
         }
       ]
     },
+    "454108C5": {
+      "titleId": "454108C5",
+      "issueNumber": 834,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/834",
+      "updatedAt": "2026-11-22",
+      "entries": [
+        {
+          "id": "issue-834",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/834",
+          "author": "xenios-jp",
+          "createdAt": "2026-11-22",
+          "createdAtMs": 1795387219000,
+          "issueNumber": 834,
+          "excerpt": "Game loads and is stable but textures blink in and out, so far just grass and small stuff like that",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone19,3",
+            "platform": "iOS",
+            "osVersion": "iOS 27.2.1",
+            "gpuBackend": "MSL",
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "`77cc1358b`"
+          }
+        }
+      ]
+    },
     "4D5307D3": {
       "titleId": "4D5307D3",
       "issueNumber": 833,
@@ -6162,8 +6192,30 @@
       "titleId": "545407F2",
       "issueNumber": 794,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/794",
-      "updatedAt": "2026-11-22",
+      "updatedAt": "2026-11-23",
       "entries": [
+        {
+          "id": "comment-7092508973",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/794#issuecomment-7092508973",
+          "author": "xenios-jp",
+          "createdAt": "2026-11-23",
+          "createdAtMs": 1795412005000,
+          "issueNumber": 794,
+          "excerpt": "Only runs 30 fps and is laggy for the rest of the",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 16e",
+            "platform": "iOS",
+            "osVersion": "iOS 27.2.1",
+            "gpuBackend": "MSL",
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "`77cc1358b`"
+          }
+        },
         {
           "id": "comment-7072189052",
           "type": "comment",
@@ -6274,30 +6326,6 @@
             "buildNumber": "9280",
             "buildStage": "stable",
             "commitShort": "`2633e8177`"
-          }
-        },
-        {
-          "id": "comment-6114832051",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/667#issuecomment-6114832051",
-          "author": "xenios-jp",
-          "createdAt": "2026-10-11",
-          "createdAtMs": 1791759381000,
-          "issueNumber": 667,
-          "excerpt": "Black screen, app crashes after about a minute",
-          "images": [],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPhone 17 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 27.0",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "buildStage": "stable",
-            "commitShort": "`57c3ca140`"
           }
         }
       ]

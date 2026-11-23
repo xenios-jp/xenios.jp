@@ -31600,24 +31600,97 @@
     "titleIds": [
       "454108C5"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "playable",
+    "perf": "ok",
     "tags": [],
-    "platforms": [],
-    "lastReport": null,
-    "updatedAt": "",
-    "notes": "",
-    "reports": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone19,3",
+      "platform": "ios",
+      "osVersion": "27.2.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-11-22",
+    "issueNumber": 834,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/834",
+    "notes": "Game loads and is stable but textures blink in and out, so far just grass and small stuff like that",
+    "reports": [
+      {
+        "device": "iPhone19,3",
+        "platform": "ios",
+        "osVersion": "27.2.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-11-22",
+        "notes": "Game loads and is stable but textures blink in and out, so far just grass and small stuff like that",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
+        }
+      }
+    ],
     "screenshots": [],
     "summaries": {
       "all": {
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "playable",
+        "perf": "ok",
+        "notes": "Game loads and is stable but textures blink in and out, so far just grass and small stuff like that",
+        "updatedAt": "2026-11-22",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone19,3",
+          "platform": "ios",
+          "osVersion": "27.2.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-11-22",
+          "notes": "Game loads and is stable but textures blink in and out, so far just grass and small stuff like that",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone19,3",
+          "platform": "ios",
+          "osVersion": "27.2.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-11-22",
+          "notes": "Game loads and is stable but textures blink in and out, so far just grass and small stuff like that",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
+          }
+        },
+        "device": "iPhone19,3",
+        "platform": "ios",
+        "osVersion": "27.2.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "build": {
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
+        }
       }
     }
   },
@@ -76913,24 +76986,42 @@
       "545407F2"
     ],
     "status": "playable",
-    "perf": "great",
+    "perf": "ok",
     "tags": [],
     "platforms": [
       "ios",
       "macos"
     ],
     "lastReport": {
-      "device": "iPhone19,2",
+      "device": "iPhone 16e",
       "platform": "ios",
       "osVersion": "27.2.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-11-22",
+    "updatedAt": "2026-11-23",
     "issueNumber": 41,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/41",
-    "notes": "It works AMAZING and runs smoothly",
+    "notes": "Only runs 30 fps and is laggy for the rest of the",
     "reports": [
+      {
+        "device": "iPhone 16e",
+        "platform": "ios",
+        "osVersion": "27.2.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-11-23",
+        "notes": "Only runs 30 fps and is laggy for the rest of the",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
+        }
+      },
       {
         "device": "iPhone19,2",
         "platform": "ios",
@@ -77096,20 +77187,20 @@
     "summaries": {
       "all": {
         "status": "playable",
-        "perf": "great",
-        "notes": "It works AMAZING and runs smoothly",
-        "updatedAt": "2026-11-22",
-        "reportCount": 8,
+        "perf": "ok",
+        "notes": "Only runs 30 fps and is laggy for the rest of the",
+        "updatedAt": "2026-11-23",
+        "reportCount": 9,
         "latestReport": {
-          "device": "iPhone19,2",
+          "device": "iPhone 16e",
           "platform": "ios",
           "osVersion": "27.2.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
-          "perf": "great",
-          "date": "2026-11-22",
-          "notes": "It works AMAZING and runs smoothly",
+          "perf": "ok",
+          "date": "2026-11-23",
+          "notes": "Only runs 30 fps and is laggy for the rest of the",
           "screenshots": [],
           "source": "app",
           "build": {
@@ -77119,15 +77210,15 @@
           }
         },
         "bestReport": {
-          "device": "iPhone19,2",
+          "device": "iPhone 16e",
           "platform": "ios",
           "osVersion": "27.2.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
-          "perf": "great",
-          "date": "2026-11-22",
-          "notes": "It works AMAZING and runs smoothly",
+          "perf": "ok",
+          "date": "2026-11-23",
+          "notes": "Only runs 30 fps and is laggy for the rest of the",
           "screenshots": [],
           "source": "app",
           "build": {
@@ -77136,7 +77227,7 @@
             "commitShort": "77cc1358b"
           }
         },
-        "device": "iPhone19,2",
+        "device": "iPhone 16e",
         "platform": "ios",
         "osVersion": "27.2.1",
         "arch": "arm64",
