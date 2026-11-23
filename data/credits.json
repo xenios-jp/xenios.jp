@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T12:11:10.276Z",
+  "generatedAt": "2026-11-23T13:48:24.124Z",
   "totalProjects": 4,
   "contributors": [
     {
@@ -1502,6 +1502,16 @@
       ]
     },
     {
+      "id": "user:vincentbelmont",
+      "displayName": "VincentBelmont",
+      "profileUrl": "https://github.com/VincentBelmont",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/111478931?v=4",
+      "projects": [
+        "xenia-canary",
+        "xenia-edge"
+      ]
+    },
+    {
       "id": "user:vothm",
       "displayName": "Vothm",
       "profileUrl": "https://github.com/Vothm",
@@ -1625,15 +1635,6 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/263785354?v=4",
       "projects": [
         "xenia-edge"
-      ]
-    },
-    {
-      "id": "user:vincentbelmont",
-      "displayName": "VincentBelmont",
-      "profileUrl": "https://github.com/VincentBelmont",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/111478931?v=4",
-      "projects": [
-        "xenia-canary"
       ]
     }
   ],
