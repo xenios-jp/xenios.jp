@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **435 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **436 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **237** · 🔵 In-Game: **68** · 🟡 Intro: **23** · 🟠 Loads: **48** · 🔴 Doesn't Boot: **59**
+> 🟢 Playable: **239** · 🔵 In-Game: **68** · 🟡 Intro: **23** · 🟠 Loads: **48** · 🔴 Doesn't Boot: **58**
 >
-> 📱 iOS: **401** · 🖥️ macOS: **55**
+> 📱 iOS: **402** · 🖥️ macOS: **55**
 
 ## Legend
 
@@ -146,7 +146,7 @@
 | 🟢 | Metal Slug 3 | `584108CF` | 📱 iOS | Playable | 🚀 Great | iPhone 15 | 2026-06-07 |
 | 🟢 | Metro Last Light | `4B4D07F5` | 🖥️ macOS, 📱 iOS | Playable | 👌 OK | iPad Pro 12.9-inch (M2) | 2026-10-11 |
 | 🟢 | Midnight Club: Los Angeles | `545407F8` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-11-08 |
-| 🟢 | Minecraft: Xbox 360 Edition | `4D530A81` | 📱 iOS | Playable | 🚀 Great | iPhone 14 Pro | 2026-11-10 |
+| 🟢 | Minecraft: Xbox 360 Edition | `4D530A81` | 📱 iOS | Playable | 🚀 Great | iPad Pro 11-inch (M4) | 2026-11-24 |
 | 🟢 | MINI NINJAS™ (demo) | `53438806` | 📱 iOS | Playable | 👌 OK | iPhone 16 | 2026-07-15 |
 | 🟢 | Mirror's Edge | `45410850` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro | 2026-07-03 |
 | 🟢 | Mortal Kombat Arcade Kollection | `58410B62` | 📱 iOS | Playable | 🐢 Poor | iPhone 17 Pro Max | 2026-06-24 |
@@ -227,6 +227,7 @@
 | 🟢 | Tekken Tag Tournament 2 | `4E4D0859` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro Max | 2026-11-13 |
 | 🟢 | Tenchu Z | `465307D7` | 📱 iOS | Playable | 🚀 Great | 17 Pro | 2026-08-29 |
 | 🟢 | Test Drive Unlimited | `494707D4` | 📱 iOS | Playable | 👌 OK | iPhone 17 Pro Max | 2026-03-27 |
+| 🟢 | The Adventures of Tintin: The Secret of the Unicorn | `55530871` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro Max | 2026-11-24 |
 | 🟢 | The Elder Scrolls 4: Oblivion - Game of the Year Edition | `425307D1` | 📱 iOS | Playable | 👌 OK | iPhone 14 Plus | 2026-03-22 |
 | 🟢 | The Lord of the Rings: War in the North | `575207EF` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro Max | 2026-09-01 |
 | 🟢 | The Outfit | `545107D2` | 📱 iOS | Playable | 🐢 Poor | iPhone 15 Pro Max | 2026-03-13 |
@@ -242,6 +243,7 @@
 | 🟢 | Tomb Raider | `53510802` | 📱 iOS | Playable | 👌 OK | iPad (A16) | 2026-11-07 |
 | 🟢 | Tony Hawk's American Wasteland | `415607D4` | 📱 iOS | Playable | 🐢 Poor | iPad Pro 13-inch (M4) | 2026-05-21 |
 | 🟢 | Top Spin 3 | `545407FF` | 📱 iOS | Playable | 👌 OK | iPad Pro 12.9-inch (M2) | 2026-06-24 |
+| 🟢 | Top Spin 4 | `54540859` | 📱 iOS | Playable | 🚀 Great | iPhone 15 Plus | 2026-11-24 |
 | 🟢 | Toy Story 3 | `425607E5` | 📱 iOS | Playable | 👌 OK | iPhone 15 Pro | 2026-03-08 |
 | 🟢 | Transformers: Fall of Cybertron | `4156089C` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-06-24 |
 | 🟢 | Transformers: War for Cybertron | `4156084C` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-06-24 |
@@ -449,7 +451,6 @@
 | 🔴 | The Path of Go | `5841099F` | 🖥️ macOS | Doesn't Boot | ➖ N/A | MacBook Pro (M1) | 2026-04-12 |
 | 🔴 | The Witcher 2: Assassins of Kings - Enhanced Edition | `57520824` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Pro 12.9-inch 5 | 2026-10-28 |
 | 🔴 | The Wolf Among Us | `443607D5` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-03-20 |
-| 🔴 | Top Spin 4 | `54540859` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Pro 12.9-inch (M2) | 2026-06-24 |
 | 🔴 | Voodoo Vince (USA).xiso | `4D53005F` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro Max | 2026-11-20 |
 | 🔴 | WWE 2K15 | `545408B6` | 🖥️ macOS, 📱 iOS | Doesn't Boot | ➖ N/A | Macbook Neo A18 Pro | 2026-10-08 |
 | 🔴 | WWE 2K17 | `545408BA` | 🖥️ macOS | Doesn't Boot | ➖ N/A | MacBook Pro M1 | 2026-05-31 |

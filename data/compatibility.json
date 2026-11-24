@@ -109739,17 +109739,35 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 14 Pro",
+      "device": "iPad Pro 11-inch (M4)",
       "platform": "ios",
       "osVersion": "27.0",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-11-10",
+    "updatedAt": "2026-11-24",
     "issueNumber": 49,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/49",
-    "notes": "Playable",
+    "notes": "Minecraft XBLA (584111F7) TU75 on iPad Pro M4 has black blocky artifacts on water/underwater (base version without TU is fine). Tried clear_memory_page_state, readback, Occlusion Query, half_pixel_offset, and anisotropic_override with no effect.",
     "reports": [
+      {
+        "device": "iPad Pro 11-inch (M4)",
+        "platform": "ios",
+        "osVersion": "27.0",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-24",
+        "notes": "Minecraft XBLA (584111F7) TU75 on iPad Pro M4 has black blocky artifacts on water/underwater (base version without TU is fine). Tried clear_memory_page_state, readback, Occlusion Query, half_pixel_offset, and anisotropic_override with no effect.",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
+        }
+      },
       {
         "device": "iPhone 14 Pro",
         "platform": "ios",
@@ -109825,6 +109843,7 @@
       }
     ],
     "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584111F7/1795512316090-1.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584111F7/1774368552785-1.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584111F7/1773166296409-1.jpg",
       "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/584111F7/1773155623241-1.jpg",
@@ -109835,54 +109854,54 @@
       "all": {
         "status": "playable",
         "perf": "great",
-        "notes": "Playable",
-        "updatedAt": "2026-11-10",
-        "reportCount": 4,
+        "notes": "Minecraft XBLA (584111F7) TU75 on iPad Pro M4 has black blocky artifacts on water/underwater (base version without TU is fine). Tried clear_memory_page_state, readback, Occlusion Query, half_pixel_offset, and anisotropic_override with no effect.",
+        "updatedAt": "2026-11-24",
+        "reportCount": 5,
         "latestReport": {
-          "device": "iPhone 14 Pro",
+          "device": "iPad Pro 11-inch (M4)",
           "platform": "ios",
           "osVersion": "27.0",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "great",
-          "date": "2026-11-10",
-          "notes": "Playable",
+          "date": "2026-11-24",
+          "notes": "Minecraft XBLA (584111F7) TU75 on iPad Pro M4 has black blocky artifacts on water/underwater (base version without TU is fine). Tried clear_memory_page_state, readback, Occlusion Query, half_pixel_offset, and anisotropic_override with no effect.",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "2.3.1",
-            "buildNumber": "11662",
-            "commitShort": "cf7c7ee45"
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
           }
         },
         "bestReport": {
-          "device": "iPhone 14 Pro",
+          "device": "iPad Pro 11-inch (M4)",
           "platform": "ios",
           "osVersion": "27.0",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "great",
-          "date": "2026-11-10",
-          "notes": "Playable",
+          "date": "2026-11-24",
+          "notes": "Minecraft XBLA (584111F7) TU75 on iPad Pro M4 has black blocky artifacts on water/underwater (base version without TU is fine). Tried clear_memory_page_state, readback, Occlusion Query, half_pixel_offset, and anisotropic_override with no effect.",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "2.3.1",
-            "buildNumber": "11662",
-            "commitShort": "cf7c7ee45"
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
           }
         },
-        "device": "iPhone 14 Pro",
+        "device": "iPad Pro 11-inch (M4)",
         "platform": "ios",
         "osVersion": "27.0",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "2.3.1",
-          "buildNumber": "11662",
-          "commitShort": "cf7c7ee45"
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
         }
       }
     }
@@ -170694,24 +170713,95 @@
     "titleIds": [
       "55530871"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
-    "platforms": [],
-    "lastReport": null,
-    "updatedAt": "",
-    "notes": "",
-    "reports": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 16 Pro Max",
+      "platform": "ios",
+      "osVersion": "27.2.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-11-24",
+    "notes": "Worke smooth",
+    "reports": [
+      {
+        "device": "iPhone 16 Pro Max",
+        "platform": "ios",
+        "osVersion": "27.2.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-24",
+        "notes": "Worke smooth",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
+        }
+      }
+    ],
     "screenshots": [],
     "summaries": {
       "all": {
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "playable",
+        "perf": "great",
+        "notes": "Worke smooth",
+        "updatedAt": "2026-11-24",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 16 Pro Max",
+          "platform": "ios",
+          "osVersion": "27.2.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-24",
+          "notes": "Worke smooth",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 16 Pro Max",
+          "platform": "ios",
+          "osVersion": "27.2.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-24",
+          "notes": "Worke smooth",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
+          }
+        },
+        "device": "iPhone 16 Pro Max",
+        "platform": "ios",
+        "osVersion": "27.2.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "build": {
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
+        }
       }
     }
   },
@@ -180372,24 +180462,42 @@
       "54540859",
       "54548891"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPad Pro 12.9-inch (M2)",
+      "device": "iPhone 15 Plus",
       "platform": "ios",
-      "osVersion": "26.5",
+      "osVersion": "27.0.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-06-24",
+    "updatedAt": "2026-11-24",
     "issueNumber": 552,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/552",
-    "notes": "Intro videos play before the game crashes trying to load the first menu, Top Spin 3 works fine.",
+    "notes": "Played smooth there was no glitches or crashes for me.",
     "reports": [
+      {
+        "device": "iPhone 15 Plus",
+        "platform": "ios",
+        "osVersion": "27.0.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-24",
+        "notes": "Played smooth there was no glitches or crashes for me.",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
+        }
+      },
       {
         "device": "iPad Pro 12.9-inch (M2)",
         "platform": "ios",
@@ -180412,56 +180520,56 @@
     "screenshots": [],
     "summaries": {
       "all": {
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "Intro videos play before the game crashes trying to load the first menu, Top Spin 3 works fine.",
-        "updatedAt": "2026-06-24",
-        "reportCount": 1,
+        "status": "playable",
+        "perf": "great",
+        "notes": "Played smooth there was no glitches or crashes for me.",
+        "updatedAt": "2026-11-24",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPad Pro 12.9-inch (M2)",
+          "device": "iPhone 15 Plus",
           "platform": "ios",
-          "osVersion": "26.5",
+          "osVersion": "27.0.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-06-24",
-          "notes": "Intro videos play before the game crashes trying to load the first menu, Top Spin 3 works fine.",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-24",
+          "notes": "Played smooth there was no glitches or crashes for me.",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
           }
         },
         "bestReport": {
-          "device": "iPad Pro 12.9-inch (M2)",
+          "device": "iPhone 15 Plus",
           "platform": "ios",
-          "osVersion": "26.5",
+          "osVersion": "27.0.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-06-24",
-          "notes": "Intro videos play before the game crashes trying to load the first menu, Top Spin 3 works fine.",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-24",
+          "notes": "Played smooth there was no glitches or crashes for me.",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
           }
         },
-        "device": "iPad Pro 12.9-inch (M2)",
+        "device": "iPhone 15 Plus",
         "platform": "ios",
-        "osVersion": "26.5",
+        "osVersion": "27.0.1",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "commitShort": "57c3ca140"
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
         }
       }
     }
