@@ -2,7 +2,7 @@
 
 > **436 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **239** · 🔵 In-Game: **68** · 🟡 Intro: **23** · 🟠 Loads: **48** · 🔴 Doesn't Boot: **58**
+> 🟢 Playable: **240** · 🔵 In-Game: **67** · 🟡 Intro: **23** · 🟠 Loads: **48** · 🔴 Doesn't Boot: **58**
 >
 > 📱 iOS: **402** · 🖥️ macOS: **55**
 
@@ -53,6 +53,7 @@
 | 🟢 | Call of Duty 4: Modern Warfare | `415607E6` | 📱 iOS | Playable | 🚀 Great | iPad Air 11-inch (M2) | 2026-11-07 |
 | 🟢 | Call of Duty Classic | `58410957` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-09-27 |
 | 🟢 | Call of Duty: Black Ops | `41560855` | 📱 iOS | Playable | 👌 OK | iPhone 17 Pro Max | 2026-11-16 |
+| 🟢 | Call of Duty: Black Ops II | `415608C3` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro Max | 2026-11-24 |
 | 🟢 | Call of Duty: Black Ops III | `4156091D` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro Max | 2026-11-19 |
 | 🟢 | Call Of Duty: Modern Warfare 3 | `415608CB` | 📱 iOS | Playable | 👌 OK | iPhone 16 | 2026-07-07 |
 | 🟢 | Castle Crashers | `584108B7` | 📱 iOS | Playable | 🚀 Great | iPhone 16 | 2026-07-15 |
@@ -267,7 +268,6 @@
 | 🔵 | Bayonetta | `53450813` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 | 2026-03-08 |
 | 🔵 | BioShock Infinite | `5454085D` | 📱 iOS | In-Game | 👌 OK | iPhone 16 | 2026-06-10 |
 | 🔵 | Burnout Revenge | `454107DC` | 📱 iOS | In-Game | 🐢 Poor | iPhone 15 | 2026-08-05 |
-| 🔵 | Call of Duty: Black Ops II | `415608C3` | 📱 iOS | In-Game | 🐢 Poor | iPhone 14 Pro | 2026-11-01 |
 | 🔵 | Call of Duty: Modern Warfare 2 | `41560817` | 📱 iOS | In-Game | 👌 OK | iPad19,1 | 2026-11-08 |
 | 🔵 | Call Of Duty: World At War | `4156081C` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 | 2026-08-17 |
 | 🔵 | Crackdown 2 | `4D5308BC` | 🖥️ macOS | In-Game | 👌 OK | Mac mini (M4) | 2026-08-23 |
