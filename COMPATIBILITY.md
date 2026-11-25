@@ -2,7 +2,7 @@
 
 > **436 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **241** · 🔵 In-Game: **66** · 🟡 Intro: **23** · 🟠 Loads: **48** · 🔴 Doesn't Boot: **58**
+> 🟢 Playable: **242** · 🔵 In-Game: **66** · 🟡 Intro: **22** · 🟠 Loads: **48** · 🔴 Doesn't Boot: **58**
 >
 > 📱 iOS: **402** · 🖥️ macOS: **56**
 
@@ -203,6 +203,7 @@
 | 🟢 | Rumble Roses XX | `4B4E07D1` | 🖥️ macOS | Playable | 🚀 Great | Mac mini (M2) | 2026-03-11 |
 | 🟢 | Saints Row | `545107D1` | 📱 iOS | Playable | 🚀 Great | iPhone19,3 | 2026-11-20 |
 | 🟢 | Saints Row 2 | `545107FC` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro | 2026-11-10 |
+| 🟢 | Saints Row: The Third | `5451086D` | 📱 iOS | Playable | 🚀 Great | iPhone19,4 | 2026-11-25 |
 | 🟢 | SEGA Rally Online Arcade | `58410AC2` | 📱 iOS | Playable | 🚀 Great | iPad Pro 13-inch (M5) | 2026-11-06 |
 | 🟢 | Serious Sam HD: The First Encounter | `584109DA` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro | 2026-03-24 |
 | 🟢 | Shadow Complex | `584108F6` | 🖥️ macOS | Playable | 🚀 Great | MacBook Pro (M1) | 2026-08-12 |
@@ -341,7 +342,6 @@
 | 🟡 | Naruto Shippuden: UNS 3 Full Burst | `4E4D085C` | 📱 iOS | Intro | 🐢 Poor | iPhone 15 Pro Max | 2026-03-13 |
 | 🟡 | PopCap Collection | `504787D8` | 📱 iOS | Intro | 🚀 Great | iPhone 13 Pro | 2026-09-10 |
 | 🟡 | Rise of the Tomb Raider | `53510823` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro Max | 2026-03-12 |
-| 🟡 | Saints Row: The Third | `5451086D` | 📱 iOS | Intro | 🐢 Poor | iPhone 14 Pro | 2026-06-17 |
 | 🟡 | Silent Hill: HD Collection | `4B4E0845` | 📱 iOS | Intro | 🚀 Great | iPad Pro 11-inch (M5) | 2026-03-31 |
 | 🟡 | Sleeping Dogs | `53510811` | 📱 iOS | Intro | 🐢 Poor | iPhone 17 Pro Max | 2026-06-20 |
 | 🟡 | Slender: The Arrival | `58411430` | 📱 iOS | Intro | 👌 OK | iPhone 16 | 2026-07-15 |

@@ -147734,24 +147734,42 @@
       "545188A0",
       "545108A5"
     ],
-    "status": "intro",
-    "perf": "poor",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 14 Pro",
+      "device": "iPhone19,4",
       "platform": "ios",
-      "osVersion": "26.2.1",
+      "osVersion": "27.3",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-06-17",
+    "updatedAt": "2026-11-25",
     "issueNumber": 526,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/526",
-    "notes": "Extreme graphical glitches and basically unplayable freezes everywhere. Had to use Vulkan to even see colours.",
+    "notes": "Few graphical glitches(in water) but after about 10 on so minutes it smooths out.",
     "reports": [
+      {
+        "device": "iPhone19,4",
+        "platform": "ios",
+        "osVersion": "27.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-25",
+        "notes": "Few graphical glitches(in water) but after about 10 on so minutes it smooths out.",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
+        }
+      },
       {
         "device": "iPhone 14 Pro",
         "platform": "ios",
@@ -147776,56 +147794,56 @@
     ],
     "summaries": {
       "all": {
-        "status": "intro",
-        "perf": "poor",
-        "notes": "Extreme graphical glitches and basically unplayable freezes everywhere. Had to use Vulkan to even see colours.",
-        "updatedAt": "2026-06-17",
-        "reportCount": 1,
+        "status": "playable",
+        "perf": "great",
+        "notes": "Few graphical glitches(in water) but after about 10 on so minutes it smooths out.",
+        "updatedAt": "2026-11-25",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 14 Pro",
+          "device": "iPhone19,4",
           "platform": "ios",
-          "osVersion": "26.2.1",
+          "osVersion": "27.3",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "poor",
-          "date": "2026-06-17",
-          "notes": "Extreme graphical glitches and basically unplayable freezes everywhere. Had to use Vulkan to even see colours.",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-25",
+          "notes": "Few graphical glitches(in water) but after about 10 on so minutes it smooths out.",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
           }
         },
         "bestReport": {
-          "device": "iPhone 14 Pro",
+          "device": "iPhone19,4",
           "platform": "ios",
-          "osVersion": "26.2.1",
+          "osVersion": "27.3",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "intro",
-          "perf": "poor",
-          "date": "2026-06-17",
-          "notes": "Extreme graphical glitches and basically unplayable freezes everywhere. Had to use Vulkan to even see colours.",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-25",
+          "notes": "Few graphical glitches(in water) but after about 10 on so minutes it smooths out.",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
           }
         },
-        "device": "iPhone 14 Pro",
+        "device": "iPhone19,4",
         "platform": "ios",
-        "osVersion": "26.2.1",
+        "osVersion": "27.3",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "commitShort": "57c3ca140"
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
         }
       }
     }
