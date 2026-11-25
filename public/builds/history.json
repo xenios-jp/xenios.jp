@@ -1,6 +1,68 @@
 {
-  "generatedAt": "2026-11-25T05:16:53Z",
+  "generatedAt": "2026-11-25T08:37:25Z",
   "builds": [
+    {
+      "buildId": "ios-release-2.3.5-12324",
+      "channel": "release",
+      "official": true,
+      "appVersion": "2.3.5",
+      "buildNumber": "12324",
+      "stage": "stable",
+      "commitShort": "0c5630661",
+      "publishedAt": "2026-11-25T07:52:24Z",
+      "label": "2.3.5-12324",
+      "notes": "Official CI release build published from xenios-jp/XeniOS.",
+      "sourceLabel": "GitHub Release",
+      "sourceUrl": "https://github.com/xenios-jp/XeniOS/releases/tag/release-v2.3.5-build-12324",
+      "artifacts": [
+        {
+          "id": "ios-arm64-ipa-xenios-ios-iphone-ipad-ipa",
+          "name": "XeniOS for iPhone / iPad",
+          "label": "iPhone / iPad (IPA)",
+          "platform": "ios",
+          "arch": "arm64",
+          "kind": "ipa",
+          "downloadUrl": "https://github.com/xenios-jp/XeniOS/releases/download/release-v2.3.5-build-12324/xenios_ios_iphone_ipad.ipa",
+          "sha256": "91987db071531d00e7386d11f718e400450f3bfff25be29de8f248bab7c0c834",
+          "sizeBytes": 41085710,
+          "sizeLabel": "39 MB"
+        }
+      ],
+      "platform": "ios",
+      "id": "ios-release-ios-release-2.3.5-12324",
+      "submittedBy": "GitHub Actions"
+    },
+    {
+      "buildId": "macos-release-2.3.5-12324",
+      "channel": "release",
+      "official": true,
+      "appVersion": "2.3.5",
+      "buildNumber": "12324",
+      "stage": "stable",
+      "commitShort": "0c5630661",
+      "publishedAt": "2026-11-25T07:52:24Z",
+      "label": "2.3.5-12324",
+      "notes": "Official CI release build published from xenios-jp/XeniOS.",
+      "sourceLabel": "GitHub Release",
+      "sourceUrl": "https://github.com/xenios-jp/XeniOS/releases/tag/release-v2.3.5-build-12324",
+      "artifacts": [
+        {
+          "id": "macos-arm64-dmg-xenios-macos-apple-silicon-dmg",
+          "name": "XeniOS for Apple Silicon",
+          "label": "Apple Silicon",
+          "platform": "macos",
+          "arch": "arm64",
+          "kind": "dmg",
+          "downloadUrl": "https://github.com/xenios-jp/XeniOS/releases/download/release-v2.3.5-build-12324/xenios_macos_apple_silicon.dmg",
+          "sha256": "b0ddd3ea883589560076d884e5dbe1cd0be0e3b03a87e8ad11702e233b4e1e84",
+          "sizeBytes": 25236605,
+          "sizeLabel": "24 MB"
+        }
+      ],
+      "platform": "macos",
+      "id": "macos-release-macos-release-2.3.5-12324",
+      "submittedBy": "GitHub Actions"
+    },
     {
       "buildId": "ios-release-2.3.4-12322",
       "channel": "release",

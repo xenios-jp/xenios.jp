@@ -22,6 +22,15 @@
       "category": "games",
       "versions": [
         {
+          "version": "2.3.5",
+          "buildVersion": "12324",
+          "date": "2026-11-25T07:52:24Z",
+          "localizedDescription": "Rendering fixes.\n\nRequires iOS / iPadOS 26 or later. A Mac build for Apple Silicon (macOS 15 or later) is attached as well.\n\n## Changes\n\n- Rendering fixes for Left 4 Dead 2.",
+          "downloadURL": "https://github.com/xenios-jp/XeniOS/releases/download/release-v2.3.5-build-12324/xenios_ios_iphone_ipad.ipa",
+          "size": 41085710,
+          "minOSVersion": "26.0"
+        },
+        {
           "version": "2.3.4",
           "buildVersion": "12322",
           "date": "2026-11-25T04:35:59Z",
@@ -125,11 +134,11 @@
           "NSMotionUsageDescription": "Head tracking adjusts spatial audio to your head movement when using the PHASE audio backend with supported headphones."
         }
       },
-      "version": "2.3.4",
-      "versionDate": "2026-11-25T04:35:59Z",
-      "versionDescription": "Rebuilt on the latest Xenia Edge, with one shader converter for every game shader.\n\nRequires iOS / iPadOS 26 or later. A Mac build for Apple Silicon (macOS 15 or later) is attached as well.\n\n## Changes\n\n- Updated to Xenia Edge as of 23 November: 327 upstream changes since 2.3.3. They include kernel fixes for threads, timers, waits, file calls and guest exception handling, XMA audio loop fixes, System Link socket fixes, title update handling, and CPU instructions that follow the console more closely (vector saturation flag, reciprocal and logarithm estimates, NaN handling, string load and store).\n- The Metal renderer no longer uses Apple's Metal Shader Converter or Mesa's DXIL translator. Every game shader, tessellated surfaces included, now goes through spirv2air, and tessellation is drawn with Metal's own patch drawing.\n- Speed against 2.3.3, measured on a Mac (M5 Pro) by replaying 92 captured scenes from 45 games: no scene is slower, compiling shaders from an empty cache takes about 3% less time overall, and frame GPU time is about 1% lower overall. In CPU replays of seven game captures, none is slower and two are faster. This release was not timed on an iPhone or iPad.\n- Rendering fixes for Fable 2.\n- Shader arithmetic is rounded more like the console. Of 185 hardware test suites compared with a real Xbox 360, 10 more match than in 2.3.3; 2 suites (four-component dot products) match slightly less well.\n- Stored shaders are rebuilt once after updating, because shader translation changed.",
-      "downloadURL": "https://github.com/xenios-jp/XeniOS/releases/download/release-v2.3.4-build-12322/xenios_ios_iphone_ipad.ipa",
-      "size": 41084905
+      "version": "2.3.5",
+      "versionDate": "2026-11-25T07:52:24Z",
+      "versionDescription": "Rendering fixes.\n\nRequires iOS / iPadOS 26 or later. A Mac build for Apple Silicon (macOS 15 or later) is attached as well.\n\n## Changes\n\n- Rendering fixes for Left 4 Dead 2.",
+      "downloadURL": "https://github.com/xenios-jp/XeniOS/releases/download/release-v2.3.5-build-12324/xenios_ios_iphone_ipad.ipa",
+      "size": 41085710
     }
   ],
   "news": []
