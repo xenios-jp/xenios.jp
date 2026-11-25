@@ -22,6 +22,15 @@
       "category": "games",
       "versions": [
         {
+          "version": "2.3.4",
+          "buildVersion": "12322",
+          "date": "2026-11-25T04:35:59Z",
+          "localizedDescription": "Rebuilt on the latest Xenia Edge, with one shader converter for every game shader.\n\nRequires iOS / iPadOS 26 or later. A Mac build for Apple Silicon (macOS 15 or later) is attached as well.\n\n## Changes\n\n- Updated to Xenia Edge as of 23 November: 327 upstream changes since 2.3.3. They include kernel fixes for threads, timers, waits, file calls and guest exception handling, XMA audio loop fixes, System Link socket fixes, title update handling, and CPU instructions that follow the console more closely (vector saturation flag, reciprocal and logarithm estimates, NaN handling, string load and store).\n- The Metal renderer no longer uses Apple's Metal Shader Converter or Mesa's DXIL translator. Every game shader, tessellated surfaces included, now goes through spirv2air, and tessellation is drawn with Metal's own patch drawing.\n- Speed against 2.3.3, measured on a Mac (M5 Pro) by replaying 92 captured scenes from 45 games: no scene is slower, compiling shaders from an empty cache takes about 3% less time overall, and frame GPU time is about 1% lower overall. In CPU replays of seven game captures, none is slower and two are faster. This release was not timed on an iPhone or iPad.\n- Rendering fixes for Fable 2.\n- Shader arithmetic is rounded more like the console. Of 185 hardware test suites compared with a real Xbox 360, 10 more match than in 2.3.3; 2 suites (four-component dot products) match slightly less well.\n- Stored shaders are rebuilt once after updating, because shader translation changed.",
+          "downloadURL": "https://github.com/xenios-jp/XeniOS/releases/download/release-v2.3.4-build-12322/xenios_ios_iphone_ipad.ipa",
+          "size": 41084905,
+          "minOSVersion": "26.0"
+        },
+        {
           "version": "2.3.3",
           "buildVersion": "11940",
           "date": "2026-11-15T09:27:31Z",
@@ -116,11 +125,11 @@
           "NSMotionUsageDescription": "Head tracking adjusts spatial audio to your head movement when using the PHASE audio backend with supported headphones."
         }
       },
-      "version": "2.3.3",
-      "versionDate": "2026-11-15T09:27:31Z",
-      "versionDescription": "Faster shader compiles, and a signed, notarized Mac app.\n\nRequires iOS / iPadOS 26 or later. A Mac build for Apple Silicon (macOS 15 or later) is attached as well.\n\n## Changes\n\n- Shaders compile faster the first time a game draws them. On an iPhone, compiling the shaders of 10 game scenes from a cold start took 62.9 s, down from 98.8 s before this work. Shaders are now built with the game's fetch settings filled in, a shader that is only ever used that way no longer gets a second, generic copy, and the shader converter folds more constant work before handing a shader to iOS.\n- Stored shaders are rebuilt once after updating, because shader translation changed.\n- Mac: the app is signed with a Developer ID and notarized by Apple, so macOS opens it without the unidentified developer warning.",
-      "downloadURL": "https://github.com/xenios-jp/XeniOS/releases/download/release-v2.3.3-build-11940/xenios_ios_iphone_ipad.ipa",
-      "size": 49667563
+      "version": "2.3.4",
+      "versionDate": "2026-11-25T04:35:59Z",
+      "versionDescription": "Rebuilt on the latest Xenia Edge, with one shader converter for every game shader.\n\nRequires iOS / iPadOS 26 or later. A Mac build for Apple Silicon (macOS 15 or later) is attached as well.\n\n## Changes\n\n- Updated to Xenia Edge as of 23 November: 327 upstream changes since 2.3.3. They include kernel fixes for threads, timers, waits, file calls and guest exception handling, XMA audio loop fixes, System Link socket fixes, title update handling, and CPU instructions that follow the console more closely (vector saturation flag, reciprocal and logarithm estimates, NaN handling, string load and store).\n- The Metal renderer no longer uses Apple's Metal Shader Converter or Mesa's DXIL translator. Every game shader, tessellated surfaces included, now goes through spirv2air, and tessellation is drawn with Metal's own patch drawing.\n- Speed against 2.3.3, measured on a Mac (M5 Pro) by replaying 92 captured scenes from 45 games: no scene is slower, compiling shaders from an empty cache takes about 3% less time overall, and frame GPU time is about 1% lower overall. In CPU replays of seven game captures, none is slower and two are faster. This release was not timed on an iPhone or iPad.\n- Rendering fixes for Fable 2.\n- Shader arithmetic is rounded more like the console. Of 185 hardware test suites compared with a real Xbox 360, 10 more match than in 2.3.3; 2 suites (four-component dot products) match slightly less well.\n- Stored shaders are rebuilt once after updating, because shader translation changed.",
+      "downloadURL": "https://github.com/xenios-jp/XeniOS/releases/download/release-v2.3.4-build-12322/xenios_ios_iphone_ipad.ipa",
+      "size": 41084905
     }
   ],
   "news": []
