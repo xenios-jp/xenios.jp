@@ -33028,24 +33028,42 @@
     "titleIds": [
       "454107DC"
     ],
-    "status": "ingame",
-    "perf": "poor",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 15",
+      "device": "iPhone 17 Pro",
       "platform": "ios",
-      "osVersion": "26.5.2",
+      "osVersion": "27.0.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-08-05",
+    "updatedAt": "2026-11-24",
     "issueNumber": 120,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/120",
-    "notes": "Menu runs fantastic, the game itself gets maybe 7fps",
+    "notes": "Now works great",
     "reports": [
+      {
+        "device": "iPhone 17 Pro",
+        "platform": "ios",
+        "osVersion": "27.0.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-24",
+        "notes": "Now works great",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
+        }
+      },
       {
         "device": "iPhone 15",
         "platform": "ios",
@@ -33091,56 +33109,56 @@
     ],
     "summaries": {
       "all": {
-        "status": "ingame",
-        "perf": "poor",
-        "notes": "Menu runs fantastic, the game itself gets maybe 7fps",
-        "updatedAt": "2026-08-05",
-        "reportCount": 2,
+        "status": "playable",
+        "perf": "great",
+        "notes": "Now works great",
+        "updatedAt": "2026-11-24",
+        "reportCount": 3,
         "latestReport": {
-          "device": "iPhone 15",
+          "device": "iPhone 17 Pro",
           "platform": "ios",
-          "osVersion": "26.5.2",
+          "osVersion": "27.0.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-08-05",
-          "notes": "Menu runs fantastic, the game itself gets maybe 7fps",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-24",
+          "notes": "Now works great",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
           }
         },
         "bestReport": {
-          "device": "iPhone 15",
+          "device": "iPhone 17 Pro",
           "platform": "ios",
-          "osVersion": "26.5.2",
+          "osVersion": "27.0.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "poor",
-          "date": "2026-08-05",
-          "notes": "Menu runs fantastic, the game itself gets maybe 7fps",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-24",
+          "notes": "Now works great",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
           }
         },
-        "device": "iPhone 15",
+        "device": "iPhone 17 Pro",
         "platform": "ios",
-        "osVersion": "26.5.2",
+        "osVersion": "27.0.1",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "commitShort": "57c3ca140"
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
         }
       }
     }
@@ -77251,20 +77269,38 @@
     "perf": "great",
     "tags": [],
     "platforms": [
-      "ios"
+      "ios",
+      "macos"
     ],
     "lastReport": {
-      "device": "iPhone 17 Pro Max",
-      "platform": "ios",
-      "osVersion": "27.2.1",
+      "device": "Macbook Air M5",
+      "platform": "macos",
+      "osVersion": "MacOS (Latest)",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-11-18",
+    "updatedAt": "2026-11-25",
     "issueNumber": 62,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/62",
-    "notes": "Now and then a small graphic glitch. Mostly in sky. Runs smooth",
+    "notes": "Game works amazing however you need both discs 1 and 2 and there are some minor graphical glitches but they iron out slowly throughout playtime",
     "reports": [
+      {
+        "device": "Macbook Air M5",
+        "platform": "macos",
+        "osVersion": "MacOS (Latest)",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-25",
+        "notes": "Game works amazing however you need both discs 1 and 2 and there are some minor graphical glitches but they iron out slowly throughout playtime",
+        "screenshots": [],
+        "source": "github",
+        "build": {
+          "appVersion": "Latest",
+          "buildNumber": "1"
+        }
+      },
       {
         "device": "iPhone 17 Pro Max",
         "platform": "ios",
@@ -77350,54 +77386,51 @@
       "all": {
         "status": "playable",
         "perf": "great",
-        "notes": "Now and then a small graphic glitch. Mostly in sky. Runs smooth",
-        "updatedAt": "2026-11-18",
-        "reportCount": 3,
+        "notes": "Game works amazing however you need both discs 1 and 2 and there are some minor graphical glitches but they iron out slowly throughout playtime",
+        "updatedAt": "2026-11-25",
+        "reportCount": 4,
         "latestReport": {
-          "device": "iPhone 17 Pro Max",
-          "platform": "ios",
-          "osVersion": "27.2.1",
+          "device": "Macbook Air M5",
+          "platform": "macos",
+          "osVersion": "MacOS (Latest)",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "great",
-          "date": "2026-11-18",
-          "notes": "Now and then a small graphic glitch. Mostly in sky. Runs smooth",
+          "date": "2026-11-25",
+          "notes": "Game works amazing however you need both discs 1 and 2 and there are some minor graphical glitches but they iron out slowly throughout playtime",
           "screenshots": [],
-          "source": "app",
+          "source": "github",
           "build": {
-            "appVersion": "2.3.3",
-            "buildNumber": "11940",
-            "commitShort": "77cc1358b"
+            "appVersion": "Latest",
+            "buildNumber": "1"
           }
         },
         "bestReport": {
-          "device": "iPhone 17 Pro Max",
-          "platform": "ios",
-          "osVersion": "27.2.1",
+          "device": "Macbook Air M5",
+          "platform": "macos",
+          "osVersion": "MacOS (Latest)",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "great",
-          "date": "2026-11-18",
-          "notes": "Now and then a small graphic glitch. Mostly in sky. Runs smooth",
+          "date": "2026-11-25",
+          "notes": "Game works amazing however you need both discs 1 and 2 and there are some minor graphical glitches but they iron out slowly throughout playtime",
           "screenshots": [],
-          "source": "app",
+          "source": "github",
           "build": {
-            "appVersion": "2.3.3",
-            "buildNumber": "11940",
-            "commitShort": "77cc1358b"
+            "appVersion": "Latest",
+            "buildNumber": "1"
           }
         },
-        "device": "iPhone 17 Pro Max",
-        "platform": "ios",
-        "osVersion": "27.2.1",
+        "device": "Macbook Air M5",
+        "platform": "macos",
+        "osVersion": "MacOS (Latest)",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "2.3.3",
-          "buildNumber": "11940",
-          "commitShort": "77cc1358b"
+          "appVersion": "Latest",
+          "buildNumber": "1"
         }
       }
     }

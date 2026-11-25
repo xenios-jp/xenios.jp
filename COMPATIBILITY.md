@@ -2,9 +2,9 @@
 
 > **436 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **240** · 🔵 In-Game: **67** · 🟡 Intro: **23** · 🟠 Loads: **48** · 🔴 Doesn't Boot: **58**
+> 🟢 Playable: **241** · 🔵 In-Game: **66** · 🟡 Intro: **23** · 🟠 Loads: **48** · 🔴 Doesn't Boot: **58**
 >
-> 📱 iOS: **402** · 🖥️ macOS: **55**
+> 📱 iOS: **402** · 🖥️ macOS: **56**
 
 ## Legend
 
@@ -48,6 +48,7 @@
 | 🟢 | Brütal Legend | `454108C5` | 📱 iOS | Playable | 👌 OK | iPhone19,3 | 2026-11-22 |
 | 🟢 | Bully: Scholarship Edition | `5454081A` | 📱 iOS, 🖥️ macOS | Playable | 🐢 Poor | iPhone 15 Pro Max | 2026-04-22 |
 | 🟢 | Burnout Paradise | `45410806` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-11-12 |
+| 🟢 | Burnout Revenge | `454107DC` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro | 2026-11-24 |
 | 🟢 | Call of Duty 2 | `415607D1` | 📱 iOS | Playable | 🚀 Great | iPhone 15 Pro Max | 2026-10-28 |
 | 🟢 | Call of Duty 3 | `415607E1` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-11-08 |
 | 🟢 | Call of Duty 4: Modern Warfare | `415607E6` | 📱 iOS | Playable | 🚀 Great | iPad Air 11-inch (M2) | 2026-11-07 |
@@ -109,7 +110,7 @@
 | 🟢 | Geometry Wars Evolved | `584107ED` | 📱 iOS | Playable | 🚀 Great | iPhone 13 | 2026-03-10 |
 | 🟢 | GoldenEye: 007 Reloaded | `415608AF` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-05-09 |
 | 🟢 | Grand Theft Auto IV | `545407F2` | 📱 iOS, 🖥️ macOS | Playable | 👌 OK | iPhone 16e | 2026-11-23 |
-| 🟢 | Grand Theft Auto V | `545408A7` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-11-18 |
+| 🟢 | Grand Theft Auto V | `545408A7` | 📱 iOS, 🖥️ macOS | Playable | 🚀 Great | Macbook Air M5 | 2026-11-25 |
 | 🟢 | GRID | `434D07FF` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro | 2026-05-31 |
 | 🟢 | Guacamelee Super Turbo Championship Edition | `58411446` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-03 |
 | 🟢 | Guitar Hero Aerosmith | `41560819` | 📱 iOS, 🖥️ macOS | Playable | 👌 OK | iPhone 13 mini | 2026-03-22 |
@@ -267,7 +268,6 @@
 | 🔵 | Battlefield: Bad Company | `454107F9` | 📱 iOS | In-Game | 🚀 Great | iPhone 15 | 2026-08-05 |
 | 🔵 | Bayonetta | `53450813` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 | 2026-03-08 |
 | 🔵 | BioShock Infinite | `5454085D` | 📱 iOS | In-Game | 👌 OK | iPhone 16 | 2026-06-10 |
-| 🔵 | Burnout Revenge | `454107DC` | 📱 iOS | In-Game | 🐢 Poor | iPhone 15 | 2026-08-05 |
 | 🔵 | Call of Duty: Modern Warfare 2 | `41560817` | 📱 iOS | In-Game | 👌 OK | iPad19,1 | 2026-11-08 |
 | 🔵 | Call Of Duty: World At War | `4156081C` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 | 2026-08-17 |
 | 🔵 | Crackdown 2 | `4D5308BC` | 🖥️ macOS | In-Game | 👌 OK | Mac mini (M4) | 2026-08-23 |
