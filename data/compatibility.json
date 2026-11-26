@@ -21989,24 +21989,97 @@
       "5752083C",
       "57528839"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "playable",
+    "perf": "ok",
     "tags": [],
-    "platforms": [],
-    "lastReport": null,
-    "updatedAt": "",
-    "notes": "",
-    "reports": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 13 Pro Max",
+      "platform": "ios",
+      "osVersion": "27.2.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-11-26",
+    "issueNumber": 845,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/845",
+    "notes": "Runs nice.",
+    "reports": [
+      {
+        "device": "iPhone 13 Pro Max",
+        "platform": "ios",
+        "osVersion": "27.2.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-11-26",
+        "notes": "Runs nice.",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.5",
+          "buildNumber": "12324",
+          "commitShort": "0c5630661"
+        }
+      }
+    ],
     "screenshots": [],
     "summaries": {
       "all": {
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "playable",
+        "perf": "ok",
+        "notes": "Runs nice.",
+        "updatedAt": "2026-11-26",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 13 Pro Max",
+          "platform": "ios",
+          "osVersion": "27.2.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-11-26",
+          "notes": "Runs nice.",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "appVersion": "2.3.5",
+            "buildNumber": "12324",
+            "commitShort": "0c5630661"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 13 Pro Max",
+          "platform": "ios",
+          "osVersion": "27.2.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-11-26",
+          "notes": "Runs nice.",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "appVersion": "2.3.5",
+            "buildNumber": "12324",
+            "commitShort": "0c5630661"
+          }
+        },
+        "device": "iPhone 13 Pro Max",
+        "platform": "ios",
+        "osVersion": "27.2.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "build": {
+          "appVersion": "2.3.5",
+          "buildNumber": "12324",
+          "commitShort": "0c5630661"
+        }
       }
     }
   },
@@ -33081,24 +33154,6 @@
         }
       },
       {
-        "device": "iPhone 15",
-        "platform": "ios",
-        "osVersion": "26.5.2",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "ingame",
-        "perf": "poor",
-        "date": "2026-08-05",
-        "notes": "Menu runs fantastic, the game itself gets maybe 7fps",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "commitShort": "57c3ca140"
-        }
-      },
-      {
         "device": "iPhone 15 Pro Max",
         "platform": "ios",
         "osVersion": "26.1",
@@ -33129,7 +33184,7 @@
         "perf": "great",
         "notes": "Now works great",
         "updatedAt": "2026-11-24",
-        "reportCount": 3,
+        "reportCount": 2,
         "latestReport": {
           "device": "iPhone 17 Pro",
           "platform": "ios",
@@ -65472,6 +65527,8 @@
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-11-26",
+    "issueNumber": 843,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/843",
     "notes": "Pretty playable but it gives a little lag.",
     "reports": [
       {
@@ -65557,24 +65614,97 @@
     "titleIds": [
       "454107EF"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "ingame",
+    "perf": "ok",
     "tags": [],
-    "platforms": [],
-    "lastReport": null,
-    "updatedAt": "",
-    "notes": "",
-    "reports": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 13 Pro Max",
+      "platform": "ios",
+      "osVersion": "27.2.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-11-26",
+    "issueNumber": 844,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/844",
+    "notes": "you can play it but it frequently flickers",
+    "reports": [
+      {
+        "device": "iPhone 13 Pro Max",
+        "platform": "ios",
+        "osVersion": "27.2.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "ok",
+        "date": "2026-11-26",
+        "notes": "you can play it but it frequently flickers",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.5",
+          "buildNumber": "12324",
+          "commitShort": "0c5630661"
+        }
+      }
+    ],
     "screenshots": [],
     "summaries": {
       "all": {
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "ingame",
+        "perf": "ok",
+        "notes": "you can play it but it frequently flickers",
+        "updatedAt": "2026-11-26",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 13 Pro Max",
+          "platform": "ios",
+          "osVersion": "27.2.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "ok",
+          "date": "2026-11-26",
+          "notes": "you can play it but it frequently flickers",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "appVersion": "2.3.5",
+            "buildNumber": "12324",
+            "commitShort": "0c5630661"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 13 Pro Max",
+          "platform": "ios",
+          "osVersion": "27.2.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "ok",
+          "date": "2026-11-26",
+          "notes": "you can play it but it frequently flickers",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "appVersion": "2.3.5",
+            "buildNumber": "12324",
+            "commitShort": "0c5630661"
+          }
+        },
+        "device": "iPhone 13 Pro Max",
+        "platform": "ios",
+        "osVersion": "27.2.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "build": {
+          "appVersion": "2.3.5",
+          "buildNumber": "12324",
+          "commitShort": "0c5630661"
+        }
       }
     }
   },
@@ -77356,38 +77486,20 @@
     "perf": "great",
     "tags": [],
     "platforms": [
-      "ios",
-      "macos"
+      "ios"
     ],
     "lastReport": {
-      "device": "Macbook Air M5",
-      "platform": "macos",
-      "osVersion": "MacOS (Latest)",
+      "device": "iPhone 17 Pro Max",
+      "platform": "ios",
+      "osVersion": "27.2.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-11-25",
+    "updatedAt": "2026-11-18",
     "issueNumber": 62,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/62",
-    "notes": "Game works amazing however you need both discs 1 and 2 and there are some minor graphical glitches but they iron out slowly throughout playtime",
+    "notes": "Now and then a small graphic glitch. Mostly in sky. Runs smooth",
     "reports": [
-      {
-        "device": "Macbook Air M5",
-        "platform": "macos",
-        "osVersion": "MacOS (Latest)",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "playable",
-        "perf": "great",
-        "date": "2026-11-25",
-        "notes": "Game works amazing however you need both discs 1 and 2 and there are some minor graphical glitches but they iron out slowly throughout playtime",
-        "screenshots": [],
-        "source": "github",
-        "build": {
-          "appVersion": "Latest",
-          "buildNumber": "1"
-        }
-      },
       {
         "device": "iPhone 17 Pro Max",
         "platform": "ios",
@@ -77473,51 +77585,54 @@
       "all": {
         "status": "playable",
         "perf": "great",
-        "notes": "Game works amazing however you need both discs 1 and 2 and there are some minor graphical glitches but they iron out slowly throughout playtime",
-        "updatedAt": "2026-11-25",
-        "reportCount": 4,
+        "notes": "Now and then a small graphic glitch. Mostly in sky. Runs smooth",
+        "updatedAt": "2026-11-18",
+        "reportCount": 3,
         "latestReport": {
-          "device": "Macbook Air M5",
-          "platform": "macos",
-          "osVersion": "MacOS (Latest)",
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "27.2.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "great",
-          "date": "2026-11-25",
-          "notes": "Game works amazing however you need both discs 1 and 2 and there are some minor graphical glitches but they iron out slowly throughout playtime",
+          "date": "2026-11-18",
+          "notes": "Now and then a small graphic glitch. Mostly in sky. Runs smooth",
           "screenshots": [],
-          "source": "github",
+          "source": "app",
           "build": {
-            "appVersion": "Latest",
-            "buildNumber": "1"
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
           }
         },
         "bestReport": {
-          "device": "Macbook Air M5",
-          "platform": "macos",
-          "osVersion": "MacOS (Latest)",
+          "device": "iPhone 17 Pro Max",
+          "platform": "ios",
+          "osVersion": "27.2.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "great",
-          "date": "2026-11-25",
-          "notes": "Game works amazing however you need both discs 1 and 2 and there are some minor graphical glitches but they iron out slowly throughout playtime",
+          "date": "2026-11-18",
+          "notes": "Now and then a small graphic glitch. Mostly in sky. Runs smooth",
           "screenshots": [],
-          "source": "github",
+          "source": "app",
           "build": {
-            "appVersion": "Latest",
-            "buildNumber": "1"
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "77cc1358b"
           }
         },
-        "device": "Macbook Air M5",
-        "platform": "macos",
-        "osVersion": "MacOS (Latest)",
+        "device": "iPhone 17 Pro Max",
+        "platform": "ios",
+        "osVersion": "27.2.1",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "Latest",
-          "buildNumber": "1"
+          "appVersion": "2.3.3",
+          "buildNumber": "11940",
+          "commitShort": "77cc1358b"
         }
       }
     }
@@ -147835,8 +147950,8 @@
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-11-25",
-    "issueNumber": 526,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/526",
+    "issueNumber": 841,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/841",
     "notes": "Few graphical glitches(in water) but after about 10 on so minutes it smooths out.",
     "reports": [
       {
@@ -147856,24 +147971,6 @@
           "buildNumber": "11940",
           "commitShort": "77cc1358b"
         }
-      },
-      {
-        "device": "iPhone 14 Pro",
-        "platform": "ios",
-        "osVersion": "26.2.1",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "intro",
-        "perf": "poor",
-        "date": "2026-06-17",
-        "notes": "Extreme graphical glitches and basically unplayable freezes everywhere. Had to use Vulkan to even see colours.",
-        "screenshots": [],
-        "source": "app",
-        "build": {
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "commitShort": "57c3ca140"
-        }
       }
     ],
     "screenshots": [
@@ -147885,7 +147982,7 @@
         "perf": "great",
         "notes": "Few graphical glitches(in water) but after about 10 on so minutes it smooths out.",
         "updatedAt": "2026-11-25",
-        "reportCount": 2,
+        "reportCount": 1,
         "latestReport": {
           "device": "iPhone19,4",
           "platform": "ios",

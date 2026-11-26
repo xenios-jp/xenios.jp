@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T02:08:49.627Z",
+  "generatedAt": "2026-11-26T17:02:53.842Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -4061,6 +4061,36 @@
         }
       ]
     },
+    "57520828": {
+      "titleId": "57520828",
+      "issueNumber": 845,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/845",
+      "updatedAt": "2026-11-26",
+      "entries": [
+        {
+          "id": "issue-845",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/845",
+          "author": "xenios-jp",
+          "createdAt": "2026-11-26",
+          "createdAtMs": 1795702230000,
+          "issueNumber": 845,
+          "excerpt": "Runs nice.",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 13 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 27.2.1",
+            "gpuBackend": "MSL",
+            "appVersion": "2.3.5",
+            "buildNumber": "12324",
+            "commitShort": "`0c5630661`"
+          }
+        }
+      ]
+    },
     "57520829": {
       "titleId": "57520829",
       "issueNumber": 626,
@@ -4707,28 +4737,118 @@
         }
       ]
     },
-    "545408A7": {
-      "titleId": "545408A7",
-      "issueNumber": 214,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/214",
+    "454107EF": {
+      "titleId": "454107EF",
+      "issueNumber": 844,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/844",
+      "updatedAt": "2026-11-26",
+      "entries": [
+        {
+          "id": "issue-844",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/844",
+          "author": "xenios-jp",
+          "createdAt": "2026-11-26",
+          "createdAtMs": 1795691786000,
+          "issueNumber": 844,
+          "excerpt": "you can play it but it frequently flickers",
+          "images": [],
+          "meta": {
+            "status": "ingame",
+            "perf": "ok",
+            "device": "iPhone 13 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 27.2.1",
+            "gpuBackend": "MSL",
+            "appVersion": "2.3.5",
+            "buildNumber": "12324",
+            "commitShort": "`0c5630661`"
+          }
+        }
+      ]
+    },
+    "454107D7": {
+      "titleId": "454107D7",
+      "issueNumber": 843,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/843",
+      "updatedAt": "2026-11-26",
+      "entries": [
+        {
+          "id": "issue-843",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/843",
+          "author": "xenios-jp",
+          "createdAt": "2026-11-26",
+          "createdAtMs": 1795689013000,
+          "issueNumber": 843,
+          "excerpt": "Pretty playable but it gives a little lag.",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 13 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 27.2.1",
+            "gpuBackend": "MSL",
+            "appVersion": "2.3.5",
+            "buildNumber": "12324",
+            "commitShort": "`0c5630661`"
+          }
+        }
+      ]
+    },
+    "5343080B": {
+      "titleId": "5343080B",
+      "issueNumber": 842,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/842",
       "updatedAt": "2026-11-25",
       "entries": [
         {
-          "id": "issue-818",
+          "id": "issue-842",
           "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/818",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/842",
           "author": "xenios-jp",
-          "createdAt": "2026-11-18",
-          "createdAtMs": 1795033956000,
-          "issueNumber": 818,
-          "excerpt": "Now and then a small graphic glitch. Mostly in sky. Runs smooth",
+          "createdAt": "2026-11-25",
+          "createdAtMs": 1795644958000,
+          "issueNumber": 842,
+          "excerpt": "Runs well.",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 13 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 27.2.1",
+            "gpuBackend": "MSL",
+            "appVersion": "2.3.5",
+            "buildNumber": "12324",
+            "commitShort": "`0c5630661`"
+          }
+        }
+      ]
+    },
+    "5451086D": {
+      "titleId": "5451086D",
+      "issueNumber": 841,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/841",
+      "updatedAt": "2026-11-25",
+      "entries": [
+        {
+          "id": "issue-841",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/841",
+          "author": "xenios-jp",
+          "createdAt": "2026-11-25",
+          "createdAtMs": 1795604069000,
+          "issueNumber": 841,
+          "excerpt": "Few graphical glitches(in water) but after about 10 on so minutes it smooths out.",
           "images": [],
           "meta": {
             "status": "playable",
             "perf": "great",
-            "device": "iPhone 17 Pro Max",
+            "device": "iPhone19,4",
             "platform": "iOS",
-            "osVersion": "iOS 27.2.1",
+            "osVersion": "iOS 27.3",
             "gpuBackend": "MSL",
             "appVersion": "2.3.3",
             "buildNumber": "11940",
@@ -4736,74 +4856,30 @@
           }
         },
         {
-          "id": "comment-6920053547",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/369#issuecomment-6920053547",
-          "author": "iyed30981-cmyk",
-          "createdAt": "2026-11-16",
-          "createdAtMs": 1794841221000,
-          "issueNumber": 369,
-          "excerpt": "Gta",
-          "images": [],
-          "meta": {}
-        },
-        {
-          "id": "comment-6910859735",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/663#issuecomment-6910859735",
-          "author": "iyed30981-cmyk",
-          "createdAt": "2026-11-16",
-          "createdAtMs": 1794816294000,
-          "issueNumber": 663,
-          "excerpt": "Please give me the GTA v",
-          "images": [],
-          "meta": {}
-        },
-        {
-          "id": "comment-6726883924",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/663#issuecomment-6726883924",
+          "id": "issue-526",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/526",
           "author": "xenios-jp",
-          "createdAt": "2026-11-08",
-          "createdAtMs": 1794170684000,
-          "issueNumber": 663,
-          "excerpt": "It runs and very playable but after a while fps drops because of heat. If you use cooler it works perfect",
-          "images": [],
+          "createdAt": "2026-06-17",
+          "createdAtMs": 1781724712000,
+          "issueNumber": 526,
+          "excerpt": "Extreme graphical glitches and basically unplayable freezes everywhere. Had to use Vulkan to even see colours.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/5451086D/1781724708373-1.jpg"
+          ],
           "meta": {
-            "status": "playable",
-            "perf": "great",
-            "device": "iPhone 17 Pro Max",
+            "status": "intro",
+            "perf": "poor",
+            "device": "iPhone 14 Pro",
             "platform": "iOS",
-            "osVersion": "iOS 27.0.1",
+            "osVersion": "iOS 26.2.1",
             "gpuBackend": "MSL",
-            "appVersion": "2.3.1",
-            "buildNumber": "11662",
-            "commitShort": "`cf7c7ee45`"
+            "buildChannel": "self-built",
+            "appVersion": "2.0.1",
+            "buildNumber": "9730",
+            "buildStage": "stable",
+            "commitShort": "`57c3ca140`"
           }
-        },
-        {
-          "id": "comment-6104025731",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/369#issuecomment-6104025731",
-          "author": "parrajoserey4-cell",
-          "createdAt": "2026-10-11",
-          "createdAtMs": 1791680678000,
-          "issueNumber": 369,
-          "excerpt": "Bbhy",
-          "images": [],
-          "meta": {}
-        },
-        {
-          "id": "comment-6093020347",
-          "type": "comment",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/663#issuecomment-6093020347",
-          "author": "parrajoserey4-cell",
-          "createdAt": "2026-10-10",
-          "createdAtMs": 1791600830000,
-          "issueNumber": 663,
-          "excerpt": "Mmm",
-          "images": [],
-          "meta": {}
         }
       ]
     },
@@ -5735,7 +5811,7 @@
           "id": "comment-5138131424",
           "type": "comment",
           "url": "https://github.com/xenios-jp/game-compatibility/issues/261#issuecomment-5138131424",
-          "author": "raed-alzahrani",
+          "author": "erosathere",
           "createdAt": "2026-07-31",
           "createdAtMs": 1785461266000,
           "issueNumber": 261,
@@ -5846,6 +5922,106 @@
             "osVersion": "iOS 26.3",
             "gpuBackend": "MSL"
           }
+        }
+      ]
+    },
+    "545408A7": {
+      "titleId": "545408A7",
+      "issueNumber": 214,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/214",
+      "updatedAt": "2026-11-25",
+      "entries": [
+        {
+          "id": "issue-818",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/818",
+          "author": "xenios-jp",
+          "createdAt": "2026-11-18",
+          "createdAtMs": 1795033956000,
+          "issueNumber": 818,
+          "excerpt": "Now and then a small graphic glitch. Mostly in sky. Runs smooth",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 27.2.1",
+            "gpuBackend": "MSL",
+            "appVersion": "2.3.3",
+            "buildNumber": "11940",
+            "commitShort": "`77cc1358b`"
+          }
+        },
+        {
+          "id": "comment-6920053547",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/369#issuecomment-6920053547",
+          "author": "iyed30981-cmyk",
+          "createdAt": "2026-11-16",
+          "createdAtMs": 1794841221000,
+          "issueNumber": 369,
+          "excerpt": "Gta",
+          "images": [],
+          "meta": {}
+        },
+        {
+          "id": "comment-6910859735",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/663#issuecomment-6910859735",
+          "author": "iyed30981-cmyk",
+          "createdAt": "2026-11-16",
+          "createdAtMs": 1794816294000,
+          "issueNumber": 663,
+          "excerpt": "Please give me the GTA v",
+          "images": [],
+          "meta": {}
+        },
+        {
+          "id": "comment-6726883924",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/663#issuecomment-6726883924",
+          "author": "xenios-jp",
+          "createdAt": "2026-11-08",
+          "createdAtMs": 1794170684000,
+          "issueNumber": 663,
+          "excerpt": "It runs and very playable but after a while fps drops because of heat. If you use cooler it works perfect",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 27.0.1",
+            "gpuBackend": "MSL",
+            "appVersion": "2.3.1",
+            "buildNumber": "11662",
+            "commitShort": "`cf7c7ee45`"
+          }
+        },
+        {
+          "id": "comment-6104025731",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/369#issuecomment-6104025731",
+          "author": "parrajoserey4-cell",
+          "createdAt": "2026-10-11",
+          "createdAtMs": 1791680678000,
+          "issueNumber": 369,
+          "excerpt": "Bbhy",
+          "images": [],
+          "meta": {}
+        },
+        {
+          "id": "comment-6093020347",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/663#issuecomment-6093020347",
+          "author": "parrajoserey4-cell",
+          "createdAt": "2026-10-10",
+          "createdAtMs": 1791600830000,
+          "issueNumber": 663,
+          "excerpt": "Mmm",
+          "images": [],
+          "meta": {}
         }
       ]
     },
@@ -7414,6 +7590,18 @@
             "buildStage": "stable",
             "commitShort": "`2633e8177`"
           }
+        },
+        {
+          "id": "issue-161",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/161",
+          "author": "tracylovesu",
+          "createdAt": "2026-03-10",
+          "createdAtMs": 1773106004000,
+          "issueNumber": 161,
+          "excerpt": "Game start & gets through intro screens & lets you access the menu (the menu has music but for some reason it doesn't play on this emulator.) but infinitely loads when trying to start a new game.",
+          "images": [],
+          "meta": {}
         }
       ]
     },
@@ -14236,40 +14424,6 @@
           "excerpt": "Game opens, can get to any mode and play without significant drops, although the game has a huge chance of getting stuck on the title screen after pressing start, and can also get into an infinite autosave loop.",
           "images": [],
           "meta": {}
-        }
-      ]
-    },
-    "5451086D": {
-      "titleId": "5451086D",
-      "issueNumber": 526,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/526",
-      "updatedAt": "2026-06-17",
-      "entries": [
-        {
-          "id": "issue-526",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/526",
-          "author": "xenios-jp",
-          "createdAt": "2026-06-17",
-          "createdAtMs": 1781724712000,
-          "issueNumber": 526,
-          "excerpt": "Extreme graphical glitches and basically unplayable freezes everywhere. Had to use Vulkan to even see colours.",
-          "images": [
-            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/5451086D/1781724708373-1.jpg"
-          ],
-          "meta": {
-            "status": "intro",
-            "perf": "poor",
-            "device": "iPhone 14 Pro",
-            "platform": "iOS",
-            "osVersion": "iOS 26.2.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "buildStage": "stable",
-            "commitShort": "`57c3ca140`"
-          }
         }
       ]
     },

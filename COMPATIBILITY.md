@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **437 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **439 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **243** · 🔵 In-Game: **66** · 🟡 Intro: **22** · 🟠 Loads: **48** · 🔴 Doesn't Boot: **58**
+> 🟢 Playable: **244** · 🔵 In-Game: **67** · 🟡 Intro: **22** · 🟠 Loads: **48** · 🔴 Doesn't Boot: **58**
 >
-> 📱 iOS: **403** · 🖥️ macOS: **56**
+> 📱 iOS: **405** · 🖥️ macOS: **55**
 
 ## Legend
 
@@ -36,6 +36,7 @@
 | 🟢 | Assassin's Creed: Revelations | `55530879` | 📱 iOS | Playable | 👌 OK | iPhone 16 | 2026-03-15 |
 | 🟢 | Banjo Kazooie: Nuts & Bolts | `4D5307ED` | 📱 iOS | Playable | 🐢 Poor | iPhone 15 Pro Max | 2026-03-08 |
 | 🟢 | Batman: Arkham Asylum GOTY | `5343080B` | 📱 iOS | Playable | 👌 OK | iPhone 13 Pro Max | 2026-11-25 |
+| 🟢 | Batman: Arkham Origins | `57520828` | 📱 iOS | Playable | 👌 OK | iPhone 13 Pro Max | 2026-11-26 |
 | 🟢 | BattleBlock Theater | `58410A30` | 📱 iOS | Playable | 🚀 Great | iPhone 13 | 2026-03-10 |
 | 🟢 | Ben 10 Ultimate Alien Cosmic Destruction | `445007F7` | 📱 iOS | Playable | 🚀 Great | iPhone 17 | 2026-07-16 |
 | 🟢 | Bionic Commando | `434307DD` | 📱 iOS | Playable | 🚀 Great | iPad Pro 12.9-inch (M2) | 2026-10-11 |
@@ -111,7 +112,7 @@
 | 🟢 | Geometry Wars Evolved | `584107ED` | 📱 iOS | Playable | 🚀 Great | iPhone 13 | 2026-03-10 |
 | 🟢 | GoldenEye: 007 Reloaded | `415608AF` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-05-09 |
 | 🟢 | Grand Theft Auto IV | `545407F2` | 📱 iOS, 🖥️ macOS | Playable | 👌 OK | iPhone 16e | 2026-11-23 |
-| 🟢 | Grand Theft Auto V | `545408A7` | 📱 iOS, 🖥️ macOS | Playable | 🚀 Great | Macbook Air M5 | 2026-11-25 |
+| 🟢 | Grand Theft Auto V | `545408A7` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-11-18 |
 | 🟢 | GRID | `434D07FF` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro | 2026-05-31 |
 | 🟢 | Guacamelee Super Turbo Championship Edition | `58411446` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-03 |
 | 🟢 | Guitar Hero Aerosmith | `41560819` | 📱 iOS, 🖥️ macOS | Playable | 👌 OK | iPhone 13 mini | 2026-03-22 |
@@ -284,6 +285,7 @@
 | 🔵 | Fable Anniversary | `4D530A87` | 📱 iOS | In-Game | 🐢 Poor | iPhone 16 Pro Max | 2026-03-09 |
 | 🔵 | Fallout 3 | `425307D5` | 📱 iOS | In-Game | 👌 OK | iPhone 13 | 2026-03-12 |
 | 🔵 | Far Cry 3 | `5553088C` | 📱 iOS | In-Game | 🐢 Poor | iPhone 14 Pro | 2026-11-08 |
+| 🔵 | FIFA 07 | `454107EF` | 📱 iOS | In-Game | 👌 OK | iPhone 13 Pro Max | 2026-11-26 |
 | 🔵 | FIFA 14 | `454109C3` | 📱 iOS | In-Game | 👌 OK | iPad Pro 11-inch (M4) | 2026-07-10 |
 | 🔵 | FIFA 16 | `454109EE` | 📱 iOS | In-Game | 👌 OK | iPhone 14 Pro Max | 2026-03-08 |
 | 🔵 | FIFA 19 | `454109F9` | 📱 iOS | In-Game | 🐢 Poor | iPad Air gen 6 (M2) | 2026-07-19 |
