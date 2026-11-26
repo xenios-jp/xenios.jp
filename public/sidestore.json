@@ -23,6 +23,15 @@
       "versions": [
         {
           "version": "2.3.5",
+          "buildVersion": "12326",
+          "date": "2026-11-26T13:49:13Z",
+          "localizedDescription": "- Channel: release\n- Stage: stable\n- Version: 2.3.5\n- Build number: 12326\n- Commit: 0761cac73\n- Published at: 2026-11-26T13:49:13Z\n- Source ref: refs/heads/xenios",
+          "downloadURL": "https://github.com/xenios-jp/XeniOS/releases/download/release-v2.3.5-build-12326/xenios_ios_iphone_ipad.ipa",
+          "size": 41096850,
+          "minOSVersion": "26.0"
+        },
+        {
+          "version": "2.3.5",
           "buildVersion": "12324",
           "date": "2026-11-25T07:52:24Z",
           "localizedDescription": "Rendering fixes.\n\nRequires iOS / iPadOS 26 or later. A Mac build for Apple Silicon (macOS 15 or later) is attached as well.\n\n## Changes\n\n- Rendering fixes for Left 4 Dead 2.",
@@ -135,10 +144,10 @@
         }
       },
       "version": "2.3.5",
-      "versionDate": "2026-11-25T07:52:24Z",
-      "versionDescription": "Rendering fixes.\n\nRequires iOS / iPadOS 26 or later. A Mac build for Apple Silicon (macOS 15 or later) is attached as well.\n\n## Changes\n\n- Rendering fixes for Left 4 Dead 2.",
-      "downloadURL": "https://github.com/xenios-jp/XeniOS/releases/download/release-v2.3.5-build-12324/xenios_ios_iphone_ipad.ipa",
-      "size": 41085710
+      "versionDate": "2026-11-26T13:49:13Z",
+      "versionDescription": "- Channel: release\n- Stage: stable\n- Version: 2.3.5\n- Build number: 12326\n- Commit: 0761cac73\n- Published at: 2026-11-26T13:49:13Z\n- Source ref: refs/heads/xenios",
+      "downloadURL": "https://github.com/xenios-jp/XeniOS/releases/download/release-v2.3.5-build-12326/xenios_ios_iphone_ipad.ipa",
+      "size": 41096850
     }
   ],
   "news": []
