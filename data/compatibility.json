@@ -21732,17 +21732,35 @@
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 15 Pro",
+      "device": "iPhone 13 Pro Max",
       "platform": "ios",
-      "osVersion": "26.3",
+      "osVersion": "27.2.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-11-06",
+    "updatedAt": "2026-11-25",
     "issueNumber": 65,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/65",
-    "notes": "It runs good you just have to skip the cut scenes to play",
+    "notes": "Runs well.",
     "reports": [
+      {
+        "device": "iPhone 13 Pro Max",
+        "platform": "ios",
+        "osVersion": "27.2.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-11-25",
+        "notes": "Runs well.",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.5",
+          "buildNumber": "12324",
+          "commitShort": "0c5630661"
+        }
+      },
       {
         "device": "iPhone 14 Pro",
         "platform": "ios",
@@ -21807,56 +21825,54 @@
       "all": {
         "status": "playable",
         "perf": "ok",
-        "notes": "It runs good you just have to skip the cut scenes to play",
-        "updatedAt": "2026-11-06",
-        "reportCount": 3,
+        "notes": "Runs well.",
+        "updatedAt": "2026-11-25",
+        "reportCount": 4,
         "latestReport": {
-          "device": "iPhone 14 Pro",
+          "device": "iPhone 13 Pro Max",
           "platform": "ios",
-          "osVersion": "27.0",
-          "arch": "arm64",
-          "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "ok",
-          "date": "2026-11-06",
-          "notes": "When you go outside then will lag a little bit but overall is playable",
-          "screenshots": [],
-          "source": "app",
-          "build": {
-            "appVersion": "2.2.4",
-            "buildNumber": "11500",
-            "commitShort": "bef950648"
-          }
-        },
-        "bestReport": {
-          "device": "iPhone 15 Pro",
-          "platform": "ios",
-          "osVersion": "26.3",
+          "osVersion": "27.2.1",
           "arch": "arm64",
           "gpuBackend": "msl",
           "status": "playable",
           "perf": "ok",
-          "date": "2026-03-08",
-          "notes": "It runs good you just have to skip the cut scenes to play",
-          "reportedTitleId": "534307F6",
-          "reportedTitle": "Batman: Arkham Asylum",
+          "date": "2026-11-25",
+          "notes": "Runs well.",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633e8177"
+            "appVersion": "2.3.5",
+            "buildNumber": "12324",
+            "commitShort": "0c5630661"
           }
         },
-        "device": "iPhone 15 Pro",
+        "bestReport": {
+          "device": "iPhone 13 Pro Max",
+          "platform": "ios",
+          "osVersion": "27.2.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-11-25",
+          "notes": "Runs well.",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "appVersion": "2.3.5",
+            "buildNumber": "12324",
+            "commitShort": "0c5630661"
+          }
+        },
+        "device": "iPhone 13 Pro Max",
         "platform": "ios",
-        "osVersion": "26.3",
+        "osVersion": "27.2.1",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "commitShort": "2633e8177"
+          "appVersion": "2.3.5",
+          "buildNumber": "12324",
+          "commitShort": "0c5630661"
         }
       }
     }
@@ -65442,24 +65458,95 @@
     "titleIds": [
       "454107D7"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "playable",
+    "perf": "ok",
     "tags": [],
-    "platforms": [],
-    "lastReport": null,
-    "updatedAt": "",
-    "notes": "",
-    "reports": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 13 Pro Max",
+      "platform": "ios",
+      "osVersion": "27.2.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-11-26",
+    "notes": "Pretty playable but it gives a little lag.",
+    "reports": [
+      {
+        "device": "iPhone 13 Pro Max",
+        "platform": "ios",
+        "osVersion": "27.2.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-11-26",
+        "notes": "Pretty playable but it gives a little lag.",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.5",
+          "buildNumber": "12324",
+          "commitShort": "0c5630661"
+        }
+      }
+    ],
     "screenshots": [],
     "summaries": {
       "all": {
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "playable",
+        "perf": "ok",
+        "notes": "Pretty playable but it gives a little lag.",
+        "updatedAt": "2026-11-26",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 13 Pro Max",
+          "platform": "ios",
+          "osVersion": "27.2.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-11-26",
+          "notes": "Pretty playable but it gives a little lag.",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "appVersion": "2.3.5",
+            "buildNumber": "12324",
+            "commitShort": "0c5630661"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 13 Pro Max",
+          "platform": "ios",
+          "osVersion": "27.2.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "ok",
+          "date": "2026-11-26",
+          "notes": "Pretty playable but it gives a little lag.",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "appVersion": "2.3.5",
+            "buildNumber": "12324",
+            "commitShort": "0c5630661"
+          }
+        },
+        "device": "iPhone 13 Pro Max",
+        "platform": "ios",
+        "osVersion": "27.2.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "build": {
+          "appVersion": "2.3.5",
+          "buildNumber": "12324",
+          "commitShort": "0c5630661"
+        }
       }
     }
   },

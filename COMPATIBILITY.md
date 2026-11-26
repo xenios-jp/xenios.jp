@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **436 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **437 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **242** · 🔵 In-Game: **66** · 🟡 Intro: **22** · 🟠 Loads: **48** · 🔴 Doesn't Boot: **58**
+> 🟢 Playable: **243** · 🔵 In-Game: **66** · 🟡 Intro: **22** · 🟠 Loads: **48** · 🔴 Doesn't Boot: **58**
 >
-> 📱 iOS: **402** · 🖥️ macOS: **56**
+> 📱 iOS: **403** · 🖥️ macOS: **56**
 
 ## Legend
 
@@ -35,7 +35,7 @@
 | 🟢 | Assassin's Creed II | `5553083B` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro Max | 2026-11-14 |
 | 🟢 | Assassin's Creed: Revelations | `55530879` | 📱 iOS | Playable | 👌 OK | iPhone 16 | 2026-03-15 |
 | 🟢 | Banjo Kazooie: Nuts & Bolts | `4D5307ED` | 📱 iOS | Playable | 🐢 Poor | iPhone 15 Pro Max | 2026-03-08 |
-| 🟢 | Batman: Arkham Asylum GOTY | `5343080B` | 📱 iOS | Playable | 👌 OK | iPhone 15 Pro | 2026-11-06 |
+| 🟢 | Batman: Arkham Asylum GOTY | `5343080B` | 📱 iOS | Playable | 👌 OK | iPhone 13 Pro Max | 2026-11-25 |
 | 🟢 | BattleBlock Theater | `58410A30` | 📱 iOS | Playable | 🚀 Great | iPhone 13 | 2026-03-10 |
 | 🟢 | Ben 10 Ultimate Alien Cosmic Destruction | `445007F7` | 📱 iOS | Playable | 🚀 Great | iPhone 17 | 2026-07-16 |
 | 🟢 | Bionic Commando | `434307DD` | 📱 iOS | Playable | 🚀 Great | iPad Pro 12.9-inch (M2) | 2026-10-11 |
@@ -93,6 +93,7 @@
 | 🟢 | Family Guy: Back To The Multiverse | `415608C5` | 📱 iOS | Playable | 👌 OK | iPad Mini (A17 Pro) | 2026-03-13 |
 | 🟢 | Far Cry 2 | `55530810` | 📱 iOS | Playable | 🐢 Poor | iPhone 16 | 2026-03-10 |
 | 🟢 | Farming Simulator 15 | `464507E1` | 📱 iOS | Playable | 👌 OK | iPhone 16e | 2026-10-09 |
+| 🟢 | FIFA 06: Road to FIFA World Cup | `454107D7` | 📱 iOS | Playable | 👌 OK | iPhone 13 Pro Max | 2026-11-26 |
 | 🟢 | FIFA 15 | `454109DB` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro Max | 2026-11-21 |
 | 🟢 | Fight Night Champion | `45410915` | 📱 iOS | Playable | 🚀 Great | iPhone 15 | 2026-11-13 |
 | 🟢 | Fight Night Round 4 | `45410894` | 📱 iOS | Playable | 🚀 Great | iPhone 15 | 2026-11-14 |
