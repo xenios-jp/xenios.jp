@@ -2,7 +2,7 @@
 
 > **439 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **246** · 🔵 In-Game: **67** · 🟡 Intro: **22** · 🟠 Loads: **48** · 🔴 Doesn't Boot: **56**
+> 🟢 Playable: **249** · 🔵 In-Game: **66** · 🟡 Intro: **22** · 🟠 Loads: **48** · 🔴 Doesn't Boot: **54**
 >
 > 📱 iOS: **405** · 🖥️ macOS: **55**
 
@@ -33,6 +33,7 @@
 | 🟢 | Angry Birds Trilogy | `415608E4` | 📱 iOS | Playable | 🚀 Great | iPad (A16) | 2026-03-09 |
 | 🟢 | Army of Two: The 40th Day | `454108D8` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-11-17 |
 | 🟢 | Assassin's Creed II | `5553083B` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro Max | 2026-11-14 |
+| 🟢 | Assassin's Creed III | `555308AE` | 📱 iOS | Playable | 🐢 Poor | iPhone 13 Pro Max | 2026-11-27 |
 | 🟢 | Assassin's Creed IV: Black Flag | `555308C2` | 📱 iOS | Playable | 🚀 Great | iPhone19,2 | 2026-11-27 |
 | 🟢 | Assassin's Creed: Revelations | `55530879` | 📱 iOS | Playable | 👌 OK | iPhone 16 | 2026-03-15 |
 | 🟢 | Banjo Kazooie: Nuts & Bolts | `4D5307ED` | 📱 iOS | Playable | 🐢 Poor | iPhone 15 Pro Max | 2026-03-08 |
@@ -130,6 +131,7 @@
 | 🟢 | Hitman: Absolution | `53510804` | 📱 iOS | Playable | 🚀 Great | iPad Pro 12.9-inch (M2) | 2026-03-18 |
 | 🟢 | Injustice: Gods Among Us | `57520829` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-08-11 |
 | 🟢 | Just Cause 2 | `534307E7` | 📱 iOS | Playable | 🐢 Poor | iPhone 17 Pro | 2026-03-09 |
+| 🟢 | L.A. Noire | `5454086C` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro Max | 2026-11-27 |
 | 🟢 | Left 4 Dead 2 | `454108D4` | 📱 iOS | Playable | 🚀 Great | iPhone 15 | 2026-10-25 |
 | 🟢 | Lego Harry Potter Years 1-4 | `575207E6` | 📱 iOS | Playable | 🐢 Poor | iPhone 13 | 2026-03-14 |
 | 🟢 | LEGO Indiana Jones | `4C4107DF` | 📱 iOS | Playable | 🚀 Great | iPad16,8 | 2026-07-16 |
@@ -175,6 +177,7 @@
 | 🟢 | Need for Speed: Undercover | `45410876` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-03-09 |
 | 🟢 | NHL 16: Legacy Edition | `454109EC` | 🖥️ macOS | Playable | 🚀 Great | MacBook Neo 8/512 | 2026-11-04 |
 | 🟢 | NiGHTS into dreams... | `58411268` | 📱 iOS | Playable | 🚀 Great | iPad Pro 13-inch (M5) | 2026-11-07 |
+| 🟢 | Ninja Gaiden II | `544307D5` | 📱 iOS | Playable | 🚀 Great | iPhone 15 Pro Max | 2026-11-27 |
 | 🟢 | OPERATION DARKNESS | `535507D1` | 📱 iOS | Playable | 🚀 Great | iPad Pro 11 inch 5th Gen | 2026-03-18 |
 | 🟢 | OutRun Online Arcade | `58410968` | 📱 iOS | Playable | 🚀 Great | iPad Pro 13-inch (M5) | 2026-11-06 |
 | 🟢 | PAYDAY 2 | `464F0800` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-09-02 |
@@ -302,7 +305,6 @@
 | 🔵 | Guitar Hero: Warriors of Rock | `41560883` | 📱 iOS | In-Game | 🐢 Poor | iPhone 13 mini | 2026-03-22 |
 | 🔵 | Inversion | `4E4D0801` | 📱 iOS | In-Game | 👌 OK | iPhone 13 Pro Max | 2026-11-22 |
 | 🔵 | Iron Man | `534507F2` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro Max | 2026-03-28 |
-| 🔵 | L.A. Noire | `5454086C` | 📱 iOS | In-Game | 👌 OK | iPhone 14 Pro | 2026-11-11 |
 | 🔵 | Lost Odyssey | `4D5307FA` | 📱 iOS, 🖥️ macOS | In-Game | 🚀 Great | Mac mini (M2) | 2026-03-11 |
 | 🔵 | Madden NFL 16 | `454109EB` | 🖥️ macOS | In-Game | 👌 OK | Macbook Neo A18 Pro | 2026-10-08 |
 | 🔵 | Mercenaries 2: World in Flames | `45410828` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 Pro | 2026-03-09 |
@@ -405,7 +407,6 @@
 | 🟠 | WWE Smackdown vs. Raw 2011 | `5451085D` | 📱 iOS | Loads | 🐢 Poor | iPhone 17 | 2026-05-26 |
 | 🔴 | 2006 FIFA World Cup | `454107E6` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-07-26 |
 | 🔴 | ACE COMBAT 6 Fires of Liberation | `4E4D07D1` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Pro 11 inch 5th Gen | 2026-05-20 |
-| 🔴 | Assassin's Creed III | `555308AE` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 Pro Max | 2026-04-10 |
 | 🔴 | Backbreaker Vengeance | `58410B39` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 Pro Max | 2026-07-18 |
 | 🔴 | Bionicle Heroes | `534307E2` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 12 Pro Max | 2026-10-11 |
 | 🔴 | Blue Dragon | `4D5307DF` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone Air | 2026-08-13 |
@@ -437,7 +438,6 @@
 | 🔴 | Need for Speed Hot Pursuit | `45410903` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 15 | 2026-03-29 |
 | 🔴 | NHL 15 | `454109DC` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 Pro Max | 2026-03-21 |
 | 🔴 | Ninja Gaiden Black (Europe) (En,Fr,De,Es,It) | `5443000D` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 Pro Max | 2026-11-18 |
-| 🔴 | Ninja Gaiden II | `544307D5` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 14 | 2026-03-24 |
 | 🔴 | Plants vs Zombies Garden Warfare | `454109C9` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone XS Max | 2026-04-18 |
 | 🔴 | SmackDown vs. RAW 2009 | `54510826` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad (A16) | 2026-03-16 |
 | 🔴 | Soulcalibur IV | `4E4D07E0` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-04-28 |

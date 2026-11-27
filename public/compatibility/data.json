@@ -12493,96 +12493,98 @@
     "titleIds": [
       "555308AE"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "playable",
+    "perf": "poor",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 17 Pro Max",
+      "device": "iPhone 13 Pro Max",
       "platform": "ios",
-      "osVersion": "26.3.1",
+      "osVersion": "27.2.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-04-10",
-    "issueNumber": 396,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/396",
-    "notes": "Instant crash and when I reopen it’s just black and you have to restart the whole app.",
+    "updatedAt": "2026-11-27",
+    "issueNumber": 849,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/849",
+    "notes": "Runs kinda ok but present numerous glitches.",
     "reports": [
       {
-        "device": "iPhone 17 Pro Max",
+        "device": "iPhone 13 Pro Max",
         "platform": "ios",
-        "osVersion": "26.3.1",
+        "osVersion": "27.2.1",
         "arch": "arm64",
         "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-04-10",
-        "notes": "Instant crash and when I reopen it’s just black and you have to restart the whole app.",
+        "status": "playable",
+        "perf": "poor",
+        "date": "2026-11-27",
+        "notes": "Runs kinda ok but present numerous glitches.",
         "screenshots": [],
         "source": "app",
         "build": {
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
+          "appVersion": "2.3.5",
+          "buildNumber": "12324",
+          "commitShort": "0c5630661"
         }
       }
     ],
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/555308AE/1795794372764-1.jpg"
+    ],
     "summaries": {
       "all": {
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "Instant crash and when I reopen it’s just black and you have to restart the whole app.",
-        "updatedAt": "2026-04-10",
+        "status": "playable",
+        "perf": "poor",
+        "notes": "Runs kinda ok but present numerous glitches.",
+        "updatedAt": "2026-11-27",
         "reportCount": 1,
         "latestReport": {
-          "device": "iPhone 17 Pro Max",
+          "device": "iPhone 13 Pro Max",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "27.2.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-04-10",
-          "notes": "Instant crash and when I reopen it’s just black and you have to restart the whole app.",
+          "status": "playable",
+          "perf": "poor",
+          "date": "2026-11-27",
+          "notes": "Runs kinda ok but present numerous glitches.",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "appVersion": "2.3.5",
+            "buildNumber": "12324",
+            "commitShort": "0c5630661"
           }
         },
         "bestReport": {
-          "device": "iPhone 17 Pro Max",
+          "device": "iPhone 13 Pro Max",
           "platform": "ios",
-          "osVersion": "26.3.1",
+          "osVersion": "27.2.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-04-10",
-          "notes": "Instant crash and when I reopen it’s just black and you have to restart the whole app.",
+          "status": "playable",
+          "perf": "poor",
+          "date": "2026-11-27",
+          "notes": "Runs kinda ok but present numerous glitches.",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "appVersion": "2.3.5",
+            "buildNumber": "12324",
+            "commitShort": "0c5630661"
           }
         },
-        "device": "iPhone 17 Pro Max",
+        "device": "iPhone 13 Pro Max",
         "platform": "ios",
-        "osVersion": "26.3.1",
+        "osVersion": "27.2.1",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
+          "appVersion": "2.3.5",
+          "buildNumber": "12324",
+          "commitShort": "0c5630661"
         }
       }
     }
@@ -12608,8 +12610,8 @@
       "gpuBackend": "msl"
     },
     "updatedAt": "2026-11-27",
-    "issueNumber": 682,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/682",
+    "issueNumber": 848,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/848",
     "notes": "Smoothly",
     "reports": [
       {
@@ -12629,26 +12631,6 @@
           "buildNumber": "12324",
           "commitShort": "0c5630661"
         }
-      },
-      {
-        "device": "Iphone 16 pro max",
-        "platform": "ios",
-        "osVersion": "27.0",
-        "arch": "arm64",
-        "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-09-01",
-        "notes": "Game crashes",
-        "reportedTitleId": "555308C2",
-        "reportedTitle": "Assassin's Creed IV: Black Flag",
-        "screenshots": [],
-        "submittedBy": "Boralmalgor",
-        "source": "github",
-        "build": {
-          "appVersion": "Preview 2.1-9857",
-          "buildNumber": "2,1"
-        }
       }
     ],
     "screenshots": [],
@@ -12658,7 +12640,7 @@
         "perf": "great",
         "notes": "Smoothly",
         "updatedAt": "2026-11-27",
-        "reportCount": 2,
+        "reportCount": 1,
         "latestReport": {
           "device": "iPhone19,2",
           "platform": "ios",
@@ -95793,24 +95775,42 @@
     "titleIds": [
       "5454086C"
     ],
-    "status": "ingame",
-    "perf": "ok",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 14 Pro",
+      "device": "iPhone 16 Pro Max",
       "platform": "ios",
-      "osVersion": "27.2",
+      "osVersion": "27.0",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-11-11",
+    "updatedAt": "2026-11-27",
     "issueNumber": 779,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/779",
-    "notes": "Low fps",
+    "notes": "I’ve tried multiple different ISOs and XEXs as well as tried changing several settings but every time I play it loads fine and is perfectly playable except for the fact that the main character loads up with all of the clothing but no shirt texture and instead shows an invisible space for his abdomen with a floating tie and badge",
     "reports": [
+      {
+        "device": "iPhone 16 Pro Max",
+        "platform": "ios",
+        "osVersion": "27.0",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-27",
+        "notes": "I’ve tried multiple different ISOs and XEXs as well as tried changing several settings but every time I play it loads fine and is perfectly playable except for the fact that the main character loads up with all of the clothing but no shirt texture and instead shows an invisible space for his abdomen with a floating tie and badge",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.5",
+          "buildNumber": "12326",
+          "commitShort": "0761cac73"
+        }
+      },
       {
         "device": "iPhone 14 Pro",
         "platform": "ios",
@@ -95830,59 +95830,63 @@
         }
       }
     ],
-    "screenshots": [],
+    "screenshots": [
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/5454086C/1795822005973-1.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/5454086C/1795822005973-2.jpg",
+      "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/5454086C/1795822005973-3.jpg"
+    ],
     "summaries": {
       "all": {
-        "status": "ingame",
-        "perf": "ok",
-        "notes": "Low fps",
-        "updatedAt": "2026-11-11",
-        "reportCount": 1,
+        "status": "playable",
+        "perf": "great",
+        "notes": "I’ve tried multiple different ISOs and XEXs as well as tried changing several settings but every time I play it loads fine and is perfectly playable except for the fact that the main character loads up with all of the clothing but no shirt texture and instead shows an invisible space for his abdomen with a floating tie and badge",
+        "updatedAt": "2026-11-27",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 14 Pro",
+          "device": "iPhone 16 Pro Max",
           "platform": "ios",
-          "osVersion": "27.2",
+          "osVersion": "27.0",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "ok",
-          "date": "2026-11-11",
-          "notes": "Low fps",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-27",
+          "notes": "I’ve tried multiple different ISOs and XEXs as well as tried changing several settings but every time I play it loads fine and is perfectly playable except for the fact that the main character loads up with all of the clothing but no shirt texture and instead shows an invisible space for his abdomen with a floating tie and badge",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "2.2.5",
-            "buildNumber": "11501",
-            "commitShort": "9b3820832"
+            "appVersion": "2.3.5",
+            "buildNumber": "12326",
+            "commitShort": "0761cac73"
           }
         },
         "bestReport": {
-          "device": "iPhone 14 Pro",
+          "device": "iPhone 16 Pro Max",
           "platform": "ios",
-          "osVersion": "27.2",
+          "osVersion": "27.0",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "ingame",
-          "perf": "ok",
-          "date": "2026-11-11",
-          "notes": "Low fps",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-27",
+          "notes": "I’ve tried multiple different ISOs and XEXs as well as tried changing several settings but every time I play it loads fine and is perfectly playable except for the fact that the main character loads up with all of the clothing but no shirt texture and instead shows an invisible space for his abdomen with a floating tie and badge",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "2.2.5",
-            "buildNumber": "11501",
-            "commitShort": "9b3820832"
+            "appVersion": "2.3.5",
+            "buildNumber": "12326",
+            "commitShort": "0761cac73"
           }
         },
-        "device": "iPhone 14 Pro",
+        "device": "iPhone 16 Pro Max",
         "platform": "ios",
-        "osVersion": "27.2",
+        "osVersion": "27.0",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "2.2.5",
-          "buildNumber": "11501",
-          "commitShort": "9b3820832"
+          "appVersion": "2.3.5",
+          "buildNumber": "12326",
+          "commitShort": "0761cac73"
         }
       }
     }
@@ -121859,40 +121863,40 @@
     "titleIds": [
       "544307D5"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 14",
+      "device": "iPhone 15 Pro Max",
       "platform": "ios",
-      "osVersion": "16.6",
+      "osVersion": "27.3",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-24",
+    "updatedAt": "2026-11-27",
     "issueNumber": 73,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/73",
-    "notes": "crashes the app",
+    "notes": "no sound",
     "reports": [
       {
-        "device": "iPhone 14",
+        "device": "iPhone 15 Pro Max",
         "platform": "ios",
-        "osVersion": "16.6",
+        "osVersion": "27.3",
         "arch": "arm64",
         "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-03-24",
-        "notes": "crashes the app",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-27",
+        "notes": "no sound",
         "screenshots": [],
         "source": "app",
         "build": {
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
+          "appVersion": "2.3.5",
+          "buildNumber": "12326",
+          "commitShort": "0761cac73"
         }
       },
       {
@@ -121919,56 +121923,56 @@
     "screenshots": [],
     "summaries": {
       "all": {
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "crashes the app",
-        "updatedAt": "2026-03-24",
+        "status": "playable",
+        "perf": "great",
+        "notes": "no sound",
+        "updatedAt": "2026-11-27",
         "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 14",
+          "device": "iPhone 15 Pro Max",
           "platform": "ios",
-          "osVersion": "16.6",
+          "osVersion": "27.3",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-24",
-          "notes": "crashes the app",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-27",
+          "notes": "no sound",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "appVersion": "2.3.5",
+            "buildNumber": "12326",
+            "commitShort": "0761cac73"
           }
         },
         "bestReport": {
-          "device": "iPhone 14",
+          "device": "iPhone 15 Pro Max",
           "platform": "ios",
-          "osVersion": "16.6",
+          "osVersion": "27.3",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-03-24",
-          "notes": "crashes the app",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-27",
+          "notes": "no sound",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "commitShort": "056d2f64d"
+            "appVersion": "2.3.5",
+            "buildNumber": "12326",
+            "commitShort": "0761cac73"
           }
         },
-        "device": "iPhone 14",
+        "device": "iPhone 15 Pro Max",
         "platform": "ios",
-        "osVersion": "16.6",
+        "osVersion": "27.3",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "1.0.1",
-          "buildNumber": "9288",
-          "commitShort": "056d2f64d"
+          "appVersion": "2.3.5",
+          "buildNumber": "12326",
+          "commitShort": "0761cac73"
         }
       }
     }

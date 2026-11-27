@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-27T05:19:09.747Z",
+  "generatedAt": "2026-11-27T23:30:54.030Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -4737,6 +4737,182 @@
         }
       ]
     },
+    "544307D5": {
+      "titleId": "544307D5",
+      "issueNumber": 850,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/850",
+      "updatedAt": "2026-11-27",
+      "entries": [
+        {
+          "id": "issue-850",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/850",
+          "author": "xenios-jp",
+          "createdAt": "2026-11-27",
+          "createdAtMs": 1795806227000,
+          "issueNumber": 850,
+          "excerpt": "no sound",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 15 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 27.3",
+            "gpuBackend": "MSL",
+            "appVersion": "2.3.5",
+            "buildNumber": "12326",
+            "commitShort": "`0761cac73`"
+          }
+        },
+        {
+          "id": "issue-354",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/354",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-24",
+          "createdAtMs": 1774364042000,
+          "issueNumber": 354,
+          "excerpt": "crashes the app",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 14",
+            "platform": "iOS",
+            "osVersion": "iOS 16.6",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "buildStage": "stable",
+            "commitShort": "`056d2f64d`"
+          }
+        },
+        {
+          "id": "issue-73",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/73",
+          "author": "xenios-jp",
+          "createdAt": "2026-03-08",
+          "createdAtMs": 1773001205000,
+          "issueNumber": 73,
+          "excerpt": "Absolutely nothing when trying to load game",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 15 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.0",
+            "buildNumber": "9280",
+            "buildStage": "stable",
+            "commitShort": "`2633e8177`"
+          }
+        }
+      ]
+    },
+    "555308AE": {
+      "titleId": "555308AE",
+      "issueNumber": 849,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/849",
+      "updatedAt": "2026-11-27",
+      "entries": [
+        {
+          "id": "issue-849",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/849",
+          "author": "xenios-jp",
+          "createdAt": "2026-11-27",
+          "createdAtMs": 1795794378000,
+          "issueNumber": 849,
+          "excerpt": "Runs kinda ok but present numerous glitches.",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/555308AE/1795794372764-1.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "poor",
+            "device": "iPhone 13 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 27.2.1",
+            "gpuBackend": "MSL",
+            "appVersion": "2.3.5",
+            "buildNumber": "12324",
+            "commitShort": "`0c5630661`"
+          }
+        },
+        {
+          "id": "issue-396",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/396",
+          "author": "xenios-jp",
+          "createdAt": "2026-04-10",
+          "createdAtMs": 1775781533000,
+          "issueNumber": 396,
+          "excerpt": "Instant crash and when I reopen it’s just black and you have to restart the whole app.",
+          "images": [],
+          "meta": {
+            "status": "nothing",
+            "perf": "n/a",
+            "device": "iPhone 17 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 26.3.1",
+            "gpuBackend": "MSL",
+            "buildChannel": "self-built",
+            "appVersion": "1.0.1",
+            "buildNumber": "9288",
+            "buildStage": "stable",
+            "commitShort": "`056d2f64d`"
+          }
+        }
+      ]
+    },
+    "555308C2": {
+      "titleId": "555308C2",
+      "issueNumber": 848,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/848",
+      "updatedAt": "2026-11-27",
+      "entries": [
+        {
+          "id": "issue-848",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/848",
+          "author": "xenios-jp",
+          "createdAt": "2026-11-27",
+          "createdAtMs": 1795770201000,
+          "issueNumber": 848,
+          "excerpt": "Smoothly",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone19,2",
+            "platform": "iOS",
+            "osVersion": "iOS 27.2.1",
+            "gpuBackend": "MSL",
+            "appVersion": "2.3.5",
+            "buildNumber": "12324",
+            "commitShort": "`0c5630661`"
+          }
+        },
+        {
+          "id": "issue-682",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/682",
+          "author": "Boralmalgor",
+          "createdAt": "2026-09-01",
+          "createdAtMs": 1788234282000,
+          "issueNumber": 682,
+          "excerpt": "Game crashes",
+          "images": [],
+          "meta": {}
+        }
+      ]
+    },
     "4B4E085F": {
       "titleId": "4B4E085F",
       "issueNumber": 847,
@@ -8013,8 +8189,34 @@
       "titleId": "5454086C",
       "issueNumber": 779,
       "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/779",
-      "updatedAt": "2026-11-11",
+      "updatedAt": "2026-11-27",
       "entries": [
+        {
+          "id": "comment-7230148426",
+          "type": "comment",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/779#issuecomment-7230148426",
+          "author": "xenios-jp",
+          "createdAt": "2026-11-27",
+          "createdAtMs": 1795822014000,
+          "issueNumber": 779,
+          "excerpt": "I’ve tried multiple different ISOs and XEXs as well as tried changing several settings but every time I play it loads fine and is perfectly playable except for the fact that the main character loads up with all of the clothing but no shirt texture and instead shows an invisible space for his abdomen with a floating tie and badge",
+          "images": [
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/5454086C/1795822005973-1.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/5454086C/1795822005973-2.jpg",
+            "https://raw.githubusercontent.com/xenios-jp/game-compatibility/main/public/compatibility/screenshots/5454086C/1795822005973-3.jpg"
+          ],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 16 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 27.0",
+            "gpuBackend": "MSL",
+            "appVersion": "2.3.5",
+            "buildNumber": "12326",
+            "commitShort": "`0761cac73`"
+          }
+        },
         {
           "id": "issue-779",
           "type": "issue",
@@ -11574,26 +11776,6 @@
           "createdAtMs": 1788234647000,
           "issueNumber": 683,
           "excerpt": "Game seems to run at stable 30 fps however missing textures",
-          "images": [],
-          "meta": {}
-        }
-      ]
-    },
-    "555308C2": {
-      "titleId": "555308C2",
-      "issueNumber": 682,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/682",
-      "updatedAt": "2026-09-01",
-      "entries": [
-        {
-          "id": "issue-682",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/682",
-          "author": "Boralmalgor",
-          "createdAt": "2026-09-01",
-          "createdAtMs": 1788234282000,
-          "issueNumber": 682,
-          "excerpt": "Game crashes",
           "images": [],
           "meta": {}
         }
@@ -17404,38 +17586,6 @@
         }
       ]
     },
-    "555308AE": {
-      "titleId": "555308AE",
-      "issueNumber": 396,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/396",
-      "updatedAt": "2026-04-10",
-      "entries": [
-        {
-          "id": "issue-396",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/396",
-          "author": "xenios-jp",
-          "createdAt": "2026-04-10",
-          "createdAtMs": 1775781533000,
-          "issueNumber": 396,
-          "excerpt": "Instant crash and when I reopen it’s just black and you have to restart the whole app.",
-          "images": [],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPhone 17 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 26.3.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "buildStage": "stable",
-            "commitShort": "`056d2f64d`"
-          }
-        }
-      ]
-    },
     "4E4D0846": {
       "titleId": "4E4D0846",
       "issueNumber": 389,
@@ -18380,62 +18530,6 @@
             "buildNumber": "9320",
             "buildStage": "stable",
             "commitShort": "`3d70b7b41a`"
-          }
-        }
-      ]
-    },
-    "544307D5": {
-      "titleId": "544307D5",
-      "issueNumber": 354,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/354",
-      "updatedAt": "2026-03-24",
-      "entries": [
-        {
-          "id": "issue-354",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/354",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-24",
-          "createdAtMs": 1774364042000,
-          "issueNumber": 354,
-          "excerpt": "crashes the app",
-          "images": [],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPhone 14",
-            "platform": "iOS",
-            "osVersion": "iOS 16.6",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.1",
-            "buildNumber": "9288",
-            "buildStage": "stable",
-            "commitShort": "`056d2f64d`"
-          }
-        },
-        {
-          "id": "issue-73",
-          "type": "issue",
-          "url": "https://github.com/xenios-jp/game-compatibility/issues/73",
-          "author": "xenios-jp",
-          "createdAt": "2026-03-08",
-          "createdAtMs": 1773001205000,
-          "issueNumber": 73,
-          "excerpt": "Absolutely nothing when trying to load game",
-          "images": [],
-          "meta": {
-            "status": "nothing",
-            "perf": "n/a",
-            "device": "iPhone 15 Pro Max",
-            "platform": "iOS",
-            "osVersion": "iOS 26.1",
-            "gpuBackend": "MSL",
-            "buildChannel": "self-built",
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "buildStage": "stable",
-            "commitShort": "`2633e8177`"
           }
         }
       ]
