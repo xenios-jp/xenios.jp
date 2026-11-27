@@ -2,7 +2,7 @@
 
 > **439 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **245** · 🔵 In-Game: **67** · 🟡 Intro: **22** · 🟠 Loads: **48** · 🔴 Doesn't Boot: **57**
+> 🟢 Playable: **246** · 🔵 In-Game: **67** · 🟡 Intro: **22** · 🟠 Loads: **48** · 🔴 Doesn't Boot: **56**
 >
 > 📱 iOS: **405** · 🖥️ macOS: **55**
 
@@ -33,6 +33,7 @@
 | 🟢 | Angry Birds Trilogy | `415608E4` | 📱 iOS | Playable | 🚀 Great | iPad (A16) | 2026-03-09 |
 | 🟢 | Army of Two: The 40th Day | `454108D8` | 📱 iOS | Playable | 🚀 Great | iPhone 17 Pro Max | 2026-11-17 |
 | 🟢 | Assassin's Creed II | `5553083B` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro Max | 2026-11-14 |
+| 🟢 | Assassin's Creed IV: Black Flag | `555308C2` | 📱 iOS | Playable | 🚀 Great | iPhone19,2 | 2026-11-27 |
 | 🟢 | Assassin's Creed: Revelations | `55530879` | 📱 iOS | Playable | 👌 OK | iPhone 16 | 2026-03-15 |
 | 🟢 | Banjo Kazooie: Nuts & Bolts | `4D5307ED` | 📱 iOS | Playable | 🐢 Poor | iPhone 15 Pro Max | 2026-03-08 |
 | 🟢 | Batman: Arkham Asylum GOTY | `5343080B` | 📱 iOS | Playable | 👌 OK | iPhone 13 Pro Max | 2026-11-25 |
@@ -405,7 +406,6 @@
 | 🔴 | 2006 FIFA World Cup | `454107E6` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-07-26 |
 | 🔴 | ACE COMBAT 6 Fires of Liberation | `4E4D07D1` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad Pro 11 inch 5th Gen | 2026-05-20 |
 | 🔴 | Assassin's Creed III | `555308AE` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 Pro Max | 2026-04-10 |
-| 🔴 | Assassin's Creed IV: Black Flag | `555308C2` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro Max | 2026-09-01 |
 | 🔴 | Backbreaker Vengeance | `58410B39` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 Pro Max | 2026-07-18 |
 | 🔴 | Bionicle Heroes | `534307E2` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 12 Pro Max | 2026-10-11 |
 | 🔴 | Blue Dragon | `4D5307DF` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone Air | 2026-08-13 |

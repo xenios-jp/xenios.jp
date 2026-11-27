@@ -12594,24 +12594,42 @@
     "titleIds": [
       "555308C2"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "Iphone 16 pro max",
+      "device": "iPhone19,2",
       "platform": "ios",
-      "osVersion": "27.0",
+      "osVersion": "27.2.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-09-01",
+    "updatedAt": "2026-11-27",
     "issueNumber": 682,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/682",
-    "notes": "Game crashes",
+    "notes": "Smoothly",
     "reports": [
+      {
+        "device": "iPhone19,2",
+        "platform": "ios",
+        "osVersion": "27.2.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-27",
+        "notes": "Smoothly",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.5",
+          "buildNumber": "12324",
+          "commitShort": "0c5630661"
+        }
+      },
       {
         "device": "Iphone 16 pro max",
         "platform": "ios",
@@ -12636,59 +12654,56 @@
     "screenshots": [],
     "summaries": {
       "all": {
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "Game crashes",
-        "updatedAt": "2026-09-01",
-        "reportCount": 1,
+        "status": "playable",
+        "perf": "great",
+        "notes": "Smoothly",
+        "updatedAt": "2026-11-27",
+        "reportCount": 2,
         "latestReport": {
-          "device": "Iphone 16 pro max",
+          "device": "iPhone19,2",
           "platform": "ios",
-          "osVersion": "27.0",
+          "osVersion": "27.2.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-09-01",
-          "notes": "Game crashes",
-          "reportedTitleId": "555308C2",
-          "reportedTitle": "Assassin's Creed IV: Black Flag",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-27",
+          "notes": "Smoothly",
           "screenshots": [],
-          "submittedBy": "Boralmalgor",
-          "source": "github",
+          "source": "app",
           "build": {
-            "appVersion": "Preview 2.1-9857",
-            "buildNumber": "2,1"
+            "appVersion": "2.3.5",
+            "buildNumber": "12324",
+            "commitShort": "0c5630661"
           }
         },
         "bestReport": {
-          "device": "Iphone 16 pro max",
+          "device": "iPhone19,2",
           "platform": "ios",
-          "osVersion": "27.0",
+          "osVersion": "27.2.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-09-01",
-          "notes": "Game crashes",
-          "reportedTitleId": "555308C2",
-          "reportedTitle": "Assassin's Creed IV: Black Flag",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-27",
+          "notes": "Smoothly",
           "screenshots": [],
-          "submittedBy": "Boralmalgor",
-          "source": "github",
+          "source": "app",
           "build": {
-            "appVersion": "Preview 2.1-9857",
-            "buildNumber": "2,1"
+            "appVersion": "2.3.5",
+            "buildNumber": "12324",
+            "commitShort": "0c5630661"
           }
         },
-        "device": "Iphone 16 pro max",
+        "device": "iPhone19,2",
         "platform": "ios",
-        "osVersion": "27.0",
+        "osVersion": "27.2.1",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "Preview 2.1-9857",
-          "buildNumber": "2,1"
+          "appVersion": "2.3.5",
+          "buildNumber": "12324",
+          "commitShort": "0c5630661"
         }
       }
     }
