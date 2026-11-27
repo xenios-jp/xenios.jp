@@ -134324,96 +134324,96 @@
       "4B4E085F",
       "4B4E8860"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 12 Pro",
+      "device": "iPhone 16 Pro Max",
       "platform": "ios",
-      "osVersion": "26.6",
+      "osVersion": "26.2",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-08-11",
-    "issueNumber": 643,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/643",
-    "notes": "Black screen",
+    "updatedAt": "2026-11-26",
+    "issueNumber": 847,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/847",
+    "notes": "It works very fine for me",
     "reports": [
       {
-        "device": "iPhone 12 Pro",
+        "device": "iPhone 16 Pro Max",
         "platform": "ios",
-        "osVersion": "26.6",
+        "osVersion": "26.2",
         "arch": "arm64",
         "gpuBackend": "msl",
-        "status": "nothing",
-        "perf": "n/a",
-        "date": "2026-08-11",
-        "notes": "Black screen",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-26",
+        "notes": "It works very fine for me",
         "screenshots": [],
         "source": "app",
         "build": {
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "commitShort": "57c3ca140"
+          "appVersion": "2.3.5",
+          "buildNumber": "12324",
+          "commitShort": "0c5630661"
         }
       }
     ],
     "screenshots": [],
     "summaries": {
       "all": {
-        "status": "nothing",
-        "perf": "n/a",
-        "notes": "Black screen",
-        "updatedAt": "2026-08-11",
+        "status": "playable",
+        "perf": "great",
+        "notes": "It works very fine for me",
+        "updatedAt": "2026-11-26",
         "reportCount": 1,
         "latestReport": {
-          "device": "iPhone 12 Pro",
+          "device": "iPhone 16 Pro Max",
           "platform": "ios",
-          "osVersion": "26.6",
+          "osVersion": "26.2",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-08-11",
-          "notes": "Black screen",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-26",
+          "notes": "It works very fine for me",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.3.5",
+            "buildNumber": "12324",
+            "commitShort": "0c5630661"
           }
         },
         "bestReport": {
-          "device": "iPhone 12 Pro",
+          "device": "iPhone 16 Pro Max",
           "platform": "ios",
-          "osVersion": "26.6",
+          "osVersion": "26.2",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "nothing",
-          "perf": "n/a",
-          "date": "2026-08-11",
-          "notes": "Black screen",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-26",
+          "notes": "It works very fine for me",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "2.0.1",
-            "buildNumber": "9730",
-            "commitShort": "57c3ca140"
+            "appVersion": "2.3.5",
+            "buildNumber": "12324",
+            "commitShort": "0c5630661"
           }
         },
-        "device": "iPhone 12 Pro",
+        "device": "iPhone 16 Pro Max",
         "platform": "ios",
-        "osVersion": "26.6",
+        "osVersion": "26.2",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "2.0.1",
-          "buildNumber": "9730",
-          "commitShort": "57c3ca140"
+          "appVersion": "2.3.5",
+          "buildNumber": "12324",
+          "commitShort": "0c5630661"
         }
       }
     }
@@ -193208,11 +193208,29 @@
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-11-21",
+    "updatedAt": "2026-11-27",
     "issueNumber": 827,
     "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/827",
     "notes": "it works",
     "reports": [
+      {
+        "device": "iPhone 16 Pro Max",
+        "platform": "ios",
+        "osVersion": "27.0",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "loads",
+        "perf": "great",
+        "date": "2026-11-27",
+        "notes": "It loads menus and everything but as soon as a match starts it crashes the guest. I might just have a bad copy of the game so I’ll try getting another one to test it out",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.5",
+          "buildNumber": "12326",
+          "commitShort": "0761cac73"
+        }
+      },
       {
         "device": "iPhone 14 Plus",
         "platform": "ios",
@@ -193238,24 +193256,24 @@
         "status": "playable",
         "perf": "great",
         "notes": "it works",
-        "updatedAt": "2026-11-21",
-        "reportCount": 1,
+        "updatedAt": "2026-11-27",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 14 Plus",
+          "device": "iPhone 16 Pro Max",
           "platform": "ios",
           "osVersion": "27.0",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "playable",
+          "status": "loads",
           "perf": "great",
-          "date": "2026-11-21",
-          "notes": "it works",
+          "date": "2026-11-27",
+          "notes": "It loads menus and everything but as soon as a match starts it crashes the guest. I might just have a bad copy of the game so I’ll try getting another one to test it out",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "2.3.3",
-            "buildNumber": "11940",
-            "commitShort": "77cc1358b"
+            "appVersion": "2.3.5",
+            "buildNumber": "12326",
+            "commitShort": "0761cac73"
           }
         },
         "bestReport": {

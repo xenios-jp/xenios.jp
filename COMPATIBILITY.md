@@ -2,7 +2,7 @@
 
 > **439 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **244** · 🔵 In-Game: **67** · 🟡 Intro: **22** · 🟠 Loads: **48** · 🔴 Doesn't Boot: **58**
+> 🟢 Playable: **245** · 🔵 In-Game: **67** · 🟡 Intro: **22** · 🟠 Loads: **48** · 🔴 Doesn't Boot: **57**
 >
 > 📱 iOS: **405** · 🖥️ macOS: **55**
 
@@ -185,6 +185,7 @@
 | 🟢 | Pro Evolution Soccer 2011 / PES 2011 | `4B4E081D` | 📱 iOS | Playable | 🐢 Poor | iPhone 16e | 2026-05-20 |
 | 🟢 | Pro Evolution Soccer 2012 / PES 2012 | `4B4E0837` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro | 2026-04-25 |
 | 🟢 | Pro Evolution Soccer 2014 / PES 2014 | `4B4E0856` | 📱 iOS | Playable | 🚀 Great | iPad Air(13 inch) | 2026-11-19 |
+| 🟢 | Pro Evolution Soccer 2015 / PES 2015 | `4B4E085F` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro Max | 2026-11-26 |
 | 🟢 | Pro Evolution Soccer 2016 / PES 2016 | `4B4E0861` | 📱 iOS | Playable | 🐢 Poor | iPhone 16e | 2026-04-25 |
 | 🟢 | Pro Evolution Soccer 2017 | `4A3007D1` | 📱 iOS | Playable | 🚀 Great | iPhone 14 Plus | 2026-11-20 |
 | 🟢 | Project Gotham Racing 4 | `4D5307F9` | 📱 iOS | Playable | 👌 OK | iPhone 17 Pro Max | 2026-11-12 |
@@ -256,7 +257,7 @@
 | 🟢 | Ultra Street Fighter IV | `434307FC` | 📱 iOS | Playable | 👌 OK | iPhone 16 Pro Max | 2026-03-09 |
 | 🟢 | Virtua Fighter 5: Final Showdown | `534507EE` | 📱 iOS | Playable | 👌 OK | iPhone 17 Pro Max | 2026-03-03 |
 | 🟢 | WRC 5: FIA WORLD RALLY CHAMPIONSHIP | `573607E2` | 📱 iOS | Playable | 🐢 Poor | iPhone 17 Pro Max | 2026-03-17 |
-| 🟢 | WWE 2k14 | `545408B2` | 📱 iOS | Playable | 🚀 Great | iPhone 14 Plus | 2026-11-21 |
+| 🟢 | WWE 2k14 | `545408B2` | 📱 iOS | Playable | 🚀 Great | iPhone 14 Plus | 2026-11-27 |
 | 🟢 | WWE All Stars | `54510866` | 📱 iOS | Playable | 🚀 Great | iPad Pro 11-inch (M2) | 2026-11-08 |
 | 🟢 | WWE Smackdown vs RAW 2008 | `5451080B` | 📱 iOS | Playable | 👌 OK | iPhone 16e | 2026-03-16 |
 | 🟢 | X-Men Origins: Wolverine | `41560816` | 📱 iOS | Playable | 👌 OK | iPhone 13 Pro Max | 2026-11-11 |
@@ -438,7 +439,6 @@
 | 🔴 | Ninja Gaiden Black (Europe) (En,Fr,De,Es,It) | `5443000D` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 17 Pro Max | 2026-11-18 |
 | 🔴 | Ninja Gaiden II | `544307D5` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 14 | 2026-03-24 |
 | 🔴 | Plants vs Zombies Garden Warfare | `454109C9` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone XS Max | 2026-04-18 |
-| 🔴 | Pro Evolution Soccer 2015 / PES 2015 | `4B4E085F` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 12 Pro | 2026-08-11 |
 | 🔴 | SmackDown vs. RAW 2009 | `54510826` | 📱 iOS | Doesn't Boot | ➖ N/A | iPad (A16) | 2026-03-16 |
 | 🔴 | Soulcalibur IV | `4E4D07E0` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 Pro | 2026-04-28 |
 | 🔴 | Spider-Man 3 | `415607E2` | 📱 iOS | Doesn't Boot | ➖ N/A | iPhone 16 | 2026-07-10 |
