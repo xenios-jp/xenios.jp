@@ -1,10 +1,10 @@
 # XeniOS Compatibility List
 
-> **439 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
+> **441 games tested** — auto-generated from [`data/compatibility.json`](data/compatibility.json)
 >
-> 🟢 Playable: **249** · 🔵 In-Game: **66** · 🟡 Intro: **22** · 🟠 Loads: **48** · 🔴 Doesn't Boot: **54**
+> 🟢 Playable: **251** · 🔵 In-Game: **66** · 🟡 Intro: **22** · 🟠 Loads: **48** · 🔴 Doesn't Boot: **54**
 >
-> 📱 iOS: **405** · 🖥️ macOS: **55**
+> 📱 iOS: **407** · 🖥️ macOS: **55**
 
 ## Legend
 
@@ -38,6 +38,7 @@
 | 🟢 | Assassin's Creed: Revelations | `55530879` | 📱 iOS | Playable | 👌 OK | iPhone 16 | 2026-03-15 |
 | 🟢 | Banjo Kazooie: Nuts & Bolts | `4D5307ED` | 📱 iOS | Playable | 🐢 Poor | iPhone 15 Pro Max | 2026-03-08 |
 | 🟢 | Batman: Arkham Asylum GOTY | `5343080B` | 📱 iOS | Playable | 👌 OK | iPhone 13 Pro Max | 2026-11-25 |
+| 🟢 | Batman: Arkham City | `57520802` | 📱 iOS | Playable | 👌 OK | iPhone 13 Pro Max | 2026-11-28 |
 | 🟢 | Batman: Arkham Origins | `57520828` | 📱 iOS | Playable | 👌 OK | iPhone 13 Pro Max | 2026-11-26 |
 | 🟢 | BattleBlock Theater | `58410A30` | 📱 iOS | Playable | 🚀 Great | iPhone 13 | 2026-03-10 |
 | 🟢 | Ben 10 Ultimate Alien Cosmic Destruction | `445007F7` | 📱 iOS | Playable | 🚀 Great | iPhone 17 | 2026-07-16 |
@@ -97,6 +98,7 @@
 | 🟢 | Far Cry 2 | `55530810` | 📱 iOS | Playable | 🐢 Poor | iPhone 16 | 2026-03-10 |
 | 🟢 | Farming Simulator 15 | `464507E1` | 📱 iOS | Playable | 👌 OK | iPhone 16e | 2026-10-09 |
 | 🟢 | FIFA 06: Road to FIFA World Cup | `454107D7` | 📱 iOS | Playable | 👌 OK | iPhone 13 Pro Max | 2026-11-26 |
+| 🟢 | FIFA 12 | `45410967` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro Max | 2026-11-28 |
 | 🟢 | FIFA 15 | `454109DB` | 📱 iOS | Playable | 🚀 Great | iPhone 16 Pro Max | 2026-11-21 |
 | 🟢 | Fight Night Champion | `45410915` | 📱 iOS | Playable | 🚀 Great | iPhone 15 | 2026-11-13 |
 | 🟢 | Fight Night Round 4 | `45410894` | 📱 iOS | Playable | 🚀 Great | iPhone 15 | 2026-11-14 |
@@ -271,7 +273,6 @@
 | 🟢 | Zuma | `584107EF` | 📱 iOS | Playable | 🚀 Great | iPhone 16e | 2026-10-09 |
 | 🔵 | 2014 FIFA World Cup Brazil | `454109D4` | 📱 iOS | In-Game | 🚀 Great | iPad Pro 11-inch (M4) | 2026-07-10 |
 | 🔵 | Band Hero | `4156085C` | 📱 iOS, 🖥️ macOS | In-Game | 🐢 Poor | iPhone 13 mini | 2026-03-22 |
-| 🔵 | Batman: Arkham City | `57520802` | 📱 iOS | In-Game | 👌 OK | iPhone 15 Pro Max | 2026-03-09 |
 | 🔵 | Battlefield 4 | `454109BA` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 | 2026-11-03 |
 | 🔵 | Battlefield: Bad Company | `454107F9` | 📱 iOS | In-Game | 🚀 Great | iPhone 15 | 2026-08-05 |
 | 🔵 | Bayonetta | `53450813` | 📱 iOS | In-Game | 🐢 Poor | iPhone 17 | 2026-03-08 |
@@ -334,6 +335,7 @@
 | 🔵 | Tomb Raider Underworld | `534307EC` | 📱 iOS | In-Game | 🐢 Poor | iPad16,8 | 2026-07-16 |
 | 🔵 | UFC Undisputed 2010 | `54510851` | 📱 iOS | In-Game | 🐢 Poor | iPhone 16 | 2026-06-05 |
 | 🔵 | Virtua Tennis 3 | `534507E1` | 📱 iOS | In-Game | 🚀 Great | iPhone 17 Pro Max | 2026-06-18 |
+| 🔵 | Watch Dogs | `555308B7` | 📱 iOS | In-Game | 👌 OK | iPad (A16) | 2026-11-28 |
 | 🔵 | WWE SmackDown! Vs Raw 2007 | `545107E0` | 📱 iOS | In-Game | 👌 OK | iPhone 17 | 2026-05-26 |
 | 🟡 | A World of Keflings | `584109DB` | 📱 iOS | Intro | 👌 OK | iPhone 14 Pro | 2026-09-10 |
 | 🟡 | Armored Core: For Answer | `465307DA` | 📱 iOS | Intro | 🐢 Poor | iPhone 16 Pro Max | 2026-10-30 |

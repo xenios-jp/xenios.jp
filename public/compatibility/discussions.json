@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-27T23:30:54.030Z",
+  "generatedAt": "2026-11-28T06:13:29.504Z",
   "source": {
     "owner": "xenios-jp",
     "repo": "game-compatibility",
@@ -2569,6 +2569,36 @@
         }
       ]
     },
+    "45410967": {
+      "titleId": "45410967",
+      "issueNumber": 852,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/852",
+      "updatedAt": "2026-11-28",
+      "entries": [
+        {
+          "id": "issue-852",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/852",
+          "author": "xenios-jp",
+          "createdAt": "2026-11-28",
+          "createdAtMs": 1795836445000,
+          "issueNumber": 852,
+          "excerpt": "Plays smooth AF",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "great",
+            "device": "iPhone 16 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 27.2.1",
+            "gpuBackend": "MSL",
+            "appVersion": "2.3.5",
+            "buildNumber": "12326",
+            "commitShort": "`0761cac73`"
+          }
+        }
+      ]
+    },
     "45410998": {
       "titleId": "45410998",
       "issueNumber": 525,
@@ -3975,10 +4005,32 @@
     },
     "57520802": {
       "titleId": "57520802",
-      "issueNumber": 137,
-      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/137",
-      "updatedAt": "2026-03-09",
+      "issueNumber": 851,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/851",
+      "updatedAt": "2026-11-28",
       "entries": [
+        {
+          "id": "issue-851",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/851",
+          "author": "xenios-jp",
+          "createdAt": "2026-11-28",
+          "createdAtMs": 1795829011000,
+          "issueNumber": 851,
+          "excerpt": "Is kindy slow sometimes…",
+          "images": [],
+          "meta": {
+            "status": "playable",
+            "perf": "ok",
+            "device": "iPhone 13 Pro Max",
+            "platform": "iOS",
+            "osVersion": "iOS 27.2.1",
+            "gpuBackend": "MSL",
+            "appVersion": "2.3.5",
+            "buildNumber": "12324",
+            "commitShort": "`0c5630661`"
+          }
+        },
         {
           "id": "issue-137",
           "type": "issue",
@@ -4732,6 +4784,26 @@
           "createdAtMs": 1773517964000,
           "issueNumber": 263,
           "excerpt": "Boot it 5-7 times so it stops crashing/plays audio. Audio is inconsistent throughout.",
+          "images": [],
+          "meta": {}
+        }
+      ]
+    },
+    "555308B7": {
+      "titleId": "555308B7",
+      "issueNumber": 853,
+      "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/853",
+      "updatedAt": "2026-11-28",
+      "entries": [
+        {
+          "id": "issue-853",
+          "type": "issue",
+          "url": "https://github.com/xenios-jp/game-compatibility/issues/853",
+          "author": "kolayuvan-cmyk",
+          "createdAt": "2026-11-28",
+          "createdAtMs": 1795846270000,
+          "issueNumber": 853,
+          "excerpt": "Playable at 20 to 30fps but crashes due to OOM",
           "images": [],
           "meta": {}
         }

@@ -21882,24 +21882,42 @@
       "57520802",
       "57528827"
     ],
-    "status": "ingame",
+    "status": "playable",
     "perf": "ok",
     "tags": [],
     "platforms": [
       "ios"
     ],
     "lastReport": {
-      "device": "iPhone 15 Pro Max",
+      "device": "iPhone 13 Pro Max",
       "platform": "ios",
-      "osVersion": "26.3",
+      "osVersion": "27.2.1",
       "arch": "arm64",
       "gpuBackend": "msl"
     },
-    "updatedAt": "2026-03-09",
-    "issueNumber": 137,
-    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/137",
-    "notes": "Intro is messed up, but loads.\n\nCrashes occasionally (upon new game, and certain heavy scene changes)\n\nSlows down occasionally, lights also visible through geometry, and models sometimes appear and disappear.",
+    "updatedAt": "2026-11-28",
+    "issueNumber": 851,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/851",
+    "notes": "Is kindy slow sometimes…",
     "reports": [
+      {
+        "device": "iPhone 13 Pro Max",
+        "platform": "ios",
+        "osVersion": "27.2.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "ok",
+        "date": "2026-11-28",
+        "notes": "Is kindy slow sometimes…",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.5",
+          "buildNumber": "12324",
+          "commitShort": "0c5630661"
+        }
+      },
       {
         "device": "iPhone 15 Pro Max",
         "platform": "ios",
@@ -21922,56 +21940,56 @@
     "screenshots": [],
     "summaries": {
       "all": {
-        "status": "ingame",
+        "status": "playable",
         "perf": "ok",
-        "notes": "Intro is messed up, but loads.\n\nCrashes occasionally (upon new game, and certain heavy scene changes)\n\nSlows down occasionally, lights also visible through geometry, and models sometimes appear and disappear.",
-        "updatedAt": "2026-03-09",
-        "reportCount": 1,
+        "notes": "Is kindy slow sometimes…",
+        "updatedAt": "2026-11-28",
+        "reportCount": 2,
         "latestReport": {
-          "device": "iPhone 15 Pro Max",
+          "device": "iPhone 13 Pro Max",
           "platform": "ios",
-          "osVersion": "26.3",
+          "osVersion": "27.2.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "ingame",
+          "status": "playable",
           "perf": "ok",
-          "date": "2026-03-09",
-          "notes": "Intro is messed up, but loads.\n\nCrashes occasionally (upon new game, and certain heavy scene changes)\n\nSlows down occasionally, lights also visible through geometry, and models sometimes appear and disappear.",
+          "date": "2026-11-28",
+          "notes": "Is kindy slow sometimes…",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633e8177"
+            "appVersion": "2.3.5",
+            "buildNumber": "12324",
+            "commitShort": "0c5630661"
           }
         },
         "bestReport": {
-          "device": "iPhone 15 Pro Max",
+          "device": "iPhone 13 Pro Max",
           "platform": "ios",
-          "osVersion": "26.3",
+          "osVersion": "27.2.1",
           "arch": "arm64",
           "gpuBackend": "msl",
-          "status": "ingame",
+          "status": "playable",
           "perf": "ok",
-          "date": "2026-03-09",
-          "notes": "Intro is messed up, but loads.\n\nCrashes occasionally (upon new game, and certain heavy scene changes)\n\nSlows down occasionally, lights also visible through geometry, and models sometimes appear and disappear.",
+          "date": "2026-11-28",
+          "notes": "Is kindy slow sometimes…",
           "screenshots": [],
           "source": "app",
           "build": {
-            "appVersion": "1.0.0",
-            "buildNumber": "9280",
-            "commitShort": "2633e8177"
+            "appVersion": "2.3.5",
+            "buildNumber": "12324",
+            "commitShort": "0c5630661"
           }
         },
-        "device": "iPhone 15 Pro Max",
+        "device": "iPhone 13 Pro Max",
         "platform": "ios",
-        "osVersion": "26.3",
+        "osVersion": "27.2.1",
         "arch": "arm64",
         "gpuBackend": "msl",
         "build": {
-          "appVersion": "1.0.0",
-          "buildNumber": "9280",
-          "commitShort": "2633e8177"
+          "appVersion": "2.3.5",
+          "buildNumber": "12324",
+          "commitShort": "0c5630661"
         }
       }
     }
@@ -65904,24 +65922,97 @@
       "45418974",
       "45410973"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "playable",
+    "perf": "great",
     "tags": [],
-    "platforms": [],
-    "lastReport": null,
-    "updatedAt": "",
-    "notes": "",
-    "reports": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPhone 16 Pro Max",
+      "platform": "ios",
+      "osVersion": "27.2.1",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-11-28",
+    "issueNumber": 852,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/852",
+    "notes": "Plays smooth AF",
+    "reports": [
+      {
+        "device": "iPhone 16 Pro Max",
+        "platform": "ios",
+        "osVersion": "27.2.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "playable",
+        "perf": "great",
+        "date": "2026-11-28",
+        "notes": "Plays smooth AF",
+        "screenshots": [],
+        "source": "app",
+        "build": {
+          "appVersion": "2.3.5",
+          "buildNumber": "12326",
+          "commitShort": "0761cac73"
+        }
+      }
+    ],
     "screenshots": [],
     "summaries": {
       "all": {
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "playable",
+        "perf": "great",
+        "notes": "Plays smooth AF",
+        "updatedAt": "2026-11-28",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPhone 16 Pro Max",
+          "platform": "ios",
+          "osVersion": "27.2.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-28",
+          "notes": "Plays smooth AF",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "appVersion": "2.3.5",
+            "buildNumber": "12326",
+            "commitShort": "0761cac73"
+          }
+        },
+        "bestReport": {
+          "device": "iPhone 16 Pro Max",
+          "platform": "ios",
+          "osVersion": "27.2.1",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "playable",
+          "perf": "great",
+          "date": "2026-11-28",
+          "notes": "Plays smooth AF",
+          "screenshots": [],
+          "source": "app",
+          "build": {
+            "appVersion": "2.3.5",
+            "buildNumber": "12326",
+            "commitShort": "0761cac73"
+          }
+        },
+        "device": "iPhone 16 Pro Max",
+        "platform": "ios",
+        "osVersion": "27.2.1",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "build": {
+          "appVersion": "2.3.5",
+          "buildNumber": "12326",
+          "commitShort": "0761cac73"
+        }
       }
     }
   },
@@ -189655,24 +189746,93 @@
     "titleIds": [
       "555308B7"
     ],
-    "status": "nothing",
-    "perf": "n/a",
+    "status": "ingame",
+    "perf": "ok",
     "tags": [],
-    "platforms": [],
-    "lastReport": null,
-    "updatedAt": "",
-    "notes": "",
-    "reports": [],
+    "platforms": [
+      "ios"
+    ],
+    "lastReport": {
+      "device": "iPad (A16)",
+      "platform": "ios",
+      "osVersion": "27.3",
+      "arch": "arm64",
+      "gpuBackend": "msl"
+    },
+    "updatedAt": "2026-11-28",
+    "issueNumber": 853,
+    "issueUrl": "https://github.com/xenios-jp/game-compatibility/issues/853",
+    "notes": "Playable at 20 to 30fps but crashes due to OOM",
+    "reports": [
+      {
+        "device": "iPad (A16)",
+        "platform": "ios",
+        "osVersion": "27.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "status": "ingame",
+        "perf": "ok",
+        "date": "2026-11-28",
+        "notes": "Playable at 20 to 30fps but crashes due to OOM",
+        "screenshots": [],
+        "source": "github",
+        "build": {
+          "appVersion": "2.33",
+          "buildNumber": "45"
+        }
+      }
+    ],
     "screenshots": [],
     "summaries": {
       "all": {
-        "status": "untested",
-        "perf": null,
-        "notes": "",
-        "updatedAt": null,
-        "reportCount": 0,
-        "latestReport": null,
-        "bestReport": null
+        "status": "ingame",
+        "perf": "ok",
+        "notes": "Playable at 20 to 30fps but crashes due to OOM",
+        "updatedAt": "2026-11-28",
+        "reportCount": 1,
+        "latestReport": {
+          "device": "iPad (A16)",
+          "platform": "ios",
+          "osVersion": "27.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "ok",
+          "date": "2026-11-28",
+          "notes": "Playable at 20 to 30fps but crashes due to OOM",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "appVersion": "2.33",
+            "buildNumber": "45"
+          }
+        },
+        "bestReport": {
+          "device": "iPad (A16)",
+          "platform": "ios",
+          "osVersion": "27.3",
+          "arch": "arm64",
+          "gpuBackend": "msl",
+          "status": "ingame",
+          "perf": "ok",
+          "date": "2026-11-28",
+          "notes": "Playable at 20 to 30fps but crashes due to OOM",
+          "screenshots": [],
+          "source": "github",
+          "build": {
+            "appVersion": "2.33",
+            "buildNumber": "45"
+          }
+        },
+        "device": "iPad (A16)",
+        "platform": "ios",
+        "osVersion": "27.3",
+        "arch": "arm64",
+        "gpuBackend": "msl",
+        "build": {
+          "appVersion": "2.33",
+          "buildNumber": "45"
+        }
       }
     }
   },
